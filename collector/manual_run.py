@@ -1,42 +1,72 @@
+"""One-page, credential-free source reconnaissance for a public domain queue."""
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
-import subprocess
-from datetime import datetime, timezone
+from pathlib import Path
 
 from collector.adapters.catalog import adapter_for
+from collector.adapters.shopify_new_vinyl import ShopifyNewVinylAdapter
+from collector.collection import collect
+from collector.contracts import CollectionBlocked, Limits
+from collector.transport import Transport
+
+
+def queue_digest(queue: list[str]) -> str:
+    return hashlib.sha256(json.dumps(queue, separators=(",", ":"), ensure_ascii=False).encode()).hexdigest()
+
+
+def load_queue(path: Path) -> list[str]:
+    queue = json.loads(path.read_text(encoding="utf-8"))
+    if (not isinstance(queue, list) or not queue
+            or any(not isinstance(d, str) or not d or d != d.strip().lower() for d in queue)
+            or len(queue) != len(set(queue))):
+        raise ValueError("queue must be a nonempty, normalized, unique string array")
+    return queue
+
+
+def run(queue: list[str], start_index: int, batch_limit: int, *, transport_factory=Transport) -> dict:
+    if not 0 <= start_index <= len(queue) or not 1 <= batch_limit <= 100:
+        raise ValueError("invalid start index or batch limit")
+    results = []
+    limits = Limits(max_pages=1, max_requests=1, max_products=20, max_runtime_seconds=30)
+    for domain in queue[start_index:start_index + batch_limit]:
+        adapter = adapter_for(domain)
+        if adapter is None:
+            results.append({"domain": domain, "status": "SOURCE_PROFILE_NEEDED", "reason": "no assigned adapter"})
+        elif not isinstance(adapter, ShopifyNewVinylAdapter):
+            # These platform scaffolds do not yet have proven shop-specific catalog routes.
+            results.append({"domain": domain, "status": "SOURCE_PROFILE_NEEDED", "reason": "catalog route unverified"})
+        else:
+            url = f"https://{domain}/products.json?limit=20&page=1"
+            try:
+                sample = collect(adapter, transport_factory(domain, limits), url, limits)
+                results.append({"domain": domain, "status": "LISTING_SAMPLE" if sample["listings"] else "SOURCE_REVIEW",
+                                "accepted": len(sample["listings"]), "excluded": len(sample["exclusions"]),
+                                "source_url": url, "pagination_complete": sample["pagination"]["complete"]})
+            except (CollectionBlocked, ValueError, OSError, TimeoutError) as exc:
+                # A failed shop does not stop the next one. Do not publish page bodies or credentials.
+                results.append({"domain": domain, "status": "SOURCE_BLOCKED", "reason": type(exc).__name__,
+                                "detail": str(exc)[:120] if isinstance(exc, CollectionBlocked) else "source response invalid"})
+    return {"schema_version": 1, "queue_sha256": queue_digest(queue), "start_index": start_index,
+            "batch_limit": batch_limit, "processed": len(results), "next_start_index": start_index + len(results),
+            "queue_size": len(queue), "results": results}
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Run a bounded public collector pilot manually.")
-    parser.add_argument("--queue", required=True, help="JSON file containing the public adapter queue")
-    parser.add_argument("--start-index", type=int, default=0)
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--queue", type=Path, required=True)
+    parser.add_argument("--start-index", type=int, required=True)
     parser.add_argument("--batch-limit", type=int, required=True)
+    parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
-    if not 1 <= args.batch_limit <= 100:
-        parser.error("batch-limit must be between 1 and 100")
-    queue = json.loads(open(args.queue, encoding="utf-8").read())
-    if not isinstance(queue, list) or any(not isinstance(domain, str) for domain in queue): parser.error("queue must be a JSON string array")
-    if args.start_index < 0: parser.error("start-index must be non-negative")
-    domains = [domain.strip().lower().removeprefix("www.") for domain in queue[args.start_index:] if domain.strip()]
-    results = []
-    for domain in domains[:args.batch_limit]:
-        adapter = adapter_for(domain)
-        if adapter is None:
-            results.append({"domain": domain, "status": "NO_ASSIGNED_ADAPTER"})
-            continue
-        url = f"https://{domain}/products.json?limit=20&page=1"
-        response = subprocess.run(["curl", "-L", "--max-time", "15", "--silent", "--show-error", url], capture_output=True, text=True, check=False)
-        if response.returncode or not response.stdout:
-            results.append({"domain": domain, "status": "TRANSPORT_BLOCKED", "code": response.returncode})
-            continue
-        try:
-            page = adapter.parse_listing(response.stdout, source_url=url, observed_at=datetime.now(timezone.utc).isoformat())
-            results.append({"domain": domain, "status": "LISTING_PILOT", "accepted": len(page.listings), "excluded": len(page.exclusions)})
-        except Exception as exc:
-            results.append({"domain": domain, "status": "CONTRACT_BLOCKED", "reason": type(exc).__name__})
-    print(json.dumps({"start_index": args.start_index, "batch_limit": args.batch_limit, "requested": len(domains), "processed": len(results), "next_start_index": args.start_index + len(results), "results": results}, ensure_ascii=False, indent=2))
+    try:
+        result = run(load_queue(args.queue), args.start_index, args.batch_limit)
+    except (ValueError, json.JSONDecodeError) as exc:
+        parser.error(str(exc))
+    args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Processed {result['processed']} of {result['queue_size']}; next index {result['next_start_index']}")
     return 0
 
 
