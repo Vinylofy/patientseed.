@@ -15,13 +15,16 @@ BRANCH = "collector-progress"
 FILE = "progress.json"
 
 
-def next_index(state: dict | None, queue: list[str]) -> int:
+def next_index(state: dict | None, queue: list[dict]) -> int:
     if state is None:
         return 0
-    if state.get("schema_version") != 1 or state.get("queue_sha256") != queue_digest(queue):
-        raise ValueError("public queue changed; cursor migration requires review")
+    prior_size = state.get("queue_size")
+    if (state.get("schema_version") != 1 or type(prior_size) is not int
+            or not 0 < prior_size <= len(queue)
+            or state.get("queue_sha256") != queue_digest(queue[:prior_size])):
+        raise ValueError("processed queue prefix changed; cursor migration requires review")
     index = state.get("next_start_index")
-    if type(index) is not int or not 0 <= index <= len(queue):
+    if type(index) is not int or not 0 <= index <= prior_size:
         raise ValueError("invalid saved cursor")
     return index
 
@@ -65,8 +68,8 @@ def publish(queue_path: Path, result_path: Path) -> None:
     if (result.get("schema_version") != 1 or result.get("queue_sha256") != queue_digest(queue)
             or result.get("start_index") != index or result.get("next_start_index") != index + result.get("processed", -1)
             or result.get("processed") != len(result.get("results", []))
-            or [item.get("domain") for item in result["results"]]
-               != queue[index:result["next_start_index"]]
+            or [(item.get("row"), item.get("domain")) for item in result["results"]]
+               != [(item["row"], item["domain"]) for item in queue[index:result["next_start_index"]]]
             or result.get("processed", 0) < 1):
         raise ValueError("run result does not advance the current queue")
     if state is None:
@@ -76,9 +79,13 @@ def publish(queue_path: Path, result_path: Path) -> None:
             if exc.code != 422:
                 raise
             raise ValueError("progress branch appeared concurrently; retry after review") from exc
+    history = list(state.get("history", [])) if state else []
+    history.extend({key: item[key] for key in ("row", "domain", "status", "reason", "accepted") if key in item}
+                   for item in result["results"])
     new_state = {"schema_version": 1, "queue_sha256": queue_digest(queue),
                  "next_start_index": result["next_start_index"], "queue_size": len(queue),
-                 "last_run_id": os.environ["GITHUB_RUN_ID"], "last_release_sha": os.environ["GITHUB_SHA"]}
+                 "last_run_id": os.environ["GITHUB_RUN_ID"], "last_release_sha": os.environ["GITHUB_SHA"],
+                 "history": history}
     payload = {"message": f"Advance public collector cursor to {new_state['next_start_index']}",
                "branch": BRANCH, "content": base64.b64encode((json.dumps(new_state, indent=2) + "\n").encode()).decode()}
     if content_sha is not None:
