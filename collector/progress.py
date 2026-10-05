@@ -139,6 +139,29 @@ def export(queue_path: Path, output: Path) -> None:
     output.write_text(json.dumps(state, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
+def publish_recheck(queue_path: Path, result_path: Path) -> None:
+    """Store detail rechecks without moving or rewriting the main queue history."""
+    queue = load_queue(queue_path)
+    result = json.loads(result_path.read_text(encoding="utf-8"))
+    state, content_sha = read_remote()
+    if state is None or result.get("schema_version") != 1 or result.get("complete") is not True:
+        raise ValueError("detail recheck requires an existing complete progress state")
+    next_index(state, queue)
+    rows = {item["row"] for item in queue}
+    if any(item.get("row") not in rows for item in result.get("results", [])):
+        raise ValueError("detail recheck contains a row outside the queue")
+    rechecks = list(state.get("rechecks", []))
+    rechecks.extend({"run_id": os.environ.get("GITHUB_RUN_ID", "recheck"), **item}
+                    for item in result.get("results", []))
+    new_state = {**state, "rechecks": rechecks,
+                 "last_recheck_run_id": os.environ.get("GITHUB_RUN_ID", "recheck")}
+    payload = {"message": "Record bounded detail-gate recheck results", "branch": BRANCH,
+               "content": base64.b64encode((json.dumps(pack_state(new_state), separators=(",", ":")) + "\n").encode()).decode(),
+               "sha": content_sha}
+    request("PUT", f"contents/{FILE}", payload)
+    print(f"Saved {len(result.get('results', []))} detail recheck results")
+
+
 def reset(queue_path: Path) -> None:
     """Explicitly restart the public queue; only called by a manual reset input."""
     queue = load_queue(queue_path)
@@ -164,7 +187,7 @@ def reset(queue_path: Path) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=("prepare", "publish", "export", "reset"))
+    parser.add_argument("command", choices=("prepare", "publish", "publish-recheck", "export", "reset"))
     parser.add_argument("--queue", type=Path, required=True)
     parser.add_argument("--file", type=Path)
     args = parser.parse_args()
@@ -176,6 +199,8 @@ def main() -> int:
         publish(args.queue, args.file)
     elif args.command == "export":
         export(args.queue, args.file)
+    elif args.command == "publish-recheck":
+        publish_recheck(args.queue, args.file)
     else:
         reset(args.queue)
     return 0

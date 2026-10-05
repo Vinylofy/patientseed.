@@ -21,6 +21,7 @@ def next_step(result: dict) -> str:
             "PLATFORM_IDENTIFIED": "catalogusroute vaststellen", "ROUTE_REVIEW": "catalogusroute beoordelen",
             "CATALOG_ROUTE_VERIFIED": "listingcontract of adapter valideren",
             "ADAPTER_TESTED": "detailproef en EAN controleren",
+            "DETAIL_GATE_BLOCKED": "detailroute of catalogus opnieuw beoordelen",
             "LISTING_SAMPLE": "detail/EAN en private QA beoordelen",
             "SCRAPER_BUILT_TESTED": "private QA en marktgate beoordelen"}.get(status, "status beoordelen")
     reason = result.get("reason")
@@ -33,7 +34,9 @@ def render(queue: list[dict], state: dict) -> str:
     if (not isinstance(history, list) or len(history) != cursor
             or [item.get("row") for item in history] != [item["row"] for item in queue[:cursor]]):
         raise ValueError("saved history does not match the reviewed queue prefix")
-    counts = Counter(item["status"] for item in history)
+    rechecks = {item["row"]: item for item in state.get("rechecks", [])}
+    displayed = [rechecks.get(item["row"], history[position]) for position, item in enumerate(queue[:cursor])]
+    counts = Counter(item["status"] for item in displayed)
     lines = ["# Centrale scraperstatus", "",
              f"Bronregels: {len(queue)}. Behandeld voor broncontrole: {cursor}. "
              f"Open voor broncontrole: {len(queue) - cursor}.", "",
@@ -45,7 +48,7 @@ def render(queue: list[dict], state: dict) -> str:
                   "| Queue | Batch | Excelrij | Winkel | Domein | Platform | Bronstatus | Listing | Detail/GTIN | Volgende stap |",
                   "|---:|---:|---:|---|---|---|---|---:|---|---|"])
     for position, item in enumerate(queue):
-        result = history[position] if position < cursor else {}
+        result = rechecks.get(item["row"], history[position]) if position < cursor else {}
         detail = (f"{result.get('detail_gtin_valid', 0)}/{result.get('detail_checked', 0)} geldig"
                   if "detail_checked" in result else "—")
         lines.append("| " + " | ".join(cell(value) for value in (
