@@ -24,7 +24,7 @@ concurrency:
 jobs:
   public-pilot:
     runs-on: ubuntu-24.04
-    timeout-minutes: 60
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
@@ -37,11 +37,17 @@ jobs:
           BATCH_LIMIT: ${{ inputs.batch_limit }}
         run: |
           if [[ ! "$BATCH_LIMIT" =~ ^[0-9]+$ ]]; then
-            echo "batch_limit must be a whole number from 1 through 100 (received: $BATCH_LIMIT)" >&2
+            echo "batch_limit must be a whole number greater than zero (received: $BATCH_LIMIT)" >&2
             exit 1
           fi
-          if (( BATCH_LIMIT < 1 || BATCH_LIMIT > 100 )); then
-            echo "batch_limit must be between 1 and 100 (received: $BATCH_LIMIT)" >&2
+          QUEUE_SIZE=$(python - <<'PY'
+          import json
+          from pathlib import Path
+          print(len(json.loads(Path("collector/public-queue.json").read_text(encoding="utf-8"))))
+          PY
+          )
+          if (( BATCH_LIMIT < 1 || BATCH_LIMIT > QUEUE_SIZE )); then
+            echo "batch_limit must be between 1 and $QUEUE_SIZE (received: $BATCH_LIMIT)" >&2
             exit 1
           fi
       - name: Reset durable public queue position

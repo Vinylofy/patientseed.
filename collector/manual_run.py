@@ -35,7 +35,7 @@ def load_queue(path: Path) -> list[dict]:
 
 def run(queue: list[dict], start_index: int, batch_limit: int, *, transport_factory=Transport,
         on_progress=None) -> dict:
-    if not 0 <= start_index <= len(queue) or not 1 <= batch_limit <= 100:
+    if not 0 <= start_index <= len(queue) or not 1 <= batch_limit <= len(queue):
         raise ValueError("invalid start index or batch limit")
     assert_credential_free_environment()
     results = []
