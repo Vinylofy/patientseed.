@@ -1,15 +1,14 @@
-"""One-page, credential-free source reconnaissance for a public domain queue."""
+"""Bounded, parallel source reconnaissance for a public shop queue."""
 from __future__ import annotations
 
 import argparse
 import hashlib
 import json
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-from collector.adapters.catalog import adapter_for
-from collector.adapters.shopify_new_vinyl import ShopifyNewVinylAdapter
-from collector.collection import collect
-from collector.contracts import CollectionBlocked, Limits
+from collector.contracts import assert_credential_free_environment
+from collector.recon import probe
 from collector.transport import Transport
 
 
@@ -34,37 +33,33 @@ def load_queue(path: Path) -> list[dict]:
     return queue
 
 
-def run(queue: list[dict], start_index: int, batch_limit: int, *, transport_factory=Transport) -> dict:
+def run(queue: list[dict], start_index: int, batch_limit: int, *, transport_factory=Transport,
+        on_progress=None) -> dict:
     if not 0 <= start_index <= len(queue) or not 1 <= batch_limit <= 100:
         raise ValueError("invalid start index or batch limit")
+    assert_credential_free_environment()
     results = []
-    limits = Limits(max_pages=1, max_requests=1, max_products=20, max_runtime_seconds=30)
-    for item in queue[start_index:start_index + batch_limit]:
-        domain = item["domain"]
-        identity = {"row": item["row"], "name": item["name"], "domain": domain}
-        if item["source_status"] != "READY":
-            results.append({**identity, "status": "SOURCE_REVIEW", "reason": item["source_status"]})
-            continue
-        adapter = adapter_for(domain)
-        if adapter is None:
-            results.append({**identity, "status": "SOURCE_PROFILE_NEEDED", "reason": "no assigned adapter"})
-        elif not isinstance(adapter, ShopifyNewVinylAdapter):
-            # These platform scaffolds do not yet have proven shop-specific catalog routes.
-            results.append({**identity, "status": "SOURCE_PROFILE_NEEDED", "reason": "catalog route unverified"})
-        else:
-            url = f"https://{domain}/products.json?limit=20&page=1"
-            try:
-                sample = collect(adapter, transport_factory(domain, limits), url, limits)
-                results.append({**identity, "status": "LISTING_SAMPLE" if sample["listings"] else "SOURCE_REVIEW",
-                                "accepted": len(sample["listings"]), "excluded": len(sample["exclusions"]),
-                                "source_url": url, "pagination_complete": sample["pagination"]["complete"]})
-            except (CollectionBlocked, ValueError, OSError, TimeoutError) as exc:
-                # A failed shop does not stop the next one. Do not publish page bodies or credentials.
-                results.append({**identity, "status": "SOURCE_BLOCKED", "reason": type(exc).__name__,
-                                "detail": str(exc)[:120] if isinstance(exc, CollectionBlocked) else "source response invalid"})
+    selected = queue[start_index:start_index + batch_limit]
+
+    def one(item: dict) -> dict:
+        try:
+            return probe(item, transport_factory)
+        except Exception as exc:  # One malformed source must not prevent the next shop.
+            return {"row": item["row"], "name": item["name"], "domain": item["domain"],
+                    "status": "SOURCE_REVIEW", "gate": "source", "reason": type(exc).__name__}
+
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        for result in pool.map(one, selected):
+            results.append(result)
+            if on_progress is not None:
+                on_progress(result, {"schema_version": 1, "queue_sha256": queue_digest(queue),
+                                     "start_index": start_index, "batch_limit": batch_limit,
+                                     "processed": len(results), "next_start_index": start_index + len(results),
+                                     "queue_size": len(queue), "complete": len(results) == len(selected),
+                                     "results": list(results)})
     return {"schema_version": 1, "queue_sha256": queue_digest(queue), "start_index": start_index,
             "batch_limit": batch_limit, "processed": len(results), "next_start_index": start_index + len(results),
-            "queue_size": len(queue), "results": results}
+            "queue_size": len(queue), "complete": True, "results": results}
 
 
 def main() -> int:
@@ -75,10 +70,17 @@ def main() -> int:
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     try:
-        result = run(load_queue(args.queue), args.start_index, args.batch_limit)
+        def checkpoint(item: dict, partial: dict) -> None:
+            temporary = args.output.with_suffix(args.output.suffix + ".tmp")
+            temporary.write_text(json.dumps(partial, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            temporary.replace(args.output)
+            print(f"Row {item['row']}: {item['status']}", flush=True)
+
+        result = run(load_queue(args.queue), args.start_index, args.batch_limit, on_progress=checkpoint)
     except (ValueError, json.JSONDecodeError) as exc:
         parser.error(str(exc))
-    args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if not args.output.exists():
+        args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Processed {result['processed']} of {result['queue_size']}; next index {result['next_start_index']}")
     return 0
 

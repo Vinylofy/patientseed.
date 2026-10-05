@@ -1,14 +1,19 @@
 from __future__ import annotations
 
+import base64
 import json
+import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
 
 from collector.adapters.shopify_new_vinyl import ShopifyNewVinylAdapter
+from collector.adapters.woocommerce_new_vinyl import WooCommerceNewVinylAdapter
 from collector.build_queue import source_domain
 from collector.manual_run import load_queue, queue_digest, run
-from collector.progress import next_index
+from collector.progress import next_index, pack_state, publish, unpack_state
+from collector.recon import platform_hint, valid_gtin
+from collector.status import render
 
 
 class FakeTransport:
@@ -19,12 +24,19 @@ class FakeTransport:
         self.calls.append(domain)
 
     def get(self, url):
-        if self.domain == "10000hzrecords.com":
+        self.calls.append(url)
+        if self.domain == "10000hzrecords.com" and url.endswith("/"):
             raise OSError("offline")
+        if self.domain == "14arecords.com":
+            return "<html>woocommerce</html>" if url.endswith("/") else json.dumps([{"id": 1, "name": "Album"}])
+        if url.endswith("/"):
+            return "<html><script src='https://cdn.shopify.com/shop.js'></script></html>"
+        if "/products/test-record" in url:
+            return '<script type="application/ld+json">{"@type":"Product","gtin12":"012345678905"}</script>'
         return json.dumps({"products": [{"handle": "test-record", "title": "Artist - New Vinyl",
                                          "product_type": "New Vinyl", "tags": [],
                                          "variants": [{"id": 1, "available": True, "price": "20.00",
-                                                       "barcode": "123456789012"}]}]})
+                                                       "barcode": "012345678905"}]}]})
 
 
 class ManualRunTests(unittest.TestCase):
@@ -38,11 +50,65 @@ class ManualRunTests(unittest.TestCase):
         with patch.dict("os.environ", {}, clear=True):
             result = run(queue, 0, 4, transport_factory=FakeTransport)
         self.assertEqual([r["status"] for r in result["results"]],
-                         ["LISTING_SAMPLE", "SOURCE_PROFILE_NEEDED", "SOURCE_BLOCKED", "SOURCE_REVIEW"])
-        self.assertEqual(FakeTransport.calls, ["1234gorecords.shop", "10000hzrecords.com"])
+                         ["LISTING_SAMPLE", "CATALOG_ROUTE_VERIFIED", "SOURCE_BLOCKED", "SOURCE_REVIEW"])
+        self.assertEqual({call for call in FakeTransport.calls if not call.startswith("https://")},
+                         {"1234gorecords.shop", "14arecords.com", "10000hzrecords.com"})
         self.assertFalse(result["results"][0]["pagination_complete"])
+        self.assertEqual(result["results"][0]["detail_checked"], 1)
+        self.assertEqual(result["results"][0]["detail_gtin_valid"], 1)
         self.assertEqual(result["next_start_index"], 4)
         self.assertEqual(result["results"][-1]["reason"], "SHARED_PLATFORM")
+
+    def test_gtin_checksum_fails_closed(self):
+        self.assertTrue(valid_gtin("012345678905"))
+        self.assertFalse(valid_gtin("012345678906"))
+        self.assertFalse(valid_gtin("123-456-789"))
+
+    def test_route_hints_do_not_claim_an_adapter(self):
+        self.assertEqual(platform_hint("<script src='https://static1.squarespace.com/x'>"), "squarespace")
+        self.assertEqual(platform_hint("<html>Records for sale</html>"), "unknown")
+
+    def test_woocommerce_requires_explicit_new_vinyl_and_currency(self):
+        adapter = WooCommerceNewVinylAdapter("example.com")
+        product = {"id": 7, "name": "Artist - Album", "permalink": "https://example.com/product/album",
+                   "is_in_stock": True, "prices": {"price": "1995", "currency_code": "USD",
+                                                  "currency_minor_unit": 2},
+                   "attributes": [{"name": "Condition", "terms": [{"name": "New"}]},
+                                  {"name": "Format", "terms": [{"name": "Vinyl"}]}]}
+        route = "https://example.com/wp-json/wc/store/v1/products?per_page=20&page=1"
+        page = adapter.parse_listing(json.dumps([product]), source_url=route, observed_at="2026-10-05T00:00:00Z")
+        self.assertEqual(page.listings[0]["price"], "19.95")
+        self.assertEqual(page.listings[0]["availability"], "in_stock")
+        without_condition = {**product, "attributes": product["attributes"][1:]}
+        rejected = adapter.parse_listing(json.dumps([without_condition]), source_url=route,
+                                         observed_at="2026-10-05T00:00:00Z")
+        self.assertEqual(rejected.listings, ())
+        detail = adapter.parse_detail(
+            '<script type="application/ld+json">{"@type":"Product","gtin12":"012345678905"}</script>',
+            source_url=product["permalink"], listing=page.listings[0])
+        self.assertEqual(detail["identifier_raw"], "012345678905")
+
+    def test_published_progress_renders_all_rows_with_open_work(self):
+        queue = [self.item(9, "1234gorecords.shop"), self.item(23, "14arecords.com")]
+        with patch.dict("os.environ", {}, clear=True):
+            result = run(queue, 0, 1, transport_factory=FakeTransport)
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            queue_file, result_file = root / "queue.json", root / "result.json"
+            queue_file.write_text(json.dumps(queue))
+            result_file.write_text(json.dumps(result))
+            with (patch("collector.progress.read_remote", return_value=(None, None)),
+                  patch("collector.progress.request") as send,
+                  patch.dict("os.environ", {"GITHUB_SHA": "a" * 40, "GITHUB_RUN_ID": "42"})):
+                publish(queue_file, result_file)
+            self.assertEqual(send.call_count, 2)
+            state = unpack_state(json.loads(base64.b64decode(send.call_args.args[2]["content"])))
+            self.assertEqual(state["next_start_index"], 1)
+            self.assertEqual(state["history"][0]["batch"], 1)
+            self.assertEqual(unpack_state(pack_state(state))["history"], state["history"])
+            document = render(queue, state)
+            self.assertIn("Behandeld voor broncontrole: 1", document)
+            self.assertIn("| 1 |  | 23 |", document)
 
     @staticmethod
     def item(row, domain, source_status="READY"):
