@@ -31,11 +31,17 @@ def read_file(path: str) -> tuple[str | None, str | None]:
         if exc.code == 404:
             return None, None
         raise
-    return base64.b64decode(obj["content"]).decode(), obj["sha"]
+    # The contents API may return generated cache/binary files already present
+    # on the branch. We only need the SHA to update them, so do not decode the
+    # payload as UTF-8 here.
+    return None, obj["sha"]
 
 
 def publish(root: Path) -> int:
-    files = sorted(path for path in root.rglob("*") if path.is_file())
+    files = sorted(
+        path for path in root.rglob("*")
+        if path.is_file() and "__pycache__" not in path.parts and path.suffix != ".pyc"
+    )
     if not files:
         print("No generated scraper files to publish")
         return 0
