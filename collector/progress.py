@@ -165,8 +165,10 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("command", choices=("prepare", "publish", "export", "reset"))
     parser.add_argument("--queue", type=Path, required=True)
-    parser.add_argument("--file", type=Path, required=True)
+    parser.add_argument("--file", type=Path)
     args = parser.parse_args()
+    if args.command != "reset" and args.file is None:
+        parser.error("--file is required for prepare, publish and export")
     if args.command == "prepare":
         prepare(args.queue, args.file)
     elif args.command == "publish":
