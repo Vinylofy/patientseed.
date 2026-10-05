@@ -138,9 +138,32 @@ def export(queue_path: Path, output: Path) -> None:
     output.write_text(json.dumps(state, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
+def reset(queue_path: Path) -> None:
+    """Explicitly restart the public queue; only called by a manual reset input."""
+    queue = load_queue(queue_path)
+    state, content_sha = read_remote()
+    if state is None:
+        try:
+            request("POST", "git/refs", {"ref": f"refs/heads/{BRANCH}", "sha": os.environ["GITHUB_SHA"]})
+        except HTTPError as exc:
+            if exc.code != 422:
+                raise
+            raise ValueError("progress branch appeared concurrently; retry reset") from exc
+    new_state = {"schema_version": 1, "queue_sha256": queue_digest(queue),
+                 "next_start_index": 0, "queue_size": len(queue), "batch_number": (state or {}).get("batch_number", 0),
+                 "history": [], "last_run_id": os.environ.get("GITHUB_RUN_ID", "reset"),
+                 "last_release_sha": os.environ.get("GITHUB_SHA", "")}
+    payload = {"message": "Reset public collector cursor to first shop row", "branch": BRANCH,
+               "content": base64.b64encode((json.dumps(pack_state(new_state), separators=(",", ":")) + "\n").encode()).decode()}
+    if content_sha is not None:
+        payload["sha"] = content_sha
+    request("PUT", f"contents/{FILE}", payload)
+    print(f"Reset public queue position: 0/{len(queue)}")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=("prepare", "publish", "export"))
+    parser.add_argument("command", choices=("prepare", "publish", "export", "reset"))
     parser.add_argument("--queue", type=Path, required=True)
     parser.add_argument("--file", type=Path, required=True)
     args = parser.parse_args()
@@ -148,8 +171,10 @@ def main() -> int:
         prepare(args.queue, args.file)
     elif args.command == "publish":
         publish(args.queue, args.file)
-    else:
+    elif args.command == "export":
         export(args.queue, args.file)
+    else:
+        reset(args.queue)
     return 0
 
 

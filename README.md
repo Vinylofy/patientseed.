@@ -24,6 +24,8 @@ durable central progress record. Each successful run also renders one full
 result is uploaded if a run fails; only a complete result advances the cursor.
 The first run starts at index 0. Future workbook additions may be appended;
 editing or reordering an existing queue prefix stops the cursor for review.
+Set `reset_cursor` to `true` only when you deliberately want to start again at
+the first Excel row. Leave it `false` for normal continuation.
 
 To regenerate the queue after reviewing a new workbook, install `openpyxl` in the
 development environment and run `python -m collector.build_queue --workbook
