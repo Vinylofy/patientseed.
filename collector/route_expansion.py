@@ -8,6 +8,8 @@ from pathlib import Path
 
 from collector.adapters.shopify_new_vinyl import ShopifyNewVinylAdapter
 from collector.adapters.woocommerce_new_vinyl import WooCommerceNewVinylAdapter
+from collector.adapters.squarespace_new_vinyl import SquarespaceNewVinylAdapter
+from collector.adapters.bigcommerce_new_vinyl import BigCommerceNewVinylAdapter
 from collector.contracts import CollectionBlocked, Limits, assert_credential_free_environment
 from collector.detail_recheck import recheck
 from collector.manual_run import load_queue, queue_digest
@@ -22,24 +24,39 @@ def route_candidates(domain: str, prior_platform: str | None) -> list[tuple[str,
     woocommerce = [
         ("woocommerce", f"https://{domain}/wp-json/wc/store/v1/products?per_page=20&page=1"),
     ]
+    squarespace = [
+        ("squarespace", f"https://{domain}/api/0.1/collections/products?format=json"),
+        ("squarespace", f"https://{domain}/api/0.1/collections/all/products?format=json"),
+    ]
+    bigcommerce = [
+        ("bigcommerce", f"https://{domain}/api/storefront/products?limit=20&offset=0"),
+        ("bigcommerce", f"https://{domain}/api/storefront/products?limit=20"),
+    ]
     if prior_platform == "shopify":
-        return shopify + woocommerce
+        return shopify + woocommerce + squarespace + bigcommerce
     if prior_platform == "woocommerce":
-        return woocommerce + shopify
-    return shopify + woocommerce
+        return woocommerce + shopify + squarespace + bigcommerce
+    if prior_platform == "squarespace":
+        return squarespace + shopify + woocommerce + bigcommerce
+    if prior_platform == "bigcommerce":
+        return bigcommerce + shopify + woocommerce + squarespace
+    return shopify + woocommerce + squarespace + bigcommerce
 
 
 def discover(item: dict, prior: dict, transport_factory=Transport) -> tuple[str, str] | None:
-    limits = Limits(max_pages=1, max_requests=6, max_products=20, timeout_seconds=10,
+    limits = Limits(max_pages=1, max_requests=8, max_products=20, timeout_seconds=10,
                     max_runtime_seconds=60, delay_seconds=0.5)
     transport = transport_factory(item["domain"], limits)
     for platform, route in route_candidates(item["domain"], prior.get("platform")):
         try:
             body = transport.get(route)
             payload = json.loads(body)
-            if platform == "shopify" and isinstance(payload, dict) and isinstance(payload.get("products"), list):
-                return platform, route
-            if platform == "woocommerce" and isinstance(payload, list) and all(isinstance(row, dict) for row in payload):
+            valid = ((platform == "shopify" and isinstance(payload, dict) and isinstance(payload.get("products"), list))
+                     or (platform == "woocommerce" and isinstance(payload, list) and all(isinstance(row, dict) for row in payload))
+                     or (platform in {"squarespace", "bigcommerce"} and
+                         ((isinstance(payload, list) and all(isinstance(row, dict) for row in payload)) or
+                          (isinstance(payload, dict) and isinstance(payload.get("products", payload.get("data")), list)))))
+            if valid:
                 return platform, route
         except (CollectionBlocked, OSError, TimeoutError, ValueError, TypeError):
             continue

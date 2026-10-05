@@ -7,7 +7,8 @@ import json
 import re
 from pathlib import Path
 
-ALLOWED_PLATFORMS = {"shopify": "ShopifyNewVinylAdapter", "woocommerce": "WooCommerceNewVinylAdapter"}
+ALLOWED_PLATFORMS = {"shopify": "ShopifyNewVinylAdapter", "woocommerce": "WooCommerceNewVinylAdapter",
+                    "squarespace": "SquarespaceNewVinylAdapter", "bigcommerce": "BigCommerceNewVinylAdapter"}
 
 
 def slug(domain: str) -> str:
@@ -19,7 +20,9 @@ def slug(domain: str) -> str:
 
 def source_module(platform: str) -> str:
     return {"shopify": "collector.adapters.shopify_new_vinyl",
-            "woocommerce": "collector.adapters.woocommerce_new_vinyl"}[platform]
+            "woocommerce": "collector.adapters.woocommerce_new_vinyl",
+            "squarespace": "collector.adapters.squarespace_new_vinyl",
+            "bigcommerce": "collector.adapters.bigcommerce_new_vinyl"}[platform]
 
 
 def class_name(name: str) -> str:

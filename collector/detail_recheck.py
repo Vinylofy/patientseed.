@@ -9,6 +9,8 @@ from urllib.parse import parse_qs, urlencode, urlsplit, urlunsplit
 
 from collector.adapters.shopify_new_vinyl import ShopifyNewVinylAdapter
 from collector.adapters.woocommerce_new_vinyl import WooCommerceNewVinylAdapter
+from collector.adapters.squarespace_new_vinyl import SquarespaceNewVinylAdapter
+from collector.adapters.bigcommerce_new_vinyl import BigCommerceNewVinylAdapter
 from collector.contracts import CollectionBlocked, Limits, assert_credential_free_environment
 from collector.manual_run import load_queue, queue_digest
 from collector.recon import valid_gtin
@@ -30,14 +32,15 @@ def recheck(item: dict, prior: dict, *, catalog_pages: int, detail_samples: int,
     identity = {"row": item["row"], "name": item["name"], "domain": item["domain"]}
     platform = prior.get("platform")
     route = prior.get("source_url")
-    if platform not in {"shopify", "woocommerce"} or not isinstance(route, str):
+    if platform not in {"shopify", "woocommerce", "squarespace", "bigcommerce"} or not isinstance(route, str):
         return {**identity, "status": "DETAIL_GATE_BLOCKED", "gate": "catalog_route",
                 "platform": platform, "reason": "supported public catalog route not proven"}
     assert_credential_free_environment()
     limits = Limits(max_pages=catalog_pages, max_requests=catalog_pages + detail_samples + 2,
                     max_products=20, timeout_seconds=10, max_runtime_seconds=120, delay_seconds=0.5)
     transport = transport_factory(item["domain"], limits)
-    adapter = ShopifyNewVinylAdapter(item["domain"]) if platform == "shopify" else WooCommerceNewVinylAdapter(item["domain"])
+    adapter = {"shopify": ShopifyNewVinylAdapter, "woocommerce": WooCommerceNewVinylAdapter,
+               "squarespace": SquarespaceNewVinylAdapter, "bigcommerce": BigCommerceNewVinylAdapter}[platform](item["domain"])
     listings, exclusions, products_seen = [], [], 0
     try:
         for number in range(1, catalog_pages + 1):
