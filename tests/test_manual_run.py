@@ -9,6 +9,7 @@ from unittest.mock import patch
 
 from collector.adapters.shopify_new_vinyl import ShopifyNewVinylAdapter
 from collector.adapters.woocommerce_new_vinyl import WooCommerceNewVinylAdapter
+from collector.build_scrapers import build
 from collector.build_queue import source_domain
 from collector.manual_run import load_queue, queue_digest, run
 from collector.progress import next_index, pack_state, publish, unpack_state
@@ -50,7 +51,7 @@ class ManualRunTests(unittest.TestCase):
         with patch.dict("os.environ", {}, clear=True):
             result = run(queue, 0, 4, transport_factory=FakeTransport)
         self.assertEqual([r["status"] for r in result["results"]],
-                         ["SCRAPER_BUILT_TESTED", "ADAPTER_TESTED", "SOURCE_BLOCKED", "SOURCE_REVIEW"])
+                         ["ADAPTER_TESTED", "ADAPTER_TESTED", "SOURCE_BLOCKED", "SOURCE_REVIEW"])
         self.assertEqual({call for call in FakeTransport.calls if not call.startswith("https://")},
                          {"1234gorecords.shop", "14arecords.com", "10000hzrecords.com"})
         self.assertFalse(result["results"][0]["pagination_complete"])
@@ -64,6 +65,21 @@ class ManualRunTests(unittest.TestCase):
         self.assertTrue(valid_gtin("012345678905"))
         self.assertFalse(valid_gtin("012345678906"))
         self.assertFalse(valid_gtin("123-456-789"))
+
+    def test_build_scrapers_writes_and_imports_per_shop_wrapper(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            result_file = root / "run.json"
+            result_file.write_text(json.dumps({"schema_version": 1, "complete": True, "results": [{
+                "row": 9, "name": "Shop", "domain": "1234gorecords.shop", "status": "ADAPTER_TESTED",
+                "platform": "shopify", "source_url": "https://1234gorecords.shop/products.json?limit=20&page=1",
+                "accepted": 18, "detail_checked": 2, "detail_gtin_valid": 0}]}))
+            built = build(result_file, root / "collector" / "generated")
+            self.assertEqual(len(built), 1)
+            self.assertEqual(built[0]["status"], "SCRAPER_BUILT_TESTED")
+            self.assertEqual(len(list((root / "collector" / "generated").glob("*.py"))), 1)
+            self.assertEqual(len(list((root / "collector" / "generated").glob("*.json"))), 1)
+            self.assertEqual(json.loads(result_file.read_text())["built_scrapers"], 1)
 
     def test_route_hints_do_not_claim_an_adapter(self):
         self.assertEqual(platform_hint("<script src='https://static1.squarespace.com/x'>"), "squarespace")

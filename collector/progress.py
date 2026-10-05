@@ -115,7 +115,8 @@ def publish(queue_path: Path, result_path: Path) -> None:
                                                 "adapter_status", "source_url",
                                                 "reason", "products_seen", "accepted", "excluded",
                                                 "listing_gtin_valid", "detail_checked", "detail_gtin_valid",
-                                                "detail_status", "detail_reason") if key in item}}
+                                                "detail_status", "detail_reason", "generated_files",
+                                                "build_test") if key in item}}
                    for item in result["results"])
     new_state = {"schema_version": 1, "queue_sha256": queue_digest(queue),
                  "next_start_index": result["next_start_index"], "queue_size": len(queue),

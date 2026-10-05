@@ -36,11 +36,12 @@ review the resulting diff when the workbook structure changes.
 
 For valid domains, the worker reads at most one homepage and one platform route.
 Shopify product feeds receive a one-page, 20-product maximum listing sample
-and up to two product-detail requests. When that generic adapter parses the
-route and the detail request completes, the row becomes `SCRAPER_BUILT_TESTED`:
-the adapter is built in this repository, tested against the shop and reusable
-for later shops with the same contract. A route that parses but has no confirmed
-new vinyl becomes `ADAPTER_TESTED` and stays open at the listing gate.
+and up to two product-detail requests. A successful detail probe first produces
+`ADAPTER_TESTED`; the Action then generates a shop-specific wrapper and JSON
+profile under `collector/generated/`, imports the wrapper as a self-test, and
+publishes both files to the durable `scraper-builds` branch. Only after that
+step does the row become `SCRAPER_BUILT_TESTED`. A route that parses but has no
+confirmed new vinyl becomes `ADAPTER_TESTED` and stays open at the listing gate.
 WooCommerce Store API routes are checked for a product array and, when explicit
 new/vinyl/price/stock fields are present, use the same adapter-and-detail path.
 Squarespace and BigCommerce are fingerprinted, with catalog-route work left

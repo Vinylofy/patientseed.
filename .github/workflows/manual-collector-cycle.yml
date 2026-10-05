@@ -51,6 +51,19 @@ jobs:
         env:
           BATCH_LIMIT: ${{ inputs.batch_limit }}
         run: python -m collector.manual_run --queue collector/public-queue.json --start-index "$(cat collector-start-index.txt)" --batch-limit "$BATCH_LIMIT" --output collector-run.json
+      - name: Build and self-test scraper wrappers
+        run: python -m collector.build_scrapers --result collector-run.json --output collector/generated
+      - name: Publish generated scrapers
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python -m collector.publish_generated --root collector/generated
+      - name: Upload generated scraper files
+        uses: actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08 # v4
+        with:
+          name: generated-scrapers-${{ github.run_id }}
+          path: collector/generated
+          if-no-files-found: warn
+          retention-days: 30
       - name: Upload read-only run result
         if: always()
         uses: actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08 # v4

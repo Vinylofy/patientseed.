@@ -77,9 +77,11 @@ def sample_listing(identity: dict, adapter, body: str, route: str, platform: str
     result["detail_checked"] = checked
     result["detail_gtin_valid"] = valid
     result.setdefault("detail_status", "SAMPLED")
+    # The wrapper is generated only by build_scrapers after this result is
+    # persisted; reconnaissance itself never claims a durable scraper build.
     if checked:
-        result["status"] = "SCRAPER_BUILT_TESTED"
-        result["gate"] = "qa"
+        result["status"] = "ADAPTER_TESTED"
+        result["gate"] = "build"
     return result
 
 
