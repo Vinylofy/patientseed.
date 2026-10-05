@@ -20,7 +20,9 @@ def next_step(result: dict) -> str:
             "SOURCE_BLOCKED": "toegang gericht hercontroleren", "PLATFORM_REVIEW": "platform en route onderzoeken",
             "PLATFORM_IDENTIFIED": "catalogusroute vaststellen", "ROUTE_REVIEW": "catalogusroute beoordelen",
             "CATALOG_ROUTE_VERIFIED": "listingcontract of adapter valideren",
-            "LISTING_SAMPLE": "detail/EAN en private QA beoordelen"}.get(status, "status beoordelen")
+            "ADAPTER_TESTED": "detailproef en EAN controleren",
+            "LISTING_SAMPLE": "detail/EAN en private QA beoordelen",
+            "SCRAPER_BUILT_TESTED": "private QA en marktgate beoordelen"}.get(status, "status beoordelen")
     reason = result.get("reason")
     return f"{step}: {reason}" if reason else step
 

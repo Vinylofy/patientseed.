@@ -50,12 +50,13 @@ class ManualRunTests(unittest.TestCase):
         with patch.dict("os.environ", {}, clear=True):
             result = run(queue, 0, 4, transport_factory=FakeTransport)
         self.assertEqual([r["status"] for r in result["results"]],
-                         ["LISTING_SAMPLE", "CATALOG_ROUTE_VERIFIED", "SOURCE_BLOCKED", "SOURCE_REVIEW"])
+                         ["SCRAPER_BUILT_TESTED", "ADAPTER_TESTED", "SOURCE_BLOCKED", "SOURCE_REVIEW"])
         self.assertEqual({call for call in FakeTransport.calls if not call.startswith("https://")},
                          {"1234gorecords.shop", "14arecords.com", "10000hzrecords.com"})
         self.assertFalse(result["results"][0]["pagination_complete"])
         self.assertEqual(result["results"][0]["detail_checked"], 1)
         self.assertEqual(result["results"][0]["detail_gtin_valid"], 1)
+        self.assertEqual(result["results"][0]["adapter_status"], "REUSED_AND_TESTED")
         self.assertEqual(result["next_start_index"], 4)
         self.assertEqual(result["results"][-1]["reason"], "SHARED_PLATFORM")
 

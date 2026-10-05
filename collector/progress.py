@@ -111,7 +111,8 @@ def publish(queue_path: Path, result_path: Path) -> None:
     history = list(state.get("history", [])) if state else []
     batch_number = (state.get("batch_number", 0) if state else 0) + 1
     history.extend({"batch": batch_number, "run_id": os.environ["GITHUB_RUN_ID"],
-                    **{key: item[key] for key in ("row", "domain", "status", "gate", "platform", "source_url",
+                    **{key: item[key] for key in ("row", "domain", "status", "gate", "platform", "adapter_class",
+                                                "adapter_status", "source_url",
                                                 "reason", "products_seen", "accepted", "excluded",
                                                 "listing_gtin_valid", "detail_checked", "detail_gtin_valid",
                                                 "detail_status", "detail_reason") if key in item}}

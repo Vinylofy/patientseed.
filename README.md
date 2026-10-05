@@ -34,16 +34,20 @@ review the resulting diff when the workbook structure changes.
 
 For valid domains, the worker reads at most one homepage and one platform route.
 Shopify product feeds receive a one-page, 20-product maximum listing sample
-and up to two product-detail requests. WooCommerce Store API routes are checked
-for a product array; their condition and currency contract still needs separate
-validation. Squarespace and BigCommerce are fingerprinted, with catalog-route
-work left open. Unknown sites get one bounded Shopify-feed probe, then remain
-open for platform research when its contract is absent. Missing URLs, shared
-platforms and repeated domains are marked `SOURCE_REVIEW`. A
-`LISTING_SAMPLE` proves only the bounded listing observation; it does not prove
-detail/EAN coverage, a complete catalog, market prices, or a production-ready
-scraper. GTIN counts use checksum checks on tiny samples and are not private
-acceptance. The Action does not generate custom adapter code or import into Vinylofy.
+and up to two product-detail requests. When that generic adapter parses the
+route and the detail request completes, the row becomes `SCRAPER_BUILT_TESTED`:
+the adapter is built in this repository, tested against the shop and reusable
+for later shops with the same contract. A route that parses but has no confirmed
+new vinyl becomes `ADAPTER_TESTED` and stays open at the listing gate.
+WooCommerce Store API routes are checked for a product array and, when explicit
+new/vinyl/price/stock fields are present, use the same adapter-and-detail path.
+Squarespace and BigCommerce are fingerprinted, with catalog-route work left
+open. Unknown sites get one bounded Shopify-feed probe, then remain open for
+platform research when its contract is absent. Missing URLs, shared platforms
+and repeated domains are marked `SOURCE_REVIEW`. A built scraper is still not
+market-approved or production-ready: GTIN counts use checksum checks on tiny
+samples and private QA, market pricing and imports remain separate gates. The
+Action does not generate custom shop code or import into Vinylofy.
 There is no schedule, private runner, database endpoint, model credential or
 production import.
 

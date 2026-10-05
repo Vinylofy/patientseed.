@@ -48,8 +48,9 @@ def sample_listing(identity: dict, adapter, body: str, route: str, platform: str
         return {**identity, "status": "CATALOG_ROUTE_VERIFIED", "gate": "listing", "platform": platform,
                 "source_url": route, "products_seen": products_seen,
                 "reason": "listing contract needs review", "error_type": type(exc).__name__}
-    result = {**identity, "status": "LISTING_SAMPLE" if accepted else "CATALOG_ROUTE_VERIFIED",
+    result = {**identity, "status": "ADAPTER_TESTED",
               "gate": "detail" if accepted else "listing", "platform": platform, "source_url": route,
+              "adapter_class": type(adapter).__name__, "adapter_status": "REUSED_AND_TESTED",
               "products_seen": products_seen, "accepted": len(accepted),
               "excluded": len(page.exclusions), "pagination_complete": False,
               "listing_gtin_valid": sum(valid_gtin(row.get("identifier_raw")) for row in accepted)}
@@ -76,6 +77,9 @@ def sample_listing(identity: dict, adapter, body: str, route: str, platform: str
     result["detail_checked"] = checked
     result["detail_gtin_valid"] = valid
     result.setdefault("detail_status", "SAMPLED")
+    if checked:
+        result["status"] = "SCRAPER_BUILT_TESTED"
+        result["gate"] = "qa"
     return result
 
 
