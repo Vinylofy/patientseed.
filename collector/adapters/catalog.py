@@ -5,9 +5,11 @@ from collector.adapters.bigcommerce_new_vinyl import BigCommerceNewVinylAdapter
 from collector.adapters.shopify_new_vinyl import ShopifyNewVinylAdapter
 from collector.adapters.squarespace_new_vinyl import SquarespaceNewVinylAdapter
 from collector.adapters.woocommerce_new_vinyl import WooCommerceNewVinylAdapter
+from collector.adapters.rockinoutrecords import RockinOutRecordsAdapter
 
 
 SHOP_ADAPTERS = {
+    "rockinoutrecords.nl": RockinOutRecordsAdapter,
     "1234gorecords.shop": ShopifyNewVinylAdapter,
     "10000hzrecords.com": ShopifyNewVinylAdapter,
     "606records.com": ShopifyNewVinylAdapter,

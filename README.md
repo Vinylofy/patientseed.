@@ -15,7 +15,7 @@ python -m unittest discover -s tests -v
 ```
 
 The `Manual bounded collector cycle` Action starts only through `workflow_dispatch`.
-Enter a batch limit from 1 to 100; the Action reads its next position from
+Enter a positive batch limit up to the remaining queue; the Action reads its next position from
 `collector-progress/progress.json`, processes at most that many shop rows with
 four domain workers, uploads `collector-run.json`, and advances the cursor after
 artifact upload. Its `collector-progress` branch keeps per-row evidence as the
@@ -44,6 +44,9 @@ step does the row become `SCRAPER_BUILT_TESTED`. A route that parses but has no
 confirmed new vinyl becomes `ADAPTER_TESTED` and stays open at the listing gate.
 WooCommerce Store API routes are checked for a product array and, when explicit
 new/vinyl/price/stock fields are present, use the same adapter-and-detail path.
+The Rockin' Out Records pilot is an explicit HTML-category adapter: it follows
+the category `rel=next` pagination, keeps listing EAN empty, and reads EAN/GTIN
+only from product-detail JSON-LD.
 Squarespace and BigCommerce are fingerprinted, with catalog-route work left
 open. Unknown sites get one bounded Shopify-feed probe, then remain open for
 platform research when its contract is absent. Missing URLs, shared platforms
