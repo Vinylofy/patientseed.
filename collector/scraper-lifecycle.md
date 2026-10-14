@@ -163,7 +163,6 @@ Maximale bouwpogingen: 3
 | bestbrotherrecords.com | 268 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | bestinmusic.net | 269 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | thebestusedbooks.com | 270 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
-| m.facebook.com | 271 | 5 | FROZEN | — | — | — | SHARED_PLATFORM |
 | better-records.com | 272 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['better_records_com.py', 'better_records_com.json'] |
 | beverley-st-collectibles.square.site | 273 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | beverlyphonomart.com | 275 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -227,7 +226,6 @@ Maximale bouwpogingen: 3
 | bookmans.com | 365 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | bookoffusa.com | 366 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | booksnmoretx.com | 368 | 1 | SOURCE_BLOCKED | — | — | — | RemoteDisconnected |
-| discogs.com | 369 | 4 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
 | bopshop.com | 372 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | bornlaterecords.com | 374 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | bororecords.com | 375 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['bororecords_com.py', 'bororecords_com.json'] |
@@ -287,13 +285,74 @@ Maximale bouwpogingen: 3
 | capagency.org | 451 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | capeabilitiesthrift.org | 452 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | capitalcityantiquemall.com | 453 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| facebook.com | 454 | 43 | FROZEN | — | — | — | SHARED_PLATFORM |
 | capitalmusiccompany.com | 455 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | capitolinerecords.com | 456 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | spotattheave.com | 458 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | capturedrecordshop.com | 459 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | carolinasoul.com | 462 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | carpediem212.com | 464 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cash4chaos.com | 467 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| cashmererecords.com | 468 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cathead.biz | 470 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| catacomb-records.com | 471 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| caydencemn.com | 474 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cbugsrecords.com | 475 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cd-cafe.com | 476 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_503 |
+| cdcellarva.com | 479 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cdxholland.com | 481 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| cdexchangemusic.com | 482 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| cdexchange-sa.com | 483 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hifiloungeaudio.com | 484 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cdsam210.square.site | 489 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cdtradertarzana.com | 490 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| thecdwarehouse.com | 495 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discogs.com | 497 | 5 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
+| celebratedsummerecords.blogspot.com | 501 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| centervillepickersmarket.antiquetrail.com | 502 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| centralcoastmusic.com | 503 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| centralsquarerecords.com | 504 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| chainreactionrecords.com | 508 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| chamber43.com | 509 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| chapter2bookstore.com | 512 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| charterbookstore.com | 514 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| chasquisgroup.com | 515 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cheapkissrecords.com | 516 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cheapthrills.biz | 517 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cheapthrillsrecords.com | 518 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cheaporecords.com | 519 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| cheapodiscs.com | 520 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| checkerrecords.com | 522 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| shopcherries.com | 524 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| chiefrecordsonline.com | 527 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['chiefrecordsonline_com.py', 'chiefrecordsonline_com.json'] |
+| facebook.com | 529 | 48 | FROZEN | — | — | — | SHARED_PLATFORM |
+| m.facebook.com | 530 | 6 | FROZEN | — | — | — | SHARED_PLATFORM |
+| cirecords.com | 531 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cirecordsandskates.com | 532 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| circanowrecords.com | 533 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| circlegamerecordsdetroit.biz | 534 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| pdxcitynoise.myshopify.com | 535 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| cityparkgamingandbrewroom.com | 536 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cityrecordscolfax.com | 537 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| citysquarebam.com | 538 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| clariziomusic.com | 539 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| myclassicaudio.com | 541 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| classicalmusicofspring.com | 543 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| studioonerecords.com | 546 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['studioonerecords_com.py', 'studioonerecords_com.json'] |
+| clintonstreetrecordandstereo.com | 547 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| clocktowerlps.com | 549 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| clocktowerrecords.net | 550 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| clockworkrecordsny.com | 551 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| closetcollectiblescrete.com | 552 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cluttsco.com | 553 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| cnamusicsupply.com | 554 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['cnamusicsupply_com.py', 'cnamusicsupply_com.json'] |
+| coastalmonogramcompany.com | 557 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| shopcollectco.com | 560 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| collectingproblems.com | 561 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| linktr.ee | 562 | 1 | SOURCE_REVIEW | — | — | — | SHARED_PLATFORM |
+| collectorsconnectionduluth.com | 563 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| eisenhowerhealth.org | 564 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| collectorscrossroads.com | 565 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| indycollectorsemporium.com | 566 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | shopsouthcountycenter.com | 3007 | 1 | PLATFORM_REVIEW | — | — | — | Shopify feed contract unproven |
 | valshallarecords.com | 3008 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | valpovintage.com | 3011 | 1 | PLATFORM_REVIEW | — | — | — | HTTP_400 |
