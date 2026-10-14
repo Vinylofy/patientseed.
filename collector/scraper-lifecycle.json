@@ -126,10 +126,10 @@
         {
           "platform": "shopify",
           "route": "https://1234gorecords.shop/collections/all/products.json?limit=20&page=1",
-          "score": 85,
-          "products_seen": 25,
-          "accepted": 8,
-          "excluded": 17,
+          "score": 195,
+          "products_seen": 30,
+          "accepted": 19,
+          "excluded": 11,
           "status": "ADAPTER_PARSED"
         },
         {
@@ -187,7 +187,7 @@
         "1234gorecords_shop.py",
         "1234gorecords_shop.json"
       ],
-      "last_attempt_at": "2026-10-14T06:02:39+00:00"
+      "last_attempt_at": "2026-10-14T06:07:50+00:00"
     },
     "10000hzrecords.com": {
       "row": 20,
@@ -278,7 +278,7 @@
         "10000hzrecords_com.py",
         "10000hzrecords_com.json"
       ],
-      "last_attempt_at": "2026-10-14T06:02:39+00:00"
+      "last_attempt_at": "2026-10-14T06:07:50+00:00"
     },
     "606records.com": {
       "row": 42,
@@ -291,18 +291,18 @@
       "adapter_class": "ShopifyNewVinylAdapter",
       "adapter_status": "REUSED_AND_TESTED",
       "products_seen": 22,
-      "accepted": 14,
-      "excluded": 8,
+      "accepted": 20,
+      "excluded": 1,
       "pagination_complete": false,
       "listing_gtin_valid": 0,
       "method_candidates": [
         {
           "platform": "shopify",
           "route": "https://606records.com/products.json?limit=20&page=1",
-          "score": 145,
+          "score": 215,
           "products_seen": 22,
-          "accepted": 14,
-          "excluded": 8,
+          "accepted": 21,
+          "excluded": 1,
           "status": "ADAPTER_PARSED"
         },
         {
@@ -353,7 +353,7 @@
       "selected_method": {
         "platform": "shopify",
         "route": "https://606records.com/products.json?limit=20&page=1",
-        "score": 145,
+        "score": 215,
         "selection": "highest_bounded_adapter_score"
       },
       "detail_checked": 2,
@@ -369,40 +369,40 @@
         "606records_com.py",
         "606records_com.json"
       ],
-      "last_attempt_at": "2026-10-14T06:02:39+00:00"
+      "last_attempt_at": "2026-10-14T06:07:50+00:00"
     },
     "alldayrecords.com": {
       "row": 92,
       "name": "All Day Records; All Day Records Pittsboro",
       "domain": "alldayrecords.com",
-      "status": "ADAPTER_TESTED",
-      "gate": "listing",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
       "platform": "shopify",
-      "source_url": "https://alldayrecords.com/products.json?limit=20&page=1",
+      "source_url": "https://alldayrecords.com/collections/all/products.json?limit=20&page=1",
       "adapter_class": "ShopifyNewVinylAdapter",
       "adapter_status": "REUSED_AND_TESTED",
       "products_seen": 20,
-      "accepted": 0,
-      "excluded": 20,
+      "accepted": 19,
+      "excluded": 1,
       "pagination_complete": false,
       "listing_gtin_valid": 0,
       "method_candidates": [
         {
           "platform": "shopify",
           "route": "https://alldayrecords.com/products.json?limit=20&page=1",
-          "score": 0,
+          "score": 185,
           "products_seen": 20,
-          "accepted": 0,
-          "excluded": 20,
+          "accepted": 18,
+          "excluded": 2,
           "status": "ADAPTER_PARSED"
         },
         {
           "platform": "shopify",
           "route": "https://alldayrecords.com/collections/all/products.json?limit=20&page=1",
-          "score": 0,
+          "score": 195,
           "products_seen": 20,
-          "accepted": 0,
-          "excluded": 20,
+          "accepted": 19,
+          "excluded": 1,
           "status": "ADAPTER_PARSED"
         },
         {
@@ -443,47 +443,58 @@
       ],
       "selected_method": {
         "platform": "shopify",
-        "route": "https://alldayrecords.com/products.json?limit=20&page=1",
-        "score": 0,
+        "route": "https://alldayrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 195,
         "selection": "highest_bounded_adapter_score"
       },
       "reason": "no confirmed new vinyl on bounded page",
-      "attempts": 1,
-      "evidence": "no confirmed new vinyl on bounded page",
-      "last_attempt_at": "2026-10-14T06:02:39+00:00"
+      "attempts": 2,
+      "evidence": [
+        "alldayrecords_com.py",
+        "alldayrecords_com.json"
+      ],
+      "last_attempt_at": "2026-10-14T06:07:50+00:00",
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "alldayrecords_com.py",
+        "alldayrecords_com.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed"
     },
     "allthebestflorence.com": {
       "row": 95,
       "name": "All The Best",
       "domain": "allthebestflorence.com",
-      "status": "ADAPTER_TESTED",
-      "gate": "listing",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
       "platform": "shopify",
       "source_url": "https://allthebestflorence.com/products.json?limit=20&page=1",
       "adapter_class": "ShopifyNewVinylAdapter",
       "adapter_status": "REUSED_AND_TESTED",
-      "products_seen": 20,
-      "accepted": 0,
-      "excluded": 20,
+      "products_seen": 21,
+      "accepted": 20,
+      "excluded": 1,
       "pagination_complete": false,
       "listing_gtin_valid": 0,
       "method_candidates": [
         {
           "platform": "shopify",
           "route": "https://allthebestflorence.com/products.json?limit=20&page=1",
-          "score": 0,
-          "products_seen": 20,
-          "accepted": 0,
-          "excluded": 20,
+          "score": 205,
+          "products_seen": 21,
+          "accepted": 20,
+          "excluded": 1,
           "status": "ADAPTER_PARSED"
         },
         {
           "platform": "shopify",
           "route": "https://allthebestflorence.com/collections/all/products.json?limit=20&page=1",
-          "score": 0,
+          "score": 115,
           "products_seen": 20,
-          "accepted": 0,
-          "excluded": 20,
+          "accepted": 11,
+          "excluded": 9,
           "status": "ADAPTER_PARSED"
         },
         {
@@ -525,46 +536,57 @@
       "selected_method": {
         "platform": "shopify",
         "route": "https://allthebestflorence.com/products.json?limit=20&page=1",
-        "score": 0,
+        "score": 205,
         "selection": "highest_bounded_adapter_score"
       },
       "reason": "no confirmed new vinyl on bounded page",
-      "attempts": 1,
-      "evidence": "no confirmed new vinyl on bounded page",
-      "last_attempt_at": "2026-10-14T06:02:39+00:00"
+      "attempts": 2,
+      "evidence": [
+        "allthebestflorence_com.py",
+        "allthebestflorence_com.json"
+      ],
+      "last_attempt_at": "2026-10-14T06:07:50+00:00",
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "allthebestflorence_com.py",
+        "allthebestflorence_com.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed"
     },
     "antonesrecordshop.com": {
       "row": 150,
       "name": "Antone's Record Shop",
       "domain": "antonesrecordshop.com",
-      "status": "ADAPTER_TESTED",
-      "gate": "listing",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
       "platform": "shopify",
       "source_url": "https://antonesrecordshop.com/products.json?limit=20&page=1",
       "adapter_class": "ShopifyNewVinylAdapter",
       "adapter_status": "REUSED_AND_TESTED",
       "products_seen": 20,
-      "accepted": 0,
-      "excluded": 20,
+      "accepted": 8,
+      "excluded": 12,
       "pagination_complete": false,
       "listing_gtin_valid": 0,
       "method_candidates": [
         {
           "platform": "shopify",
           "route": "https://antonesrecordshop.com/products.json?limit=20&page=1",
-          "score": 0,
+          "score": 85,
           "products_seen": 20,
-          "accepted": 0,
-          "excluded": 20,
+          "accepted": 8,
+          "excluded": 12,
           "status": "ADAPTER_PARSED"
         },
         {
           "platform": "shopify",
           "route": "https://antonesrecordshop.com/collections/all/products.json?limit=20&page=1",
-          "score": 0,
+          "score": 25,
           "products_seen": 20,
-          "accepted": 0,
-          "excluded": 20,
+          "accepted": 2,
+          "excluded": 18,
           "status": "ADAPTER_PARSED"
         },
         {
@@ -606,27 +628,38 @@
       "selected_method": {
         "platform": "shopify",
         "route": "https://antonesrecordshop.com/products.json?limit=20&page=1",
-        "score": 0,
+        "score": 85,
         "selection": "highest_bounded_adapter_score"
       },
       "reason": "no confirmed new vinyl on bounded page",
-      "attempts": 1,
-      "evidence": "no confirmed new vinyl on bounded page",
-      "last_attempt_at": "2026-10-14T06:02:39+00:00"
+      "attempts": 2,
+      "evidence": [
+        "antonesrecordshop_com.py",
+        "antonesrecordshop_com.json"
+      ],
+      "last_attempt_at": "2026-10-14T06:07:50+00:00",
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "antonesrecordshop_com.py",
+        "antonesrecordshop_com.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed"
     },
     "apolloexos.com": {
       "row": 151,
       "name": "Apollo Exos Records & Beer",
       "domain": "apolloexos.com",
-      "status": "ADAPTER_TESTED",
-      "gate": "listing",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
       "platform": "shopify",
-      "source_url": "https://apolloexos.com/products.json?limit=20&page=1",
+      "source_url": "https://apolloexos.com/collections/all/products.json?limit=20&page=1",
       "adapter_class": "ShopifyNewVinylAdapter",
       "adapter_status": "REUSED_AND_TESTED",
       "products_seen": 20,
-      "accepted": 0,
-      "excluded": 20,
+      "accepted": 1,
+      "excluded": 19,
       "pagination_complete": false,
       "listing_gtin_valid": 0,
       "method_candidates": [
@@ -642,10 +675,10 @@
         {
           "platform": "shopify",
           "route": "https://apolloexos.com/collections/all/products.json?limit=20&page=1",
-          "score": 0,
+          "score": 15,
           "products_seen": 20,
-          "accepted": 0,
-          "excluded": 20,
+          "accepted": 1,
+          "excluded": 19,
           "status": "ADAPTER_PARSED"
         },
         {
@@ -686,47 +719,58 @@
       ],
       "selected_method": {
         "platform": "shopify",
-        "route": "https://apolloexos.com/products.json?limit=20&page=1",
-        "score": 0,
+        "route": "https://apolloexos.com/collections/all/products.json?limit=20&page=1",
+        "score": 15,
         "selection": "highest_bounded_adapter_score"
       },
       "reason": "no confirmed new vinyl on bounded page",
-      "attempts": 1,
-      "evidence": "no confirmed new vinyl on bounded page",
-      "last_attempt_at": "2026-10-14T06:02:39+00:00"
+      "attempts": 2,
+      "evidence": [
+        "apolloexos_com.py",
+        "apolloexos_com.json"
+      ],
+      "last_attempt_at": "2026-10-14T06:07:50+00:00",
+      "detail_checked": 1,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "apolloexos_com.py",
+        "apolloexos_com.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed"
     },
     "abrodosmusic.com": {
       "row": 61,
       "name": "Abrodos Music",
       "domain": "abrodosmusic.com",
-      "status": "ADAPTER_TESTED",
-      "gate": "listing",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
       "platform": "shopify",
-      "source_url": "https://abrodosmusic.com/products.json?limit=20&page=1",
+      "source_url": "https://abrodosmusic.com/collections/all/products.json?limit=20&page=1",
       "adapter_class": "ShopifyNewVinylAdapter",
       "adapter_status": "REUSED_AND_TESTED",
       "products_seen": 20,
-      "accepted": 0,
-      "excluded": 20,
+      "accepted": 10,
+      "excluded": 10,
       "pagination_complete": false,
       "listing_gtin_valid": 0,
       "method_candidates": [
         {
           "platform": "shopify",
           "route": "https://abrodosmusic.com/products.json?limit=20&page=1",
-          "score": 0,
+          "score": 15,
           "products_seen": 20,
-          "accepted": 0,
-          "excluded": 20,
+          "accepted": 1,
+          "excluded": 19,
           "status": "ADAPTER_PARSED"
         },
         {
           "platform": "shopify",
           "route": "https://abrodosmusic.com/collections/all/products.json?limit=20&page=1",
-          "score": 0,
+          "score": 105,
           "products_seen": 20,
-          "accepted": 0,
-          "excluded": 20,
+          "accepted": 10,
+          "excluded": 10,
           "status": "ADAPTER_PARSED"
         },
         {
@@ -767,14 +811,25 @@
       ],
       "selected_method": {
         "platform": "shopify",
-        "route": "https://abrodosmusic.com/products.json?limit=20&page=1",
-        "score": 0,
+        "route": "https://abrodosmusic.com/collections/all/products.json?limit=20&page=1",
+        "score": 105,
         "selection": "highest_bounded_adapter_score"
       },
       "reason": "no confirmed new vinyl on bounded page",
-      "attempts": 1,
-      "evidence": "no confirmed new vinyl on bounded page",
-      "last_attempt_at": "2026-10-14T06:02:39+00:00"
+      "attempts": 2,
+      "evidence": [
+        "abrodosmusic_com.py",
+        "abrodosmusic_com.json"
+      ],
+      "last_attempt_at": "2026-10-14T06:07:50+00:00",
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "abrodosmusic_com.py",
+        "abrodosmusic_com.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed"
     },
     "afkbooksandrecords.com": {
       "row": 77,
@@ -853,9 +908,9 @@
         "selection": "highest_bounded_adapter_score"
       },
       "reason": "no confirmed new vinyl on bounded page",
-      "attempts": 1,
+      "attempts": 2,
       "evidence": "no confirmed new vinyl on bounded page",
-      "last_attempt_at": "2026-10-14T06:02:39+00:00"
+      "last_attempt_at": "2026-10-14T06:07:50+00:00"
     },
     "alliedrecordexchange.com": {
       "row": 101,
@@ -885,7 +940,7 @@
           "route": "https://alliedrecordexchange.com/wp-json/wc/store/v1/products?per_page=20&page=1",
           "score": 0,
           "status": "ROUTE_REJECTED",
-          "reason": "HTTP_404"
+          "reason": "HTTP_429"
         },
         {
           "platform": "squarespace",
@@ -916,11 +971,11 @@
           "reason": "HTTP_404"
         }
       ],
-      "attempts": 1,
+      "attempts": 2,
       "evidence": "no public catalog route passed an adapter contract",
-      "last_attempt_at": "2026-10-14T06:02:39+00:00"
+      "last_attempt_at": "2026-10-14T06:07:50+00:00"
     }
   },
   "last_run_id": "manual",
-  "updated_at": "2026-10-14T06:02:39+00:00"
+  "updated_at": "2026-10-14T06:07:50+00:00"
 }
