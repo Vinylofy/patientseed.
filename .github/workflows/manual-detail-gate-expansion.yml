@@ -91,12 +91,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add scraper-status.md
           if git diff --cached --quiet; then
             echo "No central detail status changes to commit."
           else
             git commit -m "Record automated detail recheck status"
+            git pull --rebase origin main
             git push
           fi
       - name: Upload detail-gate result and central status
