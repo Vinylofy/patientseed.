@@ -305,7 +305,6 @@ Maximale bouwpogingen: 3
 | cdsam210.square.site | 489 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | cdtradertarzana.com | 490 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | thecdwarehouse.com | 495 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| discogs.com | 497 | 5 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
 | celebratedsummerecords.blogspot.com | 501 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
 | centervillepickersmarket.antiquetrail.com | 502 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | centralcoastmusic.com | 503 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -418,13 +417,69 @@ Maximale bouwpogingen: 3
 | darksiderecords.com | 655 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
 | davesgoldenoldies.com | 656 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | davesrecordden.com | 657 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| facebook.com | 659 | 55 | FROZEN | — | — | — | SHARED_PLATFORM |
 | dawnsbooksandstuff.com | 661 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | daybreakrecords.com | 662 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | daybreakrecordstore.com | 663 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| instagram.com | 664 | 19 | FROZEN | — | — | — | SHARED_PLATFORM |
 | daystarrecords.com | 665 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | docdaytona.com | 666 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| dbssounds.com | 667 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dbzbooks.com | 668 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['dbzbooks_com.py', 'dbzbooks_com.json'] |
+| delaplayamusic.com | 670 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| deadendrecordstn.com | 671 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['deadendrecordstn_com.py', 'deadendrecordstn_com.json'] |
+| deadwaxrecords.com | 672 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mainstreetcollectivenc.com | 674 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| deadwaxdallas.com | 675 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| deadbeatsbarbershop.com | 677 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| deadlywax.com | 678 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thedeadwaxrecords.com | 679 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['thedeadwaxrecords_com.py', 'thedeadwaxrecords_com.json'] |
+| deafear.net | 680 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| deafmanvinyl.com | 681 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['deafmanvinyl_com.py', 'deafmanvinyl_com.json'] |
+| dearbornmusic.net | 682 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| debaryfamilymusic.online | 683 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['debaryfamilymusic_online.py', 'debaryfamilymusic_online.json'] |
+| deepcuts.rocks | 685 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| deepgroovemaine.com | 687 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| deepthoughtsrecordshop.com | 689 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| bostonvinylrecords.com | 690 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| delbravorecordshop.com | 691 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['delbravorecordshop_com.py', 'delbravorecordshop_com.json'] |
+| delrecords.com | 692 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| deliriumvinyl.com | 694 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dellasoulrecords.com | 695 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| denofwax.com | 698 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| deptofrecords.com | 699 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| desertgrooves.net | 701 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| desertislandrecords.com | 702 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['desertislandrecords_com.py', 'desertislandrecords_com.json'] |
+| devinerecordsandvintage.com | 704 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| devintage.com | 705 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dewolfs.biz | 707 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| diabolical-records.square.site | 708 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dianasrecords.com | 709 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dictatorrecordsshop.com | 710 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| yourvinyldestination.com | 711 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| dig-vinyl.com | 712 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| diggers.media | 714 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dimensions-comics.com | 716 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discreplaych.com | 721 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discreplay.com | 723 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discogs.com | 725 | 8 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
+| discobeancoffeecompany.com | 726 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discodeathrecords.com | 727 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['discodeathrecords_com.py', 'discodeathrecords_com.json'] |
+| discodelic.com | 729 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| l.instagram.com | 735 | 1 | SOURCE_REVIEW | — | — | — | SHARED_PLATFORM |
+| disordervinyl.com | 736 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| docsrecords.com | 742 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| docsfindsrecords.com | 743 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dominosoundrecords.com | 745 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| doomedrecordsri.com | 747 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| preservedinstincts.com | 748 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| doubledarerecordstore.com | 752 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| downhomemusic.com | 757 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| downinthevalley.com | 758 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| facebook.com | 759 | 67 | FROZEN | — | — | — | SHARED_PLATFORM |
+| downtownbookandsound.com | 760 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| downtownbooksonline.com | 761 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| downtowndiscak.com | 762 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| downtownmusicgallery.com | 763 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| instagram.com | 764 | 24 | FROZEN | — | — | — | SHARED_PLATFORM |
 | shopsouthcountycenter.com | 3007 | 1 | PLATFORM_REVIEW | — | — | — | Shopify feed contract unproven |
 | valshallarecords.com | 3008 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | valpovintage.com | 3011 | 1 | PLATFORM_REVIEW | — | — | — | HTTP_400 |
