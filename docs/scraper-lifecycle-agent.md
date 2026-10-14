@@ -13,3 +13,7 @@ Discovery is evidence-based rather than platform-name based. The run artifact re
 The price workflow runs every two days. The EAN workflow is limited to 250 detail records per day. A later private importer can review these artifacts and perform any database synchronization separately.
 
 The public discovery cycle is scheduled ten times per UTC day at two-hour intervals, with a batch size of 100. It advances the durable queue cursor and uses a concurrency lock so batches do not overlap. A manual dispatch remains available for recovery or a deliberate restart.
+
+## Naming convention and single-scraper view
+
+Actions use the prefixes `SCRAPER | Batch | ...` for scheduled batches and `SCRAPER | Manual | ...` for a deliberate single-scraper pilot. Generated profiles use the stable domain slug (`<domain-with-non-alphanumeric-replaced-by-underscores>`), for example `22soundrecords_com`. The scheduled workflows write a per-scraper table to the GitHub job summary. The `SCRAPER | Manual | Single scraper` workflow accepts one slug and runs only that profile without changing health state.

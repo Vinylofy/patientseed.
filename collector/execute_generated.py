@@ -25,11 +25,15 @@ def load_profile(path: Path) -> tuple[dict, object]:
     return profile, classes[0]()
 
 
-def run(root: Path, mode: str, limit: int) -> dict:
+def run(root: Path, mode: str, limit: int, profile_filter: str | None = None) -> dict:
     assert_credential_free_environment()
     started = datetime.now(timezone.utc).isoformat()
     rows, errors, profiles = [], [], []
+    matched = False
     for profile_path in sorted(root.glob("*.json")):
+        if profile_filter and profile_path.stem != profile_filter:
+            continue
+        matched = True
         profile_result = {"profile": profile_path.name, "status": "not_run_limit" if len(rows) >= limit else "success",
                           "records": 0, "ean_records": 0, "errors": [], "detail_errors": 0,
                           "truncated": False}
@@ -38,6 +42,7 @@ def run(root: Path, mode: str, limit: int) -> dict:
             continue
         try:
             profile, scraper = load_profile(profile_path)
+            profile_result["domain"] = profile.get("domain", "")
             domain = profile["domain"]
             route = profile["catalog_route"]
             public_source(route, domain)
@@ -71,6 +76,8 @@ def run(root: Path, mode: str, limit: int) -> dict:
             profile_result["status"] = "failure"
             profile_result["errors"].append(error)
         profiles.append(profile_result)
+    if profile_filter and not matched:
+        raise ValueError(f"profile not found: {profile_filter}")
     return {"schema_version": 1, "mode": mode, "limit": limit, "started_at": started,
             "records": rows, "errors": errors, "profiles": profiles, "database_write": False}
 
@@ -81,10 +88,11 @@ def main() -> int:
     parser.add_argument("--mode", choices=("price", "ean"), required=True)
     parser.add_argument("--limit", type=int, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--profile", help="Only execute this generated profile slug")
     args = parser.parse_args()
     if args.limit < 1:
         parser.error("limit must be positive")
-    result = run(args.root, args.mode, args.limit)
+    result = run(args.root, args.mode, args.limit, profile_filter=args.profile)
     args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Collected {len(result['records'])} read-only {args.mode} records; errors={len(result['errors'])}")
     return 0

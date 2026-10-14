@@ -1,4 +1,4 @@
-name: Read-only scraper price refresh
+name: SCRAPER | Batch | Price refresh
 
 on:
   schedule:
@@ -38,6 +38,8 @@ jobs:
         env:
           LIMIT: ${{ inputs.limit || '250' }}
         run: python -m collector.execute_generated --root published/collector/generated --mode price --limit "$LIMIT" --output price-refresh.json
+      - name: Write per-scraper summary
+        run: python -m collector.render_run_summary --result price-refresh.json
       - name: Update scraper health state
         env:
           GH_RUN_ID: ${{ github.run_id }}
