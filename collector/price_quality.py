@@ -35,7 +35,9 @@ def assess(records: list[dict]) -> dict:
         flags.append("mixed_currency")
     if shipping_hits:
         flags.append("shipping_term_in_product_identity")
-    if len(prices) >= 3 and len(set(prices)) == 1:
+    # A small vinyl selection can legitimately share a price. Only flag a
+    # completely uniform sample once at least twenty products were checked.
+    if len(prices) >= 20 and len(set(prices)) == 1:
         flags.append("uniform_price_suspicious")
     unique_flags = list(dict.fromkeys(flags))
     return {"status": "pass" if not unique_flags else "review",
