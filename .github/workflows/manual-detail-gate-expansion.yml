@@ -2,7 +2,9 @@ name: Manual detail gate expansion
 
 on:
   schedule:
-    - cron: "17 6 * * *"
+    - cron: "17 3 * * *"
+    - cron: "17 11 * * *"
+    - cron: "17 19 * * *"
   workflow_dispatch:
     inputs:
       candidate_limit:
