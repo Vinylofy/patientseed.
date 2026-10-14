@@ -28,10 +28,14 @@ def load_profile(path: Path) -> tuple[dict, object]:
 def run(root: Path, mode: str, limit: int) -> dict:
     assert_credential_free_environment()
     started = datetime.now(timezone.utc).isoformat()
-    rows, errors = [], []
+    rows, errors, profiles = [], [], []
     for profile_path in sorted(root.glob("*.json")):
+        profile_result = {"profile": profile_path.name, "status": "not_run_limit" if len(rows) >= limit else "success",
+                          "records": 0, "ean_records": 0, "errors": [], "detail_errors": 0,
+                          "truncated": False}
         if len(rows) >= limit:
-            break
+            profiles.append(profile_result)
+            continue
         try:
             profile, scraper = load_profile(profile_path)
             domain = profile["domain"]
@@ -55,11 +59,20 @@ def run(root: Path, mode: str, limit: int) -> dict:
                         record["identifier_type"] = detail.get("identifier_type")
                     except (CollectionBlocked, OSError, TimeoutError, ValueError) as exc:
                         record["detail_error"] = type(exc).__name__
+                        profile_result["detail_errors"] += 1
                 rows.append(record)
+                profile_result["records"] += 1
+                if record.get("ean"):
+                    profile_result["ean_records"] += 1
+            profile_result["truncated"] = len(rows) >= limit
         except (CollectionBlocked, OSError, TimeoutError, ValueError, KeyError) as exc:
-            errors.append({"profile": profile_path.name, "error": type(exc).__name__, "reason": str(exc)[:200]})
+            error = {"profile": profile_path.name, "error": type(exc).__name__, "reason": str(exc)[:200]}
+            errors.append(error)
+            profile_result["status"] = "failure"
+            profile_result["errors"].append(error)
+        profiles.append(profile_result)
     return {"schema_version": 1, "mode": mode, "limit": limit, "started_at": started,
-            "records": rows, "errors": errors, "database_write": False}
+            "records": rows, "errors": errors, "profiles": profiles, "database_write": False}
 
 
 def main() -> int:

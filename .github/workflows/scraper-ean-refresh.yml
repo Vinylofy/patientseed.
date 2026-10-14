@@ -12,7 +12,7 @@ on:
         type: string
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: scraper-ean-refresh
@@ -25,7 +25,7 @@ jobs:
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
-          persist-credentials: false
+          persist-credentials: true
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           ref: scraper-builds
@@ -38,6 +38,22 @@ jobs:
         env:
           LIMIT: ${{ inputs.limit || '250' }}
         run: python -m collector.execute_generated --root published/collector/generated --mode ean --limit "$LIMIT" --output ean-refresh.json
+      - name: Update scraper health state
+        env:
+          GH_RUN_ID: ${{ github.run_id }}
+        run: python -m collector.health --result ean-refresh.json --state collector/scraper-health.json --profiles published/collector/generated --run-id "$GH_RUN_ID"
+      - name: Commit scraper health state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add collector/scraper-health.json collector/scraper-health.md
+          if git diff --cached --quiet; then
+            echo "No scraper health changes to commit."
+          else
+            git pull --rebase origin main
+            git commit -m "Record EAN scraper health"
+            git push
+          fi
       - uses: actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08 # v4
         with:
           name: scraper-ean-refresh-${{ github.run_id }}
