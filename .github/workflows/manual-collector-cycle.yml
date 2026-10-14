@@ -79,12 +79,15 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: python -m collector.progress prepare --queue collector/public-queue.json --file collector-start-index.txt
       - name: Run bounded public source cycle
+        if: ${{ env.COLLECTOR_EXHAUSTED != 'true' }}
         env:
           BATCH_LIMIT: ${{ inputs.batch_limit || '100' }}
         run: python -m collector.manual_run --queue collector/public-queue.json --start-index "$(cat collector-start-index.txt)" --batch-limit "$BATCH_LIMIT" --output collector-run.json
       - name: Build and self-test scraper wrappers
+        if: ${{ env.COLLECTOR_EXHAUSTED != 'true' }}
         run: python -m collector.build_scrapers --result collector-run.json --output collector/generated
       - name: Update scraper lifecycle and freeze exhausted shops
+        if: ${{ env.COLLECTOR_EXHAUSTED != 'true' }}
         run: |
           python -m collector.lifecycle \
             --result collector-run.json \
@@ -92,6 +95,7 @@ jobs:
             --frozen-root collector/frozen \
             --max-attempts 3
       - name: Commit central lifecycle status
+        if: ${{ env.COLLECTOR_EXHAUSTED != 'true' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -103,10 +107,12 @@ jobs:
             git push
           fi
       - name: Publish generated scrapers
+        if: ${{ env.COLLECTOR_EXHAUSTED != 'true' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: python -m collector.publish_generated --root collector/generated
       - name: Upload generated scraper files
+        if: ${{ env.COLLECTOR_EXHAUSTED != 'true' }}
         uses: actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08 # v4
         with:
           name: generated-scrapers-${{ github.run_id }}
@@ -114,6 +120,7 @@ jobs:
           if-no-files-found: warn
           retention-days: 30
       - name: Upload read-only run result
+        if: ${{ env.COLLECTOR_EXHAUSTED != 'true' }}
         if: always()
         uses: actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08 # v4
         with:
@@ -122,16 +129,20 @@ jobs:
           if-no-files-found: warn
           retention-days: 14
       - name: Save durable public queue position
+        if: ${{ env.COLLECTOR_EXHAUSTED != 'true' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: python -m collector.progress publish --queue collector/public-queue.json --file collector-run.json
       - name: Load central status data
+        if: ${{ env.COLLECTOR_EXHAUSTED != 'true' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: python -m collector.progress export --queue collector/public-queue.json --file collector-progress.json
       - name: Render one central shop status list
+        if: ${{ env.COLLECTOR_EXHAUSTED != 'true' }}
         run: python -m collector.status --queue collector/public-queue.json --progress collector-progress.json --output scraper-status.md
       - name: Upload central shop status snapshot
+        if: ${{ env.COLLECTOR_EXHAUSTED != 'true' }}
         uses: actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08 # v4
         with:
           name: central-scraper-status-${{ github.run_id }}

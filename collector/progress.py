@@ -81,7 +81,17 @@ def prepare(queue_path: Path, output: Path) -> None:
     state, _ = read_remote()
     index = next_index(state, queue)
     if index == len(queue):
-        raise ValueError("all queued shop rows have a source status; review exception queue before another run")
+        output.write_text("EXHAUSTED\n", encoding="ascii")
+        github_env = os.environ.get("GITHUB_ENV")
+        if github_env:
+            with open(github_env, "a", encoding="utf-8") as handle:
+                handle.write("COLLECTOR_EXHAUSTED=true\n")
+        print(f"Public queue exhausted: {index}/{len(queue)}; scheduled run will stop cleanly")
+        return
+    github_env = os.environ.get("GITHUB_ENV")
+    if github_env:
+        with open(github_env, "a", encoding="utf-8") as handle:
+            handle.write("COLLECTOR_EXHAUSTED=false\n")
     output.write_text(str(index) + "\n", encoding="ascii")
     print(f"Public queue position: {index}/{len(queue)}")
 
