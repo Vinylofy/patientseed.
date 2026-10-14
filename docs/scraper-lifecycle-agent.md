@@ -11,3 +11,5 @@ Discovery is evidence-based rather than platform-name based. The run artifact re
 - `scraper-price-refresh.yml` and `scraper-ean-refresh.yml` collect artifacts only; they never write Supabase or any database.
 
 The price workflow runs every two days. The EAN workflow is limited to 250 detail records per day. A later private importer can review these artifacts and perform any database synchronization separately.
+
+The public discovery cycle is scheduled ten times per UTC day at two-hour intervals, with a batch size of 100. It advances the durable queue cursor and uses a concurrency lock so batches do not overlap. A manual dispatch remains available for recovery or a deliberate restart.
