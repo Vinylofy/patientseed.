@@ -66,6 +66,8 @@ def build(result_path: Path, output: Path) -> list[dict]:
             encoding="utf-8")
         profile.write_text(json.dumps({"schema_version": 1, "domain": domain, "platform": platform,
                                        "adapter_class": adapter_name, "catalog_route": source_url,
+                                       "discovery_method": row.get("selected_method", {}),
+                                       "method_candidates": row.get("method_candidates", []),
                                        "listing_sample": row.get("accepted", 0),
                                        "detail_checked": row["detail_checked"],
                                        "detail_gtin_valid": row.get("detail_gtin_valid", 0),

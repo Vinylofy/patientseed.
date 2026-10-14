@@ -6,11 +6,49 @@ from datetime import datetime, timezone
 
 from collector.adapters.shopify_new_vinyl import ShopifyNewVinylAdapter
 from collector.adapters.woocommerce_new_vinyl import WooCommerceNewVinylAdapter
+from collector.adapters.squarespace_new_vinyl import SquarespaceNewVinylAdapter
+from collector.adapters.bigcommerce_new_vinyl import BigCommerceNewVinylAdapter
 from collector.contracts import CollectionBlocked, Limits, assert_credential_free_environment
 from collector.transport import Transport, public_source
 
-LIMITS = Limits(max_pages=1, max_requests=4, max_products=20, timeout_seconds=10,
+LIMITS = Limits(max_pages=1, max_requests=12, max_products=20, timeout_seconds=10,
                 max_runtime_seconds=60, delay_seconds=0.5)
+
+
+ADAPTERS = {
+    "shopify": ShopifyNewVinylAdapter,
+    "woocommerce": WooCommerceNewVinylAdapter,
+    "squarespace": SquarespaceNewVinylAdapter,
+    "bigcommerce": BigCommerceNewVinylAdapter,
+}
+
+
+def route_candidates(domain: str, hinted_platform: str) -> list[tuple[str, str]]:
+    """Return bounded public routes in platform-priority order.
+
+    These are discovery candidates, not a claim that the platform supports the
+    route.  The route is only selected after its adapter parses the response.
+    """
+    groups = {
+        "shopify": [
+            f"https://{domain}/products.json?limit=20&page=1",
+            f"https://{domain}/collections/all/products.json?limit=20&page=1",
+        ],
+        "woocommerce": [
+            f"https://{domain}/wp-json/wc/store/v1/products?per_page=20&page=1",
+        ],
+        "squarespace": [
+            f"https://{domain}/api/0.1/collections/products?format=json",
+            f"https://{domain}/api/0.1/collections/all/products?format=json",
+        ],
+        "bigcommerce": [
+            f"https://{domain}/api/storefront/products?limit=20&offset=0",
+            f"https://{domain}/api/storefront/products?limit=20",
+        ],
+    }
+    order = [hinted_platform] if hinted_platform in groups else []
+    order += [platform for platform in groups if platform not in order]
+    return [(platform, route) for platform in order for route in groups[platform]]
 
 
 def platform_hint(html: str) -> str:
@@ -35,7 +73,7 @@ def valid_gtin(value: object) -> bool:
 
 
 def sample_listing(identity: dict, adapter, body: str, route: str, platform: str,
-                   products_seen: int, transport) -> dict:
+                   products_seen: int, transport, method_candidates: list[dict] | None = None) -> dict:
     try:
         page = adapter.parse_listing(body, source_url=route, observed_at=datetime.now(timezone.utc).isoformat())
         accepted = []
@@ -54,6 +92,15 @@ def sample_listing(identity: dict, adapter, body: str, route: str, platform: str
               "products_seen": products_seen, "accepted": len(accepted),
               "excluded": len(page.exclusions), "pagination_complete": False,
               "listing_gtin_valid": sum(valid_gtin(row.get("identifier_raw")) for row in accepted)}
+    if method_candidates:
+        result["method_candidates"] = method_candidates
+        result["selected_method"] = {
+            "platform": platform,
+            "route": route,
+            "score": max(candidate["score"] for candidate in method_candidates
+                          if candidate.get("route") == route),
+            "selection": "highest_bounded_adapter_score",
+        }
     if not accepted:
         result["reason"] = "no confirmed new vinyl on bounded page"
         return result
@@ -100,39 +147,46 @@ def probe(item: dict, transport_factory=Transport) -> dict:
         return {**identity, "status": "SOURCE_BLOCKED", "gate": "identity",
                 "reason": str(exc)[:100] if isinstance(exc, CollectionBlocked) else type(exc).__name__,
                 "source_url": homepage}
-    platform = platform_hint(html)
-    if platform in {"squarespace", "bigcommerce"}:
-        return {**identity, "status": "PLATFORM_IDENTIFIED", "gate": "catalog_route", "platform": platform,
-                "reason": "shop-specific catalog route needed", "source_url": homepage}
-    if platform == "woocommerce":
-        route = f"https://{domain}/wp-json/wc/store/v1/products?per_page=20&page=1"
+    hinted_platform = platform_hint(html)
+    candidates = []
+    bodies = {}
+    for candidate_platform, route in route_candidates(domain, hinted_platform):
         try:
-            payload = json.loads(transport.get(route))
-        except (CollectionBlocked, OSError, TimeoutError, ValueError) as exc:
-            return {**identity, "status": "ROUTE_REVIEW", "gate": "catalog_route", "platform": platform,
-                    "reason": str(exc)[:100] if isinstance(exc, CollectionBlocked) else type(exc).__name__,
-                    "source_url": route}
-        if not isinstance(payload, list) or any(not isinstance(product, dict) for product in payload):
-            return {**identity, "status": "ROUTE_REVIEW", "gate": "catalog_route", "platform": platform,
-                    "reason": "Store API product array unproven", "source_url": route}
-        return sample_listing(identity, WooCommerceNewVinylAdapter(domain), json.dumps(payload),
-                              route, platform, len(payload), transport)
-    # A single Shopify feed probe also identifies shops whose homepage lacks platform markers.
-    route = f"https://{domain}/products.json?limit=20&page=1"
-    try:
-        body = transport.get(route)
-    except (CollectionBlocked, OSError, TimeoutError) as exc:
-        return {**identity, "status": "ROUTE_REVIEW" if platform == "shopify" else "PLATFORM_REVIEW",
-                "gate": "catalog_route", "platform": platform,
+            body = transport.get(route)
+            adapter = ADAPTERS[candidate_platform](domain)
+            page = adapter.parse_listing(body, source_url=route,
+                                         observed_at=datetime.now(timezone.utc).isoformat())
+            bodies[route] = body
+            accepted = [listing for listing in page.listings
+                        if listing.get("product_type") == "vinyl" and listing.get("condition") == "new"]
+            candidates.append({
+                "platform": candidate_platform,
+                "route": route,
+                "score": len(accepted) * 10 + (5 if page.listings else 0),
+                "products_seen": len(page.listings) + len(page.exclusions),
+                "accepted": len(accepted),
+                "excluded": len(page.exclusions),
+                "status": "ADAPTER_PARSED",
+            })
+        except (CollectionBlocked, OSError, TimeoutError, ValueError, TypeError, KeyError) as exc:
+            candidates.append({
+                "platform": candidate_platform,
+                "route": route,
+                "score": 0,
+                "status": "ROUTE_REJECTED",
                 "reason": str(exc)[:100] if isinstance(exc, CollectionBlocked) else type(exc).__name__,
-                "source_url": route}
-    try:
-        payload = json.loads(body)
-    except ValueError:
-        payload = None
-    if not isinstance(payload, dict) or set(payload) != {"products"} or not isinstance(payload["products"], list):
-        return {**identity, "status": "ROUTE_REVIEW" if platform == "shopify" else "PLATFORM_REVIEW",
-                "gate": "catalog_route", "platform": platform, "reason": "Shopify feed contract unproven",
-                "source_url": route}
-    return sample_listing(identity, ShopifyNewVinylAdapter(domain), body, route, "shopify",
-                          len(payload["products"]), transport)
+            })
+    valid = [candidate for candidate in candidates if candidate["status"] == "ADAPTER_PARSED"]
+    if not valid:
+        reason = "no public catalog route passed an adapter contract"
+        if candidates and all(candidate.get("reason") == "Request budget exhausted" for candidate in candidates):
+            reason = "discovery request budget exhausted"
+        return {**identity, "status": "ROUTE_REVIEW", "gate": "catalog_route",
+                "platform": hinted_platform, "reason": reason,
+                "method_candidates": candidates}
+    selected = max(valid, key=lambda candidate: (candidate["score"], candidate["accepted"],
+                                                  candidate["products_seen"]))
+    body = bodies[selected["route"]]
+    return sample_listing(identity, ADAPTERS[selected["platform"]](domain), body,
+                          selected["route"], selected["platform"], selected["products_seen"],
+                          transport, candidates)

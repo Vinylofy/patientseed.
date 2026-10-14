@@ -73,13 +73,18 @@ class ManualRunTests(unittest.TestCase):
             result_file.write_text(json.dumps({"schema_version": 1, "complete": True, "results": [{
                 "row": 9, "name": "Shop", "domain": "1234gorecords.shop", "status": "ADAPTER_TESTED",
                 "platform": "shopify", "source_url": "https://1234gorecords.shop/products.json?limit=20&page=1",
-                "accepted": 18, "detail_checked": 2, "detail_gtin_valid": 0}]}))
+                "accepted": 18, "detail_checked": 2, "detail_gtin_valid": 0,
+                "selected_method": {"platform": "shopify", "route": "https://1234gorecords.shop/products.json?limit=20&page=1"},
+                "method_candidates": [{"platform": "shopify", "route": "https://1234gorecords.shop/products.json?limit=20&page=1", "score": 185}]}]}))
             built = build(result_file, root / "collector" / "generated")
             self.assertEqual(len(built), 1)
             self.assertEqual(built[0]["status"], "SCRAPER_BUILT_TESTED")
             self.assertEqual(len(list((root / "collector" / "generated").glob("*.py"))), 1)
             self.assertEqual(len(list((root / "collector" / "generated").glob("*.json"))), 1)
             self.assertEqual(json.loads(result_file.read_text())["built_scrapers"], 1)
+            profile = json.loads(next((root / "collector" / "generated").glob("*.json")).read_text())
+            self.assertEqual(profile["discovery_method"]["platform"], "shopify")
+            self.assertEqual(len(profile["method_candidates"]), 1)
 
     def test_route_hints_do_not_claim_an_adapter(self):
         self.assertEqual(platform_hint("<script src='https://static1.squarespace.com/x'>"), "squarespace")
