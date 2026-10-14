@@ -280,7 +280,6 @@ Maximale bouwpogingen: 3
 | cameronrecords.com | 443 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['cameronrecords_com.py', 'cameronrecords_com.json'] |
 | cdgarecord.exchange | 445 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
 | canterburyrecords.com | 447 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| instagram.com | 448 | 17 | FROZEN | — | — | — | SHARED_PLATFORM |
 | capcitygroove.com | 450 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | capagency.org | 451 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | capeabilitiesthrift.org | 452 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -324,7 +323,6 @@ Maximale bouwpogingen: 3
 | checkerrecords.com | 522 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | shopcherries.com | 524 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | chiefrecordsonline.com | 527 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['chiefrecordsonline_com.py', 'chiefrecordsonline_com.json'] |
-| facebook.com | 529 | 48 | FROZEN | — | — | — | SHARED_PLATFORM |
 | m.facebook.com | 530 | 6 | FROZEN | — | — | — | SHARED_PLATFORM |
 | cirecords.com | 531 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | cirecordsandskates.com | 532 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -353,6 +351,80 @@ Maximale bouwpogingen: 3
 | eisenhowerhealth.org | 564 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | collectorscrossroads.com | 565 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | indycollectorsemporium.com | 566 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| collingswoodmusic.com | 567 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| colorsoundoblivion.com | 569 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| comebackvinyl.com | 570 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['comebackvinyl_com.py', 'comebackvinyl_com.json'] |
+| thecomiccollection.net | 571 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| comicallyspeaking.com | 572 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| commonbeatmusic.com | 573 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| communepasadena.com | 574 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cdcenterpa.com | 575 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cdoutlet.com | 576 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| connectrecordshop.com | 578 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| conservatoryvintageandvinyl.com | 580 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| contactrecordstore.com | 581 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['contactrecordstore_com.py', 'contactrecordstore_com.json'] |
+| controllittlerock.com | 582 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| controlledchaosvintage.com | 583 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| coolstuffvintage.com | 586 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| coregamingnh.com | 587 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['coregamingnh_com.py', 'coregamingnh_com.json'] |
+| thecornerrecordshop.com | 588 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cornerrecords.biz | 589 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| cornerstoneusedbooks.com | 590 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cosmicsounds.org | 592 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| cosmicvinyl.com | 593 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| counterintuitiverecords.com | 596 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['counterintuitiverecords_com.py', 'counterintuitiverecords_com.json'] |
+| countercultureco.net | 597 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| countylinerecords.com | 598 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| countyseatantiquemall.com | 599 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cratediggazrecords.bigcartel.com | 602 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| crazyladyink.com | 604 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| crazyvinylrecord.com | 606 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['crazyvinylrecord_com.py', 'crazyvinylrecord_com.json'] |
+| shopcreep.com | 610 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['shopcreep_com.py', 'shopcreep_com.json'] |
+| creeprecords.com | 611 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| dizzyandcreep.com | 612 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cremetangerinerecords.com | 613 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| crescentmoonmercantile.com | 614 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| crescentmoonsatx.com | 615 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| criminalatl.com | 616 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| crookedarmlisle.com | 618 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| crookedbeat.com | 619 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| xro.com | 621 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| shopstonypoint.com | 622 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| crownantiquemall.net | 624 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cryingcatbooks.com | 626 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| crystalballrecords.com | 627 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| crystalclearcd.com | 628 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| csrecordznv.com | 629 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ctyznrecords.com | 630 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| cultureclashrecords.com | 631 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| cultureshockshop.com | 632 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| curiouscollectionstx.com | 634 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['curiouscollectionstx_com.py', 'curiouscollectionstx_com.json'] |
+| curious-ity.com | 635 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| customrecords.com | 637 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cutcornerrecords.com | 638 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cvrecordsandtapes.com | 639 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cyclebreakersrecordsandtapes.com | 640 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
+| dandjrecords.com | 641 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| daddykool.com | 642 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| daddyosrecordrack.com | 643 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dailyrecordshop.com | 645 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dailyrecordsandcds.com | 646 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| secure.instagram.com | 647 | 1 | SOURCE_REVIEW | — | — | — | SHARED_PLATFORM |
+| dallosvinyllove.com | 648 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dancingeye.com | 650 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dandydoxievintage.com | 651 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| darkentriesrecords.com | 652 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| darkbrownrecords.com | 654 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| darksiderecords.com | 655 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| davesgoldenoldies.com | 656 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| davesrecordden.com | 657 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| facebook.com | 659 | 55 | FROZEN | — | — | — | SHARED_PLATFORM |
+| dawnsbooksandstuff.com | 661 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| daybreakrecords.com | 662 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| daybreakrecordstore.com | 663 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| instagram.com | 664 | 19 | FROZEN | — | — | — | SHARED_PLATFORM |
+| daystarrecords.com | 665 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| docdaytona.com | 666 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | shopsouthcountycenter.com | 3007 | 1 | PLATFORM_REVIEW | — | — | — | Shopify feed contract unproven |
 | valshallarecords.com | 3008 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | valpovintage.com | 3011 | 1 | PLATFORM_REVIEW | — | — | — | HTTP_400 |
