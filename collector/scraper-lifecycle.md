@@ -148,7 +148,6 @@ Maximale bouwpogingen: 3
 | abebooks.com | 242 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | bayvinylrecords.com | 243 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | bbsrecordsnj.com | 244 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| discogs.com | 247 | 3 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
 | beachsideretro.com | 248 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | beatlabusa.com | 253 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | music.beatrelease.com | 254 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
@@ -204,7 +203,6 @@ Maximale bouwpogingen: 3
 | blackwaterpdx.com | 321 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | blackwaxcafe.com | 322 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | blackcatvinyl.com | 326 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
-| instagram.com | 329 | 12 | FROZEN | — | — | — | SHARED_PLATFORM |
 | blinddoghifiandrecords.com | 330 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | blkvinylatx.com | 332 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | letsgetblntd.com | 333 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -224,11 +222,78 @@ Maximale bouwpogingen: 3
 | bonjongles.com | 358 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | booboorecords.com | 359 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['booboorecords_com.py', 'booboorecords_com.json'] |
 | boogiemarusounds.com | 360 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| facebook.com | 361 | 36 | FROZEN | — | — | — | SHARED_PLATFORM |
 | bookexchangeva.com | 362 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | bookhoundsbooks.com | 364 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | bookmans.com | 365 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | bookoffusa.com | 366 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| booksnmoretx.com | 368 | 1 | SOURCE_BLOCKED | — | — | — | RemoteDisconnected |
+| discogs.com | 369 | 4 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
+| bopshop.com | 372 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bornlaterecords.com | 374 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| bororecords.com | 375 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['bororecords_com.py', 'bororecords_com.json'] |
+| bossanrollrecords.com | 376 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bonanza.com | 378 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| boulevardtrashpunk.com | 379 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bowtysmusicemporium.com | 380 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| boxedvinyl.com | 383 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| braveheartbooks.net | 385 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| breakawayrecordshop.com | 386 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bricabracrecords.com | 387 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bridge9.com | 388 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bridgeportrecords.com | 389 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| briggsstreetbooks.com | 390 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| brightlightbooks.com | 391 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bringbackanalog.com | 392 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| bringyouroldbooks.com | 393 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| bristolantiquesmarket.com | 394 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| broadstreetrecordshop.com | 395 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| brokenrecordsmusicandpawn.com | 397 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| brokenanchor.com | 398 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| brokenmelodyrecords.com | 399 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| brooklynrecordexchange.com | 403 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| brownleybuysbooksandmagazines.com | 406 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bruisedapplebooks.com | 407 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bruiserrecordsjax.com | 408 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['bruiserrecordsjax_com.py', 'bruiserrecordsjax_com.json'] |
+| carrolsbtbs.com | 409 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| buchspielerrecords.com | 410 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bucketoblood.com | 412 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| buddhabellyrecords.com | 413 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| budgetaudiovideo.com | 414 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| budgetmusicgf.wixsite.com | 415 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
+| buffalorecordshop.com | 418 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| buildingcharacter.biz | 419 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bullmoose.com | 420 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bulltraxrecords.com | 421 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bumrushvinylshop.com | 422 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| burlingtonrecords.com | 424 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| butler-records.com | 425 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| buzzvinyls.com | 429 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| byrdlandrecords.com | 430 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cdsourcerockford.com | 431 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| csiderecords.com | 432 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['csiderecords_com.py', 'csiderecords_com.json'] |
+| ckbarrymores.com | 433 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| blackiceofficials.biz | 434 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cachevalleyantiques.com | 436 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cactusmusictx.com | 437 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cactusrecords.net | 438 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cactusvhs.com | 439 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| calivibesrecords.com | 440 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| calicheco.com | 441 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cameronrecords.com | 443 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['cameronrecords_com.py', 'cameronrecords_com.json'] |
+| cdgarecord.exchange | 445 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| canterburyrecords.com | 447 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| instagram.com | 448 | 17 | FROZEN | — | — | — | SHARED_PLATFORM |
+| capcitygroove.com | 450 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| capagency.org | 451 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| capeabilitiesthrift.org | 452 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| capitalcityantiquemall.com | 453 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| facebook.com | 454 | 43 | FROZEN | — | — | — | SHARED_PLATFORM |
+| capitalmusiccompany.com | 455 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| capitolinerecords.com | 456 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| spotattheave.com | 458 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| capturedrecordshop.com | 459 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| carolinasoul.com | 462 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| carpediem212.com | 464 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | shopsouthcountycenter.com | 3007 | 1 | PLATFORM_REVIEW | — | — | — | Shopify feed contract unproven |
 | valshallarecords.com | 3008 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | valpovintage.com | 3011 | 1 | PLATFORM_REVIEW | — | — | — | HTTP_400 |
