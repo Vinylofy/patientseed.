@@ -1,0 +1,28 @@
+name: SCRAPER | turntabletreasures_com
+
+run-name: SCRAPER | turntabletreasures_com | ${{ inputs.mode }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Read-only collection mode"
+        required: true
+        default: "price"
+        type: choice
+        options:
+          - price
+          - ean
+      limit:
+        description: "Maximum records"
+        required: true
+        default: "250"
+        type: string
+
+jobs:
+  scraper:
+    uses: ./.github/workflows/scraper-single-reusable.yml
+    with:
+      scraper_slug: turntabletreasures_com
+      mode: ${{ inputs.mode }}
+      limit: ${{ inputs.limit }}
