@@ -1,0 +1,46 @@
+name: REPORT | Daily scraper status email
+
+on:
+  # Hourly trigger plus a local-time gate keeps 07:00/19:00 correct through DST.
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  email:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Check Europe/Amsterdam send window
+        id: window
+        run: |
+          hour="$(TZ=Europe/Amsterdam date +%H)"
+          if [[ "$hour" == "07" || "$hour" == "19" ]]; then
+            echo "send=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "send=false" >> "$GITHUB_OUTPUT"
+            echo "Outside the 07:00/19:00 Europe/Amsterdam window ($hour:00)."
+          fi
+      - name: Load recent Actions
+        if: steps.window.outputs.send == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api "repos/${GITHUB_REPOSITORY}/actions/runs?per_page=20" > recent-runs.json
+      - name: Send status email
+        if: steps.window.outputs.send == 'true'
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT || '587' }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          REPORT_TO: edwindejager@gmail.com
+        run: >-
+          python -m collector.render_email_report
+          --status scraper-status.md
+          --lifecycle collector/scraper-lifecycle.md
+          --health collector/scraper-health.md
+          --runs recent-runs.json
