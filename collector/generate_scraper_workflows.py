@@ -1,4 +1,4 @@
-"""Create one thin manual workflow wrapper for each newly built profile."""
+"""Create separate manual price and EAN workflow wrappers for each profile."""
 from __future__ import annotations
 
 import argparse
@@ -11,22 +11,15 @@ def slug(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "_", value.lower()).strip("_")
 
 
-def render(name: str) -> str:
+def render(name: str, mode: str) -> str:
+    label = "Price" if mode == "price" else "EAN"
     return f'''name: SCRAPER | {name}
 
-run-name: SCRAPER | {name} | ${{{{ inputs.mode }}}}
+run-name: SCRAPER | {name} | {label}
 
 on:
   workflow_dispatch:
     inputs:
-      mode:
-        description: "Read-only collection mode"
-        required: true
-        default: "price"
-        type: choice
-        options:
-          - price
-          - ean
       limit:
         description: "Maximum records"
         required: true
@@ -38,7 +31,7 @@ jobs:
     uses: ./.github/workflows/scraper-single-reusable.yml
     with:
       scraper_slug: {name}
-      mode: ${{{{ inputs.mode }}}}
+      mode: {mode}
       limit: ${{{{ inputs.limit }}}}
 '''
 
@@ -51,10 +44,11 @@ def generate(profile_root: Path, output: Path) -> list[Path]:
         name = slug(str(data.get("domain", profile.stem)))
         if not name:
             continue
-        path = output / f"scraper-{name}.yml"
-        if not path.exists():
-            path.write_text(render(name), encoding="utf-8")
-            created.append(path)
+        for mode in ("price", "ean"):
+            path = output / f"scraper-{mode}-{name}.yml"
+            if not path.exists():
+                path.write_text(render(name, mode), encoding="utf-8")
+                created.append(path)
     return created
 
 

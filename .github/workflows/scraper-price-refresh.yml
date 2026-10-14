@@ -1,8 +1,6 @@
-name: SCRAPER | Batch | Price refresh
+name: SCRAPER | Legacy batch | Price refresh (manual only)
 
 on:
-  schedule:
-    - cron: "17 2 */2 * *"
   workflow_dispatch:
     inputs:
       limit:
