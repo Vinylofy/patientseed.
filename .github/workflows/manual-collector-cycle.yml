@@ -86,7 +86,7 @@ jobs:
       - name: Build and self-test scraper wrappers
         if: ${{ env.COLLECTOR_EXHAUSTED != 'true' }}
         run: python -m collector.build_scrapers --result collector-run.json --output collector/generated
-      - name: Generate per-scraper Action wrappers
+      - name: Generate per-scraper Action wrappers (workspace only)
         if: ${{ env.COLLECTOR_EXHAUSTED != 'true' }}
         run: python -m collector.generate_scraper_workflows --profiles collector/generated --output .github/workflows
       - name: Update scraper lifecycle and freeze exhausted shops
@@ -102,7 +102,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add collector/scraper-lifecycle.json collector/scraper-lifecycle.md collector/frozen .github/workflows/scraper-*.yml
+          # GITHUB_TOKEN cannot create or update workflow files. Keep generated
+          # wrappers in the run workspace; publish profiles and lifecycle data
+          # without allowing a workflow-permission error to lose the batch.
+          git add collector/scraper-lifecycle.json collector/scraper-lifecycle.md collector/frozen
           if git diff --cached --quiet; then
             echo "No lifecycle status changes to commit."
           else
