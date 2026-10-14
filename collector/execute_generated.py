@@ -9,6 +9,16 @@ from pathlib import Path
 
 from collector.contracts import CollectionBlocked, Limits, assert_credential_free_environment
 from collector.price_quality import assess as assess_price_quality
+
+
+def parse_listing(scraper: object, body: str, route: str, observed_at: str):
+    """Support both current wrappers and profiles generated before route metadata."""
+    try:
+        return scraper.parse_listing(body, source_url=route, observed_at=observed_at)
+    except TypeError as exc:
+        if "source_url" not in str(exc):
+            raise
+        return scraper.parse_listing(body, observed_at=observed_at)
 from collector.transport import Transport, public_source
 
 
@@ -51,7 +61,7 @@ def run(root: Path, mode: str, limit: int, profile_filter: str | None = None) ->
             transport = Transport(domain, Limits(max_pages=1, max_requests=max(4, limit + 1),
                                                    max_products=max(1, limit), timeout_seconds=15,
                                                    max_runtime_seconds=300, delay_seconds=1.0))
-            listing = scraper.parse_listing(transport.get(route), source_url=route, observed_at=started)
+            listing = parse_listing(scraper, transport.get(route), route, started)
             for item in listing.listings:
                 if len(rows) >= limit:
                     break

@@ -59,8 +59,8 @@ def build(result_path: Path, output: Path) -> list[dict]:
             f"    domain = DOMAIN\n    catalog_route = CATALOG_ROUTE\n"
             f"    adapter_class = {adapter_name}\n\n"
             f"    def __init__(self):\n        self.adapter = {adapter_name}(DOMAIN)\n\n"
-            f"    def parse_listing(self, body, *, observed_at):\n"
-            f"        return self.adapter.parse_listing(body, source_url=CATALOG_ROUTE, observed_at=observed_at)\n\n"
+            f"    def parse_listing(self, body, *, source_url=None, observed_at):\n"
+            f"        return self.adapter.parse_listing(body, source_url=source_url or CATALOG_ROUTE, observed_at=observed_at)\n\n"
             f"    def parse_detail(self, body, *, source_url, listing):\n"
             f"        return self.adapter.parse_detail(body, source_url=source_url, listing=listing)\n",
             encoding="utf-8")

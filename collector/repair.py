@@ -10,7 +10,7 @@ from pathlib import Path
 from collector.contracts import CollectionBlocked, Limits, assert_credential_free_environment
 from collector.health import load as load_health, now
 from collector.transport import Transport, public_source
-from collector.execute_generated import load_profile
+from collector.execute_generated import load_profile, parse_listing
 
 
 def _routes(profile: dict) -> list[str]:
@@ -27,8 +27,8 @@ def _try_routes(profile: dict, scraper: object) -> str | None:
     for route in _routes(profile):
         try:
             public_source(route, domain)
-            listing = scraper.parse_listing(transport.get(route), source_url=route,
-                                            observed_at=datetime.now(timezone.utc).isoformat())
+            listing = parse_listing(scraper, transport.get(route), route,
+                                    datetime.now(timezone.utc).isoformat())
             if not listing.listings:
                 continue
             # Confirm the selected route still maps to a detail page before
