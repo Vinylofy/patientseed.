@@ -8,7 +8,65 @@ on:
       scraper_slug:
         description: "Generated scraper slug, e.g. 22soundrecords_com"
         required: true
-        type: string
+        type: choice
+        options:
+          - 10000hzrecords_com
+          - 1234gorecords_shop
+          - 22soundrecords_com
+          - 606records_com
+          - abrodosmusic_com
+          - ags_earth
+          - alldayrecords_com
+          - allthebestflorence_com
+          - antonesrecordshop_com
+          - apolloexos_com
+          - crazyvinylrecord_com
+          - csiderecords_com
+          - curiouscollectionstx_com
+          - deadendrecordstn_com
+          - debaryfamilymusic_online
+          - delbravorecordshop_com
+          - desertislandrecords_com
+          - discodeathrecords_com
+          - drinksrecords_com
+          - endofanear_com
+          - endorecords_com
+          - erodingwinds_com
+          - evergreenvinyl_com
+          - frankiesrecords_com
+          - gryphonswing_com
+          - hivoltagerecords_com
+          - hollowbonerecords_com
+          - hybridrecordstx_com
+          - joseyrecords_com
+          - lunarecordshop_com
+          - mintgalleryrecords_com
+          - northwestgrooves_com
+          - nxvinyl_com
+          - plaidroomrecords_com
+          - producerpluguni_com
+          - rebrecordsmd_com
+          - recordsonmain_com
+          - residency_records_com
+          - rewindrecords_org
+          - rhinebeckvinylvault_com
+          - rollinrecs_com
+          - shugarecords_com
+          - sirenrecordsmonterey_com
+          - skeletunesrecords_com
+          - spoonfulrecordsohio_com
+          - squarecatvinyl_com
+          - staticatx_com
+          - theendofallmusicjxn_com
+          - thevinylstand_com
+          - thevinyluniverse_com
+          - tigerrosevintage_com
+          - tinybot_com
+          - toadhallonline_com
+          - tonedeafrecs_com
+          - tunnelrecordssf_com
+          - turntabletreasures_com
+          - unleashabraxas_com
       mode:
         description: "Read-only collection mode"
         required: true

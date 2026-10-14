@@ -17,3 +17,5 @@ The public discovery cycle is scheduled ten times per UTC day at two-hour interv
 ## Naming convention and single-scraper view
 
 Actions use the prefixes `SCRAPER | Batch | ...` for scheduled batches and `SCRAPER | Manual | ...` for a deliberate single-scraper pilot. Generated profiles use the stable domain slug (`<domain-with-non-alphanumeric-replaced-by-underscores>`), for example `22soundrecords_com`. The scheduled workflows write a per-scraper table to the GitHub job summary. The `SCRAPER | Manual | Single scraper` workflow accepts one slug and runs only that profile without changing health state.
+
+The single-scraper workflow currently exposes the 57 published profile slugs as a GitHub dropdown. GitHub Actions cannot populate `workflow_dispatch` choices dynamically at runtime; when new profiles are published, the options list must be regenerated in the workflow file (or the slug can still be run through the batch workflow).
