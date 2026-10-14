@@ -64,7 +64,9 @@ class WooCommerceNewVinylAdapter:
             public_source(url, self.domain)
             condition = attribute_values(product, "condition")
             formats = attribute_values(product, "format") | attribute_values(product, "media")
-            if condition != {"new"} or not (formats & {"vinyl", "lp", "12 inch", "7 inch"}):
+            used_condition = bool(condition & {"used", "pre-owned", "preowned", "second-hand", "second hand",
+                                               "vintage", "graded", "vg", "vg+", "nm"})
+            if used_condition or not (formats & {"vinyl", "lp", "12 inch", "7 inch"}):
                 exclusions.append({"url": url, "signal": "new_vinyl_not_proven", "at": observed_at})
                 continue
             prices = product.get("prices")

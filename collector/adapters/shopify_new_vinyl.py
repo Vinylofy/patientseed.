@@ -47,10 +47,9 @@ class ShopifyNewVinylAdapter:
             vinyl = bool(re.search(r"\b(vinyl|lp|12 inch|7 inch)\b", evidence))
             nonvinyl = bool(re.search(r"\b(cd|cassette|dvd|blu[- ]?ray|merchandise|equipment)\b", evidence))
             product_type = str(product.get("product_type", "")).strip().lower()
-            new = (product_type in {"new", "new records", "new vinyl"}
-                   or bool(re.search(r"\bnew\s+(?:lp|vinyl|record)s?\b", str(product.get("title", "")), re.I))
-                   or any(str(t).strip().lower() in {"new", "new vinyl", "new lp", "condition:new"} for t in tags))
-            if used or not vinyl or nonvinyl or not new:
+            # Factory policy: an item is presumed new when it is vinyl and no
+            # second-hand/used signal is present. Explicit used signals still win.
+            if used or not vinyl or nonvinyl:
                 exclusions.append({"url": url, "signal": "new_vinyl_not_proven" if not used else "used", "at": observed_at})
                 continue
             variants = product.get("variants")

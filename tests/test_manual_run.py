@@ -90,7 +90,7 @@ class ManualRunTests(unittest.TestCase):
         self.assertEqual(platform_hint("<script src='https://static1.squarespace.com/x'>"), "squarespace")
         self.assertEqual(platform_hint("<html>Records for sale</html>"), "unknown")
 
-    def test_woocommerce_requires_explicit_new_vinyl_and_currency(self):
+    def test_woocommerce_requires_vinyl_and_currency_but_presumes_new(self):
         adapter = WooCommerceNewVinylAdapter("example.com")
         product = {"id": 7, "name": "Artist - Album", "permalink": "https://example.com/product/album",
                    "is_in_stock": True, "prices": {"price": "1995", "currency_code": "USD",
@@ -104,7 +104,11 @@ class ManualRunTests(unittest.TestCase):
         without_condition = {**product, "attributes": product["attributes"][1:]}
         rejected = adapter.parse_listing(json.dumps([without_condition]), source_url=route,
                                          observed_at="2026-10-05T00:00:00Z")
-        self.assertEqual(rejected.listings, ())
+        self.assertEqual(len(rejected.listings), 1)
+        used = {**product, "attributes": [{"name": "Condition", "terms": [{"name": "Used"}]}] + product["attributes"][1:]}
+        used_result = WooCommerceNewVinylAdapter("example.com").parse_listing(
+            json.dumps([used]), source_url=route, observed_at="2026-10-05T00:00:00Z")
+        self.assertEqual(used_result.listings, ())
         detail = adapter.parse_detail(
             '<script type="application/ld+json">{"@type":"Product","gtin12":"012345678905"}</script>',
             source_url=product["permalink"], listing=page.listings[0])
@@ -159,14 +163,23 @@ class ManualRunTests(unittest.TestCase):
         self.assertEqual(source_domain("https://m.facebook.com/shop"), ("m.facebook.com", "SHARED_PLATFORM"))
         self.assertEqual(source_domain("https://shop.example.com/vinyl"), ("shop.example.com", "READY"))
 
-    def test_new_arrivals_and_vinyl_type_do_not_prove_new_condition(self):
+    def test_vinyl_without_secondhand_marker_is_presumed_new(self):
         product = {"handle": "record", "title": "Artist - Album", "product_type": "Vinyl",
                    "tags": ["New Arrivals"], "variants": [{"id": 1, "available": True, "price": "20.00"}]}
         page = ShopifyNewVinylAdapter("example.com").parse_listing(
             json.dumps({"products": [product]}), source_url="https://example.com/products.json?limit=20&page=1",
             observed_at="2026-10-04T00:00:00Z")
+        self.assertEqual(len(page.listings), 1)
+        self.assertEqual(page.listings[0]["condition"], "new")
+
+    def test_explicit_used_marker_still_excludes_shopify_product(self):
+        product = {"handle": "record", "title": "Artist - Vinyl", "product_type": "Vinyl",
+                   "tags": ["Used"], "variants": [{"id": 1, "available": True, "price": "20.00"}]}
+        page = ShopifyNewVinylAdapter("example.com").parse_listing(
+            json.dumps({"products": [product]}), source_url="https://example.com/products.json?limit=20&page=1",
+            observed_at="2026-10-04T00:00:00Z")
         self.assertEqual(page.listings, ())
-        self.assertEqual(page.exclusions[0]["signal"], "new_vinyl_not_proven")
+        self.assertEqual(page.exclusions[0]["signal"], "used")
 
 
 if __name__ == "__main__":
