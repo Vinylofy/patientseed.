@@ -13,7 +13,7 @@ def slug(value: str) -> str:
 
 def render(name: str, mode: str) -> str:
     label = "Price" if mode == "price" else "EAN"
-    return f'''name: SCRAPER | {name}
+    return f'''name: SCRAPER | {label} | {name}
 
 run-name: SCRAPER | {name} | {label}
 
