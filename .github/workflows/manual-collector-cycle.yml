@@ -28,7 +28,7 @@ jobs:
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
-          persist-credentials: false
+          persist-credentials: true
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: "3.12"
@@ -71,6 +71,24 @@ jobs:
         run: python -m collector.manual_run --queue collector/public-queue.json --start-index "$(cat collector-start-index.txt)" --batch-limit "$BATCH_LIMIT" --output collector-run.json
       - name: Build and self-test scraper wrappers
         run: python -m collector.build_scrapers --result collector-run.json --output collector/generated
+      - name: Update scraper lifecycle and freeze exhausted shops
+        run: |
+          python -m collector.lifecycle \
+            --result collector-run.json \
+            --state collector/scraper-lifecycle.json \
+            --frozen-root collector/frozen \
+            --max-attempts 3
+      - name: Commit central lifecycle status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add collector/scraper-lifecycle.json collector/scraper-lifecycle.md collector/frozen
+          if git diff --cached --quiet; then
+            echo "No lifecycle status changes to commit."
+          else
+            git commit -m "Record scraper lifecycle status"
+            git push
+          fi
       - name: Publish generated scrapers
         env:
           GH_TOKEN: ${{ github.token }}

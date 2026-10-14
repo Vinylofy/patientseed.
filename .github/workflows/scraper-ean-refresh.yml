@@ -1,0 +1,46 @@
+name: Read-only scraper EAN refresh
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Maximaal aantal EAN-detailrecords"
+        required: true
+        default: "250"
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: scraper-ean-refresh
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: scraper-builds
+          path: published
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.12"
+      - name: Run read-only EAN collection
+        env:
+          LIMIT: ${{ inputs.limit || '250' }}
+        run: python -m collector.execute_generated --root published/collector/generated --mode ean --limit "$LIMIT" --output ean-refresh.json
+      - uses: actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08 # v4
+        with:
+          name: scraper-ean-refresh-${{ github.run_id }}
+          path: ean-refresh.json
+          if-no-files-found: error
+          retention-days: 30
