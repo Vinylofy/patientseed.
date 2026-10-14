@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "domain": "contactrecordstore.com",
+  "platform": "shopify",
+  "adapter_class": "ShopifyNewVinylAdapter",
+  "catalog_route": "https://contactrecordstore.com/collections/all/products.json?limit=20&page=1",
+  "discovery_method": {
+    "platform": "shopify",
+    "route": "https://contactrecordstore.com/collections/all/products.json?limit=20&page=1",
+    "score": 115,
+    "selection": "highest_bounded_adapter_score"
+  },
+  "method_candidates": [
+    {
+      "platform": "shopify",
+      "route": "https://contactrecordstore.com/products.json?limit=20&page=1",
+      "score": 45,
+      "products_seen": 20,
+      "accepted": 4,
+      "excluded": 16,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://contactrecordstore.com/collections/all/products.json?limit=20&page=1",
+      "score": 115,
+      "products_seen": 22,
+      "accepted": 11,
+      "excluded": 11,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "woocommerce",
+      "route": "https://contactrecordstore.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_400"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://contactrecordstore.com/api/0.1/collections/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://contactrecordstore.com/api/0.1/collections/all/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://contactrecordstore.com/api/storefront/products?limit=20&offset=0",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://contactrecordstore.com/api/storefront/products?limit=20",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    }
+  ],
+  "listing_sample": 11,
+  "detail_checked": 2,
+  "detail_gtin_valid": 0,
+  "release_status": "SCRAPER_BUILT_TESTED"
+}
