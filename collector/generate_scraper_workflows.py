@@ -129,6 +129,12 @@ def generate(profile_root: Path, output: Path) -> list[Path]:
         name = slug(str(data.get("domain", profile.stem)))
         if name:
             all_names.add(name)
+    for name in sorted(all_names):
+        for mode in ("price", "ean"):
+            path = output / f"scraper-{mode}-{name}.yml"
+            if not path.exists():
+                path.write_text(render(name, mode), encoding="utf-8")
+                created.append(path)
     created.extend(sync_shards(output, all_names))
     return created
 

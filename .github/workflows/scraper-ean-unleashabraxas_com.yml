@@ -1,0 +1,20 @@
+name: SCRAPER | unleashabraxas_com
+
+run-name: SCRAPER | unleashabraxas_com | EAN
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Maximum records"
+        required: true
+        default: "250"
+        type: string
+
+jobs:
+  scraper:
+    uses: ./.github/workflows/scraper-single-reusable.yml
+    with:
+      scraper_slug: unleashabraxas_com
+      mode: ean
+      limit: ${{ inputs.limit }}
