@@ -345,7 +345,6 @@ Maximale bouwpogingen: 3
 | coastalmonogramcompany.com | 557 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | shopcollectco.com | 560 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | collectingproblems.com | 561 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| linktr.ee | 562 | 1 | SOURCE_REVIEW | — | — | — | SHARED_PLATFORM |
 | collectorsconnectionduluth.com | 563 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | eisenhowerhealth.org | 564 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | collectorscrossroads.com | 565 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
@@ -474,12 +473,77 @@ Maximale bouwpogingen: 3
 | doubledarerecordstore.com | 752 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | downhomemusic.com | 757 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | downinthevalley.com | 758 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| facebook.com | 759 | 67 | FROZEN | — | — | — | SHARED_PLATFORM |
 | downtownbookandsound.com | 760 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | downtownbooksonline.com | 761 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | downtowndiscak.com | 762 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | downtownmusicgallery.com | 763 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
-| instagram.com | 764 | 24 | FROZEN | — | — | — | SHARED_PLATFORM |
+| dtsvinyl.com | 767 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['dtsvinyl_com.py', 'dtsvinyl_com.json'] |
+| downtownvinyl307.com | 768 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| drfreeclouds.com | 769 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| drmusic123.com | 770 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| drstrange.com | 771 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| metalages.com | 773 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dreamonoids.com | 776 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| drinksrecords.com | 778 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['drinksrecords_com.py', 'drinksrecords_com.json'] |
+| driver8records.com | 779 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| druidcityvintageal.com | 781 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| drumbugmusic.com | 782 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lunattix.com | 784 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dumbrecs.com | 786 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| duncanvillebookstore.com | 787 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| duskygrousecoffee.com | 788 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dustygroove.com | 789 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| dynorecords.com | 790 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| eaglevail.org | 791 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| earcandymusic.biz | 792 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| earfoodrecordstore.com | 793 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| earlyowego.com | 794 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| earthriveravl.com | 796 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| eastcountyvinyl.com | 798 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| eastforkmall.com | 799 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| eastoforegonrecords.com | 800 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| nwnprod.com | 802 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| easygoingrecords.us | 805 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['easygoingrecords_us.py', 'easygoingrecords_us.json'] |
+| easystreetonline.com | 806 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| eccohollow.com | 807 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| echoechorecords.com | 808 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vintagestoreslidell.com | 809 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| eclipserecordsmn.com | 811 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| econojamrecords.com | 812 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['econojamrecords_com.py', 'econojamrecords_com.json'] |
+| edenmendocino.com | 813 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| elsuprimo.com | 818 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| electricavenuemusicwc.com | 821 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| electricbuddhas.com | 822 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| shopelectriccherry.com | 823 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| electriccityrepair.com | 824 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| linktr.ee | 825 | 2 | SOURCE_REVIEW | — | — | — | SHARED_PLATFORM |
+| electricfetus.com | 828 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| electrickitsch.com | 830 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| electricladylandlou.com | 831 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| electronicsflip.com | 832 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| instagram.com | 833 | 26 | FROZEN | — | — | — | SHARED_PLATFORM |
+| elizabethsrecords.wordpress.com | 837 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| elkcityrecords.com | 838 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| elmhurstrecords.com | 841 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| elsiebellsantiquemalls.com | 843 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| elusivedisc.com | 844 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| emporiumayala.com | 846 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| encorerecordsa2.com | 847 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| theendofallmusic.com | 848 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| endofanear.com | 849 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['endofanear_com.py', 'endofanear_com.json'] |
+| endlessnoise.com | 850 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| endlessoundrecords.com | 853 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['endlessoundrecords_com.py', 'endlessoundrecords_com.json'] |
+| endorecords.com | 854 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['endorecords_com.py', 'endorecords_com.json'] |
+| postoakmall.com | 857 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| richlandmall.com | 858 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vintagestock.com | 859 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| simon.com | 860 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| entertainmart.com | 861 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| explodingstars.com | 862 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| facebook.com | 863 | 76 | FROZEN | — | — | — | SHARED_PLATFORM |
+| erarockford.com | 864 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| ergotrecords.blogspot.com | 865 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| eriestvinyl.com | 866 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | shopsouthcountycenter.com | 3007 | 1 | PLATFORM_REVIEW | — | — | — | Shopify feed contract unproven |
 | valshallarecords.com | 3008 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | valpovintage.com | 3011 | 1 | PLATFORM_REVIEW | — | — | — | HTTP_400 |
