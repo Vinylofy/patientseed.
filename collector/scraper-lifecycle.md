@@ -459,7 +459,6 @@ Maximale bouwpogingen: 3
 | dimensions-comics.com | 716 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | discreplaych.com | 721 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | discreplay.com | 723 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| discogs.com | 725 | 8 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
 | discobeancoffeecompany.com | 726 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | discodeathrecords.com | 727 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['discodeathrecords_com.py', 'discodeathrecords_com.json'] |
 | discodelic.com | 729 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -516,12 +515,10 @@ Maximale bouwpogingen: 3
 | electricbuddhas.com | 822 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | shopelectriccherry.com | 823 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | electriccityrepair.com | 824 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| linktr.ee | 825 | 2 | SOURCE_REVIEW | — | — | — | SHARED_PLATFORM |
 | electricfetus.com | 828 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | electrickitsch.com | 830 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | electricladylandlou.com | 831 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | electronicsflip.com | 832 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
-| instagram.com | 833 | 26 | FROZEN | — | — | — | SHARED_PLATFORM |
 | elizabethsrecords.wordpress.com | 837 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | elkcityrecords.com | 838 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | elmhurstrecords.com | 841 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -540,10 +537,75 @@ Maximale bouwpogingen: 3
 | simon.com | 860 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | entertainmart.com | 861 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | explodingstars.com | 862 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| facebook.com | 863 | 76 | FROZEN | — | — | — | SHARED_PLATFORM |
 | erarockford.com | 864 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | ergotrecords.blogspot.com | 865 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
 | eriestvinyl.com | 866 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ernesttubbrecordshop.co | 867 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ernienovember.com | 869 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| erodingwinds.com | 870 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['erodingwinds_com.py', 'erodingwinds_com.json'] |
+| esotericrecords.weebly.com | 871 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
+| hollandesw.com | 872 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| etownrecordlounge.com | 873 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| euclidrecords.com | 874 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| euclidrecordsneworleans.com | 875 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| eugenesrecordcoop.com | 876 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| evergreenvinyl.com | 878 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['evergreenvinyl_com.py', 'evergreenvinyl_com.json'] |
+| everlongrecords.squarespace.com | 879 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| everybodysrecords.com | 881 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| everydaymusic.com | 882 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| everything-nice.co | 883 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| highlyevolving.com | 884 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| exileonmain.com | 885 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| exilemainstreet.com | 886 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| exiledrecords.com | 888 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| experiencevinyl.com | 889 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['experiencevinyl_com.py', 'experiencevinyl_com.json'] |
+| extinctionrecords.com | 892 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| extremenoiserecords.com | 893 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ez2collect.com | 895 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discogs.com | 896 | 9 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
+| factoryrecords.com | 898 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['factoryrecords_com.py', 'factoryrecords_com.json'] |
+| fairplayrecordstore.com | 900 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| famous-joes.net | 904 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| fantasylandrecords.com | 905 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| fatcatrecordsus.com | 908 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| fatdogvinyl.com | 909 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| fatelephantrecords.com | 910 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| linktr.ee | 911 | 4 | FROZEN | — | — | — | SHARED_PLATFORM |
+| fatrabbitky.com | 912 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| feedingtuberecords.com | 914 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| feelitrecordshop.com | 915 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['feelitrecordshop_com.py', 'feelitrecordshop_com.json'] |
+| feelitrecords.com | 916 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| fezrecords.com | 917 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sanjuanproducts.com | 920 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| finersounds.com | 923 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['finersounds_com.py', 'finersounds_com.json'] |
+| fingerprintsmusic.com | 925 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| firetalk.shop | 927 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['firetalk_shop.py', 'firetalk_shop.json'] |
+| firstcityrecordstore.com | 929 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['firstcityrecordstore_com.py', 'firstcityrecordstore_com.json'] |
+| firstdayvinyl.com | 930 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| flagstaffrecords.com | 934 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| flatblackandcircular.net | 936 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thefleurdeflea.com | 939 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| facebook.com | 940 | 83 | FROZEN | — | — | — | SHARED_PLATFORM |
+| webuyvinylrecords.com | 941 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| flipmall.com | 943 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| shopflipsiderecords.com | 944 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['shopflipsiderecords_com.py', 'shopflipsiderecords_com.json'] |
+| flipsidesounds.wixsite.com | 946 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
+| flowerchildvintage.com | 947 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| floweringspikes.com | 948 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| flyvintageandvinyl.com | 949 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| flyingpigmusic.com | 950 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| folkartsrarerecords.com | 952 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| folklore-napa.com | 953 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| footworkrecords.com | 954 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| footlight.com | 955 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| fortherecordnyc.com | 957 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['fortherecordnyc_com.py', 'fortherecordnyc_com.json'] |
+| fortherecordonline.com | 958 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| fortherecord-uc.com | 959 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| foreverchangesrecords.com | 961 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| foreveryoungrecords.com | 962 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| fortwaltonvintagerecords.com | 964 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| foundinfortuna.com | 965 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| instagram.com | 966 | 31 | FROZEN | — | — | — | SHARED_PLATFORM |
 | shopsouthcountycenter.com | 3007 | 1 | PLATFORM_REVIEW | — | — | — | Shopify feed contract unproven |
 | valshallarecords.com | 3008 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | valpovintage.com | 3011 | 1 | PLATFORM_REVIEW | — | — | — | HTTP_400 |
