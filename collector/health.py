@@ -46,6 +46,8 @@ def _is_good(mode: str, observation: dict, expected: int) -> bool:
     if observation.get("status") != "success" or observation.get("truncated"):
         return False
     records = int(observation.get("records", 0))
+    if mode == "price" and observation.get("price_quality", {"status": "not_evaluated"}).get("status") not in {"pass", "not_evaluated"}:
+        return False
     if expected > 0 and records == 0:
         return False
     if mode == "ean" and records > 0 and int(observation.get("detail_errors", 0)) >= records:

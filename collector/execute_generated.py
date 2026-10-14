@@ -8,6 +8,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from collector.contracts import CollectionBlocked, Limits, assert_credential_free_environment
+from collector.price_quality import assess as assess_price_quality
 from collector.transport import Transport, public_source
 
 
@@ -36,13 +37,14 @@ def run(root: Path, mode: str, limit: int, profile_filter: str | None = None) ->
         matched = True
         profile_result = {"profile": profile_path.name, "status": "not_run_limit" if len(rows) >= limit else "success",
                           "records": 0, "ean_records": 0, "errors": [], "detail_errors": 0,
-                          "truncated": False}
+                          "truncated": False, "price_quality": {"status": "not_evaluated"}}
         if len(rows) >= limit:
             profiles.append(profile_result)
             continue
         try:
             profile, scraper = load_profile(profile_path)
             profile_result["domain"] = profile.get("domain", "")
+            profile_rows = []
             domain = profile["domain"]
             route = profile["catalog_route"]
             public_source(route, domain)
@@ -66,10 +68,13 @@ def run(root: Path, mode: str, limit: int, profile_filter: str | None = None) ->
                         record["detail_error"] = type(exc).__name__
                         profile_result["detail_errors"] += 1
                 rows.append(record)
+                profile_rows.append(record)
                 profile_result["records"] += 1
                 if record.get("ean"):
                     profile_result["ean_records"] += 1
             profile_result["truncated"] = len(rows) >= limit
+            if mode == "price" and not profile_result["truncated"]:
+                profile_result["price_quality"] = assess_price_quality(profile_rows)
         except (CollectionBlocked, OSError, TimeoutError, ValueError, KeyError) as exc:
             error = {"profile": profile_path.name, "error": type(exc).__name__, "reason": str(exc)[:200]}
             errors.append(error)
