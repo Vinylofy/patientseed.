@@ -4,7 +4,68 @@
   "platform": "shopify",
   "adapter_class": "ShopifyNewVinylAdapter",
   "catalog_route": "https://joseyrecords.com/products.json?limit=20&page=1",
-  "listing_sample": 2,
+  "discovery_method": {
+    "platform": "shopify",
+    "route": "https://joseyrecords.com/products.json?limit=20&page=1",
+    "score": 135,
+    "selection": "highest_bounded_adapter_score"
+  },
+  "method_candidates": [
+    {
+      "platform": "shopify",
+      "route": "https://joseyrecords.com/products.json?limit=20&page=1",
+      "score": 135,
+      "products_seen": 20,
+      "accepted": 13,
+      "excluded": 7,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://joseyrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 65,
+      "products_seen": 20,
+      "accepted": 6,
+      "excluded": 14,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "woocommerce",
+      "route": "https://joseyrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_400"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://joseyrecords.com/api/0.1/collections/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://joseyrecords.com/api/0.1/collections/all/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://joseyrecords.com/api/storefront/products?limit=20&offset=0",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://joseyrecords.com/api/storefront/products?limit=20",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    }
+  ],
+  "listing_sample": 13,
   "detail_checked": 2,
   "detail_gtin_valid": 0,
   "release_status": "SCRAPER_BUILT_TESTED"
