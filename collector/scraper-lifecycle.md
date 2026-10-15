@@ -878,7 +878,6 @@ Maximale bouwpogingen: 3
 | kowabungacomics.com | 1393 | 1 | SOURCE_BLOCKED | — | — | — | RemoteDisconnected |
 | shop.kpopnara.com | 1395 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | krakenrecordstore.com | 1396 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| m.facebook.com | 1404 | 12 | FROZEN | — | — | — | SHARED_PLATFORM |
 | lagniapperecords.com | 1405 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | lakecountrybooks.com | 1406 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | landfillrescueunit.com | 1408 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -985,7 +984,6 @@ Maximale bouwpogingen: 3
 | mi-ruralrecords.com | 1598 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | linktr.ee | 1600 | 9 | FROZEN | — | — | — | SHARED_PLATFORM |
 | midnitemoon.shop | 1602 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
-| discogs.com | 1604 | 15 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
 | ebay.com | 1605 | 4 | FROZEN | — | — | — | SHARED_PLATFORM |
 | milelongrecords.com | 1606 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | millcitysound.com | 1608 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -1023,13 +1021,70 @@ Maximale bouwpogingen: 3
 | monumentalmarket.com | 1650 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | moodringrecordsslc.com | 1651 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['moodringrecordsslc_com.py', 'moodringrecordsslc_com.json'] |
 | moodsmusic.net | 1653 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| facebook.com | 1657 | 150 | FROZEN | — | — | — | SHARED_PLATFORM |
 | moondogrecordslv.com | 1659 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | mooniganmusic.com | 1660 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
-| instagram.com | 1661 | 54 | FROZEN | — | — | — | SHARED_PLATFORM |
 | moonshotemporium.com | 1662 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | moonstruckfleamarket.com | 1663 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | morganscomics.com | 1666 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| morphogallery.com | 1667 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| morrowrecords.com | 1668 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['morrowrecords_com.py', 'morrowrecords_com.json'] |
+| mothershipyork.com | 1670 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mottainaisantafe.com | 1671 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| climbmountanalog.com | 1672 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| mountainmusicvt.com | 1676 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| movietradingcompany.com | 1679 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mrcheapocds.com | 1682 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| mrvinyl.net | 1683 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mrzeros.com | 1684 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| muscleshoalsrecordshop.com | 1689 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| themushroomnola.com | 1690 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musiccityny.com | 1695 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musicconnection.us | 1696 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musicconnectionrecordstore.com | 1698 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musiccooponline.com | 1699 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| m.facebook.com | 1701 | 16 | FROZEN | — | — | — | SHARED_PLATFORM |
+| musichealsinc.com | 1703 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| music-history.org | 1704 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| musicmattersny.com | 1706 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| musicmillennium.com | 1708 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musicnon-stop.com | 1709 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musiconmainstreetga.com | 1710 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musictomyear.com | 1714 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musictowntx.com | 1715 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musicalenergi.com | 1717 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musiciansdiscount.net | 1720 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musicologyco.com | 1721 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['musicologyco_com.py', 'musicologyco_com.json'] |
+| musique-plastique.com | 1722 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mymamasdania.com | 1724 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mymindseyerecords.com | 1725 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| myvinyloffer.com | 1730 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| myvinylunderground.com | 1731 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| mysterytrainrecords.com | 1732 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| nailcityrecord.com | 1737 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['nailcityrecord_com.py', 'nailcityrecord_com.json'] |
+| 78rpm.com | 1739 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| needfulthingsky.com | 1740 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| needlengroove.com | 1741 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| needleandbean.com | 1742 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| needleandgrooverecords.com | 1743 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| needledroprecords.com | 1744 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| needletothegroove.net | 1745 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| needlesandfins.com | 1746 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['needlesandfins_com.py', 'needlesandfins_com.json'] |
+| neighborhoodcomics.com | 1747 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['neighborhoodcomics_com.py', 'neighborhoodcomics_com.json'] |
+| nerdbombers.com | 1749 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| nerdcoremaine.com | 1750 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| neuserecords.com | 1751 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| newstylerecords.com | 1753 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| newburycomics.com | 1754 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['newburycomics_com.py', 'newburycomics_com.json'] |
+| newtownbookandrecord.com | 1755 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| nextleveldjservice.wixsite.com | 1756 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
+| discogs.com | 1757 | 16 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
+| nhvintagevinyl.com | 1758 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['nhvintagevinyl_com.py', 'nhvintagevinyl_com.json'] |
+| nicepricebooksandrecords.com | 1759 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| nickelodeonrecords.com | 1760 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| nilerecordsaz.com | 1761 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| nivessa.com | 1762 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| instagram.com | 1765 | 58 | FROZEN | — | — | — | SHARED_PLATFORM |
+| facebook.com | 1766 | 158 | FROZEN | — | — | — | SHARED_PLATFORM |
 | shopsouthcountycenter.com | 3007 | 1 | PLATFORM_REVIEW | — | — | — | Shopify feed contract unproven |
 | valshallarecords.com | 3008 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | valpovintage.com | 3011 | 1 | PLATFORM_REVIEW | — | — | — | HTTP_400 |
