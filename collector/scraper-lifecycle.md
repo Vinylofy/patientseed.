@@ -143,7 +143,6 @@ Maximale bouwpogingen: 3
 | bartkusrecords.com | 235 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | basementrecordstn.com | 236 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | basilaudio.com | 237 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| ebay.com | 241 | 2 | SOURCE_REVIEW | — | — | — | SHARED_PLATFORM |
 | abebooks.com | 242 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | bayvinylrecords.com | 243 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | bbsrecordsnj.com | 244 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -896,7 +895,6 @@ Maximale bouwpogingen: 3
 | leftroundrecords.com | 1429 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | recordsleftofthedial.com | 1430 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | freshcomics.us | 1433 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| discogs.com | 1434 | 13 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
 | lemoynecoinandcollectibles.com | 1435 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | letsrockcrystalshop.com | 1438 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | libbysoldschoolrecords.com | 1440 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -905,7 +903,6 @@ Maximale bouwpogingen: 3
 | limitedtooneshop.com | 1448 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | lincolnvintagevinyl.com | 1449 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | lincolnvillelisteningroom.com | 1450 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| instagram.com | 1451 | 45 | FROZEN | — | — | — | SHARED_PLATFORM |
 | listenupmusicusa.com | 1454 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | listeningroomsaginaw.com | 1455 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | lititzmusic.com | 1456 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -914,8 +911,66 @@ Maximale bouwpogingen: 3
 | littlehorsevintage.com | 1460 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | little-records.com | 1461 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | livinginstereoatx.com | 1463 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
-| facebook.com | 1464 | 130 | FROZEN | — | — | — | SHARED_PLATFORM |
 | lloydsrecords.com | 1466 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| loadiomusic.com | 1468 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| lonelycrabrecords.com | 1469 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lonesomefrogrecords.com | 1470 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
+| longlivevinylrecords.com | 1472 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| longhairrecords.com | 1473 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lookout-music-media.edan.io | 1474 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| looneytunesrecordstore.com | 1477 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| lostandfoundrecordstore.com | 1479 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bookshop.org | 1481 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| lostpadrerecords.com | 1484 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lostweekendrecords.com | 1485 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lousrecords.com | 1487 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| loudpizza.com | 1488 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['loudpizza_com.py', 'loudpizza_com.json'] |
+| louisianamusicfactory.com | 1489 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| lovegardensounds.com | 1490 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lovepeoplerecords.com | 1491 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['lovepeoplerecords_com.py', 'lovepeoplerecords_com.json'] |
+| lovevinylrecords.com | 1492 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| lovewheelrecords.com | 1493 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| lovedagainmedia.com | 1494 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| lovelightrecordsandart.com | 1495 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lowfivearchive.com | 1498 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| luckycatrecords.com | 1501 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| luckyrecordsmiami.com | 1503 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lulorecords.com | 1507 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['lulorecords_com.py', 'lulorecords_com.json'] |
+| lunamusic.net | 1508 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lunarecordshop.com | 1509 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['lunarecordshop_com.py', 'lunarecordshop_com.json'] |
+| lunchboxrecords.com | 1510 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['lunchboxrecords_com.py', 'lunchboxrecords_com.json'] |
+| mtheorymusic.com | 1515 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| madjacks.net | 1518 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| rasputinmusic.com | 1519 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| madradio.co | 1521 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| madcitymusic.net | 1522 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ebay.com | 1523 | 3 | FROZEN | — | — | — | SHARED_PLATFORM |
+| maemusic.com | 1525 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['maemusic_com.py', 'maemusic_com.json'] |
+| stuffgenieonline.com | 1526 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| instagram.com | 1529 | 52 | FROZEN | — | — | — | SHARED_PLATFORM |
+| magnetictaperecorder.com | 1530 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| thunderpussy.com | 1531 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| magnoliasnc.com | 1532 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| maidenwaxrecords.com | 1534 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| mainstreetaudiovideo.com | 1536 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mainstreetbeat.com | 1537 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mainstreetjukebox.com | 1539 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mainstreetmusicpa.tuneportals.com | 1540 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| 112-main-street-revolution.square.site | 1541 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mainstreetvinyl.com | 1542 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| majestymusic.com | 1544 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| majorleaguecollect.wixsite.com | 1545 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
+| majorsrecordsny.com | 1546 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| manhattan45.com | 1549 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mantiquesbayarea.com | 1550 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| maplecitymusic.com | 1551 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['maplecitymusic_com.py', 'maplecitymusic_com.json'] |
+| marsrecordshop.com | 1557 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| masspooldigital.com | 1558 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| matonesmusic.com | 1560 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discogs.com | 1561 | 14 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
+| maxjrecords.com | 1562 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| may23online.com | 1565 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| facebook.com | 1566 | 139 | FROZEN | — | — | — | SHARED_PLATFORM |
 | shopsouthcountycenter.com | 3007 | 1 | PLATFORM_REVIEW | — | — | — | Shopify feed contract unproven |
 | valshallarecords.com | 3008 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | valpovintage.com | 3011 | 1 | PLATFORM_REVIEW | — | — | — | HTTP_400 |
