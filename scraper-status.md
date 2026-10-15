@@ -1,17 +1,17 @@
 # Centrale scraperstatus
 
-Bronregels: 3303. Behandeld voor broncontrole: 1460. Open voor broncontrole: 1843.
+Bronregels: 3303. Behandeld voor broncontrole: 1860. Open voor broncontrole: 1443.
 
 Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine checksumproeven; private acceptatie, marktprijzen en imports volgen apart.
 
 ## Statusaantallen
 
-- ADAPTER_TESTED: 51
+- ADAPTER_TESTED: 70
 - DETAIL_GATE_BLOCKED: 98
-- ROUTE_REVIEW: 508
-- SCRAPER_BUILT_TESTED: 94
-- SOURCE_BLOCKED: 152
-- SOURCE_REVIEW: 557
+- ROUTE_REVIEW: 648
+- SCRAPER_BUILT_TESTED: 120
+- SOURCE_BLOCKED: 201
+- SOURCE_REVIEW: 723
 
 ## Winkels
 
@@ -32,7 +32,7 @@ Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine 
 | 12 |  | 23 | 14a Records | 14arecords.com | woocommerce | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 13 |  | 33 | 74 Kid Records; Vinyl Revival | 74kid.com | woocommerce | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 14 |  | 119 | Analog Archivers | analogarchivers.com | woocommerce | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
-| 15 |  | 127 | Anaphora Discs | anaphoradiscs.com | woocommerce | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 15 |  | 127 | Anaphora Discs | anaphoradiscs.com | woocommerce | DETAIL_GATE_BLOCKED | 0 | 0/0 geldig | detailroute of catalogus opnieuw beoordelen: no detail page passed the bounded recheck |
 | 16 |  | 21 | 11th Street Records | 11thstreetrecords.net | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 17 |  | 32 | 54 Vintage Vinyl | rpmunderground.us | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 18 |  | 48 | A DAY IN THE LIFE RECORDS | adayintheliferecords.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
@@ -213,7 +213,7 @@ Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine 
 | 193 |  | 200 | Autumn Records Winooski | autumnrecordsvt.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 194 |  | 201 | Azio Media - Books, Music & More | aziomedia.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 195 | 11 | 202 | B & T Music | discogs.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: DUPLICATE_DOMAIN |
-| 196 |  | 203 | B Side Records | bluescentric.com | woocommerce | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 196 |  | 203 | B Side Records | bluescentric.com | woocommerce | DETAIL_GATE_BLOCKED | 0 | 0/0 geldig | detailroute of catalogus opnieuw beoordelen: no detail page passed the bounded recheck |
 | 197 |  | 204 | B-Side Record Shop | bsiderecordshop.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 198 | 11 | 205 | B-Side Records | b-sidemadison.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
 | 199 |  | 206 | B-Side Records & Vintage | bsiderecordsvintage.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
@@ -1477,406 +1477,406 @@ Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine 
 | 1457 | 22 | 1464 | Livvy Rocks | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 1458 | 22 | 1465 | Lizard Dog Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 1459 | 22 | 1466 | Lloyd's Records | lloydsrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
-| 1460 |  | 1467 | LO & BEHOLD! Records & Books! |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1461 |  | 1468 | Loadio Music - Monsey | loadiomusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1462 |  | 1469 | Lonely Crab Records | lonelycrabrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1463 |  | 1470 | Lonesome Frog Records | lonesomefrogrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1464 |  | 1471 | Long In the Tooth | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1465 |  | 1472 | Long Live Vinyl Records | longlivevinylrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1466 |  | 1473 | LongHair Records | longhairrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1467 |  | 1474 | Lookout Music & Media | lookout-music-media.edan.io |  | PENDING |  | — | broncontrole uitvoeren |
-| 1468 |  | 1475 | Looney Tunes |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1469 |  | 1476 | Looney Tunes II |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1470 |  | 1477 | Looney Tunes Record Store | looneytunesrecordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1471 |  | 1478 | Lost & Found | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1472 |  | 1479 | Lost and Found Records | lostandfoundrecordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1473 |  | 1480 | Lost Art Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1474 |  | 1481 | Lost Books, Plants & Vinyl | bookshop.org |  | PENDING |  | — | broncontrole uitvoeren |
-| 1475 |  | 1482 | Lost Hi-Way Books & Records | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1476 |  | 1483 | Lost in the Groove |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1477 |  | 1484 | Lost Padre Records | lostpadrerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1478 |  | 1485 | Lost Weekend Records | lostweekendrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1479 |  | 1486 | Lou's Record Store |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1480 |  | 1487 | Lou's Records | lousrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1481 |  | 1488 | Loud Pizza Records | loudpizza.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1482 |  | 1489 | Louisiana Music Factory | louisianamusicfactory.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1483 |  | 1490 | Love Garden Sounds | lovegardensounds.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1484 |  | 1491 | Love People Records | lovepeoplerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1485 |  | 1492 | Love Vinyl Records | lovevinylrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1486 |  | 1493 | Love Wheel Records | lovewheelrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1487 |  | 1494 | Loved Again Media | lovedagainmedia.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1488 |  | 1495 | Lovelight Records and Art | lovelightrecordsandart.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1489 |  | 1496 | Lovell's Records | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1490 |  | 1497 | Low - Vintage Clothing, Records & Antiques | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1491 |  | 1498 | Low Five Analog Archive | lowfivearchive.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1492 |  | 1499 | Low Yo Yo Stuff Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1493 |  | 1500 | LRB Skate and Record Shop | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1494 |  | 1501 | Lucky Cat Records | luckycatrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1495 |  | 1502 | Lucky Cat Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1496 |  | 1503 | Lucky Records Miami | luckyrecordsmiami.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1497 |  | 1504 | Lucky’s Back in Time | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1498 |  | 1505 | LuDog Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1499 |  | 1506 | Luis Record Shop |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1500 |  | 1507 | Lulo Records; Lulo Records at Andres Carne de Res; Lulo Records at Hausmash; Lulo Records at Hausmash (Weston); Lulo Records at WildHouse | lulorecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1501 |  | 1508 | Luna Music | lunamusic.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 1502 |  | 1509 | Luna Record Shop | lunarecordshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1503 |  | 1510 | Lunchbox Records | lunchboxrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1504 |  | 1511 | Lund Record Collections |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1505 |  | 1512 | LUV Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1506 |  | 1513 | Lyles Record Shop |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1507 |  | 1514 | Lyric Vendors Vinyl Records | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1508 |  | 1515 | M-Theory Music | mtheorymusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1509 |  | 1516 | Mac's Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1510 |  | 1517 | Mad Bad Music Dungeon | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1511 |  | 1518 | Mad Jack's Records & Comics | madjacks.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 1512 |  | 1519 | Mad Monk Vintage; Rasputin Music; Rasputin Music & Anastasia's Vintage; Rasputin Music / Anastasia's Vintage | rasputinmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1513 |  | 1520 | Mad Platter Records & Wonderland Books |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1514 |  | 1521 | Mad Records Cafe Miami | madradio.co |  | PENDING |  | — | broncontrole uitvoeren |
-| 1515 |  | 1522 | MadCity Music | madcitymusic.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 1516 |  | 1523 | Madman's Music Emporium & Gallery | ebay.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1517 |  | 1524 | MADSTYLE Vintage |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1518 |  | 1525 | MAE- Music Arts Enterprises, LLC | maemusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1519 |  | 1526 | Magic City Comics and Collectibles | stuffgenieonline.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1520 |  | 1527 | Magic Isle Record Shop | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1521 |  | 1528 | Magical New Beginnings | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1522 |  | 1529 | Magnesium Studios | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1523 |  | 1530 | Magnetic Tape Recorder Inc. & Stereo Center | magnetictaperecorder.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1524 |  | 1531 | Magnolia Thunderpussy | thunderpussy.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1525 |  | 1532 | Magnolias Home & Maker's Market | magnoliasnc.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1526 |  | 1533 | Magpie Alley Antiques and Oddities |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1527 |  | 1534 | Maiden Wax Records | maidenwaxrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1528 |  | 1535 | Main St. Vintage & Vinyl + Books | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1529 |  | 1536 | Main Street Audio/Video | mainstreetaudiovideo.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1530 |  | 1537 | Main Street Beat | mainstreetbeat.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1531 |  | 1538 | Main Street Jams |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1532 |  | 1539 | Main Street Jukebox | mainstreetjukebox.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1533 |  | 1540 | Main Street Music | mainstreetmusicpa.tuneportals.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1534 |  | 1541 | Main Street Revolution | 112-main-street-revolution.square.site |  | PENDING |  | — | broncontrole uitvoeren |
-| 1535 |  | 1542 | Main Street Vinyl, LLC | mainstreetvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1536 |  | 1543 | Majestic Turnaround |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1537 |  | 1544 | Majesty Music | majestymusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1538 |  | 1545 | Major League Collectibles & a Little Bit Moe | majorleaguecollect.wixsite.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1539 |  | 1546 | Majors Records & Video | majorsrecordsny.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1540 |  | 1547 | Malanatha Record Shop |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1541 |  | 1548 | Mall of St Paul |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1542 |  | 1549 | Manhattan45 | manhattan45.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1543 |  | 1550 | Mantiques Bay Area | mantiquesbayarea.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1544 |  | 1551 | Maple City Music | maplecitymusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1545 |  | 1552 | Marilynn-Collectibles & Antiques |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1546 |  | 1553 | Marion Antiques |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1547 |  | 1554 | Mark’s Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1548 |  | 1555 | Mark’s Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1549 |  | 1556 | Marley's Music |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1550 |  | 1557 | Mars Record Shop | marsrecordshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1551 |  | 1558 | masspool djs (digital Dj record pool) | masspooldigital.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1552 |  | 1559 | Mathew Nevels CD store |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1553 |  | 1560 | Matones Music | matonesmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1554 |  | 1561 | Matt Anthony's Record Shop | discogs.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1555 |  | 1562 | Max J Records | maxjrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1556 |  | 1563 | Maxine's Bargain Box |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1557 |  | 1564 | Maxwell's Music | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1558 |  | 1565 | May 23 Clothing and Music | may23online.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1559 |  | 1566 | Maya Books & Music | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1560 |  | 1567 | McCarthy Mercantile | mccarthymercantile.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1561 |  | 1568 | McKay Used Books | mckayusedbooks.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1562 |  | 1569 | McKay's Chattanooga; McKay's Mebane; McKay's Nashville; McKay's Winston-Salem | mckaybooks.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1563 |  | 1570 | McLaren's Collectibles | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1564 |  | 1571 | Mean Records | meanrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1565 |  | 1572 | Media Cavern |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1566 |  | 1573 | Media Mania | mediamaniaonline.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1567 |  | 1574 | Media Obscura - Book & CD Hut |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1568 |  | 1575 | Media Reload | mediareload.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 1569 |  | 1576 | MediumRare Records & Collectibles | mediumrarevinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1570 |  | 1577 | Meg's Vintage Collective |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1571 |  | 1578 | Mega Media Xchange Brookfield | megamediax.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1572 |  | 1579 | Mel's Record Shop | melsrecordshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1573 |  | 1580 | Mellow Matt's Music & More | mellowmatts.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1574 |  | 1581 | Melodies & Memories |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1575 |  | 1582 | Melodies and Memories |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1576 |  | 1583 | Melody Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1577 |  | 1584 | Melody Supreme \| Vinyl Records | cvillemelodysupreme.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1578 |  | 1585 | Melusina Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1579 |  | 1586 | Memo Record Shop |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1580 |  | 1587 | Memories Of Soul |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1581 |  | 1588 | Memory Music & Books |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1582 |  | 1589 | Memphis Music |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1583 |  | 1590 | MEOWMEOWZ! Retro 80s Thrift Boutique | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1584 |  | 1591 | Meridian Underground Music | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1585 |  | 1592 | Meriwether Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1586 |  | 1593 | Merle's Record Rack | merlesrecordrack.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1587 |  | 1594 | MetalEdge Records and Tapes | metaledgemusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1588 |  | 1595 | Meteor Gem | meteor-gem.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1589 |  | 1596 | Metro City Records | metrocityrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1590 |  | 1597 | Metro Records | metrorecordscf.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1591 |  | 1598 | Mi-Rural records | mi-ruralrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1592 |  | 1599 | Michiana Used Music & Media |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1593 |  | 1600 | Microgroove | linktr.ee |  | PENDING |  | — | broncontrole uitvoeren |
-| 1594 |  | 1601 | Mid-Town Records & Tapes |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1595 |  | 1602 | Midnite Moon | midnitemoon.shop |  | PENDING |  | — | broncontrole uitvoeren |
-| 1596 |  | 1603 | Midwest Crossroads Market |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1597 |  | 1604 | Mike Vague Records | discogs.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1598 |  | 1605 | Mike's Vinyl Record Album Ultrasonic Cleaning & Appraisal | ebay.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1599 |  | 1606 | Mile Long Records | milelongrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1600 |  | 1607 | MileHillAntique&Art Gallery LLC |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1601 |  | 1608 | Mill City Sound | millcitysound.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1602 |  | 1609 | Mill Valley Music | millvalleymusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1603 |  | 1610 | Miller School Shops & Spaces | millerschoolshops.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1604 |  | 1611 | Millions of Records | millionsofrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1605 |  | 1612 | Mills Record Company | millsrecordcompany.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1606 |  | 1613 | Milwaukee Vintage | milwaukeevintage.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1607 |  | 1614 | Mimi's Antique Market |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1608 |  | 1615 | Mingo's Music & More |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1609 |  | 1616 | Mint Gallery Records | mintgalleryrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1610 |  | 1617 | Miss Ruth's Time Bomb | missruthstimebomb.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1611 |  | 1618 | Mississippi Records | mississippirecords.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 1612 |  | 1619 | Mistake by the Lake Records | mbtlrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1613 |  | 1620 | Mister Bazaar | misterbazaar.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1614 |  | 1621 | Miyagi Records | miyagirecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1615 |  | 1622 | Mo Records | morecordssd.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1616 |  | 1623 | Mobile Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1617 |  | 1624 | Mobius Records | mobiusrecordshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1618 |  | 1625 | Mod Lang | modlang.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1619 |  | 1626 | Modern Legend | modern-legend.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1620 |  | 1627 | Modern Sounds Vinyl and Music | modernsoundsvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1621 |  | 1628 | Modern Vintage Vinyl |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1622 |  | 1629 | Moe Town Records/ formerly The Estate Sale |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1623 |  | 1630 | Moe’s Record Shop | moesrecordshop1.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1624 |  | 1631 | Mojo Books & Records | mojotampa.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1625 |  | 1632 | Mojo Vinyl Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1626 |  | 1633 | Mojo’s Island Records | mojosislandrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1627 |  | 1634 | MoJo's Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1628 |  | 1635 | Mojo's Vinyl Bar | mojos.rocks |  | PENDING |  | — | broncontrole uitvoeren |
-| 1629 |  | 1636 | Mojomala Books, Records & Cool Stuff | mojomala.shoplightspeed.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1630 |  | 1637 | Mojos | mojogaming.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1631 |  | 1638 | Moldy Toes Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1632 |  | 1639 | Monad Records & Hi-Fi | monadrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1633 |  | 1640 | Money Tree/Book & Music Exchange | bookandmusicexchange.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 1634 |  | 1641 | Money Up Records LLC | moneyuprecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1635 |  | 1642 | Monk to Funk Records | monktofunkrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1636 |  | 1643 | Monkey Feet Music | monkeyfeetmusicokc.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1637 |  | 1644 | Monkey Jack's Emporium |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1638 |  | 1645 | Mono Mono Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1639 |  | 1646 | Monster Music & Movies | monstermusicsc.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1640 |  | 1647 | Monsters In Motion Warehouse for Curbside Pickup ONLY | monstersinmotion.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1641 |  | 1648 | Montana Book Company | mtbookco.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1642 |  | 1649 | Montclair Book Center | montclairbookcenter.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1643 |  | 1650 | Monumental Market | monumentalmarket.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1644 |  | 1651 | Mood Ring Records | moodringrecordsslc.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1645 |  | 1652 | Moodies Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1646 |  | 1653 | Moods Music | moodsmusic.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 1647 |  | 1654 | Moody Lords Vinyl/Vintage | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1648 |  | 1655 | Moon City Modern Antique and Vintage LLC |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1649 |  | 1656 | Moon Rock Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1650 |  | 1657 | Moonchild Music | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1651 |  | 1658 | Moondog Music |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1652 |  | 1659 | Moondog Records | moondogrecordslv.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1653 |  | 1660 | Moonigan Music | mooniganmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1654 |  | 1661 | Moonrocket Vinyl Record Store at 8th and Ash | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1655 |  | 1662 | Moonshot Emporium | moonshotemporium.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1656 |  | 1663 | Moonstruck Flea Market | moonstruckfleamarket.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1657 |  | 1664 | Mop Shop Detroit |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1658 |  | 1665 | MORE MORE NOW RECORDS |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1659 |  | 1666 | Morgan's Comics | morganscomics.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1660 |  | 1667 | Morpho Gallery Records | morphogallery.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1661 |  | 1668 | Morrow Records | morrowrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1662 |  | 1669 | Mossy Bottom Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1663 |  | 1670 | Mothership York | mothershipyork.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1664 |  | 1671 | Mottainai | mottainaisantafe.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1665 |  | 1672 | Mount Analog | climbmountanalog.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1666 |  | 1673 | Mount Dora Vintage | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1667 |  | 1674 | Mount Holly Records | m.facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1668 |  | 1675 | Mount Vernon Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1669 |  | 1676 | Mountain Music | mountainmusicvt.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1670 |  | 1677 | Mountain View Mercantile | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1671 |  | 1678 | Mountainside Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1672 |  | 1679 | Movie Trading Company | movietradingcompany.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1673 |  | 1680 | Moving Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1674 |  | 1681 | Mr C's Rare Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1675 |  | 1682 | Mr Cheapo CDs; Mr Cheapo CDs & Records | mrcheapocds.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1676 |  | 1683 | Mr Vinyl Records LLC | mrvinyl.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 1677 |  | 1684 | Mr Zeros | mrzeros.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1678 |  | 1685 | Mud Room Rekords | m.facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1679 |  | 1686 | Mudroom Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1680 |  | 1687 | Mugs & Music | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1681 |  | 1688 | Murphy's Vinyl Shack |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1682 |  | 1689 | Muscle Shoals Record Shop | muscleshoalsrecordshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1683 |  | 1690 | Mushroom New Orleans | themushroomnola.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1684 |  | 1691 | Music Alley |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1685 |  | 1692 | Music Asylum |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1686 |  | 1693 | Music Box | m.facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1687 |  | 1694 | Music Boxx Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1688 |  | 1695 | Music City | musiccityny.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1689 |  | 1696 | Music Connection | musicconnection.us |  | PENDING |  | — | broncontrole uitvoeren |
-| 1690 |  | 1697 | Music Connection |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1691 |  | 1698 | Music Connection Record Store | musicconnectionrecordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1692 |  | 1699 | Music Coop | musiccooponline.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1693 |  | 1700 | Music DNA |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1694 |  | 1701 | Music Express Car Audio | m.facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1695 |  | 1702 | Music Gator |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1696 |  | 1703 | Music Heals Inc. | musichealsinc.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1697 |  | 1704 | Music History | music-history.org |  | PENDING |  | — | broncontrole uitvoeren |
-| 1698 |  | 1705 | Music Magick |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1699 |  | 1706 | Music Matters Record Store | musicmattersny.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1700 |  | 1707 | Music Matters Remixed | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1701 |  | 1708 | Music Millennium | musicmillennium.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1702 |  | 1709 | music non-stop | musicnon-stop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1703 |  | 1710 | Music On Main Street | musiconmainstreetga.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1704 |  | 1711 | Music Planet |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1705 |  | 1712 | Music Planet GAMES AND RECORDS |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1706 |  | 1713 | Music Research Library |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1707 |  | 1714 | Music To My Ear | musictomyear.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1708 |  | 1715 | Music Town | musictowntx.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1709 |  | 1716 | Music Vision |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1710 |  | 1717 | Musical Energi | musicalenergi.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1711 |  | 1718 | Musical Memories |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1712 |  | 1719 | Musical Memories |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1713 |  | 1720 | Musicians Discount Center | musiciansdiscount.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 1714 |  | 1721 | Musicology Co | musicologyco.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1715 |  | 1722 | Musique Plastique | musique-plastique.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1716 |  | 1723 | Mxxnshine Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1717 |  | 1724 | My Mama's Books Records & Cafe | mymamasdania.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1718 |  | 1725 | My Mind's Eye Records | mymindseyerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1719 |  | 1726 | MY RETRO RACKS/FON BAR |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1720 |  | 1727 | My Turn Records / Found Sound Warehouse |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1721 |  | 1728 | My Vinyl Offer @ Brass Armadillo - Phoenix |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1722 |  | 1729 | My Vinyl Offer @ Brass Armadillo Mall |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1723 |  | 1730 | My Vinyl Offer at The Spot | myvinyloffer.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1724 |  | 1731 | My Vinyl Underground | myvinylunderground.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1725 |  | 1732 | Mystery Train | mysterytrainrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1726 |  | 1733 | Mystery Train Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1727 |  | 1734 | Mystic Disc | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1728 |  | 1735 | Mystic Mountain Music | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1729 |  | 1736 | N.T.A Records L.L.C |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1730 |  | 1737 | Nail City Record | nailcityrecord.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1731 |  | 1738 | Namplify Records | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1732 |  | 1739 | Nauck's Vintage Records | 78rpm.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1733 |  | 1740 | Needful Things of Kentucky | needfulthingsky.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1734 |  | 1741 | Needle 'N Groove Records | needlengroove.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1735 |  | 1742 | Needle & Bean | needleandbean.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1736 |  | 1743 | Needle + Groove Records | needleandgrooverecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1737 |  | 1744 | Needle Drop Records | needledroprecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1738 |  | 1745 | Needle To The Groove Record Shop; needle to the groove | needletothegroove.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 1739 |  | 1746 | Needles & Fins | needlesandfins.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1740 |  | 1747 | Neighborhood Comics Clubhouse | neighborhoodcomics.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1741 |  | 1748 | Neptune Music Co |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1742 |  | 1749 | Nerdbombers | nerdbombers.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1743 |  | 1750 | Nerdcore Records | nerdcoremaine.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1744 |  | 1751 | Neuse Records | neuserecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1745 |  | 1752 | New 2 U Vinyl & Vintage ( Nu2uV2) | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1746 |  | 1753 | New Style Records | newstylerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1747 |  | 1754 | Newbury Comics | newburycomics.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1748 |  | 1755 | Newtown Book & Record Exchange | newtownbookandrecord.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1749 |  | 1756 | Next Level Pure Gold And Platinum Records | nextleveldjservice.wixsite.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1750 |  | 1757 | Nexus Records | discogs.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1751 |  | 1758 | NH Vintage Vinyl | nhvintagevinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1752 |  | 1759 | Nice Price Books & Records | nicepricebooksandrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1753 |  | 1760 | Nickelodeon Records | nickelodeonrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1754 |  | 1761 | Nile Records | nilerecordsaz.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1755 |  | 1762 | Nivessa Vinyl Records Store (on Pico); Nivessa Vinyl Records: The Music Experience (Hollywood) | nivessa.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1756 |  | 1763 | Nmb Flea Market | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1757 |  | 1764 | No Life Record Shop |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1758 |  | 1765 | No Logo Vintage and Records | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1759 |  | 1766 | No Name Vinyl Records & Music Etc. | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1760 |  | 1767 | NO NOISE RECORDS AND HIFI | nonoiserecs.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1761 |  | 1768 | No. 9 Books & Records | no9books.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1762 |  | 1769 | Nob Hill Music | nobhillrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1763 |  | 1770 | Noble Records | noblerecordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1764 |  | 1771 | Nocturnal Music | nocturnalmusic.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 1765 |  | 1772 | Noise | sanfrancisconoise.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1766 |  | 1773 | Noise & Toys | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1767 |  | 1774 | NOLA Mix Records | nolamix.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1768 |  | 1775 | Nomad LaConner | nomadlaconner.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1769 |  | 1776 | Noriega Records | noriegarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1770 |  | 1777 | Normal Records | normalrecordssd.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1771 |  | 1778 | Normal's Book & Records | normals.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1772 |  | 1779 | North Piks | northpiks.square.site |  | PENDING |  | — | broncontrole uitvoeren |
-| 1773 |  | 1780 | North Street Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1774 |  | 1781 | Northwest Grooves | northwestgrooves.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1775 |  | 1782 | Not Donuts Records | notdonutsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1776 |  | 1783 | Not For The Weak Records | nftwrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1777 |  | 1784 | Nothing But A Nightmare | nothingbutanightmare.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1778 |  | 1785 | Nova's Soda Pop Candy Shop |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1779 |  | 1786 | Now & Then Music | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1780 |  | 1787 | Now Hear This | m.facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1781 |  | 1788 | Now Spinning Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1782 |  | 1789 | NTX Vinyl (by APPT ONLY) | ntxvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1783 |  | 1790 | Nudie Records | nudierecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1784 |  | 1791 | Nuggets | nuggetsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1785 |  | 1792 | Nuke City Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1786 |  | 1793 | Nuthin But Fire Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1787 |  | 1794 | nx vinyl | nxvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1788 |  | 1795 | Oak Leaf Comics & Collectibles | oakleafcomics.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1789 |  | 1796 | Oak Park Records | m.facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1790 |  | 1797 | Oaklawn Clothing N' Stuff | ccc.org |  | PENDING |  | — | broncontrole uitvoeren |
-| 1791 |  | 1798 | Obsession Records | obsessionrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1792 |  | 1799 | Ocean Beach Pallet Co. | oceanbeachpalletco.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1793 |  | 1800 | Octopus Garden | octopusgardenfl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1794 |  | 1801 | Octopus Records | octopusrecords.nyc |  | PENDING |  | — | broncontrole uitvoeren |
-| 1795 |  | 1802 | Odd Bob's | oddbobs.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1796 |  | 1803 | Odd Cabinet Records & Archive | oddcab.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 1797 |  | 1804 | Oddball Store Music and More | myoddballstore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1798 |  | 1805 | Oddball Vintage | oddballvintagenj.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1799 |  | 1806 | Odyssey Records | odyssey-records.edan.io |  | PENDING |  | — | broncontrole uitvoeren |
-| 1800 |  | 1807 | Off The Record | otrgh.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1801 |  | 1808 | Off the Record | offtherecordmusicshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1802 |  | 1809 | Off The Record Vinyl & Vintage | offtherecordvinylvintage.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1803 |  | 1810 | Off-Center Records | offcenterrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1804 |  | 1811 | Off-Track Records | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1805 |  | 1812 | OffBeat | offbeatjxn.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1806 |  | 1813 | Offbeat Music Store | offbeatmusicstore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1807 |  | 1814 | Offshoot Books & Vinyl | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1808 |  | 1815 | Offshore Sounds | offshoresounds.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1809 |  | 1816 | Oil Capital Vinyl |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1810 |  | 1817 | Ojata Records & Comics | ojatamahal.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1811 |  | 1818 | Old Arabi Lighthouse Records & Books | m.facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1812 |  | 1819 | Old Chapel Market | theoldchapelmarket.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1813 |  | 1820 | Old Dog Vinyl Records | olddogvinylrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1814 |  | 1821 | Old Man Vinyl Records | oldmanvinylrecordsllc.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1815 |  | 1822 | Old Paint Records | oldpaintrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1816 |  | 1823 | Old Records Off The Shelf | johnstoncountync.org |  | PENDING |  | — | broncontrole uitvoeren |
-| 1817 |  | 1824 | Old Skool's | old-skools.edan.io |  | PENDING |  | — | broncontrole uitvoeren |
-| 1818 |  | 1825 | Old Town Records | oldtownrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1819 |  | 1826 | Old Town Records and Skate Shop | oldtownskates.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1820 |  | 1827 | Old Town Vinyl | oldtownvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1821 |  | 1828 | Old's Cool | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1822 |  | 1829 | Oldies.com | oldies.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1823 |  | 1830 | OLDish STUFF | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1824 |  | 1831 | Olympic Records | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1825 |  | 1832 | Omega Music | omegamusicdayton.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1826 |  | 1833 | On Maritime Records | onmaritimerecords.square.site |  | PENDING |  | — | broncontrole uitvoeren |
-| 1827 |  | 1834 | On The Corner Music | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1828 |  | 1835 | On the Record | ontherecordnj.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1829 |  | 1836 | One Bad Apple Records | business.facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1830 |  | 1837 | One Long Groove |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1831 |  | 1838 | One Off Records; Vinyl vibes cd shop. | oneoffrecordsllc.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1832 |  | 1839 | One Shot Records | oneshotrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1833 |  | 1840 | One Stop Record Shop by Northgate Records | northgaterecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1834 |  | 1841 | One Stop Xpress |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1835 |  | 1842 | Onestopwonders |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1836 |  | 1843 | Open Mind Music | openmindmusic.org |  | PENDING |  | — | broncontrole uitvoeren |
-| 1837 |  | 1844 | Open To World Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1838 |  | 1845 | Operation Fandom & Blackbird Records | m.facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1839 |  | 1846 | Operation: Fandom & Blackbird Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1840 |  | 1847 | Orange Records | orangerecordsfargo.bigcartel.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1841 |  | 1848 | Orbit Music | m.facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1842 |  | 1849 | Orbit Records LLC | orbitrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1843 |  | 1850 | Orbit’s Record Shop | orbitsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1844 |  | 1851 | OREGON CITY RECORDS |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1845 |  | 1852 | Originals Vinyl | originalsvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1846 |  | 1853 | ORSF Orthodontics |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1847 |  | 1854 | Otown Vinyl & Collectibles |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1848 |  | 1855 | Ottawa Community Thrift | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1849 |  | 1856 | Out of Sight Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1850 |  | 1857 | Out of the Past Collectibles | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1851 |  | 1858 | Out of the Past Records | outofthepastrecords.myshopify.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1852 |  | 1859 | Out There Records | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1853 |  | 1860 | Outer Limits Boro | theouterlimitsboro.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1854 |  | 1861 | Outhouse Records | outhouserecordshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1855 |  | 1862 | Output Records | shopoutput.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1856 |  | 1863 | OX4D Music | ox4dmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1857 |  | 1864 | P M Sounds | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1858 |  | 1865 | P-Town Antiques n Collectibles |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1859 |  | 1866 | Pack Ratt Records and Junk | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 1460 | 23 | 1467 | LO & BEHOLD! Records & Books! |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1461 | 23 | 1468 | Loadio Music - Monsey | loadiomusic.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1462 | 23 | 1469 | Lonely Crab Records | lonelycrabrecords.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1463 | 23 | 1470 | Lonesome Frog Records | lonesomefrogrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_404 |
+| 1464 | 23 | 1471 | Long In the Tooth | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1465 | 23 | 1472 | Long Live Vinyl Records | longlivevinylrecords.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1466 | 23 | 1473 | LongHair Records | longhairrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1467 | 23 | 1474 | Lookout Music & Media | lookout-music-media.edan.io | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1468 | 23 | 1475 | Looney Tunes |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1469 | 23 | 1476 | Looney Tunes II |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1470 | 23 | 1477 | Looney Tunes Record Store | looneytunesrecordstore.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 1471 | 23 | 1478 | Lost & Found | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1472 | 23 | 1479 | Lost and Found Records | lostandfoundrecordstore.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1473 | 23 | 1480 | Lost Art Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1474 | 23 | 1481 | Lost Books, Plants & Vinyl | bookshop.org |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 1475 | 23 | 1482 | Lost Hi-Way Books & Records | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1476 | 23 | 1483 | Lost in the Groove |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1477 | 23 | 1484 | Lost Padre Records | lostpadrerecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1478 | 23 | 1485 | Lost Weekend Records | lostweekendrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1479 | 23 | 1486 | Lou's Record Store |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1480 | 23 | 1487 | Lou's Records | lousrecords.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1481 | 23 | 1488 | Loud Pizza Records | loudpizza.com | shopify | SCRAPER_BUILT_TESTED | 1 | 0/1 geldig | private QA en marktgate beoordelen |
+| 1482 | 23 | 1489 | Louisiana Music Factory | louisianamusicfactory.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1483 | 23 | 1490 | Love Garden Sounds | lovegardensounds.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1484 | 23 | 1491 | Love People Records | lovepeoplerecords.com | shopify | SCRAPER_BUILT_TESTED | 12 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1485 | 23 | 1492 | Love Vinyl Records | lovevinylrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1486 | 23 | 1493 | Love Wheel Records | lovewheelrecords.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1487 | 23 | 1494 | Loved Again Media | lovedagainmedia.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1488 | 23 | 1495 | Lovelight Records and Art | lovelightrecordsandart.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1489 | 23 | 1496 | Lovell's Records | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1490 | 23 | 1497 | Low - Vintage Clothing, Records & Antiques | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1491 | 23 | 1498 | Low Five Analog Archive | lowfivearchive.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1492 | 23 | 1499 | Low Yo Yo Stuff Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1493 | 23 | 1500 | LRB Skate and Record Shop | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1494 | 23 | 1501 | Lucky Cat Records | luckycatrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1495 | 23 | 1502 | Lucky Cat Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1496 | 23 | 1503 | Lucky Records Miami | luckyrecordsmiami.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1497 | 23 | 1504 | Lucky’s Back in Time | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1498 | 23 | 1505 | LuDog Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1499 | 23 | 1506 | Luis Record Shop |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1500 | 23 | 1507 | Lulo Records; Lulo Records at Andres Carne de Res; Lulo Records at Hausmash; Lulo Records at Hausmash (Weston); Lulo Records at WildHouse | lulorecords.com | shopify | SCRAPER_BUILT_TESTED | 1 | 0/1 geldig | private QA en marktgate beoordelen |
+| 1501 | 23 | 1508 | Luna Music | lunamusic.net | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1502 | 23 | 1509 | Luna Record Shop | lunarecordshop.com | shopify | SCRAPER_BUILT_TESTED | 17 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1503 | 23 | 1510 | Lunchbox Records | lunchboxrecords.com | shopify | SCRAPER_BUILT_TESTED | 13 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1504 | 23 | 1511 | Lund Record Collections |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1505 | 23 | 1512 | LUV Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1506 | 23 | 1513 | Lyles Record Shop |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1507 | 23 | 1514 | Lyric Vendors Vinyl Records | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1508 | 23 | 1515 | M-Theory Music | mtheorymusic.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1509 | 23 | 1516 | Mac's Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1510 | 23 | 1517 | Mad Bad Music Dungeon | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1511 | 23 | 1518 | Mad Jack's Records & Comics | madjacks.net | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1512 | 23 | 1519 | Mad Monk Vintage; Rasputin Music; Rasputin Music & Anastasia's Vintage; Rasputin Music / Anastasia's Vintage | rasputinmusic.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1513 | 23 | 1520 | Mad Platter Records & Wonderland Books |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1514 | 23 | 1521 | Mad Records Cafe Miami | madradio.co | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1515 | 23 | 1522 | MadCity Music | madcitymusic.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1516 | 23 | 1523 | Madman's Music Emporium & Gallery | ebay.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1517 | 23 | 1524 | MADSTYLE Vintage |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1518 | 23 | 1525 | MAE- Music Arts Enterprises, LLC | maemusic.com | shopify | SCRAPER_BUILT_TESTED | 10 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1519 | 23 | 1526 | Magic City Comics and Collectibles | stuffgenieonline.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1520 | 23 | 1527 | Magic Isle Record Shop | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1521 | 23 | 1528 | Magical New Beginnings | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1522 | 23 | 1529 | Magnesium Studios | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1523 | 23 | 1530 | Magnetic Tape Recorder Inc. & Stereo Center | magnetictaperecorder.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1524 | 23 | 1531 | Magnolia Thunderpussy | thunderpussy.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1525 | 23 | 1532 | Magnolias Home & Maker's Market | magnoliasnc.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1526 | 23 | 1533 | Magpie Alley Antiques and Oddities |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1527 | 23 | 1534 | Maiden Wax Records | maidenwaxrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1528 | 23 | 1535 | Main St. Vintage & Vinyl + Books | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1529 | 23 | 1536 | Main Street Audio/Video | mainstreetaudiovideo.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1530 | 23 | 1537 | Main Street Beat | mainstreetbeat.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1531 | 23 | 1538 | Main Street Jams |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1532 | 23 | 1539 | Main Street Jukebox | mainstreetjukebox.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1533 | 23 | 1540 | Main Street Music | mainstreetmusicpa.tuneportals.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1534 | 23 | 1541 | Main Street Revolution | 112-main-street-revolution.square.site | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1535 | 23 | 1542 | Main Street Vinyl, LLC | mainstreetvinyl.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1536 | 23 | 1543 | Majestic Turnaround |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1537 | 23 | 1544 | Majesty Music | majestymusic.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1538 | 23 | 1545 | Major League Collectibles & a Little Bit Moe | majorleaguecollect.wixsite.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_404 |
+| 1539 | 23 | 1546 | Majors Records & Video | majorsrecordsny.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 1540 | 23 | 1547 | Malanatha Record Shop |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1541 | 23 | 1548 | Mall of St Paul |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1542 | 23 | 1549 | Manhattan45 | manhattan45.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1543 | 23 | 1550 | Mantiques Bay Area | mantiquesbayarea.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1544 | 23 | 1551 | Maple City Music | maplecitymusic.com | shopify | SCRAPER_BUILT_TESTED | 15 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1545 | 23 | 1552 | Marilynn-Collectibles & Antiques |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1546 | 23 | 1553 | Marion Antiques |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1547 | 23 | 1554 | Mark’s Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1548 | 23 | 1555 | Mark’s Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1549 | 23 | 1556 | Marley's Music |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1550 | 23 | 1557 | Mars Record Shop | marsrecordshop.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1551 | 23 | 1558 | masspool djs (digital Dj record pool) | masspooldigital.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1552 | 23 | 1559 | Mathew Nevels CD store |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1553 | 23 | 1560 | Matones Music | matonesmusic.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1554 | 23 | 1561 | Matt Anthony's Record Shop | discogs.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: DUPLICATE_DOMAIN |
+| 1555 | 23 | 1562 | Max J Records | maxjrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Response size limit |
+| 1556 | 23 | 1563 | Maxine's Bargain Box |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1557 | 23 | 1564 | Maxwell's Music | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1558 | 23 | 1565 | May 23 Clothing and Music | may23online.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1559 | 23 | 1566 | Maya Books & Music | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1560 | 24 | 1567 | McCarthy Mercantile | mccarthymercantile.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_404 |
+| 1561 | 24 | 1568 | McKay Used Books | mckayusedbooks.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1562 | 24 | 1569 | McKay's Chattanooga; McKay's Mebane; McKay's Nashville; McKay's Winston-Salem | mckaybooks.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1563 | 24 | 1570 | McLaren's Collectibles | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1564 | 24 | 1571 | Mean Records | meanrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1565 | 24 | 1572 | Media Cavern |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1566 | 24 | 1573 | Media Mania | mediamaniaonline.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1567 | 24 | 1574 | Media Obscura - Book & CD Hut |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1568 | 24 | 1575 | Media Reload | mediareload.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1569 | 24 | 1576 | MediumRare Records & Collectibles | mediumrarevinyl.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1570 | 24 | 1577 | Meg's Vintage Collective |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1571 | 24 | 1578 | Mega Media Xchange Brookfield | megamediax.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1572 | 24 | 1579 | Mel's Record Shop | melsrecordshop.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1573 | 24 | 1580 | Mellow Matt's Music & More | mellowmatts.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1574 | 24 | 1581 | Melodies & Memories |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1575 | 24 | 1582 | Melodies and Memories |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1576 | 24 | 1583 | Melody Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1577 | 24 | 1584 | Melody Supreme \| Vinyl Records | cvillemelodysupreme.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1578 | 24 | 1585 | Melusina Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1579 | 24 | 1586 | Memo Record Shop |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1580 | 24 | 1587 | Memories Of Soul |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1581 | 24 | 1588 | Memory Music & Books |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1582 | 24 | 1589 | Memphis Music |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1583 | 24 | 1590 | MEOWMEOWZ! Retro 80s Thrift Boutique | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1584 | 24 | 1591 | Meridian Underground Music | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1585 | 24 | 1592 | Meriwether Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1586 | 24 | 1593 | Merle's Record Rack | merlesrecordrack.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1587 | 24 | 1594 | MetalEdge Records and Tapes | metaledgemusic.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1588 | 24 | 1595 | Meteor Gem | meteor-gem.com | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1589 | 24 | 1596 | Metro City Records | metrocityrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1590 | 24 | 1597 | Metro Records | metrorecordscf.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1591 | 24 | 1598 | Mi-Rural records | mi-ruralrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1592 | 24 | 1599 | Michiana Used Music & Media |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1593 | 24 | 1600 | Microgroove | linktr.ee |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1594 | 24 | 1601 | Mid-Town Records & Tapes |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1595 | 24 | 1602 | Midnite Moon | midnitemoon.shop |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1596 | 24 | 1603 | Midwest Crossroads Market |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1597 | 24 | 1604 | Mike Vague Records | discogs.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: DUPLICATE_DOMAIN |
+| 1598 | 24 | 1605 | Mike's Vinyl Record Album Ultrasonic Cleaning & Appraisal | ebay.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1599 | 24 | 1606 | Mile Long Records | milelongrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1600 | 24 | 1607 | MileHillAntique&Art Gallery LLC |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1601 | 24 | 1608 | Mill City Sound | millcitysound.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1602 | 24 | 1609 | Mill Valley Music | millvalleymusic.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1603 | 24 | 1610 | Miller School Shops & Spaces | millerschoolshops.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1604 | 24 | 1611 | Millions of Records | millionsofrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1605 | 24 | 1612 | Mills Record Company | millsrecordcompany.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1606 | 24 | 1613 | Milwaukee Vintage | milwaukeevintage.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1607 | 24 | 1614 | Mimi's Antique Market |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1608 | 24 | 1615 | Mingo's Music & More |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1609 | 24 | 1616 | Mint Gallery Records | mintgalleryrecords.com | shopify | SCRAPER_BUILT_TESTED | 12 | 1/2 geldig | private QA en marktgate beoordelen |
+| 1610 | 24 | 1617 | Miss Ruth's Time Bomb | missruthstimebomb.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1611 | 24 | 1618 | Mississippi Records | mississippirecords.net |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Response size limit |
+| 1612 | 24 | 1619 | Mistake by the Lake Records | mbtlrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1613 | 24 | 1620 | Mister Bazaar | misterbazaar.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1614 | 24 | 1621 | Miyagi Records | miyagirecords.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1615 | 24 | 1622 | Mo Records | morecordssd.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1616 | 24 | 1623 | Mobile Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1617 | 24 | 1624 | Mobius Records | mobiusrecordshop.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1618 | 24 | 1625 | Mod Lang | modlang.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1619 | 24 | 1626 | Modern Legend | modern-legend.com | shopify | SCRAPER_BUILT_TESTED | 7 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1620 | 24 | 1627 | Modern Sounds Vinyl and Music | modernsoundsvinyl.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1621 | 24 | 1628 | Modern Vintage Vinyl |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1622 | 24 | 1629 | Moe Town Records/ formerly The Estate Sale |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1623 | 24 | 1630 | Moe’s Record Shop | moesrecordshop1.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1624 | 24 | 1631 | Mojo Books & Records | mojotampa.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1625 | 24 | 1632 | Mojo Vinyl Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1626 | 24 | 1633 | Mojo’s Island Records | mojosislandrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1627 | 24 | 1634 | MoJo's Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1628 | 24 | 1635 | Mojo's Vinyl Bar | mojos.rocks | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1629 | 24 | 1636 | Mojomala Books, Records & Cool Stuff | mojomala.shoplightspeed.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1630 | 24 | 1637 | Mojos | mojogaming.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1631 | 24 | 1638 | Moldy Toes Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1632 | 24 | 1639 | Monad Records & Hi-Fi | monadrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1633 | 24 | 1640 | Money Tree/Book & Music Exchange | bookandmusicexchange.net |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 1634 | 24 | 1641 | Money Up Records LLC | moneyuprecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1635 | 24 | 1642 | Monk to Funk Records | monktofunkrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1636 | 24 | 1643 | Monkey Feet Music | monkeyfeetmusicokc.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1637 | 24 | 1644 | Monkey Jack's Emporium |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1638 | 24 | 1645 | Mono Mono Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1639 | 24 | 1646 | Monster Music & Movies | monstermusicsc.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1640 | 24 | 1647 | Monsters In Motion Warehouse for Curbside Pickup ONLY | monstersinmotion.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1641 | 24 | 1648 | Montana Book Company | mtbookco.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 1642 | 24 | 1649 | Montclair Book Center | montclairbookcenter.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 1643 | 24 | 1650 | Monumental Market | monumentalmarket.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1644 | 24 | 1651 | Mood Ring Records | moodringrecordsslc.com | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1645 | 24 | 1652 | Moodies Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1646 | 24 | 1653 | Moods Music | moodsmusic.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1647 | 24 | 1654 | Moody Lords Vinyl/Vintage | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1648 | 24 | 1655 | Moon City Modern Antique and Vintage LLC |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1649 | 24 | 1656 | Moon Rock Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1650 | 24 | 1657 | Moonchild Music | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1651 | 24 | 1658 | Moondog Music |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1652 | 24 | 1659 | Moondog Records | moondogrecordslv.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1653 | 24 | 1660 | Moonigan Music | mooniganmusic.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_404 |
+| 1654 | 24 | 1661 | Moonrocket Vinyl Record Store at 8th and Ash | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1655 | 24 | 1662 | Moonshot Emporium | moonshotemporium.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1656 | 24 | 1663 | Moonstruck Flea Market | moonstruckfleamarket.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1657 | 24 | 1664 | Mop Shop Detroit |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1658 | 24 | 1665 | MORE MORE NOW RECORDS |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1659 | 24 | 1666 | Morgan's Comics | morganscomics.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1660 | 25 | 1667 | Morpho Gallery Records | morphogallery.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1661 | 25 | 1668 | Morrow Records | morrowrecords.com | shopify | SCRAPER_BUILT_TESTED | 18 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1662 | 25 | 1669 | Mossy Bottom Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1663 | 25 | 1670 | Mothership York | mothershipyork.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1664 | 25 | 1671 | Mottainai | mottainaisantafe.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1665 | 25 | 1672 | Mount Analog | climbmountanalog.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1666 | 25 | 1673 | Mount Dora Vintage | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1667 | 25 | 1674 | Mount Holly Records | m.facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1668 | 25 | 1675 | Mount Vernon Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1669 | 25 | 1676 | Mountain Music | mountainmusicvt.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1670 | 25 | 1677 | Mountain View Mercantile | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1671 | 25 | 1678 | Mountainside Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1672 | 25 | 1679 | Movie Trading Company | movietradingcompany.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1673 | 25 | 1680 | Moving Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1674 | 25 | 1681 | Mr C's Rare Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1675 | 25 | 1682 | Mr Cheapo CDs; Mr Cheapo CDs & Records | mrcheapocds.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1676 | 25 | 1683 | Mr Vinyl Records LLC | mrvinyl.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1677 | 25 | 1684 | Mr Zeros | mrzeros.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1678 | 25 | 1685 | Mud Room Rekords | m.facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1679 | 25 | 1686 | Mudroom Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1680 | 25 | 1687 | Mugs & Music | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1681 | 25 | 1688 | Murphy's Vinyl Shack |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1682 | 25 | 1689 | Muscle Shoals Record Shop | muscleshoalsrecordshop.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1683 | 25 | 1690 | Mushroom New Orleans | themushroomnola.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1684 | 25 | 1691 | Music Alley |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1685 | 25 | 1692 | Music Asylum |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1686 | 25 | 1693 | Music Box | m.facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1687 | 25 | 1694 | Music Boxx Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1688 | 25 | 1695 | Music City | musiccityny.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1689 | 25 | 1696 | Music Connection | musicconnection.us | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1690 | 25 | 1697 | Music Connection |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1691 | 25 | 1698 | Music Connection Record Store | musicconnectionrecordstore.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1692 | 25 | 1699 | Music Coop | musiccooponline.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1693 | 25 | 1700 | Music DNA |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1694 | 25 | 1701 | Music Express Car Audio | m.facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1695 | 25 | 1702 | Music Gator |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1696 | 25 | 1703 | Music Heals Inc. | musichealsinc.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1697 | 25 | 1704 | Music History | music-history.org |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 1698 | 25 | 1705 | Music Magick |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1699 | 25 | 1706 | Music Matters Record Store | musicmattersny.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 1700 | 25 | 1707 | Music Matters Remixed | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1701 | 25 | 1708 | Music Millennium | musicmillennium.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1702 | 25 | 1709 | music non-stop | musicnon-stop.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1703 | 25 | 1710 | Music On Main Street | musiconmainstreetga.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1704 | 25 | 1711 | Music Planet |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1705 | 25 | 1712 | Music Planet GAMES AND RECORDS |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1706 | 25 | 1713 | Music Research Library |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1707 | 25 | 1714 | Music To My Ear | musictomyear.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1708 | 25 | 1715 | Music Town | musictowntx.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1709 | 25 | 1716 | Music Vision |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1710 | 25 | 1717 | Musical Energi | musicalenergi.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1711 | 25 | 1718 | Musical Memories |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1712 | 25 | 1719 | Musical Memories |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1713 | 25 | 1720 | Musicians Discount Center | musiciansdiscount.net | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1714 | 25 | 1721 | Musicology Co | musicologyco.com | shopify | SCRAPER_BUILT_TESTED | 15 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1715 | 25 | 1722 | Musique Plastique | musique-plastique.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1716 | 25 | 1723 | Mxxnshine Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1717 | 25 | 1724 | My Mama's Books Records & Cafe | mymamasdania.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1718 | 25 | 1725 | My Mind's Eye Records | mymindseyerecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 1719 | 25 | 1726 | MY RETRO RACKS/FON BAR |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1720 | 25 | 1727 | My Turn Records / Found Sound Warehouse |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1721 | 25 | 1728 | My Vinyl Offer @ Brass Armadillo - Phoenix |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1722 | 25 | 1729 | My Vinyl Offer @ Brass Armadillo Mall |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1723 | 25 | 1730 | My Vinyl Offer at The Spot | myvinyloffer.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 1724 | 25 | 1731 | My Vinyl Underground | myvinylunderground.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 1725 | 25 | 1732 | Mystery Train | mysterytrainrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1726 | 25 | 1733 | Mystery Train Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1727 | 25 | 1734 | Mystic Disc | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1728 | 25 | 1735 | Mystic Mountain Music | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1729 | 25 | 1736 | N.T.A Records L.L.C |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1730 | 25 | 1737 | Nail City Record | nailcityrecord.com | shopify | SCRAPER_BUILT_TESTED | 12 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1731 | 25 | 1738 | Namplify Records | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1732 | 25 | 1739 | Nauck's Vintage Records | 78rpm.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1733 | 25 | 1740 | Needful Things of Kentucky | needfulthingsky.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1734 | 25 | 1741 | Needle 'N Groove Records | needlengroove.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1735 | 25 | 1742 | Needle & Bean | needleandbean.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1736 | 25 | 1743 | Needle + Groove Records | needleandgrooverecords.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1737 | 25 | 1744 | Needle Drop Records | needledroprecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1738 | 25 | 1745 | Needle To The Groove Record Shop; needle to the groove | needletothegroove.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1739 | 25 | 1746 | Needles & Fins | needlesandfins.com | shopify | SCRAPER_BUILT_TESTED | 3 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1740 | 25 | 1747 | Neighborhood Comics Clubhouse | neighborhoodcomics.com | shopify | SCRAPER_BUILT_TESTED | 1 | 0/1 geldig | private QA en marktgate beoordelen |
+| 1741 | 25 | 1748 | Neptune Music Co |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1742 | 25 | 1749 | Nerdbombers | nerdbombers.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1743 | 25 | 1750 | Nerdcore Records | nerdcoremaine.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1744 | 25 | 1751 | Neuse Records | neuserecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1745 | 25 | 1752 | New 2 U Vinyl & Vintage ( Nu2uV2) | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1746 | 25 | 1753 | New Style Records | newstylerecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1747 | 25 | 1754 | Newbury Comics | newburycomics.com | shopify | SCRAPER_BUILT_TESTED | 17 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1748 | 25 | 1755 | Newtown Book & Record Exchange | newtownbookandrecord.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1749 | 25 | 1756 | Next Level Pure Gold And Platinum Records | nextleveldjservice.wixsite.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_404 |
+| 1750 | 25 | 1757 | Nexus Records | discogs.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: DUPLICATE_DOMAIN |
+| 1751 | 25 | 1758 | NH Vintage Vinyl | nhvintagevinyl.com | shopify | SCRAPER_BUILT_TESTED | 4 | 1/2 geldig | private QA en marktgate beoordelen |
+| 1752 | 25 | 1759 | Nice Price Books & Records | nicepricebooksandrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 1753 | 25 | 1760 | Nickelodeon Records | nickelodeonrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1754 | 25 | 1761 | Nile Records | nilerecordsaz.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1755 | 25 | 1762 | Nivessa Vinyl Records Store (on Pico); Nivessa Vinyl Records: The Music Experience (Hollywood) | nivessa.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1756 | 25 | 1763 | Nmb Flea Market | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1757 | 25 | 1764 | No Life Record Shop |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1758 | 25 | 1765 | No Logo Vintage and Records | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1759 | 25 | 1766 | No Name Vinyl Records & Music Etc. | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1760 | 26 | 1767 | NO NOISE RECORDS AND HIFI | nonoiserecs.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1761 | 26 | 1768 | No. 9 Books & Records | no9books.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1762 | 26 | 1769 | Nob Hill Music | nobhillrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1763 | 26 | 1770 | Noble Records | noblerecordstore.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1764 | 26 | 1771 | Nocturnal Music | nocturnalmusic.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1765 | 26 | 1772 | Noise | sanfrancisconoise.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1766 | 26 | 1773 | Noise & Toys | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1767 | 26 | 1774 | NOLA Mix Records | nolamix.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1768 | 26 | 1775 | Nomad LaConner | nomadlaconner.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1769 | 26 | 1776 | Noriega Records | noriegarecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1770 | 26 | 1777 | Normal Records | normalrecordssd.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1771 | 26 | 1778 | Normal's Book & Records | normals.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1772 | 26 | 1779 | North Piks | northpiks.square.site | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1773 | 26 | 1780 | North Street Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1774 | 26 | 1781 | Northwest Grooves | northwestgrooves.com | shopify | SCRAPER_BUILT_TESTED | 19 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1775 | 26 | 1782 | Not Donuts Records | notdonutsrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1776 | 26 | 1783 | Not For The Weak Records | nftwrecords.com | shopify | SCRAPER_BUILT_TESTED | 2 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1777 | 26 | 1784 | Nothing But A Nightmare | nothingbutanightmare.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1778 | 26 | 1785 | Nova's Soda Pop Candy Shop |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1779 | 26 | 1786 | Now & Then Music | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1780 | 26 | 1787 | Now Hear This | m.facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1781 | 26 | 1788 | Now Spinning Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1782 | 26 | 1789 | NTX Vinyl (by APPT ONLY) | ntxvinyl.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1783 | 26 | 1790 | Nudie Records | nudierecords.com | shopify | SCRAPER_BUILT_TESTED | 19 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1784 | 26 | 1791 | Nuggets | nuggetsrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1785 | 26 | 1792 | Nuke City Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1786 | 26 | 1793 | Nuthin But Fire Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1787 | 26 | 1794 | nx vinyl | nxvinyl.com | shopify | SCRAPER_BUILT_TESTED | 14 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1788 | 26 | 1795 | Oak Leaf Comics & Collectibles | oakleafcomics.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1789 | 26 | 1796 | Oak Park Records | m.facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1790 | 26 | 1797 | Oaklawn Clothing N' Stuff | ccc.org |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 1791 | 26 | 1798 | Obsession Records | obsessionrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1792 | 26 | 1799 | Ocean Beach Pallet Co. | oceanbeachpalletco.com | shopify | SCRAPER_BUILT_TESTED | 20 | 0/1 geldig | private QA en marktgate beoordelen |
+| 1793 | 26 | 1800 | Octopus Garden | octopusgardenfl.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1794 | 26 | 1801 | Octopus Records | octopusrecords.nyc | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1795 | 26 | 1802 | Odd Bob's | oddbobs.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1796 | 26 | 1803 | Odd Cabinet Records & Archive | oddcab.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1797 | 26 | 1804 | Oddball Store Music and More | myoddballstore.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1798 | 26 | 1805 | Oddball Vintage | oddballvintagenj.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 1799 | 26 | 1806 | Odyssey Records | odyssey-records.edan.io | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1800 | 26 | 1807 | Off The Record | otrgh.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1801 | 26 | 1808 | Off the Record | offtherecordmusicshop.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1802 | 26 | 1809 | Off The Record Vinyl & Vintage | offtherecordvinylvintage.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1803 | 26 | 1810 | Off-Center Records | offcenterrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1804 | 26 | 1811 | Off-Track Records | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1805 | 26 | 1812 | OffBeat | offbeatjxn.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1806 | 26 | 1813 | Offbeat Music Store | offbeatmusicstore.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1807 | 26 | 1814 | Offshoot Books & Vinyl | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1808 | 26 | 1815 | Offshore Sounds | offshoresounds.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1809 | 26 | 1816 | Oil Capital Vinyl |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1810 | 26 | 1817 | Ojata Records & Comics | ojatamahal.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1811 | 26 | 1818 | Old Arabi Lighthouse Records & Books | m.facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1812 | 26 | 1819 | Old Chapel Market | theoldchapelmarket.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1813 | 26 | 1820 | Old Dog Vinyl Records | olddogvinylrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1814 | 26 | 1821 | Old Man Vinyl Records | oldmanvinylrecordsllc.com | bigcommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1815 | 26 | 1822 | Old Paint Records | oldpaintrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1816 | 26 | 1823 | Old Records Off The Shelf | johnstoncountync.org | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1817 | 26 | 1824 | Old Skool's | old-skools.edan.io | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1818 | 26 | 1825 | Old Town Records | oldtownrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1819 | 26 | 1826 | Old Town Records and Skate Shop | oldtownskates.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1820 | 26 | 1827 | Old Town Vinyl | oldtownvinyl.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1821 | 26 | 1828 | Old's Cool | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1822 | 26 | 1829 | Oldies.com | oldies.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 1823 | 26 | 1830 | OLDish STUFF | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1824 | 26 | 1831 | Olympic Records | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1825 | 26 | 1832 | Omega Music | omegamusicdayton.com | shopify | SCRAPER_BUILT_TESTED | 15 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1826 | 26 | 1833 | On Maritime Records | onmaritimerecords.square.site | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1827 | 26 | 1834 | On The Corner Music | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1828 | 26 | 1835 | On the Record | ontherecordnj.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1829 | 26 | 1836 | One Bad Apple Records | business.facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1830 | 26 | 1837 | One Long Groove |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1831 | 26 | 1838 | One Off Records; Vinyl vibes cd shop. | oneoffrecordsllc.com | shopify | SCRAPER_BUILT_TESTED | 6 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1832 | 26 | 1839 | One Shot Records | oneshotrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 1833 | 26 | 1840 | One Stop Record Shop by Northgate Records | northgaterecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1834 | 26 | 1841 | One Stop Xpress |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1835 | 26 | 1842 | Onestopwonders |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1836 | 26 | 1843 | Open Mind Music | openmindmusic.org |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1837 | 26 | 1844 | Open To World Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1838 | 26 | 1845 | Operation Fandom & Blackbird Records | m.facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1839 | 26 | 1846 | Operation: Fandom & Blackbird Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1840 | 26 | 1847 | Orange Records | orangerecordsfargo.bigcartel.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1841 | 26 | 1848 | Orbit Music | m.facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1842 | 26 | 1849 | Orbit Records LLC | orbitrecords.com | shopify | SCRAPER_BUILT_TESTED | 13 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1843 | 26 | 1850 | Orbit’s Record Shop | orbitsrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1844 | 26 | 1851 | OREGON CITY RECORDS |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1845 | 26 | 1852 | Originals Vinyl | originalsvinyl.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1846 | 26 | 1853 | ORSF Orthodontics |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1847 | 26 | 1854 | Otown Vinyl & Collectibles |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1848 | 26 | 1855 | Ottawa Community Thrift | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1849 | 26 | 1856 | Out of Sight Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1850 | 26 | 1857 | Out of the Past Collectibles | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1851 | 26 | 1858 | Out of the Past Records | outofthepastrecords.myshopify.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 1852 | 26 | 1859 | Out There Records | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1853 | 26 | 1860 | Outer Limits Boro | theouterlimitsboro.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1854 | 26 | 1861 | Outhouse Records | outhouserecordshop.com | shopify | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1855 | 26 | 1862 | Output Records | shopoutput.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1856 | 26 | 1863 | OX4D Music | ox4dmusic.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1857 | 26 | 1864 | P M Sounds | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1858 | 26 | 1865 | P-Town Antiques n Collectibles |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1859 | 26 | 1866 | Pack Ratt Records and Junk | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 1860 |  | 1867 | Page Turner Books | hasberts.com |  | PENDING |  | — | broncontrole uitvoeren |
 | 1861 |  | 1868 | Palm Beach Vinyl \| We Buy Records \| Shop Online | yourvinylshop.com |  | PENDING |  | — | broncontrole uitvoeren |
 | 1862 |  | 1869 | Palm Springs Vinyl Records and Collectibles | oldhollywoodland.com |  | PENDING |  | — | broncontrole uitvoeren |
