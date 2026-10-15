@@ -1,17 +1,17 @@
 # Centrale scraperstatus
 
-Bronregels: 3303. Behandeld voor broncontrole: 1160. Open voor broncontrole: 2143.
+Bronregels: 3303. Behandeld voor broncontrole: 1460. Open voor broncontrole: 1843.
 
 Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine checksumproeven; private acceptatie, marktprijzen en imports volgen apart.
 
 ## Statusaantallen
 
-- ADAPTER_TESTED: 37
+- ADAPTER_TESTED: 51
 - DETAIL_GATE_BLOCKED: 98
-- ROUTE_REVIEW: 386
-- SCRAPER_BUILT_TESTED: 78
-- SOURCE_BLOCKED: 125
-- SOURCE_REVIEW: 436
+- ROUTE_REVIEW: 508
+- SCRAPER_BUILT_TESTED: 94
+- SOURCE_BLOCKED: 152
+- SOURCE_REVIEW: 557
 
 ## Winkels
 
@@ -26,76 +26,76 @@ Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine 
 | 6 | 9 | 151 | Apollo Exos Records & Beer | apolloexos.com | shopify | SCRAPER_BUILT_TESTED | 1 | 0/1 geldig | private QA en marktgate beoordelen |
 | 7 | 9 | 61 | Abrodos Music | abrodosmusic.com | shopify | SCRAPER_BUILT_TESTED | 10 | 0/2 geldig | private QA en marktgate beoordelen |
 | 8 |  | 77 | AFK Books & Records | afkbooksandrecords.com | shopify | SCRAPER_BUILT_TESTED | 4 | 0/2 geldig | private QA en marktgate beoordelen |
-| 9 |  | 101 | Allied Record Exchange | alliedrecordexchange.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 9 |  | 101 | Allied Record Exchange | alliedrecordexchange.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 10 |  | 55 | a2vintage | a2vintageypsi.com | shopify | DETAIL_GATE_BLOCKED | 0 | 0/0 geldig | detailroute of catalogus opnieuw beoordelen: no detail page passed the bounded recheck |
 | 11 |  | 58 | Above Face Oddities and More | twoshopsinorange.com | shopify | DETAIL_GATE_BLOCKED | 0 | 0/0 geldig | detailroute of catalogus opnieuw beoordelen: no detail page passed the bounded recheck |
-| 12 |  | 23 | 14a Records | 14arecords.com | woocommerce | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 13 |  | 33 | 74 Kid Records; Vinyl Revival | 74kid.com | woocommerce | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 14 |  | 119 | Analog Archivers | analogarchivers.com | woocommerce | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 15 |  | 127 | Anaphora Discs | anaphoradiscs.com | woocommerce | DETAIL_GATE_BLOCKED | 0 | 0/0 geldig | detailroute of catalogus opnieuw beoordelen: no detail page passed the bounded recheck |
-| 16 |  | 21 | 11th Street Records | 11thstreetrecords.net | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 17 |  | 32 | 54 Vintage Vinyl | rpmunderground.us | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 18 |  | 48 | A DAY IN THE LIFE RECORDS | adayintheliferecords.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 19 |  | 53 | A-1 Record Shop | a-1recordshop.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 20 |  | 105 | AM Collective | amcollectivehuntsville.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 21 |  | 155 | Apparitions Vintage | apparitionsvintage.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 22 |  | 102 | Almost Anything | almostanythingopelika.com | bigcommerce | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 12 |  | 23 | 14a Records | 14arecords.com | woocommerce | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 13 |  | 33 | 74 Kid Records; Vinyl Revival | 74kid.com | woocommerce | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 14 |  | 119 | Analog Archivers | analogarchivers.com | woocommerce | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 15 |  | 127 | Anaphora Discs | anaphoradiscs.com | woocommerce | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 16 |  | 21 | 11th Street Records | 11thstreetrecords.net | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 17 |  | 32 | 54 Vintage Vinyl | rpmunderground.us | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 18 |  | 48 | A DAY IN THE LIFE RECORDS | adayintheliferecords.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 19 |  | 53 | A-1 Record Shop | a-1recordshop.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 20 |  | 105 | AM Collective | amcollectivehuntsville.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 21 |  | 155 | Apparitions Vintage | apparitionsvintage.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 22 |  | 102 | Almost Anything | almostanythingopelika.com | bigcommerce | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 23 | 10 | 7 | 1 Look Vintage | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 24 | 10 | 8 | 1 Stop CD Replication |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
-| 25 |  | 10 | 2nd & Charles | 2ndandcharles.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 26 |  | 11 | 2nd Ave; Savers; Unique; Value Village | stores.savers.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 25 |  | 10 | 2nd & Charles | 2ndandcharles.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 26 |  | 11 | 2nd Ave; Savers; Unique; Value Village | stores.savers.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 27 | 10 | 12 | 2nd Avenue Records | 2ndavenuerecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
-| 28 |  | 13 | 2nd Borne Records | 2ndbornerecords.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 28 |  | 13 | 2nd Borne Records | 2ndbornerecords.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 29 | 10 | 14 | 2nd CHANCE TRADING | a.co |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
-| 30 |  | 15 | 3hive Record Lounge | shop.3hive.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 31 |  | 16 | 4 Ever Memories | 4evermemoriesrecordstore.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 30 |  | 15 | 3hive Record Lounge | shop.3hive.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 31 |  | 16 | 4 Ever Memories | 4evermemoriesrecordstore.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 32 | 10 | 17 | 5 Points Vintage | m.facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
-| 33 |  | 18 | 7 Arts Music | 7artsmusic.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 33 |  | 18 | 7 Arts Music | 7artsmusic.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 34 | 10 | 19 | 8-Bit Gaming | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 35 | 10 | 22 | 13th Floor Music & Accessories |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 36 | 10 | 24 | 16th Street Mercantile | 16thstreetmercantile.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
-| 37 |  | 25 | 21st Century Music | 21centurymusic.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 37 |  | 25 | 21st Century Music | 21centurymusic.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 38 | 10 | 26 | 22 Sound | 22soundrecords.com | shopify | SCRAPER_BUILT_TESTED | 2 | 0/2 geldig | private QA en marktgate beoordelen |
 | 39 | 10 | 27 | 22Five |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
-| 40 |  | 28 | 22mrkt Records | 22mrkt.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 40 |  | 28 | 22mrkt Records | 22mrkt.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 41 | 10 | 29 | 31RECORDS - WE BUY RECORDS & CDs!!! |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 42 | 10 | 30 | 33+45=78 Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 43 | 10 | 31 | 39th Street Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 44 | 10 | 34 | 84 Collectibles & Antiques |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 45 | 10 | 35 | 100 Tonedef Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 46 | 10 | 36 | 101 Music |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
-| 47 |  | 37 | 180 Gram Record Store | 180gramrecordstore.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 47 |  | 37 | 180 Gram Record Store | 180gramrecordstore.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 48 | 10 | 38 | 333 Vinyl | sites.google.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 49 | 10 | 39 | 402 Vinyl |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
-| 50 |  | 40 | 503 Records | 503records.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 50 |  | 40 | 503 Records | 503records.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 51 | 10 | 41 | 510 Books | 510books.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
 | 52 | 10 | 43 | 690 Woodward Garage | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 53 | 10 | 44 | 939 Records | 939records.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_404 |
 | 54 | 10 | 45 | 1709 Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
-| 55 |  | 46 | 4000 Holes Record Store | 4000holes.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 55 |  | 46 | 4000 Holes Record Store | 4000holes.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 56 | 10 | 47 | A Damn Shame Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 57 | 10 | 49 | A Flat Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 58 | 10 | 50 | A Pirate's Place Studio and Gallery | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
-| 59 |  | 51 | A Record Shop | scottmintondesign.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 59 |  | 51 | A Record Shop | scottmintondesign.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 60 | 10 | 52 | A walk in time | awalkintime.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
 | 61 | 10 | 54 | A&T records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 62 | 10 | 56 | Abandoned Antiques | abandonedantiques.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
 | 63 | 10 | 57 | Abbie Road |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 64 | 10 | 59 | Abraxas | unleashabraxas.com | shopify | SCRAPER_BUILT_TESTED | 5 | 0/2 geldig | private QA en marktgate beoordelen |
-| 65 |  | 60 | Abraxas Wax | abraxaswax.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 65 |  | 60 | Abraxas Wax | abraxaswax.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 66 | 10 | 62 | Absolute Legends And Collectibles | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 67 | 10 | 63 | Absolute Vinyl Records & Stereo | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
-| 68 |  | 64 | absorb records | absorb-records.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 69 |  | 65 | Academy Record Annex; Academy Records | academy-lps.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 70 |  | 66 | Academy Records & CDs | academy-records.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 68 |  | 64 | absorb records | absorb-records.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 69 |  | 65 | Academy Record Annex; Academy Records | academy-lps.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 70 |  | 66 | Academy Records & CDs | academy-records.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 71 | 10 | 67 | Acapulco Records & Sports | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
-| 72 |  | 68 | Acme Records | acmerecordsmke.com | woocommerce | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 73 |  | 69 | Acoustic Sounds | store.acousticsounds.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 72 |  | 68 | Acme Records | acmerecordsmke.com | woocommerce | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 73 |  | 69 | Acoustic Sounds | store.acousticsounds.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 74 | 10 | 70 | Action Nerd Fun Spot | action-nerd.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Response size limit |
 | 75 | 10 | 71 | Acworth Vintage & Vinyl |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 76 | 10 | 72 | ADHD Music | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 77 | 10 | 73 | Admiral Analog's | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
-| 78 |  | 74 | Adventures Underground | advunderground.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 78 |  | 74 | Adventures Underground | advunderground.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 79 | 10 | 75 | Aesthetic Religion Records & Texts | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 80 | 10 | 76 | Affordable Computer and Variety | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 81 | 10 | 78 | African Record Center Ltd |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
@@ -107,59 +107,59 @@ Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine 
 | 87 | 10 | 84 | Alamo Record Company |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 88 | 10 | 85 | Alamo Records & Sheet Music |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 89 | 10 | 86 | Albatross Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
-| 90 |  | 87 | AlbumAddict | albumaddict.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 90 |  | 87 | AlbumAddict | albumaddict.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 91 | 10 | 88 | Algonquin Records | algonquinrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
-| 92 |  | 89 | Alien Records | alienrecordsotr.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 92 |  | 89 | Alien Records | alienrecordsotr.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 93 | 10 | 90 | Alison's Record Shop | alisonsrecordshop.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
 | 94 | 10 | 91 | All About Records | ebay.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
-| 95 |  | 93 | All Sales Vinyl | allsalesvinyl.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 96 |  | 94 | All That Music & Video Vinyl CDs Gifts | allthatmusic.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 95 |  | 93 | All Sales Vinyl | allsalesvinyl.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 96 |  | 94 | All That Music & Video Vinyl CDs Gifts | allthatmusic.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 97 | 10 | 96 | All Together Now | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 98 | 10 | 97 | Allen’s Attic Treasures |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 99 | 10 | 98 | Alley Cat Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
-| 100 |  | 99 | Alley Cat Vintage Mercantile | alleycatvintagemercantile.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 100 |  | 99 | Alley Cat Vintage Mercantile | alleycatvintagemercantile.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 101 | 10 | 100 | Alley Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
-| 102 |  | 103 | Almost Ready Records | almostreadyrecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 102 |  | 103 | Almost Ready Records | almostreadyrecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 103 | 10 | 104 | Altamirano Records | altamiranorecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
-| 104 |  | 106 | Amazing Alonzo Bookstore | amazingalonzobookstore.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 105 |  | 107 | Amazing Books & Records | amazingbooksandrecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 106 |  | 108 | Amazing Imaginarium | amazingimaginarium.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 107 |  | 109 | American Classics Marketplace | americanclassicsmarketplace.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 104 |  | 106 | Amazing Alonzo Bookstore | amazingalonzobookstore.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 105 |  | 107 | Amazing Books & Records | amazingbooksandrecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 106 |  | 108 | Amazing Imaginarium | amazingimaginarium.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 107 |  | 109 | American Classics Marketplace | americanclassicsmarketplace.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 108 | 10 | 110 | American Hardware Center | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 109 | 10 | 111 | American made crafts and vinyl stickers |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
-| 110 |  | 112 | American Pie Records; American Pie Records Coffee House | americanpierecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 110 |  | 112 | American Pie Records; American Pie Records Coffee House | americanpierecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 111 | 11 | 113 | American Record Company | arcskate.com | shopify | SCRAPER_BUILT_TESTED | 16 | 1/2 geldig | private QA en marktgate beoordelen |
-| 112 |  | 114 | AMH Records | amhrecordscbd.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 112 |  | 114 | AMH Records | amhrecordscbd.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 113 | 11 | 115 | Amical Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 114 | 11 | 116 | Amoeba Music | amoeba.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
 | 115 | 11 | 117 | Amplified Lou |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 116 | 11 | 118 | AMPLIFIED RPM |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 117 | 11 | 120 | Analog Attic | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
-| 118 |  | 121 | Analog Coffee & Records | analogcoffeemadison.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 118 |  | 121 | Analog Coffee & Records | analogcoffeemadison.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 119 | 11 | 122 | Analog Record Shop | analogrecordshop.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
 | 120 | 11 | 123 | Analog Underground | discogs.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
-| 121 |  | 124 | Analog Vault | analogvault-cr.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 121 |  | 124 | Analog Vault | analogvault-cr.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 122 | 11 | 125 | Analog Your Life | analogyourlife.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
-| 123 |  | 126 | Analogue Books & Records | analoguepueblo.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 124 |  | 128 | AndVinyl Records | andvinyl.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 125 |  | 129 | Andy’s Records | andysrecords.shop | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 126 |  | 130 | Angel City Books & Records | angelcitybooks.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 127 |  | 131 | Angelina Gargano~Mountain River Records | angelinagargano.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 123 |  | 126 | Analogue Books & Records | analoguepueblo.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 124 |  | 128 | AndVinyl Records | andvinyl.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 125 |  | 129 | Andy’s Records | andysrecords.shop | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 126 |  | 130 | Angel City Books & Records | angelcitybooks.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 127 |  | 131 | Angelina Gargano~Mountain River Records | angelinagargano.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 128 |  | 132 | Angelo's CD's & Vinyl; Angelo's CD's and Vinyl | angeloscds.com | woocommerce | DETAIL_GATE_BLOCKED | 0 | 0/0 geldig | detailroute of catalogus opnieuw beoordelen: no detail page passed the bounded recheck |
-| 129 |  | 133 | Angry Mom Records | angry-mom-records.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 129 |  | 133 | Angry Mom Records | angry-mom-records.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 130 | 11 | 134 | Angry Young & Poor | angryyoungandpoor.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
-| 131 |  | 135 | Animal Records | animalrecordsevanston.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 131 |  | 135 | Animal Records | animalrecordsevanston.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 132 | 11 | 136 | Annex Novelty Shop |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 133 | 11 | 137 | Annie Laurie's | annielauries.net |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
 | 134 | 11 | 138 | Another Part of the Forest |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
-| 135 |  | 139 | Antidote Books & Records | antidoterecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 136 |  | 140 | Antique 78rpm Record Shop | antique78rpm.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 135 |  | 139 | Antidote Books & Records | antidoterecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 136 |  | 140 | Antique 78rpm Record Shop | antique78rpm.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 137 | 11 | 141 | Antique Depot | duncansvilleantiquedepot.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
 | 138 | 11 | 142 | Antique Emporium Market Place |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 139 | 11 | 143 | Antique Galleria |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
-| 140 |  | 144 | Antique Mall of Lowell | hitiques.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 140 |  | 144 | Antique Mall of Lowell | hitiques.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 141 | 11 | 145 | Antique Mkt Vinyl Records | m.facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
-| 142 |  | 146 | Antique Vault & Records | antiquevaultandrecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 142 |  | 146 | Antique Vault & Records | antiquevaultandrecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 143 | 11 | 147 | ANTIQUE WAREHOUSE |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 144 | 11 | 148 | ANTIQUES & MORE | antiquesandmore.co |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: TimeoutError |
 | 145 | 11 | 149 | Antiques & Things |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
@@ -169,21 +169,21 @@ Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine 
 | 149 | 11 | 156 | apples & oranges, records & tapes, LLC |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 150 | 11 | 157 | Aquarius Music & Accessories |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 151 | 11 | 158 | Arden Scott Collectibles | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
-| 152 |  | 159 | Arkansas Record-CD Exchange | arcd.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 153 |  | 160 | Arlington Climate Controlled Storage; Leland Storage; The Storage Inn | absolutemgmt.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 154 |  | 161 | Armadillo Music | armadillomusic.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 155 |  | 162 | Armageddon Shop | armageddonshop.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 156 |  | 163 | Around About Books | aroundaboutbooks.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 152 |  | 159 | Arkansas Record-CD Exchange | arcd.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 153 |  | 160 | Arlington Climate Controlled Storage; Leland Storage; The Storage Inn | absolutemgmt.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 154 |  | 161 | Armadillo Music | armadillomusic.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 155 |  | 162 | Armageddon Shop | armageddonshop.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 156 |  | 163 | Around About Books | aroundaboutbooks.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 157 | 11 | 164 | Arrowhead Vinyl Specialties |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 158 | 11 | 165 | Arroyo Records | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 159 | 11 | 166 | Art Room Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 160 | 11 | 167 | art sound language | artsoundlanguage.com | shopify | SCRAPER_BUILT_TESTED | 16 | 0/2 geldig | private QA en marktgate beoordelen |
 | 161 | 11 | 168 | Art's Record Mart |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
-| 162 |  | 169 | Artifact Records | artifact-records.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 163 |  | 170 | ARTpool Gallery - Vintage Clothing Boutique & Vinyl Record Store; ARTpool Records | artpoolrules.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 164 |  | 171 | As The Record Turns | astherecordturnsla.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 162 |  | 169 | Artifact Records | artifact-records.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 163 |  | 170 | ARTpool Gallery - Vintage Clothing Boutique & Vinyl Record Store; ARTpool Records | artpoolrules.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 164 |  | 171 | As The Record Turns | astherecordturnsla.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 165 | 11 | 172 | As Time Goes By In Greenwood |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
-| 166 |  | 173 | As Time Goes By Records & Collectibles | astimegoesby.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 166 |  | 173 | As Time Goes By Records & Collectibles | astimegoesby.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 167 | 11 | 174 | Ascendents Records | ascendentsrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
 | 168 | 11 | 175 | Ash Street Music Exchange | ashstreetmusic.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
 | 169 | 11 | 176 | Ashley Michelle Baldwin CD Store |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
@@ -191,42 +191,42 @@ Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine 
 | 171 | 11 | 178 | Assumption Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 172 | 11 | 179 | Asteroid Vinyl Cafe |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 173 |  | 180 | Astro Record Store | astrorecordstore.com | shopify | DETAIL_GATE_BLOCKED | 0 | 0/0 geldig | detailroute of catalogus opnieuw beoordelen: no detail page passed the bounded recheck |
-| 174 |  | 181 | Astro-Zombies | astrozombies.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 175 |  | 182 | Asylum Records | asylumrecordsaz.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 174 |  | 181 | Astro-Zombies | astrozombies.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 175 |  | 182 | Asylum Records | asylumrecordsaz.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 176 |  | 183 | Atlanta Disc | atlantadisc.com | woocommerce | DETAIL_GATE_BLOCKED | 0 | 0/0 geldig | detailroute of catalogus opnieuw beoordelen: no detail page passed the bounded recheck |
 | 177 | 11 | 184 | Atlantic Sounds | atlanticsounds.gbiz.shop |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
 | 178 | 11 | 185 | Atmosphere Collectibles | m.facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
-| 179 |  | 186 | Atomic Genius Records and More | atomicgeniusrecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 180 |  | 187 | Atomic Records | atomicrecordsla.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 179 |  | 186 | Atomic Genius Records and More | atomicgeniusrecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 180 |  | 187 | Atomic Records | atomicrecordsla.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 181 | 11 | 188 | Atomic Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 182 | 11 | 189 | Atomic Records And Gear |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 183 | 11 | 190 | Atomic Wax | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
-| 184 |  | 191 | ATR Magnetics | atrtape.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 184 |  | 191 | ATR Magnetics | atrtape.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 185 | 11 | 192 | Attic Record Store Inc | atticrecordstoreinc.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
 | 186 | 11 | 193 | Audio Ritual Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 187 | 11 | 194 | Audio Video Disco | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 188 | 11 | 195 | Audiogazing |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 189 |  | 196 | Audiolab Stereo & Video Center Inc. | audiolab.com | shopify | DETAIL_GATE_BLOCKED | 0 | 0/0 geldig | detailroute of catalogus opnieuw beoordelen: no detail page passed the bounded recheck |
-| 190 |  | 197 | Audiophil's Records | audiophilsrecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 191 |  | 198 | AudiophileUSA Records | audiophileusa.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 190 |  | 197 | Audiophil's Records | audiophilsrecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 191 |  | 198 | AudiophileUSA Records | audiophileusa.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 192 | 11 | 199 | Authentic Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
-| 193 |  | 200 | Autumn Records Winooski | autumnrecordsvt.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 194 |  | 201 | Azio Media - Books, Music & More | aziomedia.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 193 |  | 200 | Autumn Records Winooski | autumnrecordsvt.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 194 |  | 201 | Azio Media - Books, Music & More | aziomedia.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 195 | 11 | 202 | B & T Music | discogs.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: DUPLICATE_DOMAIN |
-| 196 |  | 203 | B Side Records | bluescentric.com | woocommerce | DETAIL_GATE_BLOCKED | 0 | 0/0 geldig | detailroute of catalogus opnieuw beoordelen: no detail page passed the bounded recheck |
-| 197 |  | 204 | B-Side Record Shop | bsiderecordshop.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 196 |  | 203 | B Side Records | bluescentric.com | woocommerce | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 197 |  | 204 | B-Side Record Shop | bsiderecordshop.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 198 | 11 | 205 | B-Side Records | b-sidemadison.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
-| 199 |  | 206 | B-Side Records & Vintage | bsiderecordsvintage.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 199 |  | 206 | B-Side Records & Vintage | bsiderecordsvintage.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 200 | 11 | 207 | B-sides & Demos Enterprises |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 201 | 11 | 208 | B-Sides by Moose Vinyl | b-siderecordsllc.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
-| 202 |  | 209 | B's Music Shop | bsmusicshop.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 203 |  | 210 | B&T Trading | bandttrading.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 204 |  | 211 | Baby Rabiez | babyrabiez.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 202 |  | 209 | B's Music Shop | bsmusicshop.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 203 |  | 210 | B&T Trading | bandttrading.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 204 |  | 211 | Baby Rabiez | babyrabiez.com | squarespace | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 205 | 11 | 212 | Back Around Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 206 | 11 | 213 | Back Door Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 207 | 11 | 214 | Back in the Day Vintage Store: Records, Comics, Collectibles, Concert Shirts, and More |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 208 | 11 | 215 | Back to the Media - Video Games Records & Comics | backtothemedia.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
-| 209 |  | 216 | Back To The Past Collectibles | gobacktothepast.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 209 |  | 216 | Back To The Past Collectibles | gobacktothepast.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 210 | 11 | 217 | Back To The Vinyl | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 211 | 11 | 218 | Back to Vinyl Record Store |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 212 | 11 | 219 | back2basement vinyl records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
@@ -239,26 +239,26 @@ Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine 
 | 219 | 11 | 226 | Ball & Chill Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 220 | 11 | 227 | Bama Record Shop |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 221 |  | 228 | Bananas Records: Audio Equipment /Sales; Bananas Records: CDs, DVDs & Vinyl; Bananas Records: Vinyl Warehouse | bananasrecords.com | woocommerce | DETAIL_GATE_BLOCKED | 0 | 0/0 geldig | detailroute of catalogus opnieuw beoordelen: no detail page passed the bounded recheck |
-| 222 |  | 229 | Barely Brothers Records | barelybrothersrecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 222 |  | 229 | Barely Brothers Records | barelybrothersrecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 223 | 11 | 230 | Bargain CDs Records & Tapes |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 224 |  | 231 | Barnacle Betty's Antique & Art Emporium - Cape Cod, Memorabilia, Nautical, Collectibles, Vinyl Records! | barnaclebettys.com | shopify | DETAIL_GATE_BLOCKED | 0 | 0/0 geldig | detailroute of catalogus opnieuw beoordelen: no detail page passed the bounded recheck |
-| 225 |  | 232 | Barrett Society Records | barrettsocietyrecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 226 |  | 233 | Bart’s Chestertown Records | bartschestertownrecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 225 |  | 232 | Barrett Society Records | barrettsocietyrecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 226 |  | 233 | Bart’s Chestertown Records | bartschestertownrecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 227 | 11 | 234 | Bartertown Collectibles | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 228 | 11 | 235 | Bartkus Records | bartkusrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
-| 229 |  | 236 | Basement Records | basementrecordstn.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 230 |  | 237 | Basil Audio San Francisco Bay Area | basilaudio.com | woocommerce | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 229 |  | 236 | Basement Records | basementrecordstn.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 230 |  | 237 | Basil Audio San Francisco Bay Area | basilaudio.com | woocommerce | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 231 | 11 | 238 | Batcave Vinyl | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 232 | 11 | 239 | Batch of Music |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 233 | 11 | 240 | Battlesong Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 234 | 11 | 241 | Bay Sound | ebay.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
-| 235 |  | 242 | Bay View Books And Music | abebooks.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 236 |  | 243 | Bay Vinyl Records | bayvinylrecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
-| 237 |  | 244 | BB's Records | bbsrecordsnj.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 235 |  | 242 | Bay View Books And Music | abebooks.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 236 |  | 243 | Bay Vinyl Records | bayvinylrecords.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
+| 237 |  | 244 | BB's Records | bbsrecordsnj.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 238 | 11 | 245 | BC Records, Comics, Cards, Collectibles |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 239 | 11 | 246 | BE's Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 240 | 11 | 247 | Beach Records | discogs.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: DUPLICATE_DOMAIN |
-| 241 |  | 248 | Beachside Retro & Records | beachsideretro.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: supported public catalog route not proven |
+| 241 |  | 248 | Beachside Retro & Records | beachsideretro.com | unknown | DETAIL_GATE_BLOCKED |  | — | detailroute of catalogus opnieuw beoordelen: alternate public catalog route not proven |
 | 242 | 11 | 249 | Beaker's Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
 | 243 | 11 | 250 | Bearded Panda Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 244 | 11 | 251 | Bearded Vinyl | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
@@ -1177,306 +1177,306 @@ Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine 
 | 1157 | 19 | 1164 | Heroes & Villains | linktr.ee |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
 | 1158 | 19 | 1165 | Hex Enduction Records & Books | hexenduction.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
 | 1159 | 19 | 1166 | Hexagon Records | hexagonrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
-| 1160 |  | 1167 | HEY SUBURBIA RECORDS | heysuburbiarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1161 |  | 1168 | Hi Fi Frontier | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1162 |  | 1169 | Hi-Fi & Fly | hifiandfly.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1163 |  | 1170 | Hi-Fi Hits Records | hi-fihits.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1164 |  | 1171 | Hi-Fi Senpai LLC | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1165 |  | 1172 | Hi-Tones Online | hitonesonline.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1166 |  | 1173 | Hi-Tones Record Store | hitonesrecordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1167 |  | 1174 | Hi-Voltage Records | hivoltagerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1168 |  | 1175 | Hidden Tracks Records | myhiddentracks.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1169 |  | 1176 | Hidden treasures |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1170 |  | 1177 | Hidden Treasures & Collectables Flea Market & Gift Shop | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1171 |  | 1178 | Hideaway Music | hideawaymusic.org |  | PENDING |  | — | broncontrole uitvoeren |
-| 1172 |  | 1179 | HiFi Records | hifirecords.org |  | PENDING |  | — | broncontrole uitvoeren |
-| 1173 |  | 1180 | High Energy Vintage |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1174 |  | 1181 | High Fidelity Records & CDs | highfidelitycds.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1175 |  | 1182 | High Fidelity Records Inc | highfidelityla.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1176 |  | 1183 | High Fidelity Records Store | funkylittlerecordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1177 |  | 1184 | High Rhodes Records | highrhodesrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1178 |  | 1185 | High Voltage Records and Hi-Fi | highvoltagevinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1179 |  | 1186 | Hionfi Vintage Stereo Store | hionfi.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1180 |  | 1187 | Hip Cat Records & Music Videos |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1181 |  | 1188 | HipHop Philosophy Record Shop/Radio Station/Art Gallery | hiphopphilosophy.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1182 |  | 1189 | HipHopRecordsbeatsfromthestreets.com | hiphoprecordsbeatsfromthestreets.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1183 |  | 1190 | Hippo Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1184 |  | 1191 | Hippo Records Winston Salem | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1185 |  | 1192 | Historic 4th Avenue Shirts |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1186 |  | 1193 | Historic Hippie Record Shoppe | historichippie.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1187 |  | 1194 | Hitt Records | hittrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1188 |  | 1195 | HIZZ / هز | hizz.me |  | PENDING |  | — | broncontrole uitvoeren |
-| 1189 |  | 1196 | Hoarders Trading Post | hoarderstradingpostil.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1190 |  | 1197 | Hodgson's Antiques | hodgsonsantiques.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1191 |  | 1198 | Hogwild Records Tapes & CD's | linktr.ee |  | PENDING |  | — | broncontrole uitvoeren |
-| 1192 |  | 1199 | Hole In The Wall Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1193 |  | 1200 | Hole-In-The-Wall Books, Records, CDs |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1194 |  | 1201 | Hollow Bone Records | hollowbonerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1195 |  | 1202 | Holly Market |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1196 |  | 1203 | Holy Cow Records | pikeplacemarket.org |  | PENDING |  | — | broncontrole uitvoeren |
-| 1197 |  | 1204 | Holyland Records LLC |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1198 |  | 1205 | Home Court Vintage & Vinyl | thehomecourtdmv.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1199 |  | 1206 | Homer's Record Stores | homersmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1200 |  | 1207 | Hooked On Books |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1201 |  | 1208 | Hooligan's Record Store |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1202 |  | 1209 | Hop Fidelity | hopfidelity.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1203 |  | 1210 | Hop Park Vinyl |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1204 |  | 1211 | Hopp Frogg Music | hoppfroggmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1205 |  | 1212 | Horizon Records | horizonrecords.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 1206 |  | 1213 | Horizons Music | horizonsmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1207 |  | 1214 | Horror Pain Gore Death Productions | shop.horrorpaingoredeath.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1208 |  | 1215 | Hot Poop | hotpoop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1209 |  | 1216 | HoTL Records Llc | hotlrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1210 |  | 1217 | House Of Heroes Comics And Collectibles |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1211 |  | 1218 | House of High Fidelity | houseofhighfidelity.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1212 |  | 1219 | House of Records | houseofrecordseugene.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1213 |  | 1220 | House of Sound |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1214 |  | 1221 | House of Wax | houseofwaxvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1215 |  | 1222 | House of Wax |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1216 |  | 1223 | Housewolf Records | housewolfrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1217 |  | 1224 | Howard & Nan's Record Shop |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1218 |  | 1225 | Howlin' Mouse Record Store | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1219 |  | 1226 | HQ Books and Records | hqindy.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1220 |  | 1227 | HR Records | homerulerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1221 |  | 1228 | Hub City Records | hubcityrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1222 |  | 1229 | Hub City Vinyl | hubcityvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1223 |  | 1230 | Huber Music & Video | hmvhuber.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1224 |  | 1231 | Hudson Valley Vintage | hvvintage.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1225 |  | 1232 | Hudson Valley Vinyl | hudsonvalleyvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1226 |  | 1233 | Hudson Vinyl | hudsonvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1227 |  | 1234 | Hula Records | hularecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1228 |  | 1235 | Human Head Records | humanheadnyc.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1229 |  | 1236 | Hungry Ear Records | hungryearrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1230 |  | 1237 | Hunky Dory | hunkydoryvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1231 |  | 1238 | Hunky Dory Records | hunkydoryrecordsidy.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1232 |  | 1239 | HUNT & GATHER ANTIQUES and VINTAGE SHOP | countrynesters.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1233 |  | 1240 | Hurricane Records | m.facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1234 |  | 1241 | Hybrid Records | hybridrecordstx.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1235 |  | 1242 | Hyde Park Records | hydeparkrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1236 |  | 1243 | I Hate Records | ihaterecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1237 |  | 1244 | IB Records Radio | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1238 |  | 1245 | Idaho Vinyl Records | idahovinylrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1239 |  | 1246 | Ignition Music Garage | ignitionmusic.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 1240 |  | 1247 | Iko's Music Trade |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1241 |  | 1248 | Impressions Philadelphia | impressionsphilly.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1242 |  | 1249 | In the Groove Morro Bay | inthegroovemb.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1243 |  | 1250 | In The Groove Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1244 |  | 1251 | In the Moment Records | inthemomentrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1245 |  | 1252 | In Your Ear Records | iye.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1246 |  | 1253 | Inclusion Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1247 |  | 1254 | Indie Earth | indieearthllc.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1248 |  | 1255 | Indie Readery & Records | indiereadery.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1249 |  | 1256 | Indy CD & Vinyl | indycdandvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1250 |  | 1257 | Infinite Spin Records | infinitespinradio.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1251 |  | 1258 | Infinity Records Ltd | infinityrecordsusa.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1252 |  | 1259 | Ingrid's Thrift, Vintage & Record Store |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1253 |  | 1260 | Inherent Records | inherentrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1254 |  | 1261 | Ink On Wax |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1255 |  | 1262 | Inner Groove Records | innergrooverecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1256 |  | 1263 | Inner Groove Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1257 |  | 1264 | INNER GROOVE VINYL & DRIP COFFEE BAR |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1258 |  | 1265 | Inner Sleeve Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1259 |  | 1266 | InnerCat Music Group, LLC | innercatmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1260 |  | 1267 | InnerGroove Record Store |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1261 |  | 1268 | Innersleeve Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1262 |  | 1269 | Inquiring Mind Bookstore & Cafe | inquiringbooks.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1263 |  | 1270 | Inretrospect | inretrospectoc.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1264 |  | 1271 | Instant Karma Records | instantkarmarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1265 |  | 1272 | Institute Records and Curiosities | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1266 |  | 1273 | Inta Vintage | intavintage.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1267 |  | 1274 | Intersect Records | intersectvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1268 |  | 1275 | Interstellar Space Records | interstellarspacerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1269 |  | 1276 | Invincible Vinyl | invinciblevinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1270 |  | 1277 | Iris Records JC | irisrecordsjc.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1271 |  | 1278 | Iron Horse Antiques | ironhorseantiquesva.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1272 |  | 1279 | Iron Horse Records | vanburenchamber.org |  | PENDING |  | — | broncontrole uitvoeren |
-| 1273 |  | 1280 | Ironhead Records | ironheadrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1274 |  | 1281 | Ironside Records | ironsiderecordsmaine.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1275 |  | 1282 | Irving Place Records | irvingplacerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1276 |  | 1283 | Irvington Vinyl & Books | irvingtonvinylandbooks.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1277 |  | 1284 | ISHY'S RECORDS & HOT SAUCE OUTLET | niagararecords.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 1278 |  | 1285 | Island Splash Entertainment, LLC | islandsplashent.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1279 |  | 1286 | It's A Beautiful Day | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1280 |  | 1287 | It’s Raining Records and Books |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1281 |  | 1288 | J & B Vinyl & Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1282 |  | 1289 | Jack's Guitarcheology | jacksguitarcheology.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1283 |  | 1290 | Jack's Music Shoppe | jacksmusicshoppe.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1284 |  | 1291 | Jack's Record Cellar |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1285 |  | 1292 | Jack's Record Stache |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1286 |  | 1293 | Jacknife Records & Tapes |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1287 |  | 1294 | Jackpot Records | jackpotrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1288 |  | 1295 | Jackson Record Co. |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1289 |  | 1296 | Jake's Records | jakesrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1290 |  | 1297 | Jakes Main Street Music | jakesmainstreetmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1291 |  | 1298 | Jam - Music and Memorabilia |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1292 |  | 1299 | JAM Books and Records | store98489751.company.site |  | PENDING |  | — | broncontrole uitvoeren |
-| 1293 |  | 1300 | Jammin' Nuggets Music | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1294 |  | 1301 | Jampac Records | discogs.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1295 |  | 1302 | Janie's Record Shop LLC | janiesrecordshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1296 |  | 1303 | Janku Land |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1297 |  | 1304 | Jay's CD & Hobby; Jay's CD and Hobby | jaystoysandgames.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1298 |  | 1305 | Jazz Record Center | jazzrecordcenter.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1299 |  | 1306 | JB's Record Lounge | jbsrecordlounge.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1300 |  | 1307 | JDC Records | jdcrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1301 |  | 1308 | Jeff and Jim's Vintage Vinyl Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1302 |  | 1309 | Jerk Dog Records | jerkdogrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1303 |  | 1310 | Jerry's Record Joint | sites.google.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1304 |  | 1311 | Jerry's Records | jerrysrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1305 |  | 1312 | Jesse Carl Vinyl | jessecarlvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1306 |  | 1313 | Jet Age Records | jetagerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1307 |  | 1314 | JG’s Vinyl and More! | jgsvinylandmore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1308 |  | 1315 | JiggyJamz Records and CDs | jiggyjamz.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1309 |  | 1316 | Jim Reed Books/The Museum of Fond Memories | jimreedbooks.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1310 |  | 1317 | JIM Services |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1311 |  | 1318 | Jimbo's Records and Tapes |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1312 |  | 1319 | Jitterbug Sights & Sounds | jitterbugcatskills.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1313 |  | 1320 | Jive Time Records | jivetimerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1314 |  | 1321 | JL Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1315 |  | 1322 | JMood Records | jmoodrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1316 |  | 1323 | Jo Jo's Record Shop |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1317 |  | 1324 | Jockamo Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1318 |  | 1325 | Joe's Albums | joesalbums.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1319 |  | 1326 | Joe's Record Exchange | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1320 |  | 1327 | Joe's Record Paradise | joesrecordparadise.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1321 |  | 1328 | Joe's Records Memphis; Joe's Records STL; Joe's Records Springfield | joesrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1322 |  | 1329 | Joey Boy Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1323 |  | 1330 | John Doe Records and Books | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1324 |  | 1331 | John's Cameras & Records | johnscameraandrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1325 |  | 1332 | Johnny's | johnnysrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1326 |  | 1333 | Johns Road Antique Mall | johnsroadantiquemall.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1327 |  | 1334 | Joint Custody | jointcustodydc.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1328 |  | 1335 | Jolly's Pawn Shop (Coins, Gold, Spyderco, Microtech & Cold Steel Knives, Records) | shop.jollyspawn.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1329 |  | 1336 | Jones Antiques | jonesantiques.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1330 |  | 1337 | Jonesboogie Records | jonesboogie.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1331 |  | 1338 | Jonesin'4Vinyls | whatnot.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1332 |  | 1339 | Josey Records | joseyrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1333 |  | 1340 | Joys & Toys |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1334 |  | 1341 | JTB's Groovy Record Room | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1335 |  | 1342 | JUKE JOINT |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1336 |  | 1343 | Junk Punk Global | hyperfollow.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1337 |  | 1344 | Junktion Flea Market |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1338 |  | 1345 | Jupiter Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1339 |  | 1346 | Just Press Play Mega Store | justpressplayonline.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1340 |  | 1347 | K PLACE - Buena Park | kplaceshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1341 |  | 1348 | K-Pop Wonderland | kpopwonderlandwi.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1342 |  | 1349 | K-SOLO Vintage | ksolovintage.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1343 |  | 1350 | K-UP! | k-up.us |  | PENDING |  | — | broncontrole uitvoeren |
-| 1344 |  | 1351 | KA-CHUNK!! Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1345 |  | 1352 | Kafe Kerouac | kafekerouac.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1346 |  | 1353 | Kaiju Records | kaijurecordssby.square.site |  | PENDING |  | — | broncontrole uitvoeren |
-| 1347 |  | 1354 | Kanesville Kollectibles | kanesvillekollectibles.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1348 |  | 1355 | Kangaroo C D's & Tapes |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1349 |  | 1356 | Kaos Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1350 |  | 1357 | Karma 46 |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1351 |  | 1358 | Karma Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1352 |  | 1359 | Karma Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1353 |  | 1360 | Karma Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1354 |  | 1361 | Karma Records For Your Lifestyle | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1355 |  | 1362 | Karma Records of Warsaw | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1356 |  | 1363 | KC's Gold and Collectibles - Open by Appointment Only | kcgoldct.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1357 |  | 1364 | Kc's Tapes & Cd's |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1358 |  | 1365 | KC/DC Record Booth | linktr.ee |  | PENDING |  | — | broncontrole uitvoeren |
-| 1359 |  | 1366 | KEBS Records | kebsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1360 |  | 1367 | Keene on Vinyl |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1361 |  | 1368 | Keepers Antique Shop | keepersantiqueshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1362 |  | 1369 | Kelley's Vinyl Record Store |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1363 |  | 1370 | Kelty Audio | keltyaudio.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1364 |  | 1371 | Kerfuffle K-Pop | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1365 |  | 1372 | KEVIN'S RECORDS | kevinsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1366 |  | 1373 | Key to the Past Antique Center, Clinton | keytothepastantiquecenter.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1367 |  | 1374 | Keynote Used Records & Books | m.facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1368 |  | 1375 | Kicksville Vinyl & Vintage | kicksvilleshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1369 |  | 1376 | Kilgor Trouts | kilgortrouts.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1370 |  | 1377 | Killer Vinyl |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1371 |  | 1378 | Killerfinds Rome |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1372 |  | 1379 | Kilovolt Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1373 |  | 1380 | King Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1374 |  | 1381 | King Theodore Records | king-theodore-records.square.site |  | PENDING |  | — | broncontrole uitvoeren |
-| 1375 |  | 1382 | Kingdom Corner Collectibles | linktr.ee |  | PENDING |  | — | broncontrole uitvoeren |
-| 1376 |  | 1383 | Kingfish Records | kingfishrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1377 |  | 1384 | Kismet Creative Center | kismetrecordsstl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1378 |  | 1385 | Kiss the Sky | kissthesky.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 1379 |  | 1386 | Kitschy Spirit Records | kitschyspirit.square.site |  | PENDING |  | — | broncontrole uitvoeren |
-| 1380 |  | 1387 | Knapp's | knappsvt.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1381 |  | 1388 | Knockout Records Music | knockoutrecordsmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1382 |  | 1389 | Know Name Records | knowname.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1383 |  | 1390 | Kool Cat Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1384 |  | 1391 | KorK; STL Kpop Store | korkstl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1385 |  | 1392 | Kosmos Music | kosmosmusichanover.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1386 |  | 1393 | Kowabunga Comics | kowabungacomics.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1387 |  | 1394 | KPOP & GIFT McAllen | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1388 |  | 1395 | KPOP NARA SF | shop.kpopnara.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1389 |  | 1396 | Kraken Records | krakenrecordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1390 |  | 1397 | Krazy Katz Vintage Vinyl Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1391 |  | 1398 | KT Media | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1392 |  | 1399 | La Casa De Los CD |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1393 |  | 1400 | La Casa De Reggaeton Record |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1394 |  | 1401 | La Feria del Disco |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1395 |  | 1402 | La Nouvelle Generation |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1396 |  | 1403 | La Tropicana Record Shop |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1397 |  | 1404 | Laced Up Screen Printers/ October's Ritvals Records | m.facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1398 |  | 1405 | Lagniappe Records | lagniapperecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1399 |  | 1406 | Lake Country Books and More | lakecountrybooks.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1400 |  | 1407 | Lakeshore Vinyl | discogs.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1401 |  | 1408 | Landfill Rescue Unit Records | landfillrescueunit.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1402 |  | 1409 | Landlocked Music | landlockedmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1403 |  | 1410 | Lantern Records | lanternrecords.art |  | PENDING |  | — | broncontrole uitvoeren |
-| 1404 |  | 1411 | Lark Street Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1405 |  | 1412 | Last Dog Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1406 |  | 1413 | Last Exit Books and Coffeehouse | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1407 |  | 1414 | Last Exit Vinyl House |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1408 |  | 1415 | Last Man Standing | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1409 |  | 1416 | Last Stop CD Shop | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1410 |  | 1417 | Last Stop CD Shop | laststoponline.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1411 |  | 1418 | Last Vestige Music Shop | lastvestige.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1412 |  | 1419 | Latchkey | latchkeyrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1413 |  | 1420 | Late Nite Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1414 |  | 1421 | Lathe Cut Vinyl Records | lathecutvinylrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1415 |  | 1422 | Latino Record Shop |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1416 |  | 1423 | Laughing Sam’s Discs |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1417 |  | 1424 | Launderette Records | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1418 |  | 1425 | Laurie's Planet of Sound |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1419 |  | 1426 | Lavender Vinyl | lavendervinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1420 |  | 1427 | Leave Your Mark Sacramento | leaveyourmarksac.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1421 |  | 1428 | Leeways Home Grown Music Network | homegrownmusic.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 1422 |  | 1429 | Left 'Round Records | leftroundrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1423 |  | 1430 | Left of the Dial Records | recordsleftofthedial.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1424 |  | 1431 | Lefty's Records | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1425 |  | 1432 | Legend Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1426 |  | 1433 | Legendary Comics & Records | freshcomics.us |  | PENDING |  | — | broncontrole uitvoeren |
-| 1427 |  | 1434 | Legendary Vinyl Records | discogs.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1428 |  | 1435 | Lemoyne Coin and Collectibles | lemoynecoinandcollectibles.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1429 |  | 1436 | Lester's Rock n Roll Shop |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1430 |  | 1437 | Let's Boogie Records & Tapes |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1431 |  | 1438 | Let's Rock Crystal Shop | letsrockcrystalshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1432 |  | 1439 | Levee Street Market Place |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1433 |  | 1440 | Libby's Old School Records | libbysoldschoolrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1434 |  | 1441 | Liberal Squid Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1435 |  | 1442 | Liberty Records | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1436 |  | 1443 | Licorice Pizza Records | licoricepizzarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1437 |  | 1444 | Lighthouse Music | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1438 |  | 1445 | Lilliput Records | lilliputrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1439 |  | 1446 | Lily's Record Shop Inc |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1440 |  | 1447 | Limbo Records & Rarities |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1441 |  | 1448 | Limited to One Record Shop | limitedtooneshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1442 |  | 1449 | Lincoln Vintage Vinyl | lincolnvintagevinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1443 |  | 1450 | Lincolnville Listening Room & Cold Bar | lincolnvillelisteningroom.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1444 |  | 1451 | Linger | instagram.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1445 |  | 1452 | Lingering Memories Antiques and Collectibles |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1446 |  | 1453 | Listen Here & Phoenix Glass |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1447 |  | 1454 | Listen Up Music | listenupmusicusa.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1448 |  | 1455 | Listening Room | listeningroomsaginaw.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1449 |  | 1456 | Lititz Music Co. | lititzmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1450 |  | 1457 | Lito's Records & Western Wear |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1451 |  | 1458 | Little Axe Records; Little Axe Records Springfield | littleaxerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1452 |  | 1459 | Little Big Store | littlebigstore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1453 |  | 1460 | Little Horse Vintage Fort Collins; Little Horse Vintage Louisville | littlehorsevintage.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1454 |  | 1461 | Little Records | little-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1455 |  | 1462 | Little Shop Of Treasures |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1456 |  | 1463 | Living In Stereo | livinginstereoatx.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1457 |  | 1464 | Livvy Rocks | facebook.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 1458 |  | 1465 | Lizard Dog Records |  |  | PENDING |  | — | broncontrole uitvoeren |
-| 1459 |  | 1466 | Lloyd's Records | lloydsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 1160 | 20 | 1167 | HEY SUBURBIA RECORDS | heysuburbiarecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1161 | 20 | 1168 | Hi Fi Frontier | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1162 | 20 | 1169 | Hi-Fi & Fly | hifiandfly.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1163 | 20 | 1170 | Hi-Fi Hits Records | hi-fihits.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1164 | 20 | 1171 | Hi-Fi Senpai LLC | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1165 | 20 | 1172 | Hi-Tones Online | hitonesonline.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1166 | 20 | 1173 | Hi-Tones Record Store | hitonesrecordstore.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1167 | 20 | 1174 | Hi-Voltage Records | hivoltagerecords.com | shopify | SCRAPER_BUILT_TESTED | 10 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1168 | 20 | 1175 | Hidden Tracks Records | myhiddentracks.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1169 | 20 | 1176 | Hidden treasures |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1170 | 20 | 1177 | Hidden Treasures & Collectables Flea Market & Gift Shop | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1171 | 20 | 1178 | Hideaway Music | hideawaymusic.org | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1172 | 20 | 1179 | HiFi Records | hifirecords.org | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1173 | 20 | 1180 | High Energy Vintage |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1174 | 20 | 1181 | High Fidelity Records & CDs | highfidelitycds.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1175 | 20 | 1182 | High Fidelity Records Inc | highfidelityla.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1176 | 20 | 1183 | High Fidelity Records Store | funkylittlerecordstore.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1177 | 20 | 1184 | High Rhodes Records | highrhodesrecords.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1178 | 20 | 1185 | High Voltage Records and Hi-Fi | highvoltagevinyl.com | shopify | SCRAPER_BUILT_TESTED | 18 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1179 | 20 | 1186 | Hionfi Vintage Stereo Store | hionfi.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1180 | 20 | 1187 | Hip Cat Records & Music Videos |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1181 | 20 | 1188 | HipHop Philosophy Record Shop/Radio Station/Art Gallery | hiphopphilosophy.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 1182 | 20 | 1189 | HipHopRecordsbeatsfromthestreets.com | hiphoprecordsbeatsfromthestreets.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1183 | 20 | 1190 | Hippo Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1184 | 20 | 1191 | Hippo Records Winston Salem | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1185 | 20 | 1192 | Historic 4th Avenue Shirts |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1186 | 20 | 1193 | Historic Hippie Record Shoppe | historichippie.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1187 | 20 | 1194 | Hitt Records | hittrecords.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1188 | 20 | 1195 | HIZZ / هز | hizz.me | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1189 | 20 | 1196 | Hoarders Trading Post | hoarderstradingpostil.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1190 | 20 | 1197 | Hodgson's Antiques | hodgsonsantiques.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 1191 | 20 | 1198 | Hogwild Records Tapes & CD's | linktr.ee |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1192 | 20 | 1199 | Hole In The Wall Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1193 | 20 | 1200 | Hole-In-The-Wall Books, Records, CDs |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1194 | 20 | 1201 | Hollow Bone Records | hollowbonerecords.com | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1195 | 20 | 1202 | Holly Market |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1196 | 20 | 1203 | Holy Cow Records | pikeplacemarket.org | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1197 | 20 | 1204 | Holyland Records LLC |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1198 | 20 | 1205 | Home Court Vintage & Vinyl | thehomecourtdmv.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1199 | 20 | 1206 | Homer's Record Stores | homersmusic.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1200 | 20 | 1207 | Hooked On Books |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1201 | 20 | 1208 | Hooligan's Record Store |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1202 | 20 | 1209 | Hop Fidelity | hopfidelity.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1203 | 20 | 1210 | Hop Park Vinyl |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1204 | 20 | 1211 | Hopp Frogg Music | hoppfroggmusic.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1205 | 20 | 1212 | Horizon Records | horizonrecords.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1206 | 20 | 1213 | Horizons Music | horizonsmusic.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1207 | 20 | 1214 | Horror Pain Gore Death Productions | shop.horrorpaingoredeath.com | shopify | SCRAPER_BUILT_TESTED | 4 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1208 | 20 | 1215 | Hot Poop | hotpoop.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1209 | 20 | 1216 | HoTL Records Llc | hotlrecords.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1210 | 20 | 1217 | House Of Heroes Comics And Collectibles |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1211 | 20 | 1218 | House of High Fidelity | houseofhighfidelity.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1212 | 20 | 1219 | House of Records | houseofrecordseugene.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1213 | 20 | 1220 | House of Sound |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1214 | 20 | 1221 | House of Wax | houseofwaxvinyl.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1215 | 20 | 1222 | House of Wax |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1216 | 20 | 1223 | Housewolf Records | housewolfrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1217 | 20 | 1224 | Howard & Nan's Record Shop |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1218 | 20 | 1225 | Howlin' Mouse Record Store | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1219 | 20 | 1226 | HQ Books and Records | hqindy.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1220 | 20 | 1227 | HR Records | homerulerecords.com | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1221 | 20 | 1228 | Hub City Records | hubcityrecords.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1222 | 20 | 1229 | Hub City Vinyl | hubcityvinyl.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1223 | 20 | 1230 | Huber Music & Video | hmvhuber.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1224 | 20 | 1231 | Hudson Valley Vintage | hvvintage.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1225 | 20 | 1232 | Hudson Valley Vinyl | hudsonvalleyvinyl.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1226 | 20 | 1233 | Hudson Vinyl | hudsonvinyl.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1227 | 20 | 1234 | Hula Records | hularecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1228 | 20 | 1235 | Human Head Records | humanheadnyc.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1229 | 20 | 1236 | Hungry Ear Records | hungryearrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 1230 | 20 | 1237 | Hunky Dory | hunkydoryvinyl.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1231 | 20 | 1238 | Hunky Dory Records | hunkydoryrecordsidy.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1232 | 20 | 1239 | HUNT & GATHER ANTIQUES and VINTAGE SHOP | countrynesters.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1233 | 20 | 1240 | Hurricane Records | m.facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1234 | 20 | 1241 | Hybrid Records | hybridrecordstx.com | shopify | SCRAPER_BUILT_TESTED | 12 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1235 | 20 | 1242 | Hyde Park Records | hydeparkrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1236 | 20 | 1243 | I Hate Records | ihaterecords.com | shopify | SCRAPER_BUILT_TESTED | 11 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1237 | 20 | 1244 | IB Records Radio | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1238 | 20 | 1245 | Idaho Vinyl Records | idahovinylrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1239 | 20 | 1246 | Ignition Music Garage | ignitionmusic.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1240 | 20 | 1247 | Iko's Music Trade |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1241 | 20 | 1248 | Impressions Philadelphia | impressionsphilly.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1242 | 20 | 1249 | In the Groove Morro Bay | inthegroovemb.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1243 | 20 | 1250 | In The Groove Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1244 | 20 | 1251 | In the Moment Records | inthemomentrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1245 | 20 | 1252 | In Your Ear Records | iye.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1246 | 20 | 1253 | Inclusion Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1247 | 20 | 1254 | Indie Earth | indieearthllc.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1248 | 20 | 1255 | Indie Readery & Records | indiereadery.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1249 | 20 | 1256 | Indy CD & Vinyl | indycdandvinyl.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1250 | 20 | 1257 | Infinite Spin Records | infinitespinradio.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 1251 | 20 | 1258 | Infinity Records Ltd | infinityrecordsusa.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1252 | 20 | 1259 | Ingrid's Thrift, Vintage & Record Store |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1253 | 20 | 1260 | Inherent Records | inherentrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1254 | 20 | 1261 | Ink On Wax |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1255 | 20 | 1262 | Inner Groove Records | innergrooverecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 1256 | 20 | 1263 | Inner Groove Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1257 | 20 | 1264 | INNER GROOVE VINYL & DRIP COFFEE BAR |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1258 | 20 | 1265 | Inner Sleeve Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1259 | 20 | 1266 | InnerCat Music Group, LLC | innercatmusic.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1260 | 21 | 1267 | InnerGroove Record Store |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1261 | 21 | 1268 | Innersleeve Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1262 | 21 | 1269 | Inquiring Mind Bookstore & Cafe | inquiringbooks.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 1263 | 21 | 1270 | Inretrospect | inretrospectoc.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1264 | 21 | 1271 | Instant Karma Records | instantkarmarecords.com | shopify | SCRAPER_BUILT_TESTED | 3 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1265 | 21 | 1272 | Institute Records and Curiosities | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1266 | 21 | 1273 | Inta Vintage | intavintage.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1267 | 21 | 1274 | Intersect Records | intersectvinyl.com | shopify | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1268 | 21 | 1275 | Interstellar Space Records | interstellarspacerecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_404 |
+| 1269 | 21 | 1276 | Invincible Vinyl | invinciblevinyl.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1270 | 21 | 1277 | Iris Records JC | irisrecordsjc.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1271 | 21 | 1278 | Iron Horse Antiques | ironhorseantiquesva.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1272 | 21 | 1279 | Iron Horse Records | vanburenchamber.org | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1273 | 21 | 1280 | Ironhead Records | ironheadrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1274 | 21 | 1281 | Ironside Records | ironsiderecordsmaine.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1275 | 21 | 1282 | Irving Place Records | irvingplacerecords.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1276 | 21 | 1283 | Irvington Vinyl & Books | irvingtonvinylandbooks.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1277 | 21 | 1284 | ISHY'S RECORDS & HOT SAUCE OUTLET | niagararecords.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1278 | 21 | 1285 | Island Splash Entertainment, LLC | islandsplashent.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1279 | 21 | 1286 | It's A Beautiful Day | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1280 | 21 | 1287 | It’s Raining Records and Books |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1281 | 21 | 1288 | J & B Vinyl & Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1282 | 21 | 1289 | Jack's Guitarcheology | jacksguitarcheology.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1283 | 21 | 1290 | Jack's Music Shoppe | jacksmusicshoppe.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 1284 | 21 | 1291 | Jack's Record Cellar |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1285 | 21 | 1292 | Jack's Record Stache |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1286 | 21 | 1293 | Jacknife Records & Tapes |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1287 | 21 | 1294 | Jackpot Records | jackpotrecords.com | shopify | SCRAPER_BUILT_TESTED | 18 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1288 | 21 | 1295 | Jackson Record Co. |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1289 | 21 | 1296 | Jake's Records | jakesrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1290 | 21 | 1297 | Jakes Main Street Music | jakesmainstreetmusic.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1291 | 21 | 1298 | Jam - Music and Memorabilia |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1292 | 21 | 1299 | JAM Books and Records | store98489751.company.site | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1293 | 21 | 1300 | Jammin' Nuggets Music | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1294 | 21 | 1301 | Jampac Records | discogs.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: DUPLICATE_DOMAIN |
+| 1295 | 21 | 1302 | Janie's Record Shop LLC | janiesrecordshop.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1296 | 21 | 1303 | Janku Land |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1297 | 21 | 1304 | Jay's CD & Hobby; Jay's CD and Hobby | jaystoysandgames.com | shopify | SCRAPER_BUILT_TESTED | 1 | 0/1 geldig | private QA en marktgate beoordelen |
+| 1298 | 21 | 1305 | Jazz Record Center | jazzrecordcenter.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1299 | 21 | 1306 | JB's Record Lounge | jbsrecordlounge.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1300 | 21 | 1307 | JDC Records | jdcrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 1301 | 21 | 1308 | Jeff and Jim's Vintage Vinyl Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1302 | 21 | 1309 | Jerk Dog Records | jerkdogrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1303 | 21 | 1310 | Jerry's Record Joint | sites.google.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1304 | 21 | 1311 | Jerry's Records | jerrysrecords.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1305 | 21 | 1312 | Jesse Carl Vinyl | jessecarlvinyl.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1306 | 21 | 1313 | Jet Age Records | jetagerecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1307 | 21 | 1314 | JG’s Vinyl and More! | jgsvinylandmore.com | shopify | SCRAPER_BUILT_TESTED | 5 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1308 | 21 | 1315 | JiggyJamz Records and CDs | jiggyjamz.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1309 | 21 | 1316 | Jim Reed Books/The Museum of Fond Memories | jimreedbooks.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1310 | 21 | 1317 | JIM Services |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1311 | 21 | 1318 | Jimbo's Records and Tapes |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1312 | 21 | 1319 | Jitterbug Sights & Sounds | jitterbugcatskills.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1313 | 21 | 1320 | Jive Time Records | jivetimerecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 1314 | 21 | 1321 | JL Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1315 | 21 | 1322 | JMood Records | jmoodrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1316 | 21 | 1323 | Jo Jo's Record Shop |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1317 | 21 | 1324 | Jockamo Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1318 | 21 | 1325 | Joe's Albums | joesalbums.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1319 | 21 | 1326 | Joe's Record Exchange | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1320 | 21 | 1327 | Joe's Record Paradise | joesrecordparadise.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1321 | 21 | 1328 | Joe's Records Memphis; Joe's Records STL; Joe's Records Springfield | joesrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1322 | 21 | 1329 | Joey Boy Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1323 | 21 | 1330 | John Doe Records and Books | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1324 | 21 | 1331 | John's Cameras & Records | johnscameraandrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1325 | 21 | 1332 | Johnny's | johnnysrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1326 | 21 | 1333 | Johns Road Antique Mall | johnsroadantiquemall.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 1327 | 21 | 1334 | Joint Custody | jointcustodydc.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1328 | 21 | 1335 | Jolly's Pawn Shop (Coins, Gold, Spyderco, Microtech & Cold Steel Knives, Records) | shop.jollyspawn.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1329 | 21 | 1336 | Jones Antiques | jonesantiques.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1330 | 21 | 1337 | Jonesboogie Records | jonesboogie.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1331 | 21 | 1338 | Jonesin'4Vinyls | whatnot.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1332 | 21 | 1339 | Josey Records | joseyrecords.com | shopify | SCRAPER_BUILT_TESTED | 13 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1333 | 21 | 1340 | Joys & Toys |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1334 | 21 | 1341 | JTB's Groovy Record Room | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1335 | 21 | 1342 | JUKE JOINT |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1336 | 21 | 1343 | Junk Punk Global | hyperfollow.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 1337 | 21 | 1344 | Junktion Flea Market |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1338 | 21 | 1345 | Jupiter Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1339 | 21 | 1346 | Just Press Play Mega Store | justpressplayonline.com | shopify | SCRAPER_BUILT_TESTED | 4 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1340 | 21 | 1347 | K PLACE - Buena Park | kplaceshop.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1341 | 21 | 1348 | K-Pop Wonderland | kpopwonderlandwi.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1342 | 21 | 1349 | K-SOLO Vintage | ksolovintage.com | shopify | SCRAPER_BUILT_TESTED | 19 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1343 | 21 | 1350 | K-UP! | k-up.us | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1344 | 21 | 1351 | KA-CHUNK!! Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1345 | 21 | 1352 | Kafe Kerouac | kafekerouac.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1346 | 21 | 1353 | Kaiju Records | kaijurecordssby.square.site | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1347 | 21 | 1354 | Kanesville Kollectibles | kanesvillekollectibles.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 1348 | 21 | 1355 | Kangaroo C D's & Tapes |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1349 | 21 | 1356 | Kaos Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1350 | 21 | 1357 | Karma 46 |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1351 | 21 | 1358 | Karma Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1352 | 21 | 1359 | Karma Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1353 | 21 | 1360 | Karma Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1354 | 21 | 1361 | Karma Records For Your Lifestyle | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1355 | 21 | 1362 | Karma Records of Warsaw | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1356 | 21 | 1363 | KC's Gold and Collectibles - Open by Appointment Only | kcgoldct.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1357 | 21 | 1364 | Kc's Tapes & Cd's |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1358 | 21 | 1365 | KC/DC Record Booth | linktr.ee |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1359 | 21 | 1366 | KEBS Records | kebsrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1360 | 22 | 1367 | Keene on Vinyl |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1361 | 22 | 1368 | Keepers Antique Shop | keepersantiqueshop.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 1362 | 22 | 1369 | Kelley's Vinyl Record Store |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1363 | 22 | 1370 | Kelty Audio | keltyaudio.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1364 | 22 | 1371 | Kerfuffle K-Pop | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1365 | 22 | 1372 | KEVIN'S RECORDS | kevinsrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1366 | 22 | 1373 | Key to the Past Antique Center, Clinton | keytothepastantiquecenter.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1367 | 22 | 1374 | Keynote Used Records & Books | m.facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1368 | 22 | 1375 | Kicksville Vinyl & Vintage | kicksvilleshop.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1369 | 22 | 1376 | Kilgor Trouts | kilgortrouts.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1370 | 22 | 1377 | Killer Vinyl |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1371 | 22 | 1378 | Killerfinds Rome |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1372 | 22 | 1379 | Kilovolt Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1373 | 22 | 1380 | King Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1374 | 22 | 1381 | King Theodore Records | king-theodore-records.square.site | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1375 | 22 | 1382 | Kingdom Corner Collectibles | linktr.ee |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1376 | 22 | 1383 | Kingfish Records | kingfishrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Response size limit |
+| 1377 | 22 | 1384 | Kismet Creative Center | kismetrecordsstl.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1378 | 22 | 1385 | Kiss the Sky | kissthesky.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1379 | 22 | 1386 | Kitschy Spirit Records | kitschyspirit.square.site | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1380 | 22 | 1387 | Knapp's | knappsvt.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1381 | 22 | 1388 | Knockout Records Music | knockoutrecordsmusic.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1382 | 22 | 1389 | Know Name Records | knowname.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1383 | 22 | 1390 | Kool Cat Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1384 | 22 | 1391 | KorK; STL Kpop Store | korkstl.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1385 | 22 | 1392 | Kosmos Music | kosmosmusichanover.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1386 | 22 | 1393 | Kowabunga Comics | kowabungacomics.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: RemoteDisconnected |
+| 1387 | 22 | 1394 | KPOP & GIFT McAllen | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1388 | 22 | 1395 | KPOP NARA SF | shop.kpopnara.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1389 | 22 | 1396 | Kraken Records | krakenrecordstore.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1390 | 22 | 1397 | Krazy Katz Vintage Vinyl Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1391 | 22 | 1398 | KT Media | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1392 | 22 | 1399 | La Casa De Los CD |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1393 | 22 | 1400 | La Casa De Reggaeton Record |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1394 | 22 | 1401 | La Feria del Disco |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1395 | 22 | 1402 | La Nouvelle Generation |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1396 | 22 | 1403 | La Tropicana Record Shop |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1397 | 22 | 1404 | Laced Up Screen Printers/ October's Ritvals Records | m.facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1398 | 22 | 1405 | Lagniappe Records | lagniapperecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1399 | 22 | 1406 | Lake Country Books and More | lakecountrybooks.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1400 | 22 | 1407 | Lakeshore Vinyl | discogs.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: DUPLICATE_DOMAIN |
+| 1401 | 22 | 1408 | Landfill Rescue Unit Records | landfillrescueunit.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1402 | 22 | 1409 | Landlocked Music | landlockedmusic.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1403 | 22 | 1410 | Lantern Records | lanternrecords.art |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 1404 | 22 | 1411 | Lark Street Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1405 | 22 | 1412 | Last Dog Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1406 | 22 | 1413 | Last Exit Books and Coffeehouse | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1407 | 22 | 1414 | Last Exit Vinyl House |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1408 | 22 | 1415 | Last Man Standing | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1409 | 22 | 1416 | Last Stop CD Shop | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1410 | 22 | 1417 | Last Stop CD Shop | laststoponline.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1411 | 22 | 1418 | Last Vestige Music Shop | lastvestige.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 1412 | 22 | 1419 | Latchkey | latchkeyrecords.com | shopify | SCRAPER_BUILT_TESTED | 15 | 1/2 geldig | private QA en marktgate beoordelen |
+| 1413 | 22 | 1420 | Late Nite Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1414 | 22 | 1421 | Lathe Cut Vinyl Records | lathecutvinylrecords.com | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 1415 | 22 | 1422 | Latino Record Shop |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1416 | 22 | 1423 | Laughing Sam’s Discs |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1417 | 22 | 1424 | Launderette Records | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1418 | 22 | 1425 | Laurie's Planet of Sound |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1419 | 22 | 1426 | Lavender Vinyl | lavendervinyl.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1420 | 22 | 1427 | Leave Your Mark Sacramento | leaveyourmarksac.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 1421 | 22 | 1428 | Leeways Home Grown Music Network | homegrownmusic.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1422 | 22 | 1429 | Left 'Round Records | leftroundrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1423 | 22 | 1430 | Left of the Dial Records | recordsleftofthedial.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1424 | 22 | 1431 | Lefty's Records | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1425 | 22 | 1432 | Legend Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1426 | 22 | 1433 | Legendary Comics & Records | freshcomics.us | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1427 | 22 | 1434 | Legendary Vinyl Records | discogs.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: DUPLICATE_DOMAIN |
+| 1428 | 22 | 1435 | Lemoyne Coin and Collectibles | lemoynecoinandcollectibles.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1429 | 22 | 1436 | Lester's Rock n Roll Shop |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1430 | 22 | 1437 | Let's Boogie Records & Tapes |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1431 | 22 | 1438 | Let's Rock Crystal Shop | letsrockcrystalshop.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1432 | 22 | 1439 | Levee Street Market Place |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1433 | 22 | 1440 | Libby's Old School Records | libbysoldschoolrecords.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1434 | 22 | 1441 | Liberal Squid Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1435 | 22 | 1442 | Liberty Records | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1436 | 22 | 1443 | Licorice Pizza Records | licoricepizzarecords.com | shopify | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1437 | 22 | 1444 | Lighthouse Music | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1438 | 22 | 1445 | Lilliput Records | lilliputrecords.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1439 | 22 | 1446 | Lily's Record Shop Inc |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1440 | 22 | 1447 | Limbo Records & Rarities |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1441 | 22 | 1448 | Limited to One Record Shop | limitedtooneshop.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1442 | 22 | 1449 | Lincoln Vintage Vinyl | lincolnvintagevinyl.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1443 | 22 | 1450 | Lincolnville Listening Room & Cold Bar | lincolnvillelisteningroom.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1444 | 22 | 1451 | Linger | instagram.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1445 | 22 | 1452 | Lingering Memories Antiques and Collectibles |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1446 | 22 | 1453 | Listen Here & Phoenix Glass |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1447 | 22 | 1454 | Listen Up Music | listenupmusicusa.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1448 | 22 | 1455 | Listening Room | listeningroomsaginaw.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1449 | 22 | 1456 | Lititz Music Co. | lititzmusic.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1450 | 22 | 1457 | Lito's Records & Western Wear |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1451 | 22 | 1458 | Little Axe Records; Little Axe Records Springfield | littleaxerecords.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1452 | 22 | 1459 | Little Big Store | littlebigstore.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1453 | 22 | 1460 | Little Horse Vintage Fort Collins; Little Horse Vintage Louisville | littlehorsevintage.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1454 | 22 | 1461 | Little Records | little-records.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 1455 | 22 | 1462 | Little Shop Of Treasures |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1456 | 22 | 1463 | Living In Stereo | livinginstereoatx.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 1457 | 22 | 1464 | Livvy Rocks | facebook.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 1458 | 22 | 1465 | Lizard Dog Records |  |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: MISSING_SOURCE |
+| 1459 | 22 | 1466 | Lloyd's Records | lloydsrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
 | 1460 |  | 1467 | LO & BEHOLD! Records & Books! |  |  | PENDING |  | — | broncontrole uitvoeren |
 | 1461 |  | 1468 | Loadio Music - Monsey | loadiomusic.com |  | PENDING |  | — | broncontrole uitvoeren |
 | 1462 |  | 1469 | Lonely Crab Records | lonelycrabrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
