@@ -1042,7 +1042,6 @@ Maximale bouwpogingen: 3
 | musicconnection.us | 1696 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | musicconnectionrecordstore.com | 1698 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | musiccooponline.com | 1699 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| m.facebook.com | 1701 | 16 | FROZEN | — | — | — | SHARED_PLATFORM |
 | musichealsinc.com | 1703 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | music-history.org | 1704 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
 | musicmattersny.com | 1706 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
@@ -1083,8 +1082,75 @@ Maximale bouwpogingen: 3
 | nickelodeonrecords.com | 1760 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | nilerecordsaz.com | 1761 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | nivessa.com | 1762 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| instagram.com | 1765 | 58 | FROZEN | — | — | — | SHARED_PLATFORM |
-| facebook.com | 1766 | 158 | FROZEN | — | — | — | SHARED_PLATFORM |
+| nonoiserecs.com | 1767 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| no9books.com | 1768 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| nobhillrecords.com | 1769 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| noblerecordstore.com | 1770 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| nocturnalmusic.net | 1771 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sanfrancisconoise.com | 1772 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| nolamix.com | 1774 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| nomadlaconner.com | 1775 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| noriegarecords.com | 1776 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| normalrecordssd.com | 1777 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| normals.com | 1778 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| northpiks.square.site | 1779 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| northwestgrooves.com | 1781 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['northwestgrooves_com.py', 'northwestgrooves_com.json'] |
+| notdonutsrecords.com | 1782 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| nftwrecords.com | 1783 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['nftwrecords_com.py', 'nftwrecords_com.json'] |
+| nothingbutanightmare.com | 1784 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ntxvinyl.com | 1789 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| nudierecords.com | 1790 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['nudierecords_com.py', 'nudierecords_com.json'] |
+| nuggetsrecords.com | 1791 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| nxvinyl.com | 1794 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['nxvinyl_com.py', 'nxvinyl_com.json'] |
+| oakleafcomics.com | 1795 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| ccc.org | 1797 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| obsessionrecords.com | 1798 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| oceanbeachpalletco.com | 1799 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['oceanbeachpalletco_com.py', 'oceanbeachpalletco_com.json'] |
+| octopusgardenfl.com | 1800 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| octopusrecords.nyc | 1801 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| oddbobs.com | 1802 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| oddcab.net | 1803 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| myoddballstore.com | 1804 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| oddballvintagenj.com | 1805 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| odyssey-records.edan.io | 1806 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| otrgh.com | 1807 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| offtherecordmusicshop.com | 1808 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| offtherecordvinylvintage.com | 1809 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| offcenterrecords.com | 1810 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| offbeatjxn.com | 1812 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| offbeatmusicstore.com | 1813 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| offshoresounds.com | 1815 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ojatamahal.com | 1817 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| theoldchapelmarket.com | 1819 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| olddogvinylrecords.com | 1820 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| oldmanvinylrecordsllc.com | 1821 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| oldpaintrecords.com | 1822 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| johnstoncountync.org | 1823 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| old-skools.edan.io | 1824 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| oldtownrecords.com | 1825 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| oldtownskates.com | 1826 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| oldtownvinyl.com | 1827 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| oldies.com | 1829 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| omegamusicdayton.com | 1832 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['omegamusicdayton_com.py', 'omegamusicdayton_com.json'] |
+| onmaritimerecords.square.site | 1833 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ontherecordnj.com | 1835 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| business.facebook.com | 1836 | 1 | SOURCE_REVIEW | — | — | — | SHARED_PLATFORM |
+| oneoffrecordsllc.com | 1838 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['oneoffrecordsllc_com.py', 'oneoffrecordsllc_com.json'] |
+| oneshotrecords.com | 1839 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| northgaterecords.com | 1840 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| openmindmusic.org | 1843 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| orangerecordsfargo.bigcartel.com | 1847 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| m.facebook.com | 1848 | 21 | FROZEN | — | — | — | SHARED_PLATFORM |
+| orbitrecords.com | 1849 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['orbitrecords_com.py', 'orbitrecords_com.json'] |
+| orbitsrecords.com | 1850 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| originalsvinyl.com | 1852 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| facebook.com | 1857 | 165 | FROZEN | — | — | — | SHARED_PLATFORM |
+| outofthepastrecords.myshopify.com | 1858 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| theouterlimitsboro.com | 1860 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| outhouserecordshop.com | 1861 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| shopoutput.com | 1862 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ox4dmusic.com | 1863 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| instagram.com | 1866 | 65 | FROZEN | — | — | — | SHARED_PLATFORM |
 | shopsouthcountycenter.com | 3007 | 1 | PLATFORM_REVIEW | — | — | — | Shopify feed contract unproven |
 | valshallarecords.com | 3008 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | valpovintage.com | 3011 | 1 | PLATFORM_REVIEW | — | — | — | HTTP_400 |
