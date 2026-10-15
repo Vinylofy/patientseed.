@@ -648,7 +648,6 @@ Maximale bouwpogingen: 3
 | provosvintagegroove.com | 1036 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['provosvintagegroove_com.py', 'provosvintagegroove_com.json'] |
 | giganticrecordskc.com | 1038 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | gimmegimmerecords.com | 1039 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| m.facebook.com | 1041 | 9 | FROZEN | — | — | — | SHARED_PLATFORM |
 | gneisssounds.com | 1043 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
 | gorecordsspokane.com | 1044 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | goblinsharkemporium.com | 1047 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -727,16 +726,85 @@ Maximale bouwpogingen: 3
 | thetaoshum.com | 1154 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
 | headstone-friends.websy.me | 1155 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
 | healingforcerecords.com | 1156 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| instagram.com | 1157 | 36 | FROZEN | — | — | — | SHARED_PLATFORM |
 | heavyheadsrecords.com | 1158 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | hellogoodbyemusic.com | 1159 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | hellorecordsdetroit.com | 1160 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | hellsheadbangers.com | 1161 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| facebook.com | 1162 | 103 | FROZEN | — | — | — | SHARED_PLATFORM |
 | herculesrecords.com | 1163 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
-| linktr.ee | 1164 | 5 | FROZEN | — | — | — | SHARED_PLATFORM |
 | hexenduction.com | 1165 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | hexagonrecords.com | 1166 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| heysuburbiarecords.com | 1167 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| instagram.com | 1168 | 37 | FROZEN | — | — | — | SHARED_PLATFORM |
+| hifiandfly.com | 1169 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hi-fihits.com | 1170 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| hitonesonline.com | 1172 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hitonesrecordstore.com | 1173 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hivoltagerecords.com | 1174 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['hivoltagerecords_com.py', 'hivoltagerecords_com.json'] |
+| myhiddentracks.com | 1175 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hideawaymusic.org | 1178 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hifirecords.org | 1179 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| highfidelitycds.com | 1181 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| highfidelityla.com | 1182 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| funkylittlerecordstore.com | 1183 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| highrhodesrecords.com | 1184 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| highvoltagevinyl.com | 1185 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['highvoltagevinyl_com.py', 'highvoltagevinyl_com.json'] |
+| hionfi.com | 1186 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hiphopphilosophy.com | 1188 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| hiphoprecordsbeatsfromthestreets.com | 1189 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| historichippie.com | 1193 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hittrecords.com | 1194 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| hizz.me | 1195 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hoarderstradingpostil.com | 1196 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hodgsonsantiques.com | 1197 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| linktr.ee | 1198 | 6 | FROZEN | — | — | — | SHARED_PLATFORM |
+| hollowbonerecords.com | 1201 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['hollowbonerecords_com.py', 'hollowbonerecords_com.json'] |
+| pikeplacemarket.org | 1203 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thehomecourtdmv.com | 1205 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| homersmusic.com | 1206 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hopfidelity.com | 1209 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hoppfroggmusic.com | 1211 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| horizonrecords.net | 1212 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| horizonsmusic.com | 1213 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| shop.horrorpaingoredeath.com | 1214 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['shop_horrorpaingoredeath_com.py', 'shop_horrorpaingoredeath_com.json'] |
+| hotpoop.com | 1215 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hotlrecords.com | 1216 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| houseofhighfidelity.com | 1218 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| houseofrecordseugene.com | 1219 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| houseofwaxvinyl.com | 1221 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| housewolfrecords.com | 1223 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hqindy.com | 1226 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| homerulerecords.com | 1227 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['homerulerecords_com.py', 'homerulerecords_com.json'] |
+| hubcityrecords.com | 1228 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hubcityvinyl.com | 1229 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hmvhuber.com | 1230 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hvvintage.com | 1231 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hudsonvalleyvinyl.com | 1232 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hudsonvinyl.com | 1233 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| hularecords.com | 1234 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| humanheadnyc.com | 1235 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hungryearrecords.com | 1236 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| hunkydoryvinyl.com | 1237 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hunkydoryrecordsidy.com | 1238 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| countrynesters.com | 1239 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| m.facebook.com | 1240 | 10 | FROZEN | — | — | — | SHARED_PLATFORM |
+| hybridrecordstx.com | 1241 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['hybridrecordstx_com.py', 'hybridrecordstx_com.json'] |
+| hydeparkrecords.com | 1242 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ihaterecords.com | 1243 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['ihaterecords_com.py', 'ihaterecords_com.json'] |
+| idahovinylrecords.com | 1245 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ignitionmusic.net | 1246 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| impressionsphilly.com | 1248 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| inthegroovemb.com | 1249 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| inthemomentrecords.com | 1251 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| iye.com | 1252 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| indieearthllc.com | 1254 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| indiereadery.com | 1255 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| indycdandvinyl.com | 1256 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| infinitespinradio.com | 1257 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| infinityrecordsusa.com | 1258 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| inherentrecords.com | 1260 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| innergrooverecords.com | 1262 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| facebook.com | 1263 | 111 | FROZEN | — | — | — | SHARED_PLATFORM |
+| innercatmusic.com | 1266 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | shopsouthcountycenter.com | 3007 | 1 | PLATFORM_REVIEW | — | — | — | Shopify feed contract unproven |
 | valshallarecords.com | 3008 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | valpovintage.com | 3011 | 1 | PLATFORM_REVIEW | — | — | — | HTTP_400 |
