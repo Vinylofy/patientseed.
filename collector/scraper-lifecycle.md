@@ -984,7 +984,6 @@ Maximale bouwpogingen: 3
 | mi-ruralrecords.com | 1598 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | linktr.ee | 1600 | 9 | FROZEN | — | — | — | SHARED_PLATFORM |
 | midnitemoon.shop | 1602 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
-| ebay.com | 1605 | 4 | FROZEN | — | — | — | SHARED_PLATFORM |
 | milelongrecords.com | 1606 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | millcitysound.com | 1608 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | millvalleymusic.com | 1609 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -1144,13 +1143,81 @@ Maximale bouwpogingen: 3
 | orbitrecords.com | 1849 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['orbitrecords_com.py', 'orbitrecords_com.json'] |
 | orbitsrecords.com | 1850 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | originalsvinyl.com | 1852 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| facebook.com | 1857 | 165 | FROZEN | — | — | — | SHARED_PLATFORM |
 | outofthepastrecords.myshopify.com | 1858 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
 | theouterlimitsboro.com | 1860 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | outhouserecordshop.com | 1861 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | shopoutput.com | 1862 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | ox4dmusic.com | 1863 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| instagram.com | 1866 | 65 | FROZEN | — | — | — | SHARED_PLATFORM |
+| hasberts.com | 1867 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| yourvinylshop.com | 1868 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['yourvinylshop_com.py', 'yourvinylshop_com.json'] |
+| oldhollywoodland.com | 1869 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| palmetto-groove.com | 1870 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| palmettopeddlers.com | 1871 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| palominorecordspressing.com | 1873 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| pancakes-records.com | 1874 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['pancakes_records_com.py', 'pancakes_records_com.json'] |
+| pandorasboxnj.com | 1875 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| panthercityvinyl.com | 1876 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| papajazz.com | 1877 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| prnrp.com | 1878 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['prnrp_com.py', 'prnrp_com.json'] |
+| papertownrecords.com | 1881 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| paradisefoundrecordsmusic.com | 1882 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| paradiseofreplica.com | 1883 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| letsboogie.com | 1885 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| paramitasound.com | 1886 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
+| paramountguitars.net | 1887 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| paramountrecordshop.com | 1888 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| parasolrecords.com | 1889 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['parasolrecords_com.py', 'parasolrecords_com.json'] |
+| parkavecds.com | 1890 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| pashco.com | 1891 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| paul-rose.com | 1894 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['paul_rose_com.py', 'paul_rose_com.json'] |
+| paulstradingpost.com | 1895 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| peachesrecordsneworleans.com | 1898 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| pclrecords.com | 1900 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| pennylanerecords.com | 1901 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| penroserecordroom.com | 1903 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| peoplesrecordsarcata.com | 1904 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| peoplesrecordsdetroit.com | 1905 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| perceptery-store.edan.io | 1906 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| permanentrecordsks.com | 1907 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| permanentrecordsla.com | 1908 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dlfmusic.com | 1909 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| ebay.com | 1910 | 5 | FROZEN | — | — | — | SHARED_PLATFORM |
+| pharroutrecords.com | 1912 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| phattracksbooks.com | 1914 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| phidelityrecords.com | 1915 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| philsmusicexchange.com | 1916 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| instagram.com | 1917 | 66 | FROZEN | — | — | — | SHARED_PLATFORM |
+| phonoselect.com | 1920 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cashformusiccollections.com | 1922 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| pigstylemusic.com | 1923 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| pintageantiquemarket.com | 1926 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| pinwheelrecords.com | 1927 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| piperrecords.store | 1928 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| piranharecords.net | 1929 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| pitchforkrecordsconcord.com | 1933 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| pizzarecordsjville.com | 1934 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| placervilletradingpost.com | 1935 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| plaidroomrecords.com | 1936 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['plaidroomrecords_com.py', 'plaidroomrecords_com.json'] |
+| plan9music.com | 1937 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| planet-records.com | 1939 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| planetretrorecords.net | 1940 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| planetscorerecords.com | 1941 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| plumcreekrecords.com | 1948 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['plumcreekrecords_com.py', 'plumcreekrecords_com.json'] |
+| polyvinylrecords.com | 1950 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| poobah.com | 1951 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| popandhiss.net | 1952 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| facebook.com | 1953 | 176 | FROZEN | — | — | — | SHARED_PLATFORM |
+| popculturevulture.net | 1954 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| popoverbite.com | 1955 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| popshopbr.com | 1956 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
+| popsresale.com | 1957 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| porchlightcoffee.com | 1958 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| port-27.com | 1959 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| portofsoundrecords.com | 1960 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['portofsoundrecords_com.py', 'portofsoundrecords_com.json'] |
+| portlandfleaforall.com | 1962 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| positivelyrecords.com | 1964 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| powerplantrecords.com | 1965 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| powerhouserecords.com | 1966 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | shopsouthcountycenter.com | 3007 | 1 | PLATFORM_REVIEW | — | — | — | Shopify feed contract unproven |
 | valshallarecords.com | 3008 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | valpovintage.com | 3011 | 1 | PLATFORM_REVIEW | — | — | — | HTTP_400 |
