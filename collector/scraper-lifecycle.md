@@ -561,7 +561,6 @@ Maximale bouwpogingen: 3
 | extinctionrecords.com | 892 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | extremenoiserecords.com | 893 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | ez2collect.com | 895 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| discogs.com | 896 | 9 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
 | factoryrecords.com | 898 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['factoryrecords_com.py', 'factoryrecords_com.json'] |
 | fairplayrecordstore.com | 900 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | famous-joes.net | 904 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -569,7 +568,6 @@ Maximale bouwpogingen: 3
 | fatcatrecordsus.com | 908 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | fatdogvinyl.com | 909 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | fatelephantrecords.com | 910 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
-| linktr.ee | 911 | 4 | FROZEN | — | — | — | SHARED_PLATFORM |
 | fatrabbitky.com | 912 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | feedingtuberecords.com | 914 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | feelitrecordshop.com | 915 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['feelitrecordshop_com.py', 'feelitrecordshop_com.json'] |
@@ -630,7 +628,6 @@ Maximale bouwpogingen: 3
 | funkfreaks.com | 1000 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | funkyfindsvintage.com | 1003 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | funkygrandpastudios.com | 1004 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| instagram.com | 1005 | 33 | FROZEN | — | — | — | SHARED_PLATFORM |
 | funkytowncomicsvinyl.com | 1006 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | fuqnvinyl.com | 1007 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | furtherrecords.com | 1008 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['furtherrecords_com.py', 'furtherrecords_com.json'] |
@@ -669,8 +666,77 @@ Maximale bouwpogingen: 3
 | goodboyvinyl.com | 1061 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | gotbooksonline.com | 1063 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | gottahaveitvinyl.com | 1064 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| facebook.com | 1065 | 92 | FROZEN | — | — | — | SHARED_PLATFORM |
 | gracerecord.com | 1066 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| gradysrecordrefuge.com | 1067 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| grailsonchapel.com | 1070 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| gramaphonerecords.com | 1071 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['gramaphonerecords_com.py', 'gramaphonerecords_com.json'] |
+| grandaverecords.com | 1072 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| psychic-hotline.net | 1074 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| grandrapidsvinyl.com | 1075 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| clumsyorc.com | 1076 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| grandaddyrecords.com | 1077 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| granitemountainrecords.com | 1079 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| grantskis.com | 1080 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| grapefruitrecordclub.com | 1081 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['grapefruitrecordclub_com.py', 'grapefruitrecordclub_com.json'] |
+| grassrootsmusicstore.com | 1082 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['grassrootsmusicstore_com.py', 'grassrootsmusicstore_com.json'] |
+| gravityrecordsnc.square.site | 1084 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| tuneportals.graycatmusic.com | 1085 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| grayskullvinyl.com | 1086 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| graywhaleslc.com | 1087 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| grerecordsandcoffee.com | 1088 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| greatcircles.net | 1089 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| greatesthitsofficial.com | 1091 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['greatesthitsofficial_com.py', 'greatesthitsofficial_com.json'] |
+| ghmusicandbooks.com | 1092 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| greenlightmusickalamazoo.com | 1094 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| greenfield-records.com | 1097 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| grimeys.com | 1098 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| grindhousevideo.com | 1099 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| grindsandgroovescafe.com | 1100 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| groovedamagerecords.com | 1103 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| groovedis.com | 1104 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| groovemerchantsf.com | 1106 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
+| grooveland.rocks | 1108 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| groovesrecords.com | 1109 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| groovesriverfalls.com | 1111 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| groovyghostvintage.com | 1112 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| groovyrecordshop.com | 1114 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discogs.com | 1118 | 10 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
+| gryphonswing.com | 1119 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['gryphonswing_com.py', 'gryphonswing_com.json'] |
+| guestroomrecords.com | 1122 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| guestroomrecordslouisville.com | 1123 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| theguitargallery.com | 1124 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['theguitargallery_com.py', 'theguitargallery_com.json'] |
+| guitarpros.org | 1125 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| guitarrepaircenter.com | 1126 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| haddonfieldrecordexchange.com | 1128 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hailcincinnati.com | 1129 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| halfmoonvinyl.com | 1131 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hobrf.com | 1132 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| handshakeantiques.com | 1134 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hansonrecords.net | 1135 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| happydazerecords.com | 1136 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hardcopiesbg.com | 1139 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hardy-boys-records-comics.square.site | 1141 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| gamma.app | 1142 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| harvestmusicsalem.com | 1144 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| harvest-records.com | 1145 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| harwichantiquecenter.com | 1146 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| haskinshouserecords.com | 1147 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hawleyspindepot.com | 1151 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| retrorecordsvinyl.com | 1152 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| headlinerecords.com | 1153 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['headlinerecords_com.py', 'headlinerecords_com.json'] |
+| thetaoshum.com | 1154 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| headstone-friends.websy.me | 1155 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| healingforcerecords.com | 1156 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| instagram.com | 1157 | 36 | FROZEN | — | — | — | SHARED_PLATFORM |
+| heavyheadsrecords.com | 1158 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hellogoodbyemusic.com | 1159 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hellorecordsdetroit.com | 1160 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hellsheadbangers.com | 1161 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| facebook.com | 1162 | 103 | FROZEN | — | — | — | SHARED_PLATFORM |
+| herculesrecords.com | 1163 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| linktr.ee | 1164 | 5 | FROZEN | — | — | — | SHARED_PLATFORM |
+| hexenduction.com | 1165 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hexagonrecords.com | 1166 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | shopsouthcountycenter.com | 3007 | 1 | PLATFORM_REVIEW | — | — | — | Shopify feed contract unproven |
 | valshallarecords.com | 3008 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | valpovintage.com | 3011 | 1 | PLATFORM_REVIEW | — | — | — | HTTP_400 |
