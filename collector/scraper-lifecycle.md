@@ -982,7 +982,6 @@ Maximale bouwpogingen: 3
 | metrocityrecords.com | 1596 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | metrorecordscf.com | 1597 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | mi-ruralrecords.com | 1598 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| linktr.ee | 1600 | 9 | FROZEN | — | — | — | SHARED_PLATFORM |
 | midnitemoon.shop | 1602 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | milelongrecords.com | 1606 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | millcitysound.com | 1608 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -1075,7 +1074,6 @@ Maximale bouwpogingen: 3
 | newburycomics.com | 1754 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['newburycomics_com.py', 'newburycomics_com.json'] |
 | newtownbookandrecord.com | 1755 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | nextleveldjservice.wixsite.com | 1756 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
-| discogs.com | 1757 | 16 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
 | nhvintagevinyl.com | 1758 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['nhvintagevinyl_com.py', 'nhvintagevinyl_com.json'] |
 | nicepricebooksandrecords.com | 1759 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
 | nickelodeonrecords.com | 1760 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
@@ -1139,7 +1137,6 @@ Maximale bouwpogingen: 3
 | northgaterecords.com | 1840 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | openmindmusic.org | 1843 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | orangerecordsfargo.bigcartel.com | 1847 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| m.facebook.com | 1848 | 21 | FROZEN | — | — | — | SHARED_PLATFORM |
 | orbitrecords.com | 1849 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['orbitrecords_com.py', 'orbitrecords_com.json'] |
 | orbitsrecords.com | 1850 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | originalsvinyl.com | 1852 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -1181,12 +1178,10 @@ Maximale bouwpogingen: 3
 | permanentrecordsks.com | 1907 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | permanentrecordsla.com | 1908 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | dlfmusic.com | 1909 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
-| ebay.com | 1910 | 5 | FROZEN | — | — | — | SHARED_PLATFORM |
 | pharroutrecords.com | 1912 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | phattracksbooks.com | 1914 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | phidelityrecords.com | 1915 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | philsmusicexchange.com | 1916 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| instagram.com | 1917 | 66 | FROZEN | — | — | — | SHARED_PLATFORM |
 | phonoselect.com | 1920 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | cashformusiccollections.com | 1922 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | pigstylemusic.com | 1923 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
@@ -1206,7 +1201,6 @@ Maximale bouwpogingen: 3
 | polyvinylrecords.com | 1950 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | poobah.com | 1951 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | popandhiss.net | 1952 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| facebook.com | 1953 | 176 | FROZEN | — | — | — | SHARED_PLATFORM |
 | popculturevulture.net | 1954 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
 | popoverbite.com | 1955 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | popshopbr.com | 1956 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
@@ -1218,6 +1212,76 @@ Maximale bouwpogingen: 3
 | positivelyrecords.com | 1964 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | powerplantrecords.com | 1965 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | powerhouserecords.com | 1966 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ebay.com | 1967 | 6 | FROZEN | — | — | — | SHARED_PLATFORM |
+| preatomicrecords.com | 1968 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| preplayedgb.com | 1970 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| preservingrecordshop.com | 1971 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| preservingvinyl.com | 1972 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| pressrewindvintageaudio.com | 1974 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| pressingmatters.shop | 1975 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
+| primitiverecordings.com | 1976 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['primitiverecordings_com.py', 'primitiverecordings_com.json'] |
+| prex.com | 1977 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| producerpluguni.com | 1979 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['producerpluguni_com.py', 'producerpluguni_com.json'] |
+| programmehq.com | 1981 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| discogs.com | 1982 | 17 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
+| psychicrecordsbrooklyn.square.site | 1984 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| pupdaddyproductions.com | 1987 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| purchasestrecords.com | 1988 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| purepoprecords.com | 1989 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| purpledogrecordsonline.com | 1990 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| putmeonrecord.etsy.com | 1991 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| co.putnam.in.us | 1992 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| qualityelectronics.net | 1994 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| queenbvinylcafe.com | 1995 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['queenbvinylcafe_com.py', 'queenbvinylcafe_com.json'] |
+| quimpersound.com | 1997 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| quintanasmusiccenter.com | 1998 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| quirkd.net | 1999 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| qhut.com | 2000 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| valshively.com | 2001 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rngrecords.com | 2002 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['rngrecords_com.py', 'rngrecords_com.json'] |
+| rabbitholerecordsinc.com | 2003 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| pukenvomitrecords.com | 2006 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['pukenvomitrecords_com.py', 'pukenvomitrecords_com.json'] |
+| radiokaossp.com | 2007 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| radiowastelandrecords.com | 2008 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| raggedrecords.org | 2010 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| raginrecordsfresno.com | 2011 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| railrecordsandbooks.com | 2013 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| railroadrecordspa.com | 2014 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| raindelayrecords.com | 2015 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
+| raindogrecords.net | 2016 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rainbowrecordsde.com | 2017 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| m.facebook.com | 2018 | 22 | FROZEN | — | — | — | SHARED_PLATFORM |
+| rainbowrecordstore.square.site | 2020 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rainydayolympia.net | 2021 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ralphsrecordstx.com | 2022 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| mancavenj.com | 2025 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['mancavenj_com.py', 'mancavenj_com.json'] |
+| randysrecords.com | 2026 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rangemusicnyc.com | 2027 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| rapaxrecords.com | 2029 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rarerecords.org | 2031 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rascalsalvagevintage.com | 2032 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| raspberriesrecords.com | 2033 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rastacowboyrecords.com | 2034 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| linktr.ee | 2037 | 10 | FROZEN | — | — | — | SHARED_PLATFORM |
+| rattsundergroundrecords.com | 2038 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| rattlebackrecords.com | 2039 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| raunchrecords.com | 2040 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| razzledazzlecr.com | 2042 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| reanimatedrecords.com | 2044 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| respunrecordsresale.square.site | 2045 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| instagram.com | 2047 | 71 | FROZEN | — | — | — | SHARED_PLATFORM |
+| realmsofrock.com | 2048 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rebrecordsmd.com | 2050 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['rebrecordsmd_com.py', 'rebrecordsmd_com.json'] |
+| rebelreplay.com | 2051 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wcuw.org | 2052 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| reboprecordshop.com | 2053 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wordupbooks.com | 2055 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| reckless.com | 2056 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sonomareclaimed.com | 2058 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recollectrecords.com | 2059 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordarchive.com | 2060 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordbarilm.com | 2063 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| facebook.com | 2066 | 185 | FROZEN | — | — | — | SHARED_PLATFORM |
 | shopsouthcountycenter.com | 3007 | 1 | PLATFORM_REVIEW | — | — | — | Shopify feed contract unproven |
 | valshallarecords.com | 3008 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | valpovintage.com | 3011 | 1 | PLATFORM_REVIEW | — | — | — | HTTP_400 |
