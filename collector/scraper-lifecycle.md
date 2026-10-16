@@ -826,7 +826,6 @@ Maximale bouwpogingen: 3
 | jbsrecordlounge.com | 1306 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | jdcrecords.com | 1307 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
 | jerkdogrecords.com | 1309 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
-| sites.google.com | 1310 | 2 | SOURCE_REVIEW | — | — | — | SHARED_PLATFORM |
 | jerrysrecords.com | 1311 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | jessecarlvinyl.com | 1312 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | jetagerecords.com | 1313 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -1401,7 +1400,6 @@ Maximale bouwpogingen: 3
 | rockinrubys.com | 2279 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['rockinrubys_com.py', 'rockinrubys_com.json'] |
 | oldrockingchair.com | 2280 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['oldrockingchair_com.py', 'oldrockingchair_com.json'] |
 | rocknrollarecordshop.com | 2281 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['rocknrollarecordshop_com.py', 'rocknrollarecordshop_com.json'] |
-| m.facebook.com | 2282 | 25 | FROZEN | — | — | — | SHARED_PLATFORM |
 | rocksandrootsma.com | 2284 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | rocksandrecords.com | 2285 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | rpmdsm.com | 2289 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -1637,7 +1635,6 @@ Maximale bouwpogingen: 3
 | sweetspotaudiorecords.com | 2634 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | sweetvinylcafe.com | 2635 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | sweetencreekantiques.net | 2636 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| discogs.com | 2638 | 20 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
 | synistasoundsent.yolasite.com | 2639 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
 | synthandsoul.com | 2640 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | tbonescafe.com | 2643 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
@@ -1698,7 +1695,6 @@ Maximale bouwpogingen: 3
 | thehamletny.com | 2723 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['thehamletny_com.py', 'thehamletny_com.json'] |
 | headvinyl.com | 2726 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | heavymetalshop.com | 2727 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| instagram.com | 2728 | 94 | FROZEN | — | — | — | SHARED_PLATFORM |
 | hiphopmuseumdc.org | 2729 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | the-houseofvinyl.com | 2732 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | thehuntct.com | 2734 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -1720,8 +1716,67 @@ Maximale bouwpogingen: 3
 | ranchomiragelibrary.org | 2760 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | therarebirdcollective.com | 2761 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | therecordbaron.com | 2762 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
-| facebook.com | 2763 | 269 | FROZEN | — | — | — | SHARED_PLATFORM |
 | the-record-collector.com | 2766 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordconnectionme.com | 2767 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| therecordexchange.com | 2769 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordexchangeofmd.com | 2770 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| failurecore.com | 2771 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| therecordloftatl.com | 2773 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['therecordloftatl_com.py', 'therecordloftatl_com.json'] |
+| therecordloft.com | 2774 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| therecordloungereotown.com | 2775 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordman.com | 2776 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| therecordman.simdif.com | 2777 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
+| therecordpub.com | 2780 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| therecordspace.com | 2789 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['therecordspace_com.py', 'therecordspace_com.json'] |
+| recordtrackchicago.com | 2791 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| therecordvault.org | 2792 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordsdepartmentwoodstock.com | 2794 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sites.google.com | 2795 | 3 | FROZEN | — | — | — | SHARED_PLATFORM |
+| retrowormhole.com | 2796 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| rhythmsectiongatlinburg.com | 2797 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| therocksyndicate.com | 2803 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thescorerecords.com | 2805 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thesharpnotes.com | 2806 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thesoundbooth20.com | 2808 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| the-sound-explosion.jany.io | 2809 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| sgrecordshop.com | 2811 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thesoundbarokc.com | 2812 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| squatchinthepit.com | 2815 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['squatchinthepit_com.py', 'squatchinthepit_com.json'] |
+| thestacksrecordshop.com | 2816 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lindastormart.com | 2818 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| timecapsulecomics.com | 2820 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| timecapsuleri.com | 2821 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| timesvintage.com | 2822 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| treehouseantiques.com | 2823 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| theturntablestore.com | 2824 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| theunderground210.com | 2825 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| thevintageshopcarmel.com | 2827 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| undergroundlewes.com | 2828 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vaultofupland.com | 2830 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thevintagevu.com | 2831 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| instagram.com | 2834 | 97 | FROZEN | — | — | — | SHARED_PLATFORM |
+| m.facebook.com | 2836 | 28 | FROZEN | — | — | — | SHARED_PLATFORM |
+| thevinyldinosaur.com | 2837 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylfactory901.com | 2838 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylfrontierrecords.com | 2839 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['vinylfrontierrecords_com.py', 'vinylfrontierrecords_com.json'] |
+| thevinylgrooverecords.com | 2841 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['thevinylgrooverecords_com.py', 'thevinylgrooverecords_com.json'] |
+| tvrss1.us | 2843 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| the-vinyl-record-bank.poi.place | 2844 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| thevinylreset.com | 2845 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| tvrp.shop | 2846 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| tvrny.com | 2847 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thevinylstand.com | 2849 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['thevinylstand_com.py', 'thevinylstand_com.json'] |
+| shopthevinylstop.com | 2850 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thevinyluniverse.com | 2851 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['thevinyluniverse_com.py', 'thevinyluniverse_com.json'] |
+| thevisionrecordings.com | 2853 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discogs.com | 2856 | 21 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
+| whiskeyandsagehouse.com | 2857 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| theworkseureka.com | 2858 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| covertcomics.com | 2860 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| zenarcadethc.com | 2861 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| facebook.com | 2864 | 283 | FROZEN | — | — | — | SHARED_PLATFORM |
+| thirdeyecomics.com | 2865 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thirdeyerecordslb.com | 2866 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | shopsouthcountycenter.com | 3007 | 1 | PLATFORM_REVIEW | — | — | — | Shopify feed contract unproven |
 | valshallarecords.com | 3008 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | valpovintage.com | 3011 | 1 | PLATFORM_REVIEW | — | — | — | HTTP_400 |
