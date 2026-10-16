@@ -1361,7 +1361,6 @@ Maximale bouwpogingen: 3
 | rhinorecords.cc | 2214 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | richsrecordemporium.com | 2221 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | withthefamilyentertainment.com | 2225 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
-| discogs.com | 2227 | 18 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
 | rightbrainrecordstore.com | 2228 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | rightonrecords.com | 2229 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | rightonnapa.com | 2230 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -1482,7 +1481,6 @@ Maximale bouwpogingen: 3
 | shopaticecream.com | 2400 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
 | shrimatis.com | 2401 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | shugarecords.com | 2402 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['shugarecords_com.py', 'shugarecords_com.json'] |
-| instagram.com | 2405 | 85 | FROZEN | — | — | — | SHARED_PLATFORM |
 | side-a-vinyl.com | 2406 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | sideonerecords.net | 2407 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | sidetracksmusic.net | 2408 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -1491,7 +1489,6 @@ Maximale bouwpogingen: 3
 | silverplatters.com | 2412 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | simcoaudio.com | 2413 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | simplefindsga.com | 2414 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
-| ebay.com | 2416 | 8 | FROZEN | — | — | — | SHARED_PLATFORM |
 | sirenrecords.com | 2417 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | sirenrecordsmonterey.com | 2418 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['sirenrecordsmonterey_com.py', 'sirenrecordsmonterey_com.json'] |
 | sirenrecordsmchenry.com | 2419 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -1526,11 +1523,78 @@ Maximale bouwpogingen: 3
 | that70sshopyakima.com | 2458 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | sonicascensionrecords.com | 2459 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | sonicboomrecords.com | 2460 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| facebook.com | 2461 | 237 | FROZEN | — | — | — | SHARED_PLATFORM |
 | sonidodelvalle.com | 2462 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | sonidosmusicshop.com | 2463 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | sookvinyl.com | 2465 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['sookvinyl_com.py', 'sookvinyl_com.json'] |
 | sooniandtommi.com | 2466 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| sorrystaterecords.com | 2467 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['sorrystaterecords_com.py', 'sorrystaterecords_com.json'] |
+| soulproviderrecords.com | 2468 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soulsidevinyl.com | 2470 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soulstoprecords.com | 2471 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['soulstoprecords_com.py', 'soulstoprecords_com.json'] |
+| soul-waves-vinyl.com | 2473 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soulmatesmusicfl.com | 2474 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| soundandvisionsc.com | 2475 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soundandvisionvinyl.com | 2476 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soundbendrecords.co | 2478 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['soundbendrecords_co.py', 'soundbendrecords_co.json'] |
+| soundexchangetampabay.com | 2481 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soundexchangehouston.com | 2483 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| soundgoroundny.com | 2484 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soundhouserecordsny.com | 2485 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soundoffrecords.com | 2486 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soundplatters.com | 2487 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['soundplatters_com.py', 'soundplatters_com.json'] |
+| soundrevolutionhtx.com | 2488 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soundshacknewburgh.wixsite.com | 2490 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
+| soundspectrum1967.com | 2491 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soundcheckrecords.com | 2493 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soundroommusic.com | 2494 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soundsgoodmusik.com | 2495 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| soundsgoodcatskills.com | 2496 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soundsationsrecords.com | 2499 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| soundscape.storenvy.com | 2500 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| soundtracksbeverly.com | 2501 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soundtraxrecords.com | 2502 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| southmetromusic.com | 2503 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['southmetromusic_com.py', 'southmetromusic_com.json'] |
+| southtownvinyl.com | 2505 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| spacitymusic.com | 2507 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discogs.com | 2508 | 19 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
+| spacecityaudio.com | 2509 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| spacemonkeyrecords424240203.wordpress.com | 2511 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| speakingvolumesvt.com | 2515 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| specksrecords.com | 2516 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| spektrummuzik.com | 2517 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sfmrecordshop.com | 2518 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| spikesrecordrack.com | 2519 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| spinmeroundstore.com | 2524 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| spinrecordsboise.com | 2526 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| spinshackmedia.com | 2527 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| spinthatspringfield.com | 2528 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| spintimerecords.com | 2529 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['spintimerecords_com.py', 'spintimerecords_com.json'] |
+| spinnakercd.com | 2533 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| spinningplaterecords.com | 2534 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| spinsterrecords.com | 2537 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['spinsterrecords_com.py', 'spinsterrecords_com.json'] |
+| spiralgrooverecords.com | 2538 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| spoonfulrecordsohio.com | 2540 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['spoonfulrecordsohio_com.py', 'spoonfulrecordsohio_com.json'] |
+| squarecatvinyl.com | 2541 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['squarecatvinyl_com.py', 'squarecatvinyl_com.json'] |
+| squeezeboxbooks.com | 2543 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| squeezeboxrecords.com | 2544 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| sstsuperstore.com | 2545 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['sstsuperstore_com.py', 'sstsuperstore_com.json'] |
+| antiquemallstlouis.com | 2547 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| stpeterecords.com | 2548 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ebay.com | 2549 | 9 | FROZEN | — | — | — | SHARED_PLATFORM |
+| triplethreatsports.com | 2550 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| facebook.com | 2552 | 246 | FROZEN | — | — | — | SHARED_PLATFORM |
+| stardustrecords.net | 2555 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| stargazerrecordsnw.com | 2556 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| stashrecordsnw.com | 2557 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| statestreetrecords.com | 2558 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| staticagemc.square.site | 2559 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| staticagenc.com | 2560 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| instagram.com | 2561 | 89 | FROZEN | — | — | — | SHARED_PLATFORM |
+| staticatx.com | 2562 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['staticatx_com.py', 'staticatx_com.json'] |
+| staticerarecords.com | 2563 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['staticerarecords_com.py', 'staticerarecords_com.json'] |
+| static-station.com | 2564 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| statictapevideo.com | 2565 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| stationonerecords.com | 2566 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | shopsouthcountycenter.com | 3007 | 1 | PLATFORM_REVIEW | — | — | — | Shopify feed contract unproven |
 | valshallarecords.com | 3008 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | valpovintage.com | 3011 | 1 | PLATFORM_REVIEW | — | — | — | HTTP_400 |
