@@ -1250,7 +1250,6 @@ Maximale bouwpogingen: 3
 | raindelayrecords.com | 2015 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
 | raindogrecords.net | 2016 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | rainbowrecordsde.com | 2017 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| m.facebook.com | 2018 | 22 | FROZEN | — | — | — | SHARED_PLATFORM |
 | rainbowrecordstore.square.site | 2020 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | rainydayolympia.net | 2021 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | ralphsrecordstx.com | 2022 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
@@ -1269,7 +1268,6 @@ Maximale bouwpogingen: 3
 | razzledazzlecr.com | 2042 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | reanimatedrecords.com | 2044 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | respunrecordsresale.square.site | 2045 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| instagram.com | 2047 | 71 | FROZEN | — | — | — | SHARED_PLATFORM |
 | realmsofrock.com | 2048 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | rebrecordsmd.com | 2050 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['rebrecordsmd_com.py', 'rebrecordsmd_com.json'] |
 | rebelreplay.com | 2051 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -1281,7 +1279,64 @@ Maximale bouwpogingen: 3
 | recollectrecords.com | 2059 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | recordarchive.com | 2060 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | recordbarilm.com | 2063 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| facebook.com | 2066 | 185 | FROZEN | — | — | — | SHARED_PLATFORM |
+| recordbreakerschi.com | 2067 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordcellar.net | 2070 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordcityonline.com | 2071 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordcity.net | 2072 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| oldschoolcity.com | 2073 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| recordcollector.co | 2074 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordconnectionpa.com | 2076 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| 247actionauction.com | 2081 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordgenie.com | 2082 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordgrouch.com | 2084 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordguys.com | 2085 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| recordhead.biz | 2086 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordheavenmusicstore.com | 2087 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| recordhighvinyl.com | 2088 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordkrate.com | 2090 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordmuseum.net | 2092 | 1 | SOURCE_BLOCKED | — | — | — | RemoteDisconnected |
+| recordoutlet.com | 2093 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordrack-pb.com | 2095 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordrecycler.com | 2096 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordreserve.com | 2097 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordsafarilosangeles.bigcartel.com | 2101 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| 360recordshop.com | 2104 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordsmithofpennsylvania.com | 2106 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| record-stop.com | 2107 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['record_stop_com.py', 'record_stop_com.json'] |
+| recordstopchs.com | 2108 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordsurplusla.com | 2109 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordswap.com | 2110 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordtowntx.com | 2111 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['recordtowntx_com.py', 'recordtowntx_com.json'] |
+| recordtrader1.com | 2113 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordvaultnt.com | 2114 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| instagram.com | 2115 | 74 | FROZEN | — | — | — | SHARED_PLATFORM |
+| recordwonderland.com | 2116 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| richardsrecordedmemories.com | 2117 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| recordsthegoodkind.com | 2120 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| recordsandrarities.com | 2121 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| crazywax.com | 2124 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordsforevershop.com | 2128 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordsgalore.wordpress.com | 2129 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordsintherad.com | 2130 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordsonmain.com | 2131 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['recordsonmain_com.py', 'recordsonmain_com.json'] |
+| recycledbooks.com | 2135 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recycledrecordslp.com | 2137 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| recrecreno.com | 2138 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recycledsoundsomaha.com | 2139 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| redbirdmusicstore.com | 2140 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| redbullrecords.com | 2142 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| reddevilrecords.net | 2143 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| redzeppelinrecords.com | 2146 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rediscoverrecords.com | 2149 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| m.facebook.com | 2150 | 24 | FROZEN | — | — | — | SHARED_PLATFORM |
+| redscrollrecords.com | 2151 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| redwoodrecords.online | 2152 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| reefrecords.rocks | 2153 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| remixrecordshop.com | 2160 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| renaissancerecordsus.com | 2161 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['renaissancerecordsus_com.py', 'renaissancerecordsus_com.json'] |
+| facebook.com | 2163 | 201 | FROZEN | — | — | — | SHARED_PLATFORM |
+| reporecord.com | 2165 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| reporecords.com | 2166 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | shopsouthcountycenter.com | 3007 | 1 | PLATFORM_REVIEW | — | — | — | Shopify feed contract unproven |
 | valshallarecords.com | 3008 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | valpovintage.com | 3011 | 1 | PLATFORM_REVIEW | — | — | — | HTTP_400 |
