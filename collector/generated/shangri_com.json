@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "domain": "shangri.com",
+  "platform": "woocommerce",
+  "adapter_class": "WooCommerceNewVinylAdapter",
+  "catalog_route": "https://shangri.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "discovery_method": {
+    "platform": "woocommerce",
+    "route": "https://shangri.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "score": 15,
+    "selection": "highest_bounded_adapter_score"
+  },
+  "method_candidates": [
+    {
+      "platform": "woocommerce",
+      "route": "https://shangri.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 15,
+      "products_seen": 20,
+      "accepted": 1,
+      "excluded": 19,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://shangri.com/products.json?limit=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_500"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://shangri.com/collections/all/products.json?limit=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_500"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://shangri.com/api/0.1/collections/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_500"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://shangri.com/api/0.1/collections/all/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_500"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://shangri.com/api/storefront/products?limit=20&offset=0",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_500"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://shangri.com/api/storefront/products?limit=20",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_500"
+    }
+  ],
+  "listing_sample": 1,
+  "detail_checked": 1,
+  "detail_gtin_valid": 0,
+  "release_status": "SCRAPER_BUILT_TESTED"
+}
