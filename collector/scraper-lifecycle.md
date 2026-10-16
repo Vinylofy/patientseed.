@@ -1653,12 +1653,75 @@ Maximale bouwpogingen: 3
 | notjustrockexpo.com | 2658 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | thatse.com | 2659 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | theingroove.com | 2660 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['theingroove_com.py', 'theingroove_com.json'] |
-| instagram.com | 2661 | 93 | FROZEN | — | — | — | SHARED_PLATFORM |
-| facebook.com | 2662 | 260 | FROZEN | — | — | — | SHARED_PLATFORM |
 | analogdope.com | 2663 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | antiquethriftshop.com | 2664 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | linktr.ee | 2665 | 12 | FROZEN | — | — | — | SHARED_PLATFORM |
 | thearchiverecords.com | 2666 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| theaudionerd.com | 2668 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['theaudionerd_com.py', 'theaudionerd_com.json'] |
+| beat-goes-on-records-and-more.square.site | 2670 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| fortcollinsbazaar.com | 2671 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| theblueheirloom.com | 2672 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thebombshelterstore.com | 2673 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thebookdeal.com | 2674 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thebusinessanacortes.com | 2675 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thebestvendors.com | 2676 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thecavestores.com | 2677 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| showsandexpos.com | 2678 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| chaoticcollector.com | 2679 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| clearwaterrecordshow.com | 2680 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| clevelandrocksppf.org | 2681 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| theconsignmentshack.com | 2682 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thecurrentyear.com | 2684 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thedarkslide.com | 2685 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['thedarkslide_com.py', 'thedarkslide_com.json'] |
+| shoptheden.com | 2686 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| thedetroitrecordclub.com | 2687 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thediscexchange.com | 2688 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| couchesrecords.com | 2692 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| theeclectibleshop.com | 2693 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| electroniccarbook.com | 2695 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| theelmhenderson.com | 2696 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['theelmhenderson_com.py', 'theelmhenderson_com.json'] |
+| mqtemp.com | 2698 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| theendofallmusicjxn.com | 2699 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['theendofallmusicjxn_com.py', 'theendofallmusicjxn_com.json'] |
+| epblvdpawnshop.com | 2700 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| theepreno.com | 2701 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| theexchangebr.weebly.com | 2703 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| theexchange.com | 2704 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['theexchange_com.py', 'theexchange_com.json'] |
+| thefloralanthologist.com | 2705 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cincylibraryfriends.org | 2707 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| thefuzzyneedle.com | 2709 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thegspotthrift.com | 2710 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| galleryofbrainerd.com | 2711 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| gamegallerypa.com | 2712 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| thegaterecordstore.com | 2713 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thegovernmentcenter.com | 2717 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| thegreatescapeonline.com | 2718 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thehamletny.com | 2723 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['thehamletny_com.py', 'thehamletny_com.json'] |
+| headvinyl.com | 2726 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| heavymetalshop.com | 2727 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| instagram.com | 2728 | 94 | FROZEN | — | — | — | SHARED_PLATFORM |
+| hiphopmuseumdc.org | 2729 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| the-houseofvinyl.com | 2732 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thehuntct.com | 2734 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| theinfectiousgroove.com | 2736 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| inthekuttrecords.com | 2739 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| leechpit.com | 2740 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thelittleshopofmusic.com | 2741 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| longear.com | 2742 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| merchantco.me | 2745 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| midnighthourrecords.com | 2746 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| guitarpedalshoppe.com | 2747 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| tarrytownmusichall.org | 2748 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| nevermindshop.com | 2751 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thenextrecordstore.com | 2752 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| theoldschoolrecords.com | 2753 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| thepoetsvault.com | 2757 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| thepourhousemusichall.com | 2758 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| therabbitloungeny.square.site | 2759 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ranchomiragelibrary.org | 2760 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| therarebirdcollective.com | 2761 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| therecordbaron.com | 2762 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| facebook.com | 2763 | 269 | FROZEN | — | — | — | SHARED_PLATFORM |
+| the-record-collector.com | 2766 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | shopsouthcountycenter.com | 3007 | 1 | PLATFORM_REVIEW | — | — | — | Shopify feed contract unproven |
 | valshallarecords.com | 3008 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | valpovintage.com | 3011 | 1 | PLATFORM_REVIEW | — | — | — | HTTP_400 |
