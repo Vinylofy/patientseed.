@@ -2016,7 +2016,6 @@ Maximale bouwpogingen: 3
 | willimanticrecords.com | 3248 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | willowrivermusic.com | 3249 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | winderbinder.com | 3250 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| facebook.com | 3251 | 322 | FROZEN | — | — | — | SHARED_PLATFORM |
 | witsendrecords.com | 3254 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['witsendrecords_com.py', 'witsendrecords_com.json'] |
 | instagram.com | 3256 | 107 | FROZEN | — | — | — | SHARED_PLATFORM |
 | wonderbook.com | 3257 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
@@ -2028,3 +2027,37 @@ Maximale bouwpogingen: 3
 | woodstockmusicshop.com | 3264 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | shopworldrecords.com | 3265 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | discogs.com | 3266 | 27 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
+| woundforsound.net | 3267 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wowthatsunusual.com | 3268 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wreckonatl.com | 3269 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['wreckonatl_com.py', 'wreckonatl_com.json'] |
+| writteninbloodink.com | 3270 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wuxtryrecords.com | 3271 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wuxtry-records.com | 3272 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| wylierecords.com | 3273 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wyrdbyrdypsi.com | 3274 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['wyrdbyrdypsi_com.py', 'wyrdbyrdypsi_com.json'] |
+| xombiemoonrecords.com | 3276 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| yankeebookshop.com | 3277 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| yardelephantrecords.com | 3278 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| yardsalerecords.com | 3279 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| yardsalethriftstoreglendora.carrd.co | 3280 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| yearbookrecords.com | 3281 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['yearbookrecords_com.py', 'yearbookrecords_com.json'] |
+| yellowdogdiscs.com | 3282 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['yellowdogdiscs_com.py', 'yellowdogdiscs_com.json'] |
+| yellowkrecords.com | 3283 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| yellowracketcha.com | 3284 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| jaxrecords.com | 3286 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vintagerecords.com | 3287 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| yesterdaysmemoriesatl.com | 3288 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| facebook.com | 3289 | 323 | FROZEN | — | — | — | SHARED_PLATFORM |
+| yooptone.com | 3291 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| youngonesrecords.com | 3292 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| yourmediaexchange.com | 3294 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| your-song-sound-exchange.myshopify.com | 3295 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
+| yurisrecords.com | 3296 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['yurisrecords_com.py', 'yurisrecords_com.json'] |
+| zacksmusicshop.com | 3297 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| ziarecords.com | 3299 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| zigzogs.com | 3300 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| zionsgate.com | 3301 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| zipsziggurat.com | 3302 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| zoinksrecords.com | 3304 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['zoinksrecords_com.py', 'zoinksrecords_com.json'] |
+| ztrecords.com | 3308 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| zzzrecords.com | 3309 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
