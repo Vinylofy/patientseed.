@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "domain": "weirdfishrecords.com",
+  "platform": "shopify",
+  "adapter_class": "ShopifyNewVinylAdapter",
+  "catalog_route": "https://weirdfishrecords.com/collections/all/products.json?limit=20&page=1",
+  "discovery_method": {
+    "platform": "shopify",
+    "route": "https://weirdfishrecords.com/collections/all/products.json?limit=20&page=1",
+    "score": 85,
+    "selection": "highest_bounded_adapter_score"
+  },
+  "method_candidates": [
+    {
+      "platform": "shopify",
+      "route": "https://weirdfishrecords.com/products.json?limit=20&page=1",
+      "score": 75,
+      "products_seen": 20,
+      "accepted": 7,
+      "excluded": 13,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://weirdfishrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 85,
+      "products_seen": 24,
+      "accepted": 8,
+      "excluded": 16,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "woocommerce",
+      "route": "https://weirdfishrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_400"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://weirdfishrecords.com/api/0.1/collections/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://weirdfishrecords.com/api/0.1/collections/all/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://weirdfishrecords.com/api/storefront/products?limit=20&offset=0",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://weirdfishrecords.com/api/storefront/products?limit=20",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    }
+  ],
+  "listing_sample": 8,
+  "detail_checked": 2,
+  "detail_gtin_valid": 0,
+  "release_status": "SCRAPER_BUILT_TESTED"
+}
