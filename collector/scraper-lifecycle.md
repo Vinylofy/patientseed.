@@ -1924,7 +1924,6 @@ Maximale bouwpogingen: 3
 | vinylheavensc.com | 3101 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | vinylheavenkc.com | 3102 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | vinylindex.com | 3105 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
-| instagram.com | 3106 | 101 | FROZEN | — | — | — | SHARED_PLATFORM |
 | vinyljunkies.net | 3109 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['vinyljunkies_net.py', 'vinyljunkies_net.json'] |
 | shopvinyllab.com | 3110 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | vinyloasisocala.com | 3112 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
@@ -1945,7 +1944,6 @@ Maximale bouwpogingen: 3
 | vinylstreetco.com | 3133 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | vinyltapnashville.com | 3135 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | vinyltapguitarsrecords.com | 3136 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['vinyltapguitarsrecords_com.py', 'vinyltapguitarsrecords_com.json'] |
-| discogs.com | 3137 | 25 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
 | vinylvalhallarecords.com | 3138 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
 | vinylvault.online | 3139 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['vinylvault_online.py', 'vinylvault_online.json'] |
 | vinylvaultrecords.com | 3140 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -1964,4 +1962,69 @@ Maximale bouwpogingen: 3
 | vivelerocklounge.com | 3161 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | vnyl.org | 3164 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | voltarecords.com | 3165 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
-| facebook.com | 3166 | 315 | FROZEN | — | — | — | SHARED_PLATFORM |
+| volumemusic.net | 3167 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| volumehillsborough.com | 3168 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| voaohin.org | 3169 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| volutiongallery.com | 3170 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| volverrecords.net | 3171 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vonsshops.com | 3172 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vpreggae.com | 3174 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vylevinyl.com | 3175 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['vylevinyl_com.py', 'vylevinyl_com.json'] |
+| vyntagevinyl.com | 3176 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| wagyourtailrecords.com | 3177 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| waitingroomrecords.com | 3178 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['waitingroomrecords_com.py', 'waitingroomrecords_com.json'] |
+| waldenpondbooks.com | 3179 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wosound.com | 3181 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wallysmalls.com | 3183 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| wannahearitrecords.com | 3184 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wantlistrecords.com | 3185 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| warbonnetrecords.com | 3187 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wardtonerecords.com | 3188 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wearewarpedrecords.com | 3189 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| waterloorecords.com | 3191 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['waterloorecords_com.py', 'waterloorecords_com.json'] |
+| wattsmusicnovato.com | 3192 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wavesradios.com | 3193 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| waxnfacts.com | 3194 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| waxatlas.com | 3195 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| waxgalaxy.com | 3198 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| waxmoonrecords.com | 3200 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['waxmoonrecords_com.py', 'waxmoonrecords_com.json'] |
+| waxrecordsverobeach.com | 3203 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| waxtraxonline.com | 3204 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| waxtraxrecords.com | 3205 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['waxtraxrecords_com.py', 'waxtraxrecords_com.json'] |
+| wazoorecs.com | 3212 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| webuyrecordsusa.com | 3214 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sellvinylusa.com | 3215 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wegotthebeatsrecordstore.com | 3216 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| weirdfishrecords.com | 3221 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['weirdfishrecords_com.py', 'weirdfishrecords_com.json'] |
+| weirdharolds.com | 3222 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| weirdsvilledetroit.com | 3223 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| welcomebackrecords.com | 3224 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| fgrestore.org | 3227 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| westlundsapplemarket.com | 3229 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| westportbooksaleventures.org | 3230 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| westsiderrecords.com | 3231 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| whatgoesonwildwoodnj.com | 3232 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| whatsleftrec.com | 3234 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| whirledrecordshanover.com | 3235 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| reallancastercounty.com | 3236 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| whitebearlakerecords.com | 3237 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| whitelabelvinyl.com | 3238 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wickstreetvinyl.com | 3243 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['wickstreetvinyl_com.py', 'wickstreetvinyl_com.json'] |
+| wickedjoyful.com | 3245 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| wildhoneyrecords.com | 3246 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wildthingsarehere.com | 3247 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| willimanticrecords.com | 3248 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| willowrivermusic.com | 3249 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| winderbinder.com | 3250 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| facebook.com | 3251 | 322 | FROZEN | — | — | — | SHARED_PLATFORM |
+| witsendrecords.com | 3254 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['witsendrecords_com.py', 'witsendrecords_com.json'] |
+| instagram.com | 3256 | 107 | FROZEN | — | — | — | SHARED_PLATFORM |
+| wonderbook.com | 3257 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| wonderlandvintagemarket.com | 3259 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| woodburymusicshop.com | 3260 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| woodennickelrecords.com | 3261 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| woodentoothrecords.com | 3262 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| woodrowmarketplace.com | 3263 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| woodstockmusicshop.com | 3264 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| shopworldrecords.com | 3265 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discogs.com | 3266 | 27 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
