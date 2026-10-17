@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "domain": "valshallarecords.com",
+  "platform": "woocommerce",
+  "adapter_class": "WooCommerceNewVinylAdapter",
+  "catalog_route": "https://valshallarecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "discovery_method": {
+    "platform": "woocommerce",
+    "route": "https://valshallarecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "score": 195,
+    "selection": "highest_bounded_adapter_score"
+  },
+  "method_candidates": [
+    {
+      "platform": "woocommerce",
+      "route": "https://valshallarecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 195,
+      "products_seen": 20,
+      "accepted": 19,
+      "excluded": 1,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://valshallarecords.com/products.json?limit=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://valshallarecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "JSONDecodeError"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://valshallarecords.com/api/0.1/collections/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://valshallarecords.com/api/0.1/collections/all/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://valshallarecords.com/api/storefront/products?limit=20&offset=0",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://valshallarecords.com/api/storefront/products?limit=20",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    }
+  ],
+  "listing_sample": 19,
+  "detail_checked": 2,
+  "detail_gtin_valid": 0,
+  "release_status": "SCRAPER_BUILT_TESTED"
+}
