@@ -1576,7 +1576,6 @@ Maximale bouwpogingen: 3
 | sstsuperstore.com | 2545 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['sstsuperstore_com.py', 'sstsuperstore_com.json'] |
 | antiquemallstlouis.com | 2547 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | stpeterecords.com | 2548 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| ebay.com | 2549 | 9 | FROZEN | — | — | — | SHARED_PLATFORM |
 | triplethreatsports.com | 2550 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | stardustrecords.net | 2555 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | stargazerrecordsnw.com | 2556 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -1781,7 +1780,6 @@ Maximale bouwpogingen: 3
 | tigerrecordscolorado.com | 2876 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | tigerrecs.com | 2877 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | tigerrosevintage.com | 2878 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['tigerrosevintage_com.py', 'tigerrosevintage_com.json'] |
-| discogs.com | 2879 | 22 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
 | experiencespokane.com | 2882 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | timelapsejersey.com | 2883 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | timemachinerecords.com | 2884 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
@@ -1795,7 +1793,6 @@ Maximale bouwpogingen: 3
 | tntmusic.shop | 2897 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['tntmusic_shop.py', 'tntmusic_shop.json'] |
 | toadhallonline.com | 2898 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['toadhallonline_com.py', 'toadhallonline_com.json'] |
 | tomloungesrecordbin.com | 2900 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| instagram.com | 2901 | 99 | FROZEN | — | — | — | SHARED_PLATFORM |
 | tomsmusictrade.com | 2902 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | tonearmyrecords.com | 2903 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | tonedeafrecs.com | 2904 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['tonedeafrecs_com.py', 'tonedeafrecs_com.json'] |
@@ -1814,7 +1811,6 @@ Maximale bouwpogingen: 3
 | trackcityrecords.com | 2919 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | trackrecordvinyl.com | 2920 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | tracksinwaxrecords.com | 2921 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| m.facebook.com | 2922 | 31 | FROZEN | — | — | — | SHARED_PLATFORM |
 | tradingpostcrystallake.com | 2924 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | tradingpostmusic.com | 2925 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | trafficrecordstore.com | 2926 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -1843,13 +1839,69 @@ Maximale bouwpogingen: 3
 | turntabletreasures.com | 2960 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['turntabletreasures_com.py', 'turntabletreasures_com.json'] |
 | twelveslb.com | 2961 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | twelveswax.com | 2962 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['twelveswax_com.py', 'twelveswax_com.json'] |
-| facebook.com | 2963 | 294 | FROZEN | — | — | — | SHARED_PLATFORM |
 | twinsugarantiquesandcollectibles.com | 2964 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | twistandshout.com | 2965 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | twoghostsvinylcafe.com | 2966 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| shopsouthcountycenter.com | 3007 | 1 | PLATFORM_REVIEW | — | — | — | Shopify feed contract unproven |
-| valshallarecords.com | 3008 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
-| valpovintage.com | 3011 | 1 | PLATFORM_REVIEW | — | — | — | HTTP_400 |
-| vandettarecordsdayton.com | 3013 | 1 | PLATFORM_REVIEW | — | — | — | HTTP_404 |
-| vanylrecords.com | 3014 | 1 | PLATFORM_REVIEW | — | — | — | HTTP_404 |
-| varietyrecords.com | 3016 | 1 | ROUTE_REVIEW | — | — | — | HTTP_404 |
+| uhfrecords.com | 2971 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ukulelestorehawaii.com | 2972 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| ultimix.com | 2974 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| unmundoraro.com | 2975 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| unchangedmind.com | 2976 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| uncleedsrecords.com | 2978 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| unclejoesrecords.com | 2979 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| eldonutshoppe.com | 2980 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| underthebedvintage.com | 2981 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| undertheradarrecs.com | 2982 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['undertheradarrecs_com.py', 'undertheradarrecs_com.json'] |
+| underdog-records.edan.io | 2983 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ugsounds.com | 2985 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| underground-vinyl.com | 2986 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| unforgettabletracks.com | 2987 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
+| universal-vinyl.com | 2991 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| universally-connected.creator-spring.com | 2992 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| unsungvinyl.com | 2993 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| unsungsalvagedesign.com | 2994 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| uponthesunrecords.com | 2996 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| upthecreekrecords.com | 2997 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| upsidedownculture.org | 3000 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| upstreameverett.com | 3001 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| theurbanlightsmusic.com | 3002 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| usedbooksuperstore.com | 3004 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| usedkidsrecords.com | 3005 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| shopsouthcountycenter.com | 3007 | 2 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| valshallarecords.com | 3008 | 2 | SCRAPER_BUILT_TESTED | — | — | — | ['valshallarecords_com.py', 'valshallarecords_com.json'] |
+| valpovintage.com | 3011 | 2 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vandettarecordsdayton.com | 3013 | 2 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vanylrecords.com | 3014 | 2 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| varietyrecords.com | 3016 | 2 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vegasvinylrecords.com | 3018 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
+| velouriarecords.bigcartel.com | 3019 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| velvetfudgevinyl.com | 3020 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_402 |
+| venomvinyl.com | 3021 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| verbenavinyl.com | 3023 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| theverticalhouse.com | 3024 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vertigomusic.gr | 3025 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discogs.com | 3026 | 23 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
+| vertigovinyl.com | 3027 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['vertigovinyl_com.py', 'vertigovinyl_com.json'] |
+| instagram.com | 3030 | 100 | FROZEN | — | — | — | SHARED_PLATFORM |
+| viennamusicexchange.com | 3031 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| villagegreenrecords.com | 3032 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['villagegreenrecords_com.py', 'villagegreenrecords_com.json'] |
+| villagemusic.com | 3033 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| villagerecordslq.com | 3034 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| villagerevivalrecordsnyc.com | 3035 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['villagerevivalrecordsnyc_com.py', 'villagerevivalrecordsnyc_com.json'] |
+| villagevinylhifi.com | 3037 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinaledge.com | 3038 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinebooksandvinyl.com | 3039 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinegarsyndrome.com | 3040 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| vinnysvinyl.com | 3041 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vintageaudioexchange.com | 3047 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| ebay.com | 3049 | 10 | FROZEN | — | — | — | SHARED_PLATFORM |
+| vintagemio.com | 3050 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| vintagemusiccompany.com | 3051 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| the-vintage-shops.com | 3054 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vintagetreasures340.wix.com | 3057 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
+| vintagevaultabq.com | 3058 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| facebook.com | 3059 | 303 | FROZEN | — | — | — | SHARED_PLATFORM |
+| vintagevibesrecords.com | 3061 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vvmo.com | 3064 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vintagevinyl.com | 3065 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| m.facebook.com | 3066 | 34 | FROZEN | — | — | — | SHARED_PLATFORM |
