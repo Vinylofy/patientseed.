@@ -8,7 +8,7 @@ from decimal import Decimal
 
 from collector.contracts import CollectionBlocked, ListingPage
 from collector import quality_gate as gate
-from collector.quality_store import health_update, central_section
+from collector.quality_store import health_update, central_section, update_health_cell
 from collector.recon import valid_gtin
 
 EAN='4006381333931'
@@ -107,9 +107,24 @@ class QualityTests(unittest.TestCase):
             health=state/'health/price/a.json';value=json.loads(health.read_text())
             value['status']='REPAIR_REQUIRED';health.write_text(json.dumps(value))
             self.assertEqual(gate.approved(state,profiles),[])
+            self.assertEqual(gate.approved(state,profiles,mode='price'),[])
+            self.assertEqual(gate.approved(state,profiles,mode='ean'),['a'])
             value['status']='ACTIVE';health.write_text(json.dumps(value))
             (profiles/'a.py').write_text('# changed release')
             self.assertEqual(gate.approved(state,profiles),[])
+
+    def test_frozen_ean_maintenance_does_not_stop_healthy_price_lane(self):
+        with tempfile.TemporaryDirectory() as tmp, patch.dict(os.environ,{},clear=True):
+            root=Path(tmp); profiles=self.profiles(root); state=root/'quality'
+            passed=lambda path,**kw:{'status':'APPROVED','valid_eans':1,'detail_checked':1}
+            failed=lambda path,**kw:{'status':'REVIEW','reason':'detail_ean_not_proven'}
+            gate.run_batch(profiles,state,limit=1,validator=passed)
+            p=state/'health/ean/a.json'; health=json.loads(p.read_text())
+            health['status']='REPAIR_REQUIRED'; p.write_text(json.dumps(health))
+            for _ in range(3): gate.run_batch(profiles,state,limit=1,validator=failed)
+            self.assertEqual(json.loads(p.read_text())['status'],'FROZEN')
+            self.assertEqual(gate.approved(state,profiles,mode='price'),['a'])
+            self.assertEqual(gate.approved(state,profiles,mode='ean'),[])
 
     def test_403_is_blocked_and_not_repeated_next_batch(self):
         with tempfile.TemporaryDirectory() as tmp,patch.dict(os.environ,{},clear=True):
@@ -134,6 +149,7 @@ class QualityTests(unittest.TestCase):
     def test_cap_is_not_failure_but_missing_ean_and_wrong_price_are(self):
         good={'status':'success','records':250,'ean_records':250,'detail_errors':0,'truncated':True}
         self.assertEqual(health_update({},good,mode='ean',run_id='1',observed_at='1')['status'],'ACTIVE')
+        self.assertEqual(health_update({},dict(good,detail_errors=1),mode='ean',run_id='1',observed_at='1')['status'],'INCIDENT')
         self.assertEqual(health_update({},dict(good,ean_records=0),mode='ean',run_id='1',observed_at='1')['status'],'INCIDENT')
         self.assertEqual(health_update({},good,mode='price',run_id='1',observed_at='1')['status'],'INCIDENT')
 
@@ -142,6 +158,13 @@ class QualityTests(unittest.TestCase):
         good={'status':'success','records':2,'ean_records':2}
         self.assertEqual(health_update(old,good,mode='ean',run_id='1',observed_at='1'),old)
         self.assertEqual(health_update(old,good,mode='ean',run_id='4',observed_at='4')['status'],'FROZEN')
+
+    def test_single_health_update_preserves_source_rows_and_other_mode(self):
+        text = 'SOURCE ROWS\n<!-- quality-gate:start -->\n| shop.example | 1 | APPROVED | 0 | 20 | 2/3 | ACTIVE | ACTIVE | proof |\n<!-- quality-gate:end -->\n'
+        changed = update_health_cell(text, 'shop.example', 'ean', {'status':'INCIDENT','last_run_id':'123'})
+        self.assertTrue(changed.startswith('SOURCE ROWS\n'))
+        self.assertIn('| ACTIVE | INCIDENT (run 123) | proof |', changed)
+        self.assertEqual(update_health_cell(changed,'other.example','price',{'status':'ACTIVE'}),changed)
 
     def test_credentials_rejected(self):
         with patch.dict(os.environ,{'GH_TOKEN':'test-not-a-real-token'},clear=True):

@@ -41,7 +41,7 @@ jobs:
       - name: Select exact quality-approved releases
         id: plan
         run: |
-          chunks=$(python -m collector.quality_gate --profiles published/collector/generated --state-root release/quality --plan)
+          chunks=$(python -m collector.quality_gate --profiles published/collector/generated --state-root release/quality --mode price --plan)
           echo "chunks=$chunks" >> "$GITHUB_OUTPUT"
           if [ "$chunks" = "[]" ]; then echo "has_work=false" >> "$GITHUB_OUTPUT"; else echo "has_work=true" >> "$GITHUB_OUTPUT"; fi
   scraper:

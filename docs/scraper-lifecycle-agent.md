@@ -67,8 +67,13 @@ Losse handmatige workflows blijven beschikbaar. Elke uitgevoerde prijs- of
 EAN-run schrijft een eigen onderhoudsobservatie naar
 `quality/health/<mode>/<slug>.json`, met token uitsluitend in de publicatiestap.
 Een eerste failure is INCIDENT, twee achtereen REPAIR_REQUIRED: de betreffende
-release wordt uit de automatische selectie gehouden tot de herstelproef slaagt.
+prijs- of EAN-lane wordt uit de automatische selectie gehouden tot de herstelproef slaagt.
+Een EAN-fout stopt een eerder inhoudelijk goedgekeurde en gezonde prijs-lane niet.
+Na drie mislukte onderhoudsherstelproeven wordt alleen de falende lane bevroren;
+het oorspronkelijke toelatingsbewijs blijft bewaard.
 Een succesvolle run reset de foutreeks; een dubbele of oudere observatie telt
 niet opnieuw. Bevroren status wordt door een toevallige handmatige run niet
 stilzwijgend opgeheven. De dagelijkse QA-batch verwerkt deze herstelgevallen;
 de oude onderhoudsregistratie blijft historische informatie.
+
+Na elke losse worker-run worden de onderhoudskolommen in scraper-status.md direct bijgewerkt, met run-ID. De checksumreparatie heeft 57 lokale tests en Actionlint-validatie; oudere broncijfers worden niet stilzwijgend herberekend.

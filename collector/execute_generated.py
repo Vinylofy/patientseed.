@@ -59,7 +59,7 @@ def run(root: Path, mode: str, limit: int, profile_filter: str | None = None, qu
             route = profile["catalog_route"]
             if quality_root is not None:
                 from collector.quality_gate import approved
-                if profile_path.stem not in approved(quality_root, root):
+                if profile_path.stem not in approved(quality_root, root, mode=mode):
                     raise CollectionBlocked("exact profile release not quality-approved")
                 state = json.loads((quality_root / 'state.json').read_text())
                 route = state['shops'][profile_path.stem].get('approved_route', route)
@@ -88,6 +88,7 @@ def run(root: Path, mode: str, limit: int, profile_filter: str | None = None, qu
                         record["identifier_type"] = detail.get("identifier_type")
                     except (CollectionBlocked, OSError, TimeoutError, ValueError) as exc:
                         record["detail_error"] = type(exc).__name__
+                        record["detail_error_reason"] = str(exc)[:200]
                         profile_result["detail_errors"] += 1
                         if isinstance(exc, CollectionBlocked) and any(signal in str(exc) for signal in ('HTTP_401', 'HTTP_403', 'HTTP_429')):
                             profile_result['status'] = 'failure'

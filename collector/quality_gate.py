@@ -167,13 +167,16 @@ def health_records(root, slug):
             if (p := root / 'health' / mode / f'{slug}.json').exists()}
 
 
-def approved(root, profiles):
+def approved(root, profiles, mode=None):
     state = json.loads((root / 'state.json').read_text())
     result = []
     for path in sorted(profiles.glob('*.json')):
         record = state.get('shops', {}).get(path.stem, {})
-        if record.get('status') != 'APPROVED' or record.get('fingerprint') != fingerprint(path): continue
-        if any(h.get('status') in {'REPAIR_REQUIRED', 'FROZEN'} for h in health_records(root, path.stem).values()): continue
+        if (not (record.get('status') == 'APPROVED' or record.get('admitted'))
+                or record.get('status') == 'BLOCKED' or record.get('fingerprint') != fingerprint(path)): continue
+        health = health_records(root, path.stem)
+        relevant = [health[mode]] if mode in health else list(health.values()) if mode is None else []
+        if any(h.get('status') in {'REPAIR_REQUIRED', 'FROZEN'} for h in relevant): continue
         result.append(path.stem)
     return result
 
@@ -189,14 +192,16 @@ def run_batch(profiles, root, *, limit=25, run_id='local', validator=validate, s
         previous = state['shops'].get(path.stem, {}); digest = fingerprint(path)
         health = health_records(root, path.stem)
         needs_repair = any(h.get('status') == 'REPAIR_REQUIRED' for h in health.values())
-        if previous.get('fingerprint') == digest and previous.get('status') in {'FROZEN', 'BLOCKED'}: continue
+        if previous.get('fingerprint') == digest and (previous.get('status') == 'BLOCKED' or (previous.get('status') == 'FROZEN' and not needs_repair)): continue
         if previous.get('status') == 'APPROVED' and previous.get('fingerprint') == digest and not needs_repair: continue
         priority = 0 if needs_repair else 1 if not previous else 2
         candidates.append((priority, path, digest, previous, health))
     candidates.sort(key=lambda x: (x[0], x[1].stem))
     for _, path, digest, previous, health in candidates[:limit]:
         if time.monotonic() - started > seconds: break
-        repairs = 0 if previous.get('status') == 'APPROVED' else int(previous.get('repair_attempts', 0))
+        repair_modes = sorted(mode for mode, h in health.items() if h.get('status') == 'REPAIR_REQUIRED')
+        new_cycle = repair_modes and repair_modes != previous.get('repair_modes', [])
+        repairs = 0 if previous.get('status') == 'APPROVED' or new_cycle else int(previous.get('repair_attempts', 0))
         if previous.get('fingerprint') != digest: previous = {}; repairs = 0
         if previous: repairs += 1
         if repairs > 3: continue
@@ -212,10 +217,20 @@ def run_batch(profiles, root, *, limit=25, run_id='local', validator=validate, s
         status = result['status']
         if status == 'REVIEW' and repairs >= 3: status = 'FROZEN'
         record = {'fingerprint': digest, 'domain': profile['domain'], 'batch': batch,
-            'repair_attempts': repairs, 'status': status, 'run_id': run_id,
+            'repair_attempts': repairs, 'repair_modes': repair_modes,
+            'admitted': status == 'APPROVED' or previous.get('status') == 'APPROVED' or bool(previous.get('admitted')),
+            'status': status, 'run_id': run_id,
             'updated_at': now(), 'evidence': result, 'history': previous.get('history', []) +
             [{'batch': batch, 'status': status, 'reason': result.get('reason'), 'run_id': run_id}]}
         state['shops'][path.stem] = record
+        if previous.get('approved_route'): record['approved_route'] = previous['approved_route']
+        if previous.get('admission_evidence'): record['admission_evidence'] = previous['admission_evidence']
+        if status == 'APPROVED': record['admission_evidence'] = result
+        if status == 'FROZEN' and record['admitted']:
+            for mode in repair_modes:
+                p = root / 'health' / mode / path.name
+                h = json.loads(p.read_text()); h.update(status='FROZEN', repair_attempts=repairs, last_quality_check_at=now())
+                p.write_text(json.dumps(h, indent=2)+'\n')
         if status == 'APPROVED' and route != profile['catalog_route']:
             # Route override is part of the admitted release, not a silent parser edit.
             record['approved_route'] = route
@@ -224,7 +239,7 @@ def run_batch(profiles, root, *, limit=25, run_id='local', validator=validate, s
                 p = root / 'health' / mode / path.name; p.parent.mkdir(parents=True, exist_ok=True)
                 p.write_text(json.dumps({'status': 'ACTIVE', 'consecutive_failures': 0,
                     'repair_attempts': 0, 'last_known_good': now(), 'last_good_run_id': run_id,
-                    'last_evidence': 'bounded_quality_gate', 'domain': profile['domain']}, indent=2)+'\n')
+                    'last_evidence': 'bounded_quality_gate', 'last_quality_check_at': now(), 'domain': profile['domain']}, indent=2)+'\n')
         if status == 'FROZEN':
             directory = root / 'frozen' / path.stem; directory.mkdir(parents=True, exist_ok=True)
             for source in (path, path.with_suffix('.py')): (directory / source.name).write_bytes(source.read_bytes())
@@ -244,9 +259,10 @@ def main():
     parser.add_argument('--limit', type=int, default=25)
     parser.add_argument('--run-id', default='local')
     parser.add_argument('--plan', action='store_true')
+    parser.add_argument('--mode', choices=('price', 'ean'))
     args = parser.parse_args()
     if args.plan:
-        names = approved(args.state_root, args.profiles)
+        names = approved(args.state_root, args.profiles, args.mode)
         print(json.dumps([{'slugs': names[i:i+100]} for i in range(0,len(names),100)]))
     else:
         result = run_batch(args.profiles, args.state_root, limit=args.limit, run_id=args.run_id)

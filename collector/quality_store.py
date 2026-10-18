@@ -77,6 +77,28 @@ def publish_health(result_path, run_id):
             return json.dumps(health_update(previous, observation, mode=mode,
                 run_id=run_id, observed_at=result['started_at']),indent=2)+'\n'
         update(f'{ROOT}/health/{mode}/{name}.json',transform)
+        current, _ = read(f'{ROOT}/health/{mode}/{name}.json')
+        record = json.loads(current)
+        if observation.get('domain'):
+            update('scraper-status.md', lambda text: update_health_cell(
+                text, observation['domain'], mode, record), branch='main')
+
+
+def update_health_cell(text, domain, mode, record):
+    """Keep the single central list current after each individual worker run."""
+    if text is None: raise ValueError('central status document missing')
+    marker = '<!-- quality-gate:start -->'
+    if marker not in text: return text
+    prefix, section = text.split(marker, 1)
+    lines = section.splitlines(keepends=True)
+    for index, line in enumerate(lines):
+        if line.startswith(f'| {domain} |'):
+            cells = line.split('|')
+            column = 7 if mode == 'price' else 8
+            cells[column] = f" {record['status']} (run {record.get('last_run_id', 'unknown')}) "
+            lines[index] = '|'.join(cells)
+            break
+    return prefix + marker + ''.join(lines)
 
 
 def central_section(root):
@@ -119,7 +141,7 @@ def publish(root):
             def merge_health(text):
                 old=json.loads(text) if text else {}
                 # Keep observations published after the successful QA.
-                return json.dumps(old if old.get('observed_at','') > value.get('last_known_good','') else value,indent=2)+'\n'
+                return json.dumps(old if old.get('observed_at','') > value.get('last_quality_check_at', value.get('last_known_good','')) else value,indent=2)+'\n'
             update(f'{ROOT}/{p.relative_to(root).as_posix()}',merge_health)
         else:
             update(f'{ROOT}/{p.relative_to(root).as_posix()}',lambda _,p=p:p.read_text())
