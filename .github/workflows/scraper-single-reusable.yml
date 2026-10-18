@@ -49,13 +49,27 @@ jobs:
           test -f "published/collector/generated/$SLUG.json"
           test -f "published/collector/generated/$SLUG.py"
           [[ "$LIMIT" =~ ^[0-9]+$ ]] && (( LIMIT >= 1 && LIMIT <= 250 ))
+      - name: Reserve daily EAN request budget
+        id: budget
+        if: inputs.mode == 'ean'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SLUG: ${{ inputs.scraper_slug }}
+          LIMIT: ${{ inputs.limit }}
+          RESERVATION_KEY: ${{ github.run_id }}-${{ github.run_attempt }}
+        run: python -m collector.quality_store --reserve-ean "$SLUG" --limit "$LIMIT" --reservation-key "$RESERVATION_KEY"
       - name: Run single scraper
         env:
           SLUG: ${{ inputs.scraper_slug }}
           MODE: ${{ inputs.mode }}
           LIMIT: ${{ inputs.limit }}
           REQUIRE_APPROVED: ${{ inputs.require_approved }}
+          ALLOCATED: ${{ steps.budget.outputs.allocated }}
         run: |
+          if [ "$MODE" = "ean" ]; then
+            if [ "$ALLOCATED" = "0" ]; then cp ean-budget-waiting.json single-scraper-result.json; exit 0; fi
+            LIMIT="$ALLOCATED"
+          fi
           args=()
           if [ "$REQUIRE_APPROVED" = "true" ]; then args+=(--quality-root release/quality); fi
           python -m collector.execute_generated --root published/collector/generated --profile "$SLUG" --mode "$MODE" --limit "$LIMIT" --output single-scraper-result.json "${args[@]}"

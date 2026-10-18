@@ -159,13 +159,49 @@ def publish(root):
     update('scraper-status.md',render,branch='main')
 
 
+def reserve_budget(state, key, requested, day):
+    if not 1 <= requested <= 250: raise ValueError('EAN limit must be 1..250')
+    state = dict(state or {})
+    if state.get('date') != day: state = {'date': day, 'reserved': 0, 'allocations': {}}
+    allocations = dict(state.get('allocations', {}))
+    if key in allocations: return state, allocations[key]
+    allocated = min(requested, 250 - int(state['reserved']))
+    allocations[key] = allocated
+    state.update(reserved=state['reserved'] + allocated, allocations=allocations)
+    return state, allocated
+
+
+def reserve_ean(slug, key, requested):
+    from zoneinfo import ZoneInfo
+    from datetime import datetime
+    if not __import__('re').fullmatch('[a-z0-9_]+', slug): raise ValueError('unsafe slug')
+    day = datetime.now(ZoneInfo('Europe/Amsterdam')).date().isoformat()
+    allocation = [0]
+    def transform(text):
+        state, allocation[0] = reserve_budget(json.loads(text) if text else {}, key, requested, day)
+        return json.dumps(state, indent=2)+'\n'
+    update(f'{ROOT}/budgets/ean/{slug}.json', transform)
+    output = os.environ.get('GITHUB_OUTPUT')
+    if output:
+        with open(output, 'a') as handle: handle.write(f'allocated={allocation[0]}\n')
+    if allocation[0] == 0:
+        Path('ean-budget-waiting.json').write_text(json.dumps({'schema_version':1,'mode':'ean',
+            'limit':0,'started_at':now(),'records':[],'profiles':[],'errors':[],
+            'outcome':'daily_budget_exhausted','database_write':False})+'\n')
+    print(f'EAN allocation for {day}: {allocation[0]} of {requested}; daily maximum 250')
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root',type=Path)
     parser.add_argument('--result',type=Path)
     parser.add_argument('--run-id',default='unknown')
+    parser.add_argument('--reserve-ean')
+    parser.add_argument('--reservation-key')
+    parser.add_argument('--limit',type=int,default=250)
     args=parser.parse_args()
-    if args.result:publish_health(args.result,args.run_id)
+    if args.reserve_ean:reserve_ean(args.reserve_ean,args.reservation_key,args.limit)
+    elif args.result:publish_health(args.result,args.run_id)
     elif args.root:publish(args.root)
     else:parser.error('--root or --result required')
 

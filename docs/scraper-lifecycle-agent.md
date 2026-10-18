@@ -58,7 +58,10 @@ Beide bestaande verzamelplanningen selecteren voortaan uitsluitend exacte
 quality-goedgekeurde releases (profiel + wrapper + adapterhash), dynamisch in
 groepen van 100 en met een eigen job per scraper. Ook de 57 oude ingeplande
 wrappers moeten deze aanvullende gate halen. De prijsplanning blijft eenmaal
-per twee dagen, EAN dagelijks, maximaal 250 records per scraper per run.
+per twee dagen, EAN dagelijks, maximaal 250 gereserveerde detailverzoeken per scraper per Nederlandse kalenderdag.
+Ook handmatige EAN-runs delen dit budget. Reservering gebeurt atomair vóór collection;
+ongebruikte plaatsen blijven conservatief gereserveerd tot de volgende dag.
+Prijsruns hebben hun eigen maximum van 250 records per run.
 Dit zijn begrensde listing/detailruns, geen claim op volledige catalogusdekking.
 Er worden geen databasewrites of productie-imports uitgevoerd. Deze toelating
 is publieke bron-QA en vervangt geen private markt-/productacceptatie.
@@ -76,4 +79,4 @@ niet opnieuw. Bevroren status wordt door een toevallige handmatige run niet
 stilzwijgend opgeheven. De dagelijkse QA-batch verwerkt deze herstelgevallen;
 de oude onderhoudsregistratie blijft historische informatie.
 
-Na elke losse worker-run worden de onderhoudskolommen in scraper-status.md direct bijgewerkt, met run-ID. De checksumreparatie heeft 57 lokale tests en Actionlint-validatie; oudere broncijfers worden niet stilzwijgend herberekend.
+Na elke losse worker-run worden de onderhoudskolommen in scraper-status.md direct bijgewerkt, met run-ID. De checksumreparatie heeft 58 lokale tests en Actionlint-validatie; oudere broncijfers worden niet stilzwijgend herberekend.

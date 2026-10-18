@@ -8,7 +8,7 @@ from decimal import Decimal
 
 from collector.contracts import CollectionBlocked, ListingPage
 from collector import quality_gate as gate
-from collector.quality_store import health_update, central_section, update_health_cell
+from collector.quality_store import health_update, central_section, update_health_cell, reserve_budget
 from collector.recon import valid_gtin
 
 EAN='4006381333931'
@@ -165,6 +165,17 @@ class QualityTests(unittest.TestCase):
         self.assertTrue(changed.startswith('SOURCE ROWS\n'))
         self.assertIn('| ACTIVE | INCIDENT (run 123) | proof |', changed)
         self.assertEqual(update_health_cell(changed,'other.example','price',{'status':'ACTIVE'}),changed)
+
+    def test_daily_ean_reservations_cap_repeats_and_reset_by_day(self):
+        state, first = reserve_budget({},'a',100,'2026-10-18')
+        state, second = reserve_budget(state,'b',200,'2026-10-18')
+        self.assertEqual((first,second),(100,150))
+        state, duplicate = reserve_budget(state,'b',200,'2026-10-18')
+        self.assertEqual((state['reserved'],duplicate),(250,150))
+        state, empty = reserve_budget(state,'c',25,'2026-10-18')
+        self.assertEqual(empty,0)
+        state, next_day = reserve_budget(state,'d',250,'2026-10-19')
+        self.assertEqual(next_day,250)
 
     def test_credentials_rejected(self):
         with patch.dict(os.environ,{'GH_TOKEN':'test-not-a-real-token'},clear=True):

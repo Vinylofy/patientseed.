@@ -16,6 +16,7 @@ def render(result: dict) -> str:
         quality = item.get("price_quality", {}).get("status", "—")
         lines.append("| " + " | ".join(str(item.get(key, "—")).replace("|", "\\|") for key in (
             "profile", "domain", "status", "records", "ean_records", "detail_errors")) + f" | {quality} |")
+    if result.get("outcome"): lines.extend(["", f"Uitkomst: {result['outcome']}"])
     return "\n".join(lines) + "\n"
 
 
