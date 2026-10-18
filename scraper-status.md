@@ -3355,5 +3355,5 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | booboorecords.com | 1 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE | run 39155794450 |
 | bororecords.com | 1 | APPROVED | 0 | 13 | 1/3 | ACTIVE | ACTIVE | run 39155794450 |
 | bruiserrecordsjax.com | 1 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 39155794450 |
-| cameronrecords.com | 1 | APPROVED | 0 | 2 | 2/2 | ACTIVE | ACTIVE | run 39155794450 |
+| cameronrecords.com | 1 | APPROVED | 0 | 2 | 2/2 | ACTIVE (run 39155980279) | ACTIVE | run 39155794450 |
 <!-- quality-gate:end -->
