@@ -68,7 +68,7 @@ def valid_gtin(value: object) -> bool:
     if not isinstance(value, str) or not value.isascii() or not value.isdigit() or len(value) not in (12, 13, 14):
         return False
     digits = [int(ch) for ch in value]
-    total = sum(digit * (3 if offset % 2 else 1) for offset, digit in enumerate(reversed(digits[:-1])))
+    total = sum(digit * (3 if offset % 2 == 0 else 1) for offset, digit in enumerate(reversed(digits[:-1])))
     return (10 - total % 10) % 10 == digits[-1]
 
 

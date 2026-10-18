@@ -1,0 +1,28 @@
+name: SCRAPER | Reusable approved shard
+on:
+  workflow_call:
+    inputs:
+      slugs:
+        type: string
+        required: true
+      mode:
+        type: string
+        required: true
+      limit:
+        type: string
+        required: true
+permissions:
+  contents: write
+jobs:
+  scraper:
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        slug: ${{ fromJSON(inputs.slugs) }}
+    uses: ./.github/workflows/scraper-single-reusable.yml
+    with:
+      scraper_slug: ${{ matrix.slug }}
+      mode: ${{ inputs.mode }}
+      limit: ${{ inputs.limit }}
+      require_approved: true

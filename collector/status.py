@@ -66,7 +66,14 @@ def main() -> int:
     args = parser.parse_args()
     queue = load_queue(args.queue)
     state = json.loads(args.progress.read_text(encoding="utf-8"))
-    args.output.write_text(render(queue, state), encoding="utf-8")
+    rendered = render(queue, state)
+    # Automated source/route rechecks must preserve the same central QA section.
+    if args.output.exists():
+        previous = args.output.read_text(encoding="utf-8")
+        marker = "<!-- quality-gate:start -->"
+        if marker in previous:
+            rendered += "\n" + marker + previous.split(marker, 1)[1]
+    args.output.write_text(rendered, encoding="utf-8")
     print(f"Rendered one status list with {len(queue)} shop rows")
     return 0
 

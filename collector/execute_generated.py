@@ -36,7 +36,7 @@ def load_profile(path: Path) -> tuple[dict, object]:
     return profile, classes[0]()
 
 
-def run(root: Path, mode: str, limit: int, profile_filter: str | None = None) -> dict:
+def run(root: Path, mode: str, limit: int, profile_filter: str | None = None, quality_root: Path | None = None) -> dict:
     assert_credential_free_environment()
     started = datetime.now(timezone.utc).isoformat()
     rows, errors, profiles = [], [], []
@@ -57,33 +57,49 @@ def run(root: Path, mode: str, limit: int, profile_filter: str | None = None) ->
             profile_rows = []
             domain = profile["domain"]
             route = profile["catalog_route"]
+            if quality_root is not None:
+                from collector.quality_gate import approved
+                if profile_path.stem not in approved(quality_root, root):
+                    raise CollectionBlocked("exact profile release not quality-approved")
+                state = json.loads((quality_root / 'state.json').read_text())
+                route = state['shops'][profile_path.stem].get('approved_route', route)
             public_source(route, domain)
             transport = Transport(domain, Limits(max_pages=1, max_requests=max(4, limit + 1),
                                                    max_products=max(1, limit), timeout_seconds=15,
                                                    max_runtime_seconds=300, delay_seconds=1.0))
             listing = parse_listing(scraper, transport.get(route), route, started)
             for item in listing.listings:
+                if item.get("condition") != "new" or item.get("product_type") != "vinyl":
+                    continue
                 if len(rows) >= limit:
                     break
                 record = {"domain": domain, "source_url": item["url"], "title": item.get("title"),
                           "artist": item.get("artist"), "price": item.get("price"),
                           "currency": item.get("currency"), "condition": item.get("condition"),
-                          "second_hand": item.get("condition") != "new", "observed_at": started}
+                          "second_hand": False, "source_fragment": item.get("source_fragment", ""), "observed_at": started}
                 if mode == "ean":
                     try:
                         detail = scraper.parse_detail(transport.get(item["url"]), source_url=item["url"], listing=item)
-                        record["ean"] = detail.get("identifier_raw")
+                        from collector.recon import valid_gtin
+                        observed = detail.get("identifier_raw")
+                        if observed and not valid_gtin(observed):
+                            raise CollectionBlocked("invalid_detail_gtin")
+                        record["ean"] = observed
                         record["identifier_type"] = detail.get("identifier_type")
                     except (CollectionBlocked, OSError, TimeoutError, ValueError) as exc:
                         record["detail_error"] = type(exc).__name__
                         profile_result["detail_errors"] += 1
+                        if isinstance(exc, CollectionBlocked) and any(signal in str(exc) for signal in ('HTTP_401', 'HTTP_403', 'HTTP_429')):
+                            profile_result['status'] = 'failure'
+                            profile_result['errors'].append({'reason': str(exc)[:200]})
+                            break
                 rows.append(record)
                 profile_rows.append(record)
                 profile_result["records"] += 1
                 if record.get("ean"):
                     profile_result["ean_records"] += 1
             profile_result["truncated"] = len(rows) >= limit
-            if mode == "price" and not profile_result["truncated"]:
+            if mode == "price":
                 profile_result["price_quality"] = assess_price_quality(profile_rows)
         except (CollectionBlocked, OSError, TimeoutError, ValueError, KeyError) as exc:
             error = {"profile": profile_path.name, "error": type(exc).__name__, "reason": str(exc)[:200]}
@@ -104,13 +120,18 @@ def main() -> int:
     parser.add_argument("--limit", type=int, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--profile", help="Only execute this generated profile slug")
+    parser.add_argument("--quality-root", type=Path)
     args = parser.parse_args()
     if args.limit < 1:
         parser.error("limit must be positive")
-    result = run(args.root, args.mode, args.limit, profile_filter=args.profile)
+    result = run(args.root, args.mode, args.limit, profile_filter=args.profile, quality_root=args.quality_root)
     args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Collected {len(result['records'])} read-only {args.mode} records; errors={len(result['errors'])}")
-    return 0
+    bad = bool(result['errors']) or any(p['records'] == 0 or p['detail_errors'] or
+        (args.mode == 'price' and p['price_quality']['status'] != 'pass') or
+        (args.mode == 'ean' and p['ean_records'] == 0) for p in result['profiles']
+        if p['status'] != 'not_run_limit')
+    return 1 if bad else 0
 
 
 if __name__ == "__main__":

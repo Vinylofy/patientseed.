@@ -26,6 +26,9 @@ on:
         default: "250"
         type: string
 
+permissions:
+  contents: write
+
 jobs:
   scraper:
     uses: ./.github/workflows/scraper-single-reusable.yml
@@ -37,9 +40,10 @@ jobs:
 
 
 def render_shard(mode: str, shard_number: int, names: list[str]) -> str:
+    # Admission is selected at runtime from exact validated profiles. Newly
+    # approved shops need no GITHUB_TOKEN workflow-file mutation.
     label = "Price" if mode == "price" else "EAN"
     cron = "17 2 */2 * *" if mode == "price" else "17 3 * * *"
-    entries = "\n".join(f"          - {name}" for name in names)
     return f'''name: SCRAPER | Scheduled | {label} | Shard {shard_number:02d}
 
 on:
@@ -48,29 +52,55 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        description: "Maximaal aantal {('prijsrecords' if mode == 'price' else 'EAN-detailrecords')} per scraper"
+        description: "Maximum records per admitted scraper"
         required: true
         default: "250"
         type: string
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: scraper-{mode}-shard-{shard_number:02d}
   cancel-in-progress: false
 
 jobs:
+  select:
+    runs-on: ubuntu-24.04
+    outputs:
+      chunks: ${{{{ steps.plan.outputs.chunks }}}}
+      has_work: ${{{{ steps.plan.outputs.has_work }}}}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: scraper-builds
+          path: published
+          persist-credentials: false
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: scraper-quality
+          path: release
+          persist-credentials: false
+      - name: Select exact quality-approved releases
+        id: plan
+        run: |
+          chunks=$(python -m collector.quality_gate --profiles published/collector/generated --state-root release/quality --plan)
+          echo "chunks=$chunks" >> "$GITHUB_OUTPUT"
+          if [ "$chunks" = "[]" ]; then echo "has_work=false" >> "$GITHUB_OUTPUT"; else echo "has_work=true" >> "$GITHUB_OUTPUT"; fi
   scraper:
+    needs: select
+    if: needs.select.outputs.has_work == 'true'
     strategy:
       fail-fast: false
-      max-parallel: 20
+      max-parallel: 2
       matrix:
-        scraper_slug:
-{entries}
-    uses: ./.github/workflows/scraper-single-reusable.yml
+        include: ${{{{ fromJSON(needs.select.outputs.chunks) }}}}
+    uses: ./.github/workflows/scraper-approved-shard.yml
     with:
-      scraper_slug: ${{{{ matrix.scraper_slug }}}}
+      slugs: ${{{{ toJSON(matrix.slugs) }}}}
       mode: {mode}
       limit: ${{{{ inputs.limit || '250' }}}}
 '''

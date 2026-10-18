@@ -11,6 +11,9 @@ on:
         default: "250"
         type: string
 
+permissions:
+  contents: write
+
 jobs:
   scraper:
     uses: ./.github/workflows/scraper-single-reusable.yml
