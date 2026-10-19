@@ -3357,7 +3357,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | bruiserrecordsjax.com | 1 | APPROVED | 0 | 20 | 3/3 | ACTIVE (run 39218081990) | ACTIVE | run 39155794450 |
 | cameronrecords.com | 1 | APPROVED | 0 | 2 | 2/2 | ACTIVE (run 39218081990) | ACTIVE | run 39155794450 |
 | chiefrecordsonline.com | 2 | REVIEW | 0 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| cnamusicsupply.com | 2 | APPROVED | 0 | 6 | 3/3 | ACTIVE | ACTIVE | run 39203245483 |
+| cnamusicsupply.com | 2 | APPROVED | 0 | 6 | 3/3 | ACTIVE (run 39218081990) | ACTIVE | run 39203245483 |
 | comebackvinyl.com | 2 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | contactrecordstore.com | 2 | REVIEW | 0 | 11 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | coregamingnh.com | 2 | APPROVED | 0 | 1 | 1/1 | ACTIVE (run 39218081990) | ACTIVE | run 39203245483 |
