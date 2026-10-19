@@ -3332,7 +3332,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | Shop | Batch | Toelating | Reparaties | Listing | Detail/EAN | Price health | EAN health | Reden/bewijs |
 |---|---:|---|---:|---:|---|---|---|---|
 | 10000hzrecords.com | 1 | REVIEW | 0 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| 1234gorecords.shop | 1 | APPROVED | 0 | 16 | 2/3 | ACTIVE | INCIDENT | run 39155794450 |
+| 1234gorecords.shop | 1 | APPROVED | 0 | 16 | 2/3 | ACTIVE (run 39218081990) | INCIDENT | run 39155794450 |
 | 22soundrecords.com | 1 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | 606records.com | 1 | REVIEW | 0 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | abrodosmusic.com | 1 | REVIEW | 0 | 10 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
