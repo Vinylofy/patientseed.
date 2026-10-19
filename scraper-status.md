@@ -3360,7 +3360,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | cnamusicsupply.com | 2 | APPROVED | 0 | 6 | 3/3 | ACTIVE (run 39218081990) | ACTIVE | run 39203245483 |
 | comebackvinyl.com | 2 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | contactrecordstore.com | 2 | REVIEW | 0 | 11 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| coregamingnh.com | 2 | APPROVED | 0 | 1 | 1/1 | ACTIVE (run 39218081990) | ACTIVE | run 39203245483 |
+| coregamingnh.com | 2 | APPROVED | 0 | 1 | 1/1 | ACTIVE (run 39218081990) | ACTIVE (run 39226402352) | run 39203245483 |
 | counterintuitiverecords.com | 2 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | crazyvinylrecord.com | 2 | APPROVED | 0 | 1 | 1/1 | ACTIVE (run 39218081990) | ACTIVE | run 39203245483 |
 | csiderecords.com | 2 | REVIEW | 0 | 12 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
