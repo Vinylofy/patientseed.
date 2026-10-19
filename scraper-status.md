@@ -3352,7 +3352,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | biglovevinyl.com | 1 | REVIEW | 0 | 13 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | bionicrecordsoc.com | 1 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | blackdotsbuffalo.shop | 1 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| booboorecords.com | 1 | APPROVED | 0 | 11 | 3/3 | ACTIVE (run 39218081990) | ACTIVE | run 39155794450 |
+| booboorecords.com | 1 | APPROVED | 0 | 11 | 3/3 | ACTIVE (run 39218081990) | ACTIVE (run 39226402352) | run 39155794450 |
 | bororecords.com | 1 | APPROVED | 0 | 13 | 1/3 | ACTIVE (run 39218081990) | ACTIVE | run 39155794450 |
 | bruiserrecordsjax.com | 1 | APPROVED | 0 | 20 | 3/3 | ACTIVE (run 39218081990) | ACTIVE | run 39155794450 |
 | cameronrecords.com | 1 | APPROVED | 0 | 2 | 2/2 | ACTIVE (run 39218081990) | ACTIVE | run 39155794450 |
