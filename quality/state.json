@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "batch": 1,
+  "batch": 2,
   "shops": {
     "10000hzrecords_com": {
       "fingerprint": "bd851743c2eee03c427913ea2a88bc94dfb0e74b1f11366277a07532ffcd9e33",
@@ -1748,8 +1748,1995 @@
           "run_id": "39155794450"
         }
       ]
+    },
+    "chiefrecordsonline_com": {
+      "fingerprint": "d80e6835daa7853f232303d4e2c0270595783e52d403e1bc791fd8c89c7ca828",
+      "domain": "chiefrecordsonline.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:11:35.193666+00:00",
+      "evidence": {
+        "domain": "chiefrecordsonline.com",
+        "route": "https://chiefrecordsonline.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:11:33.756351+00:00",
+        "requests": [
+          {
+            "url": "https://chiefrecordsonline.com/products.json?limit=20&page=1",
+            "sha256": "200ba4be6a83a8334ba102114cf11b8f37afeefc62df291291bc06945bf04f08"
+          },
+          {
+            "url": "https://chiefrecordsonline.com/products/pre-order-wade-forster-the-aftermath-vinyl?variant=48405013037241",
+            "sha256": "f8e22a26c062390f8b196caba775778e362337aaa876c2ce05e0b2e5ff6af8cc"
+          }
+        ],
+        "listing_records": 2,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 2,
+          "unique_prices": 2,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39203245483"
+        }
+      ]
+    },
+    "cnamusicsupply_com": {
+      "fingerprint": "d9563b9b288750fffe6ba9ca3e58a1ca2613ed5acf202235d91b6befe5a4afbc",
+      "domain": "cnamusicsupply.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:11:38.705601+00:00",
+      "evidence": {
+        "domain": "cnamusicsupply.com",
+        "route": "https://cnamusicsupply.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:11:35.231277+00:00",
+        "requests": [
+          {
+            "url": "https://cnamusicsupply.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "21452eb4ecb82866e08a12bbc4a18752da4f55cb46d8a72b5dfd6048a70819f2"
+          },
+          {
+            "url": "https://cnamusicsupply.com/products/ac-dc-back-in-black-vinyl?variant=50035449889048",
+            "sha256": "c96d12838ff375c63f512f422cbe4a83d24122aef729af4d286b27ac67b5666a"
+          },
+          {
+            "url": "https://cnamusicsupply.com/products/aerosmith-get-a-grip-vinyl?variant=44406766993688",
+            "sha256": "5c2024f8e15f2849353ca3d9d511d3e6534c8c39f32375462d3a9383ebc0e474"
+          },
+          {
+            "url": "https://cnamusicsupply.com/products/alanis-morissette-jagged-little-pill-vinyl?variant=44406852747544",
+            "sha256": "61ec63912c5d86eed1dbec45ca4185c432fbab53bcb85453358f531d7bc9d5fa"
+          }
+        ],
+        "listing_records": 6,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://cnamusicsupply.com/products/ac-dc-back-in-black-vinyl?variant=50035449889048",
+            "price": "28.99",
+            "currency": "USD",
+            "ean": "00696998020719",
+            "condition": "new"
+          },
+          {
+            "url": "https://cnamusicsupply.com/products/aerosmith-get-a-grip-vinyl?variant=44406766993688",
+            "price": "37.99",
+            "currency": "USD",
+            "ean": "00602547954398",
+            "condition": "new"
+          },
+          {
+            "url": "https://cnamusicsupply.com/products/alanis-morissette-jagged-little-pill-vinyl?variant=44406852747544",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00081227971687",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 6,
+          "unique_prices": 4,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "39203245483"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "cnamusicsupply.com",
+        "route": "https://cnamusicsupply.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:11:35.231277+00:00",
+        "requests": [
+          {
+            "url": "https://cnamusicsupply.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "21452eb4ecb82866e08a12bbc4a18752da4f55cb46d8a72b5dfd6048a70819f2"
+          },
+          {
+            "url": "https://cnamusicsupply.com/products/ac-dc-back-in-black-vinyl?variant=50035449889048",
+            "sha256": "c96d12838ff375c63f512f422cbe4a83d24122aef729af4d286b27ac67b5666a"
+          },
+          {
+            "url": "https://cnamusicsupply.com/products/aerosmith-get-a-grip-vinyl?variant=44406766993688",
+            "sha256": "5c2024f8e15f2849353ca3d9d511d3e6534c8c39f32375462d3a9383ebc0e474"
+          },
+          {
+            "url": "https://cnamusicsupply.com/products/alanis-morissette-jagged-little-pill-vinyl?variant=44406852747544",
+            "sha256": "61ec63912c5d86eed1dbec45ca4185c432fbab53bcb85453358f531d7bc9d5fa"
+          }
+        ],
+        "listing_records": 6,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://cnamusicsupply.com/products/ac-dc-back-in-black-vinyl?variant=50035449889048",
+            "price": "28.99",
+            "currency": "USD",
+            "ean": "00696998020719",
+            "condition": "new"
+          },
+          {
+            "url": "https://cnamusicsupply.com/products/aerosmith-get-a-grip-vinyl?variant=44406766993688",
+            "price": "37.99",
+            "currency": "USD",
+            "ean": "00602547954398",
+            "condition": "new"
+          },
+          {
+            "url": "https://cnamusicsupply.com/products/alanis-morissette-jagged-little-pill-vinyl?variant=44406852747544",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00081227971687",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 6,
+          "unique_prices": 4,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "comebackvinyl_com": {
+      "fingerprint": "167d6bd5630a45cc9bef7d384369ce073f7fb6208c653db8920740bbed2bb8fb",
+      "domain": "comebackvinyl.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:11:40.794279+00:00",
+      "evidence": {
+        "domain": "comebackvinyl.com",
+        "route": "https://comebackvinyl.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:11:38.727479+00:00",
+        "requests": [
+          {
+            "url": "https://comebackvinyl.com/products.json?limit=20&page=1",
+            "sha256": "b3aa04bf9f52943c153df50affe22de409c0ea29a0b66c37fda7b78afadf05eb"
+          },
+          {
+            "url": "https://comebackvinyl.com/products/grateful-dead-carousel-ballroom-san-francisco-ca-2-14-68-live-rsd-black-friday-2026?variant=50767540125953",
+            "sha256": "7be45704aeb295c9574ee8474eb10fc5bc65c3bc68158f336b6b6ca39c4ee015"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 12,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39203245483"
+        }
+      ]
+    },
+    "contactrecordstore_com": {
+      "fingerprint": "e120d31dca0033214db56c09700ac7a1a2b14d6dc6929c61891eecdb2add0e8e",
+      "domain": "contactrecordstore.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:11:45.371235+00:00",
+      "evidence": {
+        "domain": "contactrecordstore.com",
+        "route": "https://contactrecordstore.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:11:40.815285+00:00",
+        "requests": [
+          {
+            "url": "https://contactrecordstore.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "f9e47cdb9916f9af06df6ea10d4f0bee62188a89e66710d9da2fcc61c9cf7c2d"
+          },
+          {
+            "url": "https://contactrecordstore.com/products/abba-gargando-s-t-lp?variant=44601971540125",
+            "sha256": "4f163198c5286b58c569ca9717ddb85ba5f5a22be8b492ef7378b0aef04c95c3"
+          },
+          {
+            "url": "https://contactrecordstore.com/products/alicecoltrane-eternity?variant=37027632021661",
+            "sha256": "f8cd9d1f4d9d9ff3688e98b44ad925d3fbdba360a53006d0afc927126ed5a4a0"
+          },
+          {
+            "url": "https://contactrecordstore.com/products/arthur-russell-picture-of-bunny-rabbit-lp?variant=43563543265437",
+            "sha256": "dd39fd45a8050a6e85f254825eaabe2395ed853eedad534b89b42adc6e086bf4"
+          }
+        ],
+        "listing_records": 11,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://contactrecordstore.com/products/abba-gargando-s-t-lp?variant=44601971540125",
+            "price": "20.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://contactrecordstore.com/products/alicecoltrane-eternity?variant=37027632021661",
+            "price": "28.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://contactrecordstore.com/products/arthur-russell-picture-of-bunny-rabbit-lp?variant=43563543265437",
+            "price": "26.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 11,
+          "unique_prices": 7,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39203245483"
+        }
+      ]
+    },
+    "coregamingnh_com": {
+      "fingerprint": "4c18d22352fa9e064aa23b16411e60236fd5e6a09acb9d054ede274f4dd8edd1",
+      "domain": "coregamingnh.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:11:47.061014+00:00",
+      "evidence": {
+        "domain": "coregamingnh.com",
+        "route": "https://coregamingnh.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:11:45.397876+00:00",
+        "requests": [
+          {
+            "url": "https://coregamingnh.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "1aed2a10478b36d339986f672f6422b843204eb02e4e348e29d5a5e0bb226e07"
+          },
+          {
+            "url": "https://coregamingnh.com/products/uicideboy-new-world-depression-lp-coke-bottle-dark-green-vinyl-vinyl?variant=50067113607469",
+            "sha256": "038c2178f49a6d55bb1896889de8408cb83a62578a3012db4b569d802ff5e195"
+          }
+        ],
+        "listing_records": 1,
+        "detail_checked": 1,
+        "valid_eans": 1,
+        "details": [
+          {
+            "url": "https://coregamingnh.com/products/uicideboy-new-world-depression-lp-coke-bottle-dark-green-vinyl-vinyl?variant=50067113607469",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00198391598197",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 1,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "39203245483"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "coregamingnh.com",
+        "route": "https://coregamingnh.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:11:45.397876+00:00",
+        "requests": [
+          {
+            "url": "https://coregamingnh.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "1aed2a10478b36d339986f672f6422b843204eb02e4e348e29d5a5e0bb226e07"
+          },
+          {
+            "url": "https://coregamingnh.com/products/uicideboy-new-world-depression-lp-coke-bottle-dark-green-vinyl-vinyl?variant=50067113607469",
+            "sha256": "038c2178f49a6d55bb1896889de8408cb83a62578a3012db4b569d802ff5e195"
+          }
+        ],
+        "listing_records": 1,
+        "detail_checked": 1,
+        "valid_eans": 1,
+        "details": [
+          {
+            "url": "https://coregamingnh.com/products/uicideboy-new-world-depression-lp-coke-bottle-dark-green-vinyl-vinyl?variant=50067113607469",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00198391598197",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 1,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "counterintuitiverecords_com": {
+      "fingerprint": "c70b3774b8bb8d5f93e64355b59241b6ebaa0ccfc7c32b4e32c3bb5203ef87e1",
+      "domain": "counterintuitiverecords.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:11:48.450709+00:00",
+      "evidence": {
+        "domain": "counterintuitiverecords.com",
+        "route": "https://counterintuitiverecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:11:47.082530+00:00",
+        "requests": [
+          {
+            "url": "https://counterintuitiverecords.com/products.json?limit=20&page=1",
+            "sha256": "77015ead19e6351f17054884f7a8bf527d4bde25da267dfae998d2583623516f"
+          },
+          {
+            "url": "https://counterintuitiverecords.com/products/born-without-bones-heat-is-free-the-king-7-flexi-disc?variant=67656415478124",
+            "sha256": "bd2ad2f9b45ead432d477fb022f5aec856a5afa097900614bc53bc3c2cea37b9"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 5,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39203245483"
+        }
+      ]
+    },
+    "crazyvinylrecord_com": {
+      "fingerprint": "5e1d57073a5e2700555cbf596b56997f950785833d360c75fab370ef70e0cd06",
+      "domain": "crazyvinylrecord.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:11:49.887656+00:00",
+      "evidence": {
+        "domain": "crazyvinylrecord.com",
+        "route": "https://crazyvinylrecord.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:11:48.471944+00:00",
+        "requests": [
+          {
+            "url": "https://crazyvinylrecord.com/products.json?limit=20&page=1",
+            "sha256": "8c5ca07e310846345e5a75887025cdfc514e944244a37ab75e1fd905709bdc80"
+          },
+          {
+            "url": "https://crazyvinylrecord.com/products/desorden-publico-salsa-all-ska-vinyl?variant=67636426145865",
+            "sha256": "b2a2694ce0cc407be7d3939c336732e8cec1b3626ad8afc93ad5f6a17fd2d744"
+          }
+        ],
+        "listing_records": 1,
+        "detail_checked": 1,
+        "valid_eans": 1,
+        "details": [
+          {
+            "url": "https://crazyvinylrecord.com/products/desorden-publico-salsa-all-ska-vinyl?variant=67636426145865",
+            "price": "32.00",
+            "currency": "USD",
+            "ean": "07591808000161",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 1,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "39203245483"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "crazyvinylrecord.com",
+        "route": "https://crazyvinylrecord.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:11:48.471944+00:00",
+        "requests": [
+          {
+            "url": "https://crazyvinylrecord.com/products.json?limit=20&page=1",
+            "sha256": "8c5ca07e310846345e5a75887025cdfc514e944244a37ab75e1fd905709bdc80"
+          },
+          {
+            "url": "https://crazyvinylrecord.com/products/desorden-publico-salsa-all-ska-vinyl?variant=67636426145865",
+            "sha256": "b2a2694ce0cc407be7d3939c336732e8cec1b3626ad8afc93ad5f6a17fd2d744"
+          }
+        ],
+        "listing_records": 1,
+        "detail_checked": 1,
+        "valid_eans": 1,
+        "details": [
+          {
+            "url": "https://crazyvinylrecord.com/products/desorden-publico-salsa-all-ska-vinyl?variant=67636426145865",
+            "price": "32.00",
+            "currency": "USD",
+            "ean": "07591808000161",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 1,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "csiderecords_com": {
+      "fingerprint": "b04cf0a3e76fd0311c1dd4165b2fdd7a213eeb1dae742528175d6600b228cdf6",
+      "domain": "csiderecords.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:11:53.774700+00:00",
+      "evidence": {
+        "domain": "csiderecords.com",
+        "route": "https://csiderecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:11:49.909576+00:00",
+        "requests": [
+          {
+            "url": "https://csiderecords.com/products.json?limit=20&page=1",
+            "sha256": "93f0a1eefaa652bd978c5028f7d45d649d3386af91bc8f6da4c88bb26738e2f8"
+          },
+          {
+            "url": "https://csiderecords.com/products/5-seconds-of-summer-everyone-s-a-star?variant=46554700513465",
+            "sha256": "ec4c93b49df891996997cc1d89a2978cf35604de35b71bc5e93de4c9c5bd07d4"
+          },
+          {
+            "url": "https://csiderecords.com/products/the-backseat-lovers-waiting-to-spill?variant=46549873164473",
+            "sha256": "b44858c4432de7cd058972cccffa7a17b0a443fce27ca046fec06aae6da0ea0a"
+          },
+          {
+            "url": "https://csiderecords.com/products/zwangsbeglucktertum-if-it-pleases-the-court?variant=44499839025337",
+            "sha256": "b64a2b0660626a177b489172bacb039a89e9ca8e8be9e060a9d63b0f7e3ad4f7"
+          }
+        ],
+        "listing_records": 12,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://csiderecords.com/products/5-seconds-of-summer-everyone-s-a-star?variant=46554700513465",
+            "price": "34.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://csiderecords.com/products/the-backseat-lovers-waiting-to-spill?variant=46549873164473",
+            "price": "36.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://csiderecords.com/products/zwangsbeglucktertum-if-it-pleases-the-court?variant=44499839025337",
+            "price": "16.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 12,
+          "unique_prices": 9,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39203245483"
+        }
+      ]
+    },
+    "curiouscollectionstx_com": {
+      "fingerprint": "18b339030595904b77be2c67499d059f999ada5042e062b5ee7460e3ec197d60",
+      "domain": "curiouscollectionstx.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:11:57.102595+00:00",
+      "evidence": {
+        "domain": "curiouscollectionstx.com",
+        "route": "https://curiouscollectionstx.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:11:53.796220+00:00",
+        "requests": [
+          {
+            "url": "https://curiouscollectionstx.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "087f790c0b04c1bef7e47971d93a7059a78d7b8ee859e29b0160c2f258348001"
+          },
+          {
+            "url": "https://curiouscollectionstx.com/products/pre-order-cruzados-best-of-cruzados-new-lp?variant=50605427163382",
+            "sha256": "0f002148e63684a3eb99d10d13e4b86abb873347c4981fe11e41386fe848bd04"
+          },
+          {
+            "url": "https://curiouscollectionstx.com/products/pre-order-santana-santana-iii-180g-new-lp?variant=50690193260790",
+            "sha256": "d324ab54db0364f01594018853477ba2d31c4d6e6b3138a581c0bbe70365feb3"
+          },
+          {
+            "url": "https://curiouscollectionstx.com/products/pre-order-uicideboy-thy-will-be-done-new-lp?variant=49857122795766",
+            "sha256": "d2e3d0e8db1a60d39428b83c3f485d8ad03914a5bb580cfb927b18e35d573422"
+          }
+        ],
+        "listing_records": 9,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://curiouscollectionstx.com/products/pre-order-cruzados-best-of-cruzados-new-lp?variant=50605427163382",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00706091208805",
+            "condition": "new"
+          },
+          {
+            "url": "https://curiouscollectionstx.com/products/pre-order-santana-santana-iii-180g-new-lp?variant=50690193260790",
+            "price": "51.99",
+            "currency": "USD",
+            "ean": "08719262045187",
+            "condition": "new"
+          },
+          {
+            "url": "https://curiouscollectionstx.com/products/pre-order-uicideboy-thy-will-be-done-new-lp?variant=49857122795766",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00199806713143",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 9,
+          "unique_prices": 6,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "39203245483"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "curiouscollectionstx.com",
+        "route": "https://curiouscollectionstx.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:11:53.796220+00:00",
+        "requests": [
+          {
+            "url": "https://curiouscollectionstx.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "087f790c0b04c1bef7e47971d93a7059a78d7b8ee859e29b0160c2f258348001"
+          },
+          {
+            "url": "https://curiouscollectionstx.com/products/pre-order-cruzados-best-of-cruzados-new-lp?variant=50605427163382",
+            "sha256": "0f002148e63684a3eb99d10d13e4b86abb873347c4981fe11e41386fe848bd04"
+          },
+          {
+            "url": "https://curiouscollectionstx.com/products/pre-order-santana-santana-iii-180g-new-lp?variant=50690193260790",
+            "sha256": "d324ab54db0364f01594018853477ba2d31c4d6e6b3138a581c0bbe70365feb3"
+          },
+          {
+            "url": "https://curiouscollectionstx.com/products/pre-order-uicideboy-thy-will-be-done-new-lp?variant=49857122795766",
+            "sha256": "d2e3d0e8db1a60d39428b83c3f485d8ad03914a5bb580cfb927b18e35d573422"
+          }
+        ],
+        "listing_records": 9,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://curiouscollectionstx.com/products/pre-order-cruzados-best-of-cruzados-new-lp?variant=50605427163382",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00706091208805",
+            "condition": "new"
+          },
+          {
+            "url": "https://curiouscollectionstx.com/products/pre-order-santana-santana-iii-180g-new-lp?variant=50690193260790",
+            "price": "51.99",
+            "currency": "USD",
+            "ean": "08719262045187",
+            "condition": "new"
+          },
+          {
+            "url": "https://curiouscollectionstx.com/products/pre-order-uicideboy-thy-will-be-done-new-lp?variant=49857122795766",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00199806713143",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 9,
+          "unique_prices": 6,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "dbzbooks_com": {
+      "fingerprint": "3f95089bb05ff8cb5cc3b078f091b8ecde5fe30bf693de6fe5ea822aeb725a29",
+      "domain": "dbzbooks.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:12:00.486937+00:00",
+      "evidence": {
+        "domain": "dbzbooks.com",
+        "route": "https://dbzbooks.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:11:57.127647+00:00",
+        "requests": [
+          {
+            "url": "https://dbzbooks.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "d0e53696cdf1b614327637d02c03dd4425cc119d11d07555997b3cf01b8dd6f0"
+          },
+          {
+            "url": "https://dbzbooks.com/products/cruzados-best-of-cruzados-lp-pre-order?variant=43594125148234",
+            "sha256": "1b7aae0be255037b37912c9e114afd5b77dd639cc5e114322b99d13b4cee9aa0"
+          },
+          {
+            "url": "https://dbzbooks.com/products/uicideboy-thy-kingdom-come-translucent-natural-lp?variant=43593566650442",
+            "sha256": "dea9e31bf127cd23035ba553bbfcd7b4d54f4eacef8608b3d96acf4981f112ce"
+          },
+          {
+            "url": "https://dbzbooks.com/products/uicideboy-thy-will-be-done-lp?variant=43593583460426",
+            "sha256": "bf2bbeb8cb7604e749e86557a0e002f176e4e04f0378029139603820c07e4488"
+          }
+        ],
+        "listing_records": 15,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://dbzbooks.com/products/cruzados-best-of-cruzados-lp-pre-order?variant=43594125148234",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00706091208805",
+            "condition": "new"
+          },
+          {
+            "url": "https://dbzbooks.com/products/uicideboy-thy-kingdom-come-translucent-natural-lp?variant=43593566650442",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00199350824630",
+            "condition": "new"
+          },
+          {
+            "url": "https://dbzbooks.com/products/uicideboy-thy-will-be-done-lp?variant=43593583460426",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00199806713143",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 15,
+          "unique_prices": 7,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "39203245483"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "dbzbooks.com",
+        "route": "https://dbzbooks.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:11:57.127647+00:00",
+        "requests": [
+          {
+            "url": "https://dbzbooks.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "d0e53696cdf1b614327637d02c03dd4425cc119d11d07555997b3cf01b8dd6f0"
+          },
+          {
+            "url": "https://dbzbooks.com/products/cruzados-best-of-cruzados-lp-pre-order?variant=43594125148234",
+            "sha256": "1b7aae0be255037b37912c9e114afd5b77dd639cc5e114322b99d13b4cee9aa0"
+          },
+          {
+            "url": "https://dbzbooks.com/products/uicideboy-thy-kingdom-come-translucent-natural-lp?variant=43593566650442",
+            "sha256": "dea9e31bf127cd23035ba553bbfcd7b4d54f4eacef8608b3d96acf4981f112ce"
+          },
+          {
+            "url": "https://dbzbooks.com/products/uicideboy-thy-will-be-done-lp?variant=43593583460426",
+            "sha256": "bf2bbeb8cb7604e749e86557a0e002f176e4e04f0378029139603820c07e4488"
+          }
+        ],
+        "listing_records": 15,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://dbzbooks.com/products/cruzados-best-of-cruzados-lp-pre-order?variant=43594125148234",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00706091208805",
+            "condition": "new"
+          },
+          {
+            "url": "https://dbzbooks.com/products/uicideboy-thy-kingdom-come-translucent-natural-lp?variant=43593566650442",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00199350824630",
+            "condition": "new"
+          },
+          {
+            "url": "https://dbzbooks.com/products/uicideboy-thy-will-be-done-lp?variant=43593583460426",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00199806713143",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 15,
+          "unique_prices": 7,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "deadendrecordstn_com": {
+      "fingerprint": "1068c6c5bd45908cc18101e6b0da8612e11751fc3cd2c7632f6c1b416e478e41",
+      "domain": "deadendrecordstn.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:12:01.793337+00:00",
+      "evidence": {
+        "domain": "deadendrecordstn.com",
+        "route": "https://deadendrecordstn.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:12:00.508797+00:00",
+        "requests": [
+          {
+            "url": "https://deadendrecordstn.com/products.json?limit=20&page=1",
+            "sha256": "ecad940299ee31bafde3d205b3be8ac8d8a6b644134dba2d60fb839a8a807d06"
+          },
+          {
+            "url": "https://deadendrecordstn.com/products/serotonin-the-price-lp?variant=67737790546172",
+            "sha256": "d45338f3e63f80f65684d85cf15351b1efbdc312c255464aa154af38121035ed"
+          }
+        ],
+        "listing_records": 10,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 10,
+          "unique_prices": 7,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "invalid_detail_gtin",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "REVIEW",
+          "reason": "invalid_detail_gtin",
+          "run_id": "39203245483"
+        }
+      ]
+    },
+    "deafmanvinyl_com": {
+      "fingerprint": "f23186ebe2a067c86a795c8e60b41ebfb0dc4fcd69c51dd89d07337814eb1727",
+      "domain": "deafmanvinyl.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:12:03.943060+00:00",
+      "evidence": {
+        "domain": "deafmanvinyl.com",
+        "route": "https://deafmanvinyl.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:12:01.815041+00:00",
+        "requests": [
+          {
+            "url": "https://deafmanvinyl.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "01f279945f29eb886ba5a672e233c81633a03f50c7e985a78b4815c3530dc75f"
+          },
+          {
+            "url": "https://deafmanvinyl.com/products/10-000-maniacs-mtv-unplugged-2-lp?variant=41833625092155",
+            "sha256": "c6d3ee18b0f65941cc601e0aaef86f0e10fa20e80d4f6dba5c6b90d878628e54"
+          }
+        ],
+        "listing_records": 12,
+        "detail_checked": 1,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://deafmanvinyl.com/products/10-000-maniacs-mtv-unplugged-2-lp?variant=41833625092155",
+            "price": "38.95",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 12,
+          "unique_prices": 6,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "HTTP_503",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "REVIEW",
+          "reason": "HTTP_503",
+          "run_id": "39203245483"
+        }
+      ]
+    },
+    "debaryfamilymusic_online": {
+      "fingerprint": "06cfece0cd1cadf83235f6f9cbe51eed2d9d1c30a75b7ebb531ff57651adb3e5",
+      "domain": "debaryfamilymusic.online",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:12:07.386330+00:00",
+      "evidence": {
+        "domain": "debaryfamilymusic.online",
+        "route": "https://debaryfamilymusic.online/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:12:03.964686+00:00",
+        "requests": [
+          {
+            "url": "https://debaryfamilymusic.online/products.json?limit=20&page=1",
+            "sha256": "f9f143cab25f4d50bdd99a682415b0ed6f1d54079172a48fdfb4a8ad439460f5"
+          },
+          {
+            "url": "https://debaryfamilymusic.online/products/black-label-society-engines-of-demolition-copy?variant=47280711663778",
+            "sha256": "ba4fc251ca15fd9487c00cd72e6fe52e18ad8cb9e1b2142082289dfff487b634"
+          },
+          {
+            "url": "https://debaryfamilymusic.online/products/supertramp-breakfast-in-amer-new-mint-near-mint-22dea459bc31?variant=47407753724066",
+            "sha256": "5b61b75e1b2e59d52d418ef12979634fa3027c41762073f16ff5d005fb66487c"
+          },
+          {
+            "url": "https://debaryfamilymusic.online/products/counting-crows-recovering-the-satellites-indie-exclusive-lava-red-vinyl-2lp-new-mint-near-mint-564109e03490?variant=47481858687138",
+            "sha256": "a0f95fc940136f95bd83595af15a9c493419a77aef34ec09e6ccce99b594db65"
+          }
+        ],
+        "listing_records": 19,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://debaryfamilymusic.online/products/black-label-society-engines-of-demolition-copy?variant=47280711663778",
+            "price": "42.99",
+            "currency": "USD",
+            "ean": "00634164437039",
+            "condition": "new"
+          },
+          {
+            "url": "https://debaryfamilymusic.online/products/supertramp-breakfast-in-amer-new-mint-near-mint-22dea459bc31?variant=47407753724066",
+            "price": "41.99",
+            "currency": "USD",
+            "ean": "00600753454589",
+            "condition": "new"
+          },
+          {
+            "url": "https://debaryfamilymusic.online/products/counting-crows-recovering-the-satellites-indie-exclusive-lava-red-vinyl-2lp-new-mint-near-mint-564109e03490?variant=47481858687138",
+            "price": "45.99",
+            "currency": "USD",
+            "ean": "00199957593687",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 19,
+          "unique_prices": 15,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "39203245483"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "debaryfamilymusic.online",
+        "route": "https://debaryfamilymusic.online/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:12:03.964686+00:00",
+        "requests": [
+          {
+            "url": "https://debaryfamilymusic.online/products.json?limit=20&page=1",
+            "sha256": "f9f143cab25f4d50bdd99a682415b0ed6f1d54079172a48fdfb4a8ad439460f5"
+          },
+          {
+            "url": "https://debaryfamilymusic.online/products/black-label-society-engines-of-demolition-copy?variant=47280711663778",
+            "sha256": "ba4fc251ca15fd9487c00cd72e6fe52e18ad8cb9e1b2142082289dfff487b634"
+          },
+          {
+            "url": "https://debaryfamilymusic.online/products/supertramp-breakfast-in-amer-new-mint-near-mint-22dea459bc31?variant=47407753724066",
+            "sha256": "5b61b75e1b2e59d52d418ef12979634fa3027c41762073f16ff5d005fb66487c"
+          },
+          {
+            "url": "https://debaryfamilymusic.online/products/counting-crows-recovering-the-satellites-indie-exclusive-lava-red-vinyl-2lp-new-mint-near-mint-564109e03490?variant=47481858687138",
+            "sha256": "a0f95fc940136f95bd83595af15a9c493419a77aef34ec09e6ccce99b594db65"
+          }
+        ],
+        "listing_records": 19,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://debaryfamilymusic.online/products/black-label-society-engines-of-demolition-copy?variant=47280711663778",
+            "price": "42.99",
+            "currency": "USD",
+            "ean": "00634164437039",
+            "condition": "new"
+          },
+          {
+            "url": "https://debaryfamilymusic.online/products/supertramp-breakfast-in-amer-new-mint-near-mint-22dea459bc31?variant=47407753724066",
+            "price": "41.99",
+            "currency": "USD",
+            "ean": "00600753454589",
+            "condition": "new"
+          },
+          {
+            "url": "https://debaryfamilymusic.online/products/counting-crows-recovering-the-satellites-indie-exclusive-lava-red-vinyl-2lp-new-mint-near-mint-564109e03490?variant=47481858687138",
+            "price": "45.99",
+            "currency": "USD",
+            "ean": "00199957593687",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 19,
+          "unique_prices": 15,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "delbravorecordshop_com": {
+      "fingerprint": "2272f6bf7724e8e41e06211deeb89a6094f36265865a45684a828e2828a5644a",
+      "domain": "delbravorecordshop.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:12:10.982833+00:00",
+      "evidence": {
+        "domain": "delbravorecordshop.com",
+        "route": "https://delbravorecordshop.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:12:07.408185+00:00",
+        "requests": [
+          {
+            "url": "https://delbravorecordshop.com/products.json?limit=20&page=1",
+            "sha256": "350fbcfebe44aae880e57e5f8510158425a4e605390b495dd577fc5e171fc1ad"
+          },
+          {
+            "url": "https://delbravorecordshop.com/products/troye-sivan-shes-the-best-navy-blue-vinyl-lp-explicit-content-vinyl?variant=67660382765152",
+            "sha256": "d178c6bb86e302a24b7a8c3f839fbadec620c90d97ec72c0c1dac4f29fa00c00"
+          },
+          {
+            "url": "https://delbravorecordshop.com/products/slayyyter-wor-t-girl-in-america-explicit-content-viny?variant=67642238795872",
+            "sha256": "67b11f29d2f875f6c6bd582cf03c22329af6757c7b855fdd43e625fa05537498"
+          },
+          {
+            "url": "https://delbravorecordshop.com/products/calibre-50-contigo-vinyl?variant=67620330307680",
+            "sha256": "245b94d2faecd92f43f8c17874a2f44c6e8f8453cd72316bddf2fc4d62e1225e"
+          }
+        ],
+        "listing_records": 18,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://delbravorecordshop.com/products/troye-sivan-shes-the-best-navy-blue-vinyl-lp-explicit-content-vinyl?variant=67660382765152",
+            "price": "37.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://delbravorecordshop.com/products/slayyyter-wor-t-girl-in-america-explicit-content-viny?variant=67642238795872",
+            "price": "33.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://delbravorecordshop.com/products/calibre-50-contigo-vinyl?variant=67620330307680",
+            "price": "28.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 18,
+          "unique_prices": 11,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39203245483"
+        }
+      ]
+    },
+    "desertislandrecords_com": {
+      "fingerprint": "50211421a8225750e00719e6597e495ed2b042a4388ab9f6506161017127d388",
+      "domain": "desertislandrecords.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:12:12.373456+00:00",
+      "evidence": {
+        "domain": "desertislandrecords.com",
+        "route": "https://desertislandrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:12:11.004934+00:00",
+        "requests": [
+          {
+            "url": "https://desertislandrecords.com/products.json?limit=20&page=1",
+            "sha256": "ef6a9a8ff9dade4eb5589ae10c5b06b6436f9371177316b85efdb88876c598ec"
+          },
+          {
+            "url": "https://desertislandrecords.com/products/air-pocket-symphony-limited-edition-clear-vinyl-2lp?variant=46958008107183",
+            "sha256": "5666591443b4ece01a56b0c5e552e02ffe2650924168f7170ca453072c7def2d"
+          }
+        ],
+        "listing_records": 19,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 19,
+          "unique_prices": 11,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39203245483"
+        }
+      ]
+    },
+    "discodeathrecords_com": {
+      "fingerprint": "dddf1be7c37d59bf74ff2e3a5408e68c719e5f5f948f3ab874b7e2318b0dafd7",
+      "domain": "discodeathrecords.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:12:12.775456+00:00",
+      "evidence": {
+        "domain": "discodeathrecords.com",
+        "route": "https://discodeathrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:12:12.395604+00:00",
+        "requests": [
+          {
+            "url": "https://discodeathrecords.com/products.json?limit=20&page=1",
+            "sha256": "eef0e06b12b7b9f1a084532c521afe0fe19d925491615ad9864489906418b9ce"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "review",
+          "flags": [
+            "shipping_term_in_product_identity"
+          ],
+          "records_checked": 20,
+          "unique_prices": 12,
+          "shipping_hits": 1,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "shipping_term_in_product_identity",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "REVIEW",
+          "reason": "shipping_term_in_product_identity",
+          "run_id": "39203245483"
+        }
+      ]
+    },
+    "drinksrecords_com": {
+      "fingerprint": "b6f15d173fb64dd60209ff7372b2aaef1f867da09e9e83b0f685bf7c4229a1aa",
+      "domain": "drinksrecords.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:12:14.216743+00:00",
+      "evidence": {
+        "domain": "drinksrecords.com",
+        "route": "https://drinksrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:12:12.797419+00:00",
+        "requests": [
+          {
+            "url": "https://drinksrecords.com/products.json?limit=20&page=1",
+            "sha256": "406a6b6af92c145239ff0664f86d19f0e4ac418e871fa3b87673c494f844ef9a"
+          },
+          {
+            "url": "https://drinksrecords.com/products/run-dmc-tougher-than-leather?variant=58671075131695",
+            "sha256": "c9e20d0062657f48e6a0f3b547fb0edf35f002b1d325f19b9c4429fe9b75ff77"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 19,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39203245483"
+        }
+      ]
+    },
+    "dtsvinyl_com": {
+      "fingerprint": "f6d7198ce584f7416f85ca61eb62d9ff8479b6cebd4f644628e17694d3807224",
+      "domain": "dtsvinyl.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:12:15.632819+00:00",
+      "evidence": {
+        "domain": "dtsvinyl.com",
+        "route": "https://dtsvinyl.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:12:14.238691+00:00",
+        "requests": [
+          {
+            "url": "https://dtsvinyl.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "74b6b797b682ab5daa9311c081a95bb3445444e76923f65871639cf8e364a8c9"
+          },
+          {
+            "url": "https://dtsvinyl.com/products/13th-floor-elevators-psychedelic-sounds-facsimile-mono-half-speed-master?variant=45083305836644",
+            "sha256": "65c674f90cc6d2a7d12613ce1f8a09df4bb1670999bb15c1626b8c9681eccb84"
+          }
+        ],
+        "listing_records": 15,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 15,
+          "unique_prices": 11,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39203245483"
+        }
+      ]
+    },
+    "easygoingrecords_us": {
+      "fingerprint": "e11a5d109dc3f79d184cde5ed5b3f2edb0712ccad2a10993cdcc6086fd5eaa54",
+      "domain": "easygoingrecords.us",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:12:19.531468+00:00",
+      "evidence": {
+        "domain": "easygoingrecords.us",
+        "route": "https://easygoingrecords.us/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:12:15.654761+00:00",
+        "requests": [
+          {
+            "url": "https://easygoingrecords.us/products.json?limit=20&page=1",
+            "sha256": "11743f0a3463909a2b2e1406d594fc6f49c5d7bd496fe18cfa4455402e8a094e"
+          },
+          {
+            "url": "https://easygoingrecords.us/products/yaeji-with-a-hammer-lp-album-ltd-hot-2?variant=67804251947293",
+            "sha256": "a78c42448346be5ed6b94d19ee7a14b24c7f0d92a3af3673eabbb9f8992ddd8d"
+          },
+          {
+            "url": "https://easygoingrecords.us/products/grimes-miss-anthropocene-lp-album-3?variant=67804190736669",
+            "sha256": "0570aedd7aa1696ecc85a850b32ecebdc6e83319de3968b677f3b6d96c2eac00"
+          },
+          {
+            "url": "https://easygoingrecords.us/products/injury-reserve-by-the-time-i-get-to-phoenix-lp-album-ltd-re-red?variant=67803979546909",
+            "sha256": "633560dd370edfb95b5922cfbbf9259d6d30eef62cd32e5b2ee9f128e6f3b5e7"
+          }
+        ],
+        "listing_records": 8,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://easygoingrecords.us/products/yaeji-with-a-hammer-lp-album-ltd-hot-2?variant=67804251947293",
+            "price": "35.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://easygoingrecords.us/products/grimes-miss-anthropocene-lp-album-3?variant=67804190736669",
+            "price": "35.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://easygoingrecords.us/products/injury-reserve-by-the-time-i-get-to-phoenix-lp-album-ltd-re-red?variant=67803979546909",
+            "price": "100.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 8,
+          "unique_prices": 3,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39203245483"
+        }
+      ]
+    },
+    "econojamrecords_com": {
+      "fingerprint": "60ac4b5ed6efba6a836979d0861fae608659d54b00b3f6b12723b270f193a9ad",
+      "domain": "econojamrecords.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:12:21.269267+00:00",
+      "evidence": {
+        "domain": "econojamrecords.com",
+        "route": "https://econojamrecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:12:19.553909+00:00",
+        "requests": [
+          {
+            "url": "https://econojamrecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "4d74bfd6c623ec748ae68b82b535b2194fedba7a2e0c0041698e6a9a90d0befb"
+          }
+        ],
+        "listing_records": 1,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 1,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "HTTP_503",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "REVIEW",
+          "reason": "HTTP_503",
+          "run_id": "39203245483"
+        }
+      ]
+    },
+    "endlessoundrecords_com": {
+      "fingerprint": "dbcd8df7953ba725b3ee0b22e724542e2b72492bd7e7cace4dc729973f7a1d9d",
+      "domain": "endlessoundrecords.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:12:22.855973+00:00",
+      "evidence": {
+        "domain": "endlessoundrecords.com",
+        "route": "https://endlessoundrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:12:21.291566+00:00",
+        "requests": [
+          {
+            "url": "https://endlessoundrecords.com/products.json?limit=20&page=1",
+            "sha256": "cf1bd1fc5fb5b32ef749c117d934e6ded5058ad546be11252bdea1cc9b0ca973"
+          },
+          {
+            "url": "https://endlessoundrecords.com/products/various-artists-reality-bites?variant=67777688797295",
+            "sha256": "5c20a2b607c887abd88b7189d90631518d72b4abf711c6c67b4c8efd1a7642f2"
+          }
+        ],
+        "listing_records": 19,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 19,
+          "unique_prices": 7,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39203245483"
+        }
+      ]
+    },
+    "endofanear_com": {
+      "fingerprint": "4a94b89a3e934fc074d46d7c7144e35abefdc61547eee9c3f23f85a465838957",
+      "domain": "endofanear.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:12:24.301502+00:00",
+      "evidence": {
+        "domain": "endofanear.com",
+        "route": "https://endofanear.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:12:22.878341+00:00",
+        "requests": [
+          {
+            "url": "https://endofanear.com/products.json?limit=20&page=1",
+            "sha256": "a8d362096767ff091613d330ba9edb9d27ec14dfc8b40bdd5f6bf05675de8da6"
+          },
+          {
+            "url": "https://endofanear.com/products/075678581861?variant=50674348097711",
+            "sha256": "5de08f1c8624ef2d5646cc49fa7507b352ad635482220060c626854a8d22782a"
+          }
+        ],
+        "listing_records": 11,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 11,
+          "unique_prices": 10,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39203245483"
+        }
+      ]
+    },
+    "endorecords_com": {
+      "fingerprint": "4bfcf29a471736cc47c68ad768a54b1635347889167f1c71fb6c182f31b3bf1b",
+      "domain": "endorecords.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:12:25.802793+00:00",
+      "evidence": {
+        "domain": "endorecords.com",
+        "route": "https://endorecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:12:24.323693+00:00",
+        "requests": [
+          {
+            "url": "https://endorecords.com/products.json?limit=20&page=1",
+            "sha256": "069d3e59f95ff0ebef5b0ce6acefa98f33689b669ee2ab0fb4dd45559d2b39a3"
+          },
+          {
+            "url": "https://endorecords.com/products/730082607216?variant=51094273261882",
+            "sha256": "1abaa92b1ad3c2d963529a62b021d85854c0d843e7f8801f6040d4f07bed2a33"
+          }
+        ],
+        "listing_records": 2,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 2,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39203245483"
+        }
+      ]
+    },
+    "erodingwinds_com": {
+      "fingerprint": "925b6704c10c784c178209bf7bb787ac9833759bb460ce8bed6949405a238517",
+      "domain": "erodingwinds.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:12:29.255391+00:00",
+      "evidence": {
+        "domain": "erodingwinds.com",
+        "route": "https://erodingwinds.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:12:25.825005+00:00",
+        "requests": [
+          {
+            "url": "https://erodingwinds.com/products.json?limit=20&page=1",
+            "sha256": "2ea03ca243be69f0ac78ae6ff284b04d2b9543ce623f003b6a87a30e8f6f9191"
+          },
+          {
+            "url": "https://erodingwinds.com/products/various-artists-short-music-for-short-people-lp-lime-green-vinyl?variant=49036985663606",
+            "sha256": "c4758ce06ce8f24a3736073e8070f5d62f78b66b0b9d1aa421a57093760068b4"
+          },
+          {
+            "url": "https://erodingwinds.com/products/nina-simone-verve-remixed-nina-simone-lp?variant=49007973957750",
+            "sha256": "4a0dfd917bc2c443332adb13e76f9faf6c62d8e5711aeb37782d4925917a40bd"
+          },
+          {
+            "url": "https://erodingwinds.com/products/eels-cookie-happened-lp-iex-green-vinyl?variant=49006901690486",
+            "sha256": "80d8a02551c9bd62ea49b3d4f1b05256982678f46ebacbd51c1635c9736c5631"
+          }
+        ],
+        "listing_records": 18,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://erodingwinds.com/products/various-artists-short-music-for-short-people-lp-lime-green-vinyl?variant=49036985663606",
+            "price": "30.00",
+            "currency": "USD",
+            "ean": "00751097059111",
+            "condition": "new"
+          },
+          {
+            "url": "https://erodingwinds.com/products/nina-simone-verve-remixed-nina-simone-lp?variant=49007973957750",
+            "price": "28.00",
+            "currency": "USD",
+            "ean": "00881061304678",
+            "condition": "new"
+          },
+          {
+            "url": "https://erodingwinds.com/products/eels-cookie-happened-lp-iex-green-vinyl?variant=49006901690486",
+            "price": "32.00",
+            "currency": "USD",
+            "ean": "05400863205911",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 18,
+          "unique_prices": 10,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "39203245483"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "erodingwinds.com",
+        "route": "https://erodingwinds.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:12:25.825005+00:00",
+        "requests": [
+          {
+            "url": "https://erodingwinds.com/products.json?limit=20&page=1",
+            "sha256": "2ea03ca243be69f0ac78ae6ff284b04d2b9543ce623f003b6a87a30e8f6f9191"
+          },
+          {
+            "url": "https://erodingwinds.com/products/various-artists-short-music-for-short-people-lp-lime-green-vinyl?variant=49036985663606",
+            "sha256": "c4758ce06ce8f24a3736073e8070f5d62f78b66b0b9d1aa421a57093760068b4"
+          },
+          {
+            "url": "https://erodingwinds.com/products/nina-simone-verve-remixed-nina-simone-lp?variant=49007973957750",
+            "sha256": "4a0dfd917bc2c443332adb13e76f9faf6c62d8e5711aeb37782d4925917a40bd"
+          },
+          {
+            "url": "https://erodingwinds.com/products/eels-cookie-happened-lp-iex-green-vinyl?variant=49006901690486",
+            "sha256": "80d8a02551c9bd62ea49b3d4f1b05256982678f46ebacbd51c1635c9736c5631"
+          }
+        ],
+        "listing_records": 18,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://erodingwinds.com/products/various-artists-short-music-for-short-people-lp-lime-green-vinyl?variant=49036985663606",
+            "price": "30.00",
+            "currency": "USD",
+            "ean": "00751097059111",
+            "condition": "new"
+          },
+          {
+            "url": "https://erodingwinds.com/products/nina-simone-verve-remixed-nina-simone-lp?variant=49007973957750",
+            "price": "28.00",
+            "currency": "USD",
+            "ean": "00881061304678",
+            "condition": "new"
+          },
+          {
+            "url": "https://erodingwinds.com/products/eels-cookie-happened-lp-iex-green-vinyl?variant=49006901690486",
+            "price": "32.00",
+            "currency": "USD",
+            "ean": "05400863205911",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 18,
+          "unique_prices": 10,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "evergreenvinyl_com": {
+      "fingerprint": "191a78f3cd0a4ebe4470ae48fb5373309d06d637aa906604dec9650995c051ae",
+      "domain": "evergreenvinyl.com",
+      "batch": 2,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39203245483",
+      "updated_at": "2026-10-19T05:12:32.699312+00:00",
+      "evidence": {
+        "domain": "evergreenvinyl.com",
+        "route": "https://evergreenvinyl.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-19T05:12:29.277915+00:00",
+        "requests": [
+          {
+            "url": "https://evergreenvinyl.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "4ccf276f19ba7c886fe2f794788fa05447783036859697184b94b8a34883c872"
+          },
+          {
+            "url": "https://evergreenvinyl.com/products/the-rocky-horror-picture-show-original-cast-the-rocky-horror-picture-show?variant=46043616641182",
+            "sha256": "19e1171e3a52809a8902afc3891f2f3e41d5606f5c6aa044bd05a67120cbcc42"
+          },
+          {
+            "url": "https://evergreenvinyl.com/products/12-stones-12-stones-indie-exclusive-green-black-marble-vinyl?variant=48230672826526",
+            "sha256": "5cf1e4041f0772ef2057e79fee89f4115adfb0ad1879d4b92b4046977eb2643c"
+          },
+          {
+            "url": "https://evergreenvinyl.com/products/2pac-all-eyez-on-me?variant=46073036275870",
+            "sha256": "c105f733e144485afbdab0526b60a7dfcdc8b2c0c0b9528cc73e98a86ec099ca"
+          }
+        ],
+        "listing_records": 17,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://evergreenvinyl.com/products/the-rocky-horror-picture-show-original-cast-the-rocky-horror-picture-show?variant=46043616641182",
+            "price": "27.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://evergreenvinyl.com/products/12-stones-12-stones-indie-exclusive-green-black-marble-vinyl?variant=48230672826526",
+            "price": "32.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://evergreenvinyl.com/products/2pac-all-eyez-on-me?variant=46073036275870",
+            "price": "80.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 17,
+          "unique_prices": 11,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 2,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39203245483"
+        }
+      ]
     }
   },
-  "updated_at": "2026-10-18T18:49:04.552685+00:00",
-  "last_run_id": "39155794450"
+  "updated_at": "2026-10-19T05:12:32.699377+00:00",
+  "last_run_id": "39203245483"
 }
