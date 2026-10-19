@@ -3324,7 +3324,7 @@ Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine 
 <!-- quality-gate:start -->
 ## Inhoudelijke toelatingscontrole
 
-Laatste verwerking: 2026-10-18T18:49:04.552685+00:00. Batch 1.
+Laatste verwerking: 2026-10-19T05:12:32.699377+00:00. Batch 2.
 Maximaal 25 shops per batch; initiële proef en maximaal drie ondersteunde routeherstelpogingen.
 APPROVED = beperkte inhoudelijke bronproef geslaagd, geen productie- of volledige-catalogusgoedkeuring.
 Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumgecontroleerd.
@@ -3332,7 +3332,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | Shop | Batch | Toelating | Reparaties | Listing | Detail/EAN | Price health | EAN health | Reden/bewijs |
 |---|---:|---|---:|---:|---|---|---|---|
 | 10000hzrecords.com | 1 | REVIEW | 0 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| 1234gorecords.shop | 1 | APPROVED | 0 | 16 | 2/3 | ACTIVE (run 39155980279) | INCIDENT (run 39155982802) | run 39155794450 |
+| 1234gorecords.shop | 1 | APPROVED | 0 | 16 | 2/3 | ACTIVE | INCIDENT | run 39155794450 |
 | 22soundrecords.com | 1 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | 606records.com | 1 | REVIEW | 0 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | abrodosmusic.com | 1 | REVIEW | 0 | 10 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
@@ -3342,7 +3342,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | allthebestflorence.com | 1 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | antonesrecordshop.com | 1 | REVIEW | 0 | 15 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | apolloexos.com | 1 | REVIEW | 0 | 1 | 0/0 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
-| arcskate.com | 1 | APPROVED | 0 | 16 | 3/3 | ACTIVE (run 39155980279) | ACTIVE (run 39155982802) | run 39155794450 |
+| arcskate.com | 1 | APPROVED | 0 | 16 | 3/3 | ACTIVE | ACTIVE | run 39155794450 |
 | artsoundlanguage.com | 1 | REVIEW | 0 | 16 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | assai.co.uk | 1 | REVIEW | 0 | 18 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | beatlabusa.com | 1 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
@@ -3352,8 +3352,33 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | biglovevinyl.com | 1 | REVIEW | 0 | 13 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | bionicrecordsoc.com | 1 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | blackdotsbuffalo.shop | 1 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| booboorecords.com | 1 | APPROVED | 0 | 11 | 3/3 | ACTIVE (run 39155980279) | ACTIVE (run 39155982802) | run 39155794450 |
-| bororecords.com | 1 | APPROVED | 0 | 13 | 1/3 | ACTIVE (run 39155980279) | ACTIVE (run 39155982802) | run 39155794450 |
-| bruiserrecordsjax.com | 1 | APPROVED | 0 | 20 | 3/3 | ACTIVE (run 39155980279) | ACTIVE (run 39155982802) | run 39155794450 |
-| cameronrecords.com | 1 | APPROVED | 0 | 2 | 2/2 | ACTIVE (run 39155980279) | ACTIVE (run 39155982802) | run 39155794450 |
+| booboorecords.com | 1 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE | run 39155794450 |
+| bororecords.com | 1 | APPROVED | 0 | 13 | 1/3 | ACTIVE | ACTIVE | run 39155794450 |
+| bruiserrecordsjax.com | 1 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 39155794450 |
+| cameronrecords.com | 1 | APPROVED | 0 | 2 | 2/2 | ACTIVE | ACTIVE | run 39155794450 |
+| chiefrecordsonline.com | 2 | REVIEW | 0 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
+| cnamusicsupply.com | 2 | APPROVED | 0 | 6 | 3/3 | ACTIVE | ACTIVE | run 39203245483 |
+| comebackvinyl.com | 2 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
+| contactrecordstore.com | 2 | REVIEW | 0 | 11 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
+| coregamingnh.com | 2 | APPROVED | 0 | 1 | 1/1 | ACTIVE | ACTIVE | run 39203245483 |
+| counterintuitiverecords.com | 2 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
+| crazyvinylrecord.com | 2 | APPROVED | 0 | 1 | 1/1 | ACTIVE | ACTIVE | run 39203245483 |
+| csiderecords.com | 2 | REVIEW | 0 | 12 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
+| curiouscollectionstx.com | 2 | APPROVED | 0 | 9 | 3/3 | ACTIVE | ACTIVE | run 39203245483 |
+| dbzbooks.com | 2 | APPROVED | 0 | 15 | 3/3 | ACTIVE | ACTIVE | run 39203245483 |
+| deadendrecordstn.com | 2 | REVIEW | 0 | 10 | 0/0 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
+| deafmanvinyl.com | 2 | REVIEW | 0 | 12 | 0/1 | NOT_RUN | NOT_RUN | HTTP_503 |
+| debaryfamilymusic.online | 2 | APPROVED | 0 | 19 | 3/3 | ACTIVE | ACTIVE | run 39203245483 |
+| delbravorecordshop.com | 2 | REVIEW | 0 | 18 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
+| desertislandrecords.com | 2 | REVIEW | 0 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
+| discodeathrecords.com | 2 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | shipping_term_in_product_identity |
+| drinksrecords.com | 2 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
+| dtsvinyl.com | 2 | REVIEW | 0 | 15 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
+| easygoingrecords.us | 2 | REVIEW | 0 | 8 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
+| econojamrecords.com | 2 | REVIEW | 0 | 1 | 0/0 | NOT_RUN | NOT_RUN | HTTP_503 |
+| endlessoundrecords.com | 2 | REVIEW | 0 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
+| endofanear.com | 2 | REVIEW | 0 | 11 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
+| endorecords.com | 2 | REVIEW | 0 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
+| erodingwinds.com | 2 | APPROVED | 0 | 18 | 3/3 | ACTIVE | ACTIVE | run 39203245483 |
+| evergreenvinyl.com | 2 | REVIEW | 0 | 17 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 <!-- quality-gate:end -->
