@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "batch": 2,
+  "batch": 3,
   "shops": {
     "10000hzrecords_com": {
       "fingerprint": "bd851743c2eee03c427913ea2a88bc94dfb0e74b1f11366277a07532ffcd9e33",
@@ -85,56 +85,53 @@
     "1234gorecords_shop": {
       "fingerprint": "c8ff765c9ed1b70c8ce5d7c6777979765423d0ffe8f4e6d17f209eda2e826124",
       "domain": "1234gorecords.shop",
-      "batch": 1,
-      "repair_attempts": 0,
-      "status": "APPROVED",
-      "run_id": "39155794450",
-      "updated_at": "2026-10-18T18:47:58.671005+00:00",
+      "batch": 3,
+      "repair_attempts": 1,
+      "repair_modes": [
+        "ean"
+      ],
+      "admitted": true,
+      "status": "REVIEW",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:10:57.185250+00:00",
       "evidence": {
         "domain": "1234gorecords.shop",
-        "route": "https://1234gorecords.shop/products.json?limit=20&page=1",
-        "observed_at": "2026-10-18T18:47:55.170304+00:00",
+        "route": "https://1234gorecords.shop/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:10:53.657355+00:00",
         "requests": [
           {
-            "url": "https://1234gorecords.shop/products.json?limit=20&page=1",
-            "sha256": "9fe5b8e12adee11da90255fc72ace9ea2329d2cfe21bd86cc5ffb8e8b1762f05"
+            "url": "https://1234gorecords.shop/collections/all/products.json?limit=20&page=1",
+            "sha256": "c6f45bcd099a58c983371cf8ee27250d0b01ee3982d6f7cfe8de7250e0aac7ee"
           },
           {
-            "url": "https://1234gorecords.shop/products/wholesale-murder-graveyard-of-empires-10?variant=45234636751048",
-            "sha256": "ea735e502dc8c09837a7a50cb2a450924bd587e4c43e7887c49e98065197001b"
+            "url": "https://1234gorecords.shop/products/760137207184?variant=44911683043528",
+            "sha256": "9343205101614376f5811aeba107dd3b48b5b1101cfdb60485076f7d02632233"
           },
           {
-            "url": "https://1234gorecords.shop/products/634457226555?variant=44765444473032",
-            "sha256": "de533aad73877618026f8d27c93bae8f1bdcbc8d4e83f499522f50c5b61c3015"
+            "url": "https://1234gorecords.shop/products/pre-order-1-2-3-4-go-storage-crate-orange?variant=44755604242632",
+            "sha256": "907b3bc4ffb5da6ed32d0bab6ef05227257dee4931758f9922b1d3a2bab7006e"
           },
           {
-            "url": "https://1234gorecords.shop/products/045778811731?variant=44525049774280",
-            "sha256": "bc46a4f7029ae2becf5bd451ed211eabc48c8fffca242e020e0e9b464b726b83"
+            "url": "https://1234gorecords.shop/products/classic-logo-totebag-oakland?variant=42426108772552",
+            "sha256": "dec5e390f4cad9b2fdb3682172aece1dc4d89e06275f0d4dc1db5b2ad384b0a6"
           }
         ],
-        "listing_records": 16,
-        "detail_checked": 3,
-        "valid_eans": 2,
+        "listing_records": 19,
+        "detail_checked": 2,
+        "valid_eans": 1,
         "details": [
           {
-            "url": "https://1234gorecords.shop/products/wholesale-murder-graveyard-of-empires-10?variant=45234636751048",
-            "price": "14.99",
+            "url": "https://1234gorecords.shop/products/760137207184?variant=44911683043528",
+            "price": "28.99",
+            "currency": "USD",
+            "ean": "00760137207184",
+            "condition": "new"
+          },
+          {
+            "url": "https://1234gorecords.shop/products/pre-order-1-2-3-4-go-storage-crate-orange?variant=44755604242632",
+            "price": "34.99",
             "currency": "USD",
             "ean": null,
-            "condition": "new"
-          },
-          {
-            "url": "https://1234gorecords.shop/products/634457226555?variant=44765444473032",
-            "price": "24.99",
-            "currency": "USD",
-            "ean": "00634457226555",
-            "condition": "new"
-          },
-          {
-            "url": "https://1234gorecords.shop/products/045778811731?variant=44525049774280",
-            "price": "26.99",
-            "currency": "USD",
-            "ean": "00045778811731",
             "condition": "new"
           }
         ],
@@ -142,14 +139,16 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 16,
-          "unique_prices": 12,
+          "records_checked": 19,
+          "unique_prices": 5,
           "shipping_hits": 0,
           "currencies": [
             "USD"
           ]
         },
-        "status": "APPROVED"
+        "status": "REVIEW",
+        "reason": "invalid_detail_gtin",
+        "error_type": "CollectionBlocked"
       },
       "history": [
         {
@@ -157,6 +156,12 @@
           "status": "APPROVED",
           "reason": null,
           "run_id": "39155794450"
+        },
+        {
+          "batch": 3,
+          "status": "REVIEW",
+          "reason": "invalid_detail_gtin",
+          "run_id": "39373494403"
         }
       ]
     },
@@ -3735,8 +3740,1944 @@
           "run_id": "39203245483"
         }
       ]
+    },
+    "experiencevinyl_com": {
+      "fingerprint": "0bce5c59f668f2f0092292a80b5dcd1038153ca1640c05ae0efe6f139115e3e4",
+      "domain": "experiencevinyl.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:00.672589+00:00",
+      "evidence": {
+        "domain": "experiencevinyl.com",
+        "route": "https://experiencevinyl.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:10:57.207360+00:00",
+        "requests": [
+          {
+            "url": "https://experiencevinyl.com/products.json?limit=20&page=1",
+            "sha256": "96440702c808a477d39090206464bfa0f4fc9dcee5c47411ad7f953680abb04b"
+          },
+          {
+            "url": "https://experiencevinyl.com/products/aerosmith-greatest-hits-602448968296?variant=50551017079069",
+            "sha256": "a9885302c6b86bb3db41073765e3f8fec6750dc42ed9aa006f5070f54904ebf8"
+          },
+          {
+            "url": "https://experiencevinyl.com/products/evans-bill-sunday-village-vanguard-original-jazz-classics-888072475410?variant=45375566741789",
+            "sha256": "2f2f9b364f94eb67ebee36a0fe66124cf4f5564786cc91c06a9ab5a7a3eeb058"
+          },
+          {
+            "url": "https://experiencevinyl.com/products/mccabe-nicole-harris-savannah-all-together-now-619165204750?variant=67622627574045",
+            "sha256": "5a0b35b0067998b45676131472cd06ef46eaf364b86fbe2e449b1d486eb0532a"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://experiencevinyl.com/products/aerosmith-greatest-hits-602448968296?variant=50551017079069",
+            "price": "37.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://experiencevinyl.com/products/evans-bill-sunday-village-vanguard-original-jazz-classics-888072475410?variant=45375566741789",
+            "price": "38.98",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://experiencevinyl.com/products/mccabe-nicole-harris-savannah-all-together-now-619165204750?variant=67622627574045",
+            "price": "24.98",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 14,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39373494403"
+        }
+      ]
+    },
+    "factoryrecords_com": {
+      "fingerprint": "aedd1837cb7369cab4fd2ec4319e28a2cd251c429eddecd23bd8650fd95abbf0",
+      "domain": "factoryrecords.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:04.064020+00:00",
+      "evidence": {
+        "domain": "factoryrecords.com",
+        "route": "https://factoryrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:00.694717+00:00",
+        "requests": [
+          {
+            "url": "https://factoryrecords.com/products.json?limit=20&page=1",
+            "sha256": "e4de2b00f1c01819ce3ec271fc6b93228bed52cf1199f7ed405ea4ca48d56be2"
+          },
+          {
+            "url": "https://factoryrecords.com/products/pre-order-queens-of-the-stone-age-alive-in-the-catacombs-lp?variant=50783993233665",
+            "sha256": "5d3f12c93dc5f9f54a8b8e3ccc314ebeb684738d4bc1e5a76dc859a53ff7240b"
+          },
+          {
+            "url": "https://factoryrecords.com/products/pre-order-various-artists-purple-storm-a-tribute-to-deep-purple-clear?variant=50777599705345",
+            "sha256": "c5789ac55652b1695a09f9ad72f5c410e0299b7aabe196f48a45865345435fef"
+          },
+          {
+            "url": "https://factoryrecords.com/products/pre-order-chase-atlantic-chase-atlantic-ofgv-lp?variant=50777599410433",
+            "sha256": "4382b07b6d782fe475d4830f1636fca265621217c43d9566a05faef7489e3a79"
+          }
+        ],
+        "listing_records": 14,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://factoryrecords.com/products/pre-order-queens-of-the-stone-age-alive-in-the-catacombs-lp?variant=50783993233665",
+            "price": "31.99",
+            "currency": "USD",
+            "ean": "00191401214230",
+            "condition": "new"
+          },
+          {
+            "url": "https://factoryrecords.com/products/pre-order-various-artists-purple-storm-a-tribute-to-deep-purple-clear?variant=50777599705345",
+            "price": "42.99",
+            "currency": "USD",
+            "ean": "00889466765612",
+            "condition": "new"
+          },
+          {
+            "url": "https://factoryrecords.com/products/pre-order-chase-atlantic-chase-atlantic-ofgv-lp?variant=50777599410433",
+            "price": "30.99",
+            "currency": "USD",
+            "ean": "00603497801138",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 14,
+          "unique_prices": 8,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "39373494403"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "factoryrecords.com",
+        "route": "https://factoryrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:00.694717+00:00",
+        "requests": [
+          {
+            "url": "https://factoryrecords.com/products.json?limit=20&page=1",
+            "sha256": "e4de2b00f1c01819ce3ec271fc6b93228bed52cf1199f7ed405ea4ca48d56be2"
+          },
+          {
+            "url": "https://factoryrecords.com/products/pre-order-queens-of-the-stone-age-alive-in-the-catacombs-lp?variant=50783993233665",
+            "sha256": "5d3f12c93dc5f9f54a8b8e3ccc314ebeb684738d4bc1e5a76dc859a53ff7240b"
+          },
+          {
+            "url": "https://factoryrecords.com/products/pre-order-various-artists-purple-storm-a-tribute-to-deep-purple-clear?variant=50777599705345",
+            "sha256": "c5789ac55652b1695a09f9ad72f5c410e0299b7aabe196f48a45865345435fef"
+          },
+          {
+            "url": "https://factoryrecords.com/products/pre-order-chase-atlantic-chase-atlantic-ofgv-lp?variant=50777599410433",
+            "sha256": "4382b07b6d782fe475d4830f1636fca265621217c43d9566a05faef7489e3a79"
+          }
+        ],
+        "listing_records": 14,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://factoryrecords.com/products/pre-order-queens-of-the-stone-age-alive-in-the-catacombs-lp?variant=50783993233665",
+            "price": "31.99",
+            "currency": "USD",
+            "ean": "00191401214230",
+            "condition": "new"
+          },
+          {
+            "url": "https://factoryrecords.com/products/pre-order-various-artists-purple-storm-a-tribute-to-deep-purple-clear?variant=50777599705345",
+            "price": "42.99",
+            "currency": "USD",
+            "ean": "00889466765612",
+            "condition": "new"
+          },
+          {
+            "url": "https://factoryrecords.com/products/pre-order-chase-atlantic-chase-atlantic-ofgv-lp?variant=50777599410433",
+            "price": "30.99",
+            "currency": "USD",
+            "ean": "00603497801138",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 14,
+          "unique_prices": 8,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "feelitrecordshop_com": {
+      "fingerprint": "43c930c98e3a94f6a060c7ba4479ee79cbbafe0e3e0c6e07fe01f46d2e306bf5",
+      "domain": "feelitrecordshop.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:05.561022+00:00",
+      "evidence": {
+        "domain": "feelitrecordshop.com",
+        "route": "https://feelitrecordshop.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:04.086612+00:00",
+        "requests": [
+          {
+            "url": "https://feelitrecordshop.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "bf58afec6ace3f59f65469e00cff3346aa90e8badf0de0b50b0460b0c88dfc3f"
+          },
+          {
+            "url": "https://feelitrecordshop.com/products/uicideboy-i-want-to-die-in-new-orleans-red-black-lp?variant=46780542550239",
+            "sha256": "584ed419c4d5cc09882c7062dd6af8c4daa0ba1f8578486455c8d5ffd94a5043"
+          }
+        ],
+        "listing_records": 13,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 13,
+          "unique_prices": 10,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39373494403"
+        }
+      ]
+    },
+    "finersounds_com": {
+      "fingerprint": "4083b46b027165e3baa51778606ade813c4e6d9a33d8af9c9ca1974568bb75e2",
+      "domain": "finersounds.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:08.920480+00:00",
+      "evidence": {
+        "domain": "finersounds.com",
+        "route": "https://finersounds.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:05.583026+00:00",
+        "requests": [
+          {
+            "url": "https://finersounds.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "2cce7375e714a06575d8024ceeaa875c5da11e53b5f8a0c739bd5fa7b32a0c26"
+          },
+          {
+            "url": "https://finersounds.com/products/24-carat-black-ghetto-misfortune-s-wealth-vinyl-lp?variant=52239276802364",
+            "sha256": "2110e550d95adee269af534de078408f1d706e2a1c875f686a71ba225fc9b095"
+          },
+          {
+            "url": "https://finersounds.com/products/abdou-el-omari-nuits-d-te-avec-abdou-el-omari-vinyl-lp?variant=51897046499644",
+            "sha256": "595e359d6373307ac19c442125816cc3044f2433acd989392835024ad9fa2dec"
+          },
+          {
+            "url": "https://finersounds.com/products/adrianne-lenker-bright-future-vinyl-record-vinyl-lp?variant=51796812562748",
+            "sha256": "571369029c421785993560060ab38fff031792d0f0a8e6ccb044344946b4a9ab"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://finersounds.com/products/24-carat-black-ghetto-misfortune-s-wealth-vinyl-lp?variant=52239276802364",
+            "price": "29.98",
+            "currency": "USD",
+            "ean": "00888072025813",
+            "condition": "new"
+          },
+          {
+            "url": "https://finersounds.com/products/abdou-el-omari-nuits-d-te-avec-abdou-el-omari-vinyl-lp?variant=51897046499644",
+            "price": "25.98",
+            "currency": "USD",
+            "ean": "05414165088882",
+            "condition": "new"
+          },
+          {
+            "url": "https://finersounds.com/products/adrianne-lenker-bright-future-vinyl-record-vinyl-lp?variant=51796812562748",
+            "price": "29.98",
+            "currency": "USD",
+            "ean": "00191400064911",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 11,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "39373494403"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "finersounds.com",
+        "route": "https://finersounds.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:05.583026+00:00",
+        "requests": [
+          {
+            "url": "https://finersounds.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "2cce7375e714a06575d8024ceeaa875c5da11e53b5f8a0c739bd5fa7b32a0c26"
+          },
+          {
+            "url": "https://finersounds.com/products/24-carat-black-ghetto-misfortune-s-wealth-vinyl-lp?variant=52239276802364",
+            "sha256": "2110e550d95adee269af534de078408f1d706e2a1c875f686a71ba225fc9b095"
+          },
+          {
+            "url": "https://finersounds.com/products/abdou-el-omari-nuits-d-te-avec-abdou-el-omari-vinyl-lp?variant=51897046499644",
+            "sha256": "595e359d6373307ac19c442125816cc3044f2433acd989392835024ad9fa2dec"
+          },
+          {
+            "url": "https://finersounds.com/products/adrianne-lenker-bright-future-vinyl-record-vinyl-lp?variant=51796812562748",
+            "sha256": "571369029c421785993560060ab38fff031792d0f0a8e6ccb044344946b4a9ab"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://finersounds.com/products/24-carat-black-ghetto-misfortune-s-wealth-vinyl-lp?variant=52239276802364",
+            "price": "29.98",
+            "currency": "USD",
+            "ean": "00888072025813",
+            "condition": "new"
+          },
+          {
+            "url": "https://finersounds.com/products/abdou-el-omari-nuits-d-te-avec-abdou-el-omari-vinyl-lp?variant=51897046499644",
+            "price": "25.98",
+            "currency": "USD",
+            "ean": "05414165088882",
+            "condition": "new"
+          },
+          {
+            "url": "https://finersounds.com/products/adrianne-lenker-bright-future-vinyl-record-vinyl-lp?variant=51796812562748",
+            "price": "29.98",
+            "currency": "USD",
+            "ean": "00191400064911",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 11,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "firetalk_shop": {
+      "fingerprint": "5cc1385f963456f0dc6d14f3a837f34b24d8a5cda0181aafd9d1e3cfd3c8a7de",
+      "domain": "firetalk.shop",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:12.220309+00:00",
+      "evidence": {
+        "domain": "firetalk.shop",
+        "route": "https://firetalk.shop/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:08.943389+00:00",
+        "requests": [
+          {
+            "url": "https://firetalk.shop/products.json?limit=20&page=1",
+            "sha256": "5bc6884b848bd5de89961d09e4f5075f2bbbf3ca57ff6c7409b33890901b678c"
+          },
+          {
+            "url": "https://firetalk.shop/products/bnny-everything-blue-in-clear-vinyl?variant=52502535405799",
+            "sha256": "e03ec6479e2c081cb64be13b3e2c430f8d4db93e66f3157d198012e833e21edf"
+          },
+          {
+            "url": "https://firetalk.shop/products/whitmer-thomas-terminal-crew-of-dudes-compact-disc?variant=52453799559399",
+            "sha256": "55b570f66a9914efac90ea1d7bda1c63f5cb68ba983ddeba984f217bdba33ece"
+          },
+          {
+            "url": "https://firetalk.shop/products/various-artists-soul-jazz-records-presents-the-best-of-black-jazz-records-black-vinyl?variant=52176204366055",
+            "sha256": "c0075acd3ede720694d8705db4fadd50c09d0f00517f998dc8adbef5f423112a"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://firetalk.shop/products/bnny-everything-blue-in-clear-vinyl?variant=52502535405799",
+            "price": "25.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://firetalk.shop/products/whitmer-thomas-terminal-crew-of-dudes-compact-disc?variant=52453799559399",
+            "price": "13.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://firetalk.shop/products/various-artists-soul-jazz-records-presents-the-best-of-black-jazz-records-black-vinyl?variant=52176204366055",
+            "price": "40.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 6,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39373494403"
+        }
+      ]
+    },
+    "firstcityrecordstore_com": {
+      "fingerprint": "d88387323e4e0fbdb83a092db1a1d989efd497b7950ac15f6da89c155b14f216",
+      "domain": "firstcityrecordstore.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:13.495023+00:00",
+      "evidence": {
+        "domain": "firstcityrecordstore.com",
+        "route": "https://firstcityrecordstore.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:12.243086+00:00",
+        "requests": [
+          {
+            "url": "https://firstcityrecordstore.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "2f7977d980951c06233813bea89e38e9391c31920cfd1100454773122be7af3a"
+          },
+          {
+            "url": "https://firstcityrecordstore.com/products/cruzados-best-of-cruzados-lp?variant=48767554617563",
+            "sha256": "9b642262037bf31971fa53c33d4e7672a3e5eac4fc00166d7687386370273264"
+          }
+        ],
+        "listing_records": 15,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 15,
+          "unique_prices": 12,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39373494403"
+        }
+      ]
+    },
+    "fortherecordnyc_com": {
+      "fingerprint": "5cea38dd25aa9a1994c5a1c0f7b3cb1c02c95018bb9f247c665373a09cd0bc2e",
+      "domain": "fortherecordnyc.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:16.831484+00:00",
+      "evidence": {
+        "domain": "fortherecordnyc.com",
+        "route": "https://fortherecordnyc.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:13.517533+00:00",
+        "requests": [
+          {
+            "url": "https://fortherecordnyc.com/products.json?limit=20&page=1",
+            "sha256": "beb255de4d2f8841c042895985db48e2a02ae214c07f17544aa59ce7eafb1cb2"
+          },
+          {
+            "url": "https://fortherecordnyc.com/products/remi-wolf-mud-explicit-content-parental-advisory-explicit-lyrics-indie-exclusive-limited-edition-colored-vinyl-smoke?variant=50700889260097",
+            "sha256": "bde63fc58063552ae9a92e9fd7487184c4ecfb115a7a7a459ae70d2132fa1b51"
+          },
+          {
+            "url": "https://fortherecordnyc.com/products/knox-my-midwest-best-explicit-content-parental-advisory-explicit-lyrics-colored-vinyl-denim?variant=50611925450817",
+            "sha256": "040c5412c0f461486ab8261d48c57c7ff17242405a911927b78546d5889ecbc2"
+          },
+          {
+            "url": "https://fortherecordnyc.com/products/big-fudge-bfrc101us-4-in-1-vinyl-record-care-kit?variant=44222454136897",
+            "sha256": "7ecf55931c357b55ac5692627ddfcaf890ee3cd5438661e6310bbdd555a66846"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://fortherecordnyc.com/products/remi-wolf-mud-explicit-content-parental-advisory-explicit-lyrics-indie-exclusive-limited-edition-colored-vinyl-smoke?variant=50700889260097",
+            "price": "35.99",
+            "currency": "USD",
+            "ean": "00881061197478",
+            "condition": "new"
+          },
+          {
+            "url": "https://fortherecordnyc.com/products/knox-my-midwest-best-explicit-content-parental-advisory-explicit-lyrics-colored-vinyl-denim?variant=50611925450817",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00075678583315",
+            "condition": "new"
+          },
+          {
+            "url": "https://fortherecordnyc.com/products/big-fudge-bfrc101us-4-in-1-vinyl-record-care-kit?variant=44222454136897",
+            "price": "27.99",
+            "currency": "USD",
+            "ean": "00850020702282",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 9,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "39373494403"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "fortherecordnyc.com",
+        "route": "https://fortherecordnyc.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:13.517533+00:00",
+        "requests": [
+          {
+            "url": "https://fortherecordnyc.com/products.json?limit=20&page=1",
+            "sha256": "beb255de4d2f8841c042895985db48e2a02ae214c07f17544aa59ce7eafb1cb2"
+          },
+          {
+            "url": "https://fortherecordnyc.com/products/remi-wolf-mud-explicit-content-parental-advisory-explicit-lyrics-indie-exclusive-limited-edition-colored-vinyl-smoke?variant=50700889260097",
+            "sha256": "bde63fc58063552ae9a92e9fd7487184c4ecfb115a7a7a459ae70d2132fa1b51"
+          },
+          {
+            "url": "https://fortherecordnyc.com/products/knox-my-midwest-best-explicit-content-parental-advisory-explicit-lyrics-colored-vinyl-denim?variant=50611925450817",
+            "sha256": "040c5412c0f461486ab8261d48c57c7ff17242405a911927b78546d5889ecbc2"
+          },
+          {
+            "url": "https://fortherecordnyc.com/products/big-fudge-bfrc101us-4-in-1-vinyl-record-care-kit?variant=44222454136897",
+            "sha256": "7ecf55931c357b55ac5692627ddfcaf890ee3cd5438661e6310bbdd555a66846"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://fortherecordnyc.com/products/remi-wolf-mud-explicit-content-parental-advisory-explicit-lyrics-indie-exclusive-limited-edition-colored-vinyl-smoke?variant=50700889260097",
+            "price": "35.99",
+            "currency": "USD",
+            "ean": "00881061197478",
+            "condition": "new"
+          },
+          {
+            "url": "https://fortherecordnyc.com/products/knox-my-midwest-best-explicit-content-parental-advisory-explicit-lyrics-colored-vinyl-denim?variant=50611925450817",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00075678583315",
+            "condition": "new"
+          },
+          {
+            "url": "https://fortherecordnyc.com/products/big-fudge-bfrc101us-4-in-1-vinyl-record-care-kit?variant=44222454136897",
+            "price": "27.99",
+            "currency": "USD",
+            "ean": "00850020702282",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 9,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "frankiesrecords_com": {
+      "fingerprint": "9a73363f2543ad255c1b92a466b58076adee88e09b888ece0d70375a67d5f2f1",
+      "domain": "frankiesrecords.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:17.482193+00:00",
+      "evidence": {
+        "domain": "frankiesrecords.com",
+        "route": "https://frankiesrecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:16.854385+00:00",
+        "requests": [
+          {
+            "url": "https://frankiesrecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "2caffe8cb21f2c37bb8b8f070a9f6bd28a76f76db11c8012f70de9bdbfb8fa1d"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "review",
+          "flags": [
+            "shipping_term_in_product_identity"
+          ],
+          "records_checked": 20,
+          "unique_prices": 10,
+          "shipping_hits": 1,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "shipping_term_in_product_identity",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "REVIEW",
+          "reason": "shipping_term_in_product_identity",
+          "run_id": "39373494403"
+        }
+      ]
+    },
+    "freshproducerecords_com": {
+      "fingerprint": "2c4f9df133ed2940deb1a1226d208c896cb0f2ebea654c95e3c3f4bac196b39d",
+      "domain": "freshproducerecords.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:19.230035+00:00",
+      "evidence": {
+        "domain": "freshproducerecords.com",
+        "route": "https://freshproducerecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:17.505411+00:00",
+        "requests": [
+          {
+            "url": "https://freshproducerecords.com/products.json?limit=20&page=1",
+            "sha256": "72c826ebc2b59f310f850cf754f56ef030e32ca4c3c832a4acf4e8a276dda764"
+          },
+          {
+            "url": "https://freshproducerecords.com/products/van-halen-1984-vinyl-lp?variant=67703400268005",
+            "sha256": "13e98efbd31cc8764bf36b39e541c3b93627fe0fdfba3e61bed35b720fcec54b"
+          }
+        ],
+        "listing_records": 13,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 13,
+          "unique_prices": 8,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39373494403"
+        }
+      ]
+    },
+    "fullhausrecords_com": {
+      "fingerprint": "71f991b4f166674fc11dbcf3c34a1a3588687ffedfae89408ab2190e1ab5b9c2",
+      "domain": "fullhausrecords.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:20.542900+00:00",
+      "evidence": {
+        "domain": "fullhausrecords.com",
+        "route": "https://fullhausrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:19.252957+00:00",
+        "requests": [
+          {
+            "url": "https://fullhausrecords.com/products.json?limit=20&page=1",
+            "sha256": "1abcd53cff1a8ead1850af06296b4fc739e6f7352ba606152a462f2becd806e5"
+          },
+          {
+            "url": "https://fullhausrecords.com/products/velvet-velour-tempo-ep-12-mint-m?variant=52328170848559",
+            "sha256": "627b604ba9c907f8deb307dc2f993b8a20509990a4a7d53768c294cd74789bb9"
+          }
+        ],
+        "listing_records": 1,
+        "detail_checked": 1,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://fullhausrecords.com/products/velvet-velour-tempo-ep-12-mint-m?variant=52328170848559",
+            "price": "24.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 1,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39373494403"
+        }
+      ]
+    },
+    "furtherrecords_com": {
+      "fingerprint": "80d8c385e856b58bec38e1ceb062e177ade528d88ad4ab3d54a8196b617613c7",
+      "domain": "furtherrecords.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:23.855648+00:00",
+      "evidence": {
+        "domain": "furtherrecords.com",
+        "route": "https://furtherrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:20.565504+00:00",
+        "requests": [
+          {
+            "url": "https://furtherrecords.com/products.json?limit=20&page=1",
+            "sha256": "f2a5854e9c21d87b6ed0b18fc47091996787fea1432af4bac2b2567d0d85db29"
+          },
+          {
+            "url": "https://furtherrecords.com/products/felix-dickinson-blane-lyon-peoples-people?variant=51980285280502",
+            "sha256": "9bf899a7c55c21cdd21a1cf155383aaeccca18c9c2f4664530f3e59446f45a81"
+          },
+          {
+            "url": "https://furtherrecords.com/products/mlo-io-reissue-excls3lp-2lp-ltd-edition-gatefold-sleeve?variant=51966520328438",
+            "sha256": "ce64d527a4c5aa5b42d54912c0cdc31e5a73bd78851a4f4769a6bb815670cbe3"
+          },
+          {
+            "url": "https://furtherrecords.com/products/alain-meunier-voyage-aux-fonds-de-la-mer?variant=51966517674230",
+            "sha256": "dd6ae1ea3c93aaf683124736069c963cbead2231a62f82b1c174c71479da83ac"
+          }
+        ],
+        "listing_records": 18,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://furtherrecords.com/products/felix-dickinson-blane-lyon-peoples-people?variant=51980285280502",
+            "price": "19.95",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://furtherrecords.com/products/mlo-io-reissue-excls3lp-2lp-ltd-edition-gatefold-sleeve?variant=51966520328438",
+            "price": "49.95",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://furtherrecords.com/products/alain-meunier-voyage-aux-fonds-de-la-mer?variant=51966517674230",
+            "price": "34.95",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 18,
+          "unique_prices": 9,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39373494403"
+        }
+      ]
+    },
+    "getresurrected_com": {
+      "fingerprint": "a94865b37715a99a1daa82fdeae01b9b0a269d8b6d3d4486c677067e21e0d95f",
+      "domain": "getresurrected.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:27.153551+00:00",
+      "evidence": {
+        "domain": "getresurrected.com",
+        "route": "https://getresurrected.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:23.878483+00:00",
+        "requests": [
+          {
+            "url": "https://getresurrected.com/products.json?limit=20&page=1",
+            "sha256": "a20c8d188a7848e2fc5a624e461e3a83308b3057daa84c98a255d166360445ed"
+          },
+          {
+            "url": "https://getresurrected.com/products/the-cramps-bad-music-for-bad-people-rsd-essential?variant=47463160479936",
+            "sha256": "94cd76f0eb86d4228f9609578ca864446c49efc173565d80cd23c41a4d95f97a"
+          },
+          {
+            "url": "https://getresurrected.com/products/kendrick-lamar-good-kid-m-a-a-d-city?variant=47453010526400",
+            "sha256": "ebf7a1e64b16314df559021e913840da8d1b5db42a00f7b81718c1bd2f29fbe2"
+          },
+          {
+            "url": "https://getresurrected.com/products/prince-purple-rain?variant=47239319421120",
+            "sha256": "5255b0c84274b7fb216fe48c8ba73744d9dce2da1eea61901703229d4adcc386"
+          }
+        ],
+        "listing_records": 14,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://getresurrected.com/products/the-cramps-bad-music-for-bad-people-rsd-essential?variant=47463160479936",
+            "price": "35.00",
+            "currency": "USD",
+            "ean": "00199957300520",
+            "condition": "new"
+          },
+          {
+            "url": "https://getresurrected.com/products/kendrick-lamar-good-kid-m-a-a-d-city?variant=47453010526400",
+            "price": "43.00",
+            "currency": "USD",
+            "ean": "00602537192267",
+            "condition": "new"
+          },
+          {
+            "url": "https://getresurrected.com/products/prince-purple-rain?variant=47239319421120",
+            "price": "32.00",
+            "currency": "USD",
+            "ean": "00093624930242",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 14,
+          "unique_prices": 8,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "39373494403"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "getresurrected.com",
+        "route": "https://getresurrected.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:23.878483+00:00",
+        "requests": [
+          {
+            "url": "https://getresurrected.com/products.json?limit=20&page=1",
+            "sha256": "a20c8d188a7848e2fc5a624e461e3a83308b3057daa84c98a255d166360445ed"
+          },
+          {
+            "url": "https://getresurrected.com/products/the-cramps-bad-music-for-bad-people-rsd-essential?variant=47463160479936",
+            "sha256": "94cd76f0eb86d4228f9609578ca864446c49efc173565d80cd23c41a4d95f97a"
+          },
+          {
+            "url": "https://getresurrected.com/products/kendrick-lamar-good-kid-m-a-a-d-city?variant=47453010526400",
+            "sha256": "ebf7a1e64b16314df559021e913840da8d1b5db42a00f7b81718c1bd2f29fbe2"
+          },
+          {
+            "url": "https://getresurrected.com/products/prince-purple-rain?variant=47239319421120",
+            "sha256": "5255b0c84274b7fb216fe48c8ba73744d9dce2da1eea61901703229d4adcc386"
+          }
+        ],
+        "listing_records": 14,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://getresurrected.com/products/the-cramps-bad-music-for-bad-people-rsd-essential?variant=47463160479936",
+            "price": "35.00",
+            "currency": "USD",
+            "ean": "00199957300520",
+            "condition": "new"
+          },
+          {
+            "url": "https://getresurrected.com/products/kendrick-lamar-good-kid-m-a-a-d-city?variant=47453010526400",
+            "price": "43.00",
+            "currency": "USD",
+            "ean": "00602537192267",
+            "condition": "new"
+          },
+          {
+            "url": "https://getresurrected.com/products/prince-purple-rain?variant=47239319421120",
+            "price": "32.00",
+            "currency": "USD",
+            "ean": "00093624930242",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 14,
+          "unique_prices": 8,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "goingundergroundrecords_com": {
+      "fingerprint": "d0b33b7a272282fd5639e7bf820573b003329d2d8a64951cc8c474be0d08c9bb",
+      "domain": "goingundergroundrecords.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:28.681557+00:00",
+      "evidence": {
+        "domain": "goingundergroundrecords.com",
+        "route": "https://goingundergroundrecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:27.176771+00:00",
+        "requests": [
+          {
+            "url": "https://goingundergroundrecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "cde74c853b65abf079074b43a42c8454d78c894619020f0b13cac6f0995d699b"
+          },
+          {
+            "url": "https://goingundergroundrecords.com/products/uicideboy-thy-will-be-done?variant=52080104472889",
+            "sha256": "0af05c833bea1a8e4df87216aacd327bdddb940d204e7c16a5659f89e97cabc3"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 14,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39373494403"
+        }
+      ]
+    },
+    "goner_records_com": {
+      "fingerprint": "6fe10ca28b19cebd74fad1dde66ab35d9ecdf3181667bc514963d794a26a7b85",
+      "domain": "goner-records.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:29.975417+00:00",
+      "evidence": {
+        "domain": "goner-records.com",
+        "route": "https://goner-records.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:28.706075+00:00",
+        "requests": [
+          {
+            "url": "https://goner-records.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "f674042f981d4b79ff0a1addfde1d8ca2c042d294ed79e57f39b6a6a257d3222"
+          },
+          {
+            "url": "https://goner-records.com/products/1-800-mikey-in-yun-lp-goner-records?variant=54296618795221",
+            "sha256": "6e25c2974a8c3e6602c31f1d7dd4e74c54acf283fbe19e159e44a249e13f9eb2"
+          }
+        ],
+        "listing_records": 5,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 5,
+          "unique_prices": 5,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39373494403"
+        }
+      ]
+    },
+    "goodtasterecords_com": {
+      "fingerprint": "fe57a2c361e8db939338b3e669cfaca059c5d3e08b0212b64167ac73b0e3b95e",
+      "domain": "goodtasterecords.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:31.548645+00:00",
+      "evidence": {
+        "domain": "goodtasterecords.com",
+        "route": "https://goodtasterecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:29.998234+00:00",
+        "requests": [
+          {
+            "url": "https://goodtasterecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "0ab0e2e212c13b55ba936f79ba9e733ad74e7899b1f3dc847903b976ffcd5b3a"
+          },
+          {
+            "url": "https://goodtasterecords.com/products/even-more-dazed-and-confused-soundtrack-vinyl-lp?variant=40115062407377",
+            "sha256": "3a08a5838cd7b0829c316d8c46cbbb74be9fd834d2501f42b21fcacfe3a08ae3"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 15,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39373494403"
+        }
+      ]
+    },
+    "gramaphonerecords_com": {
+      "fingerprint": "e5b59bfe297f1527013c151f0d9b156a676d9d23871449752601cd06ed8b8e8e",
+      "domain": "gramaphonerecords.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:33.980164+00:00",
+      "evidence": {
+        "domain": "gramaphonerecords.com",
+        "route": "https://gramaphonerecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:31.572125+00:00",
+        "requests": [
+          {
+            "url": "https://gramaphonerecords.com/products.json?limit=20&page=1",
+            "sha256": "900e362d7fd7db4058c384768054db87a7f377d20f46668db2a41173bbd0d727"
+          },
+          {
+            "url": "https://gramaphonerecords.com/products/john-beltran-sunrise-and-the-life-we-live?variant=52834176696618",
+            "sha256": "9a956c30237e606b7ae9fd7a0af95572f633fbbef363f9414568193dc5bcbecb"
+          },
+          {
+            "url": "https://gramaphonerecords.com/products/acid-pauli-gwar-is-not-the-answer?variant=52834141602090",
+            "sha256": "933ea7ce05070887577089fba4723cd9ab24ab4008525d2e9609069e58596a5c"
+          }
+        ],
+        "listing_records": 2,
+        "detail_checked": 2,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://gramaphonerecords.com/products/john-beltran-sunrise-and-the-life-we-live?variant=52834176696618",
+            "price": "54.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://gramaphonerecords.com/products/acid-pauli-gwar-is-not-the-answer?variant=52834141602090",
+            "price": "23.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 2,
+          "unique_prices": 2,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39373494403"
+        }
+      ]
+    },
+    "grapefruitrecordclub_com": {
+      "fingerprint": "39119e1496d2273fd830130ac89c9121acaa42129669b689453c2aadf8359045",
+      "domain": "grapefruitrecordclub.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:35.520019+00:00",
+      "evidence": {
+        "domain": "grapefruitrecordclub.com",
+        "route": "https://grapefruitrecordclub.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:34.003936+00:00",
+        "requests": [
+          {
+            "url": "https://grapefruitrecordclub.com/products.json?limit=20&page=1",
+            "sha256": "3166ce3c7b48d93975bc742f903924776c6f348e3d904dfe8419570c829e7a03"
+          },
+          {
+            "url": "https://grapefruitrecordclub.com/products/dorothy-asby-rubaiyat-of-dorothy-ashby-lp?variant=44403159236816",
+            "sha256": "e06e94e4e2920fa1c0c1a98860b8001a586bf6320798230919a41dc35ab45043"
+          }
+        ],
+        "listing_records": 19,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 19,
+          "unique_prices": 12,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39373494403"
+        }
+      ]
+    },
+    "grassrootsmusicstore_com": {
+      "fingerprint": "520cdbc2fef0689da55be5b11ae699ba5c4f82e994337e8034b487e9f0b6089a",
+      "domain": "grassrootsmusicstore.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:36.862894+00:00",
+      "evidence": {
+        "domain": "grassrootsmusicstore.com",
+        "route": "https://grassrootsmusicstore.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:35.543732+00:00",
+        "requests": [
+          {
+            "url": "https://grassrootsmusicstore.com/products.json?limit=20&page=1",
+            "sha256": "5aab3ac0ba60e3af55c8ec2c1716c12fbef88f9a2e9a07306b9b8cec172f3fc1"
+          },
+          {
+            "url": "https://grassrootsmusicstore.com/products/sonny-rollins-sonny-rollins-vol-2-lp-vinyl-record?variant=67739304100116",
+            "sha256": "b702ea6c19a44c6e619e0d7a4c1e9484e0980e9f13ad526400425550452e3aea"
+          }
+        ],
+        "listing_records": 15,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 15,
+          "unique_prices": 8,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39373494403"
+        }
+      ]
+    },
+    "greatesthitsofficial_com": {
+      "fingerprint": "c2d33ad1f414e0395a8d083368ce5662ac51e846d0477d74606c8e01736938b6",
+      "domain": "greatesthitsofficial.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:39.221075+00:00",
+      "evidence": {
+        "domain": "greatesthitsofficial.com",
+        "route": "https://greatesthitsofficial.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:36.886040+00:00",
+        "requests": [
+          {
+            "url": "https://greatesthitsofficial.com/products.json?limit=20&page=1",
+            "sha256": "a5397863644ba10a21aa44b1030fcb384601d8128508830e1e485dc4af5eb2ab"
+          },
+          {
+            "url": "https://greatesthitsofficial.com/products/the-sounds-of-delco-vol-1-vinyl-first-pressing-copy?variant=50810338902236",
+            "sha256": "b633112cb2e7c50c573cc0304ebe14a8b78a68de2b2d35a59eed32511ab045b6"
+          },
+          {
+            "url": "https://greatesthitsofficial.com/products/sounds-of-delco-vinyl?variant=48010500112604",
+            "sha256": "91830f0a9b779d3cc30ed8cfca86a0631f83a141c672f72e8d4830ca504b94c7"
+          }
+        ],
+        "listing_records": 2,
+        "detail_checked": 2,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://greatesthitsofficial.com/products/the-sounds-of-delco-vol-1-vinyl-first-pressing-copy?variant=50810338902236",
+            "price": "28.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://greatesthitsofficial.com/products/sounds-of-delco-vinyl?variant=48010500112604",
+            "price": "28.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 2,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39373494403"
+        }
+      ]
+    },
+    "gryphonswing_com": {
+      "fingerprint": "fe3be32065b6661e2ccf5964c563c9f5c69ffe744412b82dd634d1fd27a718aa",
+      "domain": "gryphonswing.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:42.755390+00:00",
+      "evidence": {
+        "domain": "gryphonswing.com",
+        "route": "https://gryphonswing.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:39.244349+00:00",
+        "requests": [
+          {
+            "url": "https://gryphonswing.com/products.json?limit=20&page=1",
+            "sha256": "ea0b8fb8f59d327fb0224327c72c6570a1f177b3249f7c3b42f6f673a211c75a"
+          },
+          {
+            "url": "https://gryphonswing.com/products/smashing-pumkins-siamese-dream-lp-180g?variant=50674295144623",
+            "sha256": "a33cf8211863e86f01805e28806bc2aac9b942d82b2cec6e4d130c267575791d"
+          },
+          {
+            "url": "https://gryphonswing.com/products/hans-zimmer-pirates-of-the-caribbean-dead-mans-chest-original-soundtrack-lp?variant=50567198998703",
+            "sha256": "f30ba996668ff2e2dde36fb502d79509f74f78b37f1c2b803f7ab651193ea6e0"
+          },
+          {
+            "url": "https://gryphonswing.com/products/weezer-1192-lp-1?variant=50530081603759",
+            "sha256": "c82bc6a072c67e5fd1aa59ec3764f9aadde30def101b4782a25d5d1558e36d5c"
+          }
+        ],
+        "listing_records": 8,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://gryphonswing.com/products/smashing-pumkins-siamese-dream-lp-180g?variant=50674295144623",
+            "price": "45.00",
+            "currency": "USD",
+            "ean": "00602465173406",
+            "condition": "new"
+          },
+          {
+            "url": "https://gryphonswing.com/products/hans-zimmer-pirates-of-the-caribbean-dead-mans-chest-original-soundtrack-lp?variant=50567198998703",
+            "price": "40.00",
+            "currency": "USD",
+            "ean": "00050087605001",
+            "condition": "new"
+          },
+          {
+            "url": "https://gryphonswing.com/products/weezer-1192-lp-1?variant=50530081603759",
+            "price": "35.00",
+            "currency": "USD",
+            "ean": "00600064803625",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 8,
+          "unique_prices": 6,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "39373494403"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "gryphonswing.com",
+        "route": "https://gryphonswing.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:39.244349+00:00",
+        "requests": [
+          {
+            "url": "https://gryphonswing.com/products.json?limit=20&page=1",
+            "sha256": "ea0b8fb8f59d327fb0224327c72c6570a1f177b3249f7c3b42f6f673a211c75a"
+          },
+          {
+            "url": "https://gryphonswing.com/products/smashing-pumkins-siamese-dream-lp-180g?variant=50674295144623",
+            "sha256": "a33cf8211863e86f01805e28806bc2aac9b942d82b2cec6e4d130c267575791d"
+          },
+          {
+            "url": "https://gryphonswing.com/products/hans-zimmer-pirates-of-the-caribbean-dead-mans-chest-original-soundtrack-lp?variant=50567198998703",
+            "sha256": "f30ba996668ff2e2dde36fb502d79509f74f78b37f1c2b803f7ab651193ea6e0"
+          },
+          {
+            "url": "https://gryphonswing.com/products/weezer-1192-lp-1?variant=50530081603759",
+            "sha256": "c82bc6a072c67e5fd1aa59ec3764f9aadde30def101b4782a25d5d1558e36d5c"
+          }
+        ],
+        "listing_records": 8,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://gryphonswing.com/products/smashing-pumkins-siamese-dream-lp-180g?variant=50674295144623",
+            "price": "45.00",
+            "currency": "USD",
+            "ean": "00602465173406",
+            "condition": "new"
+          },
+          {
+            "url": "https://gryphonswing.com/products/hans-zimmer-pirates-of-the-caribbean-dead-mans-chest-original-soundtrack-lp?variant=50567198998703",
+            "price": "40.00",
+            "currency": "USD",
+            "ean": "00050087605001",
+            "condition": "new"
+          },
+          {
+            "url": "https://gryphonswing.com/products/weezer-1192-lp-1?variant=50530081603759",
+            "price": "35.00",
+            "currency": "USD",
+            "ean": "00600064803625",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 8,
+          "unique_prices": 6,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "headlinerecords_com": {
+      "fingerprint": "c1096dd45d5b02af906c19036f71453ad8eb6e08e3be3632d27f4b4a0beee7f0",
+      "domain": "headlinerecords.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:44.098294+00:00",
+      "evidence": {
+        "domain": "headlinerecords.com",
+        "route": "https://headlinerecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:42.779343+00:00",
+        "requests": [
+          {
+            "url": "https://headlinerecords.com/products.json?limit=20&page=1",
+            "sha256": "c34e02bdfa7eb80151e44ecef5fe6dcba4ff12fcaa9f5d3d2eaa4d257fbb7eec"
+          },
+          {
+            "url": "https://headlinerecords.com/products/rudimentary-peni-live-nottingham-yorker-club-1982?variant=67718196887862",
+            "sha256": "5eb53a07d42f80b779f2a760f9bc4b33162ad057e258ac170af1f0d20c3e70e0"
+          }
+        ],
+        "listing_records": 1,
+        "detail_checked": 1,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://headlinerecords.com/products/rudimentary-peni-live-nottingham-yorker-club-1982?variant=67718196887862",
+            "price": "25.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 1,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39373494403"
+        }
+      ]
+    },
+    "highvoltagevinyl_com": {
+      "fingerprint": "4619fbcfdf69f7b06176e65b664452e991e4f8147ba49bf3553e014fa44fad90",
+      "domain": "highvoltagevinyl.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:47.538587+00:00",
+      "evidence": {
+        "domain": "highvoltagevinyl.com",
+        "route": "https://highvoltagevinyl.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:44.121989+00:00",
+        "requests": [
+          {
+            "url": "https://highvoltagevinyl.com/products.json?limit=20&page=1",
+            "sha256": "2de1d1dd0c4db76636cc51152e4018f49ac428d97e8a61b17a3f085c7e32b0d4"
+          },
+          {
+            "url": "https://highvoltagevinyl.com/products/joni-mitchell-blue-rhino-hifi-series-remaster-lp?variant=67796043923729",
+            "sha256": "7c73776724c836abad5ea304a9dfefab9b43b0340872b6560c711aae6d0fcbd0"
+          },
+          {
+            "url": "https://highvoltagevinyl.com/products/the-cure-disintigration-180g-2xlp?variant=67611487076625",
+            "sha256": "23b491d75299e535e36b4d8d77dbf8f37c2cc94d757e46c21fd7e4b85086769a"
+          },
+          {
+            "url": "https://highvoltagevinyl.com/products/dwarves-damned-if-i-do-the-cougars-7?variant=54712218091793",
+            "sha256": "22f41c64d8ea2e8446dcd7232286a9d89a654cfd0c7696bf74e39639dc335b86"
+          }
+        ],
+        "listing_records": 19,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://highvoltagevinyl.com/products/joni-mitchell-blue-rhino-hifi-series-remaster-lp?variant=67796043923729",
+            "price": "39.99",
+            "currency": "USD",
+            "ean": "00081227803872",
+            "condition": "new"
+          },
+          {
+            "url": "https://highvoltagevinyl.com/products/the-cure-disintigration-180g-2xlp?variant=67611487076625",
+            "price": "39.99",
+            "currency": "USD",
+            "ean": "00081227981693",
+            "condition": "new"
+          },
+          {
+            "url": "https://highvoltagevinyl.com/products/dwarves-damned-if-i-do-the-cougars-7?variant=54712218091793",
+            "price": "9.99",
+            "currency": "USD",
+            "ean": "00766619350751",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 19,
+          "unique_prices": 12,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "39373494403"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "highvoltagevinyl.com",
+        "route": "https://highvoltagevinyl.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:44.121989+00:00",
+        "requests": [
+          {
+            "url": "https://highvoltagevinyl.com/products.json?limit=20&page=1",
+            "sha256": "2de1d1dd0c4db76636cc51152e4018f49ac428d97e8a61b17a3f085c7e32b0d4"
+          },
+          {
+            "url": "https://highvoltagevinyl.com/products/joni-mitchell-blue-rhino-hifi-series-remaster-lp?variant=67796043923729",
+            "sha256": "7c73776724c836abad5ea304a9dfefab9b43b0340872b6560c711aae6d0fcbd0"
+          },
+          {
+            "url": "https://highvoltagevinyl.com/products/the-cure-disintigration-180g-2xlp?variant=67611487076625",
+            "sha256": "23b491d75299e535e36b4d8d77dbf8f37c2cc94d757e46c21fd7e4b85086769a"
+          },
+          {
+            "url": "https://highvoltagevinyl.com/products/dwarves-damned-if-i-do-the-cougars-7?variant=54712218091793",
+            "sha256": "22f41c64d8ea2e8446dcd7232286a9d89a654cfd0c7696bf74e39639dc335b86"
+          }
+        ],
+        "listing_records": 19,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://highvoltagevinyl.com/products/joni-mitchell-blue-rhino-hifi-series-remaster-lp?variant=67796043923729",
+            "price": "39.99",
+            "currency": "USD",
+            "ean": "00081227803872",
+            "condition": "new"
+          },
+          {
+            "url": "https://highvoltagevinyl.com/products/the-cure-disintigration-180g-2xlp?variant=67611487076625",
+            "price": "39.99",
+            "currency": "USD",
+            "ean": "00081227981693",
+            "condition": "new"
+          },
+          {
+            "url": "https://highvoltagevinyl.com/products/dwarves-damned-if-i-do-the-cougars-7?variant=54712218091793",
+            "price": "9.99",
+            "currency": "USD",
+            "ean": "00766619350751",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 19,
+          "unique_prices": 12,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "hivoltagerecords_com": {
+      "fingerprint": "9a85d7d6d3f557b220d89c12d59536a7ca2eb60e8e6d52acdf9a921714d4d22f",
+      "domain": "hivoltagerecords.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:49.934783+00:00",
+      "evidence": {
+        "domain": "hivoltagerecords.com",
+        "route": "https://hivoltagerecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:47.562605+00:00",
+        "requests": [
+          {
+            "url": "https://hivoltagerecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "9781805de79f2ababe9446d6417c84ae29874f323f9fd15b023217509bb3e147"
+          },
+          {
+            "url": "https://hivoltagerecords.com/products/juliet-original-broadway-cast-recording-2lp-new?variant=40166188646455",
+            "sha256": "c5a3c1180741c51971a404872566a6929fe4f79d3ad260a3892ed392086ce22c"
+          },
+          {
+            "url": "https://hivoltagerecords.com/products/070-shake-petrichor-lp-new?variant=41366442246199",
+            "sha256": "976c8ffac9bd52755f93b5729ec3abbf269738157284b52ccecd5bb5d8e0dabd"
+          }
+        ],
+        "listing_records": 10,
+        "detail_checked": 1,
+        "valid_eans": 1,
+        "details": [
+          {
+            "url": "https://hivoltagerecords.com/products/juliet-original-broadway-cast-recording-2lp-new?variant=40166188646455",
+            "price": "36.99",
+            "currency": "USD",
+            "ean": "00075678628085",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 10,
+          "unique_prices": 8,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "invalid_detail_gtin",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "REVIEW",
+          "reason": "invalid_detail_gtin",
+          "run_id": "39373494403"
+        }
+      ]
+    },
+    "hollowbonerecords_com": {
+      "fingerprint": "49659a2a805e7cbbcba3b371f0d818566bc33b942720ffb01aa2ddb28d757ca9",
+      "domain": "hollowbonerecords.com",
+      "batch": 3,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39373494403",
+      "updated_at": "2026-10-20T05:11:51.432187+00:00",
+      "evidence": {
+        "domain": "hollowbonerecords.com",
+        "route": "https://hollowbonerecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-20T05:11:49.958716+00:00",
+        "requests": [
+          {
+            "url": "https://hollowbonerecords.com/products.json?limit=20&page=1",
+            "sha256": "a81647a5cd8c0d73a9a4d8162ecb069f73f67456f59849a2b08604075c8ad4c1"
+          },
+          {
+            "url": "https://hollowbonerecords.com/products/billy-joel-turnstiles-lp?variant=67926401056992",
+            "sha256": "35c2fb9213eab5bf46c51680df2bbacbca7ce87a5ccff81e2c4a1bda11557bde"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 11,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 3,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39373494403"
+        }
+      ]
     }
   },
-  "updated_at": "2026-10-19T05:12:32.699377+00:00",
-  "last_run_id": "39203245483"
+  "updated_at": "2026-10-20T05:11:51.432242+00:00",
+  "last_run_id": "39373494403"
 }
