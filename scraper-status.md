@@ -3379,7 +3379,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | endlessoundrecords.com | 2 | REVIEW | 0 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | endofanear.com | 2 | REVIEW | 0 | 11 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | endorecords.com | 2 | REVIEW | 0 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| erodingwinds.com | 2 | APPROVED | 0 | 18 | 3/3 | ACTIVE | ACTIVE | run 39203245483 |
+| erodingwinds.com | 2 | APPROVED | 0 | 18 | 3/3 | ACTIVE (run 39563382355) | ACTIVE | run 39203245483 |
 | evergreenvinyl.com | 2 | REVIEW | 0 | 17 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | experiencevinyl.com | 3 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | factoryrecords.com | 3 | APPROVED | 0 | 14 | 3/3 | ACTIVE | ACTIVE | run 39373494403 |
