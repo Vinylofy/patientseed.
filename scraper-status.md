@@ -3400,7 +3400,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | grapefruitrecordclub.com | 3 | REVIEW | 0 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | grassrootsmusicstore.com | 3 | REVIEW | 0 | 15 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | greatesthitsofficial.com | 3 | REVIEW | 0 | 2 | 0/2 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| gryphonswing.com | 3 | APPROVED | 0 | 8 | 3/3 | ACTIVE (run 39563382355) | ACTIVE | run 39373494403 |
+| gryphonswing.com | 3 | APPROVED | 0 | 8 | 3/3 | ACTIVE (run 39563382355) | ACTIVE (run 39570692790) | run 39373494403 |
 | headlinerecords.com | 3 | REVIEW | 0 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | highvoltagevinyl.com | 3 | APPROVED | 0 | 19 | 3/3 | ACTIVE (run 39563382355) | ACTIVE | run 39373494403 |
 | hivoltagerecords.com | 3 | REVIEW | 0 | 10 | 1/1 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
