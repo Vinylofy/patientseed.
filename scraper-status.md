@@ -3368,7 +3368,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | dbzbooks.com | 2 | APPROVED | 0 | 15 | 3/3 | ACTIVE (run 39563382355) | ACTIVE | run 39203245483 |
 | deadendrecordstn.com | 2 | REVIEW | 0 | 10 | 0/0 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
 | deafmanvinyl.com | 2 | REVIEW | 0 | 12 | 0/1 | NOT_RUN | NOT_RUN | HTTP_503 |
-| debaryfamilymusic.online | 2 | APPROVED | 0 | 19 | 3/3 | ACTIVE (run 39563382355) | ACTIVE | run 39203245483 |
+| debaryfamilymusic.online | 2 | APPROVED | 0 | 19 | 3/3 | ACTIVE (run 39563382355) | ACTIVE (run 39570692790) | run 39203245483 |
 | delbravorecordshop.com | 2 | REVIEW | 0 | 18 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | desertislandrecords.com | 2 | REVIEW | 0 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | discodeathrecords.com | 2 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | shipping_term_in_product_identity |
