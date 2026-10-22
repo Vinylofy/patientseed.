@@ -3418,7 +3418,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | latchkeyrecords.com | 4 | APPROVED | 0 | 16 | 3/3 | ACTIVE | ACTIVE (run 39749402386) | run 39548302912 |
 | lathecutvinylrecords.com | 4 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | loudpizza.com | 4 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
-| lovepeoplerecords.com | 4 | APPROVED | 0 | 12 | 3/3 | ACTIVE | ACTIVE | run 39548302912 |
+| lovepeoplerecords.com | 4 | APPROVED | 0 | 12 | 3/3 | ACTIVE | ACTIVE (run 39749402386) | run 39548302912 |
 | lulorecords.com | 4 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | lunarecordshop.com | 4 | APPROVED | 0 | 17 | 3/3 | ACTIVE | ACTIVE | run 39548302912 |
 | lunchboxrecords.com | 4 | REVIEW | 0 | 11 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
