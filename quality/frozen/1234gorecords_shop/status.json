@@ -1,0 +1,95 @@
+{
+  "fingerprint": "c8ff765c9ed1b70c8ce5d7c6777979765423d0ffe8f4e6d17f209eda2e826124",
+  "domain": "1234gorecords.shop",
+  "batch": 5,
+  "repair_attempts": 3,
+  "repair_modes": [
+    "ean"
+  ],
+  "admitted": true,
+  "status": "FROZEN",
+  "run_id": "39727047909",
+  "updated_at": "2026-10-22T05:16:19.223739+00:00",
+  "evidence": {
+    "domain": "1234gorecords.shop",
+    "route": "https://1234gorecords.shop/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-22T05:16:15.738434+00:00",
+    "requests": [
+      {
+        "url": "https://1234gorecords.shop/collections/all/products.json?limit=20&page=1",
+        "sha256": "0b09322a57a9661376dbcb7d29ff7e9d923c046b3765ebfc8aff0275e8987dc2"
+      },
+      {
+        "url": "https://1234gorecords.shop/products/760137207184?variant=44911683043528",
+        "sha256": "b54f10751dfc6326395cd1aaad05b3ac3e29004d7d000cc306668ac0658747ce"
+      },
+      {
+        "url": "https://1234gorecords.shop/products/pre-order-1-2-3-4-go-storage-crate-orange?variant=44755604242632",
+        "sha256": "ba436286ef20db82a0bf15e69e6ac671cfc939f61f24bca37a2f1894e759fdd8"
+      },
+      {
+        "url": "https://1234gorecords.shop/products/classic-logo-totebag-oakland?variant=42426108772552",
+        "sha256": "1538ab7f192fff26148d6da94bc308fcf50ea4c1019024a00be0c19306f603de"
+      }
+    ],
+    "listing_records": 19,
+    "detail_checked": 2,
+    "valid_eans": 1,
+    "details": [
+      {
+        "url": "https://1234gorecords.shop/products/760137207184?variant=44911683043528",
+        "price": "28.99",
+        "currency": "USD",
+        "ean": "00760137207184",
+        "condition": "new"
+      },
+      {
+        "url": "https://1234gorecords.shop/products/pre-order-1-2-3-4-go-storage-crate-orange?variant=44755604242632",
+        "price": "34.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 19,
+      "unique_prices": 5,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "invalid_detail_gtin",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 1,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "39155794450"
+    },
+    {
+      "batch": 3,
+      "status": "REVIEW",
+      "reason": "invalid_detail_gtin",
+      "run_id": "39373494403"
+    },
+    {
+      "batch": 4,
+      "status": "REVIEW",
+      "reason": "invalid_detail_gtin",
+      "run_id": "39548302912"
+    },
+    {
+      "batch": 5,
+      "status": "FROZEN",
+      "reason": "invalid_detail_gtin",
+      "run_id": "39727047909"
+    }
+  ]
+}
