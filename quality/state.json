@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "batch": 4,
+  "batch": 5,
   "shops": {
     "10000hzrecords_com": {
       "fingerprint": "bd851743c2eee03c427913ea2a88bc94dfb0e74b1f11366277a07532ffcd9e33",
@@ -85,35 +85,35 @@
     "1234gorecords_shop": {
       "fingerprint": "c8ff765c9ed1b70c8ce5d7c6777979765423d0ffe8f4e6d17f209eda2e826124",
       "domain": "1234gorecords.shop",
-      "batch": 4,
-      "repair_attempts": 2,
+      "batch": 5,
+      "repair_attempts": 3,
       "repair_modes": [
         "ean"
       ],
       "admitted": true,
-      "status": "REVIEW",
-      "run_id": "39548302912",
-      "updated_at": "2026-10-21T05:13:18.266508+00:00",
+      "status": "FROZEN",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:16:19.223739+00:00",
       "evidence": {
         "domain": "1234gorecords.shop",
         "route": "https://1234gorecords.shop/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-10-21T05:13:14.805109+00:00",
+        "observed_at": "2026-10-22T05:16:15.738434+00:00",
         "requests": [
           {
             "url": "https://1234gorecords.shop/collections/all/products.json?limit=20&page=1",
-            "sha256": "e78da13b4f631ea66ccec6cd9d85ef76bd769a0ae0d76f757073564abb1a0c5b"
+            "sha256": "0b09322a57a9661376dbcb7d29ff7e9d923c046b3765ebfc8aff0275e8987dc2"
           },
           {
             "url": "https://1234gorecords.shop/products/760137207184?variant=44911683043528",
-            "sha256": "ec7eb19cd3dd09facb2ad93da9abd1aab55cd7164a6112b2161899b28fc8d5a2"
+            "sha256": "b54f10751dfc6326395cd1aaad05b3ac3e29004d7d000cc306668ac0658747ce"
           },
           {
             "url": "https://1234gorecords.shop/products/pre-order-1-2-3-4-go-storage-crate-orange?variant=44755604242632",
-            "sha256": "a8c18bbdeeef21e52847015b2068c4ecc4b8b8cb60a71b1f7caa7eb75ea6ad95"
+            "sha256": "ba436286ef20db82a0bf15e69e6ac671cfc939f61f24bca37a2f1894e759fdd8"
           },
           {
             "url": "https://1234gorecords.shop/products/classic-logo-totebag-oakland?variant=42426108772552",
-            "sha256": "3f0ebfb6395e0b5822f325cea916884648fe3a219c6031299836b0d8c844824b"
+            "sha256": "1538ab7f192fff26148d6da94bc308fcf50ea4c1019024a00be0c19306f603de"
           }
         ],
         "listing_records": 19,
@@ -168,6 +168,12 @@
           "status": "REVIEW",
           "reason": "invalid_detail_gtin",
           "run_id": "39548302912"
+        },
+        {
+          "batch": 5,
+          "status": "FROZEN",
+          "reason": "invalid_detail_gtin",
+          "run_id": "39727047909"
         }
       ]
     },
@@ -7438,8 +7444,1970 @@
           "run_id": "39548302912"
         }
       ]
+    },
+    "morrowrecords_com": {
+      "fingerprint": "8e0830d6318d5da0a96ab5b12bd8b531ba867f5cebef30e8ff26b6c96ba90378",
+      "domain": "morrowrecords.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:16:22.630798+00:00",
+      "evidence": {
+        "domain": "morrowrecords.com",
+        "route": "https://morrowrecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:16:19.249808+00:00",
+        "requests": [
+          {
+            "url": "https://morrowrecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "83fd8c715e34466afdbdffdde09b4fc779bb9b454a28274bf5673080e87340c0"
+          },
+          {
+            "url": "https://morrowrecords.com/products/uicideboy-i-want-to-die-in-new-orleans-ltd-ed-silver-vinyl?variant=45227730763950",
+            "sha256": "c3603113289fd3a8b85b5d09ab6422ee303a389e18c740b585f96c62663fe58f"
+          },
+          {
+            "url": "https://morrowrecords.com/products/100-demons-embrace-the-black-light-indie-exclusive-onyx-marbled-vinyl?variant=48031422742702",
+            "sha256": "15418dafb9ce2ac617f9313d114d724e7837afae5acce39874db40ea767ee5d2"
+          },
+          {
+            "url": "https://morrowrecords.com/products/13th-floor-elevators-bull-of-the-woods-ltd-ed-white-vinyl-obi-strip-rsdbf-2023?variant=44357805768878",
+            "sha256": "a1df83fbf508dcc6620ac51eabbe09aa105e0a7ad1407ab3ca6407bc78c509c8"
+          }
+        ],
+        "listing_records": 18,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://morrowrecords.com/products/uicideboy-i-want-to-die-in-new-orleans-ltd-ed-silver-vinyl?variant=45227730763950",
+            "price": "27.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://morrowrecords.com/products/100-demons-embrace-the-black-light-indie-exclusive-onyx-marbled-vinyl?variant=48031422742702",
+            "price": "32.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://morrowrecords.com/products/13th-floor-elevators-bull-of-the-woods-ltd-ed-white-vinyl-obi-strip-rsdbf-2023?variant=44357805768878",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 18,
+          "unique_prices": 10,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39727047909"
+        }
+      ]
+    },
+    "musicologyco_com": {
+      "fingerprint": "a3fc22cdc6824a66b6e2c814ff7566835aaf549566035f37660733aacb34d32c",
+      "domain": "musicologyco.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:16:25.860437+00:00",
+      "evidence": {
+        "domain": "musicologyco.com",
+        "route": "https://musicologyco.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:16:22.655839+00:00",
+        "requests": [
+          {
+            "url": "https://musicologyco.com/products.json?limit=20&page=1",
+            "sha256": "c7b2e90bf0c2dfced0307f2d0d3776e88d7a221b8703555658197b6eee6cf820"
+          },
+          {
+            "url": "https://musicologyco.com/products/pre-order-wojtek-mazolewski-quintet-pure-form-blk-uk-lp?variant=67965176545391",
+            "sha256": "868782efc09a8d62d11c1603792cf9476bc9c85f377788d0b7333aa7f210e4ec"
+          },
+          {
+            "url": "https://musicologyco.com/products/pre-order-obituary-darkest-day-translucent-gold-2lp?variant=67965171269743",
+            "sha256": "b7586a6cf22da7b93cfc37dfd04e7b4e22a484367681037c56e21f8eaeb27f6c"
+          },
+          {
+            "url": "https://musicologyco.com/products/pre-order-alva-noto-schattenstimme-soundtrack-for-a-missing-pt-2-lp?variant=67965170745455",
+            "sha256": "93967b17915642b400011b776488647812518eb17e14176e6efffd53944c07f2"
+          }
+        ],
+        "listing_records": 9,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://musicologyco.com/products/pre-order-wojtek-mazolewski-quintet-pure-form-blk-uk-lp?variant=67965176545391",
+            "price": "40.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://musicologyco.com/products/pre-order-obituary-darkest-day-translucent-gold-2lp?variant=67965171269743",
+            "price": "31.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://musicologyco.com/products/pre-order-alva-noto-schattenstimme-soundtrack-for-a-missing-pt-2-lp?variant=67965170745455",
+            "price": "45.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 9,
+          "unique_prices": 8,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39727047909"
+        }
+      ]
+    },
+    "nailcityrecord_com": {
+      "fingerprint": "ebac7dfcea4b0280173b7c98f5669f5c12552071c0014040c597cc2c903dba34",
+      "domain": "nailcityrecord.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:16:29.230501+00:00",
+      "evidence": {
+        "domain": "nailcityrecord.com",
+        "route": "https://nailcityrecord.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:16:25.885813+00:00",
+        "requests": [
+          {
+            "url": "https://nailcityrecord.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "deb463517667817b643ebcf09b62a275f523f5bb5bc247805f34eb619e1d1c8f"
+          },
+          {
+            "url": "https://nailcityrecord.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-blue-vinyl?variant=42912597442730",
+            "sha256": "78ac6db7323895b6952a0a55f4490bc301160d2414e26648179d7d20a0684d42"
+          },
+          {
+            "url": "https://nailcityrecord.com/products/uicideboy-thy-will-be-done-lp-vinyl?variant=47889522000042",
+            "sha256": "0355a98e42d666a02ad8c2773893b9a966edbfaa2219951ded897b581894141f"
+          },
+          {
+            "url": "https://nailcityrecord.com/products/and-you-will-know-us-tao-of-the-dead-2lp-vinyl?variant=44935778861226",
+            "sha256": "b93c148e3494063debed0b89511204084eb14612fa9944673931c254c0cabdc4"
+          }
+        ],
+        "listing_records": 12,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://nailcityrecord.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-blue-vinyl?variant=42912597442730",
+            "price": "24.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://nailcityrecord.com/products/uicideboy-thy-will-be-done-lp-vinyl?variant=47889522000042",
+            "price": "24.98",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://nailcityrecord.com/products/and-you-will-know-us-tao-of-the-dead-2lp-vinyl?variant=44935778861226",
+            "price": "31.98",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 12,
+          "unique_prices": 8,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39727047909"
+        }
+      ]
+    },
+    "needlesandfins_com": {
+      "fingerprint": "41d86242b5afa5b6205367b2857f5812e70a8cc929b82b3cc2e4836dbccf8f9c",
+      "domain": "needlesandfins.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:16:32.494825+00:00",
+      "evidence": {
+        "domain": "needlesandfins.com",
+        "route": "https://needlesandfins.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:16:29.255694+00:00",
+        "requests": [
+          {
+            "url": "https://needlesandfins.com/products.json?limit=20&page=1",
+            "sha256": "17e6b3aab092d46d8cc7421db0e1fd63e78747d317f753b45989f7149a7ec44c"
+          },
+          {
+            "url": "https://needlesandfins.com/products/pussy-gillette-permanent-trash-lp?variant=44270335557891",
+            "sha256": "a09ebc2f7c008b69a0fdf79a93729c155d414e49c351a4c39b48cf162cc0aa38"
+          },
+          {
+            "url": "https://needlesandfins.com/products/motorhead-live-fan-club-2x-lp?variant=42541916750083",
+            "sha256": "718e615b26db005319f48a443c251a6cbfc4f2a155a82301cbf4b75fb0d00415"
+          },
+          {
+            "url": "https://needlesandfins.com/products/annabelle-chairlegs-gotta-be-in-love-lp?variant=42541914128643",
+            "sha256": "264155873a8c67423d4b899e92285c8198876ff2235ec76ac176fbd135bf0d7b"
+          }
+        ],
+        "listing_records": 3,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://needlesandfins.com/products/pussy-gillette-permanent-trash-lp?variant=44270335557891",
+            "price": "25.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://needlesandfins.com/products/motorhead-live-fan-club-2x-lp?variant=42541916750083",
+            "price": "35.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://needlesandfins.com/products/annabelle-chairlegs-gotta-be-in-love-lp?variant=42541914128643",
+            "price": "25.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 3,
+          "unique_prices": 2,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39727047909"
+        }
+      ]
+    },
+    "neighborhoodcomics_com": {
+      "fingerprint": "019e3b03004faa4e81577db871b6623565eec346a2a04df8bbc0fb3f5d8bb995",
+      "domain": "neighborhoodcomics.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:16:33.882459+00:00",
+      "evidence": {
+        "domain": "neighborhoodcomics.com",
+        "route": "https://neighborhoodcomics.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:16:32.520081+00:00",
+        "requests": [
+          {
+            "url": "https://neighborhoodcomics.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "2d6c94fc5880c5da58c3a51251c64356703cfdc9b1893d79739e79a726a4cfcc"
+          },
+          {
+            "url": "https://neighborhoodcomics.com/products/eat-moths-vinyl-sticker?variant=41991486406692",
+            "sha256": "74abe5cb98daee300c98d25a5ffd777f77384ff4bc46ecacbf08bfc55060f024"
+          }
+        ],
+        "listing_records": 1,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 1,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "invalid_detail_gtin",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "REVIEW",
+          "reason": "invalid_detail_gtin",
+          "run_id": "39727047909"
+        }
+      ]
+    },
+    "newburycomics_com": {
+      "fingerprint": "4b7585f2795d6c20e0557b5badefc167c242a99eef949591b5466d2fe6215dbd",
+      "domain": "newburycomics.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:16:35.361515+00:00",
+      "evidence": {
+        "domain": "newburycomics.com",
+        "route": "https://newburycomics.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:16:33.909145+00:00",
+        "requests": [
+          {
+            "url": "https://newburycomics.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "2d333c5a8792b3bb6a6a6c752bc2143e9c95cacedaf2b8d67cf0bbee2d07271f"
+          },
+          {
+            "url": "https://newburycomics.com/products/trippie_redd-exclamation_mark_lp_color?variant=31185539629161",
+            "sha256": "b917a53f329430c5507d6da43851f9fa91188a158c6e4de52492fd1053da6609"
+          }
+        ],
+        "listing_records": 17,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 17,
+          "unique_prices": 10,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39727047909"
+        }
+      ]
+    },
+    "nftwrecords_com": {
+      "fingerprint": "660daf8fdd761473a1c7589d83cb1878c60c385816e3a210092d864b7ac777dc",
+      "domain": "nftwrecords.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:16:37.727641+00:00",
+      "evidence": {
+        "domain": "nftwrecords.com",
+        "route": "https://nftwrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:16:35.386721+00:00",
+        "requests": [
+          {
+            "url": "https://nftwrecords.com/products.json?limit=20&page=1",
+            "sha256": "9d7939f97c54ddaa679d28b06d7c67c35ee78afbb7bf2dc512d34b4c97bfc82c"
+          },
+          {
+            "url": "https://nftwrecords.com/products/spikepit-snake-eater-compilation-lp?variant=51348454932801",
+            "sha256": "b216f680a3be16ada39c213aec74af37588ca6b11cb1e43e1507f953144cffdf"
+          },
+          {
+            "url": "https://nftwrecords.com/products/tarantula-if-youre-sideways-im-upside-down?variant=50901044986177",
+            "sha256": "4474fc7ff39c90781f360b672f954d64ad37a8b7ade677a2db6b0911a6d5e1ef"
+          }
+        ],
+        "listing_records": 2,
+        "detail_checked": 2,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://nftwrecords.com/products/spikepit-snake-eater-compilation-lp?variant=51348454932801",
+            "price": "20.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://nftwrecords.com/products/tarantula-if-youre-sideways-im-upside-down?variant=50901044986177",
+            "price": "23.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 2,
+          "unique_prices": 2,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39727047909"
+        }
+      ]
+    },
+    "nhvintagevinyl_com": {
+      "fingerprint": "89b7279123b48e84305b57ee577097b5ea5a5ec7d087984e130eb75e5e70176f",
+      "domain": "nhvintagevinyl.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:16:41.352005+00:00",
+      "evidence": {
+        "domain": "nhvintagevinyl.com",
+        "route": "https://nhvintagevinyl.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:16:37.753043+00:00",
+        "requests": [
+          {
+            "url": "https://nhvintagevinyl.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "dec9f37d1baefefd150f383b3727c691531e562b5cc03a463742ccb7775eca3e"
+          },
+          {
+            "url": "https://nhvintagevinyl.com/products/uicideboy-i-want-to-die-in-new-orleans-lp-album-sil-mint-m-3?variant=48668686680289",
+            "sha256": "d85060622289381cb54a8f560f5a679883179c506e2f992e680089ed410a2c2e"
+          },
+          {
+            "url": "https://nhvintagevinyl.com/products/uicideboy-new-world-depression-lp-album-ltd-cok-mint-m?variant=48668704178401",
+            "sha256": "26090d12dc498a5ac5b92e21bd03f32b68eb641578dd0a71706c7af08c674a66"
+          },
+          {
+            "url": "https://nhvintagevinyl.com/products/uicideboy-thy-kingdom-come-lp-album-tra-mint-m?variant=48668686844129",
+            "sha256": "721a2faec9ec10ee0674aeb9126790aa56181562b322e97ce9c1c58012eb3069"
+          }
+        ],
+        "listing_records": 4,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://nhvintagevinyl.com/products/uicideboy-i-want-to-die-in-new-orleans-lp-album-sil-mint-m-3?variant=48668686680289",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00842812109140",
+            "condition": "new"
+          },
+          {
+            "url": "https://nhvintagevinyl.com/products/uicideboy-new-world-depression-lp-album-ltd-cok-mint-m?variant=48668704178401",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00198391598197",
+            "condition": "new"
+          },
+          {
+            "url": "https://nhvintagevinyl.com/products/uicideboy-thy-kingdom-come-lp-album-tra-mint-m?variant=48668686844129",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00199350824630",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 4,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "39727047909"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "nhvintagevinyl.com",
+        "route": "https://nhvintagevinyl.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:16:37.753043+00:00",
+        "requests": [
+          {
+            "url": "https://nhvintagevinyl.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "dec9f37d1baefefd150f383b3727c691531e562b5cc03a463742ccb7775eca3e"
+          },
+          {
+            "url": "https://nhvintagevinyl.com/products/uicideboy-i-want-to-die-in-new-orleans-lp-album-sil-mint-m-3?variant=48668686680289",
+            "sha256": "d85060622289381cb54a8f560f5a679883179c506e2f992e680089ed410a2c2e"
+          },
+          {
+            "url": "https://nhvintagevinyl.com/products/uicideboy-new-world-depression-lp-album-ltd-cok-mint-m?variant=48668704178401",
+            "sha256": "26090d12dc498a5ac5b92e21bd03f32b68eb641578dd0a71706c7af08c674a66"
+          },
+          {
+            "url": "https://nhvintagevinyl.com/products/uicideboy-thy-kingdom-come-lp-album-tra-mint-m?variant=48668686844129",
+            "sha256": "721a2faec9ec10ee0674aeb9126790aa56181562b322e97ce9c1c58012eb3069"
+          }
+        ],
+        "listing_records": 4,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://nhvintagevinyl.com/products/uicideboy-i-want-to-die-in-new-orleans-lp-album-sil-mint-m-3?variant=48668686680289",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00842812109140",
+            "condition": "new"
+          },
+          {
+            "url": "https://nhvintagevinyl.com/products/uicideboy-new-world-depression-lp-album-ltd-cok-mint-m?variant=48668704178401",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00198391598197",
+            "condition": "new"
+          },
+          {
+            "url": "https://nhvintagevinyl.com/products/uicideboy-thy-kingdom-come-lp-album-tra-mint-m?variant=48668686844129",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00199350824630",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 4,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "northwestgrooves_com": {
+      "fingerprint": "100274e5fcb20dddb1289d87df4053e755b934b5b78dd0e92b4daccfb119b9ac",
+      "domain": "northwestgrooves.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:16:44.713381+00:00",
+      "evidence": {
+        "domain": "northwestgrooves.com",
+        "route": "https://northwestgrooves.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:16:41.378923+00:00",
+        "requests": [
+          {
+            "url": "https://northwestgrooves.com/products.json?limit=20&page=1",
+            "sha256": "4d0c8487b7feba1121f1ba9001efc28d2868175f46e76abe2c28d6179fcc0e66"
+          },
+          {
+            "url": "https://northwestgrooves.com/products/rocky-erickson-and-the-aliens-self-titled?variant=52888982454503",
+            "sha256": "60879ecaa0ce0919b9ff7dbcf8647b3f3a05881eace5164b41fb064069aac06b"
+          },
+          {
+            "url": "https://northwestgrooves.com/products/genesis-nursery-cryme-1?variant=52888810422503",
+            "sha256": "6511891c4b110512a17880b8f696b52cc9f7d08b7c58f8280026997d05818ac3"
+          },
+          {
+            "url": "https://northwestgrooves.com/products/lauryn-hill-the-miseducation-of-lauryn-hill?variant=49774310031591",
+            "sha256": "2affa4e1a47c4fada1b113d576242df418a5c157be4264dec50f3affb4fdeaa7"
+          }
+        ],
+        "listing_records": 14,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://northwestgrooves.com/products/rocky-erickson-and-the-aliens-self-titled?variant=52888982454503",
+            "price": "27.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://northwestgrooves.com/products/genesis-nursery-cryme-1?variant=52888810422503",
+            "price": "30.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://northwestgrooves.com/products/lauryn-hill-the-miseducation-of-lauryn-hill?variant=49774310031591",
+            "price": "34.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 14,
+          "unique_prices": 7,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39727047909"
+        }
+      ]
+    },
+    "nudierecords_com": {
+      "fingerprint": "5c599953a67a7d5c0d596253dd3776ff7d31ed9afc4455cdbac3f5f01391e82f",
+      "domain": "nudierecords.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:16:44.953211+00:00",
+      "evidence": {
+        "domain": "nudierecords.com",
+        "route": "https://nudierecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:16:44.739313+00:00",
+        "requests": [
+          {
+            "url": "https://nudierecords.com/products.json?limit=20&page=1",
+            "sha256": "3f29fc21a43b0d91af9178d3a887c9c4ec9b5b39cfce55dd9479bc6db837c0a7"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "review",
+          "flags": [
+            "uniform_price_suspicious"
+          ],
+          "records_checked": 20,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "uniform_price_suspicious",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "REVIEW",
+          "reason": "uniform_price_suspicious",
+          "run_id": "39727047909"
+        }
+      ]
+    },
+    "nxvinyl_com": {
+      "fingerprint": "5d73ea4f3c28a6aad2fcd04322c19c5d1f8d25b0c9952b63af4093cb11df5c3d",
+      "domain": "nxvinyl.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:16:48.360656+00:00",
+      "evidence": {
+        "domain": "nxvinyl.com",
+        "route": "https://nxvinyl.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:16:44.978739+00:00",
+        "requests": [
+          {
+            "url": "https://nxvinyl.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "b182bcfc087e3869a5afe8040d3c9ca255018b1e75f566e6c29a9c0c6da94811"
+          },
+          {
+            "url": "https://nxvinyl.com/products/311-from-chaos?variant=44349650894935",
+            "sha256": "dffe7ae3a81b2333d43dfced10d5ad50b1d157865a499daf372f7fdd3af41f4a"
+          },
+          {
+            "url": "https://nxvinyl.com/products/animotion-animotionrock?variant=41767524991063",
+            "sha256": "c82ae021014aec9f05096f0ac73b1570354ddf64637c2c6bec0ff2ad4efd8999"
+          },
+          {
+            "url": "https://nxvinyl.com/products/beach-fossils-what-a-pleasure?variant=43470159052887",
+            "sha256": "e0eb44984ad8f1a801780ef8f338d1a3df99af8644d7f414d5328a57544bcc43"
+          }
+        ],
+        "listing_records": 14,
+        "detail_checked": 3,
+        "valid_eans": 2,
+        "details": [
+          {
+            "url": "https://nxvinyl.com/products/311-from-chaos?variant=44349650894935",
+            "price": "26.00",
+            "currency": "USD",
+            "ean": "00889853097012",
+            "condition": "new"
+          },
+          {
+            "url": "https://nxvinyl.com/products/animotion-animotionrock?variant=41767524991063",
+            "price": "20.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://nxvinyl.com/products/beach-fossils-what-a-pleasure?variant=43470159052887",
+            "price": "30.00",
+            "currency": "USD",
+            "ean": "00859575005503",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 14,
+          "unique_prices": 10,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "39727047909"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "nxvinyl.com",
+        "route": "https://nxvinyl.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:16:44.978739+00:00",
+        "requests": [
+          {
+            "url": "https://nxvinyl.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "b182bcfc087e3869a5afe8040d3c9ca255018b1e75f566e6c29a9c0c6da94811"
+          },
+          {
+            "url": "https://nxvinyl.com/products/311-from-chaos?variant=44349650894935",
+            "sha256": "dffe7ae3a81b2333d43dfced10d5ad50b1d157865a499daf372f7fdd3af41f4a"
+          },
+          {
+            "url": "https://nxvinyl.com/products/animotion-animotionrock?variant=41767524991063",
+            "sha256": "c82ae021014aec9f05096f0ac73b1570354ddf64637c2c6bec0ff2ad4efd8999"
+          },
+          {
+            "url": "https://nxvinyl.com/products/beach-fossils-what-a-pleasure?variant=43470159052887",
+            "sha256": "e0eb44984ad8f1a801780ef8f338d1a3df99af8644d7f414d5328a57544bcc43"
+          }
+        ],
+        "listing_records": 14,
+        "detail_checked": 3,
+        "valid_eans": 2,
+        "details": [
+          {
+            "url": "https://nxvinyl.com/products/311-from-chaos?variant=44349650894935",
+            "price": "26.00",
+            "currency": "USD",
+            "ean": "00889853097012",
+            "condition": "new"
+          },
+          {
+            "url": "https://nxvinyl.com/products/animotion-animotionrock?variant=41767524991063",
+            "price": "20.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://nxvinyl.com/products/beach-fossils-what-a-pleasure?variant=43470159052887",
+            "price": "30.00",
+            "currency": "USD",
+            "ean": "00859575005503",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 14,
+          "unique_prices": 10,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "oceanbeachpalletco_com": {
+      "fingerprint": "cafd26732a2630e564616aecee6e11e0040048645e192ecebdea93017f762992",
+      "domain": "oceanbeachpalletco.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:16:49.811745+00:00",
+      "evidence": {
+        "domain": "oceanbeachpalletco.com",
+        "route": "https://oceanbeachpalletco.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:16:48.387079+00:00",
+        "requests": [
+          {
+            "url": "https://oceanbeachpalletco.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "022dab882d3e65f059dc58607b55e07e214123474abe08beb926b15a93dca2b5"
+          },
+          {
+            "url": "https://oceanbeachpalletco.com/products/vinyl-record-storage-2sec?variant=31305563373650",
+            "sha256": "33a40cdfab5baee504e13512366cf16c093ae002571ca26cf9a727eec8d85037"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 10,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39727047909"
+        }
+      ]
+    },
+    "oldrockingchair_com": {
+      "fingerprint": "fff3237a0c5faf74ae57efc82c0a4201860c925a8694bafcc0645b56c82756ed",
+      "domain": "oldrockingchair.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:16:53.303380+00:00",
+      "evidence": {
+        "domain": "oldrockingchair.com",
+        "route": "https://oldrockingchair.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:16:49.837801+00:00",
+        "requests": [
+          {
+            "url": "https://oldrockingchair.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "47336701e0ff1a64ccded075670753559f5e308477f3e5e7ea2566fbcb33985e"
+          },
+          {
+            "url": "https://oldrockingchair.com/products/amyl-and-the-sniffers-truth-or-consequence-live-album-lp-mint-m?variant=49842919375076",
+            "sha256": "45690e4ff3c02a9ce78beecec7912ef8f177ed527e2b48065a6866a920d84a72"
+          },
+          {
+            "url": "https://oldrockingchair.com/products/chet-baker-it-could-happen-to-you-chet-baker-sings-lp-mint-m?variant=49315742843108",
+            "sha256": "66a0af6988a7d5c0eb28436599639d94a6b2f2f5f2733ce0985b4618053a3ce2"
+          },
+          {
+            "url": "https://oldrockingchair.com/products/dinosaur-jr-without-a-sound-lp-mint-m?variant=46712074010852",
+            "sha256": "dbf976513d120b87c3575332673ef985dd1de5a3ca6a52a1b0ba071afd90ff10"
+          }
+        ],
+        "listing_records": 14,
+        "detail_checked": 3,
+        "valid_eans": 2,
+        "details": [
+          {
+            "url": "https://oldrockingchair.com/products/amyl-and-the-sniffers-truth-or-consequence-live-album-lp-mint-m?variant=49842919375076",
+            "price": "30.98",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://oldrockingchair.com/products/chet-baker-it-could-happen-to-you-chet-baker-sings-lp-mint-m?variant=49315742843108",
+            "price": "20.98",
+            "currency": "USD",
+            "ean": "00889397217419",
+            "condition": "new"
+          },
+          {
+            "url": "https://oldrockingchair.com/products/dinosaur-jr-without-a-sound-lp-mint-m?variant=46712074010852",
+            "price": "45.98",
+            "currency": "USD",
+            "ean": "05013929175822",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 14,
+          "unique_prices": 13,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "39727047909"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "oldrockingchair.com",
+        "route": "https://oldrockingchair.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:16:49.837801+00:00",
+        "requests": [
+          {
+            "url": "https://oldrockingchair.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "47336701e0ff1a64ccded075670753559f5e308477f3e5e7ea2566fbcb33985e"
+          },
+          {
+            "url": "https://oldrockingchair.com/products/amyl-and-the-sniffers-truth-or-consequence-live-album-lp-mint-m?variant=49842919375076",
+            "sha256": "45690e4ff3c02a9ce78beecec7912ef8f177ed527e2b48065a6866a920d84a72"
+          },
+          {
+            "url": "https://oldrockingchair.com/products/chet-baker-it-could-happen-to-you-chet-baker-sings-lp-mint-m?variant=49315742843108",
+            "sha256": "66a0af6988a7d5c0eb28436599639d94a6b2f2f5f2733ce0985b4618053a3ce2"
+          },
+          {
+            "url": "https://oldrockingchair.com/products/dinosaur-jr-without-a-sound-lp-mint-m?variant=46712074010852",
+            "sha256": "dbf976513d120b87c3575332673ef985dd1de5a3ca6a52a1b0ba071afd90ff10"
+          }
+        ],
+        "listing_records": 14,
+        "detail_checked": 3,
+        "valid_eans": 2,
+        "details": [
+          {
+            "url": "https://oldrockingchair.com/products/amyl-and-the-sniffers-truth-or-consequence-live-album-lp-mint-m?variant=49842919375076",
+            "price": "30.98",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://oldrockingchair.com/products/chet-baker-it-could-happen-to-you-chet-baker-sings-lp-mint-m?variant=49315742843108",
+            "price": "20.98",
+            "currency": "USD",
+            "ean": "00889397217419",
+            "condition": "new"
+          },
+          {
+            "url": "https://oldrockingchair.com/products/dinosaur-jr-without-a-sound-lp-mint-m?variant=46712074010852",
+            "price": "45.98",
+            "currency": "USD",
+            "ean": "05013929175822",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 14,
+          "unique_prices": 13,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "omegamusicdayton_com": {
+      "fingerprint": "4f0d17b1cba1b899778b9129cc01961b423f4fc2e07464fd4bece2694cb98478",
+      "domain": "omegamusicdayton.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:16:55.670974+00:00",
+      "evidence": {
+        "domain": "omegamusicdayton.com",
+        "route": "https://omegamusicdayton.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:16:53.329858+00:00",
+        "requests": [
+          {
+            "url": "https://omegamusicdayton.com/products.json?limit=20&page=1",
+            "sha256": "9fad5f78fcdbe1240934fea7515a25b3de9b604d696d6bde17e681fb66e4b6fa"
+          },
+          {
+            "url": "https://omegamusicdayton.com/products/pre-order-rose-dogs-blackwood-pew-180-gram-uk-muireann-bradley?variant=67600781443290",
+            "sha256": "1745fe8e1c8a1b2d0306761f837f30de38710b90d005feace1bdbbc9b809b607"
+          },
+          {
+            "url": "https://omegamusicdayton.com/products/ungodly-hour-chrome-edition-chloe-x-halle?variant=67600460087514",
+            "sha256": "277dfe446846f57f026f5552efdf32811aca1342c6de7f4cb6b3d387cf3bd001"
+          }
+        ],
+        "listing_records": 10,
+        "detail_checked": 1,
+        "valid_eans": 1,
+        "details": [
+          {
+            "url": "https://omegamusicdayton.com/products/pre-order-rose-dogs-blackwood-pew-180-gram-uk-muireann-bradley?variant=67600781443290",
+            "price": "41.99",
+            "currency": "USD",
+            "ean": "00881061003007",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 10,
+          "unique_prices": 9,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39727047909"
+        }
+      ]
+    },
+    "oneoffrecordsllc_com": {
+      "fingerprint": "3902207df9042573d020272c1124f307ee64170fc73b178ef12841c51954b0ff",
+      "domain": "oneoffrecordsllc.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:16:57.262569+00:00",
+      "evidence": {
+        "domain": "oneoffrecordsllc.com",
+        "route": "https://oneoffrecordsllc.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:16:55.697827+00:00",
+        "requests": [
+          {
+            "url": "https://oneoffrecordsllc.com/products.json?limit=20&page=1",
+            "sha256": "497e935d85f6404feab05450f0a34c2cf9fb09988194a768b9a96a2109bbf7d0"
+          },
+          {
+            "url": "https://oneoffrecordsllc.com/products/eric-and-war-burdon-complete-vinyl-collection-4lp-multi-col?variant=68947518160930",
+            "sha256": "30153ac28c3f9126f11bdfb5a89802112cbc502f672d17b95eeecc329546dfc7"
+          }
+        ],
+        "listing_records": 8,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 8,
+          "unique_prices": 5,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39727047909"
+        }
+      ]
+    },
+    "orbitrecords_com": {
+      "fingerprint": "77f4834b17d066234c5a2c33a283b9dfcedc04e00859181946c39d8f6b9c9df2",
+      "domain": "orbitrecords.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:16:58.507139+00:00",
+      "evidence": {
+        "domain": "orbitrecords.com",
+        "route": "https://orbitrecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:16:57.288865+00:00",
+        "requests": [
+          {
+            "url": "https://orbitrecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "1a95f5a8b2c9d91170cb6327fbb0b42072b9e3749c60ae745566e0998319d161"
+          },
+          {
+            "url": "https://orbitrecords.com/products/uicideboy-i-want-to-die-in-new-orleans?variant=48764049817851",
+            "sha256": "5de5f1063992cb24ab333de6a04797429e686e22974e1e03ba63ea858d1644df"
+          }
+        ],
+        "listing_records": 12,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 12,
+          "unique_prices": 7,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39727047909"
+        }
+      ]
+    },
+    "pancakes_records_com": {
+      "fingerprint": "b9365760769b68628f7563819cf841e6e7d8ade2d99c07120e631a8a075c2b19",
+      "domain": "pancakes-records.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:17:01.748292+00:00",
+      "evidence": {
+        "domain": "pancakes-records.com",
+        "route": "https://pancakes-records.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:16:58.532865+00:00",
+        "requests": [
+          {
+            "url": "https://pancakes-records.com/products.json?limit=20&page=1",
+            "sha256": "1da046ca472a50dc20e7bf0220147298ad9caea1e35f6c5e3a776cd408908a9b"
+          },
+          {
+            "url": "https://pancakes-records.com/products/king-gizzard-and-the-lizard-wizard-murder-of-the-universe-green-yellow-color-vinyl?variant=67774522163507",
+            "sha256": "4c7283ffc1b9456d9cb1cc1a00d1b93c9acddaa60089b727d6200caaba5b204e"
+          },
+          {
+            "url": "https://pancakes-records.com/products/bloodhound-gang-show-us-your-hits-cream-color-vinyl?variant=67772879241523",
+            "sha256": "4d3475786790324afff6d8db187775d115e6668e82427ca237f9298fc83009d1"
+          },
+          {
+            "url": "https://pancakes-records.com/products/stone-temple-pilots-stone-temple-pilots-vinyl?variant=67747330162995",
+            "sha256": "885340a718041c2ffcaf110d1fb6469eb5a10c44c7fa06a71a9b94b0a08551a5"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://pancakes-records.com/products/king-gizzard-and-the-lizard-wizard-murder-of-the-universe-green-yellow-color-vinyl?variant=67774522163507",
+            "price": "30.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://pancakes-records.com/products/bloodhound-gang-show-us-your-hits-cream-color-vinyl?variant=67772879241523",
+            "price": "40.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://pancakes-records.com/products/stone-temple-pilots-stone-temple-pilots-vinyl?variant=67747330162995",
+            "price": "31.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 13,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39727047909"
+        }
+      ]
+    },
+    "parasolrecords_com": {
+      "fingerprint": "5e9e86641780d48b6960dd240520be7dfda2a4e596132342a3e1c3f60bb724f0",
+      "domain": "parasolrecords.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:17:05.182222+00:00",
+      "evidence": {
+        "domain": "parasolrecords.com",
+        "route": "https://parasolrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:17:01.774304+00:00",
+        "requests": [
+          {
+            "url": "https://parasolrecords.com/products.json?limit=20&page=1",
+            "sha256": "0adf16394e9496bf0912a0b24e4037d06b2927132a7339b1f3a02ddf75bba91d"
+          },
+          {
+            "url": "https://parasolrecords.com/products/teenage-fanclub-do-not-dare-to-dream-lp?variant=67700989100166",
+            "sha256": "be3ab335544f733b93e983d9fdf27862173dcb7b1ff2f06bd01e186ac972a0a8"
+          },
+          {
+            "url": "https://parasolrecords.com/products/go-betweens-tallulah-lp?variant=67700822474886",
+            "sha256": "eec9f569ad8380377408fac2490ef9959a5978fdd9d848bbdd70df42b76b483d"
+          },
+          {
+            "url": "https://parasolrecords.com/products/belair-lip-bombs-again-lp?variant=67662995161222",
+            "sha256": "6985154fe46cc331fbd0a1ed5a3d3761b76a080aafa1e2be2b16f6ad3688f929"
+          }
+        ],
+        "listing_records": 8,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://parasolrecords.com/products/teenage-fanclub-do-not-dare-to-dream-lp?variant=67700989100166",
+            "price": "24.98",
+            "currency": "USD",
+            "ean": "00673855089218",
+            "condition": "new"
+          },
+          {
+            "url": "https://parasolrecords.com/products/go-betweens-tallulah-lp?variant=67700822474886",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00607618216917",
+            "condition": "new"
+          },
+          {
+            "url": "https://parasolrecords.com/products/belair-lip-bombs-again-lp?variant=67662995161222",
+            "price": "23.98",
+            "currency": "USD",
+            "ean": "00810074425131",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 8,
+          "unique_prices": 5,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "39727047909"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "parasolrecords.com",
+        "route": "https://parasolrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:17:01.774304+00:00",
+        "requests": [
+          {
+            "url": "https://parasolrecords.com/products.json?limit=20&page=1",
+            "sha256": "0adf16394e9496bf0912a0b24e4037d06b2927132a7339b1f3a02ddf75bba91d"
+          },
+          {
+            "url": "https://parasolrecords.com/products/teenage-fanclub-do-not-dare-to-dream-lp?variant=67700989100166",
+            "sha256": "be3ab335544f733b93e983d9fdf27862173dcb7b1ff2f06bd01e186ac972a0a8"
+          },
+          {
+            "url": "https://parasolrecords.com/products/go-betweens-tallulah-lp?variant=67700822474886",
+            "sha256": "eec9f569ad8380377408fac2490ef9959a5978fdd9d848bbdd70df42b76b483d"
+          },
+          {
+            "url": "https://parasolrecords.com/products/belair-lip-bombs-again-lp?variant=67662995161222",
+            "sha256": "6985154fe46cc331fbd0a1ed5a3d3761b76a080aafa1e2be2b16f6ad3688f929"
+          }
+        ],
+        "listing_records": 8,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://parasolrecords.com/products/teenage-fanclub-do-not-dare-to-dream-lp?variant=67700989100166",
+            "price": "24.98",
+            "currency": "USD",
+            "ean": "00673855089218",
+            "condition": "new"
+          },
+          {
+            "url": "https://parasolrecords.com/products/go-betweens-tallulah-lp?variant=67700822474886",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00607618216917",
+            "condition": "new"
+          },
+          {
+            "url": "https://parasolrecords.com/products/belair-lip-bombs-again-lp?variant=67662995161222",
+            "price": "23.98",
+            "currency": "USD",
+            "ean": "00810074425131",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 8,
+          "unique_prices": 5,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "paul_rose_com": {
+      "fingerprint": "6370ae9da1b1a4383b793729c8271510d4cdaf8842e672fe64acd2f62d1388bb",
+      "domain": "paul-rose.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:17:08.754254+00:00",
+      "evidence": {
+        "domain": "paul-rose.com",
+        "route": "https://paul-rose.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:17:05.209271+00:00",
+        "requests": [
+          {
+            "url": "https://paul-rose.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "d86cd53b5dab8a33ec0738119f99303d061375657b0bba8ba14b1981024f7f70"
+          },
+          {
+            "url": "https://paul-rose.com/products/dreamgirls-original-broadway-cast-dreamgirls-original-broadway-cast-album-lp-album-jac-good-plus-g?variant=45733395071214",
+            "sha256": "3508ed1a80f3d953fe3ee5c07a168d95adfe17074ed8d68fd4f90fb0cc1790ff"
+          },
+          {
+            "url": "https://paul-rose.com/products/uicideboy-new-world-depression-lp-album-cok-mint-m?variant=45737475866862",
+            "sha256": "a52e0d8aa733b6d01fa02fad598033f820459730cae402d638ca16bce744c60c"
+          },
+          {
+            "url": "https://paul-rose.com/products/2-chainz-so-help-me-god-lp-album-mint-m?variant=45733547933934",
+            "sha256": "dff1376fe40aaa4cf9999b06962372599e88f58ff889cd4840dfbdb1cabfb244"
+          }
+        ],
+        "listing_records": 7,
+        "detail_checked": 3,
+        "valid_eans": 2,
+        "details": [
+          {
+            "url": "https://paul-rose.com/products/dreamgirls-original-broadway-cast-dreamgirls-original-broadway-cast-album-lp-album-jac-good-plus-g?variant=45733395071214",
+            "price": "6.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://paul-rose.com/products/uicideboy-new-world-depression-lp-album-cok-mint-m?variant=45737475866862",
+            "price": "27.99",
+            "currency": "USD",
+            "ean": "00198391598197",
+            "condition": "new"
+          },
+          {
+            "url": "https://paul-rose.com/products/2-chainz-so-help-me-god-lp-album-mint-m?variant=45733547933934",
+            "price": "34.99",
+            "currency": "USD",
+            "ean": "00602435442389",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 7,
+          "unique_prices": 7,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "39727047909"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "paul-rose.com",
+        "route": "https://paul-rose.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:17:05.209271+00:00",
+        "requests": [
+          {
+            "url": "https://paul-rose.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "d86cd53b5dab8a33ec0738119f99303d061375657b0bba8ba14b1981024f7f70"
+          },
+          {
+            "url": "https://paul-rose.com/products/dreamgirls-original-broadway-cast-dreamgirls-original-broadway-cast-album-lp-album-jac-good-plus-g?variant=45733395071214",
+            "sha256": "3508ed1a80f3d953fe3ee5c07a168d95adfe17074ed8d68fd4f90fb0cc1790ff"
+          },
+          {
+            "url": "https://paul-rose.com/products/uicideboy-new-world-depression-lp-album-cok-mint-m?variant=45737475866862",
+            "sha256": "a52e0d8aa733b6d01fa02fad598033f820459730cae402d638ca16bce744c60c"
+          },
+          {
+            "url": "https://paul-rose.com/products/2-chainz-so-help-me-god-lp-album-mint-m?variant=45733547933934",
+            "sha256": "dff1376fe40aaa4cf9999b06962372599e88f58ff889cd4840dfbdb1cabfb244"
+          }
+        ],
+        "listing_records": 7,
+        "detail_checked": 3,
+        "valid_eans": 2,
+        "details": [
+          {
+            "url": "https://paul-rose.com/products/dreamgirls-original-broadway-cast-dreamgirls-original-broadway-cast-album-lp-album-jac-good-plus-g?variant=45733395071214",
+            "price": "6.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://paul-rose.com/products/uicideboy-new-world-depression-lp-album-cok-mint-m?variant=45737475866862",
+            "price": "27.99",
+            "currency": "USD",
+            "ean": "00198391598197",
+            "condition": "new"
+          },
+          {
+            "url": "https://paul-rose.com/products/2-chainz-so-help-me-god-lp-album-mint-m?variant=45733547933934",
+            "price": "34.99",
+            "currency": "USD",
+            "ean": "00602435442389",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 7,
+          "unique_prices": 7,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "plaidroomrecords_com": {
+      "fingerprint": "eff7eecd51fb8ab0417be19cdc54f0e11df72857fabcb43092b797540329c6de",
+      "domain": "plaidroomrecords.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:17:10.147858+00:00",
+      "evidence": {
+        "domain": "plaidroomrecords.com",
+        "route": "https://plaidroomrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:17:08.781321+00:00",
+        "requests": [
+          {
+            "url": "https://plaidroomrecords.com/products.json?limit=20&page=1",
+            "sha256": "1e487372c6b50ef3f1aed5dab683a60746ab5a3239796ae25e6b69a0a648c27c"
+          },
+          {
+            "url": "https://plaidroomrecords.com/products/masayoshi-takanaka-alone-import-blue-red-vinyl?variant=43868429680701",
+            "sha256": "309d78cfbcd85614240188e0918da30c45e3055d243b82286bb2f9632be41de1"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 12,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39727047909"
+        }
+      ]
+    },
+    "plumcreekrecords_com": {
+      "fingerprint": "971e52551c5c08ad81cc487affc82b9305ef091b7b3ae91bbf7d6de9bdfaac7c",
+      "domain": "plumcreekrecords.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:17:13.439290+00:00",
+      "evidence": {
+        "domain": "plumcreekrecords.com",
+        "route": "https://plumcreekrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:17:10.174107+00:00",
+        "requests": [
+          {
+            "url": "https://plumcreekrecords.com/products.json?limit=20&page=1",
+            "sha256": "167e500c11115dfbee93e8f128b6c9aeb823a727d372de4f1deb0c6ffe891b59"
+          },
+          {
+            "url": "https://plumcreekrecords.com/products/my-morning-jacket-is-indie-exclusive-blue-iceberg-lp?variant=68224235208939",
+            "sha256": "106d7753be2756a56700816aef4a8a80c5d076b43c87619d10ed97d1a8c06a20"
+          },
+          {
+            "url": "https://plumcreekrecords.com/products/brittany-howard-live-from-austin-city-limits-lp?variant=49429502230763",
+            "sha256": "af96c37c31abe5ca2abdd03056670c921d95ef5e505d16d08e214ac1d1507983"
+          },
+          {
+            "url": "https://plumcreekrecords.com/products/v-a-the-sam-phillips-years-sun-records-curated-by-rsd-volume-9-lp?variant=49347247833323",
+            "sha256": "87322b43bd0c3e163508eca50cc645e5226f79dc08ad473c167a3e1ee9dea49f"
+          }
+        ],
+        "listing_records": 15,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://plumcreekrecords.com/products/my-morning-jacket-is-indie-exclusive-blue-iceberg-lp?variant=68224235208939",
+            "price": "27.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://plumcreekrecords.com/products/brittany-howard-live-from-austin-city-limits-lp?variant=49429502230763",
+            "price": "27.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://plumcreekrecords.com/products/v-a-the-sam-phillips-years-sun-records-curated-by-rsd-volume-9-lp?variant=49347247833323",
+            "price": "15.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 15,
+          "unique_prices": 10,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39727047909"
+        }
+      ]
+    },
+    "portofsoundrecords_com": {
+      "fingerprint": "38cfc6d98b172760f122487663856ba98bf6fb429f1f83dc955f8b653dea9e89",
+      "domain": "portofsoundrecords.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:17:14.707154+00:00",
+      "evidence": {
+        "domain": "portofsoundrecords.com",
+        "route": "https://portofsoundrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:17:13.466124+00:00",
+        "requests": [
+          {
+            "url": "https://portofsoundrecords.com/products.json?limit=20&page=1",
+            "sha256": "9514a33583443684866bec4601b0957bcda7ff2f0c0505f2875cf68b8ffb609d"
+          },
+          {
+            "url": "https://portofsoundrecords.com/products/precinct-3-scavenger?variant=67804486861120",
+            "sha256": "537fa54450e8f38a6a0bac37924099bec02c973394a26dfa675f0b61368572c9"
+          }
+        ],
+        "listing_records": 1,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 1,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39727047909"
+        }
+      ]
+    },
+    "primitiverecordings_com": {
+      "fingerprint": "97534f03858947cb3792cef874da1116c384d22bc018b75908c366199706a731",
+      "domain": "primitiverecordings.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:17:18.215332+00:00",
+      "evidence": {
+        "domain": "primitiverecordings.com",
+        "route": "https://primitiverecordings.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:17:14.733437+00:00",
+        "requests": [
+          {
+            "url": "https://primitiverecordings.com/products.json?limit=20&page=1",
+            "sha256": "06e113d7856900b280e7025011ae66f4f5f02503dbb072846583b5ca0defbf81"
+          },
+          {
+            "url": "https://primitiverecordings.com/products/kill-trend-suicide-12-neon-purple-vinyl-copy?variant=67749103206699",
+            "sha256": "ba69af2b583b3f6e9aef4998d54dc0ae15a3e8f7a16fc2c5f8c472b57fbc15cc"
+          },
+          {
+            "url": "https://primitiverecordings.com/products/defy-extinction-hot-pink-with-black-splatter-vinyl-record-copy?variant=67748911874347",
+            "sha256": "176e2f01f6f9b37123bd4bd422cca6ee51d27d40baaf5548687a5bbf44a186c7"
+          },
+          {
+            "url": "https://primitiverecordings.com/products/razor-live-12-2x-vinyl?variant=67748523409707",
+            "sha256": "91d4eaafc65e7f90de1a9835e889a85fb095805fb435d3e85fcbf4e9287c2d58"
+          }
+        ],
+        "listing_records": 12,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://primitiverecordings.com/products/kill-trend-suicide-12-neon-purple-vinyl-copy?variant=67749103206699",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://primitiverecordings.com/products/defy-extinction-hot-pink-with-black-splatter-vinyl-record-copy?variant=67748911874347",
+            "price": "24.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://primitiverecordings.com/products/razor-live-12-2x-vinyl?variant=67748523409707",
+            "price": "14.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 12,
+          "unique_prices": 8,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "39727047909"
+        }
+      ]
+    },
+    "prnrp_com": {
+      "fingerprint": "84e5c50f4171bfa9c41f9d8c6d4308d3f55c458d0b6e8f822bff804ecd394ba6",
+      "domain": "prnrp.com",
+      "batch": 5,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "39727047909",
+      "updated_at": "2026-10-22T05:17:19.672840+00:00",
+      "evidence": {
+        "domain": "prnrp.com",
+        "route": "https://prnrp.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-22T05:17:18.242338+00:00",
+        "requests": [
+          {
+            "url": "https://prnrp.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "571de4c53f5ae00769c2140e415086badd79c25ee260b2996903b1463e6ee2d3"
+          },
+          {
+            "url": "https://prnrp.com/products/i-got-you-babe-180g-yellow-vinyl-12-single-from-rob-zombies-the-munsters-movie?variant=41988983718060",
+            "sha256": "98195641529c9ad1ccc1cb48f85e3b037b1163939bf676664480452ae612a6f6"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 13,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 5,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "39727047909"
+        }
+      ]
     }
   },
-  "updated_at": "2026-10-21T05:14:12.509126+00:00",
-  "last_run_id": "39548302912"
+  "updated_at": "2026-10-22T05:17:19.672895+00:00",
+  "last_run_id": "39727047909"
 }
