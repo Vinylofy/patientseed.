@@ -3387,7 +3387,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | finersounds.com | 3 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE (run 39749402386) | run 39373494403 |
 | firetalk.shop | 3 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | firstcityrecordstore.com | 3 | REVIEW | 0 | 15 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| fortherecordnyc.com | 3 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 39373494403 |
+| fortherecordnyc.com | 3 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE (run 39749402386) | run 39373494403 |
 | frankiesrecords.com | 3 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | shipping_term_in_product_identity |
 | freshproducerecords.com | 3 | REVIEW | 0 | 13 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | fullhausrecords.com | 3 | REVIEW | 0 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
