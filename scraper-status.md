@@ -3384,7 +3384,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | experiencevinyl.com | 3 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | factoryrecords.com | 3 | APPROVED | 0 | 14 | 3/3 | ACTIVE (run 39918227311) | ACTIVE | run 39373494403 |
 | feelitrecordshop.com | 3 | REVIEW | 0 | 13 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| finersounds.com | 3 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 39373494403 |
+| finersounds.com | 3 | APPROVED | 0 | 20 | 3/3 | ACTIVE (run 39918227311) | ACTIVE | run 39373494403 |
 | firetalk.shop | 3 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | firstcityrecordstore.com | 3 | REVIEW | 0 | 15 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | fortherecordnyc.com | 3 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 39373494403 |
