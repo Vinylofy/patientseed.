@@ -3458,7 +3458,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | pukenvomitrecords.com | 6 | REVIEW | 0 | 7 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | queenbvinylcafe.com | 6 | REVIEW | 0 | 6 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | rebrecordsmd.com | 6 | REVIEW | 0 | 14 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| record-stop.com | 6 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE | run 39904748109 |
+| record-stop.com | 6 | APPROVED | 0 | 11 | 3/3 | ACTIVE (run 39918227311) | ACTIVE | run 39904748109 |
 | recordsonmain.com | 6 | REVIEW | 0 | 19 | 0/0 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
 | recordtowntx.com | 6 | REVIEW | 0 | 7 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | renaissancerecordsus.com | 6 | REVIEW | 0 | 20 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
