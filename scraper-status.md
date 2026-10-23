@@ -3439,7 +3439,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | nhvintagevinyl.com | 5 | APPROVED | 0 | 4 | 3/3 | ACTIVE | ACTIVE | run 39727047909 |
 | northwestgrooves.com | 5 | REVIEW | 0 | 14 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | nudierecords.com | 5 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | uniform_price_suspicious |
-| nxvinyl.com | 5 | APPROVED | 0 | 14 | 2/3 | ACTIVE | ACTIVE | run 39727047909 |
+| nxvinyl.com | 5 | APPROVED | 0 | 14 | 2/3 | ACTIVE (run 39918227311) | ACTIVE | run 39727047909 |
 | oceanbeachpalletco.com | 5 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | oldrockingchair.com | 5 | APPROVED | 0 | 14 | 2/3 | ACTIVE | ACTIVE | run 39727047909 |
 | omegamusicdayton.com | 5 | REVIEW | 0 | 10 | 1/1 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
