@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "batch": 6,
+  "batch": 7,
   "shops": {
     "10000hzrecords_com": {
       "fingerprint": "bd851743c2eee03c427913ea2a88bc94dfb0e74b1f11366277a07532ffcd9e33",
@@ -11329,8 +11329,1893 @@
           "run_id": "39904748109"
         }
       ]
+    },
+    "seattlerecords_net": {
+      "fingerprint": "d67f844885b21fcbc83bbef2906d3037c8ee169e808f97eb4597ddbc570c42e4",
+      "domain": "seattlerecords.net",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:57:19.795788+00:00",
+      "evidence": {
+        "domain": "seattlerecords.net",
+        "route": "https://seattlerecords.net/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:57:16.416745+00:00",
+        "requests": [
+          {
+            "url": "https://seattlerecords.net/collections/all/products.json?limit=20&page=1",
+            "sha256": "b4e927159b6245966f19340b68f648436c6869bc35620aeaeb1f82b37a971e51"
+          },
+          {
+            "url": "https://seattlerecords.net/products/uicideboy-long-terms-effects-of-suffering?variant=41002068541463",
+            "sha256": "ae2a2470d2285802991f91b38b0a1039e78a5553cebc1373ff64986d6b48d7d4"
+          },
+          {
+            "url": "https://seattlerecords.net/products/abba-greatest-hits-lp?variant=40582264258583",
+            "sha256": "a772ac8800b88ad180f4f71c41419c3c3458779955faa4ac68b9574e8b4e734a"
+          },
+          {
+            "url": "https://seattlerecords.net/products/alan-menken-howard-ashman-little-shop-of-horrors-soundtrack-vinyl-record?variant=40151371612183",
+            "sha256": "9b062b7672ed086595a5018f4de9248fbf22bbb2f3ac44f5345dc0c79df7d729"
+          }
+        ],
+        "listing_records": 13,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://seattlerecords.net/products/uicideboy-long-terms-effects-of-suffering?variant=41002068541463",
+            "price": "34.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://seattlerecords.net/products/abba-greatest-hits-lp?variant=40582264258583",
+            "price": "28.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://seattlerecords.net/products/alan-menken-howard-ashman-little-shop-of-horrors-soundtrack-vinyl-record?variant=40151371612183",
+            "price": "32.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 13,
+          "unique_prices": 9,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "40064351096"
+        }
+      ]
+    },
+    "shakeitrecords_com": {
+      "fingerprint": "d73d1de15eeaedf61f05113e926df3cb7c65f9abcc0166c1b9c947bb577439bb",
+      "domain": "shakeitrecords.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:57:21.271404+00:00",
+      "evidence": {
+        "domain": "shakeitrecords.com",
+        "route": "https://shakeitrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:57:19.823800+00:00",
+        "requests": [
+          {
+            "url": "https://shakeitrecords.com/products.json?limit=20&page=1",
+            "sha256": "10d2c718346f21118390f73dd2d5b58bf37ee122495e397ff9a8d4bd86c7aec1"
+          },
+          {
+            "url": "https://shakeitrecords.com/products/logan-halstead-dark-black-coal-lp-shake-it-exclusive-signed-copy?variant=67633459069158",
+            "sha256": "cf43b1c211cabca312030d21fd6f254d9ad74c3ccc419538fe86ac7a950b4936"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 13,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40064351096"
+        }
+      ]
+    },
+    "shangri_com": {
+      "fingerprint": "b3414c6a7d705833be3138ff84cf804e435eb7fbe1af1b7840e45d089563ccd4",
+      "domain": "shangri.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:57:27.606369+00:00",
+      "evidence": {
+        "domain": "shangri.com",
+        "route": "https://shangri.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "observed_at": "2026-10-24T04:57:21.300120+00:00",
+        "requests": [
+          {
+            "url": "https://shangri.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+            "sha256": "60e0d99f1bcc71ce145df888f30bed34b9734ab0b75ea150c7e3b06aae463efb"
+          },
+          {
+            "url": "https://shangri.com/product/al-green-greatest-hits/",
+            "sha256": "6cd1bf9ea0ef2742a4d1952651589b0926187f1e270aa5bf018cd1ab572e3b68"
+          }
+        ],
+        "listing_records": 1,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 1,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40064351096"
+        }
+      ]
+    },
+    "shop_horrorpaingoredeath_com": {
+      "fingerprint": "5c2461b6a86d1f4b9748e2f617bfb5c9cce9831b68c92f9324e4e0885bc703b4",
+      "domain": "shop.horrorpaingoredeath.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:57:29.098800+00:00",
+      "evidence": {
+        "domain": "shop.horrorpaingoredeath.com",
+        "route": "https://shop.horrorpaingoredeath.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:57:27.635123+00:00",
+        "requests": [
+          {
+            "url": "https://shop.horrorpaingoredeath.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "9d3d6f94def4fbb5c25e5d0c1c086e0dc07affdb60a2a0746c4bf0c38da40e8f"
+          },
+          {
+            "url": "https://shop.horrorpaingoredeath.com/products/abscess-horrorhammer-12-inch-gatefold-record-limited-deluxe-edition?variant=43611866366208",
+            "sha256": "a8b892d04ecdb99861694ef35b7d43bda4184882125f61533b3104403fe20df4"
+          }
+        ],
+        "listing_records": 4,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 4,
+          "unique_prices": 3,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40064351096"
+        }
+      ]
+    },
+    "shop_strictlydiscs_com": {
+      "fingerprint": "6679c4646117f12447e32e50da6fd121220cde4420f2a676a34294a994c3e54f",
+      "domain": "shop.strictlydiscs.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:57:30.396121+00:00",
+      "evidence": {
+        "domain": "shop.strictlydiscs.com",
+        "route": "https://shop.strictlydiscs.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:57:29.127242+00:00",
+        "requests": [
+          {
+            "url": "https://shop.strictlydiscs.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "9367d1b746d025020105ad0a6c5c61fc637c89e58190edd054fbfc475c34fe38"
+          },
+          {
+            "url": "https://shop.strictlydiscs.com/products/louden-up-now?variant=45004714672324",
+            "sha256": "d6476d8c6a1382e731a05f9f488107f786afd2a1babf4d7db53353ea2942ff90"
+          }
+        ],
+        "listing_records": 8,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 8,
+          "unique_prices": 8,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40064351096"
+        }
+      ]
+    },
+    "shopcreep_com": {
+      "fingerprint": "dc86040a6c65e838083d5cbc2b7890cdaf6d8b7e7c41c86f8799efe12fbfb5be",
+      "domain": "shopcreep.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:57:33.754271+00:00",
+      "evidence": {
+        "domain": "shopcreep.com",
+        "route": "https://shopcreep.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:57:30.424508+00:00",
+        "requests": [
+          {
+            "url": "https://shopcreep.com/products.json?limit=20&page=1",
+            "sha256": "2189cdf5c22a924c473524a92fd21d362c78eea509b44526015798c6237bd047"
+          },
+          {
+            "url": "https://shopcreep.com/products/grey-area-silence-lp-lavender-vinyl-pre-order?variant=67717776572547",
+            "sha256": "b03680a6cf0a4f57c1b7155e54c6198f905df59d9434ff99d1d81f946e590e13"
+          },
+          {
+            "url": "https://shopcreep.com/products/teddy-duchamps-army-the-spirit-never-dies-lp-cherry-or-citrus-torrent-vinyl-pre-order?variant=47788821414019",
+            "sha256": "41f8ec02ccef3004b1c2cd6566f4c11c3026960f09cb0957f7f06aa5329c74b8"
+          },
+          {
+            "url": "https://shopcreep.com/products/chemical-x-is-this-tomorrow-lp-green-or-orange-vinyl?variant=47238489931907",
+            "sha256": "60cff8504abf727e4d32ecb470e36877f6e2d1210f9b03b6df468ed98b93c54d"
+          }
+        ],
+        "listing_records": 12,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://shopcreep.com/products/grey-area-silence-lp-lavender-vinyl-pre-order?variant=67717776572547",
+            "price": "27.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://shopcreep.com/products/teddy-duchamps-army-the-spirit-never-dies-lp-cherry-or-citrus-torrent-vinyl-pre-order?variant=47788821414019",
+            "price": "25.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://shopcreep.com/products/chemical-x-is-this-tomorrow-lp-green-or-orange-vinyl?variant=47238489931907",
+            "price": "25.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 12,
+          "unique_prices": 3,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "40064351096"
+        }
+      ]
+    },
+    "shopflipsiderecords_com": {
+      "fingerprint": "ff5ed242a8550a8ba3fe53fe82c0f86d7cc980dce8297f44d3472ea6f3b0ca1b",
+      "domain": "shopflipsiderecords.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:57:34.364988+00:00",
+      "evidence": {
+        "domain": "shopflipsiderecords.com",
+        "route": "https://shopflipsiderecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:57:33.948395+00:00",
+        "requests": [
+          {
+            "url": "https://shopflipsiderecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "e6c40393a69ef3d3bf7ba143618086d72b549a5c4acf5a59bb9c94b19657af98"
+          }
+        ],
+        "listing_records": 11,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "review",
+          "flags": [
+            "shipping_term_in_product_identity"
+          ],
+          "records_checked": 11,
+          "unique_prices": 8,
+          "shipping_hits": 1,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "shipping_term_in_product_identity",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "shipping_term_in_product_identity",
+          "run_id": "40064351096"
+        }
+      ]
+    },
+    "shopsatmarsbeads_com": {
+      "fingerprint": "6c2ed1013792aa94ecf0aa9b882f23f247dbcdb39a8e1be74855c0992b6eb1aa",
+      "domain": "shopsatmarsbeads.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:57:35.748720+00:00",
+      "evidence": {
+        "domain": "shopsatmarsbeads.com",
+        "route": "https://shopsatmarsbeads.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:57:34.393199+00:00",
+        "requests": [
+          {
+            "url": "https://shopsatmarsbeads.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "b53c279181961b22717d48d0796dc8464472ba665d6454cffdaccc52ca7c092c"
+          },
+          {
+            "url": "https://shopsatmarsbeads.com/products/10000-russos-kompromat-vinyl-m?variant=46843801927829",
+            "sha256": "c7bc4b7c36b78a6f733633cc66a743c61070ada184b9f0aab02dc4e07bcc1992"
+          }
+        ],
+        "listing_records": 1,
+        "detail_checked": 1,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://shopsatmarsbeads.com/products/10000-russos-kompromat-vinyl-m?variant=46843801927829",
+            "price": "45.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 1,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "40064351096"
+        }
+      ]
+    },
+    "shugarecords_com": {
+      "fingerprint": "60189d19e3f7c66eea9bae62c6b8492e737961095e79965ea175643e60e226ea",
+      "domain": "shugarecords.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:57:37.351227+00:00",
+      "evidence": {
+        "domain": "shugarecords.com",
+        "route": "https://shugarecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:57:35.778729+00:00",
+        "requests": [
+          {
+            "url": "https://shugarecords.com/products.json?limit=20&page=1",
+            "sha256": "ea4991219907081533ce8d1f67ae8b07c07efdb9f83866f6a3f1230521fad78a"
+          },
+          {
+            "url": "https://shugarecords.com/products/traveling-wilburys-traveling-wilburys-vol-3-1990-new-lp-record-2026-dark-horse-vinyl-classic-rock?variant=48408476549318",
+            "sha256": "31cb55ed406d5de1047fa48bb29a338214909bfbe60cce1a7a34094f6044ec9e"
+          }
+        ],
+        "listing_records": 1,
+        "detail_checked": 1,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://shugarecords.com/products/traveling-wilburys-traveling-wilburys-vol-3-1990-new-lp-record-2026-dark-horse-vinyl-classic-rock?variant=48408476549318",
+            "price": "28.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 1,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "40064351096"
+        }
+      ]
+    },
+    "sirenrecordsmonterey_com": {
+      "fingerprint": "eb8e7239730f0185a2780b98bd6b490381eeb4f1587c6f7bc54610cf0d6342c9",
+      "domain": "sirenrecordsmonterey.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:57:39.725019+00:00",
+      "evidence": {
+        "domain": "sirenrecordsmonterey.com",
+        "route": "https://sirenrecordsmonterey.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:57:37.379614+00:00",
+        "requests": [
+          {
+            "url": "https://sirenrecordsmonterey.com/products.json?limit=20&page=1",
+            "sha256": "3e4d20cd2aaa62bdfa59af5a81c30d5e162b4b77b227a4a8d9a9bf7524827695"
+          },
+          {
+            "url": "https://sirenrecordsmonterey.com/products/stand-atlantic-godbreath-new-sealed-limited-edition-orange-colored-vinyl-lp?variant=67848078131519",
+            "sha256": "68cb82ff2a6ac4adc454987dede93b77ca756473d143131a55a929e22ba883ce"
+          },
+          {
+            "url": "https://sirenrecordsmonterey.com/products/randy-newman-sail-away-180g-new-sealed-black-vinyl-record-lp?variant=67847365591359",
+            "sha256": "475f1a3d1c616b7b9abe6ef5db4b65e31cf421224998df9db083a014d152ffe3"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 1,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://sirenrecordsmonterey.com/products/stand-atlantic-godbreath-new-sealed-limited-edition-orange-colored-vinyl-lp?variant=67848078131519",
+            "price": "32.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 11,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40064351096"
+        }
+      ]
+    },
+    "skeletondustrecords_com": {
+      "fingerprint": "525f3c06410c15435f031ad7f1a089b6f11058715d200bfce2da8880396b9e9f",
+      "domain": "skeletondustrecords.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:57:43.323143+00:00",
+      "evidence": {
+        "domain": "skeletondustrecords.com",
+        "route": "https://skeletondustrecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:57:39.753198+00:00",
+        "requests": [
+          {
+            "url": "https://skeletondustrecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "cad743e1464d026fe98bb2805bb442e18354fb0cfa8e5686885db95f6c4bccc2"
+          },
+          {
+            "url": "https://skeletondustrecords.com/products/uicideboy-i-want-to-die-in-new-orleans-lp-m?variant=67690387996745",
+            "sha256": "374dad8ead32926777d0c6226b760ce1b9cd3016c9ca8728203991b68f1f4c00"
+          },
+          {
+            "url": "https://skeletondustrecords.com/products/uicideboy-thy-kingdom-come-lp-m?variant=67600477519945",
+            "sha256": "88dc28025f8e2aac03326a9101e2d0a77f2a63f1ebd4c6ab1455575719bbb68c"
+          },
+          {
+            "url": "https://skeletondustrecords.com/products/__-___-night-of-fire-lp-album-mint-m?variant=54523488862281",
+            "sha256": "079a210e7952742e65bf85d4d6c21605342e3c065844e2eb4420e4e8ca3dc7fc"
+          }
+        ],
+        "listing_records": 3,
+        "detail_checked": 2,
+        "valid_eans": 2,
+        "details": [
+          {
+            "url": "https://skeletondustrecords.com/products/uicideboy-i-want-to-die-in-new-orleans-lp-m?variant=67690387996745",
+            "price": "26.00",
+            "currency": "USD",
+            "ean": "00842812109126",
+            "condition": "new"
+          },
+          {
+            "url": "https://skeletondustrecords.com/products/uicideboy-thy-kingdom-come-lp-m?variant=67600477519945",
+            "price": "28.00",
+            "currency": "USD",
+            "ean": "00199350824630",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 3,
+          "unique_prices": 3,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "invalid_detail_gtin",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "invalid_detail_gtin",
+          "run_id": "40064351096"
+        }
+      ]
+    },
+    "skeletunesrecords_com": {
+      "fingerprint": "c310a8b6d211f70d9d02074abc837f2e5f942bf60c19c075d92ec1013195bbcb",
+      "domain": "skeletunesrecords.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:57:44.689477+00:00",
+      "evidence": {
+        "domain": "skeletunesrecords.com",
+        "route": "https://skeletunesrecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:57:43.351083+00:00",
+        "requests": [
+          {
+            "url": "https://skeletunesrecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "ad7de7a81bf5dea3ac869cf040c2886c9e59b2874fab4e16e61b69f6b47d852e"
+          },
+          {
+            "url": "https://skeletunesrecords.com/products/1000-homo-djs-supernaut-magenta-black-white-haze-splatter?variant=51428495327530",
+            "sha256": "cb3f5513b7b57d1756c2a131e51462189d3ec17c99926c2f5df696f1cbe6ecdb"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 13,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40064351096"
+        }
+      ]
+    },
+    "skyvalleyrecords_com": {
+      "fingerprint": "d0a8da905ed98e36095141523ef24feaa626dd51aed9e141f2ea6c164b25713f",
+      "domain": "skyvalleyrecords.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:57:48.080981+00:00",
+      "evidence": {
+        "domain": "skyvalleyrecords.com",
+        "route": "https://skyvalleyrecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:57:44.717282+00:00",
+        "requests": [
+          {
+            "url": "https://skyvalleyrecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "6f119b0ce7a4c5aefcea02646071af652056917d7d9e7a4b26b1fd069799603f"
+          },
+          {
+            "url": "https://skyvalleyrecords.com/products/uicideboy-long-term-effects-of-suffering-glow-green-vinyl-lp?variant=45860874223799",
+            "sha256": "a34e67afd662b0d3b808fe5d33efbc4a4fee8f085c83bef58930f92decd93381"
+          },
+          {
+            "url": "https://skyvalleyrecords.com/products/and-you-will-know-us-by-the-trail-of-dead-ix-180-gram-blue-vinyl-individually-numbered-lp?variant=48770950725815",
+            "sha256": "c7a18505acbaeae0597d6b4ac6f635a2816b29a9f417cb21dd7f66bc532cb942"
+          },
+          {
+            "url": "https://skyvalleyrecords.com/products/156-silence-narrative-clear-with-black-bone-splatter-lp-limited-to-500?variant=48628375748791",
+            "sha256": "ce1401b74ccb74a2667d26fdb8b373b7f0de2b828074dbb25d1057b518e90358"
+          }
+        ],
+        "listing_records": 15,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://skyvalleyrecords.com/products/uicideboy-long-term-effects-of-suffering-glow-green-vinyl-lp?variant=45860874223799",
+            "price": "26.98",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://skyvalleyrecords.com/products/and-you-will-know-us-by-the-trail-of-dead-ix-180-gram-blue-vinyl-individually-numbered-lp?variant=48770950725815",
+            "price": "24.98",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://skyvalleyrecords.com/products/156-silence-narrative-clear-with-black-bone-splatter-lp-limited-to-500?variant=48628375748791",
+            "price": "31.98",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 15,
+          "unique_prices": 9,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "40064351096"
+        }
+      ]
+    },
+    "sleevecityusa_com": {
+      "fingerprint": "1bce66fd505cf5568c03f8f4090b19b21fe63fbc30974c6b38977c816c93c431",
+      "domain": "sleevecityusa.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:57:49.462156+00:00",
+      "evidence": {
+        "domain": "sleevecityusa.com",
+        "route": "https://sleevecityusa.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:57:48.108871+00:00",
+        "requests": [
+          {
+            "url": "https://sleevecityusa.com/products.json?limit=20&page=1",
+            "sha256": "0a4dcce83885199489e05a656880b23db7d0250706713e66b65e2ef50f3b5a21"
+          },
+          {
+            "url": "https://sleevecityusa.com/products/mobile-fidelity-heavyweight-inner-sleeves-50-pack?variant=41315556163648",
+            "sha256": "04931f9efd91f00d0bfaaa597c476d2144560a9c22727c7de8d049f8b5f677d0"
+          }
+        ],
+        "listing_records": 8,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 8,
+          "unique_prices": 7,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40064351096"
+        }
+      ]
+    },
+    "soldoutvinylrecords_com": {
+      "fingerprint": "a0ead5b65abbfeacedd55f62a116050eab3a7f66c173aee3406bfd0f7cdc3f89",
+      "domain": "soldoutvinylrecords.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:57:52.804989+00:00",
+      "evidence": {
+        "domain": "soldoutvinylrecords.com",
+        "route": "https://soldoutvinylrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:57:49.492129+00:00",
+        "requests": [
+          {
+            "url": "https://soldoutvinylrecords.com/products.json?limit=20&page=1",
+            "sha256": "c79e9ff2d1afb4a05662d6cf257fff8574d54e1b7db5aea6bbe8fa0bc787e98b"
+          },
+          {
+            "url": "https://soldoutvinylrecords.com/products/creedence-clearwater-revival-cosmo-s-factory-mint-m-rock-lp-album-re-red?variant=49823289049384",
+            "sha256": "08b678d9547c32b5b84492c15e4e65371688d4eb8e66d53c1efd988f60a1f6c5"
+          },
+          {
+            "url": "https://soldoutvinylrecords.com/products/louis-armstrong-louis-wishes-you-a-cool-yule-mint-m-jazz-lp-comp-ltd-gre?variant=67962173030696",
+            "sha256": "d242cadeef32362c339dd1c957c0fb50075e717608f5cec3d708b13fbaf019a0"
+          },
+          {
+            "url": "https://soldoutvinylrecords.com/products/chet-baker-quartet-chet-baker-quartet-mint-m-jazz-lp-album-mono-ltd-re-rm-180?variant=67962170671400",
+            "sha256": "428af9f07549a210cbb6f43ceb5b063601751b95609298fc9a526a2a9d63e2ed"
+          }
+        ],
+        "listing_records": 6,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://soldoutvinylrecords.com/products/creedence-clearwater-revival-cosmo-s-factory-mint-m-rock-lp-album-re-red?variant=49823289049384",
+            "price": "25.98",
+            "currency": "USD",
+            "ean": "00888072643703",
+            "condition": "new"
+          },
+          {
+            "url": "https://soldoutvinylrecords.com/products/louis-armstrong-louis-wishes-you-a-cool-yule-mint-m-jazz-lp-comp-ltd-gre?variant=67962173030696",
+            "price": "42.98",
+            "currency": "USD",
+            "ean": "00602455735706",
+            "condition": "new"
+          },
+          {
+            "url": "https://soldoutvinylrecords.com/products/chet-baker-quartet-chet-baker-quartet-mint-m-jazz-lp-album-mono-ltd-re-rm-180?variant=67962170671400",
+            "price": "32.98",
+            "currency": "USD",
+            "ean": "00602465347180",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 6,
+          "unique_prices": 5,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "40064351096"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "soldoutvinylrecords.com",
+        "route": "https://soldoutvinylrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:57:49.492129+00:00",
+        "requests": [
+          {
+            "url": "https://soldoutvinylrecords.com/products.json?limit=20&page=1",
+            "sha256": "c79e9ff2d1afb4a05662d6cf257fff8574d54e1b7db5aea6bbe8fa0bc787e98b"
+          },
+          {
+            "url": "https://soldoutvinylrecords.com/products/creedence-clearwater-revival-cosmo-s-factory-mint-m-rock-lp-album-re-red?variant=49823289049384",
+            "sha256": "08b678d9547c32b5b84492c15e4e65371688d4eb8e66d53c1efd988f60a1f6c5"
+          },
+          {
+            "url": "https://soldoutvinylrecords.com/products/louis-armstrong-louis-wishes-you-a-cool-yule-mint-m-jazz-lp-comp-ltd-gre?variant=67962173030696",
+            "sha256": "d242cadeef32362c339dd1c957c0fb50075e717608f5cec3d708b13fbaf019a0"
+          },
+          {
+            "url": "https://soldoutvinylrecords.com/products/chet-baker-quartet-chet-baker-quartet-mint-m-jazz-lp-album-mono-ltd-re-rm-180?variant=67962170671400",
+            "sha256": "428af9f07549a210cbb6f43ceb5b063601751b95609298fc9a526a2a9d63e2ed"
+          }
+        ],
+        "listing_records": 6,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://soldoutvinylrecords.com/products/creedence-clearwater-revival-cosmo-s-factory-mint-m-rock-lp-album-re-red?variant=49823289049384",
+            "price": "25.98",
+            "currency": "USD",
+            "ean": "00888072643703",
+            "condition": "new"
+          },
+          {
+            "url": "https://soldoutvinylrecords.com/products/louis-armstrong-louis-wishes-you-a-cool-yule-mint-m-jazz-lp-comp-ltd-gre?variant=67962173030696",
+            "price": "42.98",
+            "currency": "USD",
+            "ean": "00602455735706",
+            "condition": "new"
+          },
+          {
+            "url": "https://soldoutvinylrecords.com/products/chet-baker-quartet-chet-baker-quartet-mint-m-jazz-lp-album-mono-ltd-re-rm-180?variant=67962170671400",
+            "price": "32.98",
+            "currency": "USD",
+            "ean": "00602465347180",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 6,
+          "unique_prices": 5,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "solstarecords_com": {
+      "fingerprint": "542c927ade10092f661f3953dc6e0ba2d700a6ae2e65c572a982b40c96add884",
+      "domain": "solstarecords.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:57:54.070533+00:00",
+      "evidence": {
+        "domain": "solstarecords.com",
+        "route": "https://solstarecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:57:52.833585+00:00",
+        "requests": [
+          {
+            "url": "https://solstarecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "118f21c8c953767f6b262d76da40191cf60420aea518d61aacc683432b8cae1a"
+          },
+          {
+            "url": "https://solstarecords.com/products/chk-chk-chk-let-it-be-blue-blue-lp?variant=40011574673494",
+            "sha256": "e3f3f1cd6c907614170e99892742ac922704e2d2ca2c4db016a02cfdce742643"
+          }
+        ],
+        "listing_records": 4,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 4,
+          "unique_prices": 3,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40064351096"
+        }
+      ]
+    },
+    "sookvinyl_com": {
+      "fingerprint": "0b2fe4045b03ef56410352513bcea7ff028821b5561e610862e738f3a8991c97",
+      "domain": "sookvinyl.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:57:57.445724+00:00",
+      "evidence": {
+        "domain": "sookvinyl.com",
+        "route": "https://sookvinyl.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:57:54.099019+00:00",
+        "requests": [
+          {
+            "url": "https://sookvinyl.com/products.json?limit=20&page=1",
+            "sha256": "a0cd07595f3c93adf00e31d1d7ea933d5fc831afdba2efa360e40778dc6bc2fa"
+          },
+          {
+            "url": "https://sookvinyl.com/products/1990-george-michael-listen-without-prejudice-vinyl-record-hype-shrink?variant=47419410907379",
+            "sha256": "7e1086f2dc18a6d4dd78a039595d37d4fba1e060d238955e132a06884339d628"
+          },
+          {
+            "url": "https://sookvinyl.com/products/lou-donaldson-here-tis-blue-note-lp-vinyl-grant-green-84066-shrink?variant=47429646123251",
+            "sha256": "9aa901ae906e8454d42c21d70da2810552c300fba5b628a1798f8ade9c2c8492"
+          },
+          {
+            "url": "https://sookvinyl.com/products/shinehead-lp-vinyl-record-unity-1988-elektra-60802-1?variant=47990781575411",
+            "sha256": "0aaf855675a5946f4ceeed9f5b3d3e1bca1c7679833743132c754b012ddb9a5e"
+          }
+        ],
+        "listing_records": 3,
+        "detail_checked": 3,
+        "valid_eans": 1,
+        "details": [
+          {
+            "url": "https://sookvinyl.com/products/1990-george-michael-listen-without-prejudice-vinyl-record-hype-shrink?variant=47419410907379",
+            "price": "50.00",
+            "currency": "USD",
+            "ean": "00074644689815",
+            "condition": "new"
+          },
+          {
+            "url": "https://sookvinyl.com/products/lou-donaldson-here-tis-blue-note-lp-vinyl-grant-green-84066-shrink?variant=47429646123251",
+            "price": "64.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://sookvinyl.com/products/shinehead-lp-vinyl-record-unity-1988-elektra-60802-1?variant=47990781575411",
+            "price": "19.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 3,
+          "unique_prices": 3,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "40064351096"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "sookvinyl.com",
+        "route": "https://sookvinyl.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:57:54.099019+00:00",
+        "requests": [
+          {
+            "url": "https://sookvinyl.com/products.json?limit=20&page=1",
+            "sha256": "a0cd07595f3c93adf00e31d1d7ea933d5fc831afdba2efa360e40778dc6bc2fa"
+          },
+          {
+            "url": "https://sookvinyl.com/products/1990-george-michael-listen-without-prejudice-vinyl-record-hype-shrink?variant=47419410907379",
+            "sha256": "7e1086f2dc18a6d4dd78a039595d37d4fba1e060d238955e132a06884339d628"
+          },
+          {
+            "url": "https://sookvinyl.com/products/lou-donaldson-here-tis-blue-note-lp-vinyl-grant-green-84066-shrink?variant=47429646123251",
+            "sha256": "9aa901ae906e8454d42c21d70da2810552c300fba5b628a1798f8ade9c2c8492"
+          },
+          {
+            "url": "https://sookvinyl.com/products/shinehead-lp-vinyl-record-unity-1988-elektra-60802-1?variant=47990781575411",
+            "sha256": "0aaf855675a5946f4ceeed9f5b3d3e1bca1c7679833743132c754b012ddb9a5e"
+          }
+        ],
+        "listing_records": 3,
+        "detail_checked": 3,
+        "valid_eans": 1,
+        "details": [
+          {
+            "url": "https://sookvinyl.com/products/1990-george-michael-listen-without-prejudice-vinyl-record-hype-shrink?variant=47419410907379",
+            "price": "50.00",
+            "currency": "USD",
+            "ean": "00074644689815",
+            "condition": "new"
+          },
+          {
+            "url": "https://sookvinyl.com/products/lou-donaldson-here-tis-blue-note-lp-vinyl-grant-green-84066-shrink?variant=47429646123251",
+            "price": "64.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://sookvinyl.com/products/shinehead-lp-vinyl-record-unity-1988-elektra-60802-1?variant=47990781575411",
+            "price": "19.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 3,
+          "unique_prices": 3,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "sorrystaterecords_com": {
+      "fingerprint": "c3eaf5d1a0b4a7be09be2f0c607b32125066ce8e0580c2d88dfb5fc14e19a994",
+      "domain": "sorrystaterecords.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:57:58.962724+00:00",
+      "evidence": {
+        "domain": "sorrystaterecords.com",
+        "route": "https://sorrystaterecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:57:57.474591+00:00",
+        "requests": [
+          {
+            "url": "https://sorrystaterecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "fcdfb031d6956ab0898dd1e182621800e3e7083830721214a2cae457dc574e70"
+          },
+          {
+            "url": "https://sorrystaterecords.com/products/uicideboy-new-world-depression-12-indie-exclusive?variant=45813607235838",
+            "sha256": "ce35681193b07ab4e92dbf51848665922330a0d3d415f63982a9a28d36beb736"
+          }
+        ],
+        "listing_records": 4,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 4,
+          "unique_prices": 3,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40064351096"
+        }
+      ]
+    },
+    "soulstoprecords_com": {
+      "fingerprint": "a7e498450b416112ce72befd57649621c6a384ea2481dcec692ea65d67826bae",
+      "domain": "soulstoprecords.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:58:02.315679+00:00",
+      "evidence": {
+        "domain": "soulstoprecords.com",
+        "route": "https://soulstoprecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:57:58.991134+00:00",
+        "requests": [
+          {
+            "url": "https://soulstoprecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "873beaaaae93cdf9a663c2417c9eefa0c239ca8598c66ea3f7851b9c7e596594"
+          },
+          {
+            "url": "https://soulstoprecords.com/products/21-savage-metro-boomin-savage-mode-colored-vinyl-lp-sony?variant=55400725905707",
+            "sha256": "4072a7da5a83bc571df403a7aaf910f67685703749284d6d84ad605dfc430333"
+          },
+          {
+            "url": "https://soulstoprecords.com/products/aesop-rock-i-heard-it-s-a-mess-there-too-apple-red-opaque-lp-rhymesayers-entertainment?variant=51595877318955",
+            "sha256": "c7d570151a9a9096c70f72a628a94bfd5006ba90f733c578fefb1b5db9deb951"
+          },
+          {
+            "url": "https://soulstoprecords.com/products/alice-coltrane-journey-in-satchidananda-verve-acoustic-series-lp-verve?variant=50390051750187",
+            "sha256": "f664697c4723501e0f27a363ac3f20d4d43d3bd35cf9550c0c8aa37b14aaafd2"
+          }
+        ],
+        "listing_records": 18,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://soulstoprecords.com/products/21-savage-metro-boomin-savage-mode-colored-vinyl-lp-sony?variant=55400725905707",
+            "price": "30.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://soulstoprecords.com/products/aesop-rock-i-heard-it-s-a-mess-there-too-apple-red-opaque-lp-rhymesayers-entertainment?variant=51595877318955",
+            "price": "30.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://soulstoprecords.com/products/alice-coltrane-journey-in-satchidananda-verve-acoustic-series-lp-verve?variant=50390051750187",
+            "price": "36.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 18,
+          "unique_prices": 8,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "40064351096"
+        }
+      ]
+    },
+    "soundbendrecords_co": {
+      "fingerprint": "8acc3643e1110063605f995c0801c55728d1a2ef6a456493ed37a071f1323e7d",
+      "domain": "soundbendrecords.co",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:58:05.726974+00:00",
+      "evidence": {
+        "domain": "soundbendrecords.co",
+        "route": "https://soundbendrecords.co/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:58:02.344431+00:00",
+        "requests": [
+          {
+            "url": "https://soundbendrecords.co/collections/all/products.json?limit=20&page=1",
+            "sha256": "cb058271878345504ccb82c7f19fd0f4af3eb45276a7bbba4d3f02f366b881a6"
+          },
+          {
+            "url": "https://soundbendrecords.co/products/lp-vinyl-1?variant=48134647644418",
+            "sha256": "02b3eab762b9c3d0033e696477352fc70c7938d67577aad08ccdaa6ae0eea654"
+          },
+          {
+            "url": "https://soundbendrecords.co/products/and-his-mother-called-him-bill-vinyl?variant=48134869909762",
+            "sha256": "9cad459c1f5b2c33d9a9ce486ff0655fcc55b095f185d174d8764ba62bc1d0aa"
+          },
+          {
+            "url": "https://soundbendrecords.co/products/forever-loves-fool-vinyl?variant=47211930714370",
+            "sha256": "5122f8d1374a34d73263aadf44c41217f2c02776d8c9b4c03fd1430b55830718"
+          }
+        ],
+        "listing_records": 17,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://soundbendrecords.co/products/lp-vinyl-1?variant=48134647644418",
+            "price": "28.99",
+            "currency": "USD",
+            "ean": "00602445152506",
+            "condition": "new"
+          },
+          {
+            "url": "https://soundbendrecords.co/products/and-his-mother-called-him-bill-vinyl?variant=48134869909762",
+            "price": "35.99",
+            "currency": "USD",
+            "ean": "04260019712301",
+            "condition": "new"
+          },
+          {
+            "url": "https://soundbendrecords.co/products/forever-loves-fool-vinyl?variant=47211930714370",
+            "price": "21.99",
+            "currency": "USD",
+            "ean": "00634457097261",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 17,
+          "unique_prices": 16,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "40064351096"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "soundbendrecords.co",
+        "route": "https://soundbendrecords.co/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:58:02.344431+00:00",
+        "requests": [
+          {
+            "url": "https://soundbendrecords.co/collections/all/products.json?limit=20&page=1",
+            "sha256": "cb058271878345504ccb82c7f19fd0f4af3eb45276a7bbba4d3f02f366b881a6"
+          },
+          {
+            "url": "https://soundbendrecords.co/products/lp-vinyl-1?variant=48134647644418",
+            "sha256": "02b3eab762b9c3d0033e696477352fc70c7938d67577aad08ccdaa6ae0eea654"
+          },
+          {
+            "url": "https://soundbendrecords.co/products/and-his-mother-called-him-bill-vinyl?variant=48134869909762",
+            "sha256": "9cad459c1f5b2c33d9a9ce486ff0655fcc55b095f185d174d8764ba62bc1d0aa"
+          },
+          {
+            "url": "https://soundbendrecords.co/products/forever-loves-fool-vinyl?variant=47211930714370",
+            "sha256": "5122f8d1374a34d73263aadf44c41217f2c02776d8c9b4c03fd1430b55830718"
+          }
+        ],
+        "listing_records": 17,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://soundbendrecords.co/products/lp-vinyl-1?variant=48134647644418",
+            "price": "28.99",
+            "currency": "USD",
+            "ean": "00602445152506",
+            "condition": "new"
+          },
+          {
+            "url": "https://soundbendrecords.co/products/and-his-mother-called-him-bill-vinyl?variant=48134869909762",
+            "price": "35.99",
+            "currency": "USD",
+            "ean": "04260019712301",
+            "condition": "new"
+          },
+          {
+            "url": "https://soundbendrecords.co/products/forever-loves-fool-vinyl?variant=47211930714370",
+            "price": "21.99",
+            "currency": "USD",
+            "ean": "00634457097261",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 17,
+          "unique_prices": 16,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "soundplatters_com": {
+      "fingerprint": "cc69897bbd98069c27fcffd64e2781344924bd0a02d5df267e2973a30e233deb",
+      "domain": "soundplatters.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:58:09.035392+00:00",
+      "evidence": {
+        "domain": "soundplatters.com",
+        "route": "https://soundplatters.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:58:05.755667+00:00",
+        "requests": [
+          {
+            "url": "https://soundplatters.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "07a6de9bb1a53d9874e24f28ce5198892ea0f93dfaf95069f295bac767547ce0"
+          },
+          {
+            "url": "https://soundplatters.com/products/singles-original-motion-picture-sountrack-lpx2?variant=45637119508537",
+            "sha256": "b1055f3086ed2777f5a25f3cc07ac62a1ee1af3a944abc04bf28cc898e448301"
+          },
+          {
+            "url": "https://soundplatters.com/products/2pac-the-best-of-2pac-part1-thug-lpx2?variant=43742882037817",
+            "sha256": "27025928a308b359764d234ecae19ee3d5175ab2dc833712694209c42fa741ee"
+          },
+          {
+            "url": "https://soundplatters.com/products/4-skins-the-wonderful-world-of-the-4-skins-lp-red-vinyl?variant=43854700150841",
+            "sha256": "034f08b2f7861746d12653d3cdfca7b81451f3f3607ccbed97cf40720fe017f7"
+          }
+        ],
+        "listing_records": 19,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://soundplatters.com/products/singles-original-motion-picture-sountrack-lpx2?variant=45637119508537",
+            "price": "37.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://soundplatters.com/products/2pac-the-best-of-2pac-part1-thug-lpx2?variant=43742882037817",
+            "price": "37.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://soundplatters.com/products/4-skins-the-wonderful-world-of-the-4-skins-lp-red-vinyl?variant=43854700150841",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 19,
+          "unique_prices": 11,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "40064351096"
+        }
+      ]
+    },
+    "southmetromusic_com": {
+      "fingerprint": "5b45e5099d89bad20ec01fc8a4f353da290e3504613d1acd18b809cf74b5a831",
+      "domain": "southmetromusic.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:58:12.405268+00:00",
+      "evidence": {
+        "domain": "southmetromusic.com",
+        "route": "https://southmetromusic.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:58:09.063909+00:00",
+        "requests": [
+          {
+            "url": "https://southmetromusic.com/products.json?limit=20&page=1",
+            "sha256": "cb6ccb95f6b113447db589749ac2d957e2647297340a5fb8ee324351f648425f"
+          },
+          {
+            "url": "https://southmetromusic.com/products/pre-order-space-art-of-space-disco-1977-1978-lp?variant=48316381462754",
+            "sha256": "aa4967e62582fc2ecdb966ba680705e67c635d422e8a86866fa6e6917e4ab79b"
+          },
+          {
+            "url": "https://southmetromusic.com/products/the-simpsons-simpsons-main-title-theme-monorail-song-o-s-t-lp?variant=67666425250018",
+            "sha256": "7295de8d800e178b3426fcee2dc40c033ec93acfac949749d59bf7871d314550"
+          },
+          {
+            "url": "https://southmetromusic.com/products/pre-order-peacemaker-season-two-various-o-s-t-colv-peacemaker-season-two-various-o-s-t-colored-vinyl?variant=47145480257762",
+            "sha256": "8095b420d3fe4a03926f5375e465e17ef99c5c77fb01662ab29c4537d0dfcb5a"
+          }
+        ],
+        "listing_records": 10,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://southmetromusic.com/products/pre-order-space-art-of-space-disco-1977-1978-lp?variant=48316381462754",
+            "price": "37.99",
+            "currency": "USD",
+            "ean": "05056556169857",
+            "condition": "new"
+          },
+          {
+            "url": "https://southmetromusic.com/products/the-simpsons-simpsons-main-title-theme-monorail-song-o-s-t-lp?variant=67666425250018",
+            "price": "79.99",
+            "currency": "USD",
+            "ean": "00050087607364",
+            "condition": "new"
+          },
+          {
+            "url": "https://southmetromusic.com/products/pre-order-peacemaker-season-two-various-o-s-t-colv-peacemaker-season-two-various-o-s-t-colored-vinyl?variant=47145480257762",
+            "price": "33.99",
+            "currency": "USD",
+            "ean": "00810155841478",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 10,
+          "unique_prices": 10,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "40064351096"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "southmetromusic.com",
+        "route": "https://southmetromusic.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:58:09.063909+00:00",
+        "requests": [
+          {
+            "url": "https://southmetromusic.com/products.json?limit=20&page=1",
+            "sha256": "cb6ccb95f6b113447db589749ac2d957e2647297340a5fb8ee324351f648425f"
+          },
+          {
+            "url": "https://southmetromusic.com/products/pre-order-space-art-of-space-disco-1977-1978-lp?variant=48316381462754",
+            "sha256": "aa4967e62582fc2ecdb966ba680705e67c635d422e8a86866fa6e6917e4ab79b"
+          },
+          {
+            "url": "https://southmetromusic.com/products/the-simpsons-simpsons-main-title-theme-monorail-song-o-s-t-lp?variant=67666425250018",
+            "sha256": "7295de8d800e178b3426fcee2dc40c033ec93acfac949749d59bf7871d314550"
+          },
+          {
+            "url": "https://southmetromusic.com/products/pre-order-peacemaker-season-two-various-o-s-t-colv-peacemaker-season-two-various-o-s-t-colored-vinyl?variant=47145480257762",
+            "sha256": "8095b420d3fe4a03926f5375e465e17ef99c5c77fb01662ab29c4537d0dfcb5a"
+          }
+        ],
+        "listing_records": 10,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://southmetromusic.com/products/pre-order-space-art-of-space-disco-1977-1978-lp?variant=48316381462754",
+            "price": "37.99",
+            "currency": "USD",
+            "ean": "05056556169857",
+            "condition": "new"
+          },
+          {
+            "url": "https://southmetromusic.com/products/the-simpsons-simpsons-main-title-theme-monorail-song-o-s-t-lp?variant=67666425250018",
+            "price": "79.99",
+            "currency": "USD",
+            "ean": "00050087607364",
+            "condition": "new"
+          },
+          {
+            "url": "https://southmetromusic.com/products/pre-order-peacemaker-season-two-various-o-s-t-colv-peacemaker-season-two-various-o-s-t-colored-vinyl?variant=47145480257762",
+            "price": "33.99",
+            "currency": "USD",
+            "ean": "00810155841478",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 10,
+          "unique_prices": 10,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "spinsterrecords_com": {
+      "fingerprint": "8c89089cce90148455be656953d437330799a83428d7856925c933cb7dbf96aa",
+      "domain": "spinsterrecords.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:58:14.037330+00:00",
+      "evidence": {
+        "domain": "spinsterrecords.com",
+        "route": "https://spinsterrecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:58:12.434599+00:00",
+        "requests": [
+          {
+            "url": "https://spinsterrecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "c471d6f34715b1f3bdba88cb0c15f59745102bdc5dee56c1b3a9a03d05bc2286"
+          },
+          {
+            "url": "https://spinsterrecords.com/products/let-it-be-blue?variant=40068433608787",
+            "sha256": "150bf68f9641709c381bbf2d0990c07b06fd03d2545c33087d4a170f16a98277"
+          }
+        ],
+        "listing_records": 14,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 14,
+          "unique_prices": 8,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40064351096"
+        }
+      ]
+    },
+    "spintimerecords_com": {
+      "fingerprint": "1301ccc2f9fefa7db72778d181c9d4fd69a97254e33a8c1d4d94516a452c3253",
+      "domain": "spintimerecords.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:58:15.470708+00:00",
+      "evidence": {
+        "domain": "spintimerecords.com",
+        "route": "https://spintimerecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:58:14.066499+00:00",
+        "requests": [
+          {
+            "url": "https://spintimerecords.com/products.json?limit=20&page=1",
+            "sha256": "49d62514870e1a7eed285a994a306c2a6d2c77826262a30a9f152caefc5892f9"
+          },
+          {
+            "url": "https://spintimerecords.com/products/rumble-in-the-jungle-2lp?variant=71685752520957",
+            "sha256": "e0e1c37105176ac6ea737946e314aeabef30d009e53c540d8010975cc7829b9b"
+          }
+        ],
+        "listing_records": 5,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 5,
+          "unique_prices": 4,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40064351096"
+        }
+      ]
+    },
+    "spoonfulrecordsohio_com": {
+      "fingerprint": "cffdbb196c4fd943f5dd7acf7230272007f908720b1af4712fc3d2ff73a316de",
+      "domain": "spoonfulrecordsohio.com",
+      "batch": 7,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40064351096",
+      "updated_at": "2026-10-24T04:58:18.757715+00:00",
+      "evidence": {
+        "domain": "spoonfulrecordsohio.com",
+        "route": "https://spoonfulrecordsohio.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-24T04:58:15.499436+00:00",
+        "requests": [
+          {
+            "url": "https://spoonfulrecordsohio.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "a9e33abfda1cf20c5aeacb4c3b44ddd844a691cce4ae8b4c4a349884f6bf56d9"
+          },
+          {
+            "url": "https://spoonfulrecordsohio.com/products/why-moh-lhean?variant=33593277382794",
+            "sha256": "f7151931a1fa12ee2edea783d1e0e4065d8afac5393b8c8f696252c137232314"
+          },
+          {
+            "url": "https://spoonfulrecordsohio.com/products/alice-in-chains-self-titled-3-legged-dog?variant=71559280001277",
+            "sha256": "81ba354a3406e20361d82712d172c0bdbb4813658a181f280e4c574763cfa86d"
+          },
+          {
+            "url": "https://spoonfulrecordsohio.com/products/anderson-paak-knxwledge-nxworries-yes-lawd?variant=33686683517066",
+            "sha256": "1fe1ee34409f6e6388bc76116a8b4bff42f381b52822cd6c41c360ee24dde7af"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://spoonfulrecordsohio.com/products/why-moh-lhean?variant=33593277382794",
+            "price": "35.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://spoonfulrecordsohio.com/products/alice-in-chains-self-titled-3-legged-dog?variant=71559280001277",
+            "price": "37.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://spoonfulrecordsohio.com/products/anderson-paak-knxwledge-nxworries-yes-lawd?variant=33686683517066",
+            "price": "25.00",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 13,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 7,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "40064351096"
+        }
+      ]
     }
   },
-  "updated_at": "2026-10-23T05:16:37.613022+00:00",
-  "last_run_id": "39904748109"
+  "updated_at": "2026-10-24T04:58:18.757776+00:00",
+  "last_run_id": "40064351096"
 }
