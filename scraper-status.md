@@ -3525,7 +3525,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | theingroove.com | 8 | APPROVED | 0 | 20 | 3/3 | ACTIVE (run 40173287462) | ACTIVE | run 40164542697 |
 | therecordloftatl.com | 8 | REVIEW | 0 | 2 | 0/2 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | therecordspace.com | 8 | REVIEW | 0 | 12 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| thevinylgrooverecords.com | 8 | APPROVED | 0 | 13 | 3/3 | ACTIVE | ACTIVE | run 40164542697 |
+| thevinylgrooverecords.com | 8 | APPROVED | 0 | 13 | 3/3 | ACTIVE (run 40173287462) | ACTIVE | run 40164542697 |
 | thevinylstand.com | 8 | REVIEW | 0 | 5 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | thevinyluniverse.com | 8 | APPROVED | 0 | 7 | 3/3 | ACTIVE (run 40173287462) | ACTIVE | run 40164542697 |
 <!-- quality-gate:end -->
