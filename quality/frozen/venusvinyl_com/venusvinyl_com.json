@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "domain": "venusvinyl.com",
+  "platform": "shopify",
+  "adapter_class": "ShopifyNewVinylAdapter",
+  "catalog_route": "https://venusvinyl.com/products.json?limit=20&page=1",
+  "discovery_method": {
+    "platform": "shopify",
+    "route": "https://venusvinyl.com/products.json?limit=20&page=1",
+    "score": 215,
+    "selection": "highest_bounded_adapter_score"
+  },
+  "method_candidates": [
+    {
+      "platform": "shopify",
+      "route": "https://venusvinyl.com/products.json?limit=20&page=1",
+      "score": 215,
+      "products_seen": 22,
+      "accepted": 21,
+      "excluded": 1,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://venusvinyl.com/collections/all/products.json?limit=20&page=1",
+      "score": 205,
+      "products_seen": 20,
+      "accepted": 20,
+      "excluded": 0,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "woocommerce",
+      "route": "https://venusvinyl.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_400"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://venusvinyl.com/api/0.1/collections/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://venusvinyl.com/api/0.1/collections/all/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://venusvinyl.com/api/storefront/products?limit=20&offset=0",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://venusvinyl.com/api/storefront/products?limit=20",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    }
+  ],
+  "listing_sample": 20,
+  "detail_checked": 2,
+  "detail_gtin_valid": 0,
+  "currency": "GBP",
+  "currency_source": "public_storefront_Shopify.currency",
+  "currency_source_url": "https://venusvinyl.com/",
+  "release_status": "SCRAPER_BUILT_TESTED"
+}
