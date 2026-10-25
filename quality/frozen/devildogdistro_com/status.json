@@ -1,0 +1,56 @@
+{
+  "fingerprint": "34984820c44b796d14cccd68ecd1906257ce79f53d95dba40ae37327bbfbeef2",
+  "domain": "devildogdistro.com",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:23.678463+00:00",
+  "evidence": {
+    "domain": "devildogdistro.com",
+    "route": "https://devildogdistro.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:23.285806+00:00",
+    "requests": [
+      {
+        "url": "https://devildogdistro.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "950c15224487cf253a4a48e6a73d067813da60be22e0075da0f93a9971134b07"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "40240002837"
+    }
+  ]
+}
