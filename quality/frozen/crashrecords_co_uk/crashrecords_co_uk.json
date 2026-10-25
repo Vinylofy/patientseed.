@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "domain": "crashrecords.co.uk",
+  "platform": "shopify",
+  "adapter_class": "ShopifyNewVinylAdapter",
+  "catalog_route": "https://crashrecords.co.uk/products.json?limit=20&page=1",
+  "discovery_method": {
+    "platform": "shopify",
+    "route": "https://crashrecords.co.uk/products.json?limit=20&page=1",
+    "score": 155,
+    "selection": "highest_bounded_adapter_score"
+  },
+  "method_candidates": [
+    {
+      "platform": "shopify",
+      "route": "https://crashrecords.co.uk/products.json?limit=20&page=1",
+      "score": 155,
+      "products_seen": 21,
+      "accepted": 15,
+      "excluded": 6,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://crashrecords.co.uk/collections/all/products.json?limit=20&page=1",
+      "score": 75,
+      "products_seen": 21,
+      "accepted": 7,
+      "excluded": 14,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "woocommerce",
+      "route": "https://crashrecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_400"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://crashrecords.co.uk/api/0.1/collections/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://crashrecords.co.uk/api/0.1/collections/all/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://crashrecords.co.uk/api/storefront/products?limit=20&offset=0",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://crashrecords.co.uk/api/storefront/products?limit=20",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    }
+  ],
+  "listing_sample": 15,
+  "detail_checked": 2,
+  "detail_gtin_valid": 2,
+  "currency": "GBP",
+  "currency_source": "public_storefront_Shopify.currency",
+  "currency_source_url": "https://crashrecords.co.uk/",
+  "release_status": "SCRAPER_BUILT_TESTED"
+}
