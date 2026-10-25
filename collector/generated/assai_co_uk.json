@@ -3,21 +3,21 @@
   "domain": "assai.co.uk",
   "platform": "shopify",
   "adapter_class": "ShopifyNewVinylAdapter",
-  "catalog_route": "https://assai.co.uk/products.json?limit=20&page=1",
+  "catalog_route": "https://assai.co.uk/collections/all/products.json?limit=20&page=1",
   "discovery_method": {
     "platform": "shopify",
-    "route": "https://assai.co.uk/products.json?limit=20&page=1",
-    "score": 185,
+    "route": "https://assai.co.uk/collections/all/products.json?limit=20&page=1",
+    "score": 175,
     "selection": "highest_bounded_adapter_score"
   },
   "method_candidates": [
     {
       "platform": "shopify",
       "route": "https://assai.co.uk/products.json?limit=20&page=1",
-      "score": 185,
+      "score": 155,
       "products_seen": 20,
-      "accepted": 18,
-      "excluded": 2,
+      "accepted": 15,
+      "excluded": 5,
       "status": "ADAPTER_PARSED"
     },
     {
@@ -65,8 +65,11 @@
       "reason": "HTTP_404"
     }
   ],
-  "listing_sample": 18,
+  "listing_sample": 17,
   "detail_checked": 2,
   "detail_gtin_valid": 0,
+  "currency": "GBP",
+  "currency_source": "public_storefront_Shopify.currency",
+  "currency_source_url": "https://assai.co.uk/",
   "release_status": "SCRAPER_BUILT_TESTED"
 }
