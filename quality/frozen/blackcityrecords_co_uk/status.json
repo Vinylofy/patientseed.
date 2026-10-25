@@ -1,0 +1,100 @@
+{
+  "fingerprint": "aa779aad38bc277da1cb3fdff7c911ce62967b91b956bf57739241a3eec42623",
+  "domain": "blackcityrecords.co.uk",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:21.730455+00:00",
+  "evidence": {
+    "domain": "blackcityrecords.co.uk",
+    "route": "https://blackcityrecords.co.uk/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:18.168713+00:00",
+    "requests": [
+      {
+        "url": "https://blackcityrecords.co.uk/products.json?limit=20&page=1",
+        "sha256": "800421e28ef5e14f5afe2dbe7349867d79dcc458fd1a283db4ef0fd7ca33c904"
+      },
+      {
+        "url": "https://blackcityrecords.co.uk/products/obituary-darkest-day-2lp-gold-vinyl?variant=59066630144374",
+        "sha256": "26d6c34f3ededcbba98bab61b660b5bf964ff7791f1c84284a69516bea82caa9"
+      },
+      {
+        "url": "https://blackcityrecords.co.uk/products/exhumed-death-revenge-lp?variant=58934037348726",
+        "sha256": "7823bbb65d6466b4ebbb18ef463585cd305cb1c5dde005e68ab79708204ab345"
+      },
+      {
+        "url": "https://blackcityrecords.co.uk/products/igorrr-amen-lp?variant=58880372146550",
+        "sha256": "83c931e2625c0affb56dfe45993956edce2938778b437ba32224377f246fac17"
+      }
+    ],
+    "listing_records": 18,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://blackcityrecords.co.uk/products/obituary-darkest-day-2lp-gold-vinyl?variant=59066630144374",
+        "price": "26.00",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://blackcityrecords.co.uk/products/exhumed-death-revenge-lp?variant=58934037348726",
+        "price": "23.00",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://blackcityrecords.co.uk/products/igorrr-amen-lp?variant=58880372146550",
+        "price": "25.00",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 18,
+      "unique_prices": 8,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40240002837"
+    }
+  ]
+}
