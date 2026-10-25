@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "batch": 9,
+  "batch": 10,
   "shops": {
     "10000hzrecords_com": {
       "fingerprint": "bd851743c2eee03c427913ea2a88bc94dfb0e74b1f11366277a07532ffcd9e33",
@@ -900,28 +900,30 @@
       ]
     },
     "assai_co_uk": {
-      "fingerprint": "ef13eb591fa651054a4e291cb9825712547d628e6d0f431be03282327d943052",
+      "fingerprint": "aca91b7db41e672bf37debb7d912ebf4fb6ff8b0fdfa6eac43c607b8d414eab3",
       "domain": "assai.co.uk",
-      "batch": 1,
+      "batch": 10,
       "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
       "status": "REVIEW",
-      "run_id": "39155794450",
-      "updated_at": "2026-10-18T18:48:28.875421+00:00",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:20:25.981401+00:00",
       "evidence": {
         "domain": "assai.co.uk",
-        "route": "https://assai.co.uk/products.json?limit=20&page=1",
-        "observed_at": "2026-10-18T18:48:27.457288+00:00",
+        "route": "https://assai.co.uk/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:20:24.675733+00:00",
         "requests": [
           {
-            "url": "https://assai.co.uk/products.json?limit=20&page=1",
-            "sha256": "75e430ad859953d702eae97fa673c749a98daca85a018713fb96a134b8cf40f7"
+            "url": "https://assai.co.uk/collections/all/products.json?limit=20&page=1",
+            "sha256": "a1a5056d745f93b7e53f69bd75827b92d57cc86e8ecb541ef75eaa2881a00537"
           },
           {
-            "url": "https://assai.co.uk/products/kneecap-3cag-vinyl-lp-assai-exclusive-baggie-crystal-clear-colour-due-out-25-09-26?variant=58071540072831",
-            "sha256": "b6afc5eb83286bcce2347087feee96268059fa6bbccc8578d91e4219dce15304"
+            "url": "https://assai.co.uk/products/as-if-lp-vinyl-new-33rpm?variant=27018230792",
+            "sha256": "7261e430bcfd9dc86a22d1736235825313d33e07bf481cdb2a813a961033249f"
           }
         ],
-        "listing_records": 18,
+        "listing_records": 17,
         "detail_checked": 0,
         "valid_eans": 0,
         "details": [],
@@ -929,11 +931,11 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 18,
-          "unique_prices": 11,
+          "records_checked": 17,
+          "unique_prices": 10,
           "shipping_hits": 0,
           "currencies": [
-            "USD"
+            "GBP"
           ]
         },
         "status": "REVIEW",
@@ -942,10 +944,10 @@
       },
       "history": [
         {
-          "batch": 1,
+          "batch": 10,
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
-          "run_id": "39155794450"
+          "run_id": "40239702760"
         }
       ]
     },
@@ -15169,242 +15171,56 @@
     "atlasrecords_co_uk": {
       "fingerprint": "616e5e4b4ee4fc31462512968fd0000976d97c75d660fefdf722af398dea90ea",
       "domain": "atlasrecords.co.uk",
-      "batch": 9,
-      "repair_attempts": 0,
+      "batch": 10,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:16:03.142429+00:00",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:20:29.712690+00:00",
       "evidence": {
         "domain": "atlasrecords.co.uk",
-        "route": "https://atlasrecords.co.uk/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:15:59.463236+00:00",
+        "route": "https://atlasrecords.co.uk/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:20:26.017201+00:00",
         "requests": [
           {
-            "url": "https://atlasrecords.co.uk/products.json?limit=20&page=1",
-            "sha256": "86f8ba00f9ffb3d10bfe52b97e1cba92dca66e532f9bf883757c4d433108eaa9"
+            "url": "https://atlasrecords.co.uk/collections/all/products.json?limit=20&page=1",
+            "sha256": "3b396906b555e59d41209dee510a8d8b8743ae36337688ccd5180a85cc65ae5a"
           },
           {
-            "url": "https://atlasrecords.co.uk/products/fleetwood-mac-rumours-lp-vinyl-613251?variant=55713108590968",
-            "sha256": "1e4157eae7399722e478014a26ce6f7b4de717a36f4c0c92be921d5193fb77eb"
+            "url": "https://atlasrecords.co.uk/products/e-kites-7-inch-vinyl-009701?variant=40576732332125",
+            "sha256": "0f001cf7a53322eb5e545448738a3c4a49f07ef02e79df72d1ec9da25f62a358"
           },
           {
-            "url": "https://atlasrecords.co.uk/products/the-sensational-alex-harvey-band-the-best-of-the-sensational-alex-harvey-band-lp-vinyl-606306?variant=55703287628152",
-            "sha256": "4009c92787d13a46e1e4e6645b13183c4556a796b0bc346ec643788a70de6818"
+            "url": "https://atlasrecords.co.uk/products/passenger-walk-you-home-7-inch-vinyl-048524?variant=55549739598200",
+            "sha256": "9f5ce0070c88b45118d11ede0aa9f98ed02dbe86c920b8598988b2931758ce54"
           },
           {
-            "url": "https://atlasrecords.co.uk/products/the-beatles-1967-1970-the-blue-album-2-x-lp-vinyl-606286?variant=55703286120824",
-            "sha256": "52c789f278e611cd71950244eb617eb52b337aef5658cfe8ee0dfdbc7a456404"
+            "url": "https://atlasrecords.co.uk/products/10cc-greatest-hits-1972-1978-lp-vinyl-606311?variant=55703288185208",
+            "sha256": "f489bc8a177a59ed9736042880dd343b5da1e95d8bcb2e6dc221b44a4c252bbb"
           }
         ],
-        "listing_records": 11,
+        "listing_records": 7,
         "detail_checked": 3,
         "valid_eans": 0,
         "details": [
           {
-            "url": "https://atlasrecords.co.uk/products/fleetwood-mac-rumours-lp-vinyl-613251?variant=55713108590968",
-            "price": "40.00",
+            "url": "https://atlasrecords.co.uk/products/e-kites-7-inch-vinyl-009701?variant=40576732332125",
+            "price": "2.75",
             "currency": "GBP",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://atlasrecords.co.uk/products/the-sensational-alex-harvey-band-the-best-of-the-sensational-alex-harvey-band-lp-vinyl-606306?variant=55703287628152",
-            "price": "15.00",
+            "url": "https://atlasrecords.co.uk/products/passenger-walk-you-home-7-inch-vinyl-048524?variant=55549739598200",
+            "price": "72.00",
             "currency": "GBP",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://atlasrecords.co.uk/products/the-beatles-1967-1970-the-blue-album-2-x-lp-vinyl-606286?variant=55703286120824",
-            "price": "65.00",
-            "currency": "GBP",
-            "ean": null,
-            "condition": "new"
-          }
-        ],
-        "database_write": false,
-        "price_quality": {
-          "status": "pass",
-          "flags": [],
-          "records_checked": 11,
-          "unique_prices": 10,
-          "shipping_hits": 0,
-          "currencies": [
-            "GBP"
-          ]
-        },
-        "status": "REVIEW",
-        "reason": "detail_ean_not_proven",
-        "error_type": "CollectionBlocked"
-      },
-      "history": [
-        {
-          "batch": 9,
-          "status": "REVIEW",
-          "reason": "detail_ean_not_proven",
-          "run_id": "40239367598"
-        }
-      ]
-    },
-    "beartreerecords_com": {
-      "fingerprint": "5ef62a050246c909353c45e47b2769c1cfa755d4d75b95326987e1653e0e2a6d",
-      "domain": "beartreerecords.com",
-      "batch": 9,
-      "repair_attempts": 0,
-      "repair_modes": [],
-      "admitted": false,
-      "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:16:04.516165+00:00",
-      "evidence": {
-        "domain": "beartreerecords.com",
-        "route": "https://beartreerecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:16:03.167766+00:00",
-        "requests": [
-          {
-            "url": "https://beartreerecords.com/products.json?limit=20&page=1",
-            "sha256": "4d049df8a3bec94a3232575d2063b66bb3f55b346a30701d2e28bae07adc8989"
-          },
-          {
-            "url": "https://beartreerecords.com/products/saint-etienne-i-ve-been-trying-to-tell-you-lp?variant=40576563937448",
-            "sha256": "95fbf275604164a0c7cc1fb3b766c054d8e4903f825df93220fa8ca2be6e1a4e"
-          }
-        ],
-        "listing_records": 8,
-        "detail_checked": 0,
-        "valid_eans": 0,
-        "details": [],
-        "database_write": false,
-        "price_quality": {
-          "status": "pass",
-          "flags": [],
-          "records_checked": 8,
-          "unique_prices": 5,
-          "shipping_hits": 0,
-          "currencies": [
-            "GBP"
-          ]
-        },
-        "status": "REVIEW",
-        "reason": "detail_price_currency_not_proven_or_mismatch",
-        "error_type": "CollectionBlocked"
-      },
-      "history": [
-        {
-          "batch": 9,
-          "status": "REVIEW",
-          "reason": "detail_price_currency_not_proven_or_mismatch",
-          "run_id": "40239367598"
-        }
-      ]
-    },
-    "beatdownrecords_org": {
-      "fingerprint": "f15f3055dac305a9986c3018554045ea2934b37ffc761f5e54cda76e4132bc6f",
-      "domain": "beatdownrecords.org",
-      "batch": 9,
-      "repair_attempts": 0,
-      "repair_modes": [],
-      "admitted": false,
-      "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:16:05.871516+00:00",
-      "evidence": {
-        "domain": "beatdownrecords.org",
-        "route": "https://beatdownrecords.org/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:16:04.542181+00:00",
-        "requests": [
-          {
-            "url": "https://beatdownrecords.org/products.json?limit=20&page=1",
-            "sha256": "16d4060b54d1ddb38ddd54033dc920b983c209b60ae00be43067246bc1bcb69a"
-          },
-          {
-            "url": "https://beatdownrecords.org/products/battle-ruins-s-t-12-silver-white-swirl-vinyl?variant=56272363487610",
-            "sha256": "ccedbdcd6e7ce698010bcef6c35b20c43078d5e213ef4b8a8adfc181cf60edac"
-          }
-        ],
-        "listing_records": 12,
-        "detail_checked": 0,
-        "valid_eans": 0,
-        "details": [],
-        "database_write": false,
-        "price_quality": {
-          "status": "pass",
-          "flags": [],
-          "records_checked": 12,
-          "unique_prices": 9,
-          "shipping_hits": 0,
-          "currencies": [
-            "GBP"
-          ]
-        },
-        "status": "REVIEW",
-        "reason": "detail_price_currency_not_proven_or_mismatch",
-        "error_type": "CollectionBlocked"
-      },
-      "history": [
-        {
-          "batch": 9,
-          "status": "REVIEW",
-          "reason": "detail_price_currency_not_proven_or_mismatch",
-          "run_id": "40239367598"
-        }
-      ]
-    },
-    "bellaunionvinylshop_com": {
-      "fingerprint": "bc6a5832e34b6c540cb1248b45c400e73f1d175188ca8538b251217f32b4e90e",
-      "domain": "bellaunionvinylshop.com",
-      "batch": 9,
-      "repair_attempts": 0,
-      "repair_modes": [],
-      "admitted": false,
-      "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:16:09.261495+00:00",
-      "evidence": {
-        "domain": "bellaunionvinylshop.com",
-        "route": "https://bellaunionvinylshop.com/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:16:05.897216+00:00",
-        "requests": [
-          {
-            "url": "https://bellaunionvinylshop.com/products.json?limit=20&page=1",
-            "sha256": "a7c99c57b35bd5d29779a1840e957312fb12d748d97c6aef76917202381f3c96"
-          },
-          {
-            "url": "https://bellaunionvinylshop.com/products/air-the-virgin-suicides-redux-lp?variant=62669144064387",
-            "sha256": "cc45f26c2dd89cb73f70544f90655c39a2d21d85dd2d35ccd95c9c75d9cb290b"
-          },
-          {
-            "url": "https://bellaunionvinylshop.com/products/lana-del-rey-nfr?variant=62626478752131",
-            "sha256": "a5159799f17a6d3ad0dcc3c07d329e1f69864166b6042fefcd8ed687b2e09bbc"
-          },
-          {
-            "url": "https://bellaunionvinylshop.com/products/clairo-charm-black-lp?variant=62614827532675",
-            "sha256": "d6d3f041877db032be78154d2dab0fb1ae5a915a4057af75cd65b05df63af33c"
-          }
-        ],
-        "listing_records": 20,
-        "detail_checked": 3,
-        "valid_eans": 0,
-        "details": [
-          {
-            "url": "https://bellaunionvinylshop.com/products/air-the-virgin-suicides-redux-lp?variant=62669144064387",
-            "price": "27.99",
-            "currency": "GBP",
-            "ean": null,
-            "condition": "new"
-          },
-          {
-            "url": "https://bellaunionvinylshop.com/products/lana-del-rey-nfr?variant=62626478752131",
-            "price": "35.99",
-            "currency": "GBP",
-            "ean": null,
-            "condition": "new"
-          },
-          {
-            "url": "https://bellaunionvinylshop.com/products/clairo-charm-black-lp?variant=62614827532675",
-            "price": "24.99",
+            "url": "https://atlasrecords.co.uk/products/10cc-greatest-hits-1972-1978-lp-vinyl-606311?variant=55703288185208",
+            "price": "33.00",
             "currency": "GBP",
             "ean": null,
             "condition": "new"
@@ -15414,7 +15230,7 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 20,
+          "records_checked": 7,
           "unique_prices": 7,
           "shipping_hits": 0,
           "currencies": [
@@ -15431,62 +15247,68 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "40239702760"
         }
       ]
     },
-    "blackcityrecords_co_uk": {
-      "fingerprint": "aa779aad38bc277da1cb3fdff7c911ce62967b91b956bf57739241a3eec42623",
-      "domain": "blackcityrecords.co.uk",
-      "batch": 9,
-      "repair_attempts": 0,
+    "beartreerecords_com": {
+      "fingerprint": "5ef62a050246c909353c45e47b2769c1cfa755d4d75b95326987e1653e0e2a6d",
+      "domain": "beartreerecords.com",
+      "batch": 10,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:16:13.238809+00:00",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:20:32.980722+00:00",
       "evidence": {
-        "domain": "blackcityrecords.co.uk",
-        "route": "https://blackcityrecords.co.uk/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:16:09.287585+00:00",
+        "domain": "beartreerecords.com",
+        "route": "https://beartreerecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:20:29.747543+00:00",
         "requests": [
           {
-            "url": "https://blackcityrecords.co.uk/collections/all/products.json?limit=20&page=1",
-            "sha256": "ebba05a9a37513bb39160f8eeeae62d89a25a8ec461a0a2f1aa2bb4138b8336a"
+            "url": "https://beartreerecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "41bbd3a91ea908cb0ab69718c25d453d9dce27f92bd78e37be521737c780c37a"
           },
           {
-            "url": "https://blackcityrecords.co.uk/products/1349-demonoir-2lp?variant=41085140959388",
-            "sha256": "f14ae148e11519fefb5c112fdfa52f96b97c775214d0982bc459172abea4f17d"
+            "url": "https://beartreerecords.com/products/uicideboy-stop-staring-at-the-shadows-lp?variant=62936992645507",
+            "sha256": "71f910bb40e41c16c5dc8a4676ed2827395d14c5b450385dda3940758c0ab0a5"
           },
           {
-            "url": "https://blackcityrecords.co.uk/products/1782-clamor-luciferi-lp?variant=43836953166060",
-            "sha256": "8ee20860d0aa9b3f7188e611ddaa4564bb5c82277b7b92de4754360d8c203da8"
+            "url": "https://beartreerecords.com/products/cancer-bats-hail-destroyer-lp?variant=57787742093699",
+            "sha256": "99047b3b7126cba77bf1e49ea99e46754bead6c4b3aafd69d10e9b68f5002df1"
           },
           {
-            "url": "https://blackcityrecords.co.uk/products/200-stab-wounds-manual-manic-procedures-lp?variant=44997909840108",
-            "sha256": "d1c65c98dac6ee7742fc5408cfaf42c12517b41029438f20db1a742f6b1710b9"
+            "url": "https://beartreerecords.com/products/signed-richard-hawley-lowedges-lp?variant=46379651956904",
+            "sha256": "86d68478138a0a596cb906a9bbed68a5c91f89d2b43a2fda89dc2e184918356c"
           }
         ],
-        "listing_records": 18,
+        "listing_records": 6,
         "detail_checked": 3,
         "valid_eans": 0,
         "details": [
           {
-            "url": "https://blackcityrecords.co.uk/products/1349-demonoir-2lp?variant=41085140959388",
-            "price": "32.00",
+            "url": "https://beartreerecords.com/products/uicideboy-stop-staring-at-the-shadows-lp?variant=62936992645507",
+            "price": "19.99",
             "currency": "GBP",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://blackcityrecords.co.uk/products/1782-clamor-luciferi-lp?variant=43836953166060",
-            "price": "20.00",
+            "url": "https://beartreerecords.com/products/cancer-bats-hail-destroyer-lp?variant=57787742093699",
+            "price": "25.99",
             "currency": "GBP",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://blackcityrecords.co.uk/products/200-stab-wounds-manual-manic-procedures-lp?variant=44997909840108",
-            "price": "26.00",
+            "url": "https://beartreerecords.com/products/signed-richard-hawley-lowedges-lp?variant=46379651956904",
+            "price": "37.99",
             "currency": "GBP",
             "ean": null,
             "condition": "new"
@@ -15496,8 +15318,154 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 18,
-          "unique_prices": 11,
+          "records_checked": 6,
+          "unique_prices": 4,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 9,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "40239702760"
+        }
+      ]
+    },
+    "beatdownrecords_org": {
+      "fingerprint": "f15f3055dac305a9986c3018554045ea2934b37ffc761f5e54cda76e4132bc6f",
+      "domain": "beatdownrecords.org",
+      "batch": 10,
+      "repair_attempts": 1,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:20:34.307023+00:00",
+      "evidence": {
+        "domain": "beatdownrecords.org",
+        "route": "https://beatdownrecords.org/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:20:33.014624+00:00",
+        "requests": [
+          {
+            "url": "https://beatdownrecords.org/collections/all/products.json?limit=20&page=1",
+            "sha256": "ce245a190c0f353be247a82e7414a60420209d7379280ef2dcc488d21be42082"
+          },
+          {
+            "url": "https://beatdownrecords.org/products/100-demons-embrace-the-black-light-lp-onyx-vinyl?variant=56998697009530",
+            "sha256": "e951b83d6b45d78056596e37673f2d1b8ddec3d310e6d5ce90b7965914f27982"
+          }
+        ],
+        "listing_records": 11,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 11,
+          "unique_prices": 10,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 9,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40239702760"
+        }
+      ]
+    },
+    "bellaunionvinylshop_com": {
+      "fingerprint": "bc6a5832e34b6c540cb1248b45c400e73f1d175188ca8538b251217f32b4e90e",
+      "domain": "bellaunionvinylshop.com",
+      "batch": 10,
+      "repair_attempts": 1,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:20:37.572298+00:00",
+      "evidence": {
+        "domain": "bellaunionvinylshop.com",
+        "route": "https://bellaunionvinylshop.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:20:34.340974+00:00",
+        "requests": [
+          {
+            "url": "https://bellaunionvinylshop.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "cee4d30b74d9d5283d0fccf59c03d35935750ec70ca81f5de4dc9c03a8d27bd3"
+          },
+          {
+            "url": "https://bellaunionvinylshop.com/products/5588703?variant=46860231672093",
+            "sha256": "7604b4a8e6a69b00ab92691025d53c5bc354809ad8b1bd21e2f5f7d741cbea91"
+          },
+          {
+            "url": "https://bellaunionvinylshop.com/products/air-moon-safari-lp?variant=58267109294467",
+            "sha256": "7bd6b40348bfc7e4998a416e7c627c492eccfc995a216b704497d5a6dd3ef29a"
+          },
+          {
+            "url": "https://bellaunionvinylshop.com/products/alvvays-blue-rev-lp?variant=58226718179715",
+            "sha256": "703b91b0b662ba15135eb6e8eac06ba474623cc6476b22572c2de9abc934ff1d"
+          }
+        ],
+        "listing_records": 14,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://bellaunionvinylshop.com/products/5588703?variant=46860231672093",
+            "price": "41.99",
+            "currency": "GBP",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://bellaunionvinylshop.com/products/air-moon-safari-lp?variant=58267109294467",
+            "price": "28.99",
+            "currency": "GBP",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://bellaunionvinylshop.com/products/alvvays-blue-rev-lp?variant=58226718179715",
+            "price": "19.99",
+            "currency": "GBP",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 14,
+          "unique_prices": 10,
           "shipping_hits": 0,
           "currencies": [
             "GBP"
@@ -15513,6 +15481,100 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "40239702760"
+        }
+      ]
+    },
+    "blackcityrecords_co_uk": {
+      "fingerprint": "aa779aad38bc277da1cb3fdff7c911ce62967b91b956bf57739241a3eec42623",
+      "domain": "blackcityrecords.co.uk",
+      "batch": 10,
+      "repair_attempts": 1,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:20:40.984230+00:00",
+      "evidence": {
+        "domain": "blackcityrecords.co.uk",
+        "route": "https://blackcityrecords.co.uk/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:20:37.605819+00:00",
+        "requests": [
+          {
+            "url": "https://blackcityrecords.co.uk/products.json?limit=20&page=1",
+            "sha256": "2364ae64e8848d8709df3bd6fd5d868629f0d857a51a3c54b8ee802d45274a4f"
+          },
+          {
+            "url": "https://blackcityrecords.co.uk/products/obituary-darkest-day-2lp-gold-vinyl?variant=59066630144374",
+            "sha256": "7a48a5c818d4c608965c4355bcb2e05674fac8ab8d26aa92771d5018167815f6"
+          },
+          {
+            "url": "https://blackcityrecords.co.uk/products/exhumed-death-revenge-lp?variant=58934037348726",
+            "sha256": "d2ac2eeaa275d22cd6adcba69a534b8d3e395d65a900df57e7109927e5239371"
+          },
+          {
+            "url": "https://blackcityrecords.co.uk/products/igorrr-amen-lp?variant=58880372146550",
+            "sha256": "18b328e848503542fc45842dd473bc60be83a3bea2e5f9a076296071cf12f1ec"
+          }
+        ],
+        "listing_records": 18,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://blackcityrecords.co.uk/products/obituary-darkest-day-2lp-gold-vinyl?variant=59066630144374",
+            "price": "26.00",
+            "currency": "GBP",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://blackcityrecords.co.uk/products/exhumed-death-revenge-lp?variant=58934037348726",
+            "price": "23.00",
+            "currency": "GBP",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://blackcityrecords.co.uk/products/igorrr-amen-lp?variant=58880372146550",
+            "price": "25.00",
+            "currency": "GBP",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 18,
+          "unique_prices": 8,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 9,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "40239702760"
         }
       ]
     },
@@ -15660,28 +15722,28 @@
     "crashrecords_co_uk": {
       "fingerprint": "c614a3055fe98080af547625683ba964ddc89125b4c3fb6f211e6046fe0ed855",
       "domain": "crashrecords.co.uk",
-      "batch": 9,
-      "repair_attempts": 0,
+      "batch": 10,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:16:18.448176+00:00",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:20:42.401392+00:00",
       "evidence": {
         "domain": "crashrecords.co.uk",
-        "route": "https://crashrecords.co.uk/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:16:16.754561+00:00",
+        "route": "https://crashrecords.co.uk/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:20:41.018460+00:00",
         "requests": [
           {
-            "url": "https://crashrecords.co.uk/products.json?limit=20&page=1",
-            "sha256": "06489ba93387b7cbecce6073590d0db722048cd535ea728db50bb372dee4b783"
+            "url": "https://crashrecords.co.uk/collections/all/products.json?limit=20&page=1",
+            "sha256": "460ad02dbf1b51c06b91b2db00742509f8668367ca1d8b89689ec5b313a462b9"
           },
           {
-            "url": "https://crashrecords.co.uk/products/swervedriver-raise-demos?variant=55714515452280",
-            "sha256": "3b7e50273c88bae43d109daf910124d919804c940863b6eda5c2b0f6a10f115c"
+            "url": "https://crashrecords.co.uk/products/international-noise-conspiracy-the-a-new-morning-changing-weather-limited-rsd-black-friday-2026?variant=55689983918456",
+            "sha256": "edddcaf38c2683c7d17a1c7f6137053e8b147bce4d7cdf281fa948eb4c3c3b38"
           }
         ],
-        "listing_records": 15,
+        "listing_records": 7,
         "detail_checked": 0,
         "valid_eans": 0,
         "details": [],
@@ -15689,8 +15751,8 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 15,
-          "unique_prices": 13,
+          "records_checked": 7,
+          "unique_prices": 6,
           "shipping_hits": 0,
           "currencies": [
             "GBP"
@@ -15706,80 +15768,42 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40239702760"
         }
       ]
     },
     "devildogdistro_com": {
       "fingerprint": "34984820c44b796d14cccd68ecd1906257ce79f53d95dba40ae37327bbfbeef2",
       "domain": "devildogdistro.com",
-      "batch": 9,
-      "repair_attempts": 0,
+      "batch": 10,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:16:21.963171+00:00",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:20:42.752667+00:00",
       "evidence": {
         "domain": "devildogdistro.com",
-        "route": "https://devildogdistro.com/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:16:18.473991+00:00",
+        "route": "https://devildogdistro.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:20:42.434919+00:00",
         "requests": [
           {
-            "url": "https://devildogdistro.com/products.json?limit=20&page=1",
-            "sha256": "b5e4dc89521993079972d20287346487c1bdd46808216dda4d3a9b403533f819"
-          },
-          {
-            "url": "https://devildogdistro.com/products/hot-mulligan-fenton-honest-cunning-lp?variant=56997154193794",
-            "sha256": "bdde6ae8ccad3984a82ba6c5cc5d69042e23e5153a7218e4bcc8911bef916840"
-          },
-          {
-            "url": "https://devildogdistro.com/products/sleepytime-trio-memory-minus-plus-minus-lp?variant=56993195819394",
-            "sha256": "589a3402ec717da38ab685ddd9340df433a7237d9ec7cf77d4e539bd8dea70f1"
-          },
-          {
-            "url": "https://devildogdistro.com/products/pup-the-dream-is-over-10th-anniversary-lp?variant=56992868925826",
-            "sha256": "ccb40397d543ed53803c7343f98308501958d47cf900365e752f972e0521bb19"
+            "url": "https://devildogdistro.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "bb8dd5dec186b668c80c628abe2a32569974254d666ba362336f57410f297617"
           }
         ],
-        "listing_records": 5,
-        "detail_checked": 3,
+        "listing_records": 0,
+        "detail_checked": 0,
         "valid_eans": 0,
-        "details": [
-          {
-            "url": "https://devildogdistro.com/products/hot-mulligan-fenton-honest-cunning-lp?variant=56997154193794",
-            "price": "25.99",
-            "currency": "GBP",
-            "ean": null,
-            "condition": "new"
-          },
-          {
-            "url": "https://devildogdistro.com/products/sleepytime-trio-memory-minus-plus-minus-lp?variant=56993195819394",
-            "price": "24.99",
-            "currency": "GBP",
-            "ean": null,
-            "condition": "new"
-          },
-          {
-            "url": "https://devildogdistro.com/products/pup-the-dream-is-over-10th-anniversary-lp?variant=56992868925826",
-            "price": "32.99",
-            "currency": "GBP",
-            "ean": null,
-            "condition": "new"
-          }
-        ],
+        "details": [],
         "database_write": false,
-        "price_quality": {
-          "status": "pass",
-          "flags": [],
-          "records_checked": 5,
-          "unique_prices": 5,
-          "shipping_hits": 0,
-          "currencies": [
-            "GBP"
-          ]
-        },
         "status": "REVIEW",
-        "reason": "detail_ean_not_proven",
+        "reason": "no_new_vinyl_records",
         "error_type": "CollectionBlocked"
       },
       "history": [
@@ -15788,34 +15812,40 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "no_new_vinyl_records",
+          "run_id": "40239702760"
         }
       ]
     },
     "diginrecords_com": {
       "fingerprint": "d6f027ec92dff74d8b411afe3aa4326897c95c7fe1082c4635249f67c9db378b",
       "domain": "diginrecords.com",
-      "batch": 9,
-      "repair_attempts": 0,
+      "batch": 10,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:16:23.449853+00:00",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:20:44.282165+00:00",
       "evidence": {
         "domain": "diginrecords.com",
-        "route": "https://diginrecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:16:21.989273+00:00",
+        "route": "https://diginrecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:20:42.786340+00:00",
         "requests": [
           {
-            "url": "https://diginrecords.com/products.json?limit=20&page=1",
-            "sha256": "f7dfb4d88a6bf8c0f0511ee87592dc049066a9e4e9bb3d79944ad2c4f90c1be9"
+            "url": "https://diginrecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "8be6e4c8225c9e1bf87a1c5946cf544fc3fcde460e80d7f6c26ad39484f36c42"
           },
           {
-            "url": "https://diginrecords.com/products/east-17-the-best-of?variant=57832086733180",
-            "sha256": "fa68429efb4ec0a889bc40f9e993028a931b001826b1d2a55e068975b1d49fbd"
+            "url": "https://diginrecords.com/products/ibiza-2023-v-a-vinyl-lp?variant=43805609853144",
+            "sha256": "ef1173f84d74a0f02b261ebe89376accd3c02157420e2206d2de38af9b5adeff"
           }
         ],
-        "listing_records": 20,
+        "listing_records": 10,
         "detail_checked": 0,
         "valid_eans": 0,
         "details": [],
@@ -15823,8 +15853,8 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 20,
-          "unique_prices": 11,
+          "records_checked": 10,
+          "unique_prices": 8,
           "shipping_hits": 0,
           "currencies": [
             "GBP"
@@ -15840,62 +15870,57 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40239702760"
         }
       ]
     },
     "flashback_co_uk": {
       "fingerprint": "22b0d5f958970cdeb40327df277e3513c4718fd671cfc4b66c7f9e023bac6791",
       "domain": "flashback.co.uk",
-      "batch": 9,
-      "repair_attempts": 0,
+      "batch": 10,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:16:26.969176+00:00",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:20:46.687155+00:00",
       "evidence": {
         "domain": "flashback.co.uk",
-        "route": "https://flashback.co.uk/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:16:23.475825+00:00",
+        "route": "https://flashback.co.uk/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:20:44.315663+00:00",
         "requests": [
           {
-            "url": "https://flashback.co.uk/collections/all/products.json?limit=20&page=1",
-            "sha256": "119a6d19051fabf94b9e56bdef843a61545170b30a7850a0d3356497aa915977"
+            "url": "https://flashback.co.uk/products.json?limit=20&page=1",
+            "sha256": "8465dca702c456edcde0bd768050400eb2b8692291824fe5f365fd7bd61b3708"
           },
           {
-            "url": "https://flashback.co.uk/products/las-people-talk-about-things-410122?variant=58152961081727",
-            "sha256": "8a7943d36464015e58fd3209d8924c93da7d30284a784e6d81cd2c669b92bdf3"
+            "url": "https://flashback.co.uk/products/various-artists-denshattack-original-game-soundtrack-420249?variant=58952258519423",
+            "sha256": "cc9942a70414892e68d6e5f80c9d1340f4377e7aa372fa84b4c4af5f664f9225"
           },
           {
-            "url": "https://flashback.co.uk/products/10-paper-inner-sleeve-with-centre-hole-pack-of-10-340119?variant=54901172011391",
-            "sha256": "136a5f725a8a8e5d0999e72d3317363e6ba0c1e7ad827c9432a7a7a5620e7970"
-          },
-          {
-            "url": "https://flashback.co.uk/products/1000-rabbits-are-we-friends-yet-dinked-edition-399596?variant=57825901478271",
-            "sha256": "feeb7f3c2c7050840ff67e735dd64e8bc7a4beefadc9036ce53d84db5f5aedfd"
+            "url": "https://flashback.co.uk/products/various-artists-christmas-hits-420198?variant=58952258257279",
+            "sha256": "2697082602028bfd7c58f80746c103b939d99197cb200283ef713346c7197401"
           }
         ],
-        "listing_records": 7,
-        "detail_checked": 3,
+        "listing_records": 2,
+        "detail_checked": 2,
         "valid_eans": 0,
         "details": [
           {
-            "url": "https://flashback.co.uk/products/las-people-talk-about-things-410122?variant=58152961081727",
-            "price": "13.00",
+            "url": "https://flashback.co.uk/products/various-artists-denshattack-original-game-soundtrack-420249?variant=58952258519423",
+            "price": "71.00",
             "currency": "GBP",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://flashback.co.uk/products/10-paper-inner-sleeve-with-centre-hole-pack-of-10-340119?variant=54901172011391",
-            "price": "3.00",
-            "currency": "GBP",
-            "ean": null,
-            "condition": "new"
-          },
-          {
-            "url": "https://flashback.co.uk/products/1000-rabbits-are-we-friends-yet-dinked-edition-399596?variant=57825901478271",
-            "price": "26.00",
+            "url": "https://flashback.co.uk/products/various-artists-christmas-hits-420198?variant=58952258257279",
+            "price": "27.00",
             "currency": "GBP",
             "ean": null,
             "condition": "new"
@@ -15905,8 +15930,8 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 7,
-          "unique_prices": 5,
+          "records_checked": 2,
+          "unique_prices": 2,
           "shipping_hits": 0,
           "currencies": [
             "GBP"
@@ -15922,62 +15947,68 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "40239702760"
         }
       ]
     },
     "impericon_com": {
       "fingerprint": "99e519cdc8d163d36af54faf74e534c43f15631fcd8b954ee80920de91fd98b5",
       "domain": "impericon.com",
-      "batch": 9,
-      "repair_attempts": 0,
+      "batch": 10,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:16:31.040202+00:00",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:20:50.407946+00:00",
       "evidence": {
         "domain": "impericon.com",
-        "route": "https://impericon.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:16:26.995118+00:00",
+        "route": "https://impericon.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:20:46.720703+00:00",
         "requests": [
           {
-            "url": "https://impericon.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "ec0f74cc478875221b620e0bbdbd1e8c55af8808b7ce19a3ad94b2d64992dbb3"
+            "url": "https://impericon.com/products.json?limit=20&page=1",
+            "sha256": "f07d01566708112ccc3ad0c7a23d4e84e00220012f6b83e716fb27c23115966f"
           },
           {
-            "url": "https://impericon.com/products/godspeed-you-black-emperor-no-title-as-of-13-february-2024-28-340-dead-2-vinyl?variant=46973096394989",
-            "sha256": "6d93ba14da42a351ffae67b4b5c66a29918c73ffe7b23e76daaaa5bda4d7633b"
+            "url": "https://impericon.com/products/cloud-nothings-what-kind-of-hell-did-you-survive-ltd-crayon-marbled-vinyl?variant=67911693336813",
+            "sha256": "5e91ce8a26fbc5165a7943c89f0e78d5046794c2d444d8fb6016c770f13ac4d1"
           },
           {
-            "url": "https://impericon.com/products/and-you-will-know-us-by-the-trail-of-the-dead-and-you-will-know-us-ltd-white-colored-vinyl?variant=46973103505645",
-            "sha256": "aaa5d5b9fd87f50b3ce471e184a811596c661d5e9f55b72e96b6f19554d3a3e2"
+            "url": "https://impericon.com/products/obituary-xecutioners-return-reissue-oxblood-colored-vinyl?variant=67911387709677",
+            "sha256": "4a7033572041ce91937cc6b12db21f622ae830b8aa4ea658bc552ef78cb263e3"
           },
           {
-            "url": "https://impericon.com/products/ayeon-01011001-live-beneath-the-waves-ltd-green-colored-3-vinyl?variant=47232061735149",
-            "sha256": "b3b6e5cd49084d8ea54403fa47089b17aca6d14afa0a8dd1df1fa95662ec0a4f"
+            "url": "https://impericon.com/products/fu-manchu-california-crossing-25th-anniversary-ltd-red-white-blue-colored-vinyl?variant=67853406404845",
+            "sha256": "7a125e56d2dac866488ffbe4e777b88931b5baa10652aa8147c1eda242a0304a"
           }
         ],
-        "listing_records": 10,
+        "listing_records": 9,
         "detail_checked": 3,
         "valid_eans": 0,
         "details": [
           {
-            "url": "https://impericon.com/products/godspeed-you-black-emperor-no-title-as-of-13-february-2024-28-340-dead-2-vinyl?variant=46973096394989",
+            "url": "https://impericon.com/products/cloud-nothings-what-kind-of-hell-did-you-survive-ltd-crayon-marbled-vinyl?variant=67911693336813",
+            "price": "29.99",
+            "currency": "EUR",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://impericon.com/products/obituary-xecutioners-return-reissue-oxblood-colored-vinyl?variant=67911387709677",
+            "price": "24.99",
+            "currency": "EUR",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://impericon.com/products/fu-manchu-california-crossing-25th-anniversary-ltd-red-white-blue-colored-vinyl?variant=67853406404845",
             "price": "31.99",
-            "currency": "EUR",
-            "ean": null,
-            "condition": "new"
-          },
-          {
-            "url": "https://impericon.com/products/and-you-will-know-us-by-the-trail-of-the-dead-and-you-will-know-us-ltd-white-colored-vinyl?variant=46973103505645",
-            "price": "27.99",
-            "currency": "EUR",
-            "ean": null,
-            "condition": "new"
-          },
-          {
-            "url": "https://impericon.com/products/ayeon-01011001-live-beneath-the-waves-ltd-green-colored-3-vinyl?variant=47232061735149",
-            "price": "41.99",
             "currency": "EUR",
             "ean": null,
             "condition": "new"
@@ -15987,8 +16018,8 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 10,
-          "unique_prices": 7,
+          "records_checked": 9,
+          "unique_prices": 8,
           "shipping_hits": 0,
           "currencies": [
             "EUR"
@@ -16004,6 +16035,12 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "40239702760"
         }
       ]
     },
@@ -16151,33 +16188,33 @@
     "orchardrecords_com": {
       "fingerprint": "54430bbdd466266e54c1978f6a90860c4ce394d90750e2b012d41137e431589f",
       "domain": "orchardrecords.com",
-      "batch": 9,
-      "repair_attempts": 0,
+      "batch": 10,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:16:38.071402+00:00",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:20:53.829910+00:00",
       "evidence": {
         "domain": "orchardrecords.com",
         "route": "https://orchardrecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:16:34.590143+00:00",
+        "observed_at": "2026-10-25T22:20:50.441435+00:00",
         "requests": [
           {
             "url": "https://orchardrecords.com/products.json?limit=20&page=1",
-            "sha256": "773e00c205e6c0cd7986d49d6e02e79daff790f4a2bce2dad8fbe2286fe38d28"
+            "sha256": "937d60378c296704617b1bc9131cd2113ed479a2d3d67e638d7561d815953835"
           },
           {
             "url": "https://orchardrecords.com/products/porcupine-tree-the-sky-moves-sideways-2lp?variant=67840749469933",
-            "sha256": "d2787e75682a24cda356848d1879f512037f2165082a678df58b5f0bde65be6d"
+            "sha256": "35f032e12c66310f3b13756584d03af47c45375e456a7325f90347bb29899bac"
           },
           {
             "url": "https://orchardrecords.com/products/kraftwerk-tour-de-france-2lp-red-blue-vinyl?variant=67831948706029",
-            "sha256": "b78aed386f5c75f24335d30a9394ab29b04df6efbbf9506d0836ac10bece138b"
+            "sha256": "91189af4df0f0dd8c15e00c2c742b22c585f47d5519b2b21d89495bae2b9db54"
           },
           {
             "url": "https://orchardrecords.com/products/justin-hurwitz-la-la-land-soundtrack-lp?variant=67794594300141",
-            "sha256": "c44a6263423bcc732d6b1fe379b3dc65ee17fc68ecd1e1355775274808db1ff3"
+            "sha256": "2be8d2fde9307321069fbfce0dada2d056801565109504779c5e163dfec5ed45"
           }
         ],
         "listing_records": 15,
@@ -16227,6 +16264,12 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "40239702760"
         }
       ]
     },
@@ -16374,55 +16417,55 @@
     "secretlystore_com": {
       "fingerprint": "6aaeddcd0d3861caee49428067ea3a5c853f75bb79fc66971e0c4cbd955bfad2",
       "domain": "secretlystore.com",
-      "batch": 9,
-      "repair_attempts": 0,
+      "batch": 10,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:16:45.934525+00:00",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:20:57.561996+00:00",
       "evidence": {
         "domain": "secretlystore.com",
-        "route": "https://secretlystore.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:16:42.058420+00:00",
+        "route": "https://secretlystore.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:20:53.863984+00:00",
         "requests": [
           {
-            "url": "https://secretlystore.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "090df87055633caad3d030be0f4cf510de711da5bb64a22ac1bcc53531a0e47f"
+            "url": "https://secretlystore.com/products.json?limit=20&page=1",
+            "sha256": "19f2eb578f5693767aeb84852800ab6bffcb57c0e0e17af3ccfa1381e00704ef"
           },
           {
-            "url": "https://secretlystore.com/products/diurnally-yours-the-panoply-academy-legionnaires?variant=44536145805475",
-            "sha256": "fc014887c7f081367f455c721c7d01d87c26b13f222c62a899b5622ca8f62f8d"
+            "url": "https://secretlystore.com/products/black-sheep-boy-okkervil-river?variant=44536157175971",
+            "sha256": "e7a65efe744e75c79dd1a98d09c6bf3f228dec36aee5c255d75ed595fd70e67e"
           },
           {
-            "url": "https://secretlystore.com/products/the-ones-i-love-erected-pink-mountaintops?variant=44536146559139",
-            "sha256": "cdf3a1065e2e685bffd5ffba1be8369e1eb33db5a8ce0f0020f2abca8336ff2c"
+            "url": "https://secretlystore.com/products/its-all-aquatic?variant=67664195780771",
+            "sha256": "1a5f8d1e34ade0c12a29e1ac95362d2cec0a4c423ef9ebb5f96cf9bbdb07c3da"
           },
           {
-            "url": "https://secretlystore.com/products/drive-you-crazy-bw-private-party-dungeonesse?variant=44536167170211",
-            "sha256": "f79605974224a0b3e1eda5c02d947a4f6cad9c8ac42551e36f0835ed4c055761"
+            "url": "https://secretlystore.com/products/woven-music?variant=67663889137827",
+            "sha256": "65190fcb50f9823544c8444bd639e1572908d233935e4da9778be51221b4ba84"
           }
         ],
-        "listing_records": 12,
+        "listing_records": 7,
         "detail_checked": 3,
         "valid_eans": 0,
         "details": [
           {
-            "url": "https://secretlystore.com/products/diurnally-yours-the-panoply-academy-legionnaires?variant=44536145805475",
-            "price": "4.99",
+            "url": "https://secretlystore.com/products/black-sheep-boy-okkervil-river?variant=44536157175971",
+            "price": "17.99",
             "currency": "USD",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://secretlystore.com/products/the-ones-i-love-erected-pink-mountaintops?variant=44536146559139",
-            "price": "7.99",
+            "url": "https://secretlystore.com/products/its-all-aquatic?variant=67664195780771",
+            "price": "12.99",
             "currency": "USD",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://secretlystore.com/products/drive-you-crazy-bw-private-party-dungeonesse?variant=44536167170211",
+            "url": "https://secretlystore.com/products/woven-music?variant=67663889137827",
             "price": "12.99",
             "currency": "USD",
             "ean": null,
@@ -16433,8 +16476,8 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 12,
-          "unique_prices": 5,
+          "records_checked": 7,
+          "unique_prices": 3,
           "shipping_hits": 0,
           "currencies": [
             "USD"
@@ -16450,34 +16493,40 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "40239702760"
         }
       ]
     },
     "shop_islandrecords_co_uk": {
       "fingerprint": "fb916e940a449b85064cb03624193c4ef2d9d912de32fb44b2884d9d83fa430d",
       "domain": "shop.islandrecords.co.uk",
-      "batch": 9,
-      "repair_attempts": 0,
+      "batch": 10,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:16:47.396802+00:00",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:20:59.056429+00:00",
       "evidence": {
         "domain": "shop.islandrecords.co.uk",
-        "route": "https://shop.islandrecords.co.uk/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:16:45.960752+00:00",
+        "route": "https://shop.islandrecords.co.uk/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:20:57.595966+00:00",
         "requests": [
           {
-            "url": "https://shop.islandrecords.co.uk/products.json?limit=20&page=1",
-            "sha256": "36e8f01453d5234b0a95bfa305352486fc73199cee0df02c003c25b9768128a6"
+            "url": "https://shop.islandrecords.co.uk/collections/all/products.json?limit=20&page=1",
+            "sha256": "3bdd5a98960b8281b5c9c34afb405c59064a6f1b90f81cdea6f3d3363e276045"
           },
           {
-            "url": "https://shop.islandrecords.co.uk/products/back-to-black-20-zoetrope-vinyl-lp?variant=56421472076161",
-            "sha256": "02beff513f298521425ed66865d0b1e88b8dfc192b2547b849fce6263baf0aca"
+            "url": "https://shop.islandrecords.co.uk/products/mention-me-7-vinyl?variant=55383639720321",
+            "sha256": "6182b4d803239e158851ec6d25097362ed182904b2dba70e418dc9ebe0a99e65"
           }
         ],
-        "listing_records": 8,
+        "listing_records": 7,
         "detail_checked": 0,
         "valid_eans": 0,
         "details": [],
@@ -16485,8 +16534,8 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 8,
-          "unique_prices": 6,
+          "records_checked": 7,
+          "unique_prices": 5,
           "shipping_hits": 0,
           "currencies": [
             "GBP"
@@ -16502,62 +16551,68 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40239702760"
         }
       ]
     },
     "southrecordshop_com": {
       "fingerprint": "ec73e09e7655fef0cc72e1cd5da7d5db3e5936d917e32d0a8a1575d97c339d5f",
       "domain": "southrecordshop.com",
-      "batch": 9,
-      "repair_attempts": 0,
+      "batch": 10,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:16:51.094905+00:00",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:21:02.845368+00:00",
       "evidence": {
         "domain": "southrecordshop.com",
-        "route": "https://southrecordshop.com/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:16:47.423094+00:00",
+        "route": "https://southrecordshop.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:20:59.090322+00:00",
         "requests": [
           {
-            "url": "https://southrecordshop.com/products.json?limit=20&page=1",
-            "sha256": "6ba7fe3a17b2f7fb38f4e7df75c2f56d9262e4166bdf2140160d691514f57fa1"
+            "url": "https://southrecordshop.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "646cfb55bd889016e9ce3b94053dbed72d48e471219ca63b736dd8252c09a140"
           },
           {
-            "url": "https://southrecordshop.com/products/joanna-newsom-divers?variant=55709066723704",
-            "sha256": "adf252009e1eff222dd65e51c8f48a680908383f9694175675232b621ad1d453"
+            "url": "https://southrecordshop.com/products/and-you-will-know-us-by-the-trail-of-dead-madonna?variant=54957764870520",
+            "sha256": "2aca10aad14866fb23002e024edce29c12475bb26b820826c2c6af9248af51f2"
           },
           {
-            "url": "https://southrecordshop.com/products/julian-cope-trip-advizer?variant=55707601109368",
-            "sha256": "f40cce9723234b5fe4e64725d8d82ce871e7004cd48d5958c23fb42cb7844f9f"
+            "url": "https://southrecordshop.com/products/2pac-all-eyez-on-me?variant=43787391890",
+            "sha256": "275296362e1bd64923be427f25f6f8360c9c56a3ecc8c01a9bab9c3cd0c2321c"
           },
           {
-            "url": "https://southrecordshop.com/products/michael-jackson-number-ones?variant=55703856775544",
-            "sha256": "0cc320ae956b74e6682ea179531c33f4d4fb6b08d53c96ca39a6c2e5197b8ce0"
+            "url": "https://southrecordshop.com/products/the-mysterians-action?variant=44067980345655",
+            "sha256": "f8a47b20268e399618638c32af4bcdfe5ec04434c5a628ae719ae4ffe6d8980b"
           }
         ],
-        "listing_records": 20,
+        "listing_records": 19,
         "detail_checked": 3,
         "valid_eans": 0,
         "details": [
           {
-            "url": "https://southrecordshop.com/products/joanna-newsom-divers?variant=55709066723704",
-            "price": "28.99",
+            "url": "https://southrecordshop.com/products/and-you-will-know-us-by-the-trail-of-dead-madonna?variant=54957764870520",
+            "price": "45.00",
             "currency": "GBP",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://southrecordshop.com/products/julian-cope-trip-advizer?variant=55707601109368",
-            "price": "42.99",
+            "url": "https://southrecordshop.com/products/2pac-all-eyez-on-me?variant=43787391890",
+            "price": "25.99",
             "currency": "GBP",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://southrecordshop.com/products/michael-jackson-number-ones?variant=55703856775544",
-            "price": "27.99",
+            "url": "https://southrecordshop.com/products/the-mysterians-action?variant=44067980345655",
+            "price": "29.99",
             "currency": "GBP",
             "ean": null,
             "condition": "new"
@@ -16567,8 +16622,8 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 20,
-          "unique_prices": 12,
+          "records_checked": 19,
+          "unique_prices": 11,
           "shipping_hits": 0,
           "currencies": [
             "GBP"
@@ -16584,31 +16639,81 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "40239702760"
         }
       ]
     },
     "specialistsubjectrecords_co_uk": {
       "fingerprint": "6ff11fd764c6333bba012f136fbee7b7932682f13d2df098b03d76fdcf2916ac",
       "domain": "specialistsubjectrecords.co.uk",
-      "batch": 9,
-      "repair_attempts": 0,
+      "batch": 10,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:16:52.574105+00:00",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:21:03.061823+00:00",
       "evidence": {
         "domain": "specialistsubjectrecords.co.uk",
-        "route": "https://specialistsubjectrecords.co.uk/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:16:51.121139+00:00",
+        "route": "https://specialistsubjectrecords.co.uk/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:21:02.879562+00:00",
         "requests": [
           {
-            "url": "https://specialistsubjectrecords.co.uk/collections/all/products.json?limit=20&page=1",
-            "sha256": "da2fa0656c7dae0a1c80f6d7f864a6a3a15e67e56386f14286be1beb7d1d91a8"
+            "url": "https://specialistsubjectrecords.co.uk/products.json?limit=20&page=1",
+            "sha256": "20603f8220c023564993bf1f59bc7552c9b212e6db9d93070f707f0986740c83"
+          }
+        ],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "status": "REVIEW",
+        "reason": "no_new_vinyl_records",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 9,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "no_new_vinyl_records",
+          "run_id": "40239702760"
+        }
+      ]
+    },
+    "store_udiscovermusic_com": {
+      "fingerprint": "239097e8efc9bd1bf4a563b2fc09fe39a3a6cb5cc48f3c8876d9ef54d7bd9c11",
+      "domain": "store.udiscovermusic.com",
+      "batch": 10,
+      "repair_attempts": 1,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:21:04.479664+00:00",
+      "evidence": {
+        "domain": "store.udiscovermusic.com",
+        "route": "https://store.udiscovermusic.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:21:03.095624+00:00",
+        "requests": [
+          {
+            "url": "https://store.udiscovermusic.com/products.json?limit=20&page=1",
+            "sha256": "0ddfbdcd5fac77179af8c604986aaada92c5459a2527054a3a116580ee1e5dff"
           },
           {
-            "url": "https://specialistsubjectrecords.co.uk/products/international-noise-conspiracy-the-a-new-morning-changing-weather-lp-rsd-black-friday-2026?variant=58164581892478",
-            "sha256": "a1cd5c80b59f6d98c4741ccb56cc6040784e8d5832d94a30e7bbdd5013053dba"
+            "url": "https://store.udiscovermusic.com/products/pixar-hits-red-vinyl-lp?variant=57825252770172",
+            "sha256": "d68558a9d932b57a15b16d3eba6f2edfdf0379cfe12a87f979aa928b5da369f7"
           }
         ],
         "listing_records": 17,
@@ -16620,110 +16725,6 @@
           "status": "pass",
           "flags": [],
           "records_checked": 17,
-          "unique_prices": 11,
-          "shipping_hits": 0,
-          "currencies": [
-            "GBP"
-          ]
-        },
-        "status": "REVIEW",
-        "reason": "detail_price_currency_not_proven_or_mismatch",
-        "error_type": "CollectionBlocked"
-      },
-      "history": [
-        {
-          "batch": 9,
-          "status": "REVIEW",
-          "reason": "detail_price_currency_not_proven_or_mismatch",
-          "run_id": "40239367598"
-        }
-      ]
-    },
-    "store_udiscovermusic_com": {
-      "fingerprint": "239097e8efc9bd1bf4a563b2fc09fe39a3a6cb5cc48f3c8876d9ef54d7bd9c11",
-      "domain": "store.udiscovermusic.com",
-      "batch": 9,
-      "repair_attempts": 0,
-      "repair_modes": [],
-      "admitted": false,
-      "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:16:53.999722+00:00",
-      "evidence": {
-        "domain": "store.udiscovermusic.com",
-        "route": "https://store.udiscovermusic.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:16:52.600717+00:00",
-        "requests": [
-          {
-            "url": "https://store.udiscovermusic.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "93645c70513b78d33532df71e177c72227826157a1ba036d8662cccd0af3642b"
-          },
-          {
-            "url": "https://store.udiscovermusic.com/products/famous-last-words-half-speed-master-black-vinyl-lp?variant=56277351039356",
-            "sha256": "1f5467bf6e0bb72560d8545ae49c5bef49daccca7c0dabfc9ca569e3adf7478b"
-          }
-        ],
-        "listing_records": 19,
-        "detail_checked": 0,
-        "valid_eans": 0,
-        "details": [],
-        "database_write": false,
-        "price_quality": {
-          "status": "pass",
-          "flags": [],
-          "records_checked": 19,
-          "unique_prices": 7,
-          "shipping_hits": 0,
-          "currencies": [
-            "GBP"
-          ]
-        },
-        "status": "REVIEW",
-        "reason": "detail_price_currency_not_proven_or_mismatch",
-        "error_type": "CollectionBlocked"
-      },
-      "history": [
-        {
-          "batch": 9,
-          "status": "REVIEW",
-          "reason": "detail_price_currency_not_proven_or_mismatch",
-          "run_id": "40239367598"
-        }
-      ]
-    },
-    "tangledparrot_com": {
-      "fingerprint": "6986c5ba9411fd63ca75335c0337163fed4fe88da15b3e957ed516d5fe13ba67",
-      "domain": "tangledparrot.com",
-      "batch": 9,
-      "repair_attempts": 0,
-      "repair_modes": [],
-      "admitted": false,
-      "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:16:55.448086+00:00",
-      "evidence": {
-        "domain": "tangledparrot.com",
-        "route": "https://tangledparrot.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:16:54.026529+00:00",
-        "requests": [
-          {
-            "url": "https://tangledparrot.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "d4e2ebff13673afa21f985bab535717a90c45cf437a647889edadef594d2cbe7"
-          },
-          {
-            "url": "https://tangledparrot.com/products/75678630439?variant=43773412507895",
-            "sha256": "f282ffd5c3eed9bbd4bf3e990b7ee0d894d01a28c267d8a10ea27070c549d9cc"
-          }
-        ],
-        "listing_records": 6,
-        "detail_checked": 0,
-        "valid_eans": 0,
-        "details": [],
-        "database_write": false,
-        "price_quality": {
-          "status": "pass",
-          "flags": [],
-          "records_checked": 6,
           "unique_prices": 6,
           "shipping_hits": 0,
           "currencies": [
@@ -16731,7 +16732,95 @@
           ]
         },
         "status": "REVIEW",
-        "reason": "invalid_detail_gtin",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 9,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40239702760"
+        }
+      ]
+    },
+    "tangledparrot_com": {
+      "fingerprint": "6986c5ba9411fd63ca75335c0337163fed4fe88da15b3e957ed516d5fe13ba67",
+      "domain": "tangledparrot.com",
+      "batch": 10,
+      "repair_attempts": 1,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:21:07.749192+00:00",
+      "evidence": {
+        "domain": "tangledparrot.com",
+        "route": "https://tangledparrot.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:21:04.513149+00:00",
+        "requests": [
+          {
+            "url": "https://tangledparrot.com/products.json?limit=20&page=1",
+            "sha256": "d4fe8e2541129f5b14b187024f81fc2dbdc00ef100b4e04000b3ed5d4fcd7892"
+          },
+          {
+            "url": "https://tangledparrot.com/products/fat-freddys-drop-cays-crays-digital-mystikz-remix-the-drop-12?variant=51390911480055",
+            "sha256": "5fcc4736aae1f7954468a7c654011f63b95b2130e12ae3027467a947ed9c381d"
+          },
+          {
+            "url": "https://tangledparrot.com/products/nails-unsilent-death-lp?variant=51383701438711",
+            "sha256": "2e452bacd3d4222316ae29f642eba7d41b4dcb41a0b5a8b97ec9e65634e20edf"
+          },
+          {
+            "url": "https://tangledparrot.com/products/john-barry-goldfinger-original-motion-picture-sound-track-lp-album-re-mint-m?variant=51379249348855",
+            "sha256": "82cfe04371c6964fb6a46e511aeb13d39c1491a0dd88ab19491a9d2492e6baab"
+          }
+        ],
+        "listing_records": 5,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://tangledparrot.com/products/fat-freddys-drop-cays-crays-digital-mystikz-remix-the-drop-12?variant=51390911480055",
+            "price": "20.00",
+            "currency": "GBP",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://tangledparrot.com/products/nails-unsilent-death-lp?variant=51383701438711",
+            "price": "30.00",
+            "currency": "GBP",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://tangledparrot.com/products/john-barry-goldfinger-original-motion-picture-sound-track-lp-album-re-mint-m?variant=51379249348855",
+            "price": "25.00",
+            "currency": "GBP",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 5,
+          "unique_prices": 4,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
         "error_type": "CollectionBlocked"
       },
       "history": [
@@ -16740,62 +16829,68 @@
           "status": "REVIEW",
           "reason": "invalid_detail_gtin",
           "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "40239702760"
         }
       ]
     },
     "todestrieb_co_uk": {
       "fingerprint": "fb4df8bf45a3f882024a4be16d37c9f3a74069124c8100b87911cb2a1d3a40a5",
       "domain": "todestrieb.co.uk",
-      "batch": 9,
-      "repair_attempts": 0,
+      "batch": 10,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:16:59.061050+00:00",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:21:11.101195+00:00",
       "evidence": {
         "domain": "todestrieb.co.uk",
-        "route": "https://todestrieb.co.uk/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:16:55.473955+00:00",
+        "route": "https://todestrieb.co.uk/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:21:07.783196+00:00",
         "requests": [
           {
-            "url": "https://todestrieb.co.uk/products.json?limit=20&page=1",
-            "sha256": "3e61f08e332f7cf8fe0489eb3e8ca6eacdf28fce3bee61dcb3d19d60336847f2"
+            "url": "https://todestrieb.co.uk/collections/all/products.json?limit=20&page=1",
+            "sha256": "2419f57f9a7b2a5e523c2fc88e37908cd0058a937ebc4698bdf940f13e035c55"
           },
           {
-            "url": "https://todestrieb.co.uk/products/inhumate-vi-live-fi-ep?variant=58909229678975",
-            "sha256": "7e0ff31907c745e1d239d0f4ee87a15e60e3ccbad67d683453dfb29ec7846c29"
+            "url": "https://todestrieb.co.uk/products/1349-liberation-picture-disc-lp?variant=27366476677",
+            "sha256": "841c43d9ec454d1a88a2a8155cc6ba0071e64eb66b7479b46bf33de130d2a8f0"
           },
           {
-            "url": "https://todestrieb.co.uk/products/immortal-diabolical-fullmoon-mysticism-2026-reissue-lp?variant=58904675385727",
-            "sha256": "deb8cbf5947e0df586abcdf2b8478ed75c020b42c1fe68f2727a742ee5d11023"
+            "url": "https://todestrieb.co.uk/products/1349-revelations-of-the-black-flame-2lp?variant=39264141017122",
+            "sha256": "595cac13da897173d0b19dbe6b21b358a193e1134935b9223774e9885ccc3d45"
           },
           {
-            "url": "https://todestrieb.co.uk/products/gylt-in-1000-agonies-i-exist-ep?variant=58904550146431",
-            "sha256": "a69ce2bd6f925c750675a71d9b27ab3686d0905126636827b0d7cec67b15d7a0"
+            "url": "https://todestrieb.co.uk/products/1349-the-infernal-pathway-silver-edition-2lp?variant=30738561663010",
+            "sha256": "bf331441a1426451adc011d6adddc065bf803c366935f4df733310c18926ec8f"
           }
         ],
-        "listing_records": 4,
+        "listing_records": 3,
         "detail_checked": 3,
         "valid_eans": 0,
         "details": [
           {
-            "url": "https://todestrieb.co.uk/products/inhumate-vi-live-fi-ep?variant=58909229678975",
-            "price": "5.00",
+            "url": "https://todestrieb.co.uk/products/1349-liberation-picture-disc-lp?variant=27366476677",
+            "price": "10.00",
             "currency": "GBP",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://todestrieb.co.uk/products/immortal-diabolical-fullmoon-mysticism-2026-reissue-lp?variant=58904675385727",
-            "price": "26.00",
+            "url": "https://todestrieb.co.uk/products/1349-revelations-of-the-black-flame-2lp?variant=39264141017122",
+            "price": "14.00",
             "currency": "GBP",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://todestrieb.co.uk/products/gylt-in-1000-agonies-i-exist-ep?variant=58904550146431",
-            "price": "9.99",
+            "url": "https://todestrieb.co.uk/products/1349-the-infernal-pathway-silver-edition-2lp?variant=30738561663010",
+            "price": "26.99",
             "currency": "GBP",
             "ean": null,
             "condition": "new"
@@ -16805,7 +16900,7 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 4,
+          "records_checked": 3,
           "unique_prices": 3,
           "shipping_hits": 0,
           "currencies": [
@@ -16822,31 +16917,37 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "40239702760"
         }
       ]
     },
     "venusvinyl_com": {
       "fingerprint": "a2e0e0204ea2de3b9cb9343b3c9b308bf5efe5d24abeeabfc46122b5aa09f768",
       "domain": "venusvinyl.com",
-      "batch": 9,
-      "repair_attempts": 0,
+      "batch": 10,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:17:00.463960+00:00",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:21:12.430662+00:00",
       "evidence": {
         "domain": "venusvinyl.com",
-        "route": "https://venusvinyl.com/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:16:59.087747+00:00",
+        "route": "https://venusvinyl.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:21:11.135307+00:00",
         "requests": [
           {
-            "url": "https://venusvinyl.com/products.json?limit=20&page=1",
-            "sha256": "b2e7c59dd272dff9412c2b3d20ec44689f69c72f23746314ece00fed14fbcc5c"
+            "url": "https://venusvinyl.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "5a3f4c11efd89e61197d74ea3b6dd0d2557cebe82f36224b0d12288fe9340a67"
           },
           {
-            "url": "https://venusvinyl.com/products/hank-mobley-dippin-vinyl-re-issue-ltd-tone-poet-deluxe-ed-180g-lp-gatefold?variant=55714399846776",
-            "sha256": "ba07fe46f3aabbcf04227ad677e5f53d5a554f1c5d960c41203551f4bb4537a4"
+            "url": "https://venusvinyl.com/products/uicideboy-i-want-to-die-in-new-orleans-vinyl-re-issue-ltd-ed-silver?variant=45452924780802",
+            "sha256": "d4620f83cf119c6266601f879f9290e4465f705799a4b5a3258661cad081266b"
           }
         ],
         "listing_records": 20,
@@ -16874,6 +16975,12 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40239702760"
         }
       ]
     },
@@ -17021,28 +17128,28 @@
     "vinylexchange_co_uk": {
       "fingerprint": "55609d8bed615190faf6c35f9dedaec97e04792b2bd986af11f3b87624d7b9b4",
       "domain": "vinylexchange.co.uk",
-      "batch": 9,
-      "repair_attempts": 0,
+      "batch": 10,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:17:06.880295+00:00",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:21:14.009646+00:00",
       "evidence": {
         "domain": "vinylexchange.co.uk",
-        "route": "https://vinylexchange.co.uk/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:17:04.874010+00:00",
+        "route": "https://vinylexchange.co.uk/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:21:12.464573+00:00",
         "requests": [
           {
-            "url": "https://vinylexchange.co.uk/products.json?limit=20&page=1",
-            "sha256": "ae3c368462facbd26432c415ce6223377fac5519e52920650cc9cd97c558e704"
+            "url": "https://vinylexchange.co.uk/collections/all/products.json?limit=20&page=1",
+            "sha256": "ab442d7ad7617a2a283370179486429c284e670bbb30b9f0e7b0dbaaada067c9"
           },
           {
-            "url": "https://vinylexchange.co.uk/products/t-a-g-c-the-anti-group-communications-sht?variant=57692330983797",
-            "sha256": "0bb8c6f3a59c7ce2cc8e04634e43dcccfccf0c086a5673b3986b2da28e3a1166"
+            "url": "https://vinylexchange.co.uk/products/chk-chk-chk-all-u-writers-gonna-guetta-stomp?variant=54905309790581",
+            "sha256": "4eb6fe582714259f0ab959a91cf09eff42b02cd1bc4de0bb24803d19f8605184"
           }
         ],
-        "listing_records": 20,
+        "listing_records": 19,
         "detail_checked": 0,
         "valid_eans": 0,
         "details": [],
@@ -17050,8 +17157,8 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 20,
-          "unique_prices": 10,
+          "records_checked": 19,
+          "unique_prices": 8,
           "shipping_hits": 0,
           "currencies": [
             "GBP"
@@ -17067,34 +17174,40 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40239702760"
         }
       ]
     },
     "vinyltap_co_uk": {
       "fingerprint": "907af64171c06d9f8af6e2b308c3a63350247b0834fc2bc6da8718acbb99756d",
       "domain": "vinyltap.co.uk",
-      "batch": 9,
-      "repair_attempts": 0,
+      "batch": 10,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40239367598",
-      "updated_at": "2026-10-25T22:17:08.430155+00:00",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:21:15.490099+00:00",
       "evidence": {
         "domain": "vinyltap.co.uk",
-        "route": "https://vinyltap.co.uk/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:17:06.908105+00:00",
+        "route": "https://vinyltap.co.uk/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:21:14.043749+00:00",
         "requests": [
           {
-            "url": "https://vinyltap.co.uk/products.json?limit=20&page=1",
-            "sha256": "07143a477590291bb258750b04d9602ce1de8c43ace30a1bdd4d1b53accde039"
+            "url": "https://vinyltap.co.uk/collections/all/products.json?limit=20&page=1",
+            "sha256": "05ec9d895433df94c6586c4cbf45f7aabca13b9adce7e53d54252fa307d64411"
           },
           {
-            "url": "https://vinyltap.co.uk/products/both-sides-of-the-sky-01068342?variant=66042583875852",
-            "sha256": "8262f9e76b277cca06b3a79b63ebe83ee0b8e46662ffa8011d3617f0b8a09ba1"
+            "url": "https://vinyltap.co.uk/products/let-it-be-blue-0960541?variant=55424313491834",
+            "sha256": "4d614864a916fb6bcfcba9d281785c751003bd5f098572f345096885f73ba480"
           }
         ],
-        "listing_records": 18,
+        "listing_records": 8,
         "detail_checked": 0,
         "valid_eans": 0,
         "details": [],
@@ -17102,8 +17215,8 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 18,
-          "unique_prices": 13,
+          "records_checked": 8,
+          "unique_prices": 6,
           "shipping_hits": 0,
           "currencies": [
             "GBP"
@@ -17119,10 +17232,232 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "40239367598"
+        },
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40239702760"
         }
       ]
+    },
+    "waxandbeans_co_uk": {
+      "fingerprint": "8071b362270b1fa7980086e2fd5d844e6cd9d4e7d0ee77d02bcfb0fa3de1899c",
+      "domain": "waxandbeans.co.uk",
+      "batch": 10,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:20:21.162766+00:00",
+      "evidence": {
+        "domain": "waxandbeans.co.uk",
+        "route": "https://waxandbeans.co.uk/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:20:17.599000+00:00",
+        "requests": [
+          {
+            "url": "https://waxandbeans.co.uk/products.json?limit=20&page=1",
+            "sha256": "55b9d7b0d8502d14bd3acd5c1c1aa35f907a79c67c381408eecb40ef5cec4f8f"
+          },
+          {
+            "url": "https://waxandbeans.co.uk/products/13th-floor-elevators-the-mono-singles-lp-bf26?variant=58972746580349",
+            "sha256": "5c767f11b888692c76c91f886eecf859c3cc7d85b2a9066a9b1c120289627c5b"
+          },
+          {
+            "url": "https://waxandbeans.co.uk/products/ist-ist-light-a-bigger-fire-indies-vinyl?variant=48490422075704",
+            "sha256": "e537938fcf79e563b4949615642beecd49aca1cd7ab4e9b1372de72da74aa262"
+          },
+          {
+            "url": "https://waxandbeans.co.uk/products/madonna-celebration-translucent-light-blue-vinyl?variant=58957000507773",
+            "sha256": "77e9b3a8868bfc664fe3fd881d53070db2ce2f3f97ef415bfbe44a335e47ee9d"
+          }
+        ],
+        "listing_records": 7,
+        "detail_checked": 2,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://waxandbeans.co.uk/products/13th-floor-elevators-the-mono-singles-lp-bf26?variant=58972746580349",
+            "price": "24.99",
+            "currency": "GBP",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://waxandbeans.co.uk/products/ist-ist-light-a-bigger-fire-indies-vinyl?variant=48490422075704",
+            "price": "28.99",
+            "currency": "GBP",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 7,
+          "unique_prices": 6,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 10,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40239702760"
+        }
+      ]
+    },
+    "wearepopstore_com": {
+      "fingerprint": "3be129d6a2f15705cb5bb4dcc883eeb13954f5ba2b712724d9b6d5b74db7afc8",
+      "domain": "wearepopstore.com",
+      "batch": 10,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "40239702760",
+      "updated_at": "2026-10-25T22:20:24.642546+00:00",
+      "evidence": {
+        "domain": "wearepopstore.com",
+        "route": "https://wearepopstore.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:20:21.196983+00:00",
+        "requests": [
+          {
+            "url": "https://wearepopstore.com/products.json?limit=20&page=1",
+            "sha256": "170a8ccdf1ec4b92b4ffded23b1123030f2d51598cce260e488b579b430f142f"
+          },
+          {
+            "url": "https://wearepopstore.com/products/celebration-translucent-light-blue-vinyl-by-madonna?variant=64969247392121",
+            "sha256": "dfd98bae8caa3560c48c5780117525fb7d494844d1ef4128462a4ac79fc816f7"
+          },
+          {
+            "url": "https://wearepopstore.com/products/dopamine-chamber-black-vinyl-by-fontaines-d-c?variant=64856033460601",
+            "sha256": "e7aebf5bca8abd6e26e3e5033e61781e26d87ec96b7a11ebd31287b14d2a0aeb"
+          },
+          {
+            "url": "https://wearepopstore.com/products/republica-30th-anniversary-2xlp-black-red-cornetto-vinyl-by-republica?variant=64815893676409",
+            "sha256": "1eecb95c5f57ef8cfaa9c55a2014d8897310cc159f24290d9c51f42d8942abee"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://wearepopstore.com/products/celebration-translucent-light-blue-vinyl-by-madonna?variant=64969247392121",
+            "price": "29.99",
+            "currency": "GBP",
+            "ean": "00603497803071",
+            "condition": "new"
+          },
+          {
+            "url": "https://wearepopstore.com/products/dopamine-chamber-black-vinyl-by-fontaines-d-c?variant=64856033460601",
+            "price": "23.99",
+            "currency": "GBP",
+            "ean": "00191404167311",
+            "condition": "new"
+          },
+          {
+            "url": "https://wearepopstore.com/products/republica-30th-anniversary-2xlp-black-red-cornetto-vinyl-by-republica?variant=64815893676409",
+            "price": "27.19",
+            "currency": "GBP",
+            "ean": "00198029547214",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 15,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 10,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "40239702760"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "wearepopstore.com",
+        "route": "https://wearepopstore.com/products.json?limit=20&page=1",
+        "observed_at": "2026-10-25T22:20:21.196983+00:00",
+        "requests": [
+          {
+            "url": "https://wearepopstore.com/products.json?limit=20&page=1",
+            "sha256": "170a8ccdf1ec4b92b4ffded23b1123030f2d51598cce260e488b579b430f142f"
+          },
+          {
+            "url": "https://wearepopstore.com/products/celebration-translucent-light-blue-vinyl-by-madonna?variant=64969247392121",
+            "sha256": "dfd98bae8caa3560c48c5780117525fb7d494844d1ef4128462a4ac79fc816f7"
+          },
+          {
+            "url": "https://wearepopstore.com/products/dopamine-chamber-black-vinyl-by-fontaines-d-c?variant=64856033460601",
+            "sha256": "e7aebf5bca8abd6e26e3e5033e61781e26d87ec96b7a11ebd31287b14d2a0aeb"
+          },
+          {
+            "url": "https://wearepopstore.com/products/republica-30th-anniversary-2xlp-black-red-cornetto-vinyl-by-republica?variant=64815893676409",
+            "sha256": "1eecb95c5f57ef8cfaa9c55a2014d8897310cc159f24290d9c51f42d8942abee"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://wearepopstore.com/products/celebration-translucent-light-blue-vinyl-by-madonna?variant=64969247392121",
+            "price": "29.99",
+            "currency": "GBP",
+            "ean": "00603497803071",
+            "condition": "new"
+          },
+          {
+            "url": "https://wearepopstore.com/products/dopamine-chamber-black-vinyl-by-fontaines-d-c?variant=64856033460601",
+            "price": "23.99",
+            "currency": "GBP",
+            "ean": "00191404167311",
+            "condition": "new"
+          },
+          {
+            "url": "https://wearepopstore.com/products/republica-30th-anniversary-2xlp-black-red-cornetto-vinyl-by-republica?variant=64815893676409",
+            "price": "27.19",
+            "currency": "GBP",
+            "ean": "00198029547214",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 15,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "APPROVED"
+      }
     }
   },
-  "updated_at": "2026-10-25T22:17:08.430225+00:00",
-  "last_run_id": "40239367598"
+  "updated_at": "2026-10-25T22:21:15.490156+00:00",
+  "last_run_id": "40239702760"
 }
