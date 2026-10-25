@@ -4787,16 +4787,16 @@
       "last_attempt_at": "2026-10-14T07:46:44+00:00"
     },
     "discogs.com": {
-      "row": 3266,
-      "name": "World Records - Sports Cards and Vinyl",
+      "row": 3334,
+      "name": "Discogs",
       "domain": "discogs.com",
       "status": "FROZEN",
       "gate": "identity",
-      "reason": "DUPLICATE_DOMAIN",
+      "reason": "SHARED_PLATFORM",
       "source_url": "https://discogs.com/",
-      "attempts": 27,
-      "evidence": "DUPLICATE_DOMAIN",
-      "last_attempt_at": "2026-10-17T08:31:58+00:00"
+      "attempts": 28,
+      "evidence": "SHARED_PLATFORM",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
     },
     "analogvault-cr.com": {
       "row": 124,
@@ -6376,28 +6376,28 @@
       "last_attempt_at": "2026-10-14T07:46:44+00:00"
     },
     "assai.co.uk": {
-      "row": 177,
+      "row": 3318,
       "name": "Assai Records",
       "domain": "assai.co.uk",
       "status": "SCRAPER_BUILT_TESTED",
       "gate": "qa",
       "platform": "shopify",
-      "source_url": "https://assai.co.uk/products.json?limit=20&page=1",
+      "source_url": "https://assai.co.uk/collections/all/products.json?limit=20&page=1",
       "adapter_class": "ShopifyNewVinylAdapter",
       "adapter_status": "REUSED_AND_TESTED",
       "products_seen": 20,
-      "accepted": 18,
-      "excluded": 2,
+      "accepted": 17,
+      "excluded": 3,
       "pagination_complete": false,
       "listing_gtin_valid": 0,
       "method_candidates": [
         {
           "platform": "shopify",
           "route": "https://assai.co.uk/products.json?limit=20&page=1",
-          "score": 185,
+          "score": 155,
           "products_seen": 20,
-          "accepted": 18,
-          "excluded": 2,
+          "accepted": 15,
+          "excluded": 5,
           "status": "ADAPTER_PARSED"
         },
         {
@@ -6447,8 +6447,8 @@
       ],
       "selected_method": {
         "platform": "shopify",
-        "route": "https://assai.co.uk/products.json?limit=20&page=1",
-        "score": 185,
+        "route": "https://assai.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 175,
         "selection": "highest_bounded_adapter_score"
       },
       "detail_checked": 2,
@@ -6464,7 +6464,10 @@
         "assai_co_uk.py",
         "assai_co_uk.json"
       ],
-      "last_attempt_at": "2026-10-14T07:46:44+00:00"
+      "last_attempt_at": "2026-10-25T22:14:04+00:00",
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://assai.co.uk/"
     },
     "astrorecordstore.com": {
       "row": 180,
@@ -77436,67 +77439,18 @@
       "last_attempt_at": "2026-10-16T08:59:26+00:00"
     },
     "resident-music.com": {
-      "row": 2168,
+      "row": 3317,
       "name": "Resident Music",
       "domain": "resident-music.com",
-      "status": "ROUTE_REVIEW",
+      "status": "SOURCE_BLOCKED",
       "gate": "catalog_route",
       "platform": "shopify",
-      "reason": "no public catalog route passed an adapter contract",
-      "method_candidates": [
-        {
-          "platform": "shopify",
-          "route": "https://resident-music.com/products.json?limit=20&page=1",
-          "score": 0,
-          "status": "ROUTE_REJECTED",
-          "reason": "HTTP_403"
-        },
-        {
-          "platform": "shopify",
-          "route": "https://resident-music.com/collections/all/products.json?limit=20&page=1",
-          "score": 0,
-          "status": "ROUTE_REJECTED",
-          "reason": "HTTP_404"
-        },
-        {
-          "platform": "woocommerce",
-          "route": "https://resident-music.com/wp-json/wc/store/v1/products?per_page=20&page=1",
-          "score": 0,
-          "status": "ROUTE_REJECTED",
-          "reason": "HTTP_404"
-        },
-        {
-          "platform": "squarespace",
-          "route": "https://resident-music.com/api/0.1/collections/products?format=json",
-          "score": 0,
-          "status": "ROUTE_REJECTED",
-          "reason": "HTTP_404"
-        },
-        {
-          "platform": "squarespace",
-          "route": "https://resident-music.com/api/0.1/collections/all/products?format=json",
-          "score": 0,
-          "status": "ROUTE_REJECTED",
-          "reason": "HTTP_404"
-        },
-        {
-          "platform": "bigcommerce",
-          "route": "https://resident-music.com/api/storefront/products?limit=20&offset=0",
-          "score": 0,
-          "status": "ROUTE_REJECTED",
-          "reason": "HTTP_404"
-        },
-        {
-          "platform": "bigcommerce",
-          "route": "https://resident-music.com/api/storefront/products?limit=20",
-          "score": 0,
-          "status": "ROUTE_REJECTED",
-          "reason": "HTTP_404"
-        }
-      ],
-      "attempts": 1,
-      "evidence": "no public catalog route passed an adapter contract",
-      "last_attempt_at": "2026-10-16T08:59:26+00:00"
+      "reason": "HTTP_403",
+      "method_candidates": [],
+      "attempts": 2,
+      "evidence": "HTTP_403",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00",
+      "source_url": "https://resident-music.com/products.json?limit=20&page=1"
     },
     "residentvinyl.com": {
       "row": 2169,
@@ -82428,16 +82382,16 @@
       "last_attempt_at": "2026-10-16T11:16:06+00:00"
     },
     "roughtrade.com": {
-      "row": 2310,
-      "name": "Rough Trade Above; Rough Trade Below",
+      "row": 3310,
+      "name": "Rough Trade",
       "domain": "roughtrade.com",
       "status": "SOURCE_BLOCKED",
       "gate": "identity",
       "reason": "Response size limit",
       "source_url": "https://roughtrade.com/",
-      "attempts": 1,
+      "attempts": 2,
       "evidence": "Response size limit",
-      "last_attempt_at": "2026-10-16T11:16:06+00:00"
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
     },
     "roundagainrecordsri.com": {
       "row": 2311,
@@ -119270,8 +119224,3334 @@
       "attempts": 1,
       "evidence": "no public catalog route passed an adapter contract",
       "last_attempt_at": "2026-10-17T10:33:54+00:00"
+    },
+    "normanrecords.com": {
+      "row": 3311,
+      "name": "Norman Records",
+      "domain": "normanrecords.com",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "HTTP_403",
+      "source_url": "https://normanrecords.com/",
+      "attempts": 1,
+      "evidence": "HTTP_403",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "sisterray.co.uk": {
+      "row": 3312,
+      "name": "Sister Ray",
+      "domain": "sisterray.co.uk",
+      "status": "ADAPTER_TESTED",
+      "gate": "listing",
+      "platform": "shopify",
+      "source_url": "https://sisterray.co.uk/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 0,
+      "excluded": 20,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://sisterray.co.uk/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://sisterray.co.uk/products.json?limit=20&page=1",
+          "score": 0,
+          "products_seen": 20,
+          "accepted": 0,
+          "excluded": 20,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://sisterray.co.uk/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "products_seen": 20,
+          "accepted": 0,
+          "excluded": 20,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://sisterray.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://sisterray.co.uk/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://sisterray.co.uk/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://sisterray.co.uk/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://sisterray.co.uk/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://sisterray.co.uk/products.json?limit=20&page=1",
+        "score": 0,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "reason": "no confirmed new vinyl on bounded page",
+      "attempts": 1,
+      "evidence": "no confirmed new vinyl on bounded page",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "piccadillyrecords.com": {
+      "row": 3313,
+      "name": "Piccadilly Records",
+      "domain": "piccadillyrecords.com",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://piccadillyrecords.com/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://piccadillyrecords.com/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://piccadillyrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://piccadillyrecords.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://piccadillyrecords.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://piccadillyrecords.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://piccadillyrecords.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "banquetrecords.com": {
+      "row": 3314,
+      "name": "Banquet Records",
+      "domain": "banquetrecords.com",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://banquetrecords.com/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://banquetrecords.com/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://banquetrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://banquetrecords.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://banquetrecords.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://banquetrecords.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://banquetrecords.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "driftrecords.com": {
+      "row": 3315,
+      "name": "Drift Records",
+      "domain": "driftrecords.com",
+      "status": "ADAPTER_TESTED",
+      "gate": "listing",
+      "platform": "shopify",
+      "source_url": "https://driftrecords.com/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 9,
+      "accepted": 0,
+      "excluded": 9,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://driftrecords.com/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://driftrecords.com/products.json?limit=20&page=1",
+          "score": 0,
+          "products_seen": 9,
+          "accepted": 0,
+          "excluded": 9,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://driftrecords.com/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "products_seen": 9,
+          "accepted": 0,
+          "excluded": 9,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://driftrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://driftrecords.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://driftrecords.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://driftrecords.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://driftrecords.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://driftrecords.com/products.json?limit=20&page=1",
+        "score": 0,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "reason": "no confirmed new vinyl on bounded page",
+      "attempts": 1,
+      "evidence": "no confirmed new vinyl on bounded page",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "phonicarecords.com": {
+      "row": 3316,
+      "name": "Phonica Records",
+      "domain": "phonicarecords.com",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "HTTP_307",
+      "source_url": "https://phonicarecords.com/",
+      "attempts": 1,
+      "evidence": "HTTP_307",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "monorailmusic.com": {
+      "row": 3319,
+      "name": "Monorail Music",
+      "domain": "monorailmusic.com",
+      "status": "ADAPTER_TESTED",
+      "gate": "listing",
+      "platform": "shopify",
+      "source_url": "https://monorailmusic.com/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 0,
+      "excluded": 20,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://monorailmusic.com/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://monorailmusic.com/products.json?limit=20&page=1",
+          "score": 0,
+          "products_seen": 20,
+          "accepted": 0,
+          "excluded": 20,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://monorailmusic.com/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "products_seen": 20,
+          "accepted": 0,
+          "excluded": 20,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://monorailmusic.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://monorailmusic.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://monorailmusic.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://monorailmusic.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://monorailmusic.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://monorailmusic.com/products.json?limit=20&page=1",
+        "score": 0,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "reason": "no confirmed new vinyl on bounded page",
+      "attempts": 1,
+      "evidence": "no confirmed new vinyl on bounded page",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "wearepopstore.com": {
+      "row": 3320,
+      "name": "POPSTORE",
+      "domain": "wearepopstore.com",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://wearepopstore.com/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 20,
+      "excluded": 0,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://wearepopstore.com/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://wearepopstore.com/products.json?limit=20&page=1",
+          "score": 205,
+          "products_seen": 20,
+          "accepted": 20,
+          "excluded": 0,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://wearepopstore.com/collections/all/products.json?limit=20&page=1",
+          "score": 195,
+          "products_seen": 20,
+          "accepted": 19,
+          "excluded": 1,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://wearepopstore.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://wearepopstore.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://wearepopstore.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://wearepopstore.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://wearepopstore.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://wearepopstore.com/products.json?limit=20&page=1",
+        "score": 205,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 2,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "wearepopstore_com.py",
+        "wearepopstore_com.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "wearepopstore_com.py",
+        "wearepopstore_com.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "townsendmusic.store": {
+      "row": 3321,
+      "name": "Townsend Music",
+      "domain": "townsendmusic.store",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "HTTP_403",
+      "source_url": "https://townsendmusic.store/",
+      "attempts": 1,
+      "evidence": "HTTP_403",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "emp.co.uk": {
+      "row": 3322,
+      "name": "EMP UK",
+      "domain": "emp.co.uk",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://emp.co.uk/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_410"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://emp.co.uk/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_410"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://emp.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_410"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://emp.co.uk/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_410"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://emp.co.uk/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_410"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://emp.co.uk/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_410"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://emp.co.uk/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_410"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "impericon.com": {
+      "row": 3323,
+      "name": "Impericon",
+      "domain": "impericon.com",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://impericon.com/collections/all/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 10,
+      "excluded": 10,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "EUR",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://impericon.com/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://impericon.com/products.json?limit=20&page=1",
+          "score": 95,
+          "products_seen": 20,
+          "accepted": 9,
+          "excluded": 11,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://impericon.com/collections/all/products.json?limit=20&page=1",
+          "score": 105,
+          "products_seen": 20,
+          "accepted": 10,
+          "excluded": 10,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://impericon.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://impericon.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://impericon.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://impericon.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://impericon.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://impericon.com/collections/all/products.json?limit=20&page=1",
+        "score": 105,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "impericon_com.py",
+        "impericon_com.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "impericon_com.py",
+        "impericon_com.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "chalkys.com": {
+      "row": 3324,
+      "name": "Chalkys",
+      "domain": "chalkys.com",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://chalkys.com/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 7,
+      "excluded": 13,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://chalkys.com/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://chalkys.com/products.json?limit=20&page=1",
+          "score": 75,
+          "products_seen": 20,
+          "accepted": 7,
+          "excluded": 13,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://chalkys.com/collections/all/products.json?limit=20&page=1",
+          "score": 75,
+          "products_seen": 20,
+          "accepted": 7,
+          "excluded": 13,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://chalkys.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://chalkys.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://chalkys.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://chalkys.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://chalkys.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://chalkys.com/products.json?limit=20&page=1",
+        "score": 75,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 2,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "chalkys_com.py",
+        "chalkys_com.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "chalkys_com.py",
+        "chalkys_com.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "waterstones.com": {
+      "row": 3325,
+      "name": "Waterstones",
+      "domain": "waterstones.com",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "HTTP_403",
+      "source_url": "https://waterstones.com/",
+      "attempts": 1,
+      "evidence": "HTTP_403",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "diginrecords.com": {
+      "row": 3326,
+      "name": "Dig In Records",
+      "domain": "diginrecords.com",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://diginrecords.com/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 45,
+      "accepted": 20,
+      "excluded": 2,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://diginrecords.com/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://diginrecords.com/products.json?limit=20&page=1",
+          "score": 435,
+          "products_seen": 45,
+          "accepted": 43,
+          "excluded": 2,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://diginrecords.com/collections/all/products.json?limit=20&page=1",
+          "score": 105,
+          "products_seen": 21,
+          "accepted": 10,
+          "excluded": 11,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://diginrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://diginrecords.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://diginrecords.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://diginrecords.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://diginrecords.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://diginrecords.com/products.json?limit=20&page=1",
+        "score": 435,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "diginrecords_com.py",
+        "diginrecords_com.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "diginrecords_com.py",
+        "diginrecords_com.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "recordstore.co.uk": {
+      "row": 3327,
+      "name": "Recordstore",
+      "domain": "recordstore.co.uk",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "Response size limit",
+      "source_url": "https://recordstore.co.uk/",
+      "attempts": 1,
+      "evidence": "Response size limit",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "whatrecords.co.uk": {
+      "row": 3328,
+      "name": "What Records",
+      "domain": "whatrecords.co.uk",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://whatrecords.co.uk/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://whatrecords.co.uk/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://whatrecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://whatrecords.co.uk/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://whatrecords.co.uk/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://whatrecords.co.uk/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://whatrecords.co.uk/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "eclipse-records.co.uk": {
+      "row": 3329,
+      "name": "Eclipse Records",
+      "domain": "eclipse-records.co.uk",
+      "status": "ADAPTER_TESTED",
+      "gate": "listing",
+      "platform": "shopify",
+      "source_url": "https://eclipse-records.co.uk/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 0,
+      "excluded": 20,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://eclipse-records.co.uk/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://eclipse-records.co.uk/products.json?limit=20&page=1",
+          "score": 0,
+          "products_seen": 20,
+          "accepted": 0,
+          "excluded": 20,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://eclipse-records.co.uk/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "products_seen": 20,
+          "accepted": 0,
+          "excluded": 20,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://eclipse-records.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://eclipse-records.co.uk/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://eclipse-records.co.uk/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://eclipse-records.co.uk/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://eclipse-records.co.uk/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://eclipse-records.co.uk/products.json?limit=20&page=1",
+        "score": 0,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "reason": "no confirmed new vinyl on bounded page",
+      "attempts": 1,
+      "evidence": "no confirmed new vinyl on bounded page",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "atlasrecords.co.uk": {
+      "row": 3330,
+      "name": "Atlas Records",
+      "domain": "atlasrecords.co.uk",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://atlasrecords.co.uk/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 11,
+      "excluded": 9,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://atlasrecords.co.uk/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://atlasrecords.co.uk/products.json?limit=20&page=1",
+          "score": 115,
+          "products_seen": 20,
+          "accepted": 11,
+          "excluded": 9,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://atlasrecords.co.uk/collections/all/products.json?limit=20&page=1",
+          "score": 75,
+          "products_seen": 20,
+          "accepted": 7,
+          "excluded": 13,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://atlasrecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://atlasrecords.co.uk/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://atlasrecords.co.uk/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://atlasrecords.co.uk/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://atlasrecords.co.uk/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://atlasrecords.co.uk/products.json?limit=20&page=1",
+        "score": 115,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "atlasrecords_co_uk.py",
+        "atlasrecords_co_uk.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "atlasrecords_co_uk.py",
+        "atlasrecords_co_uk.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "vinyltap.co.uk": {
+      "row": 3331,
+      "name": "Vinyl Tap",
+      "domain": "vinyltap.co.uk",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://vinyltap.co.uk/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 18,
+      "excluded": 2,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://vinyltap.co.uk/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://vinyltap.co.uk/products.json?limit=20&page=1",
+          "score": 185,
+          "products_seen": 20,
+          "accepted": 18,
+          "excluded": 2,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://vinyltap.co.uk/collections/all/products.json?limit=20&page=1",
+          "score": 85,
+          "products_seen": 20,
+          "accepted": 8,
+          "excluded": 12,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://vinyltap.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://vinyltap.co.uk/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://vinyltap.co.uk/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://vinyltap.co.uk/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://vinyltap.co.uk/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://vinyltap.co.uk/products.json?limit=20&page=1",
+        "score": 185,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "vinyltap_co_uk.py",
+        "vinyltap_co_uk.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "vinyltap_co_uk.py",
+        "vinyltap_co_uk.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "vinilo.co.uk": {
+      "row": 3332,
+      "name": "Vinilo",
+      "domain": "vinilo.co.uk",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://vinilo.co.uk/collections/all/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 3,
+      "excluded": 17,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://vinilo.co.uk/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://vinilo.co.uk/products.json?limit=20&page=1",
+          "score": 15,
+          "products_seen": 20,
+          "accepted": 1,
+          "excluded": 19,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://vinilo.co.uk/collections/all/products.json?limit=20&page=1",
+          "score": 35,
+          "products_seen": 20,
+          "accepted": 3,
+          "excluded": 17,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://vinilo.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://vinilo.co.uk/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://vinilo.co.uk/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://vinilo.co.uk/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://vinilo.co.uk/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://vinilo.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 35,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 2,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "vinilo_co_uk.py",
+        "vinilo_co_uk.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "vinilo_co_uk.py",
+        "vinilo_co_uk.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "ebay.co.uk": {
+      "row": 3333,
+      "name": "eBay UK",
+      "domain": "ebay.co.uk",
+      "status": "SOURCE_REVIEW",
+      "gate": "identity",
+      "reason": "SHARED_PLATFORM",
+      "attempts": 1,
+      "evidence": "SHARED_PLATFORM",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "amazon.co.uk": {
+      "row": 3335,
+      "name": "Amazon UK",
+      "domain": "amazon.co.uk",
+      "status": "SOURCE_REVIEW",
+      "gate": "identity",
+      "reason": "SHARED_PLATFORM",
+      "attempts": 1,
+      "evidence": "SHARED_PLATFORM",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "bellaunionvinylshop.com": {
+      "row": 3336,
+      "name": "Bella Union",
+      "domain": "bellaunionvinylshop.com",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://bellaunionvinylshop.com/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 20,
+      "excluded": 0,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://bellaunionvinylshop.com/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://bellaunionvinylshop.com/products.json?limit=20&page=1",
+          "score": 205,
+          "products_seen": 20,
+          "accepted": 20,
+          "excluded": 0,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://bellaunionvinylshop.com/collections/all/products.json?limit=20&page=1",
+          "score": 145,
+          "products_seen": 20,
+          "accepted": 14,
+          "excluded": 6,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://bellaunionvinylshop.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://bellaunionvinylshop.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://bellaunionvinylshop.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://bellaunionvinylshop.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://bellaunionvinylshop.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://bellaunionvinylshop.com/products.json?limit=20&page=1",
+        "score": 205,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "bellaunionvinylshop_com.py",
+        "bellaunionvinylshop_com.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "bellaunionvinylshop_com.py",
+        "bellaunionvinylshop_com.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "store.udiscovermusic.com": {
+      "row": 3337,
+      "name": "uDiscover Music",
+      "domain": "store.udiscovermusic.com",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://store.udiscovermusic.com/collections/all/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 19,
+      "excluded": 1,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://store.udiscovermusic.com/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://store.udiscovermusic.com/products.json?limit=20&page=1",
+          "score": 175,
+          "products_seen": 20,
+          "accepted": 17,
+          "excluded": 3,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://store.udiscovermusic.com/collections/all/products.json?limit=20&page=1",
+          "score": 195,
+          "products_seen": 20,
+          "accepted": 19,
+          "excluded": 1,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://store.udiscovermusic.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://store.udiscovermusic.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://store.udiscovermusic.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://store.udiscovermusic.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://store.udiscovermusic.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://store.udiscovermusic.com/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "store_udiscovermusic_com.py",
+        "store_udiscovermusic_com.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "store_udiscovermusic_com.py",
+        "store_udiscovermusic_com.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "thesoundofvinyl.com": {
+      "row": 3338,
+      "name": "Sound of Vinyl",
+      "domain": "thesoundofvinyl.com",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "Response size limit",
+      "source_url": "https://thesoundofvinyl.com/",
+      "attempts": 1,
+      "evidence": "Response size limit",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "shop.islandrecords.co.uk": {
+      "row": 3339,
+      "name": "Island Records UK",
+      "domain": "shop.islandrecords.co.uk",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://shop.islandrecords.co.uk/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 8,
+      "excluded": 12,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://shop.islandrecords.co.uk/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://shop.islandrecords.co.uk/products.json?limit=20&page=1",
+          "score": 85,
+          "products_seen": 20,
+          "accepted": 8,
+          "excluded": 12,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://shop.islandrecords.co.uk/collections/all/products.json?limit=20&page=1",
+          "score": 75,
+          "products_seen": 20,
+          "accepted": 7,
+          "excluded": 13,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://shop.islandrecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://shop.islandrecords.co.uk/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://shop.islandrecords.co.uk/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://shop.islandrecords.co.uk/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://shop.islandrecords.co.uk/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://shop.islandrecords.co.uk/products.json?limit=20&page=1",
+        "score": 85,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "shop_islandrecords_co_uk.py",
+        "shop_islandrecords_co_uk.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "shop_islandrecords_co_uk.py",
+        "shop_islandrecords_co_uk.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "secretlystore.com": {
+      "row": 3340,
+      "name": "Secretly Store",
+      "domain": "secretlystore.com",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://secretlystore.com/collections/all/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 12,
+      "excluded": 8,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "USD",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://secretlystore.com/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://secretlystore.com/products.json?limit=20&page=1",
+          "score": 75,
+          "products_seen": 20,
+          "accepted": 7,
+          "excluded": 13,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://secretlystore.com/collections/all/products.json?limit=20&page=1",
+          "score": 125,
+          "products_seen": 20,
+          "accepted": 12,
+          "excluded": 8,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://secretlystore.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://secretlystore.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://secretlystore.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://secretlystore.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://secretlystore.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://secretlystore.com/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "secretlystore_com.py",
+        "secretlystore_com.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "secretlystore_com.py",
+        "secretlystore_com.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "hmv.com": {
+      "row": 3341,
+      "name": "HMV",
+      "domain": "hmv.com",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "HTTP_403",
+      "source_url": "https://hmv.com/",
+      "attempts": 1,
+      "evidence": "HTTP_403",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "devildogdistro.com": {
+      "row": 3342,
+      "name": "Devil Dog Distro",
+      "domain": "devildogdistro.com",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://devildogdistro.com/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 5,
+      "excluded": 15,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://devildogdistro.com/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://devildogdistro.com/products.json?limit=20&page=1",
+          "score": 55,
+          "products_seen": 20,
+          "accepted": 5,
+          "excluded": 15,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://devildogdistro.com/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "products_seen": 20,
+          "accepted": 0,
+          "excluded": 20,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://devildogdistro.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://devildogdistro.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://devildogdistro.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://devildogdistro.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://devildogdistro.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://devildogdistro.com/products.json?limit=20&page=1",
+        "score": 55,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "devildogdistro_com.py",
+        "devildogdistro_com.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "devildogdistro_com.py",
+        "devildogdistro_com.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "crashrecords.co.uk": {
+      "row": 3343,
+      "name": "Crash Records",
+      "domain": "crashrecords.co.uk",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://crashrecords.co.uk/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 21,
+      "accepted": 15,
+      "excluded": 6,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://crashrecords.co.uk/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://crashrecords.co.uk/products.json?limit=20&page=1",
+          "score": 155,
+          "products_seen": 21,
+          "accepted": 15,
+          "excluded": 6,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://crashrecords.co.uk/collections/all/products.json?limit=20&page=1",
+          "score": 75,
+          "products_seen": 21,
+          "accepted": 7,
+          "excluded": 14,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://crashrecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://crashrecords.co.uk/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://crashrecords.co.uk/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://crashrecords.co.uk/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://crashrecords.co.uk/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://crashrecords.co.uk/products.json?limit=20&page=1",
+        "score": 155,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 2,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "crashrecords_co_uk.py",
+        "crashrecords_co_uk.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "crashrecords_co_uk.py",
+        "crashrecords_co_uk.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "beartreerecords.com": {
+      "row": 3344,
+      "name": "Bear Tree Records",
+      "domain": "beartreerecords.com",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://beartreerecords.com/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 21,
+      "accepted": 8,
+      "excluded": 13,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://beartreerecords.com/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://beartreerecords.com/products.json?limit=20&page=1",
+          "score": 85,
+          "products_seen": 21,
+          "accepted": 8,
+          "excluded": 13,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://beartreerecords.com/collections/all/products.json?limit=20&page=1",
+          "score": 65,
+          "products_seen": 20,
+          "accepted": 6,
+          "excluded": 14,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://beartreerecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://beartreerecords.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://beartreerecords.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://beartreerecords.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://beartreerecords.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://beartreerecords.com/products.json?limit=20&page=1",
+        "score": 85,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "beartreerecords_com.py",
+        "beartreerecords_com.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "beartreerecords_com.py",
+        "beartreerecords_com.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "truckmusic.store": {
+      "row": 3345,
+      "name": "Truck Store",
+      "domain": "truckmusic.store",
+      "status": "ADAPTER_TESTED",
+      "gate": "listing",
+      "platform": "shopify",
+      "source_url": "https://truckmusic.store/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 0,
+      "excluded": 20,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://truckmusic.store/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://truckmusic.store/products.json?limit=20&page=1",
+          "score": 0,
+          "products_seen": 20,
+          "accepted": 0,
+          "excluded": 20,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://truckmusic.store/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "products_seen": 20,
+          "accepted": 0,
+          "excluded": 20,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://truckmusic.store/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://truckmusic.store/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://truckmusic.store/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://truckmusic.store/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://truckmusic.store/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://truckmusic.store/products.json?limit=20&page=1",
+        "score": 0,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "reason": "no confirmed new vinyl on bounded page",
+      "attempts": 1,
+      "evidence": "no confirmed new vinyl on bounded page",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "flashback.co.uk": {
+      "row": 3346,
+      "name": "Flashback Records",
+      "domain": "flashback.co.uk",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://flashback.co.uk/collections/all/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 7,
+      "excluded": 13,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://flashback.co.uk/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://flashback.co.uk/products.json?limit=20&page=1",
+          "score": 25,
+          "products_seen": 20,
+          "accepted": 2,
+          "excluded": 18,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://flashback.co.uk/collections/all/products.json?limit=20&page=1",
+          "score": 75,
+          "products_seen": 20,
+          "accepted": 7,
+          "excluded": 13,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://flashback.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://flashback.co.uk/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://flashback.co.uk/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://flashback.co.uk/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://flashback.co.uk/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://flashback.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 75,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "flashback_co_uk.py",
+        "flashback_co_uk.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "flashback_co_uk.py",
+        "flashback_co_uk.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "venusvinyl.com": {
+      "row": 3347,
+      "name": "Venus Vinyl",
+      "domain": "venusvinyl.com",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://venusvinyl.com/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 22,
+      "accepted": 20,
+      "excluded": 1,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://venusvinyl.com/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://venusvinyl.com/products.json?limit=20&page=1",
+          "score": 215,
+          "products_seen": 22,
+          "accepted": 21,
+          "excluded": 1,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://venusvinyl.com/collections/all/products.json?limit=20&page=1",
+          "score": 205,
+          "products_seen": 20,
+          "accepted": 20,
+          "excluded": 0,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://venusvinyl.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://venusvinyl.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://venusvinyl.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://venusvinyl.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://venusvinyl.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://venusvinyl.com/products.json?limit=20&page=1",
+        "score": 215,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "venusvinyl_com.py",
+        "venusvinyl_com.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "venusvinyl_com.py",
+        "venusvinyl_com.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "southrecordshop.com": {
+      "row": 3348,
+      "name": "South Record Shop",
+      "domain": "southrecordshop.com",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://southrecordshop.com/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 22,
+      "accepted": 20,
+      "excluded": 0,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://southrecordshop.com/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://southrecordshop.com/products.json?limit=20&page=1",
+          "score": 225,
+          "products_seen": 22,
+          "accepted": 22,
+          "excluded": 0,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://southrecordshop.com/collections/all/products.json?limit=20&page=1",
+          "score": 195,
+          "products_seen": 20,
+          "accepted": 19,
+          "excluded": 1,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://southrecordshop.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://southrecordshop.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://southrecordshop.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://southrecordshop.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://southrecordshop.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://southrecordshop.com/products.json?limit=20&page=1",
+        "score": 225,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "southrecordshop_com.py",
+        "southrecordshop_com.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "southrecordshop_com.py",
+        "southrecordshop_com.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "specialistsubjectrecords.co.uk": {
+      "row": 3349,
+      "name": "Specialist Subject",
+      "domain": "specialistsubjectrecords.co.uk",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://specialistsubjectrecords.co.uk/collections/all/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 17,
+      "excluded": 3,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://specialistsubjectrecords.co.uk/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://specialistsubjectrecords.co.uk/products.json?limit=20&page=1",
+          "score": 0,
+          "products_seen": 20,
+          "accepted": 0,
+          "excluded": 20,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://specialistsubjectrecords.co.uk/collections/all/products.json?limit=20&page=1",
+          "score": 175,
+          "products_seen": 20,
+          "accepted": 17,
+          "excluded": 3,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://specialistsubjectrecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://specialistsubjectrecords.co.uk/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://specialistsubjectrecords.co.uk/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://specialistsubjectrecords.co.uk/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://specialistsubjectrecords.co.uk/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://specialistsubjectrecords.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 175,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "specialistsubjectrecords_co_uk.py",
+        "specialistsubjectrecords_co_uk.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "specialistsubjectrecords_co_uk.py",
+        "specialistsubjectrecords_co_uk.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "stickyblacktarmac.com": {
+      "row": 3350,
+      "name": "Sticky Black Tarmac",
+      "domain": "stickyblacktarmac.com",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "Response size limit",
+      "source_url": "https://stickyblacktarmac.com/",
+      "attempts": 1,
+      "evidence": "Response size limit",
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "beatdownrecords.org": {
+      "row": 3351,
+      "name": "Beatdown Records",
+      "domain": "beatdownrecords.org",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://beatdownrecords.org/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 12,
+      "excluded": 8,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://beatdownrecords.org/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://beatdownrecords.org/products.json?limit=20&page=1",
+          "score": 125,
+          "products_seen": 20,
+          "accepted": 12,
+          "excluded": 8,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://beatdownrecords.org/collections/all/products.json?limit=20&page=1",
+          "score": 115,
+          "products_seen": 20,
+          "accepted": 11,
+          "excluded": 9,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://beatdownrecords.org/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://beatdownrecords.org/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://beatdownrecords.org/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://beatdownrecords.org/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://beatdownrecords.org/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://beatdownrecords.org/products.json?limit=20&page=1",
+        "score": 125,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "beatdownrecords_org.py",
+        "beatdownrecords_org.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "beatdownrecords_org.py",
+        "beatdownrecords_org.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "tangledparrot.com": {
+      "row": 3352,
+      "name": "Tangled Parrot",
+      "domain": "tangledparrot.com",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://tangledparrot.com/collections/all/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 6,
+      "excluded": 14,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://tangledparrot.com/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://tangledparrot.com/products.json?limit=20&page=1",
+          "score": 55,
+          "products_seen": 20,
+          "accepted": 5,
+          "excluded": 15,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://tangledparrot.com/collections/all/products.json?limit=20&page=1",
+          "score": 65,
+          "products_seen": 20,
+          "accepted": 6,
+          "excluded": 14,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://tangledparrot.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://tangledparrot.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://tangledparrot.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://tangledparrot.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://tangledparrot.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://tangledparrot.com/collections/all/products.json?limit=20&page=1",
+        "score": 65,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "tangledparrot_com.py",
+        "tangledparrot_com.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "tangledparrot_com.py",
+        "tangledparrot_com.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "vinylexchange.co.uk": {
+      "row": 3353,
+      "name": "Vinyl Exchange",
+      "domain": "vinylexchange.co.uk",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://vinylexchange.co.uk/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 20,
+      "excluded": 0,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://vinylexchange.co.uk/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://vinylexchange.co.uk/products.json?limit=20&page=1",
+          "score": 205,
+          "products_seen": 20,
+          "accepted": 20,
+          "excluded": 0,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://vinylexchange.co.uk/collections/all/products.json?limit=20&page=1",
+          "score": 195,
+          "products_seen": 20,
+          "accepted": 19,
+          "excluded": 1,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://vinylexchange.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://vinylexchange.co.uk/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://vinylexchange.co.uk/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://vinylexchange.co.uk/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://vinylexchange.co.uk/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://vinylexchange.co.uk/products.json?limit=20&page=1",
+        "score": 205,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "vinylexchange_co_uk.py",
+        "vinylexchange_co_uk.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "vinylexchange_co_uk.py",
+        "vinylexchange_co_uk.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "todestrieb.co.uk": {
+      "row": 3354,
+      "name": "Todestrieb Records",
+      "domain": "todestrieb.co.uk",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://todestrieb.co.uk/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 4,
+      "excluded": 16,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://todestrieb.co.uk/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://todestrieb.co.uk/products.json?limit=20&page=1",
+          "score": 45,
+          "products_seen": 20,
+          "accepted": 4,
+          "excluded": 16,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://todestrieb.co.uk/collections/all/products.json?limit=20&page=1",
+          "score": 35,
+          "products_seen": 20,
+          "accepted": 3,
+          "excluded": 17,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://todestrieb.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://todestrieb.co.uk/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://todestrieb.co.uk/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://todestrieb.co.uk/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://todestrieb.co.uk/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://todestrieb.co.uk/products.json?limit=20&page=1",
+        "score": 45,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "todestrieb_co_uk.py",
+        "todestrieb_co_uk.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "todestrieb_co_uk.py",
+        "todestrieb_co_uk.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "blackcityrecords.co.uk": {
+      "row": 3355,
+      "name": "Black City Records",
+      "domain": "blackcityrecords.co.uk",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://blackcityrecords.co.uk/collections/all/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 21,
+      "accepted": 18,
+      "excluded": 3,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://blackcityrecords.co.uk/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://blackcityrecords.co.uk/products.json?limit=20&page=1",
+          "score": 185,
+          "products_seen": 20,
+          "accepted": 18,
+          "excluded": 2,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://blackcityrecords.co.uk/collections/all/products.json?limit=20&page=1",
+          "score": 185,
+          "products_seen": 21,
+          "accepted": 18,
+          "excluded": 3,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://blackcityrecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://blackcityrecords.co.uk/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://blackcityrecords.co.uk/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://blackcityrecords.co.uk/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://blackcityrecords.co.uk/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://blackcityrecords.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 185,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "blackcityrecords_co_uk.py",
+        "blackcityrecords_co_uk.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "blackcityrecords_co_uk.py",
+        "blackcityrecords_co_uk.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "kingsroadmerch.co.uk": {
+      "row": 3356,
+      "name": "Kings Road Merch",
+      "domain": "kingsroadmerch.co.uk",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://kingsroadmerch.co.uk/collections/all/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 11,
+      "excluded": 9,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://kingsroadmerch.co.uk/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://kingsroadmerch.co.uk/products.json?limit=20&page=1",
+          "score": 65,
+          "products_seen": 20,
+          "accepted": 6,
+          "excluded": 14,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://kingsroadmerch.co.uk/collections/all/products.json?limit=20&page=1",
+          "score": 115,
+          "products_seen": 20,
+          "accepted": 11,
+          "excluded": 9,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://kingsroadmerch.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://kingsroadmerch.co.uk/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://kingsroadmerch.co.uk/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://kingsroadmerch.co.uk/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://kingsroadmerch.co.uk/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://kingsroadmerch.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 115,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 2,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "kingsroadmerch_co_uk.py",
+        "kingsroadmerch_co_uk.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "kingsroadmerch_co_uk.py",
+        "kingsroadmerch_co_uk.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "waxandbeans.co.uk": {
+      "row": 3357,
+      "name": "Wax & Beans",
+      "domain": "waxandbeans.co.uk",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://waxandbeans.co.uk/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 6,
+      "excluded": 14,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://waxandbeans.co.uk/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://waxandbeans.co.uk/products.json?limit=20&page=1",
+          "score": 65,
+          "products_seen": 20,
+          "accepted": 6,
+          "excluded": 14,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://waxandbeans.co.uk/collections/all/products.json?limit=20&page=1",
+          "score": 45,
+          "products_seen": 20,
+          "accepted": 4,
+          "excluded": 16,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://waxandbeans.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://waxandbeans.co.uk/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://waxandbeans.co.uk/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://waxandbeans.co.uk/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://waxandbeans.co.uk/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://waxandbeans.co.uk/products.json?limit=20&page=1",
+        "score": 65,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "waxandbeans_co_uk.py",
+        "waxandbeans_co_uk.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "waxandbeans_co_uk.py",
+        "waxandbeans_co_uk.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "orchardrecords.com": {
+      "row": 3358,
+      "name": "Orchard Records",
+      "domain": "orchardrecords.com",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://orchardrecords.com/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 15,
+      "excluded": 5,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://orchardrecords.com/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://orchardrecords.com/products.json?limit=20&page=1",
+          "score": 155,
+          "products_seen": 20,
+          "accepted": 15,
+          "excluded": 5,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://orchardrecords.com/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "Invalid Shopify price"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://orchardrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://orchardrecords.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://orchardrecords.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://orchardrecords.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://orchardrecords.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://orchardrecords.com/products.json?limit=20&page=1",
+        "score": 155,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 0,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "orchardrecords_com.py",
+        "orchardrecords_com.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "orchardrecords_com.py",
+        "orchardrecords_com.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
+    },
+    "rarewaves.com": {
+      "row": 3359,
+      "name": "Rarewaves",
+      "domain": "rarewaves.com",
+      "status": "SCRAPER_BUILT_TESTED",
+      "gate": "qa",
+      "platform": "shopify",
+      "source_url": "https://rarewaves.com/collections/all/products.json?limit=20&page=1",
+      "adapter_class": "ShopifyNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 7,
+      "excluded": 13,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "currency": "GBP",
+      "currency_source": "public_storefront_Shopify.currency",
+      "currency_source_url": "https://rarewaves.com/",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://rarewaves.com/products.json?limit=20&page=1",
+          "score": 15,
+          "products_seen": 20,
+          "accepted": 1,
+          "excluded": 19,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://rarewaves.com/collections/all/products.json?limit=20&page=1",
+          "score": 75,
+          "products_seen": 20,
+          "accepted": 7,
+          "excluded": 13,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://rarewaves.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_400"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://rarewaves.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://rarewaves.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://rarewaves.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://rarewaves.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "selected_method": {
+        "platform": "shopify",
+        "route": "https://rarewaves.com/collections/all/products.json?limit=20&page=1",
+        "score": 75,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "detail_checked": 2,
+      "detail_gtin_valid": 2,
+      "detail_status": "SAMPLED",
+      "generated_files": [
+        "rarewaves_com.py",
+        "rarewaves_com.json"
+      ],
+      "build_test": "wrapper_import_and_contract_passed",
+      "attempts": 1,
+      "evidence": [
+        "rarewaves_com.py",
+        "rarewaves_com.json"
+      ],
+      "last_attempt_at": "2026-10-25T22:14:04+00:00"
     }
   },
   "last_run_id": "manual",
-  "updated_at": "2026-10-17T10:33:54+00:00"
+  "updated_at": "2026-10-25T22:14:04+00:00"
 }

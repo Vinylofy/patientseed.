@@ -109,7 +109,6 @@ Maximale bouwpogingen: 3
 | astimegoesby.com | 173 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | ascendentsrecords.com | 174 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
 | ashstreetmusic.com | 175 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
-| assai.co.uk | 177 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['assai_co_uk.py', 'assai_co_uk.json'] |
 | astrorecordstore.com | 180 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | astrozombies.com | 181 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | asylumrecordsaz.com | 182 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
@@ -1331,7 +1330,6 @@ Maximale bouwpogingen: 3
 | reporecord.com | 2165 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | reporecords.com | 2166 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | residency-records.com | 2167 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['residency_records_com.py', 'residency_records_com.json'] |
-| resident-music.com | 2168 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | residentvinyl.com | 2169 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['residentvinyl_com.py', 'residentvinyl_com.json'] |
 | resignationrecords.com | 2170 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
 | getresurrected.com | 2171 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['getresurrected_com.py', 'getresurrected_com.json'] |
@@ -1416,7 +1414,6 @@ Maximale bouwpogingen: 3
 | rosiesrecords.com | 2306 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | rottenislandrecords.com | 2308 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['rottenislandrecords_com.py', 'rottenislandrecords_com.json'] |
 | rottenprincessrecords.bandcamp.com | 2309 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| roughtrade.com | 2310 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
 | roundagainrecordsri.com | 2311 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | roundhillmusicco.com | 2312 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['roundhillmusicco_com.py', 'roundhillmusicco_com.json'] |
 | roundtriprecords.store | 2313 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
@@ -2026,7 +2023,6 @@ Maximale bouwpogingen: 3
 | woodrowmarketplace.com | 3263 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | woodstockmusicshop.com | 3264 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | shopworldrecords.com | 3265 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
-| discogs.com | 3266 | 27 | FROZEN | — | — | — | DUPLICATE_DOMAIN |
 | woundforsound.net | 3267 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | wowthatsunusual.com | 3268 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | wreckonatl.com | 3269 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['wreckonatl_com.py', 'wreckonatl_com.json'] |
@@ -2061,3 +2057,53 @@ Maximale bouwpogingen: 3
 | zoinksrecords.com | 3304 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['zoinksrecords_com.py', 'zoinksrecords_com.json'] |
 | ztrecords.com | 3308 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | zzzrecords.com | 3309 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| roughtrade.com | 3310 | 2 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| normanrecords.com | 3311 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| sisterray.co.uk | 3312 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| piccadillyrecords.com | 3313 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| banquetrecords.com | 3314 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| driftrecords.com | 3315 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| phonicarecords.com | 3316 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_307 |
+| resident-music.com | 3317 | 2 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| assai.co.uk | 3318 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['assai_co_uk.py', 'assai_co_uk.json'] |
+| monorailmusic.com | 3319 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| wearepopstore.com | 3320 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['wearepopstore_com.py', 'wearepopstore_com.json'] |
+| townsendmusic.store | 3321 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| emp.co.uk | 3322 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| impericon.com | 3323 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['impericon_com.py', 'impericon_com.json'] |
+| chalkys.com | 3324 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['chalkys_com.py', 'chalkys_com.json'] |
+| waterstones.com | 3325 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| diginrecords.com | 3326 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['diginrecords_com.py', 'diginrecords_com.json'] |
+| recordstore.co.uk | 3327 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| whatrecords.co.uk | 3328 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| eclipse-records.co.uk | 3329 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| atlasrecords.co.uk | 3330 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['atlasrecords_co_uk.py', 'atlasrecords_co_uk.json'] |
+| vinyltap.co.uk | 3331 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['vinyltap_co_uk.py', 'vinyltap_co_uk.json'] |
+| vinilo.co.uk | 3332 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['vinilo_co_uk.py', 'vinilo_co_uk.json'] |
+| ebay.co.uk | 3333 | 1 | SOURCE_REVIEW | — | — | — | SHARED_PLATFORM |
+| discogs.com | 3334 | 28 | FROZEN | — | — | — | SHARED_PLATFORM |
+| amazon.co.uk | 3335 | 1 | SOURCE_REVIEW | — | — | — | SHARED_PLATFORM |
+| bellaunionvinylshop.com | 3336 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['bellaunionvinylshop_com.py', 'bellaunionvinylshop_com.json'] |
+| store.udiscovermusic.com | 3337 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['store_udiscovermusic_com.py', 'store_udiscovermusic_com.json'] |
+| thesoundofvinyl.com | 3338 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| shop.islandrecords.co.uk | 3339 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['shop_islandrecords_co_uk.py', 'shop_islandrecords_co_uk.json'] |
+| secretlystore.com | 3340 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['secretlystore_com.py', 'secretlystore_com.json'] |
+| hmv.com | 3341 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| devildogdistro.com | 3342 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['devildogdistro_com.py', 'devildogdistro_com.json'] |
+| crashrecords.co.uk | 3343 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['crashrecords_co_uk.py', 'crashrecords_co_uk.json'] |
+| beartreerecords.com | 3344 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['beartreerecords_com.py', 'beartreerecords_com.json'] |
+| truckmusic.store | 3345 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| flashback.co.uk | 3346 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['flashback_co_uk.py', 'flashback_co_uk.json'] |
+| venusvinyl.com | 3347 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['venusvinyl_com.py', 'venusvinyl_com.json'] |
+| southrecordshop.com | 3348 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['southrecordshop_com.py', 'southrecordshop_com.json'] |
+| specialistsubjectrecords.co.uk | 3349 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['specialistsubjectrecords_co_uk.py', 'specialistsubjectrecords_co_uk.json'] |
+| stickyblacktarmac.com | 3350 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| beatdownrecords.org | 3351 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['beatdownrecords_org.py', 'beatdownrecords_org.json'] |
+| tangledparrot.com | 3352 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['tangledparrot_com.py', 'tangledparrot_com.json'] |
+| vinylexchange.co.uk | 3353 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['vinylexchange_co_uk.py', 'vinylexchange_co_uk.json'] |
+| todestrieb.co.uk | 3354 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['todestrieb_co_uk.py', 'todestrieb_co_uk.json'] |
+| blackcityrecords.co.uk | 3355 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['blackcityrecords_co_uk.py', 'blackcityrecords_co_uk.json'] |
+| kingsroadmerch.co.uk | 3356 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['kingsroadmerch_co_uk.py', 'kingsroadmerch_co_uk.json'] |
+| waxandbeans.co.uk | 3357 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['waxandbeans_co_uk.py', 'waxandbeans_co_uk.json'] |
+| orchardrecords.com | 3358 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['orchardrecords_com.py', 'orchardrecords_com.json'] |
+| rarewaves.com | 3359 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['rarewaves_com.py', 'rarewaves_com.json'] |
