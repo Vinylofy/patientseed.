@@ -1,0 +1,100 @@
+{
+  "fingerprint": "99e519cdc8d163d36af54faf74e534c43f15631fcd8b954ee80920de91fd98b5",
+  "domain": "impericon.com",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:31.499060+00:00",
+  "evidence": {
+    "domain": "impericon.com",
+    "route": "https://impericon.com/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:27.701030+00:00",
+    "requests": [
+      {
+        "url": "https://impericon.com/products.json?limit=20&page=1",
+        "sha256": "4f8d373e774317ea4c0a5d7d63b456080946419441ac39481a732691f70e75bf"
+      },
+      {
+        "url": "https://impericon.com/products/cloud-nothings-what-kind-of-hell-did-you-survive-ltd-crayon-marbled-vinyl?variant=67911693336813",
+        "sha256": "8db1324553cf12daa2baafab76c0c140498dec0d9e57f3969937c7689b0fe10f"
+      },
+      {
+        "url": "https://impericon.com/products/obituary-xecutioners-return-reissue-oxblood-colored-vinyl?variant=67911387709677",
+        "sha256": "3acb3a060f8b73bb0753c01786f4ddc813b71ed58c632acd0d99dbf1f5562b99"
+      },
+      {
+        "url": "https://impericon.com/products/fu-manchu-california-crossing-25th-anniversary-ltd-red-white-blue-colored-vinyl?variant=67853406404845",
+        "sha256": "2fe788071352d300ec038fddc07bfb90aa1aa580bc61f15f4376ead47582a6d4"
+      }
+    ],
+    "listing_records": 9,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://impericon.com/products/cloud-nothings-what-kind-of-hell-did-you-survive-ltd-crayon-marbled-vinyl?variant=67911693336813",
+        "price": "29.99",
+        "currency": "EUR",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://impericon.com/products/obituary-xecutioners-return-reissue-oxblood-colored-vinyl?variant=67911387709677",
+        "price": "24.99",
+        "currency": "EUR",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://impericon.com/products/fu-manchu-california-crossing-25th-anniversary-ltd-red-white-blue-colored-vinyl?variant=67853406404845",
+        "price": "31.99",
+        "currency": "EUR",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 9,
+      "unique_prices": 8,
+      "shipping_hits": 0,
+      "currencies": [
+        "EUR"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40240002837"
+    }
+  ]
+}
