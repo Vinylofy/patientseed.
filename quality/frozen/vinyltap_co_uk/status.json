@@ -1,0 +1,70 @@
+{
+  "fingerprint": "907af64171c06d9f8af6e2b308c3a63350247b0834fc2bc6da8718acbb99756d",
+  "domain": "vinyltap.co.uk",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:57.295196+00:00",
+  "evidence": {
+    "domain": "vinyltap.co.uk",
+    "route": "https://vinyltap.co.uk/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:55.818192+00:00",
+    "requests": [
+      {
+        "url": "https://vinyltap.co.uk/collections/all/products.json?limit=20&page=1",
+        "sha256": "cd9f961641870ebb906c66c57018d725d2749f36d2ee3aaad4243cf7771a7390"
+      },
+      {
+        "url": "https://vinyltap.co.uk/products/let-it-be-blue-0960541?variant=55424313491834",
+        "sha256": "3bd9e66d4da01d908588781afc7054af952482d75493338133b7c96863c0613b"
+      }
+    ],
+    "listing_records": 8,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 8,
+      "unique_prices": 6,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40240002837"
+    }
+  ]
+}
