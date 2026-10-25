@@ -1,0 +1,100 @@
+{
+  "fingerprint": "bc6a5832e34b6c540cb1248b45c400e73f1d175188ca8538b251217f32b4e90e",
+  "domain": "bellaunionvinylshop.com",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:18.136829+00:00",
+  "evidence": {
+    "domain": "bellaunionvinylshop.com",
+    "route": "https://bellaunionvinylshop.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:14.743189+00:00",
+    "requests": [
+      {
+        "url": "https://bellaunionvinylshop.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "5d683f0d92b63bf9519e0cc3afe6c741012463d02bc22f12e25d1971bacbd1ea"
+      },
+      {
+        "url": "https://bellaunionvinylshop.com/products/5588703?variant=46860231672093",
+        "sha256": "7416344c4bee8c5a783fcc6b83036e5655e058e23d888c908b73cb28939fd3da"
+      },
+      {
+        "url": "https://bellaunionvinylshop.com/products/air-moon-safari-lp?variant=58267109294467",
+        "sha256": "b1d5a2973b7cec31d92c0a46b5ed07de6ce41ad5d528f896ab1cd383fd0fe35c"
+      },
+      {
+        "url": "https://bellaunionvinylshop.com/products/alvvays-blue-rev-lp?variant=58226718179715",
+        "sha256": "d95563cb9fa4ef65f19bf11d8cf8e82176eda7c7ad147cb1f7cb9864cf705ab6"
+      }
+    ],
+    "listing_records": 14,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://bellaunionvinylshop.com/products/5588703?variant=46860231672093",
+        "price": "41.99",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://bellaunionvinylshop.com/products/air-moon-safari-lp?variant=58267109294467",
+        "price": "28.99",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://bellaunionvinylshop.com/products/alvvays-blue-rev-lp?variant=58226718179715",
+        "price": "19.99",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 14,
+      "unique_prices": 10,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40240002837"
+    }
+  ]
+}
