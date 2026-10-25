@@ -3383,6 +3383,10 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 
 <!-- quality-gate:start -->
 ## Inhoudelijke toelatingscontrole
+Unieke profielen met QA-registratie: **224**. APPROVED: **45**; FROZEN: **24**; REVIEW: **155**
+
+Findyl online — 25-10-2026 (50; inclusief 4 herbeoordelingen): **28** profielen met QA-registratie; APPROVED: **5**; FROZEN: **23**
+
 
 Laatste verwerking: 2026-10-25T22:27:18.932633+00:00. Batch 13.
 Maximaal 25 shops per batch; initiële proef en maximaal drie ondersteunde routeherstelpogingen.
