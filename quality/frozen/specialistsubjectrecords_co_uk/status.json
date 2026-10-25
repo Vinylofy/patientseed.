@@ -1,0 +1,56 @@
+{
+  "fingerprint": "6ff11fd764c6333bba012f136fbee7b7932682f13d2df098b03d76fdcf2916ac",
+  "domain": "specialistsubjectrecords.co.uk",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:44.503580+00:00",
+  "evidence": {
+    "domain": "specialistsubjectrecords.co.uk",
+    "route": "https://specialistsubjectrecords.co.uk/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:44.235017+00:00",
+    "requests": [
+      {
+        "url": "https://specialistsubjectrecords.co.uk/products.json?limit=20&page=1",
+        "sha256": "8a4529a170c3aa408a040fc70f1e5156c3d2d9b5e7b3e4bc49fc2f4c83c57ec3"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "40240002837"
+    }
+  ]
+}
