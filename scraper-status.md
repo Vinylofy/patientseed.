@@ -3499,7 +3499,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | soulstoprecords.com | 7 | REVIEW | 0 | 18 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | soundbendrecords.co | 7 | APPROVED | 0 | 17 | 3/3 | ACTIVE (run 40173287462) | REPAIR_REQUIRED (run 40176730821) | run 40064351096 |
 | soundplatters.com | 7 | REVIEW | 0 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| southmetromusic.com | 7 | APPROVED | 0 | 10 | 3/3 | ACTIVE (run 40173287462) | ACTIVE | run 40064351096 |
+| southmetromusic.com | 7 | APPROVED | 0 | 10 | 3/3 | ACTIVE (run 40173287462) | ACTIVE (run 40176730821) | run 40064351096 |
 | spinsterrecords.com | 7 | REVIEW | 0 | 14 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | spintimerecords.com | 7 | REVIEW | 0 | 5 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | spoonfulrecordsohio.com | 7 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
