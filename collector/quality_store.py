@@ -145,6 +145,8 @@ def publish(root):
     for p in sorted(root.rglob('*')):
         if not p.is_file() or p.name in {'state.json','base-state.json'}:continue
         if '__pycache__' in p.parts or p.suffix not in {'.json','.py'}:continue
+        # Admission never changes runtime reservations; preserve concurrent workers' budgets.
+        if 'budgets' in p.relative_to(root).parts: continue
         if 'health' in p.relative_to(root).parts:
             value=json.loads(p.read_text())
             def merge_health(text):

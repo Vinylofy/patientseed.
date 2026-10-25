@@ -69,6 +69,14 @@ class FindylBatchTests(unittest.TestCase):
             self.assertEqual(saved['rechecks'],state['rechecks'])
             self.assertEqual(saved['history'][0],state['history'][0])
 
+    def test_quality_publisher_never_republishes_worker_budget_snapshots(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);p=root/'budgets/ean/store.json';p.parent.mkdir(parents=True)
+            p.write_text('{"reserved": 0}')
+            with patch.object(quality_store,'update') as update:
+                quality_store.publish(root)
+            update.assert_not_called()
+
     def test_explicit_currency_does_not_guess_from_country(self):
         self.assertEqual(shopify_currency('Shopify.currency = {"active":"GBP","rate":"1.0"};'),'GBP')
         self.assertIsNone(shopify_currency('Prices in pounds; United Kingdom'))
