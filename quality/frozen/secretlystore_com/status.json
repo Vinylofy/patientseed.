@@ -1,0 +1,100 @@
+{
+  "fingerprint": "6aaeddcd0d3861caee49428067ea3a5c853f75bb79fc66971e0c4cbd955bfad2",
+  "domain": "secretlystore.com",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:38.618257+00:00",
+  "evidence": {
+    "domain": "secretlystore.com",
+    "route": "https://secretlystore.com/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:34.931829+00:00",
+    "requests": [
+      {
+        "url": "https://secretlystore.com/products.json?limit=20&page=1",
+        "sha256": "964134837dc5aa226166c06f0cfbeba17f6aafef1b28a31ba6d635fe223670ee"
+      },
+      {
+        "url": "https://secretlystore.com/products/black-sheep-boy-okkervil-river?variant=44536157175971",
+        "sha256": "ff1ab5e189809600a8051344acd70193365f755b5c9e7286bfca90755c03f7de"
+      },
+      {
+        "url": "https://secretlystore.com/products/its-all-aquatic?variant=67664195780771",
+        "sha256": "c151192021cf674b3db57b6608cfec6b4548d0861d54a2b67f802b8b062971f2"
+      },
+      {
+        "url": "https://secretlystore.com/products/woven-music?variant=67663889137827",
+        "sha256": "08518599850869fb0fc1cd331fd6bb3de6a4b3c6104f8b7ad7798071a6facc4f"
+      }
+    ],
+    "listing_records": 7,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://secretlystore.com/products/black-sheep-boy-okkervil-river?variant=44536157175971",
+        "price": "17.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://secretlystore.com/products/its-all-aquatic?variant=67664195780771",
+        "price": "12.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://secretlystore.com/products/woven-music?variant=67663889137827",
+        "price": "12.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 7,
+      "unique_prices": 3,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40240002837"
+    }
+  ]
+}
