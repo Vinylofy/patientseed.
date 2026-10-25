@@ -1,0 +1,70 @@
+{
+  "fingerprint": "239097e8efc9bd1bf4a563b2fc09fe39a3a6cb5cc48f3c8876d9ef54d7bd9c11",
+  "domain": "store.udiscovermusic.com",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:45.849040+00:00",
+  "evidence": {
+    "domain": "store.udiscovermusic.com",
+    "route": "https://store.udiscovermusic.com/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:44.535666+00:00",
+    "requests": [
+      {
+        "url": "https://store.udiscovermusic.com/products.json?limit=20&page=1",
+        "sha256": "2273c5b7fa235383782512ca5e48ac7005c5059cc23dcbe44864fd7671cdd590"
+      },
+      {
+        "url": "https://store.udiscovermusic.com/products/pixar-hits-red-vinyl-lp?variant=57825252770172",
+        "sha256": "ca1bc0498010c578e060d2b975e02bb35a88db74a549bbac810b6a705c9a9585"
+      }
+    ],
+    "listing_records": 17,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 17,
+      "unique_prices": 6,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40240002837"
+    }
+  ]
+}
