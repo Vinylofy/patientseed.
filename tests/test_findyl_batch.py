@@ -69,6 +69,17 @@ class FindylBatchTests(unittest.TestCase):
             self.assertEqual(saved['rechecks'],state['rechecks'])
             self.assertEqual(saved['history'][0],state['history'][0])
 
+    def test_central_qa_report_counts_findyl_admissions_separately(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)
+            record={'domain':'assai.co.uk','batch':9,'repair_attempts':3,'status':'FROZEN',
+                    'run_id':'test','evidence':{'reason':'price_not_proven'}}
+            (root/'state.json').write_text(json.dumps({'batch':9,'shops':{'assai_co_uk':record}}))
+            report=quality_store.central_section(root)
+            self.assertIn('Unieke profielen met QA-registratie: **1**',report)
+            self.assertIn('Findyl online',report)
+            self.assertIn('FROZEN: **1**',report)
+
     def test_quality_publisher_never_republishes_worker_budget_snapshots(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp);p=root/'budgets/ean/store.json';p.parent.mkdir(parents=True)

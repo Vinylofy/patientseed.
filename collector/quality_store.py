@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+from collections import Counter
 import base64
 import json
 import os
@@ -119,6 +120,18 @@ def central_section(root):
         'Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumgecontroleerd.', '',
         '| Shop | Batch | Toelating | Reparaties | Listing | Detail/EAN | Price health | EAN health | Reden/bewijs |',
         '|---|---:|---|---:|---:|---|---|---|---|']
+    counts = Counter(record.get('status', 'UNKNOWN') for record in state['shops'].values())
+    overview = [f"Unieke profielen met QA-registratie: **{len(state['shops'])}**. " +
+        '; '.join(f"{status}: **{count}**" for status, count in sorted(counts.items())), '']
+    for path in sorted((Path(__file__).parent / 'sources').glob('*.json')):
+        source = json.loads(path.read_text())
+        domains = {entry['domain'] for entry in source.get('entries', [])}
+        records = [record for record in state['shops'].values() if record['domain'] in domains]
+        if not records: continue
+        group = Counter(record.get('status', 'UNKNOWN') for record in records)
+        overview += [f"{source.get('label', source['source'])}: **{len(records)}** profielen met QA-registratie; " +
+                     '; '.join(f"{status}: **{count}**" for status, count in sorted(group.items())), '']
+    lines[2:2] = overview
     for slug,record in sorted(state['shops'].items()):
         e=record['evidence'];modes=[]
         for mode in ('price','ean'):
