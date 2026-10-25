@@ -3494,7 +3494,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | sleevecityusa.com | 7 | REVIEW | 0 | 8 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | soldoutvinylrecords.com | 7 | APPROVED | 0 | 6 | 3/3 | ACTIVE (run 40173287462) | ACTIVE | run 40064351096 |
 | solstarecords.com | 7 | REVIEW | 0 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| sookvinyl.com | 7 | APPROVED | 0 | 3 | 1/3 | ACTIVE (run 40173287462) | ACTIVE | run 40064351096 |
+| sookvinyl.com | 7 | APPROVED | 0 | 3 | 1/3 | ACTIVE (run 40173287462) | ACTIVE (run 40176730821) | run 40064351096 |
 | sorrystaterecords.com | 7 | REVIEW | 0 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | soulstoprecords.com | 7 | REVIEW | 0 | 18 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | soundbendrecords.co | 7 | APPROVED | 0 | 17 | 3/3 | ACTIVE (run 40173287462) | INCIDENT | run 40064351096 |
