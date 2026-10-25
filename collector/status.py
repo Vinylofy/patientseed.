@@ -28,7 +28,7 @@ def next_step(result: dict) -> str:
     return f"{step}: {reason}" if reason else step
 
 
-def render(queue: list[dict], state: dict) -> str:
+def render(queue: list[dict], state: dict, sources: list[dict] | None = None) -> str:
     cursor = next_index(state, queue)
     history = state.get("history")
     if (not isinstance(history, list) or len(history) != cursor
@@ -44,6 +44,24 @@ def render(queue: list[dict], state: dict) -> str:
              "private acceptatie, marktprijzen en imports volgen apart.", "",
              "## Statusaantallen", ""]
     lines.extend(f"- {cell(status)}: {count}" for status, count in sorted(counts.items()))
+    if sources:
+        labelled = set()
+        groups = []
+        for source in sources:
+            ids = {entry["row"] for entry in source["entries"]}
+            if ids & labelled or not ids <= {item["row"] for item in queue}:
+                raise ValueError("source manifests overlap or contain unknown queue IDs")
+            labelled |= ids
+            groups.append((source.get("label", source["source"]), ids))
+        groups.insert(0, ("Oorspronkelijke lijst", {item["row"] for item in queue} - labelled))
+        lines.extend(["", "## Brongroepen", "", "Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of unieke scraperprofielen.", "",
+            "| Bron | Vermeldingen | Broncontrole afgerond | Open | Bouwstatus getest |",
+            "|---|---:|---:|---:|---:|"])
+        for name, ids in groups:
+            examined = [result for position, result in enumerate(displayed) if queue[position]["row"] in ids]
+            built = sum(result["status"] == "SCRAPER_BUILT_TESTED" for result in examined)
+            lines.append(f"| {cell(name)} | {len(ids)} | {len(examined)} | {len(ids)-len(examined)} | {built} |")
+        lines.append(f"| **Totaal** | **{len(queue)}** | **{cursor}** | **{len(queue)-cursor}** | **{counts.get('SCRAPER_BUILT_TESTED',0)}** |")
     lines.extend(["", "## Winkels", "",
                   "| Queue | Batch | Bronrij / ID | Winkel | Domein | Platform | Bronstatus | Listing | Detail/GTIN | Volgende stap |",
                   "|---:|---:|---:|---|---|---|---|---:|---|---|"])
@@ -66,7 +84,9 @@ def main() -> int:
     args = parser.parse_args()
     queue = load_queue(args.queue)
     state = json.loads(args.progress.read_text(encoding="utf-8"))
-    rendered = render(queue, state)
+    source_root = args.queue.parent / "sources"
+    sources = [json.loads(path.read_text(encoding="utf-8")) for path in sorted(source_root.glob("*.json"))]
+    rendered = render(queue, state, sources=sources)
     # Automated source/route rechecks must preserve the same central QA section.
     if args.output.exists():
         previous = args.output.read_text(encoding="utf-8")

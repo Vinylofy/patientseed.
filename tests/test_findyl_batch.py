@@ -24,6 +24,17 @@ class FindylBatchTests(unittest.TestCase):
         state={'schema_version':1,'queue_size':3303,'queue_sha256':queue_digest(q[:3303]),'next_start_index':3303}
         self.assertEqual(progress.next_index(state,q),3303)
 
+    def test_central_report_separates_original_and_findyl_counts(self):
+        from collector.status import render
+        q=load_queue(Path('collector/public-queue.json'))
+        source=json.loads(Path('collector/sources/findyl-online-2026-10-25.json').read_text())
+        history=[{'row':x['row'],'status':'SOURCE_REVIEW'} for x in q[:3303]]
+        state={'schema_version':1,'queue_size':3303,'queue_sha256':queue_digest(q[:3303]),'next_start_index':3303,'history':history}
+        doc=render(q,state,sources=[source])
+        self.assertIn('| Oorspronkelijke lijst | 3303 | 3303 | 0 | 0 |',doc)
+        self.assertIn('| 50 | 0 | 50 | 0 |',doc)
+        self.assertIn('| **Totaal** | **3353** | **3303** | **50** |',doc)
+
     def test_progress_reads_large_file_by_blob_and_preserves_sha(self):
         state={'schema_version':1,'history':[]};raw=json.dumps(state).encode();sha='a'*40
         obj={'size':1_100_000,'sha':sha,'encoding':'none','content':''}

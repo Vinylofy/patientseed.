@@ -13,6 +13,16 @@ Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine 
 - SOURCE_BLOCKED: 386
 - SOURCE_REVIEW: 1260
 
+## Brongroepen
+
+Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of unieke scraperprofielen.
+
+| Bron | Vermeldingen | Broncontrole afgerond | Open | Bouwstatus getest |
+|---|---:|---:|---:|---:|
+| Oorspronkelijke lijst | 3303 | 3303 | 0 | 248 |
+| Findyl online — 25-10-2026 (50; inclusief 4 herbeoordelingen) | 50 | 50 | 0 | 28 |
+| **Totaal** | **3353** | **3353** | **0** | **276** |
+
 ## Winkels
 
 | Queue | Batch | Bronrij / ID | Winkel | Domein | Platform | Bronstatus | Listing | Detail/GTIN | Volgende stap |
