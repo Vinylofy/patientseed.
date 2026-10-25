@@ -1,0 +1,100 @@
+{
+  "fingerprint": "ec73e09e7655fef0cc72e1cd5da7d5db3e5936d917e32d0a8a1575d97c339d5f",
+  "domain": "southrecordshop.com",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:44.202957+00:00",
+  "evidence": {
+    "domain": "southrecordshop.com",
+    "route": "https://southrecordshop.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:40.419864+00:00",
+    "requests": [
+      {
+        "url": "https://southrecordshop.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "5c93cf5360c356b65dbed41d18dff9957ab8cb828855aa6d8b8df40c7c887fd7"
+      },
+      {
+        "url": "https://southrecordshop.com/products/and-you-will-know-us-by-the-trail-of-dead-madonna?variant=54957764870520",
+        "sha256": "e790b1c5bed230352e7c19969f648a94dc44b7aeaf4be309d33fb12ab0b8a442"
+      },
+      {
+        "url": "https://southrecordshop.com/products/2pac-all-eyez-on-me?variant=43787391890",
+        "sha256": "4fbbc8366d8abe03a233fd3c429339ea4cf1a8e0e48646cd77ab7260a74db914"
+      },
+      {
+        "url": "https://southrecordshop.com/products/the-mysterians-action?variant=44067980345655",
+        "sha256": "f735ed6ba598689b26ba280d100e29cf8e57a0c5cbb2f7889bedc99bedbe7b51"
+      }
+    ],
+    "listing_records": 19,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://southrecordshop.com/products/and-you-will-know-us-by-the-trail-of-dead-madonna?variant=54957764870520",
+        "price": "45.00",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://southrecordshop.com/products/2pac-all-eyez-on-me?variant=43787391890",
+        "price": "25.99",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://southrecordshop.com/products/the-mysterians-action?variant=44067980345655",
+        "price": "29.99",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 19,
+      "unique_prices": 11,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40240002837"
+    }
+  ]
+}
