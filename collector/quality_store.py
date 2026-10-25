@@ -30,7 +30,16 @@ def read(path, branch=BRANCH):
     except RuntimeError as exc:
         if 'HTTP 404' in str(exc): return None, None
         raise
-    return base64.b64decode(data['content']).decode(), data['sha']
+    content = data
+    if data.get('encoding') == 'none':
+        if not 0 < data.get('size', 0) <= 10_000_000:
+            raise ValueError('quality content exceeds supported size')
+        content = api('GET', f"git/blobs/{data['sha']}")
+        if content.get('sha') != data['sha'] or content.get('encoding') != 'base64':
+            raise ValueError('quality blob identity mismatch')
+    raw = base64.b64decode(content['content'])
+    if len(raw) > 10_000_000: raise ValueError('quality content exceeds supported size')
+    return raw.decode(), data['sha']
 
 
 def update(path, transform, *, branch=BRANCH):

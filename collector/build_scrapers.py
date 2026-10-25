@@ -51,16 +51,20 @@ def build(result_path: Path, output: Path) -> list[dict]:
         py = output / f"{name}.py"
         profile = output / f"{name}.json"
         generated_class = class_name(name)
+        currency = row.get("currency") if platform == "shopify" else None
+        if currency is not None and not re.fullmatch('[A-Z]{3}', currency):
+            raise ValueError('invalid proven storefront currency')
         py.write_text(
             f'"""Generated scraper profile for {domain}; adapter contract tested by a manual Action run."""\n'
-            f"from {module} import {adapter_name}\n\n"
-            f"DOMAIN = {domain!r}\nCATALOG_ROUTE = {source_url!r}\n\n"
+            f"from {module} import {adapter_name}\nfrom dataclasses import replace\n\n"
+            f"DOMAIN = {domain!r}\nCATALOG_ROUTE = {source_url!r}\nCURRENCY = {currency!r}\n\n"
             f"class {generated_class}:\n"
             f"    domain = DOMAIN\n    catalog_route = CATALOG_ROUTE\n"
             f"    adapter_class = {adapter_name}\n\n"
             f"    def __init__(self):\n        self.adapter = {adapter_name}(DOMAIN)\n\n"
             f"    def parse_listing(self, body, *, source_url=None, observed_at):\n"
-            f"        return self.adapter.parse_listing(body, source_url=source_url or CATALOG_ROUTE, observed_at=observed_at)\n\n"
+            f"        page = self.adapter.parse_listing(body, source_url=source_url or CATALOG_ROUTE, observed_at=observed_at)\n"
+            f"        return replace(page, listings=tuple({{**item, 'currency': CURRENCY}} for item in page.listings)) if CURRENCY else page\n\n"
             f"    def parse_detail(self, body, *, source_url, listing):\n"
             f"        return self.adapter.parse_detail(body, source_url=source_url, listing=listing)\n",
             encoding="utf-8")
@@ -71,6 +75,8 @@ def build(result_path: Path, output: Path) -> list[dict]:
                                        "listing_sample": row.get("accepted", 0),
                                        "detail_checked": row["detail_checked"],
                                        "detail_gtin_valid": row.get("detail_gtin_valid", 0),
+                                       "currency": currency, "currency_source": row.get("currency_source"),
+                                       "currency_source_url": row.get("currency_source_url"),
                                        "release_status": "SCRAPER_BUILT_TESTED"},
                                       ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         spec = importlib.util.spec_from_file_location(f"generated_{name}", py)

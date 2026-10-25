@@ -153,10 +153,10 @@ class ManualRunTests(unittest.TestCase):
         root = Path(__file__).parents[1]
         queue = load_queue(root / "collector/public-queue.json")
         bootstrap = json.loads((root / "collector/bootstrap-domains.json").read_text())
-        self.assertEqual(len(queue), 3303)
-        self.assertEqual(len({item["row"] for item in queue}), 3303)
+        self.assertGreaterEqual(len(queue), 3303)
+        self.assertEqual(len({item["row"] for item in queue}), len(queue))
         self.assertEqual([item["domain"] for item in queue[:23]], bootstrap)
-        self.assertEqual({item["row"] for item in queue}, set(range(7, 3310)))
+        self.assertEqual({item["row"] for item in queue[:3303]}, set(range(7, 3310)))
 
     def test_shared_and_missing_sources_are_not_fetch_candidates(self):
         self.assertEqual(source_domain(None), ("", "MISSING_SOURCE"))

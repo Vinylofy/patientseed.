@@ -181,7 +181,7 @@ def approved(root, profiles, mode=None):
     return result
 
 
-def run_batch(profiles, root, *, limit=25, run_id='local', validator=validate, seconds=2400):
+def run_batch(profiles, root, *, limit=25, run_id='local', validator=validate, seconds=2400, domains=None):
     assert_credential_free_environment()
     if not 1 <= limit <= 25: raise ValueError('quality batch limit must be 1..25')
     state_path = root / 'state.json'
@@ -189,6 +189,7 @@ def run_batch(profiles, root, *, limit=25, run_id='local', validator=validate, s
     state['batch'] += 1; batch = state['batch']; started = time.monotonic(); processed = []
     candidates = []
     for path in sorted(profiles.glob('*.json')):
+        if domains is not None and json.loads(path.read_text())['domain'] not in domains: continue
         previous = state['shops'].get(path.stem, {}); digest = fingerprint(path)
         health = health_records(root, path.stem)
         needs_repair = any(h.get('status') == 'REPAIR_REQUIRED' for h in health.values())
@@ -260,12 +261,14 @@ def main():
     parser.add_argument('--run-id', default='local')
     parser.add_argument('--plan', action='store_true')
     parser.add_argument('--mode', choices=('price', 'ean'))
+    parser.add_argument('--source-list', type=Path)
     args = parser.parse_args()
     if args.plan:
         names = approved(args.state_root, args.profiles, args.mode)
         print(json.dumps([{'slugs': names[i:i+100]} for i in range(0,len(names),100)]))
     else:
-        result = run_batch(args.profiles, args.state_root, limit=args.limit, run_id=args.run_id)
+        domains = {row['domain'] for row in json.loads(args.source_list.read_text())['entries']} if args.source_list else None
+        result = run_batch(args.profiles, args.state_root, limit=args.limit, run_id=args.run_id, domains=domains)
         print(json.dumps(result))
         Path('quality-batch-result.json').write_text(json.dumps(result,indent=2)+'\n')
 

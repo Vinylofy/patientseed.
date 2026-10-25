@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import re
 from datetime import datetime, timezone
 
 from collector.adapters.shopify_new_vinyl import ShopifyNewVinylAdapter
@@ -51,6 +52,16 @@ def route_candidates(domain: str, hinted_platform: str) -> list[tuple[str, str]]
     return [(platform, route) for platform in order for route in groups[platform]]
 
 
+def shopify_currency(html: str) -> str | None:
+    """Read explicit public storefront currency; never infer it from country."""
+    found = set()
+    for raw in re.findall(r'Shopify\.currency\s*=\s*(\{[^;]*?\})', html):
+        try: value = json.loads(raw).get('active')
+        except (ValueError, AttributeError): continue
+        if isinstance(value, str) and re.fullmatch('[A-Z]{3}', value): found.add(value)
+    return next(iter(found)) if len(found) == 1 else None
+
+
 def platform_hint(html: str) -> str:
     text = html[:250_000].lower()
     if any(signal in text for signal in ("cdn.shopify.com", "shopify.theme", "shopify-section")):
@@ -73,14 +84,14 @@ def valid_gtin(value: object) -> bool:
 
 
 def sample_listing(identity: dict, adapter, body: str, route: str, platform: str,
-                   products_seen: int, transport, method_candidates: list[dict] | None = None) -> dict:
+                   products_seen: int, transport, method_candidates: list[dict] | None = None, currency: str | None = None) -> dict:
     try:
         page = adapter.parse_listing(body, source_url=route, observed_at=datetime.now(timezone.utc).isoformat())
         accepted = []
         for listing in page.listings:
             public_source(listing["url"], identity["domain"])
             if listing.get("product_type") == "vinyl" and listing.get("condition") == "new":
-                accepted.append(listing)
+                accepted.append({**listing, "currency": currency} if currency and platform == "shopify" else listing)
         accepted = accepted[:LIMITS.max_products]
     except (CollectionBlocked, ValueError, TypeError, KeyError) as exc:
         return {**identity, "status": "CATALOG_ROUTE_VERIFIED", "gate": "listing", "platform": platform,
@@ -92,6 +103,8 @@ def sample_listing(identity: dict, adapter, body: str, route: str, platform: str
               "products_seen": products_seen, "accepted": len(accepted),
               "excluded": len(page.exclusions), "pagination_complete": False,
               "listing_gtin_valid": sum(valid_gtin(row.get("identifier_raw")) for row in accepted)}
+    if currency and platform == "shopify":
+        result.update(currency=currency, currency_source="public_storefront_Shopify.currency", currency_source_url=f"https://{identity['domain']}/")
     if method_candidates:
         result["method_candidates"] = method_candidates
         result["selected_method"] = {
@@ -118,6 +131,8 @@ def sample_listing(identity: dict, adapter, body: str, route: str, platform: str
         except (CollectionBlocked, OSError, TimeoutError, ValueError) as exc:
             result["detail_status"] = "BLOCKED"
             result["detail_reason"] = str(exc)[:100] if isinstance(exc, CollectionBlocked) else type(exc).__name__
+            if isinstance(exc, CollectionBlocked) and re.search(r'HTTP_(?:401|403|429)\b', str(exc)):
+                result.update(status="SOURCE_BLOCKED", reason=str(exc)[:100], gate="detail")
             break
         checked += 1
         valid += valid_gtin(detail.get("identifier_raw"))
@@ -126,7 +141,7 @@ def sample_listing(identity: dict, adapter, body: str, route: str, platform: str
     result.setdefault("detail_status", "SAMPLED")
     # The wrapper is generated only by build_scrapers after this result is
     # persisted; reconnaissance itself never claims a durable scraper build.
-    if checked:
+    if checked and result.get("status") != "SOURCE_BLOCKED":
         result["status"] = "ADAPTER_TESTED"
         result["gate"] = "build"
     return result
@@ -169,6 +184,10 @@ def probe(item: dict, transport_factory=Transport) -> dict:
                 "status": "ADAPTER_PARSED",
             })
         except (CollectionBlocked, OSError, TimeoutError, ValueError, TypeError, KeyError) as exc:
+            if isinstance(exc, CollectionBlocked) and re.search(r'HTTP_(?:401|403|429)\b', str(exc)):
+                return {**identity, 'status': 'SOURCE_BLOCKED', 'gate': 'catalog_route',
+                        'platform': hinted_platform, 'source_url': route, 'reason': str(exc)[:100],
+                        'method_candidates': candidates}
             candidates.append({
                 "platform": candidate_platform,
                 "route": route,
@@ -189,4 +208,4 @@ def probe(item: dict, transport_factory=Transport) -> dict:
     body = bodies[selected["route"]]
     return sample_listing(identity, ADAPTERS[selected["platform"]](domain), body,
                           selected["route"], selected["platform"], selected["products_seen"],
-                          transport, candidates)
+                          transport, candidates, currency=shopify_currency(html))

@@ -10,7 +10,8 @@ from urllib.parse import urlsplit
 FIRST_SHOP_ROW = 7
 LAST_SHOP_ROW = 3309
 SHARED_HOSTS = {"facebook.com", "m.facebook.com", "instagram.com", "x.com", "twitter.com",
-                "linktr.ee", "a.co", "amazon.com", "sites.google.com", "ebay.com", "etsy.com"}
+                "linktr.ee", "a.co", "amazon.com", "amazon.co.uk", "sites.google.com",
+                "ebay.com", "ebay.co.uk", "discogs.com", "etsy.com"}
 
 
 def source_domain(source: object) -> tuple[str, str]:

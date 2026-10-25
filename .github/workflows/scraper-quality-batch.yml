@@ -5,6 +5,14 @@ on:
     - cron: "37 0 * * *"
   workflow_dispatch:
     inputs:
+      source_list:
+        description: "Optional source group; keeps the same durable admission state"
+        type: choice
+        required: false
+        default: all
+        options:
+          - all
+          - findyl-online-2026-10-25
       batch_limit:
         description: "Maximum shops (1-25); automatically resumes unfinished candidates"
         type: string
@@ -42,7 +50,11 @@ jobs:
         env:
           BATCH_LIMIT: ${{ inputs.batch_limit || '25' }}
           RUN_ID: ${{ github.run_id }}
-        run: python -u -m collector.quality_gate --profiles published/collector/generated --state-root release/quality --limit "$BATCH_LIMIT" --run-id "$RUN_ID"
+          SOURCE_LIST: ${{ inputs.source_list || 'all' }}
+        run: |
+          args=()
+          if [ "$SOURCE_LIST" = "findyl-online-2026-10-25" ]; then args+=(--source-list collector/sources/findyl-online-2026-10-25.json); fi
+          python -u -m collector.quality_gate --profiles published/collector/generated --state-root release/quality --limit "$BATCH_LIMIT" --run-id "$RUN_ID" "${args[@]}"
       - name: Persist checkpoints, freeze copies and central status
         if: always()
         env:

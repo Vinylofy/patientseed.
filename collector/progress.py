@@ -72,7 +72,16 @@ def read_remote() -> tuple[dict | None, str | None]:
         if exc.code == 404:
             return None, None
         raise
-    raw = base64.b64decode(obj["content"])
+    content = obj
+    if obj.get("encoding") == "none":
+        if not 0 < obj.get("size", 0) <= 10_000_000:
+            raise ValueError("progress content exceeds supported size")
+        content = request("GET", f"git/blobs/{obj['sha']}")
+        if content.get("sha") != obj["sha"] or content.get("encoding") != "base64":
+            raise ValueError("progress blob identity mismatch")
+    raw = base64.b64decode(content["content"])
+    if len(raw) > 10_000_000:
+        raise ValueError("progress content exceeds supported size")
     return unpack_state(json.loads(raw)), obj["sha"]
 
 
@@ -126,9 +135,9 @@ def publish(queue_path: Path, result_path: Path) -> None:
                                                 "reason", "products_seen", "accepted", "excluded",
                                                 "listing_gtin_valid", "detail_checked", "detail_gtin_valid",
                                                 "detail_status", "detail_reason", "generated_files",
-                                                "build_test") if key in item}}
+                                                "build_test", "currency", "currency_source", "currency_source_url") if key in item}}
                    for item in result["results"])
-    new_state = {"schema_version": 1, "queue_sha256": queue_digest(queue),
+    new_state = {**(state or {}), "schema_version": 1, "queue_sha256": queue_digest(queue),
                  "next_start_index": result["next_start_index"], "queue_size": len(queue),
                  "last_run_id": os.environ["GITHUB_RUN_ID"], "last_release_sha": os.environ["GITHUB_SHA"],
                  "batch_number": batch_number, "history": history}

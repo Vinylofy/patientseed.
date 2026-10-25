@@ -45,7 +45,7 @@ def render(queue: list[dict], state: dict) -> str:
              "## Statusaantallen", ""]
     lines.extend(f"- {cell(status)}: {count}" for status, count in sorted(counts.items()))
     lines.extend(["", "## Winkels", "",
-                  "| Queue | Batch | Excelrij | Winkel | Domein | Platform | Bronstatus | Listing | Detail/GTIN | Volgende stap |",
+                  "| Queue | Batch | Bronrij / ID | Winkel | Domein | Platform | Bronstatus | Listing | Detail/GTIN | Volgende stap |",
                   "|---:|---:|---:|---|---|---|---|---:|---|---|"])
     for position, item in enumerate(queue):
         result = rechecks.get(item["row"], history[position]) if position < cursor else {}
