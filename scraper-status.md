@@ -3384,7 +3384,7 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 <!-- quality-gate:start -->
 ## Inhoudelijke toelatingscontrole
 
-Laatste verwerking: 2026-10-25T22:24:59.003010+00:00. Batch 12.
+Laatste verwerking: 2026-10-25T22:27:18.932633+00:00. Batch 13.
 Maximaal 25 shops per batch; initiële proef en maximaal drie ondersteunde routeherstelpogingen.
 APPROVED = beperkte inhoudelijke bronproef geslaagd, geen productie- of volledige-catalogusgoedkeuring.
 Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumgecontroleerd.
@@ -3404,7 +3404,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | apolloexos.com | 1 | REVIEW | 0 | 1 | 0/0 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
 | arcskate.com | 1 | APPROVED | 0 | 16 | 3/3 | ACTIVE | ACTIVE | run 39155794450 |
 | artsoundlanguage.com | 1 | REVIEW | 0 | 16 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| assai.co.uk | 12 | REVIEW | 2 | 15 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
+| assai.co.uk | 13 | FROZEN | 3 | 15 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | atlasrecords.co.uk | 12 | FROZEN | 3 | 7 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | beartreerecords.com | 12 | FROZEN | 3 | 6 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | beatdownrecords.org | 12 | FROZEN | 3 | 11 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
@@ -3613,6 +3613,6 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | vinilo.co.uk | 9 | APPROVED | 0 | 3 | 3/3 | ACTIVE | ACTIVE | run 40239367598 |
 | vinylexchange.co.uk | 12 | FROZEN | 3 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | vinyltap.co.uk | 12 | FROZEN | 3 | 8 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| waxandbeans.co.uk | 12 | REVIEW | 2 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
+| waxandbeans.co.uk | 13 | FROZEN | 3 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | wearepopstore.com | 10 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 40239702760 |
 <!-- quality-gate:end -->
