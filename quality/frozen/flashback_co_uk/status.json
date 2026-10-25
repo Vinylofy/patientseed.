@@ -1,0 +1,89 @@
+{
+  "fingerprint": "22b0d5f958970cdeb40327df277e3513c4718fd671cfc4b66c7f9e023bac6791",
+  "domain": "flashback.co.uk",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:27.669279+00:00",
+  "evidence": {
+    "domain": "flashback.co.uk",
+    "route": "https://flashback.co.uk/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:25.255824+00:00",
+    "requests": [
+      {
+        "url": "https://flashback.co.uk/products.json?limit=20&page=1",
+        "sha256": "31df604a648aeb74e1f2430e807fde9a48403783d6da42700570d7ef7cbec670"
+      },
+      {
+        "url": "https://flashback.co.uk/products/various-artists-denshattack-original-game-soundtrack-420249?variant=58952258519423",
+        "sha256": "bbc8b0bde7a698d6ce892664fe00c0111a9aa40fa3779ef39bb14dbd2b200ec3"
+      },
+      {
+        "url": "https://flashback.co.uk/products/various-artists-christmas-hits-420198?variant=58952258257279",
+        "sha256": "e4cb70a52c9cb61e1c8592527961d49de1fd9e056bf4e782f6d222644864d09c"
+      }
+    ],
+    "listing_records": 2,
+    "detail_checked": 2,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://flashback.co.uk/products/various-artists-denshattack-original-game-soundtrack-420249?variant=58952258519423",
+        "price": "71.00",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://flashback.co.uk/products/various-artists-christmas-hits-420198?variant=58952258257279",
+        "price": "27.00",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 2,
+      "unique_prices": 2,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40240002837"
+    }
+  ]
+}
