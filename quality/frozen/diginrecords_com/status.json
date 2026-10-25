@@ -1,0 +1,70 @@
+{
+  "fingerprint": "d6f027ec92dff74d8b411afe3aa4326897c95c7fe1082c4635249f67c9db378b",
+  "domain": "diginrecords.com",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:25.223836+00:00",
+  "evidence": {
+    "domain": "diginrecords.com",
+    "route": "https://diginrecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:23.710602+00:00",
+    "requests": [
+      {
+        "url": "https://diginrecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "b3b9f9747b613a98030da67a055fe34a8b6f4f7a5cded0421b2e2badade1a219"
+      },
+      {
+        "url": "https://diginrecords.com/products/ibiza-2023-v-a-vinyl-lp?variant=43805609853144",
+        "sha256": "e8c7ef39e240c020b709e39cbd7fc8aab478ee71d9584c5f52aca77046136e28"
+      }
+    ],
+    "listing_records": 10,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 10,
+      "unique_prices": 8,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40240002837"
+    }
+  ]
+}
