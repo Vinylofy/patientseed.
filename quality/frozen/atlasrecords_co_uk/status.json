@@ -1,0 +1,100 @@
+{
+  "fingerprint": "616e5e4b4ee4fc31462512968fd0000976d97c75d660fefdf722af398dea90ea",
+  "domain": "atlasrecords.co.uk",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:09.916578+00:00",
+  "evidence": {
+    "domain": "atlasrecords.co.uk",
+    "route": "https://atlasrecords.co.uk/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:06.410033+00:00",
+    "requests": [
+      {
+        "url": "https://atlasrecords.co.uk/collections/all/products.json?limit=20&page=1",
+        "sha256": "e3bfc9251ad75ac75506d561766fff1e28542e87ad24786dd72d32499301c0f2"
+      },
+      {
+        "url": "https://atlasrecords.co.uk/products/e-kites-7-inch-vinyl-009701?variant=40576732332125",
+        "sha256": "1c350b6083c7f237ff14aa7a2502ada5264c7318e27f453b1fdf61cfccf7f483"
+      },
+      {
+        "url": "https://atlasrecords.co.uk/products/passenger-walk-you-home-7-inch-vinyl-048524?variant=55549739598200",
+        "sha256": "1583cca97616ca460c4e9ae09f63db5ca0dfb5d8734d42c4e1f031d40980397f"
+      },
+      {
+        "url": "https://atlasrecords.co.uk/products/10cc-greatest-hits-1972-1978-lp-vinyl-606311?variant=55703288185208",
+        "sha256": "ec0007dab06e1b92ec8869d0e28fca0e71f23dadc7ab4546caa1a8779df7d0f6"
+      }
+    ],
+    "listing_records": 7,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://atlasrecords.co.uk/products/e-kites-7-inch-vinyl-009701?variant=40576732332125",
+        "price": "2.75",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://atlasrecords.co.uk/products/passenger-walk-you-home-7-inch-vinyl-048524?variant=55549739598200",
+        "price": "72.00",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://atlasrecords.co.uk/products/10cc-greatest-hits-1972-1978-lp-vinyl-606311?variant=55703288185208",
+        "price": "33.00",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 7,
+      "unique_prices": 7,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40240002837"
+    }
+  ]
+}
