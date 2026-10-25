@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "domain": "beartreerecords.com",
+  "platform": "shopify",
+  "adapter_class": "ShopifyNewVinylAdapter",
+  "catalog_route": "https://beartreerecords.com/products.json?limit=20&page=1",
+  "discovery_method": {
+    "platform": "shopify",
+    "route": "https://beartreerecords.com/products.json?limit=20&page=1",
+    "score": 85,
+    "selection": "highest_bounded_adapter_score"
+  },
+  "method_candidates": [
+    {
+      "platform": "shopify",
+      "route": "https://beartreerecords.com/products.json?limit=20&page=1",
+      "score": 85,
+      "products_seen": 21,
+      "accepted": 8,
+      "excluded": 13,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://beartreerecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 65,
+      "products_seen": 20,
+      "accepted": 6,
+      "excluded": 14,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "woocommerce",
+      "route": "https://beartreerecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_400"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://beartreerecords.com/api/0.1/collections/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://beartreerecords.com/api/0.1/collections/all/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://beartreerecords.com/api/storefront/products?limit=20&offset=0",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://beartreerecords.com/api/storefront/products?limit=20",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    }
+  ],
+  "listing_sample": 8,
+  "detail_checked": 2,
+  "detail_gtin_valid": 0,
+  "currency": "GBP",
+  "currency_source": "public_storefront_Shopify.currency",
+  "currency_source_url": "https://beartreerecords.com/",
+  "release_status": "SCRAPER_BUILT_TESTED"
+}
