@@ -1,0 +1,70 @@
+{
+  "fingerprint": "55609d8bed615190faf6c35f9dedaec97e04792b2bd986af11f3b87624d7b9b4",
+  "domain": "vinylexchange.co.uk",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:55.786061+00:00",
+  "evidence": {
+    "domain": "vinylexchange.co.uk",
+    "route": "https://vinylexchange.co.uk/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:53.975538+00:00",
+    "requests": [
+      {
+        "url": "https://vinylexchange.co.uk/collections/all/products.json?limit=20&page=1",
+        "sha256": "e8ba9ea3c3c5dd050fd7bcc719d7bde05e0dd6375b28a82789e7f45db5202927"
+      },
+      {
+        "url": "https://vinylexchange.co.uk/products/chk-chk-chk-all-u-writers-gonna-guetta-stomp?variant=54905309790581",
+        "sha256": "087c9f22cf90237f875d785a2ad1eb1a71fb151c1efd5c9637a33eca433d5a24"
+      }
+    ],
+    "listing_records": 19,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 19,
+      "unique_prices": 8,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40240002837"
+    }
+  ]
+}
