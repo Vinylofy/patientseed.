@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "batch": 12,
+  "batch": 13,
   "shops": {
     "10000hzrecords_com": {
       "fingerprint": "bd851743c2eee03c427913ea2a88bc94dfb0e74b1f11366277a07532ffcd9e33",
@@ -902,17 +902,17 @@
     "assai_co_uk": {
       "fingerprint": "aca91b7db41e672bf37debb7d912ebf4fb6ff8b0fdfa6eac43c607b8d414eab3",
       "domain": "assai.co.uk",
-      "batch": 12,
-      "repair_attempts": 2,
+      "batch": 13,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "40240002837",
-      "updated_at": "2026-10-25T22:24:06.377909+00:00",
+      "status": "FROZEN",
+      "run_id": "40240255679",
+      "updated_at": "2026-10-25T22:27:17.221934+00:00",
       "evidence": {
         "domain": "assai.co.uk",
         "route": "https://assai.co.uk/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:24:05.018270+00:00",
+        "observed_at": "2026-10-25T22:27:15.990192+00:00",
         "requests": [
           {
             "url": "https://assai.co.uk/products.json?limit=20&page=1",
@@ -920,7 +920,7 @@
           },
           {
             "url": "https://assai.co.uk/products/jojo-the-high-road-20th-anniversary-edition-vinyl-lp-glassy-ice-colour-due-out-15-01-27?variant=58923977998719",
-            "sha256": "f26a65db6f5155c03f7c95e81e7d1bc03339adb1f74cac3ba68d93209c3c38f4"
+            "sha256": "ea7b51dc2a2b956ec370b08a940f7f452453d188a28cc8997630e80c6f988884"
           }
         ],
         "listing_records": 15,
@@ -960,6 +960,12 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "40240002837"
+        },
+        {
+          "batch": 13,
+          "status": "FROZEN",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40240255679"
         }
       ]
     },
@@ -17508,25 +17514,25 @@
     "waxandbeans_co_uk": {
       "fingerprint": "8071b362270b1fa7980086e2fd5d844e6cd9d4e7d0ee77d02bcfb0fa3de1899c",
       "domain": "waxandbeans.co.uk",
-      "batch": 12,
-      "repair_attempts": 2,
+      "batch": 13,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "40240002837",
-      "updated_at": "2026-10-25T22:24:59.002940+00:00",
+      "status": "FROZEN",
+      "run_id": "40240255679",
+      "updated_at": "2026-10-25T22:27:18.932176+00:00",
       "evidence": {
         "domain": "waxandbeans.co.uk",
         "route": "https://waxandbeans.co.uk/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T22:24:57.327170+00:00",
+        "observed_at": "2026-10-25T22:27:17.253435+00:00",
         "requests": [
           {
             "url": "https://waxandbeans.co.uk/collections/all/products.json?limit=20&page=1",
-            "sha256": "a87d98572653e0ecc0e9944384813965a132b5f4ef38cfde63089c264d2f5044"
+            "sha256": "f20b8eadcf2d21cce46543b4d18e69e5d213d7541c2053dc6cd4caee5a29e73b"
           },
           {
             "url": "https://waxandbeans.co.uk/products/100-gecs-10-000-gecs-white-vinyl?variant=44163290235192",
-            "sha256": "88b1cc183a6e3a9b4849d1b1a764c4040468a1dd5b74697aa0fe53946a6f112b"
+            "sha256": "516e9011eb56f3976c7dac662e1327214f17d163e78f97b6536e3792ca7d4bc5"
           }
         ],
         "listing_records": 4,
@@ -17566,6 +17572,12 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "40240002837"
+        },
+        {
+          "batch": 13,
+          "status": "FROZEN",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40240255679"
         }
       ]
     },
@@ -17711,6 +17723,6 @@
       }
     }
   },
-  "updated_at": "2026-10-25T22:24:59.003010+00:00",
-  "last_run_id": "40240002837"
+  "updated_at": "2026-10-25T22:27:18.932633+00:00",
+  "last_run_id": "40240255679"
 }
