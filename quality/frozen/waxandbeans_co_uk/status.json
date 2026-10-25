@@ -1,0 +1,70 @@
+{
+  "fingerprint": "8071b362270b1fa7980086e2fd5d844e6cd9d4e7d0ee77d02bcfb0fa3de1899c",
+  "domain": "waxandbeans.co.uk",
+  "batch": 13,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240255679",
+  "updated_at": "2026-10-25T22:27:18.932176+00:00",
+  "evidence": {
+    "domain": "waxandbeans.co.uk",
+    "route": "https://waxandbeans.co.uk/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:27:17.253435+00:00",
+    "requests": [
+      {
+        "url": "https://waxandbeans.co.uk/collections/all/products.json?limit=20&page=1",
+        "sha256": "f20b8eadcf2d21cce46543b4d18e69e5d213d7541c2053dc6cd4caee5a29e73b"
+      },
+      {
+        "url": "https://waxandbeans.co.uk/products/100-gecs-10-000-gecs-white-vinyl?variant=44163290235192",
+        "sha256": "516e9011eb56f3976c7dac662e1327214f17d163e78f97b6536e3792ca7d4bc5"
+      }
+    ],
+    "listing_records": 4,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 4,
+      "unique_prices": 3,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40240002837"
+    },
+    {
+      "batch": 13,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40240255679"
+    }
+  ]
+}
