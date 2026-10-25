@@ -1,0 +1,100 @@
+{
+  "fingerprint": "6986c5ba9411fd63ca75335c0337163fed4fe88da15b3e957ed516d5fe13ba67",
+  "domain": "tangledparrot.com",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:49.137452+00:00",
+  "evidence": {
+    "domain": "tangledparrot.com",
+    "route": "https://tangledparrot.com/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:45.880927+00:00",
+    "requests": [
+      {
+        "url": "https://tangledparrot.com/products.json?limit=20&page=1",
+        "sha256": "1b9374dfb725469d2e72b77e1a43f34f96f96edc312b63a86e0fc0d9a0901336"
+      },
+      {
+        "url": "https://tangledparrot.com/products/fat-freddys-drop-cays-crays-digital-mystikz-remix-the-drop-12?variant=51390911480055",
+        "sha256": "e07d645f4abc0bc02f581afbe6dd99170653e5aa6f868995dace8e071210346b"
+      },
+      {
+        "url": "https://tangledparrot.com/products/nails-unsilent-death-lp?variant=51383701438711",
+        "sha256": "a52b90db2eab5218d93314352884762b66d4d4326205404ffddaa731293a034c"
+      },
+      {
+        "url": "https://tangledparrot.com/products/john-barry-goldfinger-original-motion-picture-sound-track-lp-album-re-mint-m?variant=51379249348855",
+        "sha256": "2f7124d4e637db0cf96de2137ac6665fd8cb906c79f616612df960100a62a436"
+      }
+    ],
+    "listing_records": 5,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://tangledparrot.com/products/fat-freddys-drop-cays-crays-digital-mystikz-remix-the-drop-12?variant=51390911480055",
+        "price": "20.00",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://tangledparrot.com/products/nails-unsilent-death-lp?variant=51383701438711",
+        "price": "30.00",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://tangledparrot.com/products/john-barry-goldfinger-original-motion-picture-sound-track-lp-album-re-mint-m?variant=51379249348855",
+        "price": "25.00",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 5,
+      "unique_prices": 4,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "invalid_detail_gtin",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40240002837"
+    }
+  ]
+}
