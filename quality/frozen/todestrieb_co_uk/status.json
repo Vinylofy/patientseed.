@@ -1,0 +1,100 @@
+{
+  "fingerprint": "fb4df8bf45a3f882024a4be16d37c9f3a74069124c8100b87911cb2a1d3a40a5",
+  "domain": "todestrieb.co.uk",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:52.519839+00:00",
+  "evidence": {
+    "domain": "todestrieb.co.uk",
+    "route": "https://todestrieb.co.uk/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:49.169505+00:00",
+    "requests": [
+      {
+        "url": "https://todestrieb.co.uk/collections/all/products.json?limit=20&page=1",
+        "sha256": "e57e558348b4e8b0ea2a16feba97395951f58608f06448e90f8122c09de641e7"
+      },
+      {
+        "url": "https://todestrieb.co.uk/products/1349-liberation-picture-disc-lp?variant=27366476677",
+        "sha256": "f424496d458880265c403fa55bcb267266ae05d788af8ac86b6f74aaede15675"
+      },
+      {
+        "url": "https://todestrieb.co.uk/products/1349-revelations-of-the-black-flame-2lp?variant=39264141017122",
+        "sha256": "abfe5fb033c1948f69cf959004290f4fe2de19a76a7064b3f8de10211efc7c2c"
+      },
+      {
+        "url": "https://todestrieb.co.uk/products/1349-the-infernal-pathway-silver-edition-2lp?variant=30738561663010",
+        "sha256": "db6ab54f8ff36c24e70e039c05f14931af410c1dd7b8d1ddba2098f34e6c8924"
+      }
+    ],
+    "listing_records": 3,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://todestrieb.co.uk/products/1349-liberation-picture-disc-lp?variant=27366476677",
+        "price": "10.00",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://todestrieb.co.uk/products/1349-revelations-of-the-black-flame-2lp?variant=39264141017122",
+        "price": "14.00",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://todestrieb.co.uk/products/1349-the-infernal-pathway-silver-edition-2lp?variant=30738561663010",
+        "price": "26.99",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 3,
+      "unique_prices": 3,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40240002837"
+    }
+  ]
+}
