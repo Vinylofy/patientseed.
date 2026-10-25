@@ -1,0 +1,70 @@
+{
+  "fingerprint": "c614a3055fe98080af547625683ba964ddc89125b4c3fb6f211e6046fe0ed855",
+  "domain": "crashrecords.co.uk",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:23.253694+00:00",
+  "evidence": {
+    "domain": "crashrecords.co.uk",
+    "route": "https://crashrecords.co.uk/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:21.764455+00:00",
+    "requests": [
+      {
+        "url": "https://crashrecords.co.uk/collections/all/products.json?limit=20&page=1",
+        "sha256": "68acf0252d5637a9f7aa411ac4895b07c8842176f33b7fc6ed91c45208710e86"
+      },
+      {
+        "url": "https://crashrecords.co.uk/products/international-noise-conspiracy-the-a-new-morning-changing-weather-limited-rsd-black-friday-2026?variant=55689983918456",
+        "sha256": "cba65857658b2b2cdbec3cb17c2ccc671c1db49d74d77c97943aa795110e6abd"
+      }
+    ],
+    "listing_records": 7,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 7,
+      "unique_prices": 6,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40240002837"
+    }
+  ]
+}
