@@ -3522,7 +3522,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | theexchange.com | 8 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | Invalid Shopify price |
 | theguitargallery.com | 8 | REVIEW | 0 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | thehamletny.com | 8 | REVIEW | 0 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| theingroove.com | 8 | APPROVED | 0 | 20 | 3/3 | ACTIVE (run 40173287462) | ACTIVE | run 40164542697 |
+| theingroove.com | 8 | APPROVED | 0 | 20 | 3/3 | ACTIVE (run 40173287462) | ACTIVE (run 40176730821) | run 40164542697 |
 | therecordloftatl.com | 8 | REVIEW | 0 | 2 | 0/2 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | therecordspace.com | 8 | REVIEW | 0 | 12 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | thevinylgrooverecords.com | 8 | APPROVED | 0 | 13 | 3/3 | ACTIVE (run 40173287462) | ACTIVE (run 40176730821) | run 40164542697 |
