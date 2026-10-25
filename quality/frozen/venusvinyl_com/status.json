@@ -1,0 +1,70 @@
+{
+  "fingerprint": "a2e0e0204ea2de3b9cb9343b3c9b308bf5efe5d24abeeabfc46122b5aa09f768",
+  "domain": "venusvinyl.com",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:53.942784+00:00",
+  "evidence": {
+    "domain": "venusvinyl.com",
+    "route": "https://venusvinyl.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:52.551453+00:00",
+    "requests": [
+      {
+        "url": "https://venusvinyl.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "fc6f40b7b000ebd5cc962f75810eacf2b4c37902b1914ccff2db31e38881a0f5"
+      },
+      {
+        "url": "https://venusvinyl.com/products/uicideboy-i-want-to-die-in-new-orleans-vinyl-re-issue-ltd-ed-silver?variant=45452924780802",
+        "sha256": "6c811bf4680d26557522894c1e4cc5e64e9411f121303c8cfc80afa0f31f7e46"
+      }
+    ],
+    "listing_records": 20,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 20,
+      "unique_prices": 11,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40240002837"
+    }
+  ]
+}
