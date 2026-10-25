@@ -1,0 +1,70 @@
+{
+  "fingerprint": "f15f3055dac305a9986c3018554045ea2934b37ffc761f5e54cda76e4132bc6f",
+  "domain": "beatdownrecords.org",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:14.711322+00:00",
+  "evidence": {
+    "domain": "beatdownrecords.org",
+    "route": "https://beatdownrecords.org/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:13.391338+00:00",
+    "requests": [
+      {
+        "url": "https://beatdownrecords.org/collections/all/products.json?limit=20&page=1",
+        "sha256": "bf4d10f8647ab904208fd753edec378e4b6b0def081e1e8b5acdf6b74f56dd94"
+      },
+      {
+        "url": "https://beatdownrecords.org/products/100-demons-embrace-the-black-light-lp-onyx-vinyl?variant=56998697009530",
+        "sha256": "deb5dfb6dfe667e9a41d0167007f21d4df21058d5b622d446dd577eb39e5be18"
+      }
+    ],
+    "listing_records": 11,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 11,
+      "unique_prices": 10,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40240002837"
+    }
+  ]
+}
