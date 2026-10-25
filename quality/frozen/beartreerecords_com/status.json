@@ -1,0 +1,100 @@
+{
+  "fingerprint": "5ef62a050246c909353c45e47b2769c1cfa755d4d75b95326987e1653e0e2a6d",
+  "domain": "beartreerecords.com",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:13.358647+00:00",
+  "evidence": {
+    "domain": "beartreerecords.com",
+    "route": "https://beartreerecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:09.949551+00:00",
+    "requests": [
+      {
+        "url": "https://beartreerecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "d66ac5caefd27c6d578bbda441dc0462a20be0deb7fcd3f6a02a84d455aaa670"
+      },
+      {
+        "url": "https://beartreerecords.com/products/uicideboy-stop-staring-at-the-shadows-lp?variant=62936992645507",
+        "sha256": "620ee39d8c6364ffd8cb1eb7062be47ff19964c43edc11acfc9a7a2678f2f068"
+      },
+      {
+        "url": "https://beartreerecords.com/products/cancer-bats-hail-destroyer-lp?variant=57787742093699",
+        "sha256": "1fd9fb20e29ce3dd26b205a6c7639af4ce58a6c78e1e70e7c0f1659b60d7720f"
+      },
+      {
+        "url": "https://beartreerecords.com/products/signed-richard-hawley-lowedges-lp?variant=46379651956904",
+        "sha256": "0f4e132b88b4c5214e889c440d7e2cc8bf70a354daec956228f3f1042c9e846c"
+      }
+    ],
+    "listing_records": 6,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://beartreerecords.com/products/uicideboy-stop-staring-at-the-shadows-lp?variant=62936992645507",
+        "price": "19.99",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://beartreerecords.com/products/cancer-bats-hail-destroyer-lp?variant=57787742093699",
+        "price": "25.99",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://beartreerecords.com/products/signed-richard-hawley-lowedges-lp?variant=46379651956904",
+        "price": "37.99",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 6,
+      "unique_prices": 4,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40240002837"
+    }
+  ]
+}
