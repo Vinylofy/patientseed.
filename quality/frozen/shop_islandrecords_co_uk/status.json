@@ -1,0 +1,70 @@
+{
+  "fingerprint": "fb916e940a449b85064cb03624193c4ef2d9d912de32fb44b2884d9d83fa430d",
+  "domain": "shop.islandrecords.co.uk",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:40.387811+00:00",
+  "evidence": {
+    "domain": "shop.islandrecords.co.uk",
+    "route": "https://shop.islandrecords.co.uk/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:38.650227+00:00",
+    "requests": [
+      {
+        "url": "https://shop.islandrecords.co.uk/collections/all/products.json?limit=20&page=1",
+        "sha256": "b559202754998037925c456b83889bde7c0855404d8dd01fec61ac1e076dd643"
+      },
+      {
+        "url": "https://shop.islandrecords.co.uk/products/mention-me-7-vinyl?variant=55383639720321",
+        "sha256": "3a86b19e6f4c89ecf1633a22942c1d1916683dfc86510b4b5a475120701cb10d"
+      }
+    ],
+    "listing_records": 7,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 7,
+      "unique_prices": 5,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40240002837"
+    }
+  ]
+}
