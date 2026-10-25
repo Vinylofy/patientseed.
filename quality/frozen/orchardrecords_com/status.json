@@ -1,0 +1,100 @@
+{
+  "fingerprint": "54430bbdd466266e54c1978f6a90860c4ce394d90750e2b012d41137e431589f",
+  "domain": "orchardrecords.com",
+  "batch": 12,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240002837",
+  "updated_at": "2026-10-25T22:24:34.899284+00:00",
+  "evidence": {
+    "domain": "orchardrecords.com",
+    "route": "https://orchardrecords.com/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:24:31.530516+00:00",
+    "requests": [
+      {
+        "url": "https://orchardrecords.com/products.json?limit=20&page=1",
+        "sha256": "41cd1cf9fe6357e47b21d723dbee155b506a5349d2af54815d263fdd216838d4"
+      },
+      {
+        "url": "https://orchardrecords.com/products/porcupine-tree-the-sky-moves-sideways-2lp?variant=67840749469933",
+        "sha256": "4eb0934de80c5c50f23bb5c5df5ad8cee6dc9f943fd00311210fe628dd8e0bc1"
+      },
+      {
+        "url": "https://orchardrecords.com/products/kraftwerk-tour-de-france-2lp-red-blue-vinyl?variant=67831948706029",
+        "sha256": "72c7d9a87e32e0aad60eca458964bf1d6080507b3ccb7f62714d9de461f94a69"
+      },
+      {
+        "url": "https://orchardrecords.com/products/justin-hurwitz-la-la-land-soundtrack-lp?variant=67794594300141",
+        "sha256": "1929d2ab3f09078b697c435c34fea7a7b239bcdcc2930d7bbc3a3f3ad411c22a"
+      }
+    ],
+    "listing_records": 15,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://orchardrecords.com/products/porcupine-tree-the-sky-moves-sideways-2lp?variant=67840749469933",
+        "price": "33.99",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://orchardrecords.com/products/kraftwerk-tour-de-france-2lp-red-blue-vinyl?variant=67831948706029",
+        "price": "36.99",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://orchardrecords.com/products/justin-hurwitz-la-la-land-soundtrack-lp?variant=67794594300141",
+        "price": "24.99",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 15,
+      "unique_prices": 6,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 9,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239367598"
+    },
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40240002837"
+    }
+  ]
+}
