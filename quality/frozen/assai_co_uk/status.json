@@ -1,0 +1,70 @@
+{
+  "fingerprint": "aca91b7db41e672bf37debb7d912ebf4fb6ff8b0fdfa6eac43c607b8d414eab3",
+  "domain": "assai.co.uk",
+  "batch": 13,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "40240255679",
+  "updated_at": "2026-10-25T22:27:17.221934+00:00",
+  "evidence": {
+    "domain": "assai.co.uk",
+    "route": "https://assai.co.uk/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T22:27:15.990192+00:00",
+    "requests": [
+      {
+        "url": "https://assai.co.uk/products.json?limit=20&page=1",
+        "sha256": "46238f6ef48ea09f5eb5897cd8ce9e0aca784eb2c20bb5762e30b7e201ed9d16"
+      },
+      {
+        "url": "https://assai.co.uk/products/jojo-the-high-road-20th-anniversary-edition-vinyl-lp-glassy-ice-colour-due-out-15-01-27?variant=58923977998719",
+        "sha256": "ea7b51dc2a2b956ec370b08a940f7f452453d188a28cc8997630e80c6f988884"
+      }
+    ],
+    "listing_records": 15,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 15,
+      "unique_prices": 11,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 10,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239702760"
+    },
+    {
+      "batch": 11,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40239852107"
+    },
+    {
+      "batch": 12,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40240002837"
+    },
+    {
+      "batch": 13,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40240255679"
+    }
+  ]
+}
