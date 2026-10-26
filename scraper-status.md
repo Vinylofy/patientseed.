@@ -3602,7 +3602,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | thedarkslide.com | 8 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | thedeadwaxrecords.com | 8 | APPROVED | 0 | 3 | 3/3 | ACTIVE | ACTIVE (run 40296137989) | run 40164542697 |
 | theelmhenderson.com | 8 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
-| theendofallmusicjxn.com | 8 | APPROVED | 0 | 15 | 3/3 | ACTIVE | INCIDENT | run 40164542697 |
+| theendofallmusicjxn.com | 8 | APPROVED | 0 | 15 | 3/3 | ACTIVE | REPAIR_REQUIRED (run 40296137989) | run 40164542697 |
 | theexchange.com | 8 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | Invalid Shopify price |
 | theguitargallery.com | 8 | REVIEW | 0 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | thehamletny.com | 8 | REVIEW | 0 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
