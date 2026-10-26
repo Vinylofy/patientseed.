@@ -3641,5 +3641,5 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | vinylexchange.co.uk | 12 | FROZEN | 3 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | vinyltap.co.uk | 12 | FROZEN | 3 | 8 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | waxandbeans.co.uk | 13 | FROZEN | 3 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| wearepopstore.com | 10 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 40239702760 |
+| wearepopstore.com | 10 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE (run 40296137989) | run 40239702760 |
 <!-- quality-gate:end -->
