@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:57:10.594724+00:00",
+  "shop_id": "villagerevivalrecordsnyc.com",
+  "row": 3035,
+  "name": "Village Revival Records",
+  "domain": "villagerevivalrecordsnyc.com",
+  "country": "US",
+  "website": "https://villagerevivalrecordsnyc.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3035,
+    "name": "Village Revival Records",
+    "domain": "villagerevivalrecordsnyc.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://villagerevivalrecordsnyc.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 13,
+    "accepted": 8,
+    "excluded": 5,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://villagerevivalrecordsnyc.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://villagerevivalrecordsnyc.com/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 13,
+        "accepted": 8,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://villagerevivalrecordsnyc.com/collections/all/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 13,
+        "accepted": 8,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://villagerevivalrecordsnyc.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://villagerevivalrecordsnyc.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://villagerevivalrecordsnyc.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://villagerevivalrecordsnyc.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://villagerevivalrecordsnyc.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://villagerevivalrecordsnyc.com/products.json?limit=20&page=1",
+      "score": 85,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://villagerevivalrecordsnyc.com/products.json?limit=20&page=1",
+  "listing_sample": 8,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 8,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://villagerevivalrecordsnyc.com/products/precious-bryant-fool-me-good-vinyl-lp?variant=40204521701541",
+      "artist": "Precious Bryant",
+      "title": "Fool Me Good (RSD) - Vinyl LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "29.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://villagerevivalrecordsnyc.com/products/def-leppard-live-in-oxford-vinyl-lp?variant=40217295356069",
+      "artist": "Def Leppard",
+      "title": "Live in Oxford (RSD) - Vinyl LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "44.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://villagerevivalrecordsnyc.com/products/mystery-vinyl-lp-bag-10x?variant=41031450984613",
+      "artist": "",
+      "title": "Mystery Vinyl LP Box (10x)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "30.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://villagerevivalrecordsnyc.com/robots.txt",
+      "sha256": "43b2c6e2ed9e159114b0681d8cda74a9cc505d2506869aa68cf8c5e436005adf"
+    },
+    {
+      "url": "https://villagerevivalrecordsnyc.com/",
+      "sha256": "1118642d563586eb350da5f0c2ad4eef2516d1ffd9b179964a9342770a1f0a6e"
+    },
+    {
+      "url": "https://villagerevivalrecordsnyc.com/products.json?limit=20&page=1",
+      "sha256": "06078362415e1b55bb544fe21e5d1fe7d66b5b1a6cf81f85975df397018b09de"
+    },
+    {
+      "url": "https://villagerevivalrecordsnyc.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "ebcdd7b04a4cc423ba661f359be0ea6b3dea92ffc0ed31c31179c66112fa16f6"
+    },
+    {
+      "url": "https://villagerevivalrecordsnyc.com/products/mystery-vinyl-lp-bag-10x",
+      "sha256": "b299fa2f88265927aecb3643de3670c9cf9925a30041563d92e7913a0b28b1e2"
+    },
+    {
+      "url": "https://villagerevivalrecordsnyc.com/products/12-vinyl-records-for-crafts-decoration-pack-of-10",
+      "sha256": "7636eb1c06979499dcfa25408862c028fa469cf2de5853ba9f256d06cf95266b"
+    },
+    {
+      "url": "https://villagerevivalrecordsnyc.com/products/precious-bryant-fool-me-good-vinyl-lp?variant=40204521701541",
+      "sha256": "b3f54e79ccd047e8d3042c540a22d9b198b4ac12cda4dd585d9a6d85bf67b5dd"
+    },
+    {
+      "url": "https://villagerevivalrecordsnyc.com/products/def-leppard-live-in-oxford-vinyl-lp?variant=40217295356069",
+      "sha256": "b9f779b2b4cb2bdffaba7ce943638608099f39e3aba01c9af571c32273127bb7"
+    },
+    {
+      "url": "https://villagerevivalrecordsnyc.com/products/mystery-vinyl-lp-bag-10x?variant=41031450984613",
+      "sha256": "426a108721e27148539fc959772cfb209c3de761efa48ecf00653ad4c9dcf43e"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_3035",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://villagerevivalrecordsnyc.com/products/precious-bryant-fool-me-good-vinyl-lp?variant=40204521701541",
+    "https://villagerevivalrecordsnyc.com/products/def-leppard-live-in-oxford-vinyl-lp?variant=40217295356069",
+    "https://villagerevivalrecordsnyc.com/products/mystery-vinyl-lp-bag-10x?variant=41031450984613"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    3035
+  ],
+  "assessment_path": "assessments/v2/villagerevivalrecordsnyc_com/v2-40571453864-1.json"
+}
