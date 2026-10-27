@@ -1,0 +1,103 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:59:23.141341+00:00",
+  "shop_id": "180gramrecordstore.com",
+  "row": 37,
+  "name": "180 Gram Record Store",
+  "domain": "180gramrecordstore.com",
+  "country": "US",
+  "website": "https://180gramrecordstore.com/",
+  "previous_status": "DETAIL_GATE_BLOCKED",
+  "previous_reason": "supported public catalog route not proven",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 37,
+    "name": "180 Gram Record Store",
+    "domain": "180gramrecordstore.com",
+    "status": "SOURCE_BLOCKED",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "source_url": "https://180gramrecordstore.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "reason": "HTTP_403",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://180gramrecordstore.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://180gramrecordstore.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": "https://180gramrecordstore.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "requests": [
+    {
+      "url": "https://180gramrecordstore.com/robots.txt",
+      "sha256": "9a047894c94a080576d8887ca773dc3f5e1632369e7ff0bee76a1de95903e611"
+    },
+    {
+      "url": "https://180gramrecordstore.com/",
+      "sha256": "89d483573034febf650901dd93fe37f091bdbc122e18e90baf7532f73592ba2b"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "HTTP_403"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "HTTP_403"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_37",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    37
+  ],
+  "assessment_path": "assessments/v2/180gramrecordstore_com/v2-40571453864-1.json"
+}
