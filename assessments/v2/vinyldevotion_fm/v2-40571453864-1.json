@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:57:37.226633+00:00",
+  "shop_id": "vinyldevotion.fm",
+  "row": 3094,
+  "name": "Vinyl Devotion",
+  "domain": "vinyldevotion.fm",
+  "country": "US",
+  "website": "https://vinyldevotion.fm/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3094,
+    "name": "Vinyl Devotion",
+    "domain": "vinyldevotion.fm",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://vinyldevotion.fm/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 8,
+    "excluded": 12,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://vinyldevotion.fm/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://vinyldevotion.fm/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 20,
+        "accepted": 8,
+        "excluded": 12,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://vinyldevotion.fm/collections/all/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://vinyldevotion.fm/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinyldevotion.fm/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinyldevotion.fm/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinyldevotion.fm/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinyldevotion.fm/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://vinyldevotion.fm/products.json?limit=20&page=1",
+      "score": 85,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://vinyldevotion.fm/products.json?limit=20&page=1",
+  "listing_sample": 8,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 8,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://vinyldevotion.fm/products/twin-temple-doomed-lovers-vinyl-lp-clear-blue-sealed?variant=67774962761880",
+      "artist": "Twin Temple",
+      "title": "Doomed Lovers Vinyl LP Clear Blue SEALED",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "25.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://vinyldevotion.fm/products/deafheaven-at-work-in-the-fields-of-the-bomb-vinyl-lp-green-wild-rye-sealed?variant=67787760959640",
+      "artist": "Deafheaven",
+      "title": "At Work In The Fields Of The Bomb Vinyl LP Green Wild Rye SEALED",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "24.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://vinyldevotion.fm/products/a-perfect-circle-thirteenth-step-vinyl-lp-reissue-dss-one-step-sealed-numbered?variant=67815370948760",
+      "artist": "A Perfect Circle",
+      "title": "Thirteenth Step Vinyl LP Reissue DSS One-Step SEALED Numbered",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "125.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://vinyldevotion.fm/robots.txt",
+      "sha256": "5f9a3a4a913ac8cc629abc260e151e9879e68d07bb5ec9799ec2d26e331ba0a6"
+    },
+    {
+      "url": "https://vinyldevotion.fm/",
+      "sha256": "d3cfa5e26b695a01ebcf6d93cd260ed3193a615ebce415911975391b81e35784"
+    },
+    {
+      "url": "https://vinyldevotion.fm/products.json?limit=20&page=1",
+      "sha256": "b4addf70f071fce7659c09d831cc82635d14a65cadb73a69faa0e9e2398c8e9e"
+    },
+    {
+      "url": "https://vinyldevotion.fm/collections/all/products.json?limit=20&page=1",
+      "sha256": "a4a420579a3f8d940875a4928868cc05b2f24e8df471ece2b04a56468ec347f8"
+    },
+    {
+      "url": "https://vinyldevotion.fm/products/a-perfect-circle-thirteenth-step-vinyl-lp-reissue-dss-one-step-sealed-numbered",
+      "sha256": "c241c3fd39b2d777e4e367ee8419c5cecd4163c79c1526fedbbad3fb39990be8"
+    },
+    {
+      "url": "https://vinyldevotion.fm/products/my-chemical-romance-the-black-parade-vinyl-lp-slipcover-baby-pink-sealed-20th-anniversary",
+      "sha256": "f1111814a5dfc2acc848ea51fbcb1dd0c8de8c42210f5327b99efc4dfaa4c389"
+    },
+    {
+      "url": "https://vinyldevotion.fm/products/twin-temple-doomed-lovers-vinyl-lp-clear-blue-sealed?variant=67774962761880",
+      "sha256": "79c333d0d981aba9d673f6d76386ec37aa95866d222c21c67ba64d4a5d838753"
+    },
+    {
+      "url": "https://vinyldevotion.fm/products/deafheaven-at-work-in-the-fields-of-the-bomb-vinyl-lp-green-wild-rye-sealed?variant=67787760959640",
+      "sha256": "38f5bb83cafd7a1c5b6552ee8d329982251c0d03f5473a98e43fa4e9dcd5ce77"
+    },
+    {
+      "url": "https://vinyldevotion.fm/products/a-perfect-circle-thirteenth-step-vinyl-lp-reissue-dss-one-step-sealed-numbered?variant=67815370948760",
+      "sha256": "b2fee44e85086d2e325e1135925ed769532faf8de39ff7bfb2207bd936e44530"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.875,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_3094",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://vinyldevotion.fm/products/twin-temple-doomed-lovers-vinyl-lp-clear-blue-sealed?variant=67774962761880",
+    "https://vinyldevotion.fm/products/deafheaven-at-work-in-the-fields-of-the-bomb-vinyl-lp-green-wild-rye-sealed?variant=67787760959640",
+    "https://vinyldevotion.fm/products/a-perfect-circle-thirteenth-step-vinyl-lp-reissue-dss-one-step-sealed-numbered?variant=67815370948760"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    3094
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 7,
+  "candidate_ref": "v2-40571453864-1/vinyldevotion_fm",
+  "assessment_path": "assessments/v2/vinyldevotion_fm/v2-40571453864-1.json"
+}
