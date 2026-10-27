@@ -1,0 +1,145 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T22:10:12.328343+00:00",
+  "shop_id": "absolutemgmt.com",
+  "row": 160,
+  "name": "Arlington Climate Controlled Storage; Leland Storage; The Storage Inn",
+  "domain": "absolutemgmt.com",
+  "country": "US",
+  "website": "https://absolutemgmt.com/",
+  "previous_status": "DETAIL_GATE_BLOCKED",
+  "previous_reason": "alternate public catalog route not proven",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 160,
+    "name": "Arlington Climate Controlled Storage; Leland Storage; The Storage Inn",
+    "domain": "absolutemgmt.com",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://absolutemgmt.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://absolutemgmt.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://absolutemgmt.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://absolutemgmt.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://absolutemgmt.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://absolutemgmt.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://absolutemgmt.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://absolutemgmt.com/robots.txt",
+      "sha256": "5825bcc263b870f353c4c920196127f4d4dfb70e2e43a16509de5cf1af3a696c"
+    },
+    {
+      "url": "https://absolutemgmt.com/",
+      "sha256": "73ceabbdfa0ccdc5b5834b4ac9607dd0bb079b58a8b3e07a52c3d81ef27e284b"
+    },
+    {
+      "url": "https://absolutemgmt.com/products.json?limit=20&page=1",
+      "sha256": "8e4a19de5f72fb1b870324b8d15cedb7048abfabd0ca54ee6c2472ab8afedbeb"
+    },
+    {
+      "url": "https://absolutemgmt.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "86c4b4b38ff7778fee52808b31f9b82e11ca4308ab8590cf13a89a030821b565"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_160",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40592358994-1",
+  "queue_rows": [
+    160
+  ],
+  "assessment_path": "assessments/v2/absolutemgmt_com/v2-40592358994-1.json"
+}
