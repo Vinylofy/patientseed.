@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:47:16.325284+00:00",
+  "shop_id": "justpressplayonline.com",
+  "row": 1346,
+  "name": "Just Press Play Mega Store",
+  "domain": "justpressplayonline.com",
+  "country": "US",
+  "website": "https://justpressplayonline.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1346,
+    "name": "Just Press Play Mega Store",
+    "domain": "justpressplayonline.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://justpressplayonline.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 4,
+    "excluded": 16,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://justpressplayonline.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://justpressplayonline.com/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://justpressplayonline.com/collections/all/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 20,
+        "accepted": 4,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://justpressplayonline.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://justpressplayonline.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://justpressplayonline.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://justpressplayonline.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://justpressplayonline.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://justpressplayonline.com/collections/all/products.json?limit=20&page=1",
+      "score": 45,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://justpressplayonline.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 4,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 4,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://justpressplayonline.com/products/2-mello-memories-of-tokyoto-vinyl-splatter?variant=48702815764794",
+      "artist": "2 Mello Memories Of Tokyoto",
+      "title": "Vinyl LP Record (Splatter)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "29.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00663992250992"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://justpressplayonline.com/products/lp-record-frame-12-white-vinyl-styl?variant=49797989794106",
+      "artist": "12\" LP Record Wall Hanging Frame (White)",
+      "title": "Vinyl Styl",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "19.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00762185031322"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://justpressplayonline.com/products/uicideboy-thy-kingdom-come-vinyl-maroon?variant=51653953618234",
+      "artist": "$uicideboy$ Thy Kingdom Come",
+      "title": "Indie Exclusive Maroon Vinyl LP - G59 Records",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "24.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00199350828812"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://justpressplayonline.com/robots.txt",
+      "sha256": "3e4f306d499b82e9db52de262ce4c84b095abe1b18ae0f0748271aeb8ede8479"
+    },
+    {
+      "url": "https://justpressplayonline.com/",
+      "sha256": "86b4e084a039bab9074ec851364a4f2703b4abcc245ce4e2f5a153292bbd5107"
+    },
+    {
+      "url": "https://justpressplayonline.com/products.json?limit=20&page=1",
+      "sha256": "2f76c7e5a42d35f78ff3a90b72f21cbff24d14486249e2627c42a82a4a22a0f4"
+    },
+    {
+      "url": "https://justpressplayonline.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "501be797d7e17add3227ff4b569bdfbd3ef8bf8242a1788339478d3cf4a1d4cc"
+    },
+    {
+      "url": "https://justpressplayonline.com/products/uicideboy-thy-kingdom-come-vinyl-maroon",
+      "sha256": "666a0295782d8c8e335553b017e7bf2dda2ab484c00e330b511dc180dd7b0899"
+    },
+    {
+      "url": "https://justpressplayonline.com/products/lp-record-frame-12-white-vinyl-styl",
+      "sha256": "be91db8263dbebb3bfd2d3b186521d1ea5bb956048e33adc155cd83f93fe279a"
+    },
+    {
+      "url": "https://justpressplayonline.com/products/2-mello-memories-of-tokyoto-vinyl-splatter?variant=48702815764794",
+      "sha256": "25672888c0c4b4c904858fcd2977a69ad9c8f50ab393f2a8ba300f9a92be58f6"
+    },
+    {
+      "url": "https://justpressplayonline.com/products/lp-record-frame-12-white-vinyl-styl?variant=49797989794106",
+      "sha256": "a3f7ff59afcef2bb1c0abb3eb587f2732cca1c3c7165fdae9b06bd4c1e43b7b2"
+    },
+    {
+      "url": "https://justpressplayonline.com/products/uicideboy-thy-kingdom-come-vinyl-maroon?variant=51653953618234",
+      "sha256": "db15ac0e432ecf6c451dfd80f3cc463e9377412d801faa7e10129018ec1e7887"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.75,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_1346",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://justpressplayonline.com/products/2-mello-memories-of-tokyoto-vinyl-splatter?variant=48702815764794",
+    "https://justpressplayonline.com/products/lp-record-frame-12-white-vinyl-styl?variant=49797989794106",
+    "https://justpressplayonline.com/products/uicideboy-thy-kingdom-come-vinyl-maroon?variant=51653953618234"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    1346
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 4,
+  "candidate_ref": "v2-40571453864-1/justpressplayonline_com",
+  "assessment_path": "assessments/v2/justpressplayonline_com/v2-40571453864-1.json"
+}
