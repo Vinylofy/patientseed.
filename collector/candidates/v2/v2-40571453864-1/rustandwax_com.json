@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "domain": "rustandwax.com",
+  "platform": "shopify",
+  "adapter_class": "ShopifyNewVinylAdapter",
+  "catalog_route": "https://rustandwax.com/products.json?limit=20&page=1",
+  "discovery_method": {
+    "platform": "shopify",
+    "route": "https://rustandwax.com/products.json?limit=20&page=1",
+    "score": 205,
+    "selection": "highest_bounded_adapter_score"
+  },
+  "method_candidates": [
+    {
+      "platform": "shopify",
+      "route": "https://rustandwax.com/products.json?limit=20&page=1",
+      "score": 205,
+      "products_seen": 20,
+      "accepted": 20,
+      "excluded": 0,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://rustandwax.com/collections/all/products.json?limit=20&page=1",
+      "score": 175,
+      "products_seen": 20,
+      "accepted": 17,
+      "excluded": 3,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "woocommerce",
+      "route": "https://rustandwax.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_400"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://rustandwax.com/api/0.1/collections/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://rustandwax.com/api/0.1/collections/all/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://rustandwax.com/api/storefront/products?limit=20&offset=0",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://rustandwax.com/api/storefront/products?limit=20",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    }
+  ],
+  "listing_sample": 20,
+  "detail_checked": 3,
+  "detail_gtin_valid": 3,
+  "currency": "USD",
+  "currency_source": "public_storefront_Shopify.currency",
+  "currency_source_url": "https://rustandwax.com/",
+  "release_status": "AWAITING_MANUAL_TEST",
+  "scraper_type": "EAN",
+  "assessment_version": 2,
+  "assessment_id": "v2-40571453864-1",
+  "country": "US",
+  "production_approved": false
+}
