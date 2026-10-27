@@ -3425,7 +3425,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | bororecords.com | 1 | APPROVED | 0 | 13 | 1/3 | ACTIVE (run 40469569194) | ACTIVE (run 40477886064) | run 39155794450 |
 | bruiserrecordsjax.com | 1 | APPROVED | 0 | 20 | 3/3 | ACTIVE (run 40469569194) | ACTIVE (run 40477886064) | run 39155794450 |
 | cameronrecords.com | 1 | APPROVED | 0 | 2 | 2/2 | ACTIVE (run 40469569194) | INCIDENT (run 40477886064) | run 39155794450 |
-| chalkys.com | 9 | APPROVED | 0 | 7 | 3/3 | ACTIVE (run unknown) | ACTIVE | run 40239367598 |
+| chalkys.com | 9 | APPROVED | 0 | 7 | 3/3 | ACTIVE (run unknown) | ACTIVE (run 40477886064) | run 40239367598 |
 | chiefrecordsonline.com | 2 | REVIEW | 0 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | cnamusicsupply.com | 2 | APPROVED | 0 | 6 | 3/3 | ACTIVE (run 40469569194) | ACTIVE | run 39203245483 |
 | comebackvinyl.com | 2 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
