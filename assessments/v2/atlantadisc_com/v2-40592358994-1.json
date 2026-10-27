@@ -1,0 +1,195 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T22:14:30.159962+00:00",
+  "shop_id": "atlantadisc.com",
+  "row": 183,
+  "name": "Atlanta Disc",
+  "domain": "atlantadisc.com",
+  "country": "US",
+  "website": "https://atlantadisc.com/",
+  "previous_status": "DETAIL_GATE_BLOCKED",
+  "previous_reason": "no detail page passed the bounded recheck",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 183,
+    "name": "Atlanta Disc",
+    "domain": "atlantadisc.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "listing",
+    "platform": "woocommerce",
+    "source_url": "https://atlantadisc.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "adapter_class": "WooCommerceNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 0,
+    "excluded": 20,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "method_candidates": [
+      {
+        "platform": "woocommerce",
+        "route": "https://atlantadisc.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://atlantadisc.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://atlantadisc.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://atlantadisc.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://atlantadisc.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://atlantadisc.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://atlantadisc.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ],
+    "selected_method": {
+      "platform": "woocommerce",
+      "route": "https://atlantadisc.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 0,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "reason": "no confirmed new vinyl on bounded page"
+  },
+  "platform": "woocommerce",
+  "catalog_route": "https://atlantadisc.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "listing_sample": 0,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 0,
+    "unique_prices": 0,
+    "shipping_hits": 0,
+    "currencies": []
+  },
+  "secondhand_observed": false,
+  "examples": [],
+  "requests": [
+    {
+      "url": "https://atlantadisc.com/robots.txt",
+      "sha256": "af1f08da0ab0236639454d66f6e53f8414a8d8c4bd0914a92a9e5087452864ce"
+    },
+    {
+      "url": "https://atlantadisc.com/",
+      "sha256": "401c5b85e30054041000d2906a439aee774f7c18237d05bdc3a7b71b80aeacef"
+    },
+    {
+      "url": "https://atlantadisc.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "d70dcbf24889ccd9de121b1272ea74c2b0583aa64d20f37ef767d26da018ef96"
+    },
+    {
+      "url": "https://atlantadisc.com/products.json?limit=20&page=1",
+      "sha256": "85391e9e8a41a0a0c2c9dbf66a35456a6b9712274e58330f9355b0553212b98b"
+    },
+    {
+      "url": "https://atlantadisc.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "5c71d26d652b8a0bfedb1a233adbbd5ebc02ba641a7b2c9ec982ea63f33dc232"
+    },
+    {
+      "url": "https://atlantadisc.com/api/0.1/collections/products?format=json",
+      "sha256": "cb8335671195d54f16b56e8947691ae1a3527efb6c20096ef70660f0c3f24320"
+    },
+    {
+      "url": "https://atlantadisc.com/api/0.1/collections/all/products?format=json",
+      "sha256": "c49b84b62c4635000c38f8d4b4f1062aa9a4711b113906b2f83f3e774a73ae2d"
+    },
+    {
+      "url": "https://atlantadisc.com/api/storefront/products?limit=20&offset=0",
+      "sha256": "c2e7ed1d5efc7758a3b43feb05e6a64477bbe6646ff7b3f836d7dc3a8fa91820"
+    },
+    {
+      "url": "https://atlantadisc.com/api/storefront/products?limit=20",
+      "sha256": "a1a65becde4e7fb0b3e61435f74433a5415d9ab26f92a2241383a3a16bb7be63"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:vinyl",
+    "not_proven:new_used_distinguishable",
+    "not_proven:public_prices",
+    "not_proven:availability",
+    "not_proven:stable_urls"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": false,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": false,
+    "availability": false,
+    "stable_urls": false,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_183",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40592358994-1",
+  "queue_rows": [
+    183
+  ],
+  "assessment_path": "assessments/v2/atlantadisc_com/v2-40592358994-1.json"
+}
