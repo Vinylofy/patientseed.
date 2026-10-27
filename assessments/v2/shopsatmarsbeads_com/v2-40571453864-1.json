@@ -1,0 +1,202 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:44:59.017492+00:00",
+  "shop_id": "shopsatmarsbeads.com",
+  "row": 970,
+  "name": "Fourth Rock Records in the Shops at Mars Beads",
+  "domain": "shopsatmarsbeads.com",
+  "country": "US",
+  "website": "https://shopsatmarsbeads.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 970,
+    "name": "Fourth Rock Records in the Shops at Mars Beads",
+    "domain": "shopsatmarsbeads.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://shopsatmarsbeads.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 1,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://shopsatmarsbeads.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://shopsatmarsbeads.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://shopsatmarsbeads.com/collections/all/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://shopsatmarsbeads.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shopsatmarsbeads.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shopsatmarsbeads.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shopsatmarsbeads.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shopsatmarsbeads.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://shopsatmarsbeads.com/collections/all/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://shopsatmarsbeads.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://shopsatmarsbeads.com/products/10000-russos-kompromat-vinyl-m?variant=46843801927829",
+      "artist": "",
+      "title": "10000 Russos*: Kompromat (Vinyl, M)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "45.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "used_or_grading_signal"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://shopsatmarsbeads.com/robots.txt",
+      "sha256": "e3f2c8d7800ea4ce216a81147db4e361ed28a6237c3e7cb404370650e6a497e3"
+    },
+    {
+      "url": "https://shopsatmarsbeads.com/",
+      "sha256": "8a94e7004f685c1dddc10b3611d98f471d82c51935e898b0fe21b815f9374c66"
+    },
+    {
+      "url": "https://shopsatmarsbeads.com/products.json?limit=20&page=1",
+      "sha256": "994cc3b6844e3e8e14eea8ec70c9518ae435b66c007d80adc60b68bda02d17d2"
+    },
+    {
+      "url": "https://shopsatmarsbeads.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "4d84e11148097c5d33a08404bf84335b45c99fb5b12e9a8d55d9e6064182f5b9"
+    },
+    {
+      "url": "https://shopsatmarsbeads.com/products/10000-russos-kompromat-vinyl-m",
+      "sha256": "5d5db1c2e2bdacb0bf13a09d797de2768cfb2210f2a9202d205e2538c5ab2df1"
+    },
+    {
+      "url": "https://shopsatmarsbeads.com/products/10000-russos-kompromat-vinyl-m?variant=46843801927829",
+      "sha256": "947b3e1117b54c48c6357cfd13ec5bc392365cc2960973bd73b73a96b745bf61"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:new_used_distinguishable"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_970",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://shopsatmarsbeads.com/products/10000-russos-kompromat-vinyl-m?variant=46843801927829"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    970
+  ],
+  "assessment_path": "assessments/v2/shopsatmarsbeads_com/v2-40571453864-1.json"
+}
