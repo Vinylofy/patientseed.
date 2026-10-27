@@ -1,0 +1,222 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:42:12.653785+00:00",
+  "shop_id": "better-records.com",
+  "row": 272,
+  "name": "Better Records",
+  "domain": "better-records.com",
+  "country": "US",
+  "website": "https://better-records.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 272,
+    "name": "Better Records",
+    "domain": "better-records.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://better-records.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 2,
+    "excluded": 18,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://better-records.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://better-records.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://better-records.com/collections/all/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://better-records.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://better-records.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://better-records.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://better-records.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://better-records.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://better-records.com/collections/all/products.json?limit=20&page=1",
+      "score": 25,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://better-records.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 2,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 2,
+    "unique_prices": 2,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://better-records.com/products/adderafric_2610-2?variant=67876333093160",
+      "artist": "Adderley, Cannonball",
+      "title": "African Waltz - White Hot Stamper (Quiet Vinyl)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "349.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://better-records.com/products/adderafric_2610-3?variant=67896244437288",
+      "artist": "Adderley, Cannonball",
+      "title": "African Waltz - Super Hot Stamper (Quiet Vinyl)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "199.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://better-records.com/robots.txt",
+      "sha256": "d8e2f8b13dd865801ddc9f7d2ffd891af5b2335173c6eb637919f9000f67ebd7"
+    },
+    {
+      "url": "https://better-records.com/",
+      "sha256": "6cfcf710976f631e1f1633d503dd7493c05163182a5c36f9ba0ecd2394253e87"
+    },
+    {
+      "url": "https://better-records.com/products.json?limit=20&page=1",
+      "sha256": "1a3d994c1c9f4682a17fbd695470b5f66d5991d5d30f30c121da398ddb19c9fb"
+    },
+    {
+      "url": "https://better-records.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "175df8edbe42b3dd0a8476b5d0fb2a136806ed5720eb234b9fc557ac69a01595"
+    },
+    {
+      "url": "https://better-records.com/products/adderafric_2610-3",
+      "sha256": "854160be01117c08e83acbeb4b64373ac53af9e90d60a4766acee285d7f230b7"
+    },
+    {
+      "url": "https://better-records.com/products/adderafric_2610-2",
+      "sha256": "f93322f5ebb10cf041cbbd795c44d7c9b04882f1eca9478eda3e40f0a39927a6"
+    },
+    {
+      "url": "https://better-records.com/products/adderafric_2610-2?variant=67876333093160",
+      "sha256": "9a817e9815f1bc3a2cc26968b79fe3da2d25a9cf70a523ac4efc2d9482357479"
+    },
+    {
+      "url": "https://better-records.com/products/adderafric_2610-3?variant=67896244437288",
+      "sha256": "1949f3b25c681f5f2bd93eb1f8478662e23846ea8e3ac89dac035dc4f2fe59f0"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "insufficient_representative_product_evidence"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 2,
+    "detail_price_proven": 2,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_272",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://better-records.com/products/adderafric_2610-2?variant=67876333093160",
+    "https://better-records.com/products/adderafric_2610-3?variant=67896244437288"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    272
+  ],
+  "assessment_path": "assessments/v2/better_records_com/v2-40571453864-1.json"
+}
