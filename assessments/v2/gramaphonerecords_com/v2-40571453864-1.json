@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:45:47.139798+00:00",
+  "shop_id": "gramaphonerecords.com",
+  "row": 1071,
+  "name": "Gramaphone Records",
+  "domain": "gramaphonerecords.com",
+  "country": "US",
+  "website": "https://gramaphonerecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1071,
+    "name": "Gramaphone Records",
+    "domain": "gramaphonerecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://gramaphonerecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 2,
+    "excluded": 18,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://gramaphonerecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://gramaphonerecords.com/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://gramaphonerecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://gramaphonerecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://gramaphonerecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://gramaphonerecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://gramaphonerecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://gramaphonerecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://gramaphonerecords.com/products.json?limit=20&page=1",
+      "score": 25,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://gramaphonerecords.com/products.json?limit=20&page=1",
+  "listing_sample": 2,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 2,
+    "unique_prices": 2,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://gramaphonerecords.com/robots.txt",
+      "sha256": "1afaeaaa79d750d9cacccd54612e80201a6792eeb12c48f2fe08f5f22cc53b6e"
+    },
+    {
+      "url": "https://gramaphonerecords.com/",
+      "sha256": "317fa063ae2e5c5c665d8c3413985c7db893072198109cab54412c5b0365c746"
+    },
+    {
+      "url": "https://gramaphonerecords.com/products.json?limit=20&page=1",
+      "sha256": "1b807720da43f5acee9e55d0b902210c8dae44f1a139bbbaf1917ddacb134dfc"
+    },
+    {
+      "url": "https://gramaphonerecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "9a55d32f875290fd769b155d9a376a19d299526a58af1d6d5e5ac19847785cf9"
+    },
+    {
+      "url": "https://gramaphonerecords.com/products/tino-set-you-free-ep",
+      "sha256": "284e411ecba977470b987ac8f5652c4d75838028f9ab906553b51403fd18b194"
+    },
+    {
+      "url": "https://gramaphonerecords.com/products/black-vinyl-30-years-vol-2",
+      "sha256": "e36866dff711af1b3d9ee67a56ce7b317271cea7bb647172351458639e1961b5"
+    },
+    {
+      "url": "https://gramaphonerecords.com/products/black-vinyl-30-years-vol-2?variant=53255706411306",
+      "sha256": "3a4092cd53ae51c44b9d64109532a975aacdb00dd4b477acc3f15f1be6c6c51d"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "invalid_detail_gtin"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.5,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "invalid_detail_gtin"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1071",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    1071
+  ],
+  "assessment_path": "assessments/v2/gramaphonerecords_com/v2-40571453864-1.json"
+}
