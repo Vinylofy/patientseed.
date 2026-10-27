@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:52:15.327883+00:00",
+  "shop_id": "seattlerecords.net",
+  "row": 2368,
+  "name": "Seattle Records CDs cassettes turntables",
+  "domain": "seattlerecords.net",
+  "country": "US",
+  "website": "https://seattlerecords.net/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2368,
+    "name": "Seattle Records CDs cassettes turntables",
+    "domain": "seattlerecords.net",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://seattlerecords.net/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 21,
+    "accepted": 13,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://seattlerecords.net/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://seattlerecords.net/products.json?limit=20&page=1",
+        "score": 75,
+        "products_seen": 20,
+        "accepted": 7,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://seattlerecords.net/collections/all/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 21,
+        "accepted": 13,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://seattlerecords.net/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://seattlerecords.net/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://seattlerecords.net/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://seattlerecords.net/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://seattlerecords.net/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://seattlerecords.net/collections/all/products.json?limit=20&page=1",
+      "score": 135,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://seattlerecords.net/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 13,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 13,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://seattlerecords.net/products/alan-menken-howard-ashman-little-shop-of-horrors-soundtrack-vinyl-record?variant=40151371612183",
+      "artist": "",
+      "title": "Alan Menken & Howard Ashman ‎– Little Shop Of Horrors Soundtrack Vinyl Record",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "32.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://seattlerecords.net/products/abba-gold-lp?variant=41637805457431",
+      "artist": "",
+      "title": "Abba gold lp",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "42.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://seattlerecords.net/products/uicideboy-long-terms-effects-of-suffering?variant=41002068541463",
+      "artist": "$uicideboy$",
+      "title": "Long Terms Effects of Suffering LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "34.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "used_or_grading_signal"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://seattlerecords.net/robots.txt",
+      "sha256": "36d7c77de904320b4954a7b30664c0c98c033e249d14fa58e0e1c362395b6ce7"
+    },
+    {
+      "url": "https://seattlerecords.net/",
+      "sha256": "4dd3dea82f432f1d3df6fe67c77799538488bb8b55b5f19d528c93a82ffb071c"
+    },
+    {
+      "url": "https://seattlerecords.net/products.json?limit=20&page=1",
+      "sha256": "4ddd314e25f18bdacca2e34a4ab0b2c0c4fbb0c81ea5e0721d81d5a0f746723e"
+    },
+    {
+      "url": "https://seattlerecords.net/collections/all/products.json?limit=20&page=1",
+      "sha256": "857c3d93153b34090ba7873a5f28767e3b824ed6834b28bab7d76b0ec8bea044"
+    },
+    {
+      "url": "https://seattlerecords.net/products/uicideboy-long-terms-effects-of-suffering",
+      "sha256": "44dbead910658b7008884f1f46adb631b1a4b844140f6833f9e72cebf594d930"
+    },
+    {
+      "url": "https://seattlerecords.net/products/copy-lauryn-hill-the-miseducation-of-lauryn-hill-lp",
+      "sha256": "6e1157df362a6ed218324897cd8289f6a64ef720a78c82fa8c37c30ed659665e"
+    },
+    {
+      "url": "https://seattlerecords.net/products/alan-menken-howard-ashman-little-shop-of-horrors-soundtrack-vinyl-record?variant=40151371612183",
+      "sha256": "fc0e51b367cbbd5cc437b240d472fe2940e8c92978566c22690ca609c3780526"
+    },
+    {
+      "url": "https://seattlerecords.net/products/abba-gold-lp?variant=41637805457431",
+      "sha256": "54e645d654b586cc4f9b21dfd8ee76977898cb9fe819c4ce48242c390c3b719f"
+    },
+    {
+      "url": "https://seattlerecords.net/products/uicideboy-long-terms-effects-of-suffering?variant=41002068541463",
+      "sha256": "d8eb15b82fceb2a87395ac3fc6bb73f6e048ddf21a32aab53e07dd35c19d757f"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:new_used_distinguishable"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 0.15384615384615385,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2368",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://seattlerecords.net/products/alan-menken-howard-ashman-little-shop-of-horrors-soundtrack-vinyl-record?variant=40151371612183",
+    "https://seattlerecords.net/products/abba-gold-lp?variant=41637805457431",
+    "https://seattlerecords.net/products/uicideboy-long-terms-effects-of-suffering?variant=41002068541463"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2368
+  ],
+  "assessment_path": "assessments/v2/seattlerecords_net/v2-40571453864-1.json"
+}
