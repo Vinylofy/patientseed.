@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:46:38.132019+00:00",
+  "shop_id": "jackpotrecords.com",
+  "row": 1294,
+  "name": "Jackpot Records",
+  "domain": "jackpotrecords.com",
+  "country": "US",
+  "website": "https://jackpotrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1294,
+    "name": "Jackpot Records",
+    "domain": "jackpotrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://jackpotrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 18,
+    "excluded": 2,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://jackpotrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://jackpotrecords.com/products.json?limit=20&page=1",
+        "score": 175,
+        "products_seen": 20,
+        "accepted": 17,
+        "excluded": 3,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://jackpotrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://jackpotrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://jackpotrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://jackpotrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://jackpotrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://jackpotrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://jackpotrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 185,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://jackpotrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 18,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 18,
+    "unique_prices": 11,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://jackpotrecords.com/robots.txt",
+      "sha256": "1125647d88a760cff72b6728b4e1a803b25a95b8deaca43dd3a2a4d5f3e39099"
+    },
+    {
+      "url": "https://jackpotrecords.com/",
+      "sha256": "1472fd1cc78525e6bf3dcc1994f70280890c7d45da79b2594e1901536b765f1b"
+    },
+    {
+      "url": "https://jackpotrecords.com/products.json?limit=20&page=1",
+      "sha256": "082dfa4cb4af57add396a1caf5bc1a10f02336e4e7a09acd4c0071a63b289729"
+    },
+    {
+      "url": "https://jackpotrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "842ebab14d0beb716117cad4667ac908f24cf318f9771eca56ac13d549978aa4"
+    },
+    {
+      "url": "https://jackpotrecords.com/products/out-of-the-blue",
+      "sha256": "1543f7710149075e95e4069e812632e9b668dc55a5a9bc94c7acc4693ac4715d"
+    },
+    {
+      "url": "https://jackpotrecords.com/products/new-world-depression",
+      "sha256": "5f5f3aa52907cda07ffdb2ccecf532745c59839414de61f4281ed3b9838d6414"
+    },
+    {
+      "url": "https://jackpotrecords.com/products/i-like-it-when-you-sleep-for-you-are-so-beautiful-1?variant=47632936829146",
+      "sha256": "a47838105cecee2eda3541fabea75491cf1ac2ef534d5bf6b37f22098cdc1ea4"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.9444444444444444,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1294",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    1294
+  ],
+  "assessment_path": "assessments/v2/jackpotrecords_com/v2-40571453864-1.json"
+}
