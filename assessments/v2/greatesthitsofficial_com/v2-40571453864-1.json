@@ -1,0 +1,222 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:45:58.553811+00:00",
+  "shop_id": "greatesthitsofficial.com",
+  "row": 1091,
+  "name": "Greatest Hits",
+  "domain": "greatesthitsofficial.com",
+  "country": "US",
+  "website": "https://greatesthitsofficial.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1091,
+    "name": "Greatest Hits",
+    "domain": "greatesthitsofficial.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://greatesthitsofficial.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 2,
+    "excluded": 18,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://greatesthitsofficial.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://greatesthitsofficial.com/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://greatesthitsofficial.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://greatesthitsofficial.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://greatesthitsofficial.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://greatesthitsofficial.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://greatesthitsofficial.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://greatesthitsofficial.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://greatesthitsofficial.com/products.json?limit=20&page=1",
+      "score": 25,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://greatesthitsofficial.com/products.json?limit=20&page=1",
+  "listing_sample": 2,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 2,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://greatesthitsofficial.com/products/sounds-of-delco-vinyl?variant=48010500112604",
+      "artist": "The Sounds of Delco, Vol. 1",
+      "title": "Vinyl (FIRST PRESSING)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "28.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://greatesthitsofficial.com/products/the-sounds-of-delco-vol-1-vinyl-first-pressing-copy?variant=50810338902236",
+      "artist": "The Sounds of Delco, Vol. 1",
+      "title": "Vinyl (SECOND PRESSING)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "28.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://greatesthitsofficial.com/robots.txt",
+      "sha256": "e0edc85f875c92130c5e4183dc6ec15fd4c09cb2ce46ba663812eb9752807b4e"
+    },
+    {
+      "url": "https://greatesthitsofficial.com/",
+      "sha256": "6c75358232e7bdf2f45383aac20c7613efab48ea059af857bdb93977906dd303"
+    },
+    {
+      "url": "https://greatesthitsofficial.com/products.json?limit=20&page=1",
+      "sha256": "f03e4c3a6e0c429a54d3a111ccc529730df6176ba6f4922e6373247c96e3760e"
+    },
+    {
+      "url": "https://greatesthitsofficial.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "cee1a5001b7a3e1b71823acc894bb223eca5634c4dd07130d670e16ce59cee5d"
+    },
+    {
+      "url": "https://greatesthitsofficial.com/products/the-sounds-of-delco-vol-1-vinyl-first-pressing-copy",
+      "sha256": "d2b83cd3f73e164243b30a4b7e3738130c8b99bd643a00b2d62cd9af3187a611"
+    },
+    {
+      "url": "https://greatesthitsofficial.com/products/sounds-of-delco-vinyl",
+      "sha256": "8ff16d10ceb7a5b9a61765021eef4fb79a6a36c6ee87b447df9a3687b5b6e60a"
+    },
+    {
+      "url": "https://greatesthitsofficial.com/products/sounds-of-delco-vinyl?variant=48010500112604",
+      "sha256": "91d1ff5e31098b7bf73c8a58fc2ad92db6b677b0a508cbf556eae7370fd8c6d2"
+    },
+    {
+      "url": "https://greatesthitsofficial.com/products/the-sounds-of-delco-vol-1-vinyl-first-pressing-copy?variant=50810338902236",
+      "sha256": "a60258ebf592c2fe09212d375f3919f814ec72ebc3e5b97dd5c9c58f8825b7ae"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "insufficient_representative_product_evidence"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 2,
+    "detail_price_proven": 2,
+    "ean_valid": 0,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1091",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://greatesthitsofficial.com/products/sounds-of-delco-vinyl?variant=48010500112604",
+    "https://greatesthitsofficial.com/products/the-sounds-of-delco-vol-1-vinyl-first-pressing-copy?variant=50810338902236"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    1091
+  ],
+  "assessment_path": "assessments/v2/greatesthitsofficial_com/v2-40571453864-1.json"
+}
