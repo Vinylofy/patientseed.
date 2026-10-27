@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:50:57.990605+00:00",
+  "shop_id": "rockaway.com",
+  "row": 2269,
+  "name": "Rockaway Records",
+  "domain": "rockaway.com",
+  "country": "US",
+  "website": "https://rockaway.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2269,
+    "name": "Rockaway Records",
+    "domain": "rockaway.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://rockaway.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 12,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://rockaway.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://rockaway.com/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 20,
+        "accepted": 8,
+        "excluded": 12,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://rockaway.com/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://rockaway.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rockaway.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rockaway.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rockaway.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rockaway.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://rockaway.com/collections/all/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://rockaway.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://rockaway.com/products/arthur-kinks-38082?variant=45121188069399",
+      "artist": "",
+      "title": "Arthur",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "100.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://rockaway.com/products/beatles-aint-she-sweet?variant=42761515630615",
+      "artist": "",
+      "title": "Ain't She Sweet",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "4000.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://rockaway.com/products/1968-surrey-rehearsals-35611?variant=41586079924247",
+      "artist": "",
+      "title": "1968 Surrey Rehearsals",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "75.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://rockaway.com/robots.txt",
+      "sha256": "caa5c2d881b905079427b6385bd9d747211a67c0f9575abd79fefd9739485b4a"
+    },
+    {
+      "url": "https://rockaway.com/",
+      "sha256": "99822a53a604808d21c367c95e739bda5a22e8dcbc6f6d697ad50626b59951b7"
+    },
+    {
+      "url": "https://rockaway.com/products.json?limit=20&page=1",
+      "sha256": "f345fcbbc2cd6245601eb1ff3b5403f8b40a533044668c607856972ea5027ec4"
+    },
+    {
+      "url": "https://rockaway.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "426e258f7bff34e75b93cf7ad1ba8b79fa8dcd78f3dec5b29e10079a0bba76b4"
+    },
+    {
+      "url": "https://rockaway.com/products/1968-surrey-rehearsals-35611",
+      "sha256": "cdc30b20c69ab9d4b7184996022656374fb01d551e6c563d58be9f56dbbcbd94"
+    },
+    {
+      "url": "https://rockaway.com/products/1975-tour-of-the-americas-copy",
+      "sha256": "97ba23cdc842ee7bc7e1bf1a3d4eba04edb5abed952b75a8789d7a9b7c492a25"
+    },
+    {
+      "url": "https://rockaway.com/products/arthur-kinks-38082?variant=45121188069399",
+      "sha256": "17e98a30f65e39ce5ce9f22b3870c9227ecd495f303c9b192579cef4af5fb21b"
+    },
+    {
+      "url": "https://rockaway.com/products/beatles-aint-she-sweet?variant=42761515630615",
+      "sha256": "9cb4d8274845dbb9b8524ec447dc17e4b8bf767c31623018640d0c3c576cac58"
+    },
+    {
+      "url": "https://rockaway.com/products/1968-surrey-rehearsals-35611?variant=41586079924247",
+      "sha256": "11829bab5d6f20f13232ff18aac38f87525057fed6c13ca987949678874b6f52"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2269",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://rockaway.com/products/arthur-kinks-38082?variant=45121188069399",
+    "https://rockaway.com/products/beatles-aint-she-sweet?variant=42761515630615",
+    "https://rockaway.com/products/1968-surrey-rehearsals-35611?variant=41586079924247"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2269
+  ],
+  "assessment_path": "assessments/v2/rockaway_com/v2-40571453864-1.json"
+}
