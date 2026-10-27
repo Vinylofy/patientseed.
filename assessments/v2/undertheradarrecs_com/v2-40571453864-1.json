@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:56:33.197955+00:00",
+  "shop_id": "undertheradarrecs.com",
+  "row": 2982,
+  "name": "Under The Radar Records",
+  "domain": "undertheradarrecs.com",
+  "country": "US",
+  "website": "https://undertheradarrecs.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2982,
+    "name": "Under The Radar Records",
+    "domain": "undertheradarrecs.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://undertheradarrecs.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 4,
+    "excluded": 16,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://undertheradarrecs.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://undertheradarrecs.com/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://undertheradarrecs.com/collections/all/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 20,
+        "accepted": 4,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://undertheradarrecs.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://undertheradarrecs.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://undertheradarrecs.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://undertheradarrecs.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://undertheradarrecs.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://undertheradarrecs.com/collections/all/products.json?limit=20&page=1",
+      "score": 45,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://undertheradarrecs.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 4,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 4,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://undertheradarrecs.com/products/16-drop-out-vinyl-lp?variant=48627537477787",
+      "artist": "16",
+      "title": "Drop Out Vinyl LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "29.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://undertheradarrecs.com/products/13th-floor-elevators-live-houston-music-theatre-67-vinyl-lp?variant=46283795267739",
+      "artist": "13th Floor Elevators",
+      "title": "Live Houston Music Theatre '67 Vinyl LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "39.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://undertheradarrecs.com/products/013-s-t-lp?variant=37709363347611",
+      "artist": "013",
+      "title": "Takaisin Todellisuuteen LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "24.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://undertheradarrecs.com/robots.txt",
+      "sha256": "256ebcb6b4065cb2d7375501b9d32bfdf2de14b69185ab6f5b2ac29ba2bdfda8"
+    },
+    {
+      "url": "https://undertheradarrecs.com/",
+      "sha256": "06d38643822bc8715d494dd6dd03da87007d159c5a92f5c7ba2cfdd8dbef1e71"
+    },
+    {
+      "url": "https://undertheradarrecs.com/products.json?limit=20&page=1",
+      "sha256": "57094c48fa6e40cc4737320d27b0da0fcbdc011837c8308901fd128827a19baf"
+    },
+    {
+      "url": "https://undertheradarrecs.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "f8df095488800d9bda6d2406d7aa17776f05a4372d337cac44ac9e57d87d355b"
+    },
+    {
+      "url": "https://undertheradarrecs.com/products/013-s-t-lp",
+      "sha256": "c57c6acbd4a403883d7cb8217b0eefb6ed22d3a7d4d6b71783c0bb8d1a44b4cf"
+    },
+    {
+      "url": "https://undertheradarrecs.com/products/13th-floor-elevators-live-houston-music-theatre-67-vinyl-lp",
+      "sha256": "15b393e904f5d0444a3806c8b6e6bfab1694b0628e4cc338ff5315c4a6cd50b0"
+    },
+    {
+      "url": "https://undertheradarrecs.com/products/16-drop-out-vinyl-lp?variant=48627537477787",
+      "sha256": "bc553f54ae5c76fdb57b56b08eab03409f7331a76989a8202d2dbc2fd25794e7"
+    },
+    {
+      "url": "https://undertheradarrecs.com/products/13th-floor-elevators-live-houston-music-theatre-67-vinyl-lp?variant=46283795267739",
+      "sha256": "82825f8f905086c69f37a73b37ff901d401c6993b589e6eaf2bbc1eb0e435c73"
+    },
+    {
+      "url": "https://undertheradarrecs.com/products/013-s-t-lp?variant=37709363347611",
+      "sha256": "9c448f11ff30216c0b21e3940a50be793e79977fa2bd0a3e9daa4097a04a8ec4"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_2982",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://undertheradarrecs.com/products/16-drop-out-vinyl-lp?variant=48627537477787",
+    "https://undertheradarrecs.com/products/13th-floor-elevators-live-houston-music-theatre-67-vinyl-lp?variant=46283795267739",
+    "https://undertheradarrecs.com/products/013-s-t-lp?variant=37709363347611"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2982
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 4,
+  "candidate_ref": "v2-40571453864-1/undertheradarrecs_com",
+  "assessment_path": "assessments/v2/undertheradarrecs_com/v2-40571453864-1.json"
+}
