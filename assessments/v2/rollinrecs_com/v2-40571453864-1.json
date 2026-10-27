@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:51:11.221982+00:00",
+  "shop_id": "rollinrecs.com",
+  "row": 2292,
+  "name": "Rollin' Records",
+  "domain": "rollinrecs.com",
+  "country": "US",
+  "website": "https://rollinrecs.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2292,
+    "name": "Rollin' Records",
+    "domain": "rollinrecs.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://rollinrecs.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 21,
+    "accepted": 15,
+    "excluded": 6,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://rollinrecs.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://rollinrecs.com/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 24,
+        "accepted": 13,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://rollinrecs.com/collections/all/products.json?limit=20&page=1",
+        "score": 155,
+        "products_seen": 21,
+        "accepted": 15,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://rollinrecs.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rollinrecs.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rollinrecs.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rollinrecs.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rollinrecs.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://rollinrecs.com/collections/all/products.json?limit=20&page=1",
+      "score": 155,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://rollinrecs.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 15,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 15,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://rollinrecs.com/products/2-chainz-based-on-a-t-r-u-story-burgundy-vinyl?variant=44059627323649",
+      "artist": "2 Chainz",
+      "title": "Based On A T.R.U. Story (Burgundy Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "37.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00602455794444"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://rollinrecs.com/products/070-shake-modus-vivendi-orange-vinyl?variant=43706049593601",
+      "artist": "070 Shake",
+      "title": "Modus Vivendi (Orange Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "49.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00602508653391"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://rollinrecs.com/products/suicideboys-i-want-to-die-in-new-orleans?variant=43353214386433",
+      "artist": "$UICIDEBOY$",
+      "title": "I Want To Die In New Orleans (Silver Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "23.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00842812109140"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://rollinrecs.com/robots.txt",
+      "sha256": "ac81fb52c39af907d29fb127ae157824bf3c9a5d28584b275711555d4ab4099f"
+    },
+    {
+      "url": "https://rollinrecs.com/",
+      "sha256": "c471adf7923583c7e84504e1f7c086aa352826f09732a9de99098ce00c2f93ec"
+    },
+    {
+      "url": "https://rollinrecs.com/products.json?limit=20&page=1",
+      "sha256": "7dcdd3b7a8be6ea85c2b365f413501687d7fa5ddcb236a0c37900c607eacfec5"
+    },
+    {
+      "url": "https://rollinrecs.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "078c89b9b61780001dd04104b0248c815c599604e23c87790e982682bb53d91f"
+    },
+    {
+      "url": "https://rollinrecs.com/products/suicideboys-i-want-to-die-in-new-orleans",
+      "sha256": "7cac8b2ae6e33bd86081faaa8e2d426ce1c916d0a9d61b590cb5643aa25e10f1"
+    },
+    {
+      "url": "https://rollinrecs.com/products/suicideboys-long-term-effects-of-suffering-green-colored-vinyl",
+      "sha256": "10a19afbbf455b4126d94b495ed0029b1041d09883ab173594bdda12d684eb74"
+    },
+    {
+      "url": "https://rollinrecs.com/products/2-chainz-based-on-a-t-r-u-story-burgundy-vinyl?variant=44059627323649",
+      "sha256": "b48a3a86ee4dbcd92a740d0830b655713876882c3e2f08f81705993ab74107d1"
+    },
+    {
+      "url": "https://rollinrecs.com/products/070-shake-modus-vivendi-orange-vinyl?variant=43706049593601",
+      "sha256": "42ff0e505574a9c61f40804a7190168d2266262641ea9aebfad283fdb05d035e"
+    },
+    {
+      "url": "https://rollinrecs.com/products/suicideboys-i-want-to-die-in-new-orleans?variant=43353214386433",
+      "sha256": "806241237a1bc744cffef7b114613c6ef29a392a6bca03d6a57465b99718ad09"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": true,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_2292",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://rollinrecs.com/products/2-chainz-based-on-a-t-r-u-story-burgundy-vinyl?variant=44059627323649",
+    "https://rollinrecs.com/products/070-shake-modus-vivendi-orange-vinyl?variant=43706049593601",
+    "https://rollinrecs.com/products/suicideboys-i-want-to-die-in-new-orleans?variant=43353214386433"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2292
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 15,
+  "candidate_ref": "v2-40571453864-1/rollinrecs_com",
+  "assessment_path": "assessments/v2/rollinrecs_com/v2-40571453864-1.json"
+}
