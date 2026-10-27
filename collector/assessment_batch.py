@@ -16,10 +16,10 @@ from collector.contracts import assert_credential_free_environment
 from collector.execute_generated import load_profile, parse_listing
 from collector.manual_run import load_queue
 from collector.quality_gate import fingerprint
-from collector.shop_assessment import VERSION, assess_shop, now
+from collector.shop_assessment import VERSION, REVISION, assess_shop, now
 
 
-INDEX_FIELDS = ('assessment_version','assessment_id','assessed_at','shop_id','name','domain','country',
+INDEX_FIELDS = ('assessment_version','assessment_revision','assessment_id','assessed_at','shop_id','name','domain','country',
                 'scraper_type','preferred_scraper_type','supports_artist_title_fallback','suitability',
                 'priority','reason','build_status','existing_scraper','assessment_ready','candidate_ref',
                 'product_count','product_count_basis','platform','non_ean_potential')
@@ -77,7 +77,12 @@ def run(queue, progress, index, metadata, *, published, quality, output, run_id,
         q = states.get(slug(item['domain']), {}) if item['domain'] else {}
         missing = q.get('evidence',{}).get('reason') == 'detail_ean_not_proven'
         return ({'NL':0,'BE':1,'GB':2,'US':3}.get(item['country'],4), not missing, item['name'].casefold())
-    pending = [s for s in targets if index['shops'].get(s['shop_id'],{}).get('assessment_version') != VERSION]
+    def needs_assessment(item):
+        previous=index['shops'].get(item['shop_id'],{})
+        return (previous.get('assessment_revision') != REVISION or
+                (previous.get('build_status') == 'READY_OTHER_SELECTED_TYPE'
+                 and scraper_type in {'AUTO',previous.get('scraper_type')}))
+    pending = [s for s in targets if needs_assessment(s)]
     pending.sort(key=rank)
     results = []
     start = time.monotonic()
@@ -91,15 +96,25 @@ def run(queue, progress, index, metadata, *, published, quality, output, run_id,
             approved = qa.get('fingerprint') == fingerprint(profile)
         prior = historical.get(item['row'], {})
         try:
-            record = assessor(item, country=item['country'], prior=prior,
-                              existing=existing, existing_approved=approved)
+            old=index['shops'].get(item['shop_id'],{})
+            access=old.get('evidence',{}).get('access_problem','')
+            if old.get('assessment_version')==VERSION and re.search(r'HTTP_(?:401|403|429)\b|robots_disallow',access):
+                record=deepcopy(old)
+                record.update(assessment_revision=REVISION,assessed_at=now(),
+                    previous_assessment_path=old['assessment_path'],evidence_basis='prior_access_block_retained_no_retry')
+            else:
+                record = assessor(item, country=item['country'], prior=prior,
+                                  existing=existing, existing_approved=approved)
         except Exception as exc:
-            record = {'assessment_version':VERSION,'shop_id':item['shop_id'],'name':item['name'],
+            record = {'assessment_version':VERSION,'assessment_revision':REVISION,'shop_id':item['shop_id'],'name':item['name'],
                       'domain':item['domain'],'country':item['country'],'scraper_type':'MANUAL_REVIEW',
                       'reason':[type(exc).__name__], 'build_status':'NOT_BUILDABLE_WITH_CURRENT_EVIDENCE',
                       'database_write':False}
         body = record.pop('_listing_body',None)
         record.setdefault('assessed_at', now())
+        record.setdefault('database_write', False)
+        record.setdefault('migration_approved', False)
+        record.setdefault('assessment_ready', False)
         record.update(assessment_id=assessment_id, queue_rows=item['queue_rows'], shop_id=item['shop_id'])
         if body and record.get('build_eligible') and scraper_type in {'AUTO',record['scraper_type']}:
             try:
@@ -147,7 +162,7 @@ def csv_text(rows):
 
 def section(rows):
     from collector.status import cell
-    done=[r for r in rows if r.get('assessment_version')==VERSION]
+    done=[r for r in rows if r.get('assessment_revision')==REVISION]
     counts=Counter(r['scraper_type'] for r in done)
     lines=['<!-- assessment-v2:start -->','## EAN / Artist + Title — aanvullende beoordeling', '',
            f'Unieke shops/bronnen: **{len(rows)}**. Beoordeeld: **{len(done)}**. Open: **{len(rows)-len(done)}**.', '',

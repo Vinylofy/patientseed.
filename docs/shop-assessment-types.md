@@ -18,7 +18,7 @@ De versie-2-beoordeling:
 - Vereist minstens 80% geldige eigen-product-GTIN's in de detailproef voor een nieuwe EAN-classificatie. Geldige codes moeten per verschillend product consistent zijn. Numerieke SKU's en URL-ID's zijn geen GTIN-bewijs.
 - Kan ARTIST_TITLE kiezen als EAN niet voldoende is bewezen, minstens 80% van de listings een consistent herkenbare identiteit heeft en alle drie productdetails hun eigen prijs en identiteit bevestigen.
 - Gebruikt uitsluitend expliciete artiest-attributen of een consequent enkelvoudig `Artiest - Album`-formaat. Vendor/label is geen artiest. Meervoudige ambigue splitsingen leveren geen gok op.
-- Vereist bij nieuwe beoordelingen ook expliciet NewCondition-bewijs voor de voorbeeldproducten. De bestaande scraperpolicy en bestaande EAN-profielen worden hierdoor niet aangepast. Onzekere nieuw/tweedehands-status leidt tot MANUAL_REVIEW.
+- Behoudt de bestaande policy: vinyl zonder tweedehands-signaal wordt als nieuw behandeld. De detailproef registreert of dit expliciet NewCondition is of de bestaande afwezigheid-van-used-signaalregel. Expliciete UsedCondition, grading of tegenstrijdige conditiewaarden leiden tot MANUAL_REVIEW. Bestaande EAN-profielen worden niet aangepast.
 - Bewijst geen volledige EAN-dekking of volledig assortiment op basis van deze kleine proef. Productaantallen blijven onbekend zonder passende bron. Oude Excel-aantallen blijven alleen als gedateerd-onbekende historische bronmetadata bewaard.
 - Maakt onderscheid tussen EAN, ARTIST_TITLE, UNSUITABLE en MANUAL_REVIEW. Een toegangsblokkade of onbekende catalogusroute is review met concrete reden, geen bewijs dat een winkel nooit scrape-baar is. Alleen bewezen ongeschiktheid wordt definitief afgewezen.
 
@@ -56,3 +56,7 @@ Gebruik de bestaande **SCRAPER | Manual | Single scraper**. Kies `scraper_slug=C
 Publieke collectie blijft credentialvrij. GitHub-authenticatie bestaat alleen in de laad-/publicatiestappen. Robots.txt en bestaande HTTPS-, domein-, request-, runtime- en responsegroottegrenzen worden gehandhaafd. Bij 401/403/429 wordt de shop niet verder benaderd. Geen login, CAPTCHA-bypass, betaalde jobs, MusicBrainz-matches, importers, databasewrites, migraties, frontendwijzigingen of wijzigingen aan private productieprocessen.
 
 Tijdens ingebruikname staat `collector/assessment-policy.json` op disabled voor automatische slots. Een expliciete handmatige batch mag de uitbreiding testen. Na tests en een begrensde live proef kan deze aanvullende beoordeling worden aangezet. `reset_cursor` blijft de bestaande legacy-bronreset en is niet nodig om de nieuwe beoordeling over de al doorlopen lijst te laten starten.
+
+## Eerste proef en beleidsrevisie
+
+De eerste tien beoordelingen zijn onveranderd opgeslagen onder assessment-versie 2. De aanvullende beleidsrevisie 2.1 herstelt de bestaande nieuw-policy in plaats van een nieuwe verplichte NewCondition-gate. Nieuwe records verwijzen naar de nieuwe revision en datum; de eerste JSON-records worden niet herschreven. Eerdere 401/403/429/robots-blokkades worden bij deze revisie met verwijzing behouden, zonder de verboden route opnieuw te benaderen.

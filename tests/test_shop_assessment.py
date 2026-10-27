@@ -31,7 +31,7 @@ def fixture(codes=None, condition=True, mismatch=False, robots='User-agent: *\nA
                          'variants':[{'id':i,'available':True,'price':str(20+i)+'.00','barcode':codes[i-1] if codes else None}]})
         data={'@type':'Product','url':url,'name':name,'offers':{
               '@type':'Offer','url':url+'?variant='+str(i), 'price':str(999 if mismatch else 20+i), 'priceCurrency':'USD'}}
-        if condition:data['itemCondition']='https://schema.org/NewCondition'
+        if condition:data['itemCondition']='https://schema.org/NewCondition' if condition is True else condition
         if codes:data['gtin']=codes[i-1]
         html='<script type="application/ld+json">'+json.dumps(data)+'</script>'
         responses[url]=html;responses[url+'?variant='+str(i)]=html
@@ -113,10 +113,15 @@ class AssessmentTests(unittest.TestCase):
             self.assertEqual(result['scraper_type'],'MANUAL_REVIEW')
 
     def test_unknown_condition_and_wrong_product_price_require_review(self):
-        for responses in [fixture(condition=False),fixture(mismatch=True)]:
+        for responses in [fixture(condition='https://schema.org/RefurbishedCondition'),fixture(mismatch=True)]:
             result,_=self.assess(responses)
             self.assertEqual(result['scraper_type'],'MANUAL_REVIEW')
             self.assertFalse(result['build_eligible'])
+
+    def test_existing_absence_of_used_policy_is_preserved(self):
+        result,_=self.assess(fixture(condition=False))
+        self.assertEqual(result['scraper_type'],'ARTIST_TITLE')
+        self.assertEqual(result['examples'][0]['condition_basis'],'existing_no_used_signal_policy')
 
     def test_robots_denial_is_not_bypassed(self):
         result,transport=self.assess(fixture(robots='User-agent: *\nDisallow: /'))
@@ -180,6 +185,36 @@ class AssessmentTests(unittest.TestCase):
         text=section([{'name':'One','country':None}])
         self.assertIn('Beoordeeld: **0**',text)
         self.assertIn('Nog te beoordelen',text)
+
+
+class RobotsTests(unittest.TestCase):
+    def test_json_wildcard_and_explicit_allow_are_respected(self):
+        from collector.assessment_robots import allowed
+        rules='User-agent: *\nDisallow: /*.json$\nAllow: /products.json'
+        self.assertFalse(allowed(rules,'https://example.test/private.json'))
+        self.assertTrue(allowed(rules,'https://example.test/products.json'))
+
+    def test_specific_user_agent_takes_precedence(self):
+        from collector.assessment_robots import allowed
+        text='User-agent: *\nAllow: /\nUser-agent: PublicCatalogCollector\nDisallow: /'
+        self.assertFalse(allowed(text,'https://example.test/'))
+
+    def test_crawl_delay_is_retained_without_inventing_country_or_currency(self):
+        from collector.assessment_robots import rules
+        self.assertEqual(rules('User-agent: *\nCrawl-delay: 10')[1],10)
+
+
+class DetailIdentityTests(unittest.TestCase):
+    def test_explicit_artist_conflict_is_not_ignored(self):
+        from collector.shop_assessment import identity_on_detail
+        row={'artist':'Alpha','title':'One','identity_method':'consistent_single_delimiter'}
+        self.assertFalse(identity_on_detail(row,[{'name':'Alpha - One','byArtist':{'name':'Beta'}}]))
+        self.assertTrue(identity_on_detail(row,[{'name':'One','byArtist':{'name':'Alpha'}}]))
+
+    def test_grading_metadata_requires_review(self):
+        from collector.shop_assessment import condition_evidence
+        self.assertEqual(condition_evidence([{'additionalProperty':[{'name':'Media Condition','value':'VG+'}]}]),
+                         'ambiguous_explicit_condition')
 
 
 if __name__=='__main__':unittest.main()

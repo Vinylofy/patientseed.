@@ -8,7 +8,8 @@ import math
 from pathlib import Path
 import re
 from urllib.parse import urlsplit
-from urllib.robotparser import RobotFileParser
+from dataclasses import replace
+from collector.assessment_robots import allowed, rules
 
 from collector.artist_title import enrich
 from collector.contracts import CollectionBlocked, Limits, assert_credential_free_environment
@@ -18,6 +19,7 @@ from collector.recon import ADAPTERS, probe, shopify_currency
 from collector.transport import Transport
 
 VERSION = 2
+REVISION = "2.1"
 LIMITS = Limits(max_pages=2, max_requests=16, max_products=20, timeout_seconds=10,
                 max_runtime_seconds=180, delay_seconds=1)
 
@@ -55,7 +57,7 @@ class EvidenceTransport:
         self.domain = domain
         self.transport = factory(domain, LIMITS)
         self.cache, self.requests = {}, []
-        self.robot = RobotFileParser()
+        self.robots = ''
         url = f'https://{domain}/robots.txt'
         try:
             body = self.transport.get(url)
@@ -63,11 +65,16 @@ class EvidenceTransport:
             if str(exc) != 'HTTP_404':
                 raise
             body = ''
-        self.robot.parse(body.splitlines())
+        self.robots = body
+        _,delay = rules(body)
+        if not math.isfinite(delay) or delay > 30:
+            raise CollectionBlocked('robots_crawl_delay_exceeds_bounded_pilot')
+        if delay > LIMITS.delay_seconds:
+            self.transport.limits = replace(LIMITS, delay_seconds=delay)
         self.requests.append({'url': url, 'sha256': hashlib.sha256(body.encode()).hexdigest()})
 
     def get(self, url):
-        if not self.robot.can_fetch('PublicCatalogCollector/0.1', url):
+        if not allowed(self.robots, url):
             raise CollectionBlocked('robots_disallow')
         if url not in self.cache:
             self.cache[url] = self.transport.get(url)
@@ -80,22 +87,46 @@ def own_nodes(html, url):
     return [p for p in parser.nodes if same_product(p.get('url') or str(p.get('@id','')).split('#')[0], url)]
 
 
-def new_condition(nodes):
-    values = []
+def condition_evidence(nodes):
+    values=[];texts=[]
     for node in nodes:
-        values.append(str(node.get('itemCondition', '')))
-        offers = node.get('offers', [])
-        if isinstance(offers, dict): offers = [offers]
-        values += [str(o.get('itemCondition', '')) for o in offers if isinstance(o, dict)]
-    if any('UsedCondition' in value for value in values):
-        return False
-    return any('NewCondition' in value for value in values)
+        values.append(str(node.get('itemCondition','')))
+        texts.append(str(node.get('name',''))+' '+str(node.get('description','')))
+        props=node.get('additionalProperty',[])
+        if isinstance(props,dict):props=[props]
+        for prop in props if isinstance(props,list) else []:
+            if isinstance(prop,dict) and str(prop.get('name','')).casefold() in {'condition','media condition','sleeve condition'}:
+                value=str(prop.get('value','')).casefold()
+                if value not in {'new','nieuw','sealed','mint (new)'}:
+                    return 'ambiguous_explicit_condition'
+        offers=node.get('offers',[])
+        if isinstance(offers,dict):offers=[offers]
+        values += [str(o.get('itemCondition','')) for o in offers if isinstance(o,dict)]
+    if any('UsedCondition' in value for value in values) or any(re.search(
+        r'\b(?:second[- ]?hand|pre[- ]?owned|tweedehands|2e\s*hands|gebraucht|media\s+condition|sleeve\s+condition)\b',text,re.I) for text in texts):
+        return 'used_or_grading_signal'
+    if any(value and 'NewCondition' not in value for value in values):
+        return 'ambiguous_explicit_condition'
+    return 'explicit_new' if any('NewCondition' in value for value in values) else 'existing_no_used_signal_policy'
+
+
+def identity_on_detail(row,nodes):
+    if not row.get('identity_method'):return False
+    for node in nodes:
+        named=node.get('byArtist') or node.get('artist')
+        if isinstance(named,dict):named=named.get('name')
+        if named and (not isinstance(named,str) or named.casefold()!=row['artist'].casefold()):
+            continue
+        name=re.sub(r'\s+',' ',str(node.get('name',''))).casefold()
+        if row['title'].casefold() in name and (named or row['artist'].casefold() in name):
+            return True
+    return False
 
 
 def assess_shop(item, *, country=None, prior=None, existing=False, existing_approved=False, transport_factory=Transport):
     assert_credential_free_environment()
     prior = prior or {}
-    result = {'assessment_version': VERSION, 'assessed_at': now(), 'shop_id': item['domain'] or f"source-row-{item['row']}",
+    result = {'assessment_version': VERSION, 'assessment_revision':REVISION, 'assessed_at': now(), 'shop_id': item['domain'] or f"source-row-{item['row']}",
               'row': item['row'], 'name': item['name'], 'domain': item['domain'], 'country': country,
               'website': f"https://{item['domain']}/" if item['domain'] else None,
               'previous_status': prior.get('status'), 'previous_reason': prior.get('reason'),
@@ -155,17 +186,15 @@ def assess_shop(item, *, country=None, prior=None, existing=False, existing_appr
                 e['detail_checked'] += 1
                 e['detail_price_proven'] += 1
                 e['ean_valid'] += bool(codes)
-                names = [re.sub(r'\s+', ' ', str(n.get('name',''))).casefold() for n in nodes]
-                identity_proven = bool(row.get('identity_method') and any(
-                    row['artist'].casefold() in name and row['title'].casefold() in name for name in names))
+                identity_proven = identity_on_detail(row,nodes)
                 e['identity_details_proven'] += identity_proven
                 details.append({'url':row['url'], 'artist':row.get('artist'), 'title':row.get('title'),
                     'identity_method': row.get('identity_method'), 'identity_proven': identity_proven,
                     'price':row['price'], 'currency':row['currency'], 'valid_eans':sorted(codes),
-                    'explicit_new_condition':new_condition(nodes)})
+                    'condition_basis':condition_evidence(nodes)})
                 if any(node.get('image') for node in nodes): e['cover_available'] = True
             result['examples'] = details
-            e['new_used_distinguishable'] = bool(details) and all(d['explicit_new_condition'] for d in details)
+            e['new_used_distinguishable'] = bool(details) and all(d['condition_basis'] in {'explicit_new','existing_no_used_signal_policy'} for d in details)
         except Exception as exc:
             e['access_problem'] = str(exc)[:180] if isinstance(exc, CollectionBlocked) else type(exc).__name__
             if transport is None:
