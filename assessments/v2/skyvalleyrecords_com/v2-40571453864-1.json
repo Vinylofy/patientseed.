@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:52:40.072244+00:00",
+  "shop_id": "skyvalleyrecords.com",
+  "row": 2432,
+  "name": "Sky Valley Records",
+  "domain": "skyvalleyrecords.com",
+  "country": "US",
+  "website": "https://skyvalleyrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2432,
+    "name": "Sky Valley Records",
+    "domain": "skyvalleyrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://skyvalleyrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 16,
+    "excluded": 4,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://skyvalleyrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://skyvalleyrecords.com/products.json?limit=20&page=1",
+        "score": 165,
+        "products_seen": 20,
+        "accepted": 16,
+        "excluded": 4,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://skyvalleyrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 155,
+        "products_seen": 20,
+        "accepted": 15,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://skyvalleyrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://skyvalleyrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://skyvalleyrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://skyvalleyrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://skyvalleyrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://skyvalleyrecords.com/products.json?limit=20&page=1",
+      "score": 165,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://skyvalleyrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 16,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 16,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://skyvalleyrecords.com/products/pierce-the-veil-collide-with-the-sky-classic-black-vinyl-lp?variant=57880360288439",
+      "artist": "Pierce The Veil",
+      "title": "Collide With The Sky - Classic Black Vinyl - LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "27.98",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://skyvalleyrecords.com/products/bullion-nearly-celadon-color-vinyl-lp?variant=57892386144439",
+      "artist": "Bullion ‎– Nearly",
+      "title": "Celadon Color Vinyl - LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "22.98",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://skyvalleyrecords.com/products/falling-in-reverse-fashionably-late-pink-n-white-splatter-lp?variant=57918236557495",
+      "artist": "Falling In Reverse",
+      "title": "Fashionably Late -  Pink n White Splatter - LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "28.98",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://skyvalleyrecords.com/robots.txt",
+      "sha256": "6ec7d664eaea2d5f4d9112e25e34233fc594ced735eadcf30e6f2bec2b752d00"
+    },
+    {
+      "url": "https://skyvalleyrecords.com/",
+      "sha256": "9ce76da0d1c8bb9fd9971a5203de070efccd2435e987b31f26e7810eba0b925c"
+    },
+    {
+      "url": "https://skyvalleyrecords.com/products.json?limit=20&page=1",
+      "sha256": "27269165964b25b1723333cc9c39a0a0e801ef3e29dd7dd9f53313b20668b0e3"
+    },
+    {
+      "url": "https://skyvalleyrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "3696bb6ac7d903f516bd5a6196a70b6cf11adab3517ec7c58c8cb9ac42d1e7f2"
+    },
+    {
+      "url": "https://skyvalleyrecords.com/products/falling-in-reverse-fashionably-late-pink-n-white-splatter-lp",
+      "sha256": "9e10fe0e00c5c8c9c240f2943bcf24203570df9f266235d9fd57a0b96ce2c4c5"
+    },
+    {
+      "url": "https://skyvalleyrecords.com/products/delicate-steve-after-hours-lp",
+      "sha256": "0a8f13362317646a4346283a6da8bb2903ea0ec934443a80b25b1077f2967ae2"
+    },
+    {
+      "url": "https://skyvalleyrecords.com/products/pierce-the-veil-collide-with-the-sky-classic-black-vinyl-lp?variant=57880360288439",
+      "sha256": "07f8bfbdd17a8e0681fec2fe8c7a4ba26067e52ac8002f72b4ea386959715148"
+    },
+    {
+      "url": "https://skyvalleyrecords.com/products/bullion-nearly-celadon-color-vinyl-lp?variant=57892386144439",
+      "sha256": "b28adfb3dc501780860a12e9e560ae200d0bab2d472a27f11dd78bce406fbab9"
+    },
+    {
+      "url": "https://skyvalleyrecords.com/products/falling-in-reverse-fashionably-late-pink-n-white-splatter-lp?variant=57918236557495",
+      "sha256": "5a6da137705d7ace3e93a861979939a59cff110d51b78e809786fcf1727273c5"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0625,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2432",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://skyvalleyrecords.com/products/pierce-the-veil-collide-with-the-sky-classic-black-vinyl-lp?variant=57880360288439",
+    "https://skyvalleyrecords.com/products/bullion-nearly-celadon-color-vinyl-lp?variant=57892386144439",
+    "https://skyvalleyrecords.com/products/falling-in-reverse-fashionably-late-pink-n-white-splatter-lp?variant=57918236557495"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2432
+  ],
+  "assessment_path": "assessments/v2/skyvalleyrecords_com/v2-40571453864-1.json"
+}
