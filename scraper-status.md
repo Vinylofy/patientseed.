@@ -3643,7 +3643,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | vinylexchange.co.uk | 12 | FROZEN | 3 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | vinylfantasybk.com | 15 | REVIEW | 0 | 9 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | vinylfiends.com | 15 | APPROVED | 0 | 4 | 3/3 | ACTIVE (run 40469569194) | ACTIVE | run 40455623960 |
-| vinylfrontierrecords.com | 15 | APPROVED | 0 | 15 | 3/3 | ACTIVE | ACTIVE | run 40455623960 |
+| vinylfrontierrecords.com | 15 | APPROVED | 0 | 15 | 3/3 | ACTIVE (run 40469569194) | ACTIVE | run 40455623960 |
 | vinylgram.com | 15 | REVIEW | 0 | 17 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | vinyljunkies.net | 15 | REVIEW | 0 | 16 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | vinylpeoplerecords.com | 15 | REVIEW | 0 | 18 | 0/0 | NOT_RUN | NOT_RUN | shipping_term_in_product_identity |
