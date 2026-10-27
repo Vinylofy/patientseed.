@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:51:48.405486+00:00",
+  "shop_id": "rustandwax.com",
+  "row": 2334,
+  "name": "Rust & Wax Record Shop - We Buy and Sell Records",
+  "domain": "rustandwax.com",
+  "country": "US",
+  "website": "https://rustandwax.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2334,
+    "name": "Rust & Wax Record Shop - We Buy and Sell Records",
+    "domain": "rustandwax.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://rustandwax.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://rustandwax.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://rustandwax.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://rustandwax.com/collections/all/products.json?limit=20&page=1",
+        "score": 175,
+        "products_seen": 20,
+        "accepted": 17,
+        "excluded": 3,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://rustandwax.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rustandwax.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rustandwax.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rustandwax.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rustandwax.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://rustandwax.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://rustandwax.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 13,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://rustandwax.com/products/press-play-white-vinyl?variant=68376482709755",
+      "artist": "",
+      "title": "Press Play (White Vinyl)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "29.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00199584779317"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://rustandwax.com/products/del-the-boys-deluxe-edition-2lp?variant=68376683610363",
+      "artist": "",
+      "title": "Del & The Boys (Deluxe Edition / 2LP)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "34.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00634457256989"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://rustandwax.com/products/a-charlie-brown-christmas-2lp-deluxe-edition?variant=68388182786299",
+      "artist": "",
+      "title": "A Charlie Brown Christmas (2LP Deluxe Edition)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "39.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00888072245273"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://rustandwax.com/robots.txt",
+      "sha256": "10a4994a55dbc6e63f6f1d9d6231528d27d0aeb61f4f5026f757af51cb3ff024"
+    },
+    {
+      "url": "https://rustandwax.com/",
+      "sha256": "d04219e4aee426d4a59b09c01623cc21fa29a78faf6b8ffc679cdbb33cbd2076"
+    },
+    {
+      "url": "https://rustandwax.com/products.json?limit=20&page=1",
+      "sha256": "565a60932b6e6ee914c793eaf7e28d8b5416569071324b1b5f0dd263f5c1011f"
+    },
+    {
+      "url": "https://rustandwax.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "a8611f303e549bb9c96f0c3c5eac3736db7929199f67b8ab7bc8357442ad3e90"
+    },
+    {
+      "url": "https://rustandwax.com/products/a-charlie-brown-christmas-2lp-deluxe-edition",
+      "sha256": "e5361bd8ced10d7f00acd41dfdffbf5dec24d5e55480eff777f0a28b8ee32f3d"
+    },
+    {
+      "url": "https://rustandwax.com/products/labor-of-love",
+      "sha256": "88b4fe531fc014660f400ef3ca1b7b71b56f04195eb182d34164872e850eee56"
+    },
+    {
+      "url": "https://rustandwax.com/products/press-play-white-vinyl?variant=68376482709755",
+      "sha256": "6c069cd4ccb4b2521ff2cd476b14eec2b46c5f6a75768a2b5e54f5611317c241"
+    },
+    {
+      "url": "https://rustandwax.com/products/del-the-boys-deluxe-edition-2lp?variant=68376683610363",
+      "sha256": "2284313d2652e8637d8b5575c2bf7ff753c13877575746aa089d6658de71a7ef"
+    },
+    {
+      "url": "https://rustandwax.com/products/a-charlie-brown-christmas-2lp-deluxe-edition?variant=68388182786299",
+      "sha256": "b7d19913348822c1c5112b96a034ed65b30f6001a3b29978ef0d816d2f85fe11"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_2334",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://rustandwax.com/products/press-play-white-vinyl?variant=68376482709755",
+    "https://rustandwax.com/products/del-the-boys-deluxe-edition-2lp?variant=68376683610363",
+    "https://rustandwax.com/products/a-charlie-brown-christmas-2lp-deluxe-edition?variant=68388182786299"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2334
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 20,
+  "candidate_ref": "v2-40571453864-1/rustandwax_com",
+  "assessment_path": "assessments/v2/rustandwax_com/v2-40571453864-1.json"
+}
