@@ -1,0 +1,227 @@
+{
+  "assessment_version": 2,
+  "assessed_at": "2026-10-27T19:18:06.490322+00:00",
+  "shop_id": "antonesrecordshop.com",
+  "row": 150,
+  "name": "Antone's Record Shop",
+  "domain": "antonesrecordshop.com",
+  "country": "US",
+  "website": "https://antonesrecordshop.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "source_observation": {
+    "row": 150,
+    "name": "Antone's Record Shop",
+    "domain": "antonesrecordshop.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://antonesrecordshop.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 14,
+    "excluded": 6,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://antonesrecordshop.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://antonesrecordshop.com/products.json?limit=20&page=1",
+        "score": 145,
+        "products_seen": 20,
+        "accepted": 14,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://antonesrecordshop.com/collections/all/products.json?limit=20&page=1",
+        "score": 35,
+        "products_seen": 20,
+        "accepted": 3,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://antonesrecordshop.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://antonesrecordshop.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://antonesrecordshop.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://antonesrecordshop.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://antonesrecordshop.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://antonesrecordshop.com/products.json?limit=20&page=1",
+      "score": 145,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://antonesrecordshop.com/products.json?limit=20&page=1",
+  "listing_sample": 14,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 14,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://antonesrecordshop.com/products/pre-order-ken-carson-xperiment-transparent-clearwater-blue?variant=43091945947198",
+      "artist": "Ken Carson",
+      "title": "Xperiment (Transparent Clearwater Blue)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "37.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "explicit_new_condition": false
+    },
+    {
+      "url": "https://antonesrecordshop.com/products/weeknd-hurry-up-tomorrow-complete-edition?variant=67943080034366",
+      "artist": "Weeknd",
+      "title": "Hurry Up Tomorrow (Complete Edition)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "45.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "explicit_new_condition": false
+    },
+    {
+      "url": "https://antonesrecordshop.com/products/pre-order-brandon-flowers-thrasher-black?variant=42970033913918",
+      "artist": "Brandon Flowers",
+      "title": "THRASHER (Black)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "32.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "explicit_new_condition": false
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://antonesrecordshop.com/robots.txt",
+      "sha256": "afa90741356ac570c5b94f45099739a9559272d12745eaa20c124c459cede7ec"
+    },
+    {
+      "url": "https://antonesrecordshop.com/",
+      "sha256": "0000891ab63e7ba04ffa5f893251b4db76f69625b54c541a1b3119ebdc37ee0c"
+    },
+    {
+      "url": "https://antonesrecordshop.com/products.json?limit=20&page=1",
+      "sha256": "5b1cad08974548b954f9f20c9085a22b3d92627dcbff0b1e75a38e53a87a998a"
+    },
+    {
+      "url": "https://antonesrecordshop.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "d8b34866c4ce761122f036aab5ad0a3c80d68f087dbeb01d098459346f06f67a"
+    },
+    {
+      "url": "https://antonesrecordshop.com/products/pre-order-brandon-flowers-thrasher-black",
+      "sha256": "37c2a054ffcf73e03a6e0c6f8d58cd6514952d29961665674f02dd23085288ec"
+    },
+    {
+      "url": "https://antonesrecordshop.com/products/uicideboy-new-world-depression-coke-bottle-lp",
+      "sha256": "ed9911ca70ea31546af8fda04aaf3ed945a2d3f2aa2965f1e5815bf888a3b464"
+    },
+    {
+      "url": "https://antonesrecordshop.com/products/pre-order-ken-carson-xperiment-transparent-clearwater-blue?variant=43091945947198",
+      "sha256": "ed3b12fb267c8d1510b1585ce1ee34d7ba6b724fa074c29c5886fb1351fabd4c"
+    },
+    {
+      "url": "https://antonesrecordshop.com/products/weeknd-hurry-up-tomorrow-complete-edition?variant=67943080034366",
+      "sha256": "c5719cf6c3980bab967a2b298cc81b77ac9179860641b62b3c0f4028a06e53a9"
+    },
+    {
+      "url": "https://antonesrecordshop.com/products/pre-order-brandon-flowers-thrasher-black?variant=42970033913918",
+      "sha256": "9b0eb77db024eb0d09bc2ac0918443374e67d83de511bdda21021ed17ed7a71f"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:new_used_distinguishable"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.8571428571428571,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "assessment_id": "v2-40567635678-1",
+  "queue_rows": [
+    150
+  ],
+  "assessment_path": "assessments/v2/antonesrecordshop_com/v2-40567635678-1.json"
+}
