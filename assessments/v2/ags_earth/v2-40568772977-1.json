@@ -1,0 +1,236 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:25:08.670397+00:00",
+  "shop_id": "ags.earth",
+  "row": 81,
+  "name": "AGS Honolulu (Aloha Got Soul)",
+  "domain": "ags.earth",
+  "country": "US",
+  "website": "https://ags.earth/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "source_observation": {
+    "row": 81,
+    "name": "AGS Honolulu (Aloha Got Soul)",
+    "domain": "ags.earth",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://ags.earth/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 4,
+    "excluded": 16,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://ags.earth/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://ags.earth/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://ags.earth/collections/all/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 20,
+        "accepted": 4,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://ags.earth/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://ags.earth/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://ags.earth/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://ags.earth/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://ags.earth/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://ags.earth/collections/all/products.json?limit=20&page=1",
+      "score": 45,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://ags.earth/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 4,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 4,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://ags.earth/products/112-112-46247?variant=48240346628283",
+      "artist": "112",
+      "title": "112",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "40.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://ags.earth/products/10th-street-livin-in-new-york-city-b-w-moodies-basement-7-45031?variant=44576948256955",
+      "artist": "10th Street",
+      "title": "(Livin’ In) New York City b/w Moodies Basement [7'']",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "12.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://ags.earth/products/10th-street-gonna-get-hot-tonight-b-w-hot-tonight-part-ii-7-45031?variant=44576948093115",
+      "artist": "10th Street",
+      "title": "(Gonna Get) Hot Tonight b/w Hot Tonight (Part II) [7”]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "12.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://ags.earth/robots.txt",
+      "sha256": "c68a1aa426eab2f8808f68d9af90f20ddb49c43bfad3febe2b9b4f8bb4fb8f92"
+    },
+    {
+      "url": "https://ags.earth/",
+      "sha256": "42aa438488830b7cc25e5788d12b124e4dc91445bbd86ee572cdf4e3b3bba415"
+    },
+    {
+      "url": "https://ags.earth/products.json?limit=20&page=1",
+      "sha256": "e1c0e67e9bdb3ae6c33a4aeb1fb875937a6c7bad53686f2d1595455a2a050f9e"
+    },
+    {
+      "url": "https://ags.earth/collections/all/products.json?limit=20&page=1",
+      "sha256": "4958e2ab47d773bf9746d196dc5c37e554a9504abf00be0dcb80632d23d0fb33"
+    },
+    {
+      "url": "https://ags.earth/products/10th-street-gonna-get-hot-tonight-b-w-hot-tonight-part-ii-7-45031",
+      "sha256": "f894c15b45aa05d7fdc0bad131a0dc80466b3d569c72317e64d09adc71e4369f"
+    },
+    {
+      "url": "https://ags.earth/products/10th-street-livin-in-new-york-city-b-w-moodies-basement-7-45031",
+      "sha256": "9c61e4f02c4f47feee98246beaf3800cdf50b8f1ef10e639fdb33eeb06e96612"
+    },
+    {
+      "url": "https://ags.earth/products/112-112-46247?variant=48240346628283",
+      "sha256": "24f0a0bad325bf9a893e7bb20715d0a54d778699dfb3d366dfd09084c3e94ee4"
+    },
+    {
+      "url": "https://ags.earth/products/10th-street-livin-in-new-york-city-b-w-moodies-basement-7-45031?variant=44576948256955",
+      "sha256": "7c06e553ccd858f4ad6815ab09e29e1df69b93572f527846c0b9bb65a835e94f"
+    },
+    {
+      "url": "https://ags.earth/products/10th-street-gonna-get-hot-tonight-b-w-hot-tonight-part-ii-7-45031?variant=44576948093115",
+      "sha256": "7b00fd8423035015f199f6ce6db540fce425b653c9b05def0cdcbde1a65a6341"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "assessment_id": "v2-40568772977-1",
+  "queue_rows": [
+    81
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 4,
+  "candidate_ref": "v2-40568772977-1/ags_earth",
+  "assessment_path": "assessments/v2/ags_earth/v2-40568772977-1.json"
+}
