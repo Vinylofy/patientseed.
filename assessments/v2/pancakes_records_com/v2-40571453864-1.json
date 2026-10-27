@@ -1,0 +1,242 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:48:48.330125+00:00",
+  "shop_id": "pancakes-records.com",
+  "row": 1874,
+  "name": "Pancakes Records",
+  "domain": "pancakes-records.com",
+  "country": "US",
+  "website": "https://pancakes-records.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1874,
+    "name": "Pancakes Records",
+    "domain": "pancakes-records.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://pancakes-records.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://pancakes-records.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://pancakes-records.com/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://pancakes-records.com/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://pancakes-records.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://pancakes-records.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://pancakes-records.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://pancakes-records.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://pancakes-records.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://pancakes-records.com/collections/all/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://pancakes-records.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 12,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://pancakes-records.com/products/454-4-real-vinyl?variant=53362913640755",
+      "artist": "454",
+      "title": "4 Real - Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "48.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://pancakes-records.com/products/13th-floor-elevators-psychedelic-sounds-of-the-13th-floor-elevators-vinyl?variant=50367211962675",
+      "artist": "13th Floor Elevators",
+      "title": "Psychedelic Sounds Of The 13th Floor Elevators - Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "41.00",
+      "currency": "USD",
+      "valid_eans": [
+        "05060767442623"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://pancakes-records.com/products/070-shake-petrichor-vinyl?variant=50834750538035",
+      "artist": "070 Shake",
+      "title": "Petrichor - Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "39.00",
+      "currency": "USD",
+      "valid_eans": [
+        "00602458769319"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://pancakes-records.com/robots.txt",
+      "sha256": "4c67e83c6a642fb93d5771b15b055fd39fad99500ccce286313740fd138d3b38"
+    },
+    {
+      "url": "https://pancakes-records.com/",
+      "sha256": "39542ca06b1eababa91a6677e6391d65d73cf208c0e16d6a167d0d424e7b98f8"
+    },
+    {
+      "url": "https://pancakes-records.com/products.json?limit=20&page=1",
+      "sha256": "9a672495897014b0f03cdfb32ee047621905b2ab84b32f17ab096d6393432077"
+    },
+    {
+      "url": "https://pancakes-records.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "8aa5868a73686433156fe82601f844826b99c376f33cb9d39247126f8933c59d"
+    },
+    {
+      "url": "https://pancakes-records.com/products/070-shake-petrichor-vinyl",
+      "sha256": "d4bc22e6bf91bedfb55a5911263efa1fe78baff2d5f5ecce45fd68f3f955c3f5"
+    },
+    {
+      "url": "https://pancakes-records.com/products/10-000-maniacs-twice-told-tales-white-vinyl",
+      "sha256": "e61ac32c5e0e09d8668f9f86f910586dc1293de8b2780970b7570421a52de558"
+    },
+    {
+      "url": "https://pancakes-records.com/products/454-4-real-vinyl?variant=53362913640755",
+      "sha256": "5ea73f92ffc5f8d769b13047626dc1ba75de011123a706a9aaecef527c6cbf42"
+    },
+    {
+      "url": "https://pancakes-records.com/products/13th-floor-elevators-psychedelic-sounds-of-the-13th-floor-elevators-vinyl?variant=50367211962675",
+      "sha256": "4d7effa96b3bff40586e43db6b2eda470cc6ec71e4e39a6ff5ee12d7ba302932"
+    },
+    {
+      "url": "https://pancakes-records.com/products/070-shake-petrichor-vinyl?variant=50834750538035",
+      "sha256": "7255b5244c4b1a6970733984ecb5085b16d350c5ba02bf270633fb664fb0f4ae"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 2,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1874",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://pancakes-records.com/products/454-4-real-vinyl?variant=53362913640755",
+    "https://pancakes-records.com/products/13th-floor-elevators-psychedelic-sounds-of-the-13th-floor-elevators-vinyl?variant=50367211962675",
+    "https://pancakes-records.com/products/070-shake-petrichor-vinyl?variant=50834750538035"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    1874
+  ],
+  "assessment_path": "assessments/v2/pancakes_records_com/v2-40571453864-1.json"
+}
