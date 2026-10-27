@@ -1,0 +1,137 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T22:09:58.885824+00:00",
+  "shop_id": "apparitionsvintage.com",
+  "row": 155,
+  "name": "Apparitions Vintage",
+  "domain": "apparitionsvintage.com",
+  "country": "US",
+  "website": "https://apparitionsvintage.com/",
+  "previous_status": "DETAIL_GATE_BLOCKED",
+  "previous_reason": "alternate public catalog route not proven",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 155,
+    "name": "Apparitions Vintage",
+    "domain": "apparitionsvintage.com",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "squarespace",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "squarespace",
+        "route": "https://apparitionsvintage.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "robots_disallow"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://apparitionsvintage.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "robots_disallow"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://apparitionsvintage.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://apparitionsvintage.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://apparitionsvintage.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://apparitionsvintage.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "robots_disallow"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://apparitionsvintage.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "robots_disallow"
+      }
+    ]
+  },
+  "platform": "squarespace",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://apparitionsvintage.com/robots.txt",
+      "sha256": "d84f4e4e624ad1aacc6f324b72297502a65cb11d0a2350fdb9e31c7f8740e101"
+    },
+    {
+      "url": "https://apparitionsvintage.com/",
+      "sha256": "20b473ee92b294a3a88c7fc6c6c3219853ae84cd493bd7d0c65eb6a1a1cfb444"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_155",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40592358994-1",
+  "queue_rows": [
+    155
+  ],
+  "assessment_path": "assessments/v2/apparitionsvintage_com/v2-40592358994-1.json"
+}
