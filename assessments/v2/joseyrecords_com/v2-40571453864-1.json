@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:47:02.907279+00:00",
+  "shop_id": "joseyrecords.com",
+  "row": 1339,
+  "name": "Josey Records",
+  "domain": "joseyrecords.com",
+  "country": "US",
+  "website": "https://joseyrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1339,
+    "name": "Josey Records",
+    "domain": "joseyrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://joseyrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 7,
+    "excluded": 13,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://joseyrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://joseyrecords.com/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://joseyrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 75,
+        "products_seen": 20,
+        "accepted": 7,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://joseyrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://joseyrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://joseyrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://joseyrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://joseyrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://joseyrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 75,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://joseyrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 7,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 7,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://joseyrecords.com/products/king-crimson-islands-2026-elemental-mixesa-a-180-gram?variant=67654595805484",
+      "artist": "\"king Crimson \"",
+      "title": "Islands - 2026 Elemental MixesÃ‚Â  (180 Gram)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "36.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00633367799418"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://joseyrecords.com/products/pre-order-cruzados-best-of-cruzados-lp?variant=53208601919788",
+      "artist": "\"cruzados \"",
+      "title": "\"best of Cruzados \" (LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "28.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00706091208805"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://joseyrecords.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-limited-edition-blue-lp?variant=52267984159020",
+      "artist": "!!! (Chk Chk Chk)",
+      "title": "Let It Be Blue (Indie Exclusive Limited Edition Blue LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "27.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00801061833916"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://joseyrecords.com/robots.txt",
+      "sha256": "d5105cc4244f0508288aa8aad43e364fa5a0ac25ae335868437153928e8b2822"
+    },
+    {
+      "url": "https://joseyrecords.com/",
+      "sha256": "72eb6f4ea5f02a6eb2c52381e783f1c2bed28ef638466a265cf2262f74d5335e"
+    },
+    {
+      "url": "https://joseyrecords.com/products.json?limit=20&page=1",
+      "sha256": "22f6227f62dcc3088216aa9bf6528be2c948a6f4a6148f1f384f450dd0398425"
+    },
+    {
+      "url": "https://joseyrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "0ae13cdd2a544bf05dc95c6d64a5a3db5451900cb370a00d468a4a9a83f09521"
+    },
+    {
+      "url": "https://joseyrecords.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-limited-edition-blue-lp",
+      "sha256": "fd629387983dfb249521823b6c9310551dd0f545bf9e2c677bf0b8fd241dcb24"
+    },
+    {
+      "url": "https://joseyrecords.com/products/louden-up-now-vinyl",
+      "sha256": "f406045507d2855a6a28d26f25bf3ca384adf0e1a0db77a8b59c12124ac1cf88"
+    },
+    {
+      "url": "https://joseyrecords.com/products/king-crimson-islands-2026-elemental-mixesa-a-180-gram?variant=67654595805484",
+      "sha256": "81c84d8c6f10bab9294f850d83a812021d5a21f418e2f56859927aef7b96340b"
+    },
+    {
+      "url": "https://joseyrecords.com/products/pre-order-cruzados-best-of-cruzados-lp?variant=53208601919788",
+      "sha256": "8c1dc2a414cf062c9a260c22c47df7dcf3dbb0b115a54f9cd259184cd9a2c82e"
+    },
+    {
+      "url": "https://joseyrecords.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-limited-edition-blue-lp?variant=52267984159020",
+      "sha256": "735ebb54f8e2d5d4d6926aaf9e02d153b6d86c414e2ddc70272e2837ec291815"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.7142857142857143,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_1339",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://joseyrecords.com/products/king-crimson-islands-2026-elemental-mixesa-a-180-gram?variant=67654595805484",
+    "https://joseyrecords.com/products/pre-order-cruzados-best-of-cruzados-lp?variant=53208601919788",
+    "https://joseyrecords.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-limited-edition-blue-lp?variant=52267984159020"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    1339
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 7,
+  "candidate_ref": "v2-40571453864-1/joseyrecords_com",
+  "assessment_path": "assessments/v2/joseyrecords_com/v2-40571453864-1.json"
+}
