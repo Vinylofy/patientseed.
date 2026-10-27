@@ -1,0 +1,236 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:25:48.743961+00:00",
+  "shop_id": "artsoundlanguage.com",
+  "row": 167,
+  "name": "art sound language",
+  "domain": "artsoundlanguage.com",
+  "country": "US",
+  "website": "https://artsoundlanguage.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "source_observation": {
+    "row": 167,
+    "name": "art sound language",
+    "domain": "artsoundlanguage.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://artsoundlanguage.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 17,
+    "excluded": 3,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://artsoundlanguage.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://artsoundlanguage.com/products.json?limit=20&page=1",
+        "score": 175,
+        "products_seen": 20,
+        "accepted": 17,
+        "excluded": 3,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://artsoundlanguage.com/collections/all/products.json?limit=20&page=1",
+        "score": 165,
+        "products_seen": 20,
+        "accepted": 16,
+        "excluded": 4,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://artsoundlanguage.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://artsoundlanguage.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://artsoundlanguage.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://artsoundlanguage.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://artsoundlanguage.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://artsoundlanguage.com/products.json?limit=20&page=1",
+      "score": 175,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://artsoundlanguage.com/products.json?limit=20&page=1",
+  "listing_sample": 17,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 17,
+    "unique_prices": 12,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://artsoundlanguage.com/products/augustus-pablo-ital-dub-lp?variant=45730835202339",
+      "artist": "Augustus Pablo",
+      "title": "Ital Dub LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "18.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://artsoundlanguage.com/products/eleh-floating-frequencies-intuitive-synthesis-i-lp?variant=55830528360739",
+      "artist": "Eleh",
+      "title": "Floating Frequencies / Intuitive Synthesis I LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "20.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://artsoundlanguage.com/products/eliane-radigue-triptych-2lp?variant=55849972171043",
+      "artist": "Eliane Radigue",
+      "title": "Triptych 2LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "42.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://artsoundlanguage.com/robots.txt",
+      "sha256": "fb637c71e5c3bbfde80b88efec93866e7837a4014daf89b04a75f550da346c48"
+    },
+    {
+      "url": "https://artsoundlanguage.com/",
+      "sha256": "4115276523e93267c3cae96528d911c46b44e50061f5802a48066e951fab1b30"
+    },
+    {
+      "url": "https://artsoundlanguage.com/products.json?limit=20&page=1",
+      "sha256": "aefe5476f520af69a538ade1e71720547d80ad445d96300039ff70be56889119"
+    },
+    {
+      "url": "https://artsoundlanguage.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "5df48ba9245f88cf8328875cdaa01acd1b6f9e04ef9d5ba317e118f8ba0e90f8"
+    },
+    {
+      "url": "https://artsoundlanguage.com/products/eliane-radigue-triptych-2lp",
+      "sha256": "0bb2e4aae77165d0b4ccac1c864e716f1ff4bf855ca1ca109140ed0b136d4d41"
+    },
+    {
+      "url": "https://artsoundlanguage.com/products/lake-turner-videosphere-lp",
+      "sha256": "53a2748da1a2e824bbc3a4aaff15a82a391c53033b69e42a9949ec85a963200d"
+    },
+    {
+      "url": "https://artsoundlanguage.com/products/augustus-pablo-ital-dub-lp?variant=45730835202339",
+      "sha256": "78c69725c4292c52ee6db39c902829298402d9f063713320b6c0f9758b0bd38c"
+    },
+    {
+      "url": "https://artsoundlanguage.com/products/eleh-floating-frequencies-intuitive-synthesis-i-lp?variant=55830528360739",
+      "sha256": "b651d88c1e1166a9fdcc85a9a17bffc60b956cfbb0998007b1c3a8af2d0a484f"
+    },
+    {
+      "url": "https://artsoundlanguage.com/products/eliane-radigue-triptych-2lp?variant=55849972171043",
+      "sha256": "a9ee2356a757852affbd806abc7a4b99e96bbd8ed2bd850d99db925d64988946"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "assessment_id": "v2-40568772977-1",
+  "queue_rows": [
+    167
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 17,
+  "candidate_ref": "v2-40568772977-1/artsoundlanguage_com",
+  "assessment_path": "assessments/v2/artsoundlanguage_com/v2-40568772977-1.json"
+}
