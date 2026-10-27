@@ -1,0 +1,202 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:56:09.314083+00:00",
+  "shop_id": "turntabletreasures.com",
+  "row": 2960,
+  "name": "Turntable Treasures",
+  "domain": "turntabletreasures.com",
+  "country": "US",
+  "website": "https://turntabletreasures.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2960,
+    "name": "Turntable Treasures",
+    "domain": "turntabletreasures.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://turntabletreasures.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 1,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://turntabletreasures.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://turntabletreasures.com/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://turntabletreasures.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://turntabletreasures.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://turntabletreasures.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://turntabletreasures.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://turntabletreasures.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://turntabletreasures.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://turntabletreasures.com/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://turntabletreasures.com/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://turntabletreasures.com/products/metallica-album?variant=46333215867124",
+      "artist": "",
+      "title": "Metallica Album",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "299.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://turntabletreasures.com/robots.txt",
+      "sha256": "59c37d21ba983881fbabdf0216e2464918d1873057f6a100f1cb11ac651299ce"
+    },
+    {
+      "url": "https://turntabletreasures.com/",
+      "sha256": "798d03ea770b143930aaa65fbf5e9f6791ac324cdb1557211ab2917ba96ac5aa"
+    },
+    {
+      "url": "https://turntabletreasures.com/products.json?limit=20&page=1",
+      "sha256": "126417750b3f877af732419a4323c93e4c1c2bb2d7560b09377db6cab8665e1d"
+    },
+    {
+      "url": "https://turntabletreasures.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "55238bd9c107ef94dc2245055bf61b3c51680fb044da0b1c682a1d5986c4334b"
+    },
+    {
+      "url": "https://turntabletreasures.com/products/metallica-album",
+      "sha256": "c4dbf27ad2977a3876111fc6abc391d2cc52259bb9143b3f7a171e7eacd5b965"
+    },
+    {
+      "url": "https://turntabletreasures.com/products/metallica-album?variant=46333215867124",
+      "sha256": "7dbb500d9add581f97e563d787c84881395e5f13d600e92e430125a1d9b2c864"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "insufficient_representative_product_evidence"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2960",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://turntabletreasures.com/products/metallica-album?variant=46333215867124"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2960
+  ],
+  "assessment_path": "assessments/v2/turntabletreasures_com/v2-40571453864-1.json"
+}
