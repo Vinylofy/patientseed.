@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:43:25.636837+00:00",
+  "shop_id": "contactrecordstore.com",
+  "row": 581,
+  "name": "Contact Records",
+  "domain": "contactrecordstore.com",
+  "country": "US",
+  "website": "https://contactrecordstore.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 581,
+    "name": "Contact Records",
+    "domain": "contactrecordstore.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://contactrecordstore.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 22,
+    "accepted": 11,
+    "excluded": 11,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://contactrecordstore.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://contactrecordstore.com/products.json?limit=20&page=1",
+        "score": 35,
+        "products_seen": 20,
+        "accepted": 3,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://contactrecordstore.com/collections/all/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 22,
+        "accepted": 11,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://contactrecordstore.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://contactrecordstore.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://contactrecordstore.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://contactrecordstore.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://contactrecordstore.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://contactrecordstore.com/collections/all/products.json?limit=20&page=1",
+      "score": 115,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://contactrecordstore.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 11,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 11,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://contactrecordstore.com/products/arthur-russell-picture-of-bunny-rabbit-lp?variant=43563543265437",
+      "artist": "Arthur Russell",
+      "title": "Picture of Bunny Rabbit LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "26.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00880301102319"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://contactrecordstore.com/products/alicecoltrane-eternity?variant=37027632021661",
+      "artist": "Alice Coltrane",
+      "title": "Eternity LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "28.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00857661008162"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://contactrecordstore.com/products/abba-gargando-s-t-lp?variant=44601971540125",
+      "artist": "Abba Gargando",
+      "title": "s/t LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "20.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00656605588261"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://contactrecordstore.com/robots.txt",
+      "sha256": "0ebf6380c65fc06630858e8251cb38ebdbfabc337f776d3b5739d5177b0002b5"
+    },
+    {
+      "url": "https://contactrecordstore.com/",
+      "sha256": "021dd1b3bb2d19a70328fde37d9b24396bf6aed8633713266d1a326d517e67f1"
+    },
+    {
+      "url": "https://contactrecordstore.com/products.json?limit=20&page=1",
+      "sha256": "4fafdeb3e2c30cfd90eb3a04683dfbe194dd7515994d00b1ea618ad32cbe33b1"
+    },
+    {
+      "url": "https://contactrecordstore.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "23b248d039ad56bd037549de5d359cde201e7132292df006a441b97da0e39d9c"
+    },
+    {
+      "url": "https://contactrecordstore.com/products/abba-gargando-s-t-lp",
+      "sha256": "85a5c9397b012ae41f96b2cd5fb7f2ba80adca7e21e175f33517f4d1fbce76c1"
+    },
+    {
+      "url": "https://contactrecordstore.com/products/abnerjay-truestory",
+      "sha256": "69e432dfc9fcc2abd5c54979deec97567af0306a36f1c6208944172e4b4b0a95"
+    },
+    {
+      "url": "https://contactrecordstore.com/products/arthur-russell-picture-of-bunny-rabbit-lp?variant=43563543265437",
+      "sha256": "7b58354631f64a5705018b08acb27ea022535e3a5a67e4bd2b36205b8ae10f70"
+    },
+    {
+      "url": "https://contactrecordstore.com/products/alicecoltrane-eternity?variant=37027632021661",
+      "sha256": "aefadb5c5d72955d75c79c4e6a8a53650504ec0ece7b3c376af6643e4d659cc5"
+    },
+    {
+      "url": "https://contactrecordstore.com/products/abba-gargando-s-t-lp?variant=44601971540125",
+      "sha256": "d67a003396a6202e1a6f1dc6cf3d49538f3545cbb5a600d68456f181b2ed4125"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": true,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.9090909090909091,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_581",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://contactrecordstore.com/products/arthur-russell-picture-of-bunny-rabbit-lp?variant=43563543265437",
+    "https://contactrecordstore.com/products/alicecoltrane-eternity?variant=37027632021661",
+    "https://contactrecordstore.com/products/abba-gargando-s-t-lp?variant=44601971540125"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    581
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 11,
+  "candidate_ref": "v2-40571453864-1/contactrecordstore_com",
+  "assessment_path": "assessments/v2/contactrecordstore_com/v2-40571453864-1.json"
+}
