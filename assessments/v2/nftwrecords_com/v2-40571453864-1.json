@@ -1,0 +1,222 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:48:36.126629+00:00",
+  "shop_id": "nftwrecords.com",
+  "row": 1783,
+  "name": "Not For The Weak Records",
+  "domain": "nftwrecords.com",
+  "country": "US",
+  "website": "https://nftwrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1783,
+    "name": "Not For The Weak Records",
+    "domain": "nftwrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://nftwrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 2,
+    "excluded": 18,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://nftwrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://nftwrecords.com/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://nftwrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://nftwrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://nftwrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://nftwrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://nftwrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://nftwrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://nftwrecords.com/products.json?limit=20&page=1",
+      "score": 25,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://nftwrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 2,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 2,
+    "unique_prices": 2,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://nftwrecords.com/products/tarantula-if-youre-sideways-im-upside-down?variant=50901044986177",
+      "artist": "TARANTULA",
+      "title": "IF YOU'RE SIDEWAYS, I'M UPSIDE DOWN",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "23.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://nftwrecords.com/products/spikepit-snake-eater-compilation-lp?variant=51348454932801",
+      "artist": "SPIKEPIT",
+      "title": "SNAKE EATER COMPILATION LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "20.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://nftwrecords.com/robots.txt",
+      "sha256": "96e0854170ff5ab6348d0150a613e58dbff9087563a40637a934686b396cf692"
+    },
+    {
+      "url": "https://nftwrecords.com/",
+      "sha256": "f0d19315a7a3aa6defd004dea66f4f0217f0ba97ff5eb8f20f84468863853896"
+    },
+    {
+      "url": "https://nftwrecords.com/products.json?limit=20&page=1",
+      "sha256": "e64c2dae7fa593e82e72fe9d8ae71dd24e5740f425cb6378387bc1b1048347c6"
+    },
+    {
+      "url": "https://nftwrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "0634bbf23d678c159b5553ca5a8fc71a0eaec4898545fa097e80fa981187aa3c"
+    },
+    {
+      "url": "https://nftwrecords.com/products/spikepit-snake-eater-compilation-lp",
+      "sha256": "f36c955635677c7731bdc5e78e93886f549aa498be3333ce663beed6ac813a5a"
+    },
+    {
+      "url": "https://nftwrecords.com/products/tarantula-if-youre-sideways-im-upside-down",
+      "sha256": "fabeab0b7450a9fd9ca46b0e9972ef4f31708423029bdb3dfc4f79be7be49275"
+    },
+    {
+      "url": "https://nftwrecords.com/products/tarantula-if-youre-sideways-im-upside-down?variant=50901044986177",
+      "sha256": "51d850874fcd8ec365c1ac2208309d20a41ceb82aa5627b2663f269d9fb7dc19"
+    },
+    {
+      "url": "https://nftwrecords.com/products/spikepit-snake-eater-compilation-lp?variant=51348454932801",
+      "sha256": "72bd230c6ee91c81cc8664c881c2a9b015dcd848b162a3aa6d3d5bd862d7bafb"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "insufficient_representative_product_evidence"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 2,
+    "detail_price_proven": 2,
+    "ean_valid": 0,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1783",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://nftwrecords.com/products/tarantula-if-youre-sideways-im-upside-down?variant=50901044986177",
+    "https://nftwrecords.com/products/spikepit-snake-eater-compilation-lp?variant=51348454932801"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    1783
+  ],
+  "assessment_path": "assessments/v2/nftwrecords_com/v2-40571453864-1.json"
+}
