@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:53:46.818905+00:00",
+  "shop_id": "techniquerecords.com",
+  "row": 2651,
+  "name": "Technique Records",
+  "domain": "techniquerecords.com",
+  "country": "US",
+  "website": "https://techniquerecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2651,
+    "name": "Technique Records",
+    "domain": "techniquerecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://techniquerecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://techniquerecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://techniquerecords.com/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://techniquerecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 155,
+        "products_seen": 20,
+        "accepted": 15,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://techniquerecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://techniquerecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://techniquerecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://techniquerecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://techniquerecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://techniquerecords.com/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://techniquerecords.com/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://techniquerecords.com/products/outkast-big-boi-dre-present?variant=66988979847283",
+      "artist": "",
+      "title": "OUTKAST-BIG BOI & DRE PRESENT....",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "39.95",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://techniquerecords.com/products/jill-scott-who-is-jill-scott-words-sounds-vol-1-2lp-180g?variant=45445392498803",
+      "artist": "",
+      "title": "JILL SCOTT-WHO IS JILL SCOTT: WORDS & SOUNDS VOL. 1 (2LP/180G)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "46.95",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://techniquerecords.com/products/mary-j-blige-whats-the-411?variant=32171610177651",
+      "artist": "",
+      "title": "MARY J. BLIGE-WHAT'S THE 411?",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "44.95",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://techniquerecords.com/robots.txt",
+      "sha256": "1771e0b90c8e1f30cc01a2818dfba36a9489568232cda11c44b93e0b9926044a"
+    },
+    {
+      "url": "https://techniquerecords.com/",
+      "sha256": "4a6e9f969949e140b67f5fba5c5a03d33130a505c5d692fe064653cb2fc5ea67"
+    },
+    {
+      "url": "https://techniquerecords.com/products.json?limit=20&page=1",
+      "sha256": "0774d89eca0227393d63bcc3a472bccd33f8a76cefdff40dccd1a2f9f677e79d"
+    },
+    {
+      "url": "https://techniquerecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "4198b55484d57d275fa78dfc4d687e70c18871353427bc930e1f6084124c2684"
+    },
+    {
+      "url": "https://techniquerecords.com/products/mary-j-blige-whats-the-411",
+      "sha256": "fd42eb6992d4e593d66024d9ed709f07f4bfcf94cd823361dbf26b5e224ef46a"
+    },
+    {
+      "url": "https://techniquerecords.com/products/jorge-ben-gilberto-gil-ogum-xango",
+      "sha256": "39e9b3883d70d1bfaa9d8d5457d7156b9d89a9521c8e08e3d7316d56f2134d25"
+    },
+    {
+      "url": "https://techniquerecords.com/products/outkast-big-boi-dre-present?variant=66988979847283",
+      "sha256": "77b7d43831fa9f45fef1c5220bb335c8a13516136c2fad259ac738105816411e"
+    },
+    {
+      "url": "https://techniquerecords.com/products/jill-scott-who-is-jill-scott-words-sounds-vol-1-2lp-180g?variant=45445392498803",
+      "sha256": "3a67d7b81f458f8d5cd0500be268f281e22a258059591df596687f5de8a3271d"
+    },
+    {
+      "url": "https://techniquerecords.com/products/mary-j-blige-whats-the-411?variant=32171610177651",
+      "sha256": "d1e61d9fd3b083d92d79d2f2a24a8d421f78580f2a475615a293825c7b894f0e"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.10526315789473684,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2651",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://techniquerecords.com/products/outkast-big-boi-dre-present?variant=66988979847283",
+    "https://techniquerecords.com/products/jill-scott-who-is-jill-scott-words-sounds-vol-1-2lp-180g?variant=45445392498803",
+    "https://techniquerecords.com/products/mary-j-blige-whats-the-411?variant=32171610177651"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2651
+  ],
+  "assessment_path": "assessments/v2/techniquerecords_com/v2-40571453864-1.json"
+}
