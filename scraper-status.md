@@ -3671,17 +3671,17 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 
 Unieke shops/bronnen: **3324**. Beoordeeld: **10**. Open: **3314**.
 
-EAN: **0** | ARTIST_TITLE: **0** | MANUAL_REVIEW: **10** | UNSUITABLE: **0**
+EAN: **0** | ARTIST_TITLE: **4** | MANUAL_REVIEW: **6** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
 | Shop | Land | Type | Prioriteit | Bouwstatus | Kandidaat voor handmatige test |
 |---|---|---|---|---|---|
 | 1-2-3-4 Go! Records | US | Nog te beoordelen | — | — | — |
-| 10,000 Hz Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | — |
+| 10,000 Hz Records | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | v2-40568772977-1/10000hzrecords_com |
 | 606 Records | US | Nog te beoordelen | — | — | — |
 | All Day Records; All Day Records Pittsboro | US | Nog te beoordelen | — | — | — |
-| All The Best | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | — |
+| All The Best | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | v2-40568772977-1/allthebestflorence_com |
 | Antone's Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | — |
 | Apollo Exos Records & Beer | US | Nog te beoordelen | — | — | — |
 | Abrodos Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | — |
@@ -3761,7 +3761,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | African Record Center Ltd | US | Nog te beoordelen | — | — | — |
 | Agharta Records | US | Nog te beoordelen | — | — | — |
 | Agora Records | US | Nog te beoordelen | — | — | — |
-| AGS Honolulu (Aloha Got Soul) | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | — |
+| AGS Honolulu (Aloha Got Soul) | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | v2-40568772977-1/ags_earth |
 | Air Raid Antiques & Bombshelter Records | US | Nog te beoordelen | — | — | — |
 | Aladdin's Antiques and Records | US | Nog te beoordelen | — | — | — |
 | Alamo Record Company | US | Nog te beoordelen | — | — | — |
@@ -3837,7 +3837,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Arrowhead Vinyl Specialties | US | Nog te beoordelen | — | — | — |
 | Arroyo Records | US | Nog te beoordelen | — | — | — |
 | Art Room Records | US | Nog te beoordelen | — | — | — |
-| art sound language | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | — |
+| art sound language | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | v2-40568772977-1/artsoundlanguage_com |
 | Art's Record Mart | US | Nog te beoordelen | — | — | — |
 | Artifact Records | US | Nog te beoordelen | — | — | — |
 | ARTpool Gallery - Vintage Clothing Boutique & Vinyl Record Store; ARTpool Records | US | Nog te beoordelen | — | — | — |
