@@ -1,0 +1,202 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:56:46.571845+00:00",
+  "shop_id": "vertigovinyl.com",
+  "row": 3027,
+  "name": "Vertigo Vinyl",
+  "domain": "vertigovinyl.com",
+  "country": "US",
+  "website": "https://vertigovinyl.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3027,
+    "name": "Vertigo Vinyl",
+    "domain": "vertigovinyl.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://vertigovinyl.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 1,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://vertigovinyl.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://vertigovinyl.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://vertigovinyl.com/collections/all/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://vertigovinyl.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vertigovinyl.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vertigovinyl.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vertigovinyl.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vertigovinyl.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://vertigovinyl.com/collections/all/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://vertigovinyl.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://vertigovinyl.com/products/12-inch-vinyl-record-outer-sleeve?variant=50540930302231",
+      "artist": "",
+      "title": "12 Inch Vinyl Record Outer Sleeve",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "18.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://vertigovinyl.com/robots.txt",
+      "sha256": "9ad6d32102c451f6a2bff7d0216822ed255d5bde5ec4c06d739b2ef0ecc5cf1f"
+    },
+    {
+      "url": "https://vertigovinyl.com/",
+      "sha256": "95957e2066aca5bf0e49a27903e96424500c2c986a8c1c67d343349182856fec"
+    },
+    {
+      "url": "https://vertigovinyl.com/products.json?limit=20&page=1",
+      "sha256": "3be39c684441e206cc0dce962ee34a72c9b8ebfa2ce373d6c277ef2475b6afed"
+    },
+    {
+      "url": "https://vertigovinyl.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "23fba4c03c333f4f273978879bc4cacaad008944728647800bb059a99024f1c6"
+    },
+    {
+      "url": "https://vertigovinyl.com/products/12-inch-vinyl-record-outer-sleeve",
+      "sha256": "43c0aaa671af3031d38ace10fb8c3509d4b5190fb0f8564e2bd746b0434563d6"
+    },
+    {
+      "url": "https://vertigovinyl.com/products/12-inch-vinyl-record-outer-sleeve?variant=50540930302231",
+      "sha256": "bb5dc5966296ef47244e47353ce158024aff02982324776c6079a784afa4798a"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "insufficient_representative_product_evidence"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_3027",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://vertigovinyl.com/products/12-inch-vinyl-record-outer-sleeve?variant=50540930302231"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    3027
+  ],
+  "assessment_path": "assessments/v2/vertigovinyl_com/v2-40571453864-1.json"
+}
