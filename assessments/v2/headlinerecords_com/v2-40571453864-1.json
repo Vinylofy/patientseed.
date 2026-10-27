@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:46:10.988050+00:00",
+  "shop_id": "headlinerecords.com",
+  "row": 1153,
+  "name": "Headline Records",
+  "domain": "headlinerecords.com",
+  "country": "US",
+  "website": "https://headlinerecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1153,
+    "name": "Headline Records",
+    "domain": "headlinerecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://headlinerecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://headlinerecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://headlinerecords.com/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://headlinerecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 35,
+        "products_seen": 20,
+        "accepted": 3,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://headlinerecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://headlinerecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://headlinerecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://headlinerecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://headlinerecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://headlinerecords.com/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://headlinerecords.com/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://headlinerecords.com/products/pistol-grip-another-round-3?variant=54210686255414",
+      "artist": "PISTOL GRIP",
+      "title": "ANOTHER ROUND",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "20.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://headlinerecords.com/products/turbonegro-ass-cobra-color?variant=67819142807862",
+      "artist": "TURBONEGRO",
+      "title": "ASS COBRA (COLOR)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "40.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://headlinerecords.com/products/channel-3-the-bellwether-1?variant=67819201626422",
+      "artist": "CHANNEL 3",
+      "title": "THE BELLWETHER",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "25.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://headlinerecords.com/robots.txt",
+      "sha256": "6a2f1ba37695ff7a473e94b07ee1025fad58a085e5e2dd3fb4000cc143cc517e"
+    },
+    {
+      "url": "https://headlinerecords.com/",
+      "sha256": "e99145171398730123105b6f9c9d34ed5622dac55e9af1916c622b7d684bcb85"
+    },
+    {
+      "url": "https://headlinerecords.com/products.json?limit=20&page=1",
+      "sha256": "59a356aa4f8ee95b1f716c07a3f33fe172d7c71980b8e14e33140c5ebc9cc231"
+    },
+    {
+      "url": "https://headlinerecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "efbbceabbf66d60d5df2d36243c385a74f14b3e0b7f3afee9c12ba63dbc907ec"
+    },
+    {
+      "url": "https://headlinerecords.com/products/channel-3-the-bellwether-1",
+      "sha256": "11a727fd0772f824abacd9e6581fab5860606186f075160ab0d064ec33088e36"
+    },
+    {
+      "url": "https://headlinerecords.com/products/dismemberment-plan-emergency-1",
+      "sha256": "0734d3763d5bca4bab4a18e71435a17a7dc0c81b80e9225c277568decf94789f"
+    },
+    {
+      "url": "https://headlinerecords.com/products/pistol-grip-another-round-3?variant=54210686255414",
+      "sha256": "4fd80fc53ba6ab266f6be908c00da600ae51c476d8854fcf7b4c4b46fe163712"
+    },
+    {
+      "url": "https://headlinerecords.com/products/turbonegro-ass-cobra-color?variant=67819142807862",
+      "sha256": "8f95e868a9fb1d421577472079656efa9a03a925aa2b73b76c5eb5a70eff2b69"
+    },
+    {
+      "url": "https://headlinerecords.com/products/channel-3-the-bellwether-1?variant=67819201626422",
+      "sha256": "4d4e779c2d4841a567957fc6a27f1d23287d5464c258421815022b6b9b8a4f83"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_1153",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://headlinerecords.com/products/pistol-grip-another-round-3?variant=54210686255414",
+    "https://headlinerecords.com/products/turbonegro-ass-cobra-color?variant=67819142807862",
+    "https://headlinerecords.com/products/channel-3-the-bellwether-1?variant=67819201626422"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    1153
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 19,
+  "candidate_ref": "v2-40571453864-1/headlinerecords_com",
+  "assessment_path": "assessments/v2/headlinerecords_com/v2-40571453864-1.json"
+}
