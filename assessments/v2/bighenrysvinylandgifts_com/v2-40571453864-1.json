@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:42:24.892160+00:00",
+  "shop_id": "bighenrysvinylandgifts.com",
+  "row": 281,
+  "name": "Big Henry's Vinyl & Gifts",
+  "domain": "bighenrysvinylandgifts.com",
+  "country": "US",
+  "website": "https://bighenrysvinylandgifts.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 281,
+    "name": "Big Henry's Vinyl & Gifts",
+    "domain": "bighenrysvinylandgifts.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://bighenrysvinylandgifts.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 12,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://bighenrysvinylandgifts.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://bighenrysvinylandgifts.com/products.json?limit=20&page=1",
+        "score": 75,
+        "products_seen": 20,
+        "accepted": 7,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://bighenrysvinylandgifts.com/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://bighenrysvinylandgifts.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://bighenrysvinylandgifts.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://bighenrysvinylandgifts.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://bighenrysvinylandgifts.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://bighenrysvinylandgifts.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://bighenrysvinylandgifts.com/collections/all/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://bighenrysvinylandgifts.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://bighenrysvinylandgifts.com/products/alex-sambat-bel-gwadloup?variant=51771449377044",
+      "artist": "Alex Sambat",
+      "title": "Bel Gwadloup",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "50.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://bighenrysvinylandgifts.com/products/adalberto-santiago?variant=52812482773268",
+      "artist": "",
+      "title": "Adalberto Santiago",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "25.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://bighenrysvinylandgifts.com/products/ange-ebogo-emerent-explosion-du-rithme-ozima?variant=51687451590932",
+      "artist": "\"Ange\" Ebogo Emerent",
+      "title": "Explosion Du Rithme Ozima",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "70.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://bighenrysvinylandgifts.com/robots.txt",
+      "sha256": "3530bebbda76efcb153b0d8fee71e5a48876b5813156cd6d8344bf935a88b191"
+    },
+    {
+      "url": "https://bighenrysvinylandgifts.com/",
+      "sha256": "d925a6915add03fae6516758169df281109abaacc0fdc4289e30b59c839fff52"
+    },
+    {
+      "url": "https://bighenrysvinylandgifts.com/products.json?limit=20&page=1",
+      "sha256": "1ad90ebbceeb1ae586c5b88e8de25fac8b704586edf21d99ef1e448a3edfae02"
+    },
+    {
+      "url": "https://bighenrysvinylandgifts.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "2b4da315d510a01b58d719fd1d03d9ca38fff095f815f95cf79a2f97de01fdc1"
+    },
+    {
+      "url": "https://bighenrysvinylandgifts.com/products/ange-ebogo-emerent-explosion-du-rithme-ozima",
+      "sha256": "58526a72f57e9c013e8b5e329db04b8b84c940dabc3e99293f76a648c19f6e76"
+    },
+    {
+      "url": "https://bighenrysvinylandgifts.com/products/14-canonazos-bailables-vol-27",
+      "sha256": "a1339ed04ff20d151fc6523f22f8d659b6afebf83c44b7f1acc55d1dbf8ccda3"
+    },
+    {
+      "url": "https://bighenrysvinylandgifts.com/products/alex-sambat-bel-gwadloup?variant=51771449377044",
+      "sha256": "b7d42c6d623938cfad8edef06da32b602975a81fb52d6b34ca581cba180df85f"
+    },
+    {
+      "url": "https://bighenrysvinylandgifts.com/products/adalberto-santiago?variant=52812482773268",
+      "sha256": "9534173b5032ca9ffcf768b78cae039f1afc772ebea98fa3d8f01975a2afb16a"
+    },
+    {
+      "url": "https://bighenrysvinylandgifts.com/products/ange-ebogo-emerent-explosion-du-rithme-ozima?variant=51687451590932",
+      "sha256": "8beb8c5ff7d59d35352219bd9040307ad9fa69ca5f1d27607e72e064a8f25380"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.5,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_281",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://bighenrysvinylandgifts.com/products/alex-sambat-bel-gwadloup?variant=51771449377044",
+    "https://bighenrysvinylandgifts.com/products/adalberto-santiago?variant=52812482773268",
+    "https://bighenrysvinylandgifts.com/products/ange-ebogo-emerent-explosion-du-rithme-ozima?variant=51687451590932"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    281
+  ],
+  "assessment_path": "assessments/v2/bighenrysvinylandgifts_com/v2-40571453864-1.json"
+}
