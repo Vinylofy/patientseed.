@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:51:34.863000+00:00",
+  "shop_id": "roundhillmusicco.com",
+  "row": 2312,
+  "name": "Round Hill Music Co.",
+  "domain": "roundhillmusicco.com",
+  "country": "US",
+  "website": "https://roundhillmusicco.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2312,
+    "name": "Round Hill Music Co.",
+    "domain": "roundhillmusicco.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://roundhillmusicco.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 14,
+    "excluded": 6,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://roundhillmusicco.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://roundhillmusicco.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://roundhillmusicco.com/collections/all/products.json?limit=20&page=1",
+        "score": 145,
+        "products_seen": 20,
+        "accepted": 14,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://roundhillmusicco.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://roundhillmusicco.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://roundhillmusicco.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://roundhillmusicco.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://roundhillmusicco.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://roundhillmusicco.com/collections/all/products.json?limit=20&page=1",
+      "score": 145,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://roundhillmusicco.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 14,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 14,
+    "unique_prices": 11,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://roundhillmusicco.com/products/aerosmith-pump?variant=50486281470084",
+      "artist": "",
+      "title": "AEROSMITH / PUMP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "35.00",
+      "currency": "USD",
+      "valid_eans": [
+        "00602547954381"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://roundhillmusicco.com/products/abba-voyage?variant=50486292054148",
+      "artist": "",
+      "title": "ABBA / VOYAGE",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "32.00",
+      "currency": "USD",
+      "valid_eans": [
+        "00602438614813"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://roundhillmusicco.com/products/10-000-maniacs-mtv-unplugged?variant=51401867395204",
+      "artist": "",
+      "title": "10,000 MANIACS / MTV UNPLUGGED",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "39.00",
+      "currency": "USD",
+      "valid_eans": [
+        "00603497823932"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://roundhillmusicco.com/robots.txt",
+      "sha256": "0eddae5c43d74301fd6aff911a0106b83068fc81d6b1bc5b704c692926c5df81"
+    },
+    {
+      "url": "https://roundhillmusicco.com/",
+      "sha256": "72cd7190a4fc2ffde49737406aca82d5b8de915f2ea9c2ca518c2470945b2cda"
+    },
+    {
+      "url": "https://roundhillmusicco.com/products.json?limit=20&page=1",
+      "sha256": "0a35b18ac2524e6f896ed2bfdecc057b8af0cedbbb843d647936c1d0fbaab026"
+    },
+    {
+      "url": "https://roundhillmusicco.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "0b236bd3c1a23653c2dd6e347c781be7bc94467cba9847cb5509d9251ff24de3"
+    },
+    {
+      "url": "https://roundhillmusicco.com/products/10-000-maniacs-mtv-unplugged",
+      "sha256": "d8616c724ee8b32f264d03104f2540ef72890ad98eb959a8316082a5c55e2d65"
+    },
+    {
+      "url": "https://roundhillmusicco.com/products/2pac-greatest-hits",
+      "sha256": "380204ab78c8eaf70d59210cd0803ca64fed510305633848553731d5a002c8ff"
+    },
+    {
+      "url": "https://roundhillmusicco.com/products/aerosmith-pump?variant=50486281470084",
+      "sha256": "33a417f3e73638747dfd096ce51f7dfe3c2f6db4c18aa2c8b9f08218fbb31fe5"
+    },
+    {
+      "url": "https://roundhillmusicco.com/products/abba-voyage?variant=50486292054148",
+      "sha256": "6ffaed48b22a094101fbfb5bba5cb8e48e0aec07f52f503bfea00189af0539c0"
+    },
+    {
+      "url": "https://roundhillmusicco.com/products/10-000-maniacs-mtv-unplugged?variant=51401867395204",
+      "sha256": "53e977ee4646c8c94ab2cb2acd1161f2c551cb61ca3e5e324594e51d5f818540"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_2312",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://roundhillmusicco.com/products/aerosmith-pump?variant=50486281470084",
+    "https://roundhillmusicco.com/products/abba-voyage?variant=50486292054148",
+    "https://roundhillmusicco.com/products/10-000-maniacs-mtv-unplugged?variant=51401867395204"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2312
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 14,
+  "candidate_ref": "v2-40571453864-1/roundhillmusicco_com",
+  "assessment_path": "assessments/v2/roundhillmusicco_com/v2-40571453864-1.json"
+}
