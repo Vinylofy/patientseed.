@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:47:56.123310+00:00",
+  "shop_id": "nailcityrecord.com",
+  "row": 1737,
+  "name": "Nail City Record",
+  "domain": "nailcityrecord.com",
+  "country": "US",
+  "website": "https://nailcityrecord.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1737,
+    "name": "Nail City Record",
+    "domain": "nailcityrecord.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://nailcityrecord.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 12,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://nailcityrecord.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://nailcityrecord.com/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://nailcityrecord.com/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://nailcityrecord.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://nailcityrecord.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://nailcityrecord.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://nailcityrecord.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://nailcityrecord.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://nailcityrecord.com/collections/all/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://nailcityrecord.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://nailcityrecord.com/products/and-you-will-know-us-tao-of-the-dead-2lp-vinyl?variant=44935778861226",
+      "artist": "...and You Will Know Us",
+      "title": "Tao Of The Dead (2LP Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "31.98",
+      "currency": "USD",
+      "valid_eans": [
+        "06430077096813"
+      ],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://nailcityrecord.com/products/uicideboy-thy-kingdom-come-indie-exclusive-maroon-vinyl?variant=47252690043050",
+      "artist": "$Uicideboy$",
+      "title": "Thy Kingdom Come (Indie Exclusive, Maroon Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "26.98",
+      "currency": "USD",
+      "valid_eans": [
+        "00199350828812"
+      ],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://nailcityrecord.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-blue-vinyl?variant=42912597442730",
+      "artist": "!!! (Chk Chk Chk)",
+      "title": "Let It Be Blue (Indie Exclusive, Blue Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "24.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00801061833916"
+      ],
+      "condition_basis": "explicit_new"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://nailcityrecord.com/robots.txt",
+      "sha256": "dcddfe9d3bd2e657c5746bc6465b87e2a236258ec0b6cce15b506375317f5ad9"
+    },
+    {
+      "url": "https://nailcityrecord.com/",
+      "sha256": "1c75832866a7b51d803fa50812cded98adcaf670235871ee1157eba03faa06e0"
+    },
+    {
+      "url": "https://nailcityrecord.com/products.json?limit=20&page=1",
+      "sha256": "c363c219b3293feb5a07772adb33febb250ec43283876bcf68731686adbfcfa6"
+    },
+    {
+      "url": "https://nailcityrecord.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "30f2be5f8fe8cd39c3c8ff23653ac181171e36faccf6f3882417a11f2f18acd9"
+    },
+    {
+      "url": "https://nailcityrecord.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-blue-vinyl",
+      "sha256": "da598cb8003ec83c720414ff6a318577f15c9bab0ed8086776115ce603f11418"
+    },
+    {
+      "url": "https://nailcityrecord.com/products/the-cats-john-coltrane-tommy-flanagan-idrees-sulieman-kenny-burrell-the-cats-original-jazz-classics-series-lp-vinyl",
+      "sha256": "cc85aba2ef66e7df29eb8fd3fc7a39cf58da51963832e1d63ef7a72d9a295860"
+    },
+    {
+      "url": "https://nailcityrecord.com/products/and-you-will-know-us-tao-of-the-dead-2lp-vinyl?variant=44935778861226",
+      "sha256": "d6675895f1fb14386dda6514473c41484618d31b6900376447cb0c9117d6d771"
+    },
+    {
+      "url": "https://nailcityrecord.com/products/uicideboy-thy-kingdom-come-indie-exclusive-maroon-vinyl?variant=47252690043050",
+      "sha256": "f38e7ad8711d21b9709fc609893d346ab04a9541f01bf06e1f6fdc1bea54b2de"
+    },
+    {
+      "url": "https://nailcityrecord.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-blue-vinyl?variant=42912597442730",
+      "sha256": "be935d14f6ff490cbfed7c743152347fad52e44e9e2f7f83ee20f36d222bad59"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": true,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_1737",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://nailcityrecord.com/products/and-you-will-know-us-tao-of-the-dead-2lp-vinyl?variant=44935778861226",
+    "https://nailcityrecord.com/products/uicideboy-thy-kingdom-come-indie-exclusive-maroon-vinyl?variant=47252690043050",
+    "https://nailcityrecord.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-blue-vinyl?variant=42912597442730"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    1737
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 12,
+  "candidate_ref": "v2-40571453864-1/nailcityrecord_com",
+  "assessment_path": "assessments/v2/nailcityrecord_com/v2-40571453864-1.json"
+}
