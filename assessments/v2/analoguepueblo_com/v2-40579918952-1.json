@@ -1,0 +1,88 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T20:46:17.302669+00:00",
+  "shop_id": "analoguepueblo.com",
+  "row": 126,
+  "name": "Analogue Books & Records",
+  "domain": "analoguepueblo.com",
+  "country": "US",
+  "website": "https://analoguepueblo.com/",
+  "previous_status": "DETAIL_GATE_BLOCKED",
+  "previous_reason": "supported public catalog route not proven",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 126,
+    "name": "Analogue Books & Records",
+    "domain": "analoguepueblo.com",
+    "status": "SOURCE_BLOCKED",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "source_url": "https://analoguepueblo.com/products.json?limit=20&page=1",
+    "reason": "HTTP_429",
+    "method_candidates": []
+  },
+  "platform": "unknown",
+  "catalog_route": "https://analoguepueblo.com/products.json?limit=20&page=1",
+  "requests": [
+    {
+      "url": "https://analoguepueblo.com/robots.txt",
+      "sha256": "0a99011be205a5caef320065ef2e896751b22d0f7732a42f05e02d2f28147ff1"
+    },
+    {
+      "url": "https://analoguepueblo.com/",
+      "sha256": "d4d7441e866b32d85f9e32bca21ecc604af42009861dfdbb7ee3800b22643953"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "HTTP_429"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "HTTP_429"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_126",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40579918952-1",
+  "queue_rows": [
+    126
+  ],
+  "assessment_path": "assessments/v2/analoguepueblo_com/v2-40579918952-1.json"
+}
