@@ -1,0 +1,227 @@
+{
+  "assessment_version": 2,
+  "assessed_at": "2026-10-27T19:17:04.161104+00:00",
+  "shop_id": "10000hzrecords.com",
+  "row": 20,
+  "name": "10,000 Hz Records",
+  "domain": "10000hzrecords.com",
+  "country": "US",
+  "website": "https://10000hzrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "source_observation": {
+    "row": 20,
+    "name": "10,000 Hz Records",
+    "domain": "10000hzrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://10000hzrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 24,
+    "accepted": 12,
+    "excluded": 12,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://10000hzrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://10000hzrecords.com/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 23,
+        "accepted": 12,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://10000hzrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 24,
+        "accepted": 12,
+        "excluded": 12,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://10000hzrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://10000hzrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://10000hzrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://10000hzrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://10000hzrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://10000hzrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://10000hzrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://10000hzrecords.com/products/070-shake-you-cant-kill-me-2xlp?variant=43535510896857",
+      "artist": "070 SHAKE",
+      "title": "YOU CAN'T KILL ME (2xLP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "26.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "explicit_new_condition": false
+    },
+    {
+      "url": "https://10000hzrecords.com/products/uicideboy-thy-kingdom-come-lp?variant=46706190876889",
+      "artist": "$UICIDEBOY$",
+      "title": "THY KINGDOM COME (LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "26.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "explicit_new_condition": false
+    },
+    {
+      "url": "https://10000hzrecords.com/products/uicideboy-i-want-to-die-in-new-orleans-lp?variant=47956186661081",
+      "artist": "$UICIDEBOY$",
+      "title": "I WANT TO DIE IN NEW ORLEANS (LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "24.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "explicit_new_condition": false
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://10000hzrecords.com/robots.txt",
+      "sha256": "4c4fb5411ca54624f46d9d5318f48de5d090aeec3b2d15000f1a18017956d1eb"
+    },
+    {
+      "url": "https://10000hzrecords.com/",
+      "sha256": "4d60c9db4c25039bee89f302fbf41c7871c534234d876830f60573f260d7a43c"
+    },
+    {
+      "url": "https://10000hzrecords.com/products.json?limit=20&page=1",
+      "sha256": "80d7d55039c2c45e4162bfca40704a39461eca67d3fe955ee030abbafb80fa61"
+    },
+    {
+      "url": "https://10000hzrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "feedff3212a65b9f17d22a80550e3e00d3f27574eef128a9de451c9de43c7ee2"
+    },
+    {
+      "url": "https://10000hzrecords.com/products/uicideboy-i-want-to-die-in-new-orleans-lp",
+      "sha256": "a7d51de29feacc649edb498f35392569c339fe32680cbdc6e7a3ebdaad88dce8"
+    },
+    {
+      "url": "https://10000hzrecords.com/products/uicideboy-new-world-depression-lp",
+      "sha256": "95bc2c40dedf8da7e03d9098dbe2992ae871e73c86884950ea308c302dacac3b"
+    },
+    {
+      "url": "https://10000hzrecords.com/products/070-shake-you-cant-kill-me-2xlp?variant=43535510896857",
+      "sha256": "548fa99dc55a5bbaf65a55bf23c8690048d6f143202daf8ba9da04e16243a5ba"
+    },
+    {
+      "url": "https://10000hzrecords.com/products/uicideboy-thy-kingdom-come-lp?variant=46706190876889",
+      "sha256": "f26e63bcdd030552e30874965682cbcc7fd56720326f98619d9176bd314913e7"
+    },
+    {
+      "url": "https://10000hzrecords.com/products/uicideboy-i-want-to-die-in-new-orleans-lp?variant=47956186661081",
+      "sha256": "056842f9249c9933c2a2d75ac7646a9716ae0a4ec92fa0d589daa452ae5786d9"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:new_used_distinguishable"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "assessment_id": "v2-40567635678-1",
+  "queue_rows": [
+    20
+  ],
+  "assessment_path": "assessments/v2/10000hzrecords_com/v2-40567635678-1.json"
+}
