@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:46:49.456903+00:00",
+  "shop_id": "jgsvinylandmore.com",
+  "row": 1314,
+  "name": "JG’s Vinyl and More!",
+  "domain": "jgsvinylandmore.com",
+  "country": "US",
+  "website": "https://jgsvinylandmore.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1314,
+    "name": "JG’s Vinyl and More!",
+    "domain": "jgsvinylandmore.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://jgsvinylandmore.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 3,
+    "excluded": 17,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://jgsvinylandmore.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://jgsvinylandmore.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://jgsvinylandmore.com/collections/all/products.json?limit=20&page=1",
+        "score": 35,
+        "products_seen": 20,
+        "accepted": 3,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://jgsvinylandmore.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://jgsvinylandmore.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://jgsvinylandmore.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://jgsvinylandmore.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://jgsvinylandmore.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://jgsvinylandmore.com/collections/all/products.json?limit=20&page=1",
+      "score": 35,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://jgsvinylandmore.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 3,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 3,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://jgsvinylandmore.com/products/1985-scorpions-world-wide-live-2-lp-vinyl-44-1?variant=55528813822271",
+      "artist": "1985 Scorpions World Wide Live",
+      "title": "2 LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "29.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://jgsvinylandmore.com/products/wish-you-were-here-50th-anniversary-yellow-flame-lp-vinyl?variant=55528811299135",
+      "artist": "",
+      "title": "'Wish You Were Here (50th Anniversary) [Yellow Flame LP]",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "46.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://jgsvinylandmore.com/products/68-in-humor-and-sadness-hot-pink-white-marble?variant=52891733983551",
+      "artist": "",
+      "title": "'68 In Humor And Sadness (Hot Pink & White Marble)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "23.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://jgsvinylandmore.com/robots.txt",
+      "sha256": "86e405d83d192b37e25ad5db6fcb9560e981ee7a5e34994e36f70b81a3c3f3c3"
+    },
+    {
+      "url": "https://jgsvinylandmore.com/",
+      "sha256": "ac1db2cc3841a89423d590dd2587ef0866ef7ffe7fbe52a3a1ad6d3b5d067a75"
+    },
+    {
+      "url": "https://jgsvinylandmore.com/products.json?limit=20&page=1",
+      "sha256": "19448a4a0944ce7700283c35b96b7d5bbb1f4be63adba7253551ff112c36cb9f"
+    },
+    {
+      "url": "https://jgsvinylandmore.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "bf4edceb1748b5f56b97332b55ff6cb94de76047a274c892ff01944cae857564"
+    },
+    {
+      "url": "https://jgsvinylandmore.com/products/68-in-humor-and-sadness-hot-pink-white-marble",
+      "sha256": "4c98ace5fd36d5c189d4cc3e5cd751b5015edc51d15c8de075230ccc1b35d26c"
+    },
+    {
+      "url": "https://jgsvinylandmore.com/products/wish-you-were-here-50th-anniversary-yellow-flame-lp-vinyl",
+      "sha256": "b152077ce6b5f74df7f70ed3d807ec16154c95393ea0178431e5370584f6e512"
+    },
+    {
+      "url": "https://jgsvinylandmore.com/products/1985-scorpions-world-wide-live-2-lp-vinyl-44-1?variant=55528813822271",
+      "sha256": "54ff697f9efcb7028aacb193bd9f50c81e189d3011512807cd0b2a17df53537d"
+    },
+    {
+      "url": "https://jgsvinylandmore.com/products/wish-you-were-here-50th-anniversary-yellow-flame-lp-vinyl?variant=55528811299135",
+      "sha256": "7072764eb9e7066f09556acc06431dd24167eb569ee4a70adc832fc3758c0e77"
+    },
+    {
+      "url": "https://jgsvinylandmore.com/products/68-in-humor-and-sadness-hot-pink-white-marble?variant=52891733983551",
+      "sha256": "dca5fea83336d746c72e3c1551ae25c4c4917c14e859075c7c26a4122670c320"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 0.3333333333333333,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1314",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://jgsvinylandmore.com/products/1985-scorpions-world-wide-live-2-lp-vinyl-44-1?variant=55528813822271",
+    "https://jgsvinylandmore.com/products/wish-you-were-here-50th-anniversary-yellow-flame-lp-vinyl?variant=55528811299135",
+    "https://jgsvinylandmore.com/products/68-in-humor-and-sadness-hot-pink-white-marble?variant=52891733983551"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    1314
+  ],
+  "assessment_path": "assessments/v2/jgsvinylandmore_com/v2-40571453864-1.json"
+}
