@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:44:32.566383+00:00",
+  "shop_id": "experiencevinyl.com",
+  "row": 889,
+  "name": "Experience Vinyl",
+  "domain": "experiencevinyl.com",
+  "country": "US",
+  "website": "https://experiencevinyl.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 889,
+    "name": "Experience Vinyl",
+    "domain": "experiencevinyl.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://experiencevinyl.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://experiencevinyl.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://experiencevinyl.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://experiencevinyl.com/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://experiencevinyl.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://experiencevinyl.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://experiencevinyl.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://experiencevinyl.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://experiencevinyl.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://experiencevinyl.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://experiencevinyl.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 13,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://experiencevinyl.com/products/mulligan-gerry-gerry-mulligan-meets-ben-webster-verve-acoustic-602465124590?variant=48833451983133",
+      "artist": "MULLIGAN,GERRY",
+      "title": "GERRY MULLIGAN MEETS BEN WEBSTER (VERVE ACOUSTIC) Vinyl LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "38.98",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://experiencevinyl.com/products/311-mosaic-4050538282641?variant=47079160250653",
+      "artist": "311",
+      "title": "MOSAIC Vinyl LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "36.98",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://experiencevinyl.com/products/gomez-selena-for-you-050087608576?variant=67880166981917",
+      "artist": "GOMEZ,SELENA",
+      "title": "FOR YOU Pink & Black Ice Vinyl LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "37.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://experiencevinyl.com/robots.txt",
+      "sha256": "50f191853a163ce675b124aab01502ae00b844093e9b9d97598fe2fc4030e385"
+    },
+    {
+      "url": "https://experiencevinyl.com/",
+      "sha256": "48069b4c0c327d518f2d0d059cd9f184f7f578b29b50f1d15c9bdc303d790bd5"
+    },
+    {
+      "url": "https://experiencevinyl.com/products.json?limit=20&page=1",
+      "sha256": "13334de9f934e0c1d6d9d952e30f1c0ea45dec9123f48e7447d90db8420b152f"
+    },
+    {
+      "url": "https://experiencevinyl.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "94eaa25b7fd0c2347c4ada438aa90c2e836572709921508bf2a9a398a39294a2"
+    },
+    {
+      "url": "https://experiencevinyl.com/products/gomez-selena-for-you-050087608576",
+      "sha256": "2eaa0073fcdf2b3c9836769873cb1d69c0d405a249da72c427f890b961b1208c"
+    },
+    {
+      "url": "https://experiencevinyl.com/products/konitz-lee-motion-199957085601",
+      "sha256": "83743396a9ebe1cf12d2702726c76fe6780d39a50771286447988a45d6d98b76"
+    },
+    {
+      "url": "https://experiencevinyl.com/products/mulligan-gerry-gerry-mulligan-meets-ben-webster-verve-acoustic-602465124590?variant=48833451983133",
+      "sha256": "02a4f290e5f28beaa7aa8199d996af402838a06961e2295a0dac29fcdb9a13af"
+    },
+    {
+      "url": "https://experiencevinyl.com/products/311-mosaic-4050538282641?variant=47079160250653",
+      "sha256": "1552293c1b272c6962b1680d234b20018d1026e4e18caddfe8aced4b875bb763"
+    },
+    {
+      "url": "https://experiencevinyl.com/products/gomez-selena-for-you-050087608576?variant=67880166981917",
+      "sha256": "0a18b9b95b3101098567608cb8d939e2ad16f83d37025c718b53d84ad3f7eb01"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_889",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://experiencevinyl.com/products/mulligan-gerry-gerry-mulligan-meets-ben-webster-verve-acoustic-602465124590?variant=48833451983133",
+    "https://experiencevinyl.com/products/311-mosaic-4050538282641?variant=47079160250653",
+    "https://experiencevinyl.com/products/gomez-selena-for-you-050087608576?variant=67880166981917"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    889
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 20,
+  "candidate_ref": "v2-40571453864-1/experiencevinyl_com",
+  "assessment_path": "assessments/v2/experiencevinyl_com/v2-40571453864-1.json"
+}
