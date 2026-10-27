@@ -1,0 +1,236 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:25:22.050329+00:00",
+  "shop_id": "allthebestflorence.com",
+  "row": 95,
+  "name": "All The Best",
+  "domain": "allthebestflorence.com",
+  "country": "US",
+  "website": "https://allthebestflorence.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "source_observation": {
+    "row": 95,
+    "name": "All The Best",
+    "domain": "allthebestflorence.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://allthebestflorence.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 21,
+    "accepted": 20,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://allthebestflorence.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://allthebestflorence.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 21,
+        "accepted": 20,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://allthebestflorence.com/collections/all/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://allthebestflorence.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://allthebestflorence.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://allthebestflorence.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://allthebestflorence.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://allthebestflorence.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://allthebestflorence.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://allthebestflorence.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 17,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://allthebestflorence.com/products/teddy-swims-i-ve-tried-everything-but-therapy-lp?variant=42876827238606",
+      "artist": "Teddy Swims",
+      "title": "I’ve Tried Everything But Therapy (LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "26.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://allthebestflorence.com/products/djo-decide-lp?variant=42877795860686",
+      "artist": "Djo",
+      "title": "Decide (LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "29.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://allthebestflorence.com/products/billy-allen-the-pollies-black-noise-lp?variant=43028405092558",
+      "artist": "Billy Allen + The Pollies",
+      "title": "Black Noise (LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "24.98",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://allthebestflorence.com/robots.txt",
+      "sha256": "6286cb4f13b055227432beb406d35d7b9e8d437ec8227c20296d62c1778eb65d"
+    },
+    {
+      "url": "https://allthebestflorence.com/",
+      "sha256": "57e3c577470718fb34ffcd18005d3be80190bb5de513d2cee8c2d6616d19199a"
+    },
+    {
+      "url": "https://allthebestflorence.com/products.json?limit=20&page=1",
+      "sha256": "7a25d40748c4a9d7bbfd5faaad9099a520c99f80232df05051bd7e2922d03022"
+    },
+    {
+      "url": "https://allthebestflorence.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "791a60780aaa62fad0b9c1916fde6a17b95b8c232d682a0c7bda6ba24e9efb7f"
+    },
+    {
+      "url": "https://allthebestflorence.com/products/billy-allen-the-pollies-black-noise-lp",
+      "sha256": "c13fc39dbba706186ee3aaab9234ea4b43a7a85970268f6691630622566a29c0"
+    },
+    {
+      "url": "https://allthebestflorence.com/products/penny-sparrow-lefty-lp",
+      "sha256": "37ca353ee96f455634a34e3917c15c63b9df988ba74c8483b5e00334917d5192"
+    },
+    {
+      "url": "https://allthebestflorence.com/products/teddy-swims-i-ve-tried-everything-but-therapy-lp?variant=42876827238606",
+      "sha256": "1805fe44e85244f8dbbb56b3507d453832bb9ab28212b0d098179cb2410547b1"
+    },
+    {
+      "url": "https://allthebestflorence.com/products/djo-decide-lp?variant=42877795860686",
+      "sha256": "76c5c8acd5e45ff99490950c9f0a7b02f373e7a76776a42c4235fb1baf4510da"
+    },
+    {
+      "url": "https://allthebestflorence.com/products/billy-allen-the-pollies-black-noise-lp?variant=43028405092558",
+      "sha256": "f18ba1897f0dfb092703149c2fe48ab68ed3aa8755a4316344c89c0896cf1a36"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.9,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "assessment_id": "v2-40568772977-1",
+  "queue_rows": [
+    95
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 18,
+  "candidate_ref": "v2-40568772977-1/allthebestflorence_com",
+  "assessment_path": "assessments/v2/allthebestflorence_com/v2-40568772977-1.json"
+}
