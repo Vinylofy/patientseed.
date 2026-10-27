@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:58:16.430464+00:00",
+  "shop_id": "vinylvogue.com",
+  "row": 3145,
+  "name": "Vinyl Vogue",
+  "domain": "vinylvogue.com",
+  "country": "US",
+  "website": "https://vinylvogue.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3145,
+    "name": "Vinyl Vogue",
+    "domain": "vinylvogue.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://vinylvogue.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 11,
+    "excluded": 9,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://vinylvogue.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://vinylvogue.com/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://vinylvogue.com/collections/all/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://vinylvogue.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylvogue.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylvogue.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylvogue.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylvogue.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://vinylvogue.com/products.json?limit=20&page=1",
+      "score": 115,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://vinylvogue.com/products.json?limit=20&page=1",
+  "listing_sample": 11,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 11,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://vinylvogue.com/products/mercy-dee-mercy-dee-red-vinyl-arhoolie-f1007-lp?variant=53572993122598",
+      "artist": "Mercy Dee",
+      "title": "Mercy Dee (Red Vinyl Arhoolie F1007 LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "129.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://vinylvogue.com/products/john-lee-hooker-the-big-soul-of-john-lee-hooker-vee-jay-stereo-lp?variant=53573060657446",
+      "artist": "John Lee Hooker",
+      "title": "The Big Soul of John Lee Hooker (Vee-Jay Stereo LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "79.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://vinylvogue.com/products/big-joe-williams-studio-blues-prestige-bluesville-lp?variant=53573086806310",
+      "artist": "Big Joe Williams",
+      "title": "Studio Blues (Prestige Bluesville LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "89.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://vinylvogue.com/robots.txt",
+      "sha256": "7e58f9d90b3748220348546a71a60f43fe94340a6b0db7a19dc894368d7701b7"
+    },
+    {
+      "url": "https://vinylvogue.com/",
+      "sha256": "9115e2dcc00dfa28beb10f99eaaaa03a1fcf2f5cdeef98927ef76f4184398b4a"
+    },
+    {
+      "url": "https://vinylvogue.com/products.json?limit=20&page=1",
+      "sha256": "72e3eb8c18814982829aeda8738748f91c737cefbc5cb71e9934bcb2608a8a64"
+    },
+    {
+      "url": "https://vinylvogue.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "9edb5ca0d20ddc09a5c84d2d2145c6e02a360d96bd75d57b8688ed0f56dccb05"
+    },
+    {
+      "url": "https://vinylvogue.com/products/big-joe-williams-studio-blues-prestige-bluesville-lp",
+      "sha256": "0481c7e4344e1b106118dd55720ce49dfe78879ad7ca69df14973602af19911e"
+    },
+    {
+      "url": "https://vinylvogue.com/products/lightnin-hopkins-on-stage-imperial-lp",
+      "sha256": "c8136c716a52b7dd0e84d418750592793340cbf7e8c96968640a577ae280d35c"
+    },
+    {
+      "url": "https://vinylvogue.com/products/mercy-dee-mercy-dee-red-vinyl-arhoolie-f1007-lp?variant=53572993122598",
+      "sha256": "b6fa1892c702a2754827e3e3e86f201f30551ad8b003eb4b3bcfa97c024bb666"
+    },
+    {
+      "url": "https://vinylvogue.com/products/john-lee-hooker-the-big-soul-of-john-lee-hooker-vee-jay-stereo-lp?variant=53573060657446",
+      "sha256": "9ee51c1f8f2cfa25d5ebe4806034aec4af96089b178f3255ed5e3cb14cdc447c"
+    },
+    {
+      "url": "https://vinylvogue.com/products/big-joe-williams-studio-blues-prestige-bluesville-lp?variant=53573086806310",
+      "sha256": "1ead3b0f4ce2a3f31aacbdc4cde38e57437c8fc0555dccd2f9570357718d1181"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_3145",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://vinylvogue.com/products/mercy-dee-mercy-dee-red-vinyl-arhoolie-f1007-lp?variant=53572993122598",
+    "https://vinylvogue.com/products/john-lee-hooker-the-big-soul-of-john-lee-hooker-vee-jay-stereo-lp?variant=53573060657446",
+    "https://vinylvogue.com/products/big-joe-williams-studio-blues-prestige-bluesville-lp?variant=53573086806310"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    3145
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 11,
+  "candidate_ref": "v2-40571453864-1/vinylvogue_com",
+  "assessment_path": "assessments/v2/vinylvogue_com/v2-40571453864-1.json"
+}
