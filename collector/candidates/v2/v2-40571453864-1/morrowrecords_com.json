@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "domain": "morrowrecords.com",
+  "platform": "shopify",
+  "adapter_class": "ShopifyNewVinylAdapter",
+  "catalog_route": "https://morrowrecords.com/collections/all/products.json?limit=20&page=1",
+  "discovery_method": {
+    "platform": "shopify",
+    "route": "https://morrowrecords.com/collections/all/products.json?limit=20&page=1",
+    "score": 185,
+    "selection": "highest_bounded_adapter_score"
+  },
+  "method_candidates": [
+    {
+      "platform": "shopify",
+      "route": "https://morrowrecords.com/products.json?limit=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "Invalid Shopify price"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://morrowrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 185,
+      "products_seen": 23,
+      "accepted": 18,
+      "excluded": 5,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "woocommerce",
+      "route": "https://morrowrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_400"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://morrowrecords.com/api/0.1/collections/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://morrowrecords.com/api/0.1/collections/all/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://morrowrecords.com/api/storefront/products?limit=20&offset=0",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://morrowrecords.com/api/storefront/products?limit=20",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    }
+  ],
+  "listing_sample": 18,
+  "detail_checked": 3,
+  "detail_gtin_valid": 0,
+  "currency": "USD",
+  "currency_source": "public_storefront_Shopify.currency",
+  "currency_source_url": "https://morrowrecords.com/",
+  "release_status": "AWAITING_MANUAL_TEST",
+  "scraper_type": "ARTIST_TITLE",
+  "assessment_version": 2,
+  "assessment_id": "v2-40571453864-1",
+  "country": "US",
+  "production_approved": false
+}
