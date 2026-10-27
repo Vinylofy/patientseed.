@@ -1,0 +1,196 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:49:41.561388+00:00",
+  "shop_id": "mancavenj.com",
+  "row": 2025,
+  "name": "Randy Now's Man Cave",
+  "domain": "mancavenj.com",
+  "country": "US",
+  "website": "https://mancavenj.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2025,
+    "name": "Randy Now's Man Cave",
+    "domain": "mancavenj.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://mancavenj.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 6,
+    "excluded": 14,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://mancavenj.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://mancavenj.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://mancavenj.com/collections/all/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://mancavenj.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://mancavenj.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://mancavenj.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://mancavenj.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://mancavenj.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://mancavenj.com/collections/all/products.json?limit=20&page=1",
+      "score": 65,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://mancavenj.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 6,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 6,
+    "unique_prices": 4,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://mancavenj.com/robots.txt",
+      "sha256": "c78dc172d7264868c25425cd679a52571fd76b28ac48fce4613cf292fc2ec3fd"
+    },
+    {
+      "url": "https://mancavenj.com/",
+      "sha256": "c8c28785503b61a80127bbaff412504985e6870da5456ea52ff84c631e069c56"
+    },
+    {
+      "url": "https://mancavenj.com/products.json?limit=20&page=1",
+      "sha256": "70b1871b66abd98cbb257f02aa82c751770cda3b51b136cecbd6b017d29e806f"
+    },
+    {
+      "url": "https://mancavenj.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "cfbbf058d6c503997a3ff316805eaf7c63322d09591f311b93babdfc5af0b4fd"
+    },
+    {
+      "url": "https://mancavenj.com/products/the-rocky-horror-picture-show-original-cast-the-rocky-horror-picture-show",
+      "sha256": "a5862503d3e94250436a8d511035a9e60ec6a2383ea189c696c89343000b0e5d"
+    },
+    {
+      "url": "https://mancavenj.com/products/uicideboy-thy-kingdom-come",
+      "sha256": "2d9c707b1ddd08bcefe1d737b900750248a292381240f654ce7df65be436c4cc"
+    },
+    {
+      "url": "https://mancavenj.com/products/1989-taylors-version-taylor-swift-rose-garden-pink-edition-2lp?variant=45177004392663",
+      "sha256": "c6f4fddc25c5a0ba8aa20f7fa30ac77dd27ad84b5c029db62cfca3f8f1cbe6ed"
+    },
+    {
+      "url": "https://mancavenj.com/products/1-2-japanese-invincible-lp-album-ltd-bla-mint-m?variant=45675031724247",
+      "sha256": "74dc9886711064917bc0aff2b002c2c898d36038370351c049474e55db774a7f"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 0,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 0.8333333333333334,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2025",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2025
+  ],
+  "assessment_path": "assessments/v2/mancavenj_com/v2-40571453864-1.json"
+}
