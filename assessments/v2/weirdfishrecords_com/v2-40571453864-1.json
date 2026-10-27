@@ -1,0 +1,200 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:58:43.181094+00:00",
+  "shop_id": "weirdfishrecords.com",
+  "row": 3221,
+  "name": "Weird Fish Records",
+  "domain": "weirdfishrecords.com",
+  "country": "US",
+  "website": "https://weirdfishrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3221,
+    "name": "Weird Fish Records",
+    "domain": "weirdfishrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://weirdfishrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 18,
+    "excluded": 2,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://weirdfishrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://weirdfishrecords.com/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://weirdfishrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 35,
+        "products_seen": 20,
+        "accepted": 3,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://weirdfishrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://weirdfishrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://weirdfishrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://weirdfishrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://weirdfishrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://weirdfishrecords.com/products.json?limit=20&page=1",
+      "score": 185,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://weirdfishrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 18,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 18,
+    "unique_prices": 13,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://weirdfishrecords.com/robots.txt",
+      "sha256": "9d9f8036c172b4b99a5b4b2e93153ad732c15492f636b017a3534e05a9b9a269"
+    },
+    {
+      "url": "https://weirdfishrecords.com/",
+      "sha256": "f3a37d004b758ab79815704d8252df49081adb6a8a1b0c9f30b757cd5cea70fe"
+    },
+    {
+      "url": "https://weirdfishrecords.com/products.json?limit=20&page=1",
+      "sha256": "2463b9b59e81085f8be232d7bfd01714ece4ee54b71dc50ddb66682c6860aeba"
+    },
+    {
+      "url": "https://weirdfishrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "b9092802f0facc75c0a530cb85a949b32125edf8e7a11f2dc028de626e7c884b"
+    },
+    {
+      "url": "https://weirdfishrecords.com/products/joni-mitchell-blue-lp-rhino-high-fidelity",
+      "sha256": "57be73976d95efbcd21ed5ce0c819dc4a26940ee0910fd44d0990520e33326bc"
+    },
+    {
+      "url": "https://weirdfishrecords.com/products/crosby-stills-nash-crosby-stills-nash-lp-rhino-high-fidelity",
+      "sha256": "ec8c1d2eefab721952c0f3964a85963aa3e2a8128e62e768d0073c3dda4be638"
+    },
+    {
+      "url": "https://weirdfishrecords.com/products/hole-pretty-on-the-inside?variant=54355513311515",
+      "sha256": "7e7106d499f976238917b7ec8e91819cf6187421424de6f0f6af519d8ef1d3c0"
+    },
+    {
+      "url": "https://weirdfishrecords.com/products/king-gizzard-the-lizard-wizard-sketches-of-brunswick-east-injection-molded-pet?variant=54355514523931",
+      "sha256": "f0d63237c47dc20be693e99912bd7e0ce837ffcd066fe52b1ffd70735e1c88a1"
+    },
+    {
+      "url": "https://weirdfishrecords.com/products/joni-mitchell-blue-lp-rhino-high-fidelity?variant=54356702920987",
+      "sha256": "49cef1e1a4c1ef5944046e869f1e96ffba114558a15ec0b6bbdf7b345a35c2c7"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 2,
+    "detail_price_proven": 2,
+    "ean_valid": 2,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 0.1111111111111111,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_3221",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    3221
+  ],
+  "assessment_path": "assessments/v2/weirdfishrecords_com/v2-40571453864-1.json"
+}
