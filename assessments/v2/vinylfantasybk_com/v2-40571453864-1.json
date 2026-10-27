@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:57:50.655294+00:00",
+  "shop_id": "vinylfantasybk.com",
+  "row": 3097,
+  "name": "Vinyl Fantasy",
+  "domain": "vinylfantasybk.com",
+  "country": "US",
+  "website": "https://vinylfantasybk.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3097,
+    "name": "Vinyl Fantasy",
+    "domain": "vinylfantasybk.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://vinylfantasybk.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 9,
+    "excluded": 11,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://vinylfantasybk.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://vinylfantasybk.com/products.json?limit=20&page=1",
+        "score": 95,
+        "products_seen": 20,
+        "accepted": 9,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://vinylfantasybk.com/collections/all/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 20,
+        "accepted": 4,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://vinylfantasybk.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylfantasybk.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylfantasybk.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylfantasybk.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylfantasybk.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://vinylfantasybk.com/products.json?limit=20&page=1",
+      "score": 95,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://vinylfantasybk.com/products.json?limit=20&page=1",
+  "listing_sample": 9,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 9,
+    "unique_prices": 4,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://vinylfantasybk.com/products/45-grave-sleep-in-safety?variant=37501063790761",
+      "artist": "45 Grave",
+      "title": "Sleep in Safety (Green with Black Splatter Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "40.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://vinylfantasybk.com/products/heavens-to-betsy-calculated-lake-louise-vinyl?variant=50662430146816",
+      "artist": "Heavens to Betsy",
+      "title": "calculated (Lake Louise Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "30.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://vinylfantasybk.com/products/babehoven-i-see-them-i-see-me-milky-clear-vinyl?variant=50662448365824",
+      "artist": "Babehoven",
+      "title": "I See Them, I See Me (Milky Clear Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "26.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://vinylfantasybk.com/robots.txt",
+      "sha256": "1574d7f50088093dfbd78e097c039ea43e16fd9374018cd4b8b22458478190e2"
+    },
+    {
+      "url": "https://vinylfantasybk.com/",
+      "sha256": "125e5c24833faf4485ef16ab3db7871ad137926b32d1c443c31cdcd40d129a7f"
+    },
+    {
+      "url": "https://vinylfantasybk.com/products.json?limit=20&page=1",
+      "sha256": "c21eebd9d2c955da1b7cc2b6745b3e46cc1f20d6e7bd70105c74ee35ea112a70"
+    },
+    {
+      "url": "https://vinylfantasybk.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "15815c146902d113f3781a96a3e27f1ea0a2114efb82347fcd02f50461d4c45b"
+    },
+    {
+      "url": "https://vinylfantasybk.com/products/babehoven-i-see-them-i-see-me-milky-clear-vinyl",
+      "sha256": "9781efbdd0295882dd2f34a4aae2580003de0c1cc22a155ab0e67fe27fa061db"
+    },
+    {
+      "url": "https://vinylfantasybk.com/products/tiny-habits-keepers-gold-vinyl",
+      "sha256": "c90c4935427170b0a19295b9e7c4e59b514dac9458e35e4b1fe84c9d0d128c7f"
+    },
+    {
+      "url": "https://vinylfantasybk.com/products/45-grave-sleep-in-safety?variant=37501063790761",
+      "sha256": "0b3f45b2519800ae24e32c7a0d8304b31ad031f478d5b2a8e2ea17f24df9a700"
+    },
+    {
+      "url": "https://vinylfantasybk.com/products/heavens-to-betsy-calculated-lake-louise-vinyl?variant=50662430146816",
+      "sha256": "3eee0202eaaa93fa7da04f21330ce069da3b2ba83c003b8e7388cf9309ad01e4"
+    },
+    {
+      "url": "https://vinylfantasybk.com/products/babehoven-i-see-them-i-see-me-milky-clear-vinyl?variant=50662448365824",
+      "sha256": "4324695b6e3e22fb21decfa9cb62dbf76459706e51700a6552f345f416d86f49"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_3097",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://vinylfantasybk.com/products/45-grave-sleep-in-safety?variant=37501063790761",
+    "https://vinylfantasybk.com/products/heavens-to-betsy-calculated-lake-louise-vinyl?variant=50662430146816",
+    "https://vinylfantasybk.com/products/babehoven-i-see-them-i-see-me-milky-clear-vinyl?variant=50662448365824"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    3097
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 9,
+  "candidate_ref": "v2-40571453864-1/vinylfantasybk_com",
+  "assessment_path": "assessments/v2/vinylfantasybk_com/v2-40571453864-1.json"
+}
