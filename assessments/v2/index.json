@@ -3,8 +3,9 @@
   "shops": {
     "assai.co.uk": {
       "assessment_version": 2,
-      "assessment_id": "v2-40567635678-1",
-      "assessed_at": "2026-10-27T19:16:50.631531+00:00",
+      "assessment_revision": "2.1",
+      "assessment_id": "v2-40568772977-1",
+      "assessed_at": "2026-10-27T19:24:22.437826+00:00",
       "shop_id": "assai.co.uk",
       "name": "Assai Records",
       "domain": "assai.co.uk",
@@ -29,7 +30,7 @@
         177,
         3318
       ],
-      "assessment_path": "assessments/v2/assai_co_uk/v2-40567635678-1.json",
+      "assessment_path": "assessments/v2/assai_co_uk/v2-40568772977-1.json",
       "evidence": {
         "existing_ean_approved": false,
         "active": true,
@@ -51,8 +52,9 @@
     },
     "resident-music.com": {
       "assessment_version": 2,
-      "assessment_id": "v2-40567635678-1",
-      "assessed_at": "2026-10-27T19:17:02.066107+00:00",
+      "assessment_revision": "2.1",
+      "assessment_id": "v2-40568772977-1",
+      "assessed_at": "2026-10-27T19:24:33.831977+00:00",
       "shop_id": "resident-music.com",
       "name": "Resident Music",
       "domain": "resident-music.com",
@@ -77,7 +79,7 @@
         2168,
         3317
       ],
-      "assessment_path": "assessments/v2/resident_music_com/v2-40567635678-1.json",
+      "assessment_path": "assessments/v2/resident_music_com/v2-40568772977-1.json",
       "evidence": {
         "existing_ean_approved": false,
         "active": null,
@@ -99,24 +101,26 @@
     },
     "10000hzrecords.com": {
       "assessment_version": 2,
-      "assessment_id": "v2-40567635678-1",
-      "assessed_at": "2026-10-27T19:17:04.161104+00:00",
+      "assessment_revision": "2.1",
+      "assessment_id": "v2-40568772977-1",
+      "assessed_at": "2026-10-27T19:24:33.833974+00:00",
       "shop_id": "10000hzrecords.com",
       "name": "10,000 Hz Records",
       "domain": "10000hzrecords.com",
       "country": "US",
-      "scraper_type": "MANUAL_REVIEW",
-      "preferred_scraper_type": null,
+      "scraper_type": "ARTIST_TITLE",
+      "preferred_scraper_type": "ARTIST_TITLE",
       "supports_artist_title_fallback": false,
-      "suitability": "MANUAL_REVIEW",
-      "priority": "LOW",
+      "suitability": "SUITABLE",
+      "priority": "MEDIUM",
       "reason": [
-        "not_proven:new_used_distinguishable"
+        "artist_title_consistent_on_listing_and_three_distinct_details",
+        "ean_coverage_insufficient"
       ],
-      "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+      "build_status": "BUILT_AWAITING_MANUAL_TEST",
       "existing_scraper": true,
-      "assessment_ready": false,
-      "candidate_ref": null,
+      "assessment_ready": true,
+      "candidate_ref": "v2-40568772977-1/10000hzrecords_com",
       "product_count": null,
       "product_count_basis": "unknown_not_full_catalogue",
       "platform": "shopify",
@@ -124,13 +128,13 @@
       "queue_rows": [
         20
       ],
-      "assessment_path": "assessments/v2/10000hzrecords_com/v2-40567635678-1.json",
+      "assessment_path": "assessments/v2/10000hzrecords_com/v2-40568772977-1.json",
       "evidence": {
         "existing_ean_approved": false,
         "active": true,
         "vinyl": true,
         "secondhand_only": null,
-        "new_used_distinguishable": false,
+        "new_used_distinguishable": true,
         "public_prices": true,
         "availability": true,
         "stable_urls": true,
@@ -145,8 +149,9 @@
     },
     "abrodosmusic.com": {
       "assessment_version": 2,
-      "assessment_id": "v2-40567635678-1",
-      "assessed_at": "2026-10-27T19:17:17.396486+00:00",
+      "assessment_revision": "2.1",
+      "assessment_id": "v2-40568772977-1",
+      "assessed_at": "2026-10-27T19:24:47.070344+00:00",
       "shop_id": "abrodosmusic.com",
       "name": "Abrodos Music",
       "domain": "abrodosmusic.com",
@@ -170,7 +175,7 @@
       "queue_rows": [
         61
       ],
-      "assessment_path": "assessments/v2/abrodosmusic_com/v2-40567635678-1.json",
+      "assessment_path": "assessments/v2/abrodosmusic_com/v2-40568772977-1.json",
       "evidence": {
         "existing_ean_approved": false,
         "active": true,
@@ -191,8 +196,9 @@
     },
     "afkbooksandrecords.com": {
       "assessment_version": 2,
-      "assessment_id": "v2-40567635678-1",
-      "assessed_at": "2026-10-27T19:17:30.905499+00:00",
+      "assessment_revision": "2.1",
+      "assessment_id": "v2-40568772977-1",
+      "assessed_at": "2026-10-27T19:25:00.390967+00:00",
       "shop_id": "afkbooksandrecords.com",
       "name": "AFK Books & Records",
       "domain": "afkbooksandrecords.com",
@@ -220,7 +226,7 @@
       "queue_rows": [
         77
       ],
-      "assessment_path": "assessments/v2/afkbooksandrecords_com/v2-40567635678-1.json",
+      "assessment_path": "assessments/v2/afkbooksandrecords_com/v2-40568772977-1.json",
       "evidence": {
         "existing_ean_approved": false,
         "active": true,
@@ -241,24 +247,26 @@
     },
     "ags.earth": {
       "assessment_version": 2,
-      "assessment_id": "v2-40567635678-1",
-      "assessed_at": "2026-10-27T19:17:39.255427+00:00",
+      "assessment_revision": "2.1",
+      "assessment_id": "v2-40568772977-1",
+      "assessed_at": "2026-10-27T19:25:08.670397+00:00",
       "shop_id": "ags.earth",
       "name": "AGS Honolulu (Aloha Got Soul)",
       "domain": "ags.earth",
       "country": "US",
-      "scraper_type": "MANUAL_REVIEW",
-      "preferred_scraper_type": null,
+      "scraper_type": "ARTIST_TITLE",
+      "preferred_scraper_type": "ARTIST_TITLE",
       "supports_artist_title_fallback": false,
-      "suitability": "MANUAL_REVIEW",
-      "priority": "LOW",
+      "suitability": "SUITABLE",
+      "priority": "MEDIUM",
       "reason": [
-        "not_proven:new_used_distinguishable"
+        "artist_title_consistent_on_listing_and_three_distinct_details",
+        "ean_coverage_insufficient"
       ],
-      "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+      "build_status": "BUILT_AWAITING_MANUAL_TEST",
       "existing_scraper": true,
-      "assessment_ready": false,
-      "candidate_ref": null,
+      "assessment_ready": true,
+      "candidate_ref": "v2-40568772977-1/ags_earth",
       "product_count": null,
       "product_count_basis": "unknown_not_full_catalogue",
       "platform": "shopify",
@@ -266,13 +274,13 @@
       "queue_rows": [
         81
       ],
-      "assessment_path": "assessments/v2/ags_earth/v2-40567635678-1.json",
+      "assessment_path": "assessments/v2/ags_earth/v2-40568772977-1.json",
       "evidence": {
         "existing_ean_approved": false,
         "active": true,
         "vinyl": true,
         "secondhand_only": null,
-        "new_used_distinguishable": false,
+        "new_used_distinguishable": true,
         "public_prices": true,
         "availability": true,
         "stable_urls": true,
@@ -287,24 +295,26 @@
     },
     "allthebestflorence.com": {
       "assessment_version": 2,
-      "assessment_id": "v2-40567635678-1",
-      "assessed_at": "2026-10-27T19:17:53.088003+00:00",
+      "assessment_revision": "2.1",
+      "assessment_id": "v2-40568772977-1",
+      "assessed_at": "2026-10-27T19:25:22.050329+00:00",
       "shop_id": "allthebestflorence.com",
       "name": "All The Best",
       "domain": "allthebestflorence.com",
       "country": "US",
-      "scraper_type": "MANUAL_REVIEW",
-      "preferred_scraper_type": null,
+      "scraper_type": "ARTIST_TITLE",
+      "preferred_scraper_type": "ARTIST_TITLE",
       "supports_artist_title_fallback": false,
-      "suitability": "MANUAL_REVIEW",
-      "priority": "LOW",
+      "suitability": "SUITABLE",
+      "priority": "MEDIUM",
       "reason": [
-        "not_proven:new_used_distinguishable"
+        "artist_title_consistent_on_listing_and_three_distinct_details",
+        "ean_coverage_insufficient"
       ],
-      "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+      "build_status": "BUILT_AWAITING_MANUAL_TEST",
       "existing_scraper": true,
-      "assessment_ready": false,
-      "candidate_ref": null,
+      "assessment_ready": true,
+      "candidate_ref": "v2-40568772977-1/allthebestflorence_com",
       "product_count": null,
       "product_count_basis": "unknown_not_full_catalogue",
       "platform": "shopify",
@@ -312,13 +322,13 @@
       "queue_rows": [
         95
       ],
-      "assessment_path": "assessments/v2/allthebestflorence_com/v2-40567635678-1.json",
+      "assessment_path": "assessments/v2/allthebestflorence_com/v2-40568772977-1.json",
       "evidence": {
         "existing_ean_approved": false,
         "active": true,
         "vinyl": true,
         "secondhand_only": null,
-        "new_used_distinguishable": false,
+        "new_used_distinguishable": true,
         "public_prices": true,
         "availability": true,
         "stable_urls": true,
@@ -333,8 +343,9 @@
     },
     "antonesrecordshop.com": {
       "assessment_version": 2,
-      "assessment_id": "v2-40567635678-1",
-      "assessed_at": "2026-10-27T19:18:06.490322+00:00",
+      "assessment_revision": "2.1",
+      "assessment_id": "v2-40568772977-1",
+      "assessed_at": "2026-10-27T19:25:35.448355+00:00",
       "shop_id": "antonesrecordshop.com",
       "name": "Antone's Record Shop",
       "domain": "antonesrecordshop.com",
@@ -345,7 +356,7 @@
       "suitability": "MANUAL_REVIEW",
       "priority": "LOW",
       "reason": [
-        "not_proven:new_used_distinguishable"
+        "artist_title_not_consistently_proven"
       ],
       "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
       "existing_scraper": true,
@@ -358,45 +369,47 @@
       "queue_rows": [
         150
       ],
-      "assessment_path": "assessments/v2/antonesrecordshop_com/v2-40567635678-1.json",
+      "assessment_path": "assessments/v2/antonesrecordshop_com/v2-40568772977-1.json",
       "evidence": {
         "existing_ean_approved": false,
         "active": true,
         "vinyl": true,
         "secondhand_only": null,
-        "new_used_distinguishable": false,
+        "new_used_distinguishable": true,
         "public_prices": true,
         "availability": true,
         "stable_urls": true,
         "detail_checked": 3,
         "detail_price_proven": 3,
         "ean_valid": 0,
-        "identity_details_proven": 3,
-        "identity_listing_ratio": 0.8571428571428571,
+        "identity_details_proven": 2,
+        "identity_listing_ratio": 0.9333333333333333,
         "sale_price_recognizable": null,
         "cover_available": true
       }
     },
     "artsoundlanguage.com": {
       "assessment_version": 2,
-      "assessment_id": "v2-40567635678-1",
-      "assessed_at": "2026-10-27T19:18:19.949454+00:00",
+      "assessment_revision": "2.1",
+      "assessment_id": "v2-40568772977-1",
+      "assessed_at": "2026-10-27T19:25:48.743961+00:00",
       "shop_id": "artsoundlanguage.com",
       "name": "art sound language",
       "domain": "artsoundlanguage.com",
       "country": "US",
-      "scraper_type": "MANUAL_REVIEW",
-      "preferred_scraper_type": null,
+      "scraper_type": "ARTIST_TITLE",
+      "preferred_scraper_type": "ARTIST_TITLE",
       "supports_artist_title_fallback": false,
-      "suitability": "MANUAL_REVIEW",
-      "priority": "LOW",
+      "suitability": "SUITABLE",
+      "priority": "MEDIUM",
       "reason": [
-        "not_proven:new_used_distinguishable"
+        "artist_title_consistent_on_listing_and_three_distinct_details",
+        "ean_coverage_insufficient"
       ],
-      "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+      "build_status": "BUILT_AWAITING_MANUAL_TEST",
       "existing_scraper": true,
-      "assessment_ready": false,
-      "candidate_ref": null,
+      "assessment_ready": true,
+      "candidate_ref": "v2-40568772977-1/artsoundlanguage_com",
       "product_count": null,
       "product_count_basis": "unknown_not_full_catalogue",
       "platform": "shopify",
@@ -404,13 +417,13 @@
       "queue_rows": [
         167
       ],
-      "assessment_path": "assessments/v2/artsoundlanguage_com/v2-40567635678-1.json",
+      "assessment_path": "assessments/v2/artsoundlanguage_com/v2-40568772977-1.json",
       "evidence": {
         "existing_ean_approved": false,
         "active": true,
         "vinyl": true,
         "secondhand_only": null,
-        "new_used_distinguishable": false,
+        "new_used_distinguishable": true,
         "public_prices": true,
         "availability": true,
         "stable_urls": true,
@@ -425,8 +438,9 @@
     },
     "bentcrayon.com": {
       "assessment_version": 2,
-      "assessment_id": "v2-40567635678-1",
-      "assessed_at": "2026-10-27T19:18:33.175096+00:00",
+      "assessment_revision": "2.1",
+      "assessment_id": "v2-40568772977-1",
+      "assessed_at": "2026-10-27T19:26:01.975279+00:00",
       "shop_id": "bentcrayon.com",
       "name": "Bent Crayon Records",
       "domain": "bentcrayon.com",
@@ -437,7 +451,7 @@
       "suitability": "MANUAL_REVIEW",
       "priority": "LOW",
       "reason": [
-        "not_proven:new_used_distinguishable"
+        "artist_title_not_consistently_proven"
       ],
       "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
       "existing_scraper": true,
@@ -450,13 +464,13 @@
       "queue_rows": [
         263
       ],
-      "assessment_path": "assessments/v2/bentcrayon_com/v2-40567635678-1.json",
+      "assessment_path": "assessments/v2/bentcrayon_com/v2-40568772977-1.json",
       "evidence": {
         "existing_ean_approved": false,
         "active": true,
         "vinyl": true,
         "secondhand_only": null,
-        "new_used_distinguishable": false,
+        "new_used_distinguishable": true,
         "public_prices": true,
         "availability": true,
         "stable_urls": true,
