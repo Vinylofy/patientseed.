@@ -1,0 +1,244 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:47:29.625638+00:00",
+  "shop_id": "morrowrecords.com",
+  "row": 1668,
+  "name": "Morrow Records",
+  "domain": "morrowrecords.com",
+  "country": "US",
+  "website": "https://morrowrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1668,
+    "name": "Morrow Records",
+    "domain": "morrowrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://morrowrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 23,
+    "accepted": 18,
+    "excluded": 5,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://morrowrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://morrowrecords.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "Invalid Shopify price"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://morrowrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 23,
+        "accepted": 18,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://morrowrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://morrowrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://morrowrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://morrowrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://morrowrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://morrowrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 185,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://morrowrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 18,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 18,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://morrowrecords.com/products/13th-floor-elevators-bull-of-the-woods-ltd-ed-white-vinyl-obi-strip-rsdbf-2023?variant=44357805768878",
+      "artist": "13th Floor Elevators,The",
+      "title": "Bull of the Woods [Ltd Ed White Vinyl/ OBI Strip] (RSDBF 2023)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "29.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://morrowrecords.com/products/100-demons-embrace-the-black-light-indie-exclusive-onyx-marbled-vinyl?variant=48031422742702",
+      "artist": "100 Demons",
+      "title": "Embrace the Black Light [Indie Exclusive Onyx Marbled Vinyl/ OBI Strip]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "32.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://morrowrecords.com/products/uicideboy-i-want-to-die-in-new-orleans-ltd-ed-silver-vinyl?variant=45227730763950",
+      "artist": "$uicideboy$",
+      "title": "I Want to Die in New Orleans [Ltd Ed Silver or Red & Black Split Vinyl]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "27.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://morrowrecords.com/robots.txt",
+      "sha256": "980882d75b9c5546eb20b9e66b7f962c5343d95144f356f2c94e602fb4b7ba3d"
+    },
+    {
+      "url": "https://morrowrecords.com/",
+      "sha256": "24ef86ef87abdda357218ea3e241f8b6ec946ada33fa0c8d318f50348cbad835"
+    },
+    {
+      "url": "https://morrowrecords.com/products.json?limit=20&page=1",
+      "sha256": "522bce5b1aee576c1ba256ac4dba8637fcb6d5704611a3f1a15b0d49d8f57477"
+    },
+    {
+      "url": "https://morrowrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "6b1dd2beedc8f56d554716d93adfdc2b4e0d71d067a9dd6e553534eed5afa3db"
+    },
+    {
+      "url": "https://morrowrecords.com/products/uicideboy-i-want-to-die-in-new-orleans-ltd-ed-silver-vinyl",
+      "sha256": "91709870ccc5cbee37677a1f8d028b8b88a2441a9da43e5fe7205547cb1e3a36"
+    },
+    {
+      "url": "https://morrowrecords.com/products/suicideboys-i-want-to-die-in-new-orleans",
+      "sha256": "27bb43ee34f0f49b1441bd332d479ee223d137a48f856601740aa153b5cb3d17"
+    },
+    {
+      "url": "https://morrowrecords.com/products/13th-floor-elevators-bull-of-the-woods-ltd-ed-white-vinyl-obi-strip-rsdbf-2023?variant=44357805768878",
+      "sha256": "52df8ff8466a286d05e3ce2895982884ae21bbab1ab00e8764c397df96325b1f"
+    },
+    {
+      "url": "https://morrowrecords.com/products/100-demons-embrace-the-black-light-indie-exclusive-onyx-marbled-vinyl?variant=48031422742702",
+      "sha256": "ce504a634e06d72a31d85488a960e58e1145eb6f09e7ddc117275d75bea4e3b8"
+    },
+    {
+      "url": "https://morrowrecords.com/products/uicideboy-i-want-to-die-in-new-orleans-ltd-ed-silver-vinyl?variant=45227730763950",
+      "sha256": "d20504ddb4a795474f2762ff62a0033356e0c29f6b005671eb1ccf9d114f7982"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_1668",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://morrowrecords.com/products/13th-floor-elevators-bull-of-the-woods-ltd-ed-white-vinyl-obi-strip-rsdbf-2023?variant=44357805768878",
+    "https://morrowrecords.com/products/100-demons-embrace-the-black-light-indie-exclusive-onyx-marbled-vinyl?variant=48031422742702",
+    "https://morrowrecords.com/products/uicideboy-i-want-to-die-in-new-orleans-ltd-ed-silver-vinyl?variant=45227730763950"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    1668
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 18,
+  "candidate_ref": "v2-40571453864-1/morrowrecords_com",
+  "assessment_path": "assessments/v2/morrowrecords_com/v2-40571453864-1.json"
+}
