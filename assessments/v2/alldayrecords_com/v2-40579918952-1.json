@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T20:43:23.082391+00:00",
+  "shop_id": "alldayrecords.com",
+  "row": 92,
+  "name": "All Day Records; All Day Records Pittsboro",
+  "domain": "alldayrecords.com",
+  "country": "US",
+  "website": "https://alldayrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 92,
+    "name": "All Day Records; All Day Records Pittsboro",
+    "domain": "alldayrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://alldayrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://alldayrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://alldayrecords.com/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://alldayrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://alldayrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://alldayrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://alldayrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://alldayrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://alldayrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://alldayrecords.com/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://alldayrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://alldayrecords.com/robots.txt",
+      "sha256": "249e1ff6666da517ad4c6e3664bea2ace93595971acbe8f035a379961104d959"
+    },
+    {
+      "url": "https://alldayrecords.com/",
+      "sha256": "e7b672c16abcd1da9d42d7fb5df8ffd58557c2f99c244d040f5aaa650b79bbf5"
+    },
+    {
+      "url": "https://alldayrecords.com/products.json?limit=20&page=1",
+      "sha256": "3a029892436bbd3dd9ee10896ce0c79f3576a6e6fcd4159fc776a1488632e985"
+    },
+    {
+      "url": "https://alldayrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "588c4a45cb6ac9cf9bc604ca24a2f6ac3e1ca7cab06e52a20ace5f9238aa04c0"
+    },
+    {
+      "url": "https://alldayrecords.com/products/funkadelic-maggot-brain-lp",
+      "sha256": "36ac9335cfb715e017f178d4c156a61053b518739345a1ce38973d60404f0cff"
+    },
+    {
+      "url": "https://alldayrecords.com/products/hudson-people-trip-to-your-mind-12",
+      "sha256": "cb3bb34e447ba9bc375b9670bff3dd9498a027dadb6e17fdf8787902bd4428e6"
+    },
+    {
+      "url": "https://alldayrecords.com/products/steve-stoll-evolucion-acida-12?variant=52725870297370",
+      "sha256": "7355ebd6320862c7f505c6b938fbbbda77fd3f1d4e25e76184649fb8c6bd3b56"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_92",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40579918952-1",
+  "queue_rows": [
+    92
+  ],
+  "assessment_path": "assessments/v2/alldayrecords_com/v2-40579918952-1.json"
+}
