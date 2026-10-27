@@ -1,0 +1,240 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:53:07.052975+00:00",
+  "shop_id": "soundplatters.com",
+  "row": 2487,
+  "name": "Sound Platters",
+  "domain": "soundplatters.com",
+  "country": "US",
+  "website": "https://soundplatters.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2487,
+    "name": "Sound Platters",
+    "domain": "soundplatters.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://soundplatters.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://soundplatters.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://soundplatters.com/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://soundplatters.com/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://soundplatters.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://soundplatters.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://soundplatters.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://soundplatters.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://soundplatters.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://soundplatters.com/collections/all/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://soundplatters.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 11,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://soundplatters.com/products/4-skins-the-wonderful-world-of-the-4-skins-lp-red-vinyl?variant=43854700150841",
+      "artist": "",
+      "title": "4 SKINS \"The Wonderful World of the 4 Skins\" LP (Red Vinyl)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "29.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://soundplatters.com/products/2pac-the-best-of-2pac-part1-thug-lpx2?variant=43742882037817",
+      "artist": "",
+      "title": "2PAC \"The Best of 2Pac Part1: Thug\" LPx2",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "37.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00602435217390"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://soundplatters.com/products/singles-original-motion-picture-sountrack-lpx2?variant=45637119508537",
+      "artist": "",
+      "title": "\"SINGLES\" (Original Motion Picture Sountrack) LPx2",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "37.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://soundplatters.com/robots.txt",
+      "sha256": "c5adfde53818e66cc508757e2df6f96a3d57ed8773ecae7f9a100ef586c01c61"
+    },
+    {
+      "url": "https://soundplatters.com/",
+      "sha256": "a75a0ae74ef487785426a46240636d5e9a84ae8989bf3f1c7945a2764ee11318"
+    },
+    {
+      "url": "https://soundplatters.com/products.json?limit=20&page=1",
+      "sha256": "996b698eb8798b511585d2ae53f5ed032c96e04543f0e5bfe1996afd6ab503e9"
+    },
+    {
+      "url": "https://soundplatters.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "d4f9817f26404e5e089ab1acbfbc132ecb890c9e99d6e7defb5afa1ac967a8cb"
+    },
+    {
+      "url": "https://soundplatters.com/products/singles-original-motion-picture-sountrack-lpx2",
+      "sha256": "ce212ff43480dd9e1c2090fee85a2e6c16570ff3e3092fcce2d5a93e9b344805"
+    },
+    {
+      "url": "https://soundplatters.com/products/twilight-saga-new-moon-lp-official-soundtrack-indie-exclusive",
+      "sha256": "2264016584fb556873077e10f65d700d5949ecb06a49f8ce17d0ddb440b8bc89"
+    },
+    {
+      "url": "https://soundplatters.com/products/4-skins-the-wonderful-world-of-the-4-skins-lp-red-vinyl?variant=43854700150841",
+      "sha256": "d895f570f0507f04b9c28b4b990b2a371523b37d9cd114ccf9329a3d1929eb51"
+    },
+    {
+      "url": "https://soundplatters.com/products/2pac-the-best-of-2pac-part1-thug-lpx2?variant=43742882037817",
+      "sha256": "7d4e618fbcb78b3776f880a06398efeae8a384159cc4bc8dd7c7ee34742c3615"
+    },
+    {
+      "url": "https://soundplatters.com/products/singles-original-motion-picture-sountrack-lpx2?variant=45637119508537",
+      "sha256": "6d929a30e599d922c8f7ed74e347166de1f3109f8dd1e25eebae9579fedf6dfb"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 1,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.05263157894736842,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2487",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://soundplatters.com/products/4-skins-the-wonderful-world-of-the-4-skins-lp-red-vinyl?variant=43854700150841",
+    "https://soundplatters.com/products/2pac-the-best-of-2pac-part1-thug-lpx2?variant=43742882037817",
+    "https://soundplatters.com/products/singles-original-motion-picture-sountrack-lpx2?variant=45637119508537"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2487
+  ],
+  "assessment_path": "assessments/v2/soundplatters_com/v2-40571453864-1.json"
+}
