@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:44:45.804246+00:00",
+  "shop_id": "firetalk.shop",
+  "row": 927,
+  "name": "Fire Talk Shop",
+  "domain": "firetalk.shop",
+  "country": "US",
+  "website": "https://firetalk.shop/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 927,
+    "name": "Fire Talk Shop",
+    "domain": "firetalk.shop",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://firetalk.shop/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 36,
+    "accepted": 20,
+    "excluded": 7,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://firetalk.shop/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://firetalk.shop/products.json?limit=20&page=1",
+        "score": 295,
+        "products_seen": 36,
+        "accepted": 29,
+        "excluded": 7,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://firetalk.shop/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://firetalk.shop/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://firetalk.shop/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://firetalk.shop/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://firetalk.shop/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://firetalk.shop/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://firetalk.shop/products.json?limit=20&page=1",
+      "score": 295,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://firetalk.shop/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 5,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://firetalk.shop/products/whitmer-thomas-terminal-crew-of-dudes-vinyl-tee-bundle?variant=52453804409063",
+      "artist": "Whitmer Thomas",
+      "title": "Terminal Crew of Dudes (Vinyl + Tee Bundle)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "45.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://firetalk.shop/products/mia-joy-star-echo-heavy-dove-star-echo-color-vinyl?variant=52921862684903",
+      "artist": "Mia Joy",
+      "title": "Star Echo / Heavy Dove (Star Echo Color Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "25.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://firetalk.shop/products/mia-joy-vinyl-bundle?variant=52921893126375",
+      "artist": "",
+      "title": "Mia Joy Vinyl Bundle",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "50.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://firetalk.shop/robots.txt",
+      "sha256": "a45184d6710c36d20da0399a636ff1623c683648bad51cf119c38727026ed13c"
+    },
+    {
+      "url": "https://firetalk.shop/",
+      "sha256": "47db2b802cac5440306558ecf84473198c2ca638f285cb6f7e411dc014ca2a25"
+    },
+    {
+      "url": "https://firetalk.shop/products.json?limit=20&page=1",
+      "sha256": "53575f3e55579dcc1b547ae07a34a7f0c0d14bbb21850cc2bc8c03bf356e7860"
+    },
+    {
+      "url": "https://firetalk.shop/collections/all/products.json?limit=20&page=1",
+      "sha256": "d1e68fc76991650a6221dd2ef0a86f6bd60469385e7ffee747e78856c06dc71d"
+    },
+    {
+      "url": "https://firetalk.shop/products/mia-joy-vinyl-bundle",
+      "sha256": "415811006d81d12a3a5a7d44c68a9705bff58b829c1d82176535adb7f25c4d3a"
+    },
+    {
+      "url": "https://firetalk.shop/products/mia-joy-star-echo-heavy-dove-hat-vinyl-bundle-copy",
+      "sha256": "a561834fba6ff62a4e62e07af29c9aac341475b9fcb9f6b5accd69b8a6fa41b7"
+    },
+    {
+      "url": "https://firetalk.shop/products/whitmer-thomas-terminal-crew-of-dudes-vinyl-tee-bundle?variant=52453804409063",
+      "sha256": "3959582eb69c11d71baf3b5640e72e6576eacf49fcf52f34798f9eba8c82a7c7"
+    },
+    {
+      "url": "https://firetalk.shop/products/mia-joy-star-echo-heavy-dove-star-echo-color-vinyl?variant=52921862684903",
+      "sha256": "408657e5d4c7b27d182b22317b580a2996ee2a4b41825b36bb59593548b60d33"
+    },
+    {
+      "url": "https://firetalk.shop/products/mia-joy-vinyl-bundle?variant=52921893126375",
+      "sha256": "5de1c17aad63eb03d9eeb4b7460e07b2db25c43afd03c9e9df7f5212ed3d1519"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.95,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_927",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://firetalk.shop/products/whitmer-thomas-terminal-crew-of-dudes-vinyl-tee-bundle?variant=52453804409063",
+    "https://firetalk.shop/products/mia-joy-star-echo-heavy-dove-star-echo-color-vinyl?variant=52921862684903",
+    "https://firetalk.shop/products/mia-joy-vinyl-bundle?variant=52921893126375"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    927
+  ],
+  "assessment_path": "assessments/v2/firetalk_shop/v2-40571453864-1.json"
+}
