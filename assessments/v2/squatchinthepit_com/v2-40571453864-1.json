@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:54:25.823467+00:00",
+  "shop_id": "squatchinthepit.com",
+  "row": 2815,
+  "name": "The Squatch Den Records",
+  "domain": "squatchinthepit.com",
+  "country": "US",
+  "website": "https://squatchinthepit.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2815,
+    "name": "The Squatch Den Records",
+    "domain": "squatchinthepit.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://squatchinthepit.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 15,
+    "excluded": 5,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://squatchinthepit.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://squatchinthepit.com/products.json?limit=20&page=1",
+        "score": 95,
+        "products_seen": 20,
+        "accepted": 9,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://squatchinthepit.com/collections/all/products.json?limit=20&page=1",
+        "score": 155,
+        "products_seen": 20,
+        "accepted": 15,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://squatchinthepit.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://squatchinthepit.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://squatchinthepit.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://squatchinthepit.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://squatchinthepit.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://squatchinthepit.com/collections/all/products.json?limit=20&page=1",
+      "score": 155,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://squatchinthepit.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 15,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 15,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://squatchinthepit.com/products/preorder-uicideboy-thy-kingdom-come-colored-lp?variant=46381658505469",
+      "artist": "$UICIDEBOY$",
+      "title": "THY KINGDOM COME (INDIE EXCLUSIVE MAROON VINYL)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "29.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00199350828812"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://squatchinthepit.com/products/uicideboy-i-want-to-die-in-new-orleans-silver-vinyl?variant=45671193870589",
+      "artist": "$UICIDEBOY$",
+      "title": "I WANT TO DIE IN NEW ORLEANS (SILVER VINYL)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "27.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00842812109140"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://squatchinthepit.com/products/preorder-cruzados-best-of-cruzados-lp?variant=47530321477885",
+      "artist": "\"cruzados \"",
+      "title": "\"best of Cruzados \" [LP]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "29.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00706091208805"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://squatchinthepit.com/robots.txt",
+      "sha256": "c3e92c8b1d0fed56996070676753bfbe7e4903faf1794cb60ae53c1e6d2fecca"
+    },
+    {
+      "url": "https://squatchinthepit.com/",
+      "sha256": "cae326024e1006df187546bc0b813c4c48d39f6f88b090547427b5edcbe1b02b"
+    },
+    {
+      "url": "https://squatchinthepit.com/products.json?limit=20&page=1",
+      "sha256": "7793f6f3e9f630cf387e9d47fc10a187df99aee8562ba9ee75d82f647651cd5f"
+    },
+    {
+      "url": "https://squatchinthepit.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "9bc64f5bcae99179d5b51a79904e30e8a0f8cd8410d954fcafb287566f8b4168"
+    },
+    {
+      "url": "https://squatchinthepit.com/products/preorder-cruzados-best-of-cruzados-lp",
+      "sha256": "dfa1c837f1954a425a66b1ecd69efdddddca024ca193f391589cda0a378cf044"
+    },
+    {
+      "url": "https://squatchinthepit.com/products/preorder-everything-everything-get-to-heaven-180-gram",
+      "sha256": "0cf3b893b66511888a1ce601a2fb097968f388a98cbc99128105b06262b89dda"
+    },
+    {
+      "url": "https://squatchinthepit.com/products/preorder-uicideboy-thy-kingdom-come-colored-lp?variant=46381658505469",
+      "sha256": "e4c64eb8349dd424e9079da16baf516f44e94dc2d0c598aa5ff7369691091feb"
+    },
+    {
+      "url": "https://squatchinthepit.com/products/uicideboy-i-want-to-die-in-new-orleans-silver-vinyl?variant=45671193870589",
+      "sha256": "1d49df9477493b5f15077d0904dcec8e79bcc4c8d2746be197cfc92f7b150f73"
+    },
+    {
+      "url": "https://squatchinthepit.com/products/preorder-cruzados-best-of-cruzados-lp?variant=47530321477885",
+      "sha256": "0da53dcafa651c51a037ade228295a7f0ec5bad00136470dab8286faa385436e"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": true,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.8666666666666667,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_2815",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://squatchinthepit.com/products/preorder-uicideboy-thy-kingdom-come-colored-lp?variant=46381658505469",
+    "https://squatchinthepit.com/products/uicideboy-i-want-to-die-in-new-orleans-silver-vinyl?variant=45671193870589",
+    "https://squatchinthepit.com/products/preorder-cruzados-best-of-cruzados-lp?variant=47530321477885"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2815
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 15,
+  "candidate_ref": "v2-40571453864-1/squatchinthepit_com",
+  "assessment_path": "assessments/v2/squatchinthepit_com/v2-40571453864-1.json"
+}
