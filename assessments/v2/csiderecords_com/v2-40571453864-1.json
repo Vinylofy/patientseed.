@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:43:12.394902+00:00",
+  "shop_id": "csiderecords.com",
+  "row": 432,
+  "name": "C-Side Records",
+  "domain": "csiderecords.com",
+  "country": "US",
+  "website": "https://csiderecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 432,
+    "name": "C-Side Records",
+    "domain": "csiderecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://csiderecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 12,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://csiderecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://csiderecords.com/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://csiderecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://csiderecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://csiderecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://csiderecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://csiderecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://csiderecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://csiderecords.com/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://csiderecords.com/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://csiderecords.com/products/zwangsbeglucktertum-if-it-pleases-the-court?variant=44499839025337",
+      "artist": "Zwangsbeglucktertum",
+      "title": "If It Pleases the Court",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "16.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://csiderecords.com/products/wilby-center-of-affection?variant=46549890531513",
+      "artist": "Wilby",
+      "title": "Center of Affection",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "30.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://csiderecords.com/products/5-seconds-of-summer-everyone-s-a-star?variant=46554700513465",
+      "artist": "5 Seconds of Summer",
+      "title": "Everyone’s a Star",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "34.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://csiderecords.com/robots.txt",
+      "sha256": "2748cc5279866307f225feec966f478443113721be72abe4fa90b6db4962860d"
+    },
+    {
+      "url": "https://csiderecords.com/",
+      "sha256": "523bd6d0bdfcf08edfe9223214b8304d622c19bf91b8358ffbb6f557a049de8d"
+    },
+    {
+      "url": "https://csiderecords.com/products.json?limit=20&page=1",
+      "sha256": "38151375fd551ed3c6679a502d3785bf1a09c00e650027f14050d098ed978c08"
+    },
+    {
+      "url": "https://csiderecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "96264ce3ee582cfe70be06949147a44889b999ff34b4e4cd593fbaa334015a05"
+    },
+    {
+      "url": "https://csiderecords.com/products/5-seconds-of-summer-everyone-s-a-star",
+      "sha256": "ad0f6182eb2e0199bf9f71e5f35d1e7389efeb480b889811def3ed4f2784b809"
+    },
+    {
+      "url": "https://csiderecords.com/products/sadness-tortuga",
+      "sha256": "1b2fc44ef52fcdec585cae4976ebe19f55af23acd77f91941e738ff1b0e47ba0"
+    },
+    {
+      "url": "https://csiderecords.com/products/zwangsbeglucktertum-if-it-pleases-the-court?variant=44499839025337",
+      "sha256": "edd6edd0354244ac1a07845d1bfa44e5cc3bf61c1940be10f6d2a2362cf76c82"
+    },
+    {
+      "url": "https://csiderecords.com/products/wilby-center-of-affection?variant=46549890531513",
+      "sha256": "9fee5dc73744e4ede7907146f38fa2fac00510a509b800426efec7751da20c2e"
+    },
+    {
+      "url": "https://csiderecords.com/products/5-seconds-of-summer-everyone-s-a-star?variant=46554700513465",
+      "sha256": "56a5daeffe8de777628a7421eb1b96c1b325ed1d7712f1d5c0b80c691f063658"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_432",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://csiderecords.com/products/zwangsbeglucktertum-if-it-pleases-the-court?variant=44499839025337",
+    "https://csiderecords.com/products/wilby-center-of-affection?variant=46549890531513",
+    "https://csiderecords.com/products/5-seconds-of-summer-everyone-s-a-star?variant=46554700513465"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    432
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 12,
+  "candidate_ref": "v2-40571453864-1/csiderecords_com",
+  "assessment_path": "assessments/v2/csiderecords_com/v2-40571453864-1.json"
+}
