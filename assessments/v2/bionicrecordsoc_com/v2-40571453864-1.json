@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:42:45.931480+00:00",
+  "shop_id": "bionicrecordsoc.com",
+  "row": 294,
+  "name": "Bionic Records",
+  "domain": "bionicrecordsoc.com",
+  "country": "US",
+  "website": "https://bionicrecordsoc.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 294,
+    "name": "Bionic Records",
+    "domain": "bionicrecordsoc.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://bionicrecordsoc.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://bionicrecordsoc.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://bionicrecordsoc.com/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://bionicrecordsoc.com/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://bionicrecordsoc.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://bionicrecordsoc.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://bionicrecordsoc.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://bionicrecordsoc.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://bionicrecordsoc.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://bionicrecordsoc.com/collections/all/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://bionicrecordsoc.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://bionicrecordsoc.com/products/1349-hellfire?variant=33521104060552",
+      "artist": "",
+      "title": "1349 ‎– Hellfire",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "34.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://bionicrecordsoc.com/products/100-gecs-10-000-gecs-color-vinyl?variant=44497844175075",
+      "artist": "100 Gecs",
+      "title": "10,000 Gecs (Color Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "32.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://bionicrecordsoc.com/products/uicideboy-thy-kingdom-come-color-vinyl?variant=46966806479075",
+      "artist": "$Uicideboy$",
+      "title": "Thy Kingdom Come (Color Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "29.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://bionicrecordsoc.com/robots.txt",
+      "sha256": "25056e4a633616649a66dc4b467ddc29f841c0f4460b4d0f186ccea74733d6a2"
+    },
+    {
+      "url": "https://bionicrecordsoc.com/",
+      "sha256": "b83afb6705ec1243322572b2ae5888157ebbb30535e9e994c5a2f5b0097fc823"
+    },
+    {
+      "url": "https://bionicrecordsoc.com/products.json?limit=20&page=1",
+      "sha256": "0f25dc90ecc591d152e046e04590bc2bb457c12481541db350b33431f0fcf8e0"
+    },
+    {
+      "url": "https://bionicrecordsoc.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "a2ff051c5b36e72b2c659cefe3f75acdabc92ca092a9069c79b09330a61ea176"
+    },
+    {
+      "url": "https://bionicrecordsoc.com/products/uicideboy-thy-kingdom-come-color-vinyl",
+      "sha256": "63f418b22550ca51edb583285beabdde18144696729dee8a4dbe2e3f31b67f01"
+    },
+    {
+      "url": "https://bionicrecordsoc.com/products/and-oceans-as-in-gardens-so-in-tombs",
+      "sha256": "e4faf3ebd02da34d3033f15766aedb9da8019adffd4a3f6cd345c8632c235c41"
+    },
+    {
+      "url": "https://bionicrecordsoc.com/products/1349-hellfire?variant=33521104060552",
+      "sha256": "7e165391e1ce964540448e4d06e1a4081c8b607ae19a4c85931b64986e3660e9"
+    },
+    {
+      "url": "https://bionicrecordsoc.com/products/100-gecs-10-000-gecs-color-vinyl?variant=44497844175075",
+      "sha256": "dd00006411755491a29c7b1e121b945f2b469dd1c7df84b44f04d46bcf1a709b"
+    },
+    {
+      "url": "https://bionicrecordsoc.com/products/uicideboy-thy-kingdom-come-color-vinyl?variant=46966806479075",
+      "sha256": "da244f49c3a84a244fa247cb398e4595c80913e773288cc18c65c4d701280929"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.55,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_294",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://bionicrecordsoc.com/products/1349-hellfire?variant=33521104060552",
+    "https://bionicrecordsoc.com/products/100-gecs-10-000-gecs-color-vinyl?variant=44497844175075",
+    "https://bionicrecordsoc.com/products/uicideboy-thy-kingdom-come-color-vinyl?variant=46966806479075"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    294
+  ],
+  "assessment_path": "assessments/v2/bionicrecordsoc_com/v2-40571453864-1.json"
+}
