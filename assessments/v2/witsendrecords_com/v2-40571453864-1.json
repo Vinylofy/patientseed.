@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:58:56.444740+00:00",
+  "shop_id": "witsendrecords.com",
+  "row": 3254,
+  "name": "Wits' End Records",
+  "domain": "witsendrecords.com",
+  "country": "US",
+  "website": "https://witsendrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3254,
+    "name": "Wits' End Records",
+    "domain": "witsendrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://witsendrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 4,
+    "excluded": 16,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://witsendrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://witsendrecords.com/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 20,
+        "accepted": 4,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://witsendrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://witsendrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://witsendrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://witsendrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://witsendrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://witsendrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://witsendrecords.com/products.json?limit=20&page=1",
+      "score": 45,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://witsendrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 4,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 4,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://witsendrecords.com/products/37761801?variant=52979310690584",
+      "artist": "",
+      "title": "For Young Hearts by Soccer Mommy",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "26.98",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://witsendrecords.com/products/10089199?variant=53013317452056",
+      "artist": "",
+      "title": "Keep On Your Mean Side by The Kills",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "26.98",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://witsendrecords.com/products/28570972?variant=53013317517592",
+      "artist": "",
+      "title": "To The Faithful Departed by The Cranberries",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "38.98",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://witsendrecords.com/robots.txt",
+      "sha256": "32d0b1c6a518de3140eb145bcd1027ada7756cb993cb03559623b62e31f730d4"
+    },
+    {
+      "url": "https://witsendrecords.com/",
+      "sha256": "f74fb4b4b68d633646f438de61b3daedbac5bbc2d87737434fd87a23d650e820"
+    },
+    {
+      "url": "https://witsendrecords.com/products.json?limit=20&page=1",
+      "sha256": "928b87a80dfe80684fc2430c981d9f910376568a5648c243d063ad22c51a202d"
+    },
+    {
+      "url": "https://witsendrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "b8dc604f57c4079617327f115a913fcb5cf18e3540b1c4cc3dfa347e52332d57"
+    },
+    {
+      "url": "https://witsendrecords.com/products/28570972",
+      "sha256": "3d7340c4ef92b3877bbc26c3296aa76a36c172035050d0004ba228ed6212c12c"
+    },
+    {
+      "url": "https://witsendrecords.com/products/10089199",
+      "sha256": "482a408d470f661eda4c75a6d0a1f3b346ca6bbe0efaf02acf62dfd08cab786a"
+    },
+    {
+      "url": "https://witsendrecords.com/products/37761801?variant=52979310690584",
+      "sha256": "9c4d52e978777473a8064afd948f349fe4dfe534831e91f1631ee86cc4aa7037"
+    },
+    {
+      "url": "https://witsendrecords.com/products/10089199?variant=53013317452056",
+      "sha256": "f3a5acdf7005d56b8dae2c73b133fb6e40406392cd70e6a648f16ed0cbc04fef"
+    },
+    {
+      "url": "https://witsendrecords.com/products/28570972?variant=53013317517592",
+      "sha256": "b7619544ecc14471ebc03ea73fcd17089081ddb65fd7193f04333b75314faa92"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_3254",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://witsendrecords.com/products/37761801?variant=52979310690584",
+    "https://witsendrecords.com/products/10089199?variant=53013317452056",
+    "https://witsendrecords.com/products/28570972?variant=53013317517592"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    3254
+  ],
+  "assessment_path": "assessments/v2/witsendrecords_com/v2-40571453864-1.json"
+}
