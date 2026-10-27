@@ -1,0 +1,180 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T20:41:08.306910+00:00",
+  "shop_id": "twoshopsinorange.com",
+  "row": 58,
+  "name": "Above Face Oddities and More",
+  "domain": "twoshopsinorange.com",
+  "country": "US",
+  "website": "https://twoshopsinorange.com/",
+  "previous_status": "DETAIL_GATE_BLOCKED",
+  "previous_reason": "no detail page passed the bounded recheck",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 58,
+    "name": "Above Face Oddities and More",
+    "domain": "twoshopsinorange.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "listing",
+    "platform": "shopify",
+    "source_url": "https://twoshopsinorange.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 1,
+    "accepted": 0,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://twoshopsinorange.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://twoshopsinorange.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 1,
+        "accepted": 0,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://twoshopsinorange.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 1,
+        "accepted": 0,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://twoshopsinorange.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://twoshopsinorange.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://twoshopsinorange.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://twoshopsinorange.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://twoshopsinorange.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://twoshopsinorange.com/products.json?limit=20&page=1",
+      "score": 0,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "reason": "no confirmed new vinyl on bounded page"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://twoshopsinorange.com/products.json?limit=20&page=1",
+  "listing_sample": 0,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 0,
+    "unique_prices": 0,
+    "shipping_hits": 0,
+    "currencies": []
+  },
+  "secondhand_observed": false,
+  "examples": [],
+  "requests": [
+    {
+      "url": "https://twoshopsinorange.com/robots.txt",
+      "sha256": "7195900e73ff4d67144c8646e29d67f425a929bbd362db12e15719bb9bf9b655"
+    },
+    {
+      "url": "https://twoshopsinorange.com/",
+      "sha256": "fbf5cda0a9580d0952f7b6977feafb48e7f7be06913d5e5ef453259bd7e3a3b6"
+    },
+    {
+      "url": "https://twoshopsinorange.com/products.json?limit=20&page=1",
+      "sha256": "285a4e3e130480aa347d2e40b2d86c19d116448cf2289f558ea1ab1c181f8701"
+    },
+    {
+      "url": "https://twoshopsinorange.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "3e33479353925cdeb9016be73f30dc51102c163a777da958954ba4589847373d"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:vinyl",
+    "not_proven:new_used_distinguishable",
+    "not_proven:public_prices",
+    "not_proven:availability",
+    "not_proven:stable_urls"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": false,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": false,
+    "availability": false,
+    "stable_urls": false,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_58",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40579918952-1",
+  "queue_rows": [
+    58
+  ],
+  "assessment_path": "assessments/v2/twoshopsinorange_com/v2-40579918952-1.json"
+}
