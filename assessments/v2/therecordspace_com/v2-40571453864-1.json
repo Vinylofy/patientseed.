@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:54:12.593303+00:00",
+  "shop_id": "therecordspace.com",
+  "row": 2789,
+  "name": "The Record Space",
+  "domain": "therecordspace.com",
+  "country": "US",
+  "website": "https://therecordspace.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2789,
+    "name": "The Record Space",
+    "domain": "therecordspace.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://therecordspace.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 12,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://therecordspace.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://therecordspace.com/products.json?limit=20&page=1",
+        "score": 95,
+        "products_seen": 20,
+        "accepted": 9,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://therecordspace.com/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://therecordspace.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://therecordspace.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://therecordspace.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://therecordspace.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://therecordspace.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://therecordspace.com/collections/all/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://therecordspace.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 5,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://therecordspace.com/products/danzig-black-laden-crown-lp-2017-nuclear-blast-orange-with-red-black-splatter-signed-by-glenn-danzig?variant=40441777619153",
+      "artist": "",
+      "title": "Danzig Black Laden Crown LP 2017 Nuclear Blast Orange with Red & Black Splatter Signed By Glenn Danzig T",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "200.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://therecordspace.com/products/chaos-u-k-chaos-u-k-trs-exclusive-blue-vinyl-50?variant=40396087361745",
+      "artist": "",
+      "title": "Chaos U.K. \"Chaos U.K.\" TRS Exclusive Blue Vinyl /50",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "25.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://therecordspace.com/products/adicts-smart-alex-new-lp-trs-exclusive-50?variant=40012281250001",
+      "artist": "",
+      "title": "Adicts Smart Alex NEW LP (TRS Exclusive /50)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "25.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://therecordspace.com/robots.txt",
+      "sha256": "62d33c1476a908c8b0b53d8e10d0044ee27ed14471b1cbf7243db58c6efea075"
+    },
+    {
+      "url": "https://therecordspace.com/",
+      "sha256": "10163de34d6c89f1d23396688a13d86002a3c86d19ac28dd5a8aec177d61409a"
+    },
+    {
+      "url": "https://therecordspace.com/products.json?limit=20&page=1",
+      "sha256": "a1280734717aeaf6dcde37c10586360322d5d528319cd0d77dc3195deb08be81"
+    },
+    {
+      "url": "https://therecordspace.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "c8e2ad74273f4a203362a0ffade8421f046c65995d2ed295b4178a52a1dd0c29"
+    },
+    {
+      "url": "https://therecordspace.com/products/adicts-smart-alex-new-lp-trs-exclusive-50",
+      "sha256": "b228bb096b00d652c316300f7f80ae56b1c76bbdff1e1bc1b3834369a06f6a52"
+    },
+    {
+      "url": "https://therecordspace.com/products/adicts-sound-of-music-new-lp-trs-exclusive-50",
+      "sha256": "4a8c4848ca9d4065610290717596a3aea00914054f02c7933e8815fb3984e1e8"
+    },
+    {
+      "url": "https://therecordspace.com/products/danzig-black-laden-crown-lp-2017-nuclear-blast-orange-with-red-black-splatter-signed-by-glenn-danzig?variant=40441777619153",
+      "sha256": "632d11e8e4d8d60723648009303acb76a149398a4a6394fb7ce1a24715a48f52"
+    },
+    {
+      "url": "https://therecordspace.com/products/chaos-u-k-chaos-u-k-trs-exclusive-blue-vinyl-50?variant=40396087361745",
+      "sha256": "4384a39cbc0394241b35ca3b675669b154ab7b3dc70561b726d4f3c88b5d907d"
+    },
+    {
+      "url": "https://therecordspace.com/products/adicts-smart-alex-new-lp-trs-exclusive-50?variant=40012281250001",
+      "sha256": "b5bd72993364a831314a0f1460da7e2c0dd0da06f6b4b3e85037c61d87cbc889"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.08333333333333333,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2789",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://therecordspace.com/products/danzig-black-laden-crown-lp-2017-nuclear-blast-orange-with-red-black-splatter-signed-by-glenn-danzig?variant=40441777619153",
+    "https://therecordspace.com/products/chaos-u-k-chaos-u-k-trs-exclusive-blue-vinyl-50?variant=40396087361745",
+    "https://therecordspace.com/products/adicts-smart-alex-new-lp-trs-exclusive-50?variant=40012281250001"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2789
+  ],
+  "assessment_path": "assessments/v2/therecordspace_com/v2-40571453864-1.json"
+}
