@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:44:19.209333+00:00",
+  "shop_id": "evergreenvinyl.com",
+  "row": 878,
+  "name": "Evergreen Vinyl",
+  "domain": "evergreenvinyl.com",
+  "country": "US",
+  "website": "https://evergreenvinyl.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 878,
+    "name": "Evergreen Vinyl",
+    "domain": "evergreenvinyl.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://evergreenvinyl.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://evergreenvinyl.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://evergreenvinyl.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://evergreenvinyl.com/collections/all/products.json?limit=20&page=1",
+        "score": 175,
+        "products_seen": 21,
+        "accepted": 17,
+        "excluded": 4,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://evergreenvinyl.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://evergreenvinyl.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://evergreenvinyl.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://evergreenvinyl.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://evergreenvinyl.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://evergreenvinyl.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://evergreenvinyl.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 14,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://evergreenvinyl.com/products/m-i-a-matangi-vinyl?variant=67524684546206",
+      "artist": "M.I.A.",
+      "title": "Matangi (Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "33.00",
+      "currency": "USD",
+      "valid_eans": [
+        "00602537603220"
+      ],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://evergreenvinyl.com/products/chinese-man-weve-been-here-before-vinyl?variant=67525837389982",
+      "artist": "Chinese Man",
+      "title": "We've Been Here Before (Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "44.00",
+      "currency": "USD",
+      "valid_eans": [
+        "03700398729503"
+      ],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://evergreenvinyl.com/products/caravan-palace-chronologic-deluxe-limited-edition-white-vinyl?variant=67505615569054",
+      "artist": "Caravan Palace",
+      "title": "Chronologic (Deluxe Limited Edition White Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "30.00",
+      "currency": "USD",
+      "valid_eans": [
+        "00813615015044"
+      ],
+      "condition_basis": "explicit_new"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://evergreenvinyl.com/robots.txt",
+      "sha256": "14f3e3554689aeb047bb61893c4e2759899c7f9a27738890631cced5d9c80fb8"
+    },
+    {
+      "url": "https://evergreenvinyl.com/",
+      "sha256": "dbb1a72f7a51e47f373796d8b21a2d5f7ce33577d2a1a9656dd5be50f51ed14f"
+    },
+    {
+      "url": "https://evergreenvinyl.com/products.json?limit=20&page=1",
+      "sha256": "60e5abb47ba57512bf1343e5467c86f964d262495c45c7a7b1004145ee8836fe"
+    },
+    {
+      "url": "https://evergreenvinyl.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "f9410e9a1f10228872869b5225a4400f885f13a0da81311b9e0a09c73bd148ea"
+    },
+    {
+      "url": "https://evergreenvinyl.com/products/caravan-palace-chronologic-deluxe-limited-edition-white-vinyl",
+      "sha256": "5b5c0618a37f600c5a3db07bc5fc09f33c028eec77002ff73cdbc84241651d95"
+    },
+    {
+      "url": "https://evergreenvinyl.com/products/caravan-palace-robot-face-vinyl",
+      "sha256": "94643ae4d2e15825324454e7d6e2f21632e54e940482e417e7d2d73d585428eb"
+    },
+    {
+      "url": "https://evergreenvinyl.com/products/m-i-a-matangi-vinyl?variant=67524684546206",
+      "sha256": "2b36702434267364f69c6ef5626132d35039867ecab69567e5cc1a9ddb5ea2ea"
+    },
+    {
+      "url": "https://evergreenvinyl.com/products/chinese-man-weve-been-here-before-vinyl?variant=67525837389982",
+      "sha256": "dfd4e90d1d5752f2829c0be2d83f362e271890155bfd876d246a18c7a6e13f5f"
+    },
+    {
+      "url": "https://evergreenvinyl.com/products/caravan-palace-chronologic-deluxe-limited-edition-white-vinyl?variant=67505615569054",
+      "sha256": "bdfeaeaf21ed897a318b71083d719eea1ba5d6ab0f32f304b1bf374729bc6b1d"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": true,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.95,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_878",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://evergreenvinyl.com/products/m-i-a-matangi-vinyl?variant=67524684546206",
+    "https://evergreenvinyl.com/products/chinese-man-weve-been-here-before-vinyl?variant=67525837389982",
+    "https://evergreenvinyl.com/products/caravan-palace-chronologic-deluxe-limited-edition-white-vinyl?variant=67505615569054"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    878
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 20,
+  "candidate_ref": "v2-40571453864-1/evergreenvinyl_com",
+  "assessment_path": "assessments/v2/evergreenvinyl_com/v2-40571453864-1.json"
+}
