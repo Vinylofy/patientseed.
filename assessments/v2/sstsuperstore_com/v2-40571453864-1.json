@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:53:33.531684+00:00",
+  "shop_id": "sstsuperstore.com",
+  "row": 2545,
+  "name": "Sst Records Inc",
+  "domain": "sstsuperstore.com",
+  "country": "US",
+  "website": "https://sstsuperstore.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2545,
+    "name": "Sst Records Inc",
+    "domain": "sstsuperstore.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://sstsuperstore.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 8,
+    "excluded": 12,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://sstsuperstore.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://sstsuperstore.com/products.json?limit=20&page=1",
+        "score": 35,
+        "products_seen": 20,
+        "accepted": 3,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://sstsuperstore.com/collections/all/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 20,
+        "accepted": 8,
+        "excluded": 12,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://sstsuperstore.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://sstsuperstore.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://sstsuperstore.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://sstsuperstore.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://sstsuperstore.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://sstsuperstore.com/collections/all/products.json?limit=20&page=1",
+      "score": 85,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://sstsuperstore.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 8,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 8,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://sstsuperstore.com/products/all-percolater-12-inch-vinyl-record?variant=41398048817322",
+      "artist": "ALL",
+      "title": "Percolater - 12\" inch vinyl record",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "25.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://sstsuperstore.com/products/all-allroys-revenge-12-inch-vinyl-record?variant=41398049964202",
+      "artist": "ALL",
+      "title": "Allroy's Revenge - 12\" inch vinyl record",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "25.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://sstsuperstore.com/products/all-allroy-for-prez-12-inch-vinyl-record?variant=41398050193578",
+      "artist": "ALL",
+      "title": "Allroy for Prez  - 12\" inch vinyl record",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "22.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://sstsuperstore.com/robots.txt",
+      "sha256": "7711999b9e9410fa18354590402ee70a986cd26baaaa1d9fc609e0b2ab8b6850"
+    },
+    {
+      "url": "https://sstsuperstore.com/",
+      "sha256": "ae95444011c3fbfc693adb83bdda68ebf71f8c94db39b05a06beabd33a42026d"
+    },
+    {
+      "url": "https://sstsuperstore.com/products.json?limit=20&page=1",
+      "sha256": "371f2e9fc571803c48365067458d3c150a6fecab85b967b068fc95d1589f60a7"
+    },
+    {
+      "url": "https://sstsuperstore.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "722829d9f3a7298115277a94ae08c49900ff3f4eeacebf51a752ffe3a4fd0206"
+    },
+    {
+      "url": "https://sstsuperstore.com/products/all-allroy-for-prez-12-inch-vinyl-record",
+      "sha256": "fa3fe9184e6dddb5e8669b934c851cdd50156a0991f2f888d3e7ace01dca8350"
+    },
+    {
+      "url": "https://sstsuperstore.com/products/all-allroy-saves-12-inch-vinyl-record",
+      "sha256": "c28d96f767d3697cdbe6dbb68bb7fe6e0a9e9759cd0f9b61ebd84982e2034e55"
+    },
+    {
+      "url": "https://sstsuperstore.com/products/all-percolater-12-inch-vinyl-record?variant=41398048817322",
+      "sha256": "4df3480a9196894f047c8ff283b8e6f0260c535ec5af5c2a68af08ca415cf628"
+    },
+    {
+      "url": "https://sstsuperstore.com/products/all-allroys-revenge-12-inch-vinyl-record?variant=41398049964202",
+      "sha256": "aed5a4c957501b0ec1398a8308c2b14c418c6524baa58d45e8352eb2c3665a96"
+    },
+    {
+      "url": "https://sstsuperstore.com/products/all-allroy-for-prez-12-inch-vinyl-record?variant=41398050193578",
+      "sha256": "7271da907283293226d9f00b2d5470c2a214c365f8dd27c651480e1cad80090a"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2545",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://sstsuperstore.com/products/all-percolater-12-inch-vinyl-record?variant=41398048817322",
+    "https://sstsuperstore.com/products/all-allroys-revenge-12-inch-vinyl-record?variant=41398049964202",
+    "https://sstsuperstore.com/products/all-allroy-for-prez-12-inch-vinyl-record?variant=41398050193578"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2545
+  ],
+  "assessment_path": "assessments/v2/sstsuperstore_com/v2-40571453864-1.json"
+}
