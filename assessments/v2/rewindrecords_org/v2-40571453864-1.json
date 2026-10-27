@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:50:31.449712+00:00",
+  "shop_id": "rewindrecords.org",
+  "row": 2209,
+  "name": "Rewind Records",
+  "domain": "rewindrecords.org",
+  "country": "US",
+  "website": "https://rewindrecords.org/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2209,
+    "name": "Rewind Records",
+    "domain": "rewindrecords.org",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://rewindrecords.org/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 16,
+    "excluded": 4,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://rewindrecords.org/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://rewindrecords.org/products.json?limit=20&page=1",
+        "score": 165,
+        "products_seen": 20,
+        "accepted": 16,
+        "excluded": 4,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://rewindrecords.org/collections/all/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://rewindrecords.org/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rewindrecords.org/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rewindrecords.org/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rewindrecords.org/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rewindrecords.org/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://rewindrecords.org/products.json?limit=20&page=1",
+      "score": 165,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://rewindrecords.org/products.json?limit=20&page=1",
+  "listing_sample": 16,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 16,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://rewindrecords.org/products/badfinger-wish-you-were-here-1?variant=42012762046534",
+      "artist": "Badfinger",
+      "title": "Wish You Were Here",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "30.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "used_or_grading_signal"
+    },
+    {
+      "url": "https://rewindrecords.org/products/robin-trower-bridge-of-sighs-1?variant=45870236926022",
+      "artist": "Robin Trower",
+      "title": "Bridge Of Sighs",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "20.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "used_or_grading_signal"
+    },
+    {
+      "url": "https://rewindrecords.org/products/traffic-shoot-out-at-the-fantasy-factory?variant=46477140557894",
+      "artist": "Traffic",
+      "title": "Shoot Out At The Fantasy Factory",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "31.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "used_or_grading_signal"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://rewindrecords.org/robots.txt",
+      "sha256": "d8228d4dbe6a2798f60bdb7371c94f94579aa344d93683d87017cbd16c0f6f44"
+    },
+    {
+      "url": "https://rewindrecords.org/",
+      "sha256": "a5606984e2142bb621249e337435ef1661b0b40856fc3eba9961c312c549416d"
+    },
+    {
+      "url": "https://rewindrecords.org/products.json?limit=20&page=1",
+      "sha256": "be2988229e9d19ff6806178a00f5737566fa401025b2f26f63d926212137abfd"
+    },
+    {
+      "url": "https://rewindrecords.org/collections/all/products.json?limit=20&page=1",
+      "sha256": "4929624986cd89bdc4f43f64e8924ef6afd7d81262d5b33d09624eb11536bfb3"
+    },
+    {
+      "url": "https://rewindrecords.org/products/traffic-shoot-out-at-the-fantasy-factory",
+      "sha256": "6c1c05ef77230e057f97b38c738b266ece66f682b1c1191223a6d344c2bafc7e"
+    },
+    {
+      "url": "https://rewindrecords.org/products/robyn-hitchcock-the-egyptians-fegmania",
+      "sha256": "0f811b7fc601621a23a203fbe8c33c361b7accb0e6180791ade7ca8d6b79cafe"
+    },
+    {
+      "url": "https://rewindrecords.org/products/badfinger-wish-you-were-here-1?variant=42012762046534",
+      "sha256": "0c24ece34b5faee96bc105bbde5c53fa77cbb0b12c7bb6be812d97c76fce8f2b"
+    },
+    {
+      "url": "https://rewindrecords.org/products/robin-trower-bridge-of-sighs-1?variant=45870236926022",
+      "sha256": "df8fc9d2bad18ac3f54237329db899f7e769e2b1e44cc39aa4e5deee39d8b9d6"
+    },
+    {
+      "url": "https://rewindrecords.org/products/traffic-shoot-out-at-the-fantasy-factory?variant=46477140557894",
+      "sha256": "2c159025b46625f775acb4feb7da44ce712caee15c88152b2ee910c1d509f890"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:new_used_distinguishable"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2209",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://rewindrecords.org/products/badfinger-wish-you-were-here-1?variant=42012762046534",
+    "https://rewindrecords.org/products/robin-trower-bridge-of-sighs-1?variant=45870236926022",
+    "https://rewindrecords.org/products/traffic-shoot-out-at-the-fantasy-factory?variant=46477140557894"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2209
+  ],
+  "assessment_path": "assessments/v2/rewindrecords_org/v2-40571453864-1.json"
+}
