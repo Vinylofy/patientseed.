@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T20:41:16.705371+00:00",
+  "shop_id": "unleashabraxas.com",
+  "row": 59,
+  "name": "Abraxas",
+  "domain": "unleashabraxas.com",
+  "country": "US",
+  "website": "https://unleashabraxas.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 59,
+    "name": "Abraxas",
+    "domain": "unleashabraxas.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://unleashabraxas.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 5,
+    "excluded": 15,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://unleashabraxas.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://unleashabraxas.com/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://unleashabraxas.com/collections/all/products.json?limit=20&page=1",
+        "score": 55,
+        "products_seen": 20,
+        "accepted": 5,
+        "excluded": 15,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://unleashabraxas.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://unleashabraxas.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://unleashabraxas.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://unleashabraxas.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://unleashabraxas.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://unleashabraxas.com/collections/all/products.json?limit=20&page=1",
+      "score": 55,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://unleashabraxas.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 5,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 5,
+    "unique_prices": 4,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://unleashabraxas.com/robots.txt",
+      "sha256": "b7f91e3f98a07ca602a0639a0d9fb792ce1d6df85be45cbeedf5a3fc6793f847"
+    },
+    {
+      "url": "https://unleashabraxas.com/",
+      "sha256": "d9029b19bd6902b695951dcb2629c6613531853eac63dc28f2c43f6579e1f349"
+    },
+    {
+      "url": "https://unleashabraxas.com/products.json?limit=20&page=1",
+      "sha256": "cd27eccef90f77c350ef0d343cd20fae8926615af04ac6dc7cb430ffe6fe8367"
+    },
+    {
+      "url": "https://unleashabraxas.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "6214bb11ee7c72723d68c9f1a6c6cebb4861fd3b8892d40603d3c158431da061"
+    },
+    {
+      "url": "https://unleashabraxas.com/products/156-the-beehive-suite",
+      "sha256": "29fe5560cd8efeb03cae7356886a6af7eca7142d556f46abd85e26290aae5be7"
+    },
+    {
+      "url": "https://unleashabraxas.com/products/2-stoopid-a-couple-dope-cuts-12",
+      "sha256": "7dafb1c851eb87cca2e6ca818aa9e4a27c62cf100bcb2f15af837b3d5bd3b9d6"
+    },
+    {
+      "url": "https://unleashabraxas.com/products/a-global-threat-demo-97-10?variant=42272927285318",
+      "sha256": "d467ab303b030a3f3b8504256f74904b1de0d85c2aa2c29226ae57286a325692"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_59",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40579918952-1",
+  "queue_rows": [
+    59
+  ],
+  "assessment_path": "assessments/v2/unleashabraxas_com/v2-40579918952-1.json"
+}
