@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:49:28.249653+00:00",
+  "shop_id": "queenbvinylcafe.com",
+  "row": 1995,
+  "name": "Queen B Vinyl Café",
+  "domain": "queenbvinylcafe.com",
+  "country": "US",
+  "website": "https://queenbvinylcafe.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1995,
+    "name": "Queen B Vinyl Café",
+    "domain": "queenbvinylcafe.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://queenbvinylcafe.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://queenbvinylcafe.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://queenbvinylcafe.com/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://queenbvinylcafe.com/collections/all/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://queenbvinylcafe.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://queenbvinylcafe.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://queenbvinylcafe.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://queenbvinylcafe.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://queenbvinylcafe.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://queenbvinylcafe.com/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://queenbvinylcafe.com/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 13,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://queenbvinylcafe.com/products/bad-brains-s-t-punk-note-edition-lp?variant=53561833947317",
+      "artist": "",
+      "title": "BAD BRAINS s/t Punk Note Edition [LP]",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "21.60",
+      "currency": "USD",
+      "valid_eans": [
+        "00711574901388"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://queenbvinylcafe.com/products/cannibal-corpse-wretched-spawn-picture-disc-lp?variant=53595043791029",
+      "artist": "CANNIBAL CORPSE",
+      "title": "Wretched Spawn [Picture Disc LP]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "39.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00803341637160"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://queenbvinylcafe.com/products/trippie-redd-n-d-a-lp?variant=53602806759605",
+      "artist": "TRIPPIE REDD",
+      "title": "N.D.A {LP}",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "39.98",
+      "currency": "USD",
+      "valid_eans": [
+        "00075678584794"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://queenbvinylcafe.com/robots.txt",
+      "sha256": "2100b6428a0b2848713a604836dad18a7d2f4073b11fc9645fb30caff627cda7"
+    },
+    {
+      "url": "https://queenbvinylcafe.com/",
+      "sha256": "cc45f1a18997941be447c9a537fd200c1048a8222bec02f5f2d448e4cde34489"
+    },
+    {
+      "url": "https://queenbvinylcafe.com/products.json?limit=20&page=1",
+      "sha256": "d0fed936c6786ec2c99052bffa49af3be8a600f83883d68ad9c6286976e974ad"
+    },
+    {
+      "url": "https://queenbvinylcafe.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "c507c9ef80588bbc45ba7e75467a82f380c8524668c56f8cb4ec0138f98755e8"
+    },
+    {
+      "url": "https://queenbvinylcafe.com/products/trippie-redd-n-d-a-lp",
+      "sha256": "04a640eb71b5f29f7ccb816a1012fb4a3bd5d632b3d38c24934f3703aae5cbb6"
+    },
+    {
+      "url": "https://queenbvinylcafe.com/products/t-i-kill-the-king-lp",
+      "sha256": "d9172f37806f56b4507506c9ca3ac998426884d3f031cad4eeb7ecd06582a182"
+    },
+    {
+      "url": "https://queenbvinylcafe.com/products/bad-brains-s-t-punk-note-edition-lp?variant=53561833947317",
+      "sha256": "9f35280601db2309872894ba56ac2470e2e9332fcd608388db2ab0e4ac49e774"
+    },
+    {
+      "url": "https://queenbvinylcafe.com/products/cannibal-corpse-wretched-spawn-picture-disc-lp?variant=53595043791029",
+      "sha256": "a0a6d88efdb62e3c3b1dfeb209ba341db8b3370074fd1f4dbf318f4456d63398"
+    },
+    {
+      "url": "https://queenbvinylcafe.com/products/trippie-redd-n-d-a-lp?variant=53602806759605",
+      "sha256": "62bf0b6247fea138343d4a82fbcd49f9aff19f37f6b22a77b89b35fc1643433a"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.9473684210526315,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_1995",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://queenbvinylcafe.com/products/bad-brains-s-t-punk-note-edition-lp?variant=53561833947317",
+    "https://queenbvinylcafe.com/products/cannibal-corpse-wretched-spawn-picture-disc-lp?variant=53595043791029",
+    "https://queenbvinylcafe.com/products/trippie-redd-n-d-a-lp?variant=53602806759605"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    1995
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 19,
+  "candidate_ref": "v2-40571453864-1/queenbvinylcafe_com",
+  "assessment_path": "assessments/v2/queenbvinylcafe_com/v2-40571453864-1.json"
+}
