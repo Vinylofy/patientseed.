@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:52:53.436091+00:00",
+  "shop_id": "soulstoprecords.com",
+  "row": 2471,
+  "name": "Soul Stop Records",
+  "domain": "soulstoprecords.com",
+  "country": "US",
+  "website": "https://soulstoprecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2471,
+    "name": "Soul Stop Records",
+    "domain": "soulstoprecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://soulstoprecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 18,
+    "excluded": 2,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://soulstoprecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://soulstoprecords.com/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 20,
+        "accepted": 13,
+        "excluded": 7,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://soulstoprecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://soulstoprecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://soulstoprecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://soulstoprecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://soulstoprecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://soulstoprecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://soulstoprecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 185,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://soulstoprecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 18,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 18,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://soulstoprecords.com/products/alice-coltrane-journey-in-satchidananda-verve-acoustic-series-lp-verve?variant=50390051750187",
+      "artist": "Alice Coltrane",
+      "title": "Journey In Satchidananda (Verve Acoustic Series) - LP - Verve",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "36.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://soulstoprecords.com/products/adrianne-lenker-bright-future-lp-4ad?variant=49540906909995",
+      "artist": "Adrianne Lenker",
+      "title": "Bright Future - LP - 4AD",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "30.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://soulstoprecords.com/products/21-savage-metro-boomin-savage-mode-colored-vinyl-lp-sony?variant=55400725905707",
+      "artist": "21 Savage & Metro Boomin",
+      "title": " Savage Mode (Colored Vinyl) - LP - Sony",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "30.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://soulstoprecords.com/robots.txt",
+      "sha256": "60634215659fe8935255b247345b83fbd4a6cf71fd5131cd703cd5457e691db4"
+    },
+    {
+      "url": "https://soulstoprecords.com/",
+      "sha256": "141b87caab7e78063463721511f135ab2a2057ce71671f9e1cf62babfbe1d93c"
+    },
+    {
+      "url": "https://soulstoprecords.com/products.json?limit=20&page=1",
+      "sha256": "19c70e923a88eb4f1243539fa000031f93dc4f84f45b449c4de0a189fb8325fa"
+    },
+    {
+      "url": "https://soulstoprecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "964e2fbe2a8a6ad40e58a9d85f533a39b531d348c39b79e036861ef46368e23a"
+    },
+    {
+      "url": "https://soulstoprecords.com/products/21-savage-metro-boomin-savage-mode-colored-vinyl-lp-sony",
+      "sha256": "1e572b7825d2bd3bdb1a4fe7d0818d4268709971839932ddf16d4c9cbac37387"
+    },
+    {
+      "url": "https://soulstoprecords.com/products/311-greatest-hits-lp-sony",
+      "sha256": "3cfa75cb71dc86ccd67199ad30fff51e8a47aa172bef76e83b67ac927025a04f"
+    },
+    {
+      "url": "https://soulstoprecords.com/products/alice-coltrane-journey-in-satchidananda-verve-acoustic-series-lp-verve?variant=50390051750187",
+      "sha256": "62bbdfc021bfddfa153d1ec6ecb2478a60b87a2d97969b8c9b5631cfb2585529"
+    },
+    {
+      "url": "https://soulstoprecords.com/products/adrianne-lenker-bright-future-lp-4ad?variant=49540906909995",
+      "sha256": "20bb5d180a036acb6c7c83d01f64435234d6da4e70d0be5f2c3bd7e40d5b397b"
+    },
+    {
+      "url": "https://soulstoprecords.com/products/21-savage-metro-boomin-savage-mode-colored-vinyl-lp-sony?variant=55400725905707",
+      "sha256": "8b0b31b2eace142e1b3a87b85c4fcdbcf48d928e3a8b503ac39f36a10d26b7ee"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2471",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://soulstoprecords.com/products/alice-coltrane-journey-in-satchidananda-verve-acoustic-series-lp-verve?variant=50390051750187",
+    "https://soulstoprecords.com/products/adrianne-lenker-bright-future-lp-4ad?variant=49540906909995",
+    "https://soulstoprecords.com/products/21-savage-metro-boomin-savage-mode-colored-vinyl-lp-sony?variant=55400725905707"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2471
+  ],
+  "assessment_path": "assessments/v2/soulstoprecords_com/v2-40571453864-1.json"
+}
