@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:49:01.563083+00:00",
+  "shop_id": "plumcreekrecords.com",
+  "row": 1948,
+  "name": "Plum Creek Records & Tapes",
+  "domain": "plumcreekrecords.com",
+  "country": "US",
+  "website": "https://plumcreekrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1948,
+    "name": "Plum Creek Records & Tapes",
+    "domain": "plumcreekrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://plumcreekrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 15,
+    "excluded": 5,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://plumcreekrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://plumcreekrecords.com/products.json?limit=20&page=1",
+        "score": 155,
+        "products_seen": 20,
+        "accepted": 15,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://plumcreekrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 145,
+        "products_seen": 21,
+        "accepted": 14,
+        "excluded": 7,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://plumcreekrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://plumcreekrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://plumcreekrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://plumcreekrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://plumcreekrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://plumcreekrecords.com/products.json?limit=20&page=1",
+      "score": 155,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://plumcreekrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 15,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 15,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://plumcreekrecords.com/products/v-a-the-sam-phillips-years-sun-records-curated-by-rsd-volume-9-lp?variant=49347247833323",
+      "artist": "V/A",
+      "title": "The Sam Phillips Years: Sun Records Curated by RSD, Volume 9 (LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "15.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://plumcreekrecords.com/products/brittany-howard-live-from-austin-city-limits-lp?variant=49429502230763",
+      "artist": "Brittany Howard",
+      "title": "Live From Austin City Limits (LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "27.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://plumcreekrecords.com/products/my-morning-jacket-is-indie-exclusive-blue-iceberg-lp?variant=68224235208939",
+      "artist": "My Morning Jacket",
+      "title": "is (Indie Exclusive Blue Iceberg LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "27.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://plumcreekrecords.com/robots.txt",
+      "sha256": "d57ebb929da8c67de6fd58a94b787aaf416254d82d63e6d92837fc49f46cbb3c"
+    },
+    {
+      "url": "https://plumcreekrecords.com/",
+      "sha256": "fba6388d4ac0573322ff2d6049e3616b7aa0652783f4d36da5aa4424de7baf34"
+    },
+    {
+      "url": "https://plumcreekrecords.com/products.json?limit=20&page=1",
+      "sha256": "af07314cccce917e748da9f9adb949872b8f8e0c7d71ca956917668bbaa690b0"
+    },
+    {
+      "url": "https://plumcreekrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "b16b3e6c0106b917948b68df66b5d63d67f7af8b3d7dba85de379c443f35339f"
+    },
+    {
+      "url": "https://plumcreekrecords.com/products/my-morning-jacket-is-indie-exclusive-blue-iceberg-lp",
+      "sha256": "8a2dec15307fe1ae5bb4107d4e9d26175841edf2538cd3fed53dc6e9ca2b75b2"
+    },
+    {
+      "url": "https://plumcreekrecords.com/products/neal-francis-return-to-zero-lp",
+      "sha256": "ce29ffba5516e0ad526897914df822d242fdde85bbd1d8cb06dd2bca3b28ca0b"
+    },
+    {
+      "url": "https://plumcreekrecords.com/products/v-a-the-sam-phillips-years-sun-records-curated-by-rsd-volume-9-lp?variant=49347247833323",
+      "sha256": "acc102628a880b5067ce04208ec496412002c0a0001aeb4b8d17f36a7f3704b4"
+    },
+    {
+      "url": "https://plumcreekrecords.com/products/brittany-howard-live-from-austin-city-limits-lp?variant=49429502230763",
+      "sha256": "7cffc924a9a4b19810e10d961fe62793728ff44fc0c1fc7cfc9e620c9977e638"
+    },
+    {
+      "url": "https://plumcreekrecords.com/products/my-morning-jacket-is-indie-exclusive-blue-iceberg-lp?variant=68224235208939",
+      "sha256": "fd0452932c2ac6a9a9b98c88425579bcbd5442806bd33a3b470c69f3ba209685"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_1948",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://plumcreekrecords.com/products/v-a-the-sam-phillips-years-sun-records-curated-by-rsd-volume-9-lp?variant=49347247833323",
+    "https://plumcreekrecords.com/products/brittany-howard-live-from-austin-city-limits-lp?variant=49429502230763",
+    "https://plumcreekrecords.com/products/my-morning-jacket-is-indie-exclusive-blue-iceberg-lp?variant=68224235208939"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    1948
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 15,
+  "candidate_ref": "v2-40571453864-1/plumcreekrecords_com",
+  "assessment_path": "assessments/v2/plumcreekrecords_com/v2-40571453864-1.json"
+}
