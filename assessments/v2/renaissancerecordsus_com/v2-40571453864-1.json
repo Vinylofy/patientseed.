@@ -1,0 +1,202 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:50:07.328503+00:00",
+  "shop_id": "renaissancerecordsus.com",
+  "row": 2161,
+  "name": "Renaissance Records - Label HQ",
+  "domain": "renaissancerecordsus.com",
+  "country": "US",
+  "website": "https://renaissancerecordsus.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2161,
+    "name": "Renaissance Records - Label HQ",
+    "domain": "renaissancerecordsus.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://renaissancerecordsus.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 53,
+    "accepted": 20,
+    "excluded": 14,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://renaissancerecordsus.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://renaissancerecordsus.com/products.json?limit=20&page=1",
+        "score": 145,
+        "products_seen": 20,
+        "accepted": 14,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://renaissancerecordsus.com/collections/all/products.json?limit=20&page=1",
+        "score": 395,
+        "products_seen": 53,
+        "accepted": 39,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://renaissancerecordsus.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://renaissancerecordsus.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://renaissancerecordsus.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://renaissancerecordsus.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://renaissancerecordsus.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://renaissancerecordsus.com/collections/all/products.json?limit=20&page=1",
+      "score": 395,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://renaissancerecordsus.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://renaissancerecordsus.com/products/buy-vinyl-sweatshirt-rrus?variant=49528090100029",
+      "artist": "\"BUY VINYL\" Sweatshirt",
+      "title": "RRUS",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "50.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://renaissancerecordsus.com/robots.txt",
+      "sha256": "6e890db8dfc6926879cb0e13b5db781bc5b5077713f21239a7440be121917ac8"
+    },
+    {
+      "url": "https://renaissancerecordsus.com/",
+      "sha256": "a55e11b0aa5e7f6e9200a26d466ec0f7d5be3af50a2f8d086ae52633fe118882"
+    },
+    {
+      "url": "https://renaissancerecordsus.com/products.json?limit=20&page=1",
+      "sha256": "b02948c182147886af04202580f6a5e82bcae4e31a8a711dfe5e8bd97419de89"
+    },
+    {
+      "url": "https://renaissancerecordsus.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "005ffaf83d96b11c18702c7b568ff5ca64692a678551ead0e456f3355c4c7c52"
+    },
+    {
+      "url": "https://renaissancerecordsus.com/products/buy-vinyl-sweatshirt-rrus",
+      "sha256": "a3160baa6124b6514d0d6d2f289952d55747f89245a79617a4f6f2a7bafb36ec"
+    },
+    {
+      "url": "https://renaissancerecordsus.com/products/buy-vinyl-sweatshirt-rrus?variant=49528090100029",
+      "sha256": "721eddd5fd69e6abc4027b8e9ba6e0ab7692b54c8ce5874e83368e1b7493b4e5"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "insufficient_representative_product_evidence"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 0,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2161",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://renaissancerecordsus.com/products/buy-vinyl-sweatshirt-rrus?variant=49528090100029"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2161
+  ],
+  "assessment_path": "assessments/v2/renaissancerecordsus_com/v2-40571453864-1.json"
+}
