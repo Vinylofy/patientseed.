@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:50:44.696061+00:00",
+  "shop_id": "rhinebeckvinylvault.com",
+  "row": 2213,
+  "name": "Rhinebeck Vinyl Vault",
+  "domain": "rhinebeckvinylvault.com",
+  "country": "US",
+  "website": "https://rhinebeckvinylvault.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2213,
+    "name": "Rhinebeck Vinyl Vault",
+    "domain": "rhinebeckvinylvault.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://rhinebeckvinylvault.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 6,
+    "excluded": 14,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://rhinebeckvinylvault.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://rhinebeckvinylvault.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://rhinebeckvinylvault.com/collections/all/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://rhinebeckvinylvault.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rhinebeckvinylvault.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rhinebeckvinylvault.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rhinebeckvinylvault.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rhinebeckvinylvault.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://rhinebeckvinylvault.com/collections/all/products.json?limit=20&page=1",
+      "score": 65,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://rhinebeckvinylvault.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 6,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 6,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://rhinebeckvinylvault.com/products/2-chainz-lil-wayne-welcome-to-colleggrove?variant=44660609155221",
+      "artist": "2 Chainz / Lil Wayne",
+      "title": "Welcome To Collegrove RSD 2024",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "36.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://rhinebeckvinylvault.com/products/13th-floor-elevators-bull-of-the-woods-black-friday-rsd-exclusive?variant=43864181735573",
+      "artist": "13th Floor Elevators",
+      "title": "Bull Of The Woods (Black Friday RSD Exclusive)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "31.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://rhinebeckvinylvault.com/products/uicideboy-new-world-depression?variant=45229358612629",
+      "artist": "$uicideboy$",
+      "title": "New World Depression",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "29.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://rhinebeckvinylvault.com/robots.txt",
+      "sha256": "8837123968e67e060daa08a3f9f6d8a82c8b6382d4871f240322b396ead11c61"
+    },
+    {
+      "url": "https://rhinebeckvinylvault.com/",
+      "sha256": "87d70ecca2a9bc54812481af7bd8027956461a6fbb806b52f9222c8eaff8e58d"
+    },
+    {
+      "url": "https://rhinebeckvinylvault.com/products.json?limit=20&page=1",
+      "sha256": "9c950685019277c988d83b7eee647869ccfe05324f21e6958501803bc2889857"
+    },
+    {
+      "url": "https://rhinebeckvinylvault.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "9c3b2cd9218e2f584268abb10d8383ee24b6f21ddefcf205e152d6c15ded1fd6"
+    },
+    {
+      "url": "https://rhinebeckvinylvault.com/products/uicideboy-new-world-depression",
+      "sha256": "83d61ad717cb6ec0b8e12d65620e19e40ed831beef6641f7836af8d7cbeb293e"
+    },
+    {
+      "url": "https://rhinebeckvinylvault.com/products/copygrateful-dead-blues-for-allah-picture-disc-limited-to-7500",
+      "sha256": "09a60dd6fc777d524fb1aae9eb1337b7dc422d336c548bcd9cccb0eebaec4d15"
+    },
+    {
+      "url": "https://rhinebeckvinylvault.com/products/2-chainz-lil-wayne-welcome-to-colleggrove?variant=44660609155221",
+      "sha256": "1e39f99fac3b2f975fa242c20558c4056d21a493de2fc207b650309b102bd555"
+    },
+    {
+      "url": "https://rhinebeckvinylvault.com/products/13th-floor-elevators-bull-of-the-woods-black-friday-rsd-exclusive?variant=43864181735573",
+      "sha256": "7e16a71d10de9479f200214da5215b1e9acf3c48164e2658f860bc2b200ae720"
+    },
+    {
+      "url": "https://rhinebeckvinylvault.com/products/uicideboy-new-world-depression?variant=45229358612629",
+      "sha256": "66aa05417847f46cbd149d1bba8d4d54aefdf1a9071cf3f052e2877fdd2a7eb0"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.8333333333333334,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_2213",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://rhinebeckvinylvault.com/products/2-chainz-lil-wayne-welcome-to-colleggrove?variant=44660609155221",
+    "https://rhinebeckvinylvault.com/products/13th-floor-elevators-bull-of-the-woods-black-friday-rsd-exclusive?variant=43864181735573",
+    "https://rhinebeckvinylvault.com/products/uicideboy-new-world-depression?variant=45229358612629"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2213
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 5,
+  "candidate_ref": "v2-40571453864-1/rhinebeckvinylvault_com",
+  "assessment_path": "assessments/v2/rhinebeckvinylvault_com/v2-40571453864-1.json"
+}
