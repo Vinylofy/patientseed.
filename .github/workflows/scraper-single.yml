@@ -67,6 +67,11 @@ on:
           - tunnelrecordssf_com
           - turntabletreasures_com
           - unleashabraxas_com
+          - CANDIDATE
+      candidate_ref:
+        description: "For CANDIDATE: assessment-id/slug from the central status list"
+        required: false
+        type: string
       mode:
         description: "Read-only collection mode"
         required: true
@@ -108,16 +113,29 @@ jobs:
         env:
           SLUG: ${{ inputs.scraper_slug }}
           LIMIT: ${{ inputs.limit }}
+          CANDIDATE_REF: ${{ inputs.candidate_ref }}
+          MODE: ${{ inputs.mode }}
         run: |
-          test -f "published/collector/generated/$SLUG.json"
-          test -f "published/collector/generated/$SLUG.py"
+          ROOT=published/collector/generated
+          if [ "$SLUG" = CANDIDATE ]; then
+            [[ "$CANDIDATE_REF" =~ ^v2-[A-Za-z0-9_-]+/[a-z0-9_]+$ ]] || exit 1
+            ROOT="published/collector/candidates/v2/${CANDIDATE_REF%/*}"
+            SLUG="${CANDIDATE_REF##*/}"
+            if [ "$MODE" = ean ]; then
+              python -c 'import json,sys; assert json.load(open(sys.argv[1]))["scraper_type"] == "EAN", "ARTIST_TITLE candidates use price mode"' "$ROOT/$SLUG.json"
+            fi
+          fi
+          test -f "$ROOT/$SLUG.json"
+          test -f "$ROOT/$SLUG.py"
+          echo "PROFILE_ROOT=$ROOT" >> "$GITHUB_ENV"
+          echo "PROFILE_SLUG=$SLUG" >> "$GITHUB_ENV"
           [[ "$LIMIT" =~ ^[0-9]+$ ]] && (( LIMIT >= 1 && LIMIT <= 250 ))
       - name: Run single scraper
         env:
           SLUG: ${{ inputs.scraper_slug }}
           MODE: ${{ inputs.mode }}
           LIMIT: ${{ inputs.limit }}
-        run: python -m collector.execute_generated --root published/collector/generated --profile "$SLUG" --mode "$MODE" --limit "$LIMIT" --output single-scraper-result.json
+        run: python -m collector.execute_generated --root "$PROFILE_ROOT" --profile "$PROFILE_SLUG" --mode "$MODE" --limit "$LIMIT" --output single-scraper-result.json
       - name: Write per-scraper summary
         run: python -m collector.render_run_summary --result single-scraper-result.json
       - uses: actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08 # v4

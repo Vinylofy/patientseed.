@@ -21,6 +21,15 @@ on:
         required: true
         default: "100"
         type: string
+      scraper_type:
+        description: "Additional classification/build selection; AUTO prefers EAN then ARTIST_TITLE"
+        required: true
+        default: AUTO
+        type: choice
+        options:
+          - AUTO
+          - EAN
+          - ARTIST_TITLE
       reset_cursor:
         description: "Reset the durable cursor to the first shop row before this run"
         required: true
@@ -167,3 +176,60 @@ jobs:
           path: scraper-status.md
           if-no-files-found: error
           retention-days: 14
+
+      - name: Select additional assessment mode after legacy source queue
+        if: env.COLLECTOR_EXHAUSTED == 'true'
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python - <<'PYTHON'
+          import json,os
+          enabled=json.load(open('collector/assessment-policy.json'))['enabled'] or os.environ['EVENT_NAME']=='workflow_dispatch'
+          with open(os.environ['GITHUB_ENV'],'a') as f:f.write('ASSESSMENT_ENABLED='+str(enabled).lower()+'\n')
+          PYTHON
+      - name: Load existing scraper profiles without editing them
+        if: env.ASSESSMENT_ENABLED == 'true'
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: scraper-builds
+          path: existing-builds
+          persist-credentials: false
+      - name: Load existing EAN admission evidence read-only
+        if: env.ASSESSMENT_ENABLED == 'true'
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: scraper-quality
+          path: existing-quality
+          persist-credentials: false
+      - name: Load historical source and versioned assessment cursor
+        if: env.ASSESSMENT_ENABLED == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python -m collector.progress export --queue collector/public-queue.json --file assessment-progress.json
+          python -m collector.assessment_store prepare --root assessment-output
+      - name: Assess next shops and build isolated candidates without credentials
+        if: env.ASSESSMENT_ENABLED == 'true'
+        env:
+          BATCH_LIMIT: ${{ inputs.batch_limit || '100' }}
+          SCRAPER_TYPE: ${{ inputs.scraper_type || 'AUTO' }}
+          RUN_ID: ${{ github.run_id }}-${{ github.run_attempt }}
+        run: |
+          python -u -m collector.assessment_batch --queue collector/public-queue.json \
+            --progress assessment-progress.json --index assessment-output/index.json \
+            --metadata collector/shop-metadata.json --published existing-builds/collector/generated \
+            --quality existing-quality/quality/state.json --output assessment-output \
+            --batch-limit "$BATCH_LIMIT" --scraper-type "$SCRAPER_TYPE" --run-id "$RUN_ID"
+      - name: Preserve versioned assessments and update the single central report
+        if: always() && env.ASSESSMENT_ENABLED == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python -m collector.assessment_store publish --root assessment-output --queue collector/public-queue.json --metadata collector/shop-metadata.json
+      - name: Save assessment and candidate evidence
+        if: always() && env.ASSESSMENT_ENABLED == 'true'
+        uses: actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08
+        with:
+          name: assessment-candidates-${{ github.run_id }}
+          path: assessment-output/
+          retention-days: 14
+          if-no-files-found: warn

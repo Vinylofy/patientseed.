@@ -37,7 +37,7 @@ def read_file(path: str) -> tuple[str | None, str | None]:
     return None, obj["sha"]
 
 
-def publish(root: Path) -> int:
+def publish(root: Path, *, prefix: str | None = None, immutable: bool = False) -> int:
     files = sorted(
         path for path in root.rglob("*")
         if path.is_file() and "__pycache__" not in path.parts and path.suffix != ".pyc"
@@ -52,8 +52,15 @@ def publish(root: Path) -> int:
             raise
         api("POST", "git/refs", {"ref": f"refs/heads/{BRANCH}", "sha": os.environ["GITHUB_SHA"]})
     for path in files:
-        relative = path.relative_to(root.parent.parent).as_posix()
+        relative = prefix.rstrip('/')+'/'+path.relative_to(root).as_posix() if prefix else path.relative_to(root.parent.parent).as_posix()
         _, sha = read_file(relative)
+        if immutable and sha:
+            import hashlib
+            raw = path.read_bytes()
+            expected = hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+            if sha != expected:
+                raise ValueError('immutable candidate already exists with different contents')
+            continue
         payload = {"message": f"Build scraper profile {path.stem}", "branch": BRANCH,
                    "content": base64.b64encode(path.read_bytes()).decode()}
         if sha:

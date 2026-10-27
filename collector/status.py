@@ -90,9 +90,10 @@ def main() -> int:
     # Automated source/route rechecks must preserve the same central QA section.
     if args.output.exists():
         previous = args.output.read_text(encoding="utf-8")
-        marker = "<!-- quality-gate:start -->"
-        if marker in previous:
-            rendered += "\n" + marker + previous.split(marker, 1)[1]
+        markers = ["<!-- quality-gate:start -->", "<!-- assessment-v2:start -->"]
+        positions = [previous.index(marker) for marker in markers if marker in previous]
+        if positions:
+            rendered += "\n" + previous[min(positions):]
     args.output.write_text(rendered, encoding="utf-8")
     print(f"Rendered one status list with {len(queue)} shop rows")
     return 0
