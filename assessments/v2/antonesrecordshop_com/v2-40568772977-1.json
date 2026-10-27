@@ -1,0 +1,228 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:25:35.448355+00:00",
+  "shop_id": "antonesrecordshop.com",
+  "row": 150,
+  "name": "Antone's Record Shop",
+  "domain": "antonesrecordshop.com",
+  "country": "US",
+  "website": "https://antonesrecordshop.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "source_observation": {
+    "row": 150,
+    "name": "Antone's Record Shop",
+    "domain": "antonesrecordshop.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://antonesrecordshop.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 15,
+    "excluded": 5,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://antonesrecordshop.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://antonesrecordshop.com/products.json?limit=20&page=1",
+        "score": 155,
+        "products_seen": 20,
+        "accepted": 15,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://antonesrecordshop.com/collections/all/products.json?limit=20&page=1",
+        "score": 35,
+        "products_seen": 20,
+        "accepted": 3,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://antonesrecordshop.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://antonesrecordshop.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://antonesrecordshop.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://antonesrecordshop.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://antonesrecordshop.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://antonesrecordshop.com/products.json?limit=20&page=1",
+      "score": 155,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://antonesrecordshop.com/products.json?limit=20&page=1",
+  "listing_sample": 15,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 15,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://antonesrecordshop.com/products/pre-order-thirty-seconds-to-mars-a-beautiful-lie-20-year-anniversary-180g-red-lp?variant=42703830351934",
+      "artist": "Thirty Seconds To Mars",
+      "title": "A Beautiful Lie - 20 Year Anniversary (180g Red LP)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "32.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://antonesrecordshop.com/products/zhu-grace-deluxe-red-3-lp?variant=67942968885310",
+      "artist": "ZHU",
+      "title": "Grace (Deluxe Red 3 LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "64.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://antonesrecordshop.com/products/3-doors-down-greatest-hits-lp?variant=67943692140606",
+      "artist": "3 Doors Down",
+      "title": "Greatest Hits (LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "27.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://antonesrecordshop.com/robots.txt",
+      "sha256": "afa90741356ac570c5b94f45099739a9559272d12745eaa20c124c459cede7ec"
+    },
+    {
+      "url": "https://antonesrecordshop.com/",
+      "sha256": "2656cd0f55b841596fa84f6be717e9bef1e4f0e51772e82fdab694d3d042da85"
+    },
+    {
+      "url": "https://antonesrecordshop.com/products.json?limit=20&page=1",
+      "sha256": "19783c27fbc303c5eee68d4351d6b50efec56305a21e48ffeb73a9404ac21681"
+    },
+    {
+      "url": "https://antonesrecordshop.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "8ed001fa01b658dbdceeb1e0fca6726f3f459ade6345c5596e61ef8019da57a2"
+    },
+    {
+      "url": "https://antonesrecordshop.com/products/3-doors-down-greatest-hits-lp",
+      "sha256": "a2ebe2fabc4f1ab3ade276260b382513eb4464b1a27c051e2cd478f259a3c87a"
+    },
+    {
+      "url": "https://antonesrecordshop.com/products/pre-order-marco-solis-antonio-marco-antonio-solms-lp",
+      "sha256": "af63b3c09e72c114c8d4af49918287f6211680a78f3c27d619fa595810940a0a"
+    },
+    {
+      "url": "https://antonesrecordshop.com/products/pre-order-thirty-seconds-to-mars-a-beautiful-lie-20-year-anniversary-180g-red-lp?variant=42703830351934",
+      "sha256": "ed3c0f1745ec9f8e7bc57fc4257b54c13a4213e394a94c4ebd030883f6f77eae"
+    },
+    {
+      "url": "https://antonesrecordshop.com/products/zhu-grace-deluxe-red-3-lp?variant=67942968885310",
+      "sha256": "41308bc1ff12eddb64047ab4b76bb8357fc1f97f6d0e9a28c3f1c084d7b58b5c"
+    },
+    {
+      "url": "https://antonesrecordshop.com/products/3-doors-down-greatest-hits-lp?variant=67943692140606",
+      "sha256": "199baa1f240ab9d3acd59e59765686c99043a22945eff6ac55498aa710e7b3ea"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.9333333333333333,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "assessment_id": "v2-40568772977-1",
+  "queue_rows": [
+    150
+  ],
+  "assessment_path": "assessments/v2/antonesrecordshop_com/v2-40568772977-1.json"
+}
