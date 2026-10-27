@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:54:49.614784+00:00",
+  "shop_id": "thrillhouserecords.com",
+  "row": 2872,
+  "name": "Thrillhouse Records",
+  "domain": "thrillhouserecords.com",
+  "country": "US",
+  "website": "https://thrillhouserecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2872,
+    "name": "Thrillhouse Records",
+    "domain": "thrillhouserecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://thrillhouserecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://thrillhouserecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://thrillhouserecords.com/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://thrillhouserecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://thrillhouserecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://thrillhouserecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://thrillhouserecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://thrillhouserecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://thrillhouserecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://thrillhouserecords.com/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://thrillhouserecords.com/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 12,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://thrillhouserecords.com/products/charli-xcx-brat?variant=67624140112025",
+      "artist": "CHARLI XCX",
+      "title": "BRAT",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "37.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://thrillhouserecords.com/products/stiff-little-fingers-inflammable-material?variant=67778182119577",
+      "artist": "STIFF LITTLE FINGERS",
+      "title": "INFLAMMABLE MATERIAL",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "37.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://thrillhouserecords.com/products/phoebe-bridgers-lost-weekend?variant=67805855809689",
+      "artist": "PHOEBE BRIDGERS",
+      "title": "LOST WEEKEND",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "35.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://thrillhouserecords.com/robots.txt",
+      "sha256": "f11a53133b7ae6bd70b7192912a21edb837ab60020daac3a58eecb8a8e93180a"
+    },
+    {
+      "url": "https://thrillhouserecords.com/",
+      "sha256": "47d3d749a6cbd977ee49307ccf521333fe6621383f51c45fd6511fd8b6f8de1f"
+    },
+    {
+      "url": "https://thrillhouserecords.com/products.json?limit=20&page=1",
+      "sha256": "850d996c3cc6883b446486e950c298bb473cd6543914aa56d205f22527cd63db"
+    },
+    {
+      "url": "https://thrillhouserecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "8410b4b330c355ce2a4076b26168394df4d773723f57a85e4a46bf61cee55315"
+    },
+    {
+      "url": "https://thrillhouserecords.com/products/phoebe-bridgers-lost-weekend",
+      "sha256": "c0bee0632343bd296b08b9bd9420dc5c2fc7e114a146d3bc277a352d4f5a6805"
+    },
+    {
+      "url": "https://thrillhouserecords.com/products/reagan-youth-vol-1",
+      "sha256": "0b746a9f921b5283163805749ba5004f670e05d73785a068c2e65b88627101a7"
+    },
+    {
+      "url": "https://thrillhouserecords.com/products/charli-xcx-brat?variant=67624140112025",
+      "sha256": "2788ac640923e5bff922e01f0f677ed2bf61b2331e6a4acef64e88e50605144a"
+    },
+    {
+      "url": "https://thrillhouserecords.com/products/stiff-little-fingers-inflammable-material?variant=67778182119577",
+      "sha256": "2d6f0dde79f3d57bbafdb26c1dd31526e567edb4eaa1d221e06a9b16b2a36daa"
+    },
+    {
+      "url": "https://thrillhouserecords.com/products/phoebe-bridgers-lost-weekend?variant=67805855809689",
+      "sha256": "46e76385efc14cede107b9318e2b0517d6bed2ced13aa51b0db1daacdf56cece"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.7368421052631579,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2872",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://thrillhouserecords.com/products/charli-xcx-brat?variant=67624140112025",
+    "https://thrillhouserecords.com/products/stiff-little-fingers-inflammable-material?variant=67778182119577",
+    "https://thrillhouserecords.com/products/phoebe-bridgers-lost-weekend?variant=67805855809689"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2872
+  ],
+  "assessment_path": "assessments/v2/thrillhouserecords_com/v2-40571453864-1.json"
+}
