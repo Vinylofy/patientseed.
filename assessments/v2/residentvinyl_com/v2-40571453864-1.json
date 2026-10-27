@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:50:18.091421+00:00",
+  "shop_id": "residentvinyl.com",
+  "row": 2169,
+  "name": "Resident Vinyl",
+  "domain": "residentvinyl.com",
+  "country": "US",
+  "website": "https://residentvinyl.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2169,
+    "name": "Resident Vinyl",
+    "domain": "residentvinyl.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://residentvinyl.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 13,
+    "excluded": 7,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://residentvinyl.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://residentvinyl.com/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://residentvinyl.com/collections/all/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 20,
+        "accepted": 13,
+        "excluded": 7,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://residentvinyl.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://residentvinyl.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://residentvinyl.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://residentvinyl.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://residentvinyl.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://residentvinyl.com/collections/all/products.json?limit=20&page=1",
+      "score": 135,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://residentvinyl.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 13,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 13,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://residentvinyl.com/products/2-chainz-so-help-me-god?variant=43230598267126",
+      "artist": "2 Chainz",
+      "title": "So Help Me God!",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "20.98",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://residentvinyl.com/products/100-gecs-10-000-gecs?variant=47784103411958",
+      "artist": "100 gecs",
+      "title": "10,000 Gecs",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "36.98",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://residentvinyl.com/products/uicideboy-long-term-effects-of-suffering?variant=49909932458230",
+      "artist": "$uicideboy$",
+      "title": "Long Term Effects Of Suffering",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "30.98",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://residentvinyl.com/robots.txt",
+      "sha256": "394c2bafbdb227866a5df948285f9f9fb0b2d51205866928ee8d743c89dc0939"
+    },
+    {
+      "url": "https://residentvinyl.com/",
+      "sha256": "9e29649d56a68329ce1b9989c482d026faa14beab8d47b13e7e45cfdd0376602"
+    },
+    {
+      "url": "https://residentvinyl.com/products.json?limit=20&page=1",
+      "sha256": "9d2fdb25b041e8400d1855d0184d1eeffebffbc10ab0fc6fa565f1821b668a4c"
+    },
+    {
+      "url": "https://residentvinyl.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "5aabcd9cc21841ad4abf1db6fd694deedfef24379a3e899f57b001cc32bd3560"
+    },
+    {
+      "url": "https://residentvinyl.com/products/uicideboy-long-term-effects-of-suffering",
+      "sha256": "83ea6da56fe80d3f5c6e1fd5c5b052536ac58b00b3917b1b3f836c97b02f8950"
+    },
+    {
+      "url": "https://residentvinyl.com/products/uicideboy-new-world-depression",
+      "sha256": "c936ecda404b09a852893b816c3dcb1275a426b50416869fa9e194e98a568b88"
+    },
+    {
+      "url": "https://residentvinyl.com/products/2-chainz-so-help-me-god?variant=43230598267126",
+      "sha256": "2cf95dd605d70f6d260462ba0961a05ae20c486fe643338ce40f5dda06d3d2dd"
+    },
+    {
+      "url": "https://residentvinyl.com/products/100-gecs-10-000-gecs?variant=47784103411958",
+      "sha256": "0e6162aca98f7f8568bac4137181673f9e0c1dc4fd0d3008a4351625087accd7"
+    },
+    {
+      "url": "https://residentvinyl.com/products/uicideboy-long-term-effects-of-suffering?variant=49909932458230",
+      "sha256": "2080e6f99b52b1cfd1a88b43c87677490c3422bc061d99e9869faa47da681eb7"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_2169",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://residentvinyl.com/products/2-chainz-so-help-me-god?variant=43230598267126",
+    "https://residentvinyl.com/products/100-gecs-10-000-gecs?variant=47784103411958",
+    "https://residentvinyl.com/products/uicideboy-long-term-effects-of-suffering?variant=49909932458230"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2169
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 13,
+  "candidate_ref": "v2-40571453864-1/residentvinyl_com",
+  "assessment_path": "assessments/v2/residentvinyl_com/v2-40571453864-1.json"
+}
