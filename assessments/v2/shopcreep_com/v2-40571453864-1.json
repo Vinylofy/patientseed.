@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:43:38.935002+00:00",
+  "shop_id": "shopcreep.com",
+  "row": 610,
+  "name": "Creep Records",
+  "domain": "shopcreep.com",
+  "country": "US",
+  "website": "https://shopcreep.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 610,
+    "name": "Creep Records",
+    "domain": "shopcreep.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://shopcreep.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 27,
+    "accepted": 12,
+    "excluded": 15,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://shopcreep.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://shopcreep.com/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 27,
+        "accepted": 12,
+        "excluded": 15,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://shopcreep.com/collections/all/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 21,
+        "accepted": 6,
+        "excluded": 15,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://shopcreep.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shopcreep.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shopcreep.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shopcreep.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shopcreep.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://shopcreep.com/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://shopcreep.com/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://shopcreep.com/products/chemical-x-is-this-tomorrow-lp-green-or-orange-vinyl?variant=47238489931907",
+      "artist": "chemical-x",
+      "title": "Is This Tomorrow? [LP, Green or Orange Vinyl]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "25.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://shopcreep.com/products/teddy-duchamps-army-the-spirit-never-dies-lp-cherry-or-citrus-torrent-vinyl-pre-order?variant=47788821414019",
+      "artist": "Teddy DuChamp's Army",
+      "title": "...the spirit never dies... [LP, Cherry or Citrus Torrent Vinyl] *PRE-ORDER*",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "25.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://shopcreep.com/products/grey-area-silence-lp-lavender-vinyl-pre-order?variant=67717776572547",
+      "artist": "Grey Area",
+      "title": "Silence [LP, Lavender Vinyl] *PRE-ORDER*",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "27.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://shopcreep.com/robots.txt",
+      "sha256": "f34db06a32b9ba0499a2f47d657162aa1cbbd5220b89f032ed1477b02dd7c386"
+    },
+    {
+      "url": "https://shopcreep.com/",
+      "sha256": "21dbb0f351f6aab7ecad763fbc428e9bba3f55d586503c7cd7ce7dfa61c47c39"
+    },
+    {
+      "url": "https://shopcreep.com/products.json?limit=20&page=1",
+      "sha256": "dc7ed1be6eba1c760c2594f15438f38096c2036d48544c6a114c4cea580b50a3"
+    },
+    {
+      "url": "https://shopcreep.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "759a6e23e99d377a90cafcb6e8c685725dd88a58a5ea73ac550c2200883df320"
+    },
+    {
+      "url": "https://shopcreep.com/products/grey-area-silence-lp-lavender-vinyl-pre-order",
+      "sha256": "99198cd9be8ac83eb33b0caade586968454f08b73e373250d2613a86fd831cc2"
+    },
+    {
+      "url": "https://shopcreep.com/products/tree-missing-in-america-lp-on-jade-green-vinyl-pre-order",
+      "sha256": "41af79d3bc880784382b7d204f770af74ed80a8ac309a6763b9a24fb016c1839"
+    },
+    {
+      "url": "https://shopcreep.com/products/chemical-x-is-this-tomorrow-lp-green-or-orange-vinyl?variant=47238489931907",
+      "sha256": "9c687a589ba72bc764ebc6e968a3314cb70e7d0623e0616d702dcbb3273e2df1"
+    },
+    {
+      "url": "https://shopcreep.com/products/teddy-duchamps-army-the-spirit-never-dies-lp-cherry-or-citrus-torrent-vinyl-pre-order?variant=47788821414019",
+      "sha256": "c45ebb8306294d67b2d0ed2e946ddcbacfcd06987483d61cf931806b1c358680"
+    },
+    {
+      "url": "https://shopcreep.com/products/grey-area-silence-lp-lavender-vinyl-pre-order?variant=67717776572547",
+      "sha256": "d9bbefa71838d778c74fff522719db9f37a5df6a2b5e433d189d8dae5b6dd29a"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.5,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_610",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://shopcreep.com/products/chemical-x-is-this-tomorrow-lp-green-or-orange-vinyl?variant=47238489931907",
+    "https://shopcreep.com/products/teddy-duchamps-army-the-spirit-never-dies-lp-cherry-or-citrus-torrent-vinyl-pre-order?variant=47788821414019",
+    "https://shopcreep.com/products/grey-area-silence-lp-lavender-vinyl-pre-order?variant=67717776572547"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    610
+  ],
+  "assessment_path": "assessments/v2/shopcreep_com/v2-40571453864-1.json"
+}
