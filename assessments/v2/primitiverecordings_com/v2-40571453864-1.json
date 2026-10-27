@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:49:14.786971+00:00",
+  "shop_id": "primitiverecordings.com",
+  "row": 1976,
+  "name": "Primitive Recordings LLC",
+  "domain": "primitiverecordings.com",
+  "country": "US",
+  "website": "https://primitiverecordings.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1976,
+    "name": "Primitive Recordings LLC",
+    "domain": "primitiverecordings.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://primitiverecordings.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 12,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://primitiverecordings.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://primitiverecordings.com/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://primitiverecordings.com/collections/all/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 20,
+        "accepted": 4,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://primitiverecordings.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://primitiverecordings.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://primitiverecordings.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://primitiverecordings.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://primitiverecordings.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://primitiverecordings.com/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://primitiverecordings.com/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://primitiverecordings.com/products/razor-live-12-2x-vinyl?variant=67748523409707",
+      "artist": "",
+      "title": "Live! Osaka Saikou 大阪最高 Reissue Gatefold 12\" Blood Red Milky Clear Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "14.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://primitiverecordings.com/products/cycle-of-contempt-12-neon-yellow-vinyl?variant=67748959322411",
+      "artist": "",
+      "title": "Cycle of Contempt 12\" Neon Yellow Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "25.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://primitiverecordings.com/products/kill-trend-suicide-12-neon-purple-vinyl-copy?variant=67749103206699",
+      "artist": "",
+      "title": "Sounds of the Animal Kingdom 2X 12\" Bone with Splatter Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "29.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://primitiverecordings.com/robots.txt",
+      "sha256": "04b8d9d59a7845b60cc9a3bdfd0c5781301fc3ea504e6974881dce34ede4ada8"
+    },
+    {
+      "url": "https://primitiverecordings.com/",
+      "sha256": "879e158c88a61157a63fb36f3f4530e2cd97b684f2ad4bf7741a6cf8810273b6"
+    },
+    {
+      "url": "https://primitiverecordings.com/products.json?limit=20&page=1",
+      "sha256": "aebe2881067d86e9d8449dd6540c104f4c204315b663348cee089019664ca418"
+    },
+    {
+      "url": "https://primitiverecordings.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "712b56bb3224a1eb134b46e0059bef3d484abea0181f2e17306c4d57727d9bdc"
+    },
+    {
+      "url": "https://primitiverecordings.com/products/kill-trend-suicide-12-neon-purple-vinyl-copy",
+      "sha256": "6b3a437fd590e28fcafb14d8a1ef53aac388067517053622e57c98c7135b5d5f"
+    },
+    {
+      "url": "https://primitiverecordings.com/products/kill-trend-suicide-12-neon-purple-vinyl",
+      "sha256": "a72a744327f883a24f2d5080738cc96561dff0077927dd0f5f185b825face25c"
+    },
+    {
+      "url": "https://primitiverecordings.com/products/razor-live-12-2x-vinyl?variant=67748523409707",
+      "sha256": "9c3334969724f534b659d2e43bd01d1e0156f076b2b9a41506567e5fed749053"
+    },
+    {
+      "url": "https://primitiverecordings.com/products/cycle-of-contempt-12-neon-yellow-vinyl?variant=67748959322411",
+      "sha256": "5c941ec489709b0fdea99860c156cebb089535928c275fc4b379595daa852236"
+    },
+    {
+      "url": "https://primitiverecordings.com/products/kill-trend-suicide-12-neon-purple-vinyl-copy?variant=67749103206699",
+      "sha256": "6a21f017c82f645cf0f2b480ca93c3f73688114c4dbdc390429a87d86a90c07c"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1976",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://primitiverecordings.com/products/razor-live-12-2x-vinyl?variant=67748523409707",
+    "https://primitiverecordings.com/products/cycle-of-contempt-12-neon-yellow-vinyl?variant=67748959322411",
+    "https://primitiverecordings.com/products/kill-trend-suicide-12-neon-purple-vinyl-copy?variant=67749103206699"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    1976
+  ],
+  "assessment_path": "assessments/v2/primitiverecordings_com/v2-40571453864-1.json"
+}
