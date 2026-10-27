@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:52:01.729684+00:00",
+  "shop_id": "seasickbham.com",
+  "row": 2367,
+  "name": "Seasick Records",
+  "domain": "seasickbham.com",
+  "country": "US",
+  "website": "https://seasickbham.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2367,
+    "name": "Seasick Records",
+    "domain": "seasickbham.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://seasickbham.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 13,
+    "excluded": 7,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://seasickbham.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://seasickbham.com/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://seasickbham.com/collections/all/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 20,
+        "accepted": 13,
+        "excluded": 7,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://seasickbham.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://seasickbham.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://seasickbham.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://seasickbham.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://seasickbham.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://seasickbham.com/collections/all/products.json?limit=20&page=1",
+      "score": 135,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://seasickbham.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 13,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 13,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://seasickbham.com/products/and-you-will-know-us-by-the-trail-of-dead-madonna-lp?variant=40513922662451",
+      "artist": "...And You Will Know Us By The Trail Of Dead",
+      "title": "Madonna [LP]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "32.00",
+      "currency": "USD",
+      "valid_eans": [
+        "06430077096790"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://seasickbham.com/products/45971-57021409?variant=43744372916275",
+      "artist": "$Uicideboy$",
+      "title": "Thy Kingdom Come [LP - Clear]",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "26.00",
+      "currency": "USD",
+      "valid_eans": [
+        "00199350824630"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://seasickbham.com/products/uicideboy-i-want-to-die-in-new-orleans-lp-black-red-split?variant=41360141615155",
+      "artist": "$uicideboy$",
+      "title": "I Want To Die In New Orleans [LP - Black/Red Split]",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "20.00",
+      "currency": "USD",
+      "valid_eans": [
+        "00842812109126"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://seasickbham.com/robots.txt",
+      "sha256": "dead0ab01a01b7f3dfce14f9fa5c7c221cd4ad144a6469e514a6b163968d0949"
+    },
+    {
+      "url": "https://seasickbham.com/",
+      "sha256": "d037465c77d6ad7a705256357813804be2607f0eda52a5155daa6b42169a3b77"
+    },
+    {
+      "url": "https://seasickbham.com/products.json?limit=20&page=1",
+      "sha256": "9c7e62d06a3cde0e3c94c0af3b1f73f99c3780fe784b2e0c8f2ef2e2946feacd"
+    },
+    {
+      "url": "https://seasickbham.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "c4b6f5be78329f68ef6952ae81dd4b488b624ed29845f39eb52c21ea0243ada7"
+    },
+    {
+      "url": "https://seasickbham.com/products/uicideboy-i-want-to-die-in-new-orleans-lp-black-red-split",
+      "sha256": "4d59662970df8c3cb8afd7b238ee8af781b4005fa3e19e97ba00721511dbc184"
+    },
+    {
+      "url": "https://seasickbham.com/products/uicideboy-i-want-to-die-in-new-orleans-lp-silver",
+      "sha256": "d12d18f89ba146ff0288d705e1c24bc8bb5df728206db2efa9b588bf0c7f18a7"
+    },
+    {
+      "url": "https://seasickbham.com/products/and-you-will-know-us-by-the-trail-of-dead-madonna-lp?variant=40513922662451",
+      "sha256": "a7afe1a22752f18417c34730b2fdd75fba6366cbd236df87a098fe8398638529"
+    },
+    {
+      "url": "https://seasickbham.com/products/45971-57021409?variant=43744372916275",
+      "sha256": "855d06fdf74a0a0064ec089223ee3deba2336eb5e3ef98975268d2053bca0963"
+    },
+    {
+      "url": "https://seasickbham.com/products/uicideboy-i-want-to-die-in-new-orleans-lp-black-red-split?variant=41360141615155",
+      "sha256": "6210a7c5632f53afdea7bc59086ae583b9c7731659922bee3c6778ffbcd1d191"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 0.23076923076923078,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_2367",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://seasickbham.com/products/and-you-will-know-us-by-the-trail-of-dead-madonna-lp?variant=40513922662451",
+    "https://seasickbham.com/products/45971-57021409?variant=43744372916275",
+    "https://seasickbham.com/products/uicideboy-i-want-to-die-in-new-orleans-lp-black-red-split?variant=41360141615155"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2367
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 13,
+  "candidate_ref": "v2-40571453864-1/seasickbham_com",
+  "assessment_path": "assessments/v2/seasickbham_com/v2-40571453864-1.json"
+}
