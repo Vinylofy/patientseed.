@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:55:42.667923+00:00",
+  "shop_id": "trurecordsllc.com",
+  "row": 2945,
+  "name": "TruRecords",
+  "domain": "trurecordsllc.com",
+  "country": "US",
+  "website": "https://trurecordsllc.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2945,
+    "name": "TruRecords",
+    "domain": "trurecordsllc.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://trurecordsllc.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://trurecordsllc.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://trurecordsllc.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://trurecordsllc.com/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://trurecordsllc.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://trurecordsllc.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://trurecordsllc.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://trurecordsllc.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://trurecordsllc.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://trurecordsllc.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://trurecordsllc.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 13,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://trurecordsllc.com/products/schoolboy-q-blue-lips?variant=44081116381274",
+      "artist": "Schoolboy Q",
+      "title": "Blue Lips",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "32.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://trurecordsllc.com/products/j-i-d-the-never-story?variant=44081139581018",
+      "artist": "J.I.D",
+      "title": "The Never Story",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "27.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://trurecordsllc.com/products/atmosphere-god-loves-ugly?variant=44081204920410",
+      "artist": "Atmosphere",
+      "title": "God Loves Ugly",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "31.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://trurecordsllc.com/robots.txt",
+      "sha256": "cb72158177a18059ffc02ce8b878a32ddf2d104ca0c0700e4bfc7149903b5803"
+    },
+    {
+      "url": "https://trurecordsllc.com/",
+      "sha256": "c746a571f1a82be3bb028b74b21095577f7ea28c587642f65e0be6acdb69af4d"
+    },
+    {
+      "url": "https://trurecordsllc.com/products.json?limit=20&page=1",
+      "sha256": "fd12698dc20bf08ad923019c3e127b580723055cce35c0c39526d9eee46caf8a"
+    },
+    {
+      "url": "https://trurecordsllc.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "a75a04e00cf9907d1f80319f170939e4c025494f541d2d7f14f7c832cdc4aa04"
+    },
+    {
+      "url": "https://trurecordsllc.com/products/atmosphere-god-loves-ugly",
+      "sha256": "6300dea7ca70c7f345f4695c3babce2d3de4f47e8eb1f195be83f74012fb48f1"
+    },
+    {
+      "url": "https://trurecordsllc.com/products/tyler-the-creator-igor",
+      "sha256": "9ff4a724dd48847dbc6224d2d3f87ca28d3a286db2f00b7ea123224ed6e8d062"
+    },
+    {
+      "url": "https://trurecordsllc.com/products/schoolboy-q-blue-lips?variant=44081116381274",
+      "sha256": "5bed029cf6d8f0b1a76ec0d87595f050b91a1ff7bdad19eb71c85646a2b963ef"
+    },
+    {
+      "url": "https://trurecordsllc.com/products/j-i-d-the-never-story?variant=44081139581018",
+      "sha256": "ece699ad7ef59648b0267037b7b1b105c46fc0912f4d278485c06f67a35091e7"
+    },
+    {
+      "url": "https://trurecordsllc.com/products/atmosphere-god-loves-ugly?variant=44081204920410",
+      "sha256": "75e2d5e7864896feb4903acd7c419526af4d39ed269b2ce8ab85159b7df0983d"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_2945",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://trurecordsllc.com/products/schoolboy-q-blue-lips?variant=44081116381274",
+    "https://trurecordsllc.com/products/j-i-d-the-never-story?variant=44081139581018",
+    "https://trurecordsllc.com/products/atmosphere-god-loves-ugly?variant=44081204920410"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2945
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 20,
+  "candidate_ref": "v2-40571453864-1/trurecordsllc_com",
+  "assessment_path": "assessments/v2/trurecordsllc_com/v2-40571453864-1.json"
+}
