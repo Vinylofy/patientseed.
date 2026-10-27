@@ -1,0 +1,227 @@
+{
+  "assessment_version": 2,
+  "assessed_at": "2026-10-27T19:18:33.175096+00:00",
+  "shop_id": "bentcrayon.com",
+  "row": 263,
+  "name": "Bent Crayon Records",
+  "domain": "bentcrayon.com",
+  "country": "US",
+  "website": "https://bentcrayon.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "source_observation": {
+    "row": 263,
+    "name": "Bent Crayon Records",
+    "domain": "bentcrayon.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://bentcrayon.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://bentcrayon.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://bentcrayon.com/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 20,
+        "accepted": 8,
+        "excluded": 12,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://bentcrayon.com/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://bentcrayon.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://bentcrayon.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://bentcrayon.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://bentcrayon.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://bentcrayon.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://bentcrayon.com/collections/all/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://bentcrayon.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 11,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://bentcrayon.com/products/a-certain-frank-nothing-lp?variant=47928682348738",
+      "artist": "",
+      "title": "a certain frank-nothing lp",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "26.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "explicit_new_condition": false
+    },
+    {
+      "url": "https://bentcrayon.com/products/4e-ask-isadora-ep?variant=45002206216386",
+      "artist": "",
+      "title": "4e-ask isadora ep",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "13.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "explicit_new_condition": false
+    },
+    {
+      "url": "https://bentcrayon.com/products/4-26-mono-middle-ep?variant=45978915012802",
+      "artist": "",
+      "title": "#.4.26.-mono middle ep",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "13.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "explicit_new_condition": false
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://bentcrayon.com/robots.txt",
+      "sha256": "79af8b2cb13deed574d1fe49f45b0a7325ed50e19e63905db71ae261800eee9c"
+    },
+    {
+      "url": "https://bentcrayon.com/",
+      "sha256": "89ca2bb3d8b1a9f4519ebb950e19d23c01f823f853eb9cb630205ec905aa1e21"
+    },
+    {
+      "url": "https://bentcrayon.com/products.json?limit=20&page=1",
+      "sha256": "a804116d5d4bacd1c8e3ecc4ab1b468a85a9bd483cb6e4acd7ad698f367cbb49"
+    },
+    {
+      "url": "https://bentcrayon.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "23ba82c6e7d7d16e0d59e8150aeef3fadbb513b91ec9f7a5a1ecbd7d43f45f88"
+    },
+    {
+      "url": "https://bentcrayon.com/products/4-26-mono-middle-ep",
+      "sha256": "980f63f36c9c6b07bdda442358323724f867495196f9277bcb599dfabe824d60"
+    },
+    {
+      "url": "https://bentcrayon.com/products/vril-pablo-bolivar-24-karat-12",
+      "sha256": "ae010b4ea856f92af4ff679eefb4bd0424df33d0806fb90a8df1642a39d7aac1"
+    },
+    {
+      "url": "https://bentcrayon.com/products/a-certain-frank-nothing-lp?variant=47928682348738",
+      "sha256": "659df8aa662500fd1e71fea1cf37816529ebe45be4c3e587b62f333365671216"
+    },
+    {
+      "url": "https://bentcrayon.com/products/4e-ask-isadora-ep?variant=45002206216386",
+      "sha256": "eed8ebcdf1eb5d6056cffa0c87a885a4f8e78ed090bd964c31cc3bb162c7b884"
+    },
+    {
+      "url": "https://bentcrayon.com/products/4-26-mono-middle-ep?variant=45978915012802",
+      "sha256": "ff79c25d8b8f1451aad55cc312f96e155d6a24cb1478073ca4141ad75701b50a"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:new_used_distinguishable"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.05,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "assessment_id": "v2-40567635678-1",
+  "queue_rows": [
+    263
+  ],
+  "assessment_path": "assessments/v2/bentcrayon_com/v2-40567635678-1.json"
+}
