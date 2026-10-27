@@ -1,0 +1,227 @@
+{
+  "assessment_version": 2,
+  "assessed_at": "2026-10-27T19:17:17.396486+00:00",
+  "shop_id": "abrodosmusic.com",
+  "row": 61,
+  "name": "Abrodos Music",
+  "domain": "abrodosmusic.com",
+  "country": "US",
+  "website": "https://abrodosmusic.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "source_observation": {
+    "row": 61,
+    "name": "Abrodos Music",
+    "domain": "abrodosmusic.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://abrodosmusic.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 10,
+    "excluded": 10,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://abrodosmusic.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://abrodosmusic.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://abrodosmusic.com/collections/all/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://abrodosmusic.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://abrodosmusic.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://abrodosmusic.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://abrodosmusic.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://abrodosmusic.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://abrodosmusic.com/collections/all/products.json?limit=20&page=1",
+      "score": 105,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://abrodosmusic.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 10,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 10,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://abrodosmusic.com/products/guys-dolls-original-broadway-cast-feuer-martin-present-frank-loesser-guys-dolls-a-musical-fable-of-broadway-lp-album-re-pin?variant=44523655594212",
+      "artist": "\"Guys & Dolls\" Original Broadway Cast, Feuer & Martin Present Frank Loesser",
+      "title": "Guys & Dolls: A Musical Fable Of Broadway (LP, Album, RE, Pin)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "11.49",
+      "currency": "USD",
+      "valid_eans": [],
+      "explicit_new_condition": false
+    },
+    {
+      "url": "https://abrodosmusic.com/products/big-tiny-little-make-room-for-tiny-lp-album-mono-pin?variant=44525934379236",
+      "artist": "\"Big\" Tiny Little",
+      "title": "Make Room For Tiny (LP, Album, Mono, Pin)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "1.15",
+      "currency": "USD",
+      "valid_eans": [],
+      "explicit_new_condition": false
+    },
+    {
+      "url": "https://abrodosmusic.com/products/a-sound-odyssey-orchestra-a-sound-odyssey-lp-album-ltd-red-very-good-plus-vg?variant=44517660426468",
+      "artist": "\"A Sound Odyssey\" Orchestra",
+      "title": "A Sound Odyssey (LP, Album, Ltd, Red)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "6.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "explicit_new_condition": false
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://abrodosmusic.com/robots.txt",
+      "sha256": "6faa41c074c3a033bd74261d1d5314e2fce076384d31a2d04d764aa494c03a51"
+    },
+    {
+      "url": "https://abrodosmusic.com/",
+      "sha256": "1ef5d5303b61448c42178f60c5380426f1c51534584f62f81ffd8f59a4d2169c"
+    },
+    {
+      "url": "https://abrodosmusic.com/products.json?limit=20&page=1",
+      "sha256": "8cf54498061534f5ab4d61cd6f11422405249edc8b9e76f8ed83d2680f46f6b2"
+    },
+    {
+      "url": "https://abrodosmusic.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "c887722f096892210d2a4d29ef765cee4fd31626583e05cb63c30e9f379abf29"
+    },
+    {
+      "url": "https://abrodosmusic.com/products/a-sound-odyssey-orchestra-a-sound-odyssey-lp-album-ltd-red-very-good-plus-vg",
+      "sha256": "0e98f5877922b1c656f4b2160c3e22c1cc788c3eae270c0b5b5a056ea0a3806f"
+    },
+    {
+      "url": "https://abrodosmusic.com/products/aint-misbehavin-original-broadway-cast-aint-misbehavin-the-new-fats-waller-musical-show-2xlp-album-ind",
+      "sha256": "efdb394b19e9edd3c757b2432788dd44b3ab7f027f857583293a60514b3edc0a"
+    },
+    {
+      "url": "https://abrodosmusic.com/products/guys-dolls-original-broadway-cast-feuer-martin-present-frank-loesser-guys-dolls-a-musical-fable-of-broadway-lp-album-re-pin?variant=44523655594212",
+      "sha256": "9eae9c475315d78b0034f2281bc21735bb558b1bac8343f28705b594c56481dd"
+    },
+    {
+      "url": "https://abrodosmusic.com/products/big-tiny-little-make-room-for-tiny-lp-album-mono-pin?variant=44525934379236",
+      "sha256": "8a0ed5010ad5459f72a73744975468cbab11687d049afe59cd8e6908367e3ecb"
+    },
+    {
+      "url": "https://abrodosmusic.com/products/a-sound-odyssey-orchestra-a-sound-odyssey-lp-album-ltd-red-very-good-plus-vg?variant=44517660426468",
+      "sha256": "5d74874e0f27ce3d79e8f83ab29cc515c393f4fc99763f7eabea01f9f718bbd7"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:new_used_distinguishable"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.8,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "assessment_id": "v2-40567635678-1",
+  "queue_rows": [
+    61
+  ],
+  "assessment_path": "assessments/v2/abrodosmusic_com/v2-40567635678-1.json"
+}
