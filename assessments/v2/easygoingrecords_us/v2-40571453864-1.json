@@ -1,0 +1,242 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:44:05.862748+00:00",
+  "shop_id": "easygoingrecords.us",
+  "row": 805,
+  "name": "Easy Going Records + Hifi",
+  "domain": "easygoingrecords.us",
+  "country": "US",
+  "website": "https://easygoingrecords.us/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 805,
+    "name": "Easy Going Records + Hifi",
+    "domain": "easygoingrecords.us",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://easygoingrecords.us/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 13,
+    "excluded": 7,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://easygoingrecords.us/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://easygoingrecords.us/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://easygoingrecords.us/collections/all/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 20,
+        "accepted": 13,
+        "excluded": 7,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://easygoingrecords.us/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://easygoingrecords.us/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://easygoingrecords.us/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://easygoingrecords.us/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://easygoingrecords.us/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://easygoingrecords.us/collections/all/products.json?limit=20&page=1",
+      "score": 135,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://easygoingrecords.us/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 13,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 13,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://easygoingrecords.us/products/1-800-mikey-in-yun-lp-album-bla?variant=67849160556829",
+      "artist": "1-800-MIKEY",
+      "title": "In Yun (LP, Album, Bla)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "45.00",
+      "currency": "USD",
+      "valid_eans": [
+        "00769152439211"
+      ],
+      "condition_basis": "used_or_grading_signal"
+    },
+    {
+      "url": "https://easygoingrecords.us/products/pre-order-my-chemical-romance-the-black-parade-20th-anniversary-edition-concrete-grey-vinyl-lp?variant=67623955792157",
+      "artist": "(Pre-Order) My Chemical Romance",
+      "title": "The Black Parade (20th Anniversary Edition) Concrete Grey Vinyl LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "27.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://easygoingrecords.us/products/uicideboy-thy-kingdom-come-lp-album-tra-2?variant=52854066610461",
+      "artist": "$uicideboy$",
+      "title": "Thy Kingdom Come (LP, Album, Tra)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "45.00",
+      "currency": "USD",
+      "valid_eans": [
+        "00199350824630"
+      ],
+      "condition_basis": "used_or_grading_signal"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://easygoingrecords.us/robots.txt",
+      "sha256": "ad9d90ec1b360254f4d0ce0d26f253d37814ea01ff515bf2b7c60429e284e9d4"
+    },
+    {
+      "url": "https://easygoingrecords.us/",
+      "sha256": "1948e13cd4e1a22b67c0b00158cef87d8f39ffbb8348359ee330dbcad335662c"
+    },
+    {
+      "url": "https://easygoingrecords.us/products.json?limit=20&page=1",
+      "sha256": "819c015c9ccb18193aa97393d42792ea532b861aacfb15a25b9aa2dbc47384d5"
+    },
+    {
+      "url": "https://easygoingrecords.us/collections/all/products.json?limit=20&page=1",
+      "sha256": "a029eb2aa1678e650abdceae82825465299f36a31c1309ba7dff8702b3503760"
+    },
+    {
+      "url": "https://easygoingrecords.us/products/uicideboy-thy-kingdom-come-lp-album-tra-2",
+      "sha256": "6dad4de317adef15f4fb56883ca84d7ed13f56e4fb2e65d1b062ccfc106670e6"
+    },
+    {
+      "url": "https://easygoingrecords.us/products/bad-company-live-in-london-vinyl",
+      "sha256": "ad404054c41b011263e1bcc88617c9e121857671ea4363f00fd091226b4adb07"
+    },
+    {
+      "url": "https://easygoingrecords.us/products/1-800-mikey-in-yun-lp-album-bla?variant=67849160556829",
+      "sha256": "f63bcf5bd9f25e361819394235d8f9ebb31380c07e54d73b0e08ea21b934dd30"
+    },
+    {
+      "url": "https://easygoingrecords.us/products/pre-order-my-chemical-romance-the-black-parade-20th-anniversary-edition-concrete-grey-vinyl-lp?variant=67623955792157",
+      "sha256": "bd7ae6cce26e7b52f68005ffec06613bbcd6d535ec2deca1e483b2dc6276491f"
+    },
+    {
+      "url": "https://easygoingrecords.us/products/uicideboy-thy-kingdom-come-lp-album-tra-2?variant=52854066610461",
+      "sha256": "35bf3e54b12469f990c75744a5f83ff4b243ec8424ce196d8a62ef73a4ed7e24"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:new_used_distinguishable"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 2,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.9230769230769231,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_805",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://easygoingrecords.us/products/1-800-mikey-in-yun-lp-album-bla?variant=67849160556829",
+    "https://easygoingrecords.us/products/pre-order-my-chemical-romance-the-black-parade-20th-anniversary-edition-concrete-grey-vinyl-lp?variant=67623955792157",
+    "https://easygoingrecords.us/products/uicideboy-thy-kingdom-come-lp-album-tra-2?variant=52854066610461"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    805
+  ],
+  "assessment_path": "assessments/v2/easygoingrecords_us/v2-40571453864-1.json"
+}
