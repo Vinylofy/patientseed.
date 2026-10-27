@@ -3577,7 +3577,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | sookvinyl.com | 7 | APPROVED | 0 | 3 | 1/3 | ACTIVE (run 40469569194) | ACTIVE | run 40064351096 |
 | sorrystaterecords.com | 7 | REVIEW | 0 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | soulstoprecords.com | 7 | REVIEW | 0 | 18 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| soundbendrecords.co | 15 | APPROVED | 2 | 18 | 3/3 | ACTIVE | ACTIVE | run 40455623960 |
+| soundbendrecords.co | 15 | APPROVED | 2 | 18 | 3/3 | ACTIVE (run 40469569194) | ACTIVE | run 40455623960 |
 | soundplatters.com | 7 | REVIEW | 0 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | southmetromusic.com | 7 | APPROVED | 0 | 10 | 3/3 | ACTIVE | ACTIVE | run 40064351096 |
 | southrecordshop.com | 12 | FROZEN | 3 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
