@@ -55,8 +55,29 @@ Gebruik de bestaande **SCRAPER | Manual | Single scraper**. Kies `scraper_slug=C
 
 Publieke collectie blijft credentialvrij. GitHub-authenticatie bestaat alleen in de laad-/publicatiestappen. Robots.txt en bestaande HTTPS-, domein-, request-, runtime- en responsegroottegrenzen worden gehandhaafd. Bij 401/403/429 wordt de shop niet verder benaderd. Geen login, CAPTCHA-bypass, betaalde jobs, MusicBrainz-matches, importers, databasewrites, migraties, frontendwijzigingen of wijzigingen aan private productieprocessen.
 
-Tijdens ingebruikname staat `collector/assessment-policy.json` op disabled voor automatische slots. Een expliciete handmatige batch mag de uitbreiding testen. Na tests en een begrensde live proef kan deze aanvullende beoordeling worden aangezet. `reset_cursor` blijft de bestaande legacy-bronreset en is niet nodig om de nieuwe beoordeling over de al doorlopen lijst te laten starten.
+Na de begrensde live proeven is `collector/assessment-policy.json` aangezet. De bestaande tien dagelijkse slots verwerken maximaal 100 volgende shopidentiteiten per run. Iedere shop wordt eenmaal per beleidsrevisie beoordeeld; reviews worden niet eindeloos opnieuw benaderd. GitHub kan geplande runs vertragen; 1.000 per dag is een bovengrens, geen gegarandeerde doorvoer. Een batch heeft bovendien een tijdsbudget en kan daardoor minder shops afwerken. `reset_cursor` blijft de bestaande legacy-bronreset en is niet nodig om de nieuwe beoordeling over de al doorlopen lijst te laten starten.
 
 ## Eerste proef en beleidsrevisie
 
 De eerste tien beoordelingen zijn onveranderd opgeslagen onder assessment-versie 2. De aanvullende beleidsrevisie 2.1 herstelt de bestaande nieuw-policy in plaats van een nieuwe verplichte NewCondition-gate. Nieuwe records verwijzen naar de nieuwe revision en datum; de eerste JSON-records worden niet herschreven. Eerdere 401/403/429/robots-blokkades worden bij deze revisie met verwijzing behouden, zonder de verboden route opnieuw te benaderen.
+
+## Vastgelegde live proeven — 27 oktober 2026
+
+[Herproef van tien shops](https://github.com/Vinylofy/patientseed./actions/runs/40568772977): vier ARTIST_TITLE-kandidaten gebouwd en tegen de live listing getest; zes shops blijven MANUAL_REVIEW. Er waren geen Nederlandse bronregels beschikbaar voor een NL-pilot. De oorspronkelijke te strikte proef blijft als historie bewaard.
+
+| Shop | Uitkomst | Reden / kandidaat |
+| --- | --- | --- |
+| Assai Records | MANUAL_REVIEW | Eigen detailprijs/valuta niet voldoende bewezen of afwijkend |
+| Resident Music | MANUAL_REVIEW | HTTP 403; bestaande blokkade behouden zonder nieuwe bronaanvraag |
+| 10,000 Hz Records | ARTIST_TITLE | `v2-40568772977-1/10000hzrecords_com` |
+| Abrodos Music | MANUAL_REVIEW | Nieuwe/tweedehands conditie niet betrouwbaar te scheiden |
+| AFK Books & Records | MANUAL_REVIEW | Begrensde listing bewijst vinyl, prijs, voorraad en productlinks onvoldoende |
+| AGS Honolulu (Aloha Got Soul) | ARTIST_TITLE | `v2-40568772977-1/ags_earth` |
+| All The Best | ARTIST_TITLE | `v2-40568772977-1/allthebestflorence_com` |
+| Antone’s Record Shop | MANUAL_REVIEW | Artiest/titel niet consistent bewezen |
+| art sound language | ARTIST_TITLE | `v2-40568772977-1/artsoundlanguage_com` |
+| Bent Crayon Records | MANUAL_REVIEW | Onvoldoende betrouwbaar herkenbare artiest/titel in listing |
+
+[Afzonderlijke Single scraper-proef](https://github.com/Vinylofy/patientseed./actions/runs/40569588169) voor 10,000 Hz: vijf records, geen fouten, `database_write=false`, met artiest, titel, variantlink en prijzen 23,99–26,99 USD. Dit zijn records inclusief varianten, geen claim over vijf unieke albums of productieacceptatie.
+
+95 tests en actionlint voor beide aangepaste workflows zijn geslaagd. De kandidaatpublicatie veranderde geen bestanden onder `collector/generated` ten opzichte van de toestand direct vóór publicatie. Handmatige inhoudelijke acceptatie en eventuele latere overdracht naar curedplant blijven afzonderlijke stappen.

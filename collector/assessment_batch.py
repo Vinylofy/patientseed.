@@ -19,10 +19,11 @@ from collector.quality_gate import fingerprint
 from collector.shop_assessment import VERSION, REVISION, assess_shop, now
 
 
-INDEX_FIELDS = ('assessment_version','assessment_revision','assessment_id','assessed_at','shop_id','name','domain','country',
+INDEX_FIELDS = ('assessment_version','assessment_revision','assessment_id','assessed_at','shop_id','name','domain','website','country',
                 'scraper_type','preferred_scraper_type','supports_artist_title_fallback','suitability',
-                'priority','reason','build_status','existing_scraper','assessment_ready','candidate_ref',
-                'product_count','product_count_basis','platform','non_ean_potential')
+                'priority','priority_reason','reason','build_status','existing_scraper','assessment_ready','candidate_ref',
+                'product_count','product_count_basis','platform','non_ean_potential','potential_basis','ean_availability',
+                'country_source','existing_scraper_status','example_urls')
 
 
 def shops(queue, metadata):
@@ -34,7 +35,8 @@ def shops(queue, metadata):
             unique[key]['queue_rows'].append(item['row'])
             continue
         country = metadata.get('shops',{}).get(str(item['row']),{}).get('country')
-        unique[key] = {**item, 'shop_id':key, 'queue_rows':[item['row']], 'country':country}
+        unique[key] = {**item, 'shop_id':key, 'queue_rows':[item['row']], 'country':country,
+            'country_source':metadata.get('shops',{}).get(str(item['row']),{}).get('country_source')}
     return list(unique.values())
 
 
@@ -111,6 +113,12 @@ def run(queue, progress, index, metadata, *, published, quality, output, run_id,
                       'reason':[type(exc).__name__], 'build_status':'NOT_BUILDABLE_WITH_CURRENT_EVIDENCE',
                       'database_write':False}
         body = record.pop('_listing_body',None)
+        record.setdefault('website', f"https://{item['domain']}/" if item['domain'] and item['source_status'] in {'READY','DUPLICATE_DOMAIN'} else None)
+        record['country_source'] = item.get('country_source')
+        record['existing_scraper_status'] = qa.get('status', 'PRESENT_UNREVIEWED' if existing else 'NONE')
+        record['example_urls'] = [e['url'] for e in record.get('examples',[])]
+        if approved:
+            record['existing_approval'] = {key:qa.get(key) for key in ('status','fingerprint','updated_at','run_id')}
         record.setdefault('assessed_at', now())
         record.setdefault('database_write', False)
         record.setdefault('migration_approved', False)
@@ -138,14 +146,19 @@ def run(queue, progress, index, metadata, *, published, quality, output, run_id,
 
 
 def overview(queue, metadata, index):
-    return [{**item, **index.get('shops',{}).get(item['shop_id'],{})} for item in shops(queue,metadata)]
+    result=[]
+    for item in shops(queue,metadata):
+        row={**item, **index.get('shops',{}).get(item['shop_id'],{})}
+        row['review_status']='ASSESSED' if row.get('assessment_revision')==REVISION else 'NOT_YET_REVIEWED'
+        result.append(row)
+    return result
 
 
 def csv_text(rows):
-    stream=io.StringIO(); columns=list(INDEX_FIELDS)+['queue_rows','assessment_path',
+    stream=io.StringIO(); columns=list(INDEX_FIELDS)+['review_status','queue_rows','assessment_path',
         'active','vinyl','secondhand_only','new_used_distinguishable','public_prices','availability',
         'stable_urls','detail_checked','ean_valid','identity_details_proven','identity_listing_ratio',
-        'sale_price_recognizable','cover_available','access_problem']
+        'sale_price_recognizable','cover_available','existing_ean_approved','access_problem']
     writer=csv.DictWriter(stream,fieldnames=columns); writer.writeheader()
     for row in rows:
         output={}
@@ -165,14 +178,18 @@ def section(rows):
     done=[r for r in rows if r.get('assessment_revision')==REVISION]
     counts=Counter(r['scraper_type'] for r in done)
     lines=['<!-- assessment-v2:start -->','## EAN / Artist + Title — aanvullende beoordeling', '',
-           f'Unieke shops/bronnen: **{len(rows)}**. Beoordeeld: **{len(done)}**. Open: **{len(rows)-len(done)}**.', '',
+           f'Beoordelingsrevisie: **{REVISION}**. Unieke shops/bronnen: **{len(rows)}**. Beoordeeld: **{len(done)}**. Open: **{len(rows)-len(done)}**.', '',
            ' | '.join(f'{key}: **{counts[key]}**' for key in ('EAN','ARTIST_TITLE','MANUAL_REVIEW','UNSUITABLE')), '',
            'Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.', '',
-           '| Shop | Land | Type | Prioriteit | Bouwstatus | Kandidaat voor handmatige test |',
-           '|---|---|---|---|---|---|']
+           '| Shop | Land | Type | Prioriteit | Bouwstatus | Reden | Kandidaat voor handmatige test |',
+           '|---|---|---|---|---|---|---|']
     for row in rows:
-        lines.append('| '+' | '.join(cell(row.get(k) or ('Nog te beoordelen' if k=='scraper_type' else '—'))
-            for k in ('name','country','scraper_type','priority','build_status','candidate_ref'))+' |')
+        values=[]
+        for key in ('name','country','scraper_type','priority','build_status','reason','candidate_ref'):
+            value=row.get(key)
+            if isinstance(value,list):value='; '.join(map(str,value))
+            values.append(value or ('Nog te beoordelen' if key=='scraper_type' else '—'))
+        lines.append('| '+' | '.join(cell(value) for value in values)+' |')
     return '\n'.join(lines+['<!-- assessment-v2:end -->',''])
 
 

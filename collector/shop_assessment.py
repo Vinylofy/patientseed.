@@ -128,11 +128,13 @@ def assess_shop(item, *, country=None, prior=None, existing=False, existing_appr
     prior = prior or {}
     result = {'assessment_version': VERSION, 'assessment_revision':REVISION, 'assessed_at': now(), 'shop_id': item['domain'] or f"source-row-{item['row']}",
               'row': item['row'], 'name': item['name'], 'domain': item['domain'], 'country': country,
-              'website': f"https://{item['domain']}/" if item['domain'] else None,
+              'website': f"https://{item['domain']}/" if item['domain'] and item['source_status'] in {'READY','DUPLICATE_DOMAIN'} else None,
               'previous_status': prior.get('status'), 'previous_reason': prior.get('reason'),
               'existing_scraper': existing, 'existing_ean_approved': existing_approved,
               'product_count': None, 'product_count_basis': 'unknown_not_full_catalogue',
-              'database_write': False, 'migration_approved': False, 'manual_test_required': True}
+              'database_write': False, 'migration_approved': False, 'manual_test_required': True,
+              'sample_design': 'first_middle_last_distinct_products_on_bounded_listing',
+              'edition_matching_proven': False}
     e = {'existing_ean_approved': existing_approved, 'active': None, 'vinyl': None,
          'secondhand_only': None, 'new_used_distinguishable': None, 'public_prices': None,
          'availability': None, 'stable_urls': None, 'detail_checked': 0, 'detail_price_proven': 0,
@@ -203,7 +205,7 @@ def assess_shop(item, *, country=None, prior=None, existing=False, existing_appr
             result['requests'] = transport.requests
     kind, reasons = classify(e)
     result.update(scraper_type=kind, preferred_scraper_type=kind if kind in {'EAN','ARTIST_TITLE'} else None,
-                  supports_artist_title_fallback=kind=='EAN' and e['identity_details_proven']>=3,
+                  supports_artist_title_fallback=kind=='EAN' and e['identity_details_proven']>=3 and e['identity_listing_ratio']>=.8,
                   suitability='SUITABLE' if kind in {'EAN','ARTIST_TITLE'} else kind,
                   assessment_ready=kind in {'EAN','ARTIST_TITLE'} and country is not None and not existing_approved,
                   build_eligible=kind in {'EAN','ARTIST_TITLE'} and not existing_approved,
@@ -217,6 +219,8 @@ def assess_shop(item, *, country=None, prior=None, existing=False, existing_appr
     result['non_ean_potential'] = ('UNKNOWN' if e['detail_checked'] < 3 else 'HIGH' if not e['ean_valid']
                                    else 'MEDIUM' if e['ean_valid']/e['detail_checked'] < .8 else 'LOW')
     result['potential_basis'] = 'bounded_sample_only'
+    result['ean_availability'] = ('EXISTING_ADMISSION' if existing_approved else 'UNKNOWN' if not e['detail_checked']
+        else 'NOT_PROVEN_IN_SAMPLE' if not e['ean_valid'] else 'PROVEN_IN_SAMPLE' if e['ean_valid']==e['detail_checked'] else 'PARTIAL_IN_SAMPLE')
     result['build_status'] = ('EXISTING_EAN_RETAINED' if existing_approved else 'READY_TO_BUILD'
                               if result['build_eligible'] else 'NOT_BUILDABLE_WITH_CURRENT_EVIDENCE')
     return result

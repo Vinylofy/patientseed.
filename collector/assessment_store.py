@@ -65,8 +65,30 @@ def publish(directory, queue_path, metadata_path):
             state['shops'][key]=local['shops'][key]
         return json.dumps(state,ensure_ascii=False,indent=2)+'\n'
     quality_store.update(INDEX,merge,branch=BRANCH)
+    # Complete the export view of the initial pilot from its immutable evidence;
+    # do not rescrape shops or rewrite their historical assessment JSON.
     raw,_=quality_store.read(INDEX,branch=BRANCH)
     current=json.loads(raw)
+    additions={}
+    from collector.assessment_batch import INDEX_FIELDS
+    for key,entry in current['shops'].items():
+        if 'website' in entry:continue
+        evidence,_=quality_store.read(entry['assessment_path'],branch=BRANCH)
+        detail=json.loads(evidence)
+        values={field:detail.get(field) for field in INDEX_FIELDS if field not in entry}
+        values['example_urls']=[item['url'] for item in detail.get('examples',[])]
+        additions[key]=(entry['assessment_path'],values)
+    if additions:
+        def enrich_view(raw):
+            state=json.loads(raw)
+            for key,(path,values) in additions.items():
+                entry=state['shops'].get(key,{})
+                if entry.get('assessment_path')==path:
+                    state['shops'][key]={**values,**entry}
+            return json.dumps(state,ensure_ascii=False,indent=2)+'\n'
+        quality_store.update(INDEX,enrich_view,branch=BRANCH)
+        raw,_=quality_store.read(INDEX,branch=BRANCH)
+        current=json.loads(raw)
     rows=overview(load_queue(queue_path),json.loads(metadata_path.read_text()),current)
     groups={'all':rows,
             'artist-title':[r for r in rows if r.get('scraper_type')=='ARTIST_TITLE'],
