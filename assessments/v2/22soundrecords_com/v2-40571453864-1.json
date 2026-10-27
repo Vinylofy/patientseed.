@@ -1,0 +1,204 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:59:35.615809+00:00",
+  "shop_id": "22soundrecords.com",
+  "row": 26,
+  "name": "22 Sound",
+  "domain": "22soundrecords.com",
+  "country": "US",
+  "website": "https://22soundrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 26,
+    "name": "22 Sound",
+    "domain": "22soundrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://22soundrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 1,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://22soundrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://22soundrecords.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://22soundrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://22soundrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://22soundrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://22soundrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://22soundrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://22soundrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://22soundrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 1,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://22soundrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://22soundrecords.com/products/uicideboy-sing-me-a-lullaby-my-sweet-temptation-green-vinyl?variant=49115398045924",
+      "artist": "$uicideboy$",
+      "title": "Sing Me A Lullaby My Sweet Temptation (Green Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "29.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00196925411752"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://22soundrecords.com/robots.txt",
+      "sha256": "543f220ba41a18803c7ed6155527791f3b8440366a172538699528ab1d2a7610"
+    },
+    {
+      "url": "https://22soundrecords.com/",
+      "sha256": "f57fdf92993794299cdb1e68f115ebccdd1bdd14661009865dcabfc24453330b"
+    },
+    {
+      "url": "https://22soundrecords.com/products.json?limit=20&page=1",
+      "sha256": "f1f53acc3fdf9d3a6d80e2536f588a339424a84505eab202e3209a36c03defff"
+    },
+    {
+      "url": "https://22soundrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "d73b13c5de96d6cf833c6111faee8b1148c6e022945e5968c7adfdb073571fc4"
+    },
+    {
+      "url": "https://22soundrecords.com/products/uicideboy-sing-me-a-lullaby-my-sweet-temptation-green-vinyl",
+      "sha256": "b608c60cfbb3d6fac53c6d886236efb5cbaf84e0a63518a3dea611085cac11c8"
+    },
+    {
+      "url": "https://22soundrecords.com/products/uicideboy-sing-me-a-lullaby-my-sweet-temptation-green-vinyl?variant=49115398045924",
+      "sha256": "027765358f01e5e0afe36e64deebfa02102be066a34b19a4cf22b2af543777e4"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "insufficient_representative_product_evidence"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 1,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_26",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://22soundrecords.com/products/uicideboy-sing-me-a-lullaby-my-sweet-temptation-green-vinyl?variant=49115398045924"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    26
+  ],
+  "assessment_path": "assessments/v2/22soundrecords_com/v2-40571453864-1.json"
+}
