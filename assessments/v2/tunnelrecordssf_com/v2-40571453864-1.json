@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:55:55.978976+00:00",
+  "shop_id": "tunnelrecordssf.com",
+  "row": 2955,
+  "name": "Tunnel Records",
+  "domain": "tunnelrecordssf.com",
+  "country": "US",
+  "website": "https://tunnelrecordssf.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2955,
+    "name": "Tunnel Records",
+    "domain": "tunnelrecordssf.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://tunnelrecordssf.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 10,
+    "excluded": 10,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://tunnelrecordssf.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://tunnelrecordssf.com/products.json?limit=20&page=1",
+        "score": 55,
+        "products_seen": 20,
+        "accepted": 5,
+        "excluded": 15,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://tunnelrecordssf.com/collections/all/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://tunnelrecordssf.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://tunnelrecordssf.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://tunnelrecordssf.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://tunnelrecordssf.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://tunnelrecordssf.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://tunnelrecordssf.com/collections/all/products.json?limit=20&page=1",
+      "score": 105,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://tunnelrecordssf.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 10,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 10,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://tunnelrecordssf.com/products/ac-dc-back-in-black-new?variant=6213191958555",
+      "artist": "AC/DC",
+      "title": "Back In Black (New)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "27.98",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://tunnelrecordssf.com/products/52nd-street-look-into-my-eyes-new?variant=32423001292871",
+      "artist": "52nd Street",
+      "title": "Look Into My Eyes (New)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "19.98",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://tunnelrecordssf.com/products/baby-face-willette-face-to-face-new?variant=17519320432711",
+      "artist": "'Baby Face' Willette",
+      "title": "Face To Face (New)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "32.98",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://tunnelrecordssf.com/robots.txt",
+      "sha256": "9f89dffbe6d7463a7315d31c6e4be0b96279ca094b5a6a52a7819286f5d645d2"
+    },
+    {
+      "url": "https://tunnelrecordssf.com/",
+      "sha256": "da54abdf3c889e2752652c9bc18f9eff2d1190ff0b5de9faf74e9e4f9910cf59"
+    },
+    {
+      "url": "https://tunnelrecordssf.com/products.json?limit=20&page=1",
+      "sha256": "0e05b334b49685570e9ea2a237c82500c5a5dca3e6eceafcec580d431b43d59f"
+    },
+    {
+      "url": "https://tunnelrecordssf.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "8de95792b0d5d8c1af4f3b2bbe2f656e050575b88b541d06a8b6cefdbeb80d35"
+    },
+    {
+      "url": "https://tunnelrecordssf.com/products/baby-face-willette-face-to-face-new",
+      "sha256": "67776afeee7fd5e3509e4b0daf365fc4ac3b762fd209b9a6137662162a4d087b"
+    },
+    {
+      "url": "https://tunnelrecordssf.com/products/24-carat-black-ghetto-misfortunes-wealth-new",
+      "sha256": "7e384fdf9920fa5bdd75cd5e151369acb9357293d030b9a75aeb33a493de7d6a"
+    },
+    {
+      "url": "https://tunnelrecordssf.com/products/ac-dc-back-in-black-new?variant=6213191958555",
+      "sha256": "95991c9220a65544f0d8cf9739c5cc6530d01b64af02d8740f8564128129753b"
+    },
+    {
+      "url": "https://tunnelrecordssf.com/products/52nd-street-look-into-my-eyes-new?variant=32423001292871",
+      "sha256": "c2892afd6a1718197a2c87a7256e76ab881e686fbb11ef8eab4962a2678f5aba"
+    },
+    {
+      "url": "https://tunnelrecordssf.com/products/baby-face-willette-face-to-face-new?variant=17519320432711",
+      "sha256": "8d8a4a87c4987d8acc87a59ed43fa6d992eead81c651b49f2af77d7f7ac20bb1"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_2955",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://tunnelrecordssf.com/products/ac-dc-back-in-black-new?variant=6213191958555",
+    "https://tunnelrecordssf.com/products/52nd-street-look-into-my-eyes-new?variant=32423001292871",
+    "https://tunnelrecordssf.com/products/baby-face-willette-face-to-face-new?variant=17519320432711"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2955
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 10,
+  "candidate_ref": "v2-40571453864-1/tunnelrecordssf_com",
+  "assessment_path": "assessments/v2/tunnelrecordssf_com/v2-40571453864-1.json"
+}
