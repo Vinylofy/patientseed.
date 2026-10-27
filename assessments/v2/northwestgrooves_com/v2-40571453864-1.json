@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:48:22.785089+00:00",
+  "shop_id": "northwestgrooves.com",
+  "row": 1781,
+  "name": "Northwest Grooves",
+  "domain": "northwestgrooves.com",
+  "country": "US",
+  "website": "https://northwestgrooves.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1781,
+    "name": "Northwest Grooves",
+    "domain": "northwestgrooves.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://northwestgrooves.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 13,
+    "excluded": 7,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://northwestgrooves.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://northwestgrooves.com/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 20,
+        "accepted": 13,
+        "excluded": 7,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://northwestgrooves.com/collections/all/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://northwestgrooves.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://northwestgrooves.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://northwestgrooves.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://northwestgrooves.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://northwestgrooves.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://northwestgrooves.com/products.json?limit=20&page=1",
+      "score": 135,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://northwestgrooves.com/products.json?limit=20&page=1",
+  "listing_sample": 13,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 13,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://northwestgrooves.com/products/mott-the-hoople-brian-capers?variant=52888159748327",
+      "artist": "MOTT THE HOOPLE",
+      "title": "Brian Capers",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "35.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://northwestgrooves.com/products/fleetwood-mac-live-3?variant=51951753724135",
+      "artist": "FLEETWOOD MAC",
+      "title": "live",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "42.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://northwestgrooves.com/products/hole-celebrity-skin-2?variant=52904795603175",
+      "artist": "HOLE",
+      "title": "celebrity skin",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "35.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://northwestgrooves.com/robots.txt",
+      "sha256": "64f7e2b491e805072e5dc4fd5847c8575ee5ef8b41807c0f3c8d6d663fda0abc"
+    },
+    {
+      "url": "https://northwestgrooves.com/",
+      "sha256": "66e8241e10fa9ce09d286a9285ad96b169cc6587c9654f6492a7eab9b9026d25"
+    },
+    {
+      "url": "https://northwestgrooves.com/products.json?limit=20&page=1",
+      "sha256": "c3ec26d3f485987bfa4f6cabf533ade5c8beec6cfcd870a2832aebc8c9be7216"
+    },
+    {
+      "url": "https://northwestgrooves.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "947f1684bda2f626baf88f0538a7daacc02d9f3aafab576f295ad1633822b257"
+    },
+    {
+      "url": "https://northwestgrooves.com/products/hole-celebrity-skin-2",
+      "sha256": "69d40a6318c638c50d8fcbfebba54a79c6a0357400ac13a14ce61d82b93e4c34"
+    },
+    {
+      "url": "https://northwestgrooves.com/products/hole-pretty-on-the-inside",
+      "sha256": "ab41e2771f38ffe60c19e6aacb50230cc0aa0e73f619a2b845b593dd86df7512"
+    },
+    {
+      "url": "https://northwestgrooves.com/products/mott-the-hoople-brian-capers?variant=52888159748327",
+      "sha256": "ebd8123e2f12fab0971773ee232374d70e9ec72dcc460c4ccc704c62326805d5"
+    },
+    {
+      "url": "https://northwestgrooves.com/products/fleetwood-mac-live-3?variant=51951753724135",
+      "sha256": "c2645f5607ba3f6814a27a7b137cb0d432321c93f1eeebd16f440d274cc9b14a"
+    },
+    {
+      "url": "https://northwestgrooves.com/products/hole-celebrity-skin-2?variant=52904795603175",
+      "sha256": "82ae991630ca932fcc50c102fa57017a5dd30606f83ddcc30accfff7919abe2d"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_1781",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://northwestgrooves.com/products/mott-the-hoople-brian-capers?variant=52888159748327",
+    "https://northwestgrooves.com/products/fleetwood-mac-live-3?variant=51951753724135",
+    "https://northwestgrooves.com/products/hole-celebrity-skin-2?variant=52904795603175"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    1781
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 13,
+  "candidate_ref": "v2-40571453864-1/northwestgrooves_com",
+  "assessment_path": "assessments/v2/northwestgrooves_com/v2-40571453864-1.json"
+}
