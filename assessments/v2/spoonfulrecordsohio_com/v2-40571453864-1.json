@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:53:20.270187+00:00",
+  "shop_id": "spoonfulrecordsohio.com",
+  "row": 2540,
+  "name": "Spoonful Records",
+  "domain": "spoonfulrecordsohio.com",
+  "country": "US",
+  "website": "https://spoonfulrecordsohio.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2540,
+    "name": "Spoonful Records",
+    "domain": "spoonfulrecordsohio.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://spoonfulrecordsohio.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://spoonfulrecordsohio.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://spoonfulrecordsohio.com/products.json?limit=20&page=1",
+        "score": 175,
+        "products_seen": 20,
+        "accepted": 17,
+        "excluded": 3,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://spoonfulrecordsohio.com/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://spoonfulrecordsohio.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://spoonfulrecordsohio.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://spoonfulrecordsohio.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://spoonfulrecordsohio.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://spoonfulrecordsohio.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://spoonfulrecordsohio.com/collections/all/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://spoonfulrecordsohio.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 13,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://spoonfulrecordsohio.com/products/anderson-paak-knxwledge-nxworries-yes-lawd?variant=33686683517066",
+      "artist": "Anderson Paak & Knxwledge NXWORRIES",
+      "title": "Yes Lawd!",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "25.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://spoonfulrecordsohio.com/products/alice-in-chains-mtv-unplugged?variant=33467151646858",
+      "artist": "Alice In Chains",
+      "title": "MTV Unplugged",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "35.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://spoonfulrecordsohio.com/products/why-moh-lhean?variant=33593277382794",
+      "artist": "A Tribe Called Quest",
+      "title": "Low End Theory",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "35.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://spoonfulrecordsohio.com/robots.txt",
+      "sha256": "f809dc4ef17e864a90777d53b4e1445565941a143b1d31f2a82244fcbafb6602"
+    },
+    {
+      "url": "https://spoonfulrecordsohio.com/",
+      "sha256": "b07c992a7a12d6465a1b24ded38b4ed56616795bae2d0edd130df9667d3b366d"
+    },
+    {
+      "url": "https://spoonfulrecordsohio.com/products.json?limit=20&page=1",
+      "sha256": "88257432112fe55d8430c4f4d68775c001edd0646d48004d983441d374d3f012"
+    },
+    {
+      "url": "https://spoonfulrecordsohio.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "9251b819f8196071c24416e4a26468c119911b62e3ae953d32ee24974db2bc56"
+    },
+    {
+      "url": "https://spoonfulrecordsohio.com/products/why-moh-lhean",
+      "sha256": "c24808fe759eb0277f32ab53ad4c0fb928510a7bcb7ce64eeca9f5601c1395f7"
+    },
+    {
+      "url": "https://spoonfulrecordsohio.com/products/a-tribe-called-quest-midnight-maurauders",
+      "sha256": "a2f68b06cb11558b9a7e3a829d57cb54cf4d22dc4dda74e77fc4bb6687265f18"
+    },
+    {
+      "url": "https://spoonfulrecordsohio.com/products/anderson-paak-knxwledge-nxworries-yes-lawd?variant=33686683517066",
+      "sha256": "785c4398a1060318c330c8fd0ab493aef72ee04fd3bde743fb80727797662057"
+    },
+    {
+      "url": "https://spoonfulrecordsohio.com/products/alice-in-chains-mtv-unplugged?variant=33467151646858",
+      "sha256": "f1c436dfc0b3b8ea5eae39ba19d4d3420e388dc466d78d233576e0c351d32f38"
+    },
+    {
+      "url": "https://spoonfulrecordsohio.com/products/why-moh-lhean?variant=33593277382794",
+      "sha256": "8f1c1d4b8b01351965db9c38529f1ff499b116ab69fbacddff725d5f5eef9b64"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.9,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_2540",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://spoonfulrecordsohio.com/products/anderson-paak-knxwledge-nxworries-yes-lawd?variant=33686683517066",
+    "https://spoonfulrecordsohio.com/products/alice-in-chains-mtv-unplugged?variant=33467151646858",
+    "https://spoonfulrecordsohio.com/products/why-moh-lhean?variant=33593277382794"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2540
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 18,
+  "candidate_ref": "v2-40571453864-1/spoonfulrecordsohio_com",
+  "assessment_path": "assessments/v2/spoonfulrecordsohio_com/v2-40571453864-1.json"
+}
