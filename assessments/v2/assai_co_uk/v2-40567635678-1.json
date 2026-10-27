@@ -1,0 +1,186 @@
+{
+  "assessment_version": 2,
+  "assessed_at": "2026-10-27T19:16:50.631531+00:00",
+  "shop_id": "assai.co.uk",
+  "row": 177,
+  "name": "Assai Records",
+  "domain": "assai.co.uk",
+  "country": "GB",
+  "website": "https://assai.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "source_observation": {
+    "row": 177,
+    "name": "Assai Records",
+    "domain": "assai.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://assai.co.uk/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 17,
+    "excluded": 3,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://assai.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://assai.co.uk/products.json?limit=20&page=1",
+        "score": 75,
+        "products_seen": 20,
+        "accepted": 7,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://assai.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 175,
+        "products_seen": 20,
+        "accepted": 17,
+        "excluded": 3,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://assai.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://assai.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://assai.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://assai.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://assai.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://assai.co.uk/collections/all/products.json?limit=20&page=1",
+      "score": 175,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://assai.co.uk/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 17,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 17,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://assai.co.uk/robots.txt",
+      "sha256": "3731452edb78941c32f0020518e85cdf5390c61817886459ea40ebeff8653f29"
+    },
+    {
+      "url": "https://assai.co.uk/",
+      "sha256": "a01e096980c6790aed22f4ce97a4704cd2cf8ed7396bb6c788cdbe08cd42d55c"
+    },
+    {
+      "url": "https://assai.co.uk/products.json?limit=20&page=1",
+      "sha256": "aa4b25273c6fb698abcfb6a56a9214f493278bd9d4d52cd5f870a058383ed50c"
+    },
+    {
+      "url": "https://assai.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "41f6c4baf4522e4ae378fe2cabba2177f8ee53f470cd9a7bf8dc7888e59e3cb7"
+    },
+    {
+      "url": "https://assai.co.uk/products/as-if-lp-vinyl-new-33rpm",
+      "sha256": "3cfe10473a0d9bf3063002465ea3c1aafb97327f9444313bf9d46ee298fe2590"
+    },
+    {
+      "url": "https://assai.co.uk/products/let-it-be-blue-vinyl-lp-due-out-06-05-22",
+      "sha256": "44af2e17ecfd8b4be657dd123083cd01dee0eb2046cc861da48744d67764ac3b"
+    },
+    {
+      "url": "https://assai.co.uk/products/o-5-vinyl-lp-due-out-16-05-25?variant=55294833820031",
+      "sha256": "c8d55d0979dd5db4797ee21c695c2d8a8f23819ee5fc172d0f3272e20a5811a9"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "assessment_id": "v2-40567635678-1",
+  "queue_rows": [
+    177,
+    3318
+  ],
+  "assessment_path": "assessments/v2/assai_co_uk/v2-40567635678-1.json"
+}
