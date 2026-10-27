@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:58:29.737789+00:00",
+  "shop_id": "waxmoonrecords.com",
+  "row": 3200,
+  "name": "Wax Moon Vinyl and Video",
+  "domain": "waxmoonrecords.com",
+  "country": "US",
+  "website": "https://waxmoonrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3200,
+    "name": "Wax Moon Vinyl and Video",
+    "domain": "waxmoonrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://waxmoonrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 30,
+    "accepted": 18,
+    "excluded": 12,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://waxmoonrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://waxmoonrecords.com/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 30,
+        "accepted": 18,
+        "excluded": 12,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://waxmoonrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 30,
+        "accepted": 18,
+        "excluded": 12,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://waxmoonrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://waxmoonrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://waxmoonrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://waxmoonrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://waxmoonrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://waxmoonrecords.com/products.json?limit=20&page=1",
+      "score": 185,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://waxmoonrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 18,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 18,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://waxmoonrecords.com/products/aural-exile-empathy-and-misanthropy?variant=32865431945348",
+      "artist": "Aural Exile",
+      "title": "Empathy and Misanthropy",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "29.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://waxmoonrecords.com/products/jet-set-radio-ost?variant=44578181677188",
+      "artist": "",
+      "title": "Jet Set Radio OST",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "79.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://waxmoonrecords.com/products/torturetwinn-feeler?variant=52872590196868",
+      "artist": "TORTURETWINN",
+      "title": "FEELER LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "29.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://waxmoonrecords.com/robots.txt",
+      "sha256": "cbeff51f54649d58797072ecfe079541dd4e39a1a4b146cac85c48daab6ff7a0"
+    },
+    {
+      "url": "https://waxmoonrecords.com/",
+      "sha256": "3e0523f37c1fa6fc7fc5ff3cacb517db1b567291abfa8056a5587d8408bcdc88"
+    },
+    {
+      "url": "https://waxmoonrecords.com/products.json?limit=20&page=1",
+      "sha256": "1041a3aa73fcfb4e3de8a209d59269cf3de937ae1ce66539c499bf39c611ddbd"
+    },
+    {
+      "url": "https://waxmoonrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "7e228b7f50779f0aad4242fb06683a80fa79bbfd2ba005db3404b6b5155204dc"
+    },
+    {
+      "url": "https://waxmoonrecords.com/products/torturetwinn-feeler",
+      "sha256": "7bfab4e1015935b9e558a52283e932ac2f5fbdb90493349cf080133422b10d1d"
+    },
+    {
+      "url": "https://waxmoonrecords.com/products/misiria-spooky-basement-welcome-to-monsteropolis",
+      "sha256": "dbdfc0cff468a077fb5cdc26a3bb3adbc62fec3bf059353414c53c1e4d9aa1be"
+    },
+    {
+      "url": "https://waxmoonrecords.com/products/aural-exile-empathy-and-misanthropy?variant=32865431945348",
+      "sha256": "ccbbd757ec57d41060e15580a6cf96a9588f804b78bfdebb64bba68ac97f3d8c"
+    },
+    {
+      "url": "https://waxmoonrecords.com/products/jet-set-radio-ost?variant=44578181677188",
+      "sha256": "1694d54a75f8b9e9e838109da2c9c020c95b4ca755028f8e79a9b419c9a35777"
+    },
+    {
+      "url": "https://waxmoonrecords.com/products/torturetwinn-feeler?variant=52872590196868",
+      "sha256": "8b3cb2059f90510bcedc48796c88b573ab1214d9a7372eae296b6e7ed81878d5"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.9444444444444444,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_3200",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://waxmoonrecords.com/products/aural-exile-empathy-and-misanthropy?variant=32865431945348",
+    "https://waxmoonrecords.com/products/jet-set-radio-ost?variant=44578181677188",
+    "https://waxmoonrecords.com/products/torturetwinn-feeler?variant=52872590196868"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    3200
+  ],
+  "assessment_path": "assessments/v2/waxmoonrecords_com/v2-40571453864-1.json"
+}
