@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:56:57.023183+00:00",
+  "shop_id": "villagegreenrecords.com",
+  "row": 3032,
+  "name": "Village Green Records",
+  "domain": "villagegreenrecords.com",
+  "country": "US",
+  "website": "https://villagegreenrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3032,
+    "name": "Village Green Records",
+    "domain": "villagegreenrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://villagegreenrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 26,
+    "accepted": 20,
+    "excluded": 5,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://villagegreenrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://villagegreenrecords.com/products.json?limit=20&page=1",
+        "score": 75,
+        "products_seen": 20,
+        "accepted": 7,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://villagegreenrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 215,
+        "products_seen": 26,
+        "accepted": 21,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://villagegreenrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://villagegreenrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://villagegreenrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://villagegreenrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://villagegreenrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://villagegreenrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 215,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://villagegreenrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 18,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://villagegreenrecords.com/products/aogerber-meetmeatthegloaming?variant=43774033789142",
+      "artist": "A.O. Gerber",
+      "title": "Meet Me At The Gloaming",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "21.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://villagegreenrecords.com/products/6-months-of-vgr-bundles?variant=43838527111382",
+      "artist": "",
+      "title": "6 Months of VGR bundles",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "200.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://villagegreenrecords.com/products/uicideboy-singmealullaby-mysweettemptation?variant=44242867388630",
+      "artist": "$uicideboy$",
+      "title": "Sing Me A Lullaby, My Sweet Temptation.",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "23.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://villagegreenrecords.com/robots.txt",
+      "sha256": "c8932b6b9039aa047222e7e89a19dbdc54a3b05bb39837cf98de99b5a34c0be1"
+    },
+    {
+      "url": "https://villagegreenrecords.com/",
+      "sha256": "b889fcc53d1d59186fefd51dacf2735b8e3ab46a738bab49b76994baedf82d67"
+    },
+    {
+      "url": "https://villagegreenrecords.com/products.json?limit=20&page=1",
+      "sha256": "9b6df5df78743fe19dcd29a94312be00f56a5ddc4228da0c01fe6f3480f37776"
+    },
+    {
+      "url": "https://villagegreenrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "5ace9591d6d1f36b579e79cb5a939b84f2ba3b3094e35feb5ca137f326edad0f"
+    },
+    {
+      "url": "https://villagegreenrecords.com/products/uicideboy-singmealullaby-mysweettemptation",
+      "sha256": "1289618c5bdb5e480951d9800e7162aa85d662cec65e20cb39b687edf4912650"
+    },
+    {
+      "url": "https://villagegreenrecords.com/products/mizmor-yodh",
+      "sha256": "ec023176d368e59492452c0992e64b0a4c933e632317dfcf5ea2c4df11dd4ed9"
+    },
+    {
+      "url": "https://villagegreenrecords.com/products/aogerber-meetmeatthegloaming?variant=43774033789142",
+      "sha256": "6d2e41621cac04e5bb93fbf8aae9d94b34e52ac1e83320e3788ca4e4230a9d53"
+    },
+    {
+      "url": "https://villagegreenrecords.com/products/6-months-of-vgr-bundles?variant=43838527111382",
+      "sha256": "c99d6831891f5e669c28c5251bf0b3d3556cc96238aea4c9e06ee69b95c22d6e"
+    },
+    {
+      "url": "https://villagegreenrecords.com/products/uicideboy-singmealullaby-mysweettemptation?variant=44242867388630",
+      "sha256": "61d9c4c9392faee9098e9eac0696b8862a96b0b4cd7249a5973c7861822e53d0"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.6,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_3032",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://villagegreenrecords.com/products/aogerber-meetmeatthegloaming?variant=43774033789142",
+    "https://villagegreenrecords.com/products/6-months-of-vgr-bundles?variant=43838527111382",
+    "https://villagegreenrecords.com/products/uicideboy-singmealullaby-mysweettemptation?variant=44242867388630"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    3032
+  ],
+  "assessment_path": "assessments/v2/villagegreenrecords_com/v2-40571453864-1.json"
+}
