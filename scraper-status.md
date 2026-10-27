@@ -3669,9 +3669,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **110**. Open: **3214**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **210**. Open: **3114**.
 
-EAN: **15** | ARTIST_TITLE: **23** | MANUAL_REVIEW: **72** | UNSUITABLE: **0**
+EAN: **16** | ARTIST_TITLE: **23** | MANUAL_REVIEW: **171** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -3679,27 +3679,27 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 |---|---|---|---|---|---|---|
 | 1-2-3-4 Go! Records | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
 | 10,000 Hz Records | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40568772977-1/10000hzrecords_com |
-| 606 Records | US | Nog te beoordelen | — | — | — | — |
-| All Day Records; All Day Records Pittsboro | US | Nog te beoordelen | — | — | — | — |
+| 606 Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| All Day Records; All Day Records Pittsboro | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
 | All The Best | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40568772977-1/allthebestflorence_com |
 | Antone's Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
 | Apollo Exos Records & Beer | US | Nog te beoordelen | — | — | — | — |
 | Abrodos Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:new_used_distinguishable | — |
 | AFK Books & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
-| Allied Record Exchange | US | Nog te beoordelen | — | — | — | — |
-| a2vintage | US | Nog te beoordelen | — | — | — | — |
-| Above Face Oddities and More | US | Nog te beoordelen | — | — | — | — |
+| Allied Record Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| a2vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Above Face Oddities and More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | 14a Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| 74 Kid Records; Vinyl Revival | US | Nog te beoordelen | — | — | — | — |
-| Analog Archivers | US | Nog te beoordelen | — | — | — | — |
-| Anaphora Discs | US | Nog te beoordelen | — | — | — | — |
+| 74 Kid Records; Vinyl Revival | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Analog Archivers | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Anaphora Discs | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | 11th Street Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| 54 Vintage Vinyl | US | Nog te beoordelen | — | — | — | — |
-| A DAY IN THE LIFE RECORDS | US | Nog te beoordelen | — | — | — | — |
-| A-1 Record Shop | US | Nog te beoordelen | — | — | — | — |
-| AM Collective | US | Nog te beoordelen | — | — | — | — |
+| 54 Vintage Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| A DAY IN THE LIFE RECORDS | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| A-1 Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| AM Collective | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Apparitions Vintage | US | Nog te beoordelen | — | — | — | — |
-| Almost Anything | US | Nog te beoordelen | — | — | — | — |
+| Almost Anything | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | 1 Look Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
 | 1 Stop CD Replication | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | 2nd & Charles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
@@ -3707,104 +3707,104 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | 2nd Avenue Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
 | 2nd Borne Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | 2nd CHANCE TRADING | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
-| 3hive Record Lounge | US | Nog te beoordelen | — | — | — | — |
-| 4 Ever Memories | US | Nog te beoordelen | — | — | — | — |
-| 5 Points Vintage | US | Nog te beoordelen | — | — | — | — |
-| 7 Arts Music | US | Nog te beoordelen | — | — | — | — |
-| 8-Bit Gaming | US | Nog te beoordelen | — | — | — | — |
+| 3hive Record Lounge | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| 4 Ever Memories | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| 5 Points Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| 7 Arts Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| 8-Bit Gaming | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
 | 13th Floor Music & Accessories | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | 16th Street Mercantile | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
 | 21st Century Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | 22 Sound | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | insufficient_representative_product_evidence | — |
 | 22Five | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | 22mrkt Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| 31RECORDS - WE BUY RECORDS & CDs!!! | US | Nog te beoordelen | — | — | — | — |
-| 33+45=78 Records | US | Nog te beoordelen | — | — | — | — |
-| 39th Street Records | US | Nog te beoordelen | — | — | — | — |
-| 84 Collectibles & Antiques | US | Nog te beoordelen | — | — | — | — |
+| 31RECORDS - WE BUY RECORDS & CDs!!! | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| 33+45=78 Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| 39th Street Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| 84 Collectibles & Antiques | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | 100 Tonedef Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | 101 Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | 180 Gram Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
-| 333 Vinyl | US | Nog te beoordelen | — | — | — | — |
-| 402 Vinyl | US | Nog te beoordelen | — | — | — | — |
-| 503 Records | US | Nog te beoordelen | — | — | — | — |
-| 510 Books | US | Nog te beoordelen | — | — | — | — |
-| 690 Woodward Garage | US | Nog te beoordelen | — | — | — | — |
-| 939 Records | US | Nog te beoordelen | — | — | — | — |
+| 333 Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| 402 Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| 503 Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| 510 Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| 690 Woodward Garage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| 939 Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
 | 1709 Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
-| 4000 Holes Record Store | US | Nog te beoordelen | — | — | — | — |
-| A Damn Shame Records | US | Nog te beoordelen | — | — | — | — |
-| A Flat Records | US | Nog te beoordelen | — | — | — | — |
-| A Pirate's Place Studio and Gallery | US | Nog te beoordelen | — | — | — | — |
-| A Record Shop | US | Nog te beoordelen | — | — | — | — |
-| A walk in time | US | Nog te beoordelen | — | — | — | — |
-| A&T records | US | Nog te beoordelen | — | — | — | — |
-| Abandoned Antiques | US | Nog te beoordelen | — | — | — | — |
-| Abbie Road | US | Nog te beoordelen | — | — | — | — |
-| Abraxas | US | Nog te beoordelen | — | — | — | — |
-| Abraxas Wax | US | Nog te beoordelen | — | — | — | — |
-| Absolute Legends And Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Absolute Vinyl Records & Stereo | US | Nog te beoordelen | — | — | — | — |
-| absorb records | US | Nog te beoordelen | — | — | — | — |
-| Academy Record Annex; Academy Records | US | Nog te beoordelen | — | — | — | — |
-| Academy Records & CDs | US | Nog te beoordelen | — | — | — | — |
-| Acapulco Records & Sports | US | Nog te beoordelen | — | — | — | — |
-| Acme Records | US | Nog te beoordelen | — | — | — | — |
-| Acoustic Sounds | US | Nog te beoordelen | — | — | — | — |
-| Action Nerd Fun Spot | US | Nog te beoordelen | — | — | — | — |
-| Acworth Vintage & Vinyl | US | Nog te beoordelen | — | — | — | — |
-| ADHD Music | US | Nog te beoordelen | — | — | — | — |
-| Admiral Analog's | US | Nog te beoordelen | — | — | — | — |
-| Adventures Underground | US | Nog te beoordelen | — | — | — | — |
-| Aesthetic Religion Records & Texts | US | Nog te beoordelen | — | — | — | — |
-| Affordable Computer and Variety | US | Nog te beoordelen | — | — | — | — |
-| African Record Center Ltd | US | Nog te beoordelen | — | — | — | — |
-| Agharta Records | US | Nog te beoordelen | — | — | — | — |
-| Agora Records | US | Nog te beoordelen | — | — | — | — |
+| 4000 Holes Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| A Damn Shame Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| A Flat Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| A Pirate's Place Studio and Gallery | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| A Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| A walk in time | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| A&T records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Abandoned Antiques | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Abbie Road | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Abraxas | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Abraxas Wax | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Absolute Legends And Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Absolute Vinyl Records & Stereo | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| absorb records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Academy Record Annex; Academy Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Academy Records & CDs | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Acapulco Records & Sports | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Acme Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Acoustic Sounds | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Action Nerd Fun Spot | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Response size limit | — |
+| Acworth Vintage & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| ADHD Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Admiral Analog's | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Adventures Underground | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Aesthetic Religion Records & Texts | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Affordable Computer and Variety | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| African Record Center Ltd | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Agharta Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | RemoteDisconnected | — |
+| Agora Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
 | AGS Honolulu (Aloha Got Soul) | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40568772977-1/ags_earth |
-| Air Raid Antiques & Bombshelter Records | US | Nog te beoordelen | — | — | — | — |
-| Aladdin's Antiques and Records | US | Nog te beoordelen | — | — | — | — |
-| Alamo Record Company | US | Nog te beoordelen | — | — | — | — |
-| Alamo Records & Sheet Music | US | Nog te beoordelen | — | — | — | — |
-| Albatross Records | US | Nog te beoordelen | — | — | — | — |
-| AlbumAddict | US | Nog te beoordelen | — | — | — | — |
-| Algonquin Records | US | Nog te beoordelen | — | — | — | — |
-| Alien Records | US | Nog te beoordelen | — | — | — | — |
-| Alison's Record Shop | US | Nog te beoordelen | — | — | — | — |
-| All About Records | US | Nog te beoordelen | — | — | — | — |
-| All Sales Vinyl | US | Nog te beoordelen | — | — | — | — |
-| All That Music & Video Vinyl CDs Gifts | US | Nog te beoordelen | — | — | — | — |
-| All Together Now | US | Nog te beoordelen | — | — | — | — |
-| Allen’s Attic Treasures | US | Nog te beoordelen | — | — | — | — |
-| Alley Cat Records | US | Nog te beoordelen | — | — | — | — |
-| Alley Cat Vintage Mercantile | US | Nog te beoordelen | — | — | — | — |
-| Alley Records | US | Nog te beoordelen | — | — | — | — |
-| Almost Ready Records | US | Nog te beoordelen | — | — | — | — |
-| Altamirano Records | US | Nog te beoordelen | — | — | — | — |
-| Amazing Alonzo Bookstore | US | Nog te beoordelen | — | — | — | — |
-| Amazing Books & Records | US | Nog te beoordelen | — | — | — | — |
-| Amazing Imaginarium | US | Nog te beoordelen | — | — | — | — |
-| American Classics Marketplace | US | Nog te beoordelen | — | — | — | — |
-| American Hardware Center | US | Nog te beoordelen | — | — | — | — |
-| American made crafts and vinyl stickers | US | Nog te beoordelen | — | — | — | — |
-| American Pie Records; American Pie Records Coffee House | US | Nog te beoordelen | — | — | — | — |
-| American Record Company | US | Nog te beoordelen | — | — | — | — |
-| AMH Records | US | Nog te beoordelen | — | — | — | — |
-| Amical Records | US | Nog te beoordelen | — | — | — | — |
-| Amoeba Music | US | Nog te beoordelen | — | — | — | — |
-| Amplified Lou | US | Nog te beoordelen | — | — | — | — |
-| AMPLIFIED RPM | US | Nog te beoordelen | — | — | — | — |
-| Analog Attic | US | Nog te beoordelen | — | — | — | — |
-| Analog Coffee & Records | US | Nog te beoordelen | — | — | — | — |
-| Analog Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Analog Underground | US | Nog te beoordelen | — | — | — | — |
-| Analog Vault | US | Nog te beoordelen | — | — | — | — |
-| Analog Your Life | US | Nog te beoordelen | — | — | — | — |
-| Analogue Books & Records | US | Nog te beoordelen | — | — | — | — |
-| AndVinyl Records | US | Nog te beoordelen | — | — | — | — |
-| Andy’s Records | US | Nog te beoordelen | — | — | — | — |
-| Angel City Books & Records | US | Nog te beoordelen | — | — | — | — |
-| Angelina Gargano~Mountain River Records | US | Nog te beoordelen | — | — | — | — |
+| Air Raid Antiques & Bombshelter Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Aladdin's Antiques and Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Alamo Record Company | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Alamo Records & Sheet Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Albatross Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| AlbumAddict | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Algonquin Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Alien Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Alison's Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| All About Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| All Sales Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| All That Music & Video Vinyl CDs Gifts | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| All Together Now | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Allen’s Attic Treasures | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Alley Cat Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Alley Cat Vintage Mercantile | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Alley Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Almost Ready Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Altamirano Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Amazing Alonzo Bookstore | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Amazing Books & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Amazing Imaginarium | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| American Classics Marketplace | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| American Hardware Center | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| American made crafts and vinyl stickers | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| American Pie Records; American Pie Records Coffee House | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| American Record Company | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| AMH Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Amical Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Amoeba Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Amplified Lou | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| AMPLIFIED RPM | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Analog Attic | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Analog Coffee & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Analog Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Analog Underground | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Analog Vault | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Analog Your Life | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Analogue Books & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| AndVinyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Andy’s Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Angel City Books & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Angelina Gargano~Mountain River Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Angelo's CD's & Vinyl; Angelo's CD's and Vinyl | US | Nog te beoordelen | — | — | — | — |
 | Angry Mom Records | US | Nog te beoordelen | — | — | — | — |
 | Angry Young & Poor | US | Nog te beoordelen | — | — | — | — |
