@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:55:29.075119+00:00",
+  "shop_id": "tonedeafrecs.com",
+  "row": 2904,
+  "name": "Tone Deaf Records",
+  "domain": "tonedeafrecs.com",
+  "country": "US",
+  "website": "https://tonedeafrecs.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2904,
+    "name": "Tone Deaf Records",
+    "domain": "tonedeafrecs.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://tonedeafrecs.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://tonedeafrecs.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://tonedeafrecs.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://tonedeafrecs.com/collections/all/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://tonedeafrecs.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://tonedeafrecs.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://tonedeafrecs.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://tonedeafrecs.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://tonedeafrecs.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://tonedeafrecs.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://tonedeafrecs.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://tonedeafrecs.com/products/new-palma-triston-show-case-in-a-roots-radics-drums-and-bass-lp?variant=67647209930902",
+      "artist": "New",
+      "title": "Palma, Triston - Show Case in a Roots Radics Drums and Bass - LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "20.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://tonedeafrecs.com/products/new-eno-brian-j-peter-schwalm-drawn-from-life-lp?variant=67645163929750",
+      "artist": "New",
+      "title": "Eno, Brian & J. Peter Schwalm - Drawn From Life - LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "38.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://tonedeafrecs.com/products/new-less-than-jake-hello-rockview-lp?variant=67645262168214",
+      "artist": "New",
+      "title": "Less Than Jake - Hello Rockview - LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "20.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://tonedeafrecs.com/robots.txt",
+      "sha256": "afaba81161cbc65eedd7f25311aae1d147eeef3db3012c8f6f65540d161fb3de"
+    },
+    {
+      "url": "https://tonedeafrecs.com/",
+      "sha256": "e8d9a5e3d2455691561c9b78c3e547de353d89f5639a050f67c77cb91104a3f1"
+    },
+    {
+      "url": "https://tonedeafrecs.com/products.json?limit=20&page=1",
+      "sha256": "e16ac4f7065c0ee19e8ff6b84ff8b5bc1e14f9ef66c9e0f09c04b7f16cdf79b0"
+    },
+    {
+      "url": "https://tonedeafrecs.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "11941def8891134839c273fadb75ecc49a45851d58c4636e04a3adcc23053896"
+    },
+    {
+      "url": "https://tonedeafrecs.com/products/new-less-than-jake-hello-rockview-lp",
+      "sha256": "b846209023501a7d0ade63a0a4248fcce2b9bef667f94fbce9e9a77039e31a6c"
+    },
+    {
+      "url": "https://tonedeafrecs.com/products/new-shabazz-palaces-its-a-style-sport-lp",
+      "sha256": "09b52564325032798e56213d00e09bb006bcab65cf8053128d1d188c9c961ff4"
+    },
+    {
+      "url": "https://tonedeafrecs.com/products/new-palma-triston-show-case-in-a-roots-radics-drums-and-bass-lp?variant=67647209930902",
+      "sha256": "fade68abb496cf915fc3caca029bf9f858fff24b3b541ec51f19f48a64fab92d"
+    },
+    {
+      "url": "https://tonedeafrecs.com/products/new-eno-brian-j-peter-schwalm-drawn-from-life-lp?variant=67645163929750",
+      "sha256": "7307849035065b06a0f4c39449d9981b3d2f9f8c5ba222e30ab47b124cfb5469"
+    },
+    {
+      "url": "https://tonedeafrecs.com/products/new-less-than-jake-hello-rockview-lp?variant=67645262168214",
+      "sha256": "ab4338d77c2927f8194a4cec653f240add650c95832404ad06ffdbf21222db9c"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2904",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://tonedeafrecs.com/products/new-palma-triston-show-case-in-a-roots-radics-drums-and-bass-lp?variant=67647209930902",
+    "https://tonedeafrecs.com/products/new-eno-brian-j-peter-schwalm-drawn-from-life-lp?variant=67645163929750",
+    "https://tonedeafrecs.com/products/new-less-than-jake-hello-rockview-lp?variant=67645262168214"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    2904
+  ],
+  "assessment_path": "assessments/v2/tonedeafrecs_com/v2-40571453864-1.json"
+}
