@@ -1,0 +1,188 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T22:09:48.371839+00:00",
+  "shop_id": "apolloexos.com",
+  "row": 151,
+  "name": "Apollo Exos Records & Beer",
+  "domain": "apolloexos.com",
+  "country": "US",
+  "website": "https://apolloexos.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 151,
+    "name": "Apollo Exos Records & Beer",
+    "domain": "apolloexos.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://apolloexos.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 1,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://apolloexos.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://apolloexos.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://apolloexos.com/collections/all/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://apolloexos.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://apolloexos.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://apolloexos.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://apolloexos.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://apolloexos.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://apolloexos.com/collections/all/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://apolloexos.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://apolloexos.com/robots.txt",
+      "sha256": "4cd81ae9e11e2394b4502f5775cbb3980fd05c79f00146902a19ecf567085ba7"
+    },
+    {
+      "url": "https://apolloexos.com/",
+      "sha256": "405e7de14aab672de62b69a871b4c554b80e82c9979fba3e379186a53ee42364"
+    },
+    {
+      "url": "https://apolloexos.com/products.json?limit=20&page=1",
+      "sha256": "4882c727b92a37b1efa58f42132dd7af58da02f2ea8d786068dd58f7cbf4bff2"
+    },
+    {
+      "url": "https://apolloexos.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "c6edb0e6484f35458955a94bb71d5c25350b2169561ae0d001e0ef80403b27e6"
+    },
+    {
+      "url": "https://apolloexos.com/products/all-in-the-family-cast-all-in-the-family",
+      "sha256": "bdc91f05f7b6be3f688f6ede7c1400cd811961946b6ac06416f2896e0421bf60"
+    },
+    {
+      "url": "https://apolloexos.com/products/all-in-the-family-cast-all-in-the-family?variant=45347917136106",
+      "sha256": "3ea5bd7b1abb1f8417533727431400be9aa55e21c5826a9b75e0d4dcecd72c99"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "invalid_detail_gtin"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "invalid_detail_gtin"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_151",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40592358994-1",
+  "queue_rows": [
+    151
+  ],
+  "assessment_path": "assessments/v2/apolloexos_com/v2-40592358994-1.json"
+}
