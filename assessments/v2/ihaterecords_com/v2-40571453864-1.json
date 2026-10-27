@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:46:24.325813+00:00",
+  "shop_id": "ihaterecords.com",
+  "row": 1243,
+  "name": "I Hate Records",
+  "domain": "ihaterecords.com",
+  "country": "US",
+  "website": "https://ihaterecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1243,
+    "name": "I Hate Records",
+    "domain": "ihaterecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://ihaterecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 11,
+    "excluded": 9,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://ihaterecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://ihaterecords.com/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://ihaterecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://ihaterecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://ihaterecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://ihaterecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://ihaterecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://ihaterecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://ihaterecords.com/products.json?limit=20&page=1",
+      "score": 115,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://ihaterecords.com/products.json?limit=20&page=1",
+  "listing_sample": 11,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 11,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://ihaterecords.com/products/bango-bango?variant=67618921742396",
+      "artist": "Bango",
+      "title": "Bango",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "45.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://ihaterecords.com/products/siouxsie-and-the-banshees-join-hands?variant=67681822507068",
+      "artist": "Siouxsie And The Banshees",
+      "title": "Join Hands",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "20.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://ihaterecords.com/products/white-duck-white-duck?variant=67829417934908",
+      "artist": "White Duck",
+      "title": "White Duck",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "25.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://ihaterecords.com/robots.txt",
+      "sha256": "f29cb3761fc1bc04728a66f527b7e5c96d182fac7ebfda99bb11d9181b585953"
+    },
+    {
+      "url": "https://ihaterecords.com/",
+      "sha256": "98049d3bb05b510e5784a9faadcf2e0f01a1d08680ac14f87f513cb1bcc3e9cf"
+    },
+    {
+      "url": "https://ihaterecords.com/products.json?limit=20&page=1",
+      "sha256": "80c2dffcfae6a5804eecd14c34bfad718fb9829c882bd67bead6a50badc96c21"
+    },
+    {
+      "url": "https://ihaterecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "0c8b555b6af8adfb11753642550573069535ca36945dd41a1cc8f54fce88bdb7"
+    },
+    {
+      "url": "https://ihaterecords.com/products/white-duck-white-duck",
+      "sha256": "0a367f102f25512427b01ce682ab13856d3d7ea38fbe27358a5a1356494c42a1"
+    },
+    {
+      "url": "https://ihaterecords.com/products/tobin-sprout-carnival-boy",
+      "sha256": "9c0b23ce6f5f82fff086af52b9ca824772f5341b611bc1f196b2db3192f53fa8"
+    },
+    {
+      "url": "https://ihaterecords.com/products/bango-bango?variant=67618921742396",
+      "sha256": "1bfb2453d5fddc2d99194f2420ef78c9b671a3c14caf67cd2f831dcea4ffa780"
+    },
+    {
+      "url": "https://ihaterecords.com/products/siouxsie-and-the-banshees-join-hands?variant=67681822507068",
+      "sha256": "b58038fdc5c3e5ffcccedffff14933ca778369601efdf218be7decf027e97162"
+    },
+    {
+      "url": "https://ihaterecords.com/products/white-duck-white-duck?variant=67829417934908",
+      "sha256": "41669e15ffa33da1976f23f175a80e9f0e4c0e2d027ef18e868e22bfa7b63e39"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.9090909090909091,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_1243",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://ihaterecords.com/products/bango-bango?variant=67618921742396",
+    "https://ihaterecords.com/products/siouxsie-and-the-banshees-join-hands?variant=67681822507068",
+    "https://ihaterecords.com/products/white-duck-white-duck?variant=67829417934908"
+  ],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    1243
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 10,
+  "candidate_ref": "v2-40571453864-1/ihaterecords_com",
+  "assessment_path": "assessments/v2/ihaterecords_com/v2-40571453864-1.json"
+}
