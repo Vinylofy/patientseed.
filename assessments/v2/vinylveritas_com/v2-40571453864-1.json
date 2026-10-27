@@ -1,0 +1,196 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-27T19:58:03.965988+00:00",
+  "shop_id": "vinylveritas.com",
+  "row": 3143,
+  "name": "Vinyl Veritas",
+  "domain": "vinylveritas.com",
+  "country": "US",
+  "website": "https://vinylveritas.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3143,
+    "name": "Vinyl Veritas",
+    "domain": "vinylveritas.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://vinylveritas.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://vinylveritas.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://vinylveritas.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://vinylveritas.com/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://vinylveritas.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylveritas.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylveritas.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylveritas.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylveritas.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://vinylveritas.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://vinylveritas.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 17,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://vinylveritas.com/robots.txt",
+      "sha256": "224b832bc1c6fc60edf611ab7bceec7d329f641ec6f9f3b863da0c9aedbdfd55"
+    },
+    {
+      "url": "https://vinylveritas.com/",
+      "sha256": "0bf0fda8244406b2732790d01fe44ef8db36dd213b5f865cbce54a8c0db21044"
+    },
+    {
+      "url": "https://vinylveritas.com/products.json?limit=20&page=1",
+      "sha256": "423bc027befc0d017ade84567c51b772bf939aaf7e6c0a35481cda4200a3b3fe"
+    },
+    {
+      "url": "https://vinylveritas.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "7ac64f2606050ba47829d64a04b112718c8f4a7c663bfb5bfdee2ecbec264dfc"
+    },
+    {
+      "url": "https://vinylveritas.com/products/sleep-the-sciences",
+      "sha256": "75d4461aa27b19ed50bd3c81b21681bfa97f2e0b155ae11b198a8a34547f3b79"
+    },
+    {
+      "url": "https://vinylveritas.com/products/samara-job-live-at-the-blue-note-l-a",
+      "sha256": "fc645e7b6a592d79eed6a28b02490d5391183a8b8fe90b52ca4cd64d44a59bdd"
+    },
+    {
+      "url": "https://vinylveritas.com/products/control-denied-fragile-art-of-existence?variant=68068093526251",
+      "sha256": "52f7ac4cddd541e89a5d36a295d3fb4ba55b114ce064b4b9c3d07d8f344bfae4"
+    },
+    {
+      "url": "https://vinylveritas.com/products/the-bouncing-souls-the-bouncing-souls?variant=68231860519147",
+      "sha256": "d5f14039b4c15e571cfa99758faf7db9f3952c722fb2db1ae358ca2574c87dd1"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 1,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_3143",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40571453864-1",
+  "queue_rows": [
+    3143
+  ],
+  "assessment_path": "assessments/v2/vinylveritas_com/v2-40571453864-1.json"
+}
