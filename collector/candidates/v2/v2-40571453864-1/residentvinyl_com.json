@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "domain": "residentvinyl.com",
+  "platform": "shopify",
+  "adapter_class": "ShopifyNewVinylAdapter",
+  "catalog_route": "https://residentvinyl.com/collections/all/products.json?limit=20&page=1",
+  "discovery_method": {
+    "platform": "shopify",
+    "route": "https://residentvinyl.com/collections/all/products.json?limit=20&page=1",
+    "score": 135,
+    "selection": "highest_bounded_adapter_score"
+  },
+  "method_candidates": [
+    {
+      "platform": "shopify",
+      "route": "https://residentvinyl.com/products.json?limit=20&page=1",
+      "score": 65,
+      "products_seen": 20,
+      "accepted": 6,
+      "excluded": 14,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://residentvinyl.com/collections/all/products.json?limit=20&page=1",
+      "score": 135,
+      "products_seen": 20,
+      "accepted": 13,
+      "excluded": 7,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "woocommerce",
+      "route": "https://residentvinyl.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_400"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://residentvinyl.com/api/0.1/collections/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://residentvinyl.com/api/0.1/collections/all/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://residentvinyl.com/api/storefront/products?limit=20&offset=0",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://residentvinyl.com/api/storefront/products?limit=20",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    }
+  ],
+  "listing_sample": 13,
+  "detail_checked": 3,
+  "detail_gtin_valid": 0,
+  "currency": "USD",
+  "currency_source": "public_storefront_Shopify.currency",
+  "currency_source_url": "https://residentvinyl.com/",
+  "release_status": "AWAITING_MANUAL_TEST",
+  "scraper_type": "ARTIST_TITLE",
+  "assessment_version": 2,
+  "assessment_id": "v2-40571453864-1",
+  "country": "US",
+  "production_approved": false
+}
