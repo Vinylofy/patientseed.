@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T18:37:36.333395+00:00",
+  "shop_id": "floweringspikes.com",
+  "row": 948,
+  "name": "Flowering Spikes Records",
+  "domain": "floweringspikes.com",
+  "country": "US",
+  "website": "https://floweringspikes.com/",
+  "previous_status": "ADAPTER_TESTED",
+  "previous_reason": "no confirmed new vinyl on bounded page",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 948,
+    "name": "Flowering Spikes Records",
+    "domain": "floweringspikes.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://floweringspikes.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://floweringspikes.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://floweringspikes.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://floweringspikes.com/collections/all/products.json?limit=20&page=1",
+        "score": 55,
+        "products_seen": 20,
+        "accepted": 5,
+        "excluded": 15,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://floweringspikes.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://floweringspikes.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://floweringspikes.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://floweringspikes.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://floweringspikes.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://floweringspikes.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://floweringspikes.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 14,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://floweringspikes.com/products/ludwig-van-beethoven-piano-concertos-annie-fischer?variant=67943699841107",
+      "artist": "Ludwig Van Beethoven",
+      "title": "Piano Concertos – Annie Fischer",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "160.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://floweringspikes.com/products/anton-bruckner-symphony-no-6-in-a-major-joseph-keilberth-berlin-philharmonic-orchestra?variant=67943698563155",
+      "artist": "Anton Bruckner",
+      "title": "Symphony No. 6 In A Major – Joseph Keilberth, Berlin Philharmonic Orchestra",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "50.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://floweringspikes.com/products/dmitri-shostakovich-symphony-no-11-in-g-minor-op-103-the-year-1905-leopold-stokowski-houston-symphony-orchestra?variant=67943695941715",
+      "artist": "Dmitri Shostakovich",
+      "title": "Symphony No. 11 In G Minor, Op. 103 (The Year 1905) – Leopold Stokowski, Houston Symphony Orchestra",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "39.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://floweringspikes.com/robots.txt",
+      "sha256": "3e0738adfd83a9bf7fa77ea8cdfe42893ef4264ac7f935954460818fff58f679"
+    },
+    {
+      "url": "https://floweringspikes.com/",
+      "sha256": "08b9a14d9d482841c3aca9d710279cdb9657e420c622d51058ce1dccca5d50fc"
+    },
+    {
+      "url": "https://floweringspikes.com/products.json?limit=20&page=1",
+      "sha256": "7632e17bb61e414795e76838ff49fc1fb2423e41e31dad4d6af54b52a9b696ce"
+    },
+    {
+      "url": "https://floweringspikes.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "cc87f77ca77c31bc9857f03d7d2b9daab834f250a31d7beffa6054ba9899d2cd"
+    },
+    {
+      "url": "https://floweringspikes.com/products/dmitri-shostakovich-symphony-no-11-in-g-minor-op-103-the-year-1905-leopold-stokowski-houston-symphony-orchestra",
+      "sha256": "e5be3346ed8c97075f0be5bb8cf8cf7b78a1e3c05bf33fd55216c22ef3b53204"
+    },
+    {
+      "url": "https://floweringspikes.com/products/johannes-brahms-piano-quintet-in-f-minor-op-34-leon-fleisher-juilliard-string-quartet",
+      "sha256": "4b59428c2212dcf3e9e66e9126ef45ce4bd9427389f40cb5d83f78e928596abe"
+    },
+    {
+      "url": "https://floweringspikes.com/products/ludwig-van-beethoven-piano-concertos-annie-fischer?variant=67943699841107",
+      "sha256": "ce0ddb18712cf785282d7bfbade87f16b6f403e0265b4dd70683f6ea1cad5b34"
+    },
+    {
+      "url": "https://floweringspikes.com/products/anton-bruckner-symphony-no-6-in-a-major-joseph-keilberth-berlin-philharmonic-orchestra?variant=67943698563155",
+      "sha256": "2a9ae4fb9d76411e93bfdddd5ab19b6901bd13826ff97c53eb41a273f182abc9"
+    },
+    {
+      "url": "https://floweringspikes.com/products/dmitri-shostakovich-symphony-no-11-in-g-minor-op-103-the-year-1905-leopold-stokowski-houston-symphony-orchestra?variant=67943695941715",
+      "sha256": "d17d27e41f287ad3e0fe4470d02bf07a853574c6d25ee3f6e331d0a3c7b2d053"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_948",
+  "existing_scraper_status": "NONE",
+  "example_urls": [
+    "https://floweringspikes.com/products/ludwig-van-beethoven-piano-concertos-annie-fischer?variant=67943699841107",
+    "https://floweringspikes.com/products/anton-bruckner-symphony-no-6-in-a-major-joseph-keilberth-berlin-philharmonic-orchestra?variant=67943698563155",
+    "https://floweringspikes.com/products/dmitri-shostakovich-symphony-no-11-in-g-minor-op-103-the-year-1905-leopold-stokowski-houston-symphony-orchestra?variant=67943695941715"
+  ],
+  "assessment_id": "v2-40743938200-1",
+  "queue_rows": [
+    948
+  ],
+  "assessment_path": "assessments/v2/floweringspikes_com/v2-40743938200-1.json"
+}
