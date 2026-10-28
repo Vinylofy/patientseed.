@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T22:35:20.686392+00:00",
+  "shop_id": "hivoltagerecords.com",
+  "row": 1174,
+  "name": "Hi-Voltage Records",
+  "domain": "hivoltagerecords.com",
+  "country": "US",
+  "website": "https://hivoltagerecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1174,
+    "name": "Hi-Voltage Records",
+    "domain": "hivoltagerecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://hivoltagerecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 18,
+    "excluded": 2,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://hivoltagerecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://hivoltagerecords.com/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://hivoltagerecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://hivoltagerecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://hivoltagerecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://hivoltagerecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://hivoltagerecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://hivoltagerecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://hivoltagerecords.com/products.json?limit=20&page=1",
+      "score": 185,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://hivoltagerecords.com/products.json?limit=20&page=1",
+  "listing_sample": 18,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 18,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://hivoltagerecords.com/products/motley-crue-too-fast-for-love-lp-new-anniversary-edition?variant=67679561908279",
+      "artist": "Motley Crue",
+      "title": "Too Fast for Love LP NEW ANNIVERSARY EDITION",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "27.99",
+      "currency": "USD",
+      "valid_eans": [
+        "04099964221527"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://hivoltagerecords.com/products/pentatonix-christmas-in-the-city-lp-new-deluxe-color-vinyl?variant=67679795544119",
+      "artist": "Pentatonix",
+      "title": "Christmas In The City LP NEW Deluxe Color Vinyl",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "45.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00881061325482"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://hivoltagerecords.com/products/e-pruitt-bass-graffiti-lp-new?variant=67685450317879",
+      "artist": "E.Pruitt",
+      "title": "Bass Graffiti LP NEW",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "34.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00884400637048"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://hivoltagerecords.com/robots.txt",
+      "sha256": "81f420da37fb601a910303726bd180aa90698c9c9a880e00d5fbdcb0a9da8c1f"
+    },
+    {
+      "url": "https://hivoltagerecords.com/",
+      "sha256": "7a361beabc3d6ccde392eccc3f0972d455a481234edee3537ebd6750d5ed20f3"
+    },
+    {
+      "url": "https://hivoltagerecords.com/products.json?limit=20&page=1",
+      "sha256": "37533d299ebbe95b118397eb68d45b6733290b5559d98d2f0d2c1287cb27f856"
+    },
+    {
+      "url": "https://hivoltagerecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "09a272ccb504b9fe02ca66d6e7a25854e07b1efb67f2d3e6306f4fde7557b55b"
+    },
+    {
+      "url": "https://hivoltagerecords.com/products/e-pruitt-bass-graffiti-lp-new",
+      "sha256": "c79bb0760f4912b83bfb2a8a71b25504c056a79de6c56cef91c206e291ba0892"
+    },
+    {
+      "url": "https://hivoltagerecords.com/products/olivia-rodrigo-expectations-feat-chappell-roan-7-new-la-behavior-blue-translucent-vinyl",
+      "sha256": "5534947c096ecc459b0f92bd10f632171aaca78dd248db223df3e62294a5aa16"
+    },
+    {
+      "url": "https://hivoltagerecords.com/products/motley-crue-too-fast-for-love-lp-new-anniversary-edition?variant=67679561908279",
+      "sha256": "74d74d812d7956e44a63f0213cf90217396f703e2b48522843e517117070477e"
+    },
+    {
+      "url": "https://hivoltagerecords.com/products/pentatonix-christmas-in-the-city-lp-new-deluxe-color-vinyl?variant=67679795544119",
+      "sha256": "38637061de55ee8d01b79cdf143f5f021c4e7339febc52e1506a39d8f16f1bdf"
+    },
+    {
+      "url": "https://hivoltagerecords.com/products/e-pruitt-bass-graffiti-lp-new?variant=67685450317879",
+      "sha256": "92b7641e9d942cf24810db607403fcd6aacf12ccde72edca1fde295568ed8a8a"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": true,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_1174",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://hivoltagerecords.com/products/motley-crue-too-fast-for-love-lp-new-anniversary-edition?variant=67679561908279",
+    "https://hivoltagerecords.com/products/pentatonix-christmas-in-the-city-lp-new-deluxe-color-vinyl?variant=67679795544119",
+    "https://hivoltagerecords.com/products/e-pruitt-bass-graffiti-lp-new?variant=67685450317879"
+  ],
+  "assessment_id": "v2-40780448358-1",
+  "queue_rows": [
+    1174
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 18,
+  "candidate_ref": "v2-40780448358-1/hivoltagerecords_com",
+  "assessment_path": "assessments/v2/hivoltagerecords_com/v2-40780448358-1.json"
+}
