@@ -1,0 +1,200 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T12:46:48.932529+00:00",
+  "shop_id": "comebackvinyl.com",
+  "row": 570,
+  "name": "Comeback Vinyl",
+  "domain": "comebackvinyl.com",
+  "country": "US",
+  "website": "https://comebackvinyl.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 570,
+    "name": "Comeback Vinyl",
+    "domain": "comebackvinyl.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://comebackvinyl.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://comebackvinyl.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://comebackvinyl.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://comebackvinyl.com/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://comebackvinyl.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://comebackvinyl.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://comebackvinyl.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://comebackvinyl.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://comebackvinyl.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://comebackvinyl.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://comebackvinyl.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 15,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://comebackvinyl.com/robots.txt",
+      "sha256": "557105a137528d356baed2eda8d943f3cef920833281e4178e566834c50d8b85"
+    },
+    {
+      "url": "https://comebackvinyl.com/",
+      "sha256": "e397ad97d1fb8cf191a9fd6750af42c70d6cf79f1d1dc445fb8df645cfd12d5c"
+    },
+    {
+      "url": "https://comebackvinyl.com/products.json?limit=20&page=1",
+      "sha256": "793d7873d0ebe62a19c065586374adb6027b744e000745a19b40f408656cc071"
+    },
+    {
+      "url": "https://comebackvinyl.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "e9443595183f59bf9a0bbd45843de4d8ce941ff0c46cceca282c41df151cfe4a"
+    },
+    {
+      "url": "https://comebackvinyl.com/products/madonna-celebration",
+      "sha256": "ea12d0b692b7ac1a4636f498d9b0dcd0ac3e97e3d53127fe5615912dabf4bc77"
+    },
+    {
+      "url": "https://comebackvinyl.com/products/creed-weathered-indie-exclusive",
+      "sha256": "6f33e946a065d1bd285710ee1e35b7f312861d494a8db38501cca80c490a5fa5"
+    },
+    {
+      "url": "https://comebackvinyl.com/products/zayn-konnakol-deluxe-edition-rsd-black-friday-2026?variant=50960947511553",
+      "sha256": "de10c7d7aa0c4db4e7217bb74979e5d19cd2aa8565ead8ef9e7f64f4be5cbce3"
+    },
+    {
+      "url": "https://comebackvinyl.com/products/skid-row-skid-row-2021-pressing?variant=50961345282305",
+      "sha256": "587f8a959fe6623f94f55c6bd1339096531acf75086915309df6a33bf6fee928"
+    },
+    {
+      "url": "https://comebackvinyl.com/products/madonna-celebration?variant=50973442605313",
+      "sha256": "9f1adcbaeb78b2ccab84fd7dad4ab6defaa5258c6ca91ebcf758835c38c37180"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 2,
+    "detail_price_proven": 2,
+    "ean_valid": 2,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_570",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40689986664-1",
+  "queue_rows": [
+    570
+  ],
+  "assessment_path": "assessments/v2/comebackvinyl_com/v2-40689986664-1.json"
+}
