@@ -3675,9 +3675,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **510**. Open: **2814**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **610**. Open: **2714**.
 
-EAN: **20** | ARTIST_TITLE: **25** | MANUAL_REVIEW: **465** | UNSUITABLE: **0**
+EAN: **21** | ARTIST_TITLE: **25** | MANUAL_REVIEW: **564** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -4115,106 +4115,106 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Cactus VHS | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Cali Vibes Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
 | Caliche Co. | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Calico Records And CDs | US | Nog te beoordelen | — | — | — | — |
-| Cameron Records | US | Nog te beoordelen | — | — | — | — |
-| Campney's Retro Revival | US | Nog te beoordelen | — | — | — | — |
-| Canandaigua Record Exchange | US | Nog te beoordelen | — | — | — | — |
-| Candi Warhol’s | US | Nog te beoordelen | — | — | — | — |
-| Canterbury Records | US | Nog te beoordelen | — | — | — | — |
-| Cantina Records | US | Nog te beoordelen | — | — | — | — |
-| Canvas House Antiques & Design Center | US | Nog te beoordelen | — | — | — | — |
-| Cap City Groove | US | Nog te beoordelen | — | — | — | — |
-| CAP Local Imports Thrift Store | US | Nog te beoordelen | — | — | — | — |
-| Cape Abilities Thrift | US | Nog te beoordelen | — | — | — | — |
-| Capital City Antique Mall | US | Nog te beoordelen | — | — | — | — |
-| Capital City Records | US | Nog te beoordelen | — | — | — | — |
-| Capital Music Company & Record Safari | US | Nog te beoordelen | — | — | — | — |
-| Capitoline Records | US | Nog te beoordelen | — | — | — | — |
-| Captain Bizzaro's Treasure World | US | Nog te beoordelen | — | — | — | — |
-| Captain Oz Collectables; The Spot At The Ave, LLC | US | Nog te beoordelen | — | — | — | — |
-| Captured Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Caribbean Record Store | US | Nog te beoordelen | — | — | — | — |
-| Carolina Girl Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Carolina Soul Records | US | Nog te beoordelen | — | — | — | — |
-| Caroline's Records | US | Nog te beoordelen | — | — | — | — |
-| Carpe Diem | US | Nog te beoordelen | — | — | — | — |
-| Casa Amadeo, Antigua Casa Hernandez | US | Nog te beoordelen | — | — | — | — |
-| Casa Latina Records | US | Nog te beoordelen | — | — | — | — |
-| Cash 4 Chaos | US | Nog te beoordelen | — | — | — | — |
-| Cashmere Records | US | Nog te beoordelen | — | — | — | — |
-| Castaways Vintage to Modern | US | Nog te beoordelen | — | — | — | — |
-| Cat Head Delta Blues & Folk Art | US | Nog te beoordelen | — | — | — | — |
-| Catacomb Records | US | Nog te beoordelen | — | — | — | — |
-| Catalyst Records | US | Nog te beoordelen | — | — | — | — |
-| Catch-All Records | US | Nog te beoordelen | — | — | — | — |
-| Caydence Records & Coffee | US | Nog te beoordelen | — | — | — | — |
-| CBug's Records | US | Nog te beoordelen | — | — | — | — |
-| CD CAF'E | US | Nog te beoordelen | — | — | — | — |
-| CD CAFE | US | Nog te beoordelen | — | — | — | — |
-| CD Cellar | US | Nog te beoordelen | — | — | — | — |
-| CD Cellar | US | Nog te beoordelen | — | — | — | — |
-| CD Development Inc | US | Nog te beoordelen | — | — | — | — |
-| CD Exchange | US | Nog te beoordelen | — | — | — | — |
-| CD Exchange | US | Nog te beoordelen | — | — | — | — |
-| CD Exchange - Bitters & 281; CD Exchange - SW Military; CD Exchange - The Colonnade; Movie Exchange - Bandera | US | Nog te beoordelen | — | — | — | — |
-| CD Exchange at Hi Fi Lounge | US | Nog te beoordelen | — | — | — | — |
-| CD Imprintables | US | Nog te beoordelen | — | — | — | — |
-| CD Master Copy | US | Nog te beoordelen | — | — | — | — |
-| CD Music Reunion | US | Nog te beoordelen | — | — | — | — |
-| CD Rom Discoveries | US | Nog te beoordelen | — | — | — | — |
-| CD Sam | US | Nog te beoordelen | — | — | — | — |
-| CD Trader | US | Nog te beoordelen | — | — | — | — |
-| CD Warehouse | US | Nog te beoordelen | — | — | — | — |
-| CD Warehouse | US | Nog te beoordelen | — | — | — | — |
-| CD Warehouse | US | Nog te beoordelen | — | — | — | — |
-| CD Warehouse | US | Nog te beoordelen | — | — | — | — |
-| CD Warehouse | US | Nog te beoordelen | — | — | — | — |
-| CD Warehouse marietta | US | Nog te beoordelen | — | — | — | — |
-| CD's & More | US | Nog te beoordelen | — | — | — | — |
-| CD's Vinyl Records | US | Nog te beoordelen | — | — | — | — |
-| Cedar Valley Coins & Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Celebrated Summer Records | US | Nog te beoordelen | — | — | — | — |
-| Centerville Pickers Market Antiques Home Decor | US | Nog te beoordelen | — | — | — | — |
-| Central Coast Music | US | Nog te beoordelen | — | — | — | — |
-| Central Square Records | US | Nog te beoordelen | — | — | — | — |
-| Century 21 Music & More | US | Nog te beoordelen | — | — | — | — |
-| Century Records | US | Nog te beoordelen | — | — | — | — |
-| Certified Bag Chasers Records | US | Nog te beoordelen | — | — | — | — |
-| Chain Reaction Records | US | Nog te beoordelen | — | — | — | — |
-| Chamber 43 | US | Nog te beoordelen | — | — | — | — |
-| Chandelier Records & More | US | Nog te beoordelen | — | — | — | — |
-| Chaotic | US | Nog te beoordelen | — | — | — | — |
-| Chapter 2 Books | US | Nog te beoordelen | — | — | — | — |
-| Charley's Records & CDs | US | Nog te beoordelen | — | — | — | — |
-| Charter Books | US | Nog te beoordelen | — | — | — | — |
-| Chasquis Records | US | Nog te beoordelen | — | — | — | — |
-| Cheap Kiss Records | US | Nog te beoordelen | — | — | — | — |
-| Cheap Thrills | US | Nog te beoordelen | — | — | — | — |
-| Cheap Thrills Records | US | Nog te beoordelen | — | — | — | — |
-| Cheapo Records | US | Nog te beoordelen | — | — | — | — |
-| Cheapo Records | US | Nog te beoordelen | — | — | — | — |
-| Cheapo Records | US | Nog te beoordelen | — | — | — | — |
-| Checker Records | US | Nog te beoordelen | — | — | — | — |
-| Chef's Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Cherries | US | Nog te beoordelen | — | — | — | — |
-| Cherry Records | US | Nog te beoordelen | — | — | — | — |
-| Chicago Digital | US | Nog te beoordelen | — | — | — | — |
-| Chief Records | US | Nog te beoordelen | — | — | — | — |
-| Cholo's Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Chris's Nostalgia Shop | US | Nog te beoordelen | — | — | — | — |
-| Chuck's R.I.P. Records | US | Nog te beoordelen | — | — | — | — |
-| CI Records | US | Nog te beoordelen | — | — | — | — |
-| CI Records & Skates | US | Nog te beoordelen | — | — | — | — |
-| CIRCA: NOW! RECORDS | US | Nog te beoordelen | — | — | — | — |
-| Circle Game Records | US | Nog te beoordelen | — | — | — | — |
-| CITY NOISE RECORDS | US | Nog te beoordelen | — | — | — | — |
-| City Park Gaming & Brew Room CPGB Room | US | Nog te beoordelen | — | — | — | — |
-| City Records Comics & Toys | US | Nog te beoordelen | — | — | — | — |
-| City Square Books & Music | US | Nog te beoordelen | — | — | — | — |
-| Clarizio Music Center | US | Nog te beoordelen | — | — | — | — |
-| Classic Audio & Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Classic Audio and Records | US | Nog te beoordelen | — | — | — | — |
-| Classic Vinyls Record Shop | US | Nog te beoordelen | — | — | — | — |
+| Calico Records And CDs | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Cameron Records | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Campney's Retro Revival | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Canandaigua Record Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Candi Warhol’s | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Canterbury Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Cantina Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Canvas House Antiques & Design Center | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Cap City Groove | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| CAP Local Imports Thrift Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Cape Abilities Thrift | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Capital City Antique Mall | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Capital City Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Capital Music Company & Record Safari | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Capitoline Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Captain Bizzaro's Treasure World | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Captain Oz Collectables; The Spot At The Ave, LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Captured Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Caribbean Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Carolina Girl Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Carolina Soul Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Caroline's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Carpe Diem | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Casa Amadeo, Antigua Casa Hernandez | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Casa Latina Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Cash 4 Chaos | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Cashmere Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Castaways Vintage to Modern | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Cat Head Delta Blues & Folk Art | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Catacomb Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Catalyst Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Catch-All Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Caydence Records & Coffee | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_crawl_delay_exceeds_bounded_pilot | — |
+| CBug's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| CD CAF'E | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_503 | — |
+| CD CAFE | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| CD Cellar | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| CD Cellar | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| CD Development Inc | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| CD Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| CD Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| CD Exchange - Bitters & 281; CD Exchange - SW Military; CD Exchange - The Colonnade; Movie Exchange - Bandera | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| CD Exchange at Hi Fi Lounge | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| CD Imprintables | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| CD Master Copy | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| CD Music Reunion | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| CD Rom Discoveries | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| CD Sam | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | TimeoutError | — |
+| CD Trader | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| CD Warehouse | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| CD Warehouse | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| CD Warehouse | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| CD Warehouse | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| CD Warehouse | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| CD Warehouse marietta | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| CD's & More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| CD's Vinyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Cedar Valley Coins & Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Celebrated Summer Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Centerville Pickers Market Antiques Home Decor | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Central Coast Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Central Square Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Century 21 Music & More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Century Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Certified Bag Chasers Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Chain Reaction Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Chamber 43 | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Chandelier Records & More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Chaotic | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Chapter 2 Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Charley's Records & CDs | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Charter Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Chasquis Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Cheap Kiss Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Cheap Thrills | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Cheap Thrills Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Cheapo Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Cheapo Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Cheapo Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Checker Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Chef's Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Cherries | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Cherry Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Chicago Digital | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Chief Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Cholo's Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Chris's Nostalgia Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Chuck's R.I.P. Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| CI Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| CI Records & Skates | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| CIRCA: NOW! RECORDS | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Circle Game Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| CITY NOISE RECORDS | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| City Park Gaming & Brew Room CPGB Room | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| City Records Comics & Toys | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| City Square Books & Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Clarizio Music Center | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Classic Audio & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Classic Audio and Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Classic Vinyls Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Classical Music of Spring | US | Nog te beoordelen | — | — | — | — |
 | Classified Records | US | Nog te beoordelen | — | — | — | — |
 | Cle Gen Cd's & Accessories | US | Nog te beoordelen | — | — | — | — |
