@@ -3675,9 +3675,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **1010**. Open: **2314**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **1110**. Open: **2214**.
 
-EAN: **31** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **952** | UNSUITABLE: **0**
+EAN: **32** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **1051** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -4622,110 +4622,110 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | FM MUSIC Vintage Sounds | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Folk Arts Rare Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
 | Folklore Records+Drinks+Food | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Foot Work - Record Store & Bar 21+ | US | Nog te beoordelen | — | — | — | — |
-| Footlight records | US | Nog te beoordelen | — | — | — | — |
-| For The Record | US | Nog te beoordelen | — | — | — | — |
-| For The Record | US | Nog te beoordelen | — | — | — | — |
-| For The Record | US | Nog te beoordelen | — | — | — | — |
-| For The Record | US | Nog te beoordelen | — | — | — | — |
-| For The Record | US | Nog te beoordelen | — | — | — | — |
-| Forever Changes Vinyl Lounge | US | Nog te beoordelen | — | — | — | — |
-| Forever Young Records | US | Nog te beoordelen | — | — | — | — |
-| ForeverMore Record Bus | US | Nog te beoordelen | — | — | — | — |
-| Fort Walton Vintage Records | US | Nog te beoordelen | — | — | — | — |
-| Found in Fortuna \| Thrift Store & Estate Sale Liquidator | US | Nog te beoordelen | — | — | — | — |
-| Found Sound | US | Nog te beoordelen | — | — | — | — |
-| Found Sound Records | US | Nog te beoordelen | — | — | — | — |
-| Foundation | US | Nog te beoordelen | — | — | — | — |
-| FOUNTAIN Records | US | Nog te beoordelen | — | — | — | — |
+| Foot Work - Record Store & Bar 21+ | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Response size limit | — |
+| Footlight records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| For The Record | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| For The Record | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| For The Record | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| For The Record | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| For The Record | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Forever Changes Vinyl Lounge | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Forever Young Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| ForeverMore Record Bus | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Fort Walton Vintage Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Found in Fortuna \| Thrift Store & Estate Sale Liquidator | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Found Sound | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Found Sound Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Foundation | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| FOUNTAIN Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Fourth Rock Records in the Shops at Mars Beads | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:new_used_distinguishable | — |
-| Fox Music Company | US | Nog te beoordelen | — | — | — | — |
-| Fragment Cassettes | US | Nog te beoordelen | — | — | — | — |
-| Frankie's Records | US | Nog te beoordelen | — | — | — | — |
-| Freakbeat Records | US | Nog te beoordelen | — | — | — | — |
-| Freakout Spot | US | Nog te beoordelen | — | — | — | — |
-| Free Bird Co. Records & Apparel | US | Nog te beoordelen | — | — | — | — |
-| Free The Funk Records | US | Nog te beoordelen | — | — | — | — |
-| Frenchtown Audio; Frenchtown Records, Antiques & More | US | Nog te beoordelen | — | — | — | — |
-| Fresh 2 Retro | US | Nog te beoordelen | — | — | — | — |
-| Fresh Produce Records | US | Nog te beoordelen | — | — | — | — |
-| Freshtopia | US | Nog te beoordelen | — | — | — | — |
-| Friedman Found | US | Nog te beoordelen | — | — | — | — |
-| Friends Of Sound Beacon Hill ( Buy Sell Trade); Friends Of Sound King William | US | Nog te beoordelen | — | — | — | — |
-| Friends Of Sound Records Eureka | US | Nog te beoordelen | — | — | — | — |
-| Frightmare Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Fringe Records NYC | US | Nog te beoordelen | — | — | — | — |
-| Frizb's CD Exchange | US | Nog te beoordelen | — | — | — | — |
-| Froggy's Retro Pad | US | Nog te beoordelen | — | — | — | — |
-| Front Royal Records | US | Nog te beoordelen | — | — | — | — |
-| Frontier Auto Museum & Cafe | US | Nog te beoordelen | — | — | — | — |
-| Frugal Muse Books, Music and Video | US | Nog te beoordelen | — | — | — | — |
-| Fruit Fly Records | US | Nog te beoordelen | — | — | — | — |
-| Full Circle Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Full Contact Rock N Roll | US | Nog te beoordelen | — | — | — | — |
+| Fox Music Company | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Fragment Cassettes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Frankie's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:public_prices | — |
+| Freakbeat Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Freakout Spot | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Free Bird Co. Records & Apparel | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Free The Funk Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Frenchtown Audio; Frenchtown Records, Antiques & More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Fresh 2 Retro | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Fresh Produce Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Freshtopia | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Friedman Found | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Friends Of Sound Beacon Hill ( Buy Sell Trade); Friends Of Sound King William | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Friends Of Sound Records Eureka | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Frightmare Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Fringe Records NYC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Frizb's CD Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Froggy's Retro Pad | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Front Royal Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Frontier Auto Museum & Cafe | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Frugal Muse Books, Music and Video | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Fruit Fly Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Full Circle Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Full Contact Rock N Roll | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Full Haus Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| Full Moon Records | US | Nog te beoordelen | — | — | — | — |
-| Full Score Music | US | Nog te beoordelen | — | — | — | — |
-| Fullerton70Records | US | Nog te beoordelen | — | — | — | — |
-| Fungus Books & Records | US | Nog te beoordelen | — | — | — | — |
-| Funk Freak Store | US | Nog te beoordelen | — | — | — | — |
-| Funk Zone Records | US | Nog te beoordelen | — | — | — | — |
-| Funkadelphia Record Distribution | US | Nog te beoordelen | — | — | — | — |
-| Funky Finds Vintage & Retro | US | Nog te beoordelen | — | — | — | — |
-| Funky Grandpa | US | Nog te beoordelen | — | — | — | — |
-| Funky Grooves Creative Studio | US | Nog te beoordelen | — | — | — | — |
-| Funky Town Comics & Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Fuq’n Vinyl | US | Nog te beoordelen | — | — | — | — |
+| Full Moon Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Full Score Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Fullerton70Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Fungus Books & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Funk Freak Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Funk Zone Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Funkadelphia Record Distribution | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Funky Finds Vintage & Retro | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Funky Grandpa | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Funky Grooves Creative Studio | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Funky Town Comics & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Fuq’n Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Further Records | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40571453864-1/furtherrecords_com |
-| Fuzzy Dog Books & Music | US | Nog te beoordelen | — | — | — | — |
-| Fuzzy Needle Records | US | Nog te beoordelen | — | — | — | — |
-| FX Game Exchange | US | Nog te beoordelen | — | — | — | — |
-| G SET RECORDS | US | Nog te beoordelen | — | — | — | — |
-| G-Ma’s Back Porch on line | US | Nog te beoordelen | — | — | — | — |
-| G's Vintage Market | US | Nog te beoordelen | — | — | — | — |
-| G2K Records | US | Nog te beoordelen | — | — | — | — |
-| Galactic Goat Records | US | Nog te beoordelen | — | — | — | — |
-| Gallery of Sound - Dickson City; Gallery of Sound - Wilkes-Barre | US | Nog te beoordelen | — | — | — | — |
-| Game Heads & Vinyl Junkies | US | Nog te beoordelen | — | — | — | — |
-| Game X Change | US | Nog te beoordelen | — | — | — | — |
-| Game-Xplosion TOP CA$H for Video Games, Music & Pokemon! All POKEMON on SALE! | US | Nog te beoordelen | — | — | — | — |
-| Games 4 Less | US | Nog te beoordelen | — | — | — | — |
-| Garage Sale Vintage | US | Nog te beoordelen | — | — | — | — |
-| Garebalzi's Cds | US | Nog te beoordelen | — | — | — | — |
-| Garnick's | US | Nog te beoordelen | — | — | — | — |
-| Gateway Records | US | Nog te beoordelen | — | — | — | — |
-| Geektopia | US | Nog te beoordelen | — | — | — | — |
-| Generation Records | US | Nog te beoordelen | — | — | — | — |
-| Generations Antiques & Gifts | US | Nog te beoordelen | — | — | — | — |
-| Geno's Records | US | Nog te beoordelen | — | — | — | — |
-| Geo's Music | US | Nog te beoordelen | — | — | — | — |
-| George's Song Shop | US | Nog te beoordelen | — | — | — | — |
-| Georgetown Records | US | Nog te beoordelen | — | — | — | — |
-| Gerosa Records | US | Nog te beoordelen | — | — | — | — |
-| Get Hip Records | US | Nog te beoordelen | — | — | — | — |
-| Get Records With Me | US | Nog te beoordelen | — | — | — | — |
+| Fuzzy Dog Books & Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Fuzzy Needle Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| FX Game Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| G SET RECORDS | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| G-Ma’s Back Porch on line | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| G's Vintage Market | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| G2K Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Galactic Goat Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Gallery of Sound - Dickson City; Gallery of Sound - Wilkes-Barre | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Game Heads & Vinyl Junkies | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Game X Change | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Game-Xplosion TOP CA$H for Video Games, Music & Pokemon! All POKEMON on SALE! | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Games 4 Less | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Garage Sale Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Garebalzi's Cds | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Garnick's | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Gateway Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Geektopia | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Generation Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Generations Antiques & Gifts | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Geno's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Geo's Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| George's Song Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Georgetown Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Gerosa Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Get Hip Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Get Records With Me | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
 | Get Thrifty / Provo's Vintage Groove; Provo's Vintage Groove | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
-| Ghost of Eastside Records | US | Nog te beoordelen | — | — | — | — |
-| Gigantic Records | US | Nog te beoordelen | — | — | — | — |
-| Gimme Gimme Records | US | Nog te beoordelen | — | — | — | — |
-| Ginkgo Records | US | Nog te beoordelen | — | — | — | — |
-| Glenn's Records | US | Nog te beoordelen | — | — | — | — |
-| GMQ Collections | US | Nog te beoordelen | — | — | — | — |
-| Gneiss Sounds | US | Nog te beoordelen | — | — | — | — |
-| Go! Records | US | Nog te beoordelen | — | — | — | — |
-| GOAT Records | US | Nog te beoordelen | — | — | — | — |
-| Goats Head Records | US | Nog te beoordelen | — | — | — | — |
-| Goblin Shark Emporium | US | Nog te beoordelen | — | — | — | — |
-| Going Underground Records | US | Nog te beoordelen | — | — | — | — |
-| Goingsnake Records and Vintage | US | Nog te beoordelen | — | — | — | — |
-| Gold Dust Vintage and Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Gold Record Outlet | US | Nog te beoordelen | — | — | — | — |
-| Golden Oldies Records | US | Nog te beoordelen | — | — | — | — |
-| Goldmine Vintage | US | Nog te beoordelen | — | — | — | — |
-| Goner Records | US | Nog te beoordelen | — | — | — | — |
-| Good Dog Records & Books | US | Nog te beoordelen | — | — | — | — |
-| Good Earth Records - Bay St. Louis | US | Nog te beoordelen | — | — | — | — |
-| Good Records | US | Nog te beoordelen | — | — | — | — |
+| Ghost of Eastside Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Gigantic Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Gimme Gimme Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Ginkgo Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Glenn's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| GMQ Collections | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Gneiss Sounds | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
+| Go! Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| GOAT Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Goats Head Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Goblin Shark Emporium | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Going Underground Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Goingsnake Records and Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Gold Dust Vintage and Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Gold Record Outlet | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Golden Oldies Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Goldmine Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Goner Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Good Dog Records & Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Good Earth Records - Bay St. Louis | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Good Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | GOOD TASTE Records | US | Nog te beoordelen | — | — | — | — |
 | Good Vibes Vinyl | US | Nog te beoordelen | — | — | — | — |
 | Good Vibrations | US | Nog te beoordelen | — | — | — | — |
