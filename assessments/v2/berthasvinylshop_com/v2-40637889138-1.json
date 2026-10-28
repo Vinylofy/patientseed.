@@ -1,0 +1,103 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T05:27:22.960209+00:00",
+  "shop_id": "berthasvinylshop.com",
+  "row": 267,
+  "name": "Bertha's Vinyl Shop",
+  "domain": "berthasvinylshop.com",
+  "country": "US",
+  "website": "https://berthasvinylshop.com/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 267,
+    "name": "Bertha's Vinyl Shop",
+    "domain": "berthasvinylshop.com",
+    "status": "SOURCE_BLOCKED",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "source_url": "https://berthasvinylshop.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "reason": "HTTP_429",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://berthasvinylshop.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://berthasvinylshop.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": "https://berthasvinylshop.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "requests": [
+    {
+      "url": "https://berthasvinylshop.com/robots.txt",
+      "sha256": "a0a693cecd794625b4eaa248934de0b482253dfd1f639f35dc18191b8202479e"
+    },
+    {
+      "url": "https://berthasvinylshop.com/",
+      "sha256": "ac0472fa0e8054f84028713f7c37140f736b716501188ff4c0e6779909c2aa22"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "HTTP_429"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "HTTP_429"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_267",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40637889138-1",
+  "queue_rows": [
+    267
+  ],
+  "assessment_path": "assessments/v2/berthasvinylshop_com/v2-40637889138-1.json"
+}
