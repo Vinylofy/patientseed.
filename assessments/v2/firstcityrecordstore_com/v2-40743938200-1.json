@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T18:35:30.485665+00:00",
+  "shop_id": "firstcityrecordstore.com",
+  "row": 929,
+  "name": "First City Records",
+  "domain": "firstcityrecordstore.com",
+  "country": "US",
+  "website": "https://firstcityrecordstore.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 929,
+    "name": "First City Records",
+    "domain": "firstcityrecordstore.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://firstcityrecordstore.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 10,
+    "excluded": 10,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://firstcityrecordstore.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://firstcityrecordstore.com/products.json?limit=20&page=1",
+        "score": 75,
+        "products_seen": 20,
+        "accepted": 7,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://firstcityrecordstore.com/collections/all/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://firstcityrecordstore.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://firstcityrecordstore.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://firstcityrecordstore.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://firstcityrecordstore.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://firstcityrecordstore.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://firstcityrecordstore.com/collections/all/products.json?limit=20&page=1",
+      "score": 105,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://firstcityrecordstore.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 10,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 10,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://firstcityrecordstore.com/robots.txt",
+      "sha256": "ccb92a6535656d31c43a73266d79bf7a009b46256c37d40985c6f733c2164181"
+    },
+    {
+      "url": "https://firstcityrecordstore.com/",
+      "sha256": "5f4d5493948945740e50379592f65495f9629b87601c434febd9eb32968697b8"
+    },
+    {
+      "url": "https://firstcityrecordstore.com/products.json?limit=20&page=1",
+      "sha256": "c98775ac579e849239468271461d075fa48e31d32254eac3f23abb94337cd9ef"
+    },
+    {
+      "url": "https://firstcityrecordstore.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "cae5369c3c1b35fc44d9cd018386f12d9e8f43a5670541b59e679868d6d7f297"
+    },
+    {
+      "url": "https://firstcityrecordstore.com/products/uicideboy-suicideboys-stop-staring-at-the-shadows-indie-exclusive-ghost-vinyl",
+      "sha256": "eaa3f54a2aa43540d51eab41805f755fc05ac1d92b8a78700af2f54c25f98c00"
+    },
+    {
+      "url": "https://firstcityrecordstore.com/products/uicideboy-i-want-to-die-in-new-orleans",
+      "sha256": "a448ad4f64d709ab29ff60f5dd340b6cf3b580e2d85983d151c10d05369891aa"
+    },
+    {
+      "url": "https://firstcityrecordstore.com/products/10-mtv-unplugged?variant=46568903082203",
+      "sha256": "18e024d8af6ff8ed8a78e8b7592cdc3ee4649eee0f40f95bf4c22ef180839746"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_929",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40743938200-1",
+  "queue_rows": [
+    929
+  ],
+  "assessment_path": "assessments/v2/firstcityrecordstore_com/v2-40743938200-1.json"
+}
