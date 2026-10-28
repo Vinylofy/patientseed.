@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T10:41:11.707022+00:00",
+  "shop_id": "chiefrecordsonline.com",
+  "row": 527,
+  "name": "Chief Records",
+  "domain": "chiefrecordsonline.com",
+  "country": "US",
+  "website": "https://chiefrecordsonline.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 527,
+    "name": "Chief Records",
+    "domain": "chiefrecordsonline.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://chiefrecordsonline.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 11,
+    "accepted": 2,
+    "excluded": 9,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://chiefrecordsonline.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://chiefrecordsonline.com/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 11,
+        "accepted": 2,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://chiefrecordsonline.com/collections/all/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 11,
+        "accepted": 2,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://chiefrecordsonline.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://chiefrecordsonline.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://chiefrecordsonline.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://chiefrecordsonline.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://chiefrecordsonline.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://chiefrecordsonline.com/products.json?limit=20&page=1",
+      "score": 25,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://chiefrecordsonline.com/products.json?limit=20&page=1",
+  "listing_sample": 2,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 2,
+    "unique_prices": 2,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://chiefrecordsonline.com/robots.txt",
+      "sha256": "07eaf3369b2f99080093cbd9eac6d63ad1bd60a60afc49972a6f0bd65f8736db"
+    },
+    {
+      "url": "https://chiefrecordsonline.com/",
+      "sha256": "32d7086e0416a01d8b9c847c349eb32d20f65147c32f2882a0a0aa22b6d144d5"
+    },
+    {
+      "url": "https://chiefrecordsonline.com/products.json?limit=20&page=1",
+      "sha256": "2621a55fd2c7c23230e2fd1a4c643fef64afa184a4d8f84c32787702ef731d44"
+    },
+    {
+      "url": "https://chiefrecordsonline.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "b759c8c6f617e5c3b762f5d21b7f6935003c9c7e95c76cadd8738c4249be842c"
+    },
+    {
+      "url": "https://chiefrecordsonline.com/products/pre-order-wade-forster-the-aftermath-vinyl",
+      "sha256": "75261502550e294cf5543b28d79738029f78bcc7ab23474aedea556c45208d38"
+    },
+    {
+      "url": "https://chiefrecordsonline.com/products/red-clay-strays-grateful-indie-exclusive-cream-vinyl",
+      "sha256": "fab5eabee64c41c3cd26e5e3a940e626745d9f13aaa8b6c410fba65663e9c37a"
+    },
+    {
+      "url": "https://chiefrecordsonline.com/products/red-clay-strays-grateful-indie-exclusive-cream-vinyl?variant=47342313603257",
+      "sha256": "99e77f821263d631950174ef15afeaa23dbac26d7cd61d3e3f286f0e2c26ee55"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.5,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_527",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40672724059-1",
+  "queue_rows": [
+    527
+  ],
+  "assessment_path": "assessments/v2/chiefrecordsonline_com/v2-40672724059-1.json"
+}
