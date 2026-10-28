@@ -1,0 +1,195 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T19:37:21.206222+00:00",
+  "shop_id": "goldrecordoutlet.com",
+  "row": 1051,
+  "name": "Gold Record Outlet",
+  "domain": "goldrecordoutlet.com",
+  "country": "US",
+  "website": "https://goldrecordoutlet.com/",
+  "previous_status": "ADAPTER_TESTED",
+  "previous_reason": "no confirmed new vinyl on bounded page",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1051,
+    "name": "Gold Record Outlet",
+    "domain": "goldrecordoutlet.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "listing",
+    "platform": "woocommerce",
+    "source_url": "https://goldrecordoutlet.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "adapter_class": "WooCommerceNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 0,
+    "excluded": 20,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "method_candidates": [
+      {
+        "platform": "woocommerce",
+        "route": "https://goldrecordoutlet.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://goldrecordoutlet.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://goldrecordoutlet.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://goldrecordoutlet.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://goldrecordoutlet.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://goldrecordoutlet.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://goldrecordoutlet.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ],
+    "selected_method": {
+      "platform": "woocommerce",
+      "route": "https://goldrecordoutlet.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 0,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "reason": "no confirmed new vinyl on bounded page"
+  },
+  "platform": "woocommerce",
+  "catalog_route": "https://goldrecordoutlet.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "listing_sample": 0,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 0,
+    "unique_prices": 0,
+    "shipping_hits": 0,
+    "currencies": []
+  },
+  "secondhand_observed": false,
+  "examples": [],
+  "requests": [
+    {
+      "url": "https://goldrecordoutlet.com/robots.txt",
+      "sha256": "a5b47de295801f35719b23a47df5c972bb1c5aed4a769ac7d25642e6b960d079"
+    },
+    {
+      "url": "https://goldrecordoutlet.com/",
+      "sha256": "3abf84705635099a96550a5eb9d3b2ad9f15f2d0e4fc56d51360e7912f64af56"
+    },
+    {
+      "url": "https://goldrecordoutlet.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "0f0c7b101fd182fd6e8e186b1af987b59915d7a40a38fdf15b5e0218589733cc"
+    },
+    {
+      "url": "https://goldrecordoutlet.com/products.json?limit=20&page=1",
+      "sha256": "ea150c226bc67c2b78ad8420dbdb0a6e9a4f68aab98d424e7f36b8d7f5ba68b6"
+    },
+    {
+      "url": "https://goldrecordoutlet.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "64f782630217b5bec8cd1e9056b17d1fd4bbd8515050ec2022ed0576888c3d78"
+    },
+    {
+      "url": "https://goldrecordoutlet.com/api/0.1/collections/products?format=json",
+      "sha256": "c12d77b914bb7aecb67d1b137ccb2dc0c1df9e9c93c31db98b2103029a66fe36"
+    },
+    {
+      "url": "https://goldrecordoutlet.com/api/0.1/collections/all/products?format=json",
+      "sha256": "0e0412e14a44409a33a9c1ab5aeef76f286de4ee8b04b02ccd793e74f3a4bf3c"
+    },
+    {
+      "url": "https://goldrecordoutlet.com/api/storefront/products?limit=20&offset=0",
+      "sha256": "a69137b0a6420ec9b36be221235f1f16bad4bcb80227c8829843e659db460773"
+    },
+    {
+      "url": "https://goldrecordoutlet.com/api/storefront/products?limit=20",
+      "sha256": "3c13ae7bb3234ac97318ca28d091e8ab80a2d3d2fe67ab32c2e60775efbcdb1c"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:vinyl",
+    "not_proven:new_used_distinguishable",
+    "not_proven:public_prices",
+    "not_proven:availability",
+    "not_proven:stable_urls"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": false,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": false,
+    "availability": false,
+    "stable_urls": false,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1051",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40754442283-1",
+  "queue_rows": [
+    1051
+  ],
+  "assessment_path": "assessments/v2/goldrecordoutlet_com/v2-40754442283-1.json"
+}
