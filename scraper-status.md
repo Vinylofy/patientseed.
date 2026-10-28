@@ -3675,9 +3675,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **1110**. Open: **2214**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **1210**. Open: **2114**.
 
-EAN: **32** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **1051** | UNSUITABLE: **0**
+EAN: **33** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **1150** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -4726,109 +4726,109 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Good Dog Records & Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Good Earth Records - Bay St. Louis | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Good Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
-| GOOD TASTE Records | US | Nog te beoordelen | — | — | — | — |
-| Good Vibes Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Good Vibrations | US | Nog te beoordelen | — | — | — | — |
-| Goodboy Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Goodies Disc Exchange | US | Nog te beoordelen | — | — | — | — |
-| Got Books | US | Nog te beoordelen | — | — | — | — |
-| Gotta Have it Vinyl | US | Nog te beoordelen | — | — | — | — |
-| GotWhatULike Records | US | Nog te beoordelen | — | — | — | — |
-| Grace Records | US | Nog te beoordelen | — | — | — | — |
-| Grady's Record & CD Refuge | US | Nog te beoordelen | — | — | — | — |
-| Graham’s Music’N’More | US | Nog te beoordelen | — | — | — | — |
-| Graham's Used Records Tapes | US | Nog te beoordelen | — | — | — | — |
-| GRAILS | US | Nog te beoordelen | — | — | — | — |
+| GOOD TASTE Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Good Vibes Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Good Vibrations | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Goodboy Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Goodies Disc Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Got Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Gotta Have it Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| GotWhatULike Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Grace Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Grady's Record & CD Refuge | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Graham’s Music’N’More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Graham's Used Records Tapes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| GRAILS | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Gramaphone Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | invalid_detail_gtin | — |
-| Grand Avenue Records | US | Nog te beoordelen | — | — | — | — |
-| Grand Emporium Music-Books-Movies | US | Nog te beoordelen | — | — | — | — |
-| Grand Opening: Psychic Hotline Mailroom Outlet & Newsstand | US | Nog te beoordelen | — | — | — | — |
-| Grand Rapids Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Grand Slam Games & Comics | US | Nog te beoordelen | — | — | — | — |
-| Grandaddy Records & Vintage | US | Nog te beoordelen | — | — | — | — |
-| Grandma Jaree's Emporium | US | Nog te beoordelen | — | — | — | — |
-| Granite Mountain Records | US | Nog te beoordelen | — | — | — | — |
-| Grantski Records | US | Nog te beoordelen | — | — | — | — |
-| Grapefruit Records | US | Nog te beoordelen | — | — | — | — |
-| Grassroots Music Store | US | Nog te beoordelen | — | — | — | — |
-| Graveface Records & Curiosities | US | Nog te beoordelen | — | — | — | — |
-| Gravity Records | US | Nog te beoordelen | — | — | — | — |
-| Gray Cat Music | US | Nog te beoordelen | — | — | — | — |
-| Grayskull Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Graywhale Entertainment | US | Nog te beoordelen | — | — | — | — |
-| Gré Records & Coffee | US | Nog te beoordelen | — | — | — | — |
-| Great Circles | US | Nog te beoordelen | — | — | — | — |
-| Great Lakes Crates | US | Nog te beoordelen | — | — | — | — |
+| Grand Avenue Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Grand Emporium Music-Books-Movies | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Grand Opening: Psychic Hotline Mailroom Outlet & Newsstand | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Grand Rapids Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Grand Slam Games & Comics | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Grandaddy Records & Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Grandma Jaree's Emporium | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Granite Mountain Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Grantski Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Grapefruit Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Grassroots Music Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Graveface Records & Curiosities | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Gravity Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Gray Cat Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Grayskull Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Graywhale Entertainment | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Gré Records & Coffee | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Great Circles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Great Lakes Crates | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Greatest Hits | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | insufficient_representative_product_evidence | — |
-| Greatest Hits Music & Books | US | Nog te beoordelen | — | — | — | — |
-| Green Eggs and Jam | US | Nog te beoordelen | — | — | — | — |
-| Green Light Music and Video | US | Nog te beoordelen | — | — | — | — |
-| Green Tangerine Records | US | Nog te beoordelen | — | — | — | — |
-| Greenfield Glass & Goods | US | Nog te beoordelen | — | — | — | — |
-| Greenfield Records | US | Nog te beoordelen | — | — | — | — |
-| Grimey's New & Preloved Music | US | Nog te beoordelen | — | — | — | — |
-| Grindhouse Video | US | Nog te beoordelen | — | — | — | — |
-| Grinds & Grooves | US | Nog te beoordelen | — | — | — | — |
-| Groamy C D's & Tapes | US | Nog te beoordelen | — | — | — | — |
-| Groovacious Records | US | Nog te beoordelen | — | — | — | — |
-| Groove Damage Records | US | Nog te beoordelen | — | — | — | — |
-| Groove Distribution | US | Nog te beoordelen | — | — | — | — |
-| Groove Gallery and Records | US | Nog te beoordelen | — | — | — | — |
-| Groove Merchant Records | US | Nog te beoordelen | — | — | — | — |
-| Groove Yard | US | Nog te beoordelen | — | — | — | — |
-| Grooveland Vintage & Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Grooves | US | Nog te beoordelen | — | — | — | — |
-| Grooves & Tubes | US | Nog te beoordelen | — | — | — | — |
-| Grooves River Falls | US | Nog te beoordelen | — | — | — | — |
-| Groovy Ghost Vintage | US | Nog te beoordelen | — | — | — | — |
-| Groovy Glassware - Smoke & Vape | US | Nog te beoordelen | — | — | — | — |
-| Groovy Records | US | Nog te beoordelen | — | — | — | — |
-| Groovy Records | US | Nog te beoordelen | — | — | — | — |
-| Groovy's | US | Nog te beoordelen | — | — | — | — |
-| Growl Records | US | Nog te beoordelen | — | — | — | — |
-| Gryphon's Wing Records | US | Nog te beoordelen | — | — | — | — |
-| GS Enterprise | US | Nog te beoordelen | — | — | — | — |
-| GT Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Guestroom Records Edmond; Guestroom Records Norman; Guestroom Records OKC | US | Nog te beoordelen | — | — | — | — |
-| Guestroom Records; Guestroom Records - Highlands | US | Nog te beoordelen | — | — | — | — |
-| Guitar Gallery Inc, The Guitar Gallery Guitars and Records, Guitar Gallery Records | US | Nog te beoordelen | — | — | — | — |
-| Guitar Pro's LLC | US | Nog te beoordelen | — | — | — | — |
-| Guitar Repair Center | US | Nog te beoordelen | — | — | — | — |
-| Habersham Cd's Record & Tape | US | Nog te beoordelen | — | — | — | — |
-| Haddonfield Record Exchange | US | Nog te beoordelen | — | — | — | — |
-| HAIL - RECORDS & ODDITIES | US | Nog te beoordelen | — | — | — | — |
-| Half Moon Records | US | Nog te beoordelen | — | — | — | — |
-| Half Moon Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Half Off Books Records Films | US | Nog te beoordelen | — | — | — | — |
-| Halsey & Lewis Records | US | Nog te beoordelen | — | — | — | — |
-| Handshake Antiques | US | Nog te beoordelen | — | — | — | — |
-| Hanson Records | US | Nog te beoordelen | — | — | — | — |
-| Happy Daze Records & More | US | Nog te beoordelen | — | — | — | — |
-| Happy Hoarder Antiques & More | US | Nog te beoordelen | — | — | — | — |
-| Happy Trails Records | US | Nog te beoordelen | — | — | — | — |
-| Hard Copies | US | Nog te beoordelen | — | — | — | — |
-| Hardy Boys Records and Comics 2 | US | Nog te beoordelen | — | — | — | — |
-| Hardy Boys Records and Comics Camp North End; Hardy Boys Records and Comics South End | US | Nog te beoordelen | — | — | — | — |
-| Harmonie Vibes | US | Nog te beoordelen | — | — | — | — |
-| Harry's Records | US | Nog te beoordelen | — | — | — | — |
-| Harvest Music | US | Nog te beoordelen | — | — | — | — |
-| Harvest Records | US | Nog te beoordelen | — | — | — | — |
-| Harwich Antiques Center | US | Nog te beoordelen | — | — | — | — |
-| Haskins House Records | US | Nog te beoordelen | — | — | — | — |
-| Hat Trick Records | US | Nog te beoordelen | — | — | — | — |
-| Haul House Records | US | Nog te beoordelen | — | — | — | — |
-| Hausfrau Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Hawley Spin Depot | US | Nog te beoordelen | — | — | — | — |
-| Hayes's Retro Records | US | Nog te beoordelen | — | — | — | — |
+| Greatest Hits Music & Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Green Eggs and Jam | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Green Light Music and Video | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Green Tangerine Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Greenfield Glass & Goods | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Greenfield Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Grimey's New & Preloved Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Grindhouse Video | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Grinds & Grooves | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_401 | — |
+| Groamy C D's & Tapes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Groovacious Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Groove Damage Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Groove Distribution | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Groove Gallery and Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Groove Merchant Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
+| Groove Yard | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Grooveland Vintage & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Grooves | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Grooves & Tubes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Grooves River Falls | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Groovy Ghost Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Groovy Glassware - Smoke & Vape | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Groovy Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Groovy Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Groovy's | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Growl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Gryphon's Wing Records | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| GS Enterprise | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| GT Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Guestroom Records Edmond; Guestroom Records Norman; Guestroom Records OKC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Guestroom Records; Guestroom Records - Highlands | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Guitar Gallery Inc, The Guitar Gallery Guitars and Records, Guitar Gallery Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Guitar Pro's LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Guitar Repair Center | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Habersham Cd's Record & Tape | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Haddonfield Record Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| HAIL - RECORDS & ODDITIES | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Half Moon Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Half Moon Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Half Off Books Records Films | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Halsey & Lewis Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Handshake Antiques | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hanson Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Happy Daze Records & More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Happy Hoarder Antiques & More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Happy Trails Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Hard Copies | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hardy Boys Records and Comics 2 | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Hardy Boys Records and Comics Camp North End; Hardy Boys Records and Comics South End | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Harmonie Vibes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Harry's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Harvest Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Harvest Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Harwich Antiques Center | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Haskins House Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hat Trick Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Haul House Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Hausfrau Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Hawley Spin Depot | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Hayes's Retro Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Headline Records | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40571453864-1/headlinerecords_com |
-| Heads Up Music | US | Nog te beoordelen | — | — | — | — |
-| Headstone Friends | US | Nog te beoordelen | — | — | — | — |
-| Healing Force of the Universe | US | Nog te beoordelen | — | — | — | — |
-| Hear Again Records | US | Nog te beoordelen | — | — | — | — |
-| Heavy Heads Records; Heavy Heads Records - Branson; Heavy Heads Records - STD East Springfield, MO; Heavy Heads Records - South | US | Nog te beoordelen | — | — | — | — |
-| Hello Goodbye Records | US | Nog te beoordelen | — | — | — | — |
-| Hello Records | US | Nog te beoordelen | — | — | — | — |
-| Hells Headbangers Records | US | Nog te beoordelen | — | — | — | — |
+| Heads Up Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Headstone Friends | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Healing Force of the Universe | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hear Again Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Heavy Heads Records; Heavy Heads Records - Branson; Heavy Heads Records - STD East Springfield, MO; Heavy Heads Records - South | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hello Goodbye Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hello Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hells Headbangers Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Hemptations CBD & Records | US | Nog te beoordelen | — | — | — | — |
 | Hercules Records | US | Nog te beoordelen | — | — | — | — |
 | Heroes & Villains | US | Nog te beoordelen | — | — | — | — |
