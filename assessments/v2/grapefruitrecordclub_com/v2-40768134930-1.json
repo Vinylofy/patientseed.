@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T21:04:47.884144+00:00",
+  "shop_id": "grapefruitrecordclub.com",
+  "row": 1081,
+  "name": "Grapefruit Records",
+  "domain": "grapefruitrecordclub.com",
+  "country": "US",
+  "website": "https://grapefruitrecordclub.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1081,
+    "name": "Grapefruit Records",
+    "domain": "grapefruitrecordclub.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://grapefruitrecordclub.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://grapefruitrecordclub.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://grapefruitrecordclub.com/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://grapefruitrecordclub.com/collections/all/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://grapefruitrecordclub.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://grapefruitrecordclub.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://grapefruitrecordclub.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://grapefruitrecordclub.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://grapefruitrecordclub.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://grapefruitrecordclub.com/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://grapefruitrecordclub.com/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://grapefruitrecordclub.com/robots.txt",
+      "sha256": "85e0348e09c1585558208697ddca7a024c7c487b599a18a79421a498147a5317"
+    },
+    {
+      "url": "https://grapefruitrecordclub.com/",
+      "sha256": "3b08f764ece0515dd67a64483b0307b88f8063185d8b11dad7874e402ea3a3a5"
+    },
+    {
+      "url": "https://grapefruitrecordclub.com/products.json?limit=20&page=1",
+      "sha256": "3180377a0ea89421041435702d28256edd187b569cd1eda18ad2417d1e66caa7"
+    },
+    {
+      "url": "https://grapefruitrecordclub.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "e3634708b98ae803db4c6ef968b3fe1f1a554c8b255848f7bb93597a196ee4d5"
+    },
+    {
+      "url": "https://grapefruitrecordclub.com/products/v-a-goin-up-the-country-compilation-lp",
+      "sha256": "9d0c3dcd9bd712b6d1a4cd123f195f9323fbeeebfd8ac73f0823a81772fe4f9b"
+    },
+    {
+      "url": "https://grapefruitrecordclub.com/products/rocket-from-the-tombs-live-at-the-agora-may-5th-1975-lp",
+      "sha256": "7c6b207796b21f10c02b372588dfb9217af6745e27b940228d0dec6c88dd7562"
+    },
+    {
+      "url": "https://grapefruitrecordclub.com/products/miles-davis-sketches-of-spain-lp-mono?variant=39410386927824",
+      "sha256": "2e1d53ed2654a10f4eae4d15316e8a2c5e55a43a3d6d4df70c605f44546c57a8"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1081",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40768134930-1",
+  "queue_rows": [
+    1081
+  ],
+  "assessment_path": "assessments/v2/grapefruitrecordclub_com/v2-40768134930-1.json"
+}
