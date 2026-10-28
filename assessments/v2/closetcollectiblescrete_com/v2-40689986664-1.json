@@ -1,0 +1,157 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T12:44:12.534520+00:00",
+  "shop_id": "closetcollectiblescrete.com",
+  "row": 552,
+  "name": "Closet Collectibles",
+  "domain": "closetcollectiblescrete.com",
+  "country": "US",
+  "website": "https://closetcollectiblescrete.com/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 552,
+    "name": "Closet Collectibles",
+    "domain": "closetcollectiblescrete.com",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://closetcollectiblescrete.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://closetcollectiblescrete.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://closetcollectiblescrete.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://closetcollectiblescrete.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://closetcollectiblescrete.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://closetcollectiblescrete.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://closetcollectiblescrete.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://closetcollectiblescrete.com/robots.txt",
+      "sha256": "2a6b9ed21ea9e6610519a40458f2e94346878d78233aacb97e5012900b4b11bc"
+    },
+    {
+      "url": "https://closetcollectiblescrete.com/",
+      "sha256": "79504c0c3062fee47f4440f91a7ac7d0ab1b6b78970cb3f990c37d4b7eef1ec4"
+    },
+    {
+      "url": "https://closetcollectiblescrete.com/products.json?limit=20&page=1",
+      "sha256": "49f5933cc0cf857a2f6bcadc3bda90ecd0f8a1bf45c7f37ec1c3622406a1d94a"
+    },
+    {
+      "url": "https://closetcollectiblescrete.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "c7ff7375c60b38fee3a2089a97686777f00b366978d81f5c7afb43c41b85bd9c"
+    },
+    {
+      "url": "https://closetcollectiblescrete.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "773e8d23bdb129f3b8e70145d9b0fc43e621cc83faaf865ab7d98683b7045ce8"
+    },
+    {
+      "url": "https://closetcollectiblescrete.com/api/0.1/collections/products?format=json",
+      "sha256": "8b1c4ad61d87b38c7b56912f26aa20cacfafbffc8061f9015bf89469285bc962"
+    },
+    {
+      "url": "https://closetcollectiblescrete.com/api/0.1/collections/all/products?format=json",
+      "sha256": "1ed13764c9f40df4b90db9b0b02e2bc73f432d678199038f04fb2fa4df1d8f2d"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_552",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40689986664-1",
+  "queue_rows": [
+    552
+  ],
+  "assessment_path": "assessments/v2/closetcollectiblescrete_com/v2-40689986664-1.json"
+}
