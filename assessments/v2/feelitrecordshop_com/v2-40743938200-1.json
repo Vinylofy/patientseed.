@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T18:31:29.553199+00:00",
+  "shop_id": "feelitrecordshop.com",
+  "row": 915,
+  "name": "Feel It Record Shop",
+  "domain": "feelitrecordshop.com",
+  "country": "US",
+  "website": "https://feelitrecordshop.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 915,
+    "name": "Feel It Record Shop",
+    "domain": "feelitrecordshop.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://feelitrecordshop.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 13,
+    "excluded": 7,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://feelitrecordshop.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://feelitrecordshop.com/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://feelitrecordshop.com/collections/all/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 20,
+        "accepted": 13,
+        "excluded": 7,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://feelitrecordshop.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://feelitrecordshop.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://feelitrecordshop.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://feelitrecordshop.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://feelitrecordshop.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://feelitrecordshop.com/collections/all/products.json?limit=20&page=1",
+      "score": 135,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://feelitrecordshop.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 13,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 13,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://feelitrecordshop.com/robots.txt",
+      "sha256": "c930a632eadb381287a2289834e02e27b1d1e67f58628195ca0c76e728f93f5f"
+    },
+    {
+      "url": "https://feelitrecordshop.com/",
+      "sha256": "ada95cf19512c003ba5bd12e4020211fd5a35bf22fffaac65969832315cefb81"
+    },
+    {
+      "url": "https://feelitrecordshop.com/products.json?limit=20&page=1",
+      "sha256": "61a71460103fe1d873e4a6e56ee5d0010c2f7c6093254661d267569098b48e1c"
+    },
+    {
+      "url": "https://feelitrecordshop.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "2fe41b1273468b4bdf05b0e18ea0a59b4f82a8b9b73765097ecf73d210a14b45"
+    },
+    {
+      "url": "https://feelitrecordshop.com/products/uicideboy-i-want-to-die-in-new-orleans-red-black-lp",
+      "sha256": "656a06a438e039cc9442ab62764fbbb9df89a65781753541604a557199b683ce"
+    },
+    {
+      "url": "https://feelitrecordshop.com/products/uicideboy-thy-kingdom-come-lp",
+      "sha256": "a74765cf88ebe6bfe32a46a4bf6de2c2d04b32276dcfeeb5e5cfbf74cc58f81f"
+    },
+    {
+      "url": "https://feelitrecordshop.com/products/a-ap-rocky-dont-be-dumb-lp?variant=48373394899167",
+      "sha256": "f1760ac851c66bc6013e649a258e83b2d8966ab3702a87619ce4163f4d51edf3"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.15384615384615385,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_915",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40743938200-1",
+  "queue_rows": [
+    915
+  ],
+  "assessment_path": "assessments/v2/feelitrecordshop_com/v2-40743938200-1.json"
+}
