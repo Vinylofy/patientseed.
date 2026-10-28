@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T16:37:23.171398+00:00",
+  "shop_id": "drinksrecords.com",
+  "row": 778,
+  "name": "Drinks Records",
+  "domain": "drinksrecords.com",
+  "country": "US",
+  "website": "https://drinksrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 778,
+    "name": "Drinks Records",
+    "domain": "drinksrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://drinksrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://drinksrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://drinksrecords.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://drinksrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://drinksrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://drinksrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://drinksrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://drinksrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://drinksrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://drinksrecords.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://drinksrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 17,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://drinksrecords.com/robots.txt",
+      "sha256": "9ec12c69c257d67b80d7ba04450cf45bfac2a7fce0ec9c9b6a1aadd72e2d28c1"
+    },
+    {
+      "url": "https://drinksrecords.com/",
+      "sha256": "cef6b17ebc5ca9047b30625004e479b206af136fd1f8d219ecf4d2bc1d28560c"
+    },
+    {
+      "url": "https://drinksrecords.com/products.json?limit=20&page=1",
+      "sha256": "89b929717cb78e5797524063a424dcdf1f963729e289d2e1216bc167a0ec5b55"
+    },
+    {
+      "url": "https://drinksrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "610ef99b34dba6fd9bf5ff4370ecb1674f359414d92e783f678e7506650ebb8d"
+    },
+    {
+      "url": "https://drinksrecords.com/products/daisy-jones-the-six-aurora-colored-vinyl-blue-deluxe-edition-2-lps",
+      "sha256": "247734c4cac5b037a2cb8aab7932aab24f6ce0b70ef47c4356bcae6452ba35df"
+    },
+    {
+      "url": "https://drinksrecords.com/products/lany-malibu-nights",
+      "sha256": "ce9fcd7c28723bc22dc9d6d57844d6324cc38b5ce3cd0f3ad51725950427d9e9"
+    },
+    {
+      "url": "https://drinksrecords.com/products/t-rex-t-rex-remastered-180-gram-vinyl?variant=58684997599535",
+      "sha256": "a79a5494806cbd3331264232981f4fafb96da3ac9909d4cabdf6d9e196b81286"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.05,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_778",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40727349426-1",
+  "queue_rows": [
+    778
+  ],
+  "assessment_path": "assessments/v2/drinksrecords_com/v2-40727349426-1.json"
+}
