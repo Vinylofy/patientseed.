@@ -1,0 +1,250 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T15:04:48.103228+00:00",
+  "shop_id": "deadendrecordstn.com",
+  "row": 671,
+  "name": "Dead End Records",
+  "domain": "deadendrecordstn.com",
+  "country": "US",
+  "website": "https://deadendrecordstn.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 671,
+    "name": "Dead End Records",
+    "domain": "deadendrecordstn.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://deadendrecordstn.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 17,
+    "excluded": 3,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://deadendrecordstn.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://deadendrecordstn.com/products.json?limit=20&page=1",
+        "score": 175,
+        "products_seen": 20,
+        "accepted": 17,
+        "excluded": 3,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://deadendrecordstn.com/collections/all/products.json?limit=20&page=1",
+        "score": 55,
+        "products_seen": 20,
+        "accepted": 5,
+        "excluded": 15,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://deadendrecordstn.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://deadendrecordstn.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://deadendrecordstn.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://deadendrecordstn.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://deadendrecordstn.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://deadendrecordstn.com/products.json?limit=20&page=1",
+      "score": 175,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://deadendrecordstn.com/products.json?limit=20&page=1",
+  "listing_sample": 17,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 17,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://deadendrecordstn.com/products/misfits-s-t-lp?variant=67858493243644",
+      "artist": "Misfits",
+      "title": "S/T LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "35.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://deadendrecordstn.com/products/the-number-twelve-looks-like-you-howls-from-the-holographic-heart-lp?variant=67858655609084",
+      "artist": "The Number Twelve Looks Like You",
+      "title": "Howls From The Holographic Heart LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "32.00",
+      "currency": "USD",
+      "valid_eans": [
+        "00794558051217"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://deadendrecordstn.com/products/fu-manchu-in-search-of-lp?variant=67895836967164",
+      "artist": "Fu Manchu",
+      "title": "In Search Of... LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "48.00",
+      "currency": "USD",
+      "valid_eans": [
+        "00840526511501"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://deadendrecordstn.com/robots.txt",
+      "sha256": "897d91f0c006e988940c35b4921064e38b07a76321518e68562af26a80f54b52"
+    },
+    {
+      "url": "https://deadendrecordstn.com/",
+      "sha256": "acdb2d29ef892d9abe39c36b7c01c9235952ef87b1ee2ca5b760f7d9ee3e34a9"
+    },
+    {
+      "url": "https://deadendrecordstn.com/products.json?limit=20&page=1",
+      "sha256": "fa9da381dc43f65074ad06e577448efa3018ab4c5e4884d52b960cbef0b69fe4"
+    },
+    {
+      "url": "https://deadendrecordstn.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "22560d499fc4c03c046f3b163ad9252dea9f9490b8d0c4a59d70762e2a7324ee"
+    },
+    {
+      "url": "https://deadendrecordstn.com/products/fu-manchu-in-search-of-lp",
+      "sha256": "21a00bd515e7867a5883443429898a75a77d4c6e6140b3026edd09d6039f1916"
+    },
+    {
+      "url": "https://deadendrecordstn.com/products/the-garden-bootleg-lp",
+      "sha256": "8240627a53b68cc7839dd4c6ac3cf475f5933f351dd876d8538acb06cbdaedf4"
+    },
+    {
+      "url": "https://deadendrecordstn.com/products/misfits-s-t-lp?variant=67858493243644",
+      "sha256": "0129622d2bcb06d9dc33b6f9ee028abccd3dfc3ff57736981ced168159535b63"
+    },
+    {
+      "url": "https://deadendrecordstn.com/products/the-number-twelve-looks-like-you-howls-from-the-holographic-heart-lp?variant=67858655609084",
+      "sha256": "742f5a99d233ce5683daa001f7a16b84d5896b587a0e24a528f6ae9ba5b49028"
+    },
+    {
+      "url": "https://deadendrecordstn.com/products/fu-manchu-in-search-of-lp?variant=67895836967164",
+      "sha256": "84ea95825299180c4af70a6279a946452a3fb57a5df4a37951b558cd186215ed"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 2,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_671",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://deadendrecordstn.com/products/misfits-s-t-lp?variant=67858493243644",
+    "https://deadendrecordstn.com/products/the-number-twelve-looks-like-you-howls-from-the-holographic-heart-lp?variant=67858655609084",
+    "https://deadendrecordstn.com/products/fu-manchu-in-search-of-lp?variant=67895836967164"
+  ],
+  "assessment_id": "v2-40711836552-1",
+  "queue_rows": [
+    671
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 17,
+  "candidate_ref": "v2-40711836552-1/deadendrecordstn_com",
+  "assessment_path": "assessments/v2/deadendrecordstn_com/v2-40711836552-1.json"
+}
