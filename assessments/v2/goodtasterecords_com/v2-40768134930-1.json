@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T20:59:51.539615+00:00",
+  "shop_id": "goodtasterecords.com",
+  "row": 1058,
+  "name": "GOOD TASTE Records",
+  "domain": "goodtasterecords.com",
+  "country": "US",
+  "website": "https://goodtasterecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1058,
+    "name": "GOOD TASTE Records",
+    "domain": "goodtasterecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://goodtasterecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://goodtasterecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://goodtasterecords.com/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://goodtasterecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://goodtasterecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://goodtasterecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://goodtasterecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://goodtasterecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://goodtasterecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://goodtasterecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://goodtasterecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 15,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://goodtasterecords.com/robots.txt",
+      "sha256": "1368075bc6f583e4c9eab894bc5f71c777c4800bbf5accfa18ea56706f27efa0"
+    },
+    {
+      "url": "https://goodtasterecords.com/",
+      "sha256": "6f4b9f29f732a782c5d0f15aab2e802542ca005b99f7a444d221b70a4906eff3"
+    },
+    {
+      "url": "https://goodtasterecords.com/products.json?limit=20&page=1",
+      "sha256": "7af5df1d135dcc0a60d87575e161074290e510dd3f6ea89195f9fafe6b12b2e4"
+    },
+    {
+      "url": "https://goodtasterecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "f7b9082cad0cf9b246c54387b8b5ca1074cb289ba59b7e33cf53809d4d64b9fd"
+    },
+    {
+      "url": "https://goodtasterecords.com/products/even-more-dazed-and-confused-soundtrack-vinyl-lp",
+      "sha256": "b8768ae74aa504565b049a97d79b63ab4b0bdecbd67f8e4ddbe3ce00b7b91943"
+    },
+    {
+      "url": "https://goodtasterecords.com/products/international-noise-conspiracy-a-new-morning-changing-weather-25th-anniversary-yellow-black-split-color-rsd-black-friday-2026-vinyl-lp",
+      "sha256": "60a8d269b384266639e0a586b2c504f937ea810ae2c0ee4921e4d2e20212663d"
+    },
+    {
+      "url": "https://goodtasterecords.com/products/2pac-me-against-the-world-vinyl-lp?variant=40827526283473",
+      "sha256": "3ecdf0cb38cc569ad7667d4a3c099b947157794cae14b6a7f5dd8ba6c50d3b33"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.95,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1058",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40768134930-1",
+  "queue_rows": [
+    1058
+  ],
+  "assessment_path": "assessments/v2/goodtasterecords_com/v2-40768134930-1.json"
+}
