@@ -3669,9 +3669,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **310**. Open: **3014**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **410**. Open: **2914**.
 
-EAN: **16** | ARTIST_TITLE: **23** | MANUAL_REVIEW: **271** | UNSUITABLE: **0**
+EAN: **16** | ARTIST_TITLE: **23** | MANUAL_REVIEW: **371** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -3905,112 +3905,112 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Bart’s Chestertown Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Bartertown Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
 | Bartkus Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
-| Basement Records | US | Nog te beoordelen | — | — | — | — |
-| Basil Audio San Francisco Bay Area | US | Nog te beoordelen | — | — | — | — |
-| Batcave Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Batch of Music | US | Nog te beoordelen | — | — | — | — |
-| Battlesong Records | US | Nog te beoordelen | — | — | — | — |
-| Bay Sound | US | Nog te beoordelen | — | — | — | — |
-| Bay View Books And Music | US | Nog te beoordelen | — | — | — | — |
-| Bay Vinyl Records | US | Nog te beoordelen | — | — | — | — |
-| BB's Records | US | Nog te beoordelen | — | — | — | — |
-| BC Records, Comics, Cards, Collectibles | US | Nog te beoordelen | — | — | — | — |
-| BE's Records | US | Nog te beoordelen | — | — | — | — |
-| Beachside Retro & Records | US | Nog te beoordelen | — | — | — | — |
-| Beaker's Records | US | Nog te beoordelen | — | — | — | — |
-| Bearded Panda Records | US | Nog te beoordelen | — | — | — | — |
-| Bearded Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Beat Box Records | US | Nog te beoordelen | — | — | — | — |
-| Beatlab | US | Nog te beoordelen | — | — | — | — |
-| BeatRelease Records & Coffee | US | Nog te beoordelen | — | — | — | — |
-| Beats and Bohos | US | Nog te beoordelen | — | — | — | — |
-| Beats N' Cats Records | US | Nog te beoordelen | — | — | — | — |
-| Beautiful World Syndicate | US | Nog te beoordelen | — | — | — | — |
-| Beckham's BookShop | US | Nog te beoordelen | — | — | — | — |
-| Beejers Vinyl & Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Been-Around Records & C D's | US | Nog te beoordelen | — | — | — | — |
-| Bellsons music company | US | Nog te beoordelen | — | — | — | — |
-| Belltower Records | US | Nog te beoordelen | — | — | — | — |
+| Basement Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Basil Audio San Francisco Bay Area | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Batcave Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Batch of Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Battlesong Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Bay Sound | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Bay View Books And Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Bay Vinyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| BB's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| BC Records, Comics, Cards, Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| BE's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Beachside Retro & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Beaker's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Bearded Panda Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Bearded Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Beat Box Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Beatlab | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| BeatRelease Records & Coffee | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_404 | — |
+| Beats and Bohos | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Beats N' Cats Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Beautiful World Syndicate | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Beckham's BookShop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Beejers Vinyl & Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Been-Around Records & C D's | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Bellsons music company | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Belltower Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
 | Bent Crayon Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| Benton Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Berkshirecat Records | US | Nog te beoordelen | — | — | — | — |
-| Berlinetta Brewing | US | Nog te beoordelen | — | — | — | — |
-| Bertha's Vinyl Shop | US | Nog te beoordelen | — | — | — | — |
-| Best Brother Records | US | Nog te beoordelen | — | — | — | — |
-| Best In Music | US | Nog te beoordelen | — | — | — | — |
-| Best Used Books | US | Nog te beoordelen | — | — | — | — |
-| Better Days Records East | US | Nog te beoordelen | — | — | — | — |
+| Benton Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Berkshirecat Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Berlinetta Brewing | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Bertha's Vinyl Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Best Brother Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Best In Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Best Used Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Better Days Records East | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
 | Better Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | insufficient_representative_product_evidence | — |
-| Beverley St. Records & Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Beverly Coin, Jewelry, Records and Estate Appraisals - formerly Danvers Coin | US | Nog te beoordelen | — | — | — | — |
-| Beverly Phono Mart | US | Nog te beoordelen | — | — | — | — |
-| Beverly Records | US | Nog te beoordelen | — | — | — | — |
-| Big Black Cow Records | US | Nog te beoordelen | — | — | — | — |
-| Big D’s Records | US | Nog te beoordelen | — | — | — | — |
-| Big Dig Records | US | Nog te beoordelen | — | — | — | — |
-| Big Fun Records | US | Nog te beoordelen | — | — | — | — |
+| Beverley St. Records & Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Beverly Coin, Jewelry, Records and Estate Appraisals - formerly Danvers Coin | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Beverly Phono Mart | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Beverly Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Big Black Cow Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Big D’s Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Big Dig Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Big Fun Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Big Henry's Vinyl & Gifts | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| Big Indie | US | Nog te beoordelen | — | — | — | — |
+| Big Indie | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
 | Big Love Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Big Me Records | US | Nog te beoordelen | — | — | — | — |
-| Big Sgt. Records | US | Nog te beoordelen | — | — | — | — |
-| Big Star Books & Music | US | Nog te beoordelen | — | — | — | — |
-| Big Strick's Sports Cards, Vinyl Records and Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Big Top Records | US | Nog te beoordelen | — | — | — | — |
-| Big World Music Shop | US | Nog te beoordelen | — | — | — | — |
-| Bigfoot Records | US | Nog te beoordelen | — | — | — | — |
-| Bigfoot's House of Vinyl and More | US | Nog te beoordelen | — | — | — | — |
-| Bill's Groovy Records | US | Nog te beoordelen | — | — | — | — |
-| Billion Dollar Music | US | Nog te beoordelen | — | — | — | — |
+| Big Me Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Big Sgt. Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Big Star Books & Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Big Strick's Sports Cards, Vinyl Records and Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Big Top Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Big World Music Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Bigfoot Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Bigfoot's House of Vinyl and More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Bill's Groovy Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Billion Dollar Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_404 | — |
 | Bionic Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| Bird & Beckett Books & Records | US | Nog te beoordelen | — | — | — | — |
-| BIRD CITY RECORDS | US | Nog te beoordelen | — | — | — | — |
-| Birdland Music | US | Nog te beoordelen | — | — | — | — |
-| Biscuits & Vinyl Record Store | US | Nog te beoordelen | — | — | — | — |
-| Bitter Buffalo Records | US | Nog te beoordelen | — | — | — | — |
-| Bizarro World | US | Nog te beoordelen | — | — | — | — |
-| BJ Music Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Black & Read Music, Books & Games | US | Nog te beoordelen | — | — | — | — |
-| Black Cat Records 'N' Comics | US | Nog te beoordelen | — | — | — | — |
-| Black Cat Vinyl Records | US | Nog te beoordelen | — | — | — | — |
-| Black Circle Records | US | Nog te beoordelen | — | — | — | — |
-| Black Circle Records | US | Nog te beoordelen | — | — | — | — |
-| Black Dog Books and Records | US | Nog te beoordelen | — | — | — | — |
-| Black Dog Vinyl Cafe | US | Nog te beoordelen | — | — | — | — |
+| Bird & Beckett Books & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| BIRD CITY RECORDS | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Birdland Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Biscuits & Vinyl Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Bitter Buffalo Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Bizarro World | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| BJ Music Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Black & Read Music, Books & Games | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Black Cat Records 'N' Comics | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Black Cat Vinyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Black Circle Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Black Circle Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Black Dog Books and Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Black Dog Vinyl Cafe | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
 | Black Dots | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40571453864-1/blackdotsbuffalo_shop |
-| Black Flower Apparel and Records | US | Nog te beoordelen | — | — | — | — |
-| Black Gold Records | US | Nog te beoordelen | — | — | — | — |
-| Black Habit Records | US | Nog te beoordelen | — | — | — | — |
-| Black Hills Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Black Hole Records | US | Nog te beoordelen | — | — | — | — |
-| Black Lodge Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Black Luck Vintage | US | Nog te beoordelen | — | — | — | — |
-| Black Noise Records | US | Nog te beoordelen | — | — | — | — |
-| Black Plastic Records | US | Nog te beoordelen | — | — | — | — |
-| Black Rose Records | US | Nog te beoordelen | — | — | — | — |
-| Black Sun Records | US | Nog te beoordelen | — | — | — | — |
-| Black Water Records | US | Nog te beoordelen | — | — | — | — |
-| Black Wax Cafe | US | Nog te beoordelen | — | — | — | — |
-| Black Wax Records | US | Nog te beoordelen | — | — | — | — |
-| Blackbird Records | US | Nog te beoordelen | — | — | — | — |
-| Blackbird Records Medina | US | Nog te beoordelen | — | — | — | — |
-| BlacKCat Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Blast From The Past | US | Nog te beoordelen | — | — | — | — |
-| Blast In the Past | US | Nog te beoordelen | — | — | — | — |
-| Blast Radius Record & Video | US | Nog te beoordelen | — | — | — | — |
-| Blind Dog HiFi and Records | US | Nog te beoordelen | — | — | — | — |
-| Blind Guy Records | US | Nog te beoordelen | — | — | — | — |
-| BLK Vinyl | US | Nog te beoordelen | — | — | — | — |
-| BLNTD. Lifestyle Brand | US | Nog te beoordelen | — | — | — | — |
-| Block Head Records | US | Nog te beoordelen | — | — | — | — |
-| Block Street Records; Block Street Records Bentonville | US | Nog te beoordelen | — | — | — | — |
-| Blu Jay Records | US | Nog te beoordelen | — | — | — | — |
-| Blue Arrow Records & Books | US | Nog te beoordelen | — | — | — | — |
-| Blue Byrd's Haberdashery & Music | US | Nog te beoordelen | — | — | — | — |
-| Blue Canary Records | US | Nog te beoordelen | — | — | — | — |
-| Blue Jay Way Records | US | Nog te beoordelen | — | — | — | — |
-| Blue Moon Discs | US | Nog te beoordelen | — | — | — | — |
-| Blue Moon Records | US | Nog te beoordelen | — | — | — | — |
+| Black Flower Apparel and Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Black Gold Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Black Habit Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | TimeoutError | — |
+| Black Hills Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Black Hole Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Black Lodge Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Black Luck Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Black Noise Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Black Plastic Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Black Rose Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Black Sun Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Black Water Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Black Wax Cafe | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Black Wax Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Blackbird Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Blackbird Records Medina | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| BlacKCat Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Blast From The Past | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Blast In the Past | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Blast Radius Record & Video | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Blind Dog HiFi and Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Blind Guy Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| BLK Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| BLNTD. Lifestyle Brand | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Block Head Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Block Street Records; Block Street Records Bentonville | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Blu Jay Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Blue Arrow Records & Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Blue Byrd's Haberdashery & Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Blue Canary Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Blue Jay Way Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Blue Moon Discs | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Blue Moon Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
 | Blue Raven Records | US | Nog te beoordelen | — | — | — | — |
 | Blue Shark Antiques & Collectibles | US | Nog te beoordelen | — | — | — | — |
 | Blue Village Vinyl Records | US | Nog te beoordelen | — | — | — | — |
