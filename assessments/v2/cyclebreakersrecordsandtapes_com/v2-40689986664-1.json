@@ -1,0 +1,82 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T12:56:05.133406+00:00",
+  "shop_id": "cyclebreakersrecordsandtapes.com",
+  "row": 640,
+  "name": "Cyclebreakers Records and Tapes",
+  "domain": "cyclebreakersrecordsandtapes.com",
+  "country": "US",
+  "website": "https://cyclebreakersrecordsandtapes.com/",
+  "previous_status": "SOURCE_BLOCKED",
+  "previous_reason": "HTTP_404",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 640,
+    "name": "Cyclebreakers Records and Tapes",
+    "domain": "cyclebreakersrecordsandtapes.com",
+    "status": "SOURCE_BLOCKED",
+    "gate": "identity",
+    "reason": "HTTP_404",
+    "source_url": "https://cyclebreakersrecordsandtapes.com/"
+  },
+  "platform": null,
+  "catalog_route": "https://cyclebreakersrecordsandtapes.com/",
+  "requests": [
+    {
+      "url": "https://cyclebreakersrecordsandtapes.com/robots.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "HTTP_404"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "HTTP_404"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_640",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40689986664-1",
+  "queue_rows": [
+    640
+  ],
+  "assessment_path": "assessments/v2/cyclebreakersrecordsandtapes_com/v2-40689986664-1.json"
+}
