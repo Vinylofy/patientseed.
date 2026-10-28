@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T22:39:13.608193+00:00",
+  "shop_id": "shop.horrorpaingoredeath.com",
+  "row": 1214,
+  "name": "Horror Pain Gore Death Productions",
+  "domain": "shop.horrorpaingoredeath.com",
+  "country": "US",
+  "website": "https://shop.horrorpaingoredeath.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1214,
+    "name": "Horror Pain Gore Death Productions",
+    "domain": "shop.horrorpaingoredeath.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://shop.horrorpaingoredeath.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 4,
+    "excluded": 16,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://shop.horrorpaingoredeath.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://shop.horrorpaingoredeath.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://shop.horrorpaingoredeath.com/collections/all/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 20,
+        "accepted": 4,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://shop.horrorpaingoredeath.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shop.horrorpaingoredeath.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shop.horrorpaingoredeath.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shop.horrorpaingoredeath.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shop.horrorpaingoredeath.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://shop.horrorpaingoredeath.com/collections/all/products.json?limit=20&page=1",
+      "score": 45,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://shop.horrorpaingoredeath.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 4,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 4,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://shop.horrorpaingoredeath.com/robots.txt",
+      "sha256": "44f3f8eafdf064cf69acb05f23ee4dfc9ab5b3d67d81c64246bc29f7e438789a"
+    },
+    {
+      "url": "https://shop.horrorpaingoredeath.com/",
+      "sha256": "b417153e8cc4d0a128de96fe08665469b7169a3509793e55c79498d569360f84"
+    },
+    {
+      "url": "https://shop.horrorpaingoredeath.com/products.json?limit=20&page=1",
+      "sha256": "63af091e1dd983f83dd1fe92a73252d0f59b80c53452fb691bb3b1d66c5afdb1"
+    },
+    {
+      "url": "https://shop.horrorpaingoredeath.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "e7d2565b23a9064f1cbba158814119a85a30b3333ac0e4d0dd9c13e77897b45b"
+    },
+    {
+      "url": "https://shop.horrorpaingoredeath.com/products/abscess-horrorhammer-12-inch-gatefold-record-limited-deluxe-edition",
+      "sha256": "cd23bc5b3b2c18563460df79ebffbbe0ea82e3072728c310edaf93de18b03ee4"
+    },
+    {
+      "url": "https://shop.horrorpaingoredeath.com/products/abscess-seminal-vampires-and-maggot-men-12-inch-gatefold-record-limited-deluxe-edition",
+      "sha256": "e6e22dccbb63e4d684adf485f55475d67ea7829db3eaf1073a34a72d3cf871a1"
+    },
+    {
+      "url": "https://shop.horrorpaingoredeath.com/products/agathocles-degenerhate-split-7-inch-record-limited-edition-of-100-copies?variant=43262028022016",
+      "sha256": "0e8d88fd893c319e0560fb928083b4af6308be1554d14bce631d2b553b645d00"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1214",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40780448358-1",
+  "queue_rows": [
+    1214
+  ],
+  "assessment_path": "assessments/v2/shop_horrorpaingoredeath_com/v2-40780448358-1.json"
+}
