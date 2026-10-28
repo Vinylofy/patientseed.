@@ -1,0 +1,165 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T19:34:40.245888+00:00",
+  "shop_id": "gmasauctions.com",
+  "row": 1013,
+  "name": "G-Ma’s Back Porch on line",
+  "domain": "gmasauctions.com",
+  "country": "US",
+  "website": "https://gmasauctions.com/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1013,
+    "name": "G-Ma’s Back Porch on line",
+    "domain": "gmasauctions.com",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://gmasauctions.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://gmasauctions.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://gmasauctions.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://gmasauctions.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://gmasauctions.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://gmasauctions.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://gmasauctions.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://gmasauctions.com/robots.txt",
+      "sha256": "0c1eb519b0bf01940336787c7c480fb736f81fb3a5b871fbfdbb2b88aef5f1bd"
+    },
+    {
+      "url": "https://gmasauctions.com/",
+      "sha256": "1e7ac7b2cbfb4fcee1b306d3778b88efaf332205c2efd14220f64b2cd5eef615"
+    },
+    {
+      "url": "https://gmasauctions.com/products.json?limit=20&page=1",
+      "sha256": "0ea090a27ffca8a8a6a0af67414f48c9d56d96ddc4f2c1b05325a543a7c75423"
+    },
+    {
+      "url": "https://gmasauctions.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "f3cbae71a2764ff32a0f23c9f04ef4838d2ead90a609e9c727e39e6e65603bd7"
+    },
+    {
+      "url": "https://gmasauctions.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "b15d3450a00d36e525420c2997b5208b005625986ea52c81d08bb0891e58b7db"
+    },
+    {
+      "url": "https://gmasauctions.com/api/0.1/collections/products?format=json",
+      "sha256": "7814b5c2f01b97c02d27d2c163d3ee4e02061a5ca544807d6eb4478beeb6f227"
+    },
+    {
+      "url": "https://gmasauctions.com/api/0.1/collections/all/products?format=json",
+      "sha256": "dd550196c5549b019141988b324cfccb0972aaefef8c8589add9b711b3ac4e08"
+    },
+    {
+      "url": "https://gmasauctions.com/api/storefront/products?limit=20&offset=0",
+      "sha256": "fa8a376676e5d9683e3047498e2e09928d33a97b87ea9e94c3990c4f80cffcfb"
+    },
+    {
+      "url": "https://gmasauctions.com/api/storefront/products?limit=20",
+      "sha256": "fcc9c645bc301ae156e1085806f30b86bf4de4a49f4901c462b9d1cc879c2829"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1013",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40754442283-1",
+  "queue_rows": [
+    1013
+  ],
+  "assessment_path": "assessments/v2/gmasauctions_com/v2-40754442283-1.json"
+}
