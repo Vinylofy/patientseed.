@@ -1,0 +1,244 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T08:22:12.353499+00:00",
+  "shop_id": "yurisrecords.com",
+  "row": 3296,
+  "name": "Yuri's Records",
+  "domain": "yurisrecords.com",
+  "country": "US",
+  "website": "https://yurisrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3296,
+    "name": "Yuri's Records",
+    "domain": "yurisrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://yurisrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 16,
+    "excluded": 4,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://yurisrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://yurisrecords.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "Invalid Shopify price"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://yurisrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 165,
+        "products_seen": 20,
+        "accepted": 16,
+        "excluded": 4,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://yurisrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://yurisrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://yurisrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://yurisrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://yurisrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://yurisrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 165,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://yurisrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 16,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 16,
+    "unique_prices": 12,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://yurisrecords.com/products/50-cent-the-massacre?variant=45527473815711",
+      "artist": "50 CENT",
+      "title": "THE MASSACRE",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "41.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://yurisrecords.com/products/2-pac-strictly-4-my-n-i-g-g-a-z?variant=42681617612959",
+      "artist": "2Pac",
+      "title": "Strictly 4 My N.i.g.g.a.z...",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "45.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://yurisrecords.com/products/21-savage-metro-boomin-savage-mode-salt-n-pepa-vinyl?variant=62864347562143",
+      "artist": "21 SAVAGE & METRO BOOMIN",
+      "title": "SAVAGE MODE [Salt ‘N’ Pepa Vinyl]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "32.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://yurisrecords.com/robots.txt",
+      "sha256": "732a211faff08b2450b3efa3e7e64311af2c47bd1cb9f14766be1e80df759d97"
+    },
+    {
+      "url": "https://yurisrecords.com/",
+      "sha256": "64e27f375545013bad2f84fd4cae0f7f54b50853f2eae305594386b48157cd74"
+    },
+    {
+      "url": "https://yurisrecords.com/products.json?limit=20&page=1",
+      "sha256": "bd04eed99b4ae0f6ec2c1aa02171ee29e12e69d4df97ec3c520abc3ccf9a9fc6"
+    },
+    {
+      "url": "https://yurisrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "06d595c3903c9aab39d0308bd05baa5d56d33e8993e399dc5ee49a248cb8d0c6"
+    },
+    {
+      "url": "https://yurisrecords.com/products/21-savage-metro-boomin-savage-mode-salt-n-pepa-vinyl",
+      "sha256": "04a96938dac89d0e8db91b98e35295243692f83d8021b7ab96dc2c8d597ff731"
+    },
+    {
+      "url": "https://yurisrecords.com/products/21-savage-metro-boomin-savage-mode-ll",
+      "sha256": "e3a06c402e9936ceca753e755735db7f59dab47f160bd248da2d42055f9fce78"
+    },
+    {
+      "url": "https://yurisrecords.com/products/50-cent-the-massacre?variant=45527473815711",
+      "sha256": "493f087d140925861de91c7c0897de9e2c3b46f5b3e9b647133efbdb9abba694"
+    },
+    {
+      "url": "https://yurisrecords.com/products/2-pac-strictly-4-my-n-i-g-g-a-z?variant=42681617612959",
+      "sha256": "c1a1b2e9d1704945bc7666560a5d99b3c66147b820eec5c38ba4cb77e4f18e50"
+    },
+    {
+      "url": "https://yurisrecords.com/products/21-savage-metro-boomin-savage-mode-salt-n-pepa-vinyl?variant=62864347562143",
+      "sha256": "df8d30cdc0366347f212bd3eaaebebcfd2fd5ff83a30f2384e31cddbd3e7af7d"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.8125,
+    "sale_price_recognizable": null,
+    "cover_available": null
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_3296",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://yurisrecords.com/products/50-cent-the-massacre?variant=45527473815711",
+    "https://yurisrecords.com/products/2-pac-strictly-4-my-n-i-g-g-a-z?variant=42681617612959",
+    "https://yurisrecords.com/products/21-savage-metro-boomin-savage-mode-salt-n-pepa-vinyl?variant=62864347562143"
+  ],
+  "assessment_id": "v2-40656210376-1",
+  "queue_rows": [
+    3296
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 13,
+  "candidate_ref": "v2-40656210376-1/yurisrecords_com",
+  "assessment_path": "assessments/v2/yurisrecords_com/v2-40656210376-1.json"
+}
