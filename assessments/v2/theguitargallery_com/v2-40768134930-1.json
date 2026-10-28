@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T21:13:43.781192+00:00",
+  "shop_id": "theguitargallery.com",
+  "row": 1124,
+  "name": "Guitar Gallery Inc, The Guitar Gallery Guitars and Records, Guitar Gallery Records",
+  "domain": "theguitargallery.com",
+  "country": "US",
+  "website": "https://theguitargallery.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1124,
+    "name": "Guitar Gallery Inc, The Guitar Gallery Guitars and Records, Guitar Gallery Records",
+    "domain": "theguitargallery.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://theguitargallery.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 4,
+    "excluded": 16,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://theguitargallery.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://theguitargallery.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://theguitargallery.com/collections/all/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 20,
+        "accepted": 4,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://theguitargallery.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://theguitargallery.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://theguitargallery.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://theguitargallery.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://theguitargallery.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://theguitargallery.com/collections/all/products.json?limit=20&page=1",
+      "score": 45,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://theguitargallery.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 4,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 4,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://theguitargallery.com/robots.txt",
+      "sha256": "eca10db5e81da286a34b81494823eb7449179ec0ca0f3be2ba2f52ef3bc61c47"
+    },
+    {
+      "url": "https://theguitargallery.com/",
+      "sha256": "a7c8b0d025c34d866e1cad807928b57c119081899b921b39f4079f79576f8dc1"
+    },
+    {
+      "url": "https://theguitargallery.com/products.json?limit=20&page=1",
+      "sha256": "e828322585069638e8baa750c5011293819c796884818eaa83865ced2714cb06"
+    },
+    {
+      "url": "https://theguitargallery.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "7c06430174e7d9d13b4357c04235eedb1bf351aa7a96109ff138eed181fc2889"
+    },
+    {
+      "url": "https://theguitargallery.com/products/andrew-bird-break-it-yourself-double-lp",
+      "sha256": "8c981fb4b15facfb08d32b9f1fae944b5ffd8fdb42ef3c556e81b6deff40267e"
+    },
+    {
+      "url": "https://theguitargallery.com/products/arthur-lyman-taboo-vol-2-lp",
+      "sha256": "05b533657e47449ac230f83914d174856f3bd7b12f47059f1c4af44792509c91"
+    },
+    {
+      "url": "https://theguitargallery.com/products/the-beatles-abbey-road-lp?variant=945235460116",
+      "sha256": "817f0c4f13556b9046fac29dcca3d93054522bc4ed1ed291f476e4d149c34858"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.5,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1124",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40768134930-1",
+  "queue_rows": [
+    1124
+  ],
+  "assessment_path": "assessments/v2/theguitargallery_com/v2-40768134930-1.json"
+}
