@@ -3675,9 +3675,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **610**. Open: **2714**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **710**. Open: **2614**.
 
-EAN: **21** | ARTIST_TITLE: **25** | MANUAL_REVIEW: **564** | UNSUITABLE: **0**
+EAN: **25** | ARTIST_TITLE: **25** | MANUAL_REVIEW: **660** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -4215,108 +4215,108 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Classic Audio & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Classic Audio and Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Classic Vinyls Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
-| Classical Music of Spring | US | Nog te beoordelen | — | — | — | — |
-| Classified Records | US | Nog te beoordelen | — | — | — | — |
-| Cle Gen Cd's & Accessories | US | Nog te beoordelen | — | — | — | — |
-| Clement Dodd Coxone's Msc City | US | Nog te beoordelen | — | — | — | — |
-| Clinton Street Record & Stereo | US | Nog te beoordelen | — | — | — | — |
-| clo merchandise llc. | US | Nog te beoordelen | — | — | — | — |
-| Clock Tower Records | US | Nog te beoordelen | — | — | — | — |
-| Clocktower Records | US | Nog te beoordelen | — | — | — | — |
-| Clockwork Records | US | Nog te beoordelen | — | — | — | — |
-| Closet Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Clutts Co. Vintage Supply & Records | US | Nog te beoordelen | — | — | — | — |
-| CNA MUSIC SUPPLY | US | Nog te beoordelen | — | — | — | — |
-| Co-Op Records of Moline | US | Nog te beoordelen | — | — | — | — |
-| Coastal Empire Records | US | Nog te beoordelen | — | — | — | — |
-| Coastal Monogram & Craft Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Cochise Records | US | Nog te beoordelen | — | — | — | — |
-| Coins & Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Collect Co. | US | Nog te beoordelen | — | — | — | — |
-| Collecting Problems | US | Nog te beoordelen | — | — | — | — |
-| Collective Clothing | US | Nog te beoordelen | — | — | — | — |
-| Collector's Connection | US | Nog te beoordelen | — | — | — | — |
-| Collectors Corner - The Desert's Premier Thrift Store | US | Nog te beoordelen | — | — | — | — |
-| Collectors Crossroads | US | Nog te beoordelen | — | — | — | — |
-| Collectors Emporium | US | Nog te beoordelen | — | — | — | — |
-| Collingswood Music | US | Nog te beoordelen | — | — | — | — |
-| Colonels Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Color Sound Oblivion | US | Nog te beoordelen | — | — | — | — |
-| Comeback Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Comic Collection & Records Too | US | Nog te beoordelen | — | — | — | — |
-| Comically Speaking | US | Nog te beoordelen | — | — | — | — |
-| Common Beat Music | US | Nog te beoordelen | — | — | — | — |
-| Commune Records | US | Nog te beoordelen | — | — | — | — |
-| Compact Disc Center | US | Nog te beoordelen | — | — | — | — |
-| COMPACT DISC OUTLET | US | Nog te beoordelen | — | — | — | — |
-| Confusion Records | US | Nog te beoordelen | — | — | — | — |
-| Connect Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Conroe Central Market | US | Nog te beoordelen | — | — | — | — |
-| Conservatory Vintage & Vinyl | US | Nog te beoordelen | — | — | — | — |
+| Classical Music of Spring | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Classified Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Cle Gen Cd's & Accessories | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Clement Dodd Coxone's Msc City | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
+| Clinton Street Record & Stereo | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| clo merchandise llc. | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Clock Tower Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Clocktower Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Clockwork Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Closet Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Clutts Co. Vintage Supply & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| CNA MUSIC SUPPLY | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Co-Op Records of Moline | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Coastal Empire Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Coastal Monogram & Craft Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Cochise Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Coins & Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Collect Co. | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Collecting Problems | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Collective Clothing | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Collector's Connection | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Collectors Corner - The Desert's Premier Thrift Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Collectors Crossroads | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Collectors Emporium | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Collingswood Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Colonels Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Color Sound Oblivion | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Comeback Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Comic Collection & Records Too | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Comically Speaking | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Common Beat Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Commune Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Compact Disc Center | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| COMPACT DISC OUTLET | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Confusion Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Connect Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
+| Conroe Central Market | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Conservatory Vintage & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Contact Records | US | EAN | MEDIUM | BUILT_AWAITING_MANUAL_TEST | own_product_valid_gtin_coverage_at_least_80_percent_of_sample | v2-40571453864-1/contactrecordstore_com |
-| Control Records | US | Nog te beoordelen | — | — | — | — |
-| Controlled Chaos: Vintage, Vinyl & Variety | US | Nog te beoordelen | — | — | — | — |
-| Cool and Collected Vintage & Antiques | US | Nog te beoordelen | — | — | — | — |
-| Cool Retro Shop - IB Cohen | US | Nog te beoordelen | — | — | — | — |
-| Cool Stuff Vintage | US | Nog te beoordelen | — | — | — | — |
-| Core Gaming | US | Nog te beoordelen | — | — | — | — |
-| Corner Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Corner Records | US | Nog te beoordelen | — | — | — | — |
-| Cornerstone Used Books | US | Nog te beoordelen | — | — | — | — |
-| Cosmic Debris | US | Nog te beoordelen | — | — | — | — |
-| Cosmic Sounds \| Records, Genre Film, Pinball, and More… | US | Nog te beoordelen | — | — | — | — |
-| Cosmic Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Cosmik Gifts | US | Nog te beoordelen | — | — | — | — |
-| Cotton Flat Records | US | Nog te beoordelen | — | — | — | — |
-| Counter Intuitive | US | Nog te beoordelen | — | — | — | — |
-| CounterCulture Records | US | Nog te beoordelen | — | — | — | — |
-| County Line Records | US | Nog te beoordelen | — | — | — | — |
-| County Seat Antique Mall | US | Nog te beoordelen | — | — | — | — |
-| Cow | US | Nog te beoordelen | — | — | — | — |
-| Crate Digger's Music & More | US | Nog te beoordelen | — | — | — | — |
-| Cratediggaz Records | US | Nog te beoordelen | — | — | — | — |
-| Crazy Erics Variety Store Records Tapes | US | Nog te beoordelen | — | — | — | — |
-| Crazy Lady Ink LLC & Records | US | Nog te beoordelen | — | — | — | — |
-| Crazy Rhythms Vinyl Records | US | Nog te beoordelen | — | — | — | — |
-| Crazy Vinyl Record | US | Nog te beoordelen | — | — | — | — |
-| Cream Puff Records | US | Nog te beoordelen | — | — | — | — |
-| Creation@ib recordings | US | Nog te beoordelen | — | — | — | — |
-| Creekside Vintage | US | Nog te beoordelen | — | — | — | — |
+| Control Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Controlled Chaos: Vintage, Vinyl & Variety | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Cool and Collected Vintage & Antiques | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Cool Retro Shop - IB Cohen | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Cool Stuff Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Core Gaming | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Corner Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Corner Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Cornerstone Used Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Cosmic Debris | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Cosmic Sounds \| Records, Genre Film, Pinball, and More… | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Cosmic Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Cosmik Gifts | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Cotton Flat Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Counter Intuitive | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| CounterCulture Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| County Line Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| County Seat Antique Mall | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Cow | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Crate Digger's Music & More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Cratediggaz Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Crazy Erics Variety Store Records Tapes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Crazy Lady Ink LLC & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Crazy Rhythms Vinyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Crazy Vinyl Record | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Cream Puff Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Creation@ib recordings | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Creekside Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Creep Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| Creep Records West Chester | US | Nog te beoordelen | — | — | — | — |
-| Creepella’s Posh Pit & Dizzy Edge Records | US | Nog te beoordelen | — | — | — | — |
-| Creme Tangerine | US | Nog te beoordelen | — | — | — | — |
-| Crescent Moon Mercantile | US | Nog te beoordelen | — | — | — | — |
-| Crescent Moon Music & Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Criminal Records | US | Nog te beoordelen | — | — | — | — |
-| Crockett's Record Store | US | Nog te beoordelen | — | — | — | — |
-| Crooked Arm Vinyl & Tap | US | Nog te beoordelen | — | — | — | — |
-| Crooked Beat Records | US | Nog te beoordelen | — | — | — | — |
-| Crooked Beats Records | US | Nog te beoordelen | — | — | — | — |
-| Crossroads Music | US | Nog te beoordelen | — | — | — | — |
-| Crossroads Records | US | Nog te beoordelen | — | — | — | — |
-| Crosstown Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Crown Antique Mall Inc. | US | Nog te beoordelen | — | — | — | — |
-| Crown Point Records | US | Nog te beoordelen | — | — | — | — |
-| Crying Cat Books and Records | US | Nog te beoordelen | — | — | — | — |
-| Crystal Ball Records | US | Nog te beoordelen | — | — | — | — |
-| Crystal Clear CDs | US | Nog te beoordelen | — | — | — | — |
-| CS Recordz | US | Nog te beoordelen | — | — | — | — |
-| CTYZN Records | US | Nog te beoordelen | — | — | — | — |
-| Culture Clash Records | US | Nog te beoordelen | — | — | — | — |
-| Culture Shock Records - Gifts - Clothing | US | Nog te beoordelen | — | — | — | — |
-| Curated Gems | US | Nog te beoordelen | — | — | — | — |
-| Curious Collections Vinyl Records & More | US | Nog te beoordelen | — | — | — | — |
-| Curious-ity | US | Nog te beoordelen | — | — | — | — |
-| Curmudgeon Records | US | Nog te beoordelen | — | — | — | — |
-| CUSTOM Vinyl Records | US | Nog te beoordelen | — | — | — | — |
-| Cut Corner Records | US | Nog te beoordelen | — | — | — | — |
-| CV Records and Tapes | US | Nog te beoordelen | — | — | — | — |
-| Cyclebreakers Records and Tapes | US | Nog te beoordelen | — | — | — | — |
-| D&J Records | US | Nog te beoordelen | — | — | — | — |
-| Daddy Kool Records | US | Nog te beoordelen | — | — | — | — |
-| Daddy O's Record Rack | US | Nog te beoordelen | — | — | — | — |
-| Daddyo's Framing Music Memorabilia | US | Nog te beoordelen | — | — | — | — |
+| Creep Records West Chester | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Creepella’s Posh Pit & Dizzy Edge Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Creme Tangerine | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Crescent Moon Mercantile | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Crescent Moon Music & Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Criminal Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Crockett's Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Crooked Arm Vinyl & Tap | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Crooked Beat Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Crooked Beats Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Crossroads Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Crossroads Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Crosstown Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Crown Antique Mall Inc. | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Crown Point Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Crying Cat Books and Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Crystal Ball Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Crystal Clear CDs | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| CS Recordz | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| CTYZN Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Culture Clash Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Culture Shock Records - Gifts - Clothing | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Curated Gems | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Curious Collections Vinyl Records & More | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Curious-ity | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Curmudgeon Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| CUSTOM Vinyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Cut Corner Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| CV Records and Tapes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Cyclebreakers Records and Tapes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_404 | — |
+| D&J Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Daddy Kool Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Daddy O's Record Rack | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Daddyo's Framing Music Memorabilia | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
 | Daily Records | US | Nog te beoordelen | — | — | — | — |
 | Daily Records & CDs | US | Nog te beoordelen | — | — | — | — |
 | Dale's Records and Skate Shop | US | Nog te beoordelen | — | — | — | — |
