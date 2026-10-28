@@ -3523,7 +3523,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | orbitrecords.com | 5 | REVIEW | 0 | 12 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | orchardrecords.com | 12 | FROZEN | 3 | 15 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | pancakes-records.com | 5 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| parasolrecords.com | 5 | APPROVED | 0 | 8 | 3/3 | ACTIVE | ACTIVE | run 39727047909 |
+| parasolrecords.com | 5 | APPROVED | 0 | 8 | 3/3 | ACTIVE | ACTIVE (run 40666418871) | run 39727047909 |
 | paul-rose.com | 5 | APPROVED | 0 | 7 | 2/3 | ACTIVE | ACTIVE | run 39727047909 |
 | plaidroomrecords.com | 5 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | plumcreekrecords.com | 5 | REVIEW | 0 | 15 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
