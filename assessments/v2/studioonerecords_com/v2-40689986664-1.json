@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T12:42:22.136703+00:00",
+  "shop_id": "studioonerecords.com",
+  "row": 546,
+  "name": "Clement Dodd Coxone's Msc City",
+  "domain": "studioonerecords.com",
+  "country": "US",
+  "website": "https://studioonerecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 546,
+    "name": "Clement Dodd Coxone's Msc City",
+    "domain": "studioonerecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://studioonerecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 22,
+    "accepted": 14,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://studioonerecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://studioonerecords.com/products.json?limit=20&page=1",
+        "score": 145,
+        "products_seen": 22,
+        "accepted": 14,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://studioonerecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 23,
+        "accepted": 13,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://studioonerecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://studioonerecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://studioonerecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://studioonerecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://studioonerecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://studioonerecords.com/products.json?limit=20&page=1",
+      "score": 145,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://studioonerecords.com/products.json?limit=20&page=1",
+  "listing_sample": 14,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 14,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://studioonerecords.com/products/train-to-skaville-mr-moses-combo-pack?variant=45157321375923",
+      "artist": "",
+      "title": "Train to Skaville / Mr. Moses Combo pack",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "35.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://studioonerecords.com/products/my-time-hound-dog-hugh-godfrey-norma-fraser?variant=45484053921971",
+      "artist": "",
+      "title": "My Time / Hound Dog- Hugh Godfrey / Norma Fraser",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "19.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://studioonerecords.com/products/what-you-wont-do-for-love-ver-otis-gayle?variant=45948359540915",
+      "artist": "",
+      "title": "What You Won't Do For Love / Ver- Otis Gayle",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "19.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://studioonerecords.com/robots.txt",
+      "sha256": "8c66bea6c2a5b9e460c2b466677cc49ff849d737edadf49a5feb278e17e65506"
+    },
+    {
+      "url": "https://studioonerecords.com/",
+      "sha256": "39bf07aeb3abd4d5f07a6ec003a4dd3b1b252d2731eb343e4b51a0d80478b7b4"
+    },
+    {
+      "url": "https://studioonerecords.com/products.json?limit=20&page=1",
+      "sha256": "505c1b78e7c759c526336eac16c30bef61f3d9384abdcbc3ed4e3a693e0666a7"
+    },
+    {
+      "url": "https://studioonerecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "deaad9e00e204d3d7d89da1bea5720e4218b1fc01c36a686fa487f435639de91"
+    },
+    {
+      "url": "https://studioonerecords.com/products/what-you-wont-do-for-love-ver-otis-gayle",
+      "sha256": "1ac2498418a4668155fbbc91889f358bc06b0ff4d24fc7f159b2160fb89ec28b"
+    },
+    {
+      "url": "https://studioonerecords.com/products/creation-lennie-hibbert",
+      "sha256": "e6ed81f917650cca327f8a8e79fcd2c1299f474b2e452509e10e93a8390a1dbc"
+    },
+    {
+      "url": "https://studioonerecords.com/products/train-to-skaville-mr-moses-combo-pack?variant=45157321375923",
+      "sha256": "2be825aa4e6b17e450c511cccc6f1922537e55c3540411855db743be9dc58ea2"
+    },
+    {
+      "url": "https://studioonerecords.com/products/my-time-hound-dog-hugh-godfrey-norma-fraser?variant=45484053921971",
+      "sha256": "d3c4d4aa74920364a08005b8d92895399ff686714f7ff9bcacc5b15f7000b3da"
+    },
+    {
+      "url": "https://studioonerecords.com/products/what-you-wont-do-for-love-ver-otis-gayle?variant=45948359540915",
+      "sha256": "4487ee24843aa93b18f043baf08ede874971a62eceb3ee5bf66d64117b45ce06"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.14285714285714285,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_546",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://studioonerecords.com/products/train-to-skaville-mr-moses-combo-pack?variant=45157321375923",
+    "https://studioonerecords.com/products/my-time-hound-dog-hugh-godfrey-norma-fraser?variant=45484053921971",
+    "https://studioonerecords.com/products/what-you-wont-do-for-love-ver-otis-gayle?variant=45948359540915"
+  ],
+  "assessment_id": "v2-40689986664-1",
+  "queue_rows": [
+    546
+  ],
+  "assessment_path": "assessments/v2/studioonerecords_com/v2-40689986664-1.json"
+}
