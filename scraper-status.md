@@ -3671,12 +3671,13 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | yurisrecords.com | 16 | REVIEW | 0 | 16 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | zoinksrecords.com | 16 | REVIEW | 0 | 17 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 <!-- quality-gate:end -->
+
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **410**. Open: **2914**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **510**. Open: **2814**.
 
-EAN: **16** | ARTIST_TITLE: **23** | MANUAL_REVIEW: **371** | UNSUITABLE: **0**
+EAN: **20** | ARTIST_TITLE: **25** | MANUAL_REVIEW: **465** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -4016,104 +4017,104 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Blue Jay Way Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Blue Moon Discs | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Blue Moon Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
-| Blue Raven Records | US | Nog te beoordelen | — | — | — | — |
-| Blue Shark Antiques & Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Blue Village Vinyl Records | US | Nog te beoordelen | — | — | — | — |
-| Blue Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Boardwalk Vintage | US | Nog te beoordelen | — | — | — | — |
-| Bob The Record Guy | US | Nog te beoordelen | — | — | — | — |
-| Bob's Blues & Jazz Mart | US | Nog te beoordelen | — | — | — | — |
-| Bobby's Place | US | Nog te beoordelen | — | — | — | — |
-| Bobland * Vinyl & Audio | US | Nog te beoordelen | — | — | — | — |
-| Bogey's West Music | US | Nog te beoordelen | — | — | — | — |
-| Boguslie Productions Inc. | US | Nog te beoordelen | — | — | — | — |
-| Bohemian Amigos Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Bohemian Music & Body Piercing | US | Nog te beoordelen | — | — | — | — |
-| Boho Records and Rags | US | Nog te beoordelen | — | — | — | — |
-| Bon Marche Thrift Store | US | Nog te beoordelen | — | — | — | — |
-| Bonjongles | US | Nog te beoordelen | — | — | — | — |
-| Boo Boo Records Inc | US | Nog te beoordelen | — | — | — | — |
-| Boogie Maru Sounds | US | Nog te beoordelen | — | — | — | — |
-| Boogie Records | US | Nog te beoordelen | — | — | — | — |
-| Book Exchange - Red Mill; Book Exchange Chesapeake; Book Exchange Norfolk; Movie & Music Exchange | US | Nog te beoordelen | — | — | — | — |
-| Book Trader Tan America | US | Nog te beoordelen | — | — | — | — |
-| BookHounds | US | Nog te beoordelen | — | — | — | — |
-| Bookmans Speedway Entertainment Exchange | US | Nog te beoordelen | — | — | — | — |
-| BOOKOFF Costa Mesa Store; BOOKOFF Del Amo Fashion Center Store; BOOKOFF Garden Grove; BOOKOFF Lakewood Center Mall; BOOKOFF Monterey Park; BOOKOFF Novi; BOOKOFF Outlet Del Amo Fashion Center Store; BOOKOFF Riverside; BOOKOff Gardena Store | US | Nog te beoordelen | — | — | — | — |
-| Books & Melodies | US | Nog te beoordelen | — | — | — | — |
-| Books & More | US | Nog te beoordelen | — | — | — | — |
-| Boomtown Records | US | Nog te beoordelen | — | — | — | — |
-| Boomtown Records | US | Nog te beoordelen | — | — | — | — |
-| Bop Shop Records | US | Nog te beoordelen | — | — | — | — |
-| Boring Box Records | US | Nog te beoordelen | — | — | — | — |
-| Born Late Records | US | Nog te beoordelen | — | — | — | — |
-| Boro Records | US | Nog te beoordelen | — | — | — | — |
-| Bossa 'N Roll Records | US | Nog te beoordelen | — | — | — | — |
-| Both Sides | US | Nog te beoordelen | — | — | — | — |
-| Bothell Jewelers & Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Boulevard Trash | US | Nog te beoordelen | — | — | — | — |
-| Bowty's Music Emporium | US | Nog te beoordelen | — | — | — | — |
-| Box of Wax Records | US | Nog te beoordelen | — | — | — | — |
-| Boxcar Music | US | Nog te beoordelen | — | — | — | — |
-| Boxed Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Brainwave Records | US | Nog te beoordelen | — | — | — | — |
-| Braveheart Books & Bazaar | US | Nog te beoordelen | — | — | — | — |
-| Breakaway Records | US | Nog te beoordelen | — | — | — | — |
-| Bric-a-Brac Records & Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Bridge Nine Records | US | Nog te beoordelen | — | — | — | — |
-| Bridgeport Records | US | Nog te beoordelen | — | — | — | — |
-| Briggs Street Books and Music | US | Nog te beoordelen | — | — | — | — |
-| BrightLight Books | US | Nog te beoordelen | — | — | — | — |
-| Bring Back Analog | US | Nog te beoordelen | — | — | — | — |
-| Bring Your Old Books | US | Nog te beoordelen | — | — | — | — |
-| Bristol Antiques Market | US | Nog te beoordelen | — | — | — | — |
-| Broad Street Records | US | Nog te beoordelen | — | — | — | — |
-| Broadway Records | US | Nog te beoordelen | — | — | — | — |
-| Broke 'n Records Music & More | US | Nog te beoordelen | — | — | — | — |
-| Broken Anchor Music & Media | US | Nog te beoordelen | — | — | — | — |
-| Broken Melody Records | US | Nog te beoordelen | — | — | — | — |
-| Broken records | US | Nog te beoordelen | — | — | — | — |
-| Broken Spoke Antique Mall | US | Nog te beoordelen | — | — | — | — |
-| Broken World Records | US | Nog te beoordelen | — | — | — | — |
-| Brooklyn Record Exchange | US | Nog te beoordelen | — | — | — | — |
-| Brothers Records & Toys | US | Nog te beoordelen | — | — | — | — |
-| Brown Hornet Records | US | Nog te beoordelen | — | — | — | — |
-| Brownley buys all types of Old to New Magazines , Books , Photos , Brochures , Records and other items | US | Nog te beoordelen | — | — | — | — |
-| Bruised Apple | US | Nog te beoordelen | — | — | — | — |
-| Bruiser Records | US | Nog te beoordelen | — | — | — | — |
-| BTB's Records And Rarities | US | Nog te beoordelen | — | — | — | — |
-| Buch Spieler Records | US | Nog te beoordelen | — | — | — | — |
-| Buck or 2 | US | Nog te beoordelen | — | — | — | — |
-| Bucket O' Blood Books and Records | US | Nog te beoordelen | — | — | — | — |
-| Buddha Belly Records | US | Nog te beoordelen | — | — | — | — |
-| Budget Audio & Video | US | Nog te beoordelen | — | — | — | — |
-| Budget Music | US | Nog te beoordelen | — | — | — | — |
-| Budget Music & Video | US | Nog te beoordelen | — | — | — | — |
-| Buffalo Boogie Records | US | Nog te beoordelen | — | — | — | — |
-| Buffalo Records | US | Nog te beoordelen | — | — | — | — |
-| BUiLDiNG CHARACTER | US | Nog te beoordelen | — | — | — | — |
-| Bull Moose | US | Nog te beoordelen | — | — | — | — |
-| BullTrax Records (Online Store: Buy & Sell) | US | Nog te beoordelen | — | — | — | — |
-| BUMRUSH Vinyl Shop | US | Nog te beoordelen | — | — | — | — |
-| Buried Treasures | US | Nog te beoordelen | — | — | — | — |
-| Burlington Records | US | Nog te beoordelen | — | — | — | — |
-| Butler Records | US | Nog te beoordelen | — | — | — | — |
-| Buy, Sell and Trade | US | Nog te beoordelen | — | — | — | — |
-| Buying All Comic Books And Records | US | Nog te beoordelen | — | — | — | — |
-| Buying Records Seattle (Tblends @ Aurora Antiques) | US | Nog te beoordelen | — | — | — | — |
-| Buzz Vinyls | US | Nog te beoordelen | — | — | — | — |
-| Byrdland Records | US | Nog te beoordelen | — | — | — | — |
-| C D Source | US | Nog te beoordelen | — | — | — | — |
+| Blue Raven Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Blue Shark Antiques & Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Blue Village Vinyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Blue Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Boardwalk Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Bob The Record Guy | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Bob's Blues & Jazz Mart | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Bobby's Place | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Bobland * Vinyl & Audio | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Bogey's West Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Boguslie Productions Inc. | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Bohemian Amigos Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Bohemian Music & Body Piercing | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Boho Records and Rags | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Bon Marche Thrift Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Bonjongles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Boo Boo Records Inc | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Boogie Maru Sounds | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Boogie Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Book Exchange - Red Mill; Book Exchange Chesapeake; Book Exchange Norfolk; Movie & Music Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Book Trader Tan America | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| BookHounds | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Bookmans Speedway Entertainment Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| BOOKOFF Costa Mesa Store; BOOKOFF Del Amo Fashion Center Store; BOOKOFF Garden Grove; BOOKOFF Lakewood Center Mall; BOOKOFF Monterey Park; BOOKOFF Novi; BOOKOFF Outlet Del Amo Fashion Center Store; BOOKOFF Riverside; BOOKOff Gardena Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Books & Melodies | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Books & More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | RemoteDisconnected | — |
+| Boomtown Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Boomtown Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Bop Shop Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Boring Box Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Born Late Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Boro Records | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Bossa 'N Roll Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Both Sides | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Bothell Jewelers & Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Boulevard Trash | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Bowty's Music Emporium | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Box of Wax Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Boxcar Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Boxed Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Brainwave Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Braveheart Books & Bazaar | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Breakaway Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Bric-a-Brac Records & Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Bridge Nine Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Bridgeport Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Briggs Street Books and Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| BrightLight Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Bring Back Analog | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Bring Your Old Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Bristol Antiques Market | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Broad Street Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Broadway Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Broke 'n Records Music & More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Broken Anchor Music & Media | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Broken Melody Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Broken records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Broken Spoke Antique Mall | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Broken World Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Brooklyn Record Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Brothers Records & Toys | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Brown Hornet Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Brownley buys all types of Old to New Magazines , Books , Photos , Brochures , Records and other items | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Bruised Apple | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Bruiser Records | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| BTB's Records And Rarities | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Buch Spieler Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Buck or 2 | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Bucket O' Blood Books and Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Buddha Belly Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Budget Audio & Video | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Budget Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_404 | — |
+| Budget Music & Video | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Buffalo Boogie Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Buffalo Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| BUiLDiNG CHARACTER | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Bull Moose | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| BullTrax Records (Online Store: Buy & Sell) | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| BUMRUSH Vinyl Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Buried Treasures | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Burlington Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Butler Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Buy, Sell and Trade | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Buying All Comic Books And Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Buying Records Seattle (Tblends @ Aurora Antiques) | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Buzz Vinyls | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Byrdland Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| C D Source | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | C-Side Records | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40571453864-1/csiderecords_com |
-| C. K. Barrymores/Crazy Bob's Records | US | Nog te beoordelen | — | — | — | — |
-| C&A Records With BlackIce Officials | US | Nog te beoordelen | — | — | — | — |
-| Cabin Floor Records | US | Nog te beoordelen | — | — | — | — |
-| Cache Valley Antiques | US | Nog te beoordelen | — | — | — | — |
-| Cactus Music | US | Nog te beoordelen | — | — | — | — |
-| Cactus Records & Gifts | US | Nog te beoordelen | — | — | — | — |
-| Cactus VHS | US | Nog te beoordelen | — | — | — | — |
-| Cali Vibes Records | US | Nog te beoordelen | — | — | — | — |
-| Caliche Co. | US | Nog te beoordelen | — | — | — | — |
+| C. K. Barrymores/Crazy Bob's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| C&A Records With BlackIce Officials | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Cabin Floor Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Cache Valley Antiques | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Cactus Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Cactus Records & Gifts | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Cactus VHS | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Cali Vibes Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Caliche Co. | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Calico Records And CDs | US | Nog te beoordelen | — | — | — | — |
 | Cameron Records | US | Nog te beoordelen | — | — | — | — |
 | Campney's Retro Revival | US | Nog te beoordelen | — | — | — | — |
@@ -6923,7 +6924,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Wuxtry Records | US | Nog te beoordelen | — | — | — | — |
 | Wuxtry Records-Athens | US | Nog te beoordelen | — | — | — | — |
 | Wylie Records | US | Nog te beoordelen | — | — | — | — |
-| Wyrd Byrd | US | Nog te beoordelen | — | — | — | — |
+| Wyrd Byrd | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40656210376-1/wyrdbyrdypsi_com |
 | XKJA RECORDS | US | Nog te beoordelen | — | — | — | — |
 | Xombie Moon Records | US | Nog te beoordelen | — | — | — | — |
 | Yankee Bookshop | US | Nog te beoordelen | — | — | — | — |
@@ -6931,7 +6932,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Yard Sale Records | US | Nog te beoordelen | — | — | — | — |
 | Yard Sale Thrift /Consignment Store - Donations Welcome! | US | Nog te beoordelen | — | — | — | — |
 | Yearbook Records | US | Nog te beoordelen | — | — | — | — |
-| Yellow Dog Discs | US | Nog te beoordelen | — | — | — | — |
+| Yellow Dog Discs | US | EAN | MEDIUM | BUILT_AWAITING_MANUAL_TEST | own_product_valid_gtin_coverage_at_least_80_percent_of_sample | v2-40656210376-1/yellowdogdiscs_com |
 | Yellow K Records | US | Nog te beoordelen | — | — | — | — |
 | Yellow Racket Records | US | Nog te beoordelen | — | — | — | — |
 | Yesterday & Today Music | US | Nog te beoordelen | — | — | — | — |
@@ -6945,7 +6946,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Younger Than Yesterday | US | Nog te beoordelen | — | — | — | — |
 | Your Media Exchange | US | Nog te beoordelen | — | — | — | — |
 | Your Song Sound Exchange | US | Nog te beoordelen | — | — | — | — |
-| Yuri's Records | US | Nog te beoordelen | — | — | — | — |
+| Yuri's Records | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40656210376-1/yurisrecords_com |
 | Zack's Music Shop | US | Nog te beoordelen | — | — | — | — |
 | Zephyr Zen Art & Antiques | US | Nog te beoordelen | — | — | — | — |
 | Zia Records (Bethany Home - Phoenix); Zia Records (Chandler); Zia Records (Eastern - Las Vegas); Zia Records (Mesa); Zia Records (Mill Ave - Tempe); Zia Records (Rainbow - Las Vegas); Zia Records (Speedway - Tucson); Zia Records (Thunderbird - North Phoenix) | US | Nog te beoordelen | — | — | — | — |
