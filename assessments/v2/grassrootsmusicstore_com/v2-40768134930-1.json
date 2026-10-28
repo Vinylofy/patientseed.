@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T21:04:59.326799+00:00",
+  "shop_id": "grassrootsmusicstore.com",
+  "row": 1082,
+  "name": "Grassroots Music Store",
+  "domain": "grassrootsmusicstore.com",
+  "country": "US",
+  "website": "https://grassrootsmusicstore.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1082,
+    "name": "Grassroots Music Store",
+    "domain": "grassrootsmusicstore.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://grassrootsmusicstore.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 11,
+    "excluded": 9,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://grassrootsmusicstore.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://grassrootsmusicstore.com/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://grassrootsmusicstore.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://grassrootsmusicstore.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://grassrootsmusicstore.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://grassrootsmusicstore.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://grassrootsmusicstore.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://grassrootsmusicstore.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://grassrootsmusicstore.com/products.json?limit=20&page=1",
+      "score": 115,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://grassrootsmusicstore.com/products.json?limit=20&page=1",
+  "listing_sample": 11,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 11,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://grassrootsmusicstore.com/robots.txt",
+      "sha256": "5614cd5845899e7c65b52518a1b2fd16375c2982db1f9822e570de6590f42f12"
+    },
+    {
+      "url": "https://grassrootsmusicstore.com/",
+      "sha256": "8657b5c4ef841f702afcb990f447158c208a41ccb7db4c2567f5174a6dc2373d"
+    },
+    {
+      "url": "https://grassrootsmusicstore.com/products.json?limit=20&page=1",
+      "sha256": "fa99f10066a87b0b38afbff97e53d600f48070ec7b596522af730fd0f3b7868d"
+    },
+    {
+      "url": "https://grassrootsmusicstore.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "a49c6e9303101559a9fa2bbb3375e8993f42fab1568c52a82ade8476dc24e6b9"
+    },
+    {
+      "url": "https://grassrootsmusicstore.com/products/sonny-rollins-sonny-rollins-vol-2-lp-vinyl-record",
+      "sha256": "8eb4977d17c08bbac877eb2265e8a3aa6370ca7bbd97a15e1c95a99baedb39d8"
+    },
+    {
+      "url": "https://grassrootsmusicstore.com/products/the-flying-burrito-bros-the-gilded-palace-of-sin-lp-vinyl-record",
+      "sha256": "1ead1d877fc43f39dc8c7be7903f968051f1bdafe377406fe44fc0aa786b36b3"
+    },
+    {
+      "url": "https://grassrootsmusicstore.com/products/upc-198029996814?variant=54071572267284",
+      "sha256": "86637469b811fc9f1a1272e9c52e28fa6929b7f1ca2a681f4e70c02459074911"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1082",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40768134930-1",
+  "queue_rows": [
+    1082
+  ],
+  "assessment_path": "assessments/v2/grassrootsmusicstore_com/v2-40768134930-1.json"
+}
