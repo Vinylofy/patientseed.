@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T19:28:50.721548+00:00",
+  "shop_id": "frankiesrecords.com",
+  "row": 973,
+  "name": "Frankie's Records",
+  "domain": "frankiesrecords.com",
+  "country": "US",
+  "website": "https://frankiesrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 973,
+    "name": "Frankie's Records",
+    "domain": "frankiesrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://frankiesrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://frankiesrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://frankiesrecords.com/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://frankiesrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://frankiesrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://frankiesrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://frankiesrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://frankiesrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://frankiesrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://frankiesrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://frankiesrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "review",
+    "flags": [
+      "shipping_term_in_product_identity"
+    ],
+    "records_checked": 20,
+    "unique_prices": 9,
+    "shipping_hits": 1,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://frankiesrecords.com/products/pre-order-napalm-death-leaders-not-followers-lprelease-date-11-6-26?variant=52554837164330",
+      "artist": "",
+      "title": "(Pre-Order) Napalm Death-Leaders Not Followers (LP)(Release Date: 11-6-26)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "29.95",
+      "currency": "USD",
+      "valid_eans": [
+        "05036436166220"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://frankiesrecords.com/products/gorillaz-gorillaz-2xlp-copy?variant=52719796191530",
+      "artist": "",
+      "title": "(Pre-Order) Gorillaz-Gorillaz (Limited Edition, Colored Vinyl, Green, Brown 2xLP)(Release Date: 12-4-26)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "54.95",
+      "currency": "USD",
+      "valid_eans": [
+        "01200214336769"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://frankiesrecords.com/products/pre-order-asia-indigo-indie-exclusive-2xlprelease-date-11-6-26?variant=52556020777258",
+      "artist": "",
+      "title": "(Pre-Order) Asia-Indigo (Indie Exclusive 2xLP)(Release Date: 11-6-26)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "42.95",
+      "currency": "USD",
+      "valid_eans": [
+        "08024391160268"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://frankiesrecords.com/robots.txt",
+      "sha256": "c46a156c87984ee68a15edfc8b969742a05f66c879968fe553cc79c59e31e163"
+    },
+    {
+      "url": "https://frankiesrecords.com/",
+      "sha256": "a92d15d47fb6c5e2442ac1826340e2c8f50b0e58beedd484c5e3db8432d7b56a"
+    },
+    {
+      "url": "https://frankiesrecords.com/products.json?limit=20&page=1",
+      "sha256": "8caadfee5d70be54c12bd9cf04515f98206ac3d2fd2c558c2d2bad084606efd1"
+    },
+    {
+      "url": "https://frankiesrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "52e2c1d54e02dbdea81ab6fde1713b670dfcb44bb353d0994cd31230b3b810cd"
+    },
+    {
+      "url": "https://frankiesrecords.com/products/pre-order-asia-indigo-indie-exclusive-2xlprelease-date-11-6-26",
+      "sha256": "587693843d517ff59cc8002c71a577b5719090701a25fbcef3d6f93689f87f95"
+    },
+    {
+      "url": "https://frankiesrecords.com/products/pre-order-bill-evans-sunday-at-the-village-vanguard-release-date-11-13-26",
+      "sha256": "8e206a187f9550da5d5616cfc6c96d4cf66a69f3e9d77b75a40ea2ef07434fdf"
+    },
+    {
+      "url": "https://frankiesrecords.com/products/pre-order-napalm-death-leaders-not-followers-lprelease-date-11-6-26?variant=52554837164330",
+      "sha256": "832b3d1ea48143cd9dfb9529f46d027b2a793cbd8bdf419bb0b7425a82125c54"
+    },
+    {
+      "url": "https://frankiesrecords.com/products/gorillaz-gorillaz-2xlp-copy?variant=52719796191530",
+      "sha256": "a0c6b16c3d1ca85fba468c1dac0c8ea4b438e31f2a96f72717721b919580b769"
+    },
+    {
+      "url": "https://frankiesrecords.com/products/pre-order-asia-indigo-indie-exclusive-2xlprelease-date-11-6-26?variant=52556020777258",
+      "sha256": "baa8761d6fe7c6b91861cef6331402bbb7a66d32b788d75d0b66831fd99bb13d"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:public_prices"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": false,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_973",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://frankiesrecords.com/products/pre-order-napalm-death-leaders-not-followers-lprelease-date-11-6-26?variant=52554837164330",
+    "https://frankiesrecords.com/products/gorillaz-gorillaz-2xlp-copy?variant=52719796191530",
+    "https://frankiesrecords.com/products/pre-order-asia-indigo-indie-exclusive-2xlprelease-date-11-6-26?variant=52556020777258"
+  ],
+  "assessment_id": "v2-40754442283-1",
+  "queue_rows": [
+    973
+  ],
+  "assessment_path": "assessments/v2/frankiesrecords_com/v2-40754442283-1.json"
+}
