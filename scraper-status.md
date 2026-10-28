@@ -3675,9 +3675,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **710**. Open: **2614**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **810**. Open: **2514**.
 
-EAN: **25** | ARTIST_TITLE: **25** | MANUAL_REVIEW: **660** | UNSUITABLE: **0**
+EAN: **28** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **755** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -4317,107 +4317,107 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Daddy Kool Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Daddy O's Record Rack | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Daddyo's Framing Music Memorabilia | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
-| Daily Records | US | Nog te beoordelen | — | — | — | — |
-| Daily Records & CDs | US | Nog te beoordelen | — | — | — | — |
-| Dale's Records and Skate Shop | US | Nog te beoordelen | — | — | — | — |
-| DALLOS VINYL LOVE | US | Nog te beoordelen | — | — | — | — |
-| Danacthy Records Inc | US | Nog te beoordelen | — | — | — | — |
-| Dancing Eye Gallery | US | Nog te beoordelen | — | — | — | — |
-| Dandy Doxie Vintage and Coffee | US | Nog te beoordelen | — | — | — | — |
-| Dark Entries Records | US | Nog te beoordelen | — | — | — | — |
-| Dark Realm Records | US | Nog te beoordelen | — | — | — | — |
-| DarkBrownStore | US | Nog te beoordelen | — | — | — | — |
-| Darkside Records | US | Nog te beoordelen | — | — | — | — |
-| Dave's Golden Oldies | US | Nog te beoordelen | — | — | — | — |
-| Dave's Record Den | US | Nog te beoordelen | — | — | — | — |
-| Dave's Record Shop | US | Nog te beoordelen | — | — | — | — |
-| David's Used Books & Records | US | Nog te beoordelen | — | — | — | — |
-| Davis Gift Record Shop & Botanica | US | Nog te beoordelen | — | — | — | — |
-| Dawn’s Books and Stuff | US | Nog te beoordelen | — | — | — | — |
-| Daybreak Records | US | Nog te beoordelen | — | — | — | — |
-| Daybreak Records | US | Nog te beoordelen | — | — | — | — |
-| Daydream Records | US | Nog te beoordelen | — | — | — | — |
-| Daystar Records | US | Nog te beoordelen | — | — | — | — |
-| Daytona Outreach Center Thrift Store | US | Nog te beoordelen | — | — | — | — |
-| DBS Sounds | US | Nog te beoordelen | — | — | — | — |
-| DBZ Books 'N' Records; DBZ Books ‘N’ Records | US | Nog te beoordelen | — | — | — | — |
-| DCO Records | US | Nog te beoordelen | — | — | — | — |
-| De La Playa Records & Leisure | US | Nog te beoordelen | — | — | — | — |
-| Dead End Records | US | Nog te beoordelen | — | — | — | — |
-| Dead Wax Records | US | Nog te beoordelen | — | — | — | — |
-| Dead Wax Records | US | Nog te beoordelen | — | — | — | — |
-| Dead Wax Records | US | Nog te beoordelen | — | — | — | — |
-| Dead Wax Records | US | Nog te beoordelen | — | — | — | — |
-| Deadbeat's Record Store and Barbershop | US | Nog te beoordelen | — | — | — | — |
-| Deadly Wax | US | Nog te beoordelen | — | — | — | — |
-| Deadwax Records | US | Nog te beoordelen | — | — | — | — |
-| Deaf Ear Record Exchange | US | Nog te beoordelen | — | — | — | — |
-| Deaf Man Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Dearborn Music; Dearborn Music - Farmington | US | Nog te beoordelen | — | — | — | — |
-| DeBary Family Music And Records | US | Nog te beoordelen | — | — | — | — |
-| Decatur CD & Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Deep Cuts | US | Nog te beoordelen | — | — | — | — |
-| Deep Cuts Record Store | US | Nog te beoordelen | — | — | — | — |
-| Deep Groove Records | US | Nog te beoordelen | — | — | — | — |
-| Deep Groove Records | US | Nog te beoordelen | — | — | — | — |
-| Deep Thoughts Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Deja Vu Records | US | Nog te beoordelen | — | — | — | — |
+| Daily Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Daily Records & CDs | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Dale's Records and Skate Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| DALLOS VINYL LOVE | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Danacthy Records Inc | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Dancing Eye Gallery | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Dandy Doxie Vintage and Coffee | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Dark Entries Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Dark Realm Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| DarkBrownStore | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Darkside Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Dave's Golden Oldies | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Dave's Record Den | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Dave's Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| David's Used Books & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Davis Gift Record Shop & Botanica | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Dawn’s Books and Stuff | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Daybreak Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Daybreak Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Daydream Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Daystar Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Daytona Outreach Center Thrift Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| DBS Sounds | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| DBZ Books 'N' Records; DBZ Books ‘N’ Records | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| DCO Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| De La Playa Records & Leisure | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Dead End Records | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40711836552-1/deadendrecordstn_com |
+| Dead Wax Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Dead Wax Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Dead Wax Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Dead Wax Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Deadbeat's Record Store and Barbershop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Deadly Wax | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Deadwax Records | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Deaf Ear Record Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Deaf Man Vinyl | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40711836552-1/deafmanvinyl_com |
+| Dearborn Music; Dearborn Music - Farmington | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| DeBary Family Music And Records | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Decatur CD & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Deep Cuts | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Deep Cuts Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Deep Groove Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Deep Groove Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Deep Thoughts Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Deja Vu Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Del Bravo Record Shop | US | EAN | MEDIUM | BUILT_AWAITING_MANUAL_TEST | own_product_valid_gtin_coverage_at_least_80_percent_of_sample | v2-40571453864-1/delbravorecordshop_com |
-| Del Records Store | US | Nog te beoordelen | — | — | — | — |
-| Del rio records lh | US | Nog te beoordelen | — | — | — | — |
-| Delirium Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Della Soul Records | US | Nog te beoordelen | — | — | — | — |
-| Delora's Store | US | Nog te beoordelen | — | — | — | — |
-| Delta Breeze Records | US | Nog te beoordelen | — | — | — | — |
-| Den of Wax | US | Nog te beoordelen | — | — | — | — |
-| Department of Records | US | Nog te beoordelen | — | — | — | — |
-| Depot Records | US | Nog te beoordelen | — | — | — | — |
-| Desert Grooves | US | Nog te beoordelen | — | — | — | — |
-| Desert Island Records | US | Nog te beoordelen | — | — | — | — |
-| Detroit Threads | US | Nog te beoordelen | — | — | — | — |
-| Devine records & Vintage | US | Nog te beoordelen | — | — | — | — |
-| deVintage Vinyl Records and Toys | US | Nog te beoordelen | — | — | — | — |
-| Devonshire Village | US | Nog te beoordelen | — | — | — | — |
-| DEWOLF'S | US | Nog te beoordelen | — | — | — | — |
-| Diabolical Records | US | Nog te beoordelen | — | — | — | — |
-| Diana's Records | US | Nog te beoordelen | — | — | — | — |
-| Dictator Records | US | Nog te beoordelen | — | — | — | — |
-| Dig It! Record Barn | US | Nog te beoordelen | — | — | — | — |
-| Dig Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Dig! Records and Vintage | US | Nog te beoordelen | — | — | — | — |
-| Digger's | US | Nog te beoordelen | — | — | — | — |
-| Digital Underground | US | Nog te beoordelen | — | — | — | — |
-| Dimensions Comics, Music & More | US | Nog te beoordelen | — | — | — | — |
-| Dirty River Records | US | Nog te beoordelen | — | — | — | — |
-| Disc & Dat | US | Nog te beoordelen | — | — | — | — |
-| Disc Go Round | US | Nog te beoordelen | — | — | — | — |
-| Disc Replay | US | Nog te beoordelen | — | — | — | — |
-| Disc Replay | US | Nog te beoordelen | — | — | — | — |
-| Disc Replay Davenport; Disc Replay Grandville; Disc Replay of Rockford | US | Nog te beoordelen | — | — | — | — |
-| Disc Replay: Now on 94th Ave next to HobbyTown USA | US | Nog te beoordelen | — | — | — | — |
-| Disco Bean Coffee Company | US | Nog te beoordelen | — | — | — | — |
-| Disco Death Records & Coffee | US | Nog te beoordelen | — | — | — | — |
-| Disco Den Records | US | Nog te beoordelen | — | — | — | — |
-| Discodelic | US | Nog te beoordelen | — | — | — | — |
-| Discolandia Records | US | Nog te beoordelen | — | — | — | — |
-| Discology: CDs : DVDs : LPs : LDs | US | Nog te beoordelen | — | — | — | — |
-| Discordia Records | US | Nog te beoordelen | — | — | — | — |
-| Discoteca Flores | US | Nog te beoordelen | — | — | — | — |
-| Discount Vinyl and Garden Center | US | Nog te beoordelen | — | — | — | — |
-| Discovery Records & Hi-Fi | US | Nog te beoordelen | — | — | — | — |
-| Disorder Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Displaced Pages | US | Nog te beoordelen | — | — | — | — |
-| Diversion | US | Nog te beoordelen | — | — | — | — |
-| Dizzy On Vinyl | US | Nog te beoordelen | — | — | — | — |
-| DJ ISHHH RECORDS & COLLECTABLES | US | Nog te beoordelen | — | — | — | — |
-| DJ's Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Doc's Records & Vintage | US | Nog te beoordelen | — | — | — | — |
-| Docs Finds Records | US | Nog te beoordelen | — | — | — | — |
-| Doctor Freud's Records & Tapes | US | Nog te beoordelen | — | — | — | — |
-| Domino Sound Record Shack | US | Nog te beoordelen | — | — | — | — |
-| Doo Wops - Games, Records, CDs & DVDs | US | Nog te beoordelen | — | — | — | — |
-| Doomed Records | US | Nog te beoordelen | — | — | — | — |
-| Dope Jams | US | Nog te beoordelen | — | — | — | — |
+| Del Records Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Del rio records lh | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Delirium Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Della Soul Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Delora's Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Delta Breeze Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Den of Wax | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Department of Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Depot Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Desert Grooves | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Desert Island Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Detroit Threads | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Devine records & Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| deVintage Vinyl Records and Toys | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Devonshire Village | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| DEWOLF'S | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Diabolical Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Diana's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Dictator Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Dig It! Record Barn | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Dig Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Dig! Records and Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Digger's | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Digital Underground | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Dimensions Comics, Music & More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Dirty River Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Disc & Dat | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Disc Go Round | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Disc Replay | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Disc Replay | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Disc Replay Davenport; Disc Replay Grandville; Disc Replay of Rockford | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Disc Replay: Now on 94th Ave next to HobbyTown USA | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Disco Bean Coffee Company | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Disco Death Records & Coffee | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Disco Den Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Discodelic | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Discolandia Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Discology: CDs : DVDs : LPs : LDs | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Discordia Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Discoteca Flores | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Discount Vinyl and Garden Center | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Discovery Records & Hi-Fi | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Disorder Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Displaced Pages | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Diversion | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Dizzy On Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| DJ ISHHH RECORDS & COLLECTABLES | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| DJ's Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Doc's Records & Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Docs Finds Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Doctor Freud's Records & Tapes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Domino Sound Record Shack | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Doo Wops - Games, Records, CDs & DVDs | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Doomed Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Dope Jams | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Dope Lo-fi | US | Nog te beoordelen | — | — | — | — |
 | Doris Records Inc | US | Nog te beoordelen | — | — | — | — |
 | Dorsey's Record Shop | US | Nog te beoordelen | — | — | — | — |
