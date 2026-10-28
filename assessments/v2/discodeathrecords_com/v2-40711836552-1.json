@@ -1,0 +1,194 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T15:12:05.260115+00:00",
+  "shop_id": "discodeathrecords.com",
+  "row": 727,
+  "name": "Disco Death Records & Coffee",
+  "domain": "discodeathrecords.com",
+  "country": "US",
+  "website": "https://discodeathrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 727,
+    "name": "Disco Death Records & Coffee",
+    "domain": "discodeathrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://discodeathrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 22,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://discodeathrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://discodeathrecords.com/products.json?limit=20&page=1",
+        "score": 225,
+        "products_seen": 22,
+        "accepted": 22,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://discodeathrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 215,
+        "products_seen": 21,
+        "accepted": 21,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://discodeathrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://discodeathrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://discodeathrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://discodeathrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://discodeathrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://discodeathrecords.com/products.json?limit=20&page=1",
+      "score": 225,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://discodeathrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "review",
+    "flags": [
+      "shipping_term_in_product_identity"
+    ],
+    "records_checked": 20,
+    "unique_prices": 11,
+    "shipping_hits": 1,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://discodeathrecords.com/robots.txt",
+      "sha256": "3b02c2c3dec0b6a9db56c10df1e59b45a8331edfad2b878debca321ddf43872b"
+    },
+    {
+      "url": "https://discodeathrecords.com/",
+      "sha256": "a9fe0f5d66270f9e64d748f4ae2d061844d77502289f9c69edc0689d727f0f83"
+    },
+    {
+      "url": "https://discodeathrecords.com/products.json?limit=20&page=1",
+      "sha256": "41aabf8bc18a7b2c604da3d49eae6decc014b9c5be0fed48616220e76c64aea7"
+    },
+    {
+      "url": "https://discodeathrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "b9b806bf2f90659a5a33d2ca91625c46f184c584bd9e6579b7e4073cafc31587"
+    },
+    {
+      "url": "https://discodeathrecords.com/products/hand-of-fire-ur-presents-hand-of-fire",
+      "sha256": "180a4fe5c23543933995ade3288920848e645d18fb791dcf6b98daaef3dfb9e0"
+    },
+    {
+      "url": "https://discodeathrecords.com/products/wavejumpers-the-sunken-treasure-ep",
+      "sha256": "a9ed93c7285890457ae70c93e4d46744d84deda92a501d9026ca09d0b3d2ee60"
+    },
+    {
+      "url": "https://discodeathrecords.com/products/the-velvet-underground-white-light-white-heat?variant=40191999901783",
+      "sha256": "32722965451683e541dea6a84147d4a80480af80780cd173bc56dfb02cb55654"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": false,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.8,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_727",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40711836552-1",
+  "queue_rows": [
+    727
+  ],
+  "assessment_path": "assessments/v2/discodeathrecords_com/v2-40711836552-1.json"
+}
