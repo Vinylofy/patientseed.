@@ -3675,9 +3675,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **1210**. Open: **2114**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **1310**. Open: **2014**.
 
-EAN: **33** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **1150** | UNSUITABLE: **0**
+EAN: **35** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **1248** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -4829,107 +4829,107 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Hello Goodbye Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Hello Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Hells Headbangers Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Hemptations CBD & Records | US | Nog te beoordelen | — | — | — | — |
-| Hercules Records | US | Nog te beoordelen | — | — | — | — |
-| Heroes & Villains | US | Nog te beoordelen | — | — | — | — |
-| Hex Enduction Records & Books | US | Nog te beoordelen | — | — | — | — |
-| Hexagon Records | US | Nog te beoordelen | — | — | — | — |
-| HEY SUBURBIA RECORDS | US | Nog te beoordelen | — | — | — | — |
-| Hi Fi Frontier | US | Nog te beoordelen | — | — | — | — |
-| Hi-Fi & Fly | US | Nog te beoordelen | — | — | — | — |
-| Hi-Fi Hits Records | US | Nog te beoordelen | — | — | — | — |
-| Hi-Fi Senpai LLC | US | Nog te beoordelen | — | — | — | — |
-| Hi-Tones Online | US | Nog te beoordelen | — | — | — | — |
-| Hi-Tones Record Store | US | Nog te beoordelen | — | — | — | — |
-| Hi-Voltage Records | US | Nog te beoordelen | — | — | — | — |
-| Hidden Tracks Records | US | Nog te beoordelen | — | — | — | — |
-| Hidden treasures | US | Nog te beoordelen | — | — | — | — |
-| Hidden Treasures & Collectables Flea Market & Gift Shop | US | Nog te beoordelen | — | — | — | — |
-| Hideaway Music | US | Nog te beoordelen | — | — | — | — |
-| HiFi Records | US | Nog te beoordelen | — | — | — | — |
-| High Energy Vintage | US | Nog te beoordelen | — | — | — | — |
-| High Fidelity Records & CDs | US | Nog te beoordelen | — | — | — | — |
-| High Fidelity Records Inc | US | Nog te beoordelen | — | — | — | — |
-| High Fidelity Records Store | US | Nog te beoordelen | — | — | — | — |
-| High Rhodes Records | US | Nog te beoordelen | — | — | — | — |
-| High Voltage Records and Hi-Fi | US | Nog te beoordelen | — | — | — | — |
-| Hionfi Vintage Stereo Store | US | Nog te beoordelen | — | — | — | — |
-| Hip Cat Records & Music Videos | US | Nog te beoordelen | — | — | — | — |
-| HipHop Philosophy Record Shop/Radio Station/Art Gallery | US | Nog te beoordelen | — | — | — | — |
-| HipHopRecordsbeatsfromthestreets.com | US | Nog te beoordelen | — | — | — | — |
-| Hippo Records | US | Nog te beoordelen | — | — | — | — |
-| Hippo Records Winston Salem | US | Nog te beoordelen | — | — | — | — |
-| Historic 4th Avenue Shirts | US | Nog te beoordelen | — | — | — | — |
-| Historic Hippie Record Shoppe | US | Nog te beoordelen | — | — | — | — |
-| Hitt Records | US | Nog te beoordelen | — | — | — | — |
-| HIZZ / هز | US | Nog te beoordelen | — | — | — | — |
-| Hoarders Trading Post | US | Nog te beoordelen | — | — | — | — |
-| Hodgson's Antiques | US | Nog te beoordelen | — | — | — | — |
-| Hogwild Records Tapes & CD's | US | Nog te beoordelen | — | — | — | — |
-| Hole In The Wall Records | US | Nog te beoordelen | — | — | — | — |
-| Hole-In-The-Wall Books, Records, CDs | US | Nog te beoordelen | — | — | — | — |
-| Hollow Bone Records | US | Nog te beoordelen | — | — | — | — |
-| Holly Market | US | Nog te beoordelen | — | — | — | — |
-| Holy Cow Records | US | Nog te beoordelen | — | — | — | — |
-| Holyland Records LLC | US | Nog te beoordelen | — | — | — | — |
-| Home Court Vintage & Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Homer's Record Stores | US | Nog te beoordelen | — | — | — | — |
-| Hooked On Books | US | Nog te beoordelen | — | — | — | — |
-| Hooligan's Record Store | US | Nog te beoordelen | — | — | — | — |
-| Hop Fidelity | US | Nog te beoordelen | — | — | — | — |
-| Hop Park Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Hopp Frogg Music | US | Nog te beoordelen | — | — | — | — |
-| Horizon Records | US | Nog te beoordelen | — | — | — | — |
-| Horizons Music | US | Nog te beoordelen | — | — | — | — |
-| Horror Pain Gore Death Productions | US | Nog te beoordelen | — | — | — | — |
-| Hot Poop | US | Nog te beoordelen | — | — | — | — |
-| HoTL Records Llc | US | Nog te beoordelen | — | — | — | — |
-| House Of Heroes Comics And Collectibles | US | Nog te beoordelen | — | — | — | — |
-| House of High Fidelity | US | Nog te beoordelen | — | — | — | — |
-| House of Records | US | Nog te beoordelen | — | — | — | — |
-| House of Sound | US | Nog te beoordelen | — | — | — | — |
-| House of Wax | US | Nog te beoordelen | — | — | — | — |
-| House of Wax | US | Nog te beoordelen | — | — | — | — |
-| Housewolf Records | US | Nog te beoordelen | — | — | — | — |
-| Howard & Nan's Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Howlin' Mouse Record Store | US | Nog te beoordelen | — | — | — | — |
-| HQ Books and Records | US | Nog te beoordelen | — | — | — | — |
-| HR Records | US | Nog te beoordelen | — | — | — | — |
-| Hub City Records | US | Nog te beoordelen | — | — | — | — |
-| Hub City Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Huber Music & Video | US | Nog te beoordelen | — | — | — | — |
-| Hudson Valley Vintage | US | Nog te beoordelen | — | — | — | — |
-| Hudson Valley Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Hudson Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Hula Records | US | Nog te beoordelen | — | — | — | — |
-| Human Head Records | US | Nog te beoordelen | — | — | — | — |
-| Hungry Ear Records | US | Nog te beoordelen | — | — | — | — |
-| Hunky Dory | US | Nog te beoordelen | — | — | — | — |
-| Hunky Dory Records | US | Nog te beoordelen | — | — | — | — |
-| HUNT & GATHER ANTIQUES and VINTAGE SHOP | US | Nog te beoordelen | — | — | — | — |
-| Hurricane Records | US | Nog te beoordelen | — | — | — | — |
-| Hybrid Records | US | Nog te beoordelen | — | — | — | — |
-| Hyde Park Records | US | Nog te beoordelen | — | — | — | — |
+| Hemptations CBD & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Hercules Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Heroes & Villains | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Hex Enduction Records & Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hexagon Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| HEY SUBURBIA RECORDS | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hi Fi Frontier | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Hi-Fi & Fly | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hi-Fi Hits Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Hi-Fi Senpai LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Hi-Tones Online | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hi-Tones Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hi-Voltage Records | US | EAN | MEDIUM | BUILT_AWAITING_MANUAL_TEST | own_product_valid_gtin_coverage_at_least_80_percent_of_sample | v2-40780448358-1/hivoltagerecords_com |
+| Hidden Tracks Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hidden treasures | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Hidden Treasures & Collectables Flea Market & Gift Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Hideaway Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| HiFi Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| High Energy Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| High Fidelity Records & CDs | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| High Fidelity Records Inc | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_crawl_delay_exceeds_bounded_pilot | — |
+| High Fidelity Records Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| High Rhodes Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| High Voltage Records and Hi-Fi | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Hionfi Vintage Stereo Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hip Cat Records & Music Videos | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| HipHop Philosophy Record Shop/Radio Station/Art Gallery | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| HipHopRecordsbeatsfromthestreets.com | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hippo Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Hippo Records Winston Salem | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Historic 4th Avenue Shirts | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Historic Hippie Record Shoppe | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hitt Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| HIZZ / هز | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hoarders Trading Post | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hodgson's Antiques | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Hogwild Records Tapes & CD's | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Hole In The Wall Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Hole-In-The-Wall Books, Records, CDs | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Hollow Bone Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Holly Market | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Holy Cow Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Holyland Records LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Home Court Vintage & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Homer's Record Stores | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hooked On Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Hooligan's Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Hop Fidelity | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hop Park Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Hopp Frogg Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Horizon Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Horizons Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Horror Pain Gore Death Productions | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Hot Poop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| HoTL Records Llc | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
+| House Of Heroes Comics And Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| House of High Fidelity | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| House of Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| House of Sound | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| House of Wax | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| House of Wax | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Housewolf Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Howard & Nan's Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Howlin' Mouse Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| HQ Books and Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| HR Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Hub City Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hub City Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Huber Music & Video | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hudson Valley Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hudson Valley Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hudson Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Hula Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Human Head Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Hungry Ear Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Hunky Dory | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hunky Dory Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| HUNT & GATHER ANTIQUES and VINTAGE SHOP | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Hurricane Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Hybrid Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Hyde Park Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
 | I Hate Records | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40571453864-1/ihaterecords_com |
-| IB Records Radio | US | Nog te beoordelen | — | — | — | — |
-| Idaho Vinyl Records | US | Nog te beoordelen | — | — | — | — |
-| Ignition Music Garage | US | Nog te beoordelen | — | — | — | — |
-| Iko's Music Trade | US | Nog te beoordelen | — | — | — | — |
-| Impressions Philadelphia | US | Nog te beoordelen | — | — | — | — |
-| In the Groove Morro Bay | US | Nog te beoordelen | — | — | — | — |
-| In The Groove Records | US | Nog te beoordelen | — | — | — | — |
-| In the Moment Records | US | Nog te beoordelen | — | — | — | — |
-| In Your Ear Records | US | Nog te beoordelen | — | — | — | — |
-| Inclusion Records | US | Nog te beoordelen | — | — | — | — |
-| Indie Earth | US | Nog te beoordelen | — | — | — | — |
-| Indie Readery & Records | US | Nog te beoordelen | — | — | — | — |
-| Indy CD & Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Infinite Spin Records | US | Nog te beoordelen | — | — | — | — |
-| Infinity Records Ltd | US | Nog te beoordelen | — | — | — | — |
-| Ingrid's Thrift, Vintage & Record Store | US | Nog te beoordelen | — | — | — | — |
-| Inherent Records | US | Nog te beoordelen | — | — | — | — |
-| Ink On Wax | US | Nog te beoordelen | — | — | — | — |
-| Inner Groove Records | US | Nog te beoordelen | — | — | — | — |
+| IB Records Radio | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Idaho Vinyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Ignition Music Garage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Iko's Music Trade | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Impressions Philadelphia | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| In the Groove Morro Bay | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| In The Groove Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| In the Moment Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| In Your Ear Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Inclusion Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Indie Earth | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Indie Readery & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Indy CD & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Infinite Spin Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Infinity Records Ltd | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Ingrid's Thrift, Vintage & Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Inherent Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Ink On Wax | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Inner Groove Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
 | Inner Groove Records | US | Nog te beoordelen | — | — | — | — |
 | INNER GROOVE VINYL & DRIP COFFEE BAR | US | Nog te beoordelen | — | — | — | — |
 | Inner Sleeve Records | US | Nog te beoordelen | — | — | — | — |
