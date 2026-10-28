@@ -1,0 +1,244 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T18:37:09.621093+00:00",
+  "shop_id": "shopflipsiderecords.com",
+  "row": 944,
+  "name": "Flipside Records",
+  "domain": "shopflipsiderecords.com",
+  "country": "US",
+  "website": "https://shopflipsiderecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 944,
+    "name": "Flipside Records",
+    "domain": "shopflipsiderecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://shopflipsiderecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 11,
+    "excluded": 9,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://shopflipsiderecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://shopflipsiderecords.com/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://shopflipsiderecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://shopflipsiderecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shopflipsiderecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shopflipsiderecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shopflipsiderecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shopflipsiderecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://shopflipsiderecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 115,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://shopflipsiderecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 11,
+  "price_quality": {
+    "status": "review",
+    "flags": [
+      "shipping_term_in_product_identity"
+    ],
+    "records_checked": 11,
+    "unique_prices": 8,
+    "shipping_hits": 1,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://shopflipsiderecords.com/products/blacula-soundtrack-m-o-v-silver-black-marbled-vinyl-numbered-copy-sealed-lp?variant=54290448548124",
+      "artist": "",
+      "title": "BLACULA SOUNDTRACK M.O.V. SILVER & BLACK MARBLED VINYL NUMBERED COPY SEALED LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "100.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://shopflipsiderecords.com/products/beach-rats-rat-beat-brand-new-sealed-lp-limited-edtion-colored-vinyl?variant=54290447532316",
+      "artist": "",
+      "title": "Beach Rats \"Rat Beat\" Brand New Sealed LP Limited Edtion Colored Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "25.00",
+      "currency": "USD",
+      "valid_eans": [
+        "08714092791136"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://shopflipsiderecords.com/products/against-all-authority-all-fall-down-this-is-the-1998-press-new-sealed-lp?variant=54290452021532",
+      "artist": "",
+      "title": "Against All Authority \"All Fall Down\" This Is the 1998 Press New Sealed LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "100.00",
+      "currency": "USD",
+      "valid_eans": [
+        "00790692062614"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://shopflipsiderecords.com/robots.txt",
+      "sha256": "d90246d8c6a5d42b85f962911ae8586b7907fe741fc92709854f974b9f2d072a"
+    },
+    {
+      "url": "https://shopflipsiderecords.com/",
+      "sha256": "41ada94255539c7ef1f0cc34fb7634efd9dcc756725b2d561fa29e34f670c011"
+    },
+    {
+      "url": "https://shopflipsiderecords.com/products.json?limit=20&page=1",
+      "sha256": "b679ef598959fd3274e61261c3cc49c3703ee2c11def817d1bedbb1afa43c45f"
+    },
+    {
+      "url": "https://shopflipsiderecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "3c95842e2c7a01bf26aafdff42af7a914330c60a9d23201ea59df23d20a895bb"
+    },
+    {
+      "url": "https://shopflipsiderecords.com/products/against-all-authority-all-fall-down-this-is-the-1998-press-new-sealed-lp",
+      "sha256": "c1fcb1884dd7add9275ad4ac26577c76edfbf4aae33874523d97c4ee17e00d01"
+    },
+    {
+      "url": "https://shopflipsiderecords.com/products/anderson-paak-malibu-box-new-x8-vinyl-7-rsd-ltd-special-edition-w-shipping-box",
+      "sha256": "5039c483f402358e21cad4276f30fce53cd48f86c1951c0b80596cdd44f43421"
+    },
+    {
+      "url": "https://shopflipsiderecords.com/products/blacula-soundtrack-m-o-v-silver-black-marbled-vinyl-numbered-copy-sealed-lp?variant=54290448548124",
+      "sha256": "84a4c7bc5ebd8589e373eb12a297b4c74cd7ab6c1d963d529f0f6ce3aa618d65"
+    },
+    {
+      "url": "https://shopflipsiderecords.com/products/beach-rats-rat-beat-brand-new-sealed-lp-limited-edtion-colored-vinyl?variant=54290447532316",
+      "sha256": "ae0c975bf4651de859349dc782f68a35ecf0fa0e6d3637128249be0caf9025e4"
+    },
+    {
+      "url": "https://shopflipsiderecords.com/products/against-all-authority-all-fall-down-this-is-the-1998-press-new-sealed-lp?variant=54290452021532",
+      "sha256": "7d6bbd688c7ee08fd56113c55befed8f306d7d2efcef4bd45566084a16439a79"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:public_prices"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": false,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 2,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_944",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://shopflipsiderecords.com/products/blacula-soundtrack-m-o-v-silver-black-marbled-vinyl-numbered-copy-sealed-lp?variant=54290448548124",
+    "https://shopflipsiderecords.com/products/beach-rats-rat-beat-brand-new-sealed-lp-limited-edtion-colored-vinyl?variant=54290447532316",
+    "https://shopflipsiderecords.com/products/against-all-authority-all-fall-down-this-is-the-1998-press-new-sealed-lp?variant=54290452021532"
+  ],
+  "assessment_id": "v2-40743938200-1",
+  "queue_rows": [
+    944
+  ],
+  "assessment_path": "assessments/v2/shopflipsiderecords_com/v2-40743938200-1.json"
+}
