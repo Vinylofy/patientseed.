@@ -3675,9 +3675,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **810**. Open: **2514**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **910**. Open: **2414**.
 
-EAN: **28** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **755** | UNSUITABLE: **0**
+EAN: **28** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **855** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -4418,107 +4418,107 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Doo Wops - Games, Records, CDs & DVDs | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
 | Doomed Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Dope Jams | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Dope Lo-fi | US | Nog te beoordelen | — | — | — | — |
-| Doris Records Inc | US | Nog te beoordelen | — | — | — | — |
-| Dorsey's Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Double Dare Records | US | Nog te beoordelen | — | — | — | — |
-| Double Gemini Records | US | Nog te beoordelen | — | — | — | — |
-| Double Nickles Collective | US | Nog te beoordelen | — | — | — | — |
-| DoublePlay Records & Retro llc | US | Nog te beoordelen | — | — | — | — |
-| Dowda's Records | US | Nog te beoordelen | — | — | — | — |
-| Down Home Music Store | US | Nog te beoordelen | — | — | — | — |
-| Down In The Valley | US | Nog te beoordelen | — | — | — | — |
-| Down To Earth Natural Foods | US | Nog te beoordelen | — | — | — | — |
-| Downtown Book & Sound | US | Nog te beoordelen | — | — | — | — |
-| Downtown Books Bought & Sold | US | Nog te beoordelen | — | — | — | — |
-| Downtown Disc | US | Nog te beoordelen | — | — | — | — |
-| Downtown Music Gallery | US | Nog te beoordelen | — | — | — | — |
-| Downtown Record & CD Emporium | US | Nog te beoordelen | — | — | — | — |
-| Downtown Records | US | Nog te beoordelen | — | — | — | — |
-| Downtown Records & Tapes | US | Nog te beoordelen | — | — | — | — |
-| Downtown Sound Records & Tapes | US | Nog te beoordelen | — | — | — | — |
-| Downtown Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Dr. Freecloud's Record Store | US | Nog te beoordelen | — | — | — | — |
-| Dr. Music Records | US | Nog te beoordelen | — | — | — | — |
-| Dr. Strange Records | US | Nog te beoordelen | — | — | — | — |
-| Dr.Records | US | Nog te beoordelen | — | — | — | — |
-| Dragonized Records | US | Nog te beoordelen | — | — | — | — |
-| Drastic Plastic Records | US | Nog te beoordelen | — | — | — | — |
-| Dream Fishing Tackle | US | Nog te beoordelen | — | — | — | — |
-| Dreamonoid's | US | Nog te beoordelen | — | — | — | — |
-| DREGS Thrift Store & Vintage | US | Nog te beoordelen | — | — | — | — |
-| Drinks Records | US | Nog te beoordelen | — | — | — | — |
-| Driver 8 Records | US | Nog te beoordelen | — | — | — | — |
-| Drop To Pop Records and Curio | US | Nog te beoordelen | — | — | — | — |
-| Druid City Vintage | US | Nog te beoordelen | — | — | — | — |
-| Drum Bug Music - Records + Drums | US | Nog te beoordelen | — | — | — | — |
-| DTX Vinyl Vault | US | Nog te beoordelen | — | — | — | — |
-| Duckie's Movies and Music Emporium | US | Nog te beoordelen | — | — | — | — |
-| Dudley's Records Vintage Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Dumb Records; Dumber Records | US | Nog te beoordelen | — | — | — | — |
-| Duncanville Bookstore | US | Nog te beoordelen | — | — | — | — |
-| Dusky Grouse Coffee | US | Nog te beoordelen | — | — | — | — |
-| Dusty Groove | US | Nog te beoordelen | — | — | — | — |
-| Dyno Records | US | Nog te beoordelen | — | — | — | — |
-| Eagle Valley Music & Comics | US | Nog te beoordelen | — | — | — | — |
-| Ear Candy Music | US | Nog te beoordelen | — | — | — | — |
-| Ear Food the Record Store | US | Nog te beoordelen | — | — | — | — |
-| Early Owego Antique Center (formerly J.J. Newberry Co.) | US | Nog te beoordelen | — | — | — | — |
-| Earth Pig Music | US | Nog te beoordelen | — | — | — | — |
-| Earth River Records | US | Nog te beoordelen | — | — | — | — |
-| Earwax Records | US | Nog te beoordelen | — | — | — | — |
-| East County Vinyl | US | Nog te beoordelen | — | — | — | — |
-| East Fork Mall - Antiques & Collectibles | US | Nog te beoordelen | — | — | — | — |
-| East of Oregon Records | US | Nog te beoordelen | — | — | — | — |
-| East Sac Record Rack | US | Nog te beoordelen | — | — | — | — |
-| Eastern Front Records | US | Nog te beoordelen | — | — | — | — |
-| Easton Exchange | US | Nog te beoordelen | — | — | — | — |
-| Eastside Records | US | Nog te beoordelen | — | — | — | — |
+| Dope Lo-fi | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Doris Records Inc | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Dorsey's Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Double Dare Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Double Gemini Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Double Nickles Collective | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| DoublePlay Records & Retro llc | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Dowda's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Down Home Music Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | TimeoutError | — |
+| Down In The Valley | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Down To Earth Natural Foods | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Downtown Book & Sound | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Downtown Books Bought & Sold | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Downtown Disc | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Downtown Music Gallery | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Downtown Record & CD Emporium | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Downtown Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Downtown Records & Tapes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Downtown Sound Records & Tapes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Downtown Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Dr. Freecloud's Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Dr. Music Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Dr. Strange Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | TimeoutError | — |
+| Dr.Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Dragonized Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Drastic Plastic Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Dream Fishing Tackle | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Dreamonoid's | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| DREGS Thrift Store & Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Drinks Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Driver 8 Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Drop To Pop Records and Curio | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Druid City Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Drum Bug Music - Records + Drums | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| DTX Vinyl Vault | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Duckie's Movies and Music Emporium | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Dudley's Records Vintage Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Dumb Records; Dumber Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Duncanville Bookstore | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Dusky Grouse Coffee | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Dusty Groove | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Dyno Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Eagle Valley Music & Comics | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Ear Candy Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Ear Food the Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Early Owego Antique Center (formerly J.J. Newberry Co.) | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Earth Pig Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Earth River Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Earwax Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| East County Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| East Fork Mall - Antiques & Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| East of Oregon Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| East Sac Record Rack | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Eastern Front Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Easton Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Eastside Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Easy Going Records + Hifi | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:new_used_distinguishable | — |
-| Easy Street Records & Cafe | US | Nog te beoordelen | — | — | — | — |
-| EccoHollow Art & Sound | US | Nog te beoordelen | — | — | — | — |
-| Echo Echo Records | US | Nog te beoordelen | — | — | — | — |
-| Eclectic Finds by Artdecogirl | US | Nog te beoordelen | — | — | — | — |
-| Eclectic Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Eclipse Records Minnesota | US | Nog te beoordelen | — | — | — | — |
-| Econo Jam Records | US | Nog te beoordelen | — | — | — | — |
-| EDEN | US | Nog te beoordelen | — | — | — | — |
-| El Barrio Music Center | US | Nog te beoordelen | — | — | — | — |
-| El California Record | US | Nog te beoordelen | — | — | — | — |
-| El Coqui Record Shop | US | Nog te beoordelen | — | — | — | — |
-| el nanito record shop,inc | US | Nog te beoordelen | — | — | — | — |
-| El Suprimo Records | US | Nog te beoordelen | — | — | — | — |
-| El Zarape Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Electric Audio Vintage Audio & Record Shop Virginia Beach | US | Nog te beoordelen | — | — | — | — |
-| Electric Avenue Music | US | Nog te beoordelen | — | — | — | — |
-| Electric Buddhas | US | Nog te beoordelen | — | — | — | — |
-| Electric Cherry Shop + Studios | US | Nog te beoordelen | — | — | — | — |
-| Electric City Repair & Records | US | Nog te beoordelen | — | — | — | — |
-| Electric Crocodile | US | Nog te beoordelen | — | — | — | — |
-| Electric Crown Records | US | Nog te beoordelen | — | — | — | — |
-| Electric Eye Records | US | Nog te beoordelen | — | — | — | — |
-| Electric Fetus | US | Nog te beoordelen | — | — | — | — |
-| Electric Groove Music & More / Antique Up | US | Nog te beoordelen | — | — | — | — |
-| Electric Kitsch | US | Nog te beoordelen | — | — | — | — |
-| Electric Ladyland | US | Nog te beoordelen | — | — | — | — |
-| Electronics Flip | US | Nog te beoordelen | — | — | — | — |
-| Elemental Vintique | US | Nog te beoordelen | — | — | — | — |
-| Elevated Embroidery & Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Elevator Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Elite Vinyl Impressions | US | Nog te beoordelen | — | — | — | — |
-| Elizabeth's Records | US | Nog te beoordelen | — | — | — | — |
-| Elk City Records | US | Nog te beoordelen | — | — | — | — |
-| Ella Guru Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Elm City Sounds | US | Nog te beoordelen | — | — | — | — |
-| Elmhurst Records | US | Nog te beoordelen | — | — | — | — |
-| Eloquence Antiques & Artisans | US | Nog te beoordelen | — | — | — | — |
-| Elsie Bell's Palatka | US | Nog te beoordelen | — | — | — | — |
-| Elusive Disc, Inc. | US | Nog te beoordelen | — | — | — | — |
-| ElWray Music and Records | US | Nog te beoordelen | — | — | — | — |
-| Emporium Ayala: Antiques & Furniture | US | Nog te beoordelen | — | — | — | — |
-| Encore Records | US | Nog te beoordelen | — | — | — | — |
-| End of All Music | US | Nog te beoordelen | — | — | — | — |
-| End of An Ear | US | Nog te beoordelen | — | — | — | — |
+| Easy Street Records & Cafe | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| EccoHollow Art & Sound | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Echo Echo Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Eclectic Finds by Artdecogirl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Eclectic Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Eclipse Records Minnesota | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Econo Jam Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| EDEN | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| El Barrio Music Center | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| El California Record | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| El Coqui Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| el nanito record shop,inc | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| El Suprimo Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| El Zarape Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Electric Audio Vintage Audio & Record Shop Virginia Beach | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Electric Avenue Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Electric Buddhas | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Electric Cherry Shop + Studios | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Electric City Repair & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Electric Crocodile | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Electric Crown Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Electric Eye Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Electric Fetus | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Electric Groove Music & More / Antique Up | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Electric Kitsch | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Electric Ladyland | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Electronics Flip | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Elemental Vintique | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Elevated Embroidery & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Elevator Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Elite Vinyl Impressions | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Elizabeth's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Elk City Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Ella Guru Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Elm City Sounds | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Elmhurst Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Eloquence Antiques & Artisans | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Elsie Bell's Palatka | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Elusive Disc, Inc. | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| ElWray Music and Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Emporium Ayala: Antiques & Furniture | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Encore Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| End of All Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| End of An Ear | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
 | Endless Noise Coffee + Vinyl | US | Nog te beoordelen | — | — | — | — |
 | Endless Records | US | Nog te beoordelen | — | — | — | — |
 | Endless Treasures Gifts & Collectibles | US | Nog te beoordelen | — | — | — | — |
