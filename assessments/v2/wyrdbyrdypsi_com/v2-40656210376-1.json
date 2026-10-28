@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T08:21:45.384281+00:00",
+  "shop_id": "wyrdbyrdypsi.com",
+  "row": 3274,
+  "name": "Wyrd Byrd",
+  "domain": "wyrdbyrdypsi.com",
+  "country": "US",
+  "website": "https://wyrdbyrdypsi.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3274,
+    "name": "Wyrd Byrd",
+    "domain": "wyrdbyrdypsi.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://wyrdbyrdypsi.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 21,
+    "accepted": 19,
+    "excluded": 2,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://wyrdbyrdypsi.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://wyrdbyrdypsi.com/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 21,
+        "accepted": 19,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://wyrdbyrdypsi.com/collections/all/products.json?limit=20&page=1",
+        "score": 95,
+        "products_seen": 20,
+        "accepted": 9,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://wyrdbyrdypsi.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://wyrdbyrdypsi.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://wyrdbyrdypsi.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://wyrdbyrdypsi.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://wyrdbyrdypsi.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://wyrdbyrdypsi.com/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://wyrdbyrdypsi.com/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 12,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://wyrdbyrdypsi.com/products/das-outside-the-box?variant=49039778218206",
+      "artist": "DAS",
+      "title": "Outside The Box",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "14.15",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://wyrdbyrdypsi.com/products/captain-marryat-s-t?variant=49268046332126",
+      "artist": "Captain Marryat",
+      "title": "s/t",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "31.13",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://wyrdbyrdypsi.com/products/various-hard-philippines?variant=49268204994782",
+      "artist": "Various",
+      "title": "Hard Philippines",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "26.42",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://wyrdbyrdypsi.com/robots.txt",
+      "sha256": "cd070901e2c7cb0b9118fa4973c0e1249c74d9c2b0636efac03e15764bfc24e5"
+    },
+    {
+      "url": "https://wyrdbyrdypsi.com/",
+      "sha256": "4374dfc351a1b46cb681352b6877131c7a200cd42dddf7efb5f6fc4f104e557f"
+    },
+    {
+      "url": "https://wyrdbyrdypsi.com/products.json?limit=20&page=1",
+      "sha256": "e3db23bc170cff429826a7cb16819d81b53ddb2b8b580a17695e9efc9664b9d1"
+    },
+    {
+      "url": "https://wyrdbyrdypsi.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "b5083be38cbde909e4825d14f07a287f47735dc246a3ccd4f9eba515f8766535"
+    },
+    {
+      "url": "https://wyrdbyrdypsi.com/products/various-hard-philippines",
+      "sha256": "7f23c804629f96152db9b79eae3795582a989bc8a86cc36432c9b35f90b2e100"
+    },
+    {
+      "url": "https://wyrdbyrdypsi.com/products/coil-the-ape-of-naples",
+      "sha256": "a3896f996a631905011ac83436f6f5b9b858baf3b0e2984bff609c675701df94"
+    },
+    {
+      "url": "https://wyrdbyrdypsi.com/products/das-outside-the-box?variant=49039778218206",
+      "sha256": "7aa364c08e75c67b5f8a5299f12838559d81bead6d80b2bbd34d3167b905322c"
+    },
+    {
+      "url": "https://wyrdbyrdypsi.com/products/captain-marryat-s-t?variant=49268046332126",
+      "sha256": "3913448cc21bd0f89e1183cabbbb53300a2ac0e9a2fe1fcc013cfdf9257feb02"
+    },
+    {
+      "url": "https://wyrdbyrdypsi.com/products/various-hard-philippines?variant=49268204994782",
+      "sha256": "d30bc4d9f64114642a9e8a768fc49888e7d9dd487c005f73657de14768134cc0"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_3274",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://wyrdbyrdypsi.com/products/das-outside-the-box?variant=49039778218206",
+    "https://wyrdbyrdypsi.com/products/captain-marryat-s-t?variant=49268046332126",
+    "https://wyrdbyrdypsi.com/products/various-hard-philippines?variant=49268204994782"
+  ],
+  "assessment_id": "v2-40656210376-1",
+  "queue_rows": [
+    3274
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 19,
+  "candidate_ref": "v2-40656210376-1/wyrdbyrdypsi_com",
+  "assessment_path": "assessments/v2/wyrdbyrdypsi_com/v2-40656210376-1.json"
+}
