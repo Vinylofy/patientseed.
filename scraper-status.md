@@ -3633,7 +3633,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | vertigovinyl.com | 14 | REVIEW | 0 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | villagegreenrecords.com | 14 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | villagerevivalrecordsnyc.com | 14 | REVIEW | 0 | 8 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| vinilo.co.uk | 9 | APPROVED | 0 | 3 | 3/3 | ACTIVE | ACTIVE | run 40239367598 |
+| vinilo.co.uk | 9 | APPROVED | 0 | 3 | 3/3 | ACTIVE | ACTIVE (run 40666418871) | run 40239367598 |
 | vinylbay777.com | 14 | REVIEW | 0 | 3 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | vinylcommand.com | 14 | REVIEW | 0 | 16 | 0/0 | NOT_RUN | NOT_RUN | shipping_term_in_product_identity |
 | vinylconflict.com | 14 | REVIEW | 0 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
