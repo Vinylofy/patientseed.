@@ -1,0 +1,165 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T21:15:21.083140+00:00",
+  "shop_id": "happydazerecords.com",
+  "row": 1136,
+  "name": "Happy Daze Records & More",
+  "domain": "happydazerecords.com",
+  "country": "US",
+  "website": "https://happydazerecords.com/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1136,
+    "name": "Happy Daze Records & More",
+    "domain": "happydazerecords.com",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://happydazerecords.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://happydazerecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://happydazerecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://happydazerecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://happydazerecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://happydazerecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://happydazerecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://happydazerecords.com/robots.txt",
+      "sha256": "f562ceb5fcd72429abbc4e5896ca1a5889fb86eb2d733db05aace20e99e10a6d"
+    },
+    {
+      "url": "https://happydazerecords.com/",
+      "sha256": "f562ceb5fcd72429abbc4e5896ca1a5889fb86eb2d733db05aace20e99e10a6d"
+    },
+    {
+      "url": "https://happydazerecords.com/products.json?limit=20&page=1",
+      "sha256": "f562ceb5fcd72429abbc4e5896ca1a5889fb86eb2d733db05aace20e99e10a6d"
+    },
+    {
+      "url": "https://happydazerecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "f562ceb5fcd72429abbc4e5896ca1a5889fb86eb2d733db05aace20e99e10a6d"
+    },
+    {
+      "url": "https://happydazerecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "f562ceb5fcd72429abbc4e5896ca1a5889fb86eb2d733db05aace20e99e10a6d"
+    },
+    {
+      "url": "https://happydazerecords.com/api/0.1/collections/products?format=json",
+      "sha256": "f562ceb5fcd72429abbc4e5896ca1a5889fb86eb2d733db05aace20e99e10a6d"
+    },
+    {
+      "url": "https://happydazerecords.com/api/0.1/collections/all/products?format=json",
+      "sha256": "f562ceb5fcd72429abbc4e5896ca1a5889fb86eb2d733db05aace20e99e10a6d"
+    },
+    {
+      "url": "https://happydazerecords.com/api/storefront/products?limit=20&offset=0",
+      "sha256": "f562ceb5fcd72429abbc4e5896ca1a5889fb86eb2d733db05aace20e99e10a6d"
+    },
+    {
+      "url": "https://happydazerecords.com/api/storefront/products?limit=20",
+      "sha256": "f562ceb5fcd72429abbc4e5896ca1a5889fb86eb2d733db05aace20e99e10a6d"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1136",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40768134930-1",
+  "queue_rows": [
+    1136
+  ],
+  "assessment_path": "assessments/v2/happydazerecords_com/v2-40768134930-1.json"
+}
