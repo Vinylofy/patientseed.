@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T15:08:15.839709+00:00",
+  "shop_id": "desertislandrecords.com",
+  "row": 702,
+  "name": "Desert Island Records",
+  "domain": "desertislandrecords.com",
+  "country": "US",
+  "website": "https://desertislandrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 702,
+    "name": "Desert Island Records",
+    "domain": "desertislandrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://desertislandrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://desertislandrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://desertislandrecords.com/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://desertislandrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://desertislandrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://desertislandrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://desertislandrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://desertislandrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://desertislandrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://desertislandrecords.com/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://desertislandrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 13,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://desertislandrecords.com/robots.txt",
+      "sha256": "27c832b42109fd35e09a5fe1b3d179ba92ac1c91901b29d719820d5c7d4e1c55"
+    },
+    {
+      "url": "https://desertislandrecords.com/",
+      "sha256": "bf1a704edfb32c782ff91f37ea2f2cf0b84dbd5c85a795baf475ffc3190d1fb6"
+    },
+    {
+      "url": "https://desertislandrecords.com/products.json?limit=20&page=1",
+      "sha256": "a6c00e070e1385abdb74c2b24a5ca2407d08c1b4e00cdd22160db0b3d32d93a2"
+    },
+    {
+      "url": "https://desertislandrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "1f94571efdfd0958d6b38b82d2e6604008969672f625f06e807fd3e06e9a09e8"
+    },
+    {
+      "url": "https://desertislandrecords.com/products/rantology-translucent-red-vinyl-numbered-vinyl-lp",
+      "sha256": "5e1f5ed7faff1cc674179c11b514cd6a849c35f1345d930ba01bbfdd6d5d8e22"
+    },
+    {
+      "url": "https://desertislandrecords.com/products/sevdaliza-children-of-silk-colored-vinyl-lp",
+      "sha256": "af29d3e1a67c49d63ddd4075049be3aabb8654723d56d540e67261be1adde072"
+    },
+    {
+      "url": "https://desertislandrecords.com/products/grand-puba-reel-to-reel-lp-1-tangerine-orange-with-canary-yellow-lp-2-blue-jay-with-white?variant=40666548764847",
+      "sha256": "983ae49c70239be0a3c75f7148c48610bb7ee6a3d3d3e357ac41775bf29b1a5a"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.9473684210526315,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_702",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40711836552-1",
+  "queue_rows": [
+    702
+  ],
+  "assessment_path": "assessments/v2/desertislandrecords_com/v2-40711836552-1.json"
+}
