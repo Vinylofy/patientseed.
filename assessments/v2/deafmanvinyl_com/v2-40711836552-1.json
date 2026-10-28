@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T15:06:11.926990+00:00",
+  "shop_id": "deafmanvinyl.com",
+  "row": 681,
+  "name": "Deaf Man Vinyl",
+  "domain": "deafmanvinyl.com",
+  "country": "US",
+  "website": "https://deafmanvinyl.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 681,
+    "name": "Deaf Man Vinyl",
+    "domain": "deafmanvinyl.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://deafmanvinyl.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 21,
+    "accepted": 12,
+    "excluded": 9,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://deafmanvinyl.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://deafmanvinyl.com/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://deafmanvinyl.com/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 21,
+        "accepted": 12,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://deafmanvinyl.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://deafmanvinyl.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://deafmanvinyl.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://deafmanvinyl.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://deafmanvinyl.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://deafmanvinyl.com/collections/all/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://deafmanvinyl.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://deafmanvinyl.com/products/311-greatest-hits-93-03-2-lp?variant=40273127800891",
+      "artist": "311",
+      "title": "Greatest Hits '93-'03 (2-LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "31.95",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://deafmanvinyl.com/products/2pac-greatest-hits-4-lp?variant=42508724699195",
+      "artist": "2Pac",
+      "title": "Greatest Hits (4-LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "79.95",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://deafmanvinyl.com/products/10-000-maniacs-mtv-unplugged-2-lp?variant=41833625092155",
+      "artist": "10,000 Maniacs",
+      "title": "MTV Unplugged (2-LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "38.95",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://deafmanvinyl.com/robots.txt",
+      "sha256": "baa5a7c6ac91b7d4a6be13998f44999123d6ec85e81113082cd81435592414b6"
+    },
+    {
+      "url": "https://deafmanvinyl.com/",
+      "sha256": "05b0d270a2f89177209d777f0993bc20c6e7c3f28cd94eb93b91e242270f45f9"
+    },
+    {
+      "url": "https://deafmanvinyl.com/products.json?limit=20&page=1",
+      "sha256": "e07a86bc18c9c2ea3d662b3d5c0910ebb3e4db8715235997752486fb60c2b783"
+    },
+    {
+      "url": "https://deafmanvinyl.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "ef5224547b3dd79a245e109653bb7eba90d31bdff122a9837476771f32ccaddd"
+    },
+    {
+      "url": "https://deafmanvinyl.com/products/10-000-maniacs-mtv-unplugged-2-lp",
+      "sha256": "a301c5dd11fabb5db1e0662becb9edab8c35f40c1f8d392ad56189d99ee4757e"
+    },
+    {
+      "url": "https://deafmanvinyl.com/products/1975-brief-inquiry-into-online-relationships-2-lp",
+      "sha256": "54a1a1e396b75a7190bdf56c48f617a84fa709396c2e9e0a69d2f1d127382b1d"
+    },
+    {
+      "url": "https://deafmanvinyl.com/products/311-greatest-hits-93-03-2-lp?variant=40273127800891",
+      "sha256": "75ea2a45453693397d6ef32daa1c6755cbf838d91b74dbe45cb28a28934bcd96"
+    },
+    {
+      "url": "https://deafmanvinyl.com/products/2pac-greatest-hits-4-lp?variant=42508724699195",
+      "sha256": "4d5ca83571bad5387c1d34a42d84ddb10aa43202fff86ca1c6492c6d2fa6dbbd"
+    },
+    {
+      "url": "https://deafmanvinyl.com/products/10-000-maniacs-mtv-unplugged-2-lp?variant=41833625092155",
+      "sha256": "87fd132e80ab97a01c4ac392d2278d569307a466db9b5aba89c1c95da0efc8f2"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_681",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://deafmanvinyl.com/products/311-greatest-hits-93-03-2-lp?variant=40273127800891",
+    "https://deafmanvinyl.com/products/2pac-greatest-hits-4-lp?variant=42508724699195",
+    "https://deafmanvinyl.com/products/10-000-maniacs-mtv-unplugged-2-lp?variant=41833625092155"
+  ],
+  "assessment_id": "v2-40711836552-1",
+  "queue_rows": [
+    681
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 12,
+  "candidate_ref": "v2-40711836552-1/deafmanvinyl_com",
+  "assessment_path": "assessments/v2/deafmanvinyl_com/v2-40711836552-1.json"
+}
