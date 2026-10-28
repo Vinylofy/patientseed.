@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-28T12:49:03.703470+00:00",
+  "shop_id": "counterintuitiverecords.com",
+  "row": 596,
+  "name": "Counter Intuitive",
+  "domain": "counterintuitiverecords.com",
+  "country": "US",
+  "website": "https://counterintuitiverecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 596,
+    "name": "Counter Intuitive",
+    "domain": "counterintuitiverecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://counterintuitiverecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 44,
+    "accepted": 20,
+    "excluded": 9,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://counterintuitiverecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://counterintuitiverecords.com/products.json?limit=20&page=1",
+        "score": 355,
+        "products_seen": 44,
+        "accepted": 35,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://counterintuitiverecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 275,
+        "products_seen": 37,
+        "accepted": 27,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://counterintuitiverecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://counterintuitiverecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://counterintuitiverecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://counterintuitiverecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://counterintuitiverecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://counterintuitiverecords.com/products.json?limit=20&page=1",
+      "score": 355,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://counterintuitiverecords.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 5,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://counterintuitiverecords.com/robots.txt",
+      "sha256": "1663fd9a02bdf015eb4f443e92c8122b3801bd8edd9c3f900a4e9e878ac5e106"
+    },
+    {
+      "url": "https://counterintuitiverecords.com/",
+      "sha256": "2b556e50ac7c1fc1c55c90a400cb180b986cf42328fbdb329ea5cd8f3efaafc3"
+    },
+    {
+      "url": "https://counterintuitiverecords.com/products.json?limit=20&page=1",
+      "sha256": "b6d71ae55d8cacb123b30592bf4779f222fb032212446eda7b895b2e1f73098f"
+    },
+    {
+      "url": "https://counterintuitiverecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "d4a58b0e5bb85f711ef7efc629d7a66259f76813575ec5ed73e304f09bfba5bd"
+    },
+    {
+      "url": "https://counterintuitiverecords.com/products/chain-no-spirit",
+      "sha256": "eb42dc5168502d1fcdc07231125733c3cab875d0430cf53e82f4f6949fd8a776"
+    },
+    {
+      "url": "https://counterintuitiverecords.com/products/born-without-bones-heat-is-free-the-king-7-flexi-disc",
+      "sha256": "d6363e353ba0918f2fa7cf99841b6ff09be959bf37e23df87c3439ffdbca00f6"
+    },
+    {
+      "url": "https://counterintuitiverecords.com/products/skatune-network-greetings-from-ska-shores-2?variant=54140273262956",
+      "sha256": "958aacc9f49ff40af45c63eb2f57564850afd8ee452c35736e43eb7397bd3215"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_596",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40689986664-1",
+  "queue_rows": [
+    596
+  ],
+  "assessment_path": "assessments/v2/counterintuitiverecords_com/v2-40689986664-1.json"
+}
