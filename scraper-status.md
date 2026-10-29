@@ -3676,9 +3676,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **1810**. Open: **1514**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **1910**. Open: **1414**.
 
-EAN: **39** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **1744** | UNSUITABLE: **0**
+EAN: **41** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **1842** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -5440,109 +5440,109 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Nomad LaConner | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Noriega Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
 | Normal Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Normal's Book & Records | US | Nog te beoordelen | — | — | — | — |
-| North Piks | US | Nog te beoordelen | — | — | — | — |
-| North Street Records | US | Nog te beoordelen | — | — | — | — |
+| Normal's Book & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| North Piks | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| North Street Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Northwest Grooves | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40571453864-1/northwestgrooves_com |
-| Not Donuts Records | US | Nog te beoordelen | — | — | — | — |
+| Not Donuts Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Not For The Weak Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | insufficient_representative_product_evidence | — |
-| Nothing But A Nightmare | US | Nog te beoordelen | — | — | — | — |
-| Nova's Soda Pop Candy Shop | US | Nog te beoordelen | — | — | — | — |
-| Now & Then Music | US | Nog te beoordelen | — | — | — | — |
-| Now Hear This | US | Nog te beoordelen | — | — | — | — |
-| Now Spinning Records | US | Nog te beoordelen | — | — | — | — |
-| NTX Vinyl (by APPT ONLY) | US | Nog te beoordelen | — | — | — | — |
-| Nudie Records | US | Nog te beoordelen | — | — | — | — |
-| Nuggets | US | Nog te beoordelen | — | — | — | — |
-| Nuke City Records | US | Nog te beoordelen | — | — | — | — |
-| Nuthin But Fire Records | US | Nog te beoordelen | — | — | — | — |
-| nx vinyl | US | Nog te beoordelen | — | — | — | — |
-| Oak Leaf Comics & Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Oak Park Records | US | Nog te beoordelen | — | — | — | — |
-| Oaklawn Clothing N' Stuff | US | Nog te beoordelen | — | — | — | — |
-| Obsession Records | US | Nog te beoordelen | — | — | — | — |
-| Ocean Beach Pallet Co. | US | Nog te beoordelen | — | — | — | — |
-| Octopus Garden | US | Nog te beoordelen | — | — | — | — |
-| Octopus Records | US | Nog te beoordelen | — | — | — | — |
-| Odd Bob's | US | Nog te beoordelen | — | — | — | — |
-| Odd Cabinet Records & Archive | US | Nog te beoordelen | — | — | — | — |
-| Oddball Store Music and More | US | Nog te beoordelen | — | — | — | — |
-| Oddball Vintage | US | Nog te beoordelen | — | — | — | — |
-| Odyssey Records | US | Nog te beoordelen | — | — | — | — |
-| Off The Record | US | Nog te beoordelen | — | — | — | — |
-| Off the Record | US | Nog te beoordelen | — | — | — | — |
-| Off The Record Vinyl & Vintage | US | Nog te beoordelen | — | — | — | — |
-| Off-Center Records | US | Nog te beoordelen | — | — | — | — |
-| Off-Track Records | US | Nog te beoordelen | — | — | — | — |
-| OffBeat | US | Nog te beoordelen | — | — | — | — |
-| Offbeat Music Store | US | Nog te beoordelen | — | — | — | — |
-| Offshoot Books & Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Offshore Sounds | US | Nog te beoordelen | — | — | — | — |
-| Oil Capital Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Ojata Records & Comics | US | Nog te beoordelen | — | — | — | — |
-| Old Arabi Lighthouse Records & Books | US | Nog te beoordelen | — | — | — | — |
-| Old Chapel Market | US | Nog te beoordelen | — | — | — | — |
-| Old Dog Vinyl Records | US | Nog te beoordelen | — | — | — | — |
-| Old Man Vinyl Records | US | Nog te beoordelen | — | — | — | — |
-| Old Paint Records | US | Nog te beoordelen | — | — | — | — |
-| Old Records Off The Shelf | US | Nog te beoordelen | — | — | — | — |
-| Old Skool's | US | Nog te beoordelen | — | — | — | — |
-| Old Town Records | US | Nog te beoordelen | — | — | — | — |
-| Old Town Records and Skate Shop | US | Nog te beoordelen | — | — | — | — |
-| Old Town Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Old's Cool | US | Nog te beoordelen | — | — | — | — |
-| Oldies.com | US | Nog te beoordelen | — | — | — | — |
-| OLDish STUFF | US | Nog te beoordelen | — | — | — | — |
-| Olympic Records | US | Nog te beoordelen | — | — | — | — |
-| Omega Music | US | Nog te beoordelen | — | — | — | — |
-| On Maritime Records | US | Nog te beoordelen | — | — | — | — |
-| On The Corner Music | US | Nog te beoordelen | — | — | — | — |
-| On the Record | US | Nog te beoordelen | — | — | — | — |
-| One Bad Apple Records | US | Nog te beoordelen | — | — | — | — |
-| One Long Groove | US | Nog te beoordelen | — | — | — | — |
-| One Off Records; Vinyl vibes cd shop. | US | Nog te beoordelen | — | — | — | — |
-| One Shot Records | US | Nog te beoordelen | — | — | — | — |
-| One Stop Record Shop by Northgate Records | US | Nog te beoordelen | — | — | — | — |
-| One Stop Xpress | US | Nog te beoordelen | — | — | — | — |
-| Onestopwonders | US | Nog te beoordelen | — | — | — | — |
-| Open Mind Music | US | Nog te beoordelen | — | — | — | — |
-| Open To World Records | US | Nog te beoordelen | — | — | — | — |
-| Operation Fandom & Blackbird Records | US | Nog te beoordelen | — | — | — | — |
-| Operation: Fandom & Blackbird Records | US | Nog te beoordelen | — | — | — | — |
-| Orange Records | US | Nog te beoordelen | — | — | — | — |
-| Orbit Music | US | Nog te beoordelen | — | — | — | — |
-| Orbit Records LLC | US | Nog te beoordelen | — | — | — | — |
-| Orbit’s Record Shop | US | Nog te beoordelen | — | — | — | — |
-| OREGON CITY RECORDS | US | Nog te beoordelen | — | — | — | — |
-| Originals Vinyl | US | Nog te beoordelen | — | — | — | — |
-| ORSF Orthodontics | US | Nog te beoordelen | — | — | — | — |
-| Otown Vinyl & Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Ottawa Community Thrift | US | Nog te beoordelen | — | — | — | — |
-| Out of Sight Records | US | Nog te beoordelen | — | — | — | — |
-| Out of the Past Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Out of the Past Records | US | Nog te beoordelen | — | — | — | — |
-| Out There Records | US | Nog te beoordelen | — | — | — | — |
-| Outer Limits Boro | US | Nog te beoordelen | — | — | — | — |
-| Outhouse Records | US | Nog te beoordelen | — | — | — | — |
-| Output Records | US | Nog te beoordelen | — | — | — | — |
-| OX4D Music | US | Nog te beoordelen | — | — | — | — |
-| P M Sounds | US | Nog te beoordelen | — | — | — | — |
-| P-Town Antiques n Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Pack Ratt Records and Junk | US | Nog te beoordelen | — | — | — | — |
-| Page Turner Books | US | Nog te beoordelen | — | — | — | — |
-| Palm Beach Vinyl \| We Buy Records \| Shop Online | US | Nog te beoordelen | — | — | — | — |
-| Palm Springs Vinyl Records and Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Palmetto Groove Records | US | Nog te beoordelen | — | — | — | — |
-| Palmetto Peddlers Antiques Mall | US | Nog te beoordelen | — | — | — | — |
-| Palo Duro Records | US | Nog te beoordelen | — | — | — | — |
-| Palomino Records Pressing | US | Nog te beoordelen | — | — | — | — |
+| Nothing But A Nightmare | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Nova's Soda Pop Candy Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Now & Then Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Now Hear This | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Now Spinning Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| NTX Vinyl (by APPT ONLY) | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Nudie Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:public_prices | — |
+| Nuggets | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Nuke City Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Nuthin But Fire Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| nx vinyl | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Oak Leaf Comics & Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Oak Park Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Oaklawn Clothing N' Stuff | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Obsession Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Ocean Beach Pallet Co. | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Octopus Garden | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Octopus Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Odd Bob's | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Odd Cabinet Records & Archive | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Oddball Store Music and More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Oddball Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Odyssey Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Off The Record | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Off the Record | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Off The Record Vinyl & Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Off-Center Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Off-Track Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| OffBeat | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Offbeat Music Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Offshoot Books & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Offshore Sounds | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Oil Capital Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Ojata Records & Comics | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Old Arabi Lighthouse Records & Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Old Chapel Market | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Old Dog Vinyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Old Man Vinyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Old Paint Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Old Records Off The Shelf | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Old Skool's | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Old Town Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Old Town Records and Skate Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Old Town Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Old's Cool | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Oldies.com | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| OLDish STUFF | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Olympic Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Omega Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| On Maritime Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| On The Corner Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| On the Record | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| One Bad Apple Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| One Long Groove | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| One Off Records; Vinyl vibes cd shop. | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| One Shot Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| One Stop Record Shop by Northgate Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| One Stop Xpress | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Onestopwonders | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Open Mind Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Open To World Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Operation Fandom & Blackbird Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Operation: Fandom & Blackbird Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Orange Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Orbit Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Orbit Records LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Orbit’s Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| OREGON CITY RECORDS | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Originals Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| ORSF Orthodontics | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Otown Vinyl & Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Ottawa Community Thrift | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Out of Sight Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Out of the Past Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Out of the Past Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Out There Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Outer Limits Boro | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Outhouse Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Output Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| OX4D Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| P M Sounds | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| P-Town Antiques n Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Pack Ratt Records and Junk | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Page Turner Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Palm Beach Vinyl \| We Buy Records \| Shop Online | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Palm Springs Vinyl Records and Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Palmetto Groove Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Palmetto Peddlers Antiques Mall | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Palo Duro Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Palomino Records Pressing | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Pancakes Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| Pandora's Box Toys & Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Panther City Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Papa Jazz Record Shoppe | US | Nog te beoordelen | — | — | — | — |
-| Papa`s Rock and Roll Parlor | US | Nog te beoordelen | — | — | — | — |
-| Papafrank's Magic Garage | US | Nog te beoordelen | — | — | — | — |
-| Paper Street Trading Company | US | Nog te beoordelen | — | — | — | — |
+| Pandora's Box Toys & Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Panther City Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Papa Jazz Record Shoppe | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Papa`s Rock and Roll Parlor | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Papafrank's Magic Garage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Paper Street Trading Company | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
 | Papertown Records | US | Nog te beoordelen | — | — | — | — |
 | Paradise Found Records & Music; Paradise Found Records & Music - Petaluma | US | Nog te beoordelen | — | — | — | — |
 | Paradise of Replica | US | Nog te beoordelen | — | — | — | — |
