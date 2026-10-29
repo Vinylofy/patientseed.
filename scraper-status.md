@@ -3397,7 +3397,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 |---|---:|---|---:|---:|---|---|---|---|
 | 10000hzrecords.com | 17 | REVIEW | 2 | 12 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | 1234gorecords.shop | 5 | FROZEN | 3 | 19 | 1/2 | ACTIVE | FROZEN | invalid_detail_gtin |
-| 22soundrecords.com | 16 | APPROVED | 1 | 1 | 1/1 | ACTIVE | ACTIVE | run 40642431631 |
+| 22soundrecords.com | 16 | APPROVED | 1 | 1 | 1/1 | ACTIVE (run 40842284135) | ACTIVE | run 40642431631 |
 | 606records.com | 17 | REVIEW | 2 | 10 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | abrodosmusic.com | 17 | REVIEW | 2 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | afkbooksandrecords.com | 17 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
