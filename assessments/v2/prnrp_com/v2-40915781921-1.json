@@ -1,0 +1,190 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T17:06:20.285937+00:00",
+  "shop_id": "prnrp.com",
+  "row": 1878,
+  "name": "Papa`s Rock and Roll Parlor",
+  "domain": "prnrp.com",
+  "country": "US",
+  "website": "https://prnrp.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1878,
+    "name": "Papa`s Rock and Roll Parlor",
+    "domain": "prnrp.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://prnrp.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 28,
+    "accepted": 20,
+    "excluded": 2,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://prnrp.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://prnrp.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "Invalid Shopify price"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://prnrp.com/collections/all/products.json?limit=20&page=1",
+        "score": 265,
+        "products_seen": 28,
+        "accepted": 26,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://prnrp.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://prnrp.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://prnrp.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://prnrp.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://prnrp.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://prnrp.com/collections/all/products.json?limit=20&page=1",
+      "score": 265,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://prnrp.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 13,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://prnrp.com/robots.txt",
+      "sha256": "a7bae9ced8c6ea61157870793d1c017f110d7545f0b73ae01053992f9244613b"
+    },
+    {
+      "url": "https://prnrp.com/",
+      "sha256": "0504495ff4bd25a4dd785768fe3bfe2dc6bf587cfa2116f73d4f34f74ac5352e"
+    },
+    {
+      "url": "https://prnrp.com/products.json?limit=20&page=1",
+      "sha256": "fed6cb9bd017ac1feda428aaa9a7dc65e8707b30e31546a327319eecb934e291"
+    },
+    {
+      "url": "https://prnrp.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "7746e03544d7959abbf246423d7a62e045bd945e8aa0ce8b0adcd356d7f10d32"
+    },
+    {
+      "url": "https://prnrp.com/products/i-got-you-babe-180g-yellow-vinyl-12-single-from-rob-zombies-the-munsters-movie",
+      "sha256": "ea288e67fddd08c5af4bbd191accad325ff762c35022973363aa3e9ae6b478b2"
+    },
+    {
+      "url": "https://prnrp.com/products/its-zombo-and-the-house-of-zombo-180g-white-vinyl-12-single-from-rob-zombies-the-munsters-movie",
+      "sha256": "3512bc488ba69f45f09c3828ad3da791e858e10e84f4fb3f85f6a3049c9c9c56"
+    },
+    {
+      "url": "https://prnrp.com/products/ace-frehley-10-000-volts-vinyl-presale-2-23-variants?variant=42957165396140",
+      "sha256": "eb359e1d40dbe6fbdd282c9f399780dca912c95d4841b67c17fbac3c0e51bae1"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1878",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40915781921-1",
+  "queue_rows": [
+    1878
+  ],
+  "assessment_path": "assessments/v2/prnrp_com/v2-40915781921-1.json"
+}
