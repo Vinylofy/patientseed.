@@ -1,0 +1,200 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T19:37:26.273109+00:00",
+  "shop_id": "rngrecords.com",
+  "row": 2002,
+  "name": "R&G Records",
+  "domain": "rngrecords.com",
+  "country": "US",
+  "website": "https://rngrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2002,
+    "name": "R&G Records",
+    "domain": "rngrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://rngrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 22,
+    "accepted": 17,
+    "excluded": 5,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://rngrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://rngrecords.com/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 22,
+        "accepted": 12,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://rngrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 175,
+        "products_seen": 22,
+        "accepted": 17,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://rngrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rngrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rngrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rngrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rngrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://rngrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 175,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://rngrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 17,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 17,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://rngrecords.com/robots.txt",
+      "sha256": "d0df85351b1707e82893209d531466343ffc1fe3416f269096030be587afbfa2"
+    },
+    {
+      "url": "https://rngrecords.com/",
+      "sha256": "9f74284a0489c05c088440726d49e5d4acbd0f4a82636343e59b7c56f8d65c4b"
+    },
+    {
+      "url": "https://rngrecords.com/products.json?limit=20&page=1",
+      "sha256": "e1c3d605d4579e8cb66bc90e4e3f1930dd79daa927c257927afc4a6dae41e36d"
+    },
+    {
+      "url": "https://rngrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "02f7c609c9a87b2f0ab27bb5c9ba31852887e1c43c6e96003c350d53bbac0346"
+    },
+    {
+      "url": "https://rngrecords.com/products/10-til-midnight-black-snoop-dogg-vinyl",
+      "sha256": "5589311ef425d5469209fa3981bf432f6c97cc01097ab1227373e7d8fd908cea"
+    },
+    {
+      "url": "https://rngrecords.com/products/10-til-midnight-splatter-snoop-dogg-vinyl",
+      "sha256": "0e8062b08f2f1ed4112413357a7f4a3d049f8b6841e4ddca4944c67a3176f23f"
+    },
+    {
+      "url": "https://rngrecords.com/products/chappell-roan-rise-fall-of-a-midwest-princess-anniversary?variant=47304071053529",
+      "sha256": "9a94873c98cdd0f245c464c11296e1672aaa0c58a3f2bf42b5557fc945c417b0"
+    },
+    {
+      "url": "https://rngrecords.com/products/arctic-monkeys-am-dl-card?variant=47304070299865",
+      "sha256": "b930986fa02574993faee3f5e5098c2a2e2df6227d8d931dd3952825c6c4a30b"
+    },
+    {
+      "url": "https://rngrecords.com/products/10-til-midnight-black-snoop-dogg-vinyl?variant=48540377088217",
+      "sha256": "e72415aa23bed549e32aab3b9f0871b0c334849eb3a0f94e5d70592ad732848a"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 2,
+    "detail_price_proven": 2,
+    "ean_valid": 2,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.7647058823529411,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2002",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40940844642-1",
+  "queue_rows": [
+    2002
+  ],
+  "assessment_path": "assessments/v2/rngrecords_com/v2-40940844642-1.json"
+}
