@@ -1,0 +1,137 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T22:44:47.713944+00:00",
+  "shop_id": "rightonnapa.com",
+  "row": 2230,
+  "name": "Right On!!! Napa",
+  "domain": "rightonnapa.com",
+  "country": "US",
+  "website": "https://rightonnapa.com/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2230,
+    "name": "Right On!!! Napa",
+    "domain": "rightonnapa.com",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "squarespace",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "squarespace",
+        "route": "https://rightonnapa.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "robots_disallow"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rightonnapa.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "robots_disallow"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://rightonnapa.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://rightonnapa.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://rightonnapa.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rightonnapa.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "robots_disallow"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rightonnapa.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "robots_disallow"
+      }
+    ]
+  },
+  "platform": "squarespace",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://rightonnapa.com/robots.txt",
+      "sha256": "f2104a66e46b7e235fcc7a0469d3f865e45533c63df58040a25dcc3be23813d5"
+    },
+    {
+      "url": "https://rightonnapa.com/",
+      "sha256": "95e8632e4a2a770c06ff7765e8a97e3942b3efe29f9d88a6e4e7cc4434f48518"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2230",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40967865934-1",
+  "queue_rows": [
+    2230
+  ],
+  "assessment_path": "assessments/v2/rightonnapa_com/v2-40967865934-1.json"
+}
