@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T05:34:57.675349+00:00",
+  "shop_id": "instantkarmarecords.com",
+  "row": 1271,
+  "name": "Instant Karma Records",
+  "domain": "instantkarmarecords.com",
+  "country": "US",
+  "website": "https://instantkarmarecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1271,
+    "name": "Instant Karma Records",
+    "domain": "instantkarmarecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://instantkarmarecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 3,
+    "excluded": 17,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://instantkarmarecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://instantkarmarecords.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://instantkarmarecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 35,
+        "products_seen": 20,
+        "accepted": 3,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://instantkarmarecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://instantkarmarecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://instantkarmarecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://instantkarmarecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://instantkarmarecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://instantkarmarecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 35,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://instantkarmarecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 3,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 3,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://instantkarmarecords.com/robots.txt",
+      "sha256": "fa890d2d858caa6566d971bc2e2e2bd8aba94f47ea53967dd31468c0e97839e7"
+    },
+    {
+      "url": "https://instantkarmarecords.com/",
+      "sha256": "31af4d7ccd9202e1384acd75361d8a6104088eb0df54d973a0922681a50e3032"
+    },
+    {
+      "url": "https://instantkarmarecords.com/products.json?limit=20&page=1",
+      "sha256": "06602f33ed252306f0567c420bdc50d9a5e1decb5908872c5f387250bdaf67a2"
+    },
+    {
+      "url": "https://instantkarmarecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "b1de90f4b2114afdcfa57976c69849d76e85dc4145e43edc0d730f45dd28af95"
+    },
+    {
+      "url": "https://instantkarmarecords.com/products/abba-gold-gold-vinyl-pressing",
+      "sha256": "e825925441e19d3bbef0aaf7f6d293065dbcfe94e25c32f4cf733fd691c160d9"
+    },
+    {
+      "url": "https://instantkarmarecords.com/products/abba-voyage-blue-vinyl",
+      "sha256": "e3b144b587af2f0b791be4a130a28563f18ff55d8f9485897b3f8b4e7871cb9c"
+    },
+    {
+      "url": "https://instantkarmarecords.com/products/ac-dc-pwr-up-2020-lp?variant=40331512741951",
+      "sha256": "093e966f18ad4a85e68db3094d867434ffb0aa61d48bec15f152ed6523c88d03"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1271",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40824177703-1",
+  "queue_rows": [
+    1271
+  ],
+  "assessment_path": "assessments/v2/instantkarmarecords_com/v2-40824177703-1.json"
+}
