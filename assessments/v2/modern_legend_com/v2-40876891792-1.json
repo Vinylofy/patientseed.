@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T12:59:32.250064+00:00",
+  "shop_id": "modern-legend.com",
+  "row": 1626,
+  "name": "Modern Legend",
+  "domain": "modern-legend.com",
+  "country": "US",
+  "website": "https://modern-legend.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1626,
+    "name": "Modern Legend",
+    "domain": "modern-legend.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://modern-legend.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 7,
+    "excluded": 13,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://modern-legend.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://modern-legend.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://modern-legend.com/collections/all/products.json?limit=20&page=1",
+        "score": 75,
+        "products_seen": 20,
+        "accepted": 7,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://modern-legend.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://modern-legend.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://modern-legend.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://modern-legend.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://modern-legend.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://modern-legend.com/collections/all/products.json?limit=20&page=1",
+      "score": 75,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://modern-legend.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 7,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 7,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://modern-legend.com/robots.txt",
+      "sha256": "18e2dd2ca9eb75cb375c9c1216884b0eb31247e7ccc8de79163155c80919c7bd"
+    },
+    {
+      "url": "https://modern-legend.com/",
+      "sha256": "fa21158d1c37439455b0b6dee819a981cc51a01c6dc4dac16e7ea6bf02f56605"
+    },
+    {
+      "url": "https://modern-legend.com/products.json?limit=20&page=1",
+      "sha256": "edf76f329506ec20f4361780c7c02119c32ef648e28b775300bcb0a1d71dc540"
+    },
+    {
+      "url": "https://modern-legend.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "e8806595a6f0da07011d70ac1ebc2fead57da4e7abdf6c921f2cac51af35d9ca"
+    },
+    {
+      "url": "https://modern-legend.com/products/100-gecs-1000-gecs",
+      "sha256": "ff3e724805703a7919e493ad359730c1a71ce3620210a1a421138712a0610fd9"
+    },
+    {
+      "url": "https://modern-legend.com/products/100-gecs-1000-gecs-and-the-tree-of-clues",
+      "sha256": "f3b22dd34ce7ce4b19a9426b86b23c661ef8bc018dca942a2c96860404d469b5"
+    },
+    {
+      "url": "https://modern-legend.com/products/1975-the-iv?variant=47807192334640",
+      "sha256": "63be95682e4a86ecc3dd9994f1b7f0c0f66531b0e68fee6935d150a2cf900448"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1626",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40876891792-1",
+  "queue_rows": [
+    1626
+  ],
+  "assessment_path": "assessments/v2/modern_legend_com/v2-40876891792-1.json"
+}
