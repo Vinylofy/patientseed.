@@ -1,0 +1,137 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T15:19:29.812958+00:00",
+  "shop_id": "nivessa.com",
+  "row": 1762,
+  "name": "Nivessa Vinyl Records Store (on Pico); Nivessa Vinyl Records: The Music Experience (Hollywood)",
+  "domain": "nivessa.com",
+  "country": "US",
+  "website": "https://nivessa.com/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1762,
+    "name": "Nivessa Vinyl Records Store (on Pico); Nivessa Vinyl Records: The Music Experience (Hollywood)",
+    "domain": "nivessa.com",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://nivessa.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://nivessa.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://nivessa.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://nivessa.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "robots_disallow"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://nivessa.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "robots_disallow"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://nivessa.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "robots_disallow"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://nivessa.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "robots_disallow"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://nivessa.com/robots.txt",
+      "sha256": "9cbda58cdee9f55c8d2c00a9a6f3830d5cbb9e7ee8002a982941f3b1fdf0e2ad"
+    },
+    {
+      "url": "https://nivessa.com/",
+      "sha256": "de115c7f2f74da72bc0498ea686a0f8a86699f10560a3198d8af3a1608121975"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1762",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40898814285-1",
+  "queue_rows": [
+    1762
+  ],
+  "assessment_path": "assessments/v2/nivessa_com/v2-40898814285-1.json"
+}
