@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T17:04:26.613125+00:00",
+  "shop_id": "orbitrecords.com",
+  "row": 1849,
+  "name": "Orbit Records LLC",
+  "domain": "orbitrecords.com",
+  "country": "US",
+  "website": "https://orbitrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1849,
+    "name": "Orbit Records LLC",
+    "domain": "orbitrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://orbitrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 12,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://orbitrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://orbitrecords.com/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://orbitrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://orbitrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://orbitrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://orbitrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://orbitrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://orbitrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://orbitrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://orbitrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://orbitrecords.com/robots.txt",
+      "sha256": "e638fdce397ad18b1113a996ed31e9199a56a2d63d654812227416bb19d0c003"
+    },
+    {
+      "url": "https://orbitrecords.com/",
+      "sha256": "1e7f984225732931ca9fe943c07ef4f6bab207556bcdd64af5b365db460c4dee"
+    },
+    {
+      "url": "https://orbitrecords.com/products.json?limit=20&page=1",
+      "sha256": "91d112d8e7ef821b4464f9aadb4847c8476660e6e19c77159a9be227e3132462"
+    },
+    {
+      "url": "https://orbitrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "d55b8e809a6b05627d463c1a58d7b61e9c2e1782f2399fe4aa95aa6dcb8e01a6"
+    },
+    {
+      "url": "https://orbitrecords.com/products/uicideboy-i-want-to-die-in-new-orleans",
+      "sha256": "e767e25cfd84bdb704aec17dbbcd94b431ea9bda3e08b36c833f927928887f9b"
+    },
+    {
+      "url": "https://orbitrecords.com/products/uicideboy-i-wanted-to-die-in-new-orleans-on-limited-colored-vinyl",
+      "sha256": "3f45c632de171eba4b05e47d686c94efc91b3e675ef469953791415dc4344ad6"
+    },
+    {
+      "url": "https://orbitrecords.com/products/1947-wnew-saturday-night-swing-session-w-roy-eldridge?variant=17240280268843",
+      "sha256": "88da240db0b889b5545b299e22a39fa361efa0bcb8445c521c36204c5e85844a"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.3333333333333333,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1849",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40915781921-1",
+  "queue_rows": [
+    1849
+  ],
+  "assessment_path": "assessments/v2/orbitrecords_com/v2-40915781921-1.json"
+}
