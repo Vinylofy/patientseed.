@@ -1,0 +1,153 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T05:37:26.188188+00:00",
+  "shop_id": "jacksguitarcheology.com",
+  "row": 1289,
+  "name": "Jack's Guitarcheology",
+  "domain": "jacksguitarcheology.com",
+  "country": "US",
+  "website": "https://jacksguitarcheology.com/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1289,
+    "name": "Jack's Guitarcheology",
+    "domain": "jacksguitarcheology.com",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://jacksguitarcheology.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://jacksguitarcheology.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://jacksguitarcheology.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://jacksguitarcheology.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://jacksguitarcheology.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://jacksguitarcheology.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://jacksguitarcheology.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://jacksguitarcheology.com/robots.txt",
+      "sha256": "747d1b8a30f4f1bcec8c3419e011232a0f86f6732e3ba4c7097ad46b10d6225f"
+    },
+    {
+      "url": "https://jacksguitarcheology.com/",
+      "sha256": "f2d0ce1a06e13d02d8905919bfc5cb79d869384759b7abc925ef30325cbec0ca"
+    },
+    {
+      "url": "https://jacksguitarcheology.com/api/0.1/collections/products?format=json",
+      "sha256": "3110814443d747b9d23803ae4dc1d38a744e757b4aded3351406e952cbf9703d"
+    },
+    {
+      "url": "https://jacksguitarcheology.com/api/0.1/collections/all/products?format=json",
+      "sha256": "d7bcdd5cf327ea2fc57d7e67ce647197e45dd14e74059eb411a7192a9bcd559b"
+    },
+    {
+      "url": "https://jacksguitarcheology.com/api/storefront/products?limit=20&offset=0",
+      "sha256": "dbb7f976bf235f279fc475221bee01ad834db65feb9735faa2cba868275f80f4"
+    },
+    {
+      "url": "https://jacksguitarcheology.com/api/storefront/products?limit=20",
+      "sha256": "735c59959a0a04494f6c12269de7eaf29dc7f816a1713214cf5ef433ba9fb8ec"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1289",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40824177703-1",
+  "queue_rows": [
+    1289
+  ],
+  "assessment_path": "assessments/v2/jacksguitarcheology_com/v2-40824177703-1.json"
+}
