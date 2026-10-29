@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T12:53:18.138508+00:00",
+  "shop_id": "meteor-gem.com",
+  "row": 1595,
+  "name": "Meteor Gem",
+  "domain": "meteor-gem.com",
+  "country": "US",
+  "website": "https://meteor-gem.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1595,
+    "name": "Meteor Gem",
+    "domain": "meteor-gem.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://meteor-gem.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 24,
+    "accepted": 12,
+    "excluded": 12,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://meteor-gem.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://meteor-gem.com/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 22,
+        "accepted": 6,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://meteor-gem.com/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 24,
+        "accepted": 12,
+        "excluded": 12,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://meteor-gem.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://meteor-gem.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://meteor-gem.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://meteor-gem.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://meteor-gem.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://meteor-gem.com/collections/all/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://meteor-gem.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://meteor-gem.com/robots.txt",
+      "sha256": "3e31fdbf8718acaea962990102d92ca7a721116b17d3e4a9633b15ff4d5800da"
+    },
+    {
+      "url": "https://meteor-gem.com/",
+      "sha256": "e532d82bf022f408a42956a8a8d38b6d0121abea583e8bf40e0592a7ff4fb018"
+    },
+    {
+      "url": "https://meteor-gem.com/products.json?limit=20&page=1",
+      "sha256": "426441eb0061600aa5f615af828a09583b30e2270649564ee2977329c8b85b23"
+    },
+    {
+      "url": "https://meteor-gem.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "bc76e1201b26a130bf51682f2b58fca3f8cab8dc061a3bee7fc84412b709316b"
+    },
+    {
+      "url": "https://meteor-gem.com/products/pre-order-11-27-asphyx-asphyx-lp",
+      "sha256": "3fc2e655b3a9da46746fe6bb5b12323a628ed24da1223d68bd3c14ce48f6c193"
+    },
+    {
+      "url": "https://meteor-gem.com/products/pre-order-11-27-enslaved-below-the-lights-lp",
+      "sha256": "064cc997d6d67584df6ab5416a4335fc8d7050c20a082c476696aa185c720c0c"
+    },
+    {
+      "url": "https://meteor-gem.com/products/aberration-refracture-lp?variant=44620204966146",
+      "sha256": "63aa8e05838abc724a9522dbf1adcfaee3d138fbefb6ac65f314e8e24897b3e3"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1595",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40876891792-1",
+  "queue_rows": [
+    1595
+  ],
+  "assessment_path": "assessments/v2/meteor_gem_com/v2-40876891792-1.json"
+}
