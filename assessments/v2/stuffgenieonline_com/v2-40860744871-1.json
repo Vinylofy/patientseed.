@@ -1,0 +1,165 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T10:57:36.867504+00:00",
+  "shop_id": "stuffgenieonline.com",
+  "row": 1526,
+  "name": "Magic City Comics and Collectibles",
+  "domain": "stuffgenieonline.com",
+  "country": "US",
+  "website": "https://stuffgenieonline.com/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1526,
+    "name": "Magic City Comics and Collectibles",
+    "domain": "stuffgenieonline.com",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://stuffgenieonline.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://stuffgenieonline.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://stuffgenieonline.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://stuffgenieonline.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://stuffgenieonline.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://stuffgenieonline.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://stuffgenieonline.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://stuffgenieonline.com/robots.txt",
+      "sha256": "6052b5c3f4513d22fd7133f3d9a437a3723ae53484058928599eac38a79b4ea4"
+    },
+    {
+      "url": "https://stuffgenieonline.com/",
+      "sha256": "f4ae500bb781b386d8b5ed208f009d9665f01abcb14c5ef60b12d2228afe8833"
+    },
+    {
+      "url": "https://stuffgenieonline.com/products.json?limit=20&page=1",
+      "sha256": "542d1b93bb71a9a17d34b999e696298a5f994a91420032eaf69c51503524c7ac"
+    },
+    {
+      "url": "https://stuffgenieonline.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "eaf59f6ec21c115a5590fde36d265f5eba9dd718673cb574317a86acec62f234"
+    },
+    {
+      "url": "https://stuffgenieonline.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "69dbcd7073397742c582dd170159c3c6abc5954ca83c04096cd4d741ca1f7f16"
+    },
+    {
+      "url": "https://stuffgenieonline.com/api/0.1/collections/products?format=json",
+      "sha256": "30d2b7e18b1f5d18d6f0260f7957441d9bb22c6863fcb0b6ea5587997f48c254"
+    },
+    {
+      "url": "https://stuffgenieonline.com/api/0.1/collections/all/products?format=json",
+      "sha256": "a4a2f7d1b004ae85848a60cce69ee425ca718d0450528b41e28d6735c337d25e"
+    },
+    {
+      "url": "https://stuffgenieonline.com/api/storefront/products?limit=20&offset=0",
+      "sha256": "513c4e4a9805cfc2760a63424aa68d25a0e4cc671c64ec7392ffd00f6a48decf"
+    },
+    {
+      "url": "https://stuffgenieonline.com/api/storefront/products?limit=20",
+      "sha256": "e45cbf11f3c5a35414c5fec296bf6c90c6dddae025758b41babe2bd80f2b3f17"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1526",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40860744871-1",
+  "queue_rows": [
+    1526
+  ],
+  "assessment_path": "assessments/v2/stuffgenieonline_com/v2-40860744871-1.json"
+}
