@@ -1,0 +1,200 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T12:57:59.154589+00:00",
+  "shop_id": "mintgalleryrecords.com",
+  "row": 1616,
+  "name": "Mint Gallery Records",
+  "domain": "mintgalleryrecords.com",
+  "country": "US",
+  "website": "https://mintgalleryrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1616,
+    "name": "Mint Gallery Records",
+    "domain": "mintgalleryrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://mintgalleryrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 12,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://mintgalleryrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://mintgalleryrecords.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://mintgalleryrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://mintgalleryrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://mintgalleryrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://mintgalleryrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://mintgalleryrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://mintgalleryrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://mintgalleryrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 1,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://mintgalleryrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://mintgalleryrecords.com/robots.txt",
+      "sha256": "71ffb97fb97e9c2794c62a319d3ff8886567b0133c427e38a94ba8fc149ad312"
+    },
+    {
+      "url": "https://mintgalleryrecords.com/",
+      "sha256": "a598b61cee4d859d7d7b1a11e2d916ebc8e22b9898d2fc128ec154e81aa1653c"
+    },
+    {
+      "url": "https://mintgalleryrecords.com/products.json?limit=20&page=1",
+      "sha256": "67d1981d5b552de11dc44f55280f4983102d9fd26e794a275dfeab59a505feda"
+    },
+    {
+      "url": "https://mintgalleryrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "da995563d8b830c8e73c25b001199371927470841f410d5eb0ccd628fb4743c4"
+    },
+    {
+      "url": "https://mintgalleryrecords.com/products/g-184",
+      "sha256": "0d9bbd8d4bc8528c4bd78dece59ff3bcd40cf6a9727e9cae6cb63ff9d71b96ca"
+    },
+    {
+      "url": "https://mintgalleryrecords.com/products/13th-floor-elevators-bull-of-the-woods",
+      "sha256": "15dbdaab4841af258e239e97fbdb7382172f000c05ba3e4c9c4ff95872f3dcd9"
+    },
+    {
+      "url": "https://mintgalleryrecords.com/products/2pac-best-of-2pac-part-2-life?variant=47258962985190",
+      "sha256": "602340d9cc70c60d24e991283e94105f14d3d40e885efaa9865d7d206c80f24e"
+    },
+    {
+      "url": "https://mintgalleryrecords.com/products/21-savage-metro-boomin-savage-mode?variant=67659745657062",
+      "sha256": "3a158e1379efbfa1436bc0e29eb4b93a236e594c55d90dfd29eec90e5d2817da"
+    },
+    {
+      "url": "https://mintgalleryrecords.com/products/g-184?variant=47943376863462",
+      "sha256": "b53fbca9951319eecb480bffc792aca61bf723f3049a407010b40e46860f42c3"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "invalid_detail_gtin"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 2,
+    "detail_price_proven": 2,
+    "ean_valid": 1,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 0.8333333333333334,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "invalid_detail_gtin"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1616",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40876891792-1",
+  "queue_rows": [
+    1616
+  ],
+  "assessment_path": "assessments/v2/mintgalleryrecords_com/v2-40876891792-1.json"
+}
