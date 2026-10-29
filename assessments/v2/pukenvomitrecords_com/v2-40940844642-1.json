@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T19:37:43.300705+00:00",
+  "shop_id": "pukenvomitrecords.com",
+  "row": 2006,
+  "name": "Radiation Records",
+  "domain": "pukenvomitrecords.com",
+  "country": "US",
+  "website": "https://pukenvomitrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2006,
+    "name": "Radiation Records",
+    "domain": "pukenvomitrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://pukenvomitrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 8,
+    "excluded": 12,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://pukenvomitrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://pukenvomitrecords.com/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 20,
+        "accepted": 8,
+        "excluded": 12,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://pukenvomitrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://pukenvomitrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://pukenvomitrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://pukenvomitrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://pukenvomitrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://pukenvomitrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://pukenvomitrecords.com/products.json?limit=20&page=1",
+      "score": 85,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://pukenvomitrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 8,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 8,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://pukenvomitrecords.com/robots.txt",
+      "sha256": "80fb79cce2bb30f21d0f9a7fbcdf727ec61439232136bc3753d2ace19c8d9057"
+    },
+    {
+      "url": "https://pukenvomitrecords.com/",
+      "sha256": "4f37b43b465db47ecde6d2457ac93a2a02eaaa52d1c8c7f36bc373fcd1757534"
+    },
+    {
+      "url": "https://pukenvomitrecords.com/products.json?limit=20&page=1",
+      "sha256": "148e6c0ae8b3e5eb828f4b65fd743f59cfc01f6d6e2cb0fe068b8082011e88b5"
+    },
+    {
+      "url": "https://pukenvomitrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "ed73813cdf4dd7789e35aac342f74bd72e16b6b3516b99c5b9b17f3527a0d831"
+    },
+    {
+      "url": "https://pukenvomitrecords.com/products/rancid-life-wont-wait-new-lp",
+      "sha256": "4360c2921ca33d1d47b30da60830866eba891faca55fb7328ec073519f6e26b5"
+    },
+    {
+      "url": "https://pukenvomitrecords.com/products/timeghoul-tumultuous-travelings-panaramic-twilight-new-metal-lp",
+      "sha256": "f3266d81056e87112313b233ef64cd15875d6b5f548f66b37a49a4359a7544b3"
+    },
+    {
+      "url": "https://pukenvomitrecords.com/products/serpent-dweller-arid-realm-beyond-death-new-metal-lp?variant=67764762050694",
+      "sha256": "0641d8c08eb4190019e84587127658ce23fa2de27794fa24c4e6cf6c242c7985"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.75,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2006",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40940844642-1",
+  "queue_rows": [
+    2006
+  ],
+  "assessment_path": "assessments/v2/pukenvomitrecords_com/v2-40940844642-1.json"
+}
