@@ -3676,9 +3676,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **1710**. Open: **1614**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **1810**. Open: **1514**.
 
-EAN: **38** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **1645** | UNSUITABLE: **0**
+EAN: **39** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **1744** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -5337,109 +5337,109 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Mottainai | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Mount Analog | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | Mount Dora Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
-| Mount Holly Records | US | Nog te beoordelen | — | — | — | — |
-| Mount Vernon Records | US | Nog te beoordelen | — | — | — | — |
-| Mountain Music | US | Nog te beoordelen | — | — | — | — |
-| Mountain View Mercantile | US | Nog te beoordelen | — | — | — | — |
-| Mountainside Records | US | Nog te beoordelen | — | — | — | — |
-| Movie Trading Company | US | Nog te beoordelen | — | — | — | — |
-| Moving Records | US | Nog te beoordelen | — | — | — | — |
-| Mr C's Rare Records | US | Nog te beoordelen | — | — | — | — |
-| Mr Cheapo CDs; Mr Cheapo CDs & Records | US | Nog te beoordelen | — | — | — | — |
-| Mr Vinyl Records LLC | US | Nog te beoordelen | — | — | — | — |
-| Mr Zeros | US | Nog te beoordelen | — | — | — | — |
-| Mud Room Rekords | US | Nog te beoordelen | — | — | — | — |
-| Mudroom Records | US | Nog te beoordelen | — | — | — | — |
-| Mugs & Music | US | Nog te beoordelen | — | — | — | — |
-| Murphy's Vinyl Shack | US | Nog te beoordelen | — | — | — | — |
-| Muscle Shoals Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Mushroom New Orleans | US | Nog te beoordelen | — | — | — | — |
-| Music Alley | US | Nog te beoordelen | — | — | — | — |
-| Music Asylum | US | Nog te beoordelen | — | — | — | — |
-| Music Box | US | Nog te beoordelen | — | — | — | — |
-| Music Boxx Records | US | Nog te beoordelen | — | — | — | — |
-| Music City | US | Nog te beoordelen | — | — | — | — |
-| Music Connection | US | Nog te beoordelen | — | — | — | — |
-| Music Connection | US | Nog te beoordelen | — | — | — | — |
-| Music Connection Record Store | US | Nog te beoordelen | — | — | — | — |
-| Music Coop | US | Nog te beoordelen | — | — | — | — |
-| Music DNA | US | Nog te beoordelen | — | — | — | — |
-| Music Express Car Audio | US | Nog te beoordelen | — | — | — | — |
-| Music Gator | US | Nog te beoordelen | — | — | — | — |
-| Music Heals Inc. | US | Nog te beoordelen | — | — | — | — |
-| Music History | US | Nog te beoordelen | — | — | — | — |
-| Music Magick | US | Nog te beoordelen | — | — | — | — |
-| Music Matters Record Store | US | Nog te beoordelen | — | — | — | — |
-| Music Matters Remixed | US | Nog te beoordelen | — | — | — | — |
-| Music Millennium | US | Nog te beoordelen | — | — | — | — |
-| music non-stop | US | Nog te beoordelen | — | — | — | — |
-| Music On Main Street | US | Nog te beoordelen | — | — | — | — |
-| Music Planet | US | Nog te beoordelen | — | — | — | — |
-| Music Planet GAMES AND RECORDS | US | Nog te beoordelen | — | — | — | — |
-| Music Research Library | US | Nog te beoordelen | — | — | — | — |
-| Music To My Ear | US | Nog te beoordelen | — | — | — | — |
-| Music Town | US | Nog te beoordelen | — | — | — | — |
-| Music Vision | US | Nog te beoordelen | — | — | — | — |
-| Musical Energi | US | Nog te beoordelen | — | — | — | — |
-| Musical Memories | US | Nog te beoordelen | — | — | — | — |
-| Musical Memories | US | Nog te beoordelen | — | — | — | — |
-| Musicians Discount Center | US | Nog te beoordelen | — | — | — | — |
+| Mount Holly Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Mount Vernon Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Mountain Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Mountain View Mercantile | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Mountainside Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Movie Trading Company | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Moving Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Mr C's Rare Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Mr Cheapo CDs; Mr Cheapo CDs & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Mr Vinyl Records LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Mr Zeros | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Mud Room Rekords | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Mudroom Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Mugs & Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Murphy's Vinyl Shack | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Muscle Shoals Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Mushroom New Orleans | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Music Alley | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Music Asylum | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Music Box | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Music Boxx Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Music City | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Music Connection | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Music Connection | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Music Connection Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Music Coop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Music DNA | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Music Express Car Audio | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Music Gator | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Music Heals Inc. | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Music History | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Music Magick | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Music Matters Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Music Matters Remixed | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Music Millennium | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| music non-stop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Music On Main Street | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Music Planet | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Music Planet GAMES AND RECORDS | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Music Research Library | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Music To My Ear | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Music Town | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Music Vision | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Musical Energi | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Musical Memories | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Musical Memories | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Musicians Discount Center | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Musicology Co | US | EAN | MEDIUM | BUILT_AWAITING_MANUAL_TEST | own_product_valid_gtin_coverage_at_least_80_percent_of_sample | v2-40571453864-1/musicologyco_com |
-| Musique Plastique | US | Nog te beoordelen | — | — | — | — |
-| Mxxnshine Records | US | Nog te beoordelen | — | — | — | — |
-| My Mama's Books Records & Cafe | US | Nog te beoordelen | — | — | — | — |
-| My Mind's Eye Records | US | Nog te beoordelen | — | — | — | — |
-| MY RETRO RACKS/FON BAR | US | Nog te beoordelen | — | — | — | — |
-| My Turn Records / Found Sound Warehouse | US | Nog te beoordelen | — | — | — | — |
-| My Vinyl Offer @ Brass Armadillo - Phoenix | US | Nog te beoordelen | — | — | — | — |
-| My Vinyl Offer @ Brass Armadillo Mall | US | Nog te beoordelen | — | — | — | — |
-| My Vinyl Offer at The Spot | US | Nog te beoordelen | — | — | — | — |
-| My Vinyl Underground | US | Nog te beoordelen | — | — | — | — |
-| Mystery Train | US | Nog te beoordelen | — | — | — | — |
-| Mystery Train Records | US | Nog te beoordelen | — | — | — | — |
-| Mystic Disc | US | Nog te beoordelen | — | — | — | — |
-| Mystic Mountain Music | US | Nog te beoordelen | — | — | — | — |
-| N.T.A Records L.L.C | US | Nog te beoordelen | — | — | — | — |
+| Musique Plastique | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Mxxnshine Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| My Mama's Books Records & Cafe | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| My Mind's Eye Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| MY RETRO RACKS/FON BAR | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| My Turn Records / Found Sound Warehouse | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| My Vinyl Offer @ Brass Armadillo - Phoenix | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| My Vinyl Offer @ Brass Armadillo Mall | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| My Vinyl Offer at The Spot | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| My Vinyl Underground | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Mystery Train | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Mystery Train Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Mystic Disc | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Mystic Mountain Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| N.T.A Records L.L.C | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Nail City Record | US | EAN | MEDIUM | BUILT_AWAITING_MANUAL_TEST | own_product_valid_gtin_coverage_at_least_80_percent_of_sample | v2-40571453864-1/nailcityrecord_com |
-| Namplify Records | US | Nog te beoordelen | — | — | — | — |
-| Nauck's Vintage Records | US | Nog te beoordelen | — | — | — | — |
-| Needful Things of Kentucky | US | Nog te beoordelen | — | — | — | — |
-| Needle 'N Groove Records | US | Nog te beoordelen | — | — | — | — |
-| Needle & Bean | US | Nog te beoordelen | — | — | — | — |
-| Needle + Groove Records | US | Nog te beoordelen | — | — | — | — |
-| Needle Drop Records | US | Nog te beoordelen | — | — | — | — |
-| Needle To The Groove Record Shop; needle to the groove | US | Nog te beoordelen | — | — | — | — |
+| Namplify Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Nauck's Vintage Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Needful Things of Kentucky | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Needle 'N Groove Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Needle & Bean | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Needle + Groove Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Needle Drop Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Needle To The Groove Record Shop; needle to the groove | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Needles & Fins | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| Neighborhood Comics Clubhouse | US | Nog te beoordelen | — | — | — | — |
-| Neptune Music Co | US | Nog te beoordelen | — | — | — | — |
-| Nerdbombers | US | Nog te beoordelen | — | — | — | — |
-| Nerdcore Records | US | Nog te beoordelen | — | — | — | — |
-| Neuse Records | US | Nog te beoordelen | — | — | — | — |
-| New 2 U Vinyl & Vintage ( Nu2uV2) | US | Nog te beoordelen | — | — | — | — |
-| New Style Records | US | Nog te beoordelen | — | — | — | — |
-| Newbury Comics | US | Nog te beoordelen | — | — | — | — |
-| Newtown Book & Record Exchange | US | Nog te beoordelen | — | — | — | — |
-| Next Level Pure Gold And Platinum Records | US | Nog te beoordelen | — | — | — | — |
-| NH Vintage Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Nice Price Books & Records | US | Nog te beoordelen | — | — | — | — |
-| Nickelodeon Records | US | Nog te beoordelen | — | — | — | — |
-| Nile Records | US | Nog te beoordelen | — | — | — | — |
-| Nivessa Vinyl Records Store (on Pico); Nivessa Vinyl Records: The Music Experience (Hollywood) | US | Nog te beoordelen | — | — | — | — |
-| Nmb Flea Market | US | Nog te beoordelen | — | — | — | — |
-| No Life Record Shop | US | Nog te beoordelen | — | — | — | — |
-| No Logo Vintage and Records | US | Nog te beoordelen | — | — | — | — |
-| No Name Vinyl Records & Music Etc. | US | Nog te beoordelen | — | — | — | — |
-| NO NOISE RECORDS AND HIFI | US | Nog te beoordelen | — | — | — | — |
-| No. 9 Books & Records | US | Nog te beoordelen | — | — | — | — |
-| Nob Hill Music | US | Nog te beoordelen | — | — | — | — |
-| Noble Records | US | Nog te beoordelen | — | — | — | — |
-| Nocturnal Music | US | Nog te beoordelen | — | — | — | — |
-| Noise | US | Nog te beoordelen | — | — | — | — |
-| Noise & Toys | US | Nog te beoordelen | — | — | — | — |
-| NOLA Mix Records | US | Nog te beoordelen | — | — | — | — |
-| Nomad LaConner | US | Nog te beoordelen | — | — | — | — |
-| Noriega Records | US | Nog te beoordelen | — | — | — | — |
-| Normal Records | US | Nog te beoordelen | — | — | — | — |
+| Neighborhood Comics Clubhouse | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | invalid_detail_gtin | — |
+| Neptune Music Co | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Nerdbombers | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Nerdcore Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Neuse Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| New 2 U Vinyl & Vintage ( Nu2uV2) | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| New Style Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Newbury Comics | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Newtown Book & Record Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Next Level Pure Gold And Platinum Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_404 | — |
+| NH Vintage Vinyl | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Nice Price Books & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Nickelodeon Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Nile Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Nivessa Vinyl Records Store (on Pico); Nivessa Vinyl Records: The Music Experience (Hollywood) | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Nmb Flea Market | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| No Life Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| No Logo Vintage and Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| No Name Vinyl Records & Music Etc. | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| NO NOISE RECORDS AND HIFI | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| No. 9 Books & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Nob Hill Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Noble Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Nocturnal Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Noise | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Noise & Toys | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| NOLA Mix Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Nomad LaConner | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Noriega Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Normal Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Normal's Book & Records | US | Nog te beoordelen | — | — | — | — |
 | North Piks | US | Nog te beoordelen | — | — | — | — |
 | North Street Records | US | Nog te beoordelen | — | — | — | — |
