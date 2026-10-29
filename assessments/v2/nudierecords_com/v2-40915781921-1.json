@@ -1,0 +1,240 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T16:53:42.947928+00:00",
+  "shop_id": "nudierecords.com",
+  "row": 1790,
+  "name": "Nudie Records",
+  "domain": "nudierecords.com",
+  "country": "US",
+  "website": "https://nudierecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1790,
+    "name": "Nudie Records",
+    "domain": "nudierecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://nudierecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://nudierecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://nudierecords.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://nudierecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 165,
+        "products_seen": 20,
+        "accepted": 16,
+        "excluded": 4,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://nudierecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://nudierecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://nudierecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://nudierecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://nudierecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://nudierecords.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://nudierecords.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "review",
+    "flags": [
+      "uniform_price_suspicious"
+    ],
+    "records_checked": 20,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://nudierecords.com/products/kraftwerk-the-man-machine-vinyl-lp?variant=50344163803274",
+      "artist": "Kraftwerk",
+      "title": "\"The Man-Machine\" - Vinyl LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "25.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://nudierecords.com/products/cactus-lee-lees-dream-vinyl-lp?variant=50380457869450",
+      "artist": "Cactus Lee",
+      "title": "\"Lee's Dream\" - Vinyl LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "25.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://nudierecords.com/products/tobacco-city-horses-vinyl-lp?variant=50508376440970",
+      "artist": "Tobacco City",
+      "title": "\"Horses\" - Vinyl LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "25.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://nudierecords.com/robots.txt",
+      "sha256": "578747c7dae77d12c96ec15ffae9b391b404bdc74987ec632c210d356dcff140"
+    },
+    {
+      "url": "https://nudierecords.com/",
+      "sha256": "2ea9c6f37ee63dde74f64c5018efc0f99abd62dee83784d98814a9afe2bd9c1c"
+    },
+    {
+      "url": "https://nudierecords.com/products.json?limit=20&page=1",
+      "sha256": "692066877a16d9ebe79f95e0de68b5114d95b59d2fb6bf41c42a5da57a0a1647"
+    },
+    {
+      "url": "https://nudierecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "a098397ec2de76d607084012d4a7ccb6ee81a611d97fa85272c2bda304e51c10"
+    },
+    {
+      "url": "https://nudierecords.com/products/tobacco-city-horses-vinyl-lp",
+      "sha256": "91689222004cfc2737f399334b10ae031a5b648b9637acd9e3fb5f2062642d8d"
+    },
+    {
+      "url": "https://nudierecords.com/products/spiritualized-amazing-grace-vinyl-lp",
+      "sha256": "dbd5d6018f2d100441dfdd8ce2642ff3e3f6b507217851dc451eaa20cebd5a3d"
+    },
+    {
+      "url": "https://nudierecords.com/products/kraftwerk-the-man-machine-vinyl-lp?variant=50344163803274",
+      "sha256": "53dcf6518eca6b866988f05d246fc7a03d897bf47493aa5b27f6a7229cf0efe8"
+    },
+    {
+      "url": "https://nudierecords.com/products/cactus-lee-lees-dream-vinyl-lp?variant=50380457869450",
+      "sha256": "7cfaa60595826e620daa5752284828c5313783a9753e42e305f4df4d9ee9491e"
+    },
+    {
+      "url": "https://nudierecords.com/products/tobacco-city-horses-vinyl-lp?variant=50508376440970",
+      "sha256": "ef8d2e0dc874d6183c923cb403a8bc0ef9992e176aa26a384092d545cd1ac8cc"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:public_prices"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": false,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1790",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://nudierecords.com/products/kraftwerk-the-man-machine-vinyl-lp?variant=50344163803274",
+    "https://nudierecords.com/products/cactus-lee-lees-dream-vinyl-lp?variant=50380457869450",
+    "https://nudierecords.com/products/tobacco-city-horses-vinyl-lp?variant=50508376440970"
+  ],
+  "assessment_id": "v2-40915781921-1",
+  "queue_rows": [
+    1790
+  ],
+  "assessment_path": "assessments/v2/nudierecords_com/v2-40915781921-1.json"
+}
