@@ -1,0 +1,188 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T22:50:30.732316+00:00",
+  "shop_id": "rockonav.com",
+  "row": 2264,
+  "name": "Rock On Audio Video",
+  "domain": "rockonav.com",
+  "country": "US",
+  "website": "https://rockonav.com/",
+  "previous_status": "ADAPTER_TESTED",
+  "previous_reason": "no confirmed new vinyl on bounded page",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2264,
+    "name": "Rock On Audio Video",
+    "domain": "rockonav.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://rockonav.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 21,
+    "accepted": 2,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://rockonav.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://rockonav.com/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 21,
+        "accepted": 2,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://rockonav.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://rockonav.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rockonav.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rockonav.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rockonav.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rockonav.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://rockonav.com/products.json?limit=20&page=1",
+      "score": 25,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://rockonav.com/products.json?limit=20&page=1",
+  "listing_sample": 2,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 2,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://rockonav.com/robots.txt",
+      "sha256": "b108b60c79423698f23d90a139480c3baada02c53aa36a8be1b7e1cdc323f6c2"
+    },
+    {
+      "url": "https://rockonav.com/",
+      "sha256": "a54eba95993805ea2721ce8ab6d9f2d025673d7d182d725534081e72a4d9ae48"
+    },
+    {
+      "url": "https://rockonav.com/products.json?limit=20&page=1",
+      "sha256": "66b62b85480a7762157f3bb93fa883643777c5b8351c03a14160548c67c4c00c"
+    },
+    {
+      "url": "https://rockonav.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "772a604716243ff72f98ace0dd33795763401dbebba8d520cde7ab11e73c920c"
+    },
+    {
+      "url": "https://rockonav.com/products/yamaha-tt-n503-music-cast-vinyl-500",
+      "sha256": "3fd9efc328623d05b1c598c1ec2dc52777ef85fd01b578d6e1d4d47d84a1deb2"
+    },
+    {
+      "url": "https://rockonav.com/products/yamaha-tt-n503-music-cast-vinyl-500?variant=54668905775388",
+      "sha256": "4bccbdc4aaeb4e605836d964c848a88b77c0a56dce8e901abff67a8f5602ab2d"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2264",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40967865934-1",
+  "queue_rows": [
+    2264
+  ],
+  "assessment_path": "assessments/v2/rockonav_com/v2-40967865934-1.json"
+}
