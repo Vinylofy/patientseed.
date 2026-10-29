@@ -3422,7 +3422,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | bionicrecordsoc.com | 17 | REVIEW | 2 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | blackcityrecords.co.uk | 12 | FROZEN | 3 | 18 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | blackdotsbuffalo.shop | 17 | REVIEW | 1 | 13 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| booboorecords.com | 1 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE | run 39155794450 |
+| booboorecords.com | 1 | APPROVED | 0 | 11 | 3/3 | ACTIVE (run 40842284135) | ACTIVE | run 39155794450 |
 | bororecords.com | 1 | APPROVED | 0 | 13 | 1/3 | ACTIVE | ACTIVE | run 39155794450 |
 | bruiserrecordsjax.com | 1 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 39155794450 |
 | cameronrecords.com | 17 | APPROVED | 1 | 16 | 3/3 | ACTIVE | ACTIVE | run 40828686930 |
