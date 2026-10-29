@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T13:03:06.370260+00:00",
+  "shop_id": "moodringrecordsslc.com",
+  "row": 1651,
+  "name": "Mood Ring Records",
+  "domain": "moodringrecordsslc.com",
+  "country": "US",
+  "website": "https://moodringrecordsslc.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1651,
+    "name": "Mood Ring Records",
+    "domain": "moodringrecordsslc.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://moodringrecordsslc.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://moodringrecordsslc.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://moodringrecordsslc.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://moodringrecordsslc.com/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://moodringrecordsslc.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://moodringrecordsslc.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://moodringrecordsslc.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://moodringrecordsslc.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://moodringrecordsslc.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://moodringrecordsslc.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://moodringrecordsslc.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 11,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://moodringrecordsslc.com/robots.txt",
+      "sha256": "d512283ac5407fcd0ff33b10e1df2365cab0c07ed198201b2e16f36095ebac69"
+    },
+    {
+      "url": "https://moodringrecordsslc.com/",
+      "sha256": "d00b02f8c46e7b997ed47f4d591788acc065b5294c427d7a2ad767cf6d626185"
+    },
+    {
+      "url": "https://moodringrecordsslc.com/products.json?limit=20&page=1",
+      "sha256": "0c69958d7073e6a36fec5ff56395cc7a19f3d80e2d1fb68035d4279376a991a9"
+    },
+    {
+      "url": "https://moodringrecordsslc.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "8f2c8b8620b9f949cd9ca1c229f0e7687bd1c4d917351458e4769028045cd710"
+    },
+    {
+      "url": "https://moodringrecordsslc.com/products/12058866000",
+      "sha256": "9487529dad78b94fb3a6976efe90058cca4721fb3074d7b709c6e2e91d1fbf56"
+    },
+    {
+      "url": "https://moodringrecordsslc.com/products/188548166000",
+      "sha256": "cb546022ea954890daac9c1459745d08714fb7fc408117f12d19063465ec9603"
+    },
+    {
+      "url": "https://moodringrecordsslc.com/products/54206066000?variant=67931176894828",
+      "sha256": "56b16191ad5aabbfde810789a4dad844a80dd370dbdc2109f47c5ff6c7d43beb"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1651",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40876891792-1",
+  "queue_rows": [
+    1651
+  ],
+  "assessment_path": "assessments/v2/moodringrecordsslc_com/v2-40876891792-1.json"
+}
