@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T22:51:54.033315+00:00",
+  "shop_id": "rocknrollarecordshop.com",
+  "row": 2281,
+  "name": "Rocknrolla Records",
+  "domain": "rocknrollarecordshop.com",
+  "country": "US",
+  "website": "https://rocknrollarecordshop.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2281,
+    "name": "Rocknrolla Records",
+    "domain": "rocknrollarecordshop.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://rocknrollarecordshop.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://rocknrollarecordshop.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://rocknrollarecordshop.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://rocknrollarecordshop.com/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://rocknrollarecordshop.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rocknrollarecordshop.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rocknrollarecordshop.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rocknrollarecordshop.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rocknrollarecordshop.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://rocknrollarecordshop.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://rocknrollarecordshop.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 19,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://rocknrollarecordshop.com/products/r-l-burnside-come-on-in-vinyl?variant=67990396600629",
+      "artist": "R.L. Burnside",
+      "title": "Come on in - Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "26.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://rocknrollarecordshop.com/products/supertramp-breakfast-in-america-180-gram-vinyl-half-speed-mastering-vinyl?variant=67991201939765",
+      "artist": "Supertramp",
+      "title": "Breakfast In America (180 Gram Vinyl, Half-Speed Mastering) - Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "48.72",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://rocknrollarecordshop.com/products/souls-of-mischief-93-til-infinity-explicit-content-2-lps-vinyl?variant=67993040978229",
+      "artist": "Souls Of Mischief",
+      "title": "93 'Til Infinity [Explicit Content] (2 Lp's) - Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "35.80",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://rocknrollarecordshop.com/robots.txt",
+      "sha256": "e94725b4af576cbcb7dead70d348d4dc5e92b7e16ad1fb76fcfbc7511c90a1ed"
+    },
+    {
+      "url": "https://rocknrollarecordshop.com/",
+      "sha256": "44144ec62e2e158f3495a41ad48d9d4d777e75b31d1e0620b0424bcb65c4a151"
+    },
+    {
+      "url": "https://rocknrollarecordshop.com/products.json?limit=20&page=1",
+      "sha256": "b509bd5c1365f4f1479a230f882e2bc5979dcde2390948e43ca30312c1428b51"
+    },
+    {
+      "url": "https://rocknrollarecordshop.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "28c88e9c310e873bfdefff00d51f12ce8130cbcff3c213d11952f07481691479"
+    },
+    {
+      "url": "https://rocknrollarecordshop.com/products/souls-of-mischief-93-til-infinity-explicit-content-2-lps-vinyl",
+      "sha256": "b8b1903a2c7ef1766873447d0716a7c0c962980a2cfebf1da969f76bf0d17252"
+    },
+    {
+      "url": "https://rocknrollarecordshop.com/products/czarface-every-hero-needs-a-villain-vinyl",
+      "sha256": "c431ddcb0e57e6eb996fe7de65f4c75d275a428277a8151fc988101f646fc889"
+    },
+    {
+      "url": "https://rocknrollarecordshop.com/products/r-l-burnside-come-on-in-vinyl?variant=67990396600629",
+      "sha256": "531526b56db8084be38d5a9312065d9527f9714345267b696f29bf83de0592f4"
+    },
+    {
+      "url": "https://rocknrollarecordshop.com/products/supertramp-breakfast-in-america-180-gram-vinyl-half-speed-mastering-vinyl?variant=67991201939765",
+      "sha256": "cb1cc01af6a72ab9b5c619943a966b72cd908a09423e8d44dc529b789b5c7d35"
+    },
+    {
+      "url": "https://rocknrollarecordshop.com/products/souls-of-mischief-93-til-infinity-explicit-content-2-lps-vinyl?variant=67993040978229",
+      "sha256": "3658ee05278485272f8f2c154ab7ebd98b4dbd4be22a97ac6a96ec40ec141c8f"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.05,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2281",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://rocknrollarecordshop.com/products/r-l-burnside-come-on-in-vinyl?variant=67990396600629",
+    "https://rocknrollarecordshop.com/products/supertramp-breakfast-in-america-180-gram-vinyl-half-speed-mastering-vinyl?variant=67991201939765",
+    "https://rocknrollarecordshop.com/products/souls-of-mischief-93-til-infinity-explicit-content-2-lps-vinyl?variant=67993040978229"
+  ],
+  "assessment_id": "v2-40967865934-1",
+  "queue_rows": [
+    2281
+  ],
+  "assessment_path": "assessments/v2/rocknrollarecordshop_com/v2-40967865934-1.json"
+}
