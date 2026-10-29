@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T05:49:27.355926+00:00",
+  "shop_id": "ksolovintage.com",
+  "row": 1349,
+  "name": "K-SOLO Vintage",
+  "domain": "ksolovintage.com",
+  "country": "US",
+  "website": "https://ksolovintage.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1349,
+    "name": "K-SOLO Vintage",
+    "domain": "ksolovintage.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://ksolovintage.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 32,
+    "accepted": 19,
+    "excluded": 13,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://ksolovintage.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://ksolovintage.com/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 20,
+        "accepted": 4,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://ksolovintage.com/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 32,
+        "accepted": 19,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://ksolovintage.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://ksolovintage.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://ksolovintage.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://ksolovintage.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://ksolovintage.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://ksolovintage.com/collections/all/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://ksolovintage.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://ksolovintage.com/robots.txt",
+      "sha256": "dfb61a3867b61d409c0ee5b39a9f4c71761328f0b3890e3fea46e647adcfbe59"
+    },
+    {
+      "url": "https://ksolovintage.com/",
+      "sha256": "f4f9ee7da43426ec7500d19bbcbef41cb9bd996dbb02704c024c43cc3a6d9493"
+    },
+    {
+      "url": "https://ksolovintage.com/products.json?limit=20&page=1",
+      "sha256": "0cd9e25a145a2ee03e7d5006368176851b4cc7270a3f1ebfd2c5d36d4ea25036"
+    },
+    {
+      "url": "https://ksolovintage.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "35a5ea8977cc4e54356d2df7f72c646169394d1679166460915132426f953746"
+    },
+    {
+      "url": "https://ksolovintage.com/products/10-000-maniacs",
+      "sha256": "0dd832e9d100a75f8dcb90c7f3f52d0678fe2f7d1a493960dd3126b6d48ce2fd"
+    },
+    {
+      "url": "https://ksolovintage.com/products/100-gecs",
+      "sha256": "fc502e6bf8a068b579f1e27f68d8e404af4c574d838aa2f4357401f271b606d4"
+    },
+    {
+      "url": "https://ksolovintage.com/products/adele?variant=50030939406636",
+      "sha256": "9f5c17b21daaab9ec7ee6904e0b418a6dd3ebaa2061efde8220e1a9c732abbdf"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1349",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40824177703-1",
+  "queue_rows": [
+    1349
+  ],
+  "assessment_path": "assessments/v2/ksolovintage_com/v2-40824177703-1.json"
+}
