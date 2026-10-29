@@ -1,0 +1,188 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T15:17:31.410702+00:00",
+  "shop_id": "neighborhoodcomics.com",
+  "row": 1747,
+  "name": "Neighborhood Comics Clubhouse",
+  "domain": "neighborhoodcomics.com",
+  "country": "US",
+  "website": "https://neighborhoodcomics.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1747,
+    "name": "Neighborhood Comics Clubhouse",
+    "domain": "neighborhoodcomics.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://neighborhoodcomics.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 1,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://neighborhoodcomics.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://neighborhoodcomics.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://neighborhoodcomics.com/collections/all/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://neighborhoodcomics.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://neighborhoodcomics.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://neighborhoodcomics.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://neighborhoodcomics.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://neighborhoodcomics.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://neighborhoodcomics.com/collections/all/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://neighborhoodcomics.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://neighborhoodcomics.com/robots.txt",
+      "sha256": "57ad040bf673f2fdb557121755b0f471b8edb368c82fa00fae577612a55c5712"
+    },
+    {
+      "url": "https://neighborhoodcomics.com/",
+      "sha256": "c2315aed99e4d7572b732840864dca43cc5a854a5e6bad6171edf07d4f3e9be5"
+    },
+    {
+      "url": "https://neighborhoodcomics.com/products.json?limit=20&page=1",
+      "sha256": "32a460ba4d4ac8ec811a9614cc6a7d7b0559870c8f6c8c5b2fb782add9d9ca73"
+    },
+    {
+      "url": "https://neighborhoodcomics.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "e1ca8a2e3b1fa43048aa17e31e2761d39af15e135537d645c65393781d8405c3"
+    },
+    {
+      "url": "https://neighborhoodcomics.com/products/eat-moths-vinyl-sticker",
+      "sha256": "1376e1b9b1dd49fdfc2b5923a181a7c5902a2bd8aa771bee3e887da2ce698e46"
+    },
+    {
+      "url": "https://neighborhoodcomics.com/products/eat-moths-vinyl-sticker?variant=41991486406692",
+      "sha256": "0fb42c85b7010f48a6a0a8a5e95ea5ccc36b387778794a7518e9c9566cc8e03b"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "invalid_detail_gtin"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "invalid_detail_gtin"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1747",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40898814285-1",
+  "queue_rows": [
+    1747
+  ],
+  "assessment_path": "assessments/v2/neighborhoodcomics_com/v2-40898814285-1.json"
+}
