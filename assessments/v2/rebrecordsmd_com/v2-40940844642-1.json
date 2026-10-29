@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T19:46:12.925029+00:00",
+  "shop_id": "rebrecordsmd.com",
+  "row": 2050,
+  "name": "REB Records",
+  "domain": "rebrecordsmd.com",
+  "country": "US",
+  "website": "https://rebrecordsmd.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2050,
+    "name": "REB Records",
+    "domain": "rebrecordsmd.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://rebrecordsmd.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 18,
+    "excluded": 2,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://rebrecordsmd.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://rebrecordsmd.com/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://rebrecordsmd.com/collections/all/products.json?limit=20&page=1",
+        "score": 145,
+        "products_seen": 20,
+        "accepted": 14,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://rebrecordsmd.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rebrecordsmd.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rebrecordsmd.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rebrecordsmd.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rebrecordsmd.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://rebrecordsmd.com/products.json?limit=20&page=1",
+      "score": 185,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://rebrecordsmd.com/products.json?limit=20&page=1",
+  "listing_sample": 18,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 18,
+    "unique_prices": 12,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://rebrecordsmd.com/robots.txt",
+      "sha256": "695b19ae098bf62cab1aad38d7b97b0890f16bf630677bce4db0d3d370d2d582"
+    },
+    {
+      "url": "https://rebrecordsmd.com/",
+      "sha256": "4a648f77f065a89ee01f3aa56a783c6bf4e697bcd4d7f9f5e2bc1a683869b992"
+    },
+    {
+      "url": "https://rebrecordsmd.com/products.json?limit=20&page=1",
+      "sha256": "5076a60ca261896d56e51468da80d50c9bc48b1b0e3a51f0f05f2f5ca83aad48"
+    },
+    {
+      "url": "https://rebrecordsmd.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "38cf56ee7fc09627f9395bcee3558eb00d00df255c73983f6277e445f16bcad1"
+    },
+    {
+      "url": "https://rebrecordsmd.com/products/elisabeth-explicit-content",
+      "sha256": "5592bf6097e83e6eb880a5c920801412bd8eba58e74607fe16703981bb084d4a"
+    },
+    {
+      "url": "https://rebrecordsmd.com/products/what-do-you-think-about-the-car-translucent-yellow-lp",
+      "sha256": "e4e67666eeb43ab31c3a0cbcb8c6c934affda1627665b73d9a455253c2379ad9"
+    },
+    {
+      "url": "https://rebrecordsmd.com/products/live-through-this-indie-exc-clear-vinyl?variant=67773882499298",
+      "sha256": "eeaf0cd4343c2fc436d836d4a55851c0fe22713a1ce408e9b17e9fb6bbd2d267"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.16666666666666666,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2050",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40940844642-1",
+  "queue_rows": [
+    2050
+  ],
+  "assessment_path": "assessments/v2/rebrecordsmd_com/v2-40940844642-1.json"
+}
