@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T18:34:36.131509+00:00",
+  "shop_id": "plaidroomrecords.com",
+  "row": 1936,
+  "name": "Plaid Room Records",
+  "domain": "plaidroomrecords.com",
+  "country": "US",
+  "website": "https://plaidroomrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1936,
+    "name": "Plaid Room Records",
+    "domain": "plaidroomrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://plaidroomrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://plaidroomrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://plaidroomrecords.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://plaidroomrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 75,
+        "products_seen": 20,
+        "accepted": 7,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://plaidroomrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://plaidroomrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://plaidroomrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://plaidroomrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://plaidroomrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://plaidroomrecords.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://plaidroomrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 12,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://plaidroomrecords.com/robots.txt",
+      "sha256": "22e2ff0e9f65b0fe1f129db8271090d43197ae14a035ced47b67e48139b59a9f"
+    },
+    {
+      "url": "https://plaidroomrecords.com/",
+      "sha256": "b372bb055f33be5d11e9cb924614366319cf2ce2921d5cd2b0f708679efd3cf4"
+    },
+    {
+      "url": "https://plaidroomrecords.com/products.json?limit=20&page=1",
+      "sha256": "7fcea2968a0df042220f2dbb733c2b521daac38cba191a5a3d99f6724017826e"
+    },
+    {
+      "url": "https://plaidroomrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "bfa1bdfff0981e77e4be5ddcac785a7ffe1edb1da0b349a3e34c7bda2636ae4b"
+    },
+    {
+      "url": "https://plaidroomrecords.com/products/pre-order-everything-but-the-girl-blue-reservoir-release-date-02-19-2027",
+      "sha256": "44fe2cec4c9ba5e2569e4d70f9c367a2405554c8574601705fa782780af033ae"
+    },
+    {
+      "url": "https://plaidroomrecords.com/products/pre-order-everything-but-the-girl-blue-reservoir-iex-indie-exclusive-translucent-blue-colored-vinyl-release-date-02-19-2027",
+      "sha256": "4cfe9efa40fa5b8c5fcb4dbde7f3302ac2ba4cd20985172929a09eb55bf45147"
+    },
+    {
+      "url": "https://plaidroomrecords.com/products/pre-order-crossed-out-1990-1993-white-vinyl-release-date-12-04-2026?variant=43877222252605",
+      "sha256": "530db765d3eb32d10dea97b11d4c76098a24f213b1c5763c9dce49ea2ef38605"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.95,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1936",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40930633846-1",
+  "queue_rows": [
+    1936
+  ],
+  "assessment_path": "assessments/v2/plaidroomrecords_com/v2-40930633846-1.json"
+}
