@@ -1,0 +1,195 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T10:56:46.914285+00:00",
+  "shop_id": "madjacks.net",
+  "row": 1518,
+  "name": "Mad Jack's Records & Comics",
+  "domain": "madjacks.net",
+  "country": "US",
+  "website": "https://madjacks.net/",
+  "previous_status": "ADAPTER_TESTED",
+  "previous_reason": "no confirmed new vinyl on bounded page",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1518,
+    "name": "Mad Jack's Records & Comics",
+    "domain": "madjacks.net",
+    "status": "ADAPTER_TESTED",
+    "gate": "listing",
+    "platform": "woocommerce",
+    "source_url": "https://madjacks.net/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "adapter_class": "WooCommerceNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 2,
+    "accepted": 0,
+    "excluded": 2,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "method_candidates": [
+      {
+        "platform": "woocommerce",
+        "route": "https://madjacks.net/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "products_seen": 2,
+        "accepted": 0,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://madjacks.net/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://madjacks.net/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://madjacks.net/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://madjacks.net/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://madjacks.net/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://madjacks.net/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ],
+    "selected_method": {
+      "platform": "woocommerce",
+      "route": "https://madjacks.net/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 0,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "reason": "no confirmed new vinyl on bounded page"
+  },
+  "platform": "woocommerce",
+  "catalog_route": "https://madjacks.net/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "listing_sample": 0,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 0,
+    "unique_prices": 0,
+    "shipping_hits": 0,
+    "currencies": []
+  },
+  "secondhand_observed": false,
+  "examples": [],
+  "requests": [
+    {
+      "url": "https://madjacks.net/robots.txt",
+      "sha256": "cbb4265a321ef19dc360d8f8baabc9928bb039993ab431f99c23b73207e7a9eb"
+    },
+    {
+      "url": "https://madjacks.net/",
+      "sha256": "9af41a841b8af94caad11914ec75194ba5722c6317228b31fdd76552a0be36a7"
+    },
+    {
+      "url": "https://madjacks.net/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "a2071158a80aba1735b9d067db0fd5a99fdc2a80255f66b42ab6ebcfc9f36dc9"
+    },
+    {
+      "url": "https://madjacks.net/products.json?limit=20&page=1",
+      "sha256": "396f91fa9525a4d6b2567257ae9d24f200ac51346663e39762049eff8d255f1d"
+    },
+    {
+      "url": "https://madjacks.net/collections/all/products.json?limit=20&page=1",
+      "sha256": "037b5047b82d94b0e71600bdd035af24635f383f4a3be5d15cd16669bc16ff55"
+    },
+    {
+      "url": "https://madjacks.net/api/0.1/collections/products?format=json",
+      "sha256": "bbc7417d4c942e25d20e50883d4e4473bb327f28f118e6d5e2e67c1a00681451"
+    },
+    {
+      "url": "https://madjacks.net/api/0.1/collections/all/products?format=json",
+      "sha256": "0e65bd91f8a3732ac85ae7b1d724dbf22f3473bd1fddd8719f1187f1db678595"
+    },
+    {
+      "url": "https://madjacks.net/api/storefront/products?limit=20&offset=0",
+      "sha256": "0eb634ca8b2f9fa4be71cb7ec68165dde339e78957019c2e9e12f541dcdede3a"
+    },
+    {
+      "url": "https://madjacks.net/api/storefront/products?limit=20",
+      "sha256": "934e7870f07690d7d9cdc194d22a969b94a62cf8c602c0759fa1649eaf2d3a4e"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:vinyl",
+    "not_proven:new_used_distinguishable",
+    "not_proven:public_prices",
+    "not_proven:availability",
+    "not_proven:stable_urls"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": false,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": false,
+    "availability": false,
+    "stable_urls": false,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1518",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40860744871-1",
+  "queue_rows": [
+    1518
+  ],
+  "assessment_path": "assessments/v2/madjacks_net/v2-40860744871-1.json"
+}
