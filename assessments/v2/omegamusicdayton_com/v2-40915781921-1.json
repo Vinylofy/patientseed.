@@ -1,0 +1,200 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T17:02:30.227780+00:00",
+  "shop_id": "omegamusicdayton.com",
+  "row": 1832,
+  "name": "Omega Music",
+  "domain": "omegamusicdayton.com",
+  "country": "US",
+  "website": "https://omegamusicdayton.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1832,
+    "name": "Omega Music",
+    "domain": "omegamusicdayton.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://omegamusicdayton.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 14,
+    "excluded": 6,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://omegamusicdayton.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://omegamusicdayton.com/products.json?limit=20&page=1",
+        "score": 145,
+        "products_seen": 20,
+        "accepted": 14,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://omegamusicdayton.com/collections/all/products.json?limit=20&page=1",
+        "score": 75,
+        "products_seen": 20,
+        "accepted": 7,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://omegamusicdayton.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://omegamusicdayton.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://omegamusicdayton.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://omegamusicdayton.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://omegamusicdayton.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://omegamusicdayton.com/products.json?limit=20&page=1",
+      "score": 145,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://omegamusicdayton.com/products.json?limit=20&page=1",
+  "listing_sample": 14,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 14,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://omegamusicdayton.com/robots.txt",
+      "sha256": "e17cd8cb2d3d003c44bcb6ad268ed4f8cde6fe7e84d3b199812684c66b9b1029"
+    },
+    {
+      "url": "https://omegamusicdayton.com/",
+      "sha256": "bae84a6eb997bf0066dc4d2cb8eb5fdc59f7da69811181e9348a26aba56d22a6"
+    },
+    {
+      "url": "https://omegamusicdayton.com/products.json?limit=20&page=1",
+      "sha256": "b6b1ec32870f77f8ce5f5ef5b0c01a93ba7bb6df5113ddc4752fbcde6fdcc65f"
+    },
+    {
+      "url": "https://omegamusicdayton.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "ef3a9d0efecadf5357b6ba2619347c3ca4b2fe0f7020993e27dd2bec7f1bcf6a"
+    },
+    {
+      "url": "https://omegamusicdayton.com/products/sky-tv-young-gods",
+      "sha256": "326fc6214ee6a3e4473f616ca61eca751c255eaa03671dc3814f99592f29192c"
+    },
+    {
+      "url": "https://omegamusicdayton.com/products/new-bermuda-deafheaven",
+      "sha256": "c16e8b8a4efab02446fad52c14bb6e8b7b8d02d0bd82da42a7e4eb2bab5e9094"
+    },
+    {
+      "url": "https://omegamusicdayton.com/products/pre-order-twelve-dreams-of-dr-sardonicus-blk-gate-180-gram-spirit?variant=67885204242650",
+      "sha256": "d85224ca9984a38f3459f5103c4d693166b20de8556dfb1fcd8f3a5c2e736ca5"
+    },
+    {
+      "url": "https://omegamusicdayton.com/products/pre-order-infatuation-with-malevolence-3-color-merge-with-splatter-dying-fetus?variant=67897532580058",
+      "sha256": "bbaccdea79887940cc0df96adc822f872df64c24ccedc1700e62cc79c2219d03"
+    },
+    {
+      "url": "https://omegamusicdayton.com/products/sky-tv-young-gods?variant=67897725845722",
+      "sha256": "b316c63f02ad88aa982d966cfdd3bfb243b35d76b3d21e0faf68ae8b053b2ec4"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 2,
+    "detail_price_proven": 2,
+    "ean_valid": 2,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 0.6428571428571429,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1832",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40915781921-1",
+  "queue_rows": [
+    1832
+  ],
+  "assessment_path": "assessments/v2/omegamusicdayton_com/v2-40915781921-1.json"
+}
