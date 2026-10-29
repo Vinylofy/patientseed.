@@ -1,0 +1,96 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T21:09:17.737378+00:00",
+  "shop_id": "crazywax.com",
+  "row": 2124,
+  "name": "Records & Things Strange",
+  "domain": "crazywax.com",
+  "country": "US",
+  "website": "https://crazywax.com/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2124,
+    "name": "Records & Things Strange",
+    "domain": "crazywax.com",
+    "status": "SOURCE_BLOCKED",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "source_url": "https://crazywax.com/collections/all/products.json?limit=20&page=1",
+    "reason": "HTTP_429",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://crazywax.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": "https://crazywax.com/collections/all/products.json?limit=20&page=1",
+  "requests": [
+    {
+      "url": "https://crazywax.com/robots.txt",
+      "sha256": "9471124d92b0f5061047a39392fd0a70e9a892c7f23b8b9b3e81d23cb4bf1c94"
+    },
+    {
+      "url": "https://crazywax.com/",
+      "sha256": "1714f8fdfe78c0ade4351a6f69a1cd3651b4d7a8fda83741af4fa5333068cb75"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "HTTP_429"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "HTTP_429"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2124",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40954424798-1",
+  "queue_rows": [
+    2124
+  ],
+  "assessment_path": "assessments/v2/crazywax_com/v2-40954424798-1.json"
+}
