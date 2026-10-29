@@ -1,0 +1,187 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T12:52:34.294324+00:00",
+  "shop_id": "mediamaniaonline.com",
+  "row": 1573,
+  "name": "Media Mania",
+  "domain": "mediamaniaonline.com",
+  "country": "US",
+  "website": "https://mediamaniaonline.com/",
+  "previous_status": "ADAPTER_TESTED",
+  "previous_reason": "no confirmed new vinyl on bounded page",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1573,
+    "name": "Media Mania",
+    "domain": "mediamaniaonline.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "listing",
+    "platform": "woocommerce",
+    "source_url": "https://mediamaniaonline.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "adapter_class": "WooCommerceNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 2,
+    "accepted": 0,
+    "excluded": 2,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "method_candidates": [
+      {
+        "platform": "woocommerce",
+        "route": "https://mediamaniaonline.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "products_seen": 2,
+        "accepted": 0,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://mediamaniaonline.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://mediamaniaonline.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://mediamaniaonline.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://mediamaniaonline.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://mediamaniaonline.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://mediamaniaonline.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ],
+    "selected_method": {
+      "platform": "woocommerce",
+      "route": "https://mediamaniaonline.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 0,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "reason": "no confirmed new vinyl on bounded page"
+  },
+  "platform": "woocommerce",
+  "catalog_route": "https://mediamaniaonline.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "listing_sample": 0,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 0,
+    "unique_prices": 0,
+    "shipping_hits": 0,
+    "currencies": []
+  },
+  "secondhand_observed": false,
+  "examples": [],
+  "requests": [
+    {
+      "url": "https://mediamaniaonline.com/robots.txt",
+      "sha256": "be1414714551179a0f2922362ca43113fcdab2f0915889a8cb4a32f4085220a6"
+    },
+    {
+      "url": "https://mediamaniaonline.com/",
+      "sha256": "b78cc25677140884609f0e7bf01df852e94cc9283f4df02f705f9e54cf75929c"
+    },
+    {
+      "url": "https://mediamaniaonline.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "d9879fb3987175cedff9d8eaf66184b4d1d0ac4255fb3fade53cbb2735b43946"
+    },
+    {
+      "url": "https://mediamaniaonline.com/api/0.1/collections/products?format=json",
+      "sha256": "d748fc8c5e3d50048aff1b44745f51795961e2366cba84dc2a269a6e02ccfd97"
+    },
+    {
+      "url": "https://mediamaniaonline.com/api/0.1/collections/all/products?format=json",
+      "sha256": "b8fe93f33ab6fcb55b84868cae8400418f189fa3d997dda22cb95d769a06aaa6"
+    },
+    {
+      "url": "https://mediamaniaonline.com/api/storefront/products?limit=20&offset=0",
+      "sha256": "9308217cbdcf778eb564aa78273856485e3d9cecc08133e3b1d299e9eb4cd8a3"
+    },
+    {
+      "url": "https://mediamaniaonline.com/api/storefront/products?limit=20",
+      "sha256": "83b452b0314bc63ca831655be3133622e617dff0bd77cbbc51bcf00b5f51daf1"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:vinyl",
+    "not_proven:new_used_distinguishable",
+    "not_proven:public_prices",
+    "not_proven:availability",
+    "not_proven:stable_urls"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": false,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": false,
+    "availability": false,
+    "stable_urls": false,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1573",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40876891792-1",
+  "queue_rows": [
+    1573
+  ],
+  "assessment_path": "assessments/v2/mediamaniaonline_com/v2-40876891792-1.json"
+}
