@@ -1,0 +1,133 @@
+{
+  "fingerprint": "e07819cbef5026bdc76c5fd86d02ecdadb70e1e766cb38f23eac74bd3320c576",
+  "domain": "theendofallmusicjxn.com",
+  "batch": 17,
+  "repair_attempts": 3,
+  "repair_modes": [
+    "ean"
+  ],
+  "admitted": true,
+  "status": "FROZEN",
+  "run_id": "40828686930",
+  "updated_at": "2026-10-29T06:21:33.291447+00:00",
+  "evidence": {
+    "domain": "theendofallmusicjxn.com",
+    "route": "https://theendofallmusicjxn.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-29T06:21:31.551182+00:00",
+    "requests": [
+      {
+        "url": "https://theendofallmusicjxn.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "12291531a34394eff479152e334c34892123849250c5228a48e7554181bf6d8f"
+      },
+      {
+        "url": "https://theendofallmusicjxn.com/products/in-the-storm-so-long?variant=51862862463281",
+        "sha256": "2e18c3b536412e17e1051181f1c017f22f147b49863cc7eb5a2786b7702de7dc"
+      }
+    ],
+    "listing_records": 16,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 16,
+      "unique_prices": 12,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "invalid_detail_gtin",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 8,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "40164542697"
+    },
+    {
+      "batch": 15,
+      "status": "REVIEW",
+      "reason": "invalid_detail_gtin",
+      "run_id": "40455623960"
+    },
+    {
+      "batch": 16,
+      "status": "REVIEW",
+      "reason": "invalid_detail_gtin",
+      "run_id": "40642431631"
+    },
+    {
+      "batch": 17,
+      "status": "FROZEN",
+      "reason": "invalid_detail_gtin",
+      "run_id": "40828686930"
+    }
+  ],
+  "admission_evidence": {
+    "domain": "theendofallmusicjxn.com",
+    "route": "https://theendofallmusicjxn.com/products.json?limit=20&page=1",
+    "observed_at": "2026-10-25T05:10:48.556333+00:00",
+    "requests": [
+      {
+        "url": "https://theendofallmusicjxn.com/products.json?limit=20&page=1",
+        "sha256": "d98414e8647f25e84075efe1bae25e0339b9b8a3c6a6140a9e43cf59b233e0dc"
+      },
+      {
+        "url": "https://theendofallmusicjxn.com/products/the-beatles-rubber-soul-lp-2026-remastered-super-deluxe-5lp-set?variant=56558558413105",
+        "sha256": "e7a7e280bf1ded45e7085eb9f87d6b9a783c69e0826144116b50395dbe3d3b2d"
+      },
+      {
+        "url": "https://theendofallmusicjxn.com/products/don-julian-and-the-larks-super-slick-lp-blue-vinyl?variant=51862880944433",
+        "sha256": "04c325817c4dbd435d84be86754a4b96a7893ab53412078d600e1ebc865660d9"
+      },
+      {
+        "url": "https://theendofallmusicjxn.com/products/funkadelic-free-your-mind-lp-50th-anniv-blue-vinyl?variant=51862907945265",
+        "sha256": "f6d6de165030c9f058600218f9faa393a4cd2230d52ed3647fb552c59a34efa0"
+      }
+    ],
+    "listing_records": 15,
+    "detail_checked": 3,
+    "valid_eans": 3,
+    "details": [
+      {
+        "url": "https://theendofallmusicjxn.com/products/the-beatles-rubber-soul-lp-2026-remastered-super-deluxe-5lp-set?variant=56558558413105",
+        "price": "247.99",
+        "currency": "USD",
+        "ean": "00602465723045",
+        "condition": "new"
+      },
+      {
+        "url": "https://theendofallmusicjxn.com/products/don-julian-and-the-larks-super-slick-lp-blue-vinyl?variant=51862880944433",
+        "price": "27.99",
+        "currency": "USD",
+        "ean": "00848064013419",
+        "condition": "new"
+      },
+      {
+        "url": "https://theendofallmusicjxn.com/products/funkadelic-free-your-mind-lp-50th-anniv-blue-vinyl?variant=51862907945265",
+        "price": "34.99",
+        "currency": "USD",
+        "ean": "00711574978816",
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 15,
+      "unique_prices": 12,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "APPROVED"
+  }
+}
