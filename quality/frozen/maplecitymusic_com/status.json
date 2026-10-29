@@ -1,0 +1,163 @@
+{
+  "fingerprint": "676a376e77ac296237d8f6b30187a3a3ed0c7d91ec7833334f49c6df997ed8bb",
+  "domain": "maplecitymusic.com",
+  "batch": 17,
+  "repair_attempts": 3,
+  "repair_modes": [
+    "ean"
+  ],
+  "admitted": true,
+  "status": "FROZEN",
+  "run_id": "40828686930",
+  "updated_at": "2026-10-29T06:21:31.511708+00:00",
+  "evidence": {
+    "domain": "maplecitymusic.com",
+    "route": "https://maplecitymusic.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-29T06:21:27.970111+00:00",
+    "requests": [
+      {
+        "url": "https://maplecitymusic.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "7e568d02c360dc4993440f63f29050bef56ef286cd95f8252e24349993404f97"
+      },
+      {
+        "url": "https://maplecitymusic.com/products/38-special-rockin-into-the-night-used?variant=47310832533681",
+        "sha256": "01f0d17c5f746926b0fd1dd613a96ca2d5d28d3bbbe13a01bfa257ba9d77bd8d"
+      },
+      {
+        "url": "https://maplecitymusic.com/products/38-special-strength-in-numbers-vinyl-lp-album-club-edition-1986-a-m-records-sp-5115?variant=47453974593713",
+        "sha256": "42742925de93eee5e165bfcd827a5bf688340aaa7a7e8586370a8f07a2fce43a"
+      },
+      {
+        "url": "https://maplecitymusic.com/products/38-special-wild-eyed-southern-boys-used?variant=47310832500913",
+        "sha256": "bcd0826502d0df44eb9ae0b4f8940fe27a78939eb594829eb0665d453d4cfbe7"
+      }
+    ],
+    "listing_records": 4,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://maplecitymusic.com/products/38-special-rockin-into-the-night-used?variant=47310832533681",
+        "price": "18.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://maplecitymusic.com/products/38-special-strength-in-numbers-vinyl-lp-album-club-edition-1986-a-m-records-sp-5115?variant=47453974593713",
+        "price": "10.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://maplecitymusic.com/products/38-special-wild-eyed-southern-boys-used?variant=47310832500913",
+        "price": "12.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 4,
+      "unique_prices": 4,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 4,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "39548302912"
+    },
+    {
+      "batch": 15,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40455623960"
+    },
+    {
+      "batch": 16,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40642431631"
+    },
+    {
+      "batch": 17,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40828686930"
+    }
+  ],
+  "admission_evidence": {
+    "domain": "maplecitymusic.com",
+    "route": "https://maplecitymusic.com/products.json?limit=20&page=1",
+    "observed_at": "2026-10-21T05:14:03.520467+00:00",
+    "requests": [
+      {
+        "url": "https://maplecitymusic.com/products.json?limit=20&page=1",
+        "sha256": "3a329f05a848e859b13786878d2dcdacb35f606519e3e1be71db92d43b1b2b53"
+      },
+      {
+        "url": "https://maplecitymusic.com/products/dire-straits-extendedanceplay-vinyl-12-33-rpm-ep-1983-warner-bros-records-0-29800-specialty-pressing?variant=47860582908081",
+        "sha256": "9d2a1642e531e0a6a91b4a0115e1ceda5468a94579ca69e3c38d56e93b110baf"
+      },
+      {
+        "url": "https://maplecitymusic.com/products/hank-williams-jr-rich-white-honky-blues-vinyl-lp-album-limited-edition-metallic-gold-2022-easy-eye-sound-ees-030-ees03001?variant=48043829166257",
+        "sha256": "8cf4b2af5f459a7f9d515f7e6d49ef4d239e11ad7753ea2991a9d80a3a708337"
+      },
+      {
+        "url": "https://maplecitymusic.com/products/linda-ronstadt-simple-dreams-vinyl-lp-album-stereo-specialty-pressing-gatefold-1977-asylum-records-6e-104?variant=48043902861489",
+        "sha256": "ec4db340daef251ab3816c815637335aa4a34c67c88d3e1b5ce0aa4d7748c845"
+      }
+    ],
+    "listing_records": 19,
+    "detail_checked": 3,
+    "valid_eans": 1,
+    "details": [
+      {
+        "url": "https://maplecitymusic.com/products/dire-straits-extendedanceplay-vinyl-12-33-rpm-ep-1983-warner-bros-records-0-29800-specialty-pressing?variant=47860582908081",
+        "price": "10.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://maplecitymusic.com/products/hank-williams-jr-rich-white-honky-blues-vinyl-lp-album-limited-edition-metallic-gold-2022-easy-eye-sound-ees-030-ees03001?variant=48043829166257",
+        "price": "20.00",
+        "currency": "USD",
+        "ean": "00888072418547",
+        "condition": "new"
+      },
+      {
+        "url": "https://maplecitymusic.com/products/linda-ronstadt-simple-dreams-vinyl-lp-album-stereo-specialty-pressing-gatefold-1977-asylum-records-6e-104?variant=48043902861489",
+        "price": "8.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 19,
+      "unique_prices": 11,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "APPROVED"
+  }
+}
