@@ -1,0 +1,196 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T22:51:41.069033+00:00",
+  "shop_id": "rockinrubys.com",
+  "row": 2279,
+  "name": "Rockin' Ruby's Records - Bainbridge Island; Rockin' Ruby's Records - Poulsbo",
+  "domain": "rockinrubys.com",
+  "country": "US",
+  "website": "https://rockinrubys.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2279,
+    "name": "Rockin' Ruby's Records - Bainbridge Island; Rockin' Ruby's Records - Poulsbo",
+    "domain": "rockinrubys.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://rockinrubys.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 11,
+    "excluded": 9,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://rockinrubys.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://rockinrubys.com/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://rockinrubys.com/collections/all/products.json?limit=20&page=1",
+        "score": 95,
+        "products_seen": 20,
+        "accepted": 9,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://rockinrubys.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rockinrubys.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rockinrubys.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rockinrubys.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rockinrubys.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://rockinrubys.com/products.json?limit=20&page=1",
+      "score": 115,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://rockinrubys.com/products.json?limit=20&page=1",
+  "listing_sample": 11,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 11,
+    "unique_prices": 11,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://rockinrubys.com/robots.txt",
+      "sha256": "2fac931688df4af49943f22e8b87f25f3a4cc419b66e58caa593432090bb0460"
+    },
+    {
+      "url": "https://rockinrubys.com/",
+      "sha256": "2f89a1efa1e65c34fd1d287559aa6761f276dd442536317c56b22da5686e9284"
+    },
+    {
+      "url": "https://rockinrubys.com/products.json?limit=20&page=1",
+      "sha256": "1621f631555a02a1964a59ad62e1607578452c9bec047da4ba88fdab64276e30"
+    },
+    {
+      "url": "https://rockinrubys.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "9a5c649be5c92bdeb1bbc9b2e163e3a2da0dd98438e635e4ce1c3212a002074c"
+    },
+    {
+      "url": "https://rockinrubys.com/products/you-can-dance",
+      "sha256": "e1cc4dae778f26ea22cfb726ec0cbeb5586ef7178be662c6d70283f1379ac868"
+    },
+    {
+      "url": "https://rockinrubys.com/products/thanks-for-asking",
+      "sha256": "00a2bd537fd249a304c0987e2e9a4c87c9a4c8ca98200f488f54f9e07177a754"
+    },
+    {
+      "url": "https://rockinrubys.com/products/slave-to-time?variant=42364427436103",
+      "sha256": "460afd56bd1b267665df5261b55d74d70d0a0f9ea303819e75bfe41a2c83800a"
+    },
+    {
+      "url": "https://rockinrubys.com/products/search-for-the-new-land?variant=42689596817479",
+      "sha256": "feaa321fbef4f050492e75f2b29c1e74221a6ffba7388694844a6477335d1ab1"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "invalid_detail_gtin"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 1,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "invalid_detail_gtin"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2279",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40967865934-1",
+  "queue_rows": [
+    2279
+  ],
+  "assessment_path": "assessments/v2/rockinrubys_com/v2-40967865934-1.json"
+}
