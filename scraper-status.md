@@ -3676,9 +3676,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **2110**. Open: **1214**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **2210**. Open: **1114**.
 
-EAN: **44** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **2039** | UNSUITABLE: **0**
+EAN: **46** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **2137** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -5747,110 +5747,110 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Record Graveyard | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Record Grouch | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Record Guys | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
-| Record Head | US | Nog te beoordelen | — | — | — | — |
-| Record Heaven Pro Sound, Inc. | US | Nog te beoordelen | — | — | — | — |
-| Record High | US | Nog te beoordelen | — | — | — | — |
-| Record King | US | Nog te beoordelen | — | — | — | — |
-| Record Krate | US | Nog te beoordelen | — | — | — | — |
-| Record Lover | US | Nog te beoordelen | — | — | — | — |
-| Record Museum | US | Nog te beoordelen | — | — | — | — |
-| Record Outlet | US | Nog te beoordelen | — | — | — | — |
-| Record Parlor of Muncie | US | Nog te beoordelen | — | — | — | — |
-| Record Rack | US | Nog te beoordelen | — | — | — | — |
-| Record Recycler | US | Nog te beoordelen | — | — | — | — |
-| Record Reserve | US | Nog te beoordelen | — | — | — | — |
-| Record Reunion | US | Nog te beoordelen | — | — | — | — |
-| Record Revival | US | Nog te beoordelen | — | — | — | — |
-| Record Runner | US | Nog te beoordelen | — | — | — | — |
-| Record Safari | US | Nog te beoordelen | — | — | — | — |
-| Record Shack and Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Record Shack and Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Record Sleeve | US | Nog te beoordelen | — | — | — | — |
-| Record Smith PA | US | Nog te beoordelen | — | — | — | — |
-| RECORD STOP | US | Nog te beoordelen | — | — | — | — |
-| Record Stop Charleston | US | Nog te beoordelen | — | — | — | — |
-| Record Surplus | US | Nog te beoordelen | — | — | — | — |
-| Record Swap | US | Nog te beoordelen | — | — | — | — |
+| Record Head | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Record Heaven Pro Sound, Inc. | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Record High | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Record King | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Record Krate | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Record Lover | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Record Museum | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | RemoteDisconnected | — |
+| Record Outlet | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Record Parlor of Muncie | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Record Rack | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Record Recycler | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Record Reserve | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Record Reunion | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Record Revival | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Record Runner | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Record Safari | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Record Shack and Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Record Shack and Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Record Sleeve | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Record Smith PA | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| RECORD STOP | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Record Stop Charleston | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Record Surplus | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Record Swap | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Record Town | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:new_used_distinguishable | — |
-| Record Town Inc | US | Nog te beoordelen | — | — | — | — |
-| Record Trader 1 | US | Nog te beoordelen | — | — | — | — |
-| Record Vault | US | Nog te beoordelen | — | — | — | — |
-| Record Whirled | US | Nog te beoordelen | — | — | — | — |
-| Record Wonderland | US | Nog te beoordelen | — | — | — | — |
-| Recorded Memories | US | Nog te beoordelen | — | — | — | — |
-| recordfanatics | US | Nog te beoordelen | — | — | — | — |
-| Records | US | Nog te beoordelen | — | — | — | — |
-| Records - The Good Kind | US | Nog te beoordelen | — | — | — | — |
-| Records & Rarities | US | Nog te beoordelen | — | — | — | — |
-| Records & Relics RVA | US | Nog te beoordelen | — | — | — | — |
-| Records & Tapes Galore | US | Nog te beoordelen | — | — | — | — |
-| Records & Things Strange | US | Nog te beoordelen | — | — | — | — |
-| Records and Cds store | US | Nog te beoordelen | — | — | — | — |
-| Records at A & R Bargain Depot | US | Nog te beoordelen | — | — | — | — |
-| RECORDS ETC | US | Nog te beoordelen | — | — | — | — |
-| Records Forever | US | Nog te beoordelen | — | — | — | — |
-| Records Galore | US | Nog te beoordelen | — | — | — | — |
-| Records in the RAD | US | Nog te beoordelen | — | — | — | — |
-| Records On Main | US | Nog te beoordelen | — | — | — | — |
-| Records Per Minute | US | Nog te beoordelen | — | — | — | — |
-| Records Plus | US | Nog te beoordelen | — | — | — | — |
-| Recyclable Records | US | Nog te beoordelen | — | — | — | — |
-| Recycled Books Records CDs | US | Nog te beoordelen | — | — | — | — |
-| Recycled Records | US | Nog te beoordelen | — | — | — | — |
-| Recycled Records | US | Nog te beoordelen | — | — | — | — |
-| Recycled Records | US | Nog te beoordelen | — | — | — | — |
-| Recycled Sounds | US | Nog te beoordelen | — | — | — | — |
-| Red Bird Music Store | US | Nog te beoordelen | — | — | — | — |
-| Red Brontosaurus Records | US | Nog te beoordelen | — | — | — | — |
-| Red Bull Records | US | Nog te beoordelen | — | — | — | — |
-| Red Devil Records | US | Nog te beoordelen | — | — | — | — |
-| Red Truck Records | US | Nog te beoordelen | — | — | — | — |
-| Red Wagon Records | US | Nog te beoordelen | — | — | — | — |
-| Red Zeppelin Records | US | Nog te beoordelen | — | — | — | — |
-| Redd's Records | US | Nog te beoordelen | — | — | — | — |
-| Redding Records & Music | US | Nog te beoordelen | — | — | — | — |
-| Rediscover Records | US | Nog te beoordelen | — | — | — | — |
-| Redlands Vinyl Records and Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Redscroll Records | US | Nog te beoordelen | — | — | — | — |
-| Redwood Records | US | Nog te beoordelen | — | — | — | — |
-| Reef Records; Reef Records Lakemoor | US | Nog te beoordelen | — | — | — | — |
-| Region records | US | Nog te beoordelen | — | — | — | — |
-| Reimagine Records | US | Nog te beoordelen | — | — | — | — |
-| Relics Vendor Market | US | Nog te beoordelen | — | — | — | — |
-| Remember When Records | US | Nog te beoordelen | — | — | — | — |
-| Remember Wynn Records | US | Nog te beoordelen | — | — | — | — |
-| Remix | US | Nog te beoordelen | — | — | — | — |
-| Remix Record Shop | US | Nog te beoordelen | — | — | — | — |
+| Record Town Inc | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Record Trader 1 | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Record Vault | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Record Whirled | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Record Wonderland | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Recorded Memories | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| recordfanatics | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Records - The Good Kind | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Records & Rarities | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Records & Relics RVA | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Records & Tapes Galore | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Records & Things Strange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Records and Cds store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Records at A & R Bargain Depot | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| RECORDS ETC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Records Forever | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Records Galore | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Records in the RAD | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Records On Main | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | invalid_detail_gtin | — |
+| Records Per Minute | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Records Plus | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Recyclable Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Recycled Books Records CDs | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Recycled Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Recycled Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Recycled Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Recycled Sounds | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Red Bird Music Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Red Brontosaurus Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Red Bull Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Red Devil Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Red Truck Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Red Wagon Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Red Zeppelin Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Redd's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Redding Records & Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Rediscover Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Redlands Vinyl Records and Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Redscroll Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Redwood Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Reef Records; Reef Records Lakemoor | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Region records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Reimagine Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Relics Vendor Market | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Remember When Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Remember Wynn Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Remix | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Remix Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Renaissance Records - Label HQ | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | insufficient_representative_product_evidence | — |
-| Renaissance Records Inc | US | Nog te beoordelen | — | — | — | — |
-| ReNew Consignment & Thrift | US | Nog te beoordelen | — | — | — | — |
-| Renfield Record Exchange llc | US | Nog te beoordelen | — | — | — | — |
-| Repo Record | US | Nog te beoordelen | — | — | — | — |
-| Repo Records | US | Nog te beoordelen | — | — | — | — |
-| Residency Records | US | Nog te beoordelen | — | — | — | — |
+| Renaissance Records Inc | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| ReNew Consignment & Thrift | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Renfield Record Exchange llc | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Repo Record | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Repo Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Residency Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
 | Resident Music | GB | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
 | Resident Vinyl | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40571453864-1/residentvinyl_com |
-| Resignation Records | US | Nog te beoordelen | — | — | — | — |
-| Resurrection Records | US | Nog te beoordelen | — | — | — | — |
-| Retro Alley | US | Nog te beoordelen | — | — | — | — |
-| Retro Emporium | US | Nog te beoordelen | — | — | — | — |
-| Retro Fiend | US | Nog te beoordelen | — | — | — | — |
-| Retro Mania Vintage Market | US | Nog te beoordelen | — | — | — | — |
-| Retro Music | US | Nog te beoordelen | — | — | — | — |
-| Retro Records | US | Nog te beoordelen | — | — | — | — |
-| Retro Records | US | Nog te beoordelen | — | — | — | — |
-| Retro Rocks | US | Nog te beoordelen | — | — | — | — |
-| Retro Room Records and oddities | US | Nog te beoordelen | — | — | — | — |
-| Retro Rose | US | Nog te beoordelen | — | — | — | — |
-| Retro Spin Shop | US | Nog te beoordelen | — | — | — | — |
-| Retro Stereo | US | Nog te beoordelen | — | — | — | — |
-| Retro Vibes - Vintage Stereo & Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Retroactive Records And Games | US | Nog te beoordelen | — | — | — | — |
-| RetroAddicts | US | Nog te beoordelen | — | — | — | — |
-| Retrofit Records | US | Nog te beoordelen | — | — | — | — |
-| Retrograde Gaming and Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Retroitis | US | Nog te beoordelen | — | — | — | — |
+| Resignation Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Resurrection Records | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Retro Alley | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Retro Emporium | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Retro Fiend | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Retro Mania Vintage Market | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Retro Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Retro Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Retro Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Retro Rocks | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Retro Room Records and oddities | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Retro Rose | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Retro Spin Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Retro Stereo | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Retro Vibes - Vintage Stereo & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Retroactive Records And Games | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| RetroAddicts | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Retrofit Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Retrograde Gaming and Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Retroitis | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
 | RetroSound Records | US | Nog te beoordelen | — | — | — | — |
 | Retrospekt | US | Nog te beoordelen | — | — | — | — |
 | Rev Charles' Dodds Record Shop | US | Nog te beoordelen | — | — | — | — |
