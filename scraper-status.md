@@ -3672,12 +3672,13 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | yurisrecords.com | 16 | REVIEW | 0 | 16 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | zoinksrecords.com | 16 | REVIEW | 0 | 17 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 <!-- quality-gate:end -->
+
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **1410**. Open: **1914**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **1510**. Open: **1814**.
 
-EAN: **35** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **1348** | UNSUITABLE: **0**
+EAN: **36** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **1447** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -5034,106 +5035,106 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | KC/DC Record Booth | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
 | KEBS Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Keene on Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
-| Keepers Antique Shop | US | Nog te beoordelen | — | — | — | — |
-| Kelley's Vinyl Record Store | US | Nog te beoordelen | — | — | — | — |
-| Kelty Audio | US | Nog te beoordelen | — | — | — | — |
-| Kerfuffle K-Pop | US | Nog te beoordelen | — | — | — | — |
-| KEVIN'S RECORDS | US | Nog te beoordelen | — | — | — | — |
-| Key to the Past Antique Center, Clinton | US | Nog te beoordelen | — | — | — | — |
-| Keynote Used Records & Books | US | Nog te beoordelen | — | — | — | — |
-| Kicksville Vinyl & Vintage | US | Nog te beoordelen | — | — | — | — |
-| Kilgor Trouts | US | Nog te beoordelen | — | — | — | — |
-| Killer Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Killerfinds Rome | US | Nog te beoordelen | — | — | — | — |
-| Kilovolt Records | US | Nog te beoordelen | — | — | — | — |
-| King Records | US | Nog te beoordelen | — | — | — | — |
-| King Theodore Records | US | Nog te beoordelen | — | — | — | — |
-| Kingdom Corner Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Kingfish Records | US | Nog te beoordelen | — | — | — | — |
-| Kismet Creative Center | US | Nog te beoordelen | — | — | — | — |
-| Kiss the Sky | US | Nog te beoordelen | — | — | — | — |
-| Kitschy Spirit Records | US | Nog te beoordelen | — | — | — | — |
-| Knapp's | US | Nog te beoordelen | — | — | — | — |
-| Knockout Records Music | US | Nog te beoordelen | — | — | — | — |
-| Know Name Records | US | Nog te beoordelen | — | — | — | — |
-| Kool Cat Records | US | Nog te beoordelen | — | — | — | — |
-| KorK; STL Kpop Store | US | Nog te beoordelen | — | — | — | — |
-| Kosmos Music | US | Nog te beoordelen | — | — | — | — |
-| Kowabunga Comics | US | Nog te beoordelen | — | — | — | — |
-| KPOP & GIFT McAllen | US | Nog te beoordelen | — | — | — | — |
-| KPOP NARA SF | US | Nog te beoordelen | — | — | — | — |
-| Kraken Records | US | Nog te beoordelen | — | — | — | — |
-| Krazy Katz Vintage Vinyl Records | US | Nog te beoordelen | — | — | — | — |
-| KT Media | US | Nog te beoordelen | — | — | — | — |
-| La Casa De Los CD | US | Nog te beoordelen | — | — | — | — |
-| La Casa De Reggaeton Record | US | Nog te beoordelen | — | — | — | — |
-| La Feria del Disco | US | Nog te beoordelen | — | — | — | — |
-| La Nouvelle Generation | US | Nog te beoordelen | — | — | — | — |
-| La Tropicana Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Laced Up Screen Printers/ October's Ritvals Records | US | Nog te beoordelen | — | — | — | — |
-| Lagniappe Records | US | Nog te beoordelen | — | — | — | — |
-| Lake Country Books and More | US | Nog te beoordelen | — | — | — | — |
-| Landfill Rescue Unit Records | US | Nog te beoordelen | — | — | — | — |
-| Landlocked Music | US | Nog te beoordelen | — | — | — | — |
-| Lantern Records | US | Nog te beoordelen | — | — | — | — |
-| Lark Street Records | US | Nog te beoordelen | — | — | — | — |
-| Last Dog Records | US | Nog te beoordelen | — | — | — | — |
-| Last Exit Books and Coffeehouse | US | Nog te beoordelen | — | — | — | — |
-| Last Exit Vinyl House | US | Nog te beoordelen | — | — | — | — |
-| Last Man Standing | US | Nog te beoordelen | — | — | — | — |
-| Last Stop CD Shop | US | Nog te beoordelen | — | — | — | — |
-| Last Stop CD Shop | US | Nog te beoordelen | — | — | — | — |
-| Last Vestige Music Shop | US | Nog te beoordelen | — | — | — | — |
-| Latchkey | US | Nog te beoordelen | — | — | — | — |
-| Late Nite Records | US | Nog te beoordelen | — | — | — | — |
-| Lathe Cut Vinyl Records | US | Nog te beoordelen | — | — | — | — |
-| Latino Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Laughing Sam’s Discs | US | Nog te beoordelen | — | — | — | — |
-| Launderette Records | US | Nog te beoordelen | — | — | — | — |
-| Laurie's Planet of Sound | US | Nog te beoordelen | — | — | — | — |
-| Lavender Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Leave Your Mark Sacramento | US | Nog te beoordelen | — | — | — | — |
-| Leeways Home Grown Music Network | US | Nog te beoordelen | — | — | — | — |
-| Left 'Round Records | US | Nog te beoordelen | — | — | — | — |
-| Left of the Dial Records | US | Nog te beoordelen | — | — | — | — |
-| Lefty's Records | US | Nog te beoordelen | — | — | — | — |
-| Legend Records | US | Nog te beoordelen | — | — | — | — |
-| Legendary Comics & Records | US | Nog te beoordelen | — | — | — | — |
-| Lemoyne Coin and Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Lester's Rock n Roll Shop | US | Nog te beoordelen | — | — | — | — |
-| Let's Boogie Records & Tapes | US | Nog te beoordelen | — | — | — | — |
-| Let's Rock Crystal Shop | US | Nog te beoordelen | — | — | — | — |
-| Levee Street Market Place | US | Nog te beoordelen | — | — | — | — |
-| Libby's Old School Records | US | Nog te beoordelen | — | — | — | — |
-| Liberal Squid Records | US | Nog te beoordelen | — | — | — | — |
-| Liberty Records | US | Nog te beoordelen | — | — | — | — |
-| Licorice Pizza Records | US | Nog te beoordelen | — | — | — | — |
-| Lighthouse Music | US | Nog te beoordelen | — | — | — | — |
-| Lilliput Records | US | Nog te beoordelen | — | — | — | — |
-| Lily's Record Shop Inc | US | Nog te beoordelen | — | — | — | — |
-| Limbo Records & Rarities | US | Nog te beoordelen | — | — | — | — |
-| Limited to One Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Lincoln Vintage Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Lincolnville Listening Room & Cold Bar | US | Nog te beoordelen | — | — | — | — |
-| Linger | US | Nog te beoordelen | — | — | — | — |
-| Lingering Memories Antiques and Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Listen Here & Phoenix Glass | US | Nog te beoordelen | — | — | — | — |
-| Listen Up Music | US | Nog te beoordelen | — | — | — | — |
-| Listening Room | US | Nog te beoordelen | — | — | — | — |
-| Lititz Music Co. | US | Nog te beoordelen | — | — | — | — |
-| Lito's Records & Western Wear | US | Nog te beoordelen | — | — | — | — |
-| Little Axe Records; Little Axe Records Springfield | US | Nog te beoordelen | — | — | — | — |
-| Little Big Store | US | Nog te beoordelen | — | — | — | — |
-| Little Horse Vintage Fort Collins; Little Horse Vintage Louisville | US | Nog te beoordelen | — | — | — | — |
-| Little Records | US | Nog te beoordelen | — | — | — | — |
-| Little Shop Of Treasures | US | Nog te beoordelen | — | — | — | — |
-| Living In Stereo | US | Nog te beoordelen | — | — | — | — |
-| Livvy Rocks | US | Nog te beoordelen | — | — | — | — |
-| Lizard Dog Records | US | Nog te beoordelen | — | — | — | — |
-| Lloyd's Records | US | Nog te beoordelen | — | — | — | — |
-| LO & BEHOLD! Records & Books! | US | Nog te beoordelen | — | — | — | — |
-| Loadio Music - Monsey | US | Nog te beoordelen | — | — | — | — |
-| Lonely Crab Records | US | Nog te beoordelen | — | — | — | — |
+| Keepers Antique Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Kelley's Vinyl Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Kelty Audio | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Kerfuffle K-Pop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| KEVIN'S RECORDS | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
+| Key to the Past Antique Center, Clinton | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Keynote Used Records & Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Kicksville Vinyl & Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Kilgor Trouts | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Killer Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Killerfinds Rome | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Kilovolt Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| King Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| King Theodore Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Kingdom Corner Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Kingfish Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Response size limit | — |
+| Kismet Creative Center | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Kiss the Sky | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Kitschy Spirit Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Knapp's | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Knockout Records Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Know Name Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Kool Cat Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| KorK; STL Kpop Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Kosmos Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Kowabunga Comics | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | RemoteDisconnected | — |
+| KPOP & GIFT McAllen | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| KPOP NARA SF | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Kraken Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Krazy Katz Vintage Vinyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| KT Media | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| La Casa De Los CD | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| La Casa De Reggaeton Record | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| La Feria del Disco | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| La Nouvelle Generation | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| La Tropicana Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Laced Up Screen Printers/ October's Ritvals Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Lagniappe Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Lake Country Books and More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Landfill Rescue Unit Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Landlocked Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Lantern Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Lark Street Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Last Dog Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Last Exit Books and Coffeehouse | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Last Exit Vinyl House | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Last Man Standing | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Last Stop CD Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Last Stop CD Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Last Vestige Music Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Latchkey | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Late Nite Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Lathe Cut Vinyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Latino Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Laughing Sam’s Discs | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Launderette Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Laurie's Planet of Sound | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Lavender Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Leave Your Mark Sacramento | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Leeways Home Grown Music Network | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Left 'Round Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Left of the Dial Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Lefty's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Legend Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Legendary Comics & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Lemoyne Coin and Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Lester's Rock n Roll Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Let's Boogie Records & Tapes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Let's Rock Crystal Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Levee Street Market Place | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Libby's Old School Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Liberal Squid Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Liberty Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Licorice Pizza Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Lighthouse Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Lilliput Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Lily's Record Shop Inc | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Limbo Records & Rarities | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Limited to One Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Lincoln Vintage Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Lincolnville Listening Room & Cold Bar | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Linger | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Lingering Memories Antiques and Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Listen Here & Phoenix Glass | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Listen Up Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Listening Room | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Lititz Music Co. | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Lito's Records & Western Wear | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Little Axe Records; Little Axe Records Springfield | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Little Big Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Little Horse Vintage Fort Collins; Little Horse Vintage Louisville | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Little Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Little Shop Of Treasures | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Living In Stereo | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Livvy Rocks | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Lizard Dog Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Lloyd's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| LO & BEHOLD! Records & Books! | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Loadio Music - Monsey | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Lonely Crab Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Lonesome Frog Records | US | Nog te beoordelen | — | — | — | — |
 | Long In the Tooth | US | Nog te beoordelen | — | — | — | — |
 | Long Live Vinyl Records | US | Nog te beoordelen | — | — | — | — |
