@@ -1,0 +1,188 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T18:36:00.008820+00:00",
+  "shop_id": "portofsoundrecords.com",
+  "row": 1960,
+  "name": "Port of Sound Record Shoppe",
+  "domain": "portofsoundrecords.com",
+  "country": "US",
+  "website": "https://portofsoundrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1960,
+    "name": "Port of Sound Record Shoppe",
+    "domain": "portofsoundrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://portofsoundrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 1,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://portofsoundrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://portofsoundrecords.com/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://portofsoundrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://portofsoundrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://portofsoundrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://portofsoundrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://portofsoundrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://portofsoundrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://portofsoundrecords.com/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://portofsoundrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://portofsoundrecords.com/robots.txt",
+      "sha256": "97057f654f4758119c4f4bb75a675fb16d34f5923017b36ee9205a8b944993d3"
+    },
+    {
+      "url": "https://portofsoundrecords.com/",
+      "sha256": "fa401fdf3d40ee9e1f047872ea5a2ac7fb5d75f38d9fe20f08027df273ba858f"
+    },
+    {
+      "url": "https://portofsoundrecords.com/products.json?limit=20&page=1",
+      "sha256": "04a091bb77cd9dc4dc1f87438c9335ba487b06d33e8e9da8ee4f2ffa9a700f33"
+    },
+    {
+      "url": "https://portofsoundrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "1eee25d125cd6cec2e2cbb4befbfd6ee9a1bb36c3ede69c1dcdc10b49b7bd119"
+    },
+    {
+      "url": "https://portofsoundrecords.com/products/we-are-the-world-40th-anniversary-edition",
+      "sha256": "ddcd8104966484e54f1db07170bde5af98b2492061039bfd51b9c734eecec27e"
+    },
+    {
+      "url": "https://portofsoundrecords.com/products/we-are-the-world-40th-anniversary-edition?variant=67877283135808",
+      "sha256": "a32f45e95bc8817fe4ee064c18c3466b928b64fa74c9611bb923f64645a12ba9"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1960",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40930633846-1",
+  "queue_rows": [
+    1960
+  ],
+  "assessment_path": "assessments/v2/portofsoundrecords_com/v2-40930633846-1.json"
+}
