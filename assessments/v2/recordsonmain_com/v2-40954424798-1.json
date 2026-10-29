@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T21:10:15.789127+00:00",
+  "shop_id": "recordsonmain.com",
+  "row": 2131,
+  "name": "Records On Main",
+  "domain": "recordsonmain.com",
+  "country": "US",
+  "website": "https://recordsonmain.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2131,
+    "name": "Records On Main",
+    "domain": "recordsonmain.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://recordsonmain.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 15,
+    "excluded": 5,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://recordsonmain.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://recordsonmain.com/products.json?limit=20&page=1",
+        "score": 55,
+        "products_seen": 20,
+        "accepted": 5,
+        "excluded": 15,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://recordsonmain.com/collections/all/products.json?limit=20&page=1",
+        "score": 155,
+        "products_seen": 20,
+        "accepted": 15,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://recordsonmain.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://recordsonmain.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://recordsonmain.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://recordsonmain.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://recordsonmain.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://recordsonmain.com/collections/all/products.json?limit=20&page=1",
+      "score": 155,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://recordsonmain.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 15,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 15,
+    "unique_prices": 15,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://recordsonmain.com/robots.txt",
+      "sha256": "0f8c117455cc5cc38770788bbb130bc8314717bb3edefa9c5b4cc000f7f98788"
+    },
+    {
+      "url": "https://recordsonmain.com/",
+      "sha256": "2c7d70eb93bf9c22bcc32ce5c1ec10a1c6c207785a7bd506c19cb7cc57fa9965"
+    },
+    {
+      "url": "https://recordsonmain.com/products.json?limit=20&page=1",
+      "sha256": "89a2f49d4f5ab962531d1c22bdf7d44fd8f3603e6de99ca7e01446958109b95f"
+    },
+    {
+      "url": "https://recordsonmain.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "10dbe8bff55d87f0c1e5f38b6761e676b7e9c71f2f759e435b3d913a30dc3eb7"
+    },
+    {
+      "url": "https://recordsonmain.com/products/and-dont-forget-to-breathe-ie",
+      "sha256": "1e08800d9a9afd19761ed8bc3b04f3b89cc32154477f7151725ae6dd699d3532"
+    },
+    {
+      "url": "https://recordsonmain.com/products/5-the-gray-chapter",
+      "sha256": "c861de635859d2d80fd01d5afd031b883a5f663dcc1504c1e6ac73b15e785e78"
+    },
+    {
+      "url": "https://recordsonmain.com/products/23-classiques-inoubliables-unforgettable-classics?variant=52384120406236",
+      "sha256": "f382d70b08005340bb9fa5183eb6cf35ca6d0a31aa137fbe7fc67a44ab93b028"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "invalid_detail_gtin"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.13333333333333333,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "invalid_detail_gtin"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2131",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40954424798-1",
+  "queue_rows": [
+    2131
+  ],
+  "assessment_path": "assessments/v2/recordsonmain_com/v2-40954424798-1.json"
+}
