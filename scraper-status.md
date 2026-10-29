@@ -3406,7 +3406,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | allthebestflorence.com | 17 | REVIEW | 2 | 11 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | antonesrecordshop.com | 17 | REVIEW | 2 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | apolloexos.com | 17 | REVIEW | 2 | 1 | 0/0 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
-| arcskate.com | 1 | APPROVED | 0 | 16 | 3/3 | INCIDENT (run 40842284135) | ACTIVE | run 39155794450 |
+| arcskate.com | 1 | APPROVED | 0 | 16 | 3/3 | INCIDENT (run 40842284135) | ACTIVE (run 40854222495) | run 39155794450 |
 | artsoundlanguage.com | 17 | REVIEW | 2 | 17 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | assai.co.uk | 13 | FROZEN | 3 | 15 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | atlasrecords.co.uk | 12 | FROZEN | 3 | 7 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
