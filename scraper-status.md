@@ -3428,7 +3428,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | cameronrecords.com | 17 | APPROVED | 1 | 16 | 3/3 | ACTIVE (run 40842284135) | ACTIVE (run 40854222495) | run 40828686930 |
 | chalkys.com | 9 | APPROVED | 0 | 7 | 3/3 | ACTIVE (run 40842284135) | ACTIVE (run 40854222495) | run 40239367598 |
 | chiefrecordsonline.com | 17 | REVIEW | 1 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| cnamusicsupply.com | 2 | APPROVED | 0 | 6 | 3/3 | ACTIVE (run 40842284135) | ACTIVE | run 39203245483 |
+| cnamusicsupply.com | 2 | APPROVED | 0 | 6 | 3/3 | ACTIVE (run 40842284135) | ACTIVE (run 40854222495) | run 39203245483 |
 | comebackvinyl.com | 17 | REVIEW | 1 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | contactrecordstore.com | 17 | REVIEW | 1 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | coregamingnh.com | 2 | APPROVED | 0 | 1 | 1/1 | ACTIVE (run 40842284135) | ACTIVE (run 40854222495) | run 39203245483 |
