@@ -3676,9 +3676,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **1610**. Open: **1714**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **1710**. Open: **1614**.
 
-EAN: **38** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **1545** | UNSUITABLE: **0**
+EAN: **38** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **1645** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -5236,107 +5236,107 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | McKay's Chattanooga; McKay's Mebane; McKay's Nashville; McKay's Winston-Salem | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | McLaren's Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
 | Mean Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Media Cavern | US | Nog te beoordelen | — | — | — | — |
-| Media Mania | US | Nog te beoordelen | — | — | — | — |
-| Media Obscura - Book & CD Hut | US | Nog te beoordelen | — | — | — | — |
-| Media Reload | US | Nog te beoordelen | — | — | — | — |
-| MediumRare Records & Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Meg's Vintage Collective | US | Nog te beoordelen | — | — | — | — |
-| Mega Media Xchange Brookfield | US | Nog te beoordelen | — | — | — | — |
-| Mel's Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Mellow Matt's Music & More | US | Nog te beoordelen | — | — | — | — |
-| Melodies & Memories | US | Nog te beoordelen | — | — | — | — |
-| Melodies and Memories | US | Nog te beoordelen | — | — | — | — |
-| Melody Records | US | Nog te beoordelen | — | — | — | — |
-| Melody Supreme \| Vinyl Records | US | Nog te beoordelen | — | — | — | — |
-| Melusina Records | US | Nog te beoordelen | — | — | — | — |
-| Memo Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Memories Of Soul | US | Nog te beoordelen | — | — | — | — |
-| Memory Music & Books | US | Nog te beoordelen | — | — | — | — |
-| Memphis Music | US | Nog te beoordelen | — | — | — | — |
-| MEOWMEOWZ! Retro 80s Thrift Boutique | US | Nog te beoordelen | — | — | — | — |
-| Meridian Underground Music | US | Nog te beoordelen | — | — | — | — |
-| Meriwether Records | US | Nog te beoordelen | — | — | — | — |
-| Merle's Record Rack | US | Nog te beoordelen | — | — | — | — |
-| MetalEdge Records and Tapes | US | Nog te beoordelen | — | — | — | — |
-| Meteor Gem | US | Nog te beoordelen | — | — | — | — |
-| Metro City Records | US | Nog te beoordelen | — | — | — | — |
-| Metro Records | US | Nog te beoordelen | — | — | — | — |
-| Mi-Rural records | US | Nog te beoordelen | — | — | — | — |
-| Michiana Used Music & Media | US | Nog te beoordelen | — | — | — | — |
-| Microgroove | US | Nog te beoordelen | — | — | — | — |
-| Mid-Town Records & Tapes | US | Nog te beoordelen | — | — | — | — |
-| Midnite Moon | US | Nog te beoordelen | — | — | — | — |
-| Midwest Crossroads Market | US | Nog te beoordelen | — | — | — | — |
-| Mike's Vinyl Record Album Ultrasonic Cleaning & Appraisal | US | Nog te beoordelen | — | — | — | — |
-| Mile Long Records | US | Nog te beoordelen | — | — | — | — |
-| MileHillAntique&Art Gallery LLC | US | Nog te beoordelen | — | — | — | — |
-| Mill City Sound | US | Nog te beoordelen | — | — | — | — |
-| Mill Valley Music | US | Nog te beoordelen | — | — | — | — |
-| Miller School Shops & Spaces | US | Nog te beoordelen | — | — | — | — |
-| Millions of Records | US | Nog te beoordelen | — | — | — | — |
-| Mills Record Company | US | Nog te beoordelen | — | — | — | — |
-| Milwaukee Vintage | US | Nog te beoordelen | — | — | — | — |
-| Mimi's Antique Market | US | Nog te beoordelen | — | — | — | — |
-| Mingo's Music & More | US | Nog te beoordelen | — | — | — | — |
-| Mint Gallery Records | US | Nog te beoordelen | — | — | — | — |
-| Miss Ruth's Time Bomb | US | Nog te beoordelen | — | — | — | — |
-| Mississippi Records | US | Nog te beoordelen | — | — | — | — |
-| Mistake by the Lake Records | US | Nog te beoordelen | — | — | — | — |
-| Mister Bazaar | US | Nog te beoordelen | — | — | — | — |
-| Miyagi Records | US | Nog te beoordelen | — | — | — | — |
-| Mo Records | US | Nog te beoordelen | — | — | — | — |
-| Mobile Records | US | Nog te beoordelen | — | — | — | — |
-| Mobius Records | US | Nog te beoordelen | — | — | — | — |
-| Mod Lang | US | Nog te beoordelen | — | — | — | — |
-| Modern Legend | US | Nog te beoordelen | — | — | — | — |
-| Modern Sounds Vinyl and Music | US | Nog te beoordelen | — | — | — | — |
-| Modern Vintage Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Moe Town Records/ formerly The Estate Sale | US | Nog te beoordelen | — | — | — | — |
-| Moe’s Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Mojo Books & Records | US | Nog te beoordelen | — | — | — | — |
-| Mojo Vinyl Records | US | Nog te beoordelen | — | — | — | — |
-| Mojo’s Island Records | US | Nog te beoordelen | — | — | — | — |
-| MoJo's Records | US | Nog te beoordelen | — | — | — | — |
-| Mojo's Vinyl Bar | US | Nog te beoordelen | — | — | — | — |
-| Mojomala Books, Records & Cool Stuff | US | Nog te beoordelen | — | — | — | — |
-| Mojos | US | Nog te beoordelen | — | — | — | — |
-| Moldy Toes Records | US | Nog te beoordelen | — | — | — | — |
-| Monad Records & Hi-Fi | US | Nog te beoordelen | — | — | — | — |
-| Money Tree/Book & Music Exchange | US | Nog te beoordelen | — | — | — | — |
-| Money Up Records LLC | US | Nog te beoordelen | — | — | — | — |
-| Monk to Funk Records | US | Nog te beoordelen | — | — | — | — |
-| Monkey Feet Music | US | Nog te beoordelen | — | — | — | — |
-| Monkey Jack's Emporium | US | Nog te beoordelen | — | — | — | — |
-| Mono Mono Records | US | Nog te beoordelen | — | — | — | — |
-| Monster Music & Movies | US | Nog te beoordelen | — | — | — | — |
-| Monsters In Motion Warehouse for Curbside Pickup ONLY | US | Nog te beoordelen | — | — | — | — |
-| Montana Book Company | US | Nog te beoordelen | — | — | — | — |
-| Montclair Book Center | US | Nog te beoordelen | — | — | — | — |
-| Monumental Market | US | Nog te beoordelen | — | — | — | — |
-| Mood Ring Records | US | Nog te beoordelen | — | — | — | — |
-| Moodies Records | US | Nog te beoordelen | — | — | — | — |
-| Moods Music | US | Nog te beoordelen | — | — | — | — |
-| Moody Lords Vinyl/Vintage | US | Nog te beoordelen | — | — | — | — |
-| Moon City Modern Antique and Vintage LLC | US | Nog te beoordelen | — | — | — | — |
-| Moon Rock Records | US | Nog te beoordelen | — | — | — | — |
-| Moonchild Music | US | Nog te beoordelen | — | — | — | — |
-| Moondog Music | US | Nog te beoordelen | — | — | — | — |
-| Moondog Records | US | Nog te beoordelen | — | — | — | — |
-| Moonigan Music | US | Nog te beoordelen | — | — | — | — |
-| Moonrocket Vinyl Record Store at 8th and Ash | US | Nog te beoordelen | — | — | — | — |
-| Moonshot Emporium | US | Nog te beoordelen | — | — | — | — |
-| Moonstruck Flea Market | US | Nog te beoordelen | — | — | — | — |
-| Mop Shop Detroit | US | Nog te beoordelen | — | — | — | — |
-| MORE MORE NOW RECORDS | US | Nog te beoordelen | — | — | — | — |
-| Morgan's Comics | US | Nog te beoordelen | — | — | — | — |
-| Morpho Gallery Records | US | Nog te beoordelen | — | — | — | — |
+| Media Cavern | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Media Mania | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Media Obscura - Book & CD Hut | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Media Reload | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| MediumRare Records & Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Meg's Vintage Collective | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Mega Media Xchange Brookfield | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Mel's Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Mellow Matt's Music & More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Melodies & Memories | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Melodies and Memories | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Melody Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Melody Supreme \| Vinyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Melusina Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Memo Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Memories Of Soul | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Memory Music & Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Memphis Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| MEOWMEOWZ! Retro 80s Thrift Boutique | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Meridian Underground Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Meriwether Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Merle's Record Rack | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| MetalEdge Records and Tapes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Meteor Gem | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Metro City Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Metro Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Mi-Rural records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Michiana Used Music & Media | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Microgroove | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Mid-Town Records & Tapes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Midnite Moon | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Midwest Crossroads Market | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Mike's Vinyl Record Album Ultrasonic Cleaning & Appraisal | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Mile Long Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| MileHillAntique&Art Gallery LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Mill City Sound | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Mill Valley Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Miller School Shops & Spaces | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Millions of Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
+| Mills Record Company | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Milwaukee Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Mimi's Antique Market | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Mingo's Music & More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Mint Gallery Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | invalid_detail_gtin | — |
+| Miss Ruth's Time Bomb | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
+| Mississippi Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Response size limit | — |
+| Mistake by the Lake Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Mister Bazaar | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Miyagi Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Mo Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Mobile Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Mobius Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Mod Lang | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Modern Legend | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Modern Sounds Vinyl and Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Modern Vintage Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Moe Town Records/ formerly The Estate Sale | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Moe’s Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Mojo Books & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Mojo Vinyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Mojo’s Island Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| MoJo's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Mojo's Vinyl Bar | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Mojomala Books, Records & Cool Stuff | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Mojos | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Moldy Toes Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Monad Records & Hi-Fi | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Money Tree/Book & Music Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Money Up Records LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Monk to Funk Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Monkey Feet Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Monkey Jack's Emporium | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Mono Mono Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Monster Music & Movies | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Monsters In Motion Warehouse for Curbside Pickup ONLY | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Montana Book Company | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Montclair Book Center | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Monumental Market | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Mood Ring Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Moodies Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Moods Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Moody Lords Vinyl/Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Moon City Modern Antique and Vintage LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Moon Rock Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Moonchild Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Moondog Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Moondog Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Moonigan Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
+| Moonrocket Vinyl Record Store at 8th and Ash | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Moonshot Emporium | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Moonstruck Flea Market | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Mop Shop Detroit | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| MORE MORE NOW RECORDS | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Morgan's Comics | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Morpho Gallery Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Morrow Records | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40571453864-1/morrowrecords_com |
-| Mossy Bottom Records | US | Nog te beoordelen | — | — | — | — |
-| Mothership York | US | Nog te beoordelen | — | — | — | — |
-| Mottainai | US | Nog te beoordelen | — | — | — | — |
-| Mount Analog | US | Nog te beoordelen | — | — | — | — |
-| Mount Dora Vintage | US | Nog te beoordelen | — | — | — | — |
+| Mossy Bottom Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Mothership York | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Mottainai | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Mount Analog | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Mount Dora Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
 | Mount Holly Records | US | Nog te beoordelen | — | — | — | — |
 | Mount Vernon Records | US | Nog te beoordelen | — | — | — | — |
 | Mountain Music | US | Nog te beoordelen | — | — | — | — |
