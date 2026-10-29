@@ -3676,9 +3676,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **2210**. Open: **1114**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **2310**. Open: **1014**.
 
-EAN: **46** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **2137** | UNSUITABLE: **0**
+EAN: **47** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **2236** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -5851,110 +5851,110 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Retrofit Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Retrograde Gaming and Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | Retroitis | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
-| RetroSound Records | US | Nog te beoordelen | — | — | — | — |
-| Retrospekt | US | Nog te beoordelen | — | — | — | — |
-| Rev Charles' Dodds Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Reverberation Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Reverie Record Shop | US | Nog te beoordelen | — | — | — | — |
-| ReVibe Vintage & Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Revilla Grooves & Gear | US | Nog te beoordelen | — | — | — | — |
-| Revival Records | US | Nog te beoordelen | — | — | — | — |
-| Revival Vintage Boutique | US | Nog te beoordelen | — | — | — | — |
-| Revolution Music Company | US | Nog te beoordelen | — | — | — | — |
-| Revolution Records | US | Nog te beoordelen | — | — | — | — |
-| Revolution Records | US | Nog te beoordelen | — | — | — | — |
-| Revolution Records, LLC | US | Nog te beoordelen | — | — | — | — |
-| Revolution Valparaiso | US | Nog te beoordelen | — | — | — | — |
-| Revolution Vinyl & Vintage | US | Nog te beoordelen | — | — | — | — |
-| Revolver Records | US | Nog te beoordelen | — | — | — | — |
-| Revolver Records | US | Nog te beoordelen | — | — | — | — |
-| Revolver Records, 107 Main Street, McAdenville, NC | US | Nog te beoordelen | — | — | — | — |
-| Revolver Vintage Boutique & Record Store | US | Nog te beoordelen | — | — | — | — |
+| RetroSound Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Retrospekt | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Rev Charles' Dodds Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Reverberation Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Reverie Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| ReVibe Vintage & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Revilla Grooves & Gear | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Revival Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Revival Vintage Boutique | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Revolution Music Company | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
+| Revolution Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Revolution Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Revolution Records, LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Revolution Valparaiso | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Revolution Vinyl & Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Revolver Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Revolver Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Revolver Records, 107 Main Street, McAdenville, NC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Revolver Vintage Boutique & Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Rewind Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:new_used_distinguishable | — |
-| Rewound Sounds | US | Nog te beoordelen | — | — | — | — |
-| Rey's Records | US | Nog te beoordelen | — | — | — | — |
-| Rhema Music & Clothing Co. | US | Nog te beoordelen | — | — | — | — |
+| Rewound Sounds | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Rey's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Rhema Music & Clothing Co. | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
 | Rhinebeck Vinyl Vault | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40571453864-1/rhinebeckvinylvault_com |
-| Rhino Records | US | Nog te beoordelen | — | — | — | — |
-| Rhino Records | US | Nog te beoordelen | — | — | — | — |
-| Rhino Records | US | Nog te beoordelen | — | — | — | — |
-| Rhythm And Grooves Record Store | US | Nog te beoordelen | — | — | — | — |
-| Rhythm Records Music Cafe | US | Nog te beoordelen | — | — | — | — |
-| Ribbon Records | US | Nog te beoordelen | — | — | — | — |
-| Rich St. Records fka Roots | US | Nog te beoordelen | — | — | — | — |
-| Rich's Records and Audio HQ | US | Nog te beoordelen | — | — | — | — |
-| Richlands Record Exchange | US | Nog te beoordelen | — | — | — | — |
-| Rick’s Record Shack Florida | US | Nog te beoordelen | — | — | — | — |
-| Rick’s Record Shack Stereo & Repair | US | Nog te beoordelen | — | — | — | — |
-| Rick's Records | US | Nog te beoordelen | — | — | — | — |
-| Rick's Records | US | Nog te beoordelen | — | — | — | — |
-| Right Brain Records | US | Nog te beoordelen | — | — | — | — |
-| Right On! Records - Used/Vintage Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Right On!!! Napa | US | Nog te beoordelen | — | — | — | — |
-| Rinehart's Music & Video | US | Nog te beoordelen | — | — | — | — |
-| Ring-Tail Records | US | Nog te beoordelen | — | — | — | — |
-| RINK Gallery, A Vintage Marketplace | US | Nog te beoordelen | — | — | — | — |
-| Ripe Records Detroit | US | Nog te beoordelen | — | — | — | — |
-| Ritual Records | US | Nog te beoordelen | — | — | — | — |
-| River City Records | US | Nog te beoordelen | — | — | — | — |
-| River City Records & Books | US | Nog te beoordelen | — | — | — | — |
-| River City Vinyl | US | Nog te beoordelen | — | — | — | — |
-| River Street Beat Shop | US | Nog te beoordelen | — | — | — | — |
-| River Town Sound | US | Nog te beoordelen | — | — | — | — |
-| River Valley Records & Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Riverbend Records | US | Nog te beoordelen | — | — | — | — |
-| Rivertown Treasure Chest | US | Nog te beoordelen | — | — | — | — |
-| RiverView Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Roadkill Music Media & Home Stereo | US | Nog te beoordelen | — | — | — | — |
-| Roadrunner Records | US | Nog te beoordelen | — | — | — | — |
-| Rob's Records | US | Nog te beoordelen | — | — | — | — |
-| Robot Fighter Records | US | Nog te beoordelen | — | — | — | — |
-| Rocdamic Records | US | Nog te beoordelen | — | — | — | — |
-| Rochester Records | US | Nog te beoordelen | — | — | — | — |
-| Rock & Roll Heaven | US | Nog te beoordelen | — | — | — | — |
-| Rock and Roll Graveyard | US | Nog te beoordelen | — | — | — | — |
-| Rock and Roll Hall of Fame - Airport Store | US | Nog te beoordelen | — | — | — | — |
-| Rock and Soul DJ Equipment and Records | US | Nog te beoordelen | — | — | — | — |
-| Rock Cellar Records | US | Nog te beoordelen | — | — | — | — |
-| Rock City Music Company | US | Nog te beoordelen | — | — | — | — |
-| Rock Fantasy | US | Nog te beoordelen | — | — | — | — |
-| Rock House Records | US | Nog te beoordelen | — | — | — | — |
-| Rock n Roll Records & collectables & Etc | US | Nog te beoordelen | — | — | — | — |
-| Rock N' Roll Knife Fight | US | Nog te beoordelen | — | — | — | — |
-| Rock N' Roll Land | US | Nog te beoordelen | — | — | — | — |
-| Rock of Ages | US | Nog te beoordelen | — | — | — | — |
-| Rock of Ages | US | Nog te beoordelen | — | — | — | — |
-| Rock On Audio Video | US | Nog te beoordelen | — | — | — | — |
-| Rock Star Records | US | Nog te beoordelen | — | — | — | — |
-| Rock Star Records and CDs | US | Nog te beoordelen | — | — | — | — |
-| Rock-A-Rolla Records | US | Nog te beoordelen | — | — | — | — |
-| Rock-it Records | US | Nog te beoordelen | — | — | — | — |
+| Rhino Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Rhino Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Rhino Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Rhythm And Grooves Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Rhythm Records Music Cafe | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Ribbon Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Rich St. Records fka Roots | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Rich's Records and Audio HQ | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Richlands Record Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Rick’s Record Shack Florida | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Rick’s Record Shack Stereo & Repair | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Rick's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Rick's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Right Brain Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Right On! Records - Used/Vintage Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Right On!!! Napa | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rinehart's Music & Video | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Ring-Tail Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| RINK Gallery, A Vintage Marketplace | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Ripe Records Detroit | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Ritual Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| River City Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| River City Records & Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| River City Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| River Street Beat Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| River Town Sound | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| River Valley Records & Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Riverbend Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rivertown Treasure Chest | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| RiverView Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Roadkill Music Media & Home Stereo | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Roadrunner Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rob's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Robot Fighter Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rocdamic Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Rochester Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rock & Roll Heaven | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rock and Roll Graveyard | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Rock and Roll Hall of Fame - Airport Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Rock and Soul DJ Equipment and Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Rock Cellar Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rock City Music Company | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Response size limit | — |
+| Rock Fantasy | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rock House Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rock n Roll Records & collectables & Etc | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Rock N' Roll Knife Fight | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Rock N' Roll Land | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rock of Ages | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Rock of Ages | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Rock On Audio Video | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Rock Star Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Rock Star Records and CDs | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Rock-A-Rolla Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rock-it Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Rockaway Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| Rocket Number Nine Records | US | Nog te beoordelen | — | — | — | — |
-| Rocket Records Midtown | US | Nog te beoordelen | — | — | — | — |
-| Rocket Reuse | US | Nog te beoordelen | — | — | — | — |
-| Rocketstar records | US | Nog te beoordelen | — | — | — | — |
-| Rockin Rudy's | US | Nog te beoordelen | — | — | — | — |
-| Rockin Rudy's Record Heaven | US | Nog te beoordelen | — | — | — | — |
-| Rockin Vintage | US | Nog te beoordelen | — | — | — | — |
-| Rockin' Records | US | Nog te beoordelen | — | — | — | — |
-| Rockin’ Records & More | US | Nog te beoordelen | — | — | — | — |
-| Rockin' Ruby's Records - Bainbridge Island; Rockin' Ruby's Records - Poulsbo | US | Nog te beoordelen | — | — | — | — |
-| Rocking Chair Records | US | Nog te beoordelen | — | — | — | — |
-| Rocknrolla Records | US | Nog te beoordelen | — | — | — | — |
-| RocknShop - Vinyl records | US | Nog te beoordelen | — | — | — | — |
-| Rocks & Records | US | Nog te beoordelen | — | — | — | — |
-| Rocks & Roots Gift Shop | US | Nog te beoordelen | — | — | — | — |
-| Rocks and Records | US | Nog te beoordelen | — | — | — | — |
-| RockSteady RecordShop | US | Nog te beoordelen | — | — | — | — |
-| Rodeo Records | US | Nog te beoordelen | — | — | — | — |
-| Rody's Records | US | Nog te beoordelen | — | — | — | — |
-| Rogue Planet Music | US | Nog te beoordelen | — | — | — | — |
-| Rogue Records & Music | US | Nog te beoordelen | — | — | — | — |
-| Roll-On-Records | US | Nog te beoordelen | — | — | — | — |
+| Rocket Number Nine Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Rocket Records Midtown | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rocket Reuse | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Rocketstar records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Rockin Rudy's | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Rockin Rudy's Record Heaven | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Rockin Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Rockin' Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Rockin’ Records & More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Rockin' Ruby's Records - Bainbridge Island; Rockin' Ruby's Records - Poulsbo | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | invalid_detail_gtin | — |
+| Rocking Chair Records | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Rocknrolla Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
+| RocknShop - Vinyl records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Rocks & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Rocks & Roots Gift Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rocks and Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| RockSteady RecordShop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Rodeo Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Rody's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Rogue Planet Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rogue Records & Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Roll-On-Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Rollin' Records | US | EAN | MEDIUM | BUILT_AWAITING_MANUAL_TEST | own_product_valid_gtin_coverage_at_least_80_percent_of_sample | v2-40571453864-1/rollinrecs_com |
-| Rolling Stones | US | Nog te beoordelen | — | — | — | — |
-| Romeo Records & Cafe | US | Nog te beoordelen | — | — | — | — |
+| Rolling Stones | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Romeo Records & Cafe | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Romeo's Record Shop | US | Nog te beoordelen | — | — | — | — |
 | Ron's Real Records | US | Nog te beoordelen | — | — | — | — |
 | Ron's Records | US | Nog te beoordelen | — | — | — | — |
