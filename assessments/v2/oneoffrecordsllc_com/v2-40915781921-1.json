@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T17:04:04.413147+00:00",
+  "shop_id": "oneoffrecordsllc.com",
+  "row": 1838,
+  "name": "One Off Records; Vinyl vibes cd shop.",
+  "domain": "oneoffrecordsllc.com",
+  "country": "US",
+  "website": "https://oneoffrecordsllc.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1838,
+    "name": "One Off Records; Vinyl vibes cd shop.",
+    "domain": "oneoffrecordsllc.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://oneoffrecordsllc.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 12,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://oneoffrecordsllc.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://oneoffrecordsllc.com/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://oneoffrecordsllc.com/collections/all/products.json?limit=20&page=1",
+        "score": 55,
+        "products_seen": 20,
+        "accepted": 5,
+        "excluded": 15,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://oneoffrecordsllc.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://oneoffrecordsllc.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://oneoffrecordsllc.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://oneoffrecordsllc.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://oneoffrecordsllc.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://oneoffrecordsllc.com/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://oneoffrecordsllc.com/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://oneoffrecordsllc.com/robots.txt",
+      "sha256": "39469c872d44185c9678dd27996df9539dff88a0758ed921e208a19945991284"
+    },
+    {
+      "url": "https://oneoffrecordsllc.com/",
+      "sha256": "e89da829b43ffaab68c77b7048de8a4295b397453b1eb956271244ce77e67e40"
+    },
+    {
+      "url": "https://oneoffrecordsllc.com/products.json?limit=20&page=1",
+      "sha256": "4fdebef7529412238d508358c295c2a5941c9bac6538db24f466e1cf8f76f1ae"
+    },
+    {
+      "url": "https://oneoffrecordsllc.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "3d22ec8d6b1bdee3575204aa48ccb2a8e0b086d620321a0fafefb473e003219f"
+    },
+    {
+      "url": "https://oneoffrecordsllc.com/products/zz-top-greatest-hits-2lptranslucent-yellow-blue-vinyl-rocktober-lp",
+      "sha256": "2c6b728674d94f1c9cf9b5c4318ee8568eba0a65543ab0ec7302eac5fa613883"
+    },
+    {
+      "url": "https://oneoffrecordsllc.com/products/tame-impala-lonerism-lp",
+      "sha256": "e4dd8d6d68433942c9b57f108745c09ae8dfd7c8844daee822cec295fba8176c"
+    },
+    {
+      "url": "https://oneoffrecordsllc.com/products/linkin-park-from-zero-deluxe2lptranslucent-emerald-green-lp?variant=69510186074146",
+      "sha256": "afa701954996951b01f5a55e5ce25fec18291bc0a0c51a0cc85c5921e77ff6f2"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1838",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40915781921-1",
+  "queue_rows": [
+    1838
+  ],
+  "assessment_path": "assessments/v2/oneoffrecordsllc_com/v2-40915781921-1.json"
+}
