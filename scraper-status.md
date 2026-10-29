@@ -3676,9 +3676,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **1910**. Open: **1414**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **2010**. Open: **1314**.
 
-EAN: **41** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **1842** | UNSUITABLE: **0**
+EAN: **44** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **1939** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -5543,108 +5543,108 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Papa`s Rock and Roll Parlor | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
 | Papafrank's Magic Garage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Paper Street Trading Company | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
-| Papertown Records | US | Nog te beoordelen | — | — | — | — |
-| Paradise Found Records & Music; Paradise Found Records & Music - Petaluma | US | Nog te beoordelen | — | — | — | — |
-| Paradise of Replica | US | Nog te beoordelen | — | — | — | — |
-| Paradise Records and Trading Post (Orcutt) | US | Nog te beoordelen | — | — | — | — |
-| Paradise Ridge CDs & Tapes | US | Nog te beoordelen | — | — | — | — |
-| Paramita Sound | US | Nog te beoordelen | — | — | — | — |
-| Paramount Guitars | US | Nog te beoordelen | — | — | — | — |
-| Paramount Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Parasol Records | US | Nog te beoordelen | — | — | — | — |
-| Park Ave CDs | US | Nog te beoordelen | — | — | — | — |
-| PashCo | US | Nog te beoordelen | — | — | — | — |
-| Past Chapters & Spinoff Records RVA | US | Nog te beoordelen | — | — | — | — |
-| Pat's Endangered Species | US | Nog te beoordelen | — | — | — | — |
-| Paul Rose Records & Boutique | US | Nog te beoordelen | — | — | — | — |
-| Paul's Trading Post | US | Nog te beoordelen | — | — | — | — |
-| PBNJ's Indoor Flea Market | US | Nog te beoordelen | — | — | — | — |
-| PD's Records | US | Nog te beoordelen | — | — | — | — |
-| Peaches Records | US | Nog te beoordelen | — | — | — | — |
-| Pearl Snap Vintage & Vinyl at Hotel Kitsmiller on Main | US | Nog te beoordelen | — | — | — | — |
-| Pembroke City Limits Records & Books | US | Nog te beoordelen | — | — | — | — |
-| Penny Lane Records | US | Nog te beoordelen | — | — | — | — |
-| Penny Lane Records | US | Nog te beoordelen | — | — | — | — |
-| Penrose Record Room | US | Nog te beoordelen | — | — | — | — |
-| People's Records | US | Nog te beoordelen | — | — | — | — |
-| Peoples Records | US | Nog te beoordelen | — | — | — | — |
-| Perceptory Record Store | US | Nog te beoordelen | — | — | — | — |
-| Permanent Records | US | Nog te beoordelen | — | — | — | — |
-| Permanent Records Roadhouse | US | Nog te beoordelen | — | — | — | — |
-| PERMANENTLY CLOSED DLF Transfer | US | Nog te beoordelen | — | — | — | — |
-| Petrucco's Collectibles Wholesale | US | Nog te beoordelen | — | — | — | — |
-| Pharmacy Records | US | Nog te beoordelen | — | — | — | — |
-| Pharr Out Records | US | Nog te beoordelen | — | — | — | — |
-| Phaseshifter Records | US | Nog te beoordelen | — | — | — | — |
-| Phat Tracks Books & Records | US | Nog te beoordelen | — | — | — | — |
-| Phidelity Records | US | Nog te beoordelen | — | — | — | — |
-| Phil's Music Exchange of Wilson | US | Nog te beoordelen | — | — | — | — |
-| Philadelphia Record Exchange | US | Nog te beoordelen | — | — | — | — |
-| Phils Music Books & More | US | Nog te beoordelen | — | — | — | — |
-| Phoenix Records & Boutique | US | Nog te beoordelen | — | — | — | — |
-| Phono Select Records | US | Nog te beoordelen | — | — | — | — |
-| Phonoluxe Records Music | US | Nog te beoordelen | — | — | — | — |
-| PHX Vinyl & Cds @ Brass Armadillo Mall | US | Nog te beoordelen | — | — | — | — |
-| Pigstyle | US | Nog te beoordelen | — | — | — | — |
-| Pinay Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Pinky’s Records | US | Nog te beoordelen | — | — | — | — |
-| Pintage Antique Market | US | Nog te beoordelen | — | — | — | — |
-| Pinwheel Records | US | Nog te beoordelen | — | — | — | — |
-| Piper Records | US | Nog te beoordelen | — | — | — | — |
-| Piranha Records | US | Nog te beoordelen | — | — | — | — |
-| Pirate Traders | US | Nog te beoordelen | — | — | — | — |
-| Pismo Pickers Antiques & Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Pitch Control Records | US | Nog te beoordelen | — | — | — | — |
-| Pitchfork Records & Stereo | US | Nog te beoordelen | — | — | — | — |
-| Pizza Records | US | Nog te beoordelen | — | — | — | — |
-| Placerville Trading Post | US | Nog te beoordelen | — | — | — | — |
-| Plaid Room Records | US | Nog te beoordelen | — | — | — | — |
-| Plan 9 Music | US | Nog te beoordelen | — | — | — | — |
-| Planet Queen Records & Vintage | US | Nog te beoordelen | — | — | — | — |
-| Planet Records | US | Nog te beoordelen | — | — | — | — |
-| Planet Retro Records | US | Nog te beoordelen | — | — | — | — |
-| Planet Score Records | US | Nog te beoordelen | — | — | — | — |
-| Platano Record Corporation | US | Nog te beoordelen | — | — | — | — |
-| Platterpus Records | US | Nog te beoordelen | — | — | — | — |
-| Play It Again | US | Nog te beoordelen | — | — | — | — |
-| Play N Trade | US | Nog te beoordelen | — | — | — | — |
-| Plaza Records | US | Nog te beoordelen | — | — | — | — |
-| Pleasant Dreams Records | US | Nog te beoordelen | — | — | — | — |
+| Papertown Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Paradise Found Records & Music; Paradise Found Records & Music - Petaluma | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Paradise of Replica | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Paradise Records and Trading Post (Orcutt) | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Paradise Ridge CDs & Tapes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Paramita Sound | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Paramount Guitars | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Paramount Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Parasol Records | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Park Ave CDs | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| PashCo | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Past Chapters & Spinoff Records RVA | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Pat's Endangered Species | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Paul Rose Records & Boutique | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Paul's Trading Post | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| PBNJ's Indoor Flea Market | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| PD's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Peaches Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Pearl Snap Vintage & Vinyl at Hotel Kitsmiller on Main | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Pembroke City Limits Records & Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Penny Lane Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Penny Lane Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Penrose Record Room | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| People's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Peoples Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Perceptory Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Permanent Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Permanent Records Roadhouse | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| PERMANENTLY CLOSED DLF Transfer | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Petrucco's Collectibles Wholesale | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Pharmacy Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Pharr Out Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Phaseshifter Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Phat Tracks Books & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Phidelity Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Phil's Music Exchange of Wilson | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Philadelphia Record Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Phils Music Books & More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Phoenix Records & Boutique | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Phono Select Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Phonoluxe Records Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| PHX Vinyl & Cds @ Brass Armadillo Mall | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Pigstyle | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Pinay Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Pinky’s Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Pintage Antique Market | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Pinwheel Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Piper Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Piranha Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Pirate Traders | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Pismo Pickers Antiques & Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Pitch Control Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Pitchfork Records & Stereo | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Pizza Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Placerville Trading Post | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Plaid Room Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Plan 9 Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Planet Queen Records & Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Planet Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Planet Retro Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Planet Score Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Platano Record Corporation | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Platterpus Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Play It Again | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Play N Trade | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Plaza Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Pleasant Dreams Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Plum Creek Records & Tapes | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40571453864-1/plumcreekrecords_com |
-| Point Pavilion Antique Centre | US | Nog te beoordelen | — | — | — | — |
-| Polyvinyl Provisions | US | Nog te beoordelen | — | — | — | — |
-| Poo-Bah Record Shop | US | Nog te beoordelen | — | — | — | — |
-| POP & HISS | US | Nog te beoordelen | — | — | — | — |
-| Pop Culture Exchange | US | Nog te beoordelen | — | — | — | — |
-| Pop Culture Vulture | US | Nog te beoordelen | — | — | — | — |
-| Pop Overbite Records | US | Nog te beoordelen | — | — | — | — |
-| Pop Shop Records | US | Nog te beoordelen | — | — | — | — |
-| POPS Resale | US | Nog te beoordelen | — | — | — | — |
-| Porchlight Coffee & Records | US | Nog te beoordelen | — | — | — | — |
-| Port 27 | US | Nog te beoordelen | — | — | — | — |
-| Port of Sound Record Shoppe | US | Nog te beoordelen | — | — | — | — |
-| Portal 4 Records | US | Nog te beoordelen | — | — | — | — |
-| Portland Flea-for-All | US | Nog te beoordelen | — | — | — | — |
-| Positively 4th Street Records | US | Nog te beoordelen | — | — | — | — |
-| Positively Records | US | Nog te beoordelen | — | — | — | — |
-| Power Plant Records | US | Nog te beoordelen | — | — | — | — |
-| Powerhouse Records | US | Nog te beoordelen | — | — | — | — |
-| Powers Records | US | Nog te beoordelen | — | — | — | — |
-| PreAtomic Records | US | Nog te beoordelen | — | — | — | — |
-| Premium Sound | US | Nog te beoordelen | — | — | — | — |
-| PrePlayed | US | Nog te beoordelen | — | — | — | — |
-| Preserving Record Shop; Preserving Record Shop Dormont | US | Nog te beoordelen | — | — | — | — |
-| Preserving Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Press Play Records TX. | US | Nog te beoordelen | — | — | — | — |
-| Press Rewind Vintage Audio | US | Nog te beoordelen | — | — | — | — |
-| Pressing Matters Records | US | Nog te beoordelen | — | — | — | — |
+| Point Pavilion Antique Centre | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Polyvinyl Provisions | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Poo-Bah Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| POP & HISS | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Pop Culture Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Pop Culture Vulture | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Pop Overbite Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Pop Shop Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
+| POPS Resale | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Porchlight Coffee & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Port 27 | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Port of Sound Record Shoppe | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Portal 4 Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Portland Flea-for-All | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Positively 4th Street Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Positively Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Power Plant Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Powerhouse Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Powers Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| PreAtomic Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Premium Sound | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| PrePlayed | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Preserving Record Shop; Preserving Record Shop Dormont | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Preserving Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Press Play Records TX. | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Press Rewind Vintage Audio | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Pressing Matters Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
 | Primitive Recordings LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| Princeton Record Exchange | US | Nog te beoordelen | — | — | — | — |
-| Private Press | US | Nog te beoordelen | — | — | — | — |
-| Producer plug | US | Nog te beoordelen | — | — | — | — |
-| Profit Records | US | Nog te beoordelen | — | — | — | — |
-| Programme Skate & Sound | US | Nog te beoordelen | — | — | — | — |
-| Psychedelic Cellar | US | Nog te beoordelen | — | — | — | — |
+| Princeton Record Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Private Press | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Producer plug | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Profit Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Programme Skate & Sound | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Psychedelic Cellar | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Psychic Records | US | Nog te beoordelen | — | — | — | — |
 | Psychotronic Records | US | Nog te beoordelen | — | — | — | — |
 | Pulp Reality | US | Nog te beoordelen | — | — | — | — |
