@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T21:14:22.850856+00:00",
+  "shop_id": "residency-records.com",
+  "row": 2167,
+  "name": "Residency Records",
+  "domain": "residency-records.com",
+  "country": "US",
+  "website": "https://residency-records.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2167,
+    "name": "Residency Records",
+    "domain": "residency-records.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://residency-records.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 25,
+    "accepted": 20,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://residency-records.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://residency-records.com/products.json?limit=20&page=1",
+        "score": 245,
+        "products_seen": 25,
+        "accepted": 24,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://residency-records.com/collections/all/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://residency-records.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://residency-records.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://residency-records.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://residency-records.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://residency-records.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://residency-records.com/products.json?limit=20&page=1",
+      "score": 245,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://residency-records.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 13,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://residency-records.com/robots.txt",
+      "sha256": "76ad20a06235466c4697b485576b874a40df85b15e0eed24060feedd75e1398c"
+    },
+    {
+      "url": "https://residency-records.com/",
+      "sha256": "79175c926623b8dd4144664e90d2174358ed215db772651d7c5ef40c7883e2f4"
+    },
+    {
+      "url": "https://residency-records.com/products.json?limit=20&page=1",
+      "sha256": "f3c8d1ed3f77c37374964979e3c2d75df08ca9fc8409cb2dc53d050ed19085ac"
+    },
+    {
+      "url": "https://residency-records.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "054da6709977079631034074c2a82977213b42df226efb0b2bff1903a4cfa1ce"
+    },
+    {
+      "url": "https://residency-records.com/products/wolves-in-the-throne-room-estuary",
+      "sha256": "8bc153e1da76bd12804348cb67e2e5fe2158977e1534d39a6554e842e5eb57b3"
+    },
+    {
+      "url": "https://residency-records.com/products/fontaines-d-c-dopamine-chamber",
+      "sha256": "e7c6296e057180b2373735b579d8c3bff516b659c16d653dbfdb605814168c10"
+    },
+    {
+      "url": "https://residency-records.com/products/weezer-1192?variant=51487656575264",
+      "sha256": "5111cc5e2db59121b6b67fa2bc01f65924433216b6dc0fff646ea53bd754752a"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.9,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2167",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40954424798-1",
+  "queue_rows": [
+    2167
+  ],
+  "assessment_path": "assessments/v2/residency_records_com/v2-40954424798-1.json"
+}
