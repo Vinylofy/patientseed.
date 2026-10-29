@@ -1,0 +1,188 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T16:56:46.032560+00:00",
+  "shop_id": "oceanbeachpalletco.com",
+  "row": 1799,
+  "name": "Ocean Beach Pallet Co.",
+  "domain": "oceanbeachpalletco.com",
+  "country": "US",
+  "website": "https://oceanbeachpalletco.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 1799,
+    "name": "Ocean Beach Pallet Co.",
+    "domain": "oceanbeachpalletco.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://oceanbeachpalletco.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 772,
+    "accepted": 20,
+    "excluded": 6,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://oceanbeachpalletco.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://oceanbeachpalletco.com/products.json?limit=20&page=1",
+        "score": 2335,
+        "products_seen": 243,
+        "accepted": 233,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://oceanbeachpalletco.com/collections/all/products.json?limit=20&page=1",
+        "score": 7665,
+        "products_seen": 772,
+        "accepted": 766,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://oceanbeachpalletco.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://oceanbeachpalletco.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://oceanbeachpalletco.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://oceanbeachpalletco.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://oceanbeachpalletco.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://oceanbeachpalletco.com/collections/all/products.json?limit=20&page=1",
+      "score": 7665,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://oceanbeachpalletco.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://oceanbeachpalletco.com/robots.txt",
+      "sha256": "d8895b4fe0858f0c899a6bc14761701c026a183029abb7835ef1c5580c94da1d"
+    },
+    {
+      "url": "https://oceanbeachpalletco.com/",
+      "sha256": "0adef76e851a9b56f7ea0f329e6349c1d83bdb8fd607c2d1bf76f6cbe812874c"
+    },
+    {
+      "url": "https://oceanbeachpalletco.com/products.json?limit=20&page=1",
+      "sha256": "61ed30e565eb72709a1d800e97884cff21472fd92ba817b379b3a1efa38d92d0"
+    },
+    {
+      "url": "https://oceanbeachpalletco.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "e6922dda6c11d6601d3ebc1ecefcab0037069cc99fc552617dd19f011761869f"
+    },
+    {
+      "url": "https://oceanbeachpalletco.com/products/vinyl-record-storage-2sec",
+      "sha256": "71b6e412b7360be3a7d5986b1ae2e48fd0dfe1288cf1bf618b0bf7e7379cf622"
+    },
+    {
+      "url": "https://oceanbeachpalletco.com/products/vinyl-record-storage-2sec?variant=31305563373650",
+      "sha256": "7a674067a806925db8885e3e888f1e76a85630cf593cec9087c09a3d8333f1b6"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_1799",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-40915781921-1",
+  "queue_rows": [
+    1799
+  ],
+  "assessment_path": "assessments/v2/oceanbeachpalletco_com/v2-40915781921-1.json"
+}
