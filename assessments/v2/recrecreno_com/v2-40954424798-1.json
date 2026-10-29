@@ -1,0 +1,153 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-29T21:10:40.377701+00:00",
+  "shop_id": "recrecreno.com",
+  "row": 2138,
+  "name": "Recycled Records",
+  "domain": "recrecreno.com",
+  "country": "US",
+  "website": "https://recrecreno.com/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2138,
+    "name": "Recycled Records",
+    "domain": "recrecreno.com",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://recrecreno.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://recrecreno.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://recrecreno.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://recrecreno.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://recrecreno.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://recrecreno.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://recrecreno.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://recrecreno.com/robots.txt",
+      "sha256": "3390e2fedcc3611a37832b12992a76dc0e834a8a0133f94083309cd07c6d30d5"
+    },
+    {
+      "url": "https://recrecreno.com/",
+      "sha256": "625231eafafbfc81ee189cca49e9f7d2bbe8217719010dfe1455193593ec51c0"
+    },
+    {
+      "url": "https://recrecreno.com/api/0.1/collections/products?format=json",
+      "sha256": "59b795b24eccf8e3b6ecb90a976a505e22ea72b9307433728efd3c85189fe403"
+    },
+    {
+      "url": "https://recrecreno.com/api/0.1/collections/all/products?format=json",
+      "sha256": "68c841f663d19b93e9ac376c1c4805f7da6ac9f51213483e367e0ebc5e9773a2"
+    },
+    {
+      "url": "https://recrecreno.com/api/storefront/products?limit=20&offset=0",
+      "sha256": "1b951fd2d16007378352ef008928d19ee4b94c2831720e07cca5d2b37eb2c338"
+    },
+    {
+      "url": "https://recrecreno.com/api/storefront/products?limit=20",
+      "sha256": "81080ad430ca94a68bbc9a60ebc28e19713a20847b3f50cea43f876318a87470"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2138",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-40954424798-1",
+  "queue_rows": [
+    2138
+  ],
+  "assessment_path": "assessments/v2/recrecreno_com/v2-40954424798-1.json"
+}
