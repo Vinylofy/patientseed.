@@ -1,0 +1,100 @@
+{
+  "fingerprint": "b3e3be0ecfa25c1afaaec2faf1b4bafd861ccdac89a492e7470ba1a0d5345b60",
+  "domain": "bionicrecordsoc.com",
+  "batch": 18,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41013449724",
+  "updated_at": "2026-10-30T06:20:49.763869+00:00",
+  "evidence": {
+    "domain": "bionicrecordsoc.com",
+    "route": "https://bionicrecordsoc.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-30T06:20:46.567358+00:00",
+    "requests": [
+      {
+        "url": "https://bionicrecordsoc.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "c5cce1e5091375019669e8f50b7e925c7b16f65c7c66f874105e73928f750d13"
+      },
+      {
+        "url": "https://bionicrecordsoc.com/products/uicideboy-stop-staring-at-the-shadows-color-vinyl?variant=67849161081059",
+        "sha256": "445325558a9b7536e50f9e3f4f263600caa8fcd1a12c24400d7d645d5471df13"
+      },
+      {
+        "url": "https://bionicrecordsoc.com/products/100-gecs-10-000-gecs-color-vinyl?variant=44497844175075",
+        "sha256": "449390b635c2bc2f60bb46c02d4189da7176b69da127cc557c2b64c7a7bd7dca"
+      },
+      {
+        "url": "https://bionicrecordsoc.com/products/1349-dodskamp-10?variant=33834889314440",
+        "sha256": "d913d67206aa5f1fccaa5a41e5f8546f7111b27fe7af16cc60d70fac564aba09"
+      }
+    ],
+    "listing_records": 20,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://bionicrecordsoc.com/products/uicideboy-stop-staring-at-the-shadows-color-vinyl?variant=67849161081059",
+        "price": "29.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://bionicrecordsoc.com/products/100-gecs-10-000-gecs-color-vinyl?variant=44497844175075",
+        "price": "32.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://bionicrecordsoc.com/products/1349-dodskamp-10?variant=33834889314440",
+        "price": "17.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 20,
+      "unique_prices": 9,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 1,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39155794450"
+    },
+    {
+      "batch": 16,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40642431631"
+    },
+    {
+      "batch": 17,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40828686930"
+    },
+    {
+      "batch": 18,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41013449724"
+    }
+  ]
+}
