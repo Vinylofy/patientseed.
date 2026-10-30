@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "domain": "abrodosmusic.com",
+  "platform": "shopify",
+  "adapter_class": "ShopifyNewVinylAdapter",
+  "catalog_route": "https://abrodosmusic.com/collections/all/products.json?limit=20&page=1",
+  "discovery_method": {
+    "platform": "shopify",
+    "route": "https://abrodosmusic.com/collections/all/products.json?limit=20&page=1",
+    "score": 105,
+    "selection": "highest_bounded_adapter_score"
+  },
+  "method_candidates": [
+    {
+      "platform": "shopify",
+      "route": "https://abrodosmusic.com/products.json?limit=20&page=1",
+      "score": 15,
+      "products_seen": 20,
+      "accepted": 1,
+      "excluded": 19,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://abrodosmusic.com/collections/all/products.json?limit=20&page=1",
+      "score": 105,
+      "products_seen": 20,
+      "accepted": 10,
+      "excluded": 10,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "woocommerce",
+      "route": "https://abrodosmusic.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_400"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://abrodosmusic.com/api/0.1/collections/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://abrodosmusic.com/api/0.1/collections/all/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://abrodosmusic.com/api/storefront/products?limit=20&offset=0",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://abrodosmusic.com/api/storefront/products?limit=20",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    }
+  ],
+  "listing_sample": 10,
+  "detail_checked": 2,
+  "detail_gtin_valid": 0,
+  "release_status": "SCRAPER_BUILT_TESTED"
+}
