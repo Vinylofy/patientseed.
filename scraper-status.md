@@ -3676,9 +3676,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **2810**. Open: **514**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **2910**. Open: **414**.
 
-EAN: **56** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **2727** | UNSUITABLE: **0**
+EAN: **61** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **2822** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -6469,112 +6469,112 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | The Sound Booth | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | The Sound Explosion | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
 | The Sound Garden | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
-| The Sound Garden-Baltimore | US | Nog te beoordelen | — | — | — | — |
-| The SoundBar | US | Nog te beoordelen | — | — | — | — |
-| The Spin Coffee and Vinyl | US | Nog te beoordelen | — | — | — | — |
-| The Spinning Groove | US | Nog te beoordelen | — | — | — | — |
+| The Sound Garden-Baltimore | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The SoundBar | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Spin Coffee and Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Spinning Groove | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | The Squatch Den Records | US | EAN | MEDIUM | BUILT_AWAITING_MANUAL_TEST | own_product_valid_gtin_coverage_at_least_80_percent_of_sample | v2-40571453864-1/squatchinthepit_com |
-| The Stacks Record Shop | US | Nog te beoordelen | — | — | — | — |
-| The Stash Spot (Vintage Comics and Hip Hop CDs & Vinyl) | US | Nog te beoordelen | — | — | — | — |
-| The StormHold | US | Nog te beoordelen | — | — | — | — |
-| The Tangerine Tree | US | Nog te beoordelen | — | — | — | — |
-| The Time Capsule | US | Nog te beoordelen | — | — | — | — |
-| The Time Capsule | US | Nog te beoordelen | — | — | — | — |
-| The Times Vintage | US | Nog te beoordelen | — | — | — | — |
-| The Treehouse Antiques | US | Nog te beoordelen | — | — | — | — |
-| The Turntable Store | US | Nog te beoordelen | — | — | — | — |
-| The Underground | US | Nog te beoordelen | — | — | — | — |
-| The Vintage Common | US | Nog te beoordelen | — | — | — | — |
-| The Vintage Shop Carmel | US | Nog te beoordelen | — | — | — | — |
-| The Vintage Underground | US | Nog te beoordelen | — | — | — | — |
-| The Vintage Vault | US | Nog te beoordelen | — | — | — | — |
-| The Vintage Vault of Upland | US | Nog te beoordelen | — | — | — | — |
-| The Vintage VU | US | Nog te beoordelen | — | — | — | — |
-| The Vinyl Asylum LLC | US | Nog te beoordelen | — | — | — | — |
-| The Vinyl Basket | US | Nog te beoordelen | — | — | — | — |
-| The Vinyl Cafe | US | Nog te beoordelen | — | — | — | — |
-| The Vinyl Canteen | US | Nog te beoordelen | — | — | — | — |
-| The Vinyl Destination | US | Nog te beoordelen | — | — | — | — |
-| The Vinyl Dinosaur | US | Nog te beoordelen | — | — | — | — |
-| The Vinyl Factory | US | Nog te beoordelen | — | — | — | — |
-| The Vinyl Frontier | US | Nog te beoordelen | — | — | — | — |
-| The Vinyl Garage | US | Nog te beoordelen | — | — | — | — |
-| The Vinyl Groove Records | US | Nog te beoordelen | — | — | — | — |
-| The Vinyl Music Vault | US | Nog te beoordelen | — | — | — | — |
-| The Vinyl Radio Skate Shop | US | Nog te beoordelen | — | — | — | — |
-| The Vinyl Record Bank | US | Nog te beoordelen | — | — | — | — |
-| The Vinyl Reset - Reset Productions | US | Nog te beoordelen | — | — | — | — |
-| The Vinyl Resting Place | US | Nog te beoordelen | — | — | — | — |
-| The Vinyl Room | US | Nog te beoordelen | — | — | — | — |
-| the vinyl smith | US | Nog te beoordelen | — | — | — | — |
+| The Stacks Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Stash Spot (Vintage Comics and Hip Hop CDs & Vinyl) | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The StormHold | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| The Tangerine Tree | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Time Capsule | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| The Time Capsule | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Times Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| The Treehouse Antiques | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| The Turntable Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| The Underground | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| The Vintage Common | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Vintage Shop Carmel | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Vintage Underground | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Vintage Vault | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Vintage Vault of Upland | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Vintage VU | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Vinyl Asylum LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Vinyl Basket | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Vinyl Cafe | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Vinyl Canteen | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Vinyl Destination | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Vinyl Dinosaur | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| The Vinyl Factory | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| The Vinyl Frontier | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| The Vinyl Garage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Vinyl Groove Records | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| The Vinyl Music Vault | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Vinyl Radio Skate Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| The Vinyl Record Bank | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| The Vinyl Reset - Reset Productions | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| The Vinyl Resting Place | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Vinyl Room | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| the vinyl smith | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | The Vinyl Stand | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | insufficient_representative_product_evidence | — |
-| The Vinyl Stop | US | Nog te beoordelen | — | — | — | — |
-| The Vinyl Universe | US | Nog te beoordelen | — | — | — | — |
-| The Vinyl Vault | US | Nog te beoordelen | — | — | — | — |
-| The Vision Recordings | US | Nog te beoordelen | — | — | — | — |
-| the Vortex Records | US | Nog te beoordelen | — | — | — | — |
-| The Wax & The Needle | US | Nog te beoordelen | — | — | — | — |
-| The Whiskey & Sage House | US | Nog te beoordelen | — | — | — | — |
-| The Works | US | Nog te beoordelen | — | — | — | — |
-| The Wrecka Stow | US | Nog te beoordelen | — | — | — | — |
-| The Yellow Submarine Records and Pop Culture | US | Nog te beoordelen | — | — | — | — |
-| The Zen Arcade THC & Record Store | US | Nog te beoordelen | — | — | — | — |
-| TheSofErics | US | Nog te beoordelen | — | — | — | — |
-| Things That Spin | US | Nog te beoordelen | — | — | — | — |
-| Third Coast Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Third Eye Music and Video | US | Nog te beoordelen | — | — | — | — |
-| Third Eye Records | US | Nog te beoordelen | — | — | — | — |
-| Third Man Records | US | Nog te beoordelen | — | — | — | — |
-| This Way Out Vintage & Records | US | Nog te beoordelen | — | — | — | — |
-| Three Feather Records | US | Nog te beoordelen | — | — | — | — |
-| Three Rivers Antiques | US | Nog te beoordelen | — | — | — | — |
-| Thrifted | US | Nog te beoordelen | — | — | — | — |
+| The Vinyl Stop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Vinyl Universe | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| The Vinyl Vault | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Vision Recordings | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| the Vortex Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Wax & The Needle | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Whiskey & Sage House | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Works | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| The Wrecka Stow | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Yellow Submarine Records and Pop Culture | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| The Zen Arcade THC & Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| TheSofErics | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Things That Spin | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Third Coast Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Third Eye Music and Video | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Third Eye Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Third Man Records | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| This Way Out Vintage & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Three Feather Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
+| Three Rivers Antiques | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Thrifted | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
 | Thrillhouse Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| Throwback GOATs | US | Nog te beoordelen | — | — | — | — |
-| Thundercloud Records & Disc-O-Tech CDs and Movies | US | Nog te beoordelen | — | — | — | — |
-| Tiffy’s Tunes | US | Nog te beoordelen | — | — | — | — |
-| Tiger Records | US | Nog te beoordelen | — | — | — | — |
-| Tiger Records | US | Nog te beoordelen | — | — | — | — |
+| Throwback GOATs | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Thundercloud Records & Disc-O-Tech CDs and Movies | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Tiffy’s Tunes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Tiger Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Tiger Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Tiger Rose Vintage & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| Time & Again - Music, Art and Antiques | US | Nog te beoordelen | — | — | — | — |
-| Time Bandits Antiques and Vintage | US | Nog te beoordelen | — | — | — | — |
-| Time Bomb | US | Nog te beoordelen | — | — | — | — |
-| Time Lapse Vintage | US | Nog te beoordelen | — | — | — | — |
-| Time Machine Records | US | Nog te beoordelen | — | — | — | — |
-| TIME MACHINE RECORDS LLC | US | Nog te beoordelen | — | — | — | — |
-| Time Traveler Records | US | Nog te beoordelen | — | — | — | — |
-| Time Tunnel Records | US | Nog te beoordelen | — | — | — | — |
-| Time Warp Sj | US | Nog te beoordelen | — | — | — | — |
-| Time Warp Treasures | US | Nog te beoordelen | — | — | — | — |
-| TimeFrames | US | Nog te beoordelen | — | — | — | — |
-| Timeless Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Tin Dog Records | US | Nog te beoordelen | — | — | — | — |
-| Tiny Vinyl Shop | US | Nog te beoordelen | — | — | — | — |
+| Time & Again - Music, Art and Antiques | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Time Bandits Antiques and Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Time Bomb | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Time Lapse Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Time Machine Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| TIME MACHINE RECORDS LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Time Traveler Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Time Tunnel Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Time Warp Sj | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | RemoteDisconnected | — |
+| Time Warp Treasures | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| TimeFrames | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Timeless Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Tin Dog Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Tiny Vinyl Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
 | Tinybot Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | insufficient_representative_product_evidence | — |
-| Titusville Antique Mall | US | Nog te beoordelen | — | — | — | — |
-| TJ's CDS & More | US | Nog te beoordelen | — | — | — | — |
-| TNT Music | US | Nog te beoordelen | — | — | — | — |
-| Toad Hall Books and Records | US | Nog te beoordelen | — | — | — | — |
-| Toast Records & Bakes | US | Nog te beoordelen | — | — | — | — |
-| Tom Lounges' Record Bin | US | Nog te beoordelen | — | — | — | — |
-| Tomorrow Records | US | Nog te beoordelen | — | — | — | — |
-| Toms Music Trade | US | Nog te beoordelen | — | — | — | — |
-| Tone Army Records | US | Nog te beoordelen | — | — | — | — |
+| Titusville Antique Mall | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| TJ's CDS & More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| TNT Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Toad Hall Books and Records | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Toast Records & Bakes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Tom Lounges' Record Bin | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Tomorrow Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Toms Music Trade | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Tone Army Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Tone Deaf Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| Tonevendor | US | Nog te beoordelen | — | — | — | — |
-| Too Many Records | US | Nog te beoordelen | — | — | — | — |
-| Tooth and Veil Oddities and Macabre Shop | US | Nog te beoordelen | — | — | — | — |
-| Top City Music | US | Nog te beoordelen | — | — | — | — |
-| Top Five Records | US | Nog te beoordelen | — | — | — | — |
-| Top Ten Records and Library | US | Nog te beoordelen | — | — | — | — |
-| Torn Light Records | US | Nog te beoordelen | — | — | — | — |
-| Total Drag | US | Nog te beoordelen | — | — | — | — |
-| Totem Books | US | Nog te beoordelen | — | — | — | — |
-| Tower District Records | US | Nog te beoordelen | — | — | — | — |
-| Towne Square Records & Comics | US | Nog te beoordelen | — | — | — | — |
-| Toxic Beauty Records | US | Nog te beoordelen | — | — | — | — |
-| Toxic Toast Records | US | Nog te beoordelen | — | — | — | — |
-| Toys from the Attic | US | Nog te beoordelen | — | — | — | — |
+| Tonevendor | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Too Many Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Tooth and Veil Oddities and Macabre Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Top City Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Top Five Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Top Ten Records and Library | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Torn Light Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_crawl_delay_exceeds_bounded_pilot | — |
+| Total Drag | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Totem Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Tower District Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Towne Square Records & Comics | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Toxic Beauty Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Toxic Toast Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Toys from the Attic | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
 | Track City Records | US | Nog te beoordelen | — | — | — | — |
 | Track Record Vinyl Shop & Listening Lounge | US | Nog te beoordelen | — | — | — | — |
 | Tracks In Wax Records | US | Nog te beoordelen | — | — | — | — |
