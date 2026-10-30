@@ -1,0 +1,100 @@
+{
+  "fingerprint": "2e1f341e22a525dd7d2de6d9300a10e0762f5226d6a0e3f684e89f22c10bad1f",
+  "domain": "artsoundlanguage.com",
+  "batch": 18,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41013449724",
+  "updated_at": "2026-10-30T06:20:31.704051+00:00",
+  "evidence": {
+    "domain": "artsoundlanguage.com",
+    "route": "https://artsoundlanguage.com/products.json?limit=20&page=1",
+    "observed_at": "2026-10-30T06:20:28.478253+00:00",
+    "requests": [
+      {
+        "url": "https://artsoundlanguage.com/products.json?limit=20&page=1",
+        "sha256": "d672edd064fdda57ebd019221f4294a3d1c822f4f7fdfd302648b71ae2572371"
+      },
+      {
+        "url": "https://artsoundlanguage.com/products/joe-gross-fugazi-in-on-the-kill-taker-lp?variant=55873641185571",
+        "sha256": "2dab624ad655b77cf6ef7b1724e4398b21a62c9d937ca6f373bc300d73358cef"
+      },
+      {
+        "url": "https://artsoundlanguage.com/products/carlton-family-man-barrett-the-sound-of-macka-dub-vol-1-lp?variant=55830533538083",
+        "sha256": "d67c36a0b1946597e5c46de0e0ffed480f6289102be749382d73c53083643207"
+      },
+      {
+        "url": "https://artsoundlanguage.com/products/helen-lindas-head-lp?variant=55830405447971",
+        "sha256": "49c4b2d9889d52e792577ae685e226aeb5743965e4e28b719fd68341e78ee857"
+      }
+    ],
+    "listing_records": 17,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://artsoundlanguage.com/products/joe-gross-fugazi-in-on-the-kill-taker-lp?variant=55873641185571",
+        "price": "14.95",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://artsoundlanguage.com/products/carlton-family-man-barrett-the-sound-of-macka-dub-vol-1-lp?variant=55830533538083",
+        "price": "18.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://artsoundlanguage.com/products/helen-lindas-head-lp?variant=55830405447971",
+        "price": "30.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 17,
+      "unique_prices": 13,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 1,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39155794450"
+    },
+    {
+      "batch": 16,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40642431631"
+    },
+    {
+      "batch": 17,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40828686930"
+    },
+    {
+      "batch": 18,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41013449724"
+    }
+  ]
+}
