@@ -3676,9 +3676,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **2710**. Open: **614**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **2810**. Open: **514**.
 
-EAN: **56** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **2627** | UNSUITABLE: **0**
+EAN: **56** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **2727** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -6367,108 +6367,108 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | The Freak Music and Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | The Friends' Used Book Store at the Warehouse | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | The Full Circle Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
-| The Fuzzy Needle; The Fuzzy Needle Records & Books | US | Nog te beoordelen | — | — | — | — |
-| The G Spot Modern Retro Thrift Boutique | US | Nog te beoordelen | — | — | — | — |
-| The Gallery | US | Nog te beoordelen | — | — | — | — |
-| The Game Gallery | US | Nog te beoordelen | — | — | — | — |
-| The Gate Record Store | US | Nog te beoordelen | — | — | — | — |
-| The Gatefold | US | Nog te beoordelen | — | — | — | — |
-| The Gold Pan Records | US | Nog te beoordelen | — | — | — | — |
-| The Good Stuff - Cafe Vinyl | US | Nog te beoordelen | — | — | — | — |
-| The Government Center | US | Nog te beoordelen | — | — | — | — |
-| The Great Escape | US | Nog te beoordelen | — | — | — | — |
-| The Green Bean Exchange East | US | Nog te beoordelen | — | — | — | — |
-| The Groove Record Shop | US | Nog te beoordelen | — | — | — | — |
-| The Groove Shop | US | Nog te beoordelen | — | — | — | — |
-| The Groove Vinyl and Vintage | US | Nog te beoordelen | — | — | — | — |
-| The Hamlet British Shop | US | Nog te beoordelen | — | — | — | — |
-| The Happy Hippie | US | Nog te beoordelen | — | — | — | — |
-| The Haul of Records | US | Nog te beoordelen | — | — | — | — |
-| The Head - Vinyl Records | US | Nog te beoordelen | — | — | — | — |
-| The Heavy Metal Shop | US | Nog te beoordelen | — | — | — | — |
-| The HiFi Attic | US | Nog te beoordelen | — | — | — | — |
-| The Hip Hop Shop | US | Nog te beoordelen | — | — | — | — |
-| The Hive Goods | US | Nog te beoordelen | — | — | — | — |
-| The Hoodoo | US | Nog te beoordelen | — | — | — | — |
-| The House of Vinyl | US | Nog te beoordelen | — | — | — | — |
-| The Hub Vintage Boutique & Market | US | Nog te beoordelen | — | — | — | — |
-| The Hunt | US | Nog te beoordelen | — | — | — | — |
-| The INDI Rose | US | Nog te beoordelen | — | — | — | — |
-| The Infectious Groove | US | Nog te beoordelen | — | — | — | — |
-| The Junk Trunk LLC | US | Nog te beoordelen | — | — | — | — |
-| The Katalyst Coffee Lounge and Music Gallery | US | Nog te beoordelen | — | — | — | — |
-| The Kutt Records | US | Nog te beoordelen | — | — | — | — |
-| The Leechpit Records and Vintage | US | Nog te beoordelen | — | — | — | — |
-| The Little Shop of Music | US | Nog te beoordelen | — | — | — | — |
-| The Long Ear CDs & Vinyl | US | Nog te beoordelen | — | — | — | — |
-| The Lucky Tiger | US | Nog te beoordelen | — | — | — | — |
-| The Madman's Moustache | US | Nog te beoordelen | — | — | — | — |
-| The Merchant Company | US | Nog te beoordelen | — | — | — | — |
-| The Midnight Hour Records | US | Nog te beoordelen | — | — | — | — |
-| The Music Box | US | Nog te beoordelen | — | — | — | — |
-| The Music Hall Store w. Marquee Records | US | Nog te beoordelen | — | — | — | — |
-| The Music Store | US | Nog te beoordelen | — | — | — | — |
-| The Needle Exchange Records & Tapes | US | Nog te beoordelen | — | — | — | — |
-| The Nevermind Shop | US | Nog te beoordelen | — | — | — | — |
-| The Next Record Store | US | Nog te beoordelen | — | — | — | — |
-| The Old School Records | US | Nog te beoordelen | — | — | — | — |
-| The Other Room Thrift Store | US | Nog te beoordelen | — | — | — | — |
-| The Pendergrass House | US | Nog te beoordelen | — | — | — | — |
-| The Plastic Pancake | US | Nog te beoordelen | — | — | — | — |
-| The Poet's Vault | US | Nog te beoordelen | — | — | — | — |
-| The Pour House Music Hall & Record Shop | US | Nog te beoordelen | — | — | — | — |
-| The Rabbit Lounge | US | Nog te beoordelen | — | — | — | — |
-| The Rancho Mirage Book Nook | US | Nog te beoordelen | — | — | — | — |
-| The Rare Bird Collective | US | Nog te beoordelen | — | — | — | — |
-| The Record Baron | US | Nog te beoordelen | — | — | — | — |
-| The Record Booth | US | Nog te beoordelen | — | — | — | — |
-| The Record Box | US | Nog te beoordelen | — | — | — | — |
-| The Record Collector | US | Nog te beoordelen | — | — | — | — |
-| The Record Collector | US | Nog te beoordelen | — | — | — | — |
-| The Record Connection | US | Nog te beoordelen | — | — | — | — |
-| The Record Connection | US | Nog te beoordelen | — | — | — | — |
-| The Record Exchange | US | Nog te beoordelen | — | — | — | — |
-| The Record Exchange | US | Nog te beoordelen | — | — | — | — |
-| The Record Farm | US | Nog te beoordelen | — | — | — | — |
-| The Record Gallery | US | Nog te beoordelen | — | — | — | — |
+| The Fuzzy Needle; The Fuzzy Needle Records & Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The G Spot Modern Retro Thrift Boutique | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Gallery | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| The Game Gallery | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| The Gate Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Gatefold | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Gold Pan Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Good Stuff - Cafe Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Government Center | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| The Great Escape | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Green Bean Exchange East | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Groove Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Groove Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Groove Vinyl and Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Hamlet British Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| The Happy Hippie | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Haul of Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Head - Vinyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| The Heavy Metal Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The HiFi Attic | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Hip Hop Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| The Hive Goods | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Hoodoo | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The House of Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| The Hub Vintage Boutique & Market | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Hunt | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The INDI Rose | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Infectious Groove | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| The Junk Trunk LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Katalyst Coffee Lounge and Music Gallery | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Kutt Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Leechpit Records and Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Little Shop of Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Long Ear CDs & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Lucky Tiger | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Madman's Moustache | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Merchant Company | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| The Midnight Hour Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| The Music Box | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Music Hall Store w. Marquee Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Music Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Needle Exchange Records & Tapes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Nevermind Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Next Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Old School Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
+| The Other Room Thrift Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Pendergrass House | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Plastic Pancake | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Poet's Vault | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| The Pour House Music Hall & Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| The Rabbit Lounge | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Rancho Mirage Book Nook | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| The Rare Bird Collective | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Record Baron | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| The Record Booth | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Record Box | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Record Collector | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Record Collector | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Record Connection | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| The Record Connection | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Record Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Record Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| The Record Farm | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| The Record Gallery | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | The Record Loft | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | insufficient_representative_product_evidence | — |
-| The Record Loft | US | Nog te beoordelen | — | — | — | — |
-| The Record Lounge | US | Nog te beoordelen | — | — | — | — |
-| The Record Man | US | Nog te beoordelen | — | — | — | — |
-| The Record Man | US | Nog te beoordelen | — | — | — | — |
-| The Record Mill | US | Nog te beoordelen | — | — | — | — |
-| The Record Parlour | US | Nog te beoordelen | — | — | — | — |
-| The Record Pub | US | Nog te beoordelen | — | — | — | — |
-| The Record Rack | US | Nog te beoordelen | — | — | — | — |
-| The Record Rescue Vinyl Outlet in The Copper Kettle | US | Nog te beoordelen | — | — | — | — |
-| The Record Room | US | Nog te beoordelen | — | — | — | — |
-| The Record Sale | US | Nog te beoordelen | — | — | — | — |
-| The Record Ship | US | Nog te beoordelen | — | — | — | — |
-| The Record Shop | US | Nog te beoordelen | — | — | — | — |
-| The Record Shop | US | Nog te beoordelen | — | — | — | — |
-| The Record Shop on 95th | US | Nog te beoordelen | — | — | — | — |
+| The Record Loft | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Record Lounge | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Record Man | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| The Record Man | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_404 | — |
+| The Record Mill | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Record Parlour | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Record Pub | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| The Record Rack | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Record Rescue Vinyl Outlet in The Copper Kettle | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Record Room | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Record Sale | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Record Ship | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Record Shop on 95th | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | The Record Space | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| The Record Spot | US | Nog te beoordelen | — | — | — | — |
-| The Record Track | US | Nog te beoordelen | — | — | — | — |
-| The Record Vault | US | Nog te beoordelen | — | — | — | — |
-| The Record Vault | US | Nog te beoordelen | — | — | — | — |
-| The Records Department | US | Nog te beoordelen | — | — | — | — |
-| The Retro Relic | US | Nog te beoordelen | — | — | — | — |
-| The RetroWormhole | US | Nog te beoordelen | — | — | — | — |
-| The Rhythm Section | US | Nog te beoordelen | — | — | — | — |
-| The River Market Antiques | US | Nog te beoordelen | — | — | — | — |
-| The Rock Shop | US | Nog te beoordelen | — | — | — | — |
-| The Rock Shop | US | Nog te beoordelen | — | — | — | — |
-| THE ROCK SHOP | US | Nog te beoordelen | — | — | — | — |
-| The Rock Shop Music & Art | US | Nog te beoordelen | — | — | — | — |
-| The Rock Syndicate | US | Nog te beoordelen | — | — | — | — |
-| The Rustic Market | US | Nog te beoordelen | — | — | — | — |
-| The Score Records | US | Nog te beoordelen | — | — | — | — |
-| The Sharp Notes | US | Nog te beoordelen | — | — | — | — |
-| The Soul Room Music Studio | US | Nog te beoordelen | — | — | — | — |
-| The Sound Booth | US | Nog te beoordelen | — | — | — | — |
-| The Sound Explosion | US | Nog te beoordelen | — | — | — | — |
-| The Sound Garden | US | Nog te beoordelen | — | — | — | — |
+| The Record Spot | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Record Track | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| The Record Vault | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| The Record Vault | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Records Department | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Retro Relic | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The RetroWormhole | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| The Rhythm Section | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The River Market Antiques | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Rock Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Rock Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| THE ROCK SHOP | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Rock Shop Music & Art | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| The Rock Syndicate | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Rustic Market | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Score Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Sharp Notes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Soul Room Music Studio | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| The Sound Booth | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| The Sound Explosion | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| The Sound Garden | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | The Sound Garden-Baltimore | US | Nog te beoordelen | — | — | — | — |
 | The SoundBar | US | Nog te beoordelen | — | — | — | — |
 | The Spin Coffee and Vinyl | US | Nog te beoordelen | — | — | — | — |
