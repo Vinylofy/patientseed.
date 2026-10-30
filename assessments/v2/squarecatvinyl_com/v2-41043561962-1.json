@@ -1,0 +1,194 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T10:57:27.012823+00:00",
+  "shop_id": "squarecatvinyl.com",
+  "row": 2541,
+  "name": "Square Cat Vinyl",
+  "domain": "squarecatvinyl.com",
+  "country": "US",
+  "website": "https://squarecatvinyl.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2541,
+    "name": "Square Cat Vinyl",
+    "domain": "squarecatvinyl.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://squarecatvinyl.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://squarecatvinyl.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://squarecatvinyl.com/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://squarecatvinyl.com/collections/all/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://squarecatvinyl.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://squarecatvinyl.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://squarecatvinyl.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://squarecatvinyl.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://squarecatvinyl.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://squarecatvinyl.com/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://squarecatvinyl.com/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "review",
+    "flags": [
+      "shipping_term_in_product_identity"
+    ],
+    "records_checked": 19,
+    "unique_prices": 11,
+    "shipping_hits": 1,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://squarecatvinyl.com/robots.txt",
+      "sha256": "745427f54d59c239ec2fc4d40d9fa44cefde14e0b0330a61335a1f0a49a3c75b"
+    },
+    {
+      "url": "https://squarecatvinyl.com/",
+      "sha256": "a37a84dcf7c9295979541285579793ee18af84746d35171c70e981d149c64337"
+    },
+    {
+      "url": "https://squarecatvinyl.com/products.json?limit=20&page=1",
+      "sha256": "54d6093aeb096c4b954ee74b896d85dc0200cba6cd9b79f318806e995f3ddb13"
+    },
+    {
+      "url": "https://squarecatvinyl.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "a2f590a55ad8bfe6799234aa50dd9d34bc784efc39d2b6a5140cb347c352b648"
+    },
+    {
+      "url": "https://squarecatvinyl.com/products/porno-for-pyros-good-gods-urge-vinyl",
+      "sha256": "13166ef720ac2998f3c71097caa69c221cd051894e346b6f932b3b5e1fdaa5b6"
+    },
+    {
+      "url": "https://squarecatvinyl.com/products/zz-top-greatest-hits",
+      "sha256": "27e3dcbdc7d5e3394884d2fcb34d083b17ae2429515071988a53eca7735d520b"
+    },
+    {
+      "url": "https://squarecatvinyl.com/products/mitski-puberty-2?variant=67887334195473",
+      "sha256": "d6a8b49fcfb4475a14d769d56ea3c23234b8c5744522ef239e71ee159d42b391"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": false,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.9473684210526315,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2541",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-41043561962-1",
+  "queue_rows": [
+    2541
+  ],
+  "assessment_path": "assessments/v2/squarecatvinyl_com/v2-41043561962-1.json"
+}
