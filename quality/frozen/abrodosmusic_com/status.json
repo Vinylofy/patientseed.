@@ -1,0 +1,100 @@
+{
+  "fingerprint": "ca7eb4574d468af10a9c292d9d61115869da7d1c0b4317025e2d14234bcbbce5",
+  "domain": "abrodosmusic.com",
+  "batch": 18,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41013449724",
+  "updated_at": "2026-10-30T06:20:17.857933+00:00",
+  "evidence": {
+    "domain": "abrodosmusic.com",
+    "route": "https://abrodosmusic.com/products.json?limit=20&page=1",
+    "observed_at": "2026-10-30T06:20:14.489688+00:00",
+    "requests": [
+      {
+        "url": "https://abrodosmusic.com/products.json?limit=20&page=1",
+        "sha256": "957fdceb9f3ac7db0c3e8bf5639103cf9b01f7193fbadf919bde556df98a5dc4"
+      },
+      {
+        "url": "https://abrodosmusic.com/products/al-jarreau-all-fly-home-lp-album-jac?variant=68022419914980",
+        "sha256": "2c523e87413b4e50175589f9d5383a2ec0f001c68a095553e671a96978eedeff"
+      },
+      {
+        "url": "https://abrodosmusic.com/products/billy-paul-only-the-strong-survive-lp-album-pit?variant=68022419816676",
+        "sha256": "c815935f4c6c31a12ca01f140ca1462bed5783c9210dafc2c04a261723912057"
+      },
+      {
+        "url": "https://abrodosmusic.com/products/the-evereadys-just-think-of-his-goodness-lp?variant=68018831065316",
+        "sha256": "3a224c3283b428cc43cee742df532ca7e0c139ec514280e15e870aefaf7ea783"
+      }
+    ],
+    "listing_records": 7,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://abrodosmusic.com/products/al-jarreau-all-fly-home-lp-album-jac?variant=68022419914980",
+        "price": "6.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://abrodosmusic.com/products/billy-paul-only-the-strong-survive-lp-album-pit?variant=68022419816676",
+        "price": "4.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://abrodosmusic.com/products/the-evereadys-just-think-of-his-goodness-lp?variant=68018831065316",
+        "price": "21.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 7,
+      "unique_prices": 6,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 1,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39155794450"
+    },
+    {
+      "batch": 16,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40642431631"
+    },
+    {
+      "batch": 17,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "40828686930"
+    },
+    {
+      "batch": 18,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41013449724"
+    }
+  ]
+}
