@@ -1,0 +1,200 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T22:26:47.427143+00:00",
+  "shop_id": "tangledparrot.com",
+  "row": 3352,
+  "name": "Tangled Parrot",
+  "domain": "tangledparrot.com",
+  "country": null,
+  "website": "https://tangledparrot.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3352,
+    "name": "Tangled Parrot",
+    "domain": "tangledparrot.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://tangledparrot.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 8,
+    "excluded": 12,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://tangledparrot.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://tangledparrot.com/products.json?limit=20&page=1",
+        "score": 35,
+        "products_seen": 20,
+        "accepted": 3,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://tangledparrot.com/collections/all/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 20,
+        "accepted": 8,
+        "excluded": 12,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://tangledparrot.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://tangledparrot.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://tangledparrot.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://tangledparrot.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://tangledparrot.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://tangledparrot.com/collections/all/products.json?limit=20&page=1",
+      "score": 85,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://tangledparrot.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 8,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 8,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://tangledparrot.com/robots.txt",
+      "sha256": "b8a0432e9955855edf58ec57aeb26f3868a957f330d319107b6469aa800a1e6b"
+    },
+    {
+      "url": "https://tangledparrot.com/",
+      "sha256": "4eb634372a90b6168b06921032edf1c2269dcf2ccb784ffbfd81d04e80e57f3d"
+    },
+    {
+      "url": "https://tangledparrot.com/products.json?limit=20&page=1",
+      "sha256": "20f496f698fabfbd21766576cb8ed95452ad9ef4b6ba069ad76389eb7817d2e3"
+    },
+    {
+      "url": "https://tangledparrot.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "a1ec40de69e3e70569e6f1f5983201a515571a0d50198c2e744f5863f18316a7"
+    },
+    {
+      "url": "https://tangledparrot.com/products/75678630439",
+      "sha256": "abc8308c406d35df746ac28bddb19d508eb6f1a06c10d41e134a168ef748964d"
+    },
+    {
+      "url": "https://tangledparrot.com/products/100-gecs-snake-eyes-10-picture-disc-vinyl-rsd-2024",
+      "sha256": "5ec34263326504df62511c68c969d200f462ede2f572a8f86db07b33b1bba10a"
+    },
+    {
+      "url": "https://tangledparrot.com/products/lita22711?variant=51321783910647",
+      "sha256": "ea7dec7329025a374569c50e0429d5be8c7b9245a8b7eac88565e1dbc0a8e572"
+    },
+    {
+      "url": "https://tangledparrot.com/products/ia-lp-20?variant=51428381327607",
+      "sha256": "70f3358f7be0da4eac37f2917011c32f3d20a50f87f8d5aa78dc145d6e63098a"
+    },
+    {
+      "url": "https://tangledparrot.com/products/75678630439?variant=43773412507895",
+      "sha256": "d166b5b5ab6f529ecd6e2c57db9b46e5b2cf8a81f3d4f2395a7fa771dd668f7b"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "invalid_detail_gtin"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 2,
+    "detail_price_proven": 2,
+    "ean_valid": 2,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.75,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "invalid_detail_gtin"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "FROZEN",
+  "example_urls": [],
+  "assessment_id": "v2-41136733228-1",
+  "queue_rows": [
+    3352
+  ],
+  "assessment_path": "assessments/v2/tangledparrot_com/v2-41136733228-1.json"
+}
