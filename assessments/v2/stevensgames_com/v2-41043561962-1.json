@@ -1,0 +1,165 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T11:03:13.491939+00:00",
+  "shop_id": "stevensgames.com",
+  "row": 2579,
+  "name": "Steven's Games and Collectibles",
+  "domain": "stevensgames.com",
+  "country": "US",
+  "website": "https://stevensgames.com/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2579,
+    "name": "Steven's Games and Collectibles",
+    "domain": "stevensgames.com",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://stevensgames.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://stevensgames.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://stevensgames.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://stevensgames.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://stevensgames.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://stevensgames.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://stevensgames.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://stevensgames.com/robots.txt",
+      "sha256": "de4263730249bc878d210f193127e62fd79af2f358c28f2a23d2a5db3f8713c4"
+    },
+    {
+      "url": "https://stevensgames.com/",
+      "sha256": "98f4473481412ed3870f257db49bfc420a6bbb470e52aa46b13186f494bb63c4"
+    },
+    {
+      "url": "https://stevensgames.com/products.json?limit=20&page=1",
+      "sha256": "62e5f2bb79b329513f85f0f5c5652f9de3cb551b92d99a1001bff710e56faa95"
+    },
+    {
+      "url": "https://stevensgames.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "62e5f2bb79b329513f85f0f5c5652f9de3cb551b92d99a1001bff710e56faa95"
+    },
+    {
+      "url": "https://stevensgames.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "7e80c610e6ef6e46232fa8975131385cc68748ef3dbe1bd4019764c1fa46d906"
+    },
+    {
+      "url": "https://stevensgames.com/api/0.1/collections/products?format=json",
+      "sha256": "565317af7ed403fa3824e91623e17a816844d66dfc4c1cbd3d6534fa3c5303a7"
+    },
+    {
+      "url": "https://stevensgames.com/api/0.1/collections/all/products?format=json",
+      "sha256": "565317af7ed403fa3824e91623e17a816844d66dfc4c1cbd3d6534fa3c5303a7"
+    },
+    {
+      "url": "https://stevensgames.com/api/storefront/products?limit=20&offset=0",
+      "sha256": "b26ed0e447ad1e50158c36bdecc04113e82a20749299ba811c78d1b5504ee8d5"
+    },
+    {
+      "url": "https://stevensgames.com/api/storefront/products?limit=20",
+      "sha256": "1783889ed8c183316259fa9b1107ffdd52d96b9897526985c6c0727fed4e3349"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2579",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-41043561962-1",
+  "queue_rows": [
+    2579
+  ],
+  "assessment_path": "assessments/v2/stevensgames_com/v2-41043561962-1.json"
+}
