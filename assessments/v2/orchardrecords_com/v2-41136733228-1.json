@@ -1,0 +1,249 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T22:26:05.936303+00:00",
+  "shop_id": "orchardrecords.com",
+  "row": 3358,
+  "name": "Orchard Records",
+  "domain": "orchardrecords.com",
+  "country": null,
+  "website": "https://orchardrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3358,
+    "name": "Orchard Records",
+    "domain": "orchardrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://orchardrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 15,
+    "excluded": 5,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://orchardrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://orchardrecords.com/products.json?limit=20&page=1",
+        "score": 155,
+        "products_seen": 20,
+        "accepted": 15,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://orchardrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "Invalid Shopify price"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://orchardrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://orchardrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://orchardrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://orchardrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://orchardrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://orchardrecords.com/products.json?limit=20&page=1",
+      "score": 155,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://orchardrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 15,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 15,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://orchardrecords.com/products/ezra-collective-you-cant-steal-my-joy-2lp?variant=67852677153005",
+      "artist": "Ezra Collective",
+      "title": "You Can't Steal My Joy 2 LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "21.99",
+      "currency": "GBP",
+      "valid_eans": [
+        "00193483466835"
+      ],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://orchardrecords.com/products/kiss-rock-and-roll-over-lp?variant=67853483147501",
+      "artist": "Kiss",
+      "title": "Rock And Roll Over LP Due 6th November",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "24.99",
+      "currency": "GBP",
+      "valid_eans": [
+        "00881061199397"
+      ],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://orchardrecords.com/products/cream-wheels-of-fire-2-lp-set-5354844?variant=37659982954660",
+      "artist": "Cream",
+      "title": "Wheels Of Fire 2 LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "27.99",
+      "currency": "GBP",
+      "valid_eans": [
+        "00600753548448"
+      ],
+      "condition_basis": "explicit_new"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://orchardrecords.com/robots.txt",
+      "sha256": "7881a80046446deaec06077c2b33ed8c985142ec18774412e86b6b3c12e50655"
+    },
+    {
+      "url": "https://orchardrecords.com/",
+      "sha256": "0f48203e0ac7e3d876a6c200943ee064b83b265e5c5c130f6d32164ca07fcce2"
+    },
+    {
+      "url": "https://orchardrecords.com/products.json?limit=20&page=1",
+      "sha256": "e026489e0ea271bb9ab5a16c64c07d922a3940d75ace1e35b661e99877037801"
+    },
+    {
+      "url": "https://orchardrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "67769b31190ab2e36ce3c1d2be9aeceabf0e45b04555e2662306f234642820e4"
+    },
+    {
+      "url": "https://orchardrecords.com/products/cream-wheels-of-fire-2-lp-set-5354844",
+      "sha256": "c5b2f5c3b1a789a73557e3df313f26a3ff251559fcab4e21b00674d796ff4d75"
+    },
+    {
+      "url": "https://orchardrecords.com/products/the-blue-aeroplanes-magical-realism-3lp",
+      "sha256": "a6e1f60081e0f2f3613692fee28413ea52351820907987ac20181245ff1d7210"
+    },
+    {
+      "url": "https://orchardrecords.com/products/ezra-collective-you-cant-steal-my-joy-2lp?variant=67852677153005",
+      "sha256": "19239493b0dbf3423cdf679dc93951479d07f8922f1fbc8c14ce9d63dbc1335e"
+    },
+    {
+      "url": "https://orchardrecords.com/products/kiss-rock-and-roll-over-lp?variant=67853483147501",
+      "sha256": "1babab8881284306760e66f4be2dc2c4790387d1aaf4abcc25f00bd1f9f695ea"
+    },
+    {
+      "url": "https://orchardrecords.com/products/cream-wheels-of-fire-2-lp-set-5354844?variant=37659982954660",
+      "sha256": "67d2d06bacc1692a375e86024695503c9e57178a4018cc3877266975649a6b80"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": true,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "FROZEN",
+  "example_urls": [
+    "https://orchardrecords.com/products/ezra-collective-you-cant-steal-my-joy-2lp?variant=67852677153005",
+    "https://orchardrecords.com/products/kiss-rock-and-roll-over-lp?variant=67853483147501",
+    "https://orchardrecords.com/products/cream-wheels-of-fire-2-lp-set-5354844?variant=37659982954660"
+  ],
+  "assessment_id": "v2-41136733228-1",
+  "queue_rows": [
+    3358
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 15,
+  "candidate_ref": "v2-41136733228-1/orchardrecords_com",
+  "assessment_path": "assessments/v2/orchardrecords_com/v2-41136733228-1.json"
+}
