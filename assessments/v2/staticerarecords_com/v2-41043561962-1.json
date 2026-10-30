@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T11:01:45.209043+00:00",
+  "shop_id": "staticerarecords.com",
+  "row": 2563,
+  "name": "Static Era Records",
+  "domain": "staticerarecords.com",
+  "country": "US",
+  "website": "https://staticerarecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2563,
+    "name": "Static Era Records",
+    "domain": "staticerarecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://staticerarecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 26,
+    "accepted": 13,
+    "excluded": 13,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://staticerarecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://staticerarecords.com/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 26,
+        "accepted": 13,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://staticerarecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 22,
+        "accepted": 11,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://staticerarecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://staticerarecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://staticerarecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://staticerarecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://staticerarecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://staticerarecords.com/products.json?limit=20&page=1",
+      "score": 135,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://staticerarecords.com/products.json?limit=20&page=1",
+  "listing_sample": 13,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 13,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://staticerarecords.com/robots.txt",
+      "sha256": "075fa52d9ab1c16093eb0f2d9e112a239e72e1c2e18745649945a95ec98ccf82"
+    },
+    {
+      "url": "https://staticerarecords.com/",
+      "sha256": "7fdf2efa02f5d1a4589610cac4eb1267514b203b09d8988d041e83dc50f34524"
+    },
+    {
+      "url": "https://staticerarecords.com/products.json?limit=20&page=1",
+      "sha256": "97e04157a59dcc0f3227f2f9e6e360d7737b6686bf709a7c913a8752e868123c"
+    },
+    {
+      "url": "https://staticerarecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "ab690d3752312d59a2a3d73566133e202b55777a2de4e4b9d930a1d06e150086"
+    },
+    {
+      "url": "https://staticerarecords.com/products/100-demons-embrace-the-black-light",
+      "sha256": "febed78f34fdd55a4de0c8f2abed1f9f61cbd0c23f8b7aa8f57e64d3da10c97a"
+    },
+    {
+      "url": "https://staticerarecords.com/products/autoignition-against-the-world",
+      "sha256": "934623a5713f0c50c69f867fc18a3562de68ad2e1d19d5227bac90fc6e32b911"
+    },
+    {
+      "url": "https://staticerarecords.com/products/fastbreak-fast-cars-fast-women-lp?variant=44726548332709",
+      "sha256": "1b64c4e31b00f409cad31d41cf3a8992f5d9959a59c9640c06e813a22b10e78e"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.23076923076923078,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2563",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-41043561962-1",
+  "queue_rows": [
+    2563
+  ],
+  "assessment_path": "assessments/v2/staticerarecords_com/v2-41043561962-1.json"
+}
