@@ -1,0 +1,180 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T08:43:15.503741+00:00",
+  "shop_id": "shopsoet.com",
+  "row": 2450,
+  "name": "Soet",
+  "domain": "shopsoet.com",
+  "country": "US",
+  "website": "https://shopsoet.com/",
+  "previous_status": "ADAPTER_TESTED",
+  "previous_reason": "no confirmed new vinyl on bounded page",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2450,
+    "name": "Soet",
+    "domain": "shopsoet.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "listing",
+    "platform": "shopify",
+    "source_url": "https://shopsoet.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 0,
+    "excluded": 20,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://shopsoet.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://shopsoet.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://shopsoet.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://shopsoet.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shopsoet.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shopsoet.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shopsoet.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shopsoet.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://shopsoet.com/products.json?limit=20&page=1",
+      "score": 0,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "reason": "no confirmed new vinyl on bounded page"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://shopsoet.com/products.json?limit=20&page=1",
+  "listing_sample": 0,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 0,
+    "unique_prices": 0,
+    "shipping_hits": 0,
+    "currencies": []
+  },
+  "secondhand_observed": false,
+  "examples": [],
+  "requests": [
+    {
+      "url": "https://shopsoet.com/robots.txt",
+      "sha256": "bd6f2bd2bc741709de82b492f87dc9c9e124b7c138e2f8dd94a241e4cafc4ec2"
+    },
+    {
+      "url": "https://shopsoet.com/",
+      "sha256": "2cbb73dc8c21e05c644196f1265159cf847f463ae86983e4584b25d4c1c68121"
+    },
+    {
+      "url": "https://shopsoet.com/products.json?limit=20&page=1",
+      "sha256": "118b578d62d571a31d4e551c325188260f8fc7e5e40f970e4fd4eb214e0f7003"
+    },
+    {
+      "url": "https://shopsoet.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "2252e2e51c9341cc64055e4110e00a48cb1662a09fe72a5ba0a6d4b00942cd69"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:vinyl",
+    "not_proven:new_used_distinguishable",
+    "not_proven:public_prices",
+    "not_proven:availability",
+    "not_proven:stable_urls"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": false,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": false,
+    "availability": false,
+    "stable_urls": false,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2450",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-41027126660-1",
+  "queue_rows": [
+    2450
+  ],
+  "assessment_path": "assessments/v2/shopsoet_com/v2-41027126660-1.json"
+}
