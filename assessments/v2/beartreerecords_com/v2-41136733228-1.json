@@ -1,0 +1,240 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T22:24:58.130124+00:00",
+  "shop_id": "beartreerecords.com",
+  "row": 3344,
+  "name": "Bear Tree Records",
+  "domain": "beartreerecords.com",
+  "country": null,
+  "website": "https://beartreerecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3344,
+    "name": "Bear Tree Records",
+    "domain": "beartreerecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://beartreerecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 21,
+    "accepted": 8,
+    "excluded": 13,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://beartreerecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://beartreerecords.com/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 21,
+        "accepted": 8,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://beartreerecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://beartreerecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://beartreerecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://beartreerecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://beartreerecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://beartreerecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://beartreerecords.com/products.json?limit=20&page=1",
+      "score": 85,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://beartreerecords.com/products.json?limit=20&page=1",
+  "listing_sample": 8,
+  "price_quality": {
+    "status": "review",
+    "flags": [
+      "shipping_term_in_product_identity"
+    ],
+    "records_checked": 8,
+    "unique_prices": 5,
+    "shipping_hits": 2,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://beartreerecords.com/products/nouvelle-vague-a-date-with-depeche-mode-lp?variant=63152039100803",
+      "artist": "",
+      "title": "Nouvelle Vague 'A Date with Depeche Mode' LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "19.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://beartreerecords.com/products/kreidler-weekend-30-year-anniversary-edition-lp?variant=63154138644867",
+      "artist": "",
+      "title": "Kreidler 'Weekend (30 Year Anniversary Edition)' LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "26.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://beartreerecords.com/products/the-human-league-sound-of-the-crowd-greatest-hits-live-in-concert-lp?variant=63155353878915",
+      "artist": "The Human League 'Sound Of The Crowd",
+      "title": "Greatest Hits Live In Concert' LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "19.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://beartreerecords.com/robots.txt",
+      "sha256": "85eda942f6c30f714b7d3ba92b144e47bddf579291709768273f127493f72c17"
+    },
+    {
+      "url": "https://beartreerecords.com/",
+      "sha256": "4db431ac247625c78192da2995bd782a292419844342c44575fc1fedd2c548a9"
+    },
+    {
+      "url": "https://beartreerecords.com/products.json?limit=20&page=1",
+      "sha256": "3d8c3e96b1bd13c10d28857aa970df2cbabe3b430e8cff0deec24b39c6e08f98"
+    },
+    {
+      "url": "https://beartreerecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "5033d0eb00838aa3c5f9717e79a1ddffe3e644b451eb110269aa29b43612a89b"
+    },
+    {
+      "url": "https://beartreerecords.com/products/the-human-league-sound-of-the-crowd-greatest-hits-live-in-concert-lp",
+      "sha256": "aa04d2348631327cded55b8ca2bf886ba0c90cd59dfad9db636dbdbf9150b3ea"
+    },
+    {
+      "url": "https://beartreerecords.com/products/ricardo-marrero-and-the-group-a-taste-lp",
+      "sha256": "e22334f199be2c7679f36b763583b623e1085d1155528e45dcb2e6023e4890f9"
+    },
+    {
+      "url": "https://beartreerecords.com/products/nouvelle-vague-a-date-with-depeche-mode-lp?variant=63152039100803",
+      "sha256": "d9ea95b87df24fed6a611821c06369a3a8af688d63cfebdd74e2a63819afb5fc"
+    },
+    {
+      "url": "https://beartreerecords.com/products/kreidler-weekend-30-year-anniversary-edition-lp?variant=63154138644867",
+      "sha256": "6b9043c16d1a9975cb2b784193c1b85a59c7261ce30e317bc8ae2c2930a17a19"
+    },
+    {
+      "url": "https://beartreerecords.com/products/the-human-league-sound-of-the-crowd-greatest-hits-live-in-concert-lp?variant=63155353878915",
+      "sha256": "b6680b7f2296186a0bfc7545dd79107a760f55c0f27b385334b47f1a9a74b4e5"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:public_prices"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": false,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 0.375,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "FROZEN",
+  "example_urls": [
+    "https://beartreerecords.com/products/nouvelle-vague-a-date-with-depeche-mode-lp?variant=63152039100803",
+    "https://beartreerecords.com/products/kreidler-weekend-30-year-anniversary-edition-lp?variant=63154138644867",
+    "https://beartreerecords.com/products/the-human-league-sound-of-the-crowd-greatest-hits-live-in-concert-lp?variant=63155353878915"
+  ],
+  "assessment_id": "v2-41136733228-1",
+  "queue_rows": [
+    3344
+  ],
+  "assessment_path": "assessments/v2/beartreerecords_com/v2-41136733228-1.json"
+}
