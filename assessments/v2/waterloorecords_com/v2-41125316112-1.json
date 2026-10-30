@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T20:53:40.988143+00:00",
+  "shop_id": "waterloorecords.com",
+  "row": 3191,
+  "name": "Waterloo Records & Video",
+  "domain": "waterloorecords.com",
+  "country": "US",
+  "website": "https://waterloorecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3191,
+    "name": "Waterloo Records & Video",
+    "domain": "waterloorecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://waterloorecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 16,
+    "excluded": 4,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://waterloorecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://waterloorecords.com/products.json?limit=20&page=1",
+        "score": 165,
+        "products_seen": 20,
+        "accepted": 16,
+        "excluded": 4,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://waterloorecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 95,
+        "products_seen": 20,
+        "accepted": 9,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://waterloorecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://waterloorecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://waterloorecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://waterloorecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://waterloorecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://waterloorecords.com/products.json?limit=20&page=1",
+      "score": 165,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://waterloorecords.com/products.json?limit=20&page=1",
+  "listing_sample": 16,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 16,
+    "unique_prices": 13,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://waterloorecords.com/robots.txt",
+      "sha256": "992b0bbd0831b687ccd5091dcbca428ac005adb9ff68ab10fa85bb68e0f73812"
+    },
+    {
+      "url": "https://waterloorecords.com/",
+      "sha256": "02674189e54bf3811d37ba18bd0a049cc6d5a50b884a367c916ed1bde5811b1f"
+    },
+    {
+      "url": "https://waterloorecords.com/products.json?limit=20&page=1",
+      "sha256": "e4dc20ed582210f7b7c0826cafcaca505c88687a238919457262ab08ac4374ba"
+    },
+    {
+      "url": "https://waterloorecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "61cc5dd3ee303fae81aca7065bd73a3b53343f4a37f053f0bcf753d2a86b4e90"
+    },
+    {
+      "url": "https://waterloorecords.com/products/loose-nukes-loose-nukes-lp-09999782461",
+      "sha256": "3ee24e79d19b0985abfc98e45f6b3c55c8223a9f9a147fe7678a4d0dbd416034"
+    },
+    {
+      "url": "https://waterloorecords.com/products/crime-wave-convulsion-gospels-lp-09999782441",
+      "sha256": "9cdbe56c5e45afcd06cff59cba875729d5eed681d4adcf6c06ec7b97870b6db3"
+    },
+    {
+      "url": "https://waterloorecords.com/products/genesis-from-genesis-to-revelation-remixed-remastered-vinyl?variant=68052197540136",
+      "sha256": "b48376822c334e5b8d62e5f2611adcb51b4ee48ebb251a1960247a6a082d6c6f"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.9375,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_3191",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-41125316112-1",
+  "queue_rows": [
+    3191
+  ],
+  "assessment_path": "assessments/v2/waterloorecords_com/v2-41125316112-1.json"
+}
