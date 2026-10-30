@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T16:50:44.126549+00:00",
+  "shop_id": "vinylgram.com",
+  "row": 2916,
+  "name": "Toxic Beauty Records",
+  "domain": "vinylgram.com",
+  "country": "US",
+  "website": "https://vinylgram.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2916,
+    "name": "Toxic Beauty Records",
+    "domain": "vinylgram.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://vinylgram.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 15,
+    "excluded": 5,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://vinylgram.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://vinylgram.com/products.json?limit=20&page=1",
+        "score": 155,
+        "products_seen": 20,
+        "accepted": 15,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://vinylgram.com/collections/all/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://vinylgram.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylgram.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylgram.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylgram.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylgram.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://vinylgram.com/products.json?limit=20&page=1",
+      "score": 155,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://vinylgram.com/products.json?limit=20&page=1",
+  "listing_sample": 15,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 15,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://vinylgram.com/robots.txt",
+      "sha256": "62244f45b88bb4cd39588f92953cd1989baa7b1253762fc21bff2ffcc3399230"
+    },
+    {
+      "url": "https://vinylgram.com/",
+      "sha256": "a68658f91d73f72d5c783878552b697716ef678c2ec9c6e0d3d667bc601dd72f"
+    },
+    {
+      "url": "https://vinylgram.com/products.json?limit=20&page=1",
+      "sha256": "42f07f9fda38667bb60057a49d08dc70793dda5bac7de3b2a1088b08b6b5725f"
+    },
+    {
+      "url": "https://vinylgram.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "db76e6e56befb214055f7640635d450adc1b174408c012d5fbe69db7c4d3aa10"
+    },
+    {
+      "url": "https://vinylgram.com/products/vince-guaraldi-trio-a-charlie-brown-christmas-snowstorm-white-vinyl-lp",
+      "sha256": "d21b4381386fa434253510d7e93fad43db3948b9dbf24187db3e2402c7e98947"
+    },
+    {
+      "url": "https://vinylgram.com/products/zombie-rob-hellbilly-deluxe-glow-in-the-dark-vinyl-lp",
+      "sha256": "4751ac88dbcdc9c4b5be60a3cbd5e72aec9d5450ccea6f1c4da22f881ec96b78"
+    },
+    {
+      "url": "https://vinylgram.com/products/winehouse-amy-back-to-black-20th-anniversary-deluxe-edition-ultra-clear-vinyl-3lp?variant=67906053505244",
+      "sha256": "e5d3b56a6b01ad572aae9a335288ae87a51b6c7351b3665d1795a658209d0b00"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2916",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-41091973788-1",
+  "queue_rows": [
+    2916
+  ],
+  "assessment_path": "assessments/v2/vinylgram_com/v2-41091973788-1.json"
+}
