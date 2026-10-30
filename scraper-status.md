@@ -3672,12 +3672,13 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | yurisrecords.com | 16 | REVIEW | 0 | 16 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | zoinksrecords.com | 16 | REVIEW | 0 | 17 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 <!-- quality-gate:end -->
+
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **2410**. Open: **914**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **2510**. Open: **814**.
 
-EAN: **48** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **2335** | UNSUITABLE: **0**
+EAN: **52** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **2431** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -6059,110 +6060,110 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Shipwrecked Cards & Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
 | Shock Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Sholas Sales | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
-| Shop At Ice Cream | US | Nog te beoordelen | — | — | — | — |
-| Shrimati's | US | Nog te beoordelen | — | — | — | — |
+| Shop At Ice Cream | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Shrimati's | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Shuga Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | invalid_detail_gtin | — |
-| Shut Up & Listen Records | US | Nog te beoordelen | — | — | — | — |
-| Sibylline Records | US | Nog te beoordelen | — | — | — | — |
-| SICK CITY RECORDS | US | Nog te beoordelen | — | — | — | — |
-| Side A Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Side One Records | US | Nog te beoordelen | — | — | — | — |
-| Sidetracks Music | US | Nog te beoordelen | — | — | — | — |
-| Sig's Lagoon Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Signal Records | US | Nog te beoordelen | — | — | — | — |
-| Silver Factory Books and Records | US | Nog te beoordelen | — | — | — | — |
-| Silver Platters; Silver Platters Lynnwood; Silver Platters SoDo | US | Nog te beoordelen | — | — | — | — |
-| Simco Audio and Vinyl Records | US | Nog te beoordelen | — | — | — | — |
-| Simple Finds Consignment Designer Outlet Mall | US | Nog te beoordelen | — | — | — | — |
-| Singles Going Steady | US | Nog te beoordelen | — | — | — | — |
-| Siples Records | US | Nog te beoordelen | — | — | — | — |
-| Siren Records | US | Nog te beoordelen | — | — | — | — |
-| Siren Records - Monterey | US | Nog te beoordelen | — | — | — | — |
-| Siren Records McHenry | US | Nog te beoordelen | — | — | — | — |
-| Sister Anne's Records & Coffee | US | Nog te beoordelen | — | — | — | — |
-| Sisters in Christ Records | US | Nog te beoordelen | — | — | — | — |
-| Sisters of Sound Records | US | Nog te beoordelen | — | — | — | — |
-| Sit and Spin Records | US | Nog te beoordelen | — | — | — | — |
-| Ska Dog Records | US | Nog te beoordelen | — | — | — | — |
-| Skele-Tone Records | US | Nog te beoordelen | — | — | — | — |
-| Skeleton Dust Records | US | Nog te beoordelen | — | — | — | — |
-| Skeletunes Records | US | Nog te beoordelen | — | — | — | — |
-| Skinnies Records | US | Nog te beoordelen | — | — | — | — |
-| Skips Records And Music Store | US | Nog te beoordelen | — | — | — | — |
-| Skratchy's Antiques & Records | US | Nog te beoordelen | — | — | — | — |
-| Skull-Face Books & Vinyl | US | Nog te beoordelen | — | — | — | — |
+| Shut Up & Listen Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Sibylline Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| SICK CITY RECORDS | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Side A Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Side One Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Sidetracks Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sig's Lagoon Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Signal Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Silver Factory Books and Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Silver Platters; Silver Platters Lynnwood; Silver Platters SoDo | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Simco Audio and Vinyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Simple Finds Consignment Designer Outlet Mall | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Singles Going Steady | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Siples Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Siren Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Siren Records - Monterey | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
+| Siren Records McHenry | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sister Anne's Records & Coffee | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sisters in Christ Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Sisters of Sound Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sit and Spin Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Ska Dog Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Skele-Tone Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Skeleton Dust Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | invalid_detail_gtin | — |
+| Skeletunes Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Skinnies Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Skips Records And Music Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Skratchy's Antiques & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Skull-Face Books & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Sky Valley Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| Slackers Music, Movies, Games, Toys & Comics | US | Nog te beoordelen | — | — | — | — |
-| Slam Tilt Records + Games | US | Nog te beoordelen | — | — | — | — |
-| Slant Street Records | US | Nog te beoordelen | — | — | — | — |
-| Sleepy Poet Antique Mall | US | Nog te beoordelen | — | — | — | — |
-| Sleeve City USA | US | Nog te beoordelen | — | — | — | — |
-| Slick Disc Music Inc | US | Nog te beoordelen | — | — | — | — |
-| SloLow Vinyl Records | US | Nog te beoordelen | — | — | — | — |
-| Slow Burn Records | US | Nog te beoordelen | — | — | — | — |
-| Slow Drip Records | US | Nog te beoordelen | — | — | — | — |
-| Small Friend Records & Books | US | Nog te beoordelen | — | — | — | — |
-| Smash Records | US | Nog te beoordelen | — | — | — | — |
-| Smith Rock Records | US | Nog te beoordelen | — | — | — | — |
-| Smoky Jazz Collective | US | Nog te beoordelen | — | — | — | — |
-| SNL Records, antiques and More | US | Nog te beoordelen | — | — | — | — |
-| So Bros Records and Collectables | US | Nog te beoordelen | — | — | — | — |
-| So Lame Records | US | Nog te beoordelen | — | — | — | — |
-| Social Club Records | US | Nog te beoordelen | — | — | — | — |
-| Soet | US | Nog te beoordelen | — | — | — | — |
-| Solar Mountain Records | US | Nog te beoordelen | — | — | — | — |
-| Sold Out Vinyl Records | US | Nog te beoordelen | — | — | — | — |
-| Soldato Books & Records | US | Nog te beoordelen | — | — | — | — |
-| Solo Records & Tapes | US | Nog te beoordelen | — | — | — | — |
-| SolSta Records | US | Nog te beoordelen | — | — | — | — |
-| Som Records | US | Nog te beoordelen | — | — | — | — |
-| SOMA Sounds | US | Nog te beoordelen | — | — | — | — |
-| Somewhere In Time - That 70s Shop | US | Nog te beoordelen | — | — | — | — |
-| Sonic Ascension Records | US | Nog te beoordelen | — | — | — | — |
-| Sonic Boom Records | US | Nog te beoordelen | — | — | — | — |
-| Sonic Rainbow Inc. | US | Nog te beoordelen | — | — | — | — |
-| Sonido Del Valle | US | Nog te beoordelen | — | — | — | — |
-| Sonidos! Music & More | US | Nog te beoordelen | — | — | — | — |
-| Sonora Records | US | Nog te beoordelen | — | — | — | — |
-| SOOK Vinyl & Vintage | US | Nog te beoordelen | — | — | — | — |
-| Sooni and Tommi - K-Beauty & K-pop Store City Farmers market | US | Nog te beoordelen | — | — | — | — |
-| Sorry State Records | US | Nog te beoordelen | — | — | — | — |
-| Soul Provider Records | US | Nog te beoordelen | — | — | — | — |
-| Soul Relief Records | US | Nog te beoordelen | — | — | — | — |
-| Soul Side Vinyl | US | Nog te beoordelen | — | — | — | — |
+| Slackers Music, Movies, Games, Toys & Comics | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Slam Tilt Records + Games | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Slant Street Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sleepy Poet Antique Mall | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sleeve City USA | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Slick Disc Music Inc | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| SloLow Vinyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Slow Burn Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Slow Drip Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Small Friend Records & Books | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Smash Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Smith Rock Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Smoky Jazz Collective | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| SNL Records, antiques and More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| So Bros Records and Collectables | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| So Lame Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Social Club Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Soet | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Solar Mountain Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Sold Out Vinyl Records | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Soldato Books & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Solo Records & Tapes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_404 | — |
+| SolSta Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Som Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| SOMA Sounds | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Somewhere In Time - That 70s Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Sonic Ascension Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sonic Boom Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sonic Rainbow Inc. | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Sonido Del Valle | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Sonidos! Music & More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sonora Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| SOOK Vinyl & Vintage | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Sooni and Tommi - K-Beauty & K-pop Store City Farmers market | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Sorry State Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Soul Provider Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Soul Relief Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Soul Side Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Soul Stop Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| Soul to Squeeze Record & Pop Culture Shoppe | US | Nog te beoordelen | — | — | — | — |
-| Soul Waves Vinyl Records | US | Nog te beoordelen | — | — | — | — |
-| Soulmates' Music Record Store | US | Nog te beoordelen | — | — | — | — |
-| Sound & Vision - Records, Games, Movies, and More! | US | Nog te beoordelen | — | — | — | — |
-| Sound and Vision Vinyl, LLC | US | Nog te beoordelen | — | — | — | — |
-| Sound Attitude | US | Nog te beoordelen | — | — | — | — |
-| Sound Bend Records | US | Nog te beoordelen | — | — | — | — |
-| Sound Decay Records | US | Nog te beoordelen | — | — | — | — |
-| Sound Effects | US | Nog te beoordelen | — | — | — | — |
-| Sound Exchange | US | Nog te beoordelen | — | — | — | — |
-| Sound Exchange | US | Nog te beoordelen | — | — | — | — |
-| Sound Exchange - WE BUY RECORDS, CDS & Turntables - ALWAYS PAYING THE MOST! | US | Nog te beoordelen | — | — | — | — |
-| Sound Go Round | US | Nog te beoordelen | — | — | — | — |
-| Sound House Records | US | Nog te beoordelen | — | — | — | — |
-| Sound Off Records & Hi-Fi | US | Nog te beoordelen | — | — | — | — |
+| Soul to Squeeze Record & Pop Culture Shoppe | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Soul Waves Vinyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Soulmates' Music Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Sound & Vision - Records, Games, Movies, and More! | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sound and Vision Vinyl, LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sound Attitude | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Sound Bend Records | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Sound Decay Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Sound Effects | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Sound Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sound Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Sound Exchange - WE BUY RECORDS, CDS & Turntables - ALWAYS PAYING THE MOST! | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Sound Go Round | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sound House Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sound Off Records & Hi-Fi | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Sound Platters | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| Sound Revolution - RECORDS • TAPES • CDS • GIFTS; Sound Revolution Records, Tapes, CDs & Gifts | US | Nog te beoordelen | — | — | — | — |
-| Sound Shack | US | Nog te beoordelen | — | — | — | — |
-| Sound Shack Kingston | US | Nog te beoordelen | — | — | — | — |
-| Sound Spectrum | US | Nog te beoordelen | — | — | — | — |
-| Sound Storm Records | US | Nog te beoordelen | — | — | — | — |
-| Soundcheck Records Inc | US | Nog te beoordelen | — | — | — | — |
-| Soundroom | US | Nog te beoordelen | — | — | — | — |
-| Sounds Good Music | US | Nog te beoordelen | — | — | — | — |
-| Sounds Good Music House | US | Nog te beoordelen | — | — | — | — |
-| Sounds Like Sound | US | Nog te beoordelen | — | — | — | — |
-| Sounds of Music | US | Nog te beoordelen | — | — | — | — |
-| Soundsations Records | US | Nog te beoordelen | — | — | — | — |
-| Soundscape Records | US | Nog te beoordelen | — | — | — | — |
-| Soundtracks | US | Nog te beoordelen | — | — | — | — |
-| Soundtrax | US | Nog te beoordelen | — | — | — | — |
-| South Metro Music | US | Nog te beoordelen | — | — | — | — |
+| Sound Revolution - RECORDS • TAPES • CDS • GIFTS; Sound Revolution Records, Tapes, CDs & Gifts | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Sound Shack | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Sound Shack Kingston | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_404 | — |
+| Sound Spectrum | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sound Storm Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Soundcheck Records Inc | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Soundroom | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Sounds Good Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Sounds Good Music House | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sounds Like Sound | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Sounds of Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Soundsations Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Soundscape Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
+| Soundtracks | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Soundtrax | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| South Metro Music | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
 | Southern Fried Vinyl Records / Media Mania of Helen | US | Nog te beoordelen | — | — | — | — |
 | Southtown Vinyl | US | Nog te beoordelen | — | — | — | — |
 | Sp8ctre Cards, Records and Collectibles | US | Nog te beoordelen | — | — | — | — |
