@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T22:25:24.942706+00:00",
+  "shop_id": "blackcityrecords.co.uk",
+  "row": 3355,
+  "name": "Black City Records",
+  "domain": "blackcityrecords.co.uk",
+  "country": null,
+  "website": "https://blackcityrecords.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3355,
+    "name": "Black City Records",
+    "domain": "blackcityrecords.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://blackcityrecords.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://blackcityrecords.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://blackcityrecords.co.uk/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://blackcityrecords.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 21,
+        "accepted": 18,
+        "excluded": 3,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://blackcityrecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://blackcityrecords.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://blackcityrecords.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://blackcityrecords.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://blackcityrecords.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://blackcityrecords.co.uk/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://blackcityrecords.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://blackcityrecords.co.uk/products/undergang-misantroplogi-lp?variant=59169055080822",
+      "artist": "Undergang",
+      "title": "Misantroplogi LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "23.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://blackcityrecords.co.uk/products/filth-time-to-rot-lp?variant=59170314322294",
+      "artist": "Filth",
+      "title": "Time To Rot LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "21.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://blackcityrecords.co.uk/products/fosse-septique-septicity-7?variant=59191255171446",
+      "artist": "Fosse Septique",
+      "title": "Septicity 7”",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "9.50",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://blackcityrecords.co.uk/robots.txt",
+      "sha256": "1d6aad5fba730ca1eced4fdc1875d5982b48bb9669f21dcf6f0b03b0d578aefc"
+    },
+    {
+      "url": "https://blackcityrecords.co.uk/",
+      "sha256": "868b75f1b4af7dce6d1ccd5ec44876b7c880a4083cb3fe7ade42c6d427486c2a"
+    },
+    {
+      "url": "https://blackcityrecords.co.uk/products.json?limit=20&page=1",
+      "sha256": "cfed3ec939b3a7272e243a7abe118e580605e424771a904ef2469ea7ad27bd9c"
+    },
+    {
+      "url": "https://blackcityrecords.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "75b383292dc08d519082a0fcb854667bd5258087f9415a82bd83d1e773deb79b"
+    },
+    {
+      "url": "https://blackcityrecords.co.uk/products/fosse-septique-septicity-7",
+      "sha256": "c078dc7c17e19b40f69ba733662b7e3d7885397bc952ae83cfc8f23608d48978"
+    },
+    {
+      "url": "https://blackcityrecords.co.uk/products/anatomia-druid-lord-split-7",
+      "sha256": "84ff8540f5d41e37020b91d9b361f4e2fec74bf24aea997ed1d868c57df38063"
+    },
+    {
+      "url": "https://blackcityrecords.co.uk/products/undergang-misantroplogi-lp?variant=59169055080822",
+      "sha256": "899450db2e4b4dc0964efe0b36eff4682860e9405417dceef9c3ee4b6d967596"
+    },
+    {
+      "url": "https://blackcityrecords.co.uk/products/filth-time-to-rot-lp?variant=59170314322294",
+      "sha256": "59e0c18aa0642324e5f97e3998cc1856a510bee7242272ab5fc0576f09a59ca8"
+    },
+    {
+      "url": "https://blackcityrecords.co.uk/products/fosse-septique-septicity-7?variant=59191255171446",
+      "sha256": "b9f00ce435a36aef4091a000f390b9f76677573ed5a42a7afba2e496feca9c3a"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "FROZEN",
+  "example_urls": [
+    "https://blackcityrecords.co.uk/products/undergang-misantroplogi-lp?variant=59169055080822",
+    "https://blackcityrecords.co.uk/products/filth-time-to-rot-lp?variant=59170314322294",
+    "https://blackcityrecords.co.uk/products/fosse-septique-septicity-7?variant=59191255171446"
+  ],
+  "assessment_id": "v2-41136733228-1",
+  "queue_rows": [
+    3355
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 20,
+  "candidate_ref": "v2-41136733228-1/blackcityrecords_co_uk",
+  "assessment_path": "assessments/v2/blackcityrecords_co_uk/v2-41136733228-1.json"
+}
