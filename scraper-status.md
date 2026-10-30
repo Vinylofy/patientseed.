@@ -3676,9 +3676,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **2510**. Open: **814**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **2610**. Open: **714**.
 
-EAN: **52** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **2431** | UNSUITABLE: **0**
+EAN: **54** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **2529** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -6164,108 +6164,108 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Soundtracks | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Soundtrax | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | South Metro Music | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
-| Southern Fried Vinyl Records / Media Mania of Helen | US | Nog te beoordelen | — | — | — | — |
-| Southtown Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Sp8ctre Cards, Records and Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Spa City Music / The Vinyl Destination | US | Nog te beoordelen | — | — | — | — |
-| Space City Audio | US | Nog te beoordelen | — | — | — | — |
-| Space Coast Records | US | Nog te beoordelen | — | — | — | — |
-| Space Monkey Records | US | Nog te beoordelen | — | — | — | — |
-| Spaceman Guitars | US | Nog te beoordelen | — | — | — | — |
-| Spacey Kasey's Vinyl Record & CD Booth | US | Nog te beoordelen | — | — | — | — |
-| Speakeasy Records & Oddities | US | Nog te beoordelen | — | — | — | — |
-| Speaking Volumes Records | US | Nog te beoordelen | — | — | — | — |
-| Speck's Records & Tapes | US | Nog te beoordelen | — | — | — | — |
-| Spektrum Muzik | US | Nog te beoordelen | — | — | — | — |
-| Spiders From Mars Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Spike's Record Rack | US | Nog te beoordelen | — | — | — | — |
-| SPIN CITY RECORDS | US | Nog te beoordelen | — | — | — | — |
-| Spin Connection | US | Nog te beoordelen | — | — | — | — |
-| Spin Cycle Records Movies and Games | US | Nog te beoordelen | — | — | — | — |
-| Spin Groove Records | US | Nog te beoordelen | — | — | — | — |
-| Spin Me Round | US | Nog te beoordelen | — | — | — | — |
-| Spin Records | US | Nog te beoordelen | — | — | — | — |
-| Spin Records Boise | US | Nog te beoordelen | — | — | — | — |
-| Spin Shack | US | Nog te beoordelen | — | — | — | — |
-| Spin That Records | US | Nog te beoordelen | — | — | — | — |
-| Spin Time Records | US | Nog te beoordelen | — | — | — | — |
-| Spincycle Records | US | Nog te beoordelen | — | — | — | — |
-| spindizz | US | Nog te beoordelen | — | — | — | — |
-| Spindles Music Shack | US | Nog te beoordelen | — | — | — | — |
-| Spinnaker Records | US | Nog te beoordelen | — | — | — | — |
-| Spinning Plate Records | US | Nog te beoordelen | — | — | — | — |
-| Spinning Records | US | Nog te beoordelen | — | — | — | — |
-| Spinning Threads | US | Nog te beoordelen | — | — | — | — |
-| Spinster Records | US | Nog te beoordelen | — | — | — | — |
-| Spiral Groove Records | US | Nog te beoordelen | — | — | — | — |
-| Spooky's Records and Collectibles | US | Nog te beoordelen | — | — | — | — |
+| Southern Fried Vinyl Records / Media Mania of Helen | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Southtown Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sp8ctre Cards, Records and Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Spa City Music / The Vinyl Destination | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Space City Audio | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Space Coast Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Space Monkey Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Spaceman Guitars | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Spacey Kasey's Vinyl Record & CD Booth | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Speakeasy Records & Oddities | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Speaking Volumes Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Speck's Records & Tapes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Spektrum Muzik | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Spiders From Mars Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Spike's Record Rack | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| SPIN CITY RECORDS | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Spin Connection | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Spin Cycle Records Movies and Games | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Spin Groove Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Spin Me Round | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Spin Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Spin Records Boise | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Spin Shack | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Spin That Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Spin Time Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Spincycle Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| spindizz | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Spindles Music Shack | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Spinnaker Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Spinning Plate Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Spinning Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Spinning Threads | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Spinster Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Spiral Groove Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Spooky's Records and Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
 | Spoonful Records | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40571453864-1/spoonfulrecordsohio_com |
-| Square Cat Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Square Dog Books, Movies & Music | US | Nog te beoordelen | — | — | — | — |
-| Squeezebox Books & Music Inc | US | Nog te beoordelen | — | — | — | — |
-| SqueezeBox Records | US | Nog te beoordelen | — | — | — | — |
+| Square Cat Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Square Dog Books, Movies & Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Squeezebox Books & Music Inc | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| SqueezeBox Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
 | Sst Records Inc | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| St. Andrews Sound Collective | US | Nog te beoordelen | — | — | — | — |
-| St. Louis Antique Mall | US | Nog te beoordelen | — | — | — | — |
-| St. Pete Records | US | Nog te beoordelen | — | — | — | — |
-| Stairway to Past Present and Future Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Stairway to Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Stan's Record Bar | US | Nog te beoordelen | — | — | — | — |
-| Standards | US | Nog te beoordelen | — | — | — | — |
-| Stardust Alley Vinyl Records at Barnacle Betty's Antique and Art Emporium | US | Nog te beoordelen | — | — | — | — |
-| Stardust Records | US | Nog te beoordelen | — | — | — | — |
-| Stardust Records and Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Stargazer Records | US | Nog te beoordelen | — | — | — | — |
-| Stash Records | US | Nog te beoordelen | — | — | — | — |
-| State Street Records | US | Nog te beoordelen | — | — | — | — |
-| Static Age | US | Nog te beoordelen | — | — | — | — |
-| Static Age Records | US | Nog te beoordelen | — | — | — | — |
-| Static Age Vintage | US | Nog te beoordelen | — | — | — | — |
-| Static ATX Records | US | Nog te beoordelen | — | — | — | — |
-| Static Era Records | US | Nog te beoordelen | — | — | — | — |
-| Static Station | US | Nog te beoordelen | — | — | — | — |
-| Static Tape Video | US | Nog te beoordelen | — | — | — | — |
-| Station 1 Books & Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Stax Of Trax | US | Nog te beoordelen | — | — | — | — |
-| Stay Tuned Records | US | Nog te beoordelen | — | — | — | — |
-| Steady Beat Records | US | Nog te beoordelen | — | — | — | — |
-| Steelworker Records | US | Nog te beoordelen | — | — | — | — |
-| Stellar Records | US | Nog te beoordelen | — | — | — | — |
-| Stereo Jack's Records | US | Nog te beoordelen | — | — | — | — |
-| Stereo Stereo | US | Nog te beoordelen | — | — | — | — |
-| Stereo Unlimited | US | Nog te beoordelen | — | — | — | — |
-| Sterling Exchange Record Emporium | US | Nog te beoordelen | — | — | — | — |
-| Sterling Records | US | Nog te beoordelen | — | — | — | — |
-| Steve's Downtown Music | US | Nog te beoordelen | — | — | — | — |
-| Steve's Record Store | US | Nog te beoordelen | — | — | — | — |
-| Steven's Games and Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Stick It In Your Ear | US | Nog te beoordelen | — | — | — | — |
-| Stingray Records | US | Nog te beoordelen | — | — | — | — |
-| Stinkweeds Record Store | US | Nog te beoordelen | — | — | — | — |
-| Stockton Friends of the Library Bookstore | US | Nog te beoordelen | — | — | — | — |
-| Stones Trading Post | US | Nog te beoordelen | — | — | — | — |
-| Stonykill Coffee & Records | US | Nog te beoordelen | — | — | — | — |
-| Stooz Records | US | Nog te beoordelen | — | — | — | — |
-| Stories & Songs- GA | US | Nog te beoordelen | — | — | — | — |
-| Str33t Records | US | Nog te beoordelen | — | — | — | — |
-| Straightaway Records | US | Nog te beoordelen | — | — | — | — |
-| Strand Street Records | US | Nog te beoordelen | — | — | — | — |
-| Stranded Records NYC; Stranded Records Oakland; Stranded Records SF | US | Nog te beoordelen | — | — | — | — |
-| Strange Maine | US | Nog te beoordelen | — | — | — | — |
-| Strange Records | US | Nog te beoordelen | — | — | — | — |
-| Stranger Than Fiction Books Plus | US | Nog te beoordelen | — | — | — | — |
-| Strawberries Records; Tech Hifi | US | Nog te beoordelen | — | — | — | — |
-| Strawberry Banke Antique and Vintage Shop | US | Nog te beoordelen | — | — | — | — |
-| Street Corner Music | US | Nog te beoordelen | — | — | — | — |
-| Streetlight Records | US | Nog te beoordelen | — | — | — | — |
-| Strictly Discs | US | Nog te beoordelen | — | — | — | — |
-| Strictly Vinyl Records | US | Nog te beoordelen | — | — | — | — |
-| Stripes on Main | US | Nog te beoordelen | — | — | — | — |
-| Studio 931 | US | Nog te beoordelen | — | — | — | — |
-| Studio Records | US | Nog te beoordelen | — | — | — | — |
-| Studio Records @studioantiques | US | Nog te beoordelen | — | — | — | — |
-| Stumbletown Records | US | Nog te beoordelen | — | — | — | — |
-| Sugar Loaf Records | US | Nog te beoordelen | — | — | — | — |
+| St. Andrews Sound Collective | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| St. Louis Antique Mall | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| St. Pete Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Stairway to Past Present and Future Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Stairway to Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Stan's Record Bar | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Standards | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Stardust Alley Vinyl Records at Barnacle Betty's Antique and Art Emporium | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Stardust Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Stardust Records and Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Stargazer Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Stash Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| State Street Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Static Age | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Static Age Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Static Age Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Static ATX Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Static Era Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Static Station | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Static Tape Video | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Station 1 Books & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Stax Of Trax | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Stay Tuned Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Steady Beat Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
+| Steelworker Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Stellar Records | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Stereo Jack's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Stereo Stereo | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Stereo Unlimited | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sterling Exchange Record Emporium | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Sterling Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Steve's Downtown Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Steve's Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Steven's Games and Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Stick It In Your Ear | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Stingray Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Stinkweeds Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Stockton Friends of the Library Bookstore | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Stones Trading Post | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Stonykill Coffee & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Stooz Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Stories & Songs- GA | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Str33t Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Straightaway Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Strand Street Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Stranded Records NYC; Stranded Records Oakland; Stranded Records SF | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Strange Maine | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Strange Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Stranger Than Fiction Books Plus | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Strawberries Records; Tech Hifi | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Strawberry Banke Antique and Vintage Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Street Corner Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Streetlight Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Strictly Discs | US | EAN | MEDIUM | BUILT_AWAITING_MANUAL_TEST | own_product_valid_gtin_coverage_at_least_80_percent_of_sample | v2-41043561962-1/shop_strictlydiscs_com |
+| Strictly Vinyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Stripes on Main | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Studio 931 | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Studio Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Studio Records @studioantiques | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Stumbletown Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sugar Loaf Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Sullivan's Records | US | Nog te beoordelen | — | — | — | — |
 | Sully’s Records | US | Nog te beoordelen | — | — | — | — |
 | Sun Studio | US | Nog te beoordelen | — | — | — | — |
