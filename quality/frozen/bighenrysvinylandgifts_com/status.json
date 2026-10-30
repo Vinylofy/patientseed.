@@ -1,0 +1,100 @@
+{
+  "fingerprint": "cef74ec376289af6fc91a385d81c8faab6e7c10974a02e105fd6e69d2cf10222",
+  "domain": "bighenrysvinylandgifts.com",
+  "batch": 18,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41013449724",
+  "updated_at": "2026-10-30T06:20:42.610507+00:00",
+  "evidence": {
+    "domain": "bighenrysvinylandgifts.com",
+    "route": "https://bighenrysvinylandgifts.com/products.json?limit=20&page=1",
+    "observed_at": "2026-10-30T06:20:39.333813+00:00",
+    "requests": [
+      {
+        "url": "https://bighenrysvinylandgifts.com/products.json?limit=20&page=1",
+        "sha256": "0e68f8e26b5afe7485c59c3e08156b3cc51fdc1bc7b7db3cd970113a90bbb550"
+      },
+      {
+        "url": "https://bighenrysvinylandgifts.com/products/one-step-at-a-time-7-version-single-ivan-neville-cc-adcock-with-keith-richards-ronnie-wood-ft-jimmie-vaughan?variant=67736824742164",
+        "sha256": "a4ddca7fc09be95994c9f6c9b1076d4cf8a3b9ac5f5eeb3be7cc42a9e20d5afe"
+      },
+      {
+        "url": "https://bighenrysvinylandgifts.com/products/mike-hanapi-with-kalamas-quartet?variant=53674736910612",
+        "sha256": "07ee47bc63ef22febb3af09ee0a20cefc0b6f90e3e33dbea2c33fa08f8def25e"
+      },
+      {
+        "url": "https://bighenrysvinylandgifts.com/products/various-lovas-robert-a-tettes-en-vagyok?variant=53674549674260",
+        "sha256": "4a534b12c89d5fcdf2b331a5109a6cd3cbded1b4d24657f423997600999da6b8"
+      }
+    ],
+    "listing_records": 7,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://bighenrysvinylandgifts.com/products/one-step-at-a-time-7-version-single-ivan-neville-cc-adcock-with-keith-richards-ronnie-wood-ft-jimmie-vaughan?variant=67736824742164",
+        "price": "15.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://bighenrysvinylandgifts.com/products/mike-hanapi-with-kalamas-quartet?variant=53674736910612",
+        "price": "25.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://bighenrysvinylandgifts.com/products/various-lovas-robert-a-tettes-en-vagyok?variant=53674549674260",
+        "price": "30.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 7,
+      "unique_prices": 6,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 1,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39155794450"
+    },
+    {
+      "batch": 16,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40642431631"
+    },
+    {
+      "batch": 17,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40828686930"
+    },
+    {
+      "batch": 18,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41013449724"
+    }
+  ]
+}
