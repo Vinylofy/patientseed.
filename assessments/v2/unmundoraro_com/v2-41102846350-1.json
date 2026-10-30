@@ -1,0 +1,202 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T18:05:00.034119+00:00",
+  "shop_id": "unmundoraro.com",
+  "row": 2975,
+  "name": "Un Mundo Raro Records",
+  "domain": "unmundoraro.com",
+  "country": "US",
+  "website": "https://unmundoraro.com/",
+  "previous_status": "ADAPTER_TESTED",
+  "previous_reason": "no confirmed new vinyl on bounded page",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2975,
+    "name": "Un Mundo Raro Records",
+    "domain": "unmundoraro.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://unmundoraro.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 1,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://unmundoraro.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://unmundoraro.com/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://unmundoraro.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://unmundoraro.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://unmundoraro.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://unmundoraro.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://unmundoraro.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://unmundoraro.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://unmundoraro.com/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://unmundoraro.com/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://unmundoraro.com/products/los-aragon-el-sonido-maya-de-los-aragon-blue-vinyl?variant=67907973382356",
+      "artist": "Los Aragon",
+      "title": "El sonido Maya de los Aragon ( Blue Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "45.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://unmundoraro.com/robots.txt",
+      "sha256": "16a3c8232f4d6ac5b03f2dcf2781dda7f3177a93c4d836e4cb4bfa64adef4105"
+    },
+    {
+      "url": "https://unmundoraro.com/",
+      "sha256": "44b10cb52d6a8e86acfb883a4a36f33a08f0c02b6f739e866081877bd0132f44"
+    },
+    {
+      "url": "https://unmundoraro.com/products.json?limit=20&page=1",
+      "sha256": "b141b60af3cd8386990fe6f884618b1311c128eda53d10eb459d174bdd8cbf5d"
+    },
+    {
+      "url": "https://unmundoraro.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "d0ef3ea2d6633a4080aa288b5ebd9d4fb53ee25a5459e4914b9a7eac480707a6"
+    },
+    {
+      "url": "https://unmundoraro.com/products/los-aragon-el-sonido-maya-de-los-aragon-blue-vinyl",
+      "sha256": "6b6cb0205e24668e6f8607d4f084752d1b5a55737f46f58ee50fe260042911f8"
+    },
+    {
+      "url": "https://unmundoraro.com/products/los-aragon-el-sonido-maya-de-los-aragon-blue-vinyl?variant=67907973382356",
+      "sha256": "e0d36787cb99a9bb65ed7c78a8c0ba13650420ade7dafc723de963b71bf01087"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "insufficient_representative_product_evidence"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 0,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2975",
+  "existing_scraper_status": "NONE",
+  "example_urls": [
+    "https://unmundoraro.com/products/los-aragon-el-sonido-maya-de-los-aragon-blue-vinyl?variant=67907973382356"
+  ],
+  "assessment_id": "v2-41102846350-1",
+  "queue_rows": [
+    2975
+  ],
+  "assessment_path": "assessments/v2/unmundoraro_com/v2-41102846350-1.json"
+}
