@@ -1,0 +1,229 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T18:11:07.120097+00:00",
+  "shop_id": "valshallarecords.com",
+  "row": 3008,
+  "name": "Val’s halla Records",
+  "domain": "valshallarecords.com",
+  "country": "US",
+  "website": "https://valshallarecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3008,
+    "name": "Val’s halla Records",
+    "domain": "valshallarecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "woocommerce",
+    "source_url": "https://valshallarecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "adapter_class": "WooCommerceNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "method_candidates": [
+      {
+        "platform": "woocommerce",
+        "route": "https://valshallarecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://valshallarecords.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://valshallarecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://valshallarecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://valshallarecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://valshallarecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://valshallarecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "woocommerce",
+      "route": "https://valshallarecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "woocommerce",
+  "catalog_route": "https://valshallarecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://valshallarecords.com/product/ministry-dark-side-of-the-spoon-rocktober-2026-lp-new/",
+      "artist": "Ministry",
+      "title": "Ministry &#8211; Dark Side Of The Spoon (Rocktober 2026) (LP-New)",
+      "identity_method": "explicit_product_artist_attribute",
+      "identity_proven": false,
+      "price": "38.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://valshallarecords.com/product/piss-you-made-me-skin-on-linen-lp-new/",
+      "artist": "Piss",
+      "title": "Piss &#8211; You Made Me / Skin On Linen (LP-New)",
+      "identity_method": "explicit_product_artist_attribute",
+      "identity_proven": false,
+      "price": "26.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://valshallarecords.com/product/zz-top-greatest-hits-rocktober-2026-lp-new/",
+      "artist": "ZZ Top",
+      "title": "ZZ Top &#8211; Greatest Hits (Rocktober 2026) (LP-New)",
+      "identity_method": "explicit_product_artist_attribute",
+      "identity_proven": false,
+      "price": "38.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://valshallarecords.com/robots.txt",
+      "sha256": "25c876803b3c6450800dc3c7bf9f37e12eac638d7788a6d7aec299ea8f31806f"
+    },
+    {
+      "url": "https://valshallarecords.com/",
+      "sha256": "26f70d739da69a54c365c3d64ea13e8d7d4dabb01bdb877d748ba8c1f07eaf24"
+    },
+    {
+      "url": "https://valshallarecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "f1a174e5f7cf5868ef22f4e11bb531778240a425be75406f890ad25df8189265"
+    },
+    {
+      "url": "https://valshallarecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "e76c4bc83b9aa945f75158402c8a02137683ee06922c449e54147c2403331004"
+    },
+    {
+      "url": "https://valshallarecords.com/product/zz-top-greatest-hits-rocktober-2026-lp-new/",
+      "sha256": "1818cf9035dc75eaf4d3571809c038cf6c33db88bba5e3a4bb04369a0962da58"
+    },
+    {
+      "url": "https://valshallarecords.com/product/zombies-continue-here-lp-new/",
+      "sha256": "828b65ade79398c90daf385238846e2ed386cd15df87cac1eb1df16977e50cc0"
+    },
+    {
+      "url": "https://valshallarecords.com/product/ministry-dark-side-of-the-spoon-rocktober-2026-lp-new/",
+      "sha256": "da28eeb9b70b99ab58522e10045129cdcc8a9cf2e74d7e8e4ee78a71cc954089"
+    },
+    {
+      "url": "https://valshallarecords.com/product/piss-you-made-me-skin-on-linen-lp-new/",
+      "sha256": "820d2a926b03c55dc7a63912871f7bd181fe661653cf41e93dff0853980f0fda"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.8947368421052632,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_3008",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://valshallarecords.com/product/ministry-dark-side-of-the-spoon-rocktober-2026-lp-new/",
+    "https://valshallarecords.com/product/piss-you-made-me-skin-on-linen-lp-new/",
+    "https://valshallarecords.com/product/zz-top-greatest-hits-rocktober-2026-lp-new/"
+  ],
+  "assessment_id": "v2-41102846350-1",
+  "queue_rows": [
+    3008
+  ],
+  "assessment_path": "assessments/v2/valshallarecords_com/v2-41102846350-1.json"
+}
