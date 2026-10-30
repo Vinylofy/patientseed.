@@ -1,0 +1,89 @@
+{
+  "fingerprint": "7dcee40f3e394525b66f9ac404b94a06d4990c1661a3393bfbbc19e2575e6dc1",
+  "domain": "better-records.com",
+  "batch": 18,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41013449724",
+  "updated_at": "2026-10-30T06:20:39.296157+00:00",
+  "evidence": {
+    "domain": "better-records.com",
+    "route": "https://better-records.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-30T06:20:36.892829+00:00",
+    "requests": [
+      {
+        "url": "https://better-records.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "42775cf420dd7ee76839a11ad235eb51a7381eafef98f6878eb89b041e576ee1"
+      },
+      {
+        "url": "https://better-records.com/products/adderafric_2610-3?variant=67896244437288",
+        "sha256": "62ec79f9db14fb77a718e6679d8f1082ee707f61d4c9a578c9795fb18de9e264"
+      },
+      {
+        "url": "https://better-records.com/products/adderafric_2610-2?variant=67876333093160",
+        "sha256": "2879ac3e951d4a16b17e1b530d527c8da731dd69fa8961b1bea5d079229235aa"
+      }
+    ],
+    "listing_records": 2,
+    "detail_checked": 2,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://better-records.com/products/adderafric_2610-3?variant=67896244437288",
+        "price": "199.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://better-records.com/products/adderafric_2610-2?variant=67876333093160",
+        "price": "299.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 2,
+      "unique_prices": 2,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 1,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39155794450"
+    },
+    {
+      "batch": 16,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40642431631"
+    },
+    {
+      "batch": 17,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40828686930"
+    },
+    {
+      "batch": 18,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41013449724"
+    }
+  ]
+}
