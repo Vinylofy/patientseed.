@@ -3676,9 +3676,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **2910**. Open: **414**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **3010**. Open: **314**.
 
-EAN: **61** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **2822** | UNSUITABLE: **0**
+EAN: **62** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **2921** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -6575,113 +6575,113 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Toxic Beauty Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
 | Toxic Toast Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
 | Toys from the Attic | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
-| Track City Records | US | Nog te beoordelen | — | — | — | — |
-| Track Record Vinyl Shop & Listening Lounge | US | Nog te beoordelen | — | — | — | — |
-| Tracks In Wax Records | US | Nog te beoordelen | — | — | — | — |
-| Trader Shag's Music Emporium | US | Nog te beoordelen | — | — | — | — |
-| Trader Vic's Music & Video | US | Nog te beoordelen | — | — | — | — |
-| Trading Post Corporation | US | Nog te beoordelen | — | — | — | — |
-| Trading Post Music | US | Nog te beoordelen | — | — | — | — |
-| Traffic Records | US | Nog te beoordelen | — | — | — | — |
-| Trashe Vintage | US | Nog te beoordelen | — | — | — | — |
-| Trax N Wax | US | Nog te beoordelen | — | — | — | — |
-| Trax On Wax | US | Nog te beoordelen | — | — | — | — |
-| Trax Records | US | Nog te beoordelen | — | — | — | — |
-| Treasure Box Thrift Store | US | Nog te beoordelen | — | — | — | — |
-| Treasure House Antiques & collectibles LLC | US | Nog te beoordelen | — | — | — | — |
-| Treasure Hunt Records and Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Treasured Tracs & Images | US | Nog te beoordelen | — | — | — | — |
-| Treedome Vinyl + Vintage | US | Nog te beoordelen | — | — | — | — |
-| Triangle Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Trill | US | Nog te beoordelen | — | — | — | — |
-| Triomph Muzik | US | Nog te beoordelen | — | — | — | — |
-| Triple Play Records | US | Nog te beoordelen | — | — | — | — |
-| Tripp Records | US | Nog te beoordelen | — | — | — | — |
-| Trolley Stop Record Shop | US | Nog te beoordelen | — | — | — | — |
-| TRUE TILL DEATH TATTOOS ART & RECORDS | US | Nog te beoordelen | — | — | — | — |
-| True Vine | US | Nog te beoordelen | — | — | — | — |
-| TrunkShow | US | Nog te beoordelen | — | — | — | — |
+| Track City Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Track Record Vinyl Shop & Listening Lounge | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Tracks In Wax Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Trader Shag's Music Emporium | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Trader Vic's Music & Video | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Trading Post Corporation | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Trading Post Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Traffic Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Trashe Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Trax N Wax | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Trax On Wax | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Trax Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Treasure Box Thrift Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Treasure House Antiques & collectibles LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_404 | — |
+| Treasure Hunt Records and Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Treasured Tracs & Images | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Treedome Vinyl + Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Triangle Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Trill | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Triomph Muzik | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Triple Play Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Tripp Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Trolley Stop Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| TRUE TILL DEATH TATTOOS ART & RECORDS | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| True Vine | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| TrunkShow | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
 | TruRecords | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40571453864-1/trurecordsllc_com |
-| Trusted Grooves | US | Nog te beoordelen | — | — | — | — |
-| Trusty Chords Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Trusty Spot Records & Tees | US | Nog te beoordelen | — | — | — | — |
-| Truth Vinyl | US | Nog te beoordelen | — | — | — | — |
-| TTEEZrecords | US | Nog te beoordelen | — | — | — | — |
-| Tumbleweeds | US | Nog te beoordelen | — | — | — | — |
-| Tune Town | US | Nog te beoordelen | — | — | — | — |
-| Tunes | US | Nog te beoordelen | — | — | — | — |
-| Tunes | US | Nog te beoordelen | — | — | — | — |
+| Trusted Grooves | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Trusty Chords Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Trusty Spot Records & Tees | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Truth Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| TTEEZrecords | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Tumbleweeds | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Tune Town | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Tunes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Tunes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Tunnel Records | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40571453864-1/tunnelrecordssf_com |
-| Turn It Up! | US | Nog te beoordelen | — | — | — | — |
-| Turn The Page Books, Records & More | US | Nog te beoordelen | — | — | — | — |
-| Turntable Coffee Counter | US | Nog te beoordelen | — | — | — | — |
-| Turntable Records | US | Nog te beoordelen | — | — | — | — |
+| Turn It Up! | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Turn The Page Books, Records & More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Turntable Coffee Counter | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Turntable Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Turntable Treasures | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | insufficient_representative_product_evidence | — |
-| Twelves | US | Nog te beoordelen | — | — | — | — |
+| Twelves | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Twelves Wax | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40571453864-1/twelveswax_com |
-| Twin City Smitty’s Vintage Audio | US | Nog te beoordelen | — | — | — | — |
-| Twin Sugar Antiques Vintage Resale and Artisan | US | Nog te beoordelen | — | — | — | — |
-| Twist & Shout Records | US | Nog te beoordelen | — | — | — | — |
-| two ghosts vinyl cafe | US | Nog te beoordelen | — | — | — | — |
-| U-Sonic Record Cleaning | US | Nog te beoordelen | — | — | — | — |
-| Udy's Used Vinyl | US | Nog te beoordelen | — | — | — | — |
-| UFO Museum Gift Shop and Records | US | Nog te beoordelen | — | — | — | — |
-| Ugly Mike Records | US | Nog te beoordelen | — | — | — | — |
-| UHF Records | US | Nog te beoordelen | — | — | — | — |
-| Ukulele Store | US | Nog te beoordelen | — | — | — | — |
-| Ultimate Collectibles Sports Cards Pokemon RECORDS Comics Memorabilia Toys | US | Nog te beoordelen | — | — | — | — |
-| Ultimix Records | US | Nog te beoordelen | — | — | — | — |
-| Un Mundo Raro Records | US | Nog te beoordelen | — | — | — | — |
-| Unchanged Mind | US | Nog te beoordelen | — | — | — | — |
-| Uncle Aldo's Attic | US | Nog te beoordelen | — | — | — | — |
-| Uncle Ed's | US | Nog te beoordelen | — | — | — | — |
-| Uncle Joes Records | US | Nog te beoordelen | — | — | — | — |
-| Uncle Tony's Donut Shoppe | US | Nog te beoordelen | — | — | — | — |
-| Under The Bed Vintage | US | Nog te beoordelen | — | — | — | — |
+| Twin City Smitty’s Vintage Audio | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Twin Sugar Antiques Vintage Resale and Artisan | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Twist & Shout Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| two ghosts vinyl cafe | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| U-Sonic Record Cleaning | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Udy's Used Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| UFO Museum Gift Shop and Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Ugly Mike Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| UHF Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Ukulele Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Ultimate Collectibles Sports Cards Pokemon RECORDS Comics Memorabilia Toys | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Ultimix Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Un Mundo Raro Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | insufficient_representative_product_evidence | — |
+| Unchanged Mind | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Uncle Aldo's Attic | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Uncle Ed's | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Uncle Joes Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Uncle Tony's Donut Shoppe | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Under The Bed Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Under The Radar Records | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40571453864-1/undertheradarrecs_com |
-| Underdog Records | US | Nog te beoordelen | — | — | — | — |
-| Underground Record's | US | Nog te beoordelen | — | — | — | — |
-| Underground Sounds | US | Nog te beoordelen | — | — | — | — |
-| Underground Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Unforgettable Tracks | US | Nog te beoordelen | — | — | — | — |
-| Union County Exchange | US | Nog te beoordelen | — | — | — | — |
-| Unique Ellijay, LLC | US | Nog te beoordelen | — | — | — | — |
-| UNIQUE THRIFTIQUE & PAWN | US | Nog te beoordelen | — | — | — | — |
-| Universal Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Universally Connected | US | Nog te beoordelen | — | — | — | — |
-| Unsung Records Tshirts and Stuff | US | Nog te beoordelen | — | — | — | — |
-| Unsung Salvage Design Company | US | Nog te beoordelen | — | — | — | — |
-| Unwind Records and Comics | US | Nog te beoordelen | — | — | — | — |
-| Up On The Sun Records | US | Nog te beoordelen | — | — | — | — |
-| Up The Creek Records | US | Nog te beoordelen | — | — | — | — |
-| Uphoria Records | US | Nog te beoordelen | — | — | — | — |
-| Upside Records | US | Nog te beoordelen | — | — | — | — |
-| UPsideDown Culture Records | US | Nog te beoordelen | — | — | — | — |
-| Upstream Records | US | Nog te beoordelen | — | — | — | — |
-| Urban Lights Music | US | Nog te beoordelen | — | — | — | — |
-| Urban Records and Soda Parlor | US | Nog te beoordelen | — | — | — | — |
-| Used Book Superstore | US | Nog te beoordelen | — | — | — | — |
-| Used Kids Records | US | Nog te beoordelen | — | — | — | — |
+| Underdog Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Underground Record's | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Underground Sounds | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Underground Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Unforgettable Tracks | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_404 | — |
+| Union County Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Unique Ellijay, LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| UNIQUE THRIFTIQUE & PAWN | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Universal Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Universally Connected | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_410 | — |
+| Unsung Records Tshirts and Stuff | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Unsung Salvage Design Company | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Unwind Records and Comics | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Up On The Sun Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
+| Up The Creek Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Uphoria Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Upside Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| UPsideDown Culture Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Upstream Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Urban Lights Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Urban Records and Soda Parlor | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Used Book Superstore | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Used Kids Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | V’s Vinyl | US | Nog te beoordelen | — | — | — | — |
 | V•Stock | US | Nog te beoordelen | — | — | — | — |
-| Val’s halla Records | US | Nog te beoordelen | — | — | — | — |
-| Valley Records & Antiques | US | Nog te beoordelen | — | — | — | — |
-| Valley Vinyls | US | Nog te beoordelen | — | — | — | — |
-| Valpo Vintage | US | Nog te beoordelen | — | — | — | — |
-| Vandango Vintage Vinyl y Mas | US | Nog te beoordelen | — | — | — | — |
-| Vandetta Records Dayton Ohio | US | Nog te beoordelen | — | — | — | — |
-| Vanyl Records | US | Nog te beoordelen | — | — | — | — |
-| Variety Records | US | Nog te beoordelen | — | — | — | — |
-| Variety Records | US | Nog te beoordelen | — | — | — | — |
-| VAULT Vintage Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Vegas Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Velouria Records | US | Nog te beoordelen | — | — | — | — |
-| Velvet Fudge | US | Nog te beoordelen | — | — | — | — |
-| Venom Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Veranda Vinyl Records & Artware | US | Nog te beoordelen | — | — | — | — |
-| Verbena Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Vertical House Records | US | Nog te beoordelen | — | — | — | — |
-| Vertigo Music | US | Nog te beoordelen | — | — | — | — |
+| Val’s halla Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
+| Valley Records & Antiques | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Valley Vinyls | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Valpo Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vandango Vintage Vinyl y Mas | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vandetta Records Dayton Ohio | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vanyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Variety Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Variety Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| VAULT Vintage Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Vegas Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
+| Velouria Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Velvet Fudge | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
+| Venom Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Veranda Vinyl Records & Artware | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Verbena Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vertical House Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vertigo Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Vertigo Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | insufficient_representative_product_evidence | — |
 | Vetiver & Sundew | US | Nog te beoordelen | — | — | — | — |
 | VibezandTunez | US | Nog te beoordelen | — | — | — | — |
