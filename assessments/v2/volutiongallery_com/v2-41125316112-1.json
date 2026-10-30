@@ -1,0 +1,202 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T20:48:33.599730+00:00",
+  "shop_id": "volutiongallery.com",
+  "row": 3170,
+  "name": "Volution Gallery",
+  "domain": "volutiongallery.com",
+  "country": "US",
+  "website": "https://volutiongallery.com/",
+  "previous_status": "ADAPTER_TESTED",
+  "previous_reason": "no confirmed new vinyl on bounded page",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3170,
+    "name": "Volution Gallery",
+    "domain": "volutiongallery.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://volutiongallery.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 1,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://volutiongallery.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://volutiongallery.com/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://volutiongallery.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://volutiongallery.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://volutiongallery.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://volutiongallery.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://volutiongallery.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://volutiongallery.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://volutiongallery.com/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://volutiongallery.com/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://volutiongallery.com/products/volution-vinyl-slipmat?variant=51724358549685",
+      "artist": "",
+      "title": "Volution Vinyl Slipmat",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "15.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://volutiongallery.com/robots.txt",
+      "sha256": "e748ed2a9277976ae8db680e931353d8cf41aef47f7a06bab552847323d64387"
+    },
+    {
+      "url": "https://volutiongallery.com/",
+      "sha256": "14088975b43cbac12f2653a590d03aa00c56e87e50c984faa810f338b22345e4"
+    },
+    {
+      "url": "https://volutiongallery.com/products.json?limit=20&page=1",
+      "sha256": "252dddeaae4bab73973458faefe582faa951730c7a93806c8208927b75465e86"
+    },
+    {
+      "url": "https://volutiongallery.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "07668bfc4e481445949c9d9e5dda01b408ea54c360e5e515a82f4352c4a77605"
+    },
+    {
+      "url": "https://volutiongallery.com/products/volution-vinyl-slipmat",
+      "sha256": "d99e303d7a29ff697b1e47b2bb9d5cf16e4567903b76938fa3aff8e6e09eb385"
+    },
+    {
+      "url": "https://volutiongallery.com/products/volution-vinyl-slipmat?variant=51724358549685",
+      "sha256": "3cbb963a20981f3eb0718b70e23110af58a01e8a3ac9224ec44f1e54e29056dc"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "insufficient_representative_product_evidence"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_3170",
+  "existing_scraper_status": "NONE",
+  "example_urls": [
+    "https://volutiongallery.com/products/volution-vinyl-slipmat?variant=51724358549685"
+  ],
+  "assessment_id": "v2-41125316112-1",
+  "queue_rows": [
+    3170
+  ],
+  "assessment_path": "assessments/v2/volutiongallery_com/v2-41125316112-1.json"
+}
