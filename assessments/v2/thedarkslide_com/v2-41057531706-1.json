@@ -1,0 +1,180 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T12:53:52.569018+00:00",
+  "shop_id": "thedarkslide.com",
+  "row": 2685,
+  "name": "The Dark Slide",
+  "domain": "thedarkslide.com",
+  "country": "US",
+  "website": "https://thedarkslide.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2685,
+    "name": "The Dark Slide",
+    "domain": "thedarkslide.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "listing",
+    "platform": "shopify",
+    "source_url": "https://thedarkslide.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 0,
+    "excluded": 20,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://thedarkslide.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://thedarkslide.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://thedarkslide.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://thedarkslide.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://thedarkslide.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://thedarkslide.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://thedarkslide.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://thedarkslide.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://thedarkslide.com/products.json?limit=20&page=1",
+      "score": 0,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "reason": "no confirmed new vinyl on bounded page"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://thedarkslide.com/products.json?limit=20&page=1",
+  "listing_sample": 0,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 0,
+    "unique_prices": 0,
+    "shipping_hits": 0,
+    "currencies": []
+  },
+  "secondhand_observed": false,
+  "examples": [],
+  "requests": [
+    {
+      "url": "https://thedarkslide.com/robots.txt",
+      "sha256": "eac07d3e03dff22f2b8b9ae86aa8797c038dac6236a6c9c7340ed91937a2dc59"
+    },
+    {
+      "url": "https://thedarkslide.com/",
+      "sha256": "e140b2783d3a92a278a024d0ef8bd09915197d6a297236c55d77f129c2440706"
+    },
+    {
+      "url": "https://thedarkslide.com/products.json?limit=20&page=1",
+      "sha256": "90e78873cc4e1df3208cb83d681fd998217d48f42b2baab6f1909305d427961d"
+    },
+    {
+      "url": "https://thedarkslide.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "ad5e3ecc83d3774ea2b6e76befde036e8d4f523bd05bb98a2d021fd47c0a5731"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:vinyl",
+    "not_proven:new_used_distinguishable",
+    "not_proven:public_prices",
+    "not_proven:availability",
+    "not_proven:stable_urls"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": false,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": false,
+    "availability": false,
+    "stable_urls": false,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2685",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-41057531706-1",
+  "queue_rows": [
+    2685
+  ],
+  "assessment_path": "assessments/v2/thedarkslide_com/v2-41057531706-1.json"
+}
