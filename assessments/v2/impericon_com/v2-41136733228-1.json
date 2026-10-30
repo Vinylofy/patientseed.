@@ -1,0 +1,242 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T22:25:52.092462+00:00",
+  "shop_id": "impericon.com",
+  "row": 3323,
+  "name": "Impericon",
+  "domain": "impericon.com",
+  "country": null,
+  "website": "https://impericon.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3323,
+    "name": "Impericon",
+    "domain": "impericon.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://impericon.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 10,
+    "excluded": 10,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://impericon.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://impericon.com/products.json?limit=20&page=1",
+        "score": 35,
+        "products_seen": 20,
+        "accepted": 3,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://impericon.com/collections/all/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://impericon.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://impericon.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://impericon.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://impericon.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://impericon.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://impericon.com/collections/all/products.json?limit=20&page=1",
+      "score": 105,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://impericon.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 10,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 10,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://impericon.com/products/ayeon-01011001-live-beneath-the-waves-ltd-green-colored-3-vinyl?variant=47232061735149",
+      "artist": "01011001: Live Beneath The Waves Ltd. Green",
+      "title": "Colored 3 Vinyl",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "41.99",
+      "currency": "EUR",
+      "valid_eans": [
+        "08712725747727"
+      ],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://impericon.com/products/genesis-and-then-there-were-three-vinyl?variant=46728985575661",
+      "artist": "... And Then There Were Three",
+      "title": "Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "30.99",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://impericon.com/products/godspeed-you-black-emperor-no-title-as-of-13-february-2024-28-340-dead-2-vinyl?variant=46973096394989",
+      "artist": "\"No Title as of 13 February 2024 28.340 Dead\"",
+      "title": "2 Vinyl",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "31.99",
+      "currency": "EUR",
+      "valid_eans": [
+        "00666561018313"
+      ],
+      "condition_basis": "explicit_new"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://impericon.com/robots.txt",
+      "sha256": "1c70a3d0738fa31ce5b997f357cdf969337342f9feba75546d56aee7648383bc"
+    },
+    {
+      "url": "https://impericon.com/",
+      "sha256": "3be2b5439af1c724e11c186f2177d02c54c1bee7436749ca52363e85cd0b6b73"
+    },
+    {
+      "url": "https://impericon.com/products.json?limit=20&page=1",
+      "sha256": "f4502ea5f413eca60daa095d1f2437e95ffad9c8cc78306da6aefdbb67033cd0"
+    },
+    {
+      "url": "https://impericon.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "ef93a69a488efd26e05cf3516791be24bcc007abc1f4ca93457563015110048b"
+    },
+    {
+      "url": "https://impericon.com/products/godspeed-you-black-emperor-no-title-as-of-13-february-2024-28-340-dead-2-vinyl",
+      "sha256": "840aec0c839c14cdcb41b636369b8969622ccbda11c9e4a4bd0bff0897fcbb6c"
+    },
+    {
+      "url": "https://impericon.com/products/gotthard-13-pop-up-ltd-beige-colored-2-vinyl",
+      "sha256": "32fa8518108c83965ca8f549c84e2d13ba41bcf045d5b8185c8011d9402d0cae"
+    },
+    {
+      "url": "https://impericon.com/products/ayeon-01011001-live-beneath-the-waves-ltd-green-colored-3-vinyl?variant=47232061735149",
+      "sha256": "838a4e22a83981c400509b151d999d2982b1f491ca332d44ba5a287ee2b6b62b"
+    },
+    {
+      "url": "https://impericon.com/products/genesis-and-then-there-were-three-vinyl?variant=46728985575661",
+      "sha256": "8f1834e4ca9a7aa7b7214f43ebe87162b8b3ddbfd770ef7fb6c97d928d407975"
+    },
+    {
+      "url": "https://impericon.com/products/godspeed-you-black-emperor-no-title-as-of-13-february-2024-28-340-dead-2-vinyl?variant=46973096394989",
+      "sha256": "bbbb837424a8774026dc82f1571a4f5f6e31ade2c550258f7a058c56964a899e"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 2,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.7,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "FROZEN",
+  "example_urls": [
+    "https://impericon.com/products/ayeon-01011001-live-beneath-the-waves-ltd-green-colored-3-vinyl?variant=47232061735149",
+    "https://impericon.com/products/genesis-and-then-there-were-three-vinyl?variant=46728985575661",
+    "https://impericon.com/products/godspeed-you-black-emperor-no-title-as-of-13-february-2024-28-340-dead-2-vinyl?variant=46973096394989"
+  ],
+  "assessment_id": "v2-41136733228-1",
+  "queue_rows": [
+    3323
+  ],
+  "assessment_path": "assessments/v2/impericon_com/v2-41136733228-1.json"
+}
