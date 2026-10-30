@@ -1,0 +1,242 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T22:26:19.460793+00:00",
+  "shop_id": "secretlystore.com",
+  "row": 3340,
+  "name": "Secretly Store",
+  "domain": "secretlystore.com",
+  "country": null,
+  "website": "https://secretlystore.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3340,
+    "name": "Secretly Store",
+    "domain": "secretlystore.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://secretlystore.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 12,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://secretlystore.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://secretlystore.com/products.json?limit=20&page=1",
+        "score": 95,
+        "products_seen": 20,
+        "accepted": 9,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://secretlystore.com/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://secretlystore.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://secretlystore.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://secretlystore.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://secretlystore.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://secretlystore.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://secretlystore.com/collections/all/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://secretlystore.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 5,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://secretlystore.com/products/drive-you-crazy-bw-private-party-dungeonesse?variant=44536167170211",
+      "artist": "",
+      "title": "'Drive You Crazy' b/w 'Private Party'",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "12.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00656605027418"
+      ],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://secretlystore.com/products/the-kid-danielson?variant=44536146329763",
+      "artist": "",
+      "title": "\"The Kid\"",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "7.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00656605008660"
+      ],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://secretlystore.com/products/diurnally-yours-the-panoply-academy-legionnaires?variant=44536145805475",
+      "artist": "",
+      "title": "\"Diurnally Yours\"",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "4.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://secretlystore.com/robots.txt",
+      "sha256": "ebab947557ae82c700bc83d8ada7edb920e0c3137b40b1716198c65947323f20"
+    },
+    {
+      "url": "https://secretlystore.com/",
+      "sha256": "7bd228c6a78696cc67ac9eb0b7e297732b59e2cf86905e697428d0f69a41784d"
+    },
+    {
+      "url": "https://secretlystore.com/products.json?limit=20&page=1",
+      "sha256": "e84d10372edb432fa083048c6ff7a4772fa4a7233249188c21a8ed8c659150da"
+    },
+    {
+      "url": "https://secretlystore.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "14def35f22093b0c500f09109cd30334236d6e0d72950038b572e91fd5439702"
+    },
+    {
+      "url": "https://secretlystore.com/products/diurnally-yours-the-panoply-academy-legionnaires",
+      "sha256": "89d0b64c1099de7318a361becced52cabd9d6871f40d2330af092749725024cb"
+    },
+    {
+      "url": "https://secretlystore.com/products/fta-far-far-away-whitney",
+      "sha256": "062b7c36a37ad9273b2207cbf951923eb788c845bb5d1635e65610ab488fc059"
+    },
+    {
+      "url": "https://secretlystore.com/products/drive-you-crazy-bw-private-party-dungeonesse?variant=44536167170211",
+      "sha256": "6e8742639d3a6e7ffe536c8b2726f631e2c88dfc6f189560e30efb74f4fffa7d"
+    },
+    {
+      "url": "https://secretlystore.com/products/the-kid-danielson?variant=44536146329763",
+      "sha256": "6a089748a8081614d0ba3bd47500b8cbc7bb615c0f05ae1df654e60dc2f0a055"
+    },
+    {
+      "url": "https://secretlystore.com/products/diurnally-yours-the-panoply-academy-legionnaires?variant=44536145805475",
+      "sha256": "38305ce8ad0799b0cc950b68ec52961aeee60269f4934d05ffc8bddf76d20fb6"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 2,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "FROZEN",
+  "example_urls": [
+    "https://secretlystore.com/products/drive-you-crazy-bw-private-party-dungeonesse?variant=44536167170211",
+    "https://secretlystore.com/products/the-kid-danielson?variant=44536146329763",
+    "https://secretlystore.com/products/diurnally-yours-the-panoply-academy-legionnaires?variant=44536145805475"
+  ],
+  "assessment_id": "v2-41136733228-1",
+  "queue_rows": [
+    3340
+  ],
+  "assessment_path": "assessments/v2/secretlystore_com/v2-41136733228-1.json"
+}
