@@ -1,0 +1,70 @@
+{
+  "fingerprint": "7786a936c979fe66230df264e186f854efb269a4d55ae8ee65bc117015562be6",
+  "domain": "606records.com",
+  "batch": 18,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41013449724",
+  "updated_at": "2026-10-30T06:20:14.451046+00:00",
+  "evidence": {
+    "domain": "606records.com",
+    "route": "https://606records.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-30T06:20:13.006699+00:00",
+    "requests": [
+      {
+        "url": "https://606records.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "49e5cfa2d173bebdbe2670e0ba813354e59db8c9ed2371a288f2e0b0168085ac"
+      },
+      {
+        "url": "https://606records.com/products/the-poke-new-12?variant=4917074133029",
+        "sha256": "eb839033de11b13b2e45de12d482e468219be6356a4ca4a2c068900d39670f42"
+      }
+    ],
+    "listing_records": 10,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 10,
+      "unique_prices": 10,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 1,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39155794450"
+    },
+    {
+      "batch": 16,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40642431631"
+    },
+    {
+      "batch": 17,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40828686930"
+    },
+    {
+      "batch": 18,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41013449724"
+    }
+  ]
+}
