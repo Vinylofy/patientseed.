@@ -1,0 +1,244 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T12:55:16.938402+00:00",
+  "shop_id": "theelmhenderson.com",
+  "row": 2696,
+  "name": "The Elm",
+  "domain": "theelmhenderson.com",
+  "country": "US",
+  "website": "https://theelmhenderson.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2696,
+    "name": "The Elm",
+    "domain": "theelmhenderson.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://theelmhenderson.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 6,
+    "excluded": 14,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://theelmhenderson.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://theelmhenderson.com/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://theelmhenderson.com/collections/all/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://theelmhenderson.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://theelmhenderson.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://theelmhenderson.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://theelmhenderson.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://theelmhenderson.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://theelmhenderson.com/products.json?limit=20&page=1",
+      "score": 65,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://theelmhenderson.com/products.json?limit=20&page=1",
+  "listing_sample": 6,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 6,
+    "unique_prices": 2,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://theelmhenderson.com/products/thundercat-distracted-lp-mint-m-1?variant=57172029243697",
+      "artist": "Thundercat",
+      "title": "Distracted (LP) (Mint (M))",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "42.95",
+      "currency": "USD",
+      "valid_eans": [
+        "05054429208740"
+      ],
+      "condition_basis": "used_or_grading_signal"
+    },
+    {
+      "url": "https://theelmhenderson.com/products/cocteau-twins-treasure-lp-mint-m-1?variant=57192184906033",
+      "artist": "Cocteau Twins",
+      "title": "Treasure (LP) (Mint (M))",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "34.95",
+      "currency": "USD",
+      "valid_eans": [
+        "00652637371017"
+      ],
+      "condition_basis": "used_or_grading_signal"
+    },
+    {
+      "url": "https://theelmhenderson.com/products/cocteau-twins-heaven-or-las-vegas-lp-mint-m-1?variant=57192186282289",
+      "artist": "Cocteau Twins",
+      "title": "Heaven Or Las Vegas (LP) (Mint (M))",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "34.95",
+      "currency": "USD",
+      "valid_eans": [
+        "00652637342017"
+      ],
+      "condition_basis": "used_or_grading_signal"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://theelmhenderson.com/robots.txt",
+      "sha256": "ad20c234e2bc30a8eec2ebb85402695169f68438a5ea6f7ab2074f9efc135527"
+    },
+    {
+      "url": "https://theelmhenderson.com/",
+      "sha256": "6d4c517b1016bee41af3bcc615781ef6421f99c6a6f7b23f83c1dac6e06e2df9"
+    },
+    {
+      "url": "https://theelmhenderson.com/products.json?limit=20&page=1",
+      "sha256": "90eabf81440c32ca8fb38f5d05365e76f6bbd6dc4583450f5ad78cccb8424625"
+    },
+    {
+      "url": "https://theelmhenderson.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "8c20bcfffcf0c362448bb56c15e10e2a9925701e674ec0711f54152e78e85eb0"
+    },
+    {
+      "url": "https://theelmhenderson.com/products/cocteau-twins-heaven-or-las-vegas-lp-mint-m-1",
+      "sha256": "f03f5692afe17a0ae9fbc0bc8fee1810c906eeb3cd897f6781ce52692a1c56ec"
+    },
+    {
+      "url": "https://theelmhenderson.com/products/cocteau-twins-head-over-heels-lp-mint-m-1",
+      "sha256": "17189fc2ea0e537fe5895d73d8b3d7eabbf972cec20ea9d25ce2707f33453096"
+    },
+    {
+      "url": "https://theelmhenderson.com/products/thundercat-distracted-lp-mint-m-1?variant=57172029243697",
+      "sha256": "5d23d4136f2ec4cc6d562ae8573c49fd8f84f1a588fdd9401677d30a8f68edf5"
+    },
+    {
+      "url": "https://theelmhenderson.com/products/cocteau-twins-treasure-lp-mint-m-1?variant=57192184906033",
+      "sha256": "4313e405670466287b256697d3d00988e37b55f1699cc8e1baf41624a25789d5"
+    },
+    {
+      "url": "https://theelmhenderson.com/products/cocteau-twins-heaven-or-las-vegas-lp-mint-m-1?variant=57192186282289",
+      "sha256": "f453991e6fd50b401347d3948341e592f01293f67800d0385bbd79ef3d655743"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:new_used_distinguishable"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2696",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://theelmhenderson.com/products/thundercat-distracted-lp-mint-m-1?variant=57172029243697",
+    "https://theelmhenderson.com/products/cocteau-twins-treasure-lp-mint-m-1?variant=57192184906033",
+    "https://theelmhenderson.com/products/cocteau-twins-heaven-or-las-vegas-lp-mint-m-1?variant=57192186282289"
+  ],
+  "assessment_id": "v2-41057531706-1",
+  "queue_rows": [
+    2696
+  ],
+  "assessment_path": "assessments/v2/theelmhenderson_com/v2-41057531706-1.json"
+}
