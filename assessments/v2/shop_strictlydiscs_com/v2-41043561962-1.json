@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T11:06:27.482483+00:00",
+  "shop_id": "shop.strictlydiscs.com",
+  "row": 2599,
+  "name": "Strictly Discs",
+  "domain": "shop.strictlydiscs.com",
+  "country": "US",
+  "website": "https://shop.strictlydiscs.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2599,
+    "name": "Strictly Discs",
+    "domain": "shop.strictlydiscs.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://shop.strictlydiscs.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 13,
+    "excluded": 7,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://shop.strictlydiscs.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://shop.strictlydiscs.com/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 20,
+        "accepted": 13,
+        "excluded": 7,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://shop.strictlydiscs.com/collections/all/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 20,
+        "accepted": 8,
+        "excluded": 12,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://shop.strictlydiscs.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shop.strictlydiscs.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shop.strictlydiscs.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shop.strictlydiscs.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shop.strictlydiscs.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://shop.strictlydiscs.com/products.json?limit=20&page=1",
+      "score": 135,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://shop.strictlydiscs.com/products.json?limit=20&page=1",
+  "listing_sample": 13,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 13,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://shop.strictlydiscs.com/products/pre-order-maris-mosh-pit?variant=47138065580228",
+      "artist": "Pre-Order: Maris",
+      "title": "MOSH PIT",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "24.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00885288490756"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://shop.strictlydiscs.com/products/pre-order-dying-fetus-grotesque-impalement-3-color-merge-with-splatter?variant=47138066366660",
+      "artist": "Pre-Order: Dying Fetus",
+      "title": "Grotesque Impalement - [3 Color Merge with Splatter]",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "27.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00781676578610"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://shop.strictlydiscs.com/products/pre-order-justice-grand-theft-auto-vi-original-score-indie-exclusive-crystal-clear-3lp?variant=47139216982212",
+      "artist": "Pre-Order: Justice",
+      "title": "Grand Theft Auto VI : Original Score [Indie Exclusive Crystal Clear 3LP]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "59.99",
+      "currency": "USD",
+      "valid_eans": [
+        "05056556186410"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://shop.strictlydiscs.com/robots.txt",
+      "sha256": "6bab1b7a561dd99f7385b8e657bf69ae39985f744c658104ebc49a1b9fc4715a"
+    },
+    {
+      "url": "https://shop.strictlydiscs.com/",
+      "sha256": "8eee2d40bd18f27673cd3a9f17ac6ce7c4f4ed6658ef2f03a2adb7f7e826cd84"
+    },
+    {
+      "url": "https://shop.strictlydiscs.com/products.json?limit=20&page=1",
+      "sha256": "af7d24cf4aa8c593a92b896f3c7811e9d81f3433e02505d207e32d1e7e90a683"
+    },
+    {
+      "url": "https://shop.strictlydiscs.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "984f4f35f4a2771d850ff1b1acb7d92bb0bb266a05a3ea95423929fd1688ef2c"
+    },
+    {
+      "url": "https://shop.strictlydiscs.com/products/pre-order-justice-grand-theft-auto-vi-original-score-indie-exclusive-crystal-clear-3lp",
+      "sha256": "936d6875c871a07dd822d8c2f687355fe86e18a5e3f2b980d03ba58ca8e57863"
+    },
+    {
+      "url": "https://shop.strictlydiscs.com/products/pre-order-anne-hathaway-hart-daniel-colv-gol-red-mother-mary-greatest-hits-o-s-t-colored-vinyl-gol",
+      "sha256": "1298260c3e04a8ecf1f2fd302b57fdf92dec27b0f3af9b89422ef91956718923"
+    },
+    {
+      "url": "https://shop.strictlydiscs.com/products/pre-order-maris-mosh-pit?variant=47138065580228",
+      "sha256": "2ab3f6fa12e01bfddbd0d988cb29b23fceb1a8c720c3006593081a5bc16a6af8"
+    },
+    {
+      "url": "https://shop.strictlydiscs.com/products/pre-order-dying-fetus-grotesque-impalement-3-color-merge-with-splatter?variant=47138066366660",
+      "sha256": "b33c57d007e4dde7ccf72302d6c5ccc3749a6e3142f39e9886c64d7111ecba7a"
+    },
+    {
+      "url": "https://shop.strictlydiscs.com/products/pre-order-justice-grand-theft-auto-vi-original-score-indie-exclusive-crystal-clear-3lp?variant=47139216982212",
+      "sha256": "1028d5bd92b6b30e3e2708dc26e6f7dc31461dc1965d0edd3a9fd26ebc86bf30"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": true,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.7692307692307693,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": "uploaded_workbook_column_B_row_2599",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://shop.strictlydiscs.com/products/pre-order-maris-mosh-pit?variant=47138065580228",
+    "https://shop.strictlydiscs.com/products/pre-order-dying-fetus-grotesque-impalement-3-color-merge-with-splatter?variant=47138066366660",
+    "https://shop.strictlydiscs.com/products/pre-order-justice-grand-theft-auto-vi-original-score-indie-exclusive-crystal-clear-3lp?variant=47139216982212"
+  ],
+  "assessment_id": "v2-41043561962-1",
+  "queue_rows": [
+    2599
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 13,
+  "candidate_ref": "v2-41043561962-1/shop_strictlydiscs_com",
+  "assessment_path": "assessments/v2/shop_strictlydiscs_com/v2-41043561962-1.json"
+}
