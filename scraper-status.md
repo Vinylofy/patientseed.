@@ -3676,9 +3676,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **3210**. Open: **114**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **3310**. Open: **14**.
 
-EAN: **67** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **3116** | UNSUITABLE: **0**
+EAN: **73** | ARTIST_TITLE: **31** | MANUAL_REVIEW: **3206** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -6890,122 +6890,122 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | What's Left Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Whirled Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Whit's End Trading Company | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| White Bear Lake Records | US | Nog te beoordelen | — | — | — | — |
-| White Label Vinyl | US | Nog te beoordelen | — | — | — | — |
-| White Rabbit Records | US | Nog te beoordelen | — | — | — | — |
-| WHITING region records | US | Nog te beoordelen | — | — | — | — |
-| WHOA!TONE Records | US | Nog te beoordelen | — | — | — | — |
-| Wick Street Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Wicked Grooves Music & Vinyl, LLC | US | Nog te beoordelen | — | — | — | — |
-| Wicked Joyful | US | Nog te beoordelen | — | — | — | — |
-| Wild Honey Records | US | Nog te beoordelen | — | — | — | — |
-| Wild Vintage Collective | US | Nog te beoordelen | — | — | — | — |
-| Willimantic Records | US | Nog te beoordelen | — | — | — | — |
-| Willow River Music | US | Nog te beoordelen | — | — | — | — |
-| Winder Binder - Books, Art and Music featuring Chad's Records | US | Nog te beoordelen | — | — | — | — |
-| Windy City Records | US | Nog te beoordelen | — | — | — | — |
-| Wino Records | US | Nog te beoordelen | — | — | — | — |
-| Wisecrack Records | US | Nog te beoordelen | — | — | — | — |
+| White Bear Lake Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| White Label Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| White Rabbit Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| WHITING region records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| WHOA!TONE Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Wick Street Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Wicked Grooves Music & Vinyl, LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Wicked Joyful | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Wild Honey Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Wild Vintage Collective | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Willimantic Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Willow River Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Winder Binder - Books, Art and Music featuring Chad's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Windy City Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Wino Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Wisecrack Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Wits' End Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| Wohlty’s Record Trade | US | Nog te beoordelen | — | — | — | — |
-| Wolfman Rick's Vinyl Records and Guitar Shop | US | Nog te beoordelen | — | — | — | — |
-| Wonder Book | US | Nog te beoordelen | — | — | — | — |
-| Wonderland Records | US | Nog te beoordelen | — | — | — | — |
-| Wonderland Vintage Market | US | Nog te beoordelen | — | — | — | — |
-| Woodbury Music Shop | US | Nog te beoordelen | — | — | — | — |
-| Wooden Nickel; Wooden Nickel Records | US | Nog te beoordelen | — | — | — | — |
-| Wooden Tooth Records | US | Nog te beoordelen | — | — | — | — |
-| Woodrow Marketplace | US | Nog te beoordelen | — | — | — | — |
-| Woodstock Music Shop | US | Nog te beoordelen | — | — | — | — |
-| World Records | US | Nog te beoordelen | — | — | — | — |
-| Wound For Sound | US | Nog te beoordelen | — | — | — | — |
-| Wow! That's Unusual! | US | Nog te beoordelen | — | — | — | — |
-| Wreckon Skate + Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Written in Blood Records | US | Nog te beoordelen | — | — | — | — |
-| Wuxtry Records | US | Nog te beoordelen | — | — | — | — |
-| Wuxtry Records-Athens | US | Nog te beoordelen | — | — | — | — |
-| Wylie Records | US | Nog te beoordelen | — | — | — | — |
+| Wohlty’s Record Trade | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Wolfman Rick's Vinyl Records and Guitar Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Wonder Book | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Wonderland Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Wonderland Vintage Market | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Woodbury Music Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Wooden Nickel; Wooden Nickel Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Wooden Tooth Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Woodrow Marketplace | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Woodstock Music Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| World Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Wound For Sound | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Wow! That's Unusual! | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Wreckon Skate + Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Written in Blood Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Wuxtry Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Wuxtry Records-Athens | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Wylie Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Wyrd Byrd | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40656210376-1/wyrdbyrdypsi_com |
-| XKJA RECORDS | US | Nog te beoordelen | — | — | — | — |
-| Xombie Moon Records | US | Nog te beoordelen | — | — | — | — |
-| Yankee Bookshop | US | Nog te beoordelen | — | — | — | — |
-| Yard Elephant Records | US | Nog te beoordelen | — | — | — | — |
-| Yard Sale Records | US | Nog te beoordelen | — | — | — | — |
-| Yard Sale Thrift /Consignment Store - Donations Welcome! | US | Nog te beoordelen | — | — | — | — |
-| Yearbook Records | US | Nog te beoordelen | — | — | — | — |
+| XKJA RECORDS | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Xombie Moon Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Yankee Bookshop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Yard Elephant Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Yard Sale Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Yard Sale Thrift /Consignment Store - Donations Welcome! | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Yearbook Records | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
 | Yellow Dog Discs | US | EAN | MEDIUM | BUILT_AWAITING_MANUAL_TEST | own_product_valid_gtin_coverage_at_least_80_percent_of_sample | v2-40656210376-1/yellowdogdiscs_com |
-| Yellow K Records | US | Nog te beoordelen | — | — | — | — |
-| Yellow Racket Records | US | Nog te beoordelen | — | — | — | — |
-| Yesterday & Today Music | US | Nog te beoordelen | — | — | — | — |
-| Yesterday And Today Records | US | Nog te beoordelen | — | — | — | — |
-| Yesterday and Today Records | US | Nog te beoordelen | — | — | — | — |
-| Yesterday's Memories | US | Nog te beoordelen | — | — | — | — |
-| Yesterdaze | US | Nog te beoordelen | — | — | — | — |
-| YesterYore Devices | US | Nog te beoordelen | — | — | — | — |
-| Yooptone Music | US | Nog te beoordelen | — | — | — | — |
-| Young Ones | US | Nog te beoordelen | — | — | — | — |
-| Younger Than Yesterday | US | Nog te beoordelen | — | — | — | — |
-| Your Media Exchange | US | Nog te beoordelen | — | — | — | — |
-| Your Song Sound Exchange | US | Nog te beoordelen | — | — | — | — |
+| Yellow K Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_410 | — |
+| Yellow Racket Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Yesterday & Today Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Yesterday And Today Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Yesterday and Today Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Yesterday's Memories | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Yesterdaze | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| YesterYore Devices | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Yooptone Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Young Ones | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Younger Than Yesterday | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Your Media Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Your Song Sound Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_404 | — |
 | Yuri's Records | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40656210376-1/yurisrecords_com |
-| Zack's Music Shop | US | Nog te beoordelen | — | — | — | — |
-| Zephyr Zen Art & Antiques | US | Nog te beoordelen | — | — | — | — |
-| Zia Records (Bethany Home - Phoenix); Zia Records (Chandler); Zia Records (Eastern - Las Vegas); Zia Records (Mesa); Zia Records (Mill Ave - Tempe); Zia Records (Rainbow - Las Vegas); Zia Records (Speedway - Tucson); Zia Records (Thunderbird - North Phoenix) | US | Nog te beoordelen | — | — | — | — |
-| Zig Zog's Records | US | Nog te beoordelen | — | — | — | — |
-| Zions Gate Records | US | Nog te beoordelen | — | — | — | — |
-| Zip's Ziggurat | US | Nog te beoordelen | — | — | — | — |
-| Zodiac Records | US | Nog te beoordelen | — | — | — | — |
-| Zoinks Records | US | Nog te beoordelen | — | — | — | — |
-| Zonk's World Pokémon Cards, One Piece Cards, Trading Cards, Retro Video Games, Cds, & Collectibles! | US | Nog te beoordelen | — | — | — | — |
-| ZT Records | US | Nog te beoordelen | — | — | — | — |
-| ZT Records | US | Nog te beoordelen | — | — | — | — |
-| ZT Records | US | Nog te beoordelen | — | — | — | — |
-| Zzz Records | US | Nog te beoordelen | — | — | — | — |
-| Norman Records | — | Nog te beoordelen | — | — | — | — |
+| Zack's Music Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Zephyr Zen Art & Antiques | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Zia Records (Bethany Home - Phoenix); Zia Records (Chandler); Zia Records (Eastern - Las Vegas); Zia Records (Mesa); Zia Records (Mill Ave - Tempe); Zia Records (Rainbow - Las Vegas); Zia Records (Speedway - Tucson); Zia Records (Thunderbird - North Phoenix) | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Zig Zog's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Zions Gate Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Zip's Ziggurat | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Zodiac Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Zoinks Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Zonk's World Pokémon Cards, One Piece Cards, Trading Cards, Retro Video Games, Cds, & Collectibles! | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| ZT Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| ZT Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| ZT Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Zzz Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Norman Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
 | Sister Ray | — | Nog te beoordelen | — | — | — | — |
-| Piccadilly Records | — | Nog te beoordelen | — | — | — | — |
-| Banquet Records | — | Nog te beoordelen | — | — | — | — |
-| Drift Records | — | Nog te beoordelen | — | — | — | — |
-| Phonica Records | — | Nog te beoordelen | — | — | — | — |
-| Monorail Music | — | Nog te beoordelen | — | — | — | — |
-| POPSTORE | — | Nog te beoordelen | — | — | — | — |
+| Piccadilly Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Banquet Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Drift Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Phonica Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_307 | — |
+| Monorail Music | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| POPSTORE | — | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
 | Townsend Music | — | Nog te beoordelen | — | — | — | — |
-| EMP UK | — | Nog te beoordelen | — | — | — | — |
-| Impericon | — | Nog te beoordelen | — | — | — | — |
-| Chalkys | — | Nog te beoordelen | — | — | — | — |
+| EMP UK | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Impericon | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
+| Chalkys | — | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
 | Waterstones | — | Nog te beoordelen | — | — | — | — |
-| Dig In Records | — | Nog te beoordelen | — | — | — | — |
-| Recordstore | — | Nog te beoordelen | — | — | — | — |
+| Dig In Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Recordstore | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Response size limit | — |
 | What Records | — | Nog te beoordelen | — | — | — | — |
-| Eclipse Records | — | Nog te beoordelen | — | — | — | — |
-| Atlas Records | — | Nog te beoordelen | — | — | — | — |
+| Eclipse Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Atlas Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
 | Vinyl Tap | — | Nog te beoordelen | — | — | — | — |
 | Vinilo | — | Nog te beoordelen | — | — | — | — |
-| eBay UK | — | Nog te beoordelen | — | — | — | — |
-| Discogs | — | Nog te beoordelen | — | — | — | — |
-| Amazon UK | — | Nog te beoordelen | — | — | — | — |
-| Bella Union | — | Nog te beoordelen | — | — | — | — |
+| eBay UK | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Discogs | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Amazon UK | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Bella Union | — | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-41136733228-1/bellaunionvinylshop_com |
 | uDiscover Music | — | Nog te beoordelen | — | — | — | — |
 | Sound of Vinyl | — | Nog te beoordelen | — | — | — | — |
-| Island Records UK | — | Nog te beoordelen | — | — | — | — |
-| Secretly Store | — | Nog te beoordelen | — | — | — | — |
-| HMV | — | Nog te beoordelen | — | — | — | — |
-| Devil Dog Distro | — | Nog te beoordelen | — | — | — | — |
-| Crash Records | — | Nog te beoordelen | — | — | — | — |
-| Bear Tree Records | — | Nog te beoordelen | — | — | — | — |
+| Island Records UK | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Secretly Store | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
+| HMV | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Devil Dog Distro | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
+| Crash Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Bear Tree Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:public_prices | — |
 | Truck Store | — | Nog te beoordelen | — | — | — | — |
-| Flashback Records | — | Nog te beoordelen | — | — | — | — |
+| Flashback Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
 | Venus Vinyl | — | Nog te beoordelen | — | — | — | — |
-| South Record Shop | — | Nog te beoordelen | — | — | — | — |
+| South Record Shop | — | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-41136733228-1/southrecordshop_com |
 | Specialist Subject | — | Nog te beoordelen | — | — | — | — |
 | Sticky Black Tarmac | — | Nog te beoordelen | — | — | — | — |
-| Beatdown Records | — | Nog te beoordelen | — | — | — | — |
-| Tangled Parrot | — | Nog te beoordelen | — | — | — | — |
+| Beatdown Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Tangled Parrot | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | invalid_detail_gtin | — |
 | Vinyl Exchange | — | Nog te beoordelen | — | — | — | — |
-| Todestrieb Records | — | Nog te beoordelen | — | — | — | — |
-| Black City Records | — | Nog te beoordelen | — | — | — | — |
-| Kings Road Merch | — | Nog te beoordelen | — | — | — | — |
+| Todestrieb Records | — | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-41136733228-1/todestrieb_co_uk |
+| Black City Records | — | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-41136733228-1/blackcityrecords_co_uk |
+| Kings Road Merch | — | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
 | Wax & Beans | — | Nog te beoordelen | — | — | — | — |
-| Orchard Records | — | Nog te beoordelen | — | — | — | — |
-| Rarewaves | — | Nog te beoordelen | — | — | — | — |
+| Orchard Records | — | EAN | MEDIUM | BUILT_AWAITING_MANUAL_TEST | own_product_valid_gtin_coverage_at_least_80_percent_of_sample | v2-41136733228-1/orchardrecords_com |
+| Rarewaves | — | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
 <!-- assessment-v2:end -->
