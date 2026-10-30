@@ -1,0 +1,88 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T16:42:34.863872+00:00",
+  "shop_id": "vinylfactory901.com",
+  "row": 2838,
+  "name": "The Vinyl Factory",
+  "domain": "vinylfactory901.com",
+  "country": "US",
+  "website": "https://vinylfactory901.com/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2838,
+    "name": "The Vinyl Factory",
+    "domain": "vinylfactory901.com",
+    "status": "SOURCE_BLOCKED",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "source_url": "https://vinylfactory901.com/products.json?limit=20&page=1",
+    "reason": "HTTP_429",
+    "method_candidates": []
+  },
+  "platform": "unknown",
+  "catalog_route": "https://vinylfactory901.com/products.json?limit=20&page=1",
+  "requests": [
+    {
+      "url": "https://vinylfactory901.com/robots.txt",
+      "sha256": "d23d6b381d10d96a63892f318ef1da0b4fa1e3c9e9588c3a392920ca26745d0f"
+    },
+    {
+      "url": "https://vinylfactory901.com/",
+      "sha256": "6e75709741ddbdb46ef6d042667a5777fd03aeb7c3fb5fd577428869588bd90d"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "HTTP_429"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "HTTP_429"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2838",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-41091973788-1",
+  "queue_rows": [
+    2838
+  ],
+  "assessment_path": "assessments/v2/vinylfactory901_com/v2-41091973788-1.json"
+}
