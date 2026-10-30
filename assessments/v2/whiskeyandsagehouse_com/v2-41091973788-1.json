@@ -1,0 +1,145 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T16:45:09.371554+00:00",
+  "shop_id": "whiskeyandsagehouse.com",
+  "row": 2857,
+  "name": "The Whiskey & Sage House",
+  "domain": "whiskeyandsagehouse.com",
+  "country": "US",
+  "website": "https://whiskeyandsagehouse.com/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2857,
+    "name": "The Whiskey & Sage House",
+    "domain": "whiskeyandsagehouse.com",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "shopify",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://whiskeyandsagehouse.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "Invalid Shopify price"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://whiskeyandsagehouse.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "Invalid Shopify price"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://whiskeyandsagehouse.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://whiskeyandsagehouse.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://whiskeyandsagehouse.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://whiskeyandsagehouse.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://whiskeyandsagehouse.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ]
+  },
+  "platform": "shopify",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://whiskeyandsagehouse.com/robots.txt",
+      "sha256": "0046a87690bdab298fc79747c0097061c6f3ee4428904c9404ce07322778a3ea"
+    },
+    {
+      "url": "https://whiskeyandsagehouse.com/",
+      "sha256": "9405b13f65200fe4313e7831c6c82c2562538fbc76063970d2fe38c0fe409dcc"
+    },
+    {
+      "url": "https://whiskeyandsagehouse.com/products.json?limit=20&page=1",
+      "sha256": "27b36b85a21db5592341b6234b6e23d88d71337c102d581cdd3561785c4a2970"
+    },
+    {
+      "url": "https://whiskeyandsagehouse.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "ccf1475ec55fd7d51b119810a43c27fc335fc41d5e72ac73f2e71cfc3a7d6bb3"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2857",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-41091973788-1",
+  "queue_rows": [
+    2857
+  ],
+  "assessment_path": "assessments/v2/whiskeyandsagehouse_com/v2-41091973788-1.json"
+}
