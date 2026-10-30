@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T12:45:24.339331+00:00",
+  "shop_id": "swaggierecords.com",
+  "row": 2626,
+  "name": "Swaggie Records Donelson; Swaggie Records Nashville",
+  "domain": "swaggierecords.com",
+  "country": "US",
+  "website": "https://swaggierecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2626,
+    "name": "Swaggie Records Donelson; Swaggie Records Nashville",
+    "domain": "swaggierecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://swaggierecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 13,
+    "excluded": 7,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://swaggierecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://swaggierecords.com/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://swaggierecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 20,
+        "accepted": 13,
+        "excluded": 7,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://swaggierecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://swaggierecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://swaggierecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://swaggierecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://swaggierecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://swaggierecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 135,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://swaggierecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 13,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 13,
+    "unique_prices": 11,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://swaggierecords.com/robots.txt",
+      "sha256": "9d25132b9935f936c099df8e0deedb486f7ba095e22890f165240420a044627b"
+    },
+    {
+      "url": "https://swaggierecords.com/",
+      "sha256": "bc3ef7118698b41def7d079f57c8a89584dd5575ab7b2dfcd792db27fe51245e"
+    },
+    {
+      "url": "https://swaggierecords.com/products.json?limit=20&page=1",
+      "sha256": "3fe7fdfcbcb9af3ab402020aaa5b1f5b590a9ee25b7aa98557817031d1913c96"
+    },
+    {
+      "url": "https://swaggierecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "18341e76fcb0829bdd1ab6ca783874c2254df17cc595d037c835f3bbbcd7611b"
+    },
+    {
+      "url": "https://swaggierecords.com/products/used-12-adventures-of-stevie-v-thats-the-way-it-is-12-mint-m",
+      "sha256": "cb7d5e740368f297081f1726d27a90e0c0c6de63d4b8b0ca053b38163fcb33e4"
+    },
+    {
+      "url": "https://swaggierecords.com/products/used-12-bring-me-the-horizon-post-human-survival-horror-12-ep-mint-m",
+      "sha256": "f7da39f1fde5da8752b1a153d105dc1f7e533677958e0f160f7918d04efa662c"
+    },
+    {
+      "url": "https://swaggierecords.com/products/used-2x12-wu-tang-x-mathematics-black-samson-the-bastard-swordsman-2x12-album-rsd-ltd-num-180-mint-m?variant=47982370160885",
+      "sha256": "c36c9968f122bd803608fe784e63dc4ec1126a926b7dec2d437bfb05ffb3ea2f"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.15384615384615385,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2626",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-41057531706-1",
+  "queue_rows": [
+    2626
+  ],
+  "assessment_path": "assessments/v2/swaggierecords_com/v2-41057531706-1.json"
+}
