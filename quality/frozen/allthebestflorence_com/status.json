@@ -1,0 +1,100 @@
+{
+  "fingerprint": "d5d80ef5f55fdc6cbe92a7c490c775b34003670ba58470dae066e88cffd33e6b",
+  "domain": "allthebestflorence.com",
+  "batch": 18,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41013449724",
+  "updated_at": "2026-10-30T06:20:23.565785+00:00",
+  "evidence": {
+    "domain": "allthebestflorence.com",
+    "route": "https://allthebestflorence.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-30T06:20:20.156061+00:00",
+    "requests": [
+      {
+        "url": "https://allthebestflorence.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "bd0eb72daecb2c04308de58a05d9adc26455a0c35f9b8de4446570b69956d271"
+      },
+      {
+        "url": "https://allthebestflorence.com/products/a-christmas-gift-for-you-from-philles-records-various-artists-lp?variant=42314321330382",
+        "sha256": "5db2e6f2fdd5f1cbda7ae0088e5ae4c80a9f66878665ae7bc5e8171337e00f96"
+      },
+      {
+        "url": "https://allthebestflorence.com/products/alabama-shakes-sound-color-2xlp?variant=41541939036366",
+        "sha256": "e759ccfc4c423e81f0fe10bdce6a3d0003ba5a6ac29f57c089986048317a8ec2"
+      },
+      {
+        "url": "https://allthebestflorence.com/products/aretha-franklin-arethas-greatest-hits-lp?variant=41491477528782",
+        "sha256": "e8cfac68e98786d407158b7c58ba4b1a97af5718c76ef88b4d1ff3d782ac9298"
+      }
+    ],
+    "listing_records": 11,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://allthebestflorence.com/products/a-christmas-gift-for-you-from-philles-records-various-artists-lp?variant=42314321330382",
+        "price": "24.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://allthebestflorence.com/products/alabama-shakes-sound-color-2xlp?variant=41541939036366",
+        "price": "28.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://allthebestflorence.com/products/aretha-franklin-arethas-greatest-hits-lp?variant=41491477528782",
+        "price": "27.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 11,
+      "unique_prices": 7,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 1,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39155794450"
+    },
+    {
+      "batch": 16,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40642431631"
+    },
+    {
+      "batch": 17,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40828686930"
+    },
+    {
+      "batch": 18,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41013449724"
+    }
+  ]
+}
