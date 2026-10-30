@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T20:48:43.972907+00:00",
+  "shop_id": "volverrecords.net",
+  "row": 3171,
+  "name": "Volver Records",
+  "domain": "volverrecords.net",
+  "country": "US",
+  "website": "https://volverrecords.net/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3171,
+    "name": "Volver Records",
+    "domain": "volverrecords.net",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://volverrecords.net/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 2,
+    "excluded": 18,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://volverrecords.net/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://volverrecords.net/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://volverrecords.net/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://volverrecords.net/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://volverrecords.net/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://volverrecords.net/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://volverrecords.net/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://volverrecords.net/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://volverrecords.net/products.json?limit=20&page=1",
+      "score": 25,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://volverrecords.net/products.json?limit=20&page=1",
+  "listing_sample": 2,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 2,
+    "unique_prices": 2,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://volverrecords.net/robots.txt",
+      "sha256": "207121511c4eaff947ae989a2ce4ea6a8fce985b5340a7639dfe6d454da07a14"
+    },
+    {
+      "url": "https://volverrecords.net/",
+      "sha256": "2b70eaa515e774f6277cb5d12fd89ef8c77548edbafe99a96b6e7b19f1f35ca2"
+    },
+    {
+      "url": "https://volverrecords.net/products.json?limit=20&page=1",
+      "sha256": "933d1d6b984260a200fa9352d97a1d47a26294e1754d82994c54ccf31211be07"
+    },
+    {
+      "url": "https://volverrecords.net/collections/all/products.json?limit=20&page=1",
+      "sha256": "10254181f5351d67f9d0732229d902c972e4a18cbe853bfe7f554c45f8b42632"
+    },
+    {
+      "url": "https://volverrecords.net/products/impact-its-a-groove-night-sealed-vinyl-lp",
+      "sha256": "780c26b4f12000a12e073a6ffdd6f25d46fddd482a0a3973b284e027ae93e281"
+    },
+    {
+      "url": "https://volverrecords.net/products/yasuha-flyday-chinatown-2026-new-7-blue-vinyl",
+      "sha256": "f7544593ef7c1082e3fd535981b3decaf16eb8e2a698c025d040273e02dfb8a3"
+    },
+    {
+      "url": "https://volverrecords.net/products/yasuha-flyday-chinatown-2026-new-7-blue-vinyl?variant=68010403365100",
+      "sha256": "84d7a067b97a7f6a677694595dfd52e5e59efd4bae84b287bd87d379c1e0cd8a"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_3171",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-41125316112-1",
+  "queue_rows": [
+    3171
+  ],
+  "assessment_path": "assessments/v2/volverrecords_net/v2-41125316112-1.json"
+}
