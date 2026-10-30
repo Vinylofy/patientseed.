@@ -1,0 +1,103 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T15:07:42.015009+00:00",
+  "shop_id": "recordexchangeofmd.com",
+  "row": 2770,
+  "name": "The Record Exchange",
+  "domain": "recordexchangeofmd.com",
+  "country": "US",
+  "website": "https://recordexchangeofmd.com/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2770,
+    "name": "The Record Exchange",
+    "domain": "recordexchangeofmd.com",
+    "status": "SOURCE_BLOCKED",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "source_url": "https://recordexchangeofmd.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "reason": "HTTP_429",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://recordexchangeofmd.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://recordexchangeofmd.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": "https://recordexchangeofmd.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "requests": [
+    {
+      "url": "https://recordexchangeofmd.com/robots.txt",
+      "sha256": "ac885533ea261befc62eb698da04a578469004a65fb233daa90142bfa1eb9ba4"
+    },
+    {
+      "url": "https://recordexchangeofmd.com/",
+      "sha256": "b59ac39c8cde68d69298f5a4fc5868a2db7da5c410df419e5fc5d16e05f90cb3"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "HTTP_429"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "HTTP_429"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2770",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-41076538418-1",
+  "queue_rows": [
+    2770
+  ],
+  "assessment_path": "assessments/v2/recordexchangeofmd_com/v2-41076538418-1.json"
+}
