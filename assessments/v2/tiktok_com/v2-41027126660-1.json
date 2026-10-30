@@ -1,0 +1,165 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T08:43:01.656510+00:00",
+  "shop_id": "tiktok.com",
+  "row": 2445,
+  "name": "Smoky Jazz Collective",
+  "domain": "tiktok.com",
+  "country": "US",
+  "website": "https://tiktok.com/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2445,
+    "name": "Smoky Jazz Collective",
+    "domain": "tiktok.com",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://tiktok.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://tiktok.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://tiktok.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://tiktok.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "Squarespace feed contract changed"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://tiktok.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "Squarespace feed contract changed"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://tiktok.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "BigCommerce feed contract changed"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://tiktok.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "BigCommerce feed contract changed"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://tiktok.com/robots.txt",
+      "sha256": "835705a2ecb862f49a813b3aa4061e0edfefbb8318316b371f8fa2dba4018802"
+    },
+    {
+      "url": "https://tiktok.com/",
+      "sha256": "24963eacdc5dde4cdde7b661215ffeed25f1eb036fbf6bc388bf24efbd0fa5d4"
+    },
+    {
+      "url": "https://tiktok.com/products.json?limit=20&page=1",
+      "sha256": "2dc391a7083694ca9c5dcf68b31ee9a9bc9f8708258ed2000178cbc1303555f5"
+    },
+    {
+      "url": "https://tiktok.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "2dc391a7083694ca9c5dcf68b31ee9a9bc9f8708258ed2000178cbc1303555f5"
+    },
+    {
+      "url": "https://tiktok.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "2dc391a7083694ca9c5dcf68b31ee9a9bc9f8708258ed2000178cbc1303555f5"
+    },
+    {
+      "url": "https://tiktok.com/api/0.1/collections/products?format=json",
+      "sha256": "8491eac08e5dbb2eadb477e151d4cc7dd29101f35f3e6f86deeb3ab64f2aa0fa"
+    },
+    {
+      "url": "https://tiktok.com/api/0.1/collections/all/products?format=json",
+      "sha256": "d90940fc4ea6ec0076a9d7ad26dab4077cccbe1fe1dfcf2b52915becbf2a99d6"
+    },
+    {
+      "url": "https://tiktok.com/api/storefront/products?limit=20&offset=0",
+      "sha256": "2386125f970423702398d7c4f111f2f55b7d50304cab563c564b72ea31eddd64"
+    },
+    {
+      "url": "https://tiktok.com/api/storefront/products?limit=20",
+      "sha256": "1f1442cc88efb72b2db8b04c61a682692e0a1b16808c1bcc417b9cf391004ee1"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2445",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-41027126660-1",
+  "queue_rows": [
+    2445
+  ],
+  "assessment_path": "assessments/v2/tiktok_com/v2-41027126660-1.json"
+}
