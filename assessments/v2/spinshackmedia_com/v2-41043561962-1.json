@@ -1,0 +1,175 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T10:56:36.821200+00:00",
+  "shop_id": "spinshackmedia.com",
+  "row": 2527,
+  "name": "Spin Shack",
+  "domain": "spinshackmedia.com",
+  "country": "US",
+  "website": "https://spinshackmedia.com/",
+  "previous_status": "ADAPTER_TESTED",
+  "previous_reason": "no confirmed new vinyl on bounded page",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2527,
+    "name": "Spin Shack",
+    "domain": "spinshackmedia.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "listing",
+    "platform": "woocommerce",
+    "source_url": "https://spinshackmedia.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "adapter_class": "WooCommerceNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 13,
+    "accepted": 0,
+    "excluded": 13,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "method_candidates": [
+      {
+        "platform": "woocommerce",
+        "route": "https://spinshackmedia.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "products_seen": 13,
+        "accepted": 0,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://spinshackmedia.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://spinshackmedia.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://spinshackmedia.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://spinshackmedia.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://spinshackmedia.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://spinshackmedia.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "woocommerce",
+      "route": "https://spinshackmedia.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 0,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "reason": "no confirmed new vinyl on bounded page"
+  },
+  "platform": "woocommerce",
+  "catalog_route": "https://spinshackmedia.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "listing_sample": 0,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 0,
+    "unique_prices": 0,
+    "shipping_hits": 0,
+    "currencies": []
+  },
+  "secondhand_observed": false,
+  "examples": [],
+  "requests": [
+    {
+      "url": "https://spinshackmedia.com/robots.txt",
+      "sha256": "e1f21c9aa28d50ca112ed357f34b67c550597effd4d42fd55b4e27300dd8f9c1"
+    },
+    {
+      "url": "https://spinshackmedia.com/",
+      "sha256": "2be3cfd88b36ac48b494abcabee6b40da93c1ff75c20715ac7d58607109f9a8c"
+    },
+    {
+      "url": "https://spinshackmedia.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "2c93d32ea0ed73cac017d332f1c47487c5dcf0c501a7e52b97255a2b74e7342e"
+    },
+    {
+      "url": "https://spinshackmedia.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "a70d45859e98be15b267b85812d0ec5f2698ca641170eb7db8546e04d8fc192e"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:vinyl",
+    "not_proven:new_used_distinguishable",
+    "not_proven:public_prices",
+    "not_proven:availability",
+    "not_proven:stable_urls"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": false,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": false,
+    "availability": false,
+    "stable_urls": false,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2527",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-41043561962-1",
+  "queue_rows": [
+    2527
+  ],
+  "assessment_path": "assessments/v2/spinshackmedia_com/v2-41043561962-1.json"
+}
