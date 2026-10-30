@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T08:44:32.850577+00:00",
+  "shop_id": "sorrystaterecords.com",
+  "row": 2467,
+  "name": "Sorry State Records",
+  "domain": "sorrystaterecords.com",
+  "country": "US",
+  "website": "https://sorrystaterecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2467,
+    "name": "Sorry State Records",
+    "domain": "sorrystaterecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://sorrystaterecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 4,
+    "excluded": 16,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://sorrystaterecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://sorrystaterecords.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://sorrystaterecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 20,
+        "accepted": 4,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://sorrystaterecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://sorrystaterecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://sorrystaterecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://sorrystaterecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://sorrystaterecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://sorrystaterecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 45,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://sorrystaterecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 4,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 4,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://sorrystaterecords.com/robots.txt",
+      "sha256": "9053e81a443e3fc2b25589ff60c71ab25a3ce18a80a5f04656030a168c3668ac"
+    },
+    {
+      "url": "https://sorrystaterecords.com/",
+      "sha256": "fd01e3d967302756118ce0116c4c4dd4562fd1c6e56bc88f20fe3ebcf5638cae"
+    },
+    {
+      "url": "https://sorrystaterecords.com/products.json?limit=20&page=1",
+      "sha256": "5804acbf7258ccdff0a8b9a08cec310bbfcce5acfc68f1ef964138656b152242"
+    },
+    {
+      "url": "https://sorrystaterecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "4c9d558014ed5139585725f344f676811634ecd8163a3c5cea20d79530bb28a6"
+    },
+    {
+      "url": "https://sorrystaterecords.com/products/uicideboy-new-world-depression-12-indie-exclusive",
+      "sha256": "f560e797b1f45fcea8bd4d4800ac8a5aadb93fe67d0bfb730fa534e5f6143914"
+    },
+    {
+      "url": "https://sorrystaterecords.com/products/39-375-649-94-64-my-telephone-number-album-01-12",
+      "sha256": "e2b7392ffdfdfb216ce597eeef48dc828511fdbc2af5c80dbc74010cf71693da"
+    },
+    {
+      "url": "https://sorrystaterecords.com/products/10-000-km-gegen-die-zeit-dimension-plasma-12?variant=45682025267454",
+      "sha256": "153da89ec50027649a5901645f08f8519236c1057284d90c7419966225ce4524"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2467",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-41027126660-1",
+  "queue_rows": [
+    2467
+  ],
+  "assessment_path": "assessments/v2/sorrystaterecords_com/v2-41027126660-1.json"
+}
