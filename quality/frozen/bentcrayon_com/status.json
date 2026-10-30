@@ -1,0 +1,100 @@
+{
+  "fingerprint": "caacf34842f3cb520707d2e9de4ab5b649ae869259f3eb92d0dbdb759b9f4bde",
+  "domain": "bentcrayon.com",
+  "batch": 18,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41013449724",
+  "updated_at": "2026-10-30T06:20:36.854126+00:00",
+  "evidence": {
+    "domain": "bentcrayon.com",
+    "route": "https://bentcrayon.com/products.json?limit=20&page=1",
+    "observed_at": "2026-10-30T06:20:33.593240+00:00",
+    "requests": [
+      {
+        "url": "https://bentcrayon.com/products.json?limit=20&page=1",
+        "sha256": "667ffe43a2049d5544a112de4eec93a6f5be3abd0836e5bf1d570630785dd94e"
+      },
+      {
+        "url": "https://bentcrayon.com/products/various-shouts-2021-sampler-volume-2-lp?variant=68751836610754",
+        "sha256": "503b17b752ca70f3d97501069a7ffba91e5feafe98b7e310f76b23f729453e4d"
+      },
+      {
+        "url": "https://bentcrayon.com/products/kerrie-we-continue-part-2-ep?variant=68724534018242",
+        "sha256": "277e400ca0bdf81f876a30fd4aceb98cf439e8cda39e71f2c0c4e451d503268d"
+      },
+      {
+        "url": "https://bentcrayon.com/products/kmfh-taorminas-dream-12?variant=68722976751810",
+        "sha256": "b3e29d0a28491a48d09009ea8f868d763b2d0c6094b1079db7094510267b9123"
+      }
+    ],
+    "listing_records": 19,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://bentcrayon.com/products/various-shouts-2021-sampler-volume-2-lp?variant=68751836610754",
+        "price": "16.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://bentcrayon.com/products/kerrie-we-continue-part-2-ep?variant=68724534018242",
+        "price": "14.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://bentcrayon.com/products/kmfh-taorminas-dream-12?variant=68722976751810",
+        "price": "23.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 19,
+      "unique_prices": 13,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 1,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39155794450"
+    },
+    {
+      "batch": 16,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40642431631"
+    },
+    {
+      "batch": 17,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40828686930"
+    },
+    {
+      "batch": 18,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41013449724"
+    }
+  ]
+}
