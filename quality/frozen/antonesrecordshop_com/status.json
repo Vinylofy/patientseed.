@@ -1,0 +1,100 @@
+{
+  "fingerprint": "38bbb0652fad2746cc195255ed81fcbb01fdb21637f243baa70ca3b3c4d479ca",
+  "domain": "antonesrecordshop.com",
+  "batch": 18,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41013449724",
+  "updated_at": "2026-10-30T06:20:27.002145+00:00",
+  "evidence": {
+    "domain": "antonesrecordshop.com",
+    "route": "https://antonesrecordshop.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-30T06:20:23.603965+00:00",
+    "requests": [
+      {
+        "url": "https://antonesrecordshop.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "62d43e06ef171bcb245094ef4fcb4e4a43844b8b617f7889efb42820b3fc9047"
+      },
+      {
+        "url": "https://antonesrecordshop.com/products/pre-order-everything-everything-get-to-heaven-180-gram?variant=42858515529790",
+        "sha256": "a5df7a3d8f544a09689bdec285303b18dd94db36139c2a3e9bfc06a145061c6f"
+      },
+      {
+        "url": "https://antonesrecordshop.com/products/king-crimson-islands-2026-elemental-mixesa-a-180-gram?variant=67943668449342",
+        "sha256": "2b7606489b4b75557ebfff72d67f102246748260f0b423007e5c33bbb175d48a"
+      },
+      {
+        "url": "https://antonesrecordshop.com/products/pre-order-texas-is-the-reason-do-you-know-who-you-are-color-vinyl-lp?variant=42928875110462",
+        "sha256": "ae79f93ce83ab9eb7cb8805db59d5714e1d42e3cb10941920d4f10f986948d22"
+      }
+    ],
+    "listing_records": 3,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://antonesrecordshop.com/products/pre-order-everything-everything-get-to-heaven-180-gram?variant=42858515529790",
+        "price": "51.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://antonesrecordshop.com/products/king-crimson-islands-2026-elemental-mixesa-a-180-gram?variant=67943668449342",
+        "price": "35.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://antonesrecordshop.com/products/pre-order-texas-is-the-reason-do-you-know-who-you-are-color-vinyl-lp?variant=42928875110462",
+        "price": "32.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 3,
+      "unique_prices": 3,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 1,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39155794450"
+    },
+    {
+      "batch": 16,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40642431631"
+    },
+    {
+      "batch": 17,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40828686930"
+    },
+    {
+      "batch": 18,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41013449724"
+    }
+  ]
+}
