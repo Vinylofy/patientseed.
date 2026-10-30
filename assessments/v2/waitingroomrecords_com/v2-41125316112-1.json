@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T20:49:35.983900+00:00",
+  "shop_id": "waitingroomrecords.com",
+  "row": 3178,
+  "name": "Waiting Room Records",
+  "domain": "waitingroomrecords.com",
+  "country": "US",
+  "website": "https://waitingroomrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3178,
+    "name": "Waiting Room Records",
+    "domain": "waitingroomrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://waitingroomrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 25,
+    "accepted": 15,
+    "excluded": 10,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://waitingroomrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://waitingroomrecords.com/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 23,
+        "accepted": 6,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://waitingroomrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 155,
+        "products_seen": 25,
+        "accepted": 15,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://waitingroomrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://waitingroomrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://waitingroomrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://waitingroomrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://waitingroomrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://waitingroomrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 155,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://waitingroomrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 15,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 15,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://waitingroomrecords.com/robots.txt",
+      "sha256": "eda6e51c2a5dc1d94df8c1ad169e8a63106ce10644fe808270d5b1a75c405d45"
+    },
+    {
+      "url": "https://waitingroomrecords.com/",
+      "sha256": "e91b083595d0bcea6b3776c68c61331d67c9706f06710c4b6e456190b62df09a"
+    },
+    {
+      "url": "https://waitingroomrecords.com/products.json?limit=20&page=1",
+      "sha256": "d5368c65702bccf3c9729489ccdbb35af9e492c3392930e0d7e9b9706ecd7774"
+    },
+    {
+      "url": "https://waitingroomrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "ea32c2aabbd53115bf186cbc3242757b82c6b66ebc6c267b71bacc6bcb389587"
+    },
+    {
+      "url": "https://waitingroomrecords.com/products/let-it-be-blue",
+      "sha256": "f8f05b7fb261bffdc67e3e829a183bbd529fcf39f837cda5ab35bb1c08faecf6"
+    },
+    {
+      "url": "https://waitingroomrecords.com/products/uicideboy-thy-kingdom-come-preorder-out-8-1",
+      "sha256": "0759f77981decdb84d30cf60216293c262459cebd38ea2a92e1f5e71e97fb4f1"
+    },
+    {
+      "url": "https://waitingroomrecords.com/products/and-you-will-know-us-by-the-trail-of-the-dead?variant=40427816190067",
+      "sha256": "2372076eba54a2bc66877062a3b2f4419b366b53406659d6c3daf9650cda0776"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.2,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_3178",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-41125316112-1",
+  "queue_rows": [
+    3178
+  ],
+  "assessment_path": "assessments/v2/waitingroomrecords_com/v2-41125316112-1.json"
+}
