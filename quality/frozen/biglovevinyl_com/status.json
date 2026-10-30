@@ -1,0 +1,100 @@
+{
+  "fingerprint": "564c771e48f5be0bf939175eb4041d09d003267228764d2460cc747d12fe4758",
+  "domain": "biglovevinyl.com",
+  "batch": 18,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41013449724",
+  "updated_at": "2026-10-30T06:20:46.528739+00:00",
+  "evidence": {
+    "domain": "biglovevinyl.com",
+    "route": "https://biglovevinyl.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "observed_at": "2026-10-30T06:20:42.648220+00:00",
+    "requests": [
+      {
+        "url": "https://biglovevinyl.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "sha256": "b6f1c314517db6e014ffd01ff26cb6f385da1e55d26974fea38a47b0d03acd6a"
+      },
+      {
+        "url": "https://biglovevinyl.com/product/selena-gomez-benny-blanco-i-said-i-love-you-first-red-sealed-signed-insert-2/",
+        "sha256": "46cfdff253c8f9ca191e0860bf6113b997add76c09893ce570ebf995787fc8be"
+      },
+      {
+        "url": "https://biglovevinyl.com/product/bing-crosby-rosemary-clooney-white-christmas/",
+        "sha256": "3b8ee68872438ad90453b9b46f0dfbdb3fb75310d7152e544d7499f30c5caf06"
+      },
+      {
+        "url": "https://biglovevinyl.com/product/jeannie-conroy-jeannie-sings-christmas/",
+        "sha256": "e51cadd0761d52a9d0ea14e1ea7814da0736ad12495a60a1c2cafae95fae93af"
+      }
+    ],
+    "listing_records": 16,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://biglovevinyl.com/product/selena-gomez-benny-blanco-i-said-i-love-you-first-red-sealed-signed-insert-2/",
+        "price": "25.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://biglovevinyl.com/product/bing-crosby-rosemary-clooney-white-christmas/",
+        "price": "15.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://biglovevinyl.com/product/jeannie-conroy-jeannie-sings-christmas/",
+        "price": "7.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 16,
+      "unique_prices": 8,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 1,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39155794450"
+    },
+    {
+      "batch": 16,
+      "status": "REVIEW",
+      "reason": "The read operation timed out",
+      "run_id": "40642431631"
+    },
+    {
+      "batch": 17,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40828686930"
+    },
+    {
+      "batch": 18,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41013449724"
+    }
+  ]
+}
