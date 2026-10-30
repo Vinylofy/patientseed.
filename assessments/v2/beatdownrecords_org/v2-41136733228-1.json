@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T22:27:23.118345+00:00",
+  "shop_id": "beatdownrecords.org",
+  "row": 3351,
+  "name": "Beatdown Records",
+  "domain": "beatdownrecords.org",
+  "country": null,
+  "website": "https://beatdownrecords.org/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3351,
+    "name": "Beatdown Records",
+    "domain": "beatdownrecords.org",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://beatdownrecords.org/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 15,
+    "excluded": 5,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://beatdownrecords.org/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://beatdownrecords.org/products.json?limit=20&page=1",
+        "score": 155,
+        "products_seen": 20,
+        "accepted": 15,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://beatdownrecords.org/collections/all/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://beatdownrecords.org/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://beatdownrecords.org/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://beatdownrecords.org/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://beatdownrecords.org/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://beatdownrecords.org/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://beatdownrecords.org/products.json?limit=20&page=1",
+      "score": 155,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://beatdownrecords.org/products.json?limit=20&page=1",
+  "listing_sample": 15,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 15,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://beatdownrecords.org/robots.txt",
+      "sha256": "cb6068058373a0c8f27f92b61552696e059e4cbc9c3d4be49d5b46d26f01d99f"
+    },
+    {
+      "url": "https://beatdownrecords.org/",
+      "sha256": "6213692d712d243157118e788e41bebab214c0479078fa1b335e0989b04557cc"
+    },
+    {
+      "url": "https://beatdownrecords.org/products.json?limit=20&page=1",
+      "sha256": "a0998054e47230cc4fa35270d71c1e8ff3fd950b00653de3e63b7ae8f9e96320"
+    },
+    {
+      "url": "https://beatdownrecords.org/collections/all/products.json?limit=20&page=1",
+      "sha256": "d2711f85a185f57d2f75701f625282f764b4ba6357365a08b244d3605bdb27ec"
+    },
+    {
+      "url": "https://beatdownrecords.org/products/lp-copy-1",
+      "sha256": "30ef4f976f6d9b1e241e85a8da4116149342d0994699e996f714dfe9da98455b"
+    },
+    {
+      "url": "https://beatdownrecords.org/products/grandmaster-flash-the-furious-five-the-breaks-lp-zoetrope-pic-disc",
+      "sha256": "30035f1513029e04974c0e05eb241f414eb30bd97d6abcc6cd07078482394eca"
+    },
+    {
+      "url": "https://beatdownrecords.org/products/rollo-doherty-the-jelly-man-lp-picture-disc?variant=57480381596026",
+      "sha256": "1a8d0a55fd294535fd39908fa2c2e053c08a78873613aa27cb5fb58b373012e6"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "FROZEN",
+  "example_urls": [],
+  "assessment_id": "v2-41136733228-1",
+  "queue_rows": [
+    3351
+  ],
+  "assessment_path": "assessments/v2/beatdownrecords_org/v2-41136733228-1.json"
+}
