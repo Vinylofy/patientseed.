@@ -1,0 +1,248 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T22:26:33.306919+00:00",
+  "shop_id": "southrecordshop.com",
+  "row": 3348,
+  "name": "South Record Shop",
+  "domain": "southrecordshop.com",
+  "country": null,
+  "website": "https://southrecordshop.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3348,
+    "name": "South Record Shop",
+    "domain": "southrecordshop.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://southrecordshop.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://southrecordshop.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://southrecordshop.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://southrecordshop.com/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://southrecordshop.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://southrecordshop.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://southrecordshop.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://southrecordshop.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://southrecordshop.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://southrecordshop.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://southrecordshop.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://southrecordshop.com/products/joanna-newsom-the-milk-eyed-mender?variant=55709066101112",
+      "artist": "Joanna Newsom",
+      "title": "The Milk Eyed Mender",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "21.99",
+      "currency": "GBP",
+      "valid_eans": [
+        "00781484026310"
+      ],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://southrecordshop.com/products/3-iron-maiden-flight-of-icarus-the-trooper?variant=55719640138104",
+      "artist": "Iron Maiden",
+      "title": "Flight Of Icarus · The Trooper",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "30.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://southrecordshop.com/products/3-iron-maiden-live-after-death?variant=55719640695160",
+      "artist": "Iron Maiden",
+      "title": "Live After Death",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "35.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://southrecordshop.com/robots.txt",
+      "sha256": "ed62b0ae101a1e98bf126065b41eee4e8fd1ff65081e39fd283d6913b8eeb1eb"
+    },
+    {
+      "url": "https://southrecordshop.com/",
+      "sha256": "398c2786e243037a465de553024fad1e5a0ce631b022ba2c54c98c36edfec5f0"
+    },
+    {
+      "url": "https://southrecordshop.com/products.json?limit=20&page=1",
+      "sha256": "4c8cace1a180c9f141bd3971d28d6c45d8c9f8b7a870c5e2c467223b678fa62f"
+    },
+    {
+      "url": "https://southrecordshop.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "6080a3c8adf7250ce1375b3cec2e2ad87eb06a291a08e191ed0696e8d1d16a4a"
+    },
+    {
+      "url": "https://southrecordshop.com/products/3-iron-maiden-live-after-death",
+      "sha256": "030c2dc92e5e83d7ba773f1491c056bacdd1cc77c7595ab7cdb8e1e14f1aa3cb"
+    },
+    {
+      "url": "https://southrecordshop.com/products/3-iron-maiden-piece-of-mind",
+      "sha256": "75f74ab53b3abb5f5bfa0b58ae9c5203d44502b5caab1485cbd7d6c8775dac46"
+    },
+    {
+      "url": "https://southrecordshop.com/products/joanna-newsom-the-milk-eyed-mender?variant=55709066101112",
+      "sha256": "07ba1be2aa9f2074662d9395700d571c178d76224c34e07b5ec51810106be1b6"
+    },
+    {
+      "url": "https://southrecordshop.com/products/3-iron-maiden-flight-of-icarus-the-trooper?variant=55719640138104",
+      "sha256": "903d2bbbe418d787002eac5cb3e58297b7aa4f07215673aef491395acca7c1a4"
+    },
+    {
+      "url": "https://southrecordshop.com/products/3-iron-maiden-live-after-death?variant=55719640695160",
+      "sha256": "b41a6ea3f19122ff2ca2bc0fc8611a887ab7fb395b5ec2da462d3d70ccb7ff83"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 1,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "FROZEN",
+  "example_urls": [
+    "https://southrecordshop.com/products/joanna-newsom-the-milk-eyed-mender?variant=55709066101112",
+    "https://southrecordshop.com/products/3-iron-maiden-flight-of-icarus-the-trooper?variant=55719640138104",
+    "https://southrecordshop.com/products/3-iron-maiden-live-after-death?variant=55719640695160"
+  ],
+  "assessment_id": "v2-41136733228-1",
+  "queue_rows": [
+    3348
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 20,
+  "candidate_ref": "v2-41136733228-1/southrecordshop_com",
+  "assessment_path": "assessments/v2/southrecordshop_com/v2-41136733228-1.json"
+}
