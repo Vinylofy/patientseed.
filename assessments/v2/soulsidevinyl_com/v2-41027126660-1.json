@@ -1,0 +1,141 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T08:44:49.656019+00:00",
+  "shop_id": "soulsidevinyl.com",
+  "row": 2470,
+  "name": "Soul Side Vinyl",
+  "domain": "soulsidevinyl.com",
+  "country": "US",
+  "website": "https://soulsidevinyl.com/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2470,
+    "name": "Soul Side Vinyl",
+    "domain": "soulsidevinyl.com",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "woocommerce",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "woocommerce",
+        "route": "https://soulsidevinyl.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "TimeoutError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://soulsidevinyl.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://soulsidevinyl.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://soulsidevinyl.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://soulsidevinyl.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://soulsidevinyl.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://soulsidevinyl.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ]
+  },
+  "platform": "woocommerce",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://soulsidevinyl.com/robots.txt",
+      "sha256": "d366f7e6775c73993d5dd14b64a58d0f14efafb033a2c1232e8dd10d3ba7ba4a"
+    },
+    {
+      "url": "https://soulsidevinyl.com/",
+      "sha256": "71e7f7d3bac15962c7d94342ea63434d2a7c393fe125c947a165a84063c9499d"
+    },
+    {
+      "url": "https://soulsidevinyl.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "7cf2178d930336fb557aff45a123d36ff4163c9e5325768d97fc3b4507d06828"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2470",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-41027126660-1",
+  "queue_rows": [
+    2470
+  ],
+  "assessment_path": "assessments/v2/soulsidevinyl_com/v2-41027126660-1.json"
+}
