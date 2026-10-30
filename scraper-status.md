@@ -3676,9 +3676,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **2310**. Open: **1014**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **2410**. Open: **914**.
 
-EAN: **47** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **2236** | UNSUITABLE: **0**
+EAN: **48** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **2335** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -5955,111 +5955,111 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Rollin' Records | US | EAN | MEDIUM | BUILT_AWAITING_MANUAL_TEST | own_product_valid_gtin_coverage_at_least_80_percent_of_sample | v2-40571453864-1/rollinrecs_com |
 | Rolling Stones | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
 | Romeo Records & Cafe | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Romeo's Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Ron's Real Records | US | Nog te beoordelen | — | — | — | — |
-| Ron's Records | US | Nog te beoordelen | — | — | — | — |
-| Ronald Records | US | Nog te beoordelen | — | — | — | — |
-| Rooky Ricardo's Records | US | Nog te beoordelen | — | — | — | — |
-| Room 13 Records | US | Nog te beoordelen | — | — | — | — |
-| Root For Us | US | Nog te beoordelen | — | — | — | — |
-| Roots Music Shop | US | Nog te beoordelen | — | — | — | — |
-| Rose's Collectibles; Rose's, Stillwater, MN; Rose’s of Anoka, MN | US | Nog te beoordelen | — | — | — | — |
-| Rose's Repeats | US | Nog te beoordelen | — | — | — | — |
-| Rosebud Records | US | Nog te beoordelen | — | — | — | — |
-| Rosie's Records | US | Nog te beoordelen | — | — | — | — |
-| Ross's Rock Emporium & Chicago Records | US | Nog te beoordelen | — | — | — | — |
+| Romeo's Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Ron's Real Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Ron's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Ronald Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rooky Ricardo's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Room 13 Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
+| Root For Us | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Roots Music Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rose's Collectibles; Rose's, Stillwater, MN; Rose’s of Anoka, MN | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Rose's Repeats | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Rosebud Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Rosie's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Ross's Rock Emporium & Chicago Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
 | Rotten Island Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | insufficient_representative_product_evidence | — |
-| Rotten princess records east | US | Nog te beoordelen | — | — | — | — |
-| Rough Trade Above; Rough Trade Below | US | Nog te beoordelen | — | — | — | — |
-| Round Again Records | US | Nog te beoordelen | — | — | — | — |
+| Rotten princess records east | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rough Trade Above; Rough Trade Below | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Response size limit | — |
+| Round Again Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
 | Round Hill Music Co. | US | EAN | MEDIUM | BUILT_AWAITING_MANUAL_TEST | own_product_valid_gtin_coverage_at_least_80_percent_of_sample | v2-40571453864-1/roundhillmusicco_com |
-| Round Trip Records | US | Nog te beoordelen | — | — | — | — |
-| Roundabout Records | US | Nog te beoordelen | — | — | — | — |
-| Roundabout Records | US | Nog te beoordelen | — | — | — | — |
-| Route 66 Underground Records | US | Nog te beoordelen | — | — | — | — |
-| RoValley Records | US | Nog te beoordelen | — | — | — | — |
-| Roxy’s Hot Vinyl Records & Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Royal Dynasty Records | US | Nog te beoordelen | — | — | — | — |
-| Royal Records | US | Nog te beoordelen | — | — | — | — |
-| RPM Records | US | Nog te beoordelen | — | — | — | — |
-| RPM Records | US | Nog te beoordelen | — | — | — | — |
-| RPM Records | US | Nog te beoordelen | — | — | — | — |
-| rpmNH: records, posters and memorabilia | US | Nog te beoordelen | — | — | — | — |
-| RRRecords | US | Nog te beoordelen | — | — | — | — |
-| Rt 18 Antique Mall | US | Nog te beoordelen | — | — | — | — |
-| Ru Linn Records | US | Nog te beoordelen | — | — | — | — |
-| Ruby Peak Music | US | Nog te beoordelen | — | — | — | — |
-| Ruinous Revived: Vintage Lifestyle & Houseplants | US | Nog te beoordelen | — | — | — | — |
-| Ruix Records | US | Nog te beoordelen | — | — | — | — |
-| Rumor Records | US | Nog te beoordelen | — | — | — | — |
-| Run Out Groove Records | US | Nog te beoordelen | — | — | — | — |
-| Rushmor Records \| Milwaukee’s Longest-Running Record Shop | US | Nog te beoordelen | — | — | — | — |
+| Round Trip Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Roundabout Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Roundabout Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Route 66 Underground Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| RoValley Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Roxy’s Hot Vinyl Records & Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Royal Dynasty Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Royal Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| RPM Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| RPM Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| RPM Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| rpmNH: records, posters and memorabilia | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| RRRecords | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rt 18 Antique Mall | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Ru Linn Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Ruby Peak Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Ruinous Revived: Vintage Lifestyle & Houseplants | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Ruix Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rumor Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Run Out Groove Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rushmor Records \| Milwaukee’s Longest-Running Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
 | Rust & Wax Record Shop - We Buy and Sell Records | US | EAN | MEDIUM | BUILT_AWAITING_MANUAL_TEST | own_product_valid_gtin_coverage_at_least_80_percent_of_sample | v2-40571453864-1/rustandwax_com |
-| Rustic Music | US | Nog te beoordelen | — | — | — | — |
-| Rusty Rose LLC | US | Nog te beoordelen | — | — | — | — |
-| Rusty's Antiques & Vintage Collectibles Indoor Flea Market | US | Nog te beoordelen | — | — | — | — |
-| S.A.G.E. Collective | US | Nog te beoordelen | — | — | — | — |
-| S&J Stereo | US | Nog te beoordelen | — | — | — | — |
-| SAFE Records LLC | US | Nog te beoordelen | — | — | — | — |
-| Saint Marie Records | US | Nog te beoordelen | — | — | — | — |
-| Saints Alley Records | US | Nog te beoordelen | — | — | — | — |
-| Salad Days Records | US | Nog te beoordelen | — | — | — | — |
-| Salty Dog Records Sarasota | US | Nog te beoordelen | — | — | — | — |
-| Salty Dog Records Venice | US | Nog te beoordelen | — | — | — | — |
-| Salty's Jukebox | US | Nog te beoordelen | — | — | — | — |
-| Salzer's Records | US | Nog te beoordelen | — | — | — | — |
-| Sami's Music | US | Nog te beoordelen | — | — | — | — |
-| San Diego Vintage Collectables- Open By Appointment | US | Nog te beoordelen | — | — | — | — |
-| Sanford's Vintage | US | Nog te beoordelen | — | — | — | — |
-| Sans Backup Plan Records | US | Nog te beoordelen | — | — | — | — |
-| Sarasota Music Archive | US | Nog te beoordelen | — | — | — | — |
-| Satellite Records | US | Nog te beoordelen | — | — | — | — |
-| Savvy Vinyl Records | US | Nog te beoordelen | — | — | — | — |
-| Sax and Blue | US | Nog te beoordelen | — | — | — | — |
-| SAXONWAX (CLOSED) - specialty 45rpm Records 1950s - 60s - buy & sell | US | Nog te beoordelen | — | — | — | — |
-| SCARCE-LY Used Books & Records | US | Nog te beoordelen | — | — | — | — |
-| Scavengers Marketplace | US | Nog te beoordelen | — | — | — | — |
-| Schoolkids Records | US | Nog te beoordelen | — | — | — | — |
-| Schoolkids Records | US | Nog te beoordelen | — | — | — | — |
-| Scooter's Records | US | Nog te beoordelen | — | — | — | — |
-| Scratch N Spin | US | Nog te beoordelen | — | — | — | — |
-| Scratched Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Screaming Earth Records | US | Nog te beoordelen | — | — | — | — |
-| Screwed Up Records & Tapes | US | Nog te beoordelen | — | — | — | — |
-| Sea Hive Marketplace | US | Nog te beoordelen | — | — | — | — |
+| Rustic Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Rusty Rose LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Rusty's Antiques & Vintage Collectibles Indoor Flea Market | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| S.A.G.E. Collective | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_404 | — |
+| S&J Stereo | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| SAFE Records LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Saint Marie Records | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Saints Alley Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Salad Days Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Salty Dog Records Sarasota | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Salty Dog Records Venice | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Salty's Jukebox | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Salzer's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sami's Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| San Diego Vintage Collectables- Open By Appointment | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Sanford's Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Sans Backup Plan Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Sarasota Music Archive | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Satellite Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Savvy Vinyl Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Sax and Blue | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| SAXONWAX (CLOSED) - specialty 45rpm Records 1950s - 60s - buy & sell | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| SCARCE-LY Used Books & Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Scavengers Marketplace | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Schoolkids Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Schoolkids Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Scooter's Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Scratch N Spin | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Scratched Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Screaming Earth Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Screwed Up Records & Tapes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Sea Hive Marketplace | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
 | Seasick Records | US | EAN | MEDIUM | BUILT_AWAITING_MANUAL_TEST | own_product_valid_gtin_coverage_at_least_80_percent_of_sample | v2-40571453864-1/seasickbham_com |
 | Seattle Records CDs cassettes turntables | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:new_used_distinguishable | — |
-| Second Chance Records LLC | US | Nog te beoordelen | — | — | — | — |
-| Second Hand Groove Records | US | Nog te beoordelen | — | — | — | — |
-| Second Hand Records NYC | US | Nog te beoordelen | — | — | — | — |
-| Second Hand Treasures | US | Nog te beoordelen | — | — | — | — |
-| Second Spin | US | Nog te beoordelen | — | — | — | — |
-| SecondSpinDisk LLC | US | Nog te beoordelen | — | — | — | — |
-| See You CD & Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Selector Records & Apparel | US | Nog te beoordelen | — | — | — | — |
-| Sell Your Soul Records | US | Nog te beoordelen | — | — | — | — |
-| sell your vinyl collection | US | Nog te beoordelen | — | — | — | — |
-| Semicentury Records & More | US | Nog te beoordelen | — | — | — | — |
-| Sentinel Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Seoul Records | US | Nog te beoordelen | — | — | — | — |
-| Sequoia Records | US | Nog te beoordelen | — | — | — | — |
-| Sessions Vinyl Room | US | Nog te beoordelen | — | — | — | — |
-| Seventh Avenue Vintage & Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Shadows of the Past | US | Nog te beoordelen | — | — | — | — |
-| Shady Dog Record & Disc Exchange | US | Nog te beoordelen | — | — | — | — |
-| Shady Grove Records | US | Nog te beoordelen | — | — | — | — |
-| Shady Lane Records | US | Nog te beoordelen | — | — | — | — |
-| Shady Rest Vintage & Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Shaggy's Retro Records Store | US | Nog te beoordelen | — | — | — | — |
-| Shake It Records | US | Nog te beoordelen | — | — | — | — |
-| Shamrock Music | US | Nog te beoordelen | — | — | — | — |
-| Shangri-La Records | US | Nog te beoordelen | — | — | — | — |
-| Shellshock Records | US | Nog te beoordelen | — | — | — | — |
-| Sheridan Antiques | US | Nog te beoordelen | — | — | — | — |
-| Ship To Shore Books, Records & Coffee | US | Nog te beoordelen | — | — | — | — |
-| Shipwrecked Cards & Collectibles | US | Nog te beoordelen | — | — | — | — |
-| Shock Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Sholas Sales | US | Nog te beoordelen | — | — | — | — |
+| Second Chance Records LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Second Hand Groove Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Second Hand Records NYC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Second Hand Treasures | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Second Spin | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| SecondSpinDisk LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| See You CD & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Selector Records & Apparel | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Sell Your Soul Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| sell your vinyl collection | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Semicentury Records & More | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sentinel Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Seoul Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Sequoia Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Sessions Vinyl Room | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Seventh Avenue Vintage & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Shadows of the Past | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Shady Dog Record & Disc Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Shady Grove Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Shady Lane Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Shady Rest Vintage & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Shaggy's Retro Records Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Shake It Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Shamrock Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Shangri-La Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Shellshock Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Sheridan Antiques | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Ship To Shore Books, Records & Coffee | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Shipwrecked Cards & Collectibles | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Shock Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Sholas Sales | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
 | Shop At Ice Cream | US | Nog te beoordelen | — | — | — | — |
 | Shrimati's | US | Nog te beoordelen | — | — | — | — |
 | Shuga Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | invalid_detail_gtin | — |
