@@ -1,0 +1,195 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T11:06:58.822013+00:00",
+  "shop_id": "studioantiques.com",
+  "row": 2604,
+  "name": "Studio Records @studioantiques",
+  "domain": "studioantiques.com",
+  "country": "US",
+  "website": "https://studioantiques.com/",
+  "previous_status": "ADAPTER_TESTED",
+  "previous_reason": "no confirmed new vinyl on bounded page",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2604,
+    "name": "Studio Records @studioantiques",
+    "domain": "studioantiques.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "listing",
+    "platform": "woocommerce",
+    "source_url": "https://studioantiques.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "adapter_class": "WooCommerceNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 0,
+    "excluded": 20,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "method_candidates": [
+      {
+        "platform": "woocommerce",
+        "route": "https://studioantiques.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://studioantiques.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://studioantiques.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://studioantiques.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://studioantiques.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://studioantiques.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://studioantiques.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ],
+    "selected_method": {
+      "platform": "woocommerce",
+      "route": "https://studioantiques.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 0,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "reason": "no confirmed new vinyl on bounded page"
+  },
+  "platform": "woocommerce",
+  "catalog_route": "https://studioantiques.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "listing_sample": 0,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 0,
+    "unique_prices": 0,
+    "shipping_hits": 0,
+    "currencies": []
+  },
+  "secondhand_observed": false,
+  "examples": [],
+  "requests": [
+    {
+      "url": "https://studioantiques.com/robots.txt",
+      "sha256": "7c6b5417b9a681d282c1d7233960fec304ab19c506fe57a0d232bd1346f495b3"
+    },
+    {
+      "url": "https://studioantiques.com/",
+      "sha256": "0df5f4396be5eb87e3261a19053086fd9ea1569298772cb7c6d127a26bc4bad0"
+    },
+    {
+      "url": "https://studioantiques.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "9867e4ff478609e294c96250e616c30e6441fb47ca3ab927c3d4b9bba64ac9b6"
+    },
+    {
+      "url": "https://studioantiques.com/products.json?limit=20&page=1",
+      "sha256": "8581128eac7bcd95463a8e2daebd526fa99ecace096a534ebe151eb2cb9f72e9"
+    },
+    {
+      "url": "https://studioantiques.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "bfea01fc724d2e5228517096a4bd82c9fe967665f22f3012a40010ba75fb8bca"
+    },
+    {
+      "url": "https://studioantiques.com/api/0.1/collections/products?format=json",
+      "sha256": "eeb702cb5196062fe766c9575aca74dd3bd237726e9745292b43e209f688df26"
+    },
+    {
+      "url": "https://studioantiques.com/api/0.1/collections/all/products?format=json",
+      "sha256": "6e17e12c5085e2bf3ebfbdf1cb72976540be32566aa3bdaae1b2ed953a1820d1"
+    },
+    {
+      "url": "https://studioantiques.com/api/storefront/products?limit=20&offset=0",
+      "sha256": "4c99f209c78e252816d2df7cdcca015bd4b1cb4736a85334fd408e4469400a8d"
+    },
+    {
+      "url": "https://studioantiques.com/api/storefront/products?limit=20",
+      "sha256": "c4714dbbb4155a67935f23aff479d80c4015eec10d118b16baf464d548ba443a"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:vinyl",
+    "not_proven:new_used_distinguishable",
+    "not_proven:public_prices",
+    "not_proven:availability",
+    "not_proven:stable_urls"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": false,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": false,
+    "availability": false,
+    "stable_urls": false,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2604",
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-41043561962-1",
+  "queue_rows": [
+    2604
+  ],
+  "assessment_path": "assessments/v2/studioantiques_com/v2-41043561962-1.json"
+}
