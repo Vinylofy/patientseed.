@@ -3676,9 +3676,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **3010**. Open: **314**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **3324**. Beoordeeld: **3110**. Open: **214**.
 
-EAN: **62** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **2921** | UNSUITABLE: **0**
+EAN: **64** | ARTIST_TITLE: **27** | MANUAL_REVIEW: **3019** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -6683,111 +6683,111 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Vertical House Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Vertigo Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Vertigo Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | insufficient_representative_product_evidence | — |
-| Vetiver & Sundew | US | Nog te beoordelen | — | — | — | — |
-| VibezandTunez | US | Nog te beoordelen | — | — | — | — |
-| VICE Records Inc | US | Nog te beoordelen | — | — | — | — |
-| Vienna Music Exchange | US | Nog te beoordelen | — | — | — | — |
+| Vetiver & Sundew | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| VibezandTunez | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| VICE Records Inc | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Vienna Music Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Village Green Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| Village Music | US | Nog te beoordelen | — | — | — | — |
-| Village Records | US | Nog te beoordelen | — | — | — | — |
+| Village Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Village Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Village Revival Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| Village Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Village Vinyl & Hi Fi | US | Nog te beoordelen | — | — | — | — |
-| Vinal Edge Records | US | Nog te beoordelen | — | — | — | — |
-| Vine Books & Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Vinegar Syndrome Denver | US | Nog te beoordelen | — | — | — | — |
-| Vinny's Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Vinny’s Vinyl Record Shop | US | Nog te beoordelen | — | — | — | — |
-| Vintage & Current Collectibles (V&C) | US | Nog te beoordelen | — | — | — | — |
-| Vintage & Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Vintage & Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Vintage & Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Vintage Audio Exchange | US | Nog te beoordelen | — | — | — | — |
-| Vintage Deluxe | US | Nog te beoordelen | — | — | — | — |
-| Vintage Gold Music | US | Nog te beoordelen | — | — | — | — |
-| Vintage Mío Records | US | Nog te beoordelen | — | — | — | — |
-| Vintage Music Company | US | Nog te beoordelen | — | — | — | — |
-| Vintage on 2 | US | Nog te beoordelen | — | — | — | — |
-| Vintage record store | US | Nog te beoordelen | — | — | — | — |
-| Vintage Shops | US | Nog te beoordelen | — | — | — | — |
-| Vintage Stock | US | Nog te beoordelen | — | — | — | — |
-| Vintage Stock | US | Nog te beoordelen | — | — | — | — |
-| Vintage Treasures and Antiques Arcadia - NOW moved to Willie's Vintage of Monrovia (one block away) | US | Nog te beoordelen | — | — | — | — |
-| Vintage Vault @NobHill | US | Nog te beoordelen | — | — | — | — |
-| Vintage Vibe | US | Nog te beoordelen | — | — | — | — |
-| Vintage Vibes | US | Nog te beoordelen | — | — | — | — |
-| Vintage Vibes Records | US | Nog te beoordelen | — | — | — | — |
-| Vintage Village | US | Nog te beoordelen | — | — | — | — |
-| Vintage Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Vintage Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Vintage Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Vintage Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Vintage Vinyl & Antiques | US | Nog te beoordelen | — | — | — | — |
-| Vintage Vinyl & Victrolas | US | Nog te beoordelen | — | — | — | — |
-| Vintage Vinyl at the Vault | US | Nog te beoordelen | — | — | — | — |
-| Vintage Vinyl Hunters | US | Nog te beoordelen | — | — | — | — |
-| Vintique Mall | US | Nog te beoordelen | — | — | — | — |
-| Vinyl & Vintage | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Addiction Records | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Alchemy | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Alley / Voodoo Vinyl; Voodoo Vinyl | US | Nog te beoordelen | — | — | — | — |
-| Vinyl and Pages | US | Nog te beoordelen | — | — | — | — |
-| Vinyl and Pine | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Bay 777 | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Cafe | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Cat Records | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Cave | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Chickie | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Closet Record Store | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Command Heavy Metal Record Store | US | Nog te beoordelen | — | — | — | — |
+| Village Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Village Vinyl & Hi Fi | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinal Edge Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vine Books & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinegar Syndrome Denver | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Response size limit | — |
+| Vinny's Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinny’s Vinyl Record Shop | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vintage & Current Collectibles (V&C) | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Vintage & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vintage & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Vintage & Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vintage Audio Exchange | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Vintage Deluxe | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vintage Gold Music | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Vintage Mío Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Vintage Music Company | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vintage on 2 | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Vintage record store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vintage Shops | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vintage Stock | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vintage Stock | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vintage Treasures and Antiques Arcadia - NOW moved to Willie's Vintage of Monrovia (one block away) | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_404 | — |
+| Vintage Vault @NobHill | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vintage Vibe | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Vintage Vibes | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vintage Vibes Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vintage Village | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Vintage Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vintage Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_crawl_delay_exceeds_bounded_pilot | — |
+| Vintage Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vintage Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Vintage Vinyl & Antiques | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vintage Vinyl & Victrolas | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vintage Vinyl at the Vault | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Vintage Vinyl Hunters | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vintique Mall | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinyl & Vintage | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinyl Addiction Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinyl Alchemy | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Vinyl Alley / Voodoo Vinyl; Voodoo Vinyl | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinyl and Pages | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Vinyl and Pine | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinyl Bay 777 | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | insufficient_representative_product_evidence | — |
+| Vinyl Cafe | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vinyl Cat Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vinyl Cave | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vinyl Chickie | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinyl Closet Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vinyl Command Heavy Metal Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:public_prices | — |
 | Vinyl Conflict Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:new_used_distinguishable | — |
-| Vinyl Consumption Record Store | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Countdown Ocala | US | Nog te beoordelen | — | — | — | — |
-| Vinyl creatives | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Cup Records; Vinyl Cup Records - Cedar Falls | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Daze Records | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Destination | US | Nog te beoordelen | — | — | — | — |
-| vinyl destination | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Destination - Record Store | US | Nog te beoordelen | — | — | — | — |
+| Vinyl Consumption Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Vinyl Countdown Ocala | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Vinyl creatives | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Vinyl Cup Records; Vinyl Cup Records - Cedar Falls | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinyl Daze Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinyl Destination | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| vinyl destination | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinyl Destination - Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
 | Vinyl Devotion | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40571453864-1/vinyldevotion_fm |
-| Vinyl Dreams | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Explosion/ One Off Records | US | Nog te beoordelen | — | — | — | — |
+| Vinyl Dreams | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Vinyl Explosion/ One Off Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
 | Vinyl Fantasy | US | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-40571453864-1/vinylfantasybk_com |
-| Vinyl Fiends | US | Nog te beoordelen | — | — | — | — |
-| Vinyl First | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Frontier Records | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Heaven | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Heaven | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Heaven | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Heaven | US | Nog te beoordelen | — | — | — | — |
-| vinyl index. | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Injection | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Isle | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Junkie Record Lounge | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Junkies Record shack | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Lab Record Store | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Lunatic Records | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Oasis | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Paradise at Tropical Express | US | Nog te beoordelen | — | — | — | — |
-| Vinyl People Records | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Pharmacy Las Vegas | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Record Dude | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Record Network | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Record Revival | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Remains | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Rescue Project LLC | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Rescue; Vinyl Rescue Annex | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Revival | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Revival | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Revival Records | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Revolution | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Revolutions | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Richie Experience LLC | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Salvage and 16Tons Music Vinyl Lounge | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Solution Records | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Solution Records | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Soul | US | Nog te beoordelen | — | — | — | — |
-| Vinyl Street Co. | US | Nog te beoordelen | — | — | — | — |
+| Vinyl Fiends | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Vinyl First | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vinyl Frontier Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vinyl Heaven | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Vinyl Heaven | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinyl Heaven | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vinyl Heaven | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| vinyl index. | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Vinyl Injection | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Vinyl Isle | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vinyl Junkie Record Lounge | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vinyl Junkies Record shack | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
+| Vinyl Lab Record Store | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinyl Lunatic Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vinyl Oasis | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Response size limit | — |
+| Vinyl Paradise at Tropical Express | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vinyl People Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
+| Vinyl Pharmacy Las Vegas | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
+| Vinyl Record Dude | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinyl Record Network | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinyl Record Revival | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vinyl Remains | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinyl Rescue Project LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinyl Rescue; Vinyl Rescue Annex | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinyl Revival | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:SHARED_PLATFORM | — |
+| Vinyl Revival | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Vinyl Revival Records | US | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
+| Vinyl Revolution | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinyl Revolutions | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vinyl Richie Experience LLC | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| Vinyl Salvage and 16Tons Music Vinyl Lounge | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Vinyl Solution Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | robots_disallow | — |
+| Vinyl Solution Records | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Vinyl Soul | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | source_identity_requires_review:MISSING_SOURCE | — |
+| Vinyl Street Co. | US | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Vinyl Supply Shop | US | Nog te beoordelen | — | — | — | — |
 | Vinyl Tap | US | Nog te beoordelen | — | — | — | — |
 | Vinyl Tap Guitars & Records | US | Nog te beoordelen | — | — | — | — |
