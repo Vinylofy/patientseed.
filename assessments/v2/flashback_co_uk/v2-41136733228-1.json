@@ -1,0 +1,242 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T22:25:38.587836+00:00",
+  "shop_id": "flashback.co.uk",
+  "row": 3346,
+  "name": "Flashback Records",
+  "domain": "flashback.co.uk",
+  "country": null,
+  "website": "https://flashback.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3346,
+    "name": "Flashback Records",
+    "domain": "flashback.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://flashback.co.uk/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 6,
+    "excluded": 14,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://flashback.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://flashback.co.uk/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://flashback.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://flashback.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://flashback.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://flashback.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://flashback.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://flashback.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://flashback.co.uk/collections/all/products.json?limit=20&page=1",
+      "score": 65,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://flashback.co.uk/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 6,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 6,
+    "unique_prices": 4,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://flashback.co.uk/products/10-pvc-sleeve-pack-of-10-340115?variant=54901172896127",
+      "artist": "",
+      "title": "10\" PVC SLEEVE, Pack of 10 (, UK ) Accessories NEW",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "2.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://flashback.co.uk/products/ziq-tango-nvectif-411145?variant=58577279844735",
+      "artist": "",
+      "title": "-ZIQ, Tango N�Vectif (; CAT013, UK 2026 Reissue, Gatefold) 2xLP NEW",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "27.99",
+      "currency": "GBP",
+      "valid_eans": [
+        "05056321683120"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://flashback.co.uk/products/las-people-talk-about-things-410122?variant=58152961081727",
+      "artist": "",
+      "title": "(LA'S) PEOPLE TALK, About Things (Recess Records; 240, US 2025, Insert, Yellow Vinyl) LP NEW",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "12.99",
+      "currency": "GBP",
+      "valid_eans": [
+        "00732388878574"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://flashback.co.uk/robots.txt",
+      "sha256": "bcd79b8b98d7095c6907eea1ca0fdef36a1c55c86cc3571cbd7a58466e461ee7"
+    },
+    {
+      "url": "https://flashback.co.uk/",
+      "sha256": "ba2abee6b0a7a9c01ad7650206ec19c35b2ca727c2656899659205ed4243d4f8"
+    },
+    {
+      "url": "https://flashback.co.uk/products.json?limit=20&page=1",
+      "sha256": "16f5ed72dda5d8858b019975ffe3314df80e72cbbc0c3112a003a4422192a294"
+    },
+    {
+      "url": "https://flashback.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "dc00557562183123de58e9d8a3a42dc65b1c33fedae11a77771afbf335295a19"
+    },
+    {
+      "url": "https://flashback.co.uk/products/las-people-talk-about-things-410122",
+      "sha256": "234e869f1400d01f2aa5708b5fe788c5452405fe426eb9fab2b74747d77ffc9a"
+    },
+    {
+      "url": "https://flashback.co.uk/products/eki-moms-3rd-pressing-406523",
+      "sha256": "341ff0385886e6ae1d5c55222d12097435d172f8050985bf4e7789d8ff3e2045"
+    },
+    {
+      "url": "https://flashback.co.uk/products/10-pvc-sleeve-pack-of-10-340115?variant=54901172896127",
+      "sha256": "f96ca5d12d004bc22c67a9205abeb6e19c764e8551a38c23cb62cc29dffac6d5"
+    },
+    {
+      "url": "https://flashback.co.uk/products/ziq-tango-nvectif-411145?variant=58577279844735",
+      "sha256": "453a8f735762cfeb3a5e51a2737e9cfd61135c64e61c45dd6c7cd15a0d535ea9"
+    },
+    {
+      "url": "https://flashback.co.uk/products/las-people-talk-about-things-410122?variant=58152961081727",
+      "sha256": "9487d93685264830fbb829e7c28ed4b2748e45a753a83c895a764470950bd2d4"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 2,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "FROZEN",
+  "example_urls": [
+    "https://flashback.co.uk/products/10-pvc-sleeve-pack-of-10-340115?variant=54901172896127",
+    "https://flashback.co.uk/products/ziq-tango-nvectif-411145?variant=58577279844735",
+    "https://flashback.co.uk/products/las-people-talk-about-things-410122?variant=58152961081727"
+  ],
+  "assessment_id": "v2-41136733228-1",
+  "queue_rows": [
+    3346
+  ],
+  "assessment_path": "assessments/v2/flashback_co_uk/v2-41136733228-1.json"
+}
