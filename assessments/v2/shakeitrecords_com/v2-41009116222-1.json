@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T05:48:45.462863+00:00",
+  "shop_id": "shakeitrecords.com",
+  "row": 2391,
+  "name": "Shake It Records",
+  "domain": "shakeitrecords.com",
+  "country": "US",
+  "website": "https://shakeitrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2391,
+    "name": "Shake It Records",
+    "domain": "shakeitrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://shakeitrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://shakeitrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://shakeitrecords.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://shakeitrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 165,
+        "products_seen": 20,
+        "accepted": 16,
+        "excluded": 4,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://shakeitrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shakeitrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shakeitrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shakeitrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shakeitrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://shakeitrecords.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://shakeitrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 13,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://shakeitrecords.com/robots.txt",
+      "sha256": "9fdb1dcc0e219214b29a0e747dbe5e8dff249770a2ab11b142ce69bff63f72ad"
+    },
+    {
+      "url": "https://shakeitrecords.com/",
+      "sha256": "22aa72ce86117638cd1541fcf978b7a7c22b6213f04fe22302338fc1f7b61ebc"
+    },
+    {
+      "url": "https://shakeitrecords.com/products.json?limit=20&page=1",
+      "sha256": "9fddd65191d28cfda1dc86fe4cceb78dc2833e7eb123d326ea6ef233e9810fac"
+    },
+    {
+      "url": "https://shakeitrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "f6f55b9641a4d81d37dee9e4a8a65b6345a562d379c2e258ba8ebb3ab86e0109"
+    },
+    {
+      "url": "https://shakeitrecords.com/products/logan-halstead-dark-black-coal-lp-shake-it-exclusive-signed-copy",
+      "sha256": "3d17005d63f26716daf7bb91c4e2d144bb096f351cb947824d9d790ab9b262e9"
+    },
+    {
+      "url": "https://shakeitrecords.com/products/modest-mouse-an-eraser-a-maze-2-lp-ltd-ed-sky-blue-vinyl-shake-it-exclusive-signed-copy",
+      "sha256": "c17ae5e72af78760f65a2d1d19a06bc7f50ba7b92f95b6f3f3e4f9cc0b795747"
+    },
+    {
+      "url": "https://shakeitrecords.com/products/dents-1979-80-lp-copy?variant=46419433455846",
+      "sha256": "479b093e74607c3c72a5dfc9a484c47fba443a951813e5ac01a46088260fb044"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.9,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2391",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-41009116222-1",
+  "queue_rows": [
+    2391
+  ],
+  "assessment_path": "assessments/v2/shakeitrecords_com/v2-41009116222-1.json"
+}
