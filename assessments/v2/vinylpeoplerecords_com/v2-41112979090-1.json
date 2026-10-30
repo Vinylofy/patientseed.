@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T19:16:33.213686+00:00",
+  "shop_id": "vinylpeoplerecords.com",
+  "row": 3114,
+  "name": "Vinyl People Records",
+  "domain": "vinylpeoplerecords.com",
+  "country": "US",
+  "website": "https://vinylpeoplerecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3114,
+    "name": "Vinyl People Records",
+    "domain": "vinylpeoplerecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://vinylpeoplerecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://vinylpeoplerecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://vinylpeoplerecords.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://vinylpeoplerecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://vinylpeoplerecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylpeoplerecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylpeoplerecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylpeoplerecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylpeoplerecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://vinylpeoplerecords.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://vinylpeoplerecords.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 12,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://vinylpeoplerecords.com/products/stik-figa-heather-grey-cold-comfort-orange-ruby-vinyl-vinyl?variant=67823032303779",
+      "artist": "Stik Figa & Heather Grey Cold Comfort [Orange Ruby Vinyl]",
+      "title": "Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "39.06",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://vinylpeoplerecords.com/products/grace-ives-2nd-yellow-vinyl-vinyl?variant=67823033942179",
+      "artist": "Grace Ives 2nd [Yellow Vinyl]",
+      "title": "Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "31.62",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://vinylpeoplerecords.com/products/index-index-vis-inertiae-smog-vinyl-vinyl?variant=67823035056291",
+      "artist": "Index Index-Vis Inertiae [Smog Vinyl]",
+      "title": "Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "31.62",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://vinylpeoplerecords.com/robots.txt",
+      "sha256": "0ef7efb5b64ed076e5127865847eac2eb1bbcc8ec0058ee7647ff48577d835f5"
+    },
+    {
+      "url": "https://vinylpeoplerecords.com/",
+      "sha256": "5a5b478e044f6a3eb0ff5b4caf251e83e422e0508aaf90e697594f119d18fc01"
+    },
+    {
+      "url": "https://vinylpeoplerecords.com/products.json?limit=20&page=1",
+      "sha256": "64e04fb443cba07588db9efbf7ab1c35dd46f7ec6c5c6e11450c895e9690788d"
+    },
+    {
+      "url": "https://vinylpeoplerecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "974dc3b27689ca76447bdf540fcf144e676abc1f00b575e8d61f311c4872d933"
+    },
+    {
+      "url": "https://vinylpeoplerecords.com/products/index-index-vis-inertiae-smog-vinyl-vinyl",
+      "sha256": "011789282ed00f6f175064c6b9cfc81f49a71a4976c28ebe1b7f1925991a0945"
+    },
+    {
+      "url": "https://vinylpeoplerecords.com/products/dobbo-lovely-day-for-it-7-single-vinyl",
+      "sha256": "05c7e604f51090a8f66072ff3460699b004a43ed4c3dbe8f6cfb609ff63459a3"
+    },
+    {
+      "url": "https://vinylpeoplerecords.com/products/stik-figa-heather-grey-cold-comfort-orange-ruby-vinyl-vinyl?variant=67823032303779",
+      "sha256": "78e4f8e1afc86aded0ee7cf34d08c26951558d38171940c250721766173fa57c"
+    },
+    {
+      "url": "https://vinylpeoplerecords.com/products/grace-ives-2nd-yellow-vinyl-vinyl?variant=67823033942179",
+      "sha256": "29afe5bf306d270d11a836de365ca2c764bb72177d754e4023221fd24079fd47"
+    },
+    {
+      "url": "https://vinylpeoplerecords.com/products/index-index-vis-inertiae-smog-vinyl-vinyl?variant=67823035056291",
+      "sha256": "b371cfb9e5333010148ed45b9780f675d1a0d5cfa866d1b0d7eca2653becf8a4"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_3114",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://vinylpeoplerecords.com/products/stik-figa-heather-grey-cold-comfort-orange-ruby-vinyl-vinyl?variant=67823032303779",
+    "https://vinylpeoplerecords.com/products/grace-ives-2nd-yellow-vinyl-vinyl?variant=67823033942179",
+    "https://vinylpeoplerecords.com/products/index-index-vis-inertiae-smog-vinyl-vinyl?variant=67823035056291"
+  ],
+  "assessment_id": "v2-41112979090-1",
+  "queue_rows": [
+    3114
+  ],
+  "assessment_path": "assessments/v2/vinylpeoplerecords_com/v2-41112979090-1.json"
+}
