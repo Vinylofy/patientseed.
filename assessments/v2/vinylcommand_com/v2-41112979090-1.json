@@ -1,0 +1,240 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T19:14:59.767795+00:00",
+  "shop_id": "vinylcommand.com",
+  "row": 3084,
+  "name": "Vinyl Command Heavy Metal Record Store",
+  "domain": "vinylcommand.com",
+  "country": "US",
+  "website": "https://vinylcommand.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3084,
+    "name": "Vinyl Command Heavy Metal Record Store",
+    "domain": "vinylcommand.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://vinylcommand.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 23,
+    "accepted": 13,
+    "excluded": 10,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://vinylcommand.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://vinylcommand.com/products.json?limit=20&page=1",
+        "score": 55,
+        "products_seen": 21,
+        "accepted": 5,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://vinylcommand.com/collections/all/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 23,
+        "accepted": 13,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://vinylcommand.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylcommand.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylcommand.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylcommand.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylcommand.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://vinylcommand.com/collections/all/products.json?limit=20&page=1",
+      "score": 135,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://vinylcommand.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 13,
+  "price_quality": {
+    "status": "review",
+    "flags": [
+      "shipping_term_in_product_identity"
+    ],
+    "records_checked": 13,
+    "unique_prices": 7,
+    "shipping_hits": 6,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://vinylcommand.com/products/abbath-abbath-lp?variant=51019743854899",
+      "artist": "Abbath",
+      "title": "Abbath LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "33.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://vinylcommand.com/products/1349-massive-cauldron-of-chaos-lp?variant=45947349434675",
+      "artist": "1349",
+      "title": "Massive Cauldron of Chaos LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "21.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://vinylcommand.com/products/pre-order-corrosion-of-conformity-no-cross-no-crown-double-lp?variant=53661492445491",
+      "artist": "!!!PRE-ORDER!!! Corrosion of Conformity",
+      "title": "No Cross No Crown double LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "35.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://vinylcommand.com/robots.txt",
+      "sha256": "af39f7c658a0017a290736586d1b4e430b1da26e4ec8df4cd7299fa87f8e2185"
+    },
+    {
+      "url": "https://vinylcommand.com/",
+      "sha256": "417560d14e1b65c96aa0394e108b45887c1d51bc93d7c9205b5bbb1dc65562f7"
+    },
+    {
+      "url": "https://vinylcommand.com/products.json?limit=20&page=1",
+      "sha256": "5dbe3e078ad8ed5e0e64057cefbd5a691fe5fc65ea19dcadad055f631f514df7"
+    },
+    {
+      "url": "https://vinylcommand.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "7d9285e6bd5b8d7935bdb2995453f441cba0682f455f26aa72711dd1e772e243"
+    },
+    {
+      "url": "https://vinylcommand.com/products/pre-order-corrosion-of-conformity-no-cross-no-crown-double-lp",
+      "sha256": "e9bfc62a140a853c439253645d4d8e19357b63901a74e217015f39ebd4a47bc2"
+    },
+    {
+      "url": "https://vinylcommand.com/products/pre-order-ship-date-may-old-wainds-religion-of-spiritual-violence-lp",
+      "sha256": "93e38da87f4db050118f25ab0e6826816b425f7cba7000effc18ce877755cf88"
+    },
+    {
+      "url": "https://vinylcommand.com/products/abbath-abbath-lp?variant=51019743854899",
+      "sha256": "85111dab05fc1b15a8d3f92464c66c9c8fc449995f83ed7dd68db9723d95a31f"
+    },
+    {
+      "url": "https://vinylcommand.com/products/1349-massive-cauldron-of-chaos-lp?variant=45947349434675",
+      "sha256": "5f171d636de8f706c29ad6f28fc13d5c50485707d17c7017122f3f013cfc2223"
+    },
+    {
+      "url": "https://vinylcommand.com/products/pre-order-corrosion-of-conformity-no-cross-no-crown-double-lp?variant=53661492445491",
+      "sha256": "99fbea21a1a6c03ed6b9e7836e195f913c232b09d3043d04670f18bfda64287c"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:public_prices"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": false,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.9230769230769231,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_3084",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://vinylcommand.com/products/abbath-abbath-lp?variant=51019743854899",
+    "https://vinylcommand.com/products/1349-massive-cauldron-of-chaos-lp?variant=45947349434675",
+    "https://vinylcommand.com/products/pre-order-corrosion-of-conformity-no-cross-no-crown-double-lp?variant=53661492445491"
+  ],
+  "assessment_id": "v2-41112979090-1",
+  "queue_rows": [
+    3084
+  ],
+  "assessment_path": "assessments/v2/vinylcommand_com/v2-41112979090-1.json"
+}
