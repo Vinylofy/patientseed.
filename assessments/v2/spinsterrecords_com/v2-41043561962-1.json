@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T10:57:06.998386+00:00",
+  "shop_id": "spinsterrecords.com",
+  "row": 2537,
+  "name": "Spinster Records",
+  "domain": "spinsterrecords.com",
+  "country": "US",
+  "website": "https://spinsterrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2537,
+    "name": "Spinster Records",
+    "domain": "spinsterrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://spinsterrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 15,
+    "excluded": 5,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://spinsterrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://spinsterrecords.com/products.json?limit=20&page=1",
+        "score": 155,
+        "products_seen": 20,
+        "accepted": 15,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://spinsterrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 145,
+        "products_seen": 20,
+        "accepted": 14,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://spinsterrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://spinsterrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://spinsterrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://spinsterrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://spinsterrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://spinsterrecords.com/products.json?limit=20&page=1",
+      "score": 155,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://spinsterrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 15,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 15,
+    "unique_prices": 11,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://spinsterrecords.com/robots.txt",
+      "sha256": "21df50e1942244fb4295fe6092e367f60e8c683052c095f5e94e21fbf9f76c00"
+    },
+    {
+      "url": "https://spinsterrecords.com/",
+      "sha256": "7f027719d4e76fa7d0b5e4bb2645598b5ca66a7d1de6047a498198f2c7128d9a"
+    },
+    {
+      "url": "https://spinsterrecords.com/products.json?limit=20&page=1",
+      "sha256": "fa395db8db14e37de35dbc001b96c8ef8d7687e10c478a064d0f186fc24302ef"
+    },
+    {
+      "url": "https://spinsterrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "e2e92970cf700a2937fde55f878df010569d6470be0fc0e0bfea7bb389445483"
+    },
+    {
+      "url": "https://spinsterrecords.com/products/god-of-war-molly-picture-pre-order-10-30",
+      "sha256": "517710a19ba10dfa97bf1e64670f84205baf1d5b184d7d56a4fd14bdcf1bfded"
+    },
+    {
+      "url": "https://spinsterrecords.com/products/mitski-puberty-2-10th-anniversary-edition-green-pre-order-10-30",
+      "sha256": "5e3c925a53d1d12f535d8052f1197c7d2046ff00b2c12a7e9fdc6237641471b2"
+    },
+    {
+      "url": "https://spinsterrecords.com/products/mortician-zombie-apocalypse-splatter-vinyl?variant=67870189518931",
+      "sha256": "88f6d38185264198ff070ae80729c77565b3e090c192f8b8bb9112eb6fe63f69"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.8666666666666667,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2537",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-41043561962-1",
+  "queue_rows": [
+    2537
+  ],
+  "assessment_path": "assessments/v2/spinsterrecords_com/v2-41043561962-1.json"
+}
