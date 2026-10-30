@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T22:27:01.017687+00:00",
+  "shop_id": "todestrieb.co.uk",
+  "row": 3354,
+  "name": "Todestrieb Records",
+  "domain": "todestrieb.co.uk",
+  "country": null,
+  "website": "https://todestrieb.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3354,
+    "name": "Todestrieb Records",
+    "domain": "todestrieb.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://todestrieb.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 4,
+    "excluded": 16,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://todestrieb.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://todestrieb.co.uk/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 20,
+        "accepted": 4,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://todestrieb.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 35,
+        "products_seen": 20,
+        "accepted": 3,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://todestrieb.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://todestrieb.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://todestrieb.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://todestrieb.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://todestrieb.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://todestrieb.co.uk/products.json?limit=20&page=1",
+      "score": 45,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://todestrieb.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 4,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 4,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://todestrieb.co.uk/products/gylt-in-1000-agonies-i-exist-ep?variant=58904550146431",
+      "artist": "Gylt",
+      "title": "In 1000 Agonies I Exist (EP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "9.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://todestrieb.co.uk/products/immortal-battles-in-the-north-2026-reissue-lp?variant=58904825659775",
+      "artist": "Immortal",
+      "title": "Battles in the North (2026 Reissue) (LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "26.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://todestrieb.co.uk/products/inhumate-vi-live-fi-ep?variant=58909229678975",
+      "artist": "Inhumate / VI",
+      "title": "Live / FI (EP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "5.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://todestrieb.co.uk/robots.txt",
+      "sha256": "35e7aa9bd4f777d7a4803358bf66efbab69190b250837f69fc70b4b8eac4ca56"
+    },
+    {
+      "url": "https://todestrieb.co.uk/",
+      "sha256": "76dac8d1e6f9261bdd52f13b95317b6c559e736eaf68af01632f0b9296046e53"
+    },
+    {
+      "url": "https://todestrieb.co.uk/products.json?limit=20&page=1",
+      "sha256": "459e87cedaeb281e956f3c1341d539979ce2da50dbffcd806a2271aaaede5875"
+    },
+    {
+      "url": "https://todestrieb.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "1251f67d3bb9351350acd66fe40cfac6be46cf246439e3ff74e13440858ff8eb"
+    },
+    {
+      "url": "https://todestrieb.co.uk/products/inhumate-vi-live-fi-ep",
+      "sha256": "15a2b3268ca2e2d6a666d3e62421eb80ccaa3d0fb312bb3ae62a2e4d0fabee77"
+    },
+    {
+      "url": "https://todestrieb.co.uk/products/immortal-battles-in-the-north-2026-reissue-lp",
+      "sha256": "c8c7af4bf30f51ece4463cad58e6edfc9a1563a7331517dff50b3751960513a5"
+    },
+    {
+      "url": "https://todestrieb.co.uk/products/gylt-in-1000-agonies-i-exist-ep?variant=58904550146431",
+      "sha256": "0ce97655606dbdaf6a2e6628753687b9476a9ce40861291dfbcc4ad064d28cf3"
+    },
+    {
+      "url": "https://todestrieb.co.uk/products/immortal-battles-in-the-north-2026-reissue-lp?variant=58904825659775",
+      "sha256": "79652707120e028591e5fe3b5c22f03e05a3255cb78b803ac6411e190807d992"
+    },
+    {
+      "url": "https://todestrieb.co.uk/products/inhumate-vi-live-fi-ep?variant=58909229678975",
+      "sha256": "d6b9cc47b8371d033c63c8b9905820a8bde1c522c72ce465f236d21c7a33f607"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "FROZEN",
+  "example_urls": [
+    "https://todestrieb.co.uk/products/gylt-in-1000-agonies-i-exist-ep?variant=58904550146431",
+    "https://todestrieb.co.uk/products/immortal-battles-in-the-north-2026-reissue-lp?variant=58904825659775",
+    "https://todestrieb.co.uk/products/inhumate-vi-live-fi-ep?variant=58909229678975"
+  ],
+  "assessment_id": "v2-41136733228-1",
+  "queue_rows": [
+    3354
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 4,
+  "candidate_ref": "v2-41136733228-1/todestrieb_co_uk",
+  "assessment_path": "assessments/v2/todestrieb_co_uk/v2-41136733228-1.json"
+}
