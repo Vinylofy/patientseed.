@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-30T11:01:33.285223+00:00",
+  "shop_id": "staticatx.com",
+  "row": 2562,
+  "name": "Static ATX Records",
+  "domain": "staticatx.com",
+  "country": "US",
+  "website": "https://staticatx.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 2562,
+    "name": "Static ATX Records",
+    "domain": "staticatx.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://staticatx.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://staticatx.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://staticatx.com/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://staticatx.com/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://staticatx.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://staticatx.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://staticatx.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://staticatx.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://staticatx.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://staticatx.com/collections/all/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://staticatx.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 11,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://staticatx.com/robots.txt",
+      "sha256": "ecebb7e365719a50a8a60fe23144e808ba947b99f621da31219a8b5fb1a13f7d"
+    },
+    {
+      "url": "https://staticatx.com/",
+      "sha256": "8faed840a833f036a98266fbbf3a5055b7463b3613bb2191aa7f75ccbab772ba"
+    },
+    {
+      "url": "https://staticatx.com/products.json?limit=20&page=1",
+      "sha256": "b9a93ee4d54158b4355549affff84b1058c6334e4192edea1f99082e21ebd1fb"
+    },
+    {
+      "url": "https://staticatx.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "4b5f920b8eb7769717612e58faf38b54ef944158aa1c7dbfd466d16cf31ff688"
+    },
+    {
+      "url": "https://staticatx.com/products/10-000-maniacs-candy-everybody-wants-1982-1992-rsd-black-friday-2026",
+      "sha256": "32ec095cf96807b2e499f054d86d6ffd7b11f60a3d25e4ba683272eeb92591bd"
+    },
+    {
+      "url": "https://staticatx.com/products/13th-floor-elevators-the-mono-singles-rsd-black-friday-2026",
+      "sha256": "47b65766e329bb770f229df6dc47a4249e51ac6df35cfd9375aab350c62ddc46"
+    },
+    {
+      "url": "https://staticatx.com/products/a-perfect-circle-mer-de-noms-1?variant=47545449840802",
+      "sha256": "81fcb19df69f3b3050815473fef465927ce07caa269a9b4e4a7565d2c234787a"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.95,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": "uploaded_workbook_column_B_row_2562",
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-41043561962-1",
+  "queue_rows": [
+    2562
+  ],
+  "assessment_path": "assessments/v2/staticatx_com/v2-41043561962-1.json"
+}
