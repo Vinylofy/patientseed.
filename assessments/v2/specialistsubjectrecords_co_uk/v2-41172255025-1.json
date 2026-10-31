@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-31T05:21:36.842201+00:00",
+  "shop_id": "specialistsubjectrecords.co.uk",
+  "row": 3349,
+  "name": "Specialist Subject",
+  "domain": "specialistsubjectrecords.co.uk",
+  "country": null,
+  "website": "https://specialistsubjectrecords.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3349,
+    "name": "Specialist Subject",
+    "domain": "specialistsubjectrecords.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://specialistsubjectrecords.co.uk/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 17,
+    "excluded": 3,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://specialistsubjectrecords.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://specialistsubjectrecords.co.uk/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://specialistsubjectrecords.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 175,
+        "products_seen": 20,
+        "accepted": 17,
+        "excluded": 3,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://specialistsubjectrecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://specialistsubjectrecords.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://specialistsubjectrecords.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://specialistsubjectrecords.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://specialistsubjectrecords.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://specialistsubjectrecords.co.uk/collections/all/products.json?limit=20&page=1",
+      "score": 175,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://specialistsubjectrecords.co.uk/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 17,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 17,
+    "unique_prices": 11,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://specialistsubjectrecords.co.uk/robots.txt",
+      "sha256": "c4d7e6040dbc29835f927322375ee7d5e978d88be44569288047f895f83d94b2"
+    },
+    {
+      "url": "https://specialistsubjectrecords.co.uk/",
+      "sha256": "022ec33881ae87ee7a1f4e96edf1be98085a5fea67c1ac778ecdae207cc72c4b"
+    },
+    {
+      "url": "https://specialistsubjectrecords.co.uk/products.json?limit=20&page=1",
+      "sha256": "bc52cf59d603985a8e727faad61ef7d262837274633058f47f4d7da5760278df"
+    },
+    {
+      "url": "https://specialistsubjectrecords.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "a3fc8068f565f5e0b346c1df5ce9418b5df931519a5394935608c1daf6a58f8d"
+    },
+    {
+      "url": "https://specialistsubjectrecords.co.uk/products/international-noise-conspiracy-the-a-new-morning-changing-weather-lp-rsd-black-friday-2026",
+      "sha256": "182fb005931ee766e3c2515a0ba1ffae7089f0c4ffbabf762fc52aabba636ece"
+    },
+    {
+      "url": "https://specialistsubjectrecords.co.uk/products/sandy-alex-g-live-at-third-man-lp",
+      "sha256": "70f20181ebbe048d39b4346aebc4279bcf3db9e9916844327ac73786aa6ec91d"
+    },
+    {
+      "url": "https://specialistsubjectrecords.co.uk/products/13th-floor-elevators-the-mono-singles-lp-rsd-black-friday-2026?variant=58164581958014",
+      "sha256": "f3c3b75e35d72aad1a8cae329b04882db3765e9523e92a3ae457454c517dcf8f"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.6470588235294118,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "FROZEN",
+  "example_urls": [],
+  "assessment_id": "v2-41172255025-1",
+  "queue_rows": [
+    3349
+  ],
+  "assessment_path": "assessments/v2/specialistsubjectrecords_co_uk/v2-41172255025-1.json"
+}
