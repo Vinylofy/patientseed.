@@ -3501,7 +3501,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | lunchboxrecords.com | 4 | REVIEW | 0 | 11 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | maemusic.com | 4 | REVIEW | 0 | 10 | 0/0 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
 | mancavenj.com | 4 | REVIEW | 0 | 6 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| maplecitymusic.com | 17 | FROZEN | 3 | 4 | 0/3 | INCIDENT | FROZEN | detail_ean_not_proven |
+| maplecitymusic.com | 17 | FROZEN | 3 | 4 | 0/3 | REPAIR_REQUIRED (run 41184541065) | FROZEN | detail_ean_not_proven |
 | meteor-gem.com | 4 | REVIEW | 0 | 16 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | mintgalleryrecords.com | 4 | REVIEW | 0 | 12 | 0/0 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
 | modern-legend.com | 4 | REVIEW | 0 | 7 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
