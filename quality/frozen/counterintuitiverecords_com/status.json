@@ -1,0 +1,70 @@
+{
+  "fingerprint": "c70b3774b8bb8d5f93e64355b59241b6ebaa0ccfc7c32b4e32c3bb5203ef87e1",
+  "domain": "counterintuitiverecords.com",
+  "batch": 19,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41175596255",
+  "updated_at": "2026-10-31T06:12:18.116381+00:00",
+  "evidence": {
+    "domain": "counterintuitiverecords.com",
+    "route": "https://counterintuitiverecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-31T06:12:16.662476+00:00",
+    "requests": [
+      {
+        "url": "https://counterintuitiverecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "981263e1cdfcf5d8593f8136bac44c785ee1fc41790692d5c82f9b029b22760f"
+      },
+      {
+        "url": "https://counterintuitiverecords.com/products/a-loss-for-words-these-past-five-years?variant=40488379056336",
+        "sha256": "c8e66501f19817aeb2bf7112f03bea9d0455162548ddf5eefea383626f7eba1a"
+      }
+    ],
+    "listing_records": 20,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 20,
+      "unique_prices": 6,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 2,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39203245483"
+    },
+    {
+      "batch": 17,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40828686930"
+    },
+    {
+      "batch": 18,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41013449724"
+    },
+    {
+      "batch": 19,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41175596255"
+    }
+  ]
+}
