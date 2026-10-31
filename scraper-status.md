@@ -3396,7 +3396,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | Shop | Batch | Toelating | Reparaties | Listing | Detail/EAN | Price health | EAN health | Reden/bewijs |
 |---|---:|---|---:|---:|---|---|---|---|
 | 10000hzrecords.com | 18 | FROZEN | 3 | 12 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| 1234gorecords.shop | 5 | FROZEN | 3 | 19 | 1/2 | ACTIVE | FROZEN | invalid_detail_gtin |
+| 1234gorecords.shop | 5 | FROZEN | 3 | 19 | 1/2 | ACTIVE (run 41184541065) | FROZEN | invalid_detail_gtin |
 | 22soundrecords.com | 16 | APPROVED | 1 | 1 | 1/1 | ACTIVE (run 41184541065) | ACTIVE | run 40642431631 |
 | 606records.com | 18 | FROZEN | 3 | 10 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | abrodosmusic.com | 18 | FROZEN | 3 | 7 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
