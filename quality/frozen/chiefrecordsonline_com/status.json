@@ -1,0 +1,70 @@
+{
+  "fingerprint": "d80e6835daa7853f232303d4e2c0270595783e52d403e1bc791fd8c89c7ca828",
+  "domain": "chiefrecordsonline.com",
+  "batch": 19,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41175596255",
+  "updated_at": "2026-10-31T06:12:11.227564+00:00",
+  "evidence": {
+    "domain": "chiefrecordsonline.com",
+    "route": "https://chiefrecordsonline.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-31T06:12:09.808175+00:00",
+    "requests": [
+      {
+        "url": "https://chiefrecordsonline.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "16552a83cf3e5a79afb4769670343cca34bfb1c9fd1b027390503ac48921bde9"
+      },
+      {
+        "url": "https://chiefrecordsonline.com/products/pre-order-wade-forster-the-aftermath-vinyl?variant=48405013037241",
+        "sha256": "86aa7cc5107aa7dbe840eb5773897db49d083265b3ece18decbfd984d635d2b1"
+      }
+    ],
+    "listing_records": 2,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 2,
+      "unique_prices": 2,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 2,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39203245483"
+    },
+    {
+      "batch": 17,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40828686930"
+    },
+    {
+      "batch": 18,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41013449724"
+    },
+    {
+      "batch": 19,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41175596255"
+    }
+  ]
+}
