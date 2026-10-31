@@ -1,0 +1,100 @@
+{
+  "fingerprint": "884a2ac2fd479a58a0da5361a69075974ed33f5b6c563f0b1e9387407213213a",
+  "domain": "blackdotsbuffalo.shop",
+  "batch": 19,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41175596255",
+  "updated_at": "2026-10-31T06:12:09.778591+00:00",
+  "evidence": {
+    "domain": "blackdotsbuffalo.shop",
+    "route": "https://blackdotsbuffalo.shop/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-31T06:12:06.153587+00:00",
+    "requests": [
+      {
+        "url": "https://blackdotsbuffalo.shop/collections/all/products.json?limit=20&page=1",
+        "sha256": "99528c41e4def4c7dce158d3dd5319fdafc68b80cda0f71e1ab4ac27d99a0072"
+      },
+      {
+        "url": "https://blackdotsbuffalo.shop/products/abruptors-the-everything-you-know-is-wrong-lp?variant=41398759653470",
+        "sha256": "1d08cdecf71030cd1577a0694c66abf04ad6dfdcefd450da3c6f3f5d6aefd434"
+      },
+      {
+        "url": "https://blackdotsbuffalo.shop/products/acacia-strain-step-into-the-light?variant=39974635995230",
+        "sha256": "fd656c98e179281aa5799fde8b5c5012905199993f9a368c53de3c6b9e8e52ff"
+      },
+      {
+        "url": "https://blackdotsbuffalo.shop/products/adams-ryan-1989?variant=19647692545",
+        "sha256": "afb2d411d371765fef48c80f0c15376b92753edd57ce27bca3f170609e26d59c"
+      }
+    ],
+    "listing_records": 13,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://blackdotsbuffalo.shop/products/abruptors-the-everything-you-know-is-wrong-lp?variant=41398759653470",
+        "price": "20.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://blackdotsbuffalo.shop/products/acacia-strain-step-into-the-light?variant=39974635995230",
+        "price": "29.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://blackdotsbuffalo.shop/products/adams-ryan-1989?variant=19647692545",
+        "price": "39.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 13,
+      "unique_prices": 11,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 1,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39155794450"
+    },
+    {
+      "batch": 17,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40828686930"
+    },
+    {
+      "batch": 18,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41013449724"
+    },
+    {
+      "batch": 19,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41175596255"
+    }
+  ]
+}
