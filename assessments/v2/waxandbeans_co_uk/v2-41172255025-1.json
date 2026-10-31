@@ -1,0 +1,242 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-31T05:22:48.725067+00:00",
+  "shop_id": "waxandbeans.co.uk",
+  "row": 3357,
+  "name": "Wax & Beans",
+  "domain": "waxandbeans.co.uk",
+  "country": null,
+  "website": "https://waxandbeans.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3357,
+    "name": "Wax & Beans",
+    "domain": "waxandbeans.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://waxandbeans.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 12,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://waxandbeans.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://waxandbeans.co.uk/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://waxandbeans.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 20,
+        "accepted": 4,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://waxandbeans.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://waxandbeans.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://waxandbeans.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://waxandbeans.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://waxandbeans.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://waxandbeans.co.uk/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://waxandbeans.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://waxandbeans.co.uk/products/the-twang-live-in-store-acoustic-set-signing-cream-lp-entry-wednesday-27th-january-doors-7-30pm?variant=58976380879229",
+      "artist": "The Twang",
+      "title": "Live In-Store - Acoustic Set + Signing (Cream LP + Entry) - Wednesday 27th January - Doors 7:30pm",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "28.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://waxandbeans.co.uk/products/justice-grand-theft-auto-vi-original-score-by-justice-indies-3lp-crystal-clear-vinyl?variant=59004773958013",
+      "artist": "Justice",
+      "title": "Grand Theft Auto VI : Original Score by Justice (Indies 3LP Crystal Clear Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "52.99",
+      "currency": "GBP",
+      "valid_eans": [
+        "05056556186410"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://waxandbeans.co.uk/products/various-artists-rochdale-music-stories-present-kenion-street-orange-vinyl?variant=59015160004989",
+      "artist": "Various Artists",
+      "title": "Rochdale Music Stories Present Kenion Street (Orange Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "24.99",
+      "currency": "GBP",
+      "valid_eans": [
+        "05052442031925"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://waxandbeans.co.uk/robots.txt",
+      "sha256": "ec6178e7a3327d8449ca9c733c47f27882657eec3839e4b40d6801f08e0f9ce1"
+    },
+    {
+      "url": "https://waxandbeans.co.uk/",
+      "sha256": "fffe549a061be8fbac49a4c74978d81335a9fab62fcd74601c2fc4644460a7cd"
+    },
+    {
+      "url": "https://waxandbeans.co.uk/products.json?limit=20&page=1",
+      "sha256": "dea875ab38343630446010b05a4d3196b3938a8991aff1d4571cca21840a287d"
+    },
+    {
+      "url": "https://waxandbeans.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "d162dfd83c873306646a9fcfb70d02dca20fee5f8e7a077061ff967e2bdc6da6"
+    },
+    {
+      "url": "https://waxandbeans.co.uk/products/various-artists-rochdale-music-stories-present-kenion-street-orange-vinyl",
+      "sha256": "37a874d3fcda3e4ec622924bf7cd699ae971d10b287c125db257186863f5174c"
+    },
+    {
+      "url": "https://waxandbeans.co.uk/products/this-is-the-kit-live-in-store-entry-lp-monday-18th-january-doors-7pm",
+      "sha256": "71b6e91240c76207f9f5cddcdc6e1698809d012b1abdf37fc3cafd7ab42ccfc0"
+    },
+    {
+      "url": "https://waxandbeans.co.uk/products/the-twang-live-in-store-acoustic-set-signing-cream-lp-entry-wednesday-27th-january-doors-7-30pm?variant=58976380879229",
+      "sha256": "ba225302e259affe3889ecb475ef58f675232e0eaa77f83eca6e2f45c6822877"
+    },
+    {
+      "url": "https://waxandbeans.co.uk/products/justice-grand-theft-auto-vi-original-score-by-justice-indies-3lp-crystal-clear-vinyl?variant=59004773958013",
+      "sha256": "2e4b0c5eb0ce75cff7a632a565b1bb28126746df35b079cd87e05e0ed342cb03"
+    },
+    {
+      "url": "https://waxandbeans.co.uk/products/various-artists-rochdale-music-stories-present-kenion-street-orange-vinyl?variant=59015160004989",
+      "sha256": "a70d11f3e7ca181a49449364edfa26896d398f604451e1597869526d276c6860"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 2,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.5,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "FROZEN",
+  "example_urls": [
+    "https://waxandbeans.co.uk/products/the-twang-live-in-store-acoustic-set-signing-cream-lp-entry-wednesday-27th-january-doors-7-30pm?variant=58976380879229",
+    "https://waxandbeans.co.uk/products/justice-grand-theft-auto-vi-original-score-by-justice-indies-3lp-crystal-clear-vinyl?variant=59004773958013",
+    "https://waxandbeans.co.uk/products/various-artists-rochdale-music-stories-present-kenion-street-orange-vinyl?variant=59015160004989"
+  ],
+  "assessment_id": "v2-41172255025-1",
+  "queue_rows": [
+    3357
+  ],
+  "assessment_path": "assessments/v2/waxandbeans_co_uk/v2-41172255025-1.json"
+}
