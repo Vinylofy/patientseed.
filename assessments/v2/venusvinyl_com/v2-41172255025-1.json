@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-31T05:22:11.466969+00:00",
+  "shop_id": "venusvinyl.com",
+  "row": 3347,
+  "name": "Venus Vinyl",
+  "domain": "venusvinyl.com",
+  "country": null,
+  "website": "https://venusvinyl.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3347,
+    "name": "Venus Vinyl",
+    "domain": "venusvinyl.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://venusvinyl.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 23,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://venusvinyl.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://venusvinyl.com/products.json?limit=20&page=1",
+        "score": 235,
+        "products_seen": 23,
+        "accepted": 23,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://venusvinyl.com/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://venusvinyl.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://venusvinyl.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://venusvinyl.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://venusvinyl.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://venusvinyl.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://venusvinyl.com/products.json?limit=20&page=1",
+      "score": 235,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://venusvinyl.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 13,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://venusvinyl.com/robots.txt",
+      "sha256": "ce55ff7ec6431653a0f5a314da0ad49d4a921406c5d478f6a24e48d7ba582e55"
+    },
+    {
+      "url": "https://venusvinyl.com/",
+      "sha256": "5166233bf421688c5c23c8a2b1e9a8ccb9fd042aac0f75e9fea0ccaeacda57e9"
+    },
+    {
+      "url": "https://venusvinyl.com/products.json?limit=20&page=1",
+      "sha256": "7def5554795d9cf4d15e6f7533967223231b5fc77d192a2a9f1447248fe1b234"
+    },
+    {
+      "url": "https://venusvinyl.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "1e0d73f55799b387833988f05bc2739c88fb9b98d358479ede97029faebf5133"
+    },
+    {
+      "url": "https://venusvinyl.com/products/krismasi-christmas-songs-from-africa-1968-1982-various-vinyl-ltd-ed-white-on-red-inkplosion",
+      "sha256": "8cd32323af35e96411fd40e44165bb8fa1477a57ff1c27898740aa02cd373fe6"
+    },
+    {
+      "url": "https://venusvinyl.com/products/genital-shame-wellness-plan-vinyl-ltd-indies-ed-sky-blue",
+      "sha256": "e008654eeb836e63035604efb1b0f7c89562258da0c81b91c123dc3da80077f3"
+    },
+    {
+      "url": "https://venusvinyl.com/products/piss-you-made-me-skin-on-linen-vinyl-ltd-loser-ed-baby-pink?variant=55646509400440",
+      "sha256": "e9408a5d4a17ad0f1397b9a7a69ff80a26b37f36152d9917c2e79c1b7278ccd8"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "FROZEN",
+  "example_urls": [],
+  "assessment_id": "v2-41172255025-1",
+  "queue_rows": [
+    3347
+  ],
+  "assessment_path": "assessments/v2/venusvinyl_com/v2-41172255025-1.json"
+}
