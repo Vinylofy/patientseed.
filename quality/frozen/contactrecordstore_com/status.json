@@ -1,0 +1,100 @@
+{
+  "fingerprint": "e120d31dca0033214db56c09700ac7a1a2b14d6dc6929c61891eecdb2add0e8e",
+  "domain": "contactrecordstore.com",
+  "batch": 19,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41175596255",
+  "updated_at": "2026-10-31T06:12:16.632225+00:00",
+  "evidence": {
+    "domain": "contactrecordstore.com",
+    "route": "https://contactrecordstore.com/products.json?limit=20&page=1",
+    "observed_at": "2026-10-31T06:12:13.022902+00:00",
+    "requests": [
+      {
+        "url": "https://contactrecordstore.com/products.json?limit=20&page=1",
+        "sha256": "e98aa66a4eab8f7fae494b78382ea0751416a9d5de8a0ef48f5be2eb0d19dc7d"
+      },
+      {
+        "url": "https://contactrecordstore.com/products/sergegainsbourg-melodynelson?variant=37027811033245",
+        "sha256": "c79a30141488c42ca6e8be9dbb150ceeca351413ed5cec192d1f7a58c9d7105b"
+      },
+      {
+        "url": "https://contactrecordstore.com/products/siftumz-simply-the-best?variant=46254923219101",
+        "sha256": "8fcaa69fa52e6a524f9bdd98517c0109a271b1e91e65f2bc512b4f12a247a31f"
+      },
+      {
+        "url": "https://contactrecordstore.com/products/grasswidow-luluslipsep?variant=37027707093149",
+        "sha256": "f07494e36770158077f4ad3ada124a8caec380bd520ef452d954eff9e39178e9"
+      }
+    ],
+    "listing_records": 3,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://contactrecordstore.com/products/sergegainsbourg-melodynelson?variant=37027811033245",
+        "price": "31.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://contactrecordstore.com/products/siftumz-simply-the-best?variant=46254923219101",
+        "price": "17.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://contactrecordstore.com/products/grasswidow-luluslipsep?variant=37027707093149",
+        "price": "11.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 3,
+      "unique_prices": 3,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 2,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39203245483"
+    },
+    {
+      "batch": 17,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40828686930"
+    },
+    {
+      "batch": 18,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41013449724"
+    },
+    {
+      "batch": 19,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41175596255"
+    }
+  ]
+}
