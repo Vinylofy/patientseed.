@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-31T05:22:34.623879+00:00",
+  "shop_id": "vinyltap.co.uk",
+  "row": 3331,
+  "name": "Vinyl Tap",
+  "domain": "vinyltap.co.uk",
+  "country": null,
+  "website": "https://vinyltap.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3331,
+    "name": "Vinyl Tap",
+    "domain": "vinyltap.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://vinyltap.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 12,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://vinyltap.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://vinyltap.co.uk/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://vinyltap.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 20,
+        "accepted": 8,
+        "excluded": 12,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://vinyltap.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinyltap.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinyltap.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinyltap.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinyltap.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://vinyltap.co.uk/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://vinyltap.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://vinyltap.co.uk/products/silence-between-songs-01069380?variant=66053912363276",
+      "artist": "Madison Beer",
+      "title": "Silence Between Songs - Lp",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "28.99",
+      "currency": "GBP",
+      "valid_eans": [
+        "00196587665319"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://vinyltap.co.uk/products/impressions-01069390?variant=66053946605836",
+      "artist": "Impressions",
+      "title": "Impressions - Lp",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "18.99",
+      "currency": "GBP",
+      "valid_eans": [
+        "08436563186523"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://vinyltap.co.uk/products/bills-aches-blues-40-years-of-4ad-01069396?variant=66053955617036",
+      "artist": "Various Artists",
+      "title": "Bills & Aches & Blues (40 Years of 4ad) - Double Lp",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "34.99",
+      "currency": "GBP",
+      "valid_eans": [
+        "00191400035812"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://vinyltap.co.uk/robots.txt",
+      "sha256": "2cddfdc8a8bde1dd37a2dce8c9c49618773bca20c913e4184ff85d66c846baaa"
+    },
+    {
+      "url": "https://vinyltap.co.uk/",
+      "sha256": "c1228c6bd36eb211d4594bf1fbcc4b69e8057f0749a96ea2d4042bfdfe2a38c8"
+    },
+    {
+      "url": "https://vinyltap.co.uk/products.json?limit=20&page=1",
+      "sha256": "fff324145031ab85fe3ed9777fd5879bfae3f1853b6a1a2589c3db2936b28e16"
+    },
+    {
+      "url": "https://vinyltap.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "30f3734278012c1e9bbbaab73795e5466d5d158d7b6d8e5e5b7524f7fe40877c"
+    },
+    {
+      "url": "https://vinyltap.co.uk/products/bills-aches-blues-40-years-of-4ad-01069396",
+      "sha256": "8eb4faa6747e7ff12613159e23bafa04b028b050fdd04174c29529dc2fdc53a5"
+    },
+    {
+      "url": "https://vinyltap.co.uk/products/if-i-were-a-butterfly-01069392",
+      "sha256": "79187c3b07b7fb7e3095e657297ac3afad93b77b8576d6042ed61d17c71b94e8"
+    },
+    {
+      "url": "https://vinyltap.co.uk/products/silence-between-songs-01069380?variant=66053912363276",
+      "sha256": "d964436cf34963986f1c532645a500542d1bd9b32ab00b93064018646877b255"
+    },
+    {
+      "url": "https://vinyltap.co.uk/products/impressions-01069390?variant=66053946605836",
+      "sha256": "c3c5906777e0d0f9262069422af13e3ba68322160e35b4230be336f2e183a7d9"
+    },
+    {
+      "url": "https://vinyltap.co.uk/products/bills-aches-blues-40-years-of-4ad-01069396?variant=66053955617036",
+      "sha256": "b7c30aed61ab8038eef4b088cf85aec8e3b6ebc46fc2ca6c2048758dcc2cbc35"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "FROZEN",
+  "example_urls": [
+    "https://vinyltap.co.uk/products/silence-between-songs-01069380?variant=66053912363276",
+    "https://vinyltap.co.uk/products/impressions-01069390?variant=66053946605836",
+    "https://vinyltap.co.uk/products/bills-aches-blues-40-years-of-4ad-01069396?variant=66053955617036"
+  ],
+  "assessment_id": "v2-41172255025-1",
+  "queue_rows": [
+    3331
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 12,
+  "candidate_ref": "v2-41172255025-1/vinyltap_co_uk",
+  "assessment_path": "assessments/v2/vinyltap_co_uk/v2-41172255025-1.json"
+}
