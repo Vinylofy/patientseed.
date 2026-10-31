@@ -1,0 +1,56 @@
+{
+  "fingerprint": "fc99c01cd7a2353b50cf16da0f9c481acaeb0a9c9ef16b465e82f4d55fd5b0e7",
+  "domain": "afkbooksandrecords.com",
+  "batch": 19,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41175596255",
+  "updated_at": "2026-10-31T06:12:04.155525+00:00",
+  "evidence": {
+    "domain": "afkbooksandrecords.com",
+    "route": "https://afkbooksandrecords.com/products.json?limit=20&page=1",
+    "observed_at": "2026-10-31T06:12:03.841213+00:00",
+    "requests": [
+      {
+        "url": "https://afkbooksandrecords.com/products.json?limit=20&page=1",
+        "sha256": "5423f9727616dd4e65488ee07bf272711cc966b9a12a787d7ba76a125a9a4f43"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 16,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "40642431631"
+    },
+    {
+      "batch": 17,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "40828686930"
+    },
+    {
+      "batch": 18,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "41013449724"
+    },
+    {
+      "batch": 19,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "41175596255"
+    }
+  ]
+}
