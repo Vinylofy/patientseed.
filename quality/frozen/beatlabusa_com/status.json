@@ -1,0 +1,56 @@
+{
+  "fingerprint": "26bfad778386cda687c17634201f577671454bfa5ebedd0bbe731bf0f1c8492f",
+  "domain": "beatlabusa.com",
+  "batch": 19,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41175596255",
+  "updated_at": "2026-10-31T06:12:06.124533+00:00",
+  "evidence": {
+    "domain": "beatlabusa.com",
+    "route": "https://beatlabusa.com/products.json?limit=20&page=1",
+    "observed_at": "2026-10-31T06:12:05.784215+00:00",
+    "requests": [
+      {
+        "url": "https://beatlabusa.com/products.json?limit=20&page=1",
+        "sha256": "3081c89ae64ab7ad1cacb116bf83873f898b165046720315302a094748dbe2be"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 16,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "40642431631"
+    },
+    {
+      "batch": 17,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "40828686930"
+    },
+    {
+      "batch": 18,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "41013449724"
+    },
+    {
+      "batch": 19,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "41175596255"
+    }
+  ]
+}
