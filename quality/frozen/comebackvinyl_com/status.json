@@ -1,0 +1,70 @@
+{
+  "fingerprint": "167d6bd5630a45cc9bef7d384369ce073f7fb6208c653db8920740bbed2bb8fb",
+  "domain": "comebackvinyl.com",
+  "batch": 19,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41175596255",
+  "updated_at": "2026-10-31T06:12:12.993442+00:00",
+  "evidence": {
+    "domain": "comebackvinyl.com",
+    "route": "https://comebackvinyl.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-10-31T06:12:11.257104+00:00",
+    "requests": [
+      {
+        "url": "https://comebackvinyl.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "93488f3b590002937983965bacc71797da7e029974bbedda09cb9c6130a5e03c"
+      },
+      {
+        "url": "https://comebackvinyl.com/products/uicideboy-i-want-to-die-in-new-orleans?variant=43767556604161",
+        "sha256": "b6fa91a68330f7b8b5eb7512ac537dcfbead0bd2ffcdabe4184e13fb20038a58"
+      }
+    ],
+    "listing_records": 20,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 20,
+      "unique_prices": 8,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 2,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39203245483"
+    },
+    {
+      "batch": 17,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40828686930"
+    },
+    {
+      "batch": 18,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41013449724"
+    },
+    {
+      "batch": 19,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41175596255"
+    }
+  ]
+}
