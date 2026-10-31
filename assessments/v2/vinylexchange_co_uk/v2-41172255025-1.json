@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-10-31T05:22:23.105646+00:00",
+  "shop_id": "vinylexchange.co.uk",
+  "row": 3353,
+  "name": "Vinyl Exchange",
+  "domain": "vinylexchange.co.uk",
+  "country": null,
+  "website": "https://vinylexchange.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3353,
+    "name": "Vinyl Exchange",
+    "domain": "vinylexchange.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://vinylexchange.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://vinylexchange.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://vinylexchange.co.uk/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://vinylexchange.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://vinylexchange.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylexchange.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylexchange.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylexchange.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylexchange.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://vinylexchange.co.uk/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://vinylexchange.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 12,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://vinylexchange.co.uk/robots.txt",
+      "sha256": "08121cac81e01a7d7b6645a7d75ee41718e09f222121e66c306e4f0500ca45b1"
+    },
+    {
+      "url": "https://vinylexchange.co.uk/",
+      "sha256": "b23fe4c80deceab23cd6857f22ef512cfe06680db992748f198686fe133fe83a"
+    },
+    {
+      "url": "https://vinylexchange.co.uk/products.json?limit=20&page=1",
+      "sha256": "0e61e6d0c6a8a583d2cef0438ab18a619c8481c02de41b909e952a2df0f1e75a"
+    },
+    {
+      "url": "https://vinylexchange.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "08c1a3e414a49b82a5912b6fc54b926c162e028b7efdfdc45a9dd14bcf2342ce"
+    },
+    {
+      "url": "https://vinylexchange.co.uk/products/smashing-pumpkins-shiny-and-oh-so-bright-vol-1-lp-no-past-no-future-no-sun",
+      "sha256": "a3d4cbe6679b14e20a4f93eb2aa6a5d3bdc62b325ce51e447e3b7dcec69fb539"
+    },
+    {
+      "url": "https://vinylexchange.co.uk/products/harry-styles-late-night-talking-instrumental-1",
+      "sha256": "01e8d5c91d1d6d069ea0d93936b024ecb9b0bda77dac3b5fa1be2a020d6956c3"
+    },
+    {
+      "url": "https://vinylexchange.co.uk/products/various-the-best-of-bond-james-bond-1?variant=57705286336885",
+      "sha256": "83406c0d58323eb2ab7fe9846a4ddff2082335048a9364dddab6516becd9315d"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.8947368421052632,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "FROZEN",
+  "example_urls": [],
+  "assessment_id": "v2-41172255025-1",
+  "queue_rows": [
+    3353
+  ],
+  "assessment_path": "assessments/v2/vinylexchange_co_uk/v2-41172255025-1.json"
+}
