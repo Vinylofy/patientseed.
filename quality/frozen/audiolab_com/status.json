@@ -1,0 +1,70 @@
+{
+  "fingerprint": "fe13cb8f93542e08b94092de3ebc308e80ac9a2aa15b11754a8de58fda7ff827",
+  "domain": "audiolab.com",
+  "batch": 20,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41282025830",
+  "updated_at": "2026-11-01T06:44:40.741693+00:00",
+  "evidence": {
+    "domain": "audiolab.com",
+    "route": "https://audiolab.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-01T06:44:39.271280+00:00",
+    "requests": [
+      {
+        "url": "https://audiolab.com/products.json?limit=20&page=1",
+        "sha256": "05203ec4d095b8a1052b1e1c278a11d27af2c835cdf1f0709ccbb5c3eaa137ec"
+      },
+      {
+        "url": "https://audiolab.com/products/solidsteel-vl-series-vinyl-record-storage-av-rack?variant=67907621028206",
+        "sha256": "0263c6e83e69889e73682009de308626bbfadadb2aa40cbb82e33b1e3d77c5e5"
+      }
+    ],
+    "listing_records": 6,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 6,
+      "unique_prices": 3,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 17,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40828686930"
+    },
+    {
+      "batch": 18,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41013449724"
+    },
+    {
+      "batch": 19,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41175596255"
+    },
+    {
+      "batch": 20,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41282025830"
+    }
+  ]
+}
