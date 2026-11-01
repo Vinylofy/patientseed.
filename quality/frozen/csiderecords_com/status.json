@@ -1,0 +1,100 @@
+{
+  "fingerprint": "b04cf0a3e76fd0311c1dd4165b2fdd7a213eeb1dae742528175d6600b228cdf6",
+  "domain": "csiderecords.com",
+  "batch": 20,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41282025830",
+  "updated_at": "2026-11-01T06:44:44.039139+00:00",
+  "evidence": {
+    "domain": "csiderecords.com",
+    "route": "https://csiderecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-01T06:44:40.780233+00:00",
+    "requests": [
+      {
+        "url": "https://csiderecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "54ec53d2a4a1df933950c74a79319be8c1b259ad2e1c466d546832631124919c"
+      },
+      {
+        "url": "https://csiderecords.com/products/5-seconds-of-summer-everyone-s-a-star?variant=46554700513465",
+        "sha256": "e75ecbf7dab30b19061e1eecc5bb8200468511453e04c75ed99ee95b98b9f495"
+      },
+      {
+        "url": "https://csiderecords.com/products/children-of-bodom-i-worship-chaos?variant=46550029926585",
+        "sha256": "0d4b7e3f845f93b87ae498eed05a4abe52008c26925c569531f6602184709515"
+      },
+      {
+        "url": "https://csiderecords.com/products/disharmony-messe-de-minuit?variant=44499822969017",
+        "sha256": "c8de6231d7a6f793db58c04928e4a90b9754507b34210ff3cb0d3f636a0ff8cc"
+      }
+    ],
+    "listing_records": 11,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://csiderecords.com/products/5-seconds-of-summer-everyone-s-a-star?variant=46554700513465",
+        "price": "34.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://csiderecords.com/products/children-of-bodom-i-worship-chaos?variant=46550029926585",
+        "price": "33.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://csiderecords.com/products/disharmony-messe-de-minuit?variant=44499822969017",
+        "price": "22.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 11,
+      "unique_prices": 9,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 2,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39203245483"
+    },
+    {
+      "batch": 18,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41013449724"
+    },
+    {
+      "batch": 19,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41175596255"
+    },
+    {
+      "batch": 20,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41282025830"
+    }
+  ]
+}
