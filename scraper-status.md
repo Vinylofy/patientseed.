@@ -3434,7 +3434,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | coregamingnh.com | 2 | APPROVED | 0 | 1 | 1/1 | ACTIVE | ACTIVE | run 39203245483 |
 | counterintuitiverecords.com | 19 | FROZEN | 3 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | crashrecords.co.uk | 12 | FROZEN | 3 | 7 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| crazyvinylrecord.com | 20 | REVIEW | 1 | 1 | 0/1 | INCIDENT | REPAIR_REQUIRED | detail_ean_not_proven |
+| crazyvinylrecord.com | 20 | REVIEW | 1 | 1 | 0/1 | REPAIR_REQUIRED (run 41292277944) | REPAIR_REQUIRED | detail_ean_not_proven |
 | csiderecords.com | 20 | FROZEN | 3 | 11 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | curiouscollectionstx.com | 2 | APPROVED | 0 | 9 | 3/3 | ACTIVE | ACTIVE | run 39203245483 |
 | dbzbooks.com | 2 | APPROVED | 0 | 15 | 3/3 | ACTIVE | ACTIVE | run 39203245483 |
