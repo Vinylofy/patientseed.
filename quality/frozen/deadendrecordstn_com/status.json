@@ -1,0 +1,100 @@
+{
+  "fingerprint": "1068c6c5bd45908cc18101e6b0da8612e11751fc3cd2c7632f6c1b416e478e41",
+  "domain": "deadendrecordstn.com",
+  "batch": 20,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41282025830",
+  "updated_at": "2026-11-01T06:44:47.338337+00:00",
+  "evidence": {
+    "domain": "deadendrecordstn.com",
+    "route": "https://deadendrecordstn.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-01T06:44:44.079547+00:00",
+    "requests": [
+      {
+        "url": "https://deadendrecordstn.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "661bb913b412fc847800072c67679a1b8f0300ba12c01ed66580de88c892f89f"
+      },
+      {
+        "url": "https://deadendrecordstn.com/products/uicideboy-long-term-lp?variant=50254250115324",
+        "sha256": "fc2bad9beda3b5a56d7f98d15d1a79206b240cf42e76a4e5e09e86d1ea622346"
+      },
+      {
+        "url": "https://deadendrecordstn.com/products/hed-p-e-class-of-2020-lp?variant=49145809469692",
+        "sha256": "4dcacdfd018988bfec95419e8c912b84e0f05e44589faedb6b5f71199160db28"
+      },
+      {
+        "url": "https://deadendrecordstn.com/products/35007-loose-liquid-lp-4?variant=46641794285820",
+        "sha256": "ea24536b7818cbb2763c1abfd1e2ffa1427fccf5c902278c4a5bd3af79640fba"
+      }
+    ],
+    "listing_records": 5,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://deadendrecordstn.com/products/uicideboy-long-term-lp?variant=50254250115324",
+        "price": "35.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://deadendrecordstn.com/products/hed-p-e-class-of-2020-lp?variant=49145809469692",
+        "price": "23.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://deadendrecordstn.com/products/35007-loose-liquid-lp-4?variant=46641794285820",
+        "price": "30.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 5,
+      "unique_prices": 5,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 2,
+      "status": "REVIEW",
+      "reason": "invalid_detail_gtin",
+      "run_id": "39203245483"
+    },
+    {
+      "batch": 18,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41013449724"
+    },
+    {
+      "batch": 19,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41175596255"
+    },
+    {
+      "batch": 20,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41282025830"
+    }
+  ]
+}
