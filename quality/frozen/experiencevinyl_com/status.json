@@ -1,0 +1,100 @@
+{
+  "fingerprint": "0bce5c59f668f2f0092292a80b5dcd1038153ca1640c05ae0efe6f139115e3e4",
+  "domain": "experiencevinyl.com",
+  "batch": 21,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41401606761",
+  "updated_at": "2026-11-02T06:43:05.479606+00:00",
+  "evidence": {
+    "domain": "experiencevinyl.com",
+    "route": "https://experiencevinyl.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-02T06:43:01.949298+00:00",
+    "requests": [
+      {
+        "url": "https://experiencevinyl.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "ba3ea16f13c8333ca9a965b03bd104a022af60615c1040bd146abb72edebe091"
+      },
+      {
+        "url": "https://experiencevinyl.com/products/chk-chk-chk-let-it-be-blue?variant=39806467571798",
+        "sha256": "c51738e3bdb44f96dcde6d7551444c7ba5befa365c4512fba5758a9d0d76d4a3"
+      },
+      {
+        "url": "https://experiencevinyl.com/products/uicideboy-stop-staring-at-the-shadows-820200484895?variant=67666839470365",
+        "sha256": "aa88a2171115e45402487c3cb6abb89539266c5f306cebb91c92c9139040a42e"
+      },
+      {
+        "url": "https://experiencevinyl.com/products/k-now-name-spy-x-family-o-s-t-5037899087978?variant=47657295708445",
+        "sha256": "ed34b34860b3cc00ad010206873c4cfeff23c4f113268410c25b60378834136f"
+      }
+    ],
+    "listing_records": 20,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://experiencevinyl.com/products/chk-chk-chk-let-it-be-blue?variant=39806467571798",
+        "price": "29.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://experiencevinyl.com/products/uicideboy-stop-staring-at-the-shadows-820200484895?variant=67666839470365",
+        "price": "24.98",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://experiencevinyl.com/products/k-now-name-spy-x-family-o-s-t-5037899087978?variant=47657295708445",
+        "price": "168.98",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 20,
+      "unique_prices": 12,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 3,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39373494403"
+    },
+    {
+      "batch": 19,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41175596255"
+    },
+    {
+      "batch": 20,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41282025830"
+    },
+    {
+      "batch": 21,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41401606761"
+    }
+  ]
+}
