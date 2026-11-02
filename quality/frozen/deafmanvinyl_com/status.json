@@ -1,0 +1,89 @@
+{
+  "fingerprint": "f23186ebe2a067c86a795c8e60b41ebfb0dc4fcd69c51dd89d07337814eb1727",
+  "domain": "deafmanvinyl.com",
+  "batch": 21,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41401606761",
+  "updated_at": "2026-11-02T06:42:39.796849+00:00",
+  "evidence": {
+    "domain": "deafmanvinyl.com",
+    "route": "https://deafmanvinyl.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-02T06:42:37.341570+00:00",
+    "requests": [
+      {
+        "url": "https://deafmanvinyl.com/products.json?limit=20&page=1",
+        "sha256": "b75984bac65825dd7fc33ce5b721ebecb6c6880adaffc3a6b0cf831ad214581c"
+      },
+      {
+        "url": "https://deafmanvinyl.com/products/idles-joy-as-an-act-of-resistance?variant=44833741897787",
+        "sha256": "0e95c3256d1ba241cb90e2cd5119a6086ef475ccf4d042024b0e2a12ddb5af11"
+      },
+      {
+        "url": "https://deafmanvinyl.com/products/zz-top-greatest-hits-2-lp?variant=44794392543291",
+        "sha256": "2798dde24f9b35f418488af646c1c591f663b1e7f848b9d83cfbc5ea4d943ffe"
+      }
+    ],
+    "listing_records": 2,
+    "detail_checked": 2,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://deafmanvinyl.com/products/idles-joy-as-an-act-of-resistance?variant=44833741897787",
+        "price": "26.95",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://deafmanvinyl.com/products/zz-top-greatest-hits-2-lp?variant=44794392543291",
+        "price": "36.95",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 2,
+      "unique_prices": 2,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 2,
+      "status": "REVIEW",
+      "reason": "HTTP_503",
+      "run_id": "39203245483"
+    },
+    {
+      "batch": 19,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41175596255"
+    },
+    {
+      "batch": 20,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41282025830"
+    },
+    {
+      "batch": 21,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41401606761"
+    }
+  ]
+}
