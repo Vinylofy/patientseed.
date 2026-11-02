@@ -1,0 +1,70 @@
+{
+  "fingerprint": "4a94b89a3e934fc074d46d7c7144e35abefdc61547eee9c3f23f85a465838957",
+  "domain": "endofanear.com",
+  "batch": 21,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41401606761",
+  "updated_at": "2026-11-02T06:42:57.032093+00:00",
+  "evidence": {
+    "domain": "endofanear.com",
+    "route": "https://endofanear.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-02T06:42:55.460573+00:00",
+    "requests": [
+      {
+        "url": "https://endofanear.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "d2bef77cd220e0bf29f2848a8922ddd71942e3767aa9191cf4f3e89fe99c3476"
+      },
+      {
+        "url": "https://endofanear.com/products/075678642210?variant=42468440965295",
+        "sha256": "8f3f12029e69ad1453bf8e64ec720d203db87f8b33ffada65524b98f0e49b518"
+      }
+    ],
+    "listing_records": 6,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 6,
+      "unique_prices": 4,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 2,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39203245483"
+    },
+    {
+      "batch": 19,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41175596255"
+    },
+    {
+      "batch": 20,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41282025830"
+    },
+    {
+      "batch": 21,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41401606761"
+    }
+  ]
+}
