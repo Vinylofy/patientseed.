@@ -1,0 +1,56 @@
+{
+  "fingerprint": "60ac4b5ed6efba6a836979d0861fae608659d54b00b3f6b12723b270f193a9ad",
+  "domain": "econojamrecords.com",
+  "batch": 21,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41401606761",
+  "updated_at": "2026-11-02T06:42:53.661750+00:00",
+  "evidence": {
+    "domain": "econojamrecords.com",
+    "route": "https://econojamrecords.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-02T06:42:53.351254+00:00",
+    "requests": [
+      {
+        "url": "https://econojamrecords.com/products.json?limit=20&page=1",
+        "sha256": "a0227cde6e367f4beec12aff055c9543c6f4ce41d1297157f371e9f68f9db2db"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 2,
+      "status": "REVIEW",
+      "reason": "HTTP_503",
+      "run_id": "39203245483"
+    },
+    {
+      "batch": 19,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "41175596255"
+    },
+    {
+      "batch": 20,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "41282025830"
+    },
+    {
+      "batch": 21,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "41401606761"
+    }
+  ]
+}
