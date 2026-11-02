@@ -1,0 +1,100 @@
+{
+  "fingerprint": "2272f6bf7724e8e41e06211deeb89a6094f36265865a45684a828e2828a5644a",
+  "domain": "delbravorecordshop.com",
+  "batch": 21,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41401606761",
+  "updated_at": "2026-11-02T06:42:43.529791+00:00",
+  "evidence": {
+    "domain": "delbravorecordshop.com",
+    "route": "https://delbravorecordshop.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-02T06:42:39.832371+00:00",
+    "requests": [
+      {
+        "url": "https://delbravorecordshop.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "ee92e992d42a56eff81fd81ea12c4ee21a6acd2f2f65d9002d46de4507902a64"
+      },
+      {
+        "url": "https://delbravorecordshop.com/products/uicideboy-new-world-depression-gray-vinyl-indie-exclusive-lp?variant=40948768768096",
+        "sha256": "c918f2e425c571e424d16ce3f9a12f6ff6d11444e4298d426c8677b5c633e6b9"
+      },
+      {
+        "url": "https://delbravorecordshop.com/products/1982-sealed-ruben-naranjo-y-los-gamblers-musica-de-la-buena-si-senor-mi-jovencita-mi-pueblito-vinyl?variant=42492485238880",
+        "sha256": "32699bd373481cba74076e86c72a279687eb8647fb71422c519ae86eb76bda44"
+      },
+      {
+        "url": "https://delbravorecordshop.com/products/1985-open-cierra-band-the-rising-star-vinyl?variant=42581213642848",
+        "sha256": "6a3b4d570805f53c19fcaf130807beec8171a4da39fd2d8cc2780d0d47be38db"
+      }
+    ],
+    "listing_records": 14,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://delbravorecordshop.com/products/uicideboy-new-world-depression-gray-vinyl-indie-exclusive-lp?variant=40948768768096",
+        "price": "29.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://delbravorecordshop.com/products/1982-sealed-ruben-naranjo-y-los-gamblers-musica-de-la-buena-si-senor-mi-jovencita-mi-pueblito-vinyl?variant=42492485238880",
+        "price": "75.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://delbravorecordshop.com/products/1985-open-cierra-band-the-rising-star-vinyl?variant=42581213642848",
+        "price": "20.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 14,
+      "unique_prices": 6,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 2,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39203245483"
+    },
+    {
+      "batch": 19,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41175596255"
+    },
+    {
+      "batch": 20,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41282025830"
+    },
+    {
+      "batch": 21,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41401606761"
+    }
+  ]
+}
