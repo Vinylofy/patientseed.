@@ -6,6 +6,7 @@ from collector.adapters.shopify_new_vinyl import ShopifyNewVinylAdapter
 from collector.adapters.squarespace_new_vinyl import SquarespaceNewVinylAdapter
 from collector.adapters.woocommerce_new_vinyl import WooCommerceNewVinylAdapter
 from collector.adapters.rockinoutrecords import RockinOutRecordsAdapter
+from collector.adapters.muziker import MuzikerAdapter
 
 
 SHOP_ADAPTERS = {
@@ -33,6 +34,7 @@ SHOP_ADAPTERS = {
     "amcollectivehuntsville.com": SquarespaceNewVinylAdapter,
     "apparitionsvintage.com": SquarespaceNewVinylAdapter,
     "almostanythingopelika.com": BigCommerceNewVinylAdapter,
+    "muziker.nl": MuzikerAdapter,
 }
 
 
