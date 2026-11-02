@@ -1,0 +1,100 @@
+{
+  "fingerprint": "e11a5d109dc3f79d184cde5ed5b3f2edb0712ccad2a10993cdcc6086fd5eaa54",
+  "domain": "easygoingrecords.us",
+  "batch": 21,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41401606761",
+  "updated_at": "2026-11-02T06:42:53.316278+00:00",
+  "evidence": {
+    "domain": "easygoingrecords.us",
+    "route": "https://easygoingrecords.us/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-02T06:42:49.942078+00:00",
+    "requests": [
+      {
+        "url": "https://easygoingrecords.us/collections/all/products.json?limit=20&page=1",
+        "sha256": "273ff951045e651873408292e28f5882d90f9fb2c88a02af1eb121bdb60ab5b2"
+      },
+      {
+        "url": "https://easygoingrecords.us/products/uicideboy-thy-kingdom-come-lp-album-tra-2?variant=52854066610461",
+        "sha256": "144cba768ba6810e2296244b888b8a94e39ea6f460f86a35f9c4ad734320af85"
+      },
+      {
+        "url": "https://easygoingrecords.us/products/pre-order-my-chemical-romance-the-black-parade-20th-anniversary-edition-concrete-grey-vinyl-lp?variant=67623955792157",
+        "sha256": "66cc187e8fd33dbb9e434b1ec3279e8028c1636fef8e6794824caa3086acbb86"
+      },
+      {
+        "url": "https://easygoingrecords.us/products/1-800-mikey-in-yun-lp-album-bla?variant=67849160556829",
+        "sha256": "720063bdda02dde44f99b9624d9662ca46295b7ba69bfb38a5185ef4df323acb"
+      }
+    ],
+    "listing_records": 13,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://easygoingrecords.us/products/uicideboy-thy-kingdom-come-lp-album-tra-2?variant=52854066610461",
+        "price": "45.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://easygoingrecords.us/products/pre-order-my-chemical-romance-the-black-parade-20th-anniversary-edition-concrete-grey-vinyl-lp?variant=67623955792157",
+        "price": "27.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://easygoingrecords.us/products/1-800-mikey-in-yun-lp-album-bla?variant=67849160556829",
+        "price": "45.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 13,
+      "unique_prices": 8,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 2,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39203245483"
+    },
+    {
+      "batch": 19,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41175596255"
+    },
+    {
+      "batch": 20,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41282025830"
+    },
+    {
+      "batch": 21,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41401606761"
+    }
+  ]
+}
