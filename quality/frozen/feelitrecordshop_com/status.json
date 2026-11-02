@@ -1,0 +1,70 @@
+{
+  "fingerprint": "43c930c98e3a94f6a060c7ba4479ee79cbbafe0e3e0c6e07fe01f46d2e306bf5",
+  "domain": "feelitrecordshop.com",
+  "batch": 21,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41401606761",
+  "updated_at": "2026-11-02T06:43:07.195809+00:00",
+  "evidence": {
+    "domain": "feelitrecordshop.com",
+    "route": "https://feelitrecordshop.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-02T06:43:05.514890+00:00",
+    "requests": [
+      {
+        "url": "https://feelitrecordshop.com/products.json?limit=20&page=1",
+        "sha256": "3e1b35687a0bb82a4e9638c1a4ec4f2ac2d5bb6caa0d0eabe3e86e06e6483d87"
+      },
+      {
+        "url": "https://feelitrecordshop.com/products/bowie-david-hallo-spaceboy-lp?variant=48737576091871",
+        "sha256": "8f8c5a0081ce7e1518f7628d55d9f7320f165806b0cab443217917242d61a2ce"
+      }
+    ],
+    "listing_records": 8,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 8,
+      "unique_prices": 7,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 3,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39373494403"
+    },
+    {
+      "batch": 19,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41175596255"
+    },
+    {
+      "batch": 20,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41282025830"
+    },
+    {
+      "batch": 21,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41401606761"
+    }
+  ]
+}
