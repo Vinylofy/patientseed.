@@ -1,0 +1,70 @@
+{
+  "fingerprint": "b6f15d173fb64dd60209ff7372b2aaef1f867da09e9e83b0f685bf7c4229a1aa",
+  "domain": "drinksrecords.com",
+  "batch": 21,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41401606761",
+  "updated_at": "2026-11-02T06:42:47.693417+00:00",
+  "evidence": {
+    "domain": "drinksrecords.com",
+    "route": "https://drinksrecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-02T06:42:46.294406+00:00",
+    "requests": [
+      {
+        "url": "https://drinksrecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "5ba34c66f3d5e85104c7dbe598c2231ac8bb59b523664122f2f81132fd3f8643"
+      },
+      {
+        "url": "https://drinksrecords.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-limited-edition-blue-lp?variant=51923375718703",
+        "sha256": "8beee19514e44e9fa5e94efb98148fe412dfbd8ae91b0ac35fffc4fc97f01e8e"
+      }
+    ],
+    "listing_records": 20,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 20,
+      "unique_prices": 10,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 2,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39203245483"
+    },
+    {
+      "batch": 19,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41175596255"
+    },
+    {
+      "batch": 20,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41282025830"
+    },
+    {
+      "batch": 21,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41401606761"
+    }
+  ]
+}
