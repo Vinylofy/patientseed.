@@ -1,0 +1,100 @@
+{
+  "fingerprint": "191a78f3cd0a4ebe4470ae48fb5373309d06d637aa906604dec9650995c051ae",
+  "domain": "evergreenvinyl.com",
+  "batch": 21,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41401606761",
+  "updated_at": "2026-11-02T06:43:01.911694+00:00",
+  "evidence": {
+    "domain": "evergreenvinyl.com",
+    "route": "https://evergreenvinyl.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-02T06:42:58.477617+00:00",
+    "requests": [
+      {
+        "url": "https://evergreenvinyl.com/products.json?limit=20&page=1",
+        "sha256": "61a746e144db692b71444a9b0d0cea1c00ed0240930a6ccf07650aae11c289cd"
+      },
+      {
+        "url": "https://evergreenvinyl.com/products/parliament-the-clones-of-dr-funkenstein-vinyl?variant=67505617076382",
+        "sha256": "027090e527511777198dc2fadb3bd8299e625a3ca77dd6b03ced9a62dec2b93c"
+      },
+      {
+        "url": "https://evergreenvinyl.com/products/funkadelic-free-your-mind-and-your-ass-will-follow-blue-mist-vinyl?variant=48229922341022",
+        "sha256": "db40ea55025676db70d0bda253eef36496603aeecf5ad2fc834163b36323b995"
+      },
+      {
+        "url": "https://evergreenvinyl.com/products/gracie-abrams-daughter-from-hell-signed-insert-vinyl?variant=67846055657630",
+        "sha256": "8dae3d88539511cc640d7c4e6562829eac17cbb28cdfb070f6e9cffcf0a08028"
+      }
+    ],
+    "listing_records": 7,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://evergreenvinyl.com/products/parliament-the-clones-of-dr-funkenstein-vinyl?variant=67505617076382",
+        "price": "30.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://evergreenvinyl.com/products/funkadelic-free-your-mind-and-your-ass-will-follow-blue-mist-vinyl?variant=48229922341022",
+        "price": "37.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://evergreenvinyl.com/products/gracie-abrams-daughter-from-hell-signed-insert-vinyl?variant=67846055657630",
+        "price": "56.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 7,
+      "unique_prices": 6,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 2,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39203245483"
+    },
+    {
+      "batch": 19,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41175596255"
+    },
+    {
+      "batch": 20,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41282025830"
+    },
+    {
+      "batch": 21,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41401606761"
+    }
+  ]
+}
