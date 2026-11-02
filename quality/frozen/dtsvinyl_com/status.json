@@ -1,0 +1,70 @@
+{
+  "fingerprint": "f6d7198ce584f7416f85ca61eb62d9ff8479b6cebd4f644628e17694d3807224",
+  "domain": "dtsvinyl.com",
+  "batch": 21,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41401606761",
+  "updated_at": "2026-11-02T06:42:49.907226+00:00",
+  "evidence": {
+    "domain": "dtsvinyl.com",
+    "route": "https://dtsvinyl.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-02T06:42:47.729091+00:00",
+    "requests": [
+      {
+        "url": "https://dtsvinyl.com/products.json?limit=20&page=1",
+        "sha256": "c96f6093440891c30c8831d3bb396ab5778a7b83d03161ef629bf1bb9c1d5530"
+      },
+      {
+        "url": "https://dtsvinyl.com/products/pretty-in-pink-ost?variant=49128226160740",
+        "sha256": "57df95046608e879ae81e8cf17d5c5b9f74fab25b83385872eef10bf1a7b3127"
+      }
+    ],
+    "listing_records": 2,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 2,
+      "unique_prices": 2,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 2,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39203245483"
+    },
+    {
+      "batch": 19,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41175596255"
+    },
+    {
+      "batch": 20,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41282025830"
+    },
+    {
+      "batch": 21,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41401606761"
+    }
+  ]
+}
