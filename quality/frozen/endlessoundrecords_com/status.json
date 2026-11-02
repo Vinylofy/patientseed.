@@ -1,0 +1,70 @@
+{
+  "fingerprint": "dbcd8df7953ba725b3ee0b22e724542e2b72492bd7e7cace4dc729973f7a1d9d",
+  "domain": "endlessoundrecords.com",
+  "batch": 21,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41401606761",
+  "updated_at": "2026-11-02T06:42:55.425381+00:00",
+  "evidence": {
+    "domain": "endlessoundrecords.com",
+    "route": "https://endlessoundrecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-02T06:42:53.696762+00:00",
+    "requests": [
+      {
+        "url": "https://endlessoundrecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "b785f8157e08d6655df266be7e9a72c8b03eb60c13e1759cac1d0ee7417faa90"
+      },
+      {
+        "url": "https://endlessoundrecords.com/products/070-shake-modus-vivendi?variant=53080194875503",
+        "sha256": "5227867e5fff7b41a2df05ee615433ff0ac1b2d0d6aac6079780c15b59f80bc3"
+      }
+    ],
+    "listing_records": 17,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 17,
+      "unique_prices": 9,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 2,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39203245483"
+    },
+    {
+      "batch": 19,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41175596255"
+    },
+    {
+      "batch": 20,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41282025830"
+    },
+    {
+      "batch": 21,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41401606761"
+    }
+  ]
+}
