@@ -1,0 +1,70 @@
+{
+  "fingerprint": "4bfcf29a471736cc47c68ad768a54b1635347889167f1c71fb6c182f31b3bf1b",
+  "domain": "endorecords.com",
+  "batch": 21,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41401606761",
+  "updated_at": "2026-11-02T06:42:58.442301+00:00",
+  "evidence": {
+    "domain": "endorecords.com",
+    "route": "https://endorecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-02T06:42:57.067742+00:00",
+    "requests": [
+      {
+        "url": "https://endorecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "ad7679307761aed339909e483a136eabacaf771c917a1c7aa82523cd03582b06"
+      },
+      {
+        "url": "https://endorecords.com/products/198391598197?variant=52948937277754",
+        "sha256": "f0189cd873072da5b4f393adc405e374fe64b5eeb31aa85d82af5ef30b6361ff"
+      }
+    ],
+    "listing_records": 5,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 5,
+      "unique_prices": 5,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 2,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39203245483"
+    },
+    {
+      "batch": 19,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41175596255"
+    },
+    {
+      "batch": 20,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41282025830"
+    },
+    {
+      "batch": 21,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41401606761"
+    }
+  ]
+}
