@@ -1,0 +1,100 @@
+{
+  "fingerprint": "71f991b4f166674fc11dbcf3c34a1a3588687ffedfae89408ab2190e1ab5b9c2",
+  "domain": "fullhausrecords.com",
+  "batch": 22,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41594566238",
+  "updated_at": "2026-11-03T07:10:54.868617+00:00",
+  "evidence": {
+    "domain": "fullhausrecords.com",
+    "route": "https://fullhausrecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-03T07:10:51.593628+00:00",
+    "requests": [
+      {
+        "url": "https://fullhausrecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "458fb01e4bcb7286d5f2e2acf183ececd489ca1512a94daafb1f90a3c9195f96"
+      },
+      {
+        "url": "https://fullhausrecords.com/products/10-pack-12-plastic-anti-static-inner-sleeves?variant=48956804170031",
+        "sha256": "b321929a9a0cec21b4278fbbfeb62428d155fca07ccbbaad0fa0cfe272e2f911"
+      },
+      {
+        "url": "https://fullhausrecords.com/products/10-pack-12-vinyl-record-outer-sleeves?variant=48956759834927",
+        "sha256": "c6af3cf389ab19e308649aca77fbadf6bf83486264f9a934bdb2de8ae5748fd0"
+      },
+      {
+        "url": "https://fullhausrecords.com/products/2-hungry-bros-featuring-homeboy-sandman-12-lp?variant=57061156192559",
+        "sha256": "3946d1948f8e51df019ec650f073575edafc9701816205e4f38a39aa4d1ec4d4"
+      }
+    ],
+    "listing_records": 3,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://fullhausrecords.com/products/10-pack-12-plastic-anti-static-inner-sleeves?variant=48956804170031",
+        "price": "3.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://fullhausrecords.com/products/10-pack-12-vinyl-record-outer-sleeves?variant=48956759834927",
+        "price": "5.50",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://fullhausrecords.com/products/2-hungry-bros-featuring-homeboy-sandman-12-lp?variant=57061156192559",
+        "price": "24.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 3,
+      "unique_prices": 3,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 3,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39373494403"
+    },
+    {
+      "batch": 20,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41282025830"
+    },
+    {
+      "batch": 21,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41401606761"
+    },
+    {
+      "batch": 22,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41594566238"
+    }
+  ]
+}
