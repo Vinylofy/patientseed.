@@ -3477,7 +3477,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | greatesthitsofficial.com | 22 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | gryphonswing.com | 14 | APPROVED | 1 | 9 | 3/3 | ACTIVE (run 41611684656) | ACTIVE (run 41623299913) | run 40272946607 |
 | headlinerecords.com | 22 | REVIEW | 1 | 3 | 0/0 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
-| highvoltagevinyl.com | 3 | APPROVED | 0 | 19 | 3/3 | ACTIVE (run 41611684656) | ACTIVE | run 39373494403 |
+| highvoltagevinyl.com | 3 | APPROVED | 0 | 19 | 3/3 | ACTIVE (run 41611684656) | ACTIVE (run 41623299913) | run 39373494403 |
 | hivoltagerecords.com | 22 | APPROVED | 1 | 20 | 3/3 | ACTIVE (run 41611684656) | ACTIVE | run 41594566238 |
 | hollowbonerecords.com | 22 | REVIEW | 1 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | homerulerecords.com | 22 | REVIEW | 1 | 18 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
