@@ -3467,7 +3467,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | freshproducerecords.com | 22 | FROZEN | 3 | 7 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | fullhausrecords.com | 22 | FROZEN | 3 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | furtherrecords.com | 22 | FROZEN | 3 | 8 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| getresurrected.com | 3 | APPROVED | 0 | 14 | 3/3 | ACTIVE (run 41611684656) | ACTIVE | run 39373494403 |
+| getresurrected.com | 3 | APPROVED | 0 | 14 | 3/3 | ACTIVE (run 41611684656) | ACTIVE (run 41623299913) | run 39373494403 |
 | goingundergroundrecords.com | 22 | REVIEW | 2 | 7 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | goner-records.com | 22 | REVIEW | 2 | 3 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | goodtasterecords.com | 22 | REVIEW | 2 | 17 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
