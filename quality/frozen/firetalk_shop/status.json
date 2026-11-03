@@ -1,0 +1,100 @@
+{
+  "fingerprint": "5cc1385f963456f0dc6d14f3a837f34b24d8a5cda0181aafd9d1e3cfd3c8a7de",
+  "domain": "firetalk.shop",
+  "batch": 22,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41594566238",
+  "updated_at": "2026-11-03T07:10:48.710178+00:00",
+  "evidence": {
+    "domain": "firetalk.shop",
+    "route": "https://firetalk.shop/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-03T07:10:45.397347+00:00",
+    "requests": [
+      {
+        "url": "https://firetalk.shop/collections/all/products.json?limit=20&page=1",
+        "sha256": "834b95564a391b43d4bcc1ac98eb1aa5870d390e79d956324e9f6767052025cd"
+      },
+      {
+        "url": "https://firetalk.shop/products/29-speedway-ultrabody-black-vinyl?variant=50462986141927",
+        "sha256": "1d640c514477d5695f9054aae4a8ea79d0fe7b030fd4367871a44502c4526a0c"
+      },
+      {
+        "url": "https://firetalk.shop/products/adeline-hotel-hot-fruit-black-vinyl?variant=50512079552743",
+        "sha256": "1b04b4517de8bc764959e4c2334cfd22bf86536d52c4ee8c5bc340fa39b54d5b"
+      },
+      {
+        "url": "https://firetalk.shop/products/aldous-harding-train-on-the-island-limited-edition-color-vinyl?variant=52054750724327",
+        "sha256": "699de02f7a1645b906000f450c73d50ac76efd1d75311857c86c172d850478ef"
+      }
+    ],
+    "listing_records": 20,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://firetalk.shop/products/29-speedway-ultrabody-black-vinyl?variant=50462986141927",
+        "price": "26.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://firetalk.shop/products/adeline-hotel-hot-fruit-black-vinyl?variant=50512079552743",
+        "price": "22.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://firetalk.shop/products/aldous-harding-train-on-the-island-limited-edition-color-vinyl?variant=52054750724327",
+        "price": "28.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 20,
+      "unique_prices": 8,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 3,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39373494403"
+    },
+    {
+      "batch": 20,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41282025830"
+    },
+    {
+      "batch": 21,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41401606761"
+    },
+    {
+      "batch": 22,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41594566238"
+    }
+  ]
+}
