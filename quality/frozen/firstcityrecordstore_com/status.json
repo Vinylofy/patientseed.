@@ -1,0 +1,70 @@
+{
+  "fingerprint": "d88387323e4e0fbdb83a092db1a1d989efd497b7950ac15f6da89c155b14f216",
+  "domain": "firstcityrecordstore.com",
+  "batch": 22,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41594566238",
+  "updated_at": "2026-11-03T07:10:50.031577+00:00",
+  "evidence": {
+    "domain": "firstcityrecordstore.com",
+    "route": "https://firstcityrecordstore.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-03T07:10:48.749093+00:00",
+    "requests": [
+      {
+        "url": "https://firstcityrecordstore.com/products.json?limit=20&page=1",
+        "sha256": "29ad099a144d1b57a84c6b9ed51908304474626025b10ba4b03bd7cc8d5f228a"
+      },
+      {
+        "url": "https://firstcityrecordstore.com/products/royal-blood-dead-company-indie-exclusive-red-vinyl?variant=51011887726811",
+        "sha256": "f09f8a5e91147173d7252af20029174f096836baf575e5ff586c2a71d8af8bb6"
+      }
+    ],
+    "listing_records": 6,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 6,
+      "unique_prices": 6,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 3,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39373494403"
+    },
+    {
+      "batch": 20,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41282025830"
+    },
+    {
+      "batch": 21,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41401606761"
+    },
+    {
+      "batch": 22,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41594566238"
+    }
+  ]
+}
