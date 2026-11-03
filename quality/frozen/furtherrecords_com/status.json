@@ -1,0 +1,100 @@
+{
+  "fingerprint": "80d8c385e856b58bec38e1ceb062e177ade528d88ad4ab3d54a8196b617613c7",
+  "domain": "furtherrecords.com",
+  "batch": 22,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41594566238",
+  "updated_at": "2026-11-03T07:10:58.240537+00:00",
+  "evidence": {
+    "domain": "furtherrecords.com",
+    "route": "https://furtherrecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-03T07:10:54.907270+00:00",
+    "requests": [
+      {
+        "url": "https://furtherrecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "46e02d506efecdff479fd8efcf839b0c04889ec3b5b9c23487cbad6e111ea39e"
+      },
+      {
+        "url": "https://furtherrecords.com/products/louden-up-now-2xlp?variant=44915436486902",
+        "sha256": "cb08fdb3f7f430496a8cb057a9de12b3665839264d45a5b85b2746fd32c869c8"
+      },
+      {
+        "url": "https://furtherrecords.com/products/lectric-workers-featuring-funny-randon-the-garden-12?variant=44611859874038",
+        "sha256": "caeb1c957bce26286b064e1c81c0b0463a8cdafa10f0521ee0ec89e7ba09a6d5"
+      },
+      {
+        "url": "https://furtherrecords.com/products/1-800-techno-for-several-eternals-before-there-were-years-12?variant=49966791000310",
+        "sha256": "13e8d24e3bb38fa9c12af7113c715fe8b005fce05d128f88ab4d378923f425e6"
+      }
+    ],
+    "listing_records": 8,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://furtherrecords.com/products/louden-up-now-2xlp?variant=44915436486902",
+        "price": "24.95",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://furtherrecords.com/products/lectric-workers-featuring-funny-randon-the-garden-12?variant=44611859874038",
+        "price": "14.95",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://furtherrecords.com/products/1-800-techno-for-several-eternals-before-there-were-years-12?variant=49966791000310",
+        "price": "19.95",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 8,
+      "unique_prices": 4,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 3,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39373494403"
+    },
+    {
+      "batch": 20,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41282025830"
+    },
+    {
+      "batch": 21,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41401606761"
+    },
+    {
+      "batch": 22,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41594566238"
+    }
+  ]
+}
