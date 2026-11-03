@@ -1,35 +1,35 @@
 {
   "fingerprint": "676a376e77ac296237d8f6b30187a3a3ed0c7d91ec7833334f49c6df997ed8bb",
   "domain": "maplecitymusic.com",
-  "batch": 17,
+  "batch": 22,
   "repair_attempts": 3,
   "repair_modes": [
-    "ean"
+    "price"
   ],
   "admitted": true,
   "status": "FROZEN",
-  "run_id": "40828686930",
-  "updated_at": "2026-10-29T06:21:31.511708+00:00",
+  "run_id": "41594566238",
+  "updated_at": "2026-11-03T07:10:45.355042+00:00",
   "evidence": {
     "domain": "maplecitymusic.com",
     "route": "https://maplecitymusic.com/collections/all/products.json?limit=20&page=1",
-    "observed_at": "2026-10-29T06:21:27.970111+00:00",
+    "observed_at": "2026-11-03T07:10:41.935880+00:00",
     "requests": [
       {
         "url": "https://maplecitymusic.com/collections/all/products.json?limit=20&page=1",
-        "sha256": "7e568d02c360dc4993440f63f29050bef56ef286cd95f8252e24349993404f97"
+        "sha256": "1cf8a07dc6de9de0d77a5bf0d6fc3ec6c9b8a1561faacfb83213148ccae92580"
       },
       {
         "url": "https://maplecitymusic.com/products/38-special-rockin-into-the-night-used?variant=47310832533681",
-        "sha256": "01f0d17c5f746926b0fd1dd613a96ca2d5d28d3bbbe13a01bfa257ba9d77bd8d"
+        "sha256": "60a832b04860360abadc35fc67c9213131a4b3b8f942e376143141ac246c4ffc"
       },
       {
         "url": "https://maplecitymusic.com/products/38-special-strength-in-numbers-vinyl-lp-album-club-edition-1986-a-m-records-sp-5115?variant=47453974593713",
-        "sha256": "42742925de93eee5e165bfcd827a5bf688340aaa7a7e8586370a8f07a2fce43a"
+        "sha256": "10d4572b2d3d6bc577d8eada37d7ee942d21b01285f6a03ce4a6e5c14f2807d8"
       },
       {
         "url": "https://maplecitymusic.com/products/38-special-wild-eyed-southern-boys-used?variant=47310832500913",
-        "sha256": "bcd0826502d0df44eb9ae0b4f8940fe27a78939eb594829eb0665d453d4cfbe7"
+        "sha256": "dfc9da9f89ca9a472905f554338479c5c897133ca8ac28c53c94f3b4adbb639c"
       }
     ],
     "listing_records": 4,
@@ -97,6 +97,24 @@
       "status": "FROZEN",
       "reason": "detail_ean_not_proven",
       "run_id": "40828686930"
+    },
+    {
+      "batch": 20,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41282025830"
+    },
+    {
+      "batch": 21,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41401606761"
+    },
+    {
+      "batch": 22,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41594566238"
     }
   ],
   "admission_evidence": {
