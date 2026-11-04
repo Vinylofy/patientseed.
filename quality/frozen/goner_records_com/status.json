@@ -1,0 +1,70 @@
+{
+  "fingerprint": "6fe10ca28b19cebd74fad1dde66ab35d9ecdf3181667bc514963d794a26a7b85",
+  "domain": "goner-records.com",
+  "batch": 23,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41788712609",
+  "updated_at": "2026-11-04T06:55:31.423179+00:00",
+  "evidence": {
+    "domain": "goner-records.com",
+    "route": "https://goner-records.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-04T06:55:30.001751+00:00",
+    "requests": [
+      {
+        "url": "https://goner-records.com/products.json?limit=20&page=1",
+        "sha256": "715c34491b4699c040b0bab7d830b1e1e3a2b01bd77947f46a78f067524411ad"
+      },
+      {
+        "url": "https://goner-records.com/products/james-brandon-lewis-red-lily-calling-antonin-lp-tao-forms?variant=68091314045141",
+        "sha256": "d9f9ced7b1bc4107575589c2477aa91e9f39ba0263eaca633da232460152fa19"
+      }
+    ],
+    "listing_records": 4,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 4,
+      "unique_prices": 3,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 3,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39373494403"
+    },
+    {
+      "batch": 21,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41401606761"
+    },
+    {
+      "batch": 22,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41594566238"
+    },
+    {
+      "batch": 23,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41788712609"
+    }
+  ]
+}
