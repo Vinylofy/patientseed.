@@ -1,0 +1,78 @@
+{
+  "fingerprint": "e5b59bfe297f1527013c151f0d9b156a676d9d23871449752601cd06ed8b8e8e",
+  "domain": "gramaphonerecords.com",
+  "batch": 23,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41788712609",
+  "updated_at": "2026-11-04T06:55:34.296665+00:00",
+  "evidence": {
+    "domain": "gramaphonerecords.com",
+    "route": "https://gramaphonerecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-04T06:55:32.874016+00:00",
+    "requests": [
+      {
+        "url": "https://gramaphonerecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "8c17e26cded3ca3bf9ac15f52215e24566107d1005489d7bf64a3a41f7ef28ff"
+      },
+      {
+        "url": "https://gramaphonerecords.com/products/2601-untitled?variant=52695825711402",
+        "sha256": "ec0ce227a91f3658a340822bd65d11c9be344a52cacf07be059c66796e79e85a"
+      }
+    ],
+    "listing_records": 1,
+    "detail_checked": 1,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://gramaphonerecords.com/products/2601-untitled?variant=52695825711402",
+        "price": "24.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 1,
+      "unique_prices": 1,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 3,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39373494403"
+    },
+    {
+      "batch": 21,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41401606761"
+    },
+    {
+      "batch": 22,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41594566238"
+    },
+    {
+      "batch": 23,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41788712609"
+    }
+  ]
+}
