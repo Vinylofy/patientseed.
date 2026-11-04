@@ -1,0 +1,70 @@
+{
+  "fingerprint": "fe57a2c361e8db939338b3e669cfaca059c5d3e08b0212b64167ac73b0e3b95e",
+  "domain": "goodtasterecords.com",
+  "batch": 23,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41788712609",
+  "updated_at": "2026-11-04T06:55:32.837617+00:00",
+  "evidence": {
+    "domain": "goodtasterecords.com",
+    "route": "https://goodtasterecords.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-04T06:55:31.459465+00:00",
+    "requests": [
+      {
+        "url": "https://goodtasterecords.com/products.json?limit=20&page=1",
+        "sha256": "368650b99062df8195033745c3e7a46360eee4af2f0d60e9c838f2238d6c5d5a"
+      },
+      {
+        "url": "https://goodtasterecords.com/products/aaron-frazer-same-old-game-b-w-let-your-love-grow-opaque-red-color-vinyl-7?variant=43467119165649",
+        "sha256": "afcd32e9d058aae6b06a94f8bd47136526d489a5a3daab93f7900d149a8489e1"
+      }
+    ],
+    "listing_records": 17,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 17,
+      "unique_prices": 11,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 3,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39373494403"
+    },
+    {
+      "batch": 21,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41401606761"
+    },
+    {
+      "batch": 22,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41594566238"
+    },
+    {
+      "batch": 23,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41788712609"
+    }
+  ]
+}
