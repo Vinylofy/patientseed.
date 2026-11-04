@@ -1,0 +1,70 @@
+{
+  "fingerprint": "d0b33b7a272282fd5639e7bf820573b003329d2d8a64951cc8c474be0d08c9bb",
+  "domain": "goingundergroundrecords.com",
+  "batch": 23,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41788712609",
+  "updated_at": "2026-11-04T06:55:29.965438+00:00",
+  "evidence": {
+    "domain": "goingundergroundrecords.com",
+    "route": "https://goingundergroundrecords.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-04T06:55:28.381202+00:00",
+    "requests": [
+      {
+        "url": "https://goingundergroundrecords.com/products.json?limit=20&page=1",
+        "sha256": "d596d52f6648291fcf9675437f77f61631ec75897fa48cec3144f5d7913990b5"
+      },
+      {
+        "url": "https://goingundergroundrecords.com/products/merzbow-hexa-achromatic?variant=67944956985657",
+        "sha256": "728b92dfbdd1f9073ddcda7ce41dfec25a6f05eb4356c485bce14df714279c98"
+      }
+    ],
+    "listing_records": 6,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 6,
+      "unique_prices": 6,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 3,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39373494403"
+    },
+    {
+      "batch": 21,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41401606761"
+    },
+    {
+      "batch": 22,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41594566238"
+    },
+    {
+      "batch": 23,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41788712609"
+    }
+  ]
+}
