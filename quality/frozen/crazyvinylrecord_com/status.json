@@ -1,0 +1,126 @@
+{
+  "fingerprint": "5e1d57073a5e2700555cbf596b56997f950785833d360c75fab370ef70e0cd06",
+  "domain": "crazyvinylrecord.com",
+  "batch": 23,
+  "repair_attempts": 3,
+  "repair_modes": [
+    "ean",
+    "price"
+  ],
+  "admitted": true,
+  "status": "FROZEN",
+  "run_id": "41788712609",
+  "updated_at": "2026-11-04T06:55:28.344871+00:00",
+  "evidence": {
+    "domain": "crazyvinylrecord.com",
+    "route": "https://crazyvinylrecord.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-04T06:55:27.007242+00:00",
+    "requests": [
+      {
+        "url": "https://crazyvinylrecord.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "afd977fc921008fc5085867d1bc7977391cf15655375f7b203255be4fc3c5ec6"
+      },
+      {
+        "url": "https://crazyvinylrecord.com/products/45-small-vinyl-7-inches?variant=40863358845001",
+        "sha256": "e22f0ec316f4d90af19eaf6eed05d9ffae593741cfb98c7d7e4e552848e9f3d8"
+      }
+    ],
+    "listing_records": 1,
+    "detail_checked": 1,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://crazyvinylrecord.com/products/45-small-vinyl-7-inches?variant=40863358845001",
+        "price": "3.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 1,
+      "unique_prices": 1,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 2,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "39203245483"
+    },
+    {
+      "batch": 20,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41282025830"
+    },
+    {
+      "batch": 21,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41401606761"
+    },
+    {
+      "batch": 22,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41594566238"
+    },
+    {
+      "batch": 23,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41788712609"
+    }
+  ],
+  "admission_evidence": {
+    "domain": "crazyvinylrecord.com",
+    "route": "https://crazyvinylrecord.com/products.json?limit=20&page=1",
+    "observed_at": "2026-10-19T05:11:48.471944+00:00",
+    "requests": [
+      {
+        "url": "https://crazyvinylrecord.com/products.json?limit=20&page=1",
+        "sha256": "8c5ca07e310846345e5a75887025cdfc514e944244a37ab75e1fd905709bdc80"
+      },
+      {
+        "url": "https://crazyvinylrecord.com/products/desorden-publico-salsa-all-ska-vinyl?variant=67636426145865",
+        "sha256": "b2a2694ce0cc407be7d3939c336732e8cec1b3626ad8afc93ad5f6a17fd2d744"
+      }
+    ],
+    "listing_records": 1,
+    "detail_checked": 1,
+    "valid_eans": 1,
+    "details": [
+      {
+        "url": "https://crazyvinylrecord.com/products/desorden-publico-salsa-all-ska-vinyl?variant=67636426145865",
+        "price": "32.00",
+        "currency": "USD",
+        "ean": "07591808000161",
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 1,
+      "unique_prices": 1,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "APPROVED"
+  }
+}
