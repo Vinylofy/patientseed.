@@ -1,0 +1,70 @@
+{
+  "fingerprint": "9a5ee1ed09618c295a4f6338d9f7bf614931062bb98dc519594eaab8abcf15e7",
+  "domain": "jackpotrecords.com",
+  "batch": 24,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41986126217",
+  "updated_at": "2026-11-05T07:17:16.775155+00:00",
+  "evidence": {
+    "domain": "jackpotrecords.com",
+    "route": "https://jackpotrecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-05T07:17:15.535854+00:00",
+    "requests": [
+      {
+        "url": "https://jackpotrecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "1e20373734d8a642bba0d0c01790209ae1dab8dd0610b320fe46e37acbc20c4b"
+      },
+      {
+        "url": "https://jackpotrecords.com/products/out-of-the-blue?variant=47745263534298",
+        "sha256": "74caa3df0e7e3086450016532bcf9d1b3263cf2eae47243790f1323345f7be00"
+      }
+    ],
+    "listing_records": 18,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 18,
+      "unique_prices": 10,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 4,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39548302912"
+    },
+    {
+      "batch": 22,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41594566238"
+    },
+    {
+      "batch": 23,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41788712609"
+    },
+    {
+      "batch": 24,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41986126217"
+    }
+  ]
+}
