@@ -1,0 +1,100 @@
+{
+  "fingerprint": "26c80b87425b0424bb98a532e6ed8e8370f2da002596aa09272a463a24dfc952",
+  "domain": "jgsvinylandmore.com",
+  "batch": 24,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41986126217",
+  "updated_at": "2026-11-05T07:17:20.365359+00:00",
+  "evidence": {
+    "domain": "jgsvinylandmore.com",
+    "route": "https://jgsvinylandmore.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-05T07:17:17.022524+00:00",
+    "requests": [
+      {
+        "url": "https://jgsvinylandmore.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "8664a0c70ea7a6021d2c7e2f56c00199b9449ddeca2a68f4389b19c4a5f1a02a"
+      },
+      {
+        "url": "https://jgsvinylandmore.com/products/68-in-humor-and-sadness-hot-pink-white-marble?variant=52891733983551",
+        "sha256": "88660a54c8a065ef83cc6f3809287ca358cfdaf7c3118f5a472bf77aa98ada85"
+      },
+      {
+        "url": "https://jgsvinylandmore.com/products/wish-you-were-here-50th-anniversary-yellow-flame-lp-vinyl?variant=55528811299135",
+        "sha256": "2a8f593d9622c7db181c81786cc897d3a3aec3e0617800bbc527e8f55ecb2b72"
+      },
+      {
+        "url": "https://jgsvinylandmore.com/products/1985-scorpions-world-wide-live-2-lp-vinyl-44-1?variant=55528813822271",
+        "sha256": "64122cd47e559ba30f1dee0a4c0b316a92110d91562f641f5313ad46ebb039fd"
+      }
+    ],
+    "listing_records": 3,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://jgsvinylandmore.com/products/68-in-humor-and-sadness-hot-pink-white-marble?variant=52891733983551",
+        "price": "23.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://jgsvinylandmore.com/products/wish-you-were-here-50th-anniversary-yellow-flame-lp-vinyl?variant=55528811299135",
+        "price": "46.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://jgsvinylandmore.com/products/1985-scorpions-world-wide-live-2-lp-vinyl-44-1?variant=55528813822271",
+        "price": "29.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 3,
+      "unique_prices": 3,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 4,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39548302912"
+    },
+    {
+      "batch": 22,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41594566238"
+    },
+    {
+      "batch": 23,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41788712609"
+    },
+    {
+      "batch": 24,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41986126217"
+    }
+  ]
+}
