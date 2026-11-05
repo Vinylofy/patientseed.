@@ -1,0 +1,70 @@
+{
+  "fingerprint": "39119e1496d2273fd830130ac89c9121acaa42129669b689453c2aadf8359045",
+  "domain": "grapefruitrecordclub.com",
+  "batch": 24,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41986126217",
+  "updated_at": "2026-11-05T07:17:05.997580+00:00",
+  "evidence": {
+    "domain": "grapefruitrecordclub.com",
+    "route": "https://grapefruitrecordclub.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-05T07:17:04.722574+00:00",
+    "requests": [
+      {
+        "url": "https://grapefruitrecordclub.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "21038343194cbfc70bb2718652a09936ca2d5e993888d010adfc429f90630a47"
+      },
+      {
+        "url": "https://grapefruitrecordclub.com/products/13th-floor-elevators-easter-everywhere-lp?variant=43116480102608",
+        "sha256": "a9ffc1ccb3cc8565d75a2aa1e169b49cae4cd4f0b25dcf5468d55c178b6af923"
+      }
+    ],
+    "listing_records": 18,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 18,
+      "unique_prices": 12,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 3,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39373494403"
+    },
+    {
+      "batch": 22,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41594566238"
+    },
+    {
+      "batch": 23,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41788712609"
+    },
+    {
+      "batch": 24,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41986126217"
+    }
+  ]
+}
