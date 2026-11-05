@@ -1,0 +1,70 @@
+{
+  "fingerprint": "48bcecddde52789d7f8cbc3a42df20f7a69c55ffac3e670be733c7a26248381c",
+  "domain": "homerulerecords.com",
+  "batch": 24,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41986126217",
+  "updated_at": "2026-11-05T07:17:10.426841+00:00",
+  "evidence": {
+    "domain": "homerulerecords.com",
+    "route": "https://homerulerecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-05T07:17:09.238879+00:00",
+    "requests": [
+      {
+        "url": "https://homerulerecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "2883ce3976db9bb5b66541a84f72e2c1e638c9a2b081735425c1f04447010a54"
+      },
+      {
+        "url": "https://homerulerecords.com/products/wild-bill-davison-and-his-commodores-dixieland-jazz-jamboree-instrumental-improvizations-by-wild-bill-davison-and-his-commodores-volume-two?variant=45581607141442",
+        "sha256": "eae1dba59ed9f4daf89acdcf5d1edb7e571b8e2e5a269c4e6ca51ce605e1e187"
+      }
+    ],
+    "listing_records": 18,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 18,
+      "unique_prices": 7,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 4,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39548302912"
+    },
+    {
+      "batch": 22,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41594566238"
+    },
+    {
+      "batch": 23,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41788712609"
+    },
+    {
+      "batch": 24,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41986126217"
+    }
+  ]
+}
