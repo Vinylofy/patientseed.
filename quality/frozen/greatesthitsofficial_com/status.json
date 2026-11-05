@@ -1,0 +1,56 @@
+{
+  "fingerprint": "c2d33ad1f414e0395a8d083368ce5662ac51e846d0477d74606c8e01736938b6",
+  "domain": "greatesthitsofficial.com",
+  "batch": 24,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41986126217",
+  "updated_at": "2026-11-05T07:17:06.464245+00:00",
+  "evidence": {
+    "domain": "greatesthitsofficial.com",
+    "route": "https://greatesthitsofficial.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-05T07:17:06.236885+00:00",
+    "requests": [
+      {
+        "url": "https://greatesthitsofficial.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "797048d6b82f1231fc9700551194fbcbe8df7a4c78d90f0ca4f0a19fae183f2f"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 3,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39373494403"
+    },
+    {
+      "batch": 22,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "41594566238"
+    },
+    {
+      "batch": 23,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "41788712609"
+    },
+    {
+      "batch": 24,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "41986126217"
+    }
+  ]
+}
