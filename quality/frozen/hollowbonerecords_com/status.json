@@ -1,0 +1,70 @@
+{
+  "fingerprint": "49659a2a805e7cbbcba3b371f0d818566bc33b942720ffb01aa2ddb28d757ca9",
+  "domain": "hollowbonerecords.com",
+  "batch": 24,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41986126217",
+  "updated_at": "2026-11-05T07:17:09.197787+00:00",
+  "evidence": {
+    "domain": "hollowbonerecords.com",
+    "route": "https://hollowbonerecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-05T07:17:07.792354+00:00",
+    "requests": [
+      {
+        "url": "https://hollowbonerecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "cdf580d5f863479852fb8a3c11f35af440a11cbf06e91456ca1d15662b039a52"
+      },
+      {
+        "url": "https://hollowbonerecords.com/products/uicideboy-thy-kingdom-come?variant=47621334008032",
+        "sha256": "4e42acbbb72ac41442c878dbdaa9ab86157a9dfcf2491650653c026808273a96"
+      }
+    ],
+    "listing_records": 19,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 19,
+      "unique_prices": 14,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 3,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39373494403"
+    },
+    {
+      "batch": 22,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41594566238"
+    },
+    {
+      "batch": 23,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41788712609"
+    },
+    {
+      "batch": 24,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41986126217"
+    }
+  ]
+}
