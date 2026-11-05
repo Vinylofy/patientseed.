@@ -1,0 +1,100 @@
+{
+  "fingerprint": "9ee22a3812cafb78c8031d549684be1aaf0aeafa3d554b5d3ee0633ccf1973ea",
+  "domain": "ihaterecords.com",
+  "batch": 24,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41986126217",
+  "updated_at": "2026-11-05T07:17:15.102985+00:00",
+  "evidence": {
+    "domain": "ihaterecords.com",
+    "route": "https://ihaterecords.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-05T07:17:11.785834+00:00",
+    "requests": [
+      {
+        "url": "https://ihaterecords.com/products.json?limit=20&page=1",
+        "sha256": "2d236befb56c9f33dc5c4afaa99c4dd0b0677c36de8a2f853617c9c65f312826"
+      },
+      {
+        "url": "https://ihaterecords.com/products/love-forever-changes?variant=67902923702332",
+        "sha256": "c26f407a7a71679c8ff1ae63bce1b9dd03bd2466ebb191bc4c8935bc70c80b0b"
+      },
+      {
+        "url": "https://ihaterecords.com/products/direct-hit-brainless-god-box-set?variant=67864483299388",
+        "sha256": "2e0043670be25b4f32435d8333ba126f0ce1bedaeaf2bdfb2fccdb841faa9fc6"
+      },
+      {
+        "url": "https://ihaterecords.com/products/gideon-eight-reasons-why?variant=67728835444796",
+        "sha256": "33a2f734bb25138a8630f625b372df63cefad0e8e89301363ae09dd1b07aad18"
+      }
+    ],
+    "listing_records": 19,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://ihaterecords.com/products/love-forever-changes?variant=67902923702332",
+        "price": "125.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://ihaterecords.com/products/direct-hit-brainless-god-box-set?variant=67864483299388",
+        "price": "75.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://ihaterecords.com/products/gideon-eight-reasons-why?variant=67728835444796",
+        "price": "50.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 19,
+      "unique_prices": 10,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 4,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39548302912"
+    },
+    {
+      "batch": 22,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41594566238"
+    },
+    {
+      "batch": 23,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41788712609"
+    },
+    {
+      "batch": 24,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41986126217"
+    }
+  ]
+}
