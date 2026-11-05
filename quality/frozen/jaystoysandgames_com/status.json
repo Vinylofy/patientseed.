@@ -1,0 +1,56 @@
+{
+  "fingerprint": "c052dac0abaccf25cd3eb147a069aef467ea67e342a6f99daf35617248453d4d",
+  "domain": "jaystoysandgames.com",
+  "batch": 24,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41986126217",
+  "updated_at": "2026-11-05T07:17:16.980716+00:00",
+  "evidence": {
+    "domain": "jaystoysandgames.com",
+    "route": "https://jaystoysandgames.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-05T07:17:16.815338+00:00",
+    "requests": [
+      {
+        "url": "https://jaystoysandgames.com/products.json?limit=20&page=1",
+        "sha256": "d1b61d613a556dc1d66be502a08684d8a348a91a8de4156d46f16a43bcc1820b"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 4,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39548302912"
+    },
+    {
+      "batch": 22,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "41594566238"
+    },
+    {
+      "batch": 23,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "41788712609"
+    },
+    {
+      "batch": 24,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "41986126217"
+    }
+  ]
+}
