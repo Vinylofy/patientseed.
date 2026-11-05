@@ -1,0 +1,100 @@
+{
+  "fingerprint": "73f73d8c99d2321de923534c05a0f944ccd2f4791848ab122d7661181ccbc691",
+  "domain": "joseyrecords.com",
+  "batch": 24,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41986126217",
+  "updated_at": "2026-11-05T07:17:23.704250+00:00",
+  "evidence": {
+    "domain": "joseyrecords.com",
+    "route": "https://joseyrecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-05T07:17:20.405626+00:00",
+    "requests": [
+      {
+        "url": "https://joseyrecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "6fefa225455cd7da8ac8f7da2c27083b17bb64673d7aa0a4776707271d89cf1e"
+      },
+      {
+        "url": "https://joseyrecords.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-limited-edition-blue-lp?variant=52267984159020",
+        "sha256": "b89c909dab06264570b550ad6202ebcfc2be9c9a0f3c0bd3a5369df92e50e367"
+      },
+      {
+        "url": "https://joseyrecords.com/products/pre-order-cruzados-best-of-cruzados-lp?variant=53208601919788",
+        "sha256": "e7984cbf59886c58ed59be700aac5644b97dd0194db0bc1546c0c59efe5017d5"
+      },
+      {
+        "url": "https://joseyrecords.com/products/king-crimson-islands-2026-elemental-mixesa-a-180-gram?variant=67654595805484",
+        "sha256": "2ff5731354955946f00b093fb9cae6533887d16f1bee3e6993e8b976ff0e66ea"
+      }
+    ],
+    "listing_records": 7,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://joseyrecords.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-limited-edition-blue-lp?variant=52267984159020",
+        "price": "27.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://joseyrecords.com/products/pre-order-cruzados-best-of-cruzados-lp?variant=53208601919788",
+        "price": "28.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://joseyrecords.com/products/king-crimson-islands-2026-elemental-mixesa-a-180-gram?variant=67654595805484",
+        "price": "36.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 7,
+      "unique_prices": 6,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 4,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39548302912"
+    },
+    {
+      "batch": 22,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41594566238"
+    },
+    {
+      "batch": 23,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41788712609"
+    },
+    {
+      "batch": 24,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41986126217"
+    }
+  ]
+}
