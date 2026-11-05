@@ -1,0 +1,70 @@
+{
+  "fingerprint": "5c52189e852a95fe843db5a301672bd5cd9a3f182a92e7b330f43f62d370bc07",
+  "domain": "hybridrecordstx.com",
+  "batch": 24,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41986126217",
+  "updated_at": "2026-11-05T07:17:11.746275+00:00",
+  "evidence": {
+    "domain": "hybridrecordstx.com",
+    "route": "https://hybridrecordstx.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-05T07:17:10.467383+00:00",
+    "requests": [
+      {
+        "url": "https://hybridrecordstx.com/products.json?limit=20&page=1",
+        "sha256": "289d9812bbf9dfe36f2b6ca043fcd291e357883c42624b7bd470aad4dd4d47e2"
+      },
+      {
+        "url": "https://hybridrecordstx.com/products/bauhaus-in-the-flat-field?variant=40049202692286",
+        "sha256": "a3a4387a2dbdb4331750796787b57b7d9477ec04e74c4007b5debce3e231e895"
+      }
+    ],
+    "listing_records": 15,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 15,
+      "unique_prices": 5,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 4,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39548302912"
+    },
+    {
+      "batch": 22,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41594566238"
+    },
+    {
+      "batch": 23,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41788712609"
+    },
+    {
+      "batch": 24,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41986126217"
+    }
+  ]
+}
