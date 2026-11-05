@@ -1,0 +1,70 @@
+{
+  "fingerprint": "c1096dd45d5b02af906c19036f71453ad8eb6e08e3be3632d27f4b4a0beee7f0",
+  "domain": "headlinerecords.com",
+  "batch": 24,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41986126217",
+  "updated_at": "2026-11-05T07:17:07.752207+00:00",
+  "evidence": {
+    "domain": "headlinerecords.com",
+    "route": "https://headlinerecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-05T07:17:06.503896+00:00",
+    "requests": [
+      {
+        "url": "https://headlinerecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "048e879330f7181b0d952e6bf926ea311a39b31337c4d2377afcf522468b77fb"
+      },
+      {
+        "url": "https://headlinerecords.com/products/louden-up-now?variant=45475305652534",
+        "sha256": "8ac8e8f9c8b63328ed411032fd9236538715a6ad4fee7e98c7fb744f5db4f426"
+      }
+    ],
+    "listing_records": 3,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 3,
+      "unique_prices": 3,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "invalid_detail_gtin",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 3,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39373494403"
+    },
+    {
+      "batch": 22,
+      "status": "REVIEW",
+      "reason": "invalid_detail_gtin",
+      "run_id": "41594566238"
+    },
+    {
+      "batch": 23,
+      "status": "REVIEW",
+      "reason": "invalid_detail_gtin",
+      "run_id": "41788712609"
+    },
+    {
+      "batch": 24,
+      "status": "FROZEN",
+      "reason": "invalid_detail_gtin",
+      "run_id": "41986126217"
+    }
+  ]
+}
