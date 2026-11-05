@@ -3497,7 +3497,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | loudpizza.com | 24 | REVIEW | 2 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | lovepeoplerecords.com | 4 | APPROVED | 0 | 12 | 3/3 | ACTIVE (run 42002685018) | ACTIVE | run 39548302912 |
 | lulorecords.com | 24 | REVIEW | 2 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
-| lunarecordshop.com | 4 | APPROVED | 0 | 17 | 3/3 | ACTIVE | ACTIVE | run 39548302912 |
+| lunarecordshop.com | 4 | APPROVED | 0 | 17 | 3/3 | ACTIVE (run 42002685018) | ACTIVE | run 39548302912 |
 | lunchboxrecords.com | 24 | REVIEW | 2 | 13 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | maemusic.com | 24 | REVIEW | 2 | 5 | 0/0 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
 | mancavenj.com | 24 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
