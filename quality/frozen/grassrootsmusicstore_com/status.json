@@ -1,0 +1,56 @@
+{
+  "fingerprint": "520cdbc2fef0689da55be5b11ae699ba5c4f82e994337e8034b487e9f0b6089a",
+  "domain": "grassrootsmusicstore.com",
+  "batch": 24,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "41986126217",
+  "updated_at": "2026-11-05T07:17:06.195687+00:00",
+  "evidence": {
+    "domain": "grassrootsmusicstore.com",
+    "route": "https://grassrootsmusicstore.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-05T07:17:06.037071+00:00",
+    "requests": [
+      {
+        "url": "https://grassrootsmusicstore.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "a56a8c09e0c8825f983d323d3376e4987d432b4282854e0be5d84ef4912f32b1"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 3,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39373494403"
+    },
+    {
+      "batch": 22,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "41594566238"
+    },
+    {
+      "batch": 23,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "41788712609"
+    },
+    {
+      "batch": 24,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "41986126217"
+    }
+  ]
+}
