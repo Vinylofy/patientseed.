@@ -1,0 +1,70 @@
+{
+  "fingerprint": "7e37c8e36b509daf459c743e1ce05856afe1b62064160c100822d59d68401784",
+  "domain": "ksolovintage.com",
+  "batch": 25,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42179971421",
+  "updated_at": "2026-11-06T07:18:26.123863+00:00",
+  "evidence": {
+    "domain": "ksolovintage.com",
+    "route": "https://ksolovintage.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-06T07:18:24.820278+00:00",
+    "requests": [
+      {
+        "url": "https://ksolovintage.com/products.json?limit=20&page=1",
+        "sha256": "3b9edfa4ad20b5114be4f87bce168102694f5ab186b58481e6e5446790287ccf"
+      },
+      {
+        "url": "https://ksolovintage.com/products/captain-beefheart-and-his-magic-band?variant=67686114394412",
+        "sha256": "b6767e572a672849f64aff83bf92354c37d12ab879a960f7519c8180b6f59982"
+      }
+    ],
+    "listing_records": 4,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 4,
+      "unique_prices": 4,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 4,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39548302912"
+    },
+    {
+      "batch": 23,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41788712609"
+    },
+    {
+      "batch": 24,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41986126217"
+    },
+    {
+      "batch": 25,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42179971421"
+    }
+  ]
+}
