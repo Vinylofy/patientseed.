@@ -1,0 +1,56 @@
+{
+  "fingerprint": "e5e0ee096348035cf529c17c196e0c28c0a62908ab6f63caf544fe959c3e6776",
+  "domain": "loudpizza.com",
+  "batch": 25,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42179971421",
+  "updated_at": "2026-11-06T07:18:28.025129+00:00",
+  "evidence": {
+    "domain": "loudpizza.com",
+    "route": "https://loudpizza.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-06T07:18:27.793730+00:00",
+    "requests": [
+      {
+        "url": "https://loudpizza.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "f05a6f2aa0f78b32eb10ddaef32fc4d9100629c92b2fcc79d3f5251422706808"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 4,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "39548302912"
+    },
+    {
+      "batch": 23,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "41788712609"
+    },
+    {
+      "batch": 24,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "41986126217"
+    },
+    {
+      "batch": 25,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "42179971421"
+    }
+  ]
+}
