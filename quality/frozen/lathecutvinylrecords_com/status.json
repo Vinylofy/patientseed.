@@ -1,0 +1,70 @@
+{
+  "fingerprint": "33499c1ba595facf8f4721177cf024517f309c1706f36c252aa8295ddb9fb092",
+  "domain": "lathecutvinylrecords.com",
+  "batch": 25,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42179971421",
+  "updated_at": "2026-11-06T07:18:27.756713+00:00",
+  "evidence": {
+    "domain": "lathecutvinylrecords.com",
+    "route": "https://lathecutvinylrecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-06T07:18:26.161084+00:00",
+    "requests": [
+      {
+        "url": "https://lathecutvinylrecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "1299cc61e1013f41a3e19c38a2aaf92a958bf9b078a5eaf5c5f4349113b982e4"
+      },
+      {
+        "url": "https://lathecutvinylrecords.com/products/10-lathe-cut-vinyl-record?variant=47062866133248",
+        "sha256": "058d6c7ff9ec83a3cfccdc4ed38f2f3a31b8235137c9e756203a4483a2e70a03"
+      }
+    ],
+    "listing_records": 20,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 20,
+      "unique_prices": 12,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 4,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39548302912"
+    },
+    {
+      "batch": 23,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41788712609"
+    },
+    {
+      "batch": 24,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41986126217"
+    },
+    {
+      "batch": 25,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42179971421"
+    }
+  ]
+}
