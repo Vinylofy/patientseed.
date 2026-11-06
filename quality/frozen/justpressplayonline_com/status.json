@@ -1,0 +1,78 @@
+{
+  "fingerprint": "df941c12bfa312bbeb2b6c8f5082a7d7cb3c2cc05fac3f25b485ddfae9d579d6",
+  "domain": "justpressplayonline.com",
+  "batch": 25,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42179971421",
+  "updated_at": "2026-11-06T07:18:24.781513+00:00",
+  "evidence": {
+    "domain": "justpressplayonline.com",
+    "route": "https://justpressplayonline.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-06T07:18:23.487136+00:00",
+    "requests": [
+      {
+        "url": "https://justpressplayonline.com/products.json?limit=20&page=1",
+        "sha256": "d484f0c5146b7dcc936c88a7c363b4bc4081bfc02e01c910fda6593a2a740b03"
+      },
+      {
+        "url": "https://justpressplayonline.com/products/mega-man-x-funko-pop-games-1280?variant=54075704672570",
+        "sha256": "15e59ec43be69f7316ef747a96b89b92b03c346d8120ad935eef81701c6354bf"
+      }
+    ],
+    "listing_records": 1,
+    "detail_checked": 1,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://justpressplayonline.com/products/mega-man-x-funko-pop-games-1280?variant=54075704672570",
+        "price": "14.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 1,
+      "unique_prices": 1,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 4,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39548302912"
+    },
+    {
+      "batch": 23,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41788712609"
+    },
+    {
+      "batch": 24,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "41986126217"
+    },
+    {
+      "batch": 25,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42179971421"
+    }
+  ]
+}
