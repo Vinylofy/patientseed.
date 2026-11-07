@@ -3458,7 +3458,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | experiencevinyl.com | 21 | FROZEN | 3 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | factoryrecords.com | 3 | APPROVED | 0 | 14 | 3/3 | ACTIVE (run 42356858277) | ACTIVE (run 42363178399) | run 39373494403 |
 | feelitrecordshop.com | 21 | FROZEN | 3 | 8 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| finersounds.com | 3 | APPROVED | 0 | 20 | 3/3 | ACTIVE (run 42356858277) | ACTIVE | run 39373494403 |
+| finersounds.com | 3 | APPROVED | 0 | 20 | 3/3 | ACTIVE (run 42356858277) | ACTIVE (run 42363178399) | run 39373494403 |
 | firetalk.shop | 22 | FROZEN | 3 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | firstcityrecordstore.com | 22 | FROZEN | 3 | 6 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | flashback.co.uk | 12 | FROZEN | 3 | 2 | 0/2 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
