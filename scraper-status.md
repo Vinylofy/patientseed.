@@ -3531,7 +3531,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | portofsoundrecords.com | 26 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | primitiverecordings.com | 26 | REVIEW | 1 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | prnrp.com | 26 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | Invalid Shopify price |
-| producerpluguni.com | 6 | APPROVED | 0 | 19 | 1/3 | ACTIVE (run 42356858277) | ACTIVE | run 39904748109 |
+| producerpluguni.com | 6 | APPROVED | 0 | 19 | 1/3 | ACTIVE (run 42356858277) | ACTIVE (run 42363178399) | run 39904748109 |
 | provosvintagegroove.com | 6 | REVIEW | 0 | 18 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | pukenvomitrecords.com | 6 | REVIEW | 0 | 7 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | queenbvinylcafe.com | 6 | REVIEW | 0 | 6 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
