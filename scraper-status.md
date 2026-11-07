@@ -3518,7 +3518,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | nudierecords.com | 26 | REVIEW | 2 | 16 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | nxvinyl.com | 5 | APPROVED | 0 | 14 | 2/3 | ACTIVE (run 42356858277) | ACTIVE | run 39727047909 |
 | oceanbeachpalletco.com | 26 | REVIEW | 2 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| oldrockingchair.com | 5 | APPROVED | 0 | 14 | 2/3 | ACTIVE (run 42356858277) | ACTIVE | run 39727047909 |
+| oldrockingchair.com | 5 | APPROVED | 0 | 14 | 2/3 | ACTIVE (run 42356858277) | ACTIVE (run 42363178399) | run 39727047909 |
 | omegamusicdayton.com | 26 | REVIEW | 2 | 6 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | oneoffrecordsllc.com | 26 | REVIEW | 1 | 6 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | orbitrecords.com | 26 | REVIEW | 1 | 6 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
