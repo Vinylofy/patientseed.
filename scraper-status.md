@@ -3503,7 +3503,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | mancavenj.com | 26 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | maplecitymusic.com | 22 | FROZEN | 3 | 4 | 0/3 | FROZEN | FROZEN | detail_ean_not_proven |
 | meteor-gem.com | 26 | FROZEN | 3 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| mintgalleryrecords.com | 26 | APPROVED | 3 | 20 | 3/3 | ACTIVE | ACTIVE | run 42347253201 |
+| mintgalleryrecords.com | 26 | APPROVED | 3 | 20 | 3/3 | ACTIVE (run 42356858277) | ACTIVE | run 42347253201 |
 | modern-legend.com | 26 | FROZEN | 3 | 5 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | moodringrecordsslc.com | 26 | REVIEW | 2 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | morrowrecords.com | 26 | REVIEW | 2 | 6 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
