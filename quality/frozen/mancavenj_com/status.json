@@ -1,0 +1,56 @@
+{
+  "fingerprint": "f6bf68a76bb27ffe22ed2e9026615a3634b252dbf5dc9f4b8c37b204ecde86f3",
+  "domain": "mancavenj.com",
+  "batch": 26,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42347253201",
+  "updated_at": "2026-11-07T06:29:55.908237+00:00",
+  "evidence": {
+    "domain": "mancavenj.com",
+    "route": "https://mancavenj.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-07T06:29:55.672693+00:00",
+    "requests": [
+      {
+        "url": "https://mancavenj.com/products.json?limit=20&page=1",
+        "sha256": "d775de7399f5e4c92ab9ec4d5b86bc54cdce0ed4d91848ddf9f8683d3425a568"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 4,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39548302912"
+    },
+    {
+      "batch": 24,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "41986126217"
+    },
+    {
+      "batch": 25,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "42179971421"
+    },
+    {
+      "batch": 26,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "42347253201"
+    }
+  ]
+}
