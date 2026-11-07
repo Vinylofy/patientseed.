@@ -1,0 +1,70 @@
+{
+  "fingerprint": "4caf6f1780c8d92bfd6bc16392685d6111d2ed0b56e4c3af6e2da9df1edfb324",
+  "domain": "modern-legend.com",
+  "batch": 26,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42347253201",
+  "updated_at": "2026-11-07T06:30:01.803298+00:00",
+  "evidence": {
+    "domain": "modern-legend.com",
+    "route": "https://modern-legend.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-07T06:30:00.501146+00:00",
+    "requests": [
+      {
+        "url": "https://modern-legend.com/products.json?limit=20&page=1",
+        "sha256": "e8e40ee0c5b2a779d860771bd59953c37c5c17aabe1e80612d1ddfc8dc9d39d9"
+      },
+      {
+        "url": "https://modern-legend.com/products/kensrue-dustin-that-spirit-of-christmas?variant=68255961645360",
+        "sha256": "58def4ea3ada88eaca23c8dc46183aaeb2e1877f57694076f4806ddc2cbb7305"
+      }
+    ],
+    "listing_records": 5,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 5,
+      "unique_prices": 5,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 4,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39548302912"
+    },
+    {
+      "batch": 24,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41986126217"
+    },
+    {
+      "batch": 25,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42179971421"
+    },
+    {
+      "batch": 26,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42347253201"
+    }
+  ]
+}
