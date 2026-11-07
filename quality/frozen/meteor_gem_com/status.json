@@ -1,0 +1,70 @@
+{
+  "fingerprint": "34c3238045b04bfb542faefe5e5d072322017620a464e68bea4cc048ac56c449",
+  "domain": "meteor-gem.com",
+  "batch": 26,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42347253201",
+  "updated_at": "2026-11-07T06:29:57.105832+00:00",
+  "evidence": {
+    "domain": "meteor-gem.com",
+    "route": "https://meteor-gem.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-07T06:29:55.948470+00:00",
+    "requests": [
+      {
+        "url": "https://meteor-gem.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "4290b3e81f16b8052989c162a809251ae0cd1de312e428dc3a046085c61ba99e"
+      },
+      {
+        "url": "https://meteor-gem.com/products/pre-order-11-27-asphyx-asphyx-lp?variant=50756159897858",
+        "sha256": "23b71913fbf4ae6eb45d2583805ee1bdc6205b309963b7e2e2197dc6bdb2b9f8"
+      }
+    ],
+    "listing_records": 19,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 19,
+      "unique_prices": 6,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 4,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39548302912"
+    },
+    {
+      "batch": 24,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "41986126217"
+    },
+    {
+      "batch": 25,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42179971421"
+    },
+    {
+      "batch": 26,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42347253201"
+    }
+  ]
+}
