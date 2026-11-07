@@ -3477,7 +3477,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | greatesthitsofficial.com | 24 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | gryphonswing.com | 14 | APPROVED | 1 | 9 | 3/3 | ACTIVE (run 42356858277) | ACTIVE (run 42363178399) | run 40272946607 |
 | headlinerecords.com | 24 | FROZEN | 3 | 3 | 0/0 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
-| highvoltagevinyl.com | 3 | APPROVED | 0 | 19 | 3/3 | ACTIVE (run 42356858277) | ACTIVE | run 39373494403 |
+| highvoltagevinyl.com | 3 | APPROVED | 0 | 19 | 3/3 | ACTIVE (run 42356858277) | ACTIVE (run 42363178399) | run 39373494403 |
 | hivoltagerecords.com | 22 | APPROVED | 1 | 20 | 3/3 | ACTIVE (run 42356858277) | ACTIVE (run 42363178399) | run 41594566238 |
 | hollowbonerecords.com | 24 | FROZEN | 3 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | homerulerecords.com | 24 | FROZEN | 3 | 18 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
