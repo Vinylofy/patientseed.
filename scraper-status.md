@@ -3492,7 +3492,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | justpressplayonline.com | 25 | FROZEN | 3 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | kingsroadmerch.co.uk | 9 | APPROVED | 0 | 11 | 3/3 | ACTIVE (run 42356858277) | ACTIVE (run 42363178399) | run 40239367598 |
 | ksolovintage.com | 25 | FROZEN | 3 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| latchkeyrecords.com | 4 | APPROVED | 0 | 16 | 3/3 | ACTIVE (run 42356858277) | ACTIVE | run 39548302912 |
+| latchkeyrecords.com | 4 | APPROVED | 0 | 16 | 3/3 | ACTIVE (run 42356858277) | ACTIVE (run 42363178399) | run 39548302912 |
 | lathecutvinylrecords.com | 25 | FROZEN | 3 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | loudpizza.com | 25 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | lovepeoplerecords.com | 4 | APPROVED | 0 | 12 | 3/3 | ACTIVE (run 42356858277) | ACTIVE | run 39548302912 |
