@@ -1,0 +1,100 @@
+{
+  "fingerprint": "a3fc22cdc6824a66b6e2c814ff7566835aaf549566035f37660733aacb34d32c",
+  "domain": "musicologyco.com",
+  "batch": 27,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42455433568",
+  "updated_at": "2026-11-08T06:36:37.414434+00:00",
+  "evidence": {
+    "domain": "musicologyco.com",
+    "route": "https://musicologyco.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-08T06:36:34.155752+00:00",
+    "requests": [
+      {
+        "url": "https://musicologyco.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "95fe0835e3dcbc86b7eef79f56fd40b3cc1a994a3606b5c994e3bbdfb982da03"
+      },
+      {
+        "url": "https://musicologyco.com/products/pre-order-cruzados-best-of-cruzados-lp?variant=53086358044783",
+        "sha256": "30ed22f0a04bf70c7dc692b5dc482e69a0bdf2fe37186872cff199004da41a0e"
+      },
+      {
+        "url": "https://musicologyco.com/products/uicideboy-thy-kingdom-come-translucent-natural-lp?variant=52816461004911",
+        "sha256": "836bd37542a57657761517b0deec6828357630a4c8cd0d692d64b8af922bf5e9"
+      },
+      {
+        "url": "https://musicologyco.com/products/uicideboy-thy-will-be-done-lp?variant=67962028556399",
+        "sha256": "5b88f1a2f6327166f312addccf86d0bb58e0e09b2114d004433642b251e1c690"
+      }
+    ],
+    "listing_records": 15,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://musicologyco.com/products/pre-order-cruzados-best-of-cruzados-lp?variant=53086358044783",
+        "price": "29.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://musicologyco.com/products/uicideboy-thy-kingdom-come-translucent-natural-lp?variant=52816461004911",
+        "price": "26.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://musicologyco.com/products/uicideboy-thy-will-be-done-lp?variant=67962028556399",
+        "price": "26.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 15,
+      "unique_prices": 8,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 5,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39727047909"
+    },
+    {
+      "batch": 25,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42179971421"
+    },
+    {
+      "batch": 26,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42347253201"
+    },
+    {
+      "batch": 27,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42455433568"
+    }
+  ]
+}
