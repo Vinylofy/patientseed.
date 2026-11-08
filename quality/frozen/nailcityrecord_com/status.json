@@ -1,0 +1,100 @@
+{
+  "fingerprint": "ebac7dfcea4b0280173b7c98f5669f5c12552071c0014040c597cc2c903dba34",
+  "domain": "nailcityrecord.com",
+  "batch": 27,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42455433568",
+  "updated_at": "2026-11-08T06:36:40.701950+00:00",
+  "evidence": {
+    "domain": "nailcityrecord.com",
+    "route": "https://nailcityrecord.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-08T06:36:37.441086+00:00",
+    "requests": [
+      {
+        "url": "https://nailcityrecord.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "8385c6c7bcc6cbbfddfb8ce6dcbf4855007d2bcefee1ffd2eaac1ca0d0c14618"
+      },
+      {
+        "url": "https://nailcityrecord.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-blue-vinyl?variant=42912597442730",
+        "sha256": "b0bb63c7727062e3eb90de72f3812e9528826c2d4ca7b9e933210da865d76557"
+      },
+      {
+        "url": "https://nailcityrecord.com/products/uicideboy-thy-will-be-done-lp-vinyl?variant=47889522000042",
+        "sha256": "bb18fd8d666f4eea496c425cfb209c9bbaf45b5442b2d7637939973602944808"
+      },
+      {
+        "url": "https://nailcityrecord.com/products/and-you-will-know-us-by-the-trail-of-dead-madonna-rsd-2022?variant=42871789650090",
+        "sha256": "6c6735e3a02ffcdbab9703ef4f83c5b9c2e40cbd7eb944b95936bf7245cf9c81"
+      }
+    ],
+    "listing_records": 13,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://nailcityrecord.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-blue-vinyl?variant=42912597442730",
+        "price": "24.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://nailcityrecord.com/products/uicideboy-thy-will-be-done-lp-vinyl?variant=47889522000042",
+        "price": "24.98",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://nailcityrecord.com/products/and-you-will-know-us-by-the-trail-of-dead-madonna-rsd-2022?variant=42871789650090",
+        "price": "29.98",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 13,
+      "unique_prices": 9,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 5,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39727047909"
+    },
+    {
+      "batch": 25,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42179971421"
+    },
+    {
+      "batch": 26,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42347253201"
+    },
+    {
+      "batch": 27,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42455433568"
+    }
+  ]
+}
