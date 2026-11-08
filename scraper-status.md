@@ -3534,7 +3534,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | producerpluguni.com | 6 | APPROVED | 0 | 19 | 1/3 | ACTIVE | ACTIVE (run 42471425057) | run 39904748109 |
 | provosvintagegroove.com | 27 | REVIEW | 1 | 13 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | pukenvomitrecords.com | 27 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
-| queenbvinylcafe.com | 27 | APPROVED | 1 | 12 | 3/3 | ACTIVE | ACTIVE | run 42455433568 |
+| queenbvinylcafe.com | 27 | APPROVED | 1 | 12 | 3/3 | ACTIVE | ACTIVE (run 42471425057) | run 42455433568 |
 | rarewaves.com | 9 | APPROVED | 0 | 7 | 3/3 | ACTIVE | ACTIVE | run 40239367598 |
 | rebrecordsmd.com | 6 | REVIEW | 0 | 14 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | record-stop.com | 6 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE | run 39904748109 |
