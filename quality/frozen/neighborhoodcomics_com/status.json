@@ -1,0 +1,56 @@
+{
+  "fingerprint": "019e3b03004faa4e81577db871b6623565eec346a2a04df8bbc0fb3f5d8bb995",
+  "domain": "neighborhoodcomics.com",
+  "batch": 27,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42455433568",
+  "updated_at": "2026-11-08T06:36:44.246189+00:00",
+  "evidence": {
+    "domain": "neighborhoodcomics.com",
+    "route": "https://neighborhoodcomics.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-08T06:36:44.037588+00:00",
+    "requests": [
+      {
+        "url": "https://neighborhoodcomics.com/products.json?limit=20&page=1",
+        "sha256": "a4d4073aafecff44ab770fed4d6466ef9bbbfea768afe2d8b8ab12fe32527f2b"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 5,
+      "status": "REVIEW",
+      "reason": "invalid_detail_gtin",
+      "run_id": "39727047909"
+    },
+    {
+      "batch": 25,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "42179971421"
+    },
+    {
+      "batch": 26,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "42347253201"
+    },
+    {
+      "batch": 27,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "42455433568"
+    }
+  ]
+}
