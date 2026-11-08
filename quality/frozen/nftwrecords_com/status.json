@@ -1,0 +1,56 @@
+{
+  "fingerprint": "660daf8fdd761473a1c7589d83cb1878c60c385816e3a210092d864b7ac777dc",
+  "domain": "nftwrecords.com",
+  "batch": 27,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42455433568",
+  "updated_at": "2026-11-08T06:36:46.250656+00:00",
+  "evidence": {
+    "domain": "nftwrecords.com",
+    "route": "https://nftwrecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-08T06:36:45.878361+00:00",
+    "requests": [
+      {
+        "url": "https://nftwrecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "0469f8ba4fa214825e1fa28add35edfda79aaf82a352c22784b46d509cc40f26"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 5,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39727047909"
+    },
+    {
+      "batch": 25,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "42179971421"
+    },
+    {
+      "batch": 26,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "42347253201"
+    },
+    {
+      "batch": 27,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "42455433568"
+    }
+  ]
+}
