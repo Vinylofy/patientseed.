@@ -1,0 +1,70 @@
+{
+  "fingerprint": "cafd26732a2630e564616aecee6e11e0040048645e192ecebdea93017f762992",
+  "domain": "oceanbeachpalletco.com",
+  "batch": 27,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42455433568",
+  "updated_at": "2026-11-08T06:36:54.663103+00:00",
+  "evidence": {
+    "domain": "oceanbeachpalletco.com",
+    "route": "https://oceanbeachpalletco.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-08T06:36:53.192039+00:00",
+    "requests": [
+      {
+        "url": "https://oceanbeachpalletco.com/products.json?limit=20&page=1",
+        "sha256": "0f005c0978eb4207f20d3d1d4481d98b8a74ae0a32a20ef1d41ea4f1a65eea0d"
+      },
+      {
+        "url": "https://oceanbeachpalletco.com/products/front-facing-vinyl-record-storage?variant=42871009181778",
+        "sha256": "38864703ba0b8bfeae8995783f63ce0efa2ff1c4568560cf27069d150aa042d1"
+      }
+    ],
+    "listing_records": 20,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 20,
+      "unique_prices": 5,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 5,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39727047909"
+    },
+    {
+      "batch": 25,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42179971421"
+    },
+    {
+      "batch": 26,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42347253201"
+    },
+    {
+      "batch": 27,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42455433568"
+    }
+  ]
+}
