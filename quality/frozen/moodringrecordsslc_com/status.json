@@ -1,0 +1,70 @@
+{
+  "fingerprint": "f585e8ffc2cf197d27b8bd735304f691eb897e61b469f5d3b8f8793ce83afe6b",
+  "domain": "moodringrecordsslc.com",
+  "batch": 27,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42455433568",
+  "updated_at": "2026-11-08T06:36:30.814496+00:00",
+  "evidence": {
+    "domain": "moodringrecordsslc.com",
+    "route": "https://moodringrecordsslc.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-08T06:36:29.413215+00:00",
+    "requests": [
+      {
+        "url": "https://moodringrecordsslc.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "a3380990b7a625d2d6d5435a460ecd87c27cb01758d24f30622cca0171e44adb"
+      },
+      {
+        "url": "https://moodringrecordsslc.com/products/17161207-75-000?variant=53337787105644",
+        "sha256": "6c18a4ebaf5fc573118eb379add724ba298241333de168247748ca4304ed6260"
+      }
+    ],
+    "listing_records": 19,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 19,
+      "unique_prices": 11,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 4,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39548302912"
+    },
+    {
+      "batch": 25,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42179971421"
+    },
+    {
+      "batch": 26,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42347253201"
+    },
+    {
+      "batch": 27,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42455433568"
+    }
+  ]
+}
