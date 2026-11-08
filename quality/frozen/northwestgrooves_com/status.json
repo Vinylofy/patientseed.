@@ -1,0 +1,100 @@
+{
+  "fingerprint": "100274e5fcb20dddb1289d87df4053e755b934b5b78dd0e92b4daccfb119b9ac",
+  "domain": "northwestgrooves.com",
+  "batch": 27,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42455433568",
+  "updated_at": "2026-11-08T06:36:49.664261+00:00",
+  "evidence": {
+    "domain": "northwestgrooves.com",
+    "route": "https://northwestgrooves.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-08T06:36:46.276698+00:00",
+    "requests": [
+      {
+        "url": "https://northwestgrooves.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "c7b1831b62149866f72a9efff765c78447c7742cdd258be0d6bad90606c24417"
+      },
+      {
+        "url": "https://northwestgrooves.com/products/let-it-be-blue?variant=43339036688615",
+        "sha256": "900fe67f25df770c28936b2eaf3b4e861550e46ad2355a2bee0084aef98ddbe6"
+      },
+      {
+        "url": "https://northwestgrooves.com/products/13th-floor-elevators-the-psychedelic-sounds-of-the-13th-floor-elevators?variant=50367035506919",
+        "sha256": "76ca9325008cf0c040bdb308736fa7b7cd161dbde6d9afbf831a009ef51fc9eb"
+      },
+      {
+        "url": "https://northwestgrooves.com/products/and-the-mysterians-96-tears?variant=44015205875943",
+        "sha256": "dca3f86619e6235c94d2ae350a39e91799d74a83069309edf9ce7e372f367bf2"
+      }
+    ],
+    "listing_records": 10,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://northwestgrooves.com/products/let-it-be-blue?variant=43339036688615",
+        "price": "24.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://northwestgrooves.com/products/13th-floor-elevators-the-psychedelic-sounds-of-the-13th-floor-elevators?variant=50367035506919",
+        "price": "32.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://northwestgrooves.com/products/and-the-mysterians-96-tears?variant=44015205875943",
+        "price": "28.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 10,
+      "unique_prices": 8,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 5,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39727047909"
+    },
+    {
+      "batch": 25,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42179971421"
+    },
+    {
+      "batch": 26,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42347253201"
+    },
+    {
+      "batch": 27,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42455433568"
+    }
+  ]
+}
