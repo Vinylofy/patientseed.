@@ -1,0 +1,100 @@
+{
+  "fingerprint": "8e0830d6318d5da0a96ab5b12bd8b531ba867f5cebef30e8ff26b6c96ba90378",
+  "domain": "morrowrecords.com",
+  "batch": 27,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42455433568",
+  "updated_at": "2026-11-08T06:36:34.128975+00:00",
+  "evidence": {
+    "domain": "morrowrecords.com",
+    "route": "https://morrowrecords.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-08T06:36:30.841003+00:00",
+    "requests": [
+      {
+        "url": "https://morrowrecords.com/products.json?limit=20&page=1",
+        "sha256": "0ab4b288168057ca00b9bbc819989d1a8d14efb8ca875b844f3563a6ef138ee3"
+      },
+      {
+        "url": "https://morrowrecords.com/products/tyler-nance-midwest-memoir-ltd-ed-copper-cobalt-vinyl-signed?variant=67981141246126",
+        "sha256": "6c27040037102a73d4a368ed3124e106db36cac0beca00cc058cbe78d83c3f46"
+      },
+      {
+        "url": "https://morrowrecords.com/products/rex-orange-county-dream-fatigue-ltd-ed-clear-glitter-vinyl?variant=67968285442222",
+        "sha256": "aaa358267f6ca01281a9fb7f727874b9b0c4628c08fd1798b0824b02c0309683"
+      },
+      {
+        "url": "https://morrowrecords.com/products/hot-mulligan-the-sound-a-body-makes-when-its-still-indie-exclusive-blue-red-a-side-b-side-vinyl?variant=67967084986542",
+        "sha256": "0f78c57068b1138b0bbf0ffc54df759f24d4ce1db4230f8ff691304332c01273"
+      }
+    ],
+    "listing_records": 7,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://morrowrecords.com/products/tyler-nance-midwest-memoir-ltd-ed-copper-cobalt-vinyl-signed?variant=67981141246126",
+        "price": "27.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://morrowrecords.com/products/rex-orange-county-dream-fatigue-ltd-ed-clear-glitter-vinyl?variant=67968285442222",
+        "price": "35.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://morrowrecords.com/products/hot-mulligan-the-sound-a-body-makes-when-its-still-indie-exclusive-blue-red-a-side-b-side-vinyl?variant=67967084986542",
+        "price": "31.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 7,
+      "unique_prices": 6,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 5,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39727047909"
+    },
+    {
+      "batch": 25,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42179971421"
+    },
+    {
+      "batch": 26,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42347253201"
+    },
+    {
+      "batch": 27,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42455433568"
+    }
+  ]
+}
