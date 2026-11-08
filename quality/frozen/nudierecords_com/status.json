@@ -1,0 +1,100 @@
+{
+  "fingerprint": "5c599953a67a7d5c0d596253dd3776ff7d31ed9afc4455cdbac3f5f01391e82f",
+  "domain": "nudierecords.com",
+  "batch": 27,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42455433568",
+  "updated_at": "2026-11-08T06:36:53.166286+00:00",
+  "evidence": {
+    "domain": "nudierecords.com",
+    "route": "https://nudierecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-08T06:36:49.690251+00:00",
+    "requests": [
+      {
+        "url": "https://nudierecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "0726099c970d7eba8e8c9b2b5a4b990502a54762cb2af8c65f999efe3e796ad7"
+      },
+      {
+        "url": "https://nudierecords.com/products/aaron-frazer-introducing-vinyl-lp?variant=49604079485066",
+        "sha256": "ed9160d3fe6f4ba2b804f5b8d7c4ac358cc882d7cd6e5a67be31c566b4c8b955"
+      },
+      {
+        "url": "https://nudierecords.com/products/antibalas-where-the-gods-are-in-peace-vinyl-lp?variant=50102472573066",
+        "sha256": "ee0839e4ca944ded538fffde77f2faaeb1d8245a025c53d9dac40efde190577a"
+      },
+      {
+        "url": "https://nudierecords.com/products/bolero-greetings-mother-earth-vinyl-lp?variant=50320817422474",
+        "sha256": "edca57f106d7e52e988e4f87ee59d9440c06dc631e06763c67c77e8d8980f6c2"
+      }
+    ],
+    "listing_records": 16,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://nudierecords.com/products/aaron-frazer-introducing-vinyl-lp?variant=49604079485066",
+        "price": "25.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://nudierecords.com/products/antibalas-where-the-gods-are-in-peace-vinyl-lp?variant=50102472573066",
+        "price": "25.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://nudierecords.com/products/bolero-greetings-mother-earth-vinyl-lp?variant=50320817422474",
+        "price": "25.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 16,
+      "unique_prices": 1,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 5,
+      "status": "REVIEW",
+      "reason": "uniform_price_suspicious",
+      "run_id": "39727047909"
+    },
+    {
+      "batch": 25,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42179971421"
+    },
+    {
+      "batch": 26,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42347253201"
+    },
+    {
+      "batch": 27,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42455433568"
+    }
+  ]
+}
