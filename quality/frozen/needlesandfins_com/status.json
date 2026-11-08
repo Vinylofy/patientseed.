@@ -1,0 +1,100 @@
+{
+  "fingerprint": "41d86242b5afa5b6205367b2857f5812e70a8cc929b82b3cc2e4836dbccf8f9c",
+  "domain": "needlesandfins.com",
+  "batch": 27,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42455433568",
+  "updated_at": "2026-11-08T06:36:44.011562+00:00",
+  "evidence": {
+    "domain": "needlesandfins.com",
+    "route": "https://needlesandfins.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-08T06:36:40.727757+00:00",
+    "requests": [
+      {
+        "url": "https://needlesandfins.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "42e14355937187421a014745561d2c8d4a9f1ba1c34c41d336c6b73b88966439"
+      },
+      {
+        "url": "https://needlesandfins.com/products/annabelle-chairlegs-gotta-be-in-love-lp?variant=42541914128643",
+        "sha256": "5e48ce27109153dc63bb1aeefb41ce33428de93a277e7d5a130b14e98c809a42"
+      },
+      {
+        "url": "https://needlesandfins.com/products/motorhead-live-fan-club-2x-lp?variant=42541916750083",
+        "sha256": "b49d7b47823e5ce71c827b75e2d99959710c23229e89832599a6770565892407"
+      },
+      {
+        "url": "https://needlesandfins.com/products/pussy-gillette-permanent-trash-lp?variant=44270335557891",
+        "sha256": "35cdc682d59388719886107e7faf10b9e46797a991d16a43ee443f4cb477a324"
+      }
+    ],
+    "listing_records": 3,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://needlesandfins.com/products/annabelle-chairlegs-gotta-be-in-love-lp?variant=42541914128643",
+        "price": "25.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://needlesandfins.com/products/motorhead-live-fan-club-2x-lp?variant=42541916750083",
+        "price": "35.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://needlesandfins.com/products/pussy-gillette-permanent-trash-lp?variant=44270335557891",
+        "price": "25.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 3,
+      "unique_prices": 2,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 5,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39727047909"
+    },
+    {
+      "batch": 25,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42179971421"
+    },
+    {
+      "batch": 26,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42347253201"
+    },
+    {
+      "batch": 27,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42455433568"
+    }
+  ]
+}
