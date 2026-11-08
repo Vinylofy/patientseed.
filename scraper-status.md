@@ -3437,7 +3437,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | crazyvinylrecord.com | 23 | FROZEN | 3 | 1 | 0/1 | FROZEN | FROZEN | detail_ean_not_proven |
 | csiderecords.com | 20 | FROZEN | 3 | 11 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | curiouscollectionstx.com | 2 | APPROVED | 0 | 9 | 3/3 | ACTIVE | ACTIVE (run 42471425057) | run 39203245483 |
-| dbzbooks.com | 2 | APPROVED | 0 | 15 | 3/3 | ACTIVE | ACTIVE | run 39203245483 |
+| dbzbooks.com | 2 | APPROVED | 0 | 15 | 3/3 | ACTIVE | ACTIVE (run 42471425057) | run 39203245483 |
 | deadendrecordstn.com | 20 | FROZEN | 3 | 5 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | deafmanvinyl.com | 21 | FROZEN | 3 | 2 | 0/2 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | debaryfamilymusic.online | 2 | APPROVED | 0 | 19 | 3/3 | INCIDENT | REPAIR_REQUIRED (run 42471425057) | run 39203245483 |
