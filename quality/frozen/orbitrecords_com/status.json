@@ -1,0 +1,70 @@
+{
+  "fingerprint": "77f4834b17d066234c5a2c33a283b9dfcedc04e00859181946c39d8f6b9c9df2",
+  "domain": "orbitrecords.com",
+  "batch": 28,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42577039054",
+  "updated_at": "2026-11-09T07:05:25.082213+00:00",
+  "evidence": {
+    "domain": "orbitrecords.com",
+    "route": "https://orbitrecords.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-09T07:05:23.792124+00:00",
+    "requests": [
+      {
+        "url": "https://orbitrecords.com/products.json?limit=20&page=1",
+        "sha256": "a4016fdf58cef9d71fa01cbb5f31881a7f1408fc9ac84f65e4b30f2fea3b6ba8"
+      },
+      {
+        "url": "https://orbitrecords.com/products/greyboy-freestylin-on-limited-colored-vinyl?variant=68512648069371",
+        "sha256": "6aa14d5cfb5ada3cc08860706e76969e1b694fc972e3e09740a7c0720fafafa6"
+      }
+    ],
+    "listing_records": 10,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 10,
+      "unique_prices": 7,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 5,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39727047909"
+    },
+    {
+      "batch": 26,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42347253201"
+    },
+    {
+      "batch": 27,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42455433568"
+    },
+    {
+      "batch": 28,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42577039054"
+    }
+  ]
+}
