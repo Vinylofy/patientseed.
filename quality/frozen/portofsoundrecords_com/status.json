@@ -1,0 +1,56 @@
+{
+  "fingerprint": "38cfc6d98b172760f122487663856ba98bf6fb429f1f83dc955f8b653dea9e89",
+  "domain": "portofsoundrecords.com",
+  "batch": 28,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42577039054",
+  "updated_at": "2026-11-09T07:05:33.365018+00:00",
+  "evidence": {
+    "domain": "portofsoundrecords.com",
+    "route": "https://portofsoundrecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-09T07:05:33.117844+00:00",
+    "requests": [
+      {
+        "url": "https://portofsoundrecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "f07e5209cb57657cf7e5afe7e63e6b741b7bd2c82aa7943898ac155013e9453a"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 5,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39727047909"
+    },
+    {
+      "batch": 26,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "42347253201"
+    },
+    {
+      "batch": 27,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "42455433568"
+    },
+    {
+      "batch": 28,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "42577039054"
+    }
+  ]
+}
