@@ -1,0 +1,100 @@
+{
+  "fingerprint": "971e52551c5c08ad81cc487affc82b9305ef091b7b3ae91bbf7d6de9bdfaac7c",
+  "domain": "plumcreekrecords.com",
+  "batch": 28,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42577039054",
+  "updated_at": "2026-11-09T07:05:33.086905+00:00",
+  "evidence": {
+    "domain": "plumcreekrecords.com",
+    "route": "https://plumcreekrecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-09T07:05:29.843903+00:00",
+    "requests": [
+      {
+        "url": "https://plumcreekrecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "af5648ae827b36630bf10372dd540eca24118089625adfb7cbcfc055b270c0f5"
+      },
+      {
+        "url": "https://plumcreekrecords.com/products/abraxas-monte-carlo-lp?variant=49436414836971",
+        "sha256": "760e3269cc18a5a1975b9eec5c2d9ccce21a4deff4b03013bce1dafa29412b5b"
+      },
+      {
+        "url": "https://plumcreekrecords.com/products/alex-dupree-leaves-lp?variant=43632726212843",
+        "sha256": "778054cc8a5d51a7048893fd5e8fac9576c7384118c538ed006859bc209e1d55"
+      },
+      {
+        "url": "https://plumcreekrecords.com/products/antones-50th-allstars-the-last-real-texas-blues-album-2xlp?variant=49429470314731",
+        "sha256": "93a58d839b8bbaed432e79cc78d504b2f4800c6b99ccbb4f1da1b777c7fe2878"
+      }
+    ],
+    "listing_records": 14,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://plumcreekrecords.com/products/abraxas-monte-carlo-lp?variant=49436414836971",
+        "price": "30.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://plumcreekrecords.com/products/alex-dupree-leaves-lp?variant=43632726212843",
+        "price": "22.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://plumcreekrecords.com/products/antones-50th-allstars-the-last-real-texas-blues-album-2xlp?variant=49429470314731",
+        "price": "36.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 14,
+      "unique_prices": 7,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 5,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39727047909"
+    },
+    {
+      "batch": 26,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42347253201"
+    },
+    {
+      "batch": 27,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42455433568"
+    },
+    {
+      "batch": 28,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42577039054"
+    }
+  ]
+}
