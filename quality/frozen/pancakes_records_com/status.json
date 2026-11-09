@@ -1,0 +1,100 @@
+{
+  "fingerprint": "b9365760769b68628f7563819cf841e6e7d8ade2d99c07120e631a8a075c2b19",
+  "domain": "pancakes-records.com",
+  "batch": 28,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42577039054",
+  "updated_at": "2026-11-09T07:05:28.307714+00:00",
+  "evidence": {
+    "domain": "pancakes-records.com",
+    "route": "https://pancakes-records.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-09T07:05:25.112693+00:00",
+    "requests": [
+      {
+        "url": "https://pancakes-records.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "c479ab02e0b135a4409b33b8af6265de1d61c971858efe5bdbbc0a6ff2454c1a"
+      },
+      {
+        "url": "https://pancakes-records.com/products/070-shake-petrichor-vinyl?variant=50834750538035",
+        "sha256": "17f4fc6b991a61dac53e6ecd556594e315ed05a25afb5577945300ecd3eeef1e"
+      },
+      {
+        "url": "https://pancakes-records.com/products/13th-floor-elevators-we-are-not-live?variant=53211848868147",
+        "sha256": "2692be95f8105da39d0d4d9a7e464139318f5361658929c1bbe688c8b091e820"
+      },
+      {
+        "url": "https://pancakes-records.com/products/3rd-bass-the-cactus-album-vinyl?variant=50637448937779",
+        "sha256": "9b32c621fc4e581fc77c2002e5167c9c525fe765e20bd3e05af1daf45f5adac0"
+      }
+    ],
+    "listing_records": 20,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://pancakes-records.com/products/070-shake-petrichor-vinyl?variant=50834750538035",
+        "price": "39.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://pancakes-records.com/products/13th-floor-elevators-we-are-not-live?variant=53211848868147",
+        "price": "30.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://pancakes-records.com/products/3rd-bass-the-cactus-album-vinyl?variant=50637448937779",
+        "price": "39.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 20,
+      "unique_prices": 12,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 5,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39727047909"
+    },
+    {
+      "batch": 26,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42347253201"
+    },
+    {
+      "batch": 27,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42455433568"
+    },
+    {
+      "batch": 28,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42577039054"
+    }
+  ]
+}
