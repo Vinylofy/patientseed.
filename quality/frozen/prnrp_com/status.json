@@ -1,0 +1,56 @@
+{
+  "fingerprint": "84e5c50f4171bfa9c41f9d8c6d4308d3f55c458d0b6e8f822bff804ecd394ba6",
+  "domain": "prnrp.com",
+  "batch": 28,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42577039054",
+  "updated_at": "2026-11-09T07:05:36.984305+00:00",
+  "evidence": {
+    "domain": "prnrp.com",
+    "route": "https://prnrp.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-09T07:05:36.755793+00:00",
+    "requests": [
+      {
+        "url": "https://prnrp.com/products.json?limit=20&page=1",
+        "sha256": "96e07adddbcdaa5a48dd3b25edca3b1ee28c70dd7003e6e0d90aade238479f7f"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "Invalid Shopify price",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 5,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39727047909"
+    },
+    {
+      "batch": 26,
+      "status": "REVIEW",
+      "reason": "Invalid Shopify price",
+      "run_id": "42347253201"
+    },
+    {
+      "batch": 27,
+      "status": "REVIEW",
+      "reason": "Invalid Shopify price",
+      "run_id": "42455433568"
+    },
+    {
+      "batch": 28,
+      "status": "FROZEN",
+      "reason": "Invalid Shopify price",
+      "run_id": "42577039054"
+    }
+  ]
+}
