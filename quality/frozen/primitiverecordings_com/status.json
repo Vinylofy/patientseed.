@@ -1,0 +1,100 @@
+{
+  "fingerprint": "97534f03858947cb3792cef874da1116c384d22bc018b75908c366199706a731",
+  "domain": "primitiverecordings.com",
+  "batch": 28,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42577039054",
+  "updated_at": "2026-11-09T07:05:36.724891+00:00",
+  "evidence": {
+    "domain": "primitiverecordings.com",
+    "route": "https://primitiverecordings.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-09T07:05:33.395756+00:00",
+    "requests": [
+      {
+        "url": "https://primitiverecordings.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "00540378ce99bbb53787c8b1239f5e7821e687807c1f96c05bceb4336733d99e"
+      },
+      {
+        "url": "https://primitiverecordings.com/products/in-retrospect-12-inch-vinyl-record?variant=50447304425771",
+        "sha256": "e98e1e3cc34abf0658ea841e7d5f81d3a4f6ff4432e5ad647a35dc824824e722"
+      },
+      {
+        "url": "https://primitiverecordings.com/products/38-counts-of-battery-red-with-black-smoke-12-vinyl?variant=50135766401323",
+        "sha256": "a562d901c8653da18b16ce29e23b1e619dd20fe89724ae8a71ed0670c1a16e68"
+      },
+      {
+        "url": "https://primitiverecordings.com/products/5-pack-of-45-adapters?variant=50135792320811",
+        "sha256": "68c18dfa78935788e282f0dc5f1aa7ca3f26cae389bd519bcec246532be525d7"
+      }
+    ],
+    "listing_records": 3,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://primitiverecordings.com/products/in-retrospect-12-inch-vinyl-record?variant=50447304425771",
+        "price": "18.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://primitiverecordings.com/products/38-counts-of-battery-red-with-black-smoke-12-vinyl?variant=50135766401323",
+        "price": "19.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://primitiverecordings.com/products/5-pack-of-45-adapters?variant=50135792320811",
+        "price": "2.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 3,
+      "unique_prices": 3,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 5,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39727047909"
+    },
+    {
+      "batch": 26,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42347253201"
+    },
+    {
+      "batch": 27,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42455433568"
+    },
+    {
+      "batch": 28,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42577039054"
+    }
+  ]
+}
