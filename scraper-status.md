@@ -3525,7 +3525,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | orchardrecords.com | 12 | FROZEN | 3 | 15 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | pancakes-records.com | 28 | FROZEN | 3 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | parasolrecords.com | 5 | APPROVED | 0 | 8 | 3/3 | ACTIVE (run 42595944434) | ACTIVE | run 39727047909 |
-| paul-rose.com | 5 | APPROVED | 0 | 7 | 2/3 | ACTIVE (run 42595944434) | ACTIVE | run 39727047909 |
+| paul-rose.com | 5 | APPROVED | 0 | 7 | 2/3 | ACTIVE (run 42595944434) | ACTIVE (run 42610586119) | run 39727047909 |
 | plaidroomrecords.com | 28 | FROZEN | 3 | 7 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | plumcreekrecords.com | 28 | FROZEN | 3 | 14 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | portofsoundrecords.com | 28 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
