@@ -3463,7 +3463,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | firstcityrecordstore.com | 22 | FROZEN | 3 | 6 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | flashback.co.uk | 12 | FROZEN | 3 | 2 | 0/2 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | fortherecordnyc.com | 3 | APPROVED | 0 | 20 | 3/3 | ACTIVE (run 42595944434) | ACTIVE | run 39373494403 |
-| frankiesrecords.com | 20 | APPROVED | 1 | 20 | 3/3 | ACTIVE | ACTIVE | run 41282025830 |
+| frankiesrecords.com | 20 | APPROVED | 1 | 20 | 3/3 | ACTIVE (run 42595944434) | ACTIVE | run 41282025830 |
 | freshproducerecords.com | 22 | FROZEN | 3 | 7 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | fullhausrecords.com | 22 | FROZEN | 3 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | furtherrecords.com | 22 | FROZEN | 3 | 8 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
