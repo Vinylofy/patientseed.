@@ -1,0 +1,70 @@
+{
+  "fingerprint": "eff7eecd51fb8ab0417be19cdc54f0e11df72857fabcb43092b797540329c6de",
+  "domain": "plaidroomrecords.com",
+  "batch": 28,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42577039054",
+  "updated_at": "2026-11-09T07:05:29.812232+00:00",
+  "evidence": {
+    "domain": "plaidroomrecords.com",
+    "route": "https://plaidroomrecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-09T07:05:28.338560+00:00",
+    "requests": [
+      {
+        "url": "https://plaidroomrecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "1c2ac1bb07ac7450d01ec927abe856e42d104e9a32c494095266a25d21e77e17"
+      },
+      {
+        "url": "https://plaidroomrecords.com/products/chk-chk-chk-let-it-be-blue-black-vinyl?variant=39918792704061",
+        "sha256": "b12b33d73cb242980cc46c90594282f9b7acfba09b5a2d5bdad485a513bc1523"
+      }
+    ],
+    "listing_records": 7,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 7,
+      "unique_prices": 5,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 5,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39727047909"
+    },
+    {
+      "batch": 26,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42347253201"
+    },
+    {
+      "batch": 27,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42455433568"
+    },
+    {
+      "batch": 28,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42577039054"
+    }
+  ]
+}
