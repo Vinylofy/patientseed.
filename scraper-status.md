@@ -3456,7 +3456,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | erodingwinds.com | 2 | APPROVED | 0 | 18 | 3/3 | ACTIVE (run 42595944434) | ACTIVE (run 42610586119) | run 39203245483 |
 | evergreenvinyl.com | 21 | FROZEN | 3 | 7 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | experiencevinyl.com | 21 | FROZEN | 3 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| factoryrecords.com | 3 | APPROVED | 0 | 14 | 3/3 | ACTIVE (run 42595944434) | ACTIVE | run 39373494403 |
+| factoryrecords.com | 3 | APPROVED | 0 | 14 | 3/3 | ACTIVE (run 42595944434) | ACTIVE (run 42610586119) | run 39373494403 |
 | feelitrecordshop.com | 21 | FROZEN | 3 | 8 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | finersounds.com | 3 | APPROVED | 0 | 20 | 3/3 | ACTIVE (run 42595944434) | ACTIVE | run 39373494403 |
 | firetalk.shop | 22 | FROZEN | 3 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
