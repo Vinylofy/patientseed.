@@ -3437,7 +3437,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | crazyvinylrecord.com | 23 | FROZEN | 3 | 1 | 0/1 | FROZEN | FROZEN | detail_ean_not_proven |
 | csiderecords.com | 20 | FROZEN | 3 | 11 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | curiouscollectionstx.com | 2 | APPROVED | 0 | 9 | 3/3 | ACTIVE | ACTIVE (run 42806104406) | run 39203245483 |
-| dbzbooks.com | 2 | APPROVED | 0 | 15 | 3/3 | ACTIVE | ACTIVE | run 39203245483 |
+| dbzbooks.com | 2 | APPROVED | 0 | 15 | 3/3 | ACTIVE | ACTIVE (run 42806104406) | run 39203245483 |
 | deadendrecordstn.com | 20 | FROZEN | 3 | 5 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | deafmanvinyl.com | 21 | FROZEN | 3 | 2 | 0/2 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | debaryfamilymusic.online | 29 | REVIEW | 1 | 0 | 0/0 | REPAIR_REQUIRED | REPAIR_REQUIRED | <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1011)> |
