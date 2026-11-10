@@ -3554,7 +3554,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | rottenislandrecords.com | 29 | REVIEW | 1 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | roundhillmusicco.com | 29 | REVIEW | 1 | 2 | 0/2 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | rustandwax.com | 29 | REVIEW | 1 | 15 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| saintmarierecords.com | 6 | APPROVED | 0 | 15 | 3/3 | ACTIVE | ACTIVE | run 39904748109 |
+| saintmarierecords.com | 6 | APPROVED | 0 | 15 | 3/3 | ACTIVE | ACTIVE (run 42806104406) | run 39904748109 |
 | sdvintagecollectables.com | 29 | REVIEW | 1 | 5 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | seasickbham.com | 29 | REVIEW | 1 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | seattlerecords.net | 29 | REVIEW | 1 | 7 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
