@@ -1,0 +1,100 @@
+{
+  "fingerprint": "d071575f48b7017bb0acc916666a81e314c5436e0f6e7ed6cd7c313283215113",
+  "domain": "provosvintagegroove.com",
+  "batch": 29,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42776942344",
+  "updated_at": "2026-11-10T07:40:51.326084+00:00",
+  "evidence": {
+    "domain": "provosvintagegroove.com",
+    "route": "https://provosvintagegroove.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-10T07:40:47.966953+00:00",
+    "requests": [
+      {
+        "url": "https://provosvintagegroove.com/products.json?limit=20&page=1",
+        "sha256": "fa26ee7b8bd48064b90eddd7dfb635d473eff49459781ef00f68a2898f9d0491"
+      },
+      {
+        "url": "https://provosvintagegroove.com/products/spread-love-indie-exclusive-gate-gol-aniv-carey-harris-vinyl-indie-exclusive-remastered?variant=68021935603927",
+        "sha256": "79def5333f083c18e6ed9735b0b22a5c25ac51c318150cdb6ef57566a2973512"
+      },
+      {
+        "url": "https://provosvintagegroove.com/products/green-mind-colored-vinyl-deluxe-gate-grn-exp-dinosaur-jr-vinyl?variant=68021858009303",
+        "sha256": "b37e66d762cb950f61a62d51d11ffa032259ac2bea69e61d302fdcf1ab40e1ad"
+      },
+      {
+        "url": "https://provosvintagegroove.com/products/an-introduction-to-elliott-smith-elliott-smith-vinyl?variant=68021856927959",
+        "sha256": "e869d4f727be34ae8051ce5d9e014a8fb19cf1ca65cdf21c9732ccd01a7ce88e"
+      }
+    ],
+    "listing_records": 12,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://provosvintagegroove.com/products/spread-love-indie-exclusive-gate-gol-aniv-carey-harris-vinyl-indie-exclusive-remastered?variant=68021935603927",
+        "price": "37.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://provosvintagegroove.com/products/green-mind-colored-vinyl-deluxe-gate-grn-exp-dinosaur-jr-vinyl?variant=68021858009303",
+        "price": "41.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://provosvintagegroove.com/products/an-introduction-to-elliott-smith-elliott-smith-vinyl?variant=68021856927959",
+        "price": "29.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 12,
+      "unique_prices": 10,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 6,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39904748109"
+    },
+    {
+      "batch": 27,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42455433568"
+    },
+    {
+      "batch": 28,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42577039054"
+    },
+    {
+      "batch": 29,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42776942344"
+    }
+  ]
+}
