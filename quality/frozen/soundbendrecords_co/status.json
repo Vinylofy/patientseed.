@@ -1,0 +1,176 @@
+{
+  "fingerprint": "8acc3643e1110063605f995c0801c55728d1a2ef6a456493ed37a071f1323e7d",
+  "domain": "soundbendrecords.co",
+  "batch": 29,
+  "repair_attempts": 3,
+  "repair_modes": [
+    "ean"
+  ],
+  "admitted": true,
+  "status": "FROZEN",
+  "run_id": "42776942344",
+  "updated_at": "2026-11-10T07:40:47.936152+00:00",
+  "evidence": {
+    "domain": "soundbendrecords.co",
+    "route": "https://soundbendrecords.co/products.json?limit=20&page=1",
+    "observed_at": "2026-11-10T07:40:44.656238+00:00",
+    "requests": [
+      {
+        "url": "https://soundbendrecords.co/products.json?limit=20&page=1",
+        "sha256": "80f9eb47e292835e521ad98a1e11fe347f2574d80f47abed51112a8b06ed39ba"
+      },
+      {
+        "url": "https://soundbendrecords.co/products/soundgarden-live-from-the-artists-den-limited-edition-deluxe-4lp-set-with-multicolor-neon-splatter-vinyl?variant=50732746342658",
+        "sha256": "9d295de7951aaaee843017f7cb83633996762a3b6b7b042cbe04e3c009dc3822"
+      },
+      {
+        "url": "https://soundbendrecords.co/products/untitled-oct12_18-58-54?variant=50723065954562",
+        "sha256": "62480dfdaf289cb8424b96b0edec2cd4568a207718640b89a989e9b33cc25a9e"
+      },
+      {
+        "url": "https://soundbendrecords.co/products/the-beach-boys-sounds-of-summer-the-very-best-of-the-beach-boys-60th-anniversary-edition-180g-2lp-vinyl?variant=50722889203970",
+        "sha256": "083c5b53650c119a73694668f94002880e594adf55bfbc59621e89fdad5b8df7"
+      }
+    ],
+    "listing_records": 15,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://soundbendrecords.co/products/soundgarden-live-from-the-artists-den-limited-edition-deluxe-4lp-set-with-multicolor-neon-splatter-vinyl?variant=50732746342658",
+        "price": "49.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://soundbendrecords.co/products/untitled-oct12_18-58-54?variant=50723065954562",
+        "price": "12.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://soundbendrecords.co/products/the-beach-boys-sounds-of-summer-the-very-best-of-the-beach-boys-60th-anniversary-edition-180g-2lp-vinyl?variant=50722889203970",
+        "price": "19.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 15,
+      "unique_prices": 10,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 7,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "40064351096"
+    },
+    {
+      "batch": 14,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40272946607"
+    },
+    {
+      "batch": 15,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "40455623960"
+    },
+    {
+      "batch": 27,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42455433568"
+    },
+    {
+      "batch": 28,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42577039054"
+    },
+    {
+      "batch": 29,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42776942344"
+    }
+  ],
+  "approved_route": "https://soundbendrecords.co/products.json?limit=20&page=1",
+  "admission_evidence": {
+    "domain": "soundbendrecords.co",
+    "route": "https://soundbendrecords.co/products.json?limit=20&page=1",
+    "observed_at": "2026-10-27T05:29:54.580983+00:00",
+    "requests": [
+      {
+        "url": "https://soundbendrecords.co/products.json?limit=20&page=1",
+        "sha256": "5767b81d59c89ed6344f67eaed1cb6b844cc922628e58a0d02ad594b5cd00710"
+      },
+      {
+        "url": "https://soundbendrecords.co/products/oasis-lp?variant=47188592623874",
+        "sha256": "c8158301473d764820b3b22766b0e0072655d02d23fb998ea4a657204f5c23e0"
+      },
+      {
+        "url": "https://soundbendrecords.co/products/jackson-browne-running-on-empty-lp?variant=47460224368898",
+        "sha256": "e77597a7567d65d288aeb32f6dffc7d5cc67ab833c9fca09f64a6b99900403db"
+      },
+      {
+        "url": "https://soundbendrecords.co/products/aaron-lewis-frayed-at-both-ends-deluxe-red-blue-2-lp?variant=47461348606210",
+        "sha256": "892a297ba11b802aad98a4363fb75e0df11684efe7dccc4fba0e2af596dbaa60"
+      }
+    ],
+    "listing_records": 18,
+    "detail_checked": 3,
+    "valid_eans": 3,
+    "details": [
+      {
+        "url": "https://soundbendrecords.co/products/oasis-lp?variant=47188592623874",
+        "price": "21.98",
+        "currency": "USD",
+        "ean": "00602508037429",
+        "condition": "new"
+      },
+      {
+        "url": "https://soundbendrecords.co/products/jackson-browne-running-on-empty-lp?variant=47460224368898",
+        "price": "24.99",
+        "currency": "USD",
+        "ean": "00696751042224",
+        "condition": "new"
+      },
+      {
+        "url": "https://soundbendrecords.co/products/aaron-lewis-frayed-at-both-ends-deluxe-red-blue-2-lp?variant=47461348606210",
+        "price": "34.99",
+        "currency": "USD",
+        "ean": "00843930074112",
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 18,
+      "unique_prices": 15,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "APPROVED"
+  }
+}
