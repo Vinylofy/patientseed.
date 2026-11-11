@@ -1,0 +1,100 @@
+{
+  "fingerprint": "38ac4ca081c1d960585f7edbab245c8ad9c9ca3df813e4035dd50998dfb99cb2",
+  "domain": "rhinebeckvinylvault.com",
+  "batch": 30,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42976211499",
+  "updated_at": "2026-11-11T06:59:44.031505+00:00",
+  "evidence": {
+    "domain": "rhinebeckvinylvault.com",
+    "route": "https://rhinebeckvinylvault.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-11T06:59:40.746356+00:00",
+    "requests": [
+      {
+        "url": "https://rhinebeckvinylvault.com/products.json?limit=20&page=1",
+        "sha256": "9db51627a227d2a5276cfe2a2a64599998c47f12335b9db1b4f9172d11c70c0e"
+      },
+      {
+        "url": "https://rhinebeckvinylvault.com/products/cameron-winter-live-at-carnegie-hall?variant=68119767056533",
+        "sha256": "b7278482bc7fa5fd21900b563046df8a3e543827e21cb97b6592fde2a9afe0ce"
+      },
+      {
+        "url": "https://rhinebeckvinylvault.com/products/deftones-covers?variant=68119761387669",
+        "sha256": "7ef4c452b9342f4dba2486e090d66ab457fa8a9506a52816882ac98b0c1caf39"
+      },
+      {
+        "url": "https://rhinebeckvinylvault.com/products/deftones-koi-no-yokan?variant=68119758864533",
+        "sha256": "e281272fa67579fe802564cd70a61a2aab595560659ec4c360237e7d0abe2c50"
+      }
+    ],
+    "listing_records": 5,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://rhinebeckvinylvault.com/products/cameron-winter-live-at-carnegie-hall?variant=68119767056533",
+        "price": "31.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://rhinebeckvinylvault.com/products/deftones-covers?variant=68119761387669",
+        "price": "30.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://rhinebeckvinylvault.com/products/deftones-koi-no-yokan?variant=68119758864533",
+        "price": "32.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 5,
+      "unique_prices": 4,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 6,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39904748109"
+    },
+    {
+      "batch": 28,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42577039054"
+    },
+    {
+      "batch": 29,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42776942344"
+    },
+    {
+      "batch": 30,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42976211499"
+    }
+  ]
+}
