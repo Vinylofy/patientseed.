@@ -1,0 +1,82 @@
+{
+  "fingerprint": "77184842d83e686ca9dc4ec9aeb044788078bfb2855df11eb273c5d68c76dbe8",
+  "domain": "rockinrubys.com",
+  "batch": 30,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42976211499",
+  "updated_at": "2026-11-11T06:59:52.543356+00:00",
+  "evidence": {
+    "domain": "rockinrubys.com",
+    "route": "https://rockinrubys.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-11T06:59:50.292924+00:00",
+    "requests": [
+      {
+        "url": "https://rockinrubys.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "8a1390adabc67ab9bba5fcfd8472b123c7901102349ff6cd55e90f785328369c"
+      },
+      {
+        "url": "https://rockinrubys.com/products/atom-heart-mother?variant=42714020380743",
+        "sha256": "3bcc3b8321beaa4a3a77c06a54e3413431497fab7bc3f359d4ae8ebb8a2c1532"
+      },
+      {
+        "url": "https://rockinrubys.com/products/interviews?variant=41753799524423",
+        "sha256": "8202ba1c29b1d9eacc31da5fd5c149bb619131c6c02326098ad4b2305a84d961"
+      }
+    ],
+    "listing_records": 9,
+    "detail_checked": 1,
+    "valid_eans": 1,
+    "details": [
+      {
+        "url": "https://rockinrubys.com/products/atom-heart-mother?variant=42714020380743",
+        "price": "245.00",
+        "currency": "USD",
+        "ean": "00015775120211",
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 9,
+      "unique_prices": 7,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 6,
+      "status": "REVIEW",
+      "reason": "invalid_detail_gtin",
+      "run_id": "39904748109"
+    },
+    {
+      "batch": 28,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42577039054"
+    },
+    {
+      "batch": 29,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42776942344"
+    },
+    {
+      "batch": 30,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42976211499"
+    }
+  ]
+}
