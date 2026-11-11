@@ -1,0 +1,70 @@
+{
+  "fingerprint": "3cfa2a3b7ed327a4937356f9469ad321e91dac1a27a8f80bc19259eb05164960",
+  "domain": "rngrecords.com",
+  "batch": 30,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42976211499",
+  "updated_at": "2026-11-11T06:59:45.602482+00:00",
+  "evidence": {
+    "domain": "rngrecords.com",
+    "route": "https://rngrecords.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-11T06:59:44.063394+00:00",
+    "requests": [
+      {
+        "url": "https://rngrecords.com/products.json?limit=20&page=1",
+        "sha256": "c17624839c0f0b48ec92880526f1cf58688971332f27b31e7b7ce7d85ed231f2"
+      },
+      {
+        "url": "https://rngrecords.com/products/10-til-midnight-splatter-snoop-dogg-vinyl?variant=48540377186521",
+        "sha256": "3c5468bafff4bfe013d7113bacce735db5cb3631a4cd255f9fb63324a0909eee"
+      }
+    ],
+    "listing_records": 12,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 12,
+      "unique_prices": 8,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 6,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39904748109"
+    },
+    {
+      "batch": 28,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42577039054"
+    },
+    {
+      "batch": 29,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42776942344"
+    },
+    {
+      "batch": 30,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42976211499"
+    }
+  ]
+}
