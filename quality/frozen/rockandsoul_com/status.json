@@ -1,0 +1,70 @@
+{
+  "fingerprint": "e68f7eaa9854f0172088770182ee7aca7b1bc17895a9b5a393963e495c65cbad",
+  "domain": "rockandsoul.com",
+  "batch": 30,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42976211499",
+  "updated_at": "2026-11-11T06:59:46.997748+00:00",
+  "evidence": {
+    "domain": "rockandsoul.com",
+    "route": "https://rockandsoul.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-11T06:59:45.634090+00:00",
+    "requests": [
+      {
+        "url": "https://rockandsoul.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "5f7362c5855fbb3960421ab8fb204a5c914dae2d64b8498ac87b3df63361ebd6"
+      },
+      {
+        "url": "https://rockandsoul.com/products/turn-on-the-music-machine-lp?variant=40448464388178",
+        "sha256": "1e893c9f67d75ddb293f2de22df1e91288d951b18b8d95f655a171f41910a066"
+      }
+    ],
+    "listing_records": 12,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 12,
+      "unique_prices": 12,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 6,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39904748109"
+    },
+    {
+      "batch": 28,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42577039054"
+    },
+    {
+      "batch": 29,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42776942344"
+    },
+    {
+      "batch": 30,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42976211499"
+    }
+  ]
+}
