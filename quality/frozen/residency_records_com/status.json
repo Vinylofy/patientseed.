@@ -1,0 +1,100 @@
+{
+  "fingerprint": "8d5320dc33033ab43c1e575ae09d8470214afe59e6acb3fd5729fb885618e8f7",
+  "domain": "residency-records.com",
+  "batch": 30,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42976211499",
+  "updated_at": "2026-11-11T06:59:35.138848+00:00",
+  "evidence": {
+    "domain": "residency-records.com",
+    "route": "https://residency-records.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-11T06:59:31.772011+00:00",
+    "requests": [
+      {
+        "url": "https://residency-records.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "ec31a33931c84275f3fce4e9385fc1a744e360168b5cbbe05bc78d9b99c8ed4c"
+      },
+      {
+        "url": "https://residency-records.com/products/let-it-be-blue?variant=49857316716832",
+        "sha256": "55d17854f4522ffdb4cf6f7edcd141f53d101d66cde25d700e37716304d0d723"
+      },
+      {
+        "url": "https://residency-records.com/products/1000mods-repeated-exposure-to-lp?variant=45696007700768",
+        "sha256": "47867c61d204744864a8318e5e4ad45bdfc123fe9b40435bb26f4ed56b690a60"
+      },
+      {
+        "url": "https://residency-records.com/products/13th-floor-elevators-bull-of-the-woods?variant=50052427088160",
+        "sha256": "47fbf2749667386a83212d7f866616f7bd0977bd98507f840e36a645ca6d7fa1"
+      }
+    ],
+    "listing_records": 18,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://residency-records.com/products/let-it-be-blue?variant=49857316716832",
+        "price": "26.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://residency-records.com/products/1000mods-repeated-exposure-to-lp?variant=45696007700768",
+        "price": "31.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://residency-records.com/products/13th-floor-elevators-bull-of-the-woods?variant=50052427088160",
+        "price": "33.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 18,
+      "unique_prices": 11,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 6,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39904748109"
+    },
+    {
+      "batch": 28,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42577039054"
+    },
+    {
+      "batch": 29,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42776942344"
+    },
+    {
+      "batch": 30,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42976211499"
+    }
+  ]
+}
