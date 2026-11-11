@@ -1,0 +1,100 @@
+{
+  "fingerprint": "a89f80a77b03c33f5ab59b6a3ba4d639c5236634e04eda76d361789cc306d3c8",
+  "domain": "rockaway.com",
+  "batch": 30,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42976211499",
+  "updated_at": "2026-11-11T06:59:50.260853+00:00",
+  "evidence": {
+    "domain": "rockaway.com",
+    "route": "https://rockaway.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-11T06:59:47.029100+00:00",
+    "requests": [
+      {
+        "url": "https://rockaway.com/products.json?limit=20&page=1",
+        "sha256": "15023a0cc9a778ba4df688bc2c9b189395b4585c27907a3af2b277ad7e600400"
+      },
+      {
+        "url": "https://rockaway.com/products/complete-music-matters-jazz-review-copy-definitive-45rpm-collection?variant=45846357278743",
+        "sha256": "01a0b9a3a72bf18fbc5d380768c01db5569dcd48d549fe51eb8095958d2b7956"
+      },
+      {
+        "url": "https://rockaway.com/products/dedicato-a-frazz-semiramis?variant=45657827213335",
+        "sha256": "26b8802b8d85c701192f1093970f976f00eb28f41fff4435e123e593cc9b6515"
+      },
+      {
+        "url": "https://rockaway.com/products/night-at-the-opera-queen?variant=45645767999511",
+        "sha256": "a04ce4a2a55bf72e98b280b605405b525e63b41938fb64901877559fca56c1b9"
+      }
+    ],
+    "listing_records": 6,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://rockaway.com/products/complete-music-matters-jazz-review-copy-definitive-45rpm-collection?variant=45846357278743",
+        "price": "12000.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://rockaway.com/products/dedicato-a-frazz-semiramis?variant=45657827213335",
+        "price": "100.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://rockaway.com/products/night-at-the-opera-queen?variant=45645767999511",
+        "price": "8000.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 6,
+      "unique_prices": 5,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 6,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39904748109"
+    },
+    {
+      "batch": 28,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42577039054"
+    },
+    {
+      "batch": 29,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42776942344"
+    },
+    {
+      "batch": 30,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42976211499"
+    }
+  ]
+}
