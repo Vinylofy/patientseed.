@@ -1,0 +1,100 @@
+{
+  "fingerprint": "a76787d95fb74be3023b88d7716762934dd945c99dbf58472df448db974cbe37",
+  "domain": "renaissancerecordsus.com",
+  "batch": 30,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42976211499",
+  "updated_at": "2026-11-11T06:59:31.740341+00:00",
+  "evidence": {
+    "domain": "renaissancerecordsus.com",
+    "route": "https://renaissancerecordsus.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-11T06:59:28.194535+00:00",
+    "requests": [
+      {
+        "url": "https://renaissancerecordsus.com/products.json?limit=20&page=1",
+        "sha256": "0aaf3cdfb2370b5c71fa67a338688eff16cab98c26571be70120fb6002512e27"
+      },
+      {
+        "url": "https://renaissancerecordsus.com/products/sky-sky-2-2lp-gilded-sapphire?variant=67960818106685",
+        "sha256": "1385cf2e2a7727cb011157374aceb06706d5fa1f237798be1510a252f31aa1a7"
+      },
+      {
+        "url": "https://renaissancerecordsus.com/products/m2m-the-big-room-lp-rose-quartz?variant=67957764915517",
+        "sha256": "78d17e199cd0e2a9991145076998d4d5b56b009fe262ae4a21728e264fe3a866"
+      },
+      {
+        "url": "https://renaissancerecordsus.com/products/anthony-phillips-1984-lp-crystal?variant=52801238466877",
+        "sha256": "006c048eaaa6cde3db8a8e3fdd158b1d7814c809f6db50be62b119e2d6e3689a"
+      }
+    ],
+    "listing_records": 18,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://renaissancerecordsus.com/products/sky-sky-2-2lp-gilded-sapphire?variant=67960818106685",
+        "price": "34.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://renaissancerecordsus.com/products/m2m-the-big-room-lp-rose-quartz?variant=67957764915517",
+        "price": "34.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://renaissancerecordsus.com/products/anthony-phillips-1984-lp-crystal?variant=52801238466877",
+        "price": "24.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 18,
+      "unique_prices": 5,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 6,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39904748109"
+    },
+    {
+      "batch": 28,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42577039054"
+    },
+    {
+      "batch": 29,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42776942344"
+    },
+    {
+      "batch": 30,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42976211499"
+    }
+  ]
+}
