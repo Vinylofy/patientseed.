@@ -3537,7 +3537,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | queenbvinylcafe.com | 27 | APPROVED | 1 | 12 | 3/3 | ACTIVE (run 42994784297) | ACTIVE | run 42455433568 |
 | rarewaves.com | 9 | APPROVED | 0 | 7 | 3/3 | ACTIVE (run 42994784297) | ACTIVE | run 40239367598 |
 | rebrecordsmd.com | 30 | FROZEN | 3 | 16 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| record-stop.com | 6 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE | run 39904748109 |
+| record-stop.com | 6 | APPROVED | 0 | 11 | 3/3 | ACTIVE (run 42595944434) | ACTIVE | run 39904748109 |
 | recordsonmain.com | 30 | FROZEN | 3 | 16 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | recordtowntx.com | 30 | FROZEN | 3 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | renaissancerecordsus.com | 30 | FROZEN | 3 | 18 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
