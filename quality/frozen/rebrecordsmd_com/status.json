@@ -1,0 +1,70 @@
+{
+  "fingerprint": "47d5584952563d6872835b7ee32891ba3f2c077116d64392e7689c6561775bf6",
+  "domain": "rebrecordsmd.com",
+  "batch": 30,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "42976211499",
+  "updated_at": "2026-11-11T06:59:25.441973+00:00",
+  "evidence": {
+    "domain": "rebrecordsmd.com",
+    "route": "https://rebrecordsmd.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-11T06:59:24.223097+00:00",
+    "requests": [
+      {
+        "url": "https://rebrecordsmd.com/products.json?limit=20&page=1",
+        "sha256": "eada0803165133376982e0d251f27979356a137e0fa539b56079d8ea70e38faa"
+      },
+      {
+        "url": "https://rebrecordsmd.com/products/bitknot-indie-exclusive-deluxe-edition-zoetrope-vinyl?variant=67956851638498",
+        "sha256": "2b9d4cf68ae079db9cfac43b6716c968d5332f0ac6055779bc5c4f296b5e743f"
+      }
+    ],
+    "listing_records": 16,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 16,
+      "unique_prices": 11,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 6,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "39904748109"
+    },
+    {
+      "batch": 28,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42577039054"
+    },
+    {
+      "batch": 29,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42776942344"
+    },
+    {
+      "batch": 30,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42976211499"
+    }
+  ]
+}
