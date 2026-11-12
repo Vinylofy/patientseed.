@@ -1,0 +1,100 @@
+{
+  "fingerprint": "60973579860f24acd322a700c984e952be770e2579b29877e465e5cc8764f1dd",
+  "domain": "rustandwax.com",
+  "batch": 31,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43176655069",
+  "updated_at": "2026-11-12T07:38:00.450174+00:00",
+  "evidence": {
+    "domain": "rustandwax.com",
+    "route": "https://rustandwax.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-12T07:37:57.154118+00:00",
+    "requests": [
+      {
+        "url": "https://rustandwax.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "e2dc070b7a5b46c72c30f6ebf2892fe46e7a9d6fe51dd9ebe1a05a1c747810ba"
+      },
+      {
+        "url": "https://rustandwax.com/products/in-my-arms-refuge?variant=47657287254267",
+        "sha256": "50346410b966d16fb7b6f4ba7501e9f0b39dcfb93c676a1a64f172c6da481cf5"
+      },
+      {
+        "url": "https://rustandwax.com/products/kingbutch?variant=39725940637854",
+        "sha256": "e5f0c92de4011304d77de256957806762006ab195e0683b693a621c78193561b"
+      },
+      {
+        "url": "https://rustandwax.com/products/hours-2021-remaster-8-5-2022?variant=43373133037819",
+        "sha256": "759e3a1c8865fe876bc1dc1beedce65c76a0a12531f79ad5416d70fd3d2f71c9"
+      }
+    ],
+    "listing_records": 15,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://rustandwax.com/products/in-my-arms-refuge?variant=47657287254267",
+        "price": "34.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://rustandwax.com/products/kingbutch?variant=39725940637854",
+        "price": "21.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://rustandwax.com/products/hours-2021-remaster-8-5-2022?variant=43373133037819",
+        "price": "34.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 15,
+      "unique_prices": 11,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 6,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39904748109"
+    },
+    {
+      "batch": 29,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42776942344"
+    },
+    {
+      "batch": 30,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42976211499"
+    },
+    {
+      "batch": 31,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43176655069"
+    }
+  ]
+}
