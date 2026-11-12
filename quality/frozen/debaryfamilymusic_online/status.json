@@ -1,0 +1,121 @@
+{
+  "fingerprint": "06cfece0cd1cadf83235f6f9cbe51eed2d9d1c30a75b7ebb531ff57651adb3e5",
+  "domain": "debaryfamilymusic.online",
+  "batch": 31,
+  "repair_attempts": 3,
+  "repair_modes": [
+    "ean",
+    "price"
+  ],
+  "admitted": true,
+  "status": "FROZEN",
+  "run_id": "43176655069",
+  "updated_at": "2026-11-12T07:37:46.428768+00:00",
+  "evidence": {
+    "domain": "debaryfamilymusic.online",
+    "route": "https://debaryfamilymusic.online/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-12T07:37:46.334578+00:00",
+    "requests": [],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1011)>",
+    "error_type": "URLError"
+  },
+  "history": [
+    {
+      "batch": 2,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "39203245483"
+    },
+    {
+      "batch": 28,
+      "status": "REVIEW",
+      "reason": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1011)>",
+      "run_id": "42577039054"
+    },
+    {
+      "batch": 29,
+      "status": "REVIEW",
+      "reason": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1011)>",
+      "run_id": "42776942344"
+    },
+    {
+      "batch": 30,
+      "status": "REVIEW",
+      "reason": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1011)>",
+      "run_id": "42976211499"
+    },
+    {
+      "batch": 31,
+      "status": "FROZEN",
+      "reason": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1011)>",
+      "run_id": "43176655069"
+    }
+  ],
+  "admission_evidence": {
+    "domain": "debaryfamilymusic.online",
+    "route": "https://debaryfamilymusic.online/products.json?limit=20&page=1",
+    "observed_at": "2026-10-19T05:12:03.964686+00:00",
+    "requests": [
+      {
+        "url": "https://debaryfamilymusic.online/products.json?limit=20&page=1",
+        "sha256": "f9f143cab25f4d50bdd99a682415b0ed6f1d54079172a48fdfb4a8ad439460f5"
+      },
+      {
+        "url": "https://debaryfamilymusic.online/products/black-label-society-engines-of-demolition-copy?variant=47280711663778",
+        "sha256": "ba4fc251ca15fd9487c00cd72e6fe52e18ad8cb9e1b2142082289dfff487b634"
+      },
+      {
+        "url": "https://debaryfamilymusic.online/products/supertramp-breakfast-in-amer-new-mint-near-mint-22dea459bc31?variant=47407753724066",
+        "sha256": "5b61b75e1b2e59d52d418ef12979634fa3027c41762073f16ff5d005fb66487c"
+      },
+      {
+        "url": "https://debaryfamilymusic.online/products/counting-crows-recovering-the-satellites-indie-exclusive-lava-red-vinyl-2lp-new-mint-near-mint-564109e03490?variant=47481858687138",
+        "sha256": "a0f95fc940136f95bd83595af15a9c493419a77aef34ec09e6ccce99b594db65"
+      }
+    ],
+    "listing_records": 19,
+    "detail_checked": 3,
+    "valid_eans": 3,
+    "details": [
+      {
+        "url": "https://debaryfamilymusic.online/products/black-label-society-engines-of-demolition-copy?variant=47280711663778",
+        "price": "42.99",
+        "currency": "USD",
+        "ean": "00634164437039",
+        "condition": "new"
+      },
+      {
+        "url": "https://debaryfamilymusic.online/products/supertramp-breakfast-in-amer-new-mint-near-mint-22dea459bc31?variant=47407753724066",
+        "price": "41.99",
+        "currency": "USD",
+        "ean": "00600753454589",
+        "condition": "new"
+      },
+      {
+        "url": "https://debaryfamilymusic.online/products/counting-crows-recovering-the-satellites-indie-exclusive-lava-red-vinyl-2lp-new-mint-near-mint-564109e03490?variant=47481858687138",
+        "price": "45.99",
+        "currency": "USD",
+        "ean": "00199957593687",
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 19,
+      "unique_prices": 15,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "APPROVED"
+  }
+}
