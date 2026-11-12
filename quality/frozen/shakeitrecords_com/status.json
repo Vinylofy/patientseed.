@@ -1,0 +1,70 @@
+{
+  "fingerprint": "d73d1de15eeaedf61f05113e926df3cb7c65f9abcc0166c1b9c947bb577439bb",
+  "domain": "shakeitrecords.com",
+  "batch": 31,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43176655069",
+  "updated_at": "2026-11-12T07:38:10.235198+00:00",
+  "evidence": {
+    "domain": "shakeitrecords.com",
+    "route": "https://shakeitrecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-12T07:38:08.797185+00:00",
+    "requests": [
+      {
+        "url": "https://shakeitrecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "ac2497a062441f958f6ac3d85267db564ac54df58b0e37a022e4badb5217771a"
+      },
+      {
+        "url": "https://shakeitrecords.com/products/acid-bath-paegan-terrorism-tactics-2-lp-180-gram?variant=46640535503078",
+        "sha256": "647379db61fc9fd7c417263fc2ac9fc9b6dc9504c96c06283251352b2d6736b6"
+      }
+    ],
+    "listing_records": 16,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 16,
+      "unique_prices": 9,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 7,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40064351096"
+    },
+    {
+      "batch": 29,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42776942344"
+    },
+    {
+      "batch": 30,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42976211499"
+    },
+    {
+      "batch": 31,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43176655069"
+    }
+  ]
+}
