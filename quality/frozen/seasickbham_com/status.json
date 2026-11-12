@@ -1,0 +1,100 @@
+{
+  "fingerprint": "03e3f3e2cdf216b1b8ab5841f210cae83b91bfc4d33ce2733d7ee22171508ff6",
+  "domain": "seasickbham.com",
+  "batch": 31,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43176655069",
+  "updated_at": "2026-11-12T07:38:05.495234+00:00",
+  "evidence": {
+    "domain": "seasickbham.com",
+    "route": "https://seasickbham.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-12T07:38:02.051172+00:00",
+    "requests": [
+      {
+        "url": "https://seasickbham.com/products.json?limit=20&page=1",
+        "sha256": "8d8e5815ad328d897b47f511f0c3c19ea3f4a584b56f551a23de4bde23638dcc"
+      },
+      {
+        "url": "https://seasickbham.com/products/wednesday-rat-saw-god-autographed-lp-gravel-beach-grey?variant=45328349331507",
+        "sha256": "d818e67a5a6dd7ff0d564f79d981fc5ca0106a8d155b08a092a35c2df772a143"
+      },
+      {
+        "url": "https://seasickbham.com/products/willie-nelson-pretty-paper-lp-sky-blue?variant=45313324449843",
+        "sha256": "54f4a73a3d3cd0117efb3735c225efaf3e44c7801800fc67ddd3a774cbbc721d"
+      },
+      {
+        "url": "https://seasickbham.com/products/alicia-walter-i-am-alicia-lp?variant=45291057905715",
+        "sha256": "f8761db36c1002b1173c458bc9016c02d6375efc8ff7f2d8818c88bc5a97875d"
+      }
+    ],
+    "listing_records": 6,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://seasickbham.com/products/wednesday-rat-saw-god-autographed-lp-gravel-beach-grey?variant=45328349331507",
+        "price": "28.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://seasickbham.com/products/willie-nelson-pretty-paper-lp-sky-blue?variant=45313324449843",
+        "price": "24.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://seasickbham.com/products/alicia-walter-i-am-alicia-lp?variant=45291057905715",
+        "price": "20.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 6,
+      "unique_prices": 6,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 6,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39904748109"
+    },
+    {
+      "batch": 29,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42776942344"
+    },
+    {
+      "batch": 30,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42976211499"
+    },
+    {
+      "batch": 31,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43176655069"
+    }
+  ]
+}
