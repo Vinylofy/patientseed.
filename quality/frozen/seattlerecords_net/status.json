@@ -1,0 +1,100 @@
+{
+  "fingerprint": "d67f844885b21fcbc83bbef2906d3037c8ee169e808f97eb4597ddbc570c42e4",
+  "domain": "seattlerecords.net",
+  "batch": 31,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43176655069",
+  "updated_at": "2026-11-12T07:38:08.773632+00:00",
+  "evidence": {
+    "domain": "seattlerecords.net",
+    "route": "https://seattlerecords.net/products.json?limit=20&page=1",
+    "observed_at": "2026-11-12T07:38:05.520589+00:00",
+    "requests": [
+      {
+        "url": "https://seattlerecords.net/products.json?limit=20&page=1",
+        "sha256": "c038af0f57989493d25a53d53b0a82c4f253043438d98b153d8a7dfee629ce68"
+      },
+      {
+        "url": "https://seattlerecords.net/products/the-nutcracker-suite-fantasia-lp?variant=45994899308567",
+        "sha256": "dcc31116ddcf94608d029638d9e799c48f014ebe98f3cfdb9473875773eb925e"
+      },
+      {
+        "url": "https://seattlerecords.net/products/lucky-thirteen-lp?variant=45414409633815",
+        "sha256": "037136d51fc888b16a8b40e75093d9863389d5ef46da216276998164c878f4b0"
+      },
+      {
+        "url": "https://seattlerecords.net/products/two-suns-the-bat-lashes-lp?variant=45362656935959",
+        "sha256": "73e9f04e9f7c0404a04399aeda5fb82102af8561e80c87103e1300ba95a34379"
+      }
+    ],
+    "listing_records": 7,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://seattlerecords.net/products/the-nutcracker-suite-fantasia-lp?variant=45994899308567",
+        "price": "25.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://seattlerecords.net/products/lucky-thirteen-lp?variant=45414409633815",
+        "price": "18.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://seattlerecords.net/products/two-suns-the-bat-lashes-lp?variant=45362656935959",
+        "price": "150.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 7,
+      "unique_prices": 6,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 7,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40064351096"
+    },
+    {
+      "batch": 29,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42776942344"
+    },
+    {
+      "batch": 30,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42976211499"
+    },
+    {
+      "batch": 31,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43176655069"
+    }
+  ]
+}
