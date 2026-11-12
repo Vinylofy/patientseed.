@@ -1,0 +1,93 @@
+{
+  "fingerprint": "76ad87c7668b30077fe03f9f3e13b4ddabd093fe50cf58eefb9b3cfd06e6d833",
+  "domain": "rollinrecs.com",
+  "batch": 31,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43176655069",
+  "updated_at": "2026-11-12T07:37:53.287412+00:00",
+  "evidence": {
+    "domain": "rollinrecs.com",
+    "route": "https://rollinrecs.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-12T07:37:49.963041+00:00",
+    "requests": [
+      {
+        "url": "https://rollinrecs.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "f8616a8c0815f9743068b0f02dab91316df02702e41ebefcf1935dbfffb1f344"
+      },
+      {
+        "url": "https://rollinrecs.com/products/suicideboys-i-want-to-die-in-new-orleans?variant=43353214386433",
+        "sha256": "b87dd75b4d599bd187c34ccfd305f133a428f9624b561c4e1c01c59c280ec33c"
+      },
+      {
+        "url": "https://rollinrecs.com/products/070-shake-modus-vivendi-orange-vinyl?variant=43706049593601",
+        "sha256": "709e00d10bdffe10b9f42fb28656887c88372e92f44e2dff14bbeed134b58fb2"
+      },
+      {
+        "url": "https://rollinrecs.com/products/100-gecs-1000-gecs-and-the-tree-of-clues-green-vinyl?variant=40005449744570",
+        "sha256": "66bcee78a435da97109d09bb85528ae8d7d33686695eddd7e665b3935e67a8ac"
+      }
+    ],
+    "listing_records": 15,
+    "detail_checked": 2,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://rollinrecs.com/products/suicideboys-i-want-to-die-in-new-orleans?variant=43353214386433",
+        "price": "23.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://rollinrecs.com/products/070-shake-modus-vivendi-orange-vinyl?variant=43706049593601",
+        "price": "49.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 15,
+      "unique_prices": 10,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 6,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39904748109"
+    },
+    {
+      "batch": 29,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42776942344"
+    },
+    {
+      "batch": 30,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "42976211499"
+    },
+    {
+      "batch": 31,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43176655069"
+    }
+  ]
+}
