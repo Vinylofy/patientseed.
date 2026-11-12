@@ -1,0 +1,78 @@
+{
+  "fingerprint": "085646991191d2d3feb7ebdfe7dbeb8a7465a6408aa2bf2e97ad64eb2fb18910",
+  "domain": "rottenislandrecords.com",
+  "batch": 31,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43176655069",
+  "updated_at": "2026-11-12T07:37:54.629485+00:00",
+  "evidence": {
+    "domain": "rottenislandrecords.com",
+    "route": "https://rottenislandrecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-12T07:37:53.311591+00:00",
+    "requests": [
+      {
+        "url": "https://rottenislandrecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "c24ca8fd21f3b3c43bfbf83344066d67d65b77e91bd5c4a4b170cd4243b554d2"
+      },
+      {
+        "url": "https://rottenislandrecords.com/products/gangstarr-moment-of-truth-vinyl-record?variant=43586304835635",
+        "sha256": "39922322e70077a8755187d584348e6592b528cf96e2f2000cbbd2e8de0af43b"
+      }
+    ],
+    "listing_records": 1,
+    "detail_checked": 1,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://rottenislandrecords.com/products/gangstarr-moment-of-truth-vinyl-record?variant=43586304835635",
+        "price": "35.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 1,
+      "unique_prices": 1,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 6,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39904748109"
+    },
+    {
+      "batch": 29,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42776942344"
+    },
+    {
+      "batch": 30,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42976211499"
+    },
+    {
+      "batch": 31,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43176655069"
+    }
+  ]
+}
