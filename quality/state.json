@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "batch": 30,
+  "batch": 31,
   "shops": {
     "10000hzrecords_com": {
       "fingerprint": "bd851743c2eee03c427913ea2a88bc94dfb0e74b1f11366277a07532ffcd9e33",
@@ -3448,20 +3448,20 @@
     "debaryfamilymusic_online": {
       "fingerprint": "06cfece0cd1cadf83235f6f9cbe51eed2d9d1c30a75b7ebb531ff57651adb3e5",
       "domain": "debaryfamilymusic.online",
-      "batch": 30,
-      "repair_attempts": 2,
+      "batch": 31,
+      "repair_attempts": 3,
       "repair_modes": [
         "ean",
         "price"
       ],
       "admitted": true,
-      "status": "REVIEW",
-      "run_id": "42976211499",
-      "updated_at": "2026-11-11T06:59:24.190433+00:00",
+      "status": "FROZEN",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:37:46.428768+00:00",
       "evidence": {
         "domain": "debaryfamilymusic.online",
         "route": "https://debaryfamilymusic.online/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-11T06:59:24.133571+00:00",
+        "observed_at": "2026-11-12T07:37:46.334578+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -3496,6 +3496,12 @@
           "status": "REVIEW",
           "reason": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1011)>",
           "run_id": "42976211499"
+        },
+        {
+          "batch": 31,
+          "status": "FROZEN",
+          "reason": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1011)>",
+          "run_id": "43176655069"
         }
       ],
       "admission_evidence": {
@@ -12907,33 +12913,33 @@
     "rocknrollarecordshop_com": {
       "fingerprint": "84d1017bdb650da58659195047548fbc26380e152575189541f1920698ce72d2",
       "domain": "rocknrollarecordshop.com",
-      "batch": 30,
-      "repair_attempts": 2,
+      "batch": 31,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "42976211499",
-      "updated_at": "2026-11-11T06:59:56.004472+00:00",
+      "status": "FROZEN",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:37:49.938401+00:00",
       "evidence": {
         "domain": "rocknrollarecordshop.com",
         "route": "https://rocknrollarecordshop.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-11T06:59:52.574978+00:00",
+        "observed_at": "2026-11-12T07:37:46.453523+00:00",
         "requests": [
           {
             "url": "https://rocknrollarecordshop.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "d1e4c29034ab8dd14ecf85c61e1a239bcfdde6a1a77dba6f161e9c806817ed39"
+            "sha256": "fe5c895c2022ee1d3e218bc33329bce8112f364982ac633ee36d927f9ec8f210"
           },
           {
             "url": "https://rocknrollarecordshop.com/products/hed-p-e-back-2-base-x-indie-exclusive-red-vinyl-vinyl?variant=53052108603701",
-            "sha256": "35f38b6d65371c7d638a8467b197a222683082c2d5a7b854c10dec9f846f3615"
+            "sha256": "b2dd306e6302d61db941a376299fe85c4de830e598446e205fd1771c2dde9fa7"
           },
           {
             "url": "https://rocknrollarecordshop.com/products/16-forgeries-vol-1-1972-1984-lp-vinyl?variant=53028886315317",
-            "sha256": "f937c6054ccc72a9ea93863b2301fed84b094dfcaf8a670e72acc557c4e0b5ce"
+            "sha256": "039656636f488944ab37275d1e1b295348bbcee2521502cf538828528196217d"
           },
           {
             "url": "https://rocknrollarecordshop.com/products/3-doors-down-away-from-the-s2lp-vinyl?variant=68038363676981",
-            "sha256": "1b261510dd985540d2e72da8a7ee6ab3d73e6cc193917ae8cfb1d01cf6f1f6d5"
+            "sha256": "8faf5eb116d99c38463e26ca01e9758a744e3e1c21656dfdaab70d2ec35a014c"
           }
         ],
         "listing_records": 20,
@@ -12995,39 +13001,45 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "42976211499"
+        },
+        {
+          "batch": 31,
+          "status": "FROZEN",
+          "reason": "detail_ean_not_proven",
+          "run_id": "43176655069"
         }
       ]
     },
     "rollinrecs_com": {
       "fingerprint": "76ad87c7668b30077fe03f9f3e13b4ddabd093fe50cf58eefb9b3cfd06e6d833",
       "domain": "rollinrecs.com",
-      "batch": 30,
-      "repair_attempts": 2,
+      "batch": 31,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "42976211499",
-      "updated_at": "2026-11-11T06:59:59.324550+00:00",
+      "status": "FROZEN",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:37:53.287412+00:00",
       "evidence": {
         "domain": "rollinrecs.com",
         "route": "https://rollinrecs.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-11T06:59:56.035890+00:00",
+        "observed_at": "2026-11-12T07:37:49.963041+00:00",
         "requests": [
           {
             "url": "https://rollinrecs.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "9c56e76a678fd388fbc681ea49e75813d82cb4adb0fb247ea298a115d9815b7b"
+            "sha256": "f8616a8c0815f9743068b0f02dab91316df02702e41ebefcf1935dbfffb1f344"
           },
           {
             "url": "https://rollinrecs.com/products/suicideboys-i-want-to-die-in-new-orleans?variant=43353214386433",
-            "sha256": "811ac4138a353e000f8433116ed59fde454c52bcc3f3a5efa0dbc3e00b32f8d0"
+            "sha256": "b87dd75b4d599bd187c34ccfd305f133a428f9624b561c4e1c01c59c280ec33c"
           },
           {
             "url": "https://rollinrecs.com/products/070-shake-modus-vivendi-orange-vinyl?variant=43706049593601",
-            "sha256": "bdc0ef8847eb1959ab9b0316e3bbf5c92379b367f6795f8086edfc2648b784eb"
+            "sha256": "709e00d10bdffe10b9f42fb28656887c88372e92f44e2dff14bbeed134b58fb2"
           },
           {
             "url": "https://rollinrecs.com/products/100-gecs-1000-gecs-and-the-tree-of-clues-green-vinyl?variant=40005449744570",
-            "sha256": "11bc38ed730eeca2f3c3a512afa5ad276ed0ede387ffbfa76a1314f7a07e9184"
+            "sha256": "66bcee78a435da97109d09bb85528ae8d7d33686695eddd7e665b3935e67a8ac"
           }
         ],
         "listing_records": 15,
@@ -13082,31 +13094,37 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "42976211499"
+        },
+        {
+          "batch": 31,
+          "status": "FROZEN",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "43176655069"
         }
       ]
     },
     "rottenislandrecords_com": {
       "fingerprint": "085646991191d2d3feb7ebdfe7dbeb8a7465a6408aa2bf2e97ad64eb2fb18910",
       "domain": "rottenislandrecords.com",
-      "batch": 30,
-      "repair_attempts": 2,
+      "batch": 31,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "42976211499",
-      "updated_at": "2026-11-11T07:00:00.861398+00:00",
+      "status": "FROZEN",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:37:54.629485+00:00",
       "evidence": {
         "domain": "rottenislandrecords.com",
         "route": "https://rottenislandrecords.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-11T06:59:59.355283+00:00",
+        "observed_at": "2026-11-12T07:37:53.311591+00:00",
         "requests": [
           {
             "url": "https://rottenislandrecords.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "24fedb92dd32c120a3925d736f62cfa4d1b84541d752e83eb6f509fc34f2a8eb"
+            "sha256": "c24ca8fd21f3b3c43bfbf83344066d67d65b77e91bd5c4a4b170cd4243b554d2"
           },
           {
             "url": "https://rottenislandrecords.com/products/gangstarr-moment-of-truth-vinyl-record?variant=43586304835635",
-            "sha256": "f1b840b63f254f224f1dfd9504d555076c26aa22d223d43bc0b30edbc2bd9096"
+            "sha256": "39922322e70077a8755187d584348e6592b528cf96e2f2000cbbd2e8de0af43b"
           }
         ],
         "listing_records": 1,
@@ -13154,35 +13172,41 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "42976211499"
+        },
+        {
+          "batch": 31,
+          "status": "FROZEN",
+          "reason": "detail_ean_not_proven",
+          "run_id": "43176655069"
         }
       ]
     },
     "roundhillmusicco_com": {
       "fingerprint": "351d2f1a27dcdadf4b030e693bd926214d31d60bf0f81ab9ad4749f93ee8a513",
       "domain": "roundhillmusicco.com",
-      "batch": 30,
-      "repair_attempts": 2,
+      "batch": 31,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "42976211499",
-      "updated_at": "2026-11-11T07:00:03.258976+00:00",
+      "status": "FROZEN",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:37:57.130528+00:00",
       "evidence": {
         "domain": "roundhillmusicco.com",
         "route": "https://roundhillmusicco.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-11T07:00:00.891949+00:00",
+        "observed_at": "2026-11-12T07:37:54.654175+00:00",
         "requests": [
           {
             "url": "https://roundhillmusicco.com/products.json?limit=20&page=1",
-            "sha256": "47766ba9e2ff33f50cc2ac5d02b905cfc32dd86623166c87b8973157cc77f294"
+            "sha256": "c694e98f1a1e93b88007fbbac5f8b6bd99fa683b97382126ac136aad40f8571f"
           },
           {
             "url": "https://roundhillmusicco.com/products/the-national-boxer-original-master-recording?variant=52802604761220",
-            "sha256": "ec1520a7634e590367bfa10f41a2e6886bf68842bd922477fd162d88cfb341f5"
+            "sha256": "ab895b7dd46d3d5813511daca9680a338ae6fd7261739a05afca3e87cb8bcf89"
           },
           {
             "url": "https://roundhillmusicco.com/products/school-of-rock-o-s-t?variant=67781795381380",
-            "sha256": "1b4ffad61c24d3a769d979ab153b396f1f11477c975d090742c16ab5d3148d20"
+            "sha256": "3e8b471148f40830d2e67845b925bab3300a8379374ed2c4a8a552f08682410e"
           }
         ],
         "listing_records": 2,
@@ -13237,39 +13261,45 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "42976211499"
+        },
+        {
+          "batch": 31,
+          "status": "FROZEN",
+          "reason": "detail_ean_not_proven",
+          "run_id": "43176655069"
         }
       ]
     },
     "rustandwax_com": {
       "fingerprint": "60973579860f24acd322a700c984e952be770e2579b29877e465e5cc8764f1dd",
       "domain": "rustandwax.com",
-      "batch": 30,
-      "repair_attempts": 2,
+      "batch": 31,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "42976211499",
-      "updated_at": "2026-11-11T07:00:06.556841+00:00",
+      "status": "FROZEN",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:38:00.450174+00:00",
       "evidence": {
         "domain": "rustandwax.com",
         "route": "https://rustandwax.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-11T07:00:03.290748+00:00",
+        "observed_at": "2026-11-12T07:37:57.154118+00:00",
         "requests": [
           {
             "url": "https://rustandwax.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "8762d9c7c9b6b4cac3981758547549e1200275374a01d97e63ca757af99a7395"
+            "sha256": "e2dc070b7a5b46c72c30f6ebf2892fe46e7a9d6fe51dd9ebe1a05a1c747810ba"
           },
           {
             "url": "https://rustandwax.com/products/in-my-arms-refuge?variant=47657287254267",
-            "sha256": "87bb1bd29f9dc30a8e10e9b960486ae6db5a200f0512b590bb73e259cbdc79a8"
+            "sha256": "50346410b966d16fb7b6f4ba7501e9f0b39dcfb93c676a1a64f172c6da481cf5"
           },
           {
             "url": "https://rustandwax.com/products/kingbutch?variant=39725940637854",
-            "sha256": "c8b9f4f87831bb54ebde8a2e1b23f15a7bc861c3f136d9257d5a51379273fc11"
+            "sha256": "e5f0c92de4011304d77de256957806762006ab195e0683b693a621c78193561b"
           },
           {
             "url": "https://rustandwax.com/products/hours-2021-remaster-8-5-2022?variant=43373133037819",
-            "sha256": "5f9cb89304e4b83bb08ed370b2b63cc8856a9edb353eb4cacf145664f4cfb198"
+            "sha256": "759e3a1c8865fe876bc1dc1beedce65c76a0a12531f79ad5416d70fd3d2f71c9"
           }
         ],
         "listing_records": 15,
@@ -13331,6 +13361,12 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "42976211499"
+        },
+        {
+          "batch": 31,
+          "status": "FROZEN",
+          "reason": "detail_ean_not_proven",
+          "run_id": "43176655069"
         }
       ]
     },
@@ -13478,25 +13514,25 @@
     "sdvintagecollectables_com": {
       "fingerprint": "6ed0e2c918fcbd1d9d88f53cbd0fd502592c5ef02349ba1a6a12a596092322f7",
       "domain": "sdvintagecollectables.com",
-      "batch": 30,
-      "repair_attempts": 2,
+      "batch": 31,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "42976211499",
-      "updated_at": "2026-11-11T07:00:08.120551+00:00",
+      "status": "FROZEN",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:38:02.024616+00:00",
       "evidence": {
         "domain": "sdvintagecollectables.com",
         "route": "https://sdvintagecollectables.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-11T07:00:06.587983+00:00",
+        "observed_at": "2026-11-12T07:38:00.475175+00:00",
         "requests": [
           {
             "url": "https://sdvintagecollectables.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "2c9fcacab1089be6be1fbb5721c1c4b0d6c006b78b349309d4264c925fde8268"
+            "sha256": "d19ff46b9dc671824d769e1c0166f9b729b7c392ceae68698d634a10147f084e"
           },
           {
             "url": "https://sdvintagecollectables.com/products/mysterybox?variant=67997373235351",
-            "sha256": "1805c8217af91b89a3f99b0da42473ef38ee0b18321215d429787958790dd3e4"
+            "sha256": "cb9af798e432354208d6710162faaecd95a388091c36d0685b1b93206e177ba8"
           }
         ],
         "listing_records": 5,
@@ -13536,55 +13572,61 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "42976211499"
+        },
+        {
+          "batch": 31,
+          "status": "FROZEN",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "43176655069"
         }
       ]
     },
     "seasickbham_com": {
       "fingerprint": "03e3f3e2cdf216b1b8ab5841f210cae83b91bfc4d33ce2733d7ee22171508ff6",
       "domain": "seasickbham.com",
-      "batch": 30,
-      "repair_attempts": 2,
+      "batch": 31,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "42976211499",
-      "updated_at": "2026-11-11T07:00:11.420821+00:00",
+      "status": "FROZEN",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:38:05.495234+00:00",
       "evidence": {
         "domain": "seasickbham.com",
         "route": "https://seasickbham.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-11T07:00:08.151666+00:00",
+        "observed_at": "2026-11-12T07:38:02.051172+00:00",
         "requests": [
           {
             "url": "https://seasickbham.com/products.json?limit=20&page=1",
-            "sha256": "a697bce31b1004f13c0ce5af04369015562f2842b7074d43d36477e930b6a065"
+            "sha256": "8d8e5815ad328d897b47f511f0c3c19ea3f4a584b56f551a23de4bde23638dcc"
           },
           {
-            "url": "https://seasickbham.com/products/special-order-surprise-chef-frogs-in-a-pond-lp?variant=45325174177843",
-            "sha256": "4b3140d361bcd8c01182e1a0c56b59cf7ccdf41b9ad93972ca32224aefee402b"
+            "url": "https://seasickbham.com/products/wednesday-rat-saw-god-autographed-lp-gravel-beach-grey?variant=45328349331507",
+            "sha256": "d818e67a5a6dd7ff0d564f79d981fc5ca0106a8d155b08a092a35c2df772a143"
           },
           {
-            "url": "https://seasickbham.com/products/thundercat-distracted-autographed-lp-red?variant=45267342065715",
-            "sha256": "1e2bab2fa629a6b57413b35ab71bb395cadb523fa1992792fa4b279f27b66551"
+            "url": "https://seasickbham.com/products/willie-nelson-pretty-paper-lp-sky-blue?variant=45313324449843",
+            "sha256": "54f4a73a3d3cd0117efb3735c225efaf3e44c7801800fc67ddd3a774cbbc721d"
           },
           {
             "url": "https://seasickbham.com/products/alicia-walter-i-am-alicia-lp?variant=45291057905715",
-            "sha256": "e6c8fa475e8cc627e2527edcb57ac4a57e41018a65c369fa1a94db1ef2cfeb8c"
+            "sha256": "f8761db36c1002b1173c458bc9016c02d6375efc8ff7f2d8818c88bc5a97875d"
           }
         ],
-        "listing_records": 4,
+        "listing_records": 6,
         "detail_checked": 3,
         "valid_eans": 0,
         "details": [
           {
-            "url": "https://seasickbham.com/products/special-order-surprise-chef-frogs-in-a-pond-lp?variant=45325174177843",
-            "price": "22.00",
+            "url": "https://seasickbham.com/products/wednesday-rat-saw-god-autographed-lp-gravel-beach-grey?variant=45328349331507",
+            "price": "28.00",
             "currency": "USD",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://seasickbham.com/products/thundercat-distracted-autographed-lp-red?variant=45267342065715",
-            "price": "32.00",
+            "url": "https://seasickbham.com/products/willie-nelson-pretty-paper-lp-sky-blue?variant=45313324449843",
+            "price": "24.00",
             "currency": "USD",
             "ean": null,
             "condition": "new"
@@ -13601,8 +13643,8 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 4,
-          "unique_prices": 4,
+          "records_checked": 6,
+          "unique_prices": 6,
           "shipping_hits": 0,
           "currencies": [
             "USD"
@@ -13630,39 +13672,45 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "42976211499"
+        },
+        {
+          "batch": 31,
+          "status": "FROZEN",
+          "reason": "detail_ean_not_proven",
+          "run_id": "43176655069"
         }
       ]
     },
     "seattlerecords_net": {
       "fingerprint": "d67f844885b21fcbc83bbef2906d3037c8ee169e808f97eb4597ddbc570c42e4",
       "domain": "seattlerecords.net",
-      "batch": 30,
-      "repair_attempts": 2,
+      "batch": 31,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "42976211499",
-      "updated_at": "2026-11-11T07:00:14.757866+00:00",
+      "status": "FROZEN",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:38:08.773632+00:00",
       "evidence": {
         "domain": "seattlerecords.net",
         "route": "https://seattlerecords.net/products.json?limit=20&page=1",
-        "observed_at": "2026-11-11T07:00:11.451781+00:00",
+        "observed_at": "2026-11-12T07:38:05.520589+00:00",
         "requests": [
           {
             "url": "https://seattlerecords.net/products.json?limit=20&page=1",
-            "sha256": "431a91f2aeee8675b11da3ffe80c03cda545d1806ab7f23d7b446d60719c9f59"
+            "sha256": "c038af0f57989493d25a53d53b0a82c4f253043438d98b153d8a7dfee629ce68"
           },
           {
             "url": "https://seattlerecords.net/products/the-nutcracker-suite-fantasia-lp?variant=45994899308567",
-            "sha256": "62fc690ca3a33df76c611275fff068736f2c3c7201a3757b9e033e296aba9bd7"
+            "sha256": "dcc31116ddcf94608d029638d9e799c48f014ebe98f3cfdb9473875773eb925e"
           },
           {
             "url": "https://seattlerecords.net/products/lucky-thirteen-lp?variant=45414409633815",
-            "sha256": "b10800a51e2826cf7ab6c3bda474b85ea55ac271bbf518a750d78109dba35b53"
+            "sha256": "037136d51fc888b16a8b40e75093d9863389d5ef46da216276998164c878f4b0"
           },
           {
             "url": "https://seattlerecords.net/products/two-suns-the-bat-lashes-lp?variant=45362656935959",
-            "sha256": "de2ab165d572aeb58588ff09fbbed32a7b6ef9aef4c5f783e3d19d85e7c3fcc3"
+            "sha256": "73e9f04e9f7c0404a04399aeda5fb82102af8561e80c87103e1300ba95a34379"
           }
         ],
         "listing_records": 7,
@@ -13724,31 +13772,37 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "42976211499"
+        },
+        {
+          "batch": 31,
+          "status": "FROZEN",
+          "reason": "detail_ean_not_proven",
+          "run_id": "43176655069"
         }
       ]
     },
     "shakeitrecords_com": {
       "fingerprint": "d73d1de15eeaedf61f05113e926df3cb7c65f9abcc0166c1b9c947bb577439bb",
       "domain": "shakeitrecords.com",
-      "batch": 30,
-      "repair_attempts": 2,
+      "batch": 31,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "42976211499",
-      "updated_at": "2026-11-11T07:00:16.267799+00:00",
+      "status": "FROZEN",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:38:10.235198+00:00",
       "evidence": {
         "domain": "shakeitrecords.com",
         "route": "https://shakeitrecords.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-11T07:00:14.788717+00:00",
+        "observed_at": "2026-11-12T07:38:08.797185+00:00",
         "requests": [
           {
             "url": "https://shakeitrecords.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "d786501b667e8c36147fa62d07403233dee7dbcf0d82f0a4b562debbabf7649e"
+            "sha256": "ac2497a062441f958f6ac3d85267db564ac54df58b0e37a022e4badb5217771a"
           },
           {
             "url": "https://shakeitrecords.com/products/acid-bath-paegan-terrorism-tactics-2-lp-180-gram?variant=46640535503078",
-            "sha256": "ee916a53f659441b35805b9bd018642b58a75e0bf395d96f62b1df543f099779"
+            "sha256": "647379db61fc9fd7c417263fc2ac9fc9b6dc9504c96c06283251352b2d6736b6"
           }
         ],
         "listing_records": 16,
@@ -13788,23 +13842,29 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "42976211499"
+        },
+        {
+          "batch": 31,
+          "status": "FROZEN",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "43176655069"
         }
       ]
     },
     "shangri_com": {
       "fingerprint": "b3414c6a7d705833be3138ff84cf804e435eb7fbe1af1b7840e45d089563ccd4",
       "domain": "shangri.com",
-      "batch": 30,
-      "repair_attempts": 1,
+      "batch": 31,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "42976211499",
-      "updated_at": "2026-11-11T07:00:28.426518+00:00",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:38:12.989556+00:00",
       "evidence": {
         "domain": "shangri.com",
         "route": "https://shangri.com/wp-json/wc/store/v1/products?per_page=20&page=1",
-        "observed_at": "2026-11-11T07:00:16.298592+00:00",
+        "observed_at": "2026-11-12T07:38:10.324141+00:00",
         "requests": [
           {
             "url": "https://shangri.com/wp-json/wc/store/v1/products?per_page=20&page=1",
@@ -13812,7 +13872,7 @@
           },
           {
             "url": "https://shangri.com/product/al-green-greatest-hits/",
-            "sha256": "4e6a767ceaaa9059c719577a8d98103959cb3e63c04c0ba289436e425c2008fe"
+            "sha256": "ccfc65041c5bcbbefacabbc47c0bd1aa13626a632c63c6877a4c8e76e29abb9c"
           }
         ],
         "listing_records": 1,
@@ -13846,27 +13906,33 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "42976211499"
+        },
+        {
+          "batch": 31,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "43176655069"
         }
       ]
     },
     "shop_horrorpaingoredeath_com": {
       "fingerprint": "5c2461b6a86d1f4b9748e2f617bfb5c9cce9831b68c92f9324e4e0885bc703b4",
       "domain": "shop.horrorpaingoredeath.com",
-      "batch": 30,
-      "repair_attempts": 1,
+      "batch": 31,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "42976211499",
-      "updated_at": "2026-11-11T07:00:28.754703+00:00",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:38:13.291911+00:00",
       "evidence": {
         "domain": "shop.horrorpaingoredeath.com",
         "route": "https://shop.horrorpaingoredeath.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-11T07:00:28.457635+00:00",
+        "observed_at": "2026-11-12T07:38:13.013890+00:00",
         "requests": [
           {
             "url": "https://shop.horrorpaingoredeath.com/products.json?limit=20&page=1",
-            "sha256": "752019f3bf466df56a8de059dff306935bf1ea42e19b950603fb8eb270458ba0"
+            "sha256": "67ffdd9ed795e12ead99a57b5e1699766b9bcb1f6cddf31d69f1f02cc5dc66b5"
           }
         ],
         "listing_records": 0,
@@ -13890,62 +13956,68 @@
           "status": "REVIEW",
           "reason": "no_new_vinyl_records",
           "run_id": "42976211499"
+        },
+        {
+          "batch": 31,
+          "status": "REVIEW",
+          "reason": "no_new_vinyl_records",
+          "run_id": "43176655069"
         }
       ]
     },
     "shop_strictlydiscs_com": {
       "fingerprint": "6679c4646117f12447e32e50da6fd121220cde4420f2a676a34294a994c3e54f",
       "domain": "shop.strictlydiscs.com",
-      "batch": 30,
-      "repair_attempts": 1,
+      "batch": 31,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "42976211499",
-      "updated_at": "2026-11-11T07:00:32.040212+00:00",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:38:16.556566+00:00",
       "evidence": {
         "domain": "shop.strictlydiscs.com",
         "route": "https://shop.strictlydiscs.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-11T07:00:28.785552+00:00",
+        "observed_at": "2026-11-12T07:38:13.315157+00:00",
         "requests": [
           {
             "url": "https://shop.strictlydiscs.com/products.json?limit=20&page=1",
-            "sha256": "fe1ca025b3d19e833a5bb82bb4c78b8684eabfce99890e92cdac11b6b2de3f99"
+            "sha256": "78212b666bdd77931941cb7daa598c727be2b30d9d5990c7b436e432ed82d413"
           },
           {
-            "url": "https://shop.strictlydiscs.com/products/pre-order-the-wood-brothers-rollin-on-1?variant=47243830264004",
-            "sha256": "1dcc49bc9f7dda912c99886baef72a44248678c521dd32cf98caa81bcb98b856"
+            "url": "https://shop.strictlydiscs.com/products/pre-order-carrie-newcomer-murmurations-1?variant=47252657635524",
+            "sha256": "2f04a3a957f15d3603d6ecee2c9ac38316d115c00e609a893b95dc97e7c0098c"
           },
           {
-            "url": "https://shop.strictlydiscs.com/products/pre-order-walls-of-jericho-system-error-humanity-indie-exclusive-translucent-yellow?variant=47243828822212",
-            "sha256": "bb6dfe38518b63663db2d434b97e122cc080afa42b71accd609dc71a110a9be5"
+            "url": "https://shop.strictlydiscs.com/products/pre-order-thinking-fellers-union-local-282-strangers-from-the-universe-2026-repress?variant=47252655898820",
+            "sha256": "9bf4b6f9c6ec11c3c6f4fc28b908c35e71a607371e5f4bc4aa8cad38f1d68062"
           },
           {
-            "url": "https://shop.strictlydiscs.com/products/pre-order-courtney-werner-tritium-forests-indie-exclusive-metallic-silver?variant=47243828101316",
-            "sha256": "439f24f3e749f075cb393f83eddf4311e9490ae3aeaf9a1aec31c6977673bead"
+            "url": "https://shop.strictlydiscs.com/products/pre-order-earthquake-studio-legacy-of-dub?variant=47252655571140",
+            "sha256": "0437624c6e6d124c8937ad304f1f4174fb2816feeeb44c7ad1c98d43c0ba5381"
           }
         ],
-        "listing_records": 17,
+        "listing_records": 16,
         "detail_checked": 3,
         "valid_eans": 0,
         "details": [
           {
-            "url": "https://shop.strictlydiscs.com/products/pre-order-the-wood-brothers-rollin-on-1?variant=47243830264004",
-            "price": "31.99",
+            "url": "https://shop.strictlydiscs.com/products/pre-order-carrie-newcomer-murmurations-1?variant=47252657635524",
+            "price": "27.99",
             "currency": "USD",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://shop.strictlydiscs.com/products/pre-order-walls-of-jericho-system-error-humanity-indie-exclusive-translucent-yellow?variant=47243828822212",
-            "price": "29.99",
+            "url": "https://shop.strictlydiscs.com/products/pre-order-thinking-fellers-union-local-282-strangers-from-the-universe-2026-repress?variant=47252655898820",
+            "price": "37.99",
             "currency": "USD",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://shop.strictlydiscs.com/products/pre-order-courtney-werner-tritium-forests-indie-exclusive-metallic-silver?variant=47243828101316",
-            "price": "32.99",
+            "url": "https://shop.strictlydiscs.com/products/pre-order-earthquake-studio-legacy-of-dub?variant=47252655571140",
+            "price": "44.99",
             "currency": "USD",
             "ean": null,
             "condition": "new"
@@ -13955,8 +14027,8 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 17,
-          "unique_prices": 12,
+          "records_checked": 16,
+          "unique_prices": 11,
           "shipping_hits": 0,
           "currencies": [
             "USD"
@@ -13978,62 +14050,68 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "42976211499"
+        },
+        {
+          "batch": 31,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "43176655069"
         }
       ]
     },
     "shopcreep_com": {
       "fingerprint": "dc86040a6c65e838083d5cbc2b7890cdaf6d8b7e7c41c86f8799efe12fbfb5be",
       "domain": "shopcreep.com",
-      "batch": 7,
-      "repair_attempts": 0,
+      "batch": 31,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40064351096",
-      "updated_at": "2026-10-24T04:57:33.754271+00:00",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:38:19.883383+00:00",
       "evidence": {
         "domain": "shopcreep.com",
-        "route": "https://shopcreep.com/products.json?limit=20&page=1",
-        "observed_at": "2026-10-24T04:57:30.424508+00:00",
+        "route": "https://shopcreep.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-12T07:38:16.580069+00:00",
         "requests": [
           {
-            "url": "https://shopcreep.com/products.json?limit=20&page=1",
-            "sha256": "2189cdf5c22a924c473524a92fd21d362c78eea509b44526015798c6237bd047"
+            "url": "https://shopcreep.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "a05784f8813c9e41f4917a9b963882751029fb1111db73823efbc85247c70594"
           },
           {
-            "url": "https://shopcreep.com/products/grey-area-silence-lp-lavender-vinyl-pre-order?variant=67717776572547",
-            "sha256": "b03680a6cf0a4f57c1b7155e54c6198f905df59d9434ff99d1d81f946e590e13"
+            "url": "https://shopcreep.com/products/abstract-mindstate-dreams-still-inspire-translucent-green-vinyl?variant=42720264454275",
+            "sha256": "6fb699084c40358f4873b9135c8bcb7c433301696ec6ab7c88df7a60512888d4"
           },
           {
-            "url": "https://shopcreep.com/products/teddy-duchamps-army-the-spirit-never-dies-lp-cherry-or-citrus-torrent-vinyl-pre-order?variant=47788821414019",
-            "sha256": "41f8ec02ccef3004b1c2cd6566f4c11c3026960f09cb0957f7f06aa5329c74b8"
+            "url": "https://shopcreep.com/products/amusement-errth-carnivorous-flower-feversleep-4-way-slpit-lp?variant=45549803339907",
+            "sha256": "05ac93778bd7dea366d572fdaa4cf02abc1501f28df9c25abd3991017eca15e2"
           },
           {
-            "url": "https://shopcreep.com/products/chemical-x-is-this-tomorrow-lp-green-or-orange-vinyl?variant=47238489931907",
-            "sha256": "60cff8504abf727e4d32ecb470e36877f6e2d1210f9b03b6df468ed98b93c54d"
+            "url": "https://shopcreep.com/products/battalion-zoska-fatal-blow-split-7?variant=42752102531203",
+            "sha256": "dad48a6303fa3efa6b61ed975dc994308a6ccd0adc64a69018e1abd8e06bc7ba"
           }
         ],
-        "listing_records": 12,
+        "listing_records": 6,
         "detail_checked": 3,
         "valid_eans": 0,
         "details": [
           {
-            "url": "https://shopcreep.com/products/grey-area-silence-lp-lavender-vinyl-pre-order?variant=67717776572547",
-            "price": "27.00",
+            "url": "https://shopcreep.com/products/abstract-mindstate-dreams-still-inspire-translucent-green-vinyl?variant=42720264454275",
+            "price": "44.99",
             "currency": "USD",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://shopcreep.com/products/teddy-duchamps-army-the-spirit-never-dies-lp-cherry-or-citrus-torrent-vinyl-pre-order?variant=47788821414019",
-            "price": "25.00",
+            "url": "https://shopcreep.com/products/amusement-errth-carnivorous-flower-feversleep-4-way-slpit-lp?variant=45549803339907",
+            "price": "19.99",
             "currency": "USD",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://shopcreep.com/products/chemical-x-is-this-tomorrow-lp-green-or-orange-vinyl?variant=47238489931907",
-            "price": "25.00",
+            "url": "https://shopcreep.com/products/battalion-zoska-fatal-blow-split-7?variant=42752102531203",
+            "price": "10.99",
             "currency": "USD",
             "ean": null,
             "condition": "new"
@@ -14043,8 +14121,8 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 12,
-          "unique_prices": 3,
+          "records_checked": 6,
+          "unique_prices": 5,
           "shipping_hits": 0,
           "currencies": [
             "USD"
@@ -14060,30 +14138,36 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "40064351096"
+        },
+        {
+          "batch": 31,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "43176655069"
         }
       ]
     },
     "shopflipsiderecords_com": {
       "fingerprint": "ff5ed242a8550a8ba3fe53fe82c0f86d7cc980dce8297f44d3472ea6f3b0ca1b",
       "domain": "shopflipsiderecords.com",
-      "batch": 7,
-      "repair_attempts": 0,
+      "batch": 31,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40064351096",
-      "updated_at": "2026-10-24T04:57:34.364988+00:00",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:38:20.278413+00:00",
       "evidence": {
         "domain": "shopflipsiderecords.com",
-        "route": "https://shopflipsiderecords.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-10-24T04:57:33.948395+00:00",
+        "route": "https://shopflipsiderecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-12T07:38:19.907147+00:00",
         "requests": [
           {
-            "url": "https://shopflipsiderecords.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "e6c40393a69ef3d3bf7ba143618086d72b549a5c4acf5a59bb9c94b19657af98"
+            "url": "https://shopflipsiderecords.com/products.json?limit=20&page=1",
+            "sha256": "a90d98bf3eb88bddf0fe10890ab7e5f10ec29c88795f635a117a38bcd0343137"
           }
         ],
-        "listing_records": 11,
+        "listing_records": 6,
         "detail_checked": 0,
         "valid_eans": 0,
         "details": [],
@@ -14093,8 +14177,8 @@
           "flags": [
             "shipping_term_in_product_identity"
           ],
-          "records_checked": 11,
-          "unique_prices": 8,
+          "records_checked": 6,
+          "unique_prices": 6,
           "shipping_hits": 1,
           "currencies": [
             "USD"
@@ -14110,58 +14194,42 @@
           "status": "REVIEW",
           "reason": "shipping_term_in_product_identity",
           "run_id": "40064351096"
+        },
+        {
+          "batch": 31,
+          "status": "REVIEW",
+          "reason": "shipping_term_in_product_identity",
+          "run_id": "43176655069"
         }
       ]
     },
     "shopsatmarsbeads_com": {
       "fingerprint": "6c2ed1013792aa94ecf0aa9b882f23f247dbcdb39a8e1be74855c0992b6eb1aa",
       "domain": "shopsatmarsbeads.com",
-      "batch": 7,
-      "repair_attempts": 0,
+      "batch": 31,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40064351096",
-      "updated_at": "2026-10-24T04:57:35.748720+00:00",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:38:20.562660+00:00",
       "evidence": {
         "domain": "shopsatmarsbeads.com",
-        "route": "https://shopsatmarsbeads.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-10-24T04:57:34.393199+00:00",
+        "route": "https://shopsatmarsbeads.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-12T07:38:20.301507+00:00",
         "requests": [
           {
-            "url": "https://shopsatmarsbeads.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "b53c279181961b22717d48d0796dc8464472ba665d6454cffdaccc52ca7c092c"
-          },
-          {
-            "url": "https://shopsatmarsbeads.com/products/10000-russos-kompromat-vinyl-m?variant=46843801927829",
-            "sha256": "c7bc4b7c36b78a6f733633cc66a743c61070ada184b9f0aab02dc4e07bcc1992"
+            "url": "https://shopsatmarsbeads.com/products.json?limit=20&page=1",
+            "sha256": "48b099b7125619b060e0b03c60277cbdc960ee8196c92b3932ed64dee9bdf43c"
           }
         ],
-        "listing_records": 1,
-        "detail_checked": 1,
+        "listing_records": 0,
+        "detail_checked": 0,
         "valid_eans": 0,
-        "details": [
-          {
-            "url": "https://shopsatmarsbeads.com/products/10000-russos-kompromat-vinyl-m?variant=46843801927829",
-            "price": "45.00",
-            "currency": "USD",
-            "ean": null,
-            "condition": "new"
-          }
-        ],
+        "details": [],
         "database_write": false,
-        "price_quality": {
-          "status": "pass",
-          "flags": [],
-          "records_checked": 1,
-          "unique_prices": 1,
-          "shipping_hits": 0,
-          "currencies": [
-            "USD"
-          ]
-        },
         "status": "REVIEW",
-        "reason": "detail_ean_not_proven",
+        "reason": "no_new_vinyl_records",
         "error_type": "CollectionBlocked"
       },
       "history": [
@@ -14170,40 +14238,61 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "40064351096"
+        },
+        {
+          "batch": 31,
+          "status": "REVIEW",
+          "reason": "no_new_vinyl_records",
+          "run_id": "43176655069"
         }
       ]
     },
     "shugarecords_com": {
       "fingerprint": "60189d19e3f7c66eea9bae62c6b8492e737961095e79965ea175643e60e226ea",
       "domain": "shugarecords.com",
-      "batch": 7,
-      "repair_attempts": 0,
+      "batch": 31,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40064351096",
-      "updated_at": "2026-10-24T04:57:37.351227+00:00",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:38:24.015806+00:00",
       "evidence": {
         "domain": "shugarecords.com",
-        "route": "https://shugarecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-10-24T04:57:35.778729+00:00",
+        "route": "https://shugarecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-12T07:38:20.585685+00:00",
         "requests": [
           {
-            "url": "https://shugarecords.com/products.json?limit=20&page=1",
-            "sha256": "ea4991219907081533ce8d1f67ae8b07c07efdb9f83866f6a3f1230521fad78a"
+            "url": "https://shugarecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "d3915a01993bd2d6c59108d30227af56286faba6970605c65a177c48d4532a79"
           },
           {
-            "url": "https://shugarecords.com/products/traveling-wilburys-traveling-wilburys-vol-3-1990-new-lp-record-2026-dark-horse-vinyl-classic-rock?variant=48408476549318",
-            "sha256": "31cb55ed406d5de1047fa48bb29a338214909bfbe60cce1a7a34094f6044ec9e"
+            "url": "https://shugarecords.com/products/801061937416?variant=24507170887",
+            "sha256": "2bf2599d1e1c1e03bfaadbfb508e6c324292615a5bbdbcbcff6a8690efe1ee94"
+          },
+          {
+            "url": "https://shugarecords.com/products/loundenupnow-newvinyl2004?variant=24510178759",
+            "sha256": "b849efdc1c427e1f8058e0bf353ed4238925a847d5c3d57e7f514a6aac27e948"
+          },
+          {
+            "url": "https://shugarecords.com/products/bam-bam-youve-been-messin-around-mint-12-single-record-1986-d-j-international-vinyl-chicago-house?variant=44328451047622",
+            "sha256": "412024b84e1f35dcd985c67261934da3830453f3bf46e07f9b777b98be0a24fd"
           }
         ],
-        "listing_records": 1,
-        "detail_checked": 1,
+        "listing_records": 14,
+        "detail_checked": 2,
         "valid_eans": 0,
         "details": [
           {
-            "url": "https://shugarecords.com/products/traveling-wilburys-traveling-wilburys-vol-3-1990-new-lp-record-2026-dark-horse-vinyl-classic-rock?variant=48408476549318",
-            "price": "28.99",
+            "url": "https://shugarecords.com/products/801061937416?variant=24507170887",
+            "price": "11.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://shugarecords.com/products/loundenupnow-newvinyl2004?variant=24510178759",
+            "price": "26.99",
             "currency": "USD",
             "ean": null,
             "condition": "new"
@@ -14213,15 +14302,15 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 1,
-          "unique_prices": 1,
+          "records_checked": 14,
+          "unique_prices": 9,
           "shipping_hits": 0,
           "currencies": [
             "USD"
           ]
         },
         "status": "REVIEW",
-        "reason": "detail_ean_not_proven",
+        "reason": "invalid_detail_gtin",
         "error_type": "CollectionBlocked"
       },
       "history": [
@@ -14230,44 +14319,68 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "40064351096"
+        },
+        {
+          "batch": 31,
+          "status": "REVIEW",
+          "reason": "invalid_detail_gtin",
+          "run_id": "43176655069"
         }
       ]
     },
     "sirenrecordsmonterey_com": {
       "fingerprint": "eb8e7239730f0185a2780b98bd6b490381eeb4f1587c6f7bc54610cf0d6342c9",
       "domain": "sirenrecordsmonterey.com",
-      "batch": 7,
-      "repair_attempts": 0,
+      "batch": 31,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40064351096",
-      "updated_at": "2026-10-24T04:57:39.725019+00:00",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:38:27.376342+00:00",
       "evidence": {
         "domain": "sirenrecordsmonterey.com",
-        "route": "https://sirenrecordsmonterey.com/products.json?limit=20&page=1",
-        "observed_at": "2026-10-24T04:57:37.379614+00:00",
+        "route": "https://sirenrecordsmonterey.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-12T07:38:24.038778+00:00",
         "requests": [
           {
-            "url": "https://sirenrecordsmonterey.com/products.json?limit=20&page=1",
-            "sha256": "3e4d20cd2aaa62bdfa59af5a81c30d5e162b4b77b227a4a8d9a9bf7524827695"
+            "url": "https://sirenrecordsmonterey.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "835563c1b714574ed5304df2f9dce630bb2969134c233876c2412e14faa3db9f"
           },
           {
-            "url": "https://sirenrecordsmonterey.com/products/stand-atlantic-godbreath-new-sealed-limited-edition-orange-colored-vinyl-lp?variant=67848078131519",
-            "sha256": "68cb82ff2a6ac4adc454987dede93b77ca756473d143131a55a929e22ba883ce"
+            "url": "https://sirenrecordsmonterey.com/products/suicideboys-thy-kingdom-come-suicideboys-limited-new-sealed-maroon-colored-vinyl-lp?variant=51041011630399",
+            "sha256": "0ea15e8750c68cabca6a956153c749346fa4d32e577b72d68e5419ff56186063"
           },
           {
-            "url": "https://sirenrecordsmonterey.com/products/randy-newman-sail-away-180g-new-sealed-black-vinyl-record-lp?variant=67847365591359",
-            "sha256": "475f1a3d1c616b7b9abe6ef5db4b65e31cf421224998df9db083a014d152ffe3"
+            "url": "https://sirenrecordsmonterey.com/products/100-gecs-10000-gecs-white-lp?variant=49362560745791",
+            "sha256": "99bc13900ec5bef27abac2cd6da53c33d09c7e1015f1453a40d313b54f181095"
+          },
+          {
+            "url": "https://sirenrecordsmonterey.com/products/1349-liberation-180g-gold-vinyl-lp?variant=49685052948799",
+            "sha256": "414e832929b09a54336463d78d8fd62d9b1fa8914e35efc816abffe2d9441a5d"
           }
         ],
-        "listing_records": 20,
-        "detail_checked": 1,
+        "listing_records": 13,
+        "detail_checked": 3,
         "valid_eans": 0,
         "details": [
           {
-            "url": "https://sirenrecordsmonterey.com/products/stand-atlantic-godbreath-new-sealed-limited-edition-orange-colored-vinyl-lp?variant=67848078131519",
-            "price": "32.99",
+            "url": "https://sirenrecordsmonterey.com/products/suicideboys-thy-kingdom-come-suicideboys-limited-new-sealed-maroon-colored-vinyl-lp?variant=51041011630399",
+            "price": "31.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://sirenrecordsmonterey.com/products/100-gecs-10000-gecs-white-lp?variant=49362560745791",
+            "price": "38.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://sirenrecordsmonterey.com/products/1349-liberation-180g-gold-vinyl-lp?variant=49685052948799",
+            "price": "28.95",
             "currency": "USD",
             "ean": null,
             "condition": "new"
@@ -14277,7 +14390,7 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 20,
+          "records_checked": 13,
           "unique_prices": 11,
           "shipping_hits": 0,
           "currencies": [
@@ -14285,7 +14398,7 @@
           ]
         },
         "status": "REVIEW",
-        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "reason": "detail_ean_not_proven",
         "error_type": "CollectionBlocked"
       },
       "history": [
@@ -14294,66 +14407,49 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "40064351096"
+        },
+        {
+          "batch": 31,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "43176655069"
         }
       ]
     },
     "skeletondustrecords_com": {
       "fingerprint": "525f3c06410c15435f031ad7f1a089b6f11058715d200bfce2da8880396b9e9f",
       "domain": "skeletondustrecords.com",
-      "batch": 7,
-      "repair_attempts": 0,
+      "batch": 31,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40064351096",
-      "updated_at": "2026-10-24T04:57:43.323143+00:00",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:38:28.901026+00:00",
       "evidence": {
         "domain": "skeletondustrecords.com",
-        "route": "https://skeletondustrecords.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-10-24T04:57:39.753198+00:00",
+        "route": "https://skeletondustrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-12T07:38:27.400188+00:00",
         "requests": [
           {
-            "url": "https://skeletondustrecords.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "cad743e1464d026fe98bb2805bb442e18354fb0cfa8e5686885db95f6c4bccc2"
+            "url": "https://skeletondustrecords.com/products.json?limit=20&page=1",
+            "sha256": "b158a1bb4fb5e68f0c4b5737870613d7b4d740e5f3bcf139ffade6bea7778b77"
           },
           {
-            "url": "https://skeletondustrecords.com/products/uicideboy-i-want-to-die-in-new-orleans-lp-m?variant=67690387996745",
-            "sha256": "374dad8ead32926777d0c6226b760ce1b9cd3016c9ca8728203991b68f1f4c00"
-          },
-          {
-            "url": "https://skeletondustrecords.com/products/uicideboy-thy-kingdom-come-lp-m?variant=67600477519945",
-            "sha256": "88dc28025f8e2aac03326a9101e2d0a77f2a63f1ebd4c6ab1455575719bbb68c"
-          },
-          {
-            "url": "https://skeletondustrecords.com/products/__-___-night-of-fire-lp-album-mint-m?variant=54523488862281",
-            "sha256": "079a210e7952742e65bf85d4d6c21605342e3c065844e2eb4420e4e8ca3dc7fc"
+            "url": "https://skeletondustrecords.com/products/charles-mingus-mingus-ah-um-lp-g?variant=67883714641993",
+            "sha256": "87cd5e6d090108cdf0635dcfd839200f4c447b77419584cf1d072d10ec301cfe"
           }
         ],
-        "listing_records": 3,
-        "detail_checked": 2,
-        "valid_eans": 2,
-        "details": [
-          {
-            "url": "https://skeletondustrecords.com/products/uicideboy-i-want-to-die-in-new-orleans-lp-m?variant=67690387996745",
-            "price": "26.00",
-            "currency": "USD",
-            "ean": "00842812109126",
-            "condition": "new"
-          },
-          {
-            "url": "https://skeletondustrecords.com/products/uicideboy-thy-kingdom-come-lp-m?variant=67600477519945",
-            "price": "28.00",
-            "currency": "USD",
-            "ean": "00199350824630",
-            "condition": "new"
-          }
-        ],
+        "listing_records": 2,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
         "database_write": false,
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 3,
-          "unique_prices": 3,
+          "records_checked": 2,
+          "unique_prices": 2,
           "shipping_hits": 0,
           "currencies": [
             "USD"
@@ -14369,51 +14465,85 @@
           "status": "REVIEW",
           "reason": "invalid_detail_gtin",
           "run_id": "40064351096"
+        },
+        {
+          "batch": 31,
+          "status": "REVIEW",
+          "reason": "invalid_detail_gtin",
+          "run_id": "43176655069"
         }
       ]
     },
     "skeletunesrecords_com": {
       "fingerprint": "c310a8b6d211f70d9d02074abc837f2e5f942bf60c19c075d92ec1013195bbcb",
       "domain": "skeletunesrecords.com",
-      "batch": 7,
-      "repair_attempts": 0,
+      "batch": 31,
+      "repair_attempts": 1,
       "repair_modes": [],
-      "admitted": false,
-      "status": "REVIEW",
-      "run_id": "40064351096",
-      "updated_at": "2026-10-24T04:57:44.689477+00:00",
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:38:32.263508+00:00",
       "evidence": {
         "domain": "skeletunesrecords.com",
-        "route": "https://skeletunesrecords.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-10-24T04:57:43.351083+00:00",
+        "route": "https://skeletunesrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-12T07:38:28.925182+00:00",
         "requests": [
           {
-            "url": "https://skeletunesrecords.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "ad7de7a81bf5dea3ac869cf040c2886c9e59b2874fab4e16e61b69f6b47d852e"
+            "url": "https://skeletunesrecords.com/products.json?limit=20&page=1",
+            "sha256": "13a28157e30aa337b39fb1ee8cb119a313e7813880430b5892a974268d85d4fa"
           },
           {
-            "url": "https://skeletunesrecords.com/products/1000-homo-djs-supernaut-magenta-black-white-haze-splatter?variant=51428495327530",
-            "sha256": "cb3f5513b7b57d1756c2a131e51462189d3ec17c99926c2f5df696f1cbe6ecdb"
+            "url": "https://skeletunesrecords.com/products/descendents-bonus-fat-1?variant=52621360955690",
+            "sha256": "bbd360166613a74ee74698e721b1914aebd3d5512ba4e6a929011ec762db36cb"
+          },
+          {
+            "url": "https://skeletunesrecords.com/products/the-bouncing-souls-20th-anniversary-series-3-lp?variant=53103772533034",
+            "sha256": "cf2cd5ed828d3ca05b0124592da80bc36f8e216a5793e02774e7614f0b2ac9b5"
+          },
+          {
+            "url": "https://skeletunesrecords.com/products/jets-to-brazil-orange-rhyming-dictionary-2lp?variant=53103845835050",
+            "sha256": "21057cb7262c4ef74222e63c8ee2ea1e3ddd262b3d8eb27e5c1d847f831c1f1f"
           }
         ],
-        "listing_records": 20,
-        "detail_checked": 0,
-        "valid_eans": 0,
-        "details": [],
+        "listing_records": 11,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://skeletunesrecords.com/products/descendents-bonus-fat-1?variant=52621360955690",
+            "price": "24.99",
+            "currency": "USD",
+            "ean": "00711574965519",
+            "condition": "new"
+          },
+          {
+            "url": "https://skeletunesrecords.com/products/the-bouncing-souls-20th-anniversary-series-3-lp?variant=53103772533034",
+            "price": "9.99",
+            "currency": "USD",
+            "ean": "00809796003611",
+            "condition": "new"
+          },
+          {
+            "url": "https://skeletunesrecords.com/products/jets-to-brazil-orange-rhyming-dictionary-2lp?variant=53103845835050",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00045778210114",
+            "condition": "new"
+          }
+        ],
         "database_write": false,
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 20,
-          "unique_prices": 13,
+          "records_checked": 11,
+          "unique_prices": 7,
           "shipping_hits": 0,
           "currencies": [
             "USD"
           ]
         },
-        "status": "REVIEW",
-        "reason": "detail_price_currency_not_proven_or_mismatch",
-        "error_type": "CollectionBlocked"
+        "status": "APPROVED"
       },
       "history": [
         {
@@ -14421,62 +14551,130 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "40064351096"
+        },
+        {
+          "batch": 31,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "43176655069"
         }
-      ]
+      ],
+      "admission_evidence": {
+        "domain": "skeletunesrecords.com",
+        "route": "https://skeletunesrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-12T07:38:28.925182+00:00",
+        "requests": [
+          {
+            "url": "https://skeletunesrecords.com/products.json?limit=20&page=1",
+            "sha256": "13a28157e30aa337b39fb1ee8cb119a313e7813880430b5892a974268d85d4fa"
+          },
+          {
+            "url": "https://skeletunesrecords.com/products/descendents-bonus-fat-1?variant=52621360955690",
+            "sha256": "bbd360166613a74ee74698e721b1914aebd3d5512ba4e6a929011ec762db36cb"
+          },
+          {
+            "url": "https://skeletunesrecords.com/products/the-bouncing-souls-20th-anniversary-series-3-lp?variant=53103772533034",
+            "sha256": "cf2cd5ed828d3ca05b0124592da80bc36f8e216a5793e02774e7614f0b2ac9b5"
+          },
+          {
+            "url": "https://skeletunesrecords.com/products/jets-to-brazil-orange-rhyming-dictionary-2lp?variant=53103845835050",
+            "sha256": "21057cb7262c4ef74222e63c8ee2ea1e3ddd262b3d8eb27e5c1d847f831c1f1f"
+          }
+        ],
+        "listing_records": 11,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://skeletunesrecords.com/products/descendents-bonus-fat-1?variant=52621360955690",
+            "price": "24.99",
+            "currency": "USD",
+            "ean": "00711574965519",
+            "condition": "new"
+          },
+          {
+            "url": "https://skeletunesrecords.com/products/the-bouncing-souls-20th-anniversary-series-3-lp?variant=53103772533034",
+            "price": "9.99",
+            "currency": "USD",
+            "ean": "00809796003611",
+            "condition": "new"
+          },
+          {
+            "url": "https://skeletunesrecords.com/products/jets-to-brazil-orange-rhyming-dictionary-2lp?variant=53103845835050",
+            "price": "29.99",
+            "currency": "USD",
+            "ean": "00045778210114",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 11,
+          "unique_prices": 7,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "approved_route": "https://skeletunesrecords.com/products.json?limit=20&page=1"
     },
     "skyvalleyrecords_com": {
       "fingerprint": "d0a8da905ed98e36095141523ef24feaa626dd51aed9e141f2ea6c164b25713f",
       "domain": "skyvalleyrecords.com",
-      "batch": 7,
-      "repair_attempts": 0,
+      "batch": 31,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40064351096",
-      "updated_at": "2026-10-24T04:57:48.080981+00:00",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:38:35.557164+00:00",
       "evidence": {
         "domain": "skyvalleyrecords.com",
-        "route": "https://skyvalleyrecords.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-10-24T04:57:44.717282+00:00",
+        "route": "https://skyvalleyrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-12T07:38:32.288379+00:00",
         "requests": [
           {
-            "url": "https://skyvalleyrecords.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "6f119b0ce7a4c5aefcea02646071af652056917d7d9e7a4b26b1fd069799603f"
+            "url": "https://skyvalleyrecords.com/products.json?limit=20&page=1",
+            "sha256": "47616b2dc6ca09117f2d4cf265f2fb86f6c7c713327d0be31df9049a4f67a1c9"
           },
           {
-            "url": "https://skyvalleyrecords.com/products/uicideboy-long-term-effects-of-suffering-glow-green-vinyl-lp?variant=45860874223799",
-            "sha256": "a34e67afd662b0d3b808fe5d33efbc4a4fee8f085c83bef58930f92decd93381"
+            "url": "https://skyvalleyrecords.com/products/garth-brooks-double-live-transparent-blue-vinyl-2xlp?variant=58095845703863",
+            "sha256": "14a38a50104918f312e2e44ca6fd21d2ab93304dbbd8de29172f551e8bbe91d5"
           },
           {
-            "url": "https://skyvalleyrecords.com/products/and-you-will-know-us-by-the-trail-of-dead-ix-180-gram-blue-vinyl-individually-numbered-lp?variant=48770950725815",
-            "sha256": "c7a18505acbaeae0597d6b4ac6f635a2816b29a9f417cb21dd7f66bc532cb942"
+            "url": "https://skyvalleyrecords.com/products/the-church-lacuna-red-vinyl-2xp?variant=58094484226231",
+            "sha256": "32da4c3b8e6b36b2b323d9c4562b44005a46205443405d1a00f1c6a6052d8ccc"
           },
           {
-            "url": "https://skyvalleyrecords.com/products/156-silence-narrative-clear-with-black-bone-splatter-lp-limited-to-500?variant=48628375748791",
-            "sha256": "ce1401b74ccb74a2667d26fdb8b373b7f0de2b828074dbb25d1057b518e90358"
+            "url": "https://skyvalleyrecords.com/products/boards-of-canada-hi-score-30th-anniversary-edition-lp?variant=58094265008311",
+            "sha256": "d5cd7f318253dce9ba730232e0344353f9ada5e5b3d7d05a32bdaa23e23dc61d"
           }
         ],
-        "listing_records": 15,
+        "listing_records": 5,
         "detail_checked": 3,
         "valid_eans": 0,
         "details": [
           {
-            "url": "https://skyvalleyrecords.com/products/uicideboy-long-term-effects-of-suffering-glow-green-vinyl-lp?variant=45860874223799",
+            "url": "https://skyvalleyrecords.com/products/garth-brooks-double-live-transparent-blue-vinyl-2xlp?variant=58095845703863",
+            "price": "14.98",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://skyvalleyrecords.com/products/the-church-lacuna-red-vinyl-2xp?variant=58094484226231",
+            "price": "38.98",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://skyvalleyrecords.com/products/boards-of-canada-hi-score-30th-anniversary-edition-lp?variant=58094265008311",
             "price": "26.98",
-            "currency": "USD",
-            "ean": null,
-            "condition": "new"
-          },
-          {
-            "url": "https://skyvalleyrecords.com/products/and-you-will-know-us-by-the-trail-of-dead-ix-180-gram-blue-vinyl-individually-numbered-lp?variant=48770950725815",
-            "price": "24.98",
-            "currency": "USD",
-            "ean": null,
-            "condition": "new"
-          },
-          {
-            "url": "https://skyvalleyrecords.com/products/156-silence-narrative-clear-with-black-bone-splatter-lp-limited-to-500?variant=48628375748791",
-            "price": "31.98",
             "currency": "USD",
             "ean": null,
             "condition": "new"
@@ -14486,8 +14684,8 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 15,
-          "unique_prices": 9,
+          "records_checked": 5,
+          "unique_prices": 4,
           "shipping_hits": 0,
           "currencies": [
             "USD"
@@ -14503,34 +14701,40 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "40064351096"
+        },
+        {
+          "batch": 31,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "43176655069"
         }
       ]
     },
     "sleevecityusa_com": {
       "fingerprint": "1bce66fd505cf5568c03f8f4090b19b21fe63fbc30974c6b38977c816c93c431",
       "domain": "sleevecityusa.com",
-      "batch": 7,
-      "repair_attempts": 0,
+      "batch": 31,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40064351096",
-      "updated_at": "2026-10-24T04:57:49.462156+00:00",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:38:36.850962+00:00",
       "evidence": {
         "domain": "sleevecityusa.com",
-        "route": "https://sleevecityusa.com/products.json?limit=20&page=1",
-        "observed_at": "2026-10-24T04:57:48.108871+00:00",
+        "route": "https://sleevecityusa.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-12T07:38:35.581959+00:00",
         "requests": [
           {
-            "url": "https://sleevecityusa.com/products.json?limit=20&page=1",
-            "sha256": "0a4dcce83885199489e05a656880b23db7d0250706713e66b65e2ef50f3b5a21"
+            "url": "https://sleevecityusa.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "c4c35f66229f2290d2114e9abe1c40cefb1ce9a74f46145667bde1e11fda9c5e"
           },
           {
-            "url": "https://sleevecityusa.com/products/mobile-fidelity-heavyweight-inner-sleeves-50-pack?variant=41315556163648",
-            "sha256": "04931f9efd91f00d0bfaaa597c476d2144560a9c22727c7de8d049f8b5f677d0"
+            "url": "https://sleevecityusa.com/products/10-inch-vinyl-kit?variant=7182033485875",
+            "sha256": "ca2d289da1ed2035b2c34b3a3246bbfe752dc8062e599f2ba2458b01bf297350"
           }
         ],
-        "listing_records": 8,
+        "listing_records": 4,
         "detail_checked": 0,
         "valid_eans": 0,
         "details": [],
@@ -14538,8 +14742,8 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 8,
-          "unique_prices": 7,
+          "records_checked": 4,
+          "unique_prices": 4,
           "shipping_hits": 0,
           "currencies": [
             "USD"
@@ -14555,6 +14759,12 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "40064351096"
+        },
+        {
+          "batch": 31,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "43176655069"
         }
       ]
     },
@@ -14702,44 +14912,30 @@
     "solstarecords_com": {
       "fingerprint": "542c927ade10092f661f3953dc6e0ba2d700a6ae2e65c572a982b40c96add884",
       "domain": "solstarecords.com",
-      "batch": 7,
-      "repair_attempts": 0,
+      "batch": 31,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40064351096",
-      "updated_at": "2026-10-24T04:57:54.070533+00:00",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:38:37.129107+00:00",
       "evidence": {
         "domain": "solstarecords.com",
-        "route": "https://solstarecords.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-10-24T04:57:52.833585+00:00",
+        "route": "https://solstarecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-12T07:38:36.875821+00:00",
         "requests": [
           {
-            "url": "https://solstarecords.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "118f21c8c953767f6b262d76da40191cf60420aea518d61aacc683432b8cae1a"
-          },
-          {
-            "url": "https://solstarecords.com/products/chk-chk-chk-let-it-be-blue-blue-lp?variant=40011574673494",
-            "sha256": "e3f3f1cd6c907614170e99892742ac922704e2d2ca2c4db016a02cfdce742643"
+            "url": "https://solstarecords.com/products.json?limit=20&page=1",
+            "sha256": "fb322be5e047c454d31896e02814cc31c9d7b7e0a2b4efb11f7f7d93bce8d2d6"
           }
         ],
-        "listing_records": 4,
+        "listing_records": 0,
         "detail_checked": 0,
         "valid_eans": 0,
         "details": [],
         "database_write": false,
-        "price_quality": {
-          "status": "pass",
-          "flags": [],
-          "records_checked": 4,
-          "unique_prices": 3,
-          "shipping_hits": 0,
-          "currencies": [
-            "USD"
-          ]
-        },
         "status": "REVIEW",
-        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "reason": "no_new_vinyl_records",
         "error_type": "CollectionBlocked"
       },
       "history": [
@@ -14748,6 +14944,12 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "40064351096"
+        },
+        {
+          "batch": 31,
+          "status": "REVIEW",
+          "reason": "no_new_vinyl_records",
+          "run_id": "43176655069"
         }
       ]
     },
@@ -14895,25 +15097,25 @@
     "sorrystaterecords_com": {
       "fingerprint": "c3eaf5d1a0b4a7be09be2f0c607b32125066ce8e0580c2d88dfb5fc14e19a994",
       "domain": "sorrystaterecords.com",
-      "batch": 7,
-      "repair_attempts": 0,
+      "batch": 31,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40064351096",
-      "updated_at": "2026-10-24T04:57:58.962724+00:00",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:38:38.785142+00:00",
       "evidence": {
         "domain": "sorrystaterecords.com",
-        "route": "https://sorrystaterecords.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-10-24T04:57:57.474591+00:00",
+        "route": "https://sorrystaterecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-12T07:38:37.153872+00:00",
         "requests": [
           {
-            "url": "https://sorrystaterecords.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "fcdfb031d6956ab0898dd1e182621800e3e7083830721214a2cae457dc574e70"
+            "url": "https://sorrystaterecords.com/products.json?limit=20&page=1",
+            "sha256": "ef2c984ce8da83f9755ce755fa939d7cafb9e7437456d059a55e6b674cdb9fe3"
           },
           {
-            "url": "https://sorrystaterecords.com/products/uicideboy-new-world-depression-12-indie-exclusive?variant=45813607235838",
-            "sha256": "ce35681193b07ab4e92dbf51848665922330a0d3d415f63982a9a28d36beb736"
+            "url": "https://sorrystaterecords.com/products/traffic-heaven-is-in-your-mind-12?variant=68030987239678",
+            "sha256": "072f39b892d54eb1d16ca56bebabae102db5eb32b7bfe23f0d569119ef80db34"
           }
         ],
         "listing_records": 4,
@@ -14925,7 +15127,7 @@
           "status": "pass",
           "flags": [],
           "records_checked": 4,
-          "unique_prices": 3,
+          "unique_prices": 2,
           "shipping_hits": 0,
           "currencies": [
             "USD"
@@ -14941,62 +15143,68 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "40064351096"
+        },
+        {
+          "batch": 31,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "43176655069"
         }
       ]
     },
     "soulstoprecords_com": {
       "fingerprint": "a7e498450b416112ce72befd57649621c6a384ea2481dcec692ea65d67826bae",
       "domain": "soulstoprecords.com",
-      "batch": 7,
-      "repair_attempts": 0,
+      "batch": 31,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40064351096",
-      "updated_at": "2026-10-24T04:58:02.315679+00:00",
+      "run_id": "43176655069",
+      "updated_at": "2026-11-12T07:38:42.080483+00:00",
       "evidence": {
         "domain": "soulstoprecords.com",
-        "route": "https://soulstoprecords.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-10-24T04:57:58.991134+00:00",
+        "route": "https://soulstoprecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-12T07:38:38.809535+00:00",
         "requests": [
           {
-            "url": "https://soulstoprecords.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "873beaaaae93cdf9a663c2417c9eefa0c239ca8598c66ea3f7851b9c7e596594"
+            "url": "https://soulstoprecords.com/products.json?limit=20&page=1",
+            "sha256": "99215797d535a285d3ab54dca0b1ae3163c24dae783bc872092c4110f05a4869"
           },
           {
-            "url": "https://soulstoprecords.com/products/21-savage-metro-boomin-savage-mode-colored-vinyl-lp-sony?variant=55400725905707",
-            "sha256": "4072a7da5a83bc571df403a7aaf910f67685703749284d6d84ad605dfc430333"
+            "url": "https://soulstoprecords.com/products/marvin-gaye-whats-going-on-lp-motown?variant=68080042574123",
+            "sha256": "698fb3c1689b5d55d400e0bb095c5035fba665bd7fcbf0d65c51ef7892f50775"
           },
           {
-            "url": "https://soulstoprecords.com/products/aesop-rock-i-heard-it-s-a-mess-there-too-apple-red-opaque-lp-rhymesayers-entertainment?variant=51595877318955",
-            "sha256": "c7d570151a9a9096c70f72a628a94bfd5006ba90f733c578fefb1b5db9deb951"
+            "url": "https://soulstoprecords.com/products/vince-guarldi-charlie-brown-christmas-green-vinyl-lp-concord-music-group?variant=67978540089643",
+            "sha256": "9fa4723f3b14066ebc8632aca24dd2358a3ac83a7097295172b9b6a572d85ea0"
           },
           {
-            "url": "https://soulstoprecords.com/products/alice-coltrane-journey-in-satchidananda-verve-acoustic-series-lp-verve?variant=50390051750187",
-            "sha256": "f664697c4723501e0f27a363ac3f20d4d43d3bd35cf9550c0c8aa37b14aaafd2"
+            "url": "https://soulstoprecords.com/products/fathers-fathers-lp-blue-note-records-1?variant=67937290649899",
+            "sha256": "068b37b30a70fbe79477382524844fce64da1144124a87c465f5ae5dfb409a6c"
           }
         ],
-        "listing_records": 18,
+        "listing_records": 16,
         "detail_checked": 3,
         "valid_eans": 0,
         "details": [
           {
-            "url": "https://soulstoprecords.com/products/21-savage-metro-boomin-savage-mode-colored-vinyl-lp-sony?variant=55400725905707",
-            "price": "30.00",
+            "url": "https://soulstoprecords.com/products/marvin-gaye-whats-going-on-lp-motown?variant=68080042574123",
+            "price": "34.00",
             "currency": "USD",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://soulstoprecords.com/products/aesop-rock-i-heard-it-s-a-mess-there-too-apple-red-opaque-lp-rhymesayers-entertainment?variant=51595877318955",
-            "price": "30.00",
+            "url": "https://soulstoprecords.com/products/vince-guarldi-charlie-brown-christmas-green-vinyl-lp-concord-music-group?variant=67978540089643",
+            "price": "28.00",
             "currency": "USD",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://soulstoprecords.com/products/alice-coltrane-journey-in-satchidananda-verve-acoustic-series-lp-verve?variant=50390051750187",
-            "price": "36.00",
+            "url": "https://soulstoprecords.com/products/fathers-fathers-lp-blue-note-records-1?variant=67937290649899",
+            "price": "32.00",
             "currency": "USD",
             "ean": null,
             "condition": "new"
@@ -15006,8 +15214,8 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 18,
-          "unique_prices": 8,
+          "records_checked": 16,
+          "unique_prices": 7,
           "shipping_hits": 0,
           "currencies": [
             "USD"
@@ -15023,6 +15231,12 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "40064351096"
+        },
+        {
+          "batch": 31,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "43176655069"
         }
       ]
     },
@@ -24269,6 +24483,6 @@
       ]
     }
   },
-  "updated_at": "2026-11-11T07:00:32.040277+00:00",
-  "last_run_id": "42976211499"
+  "updated_at": "2026-11-12T07:38:42.080544+00:00",
+  "last_run_id": "43176655069"
 }
