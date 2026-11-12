@@ -1,0 +1,100 @@
+{
+  "fingerprint": "84d1017bdb650da58659195047548fbc26380e152575189541f1920698ce72d2",
+  "domain": "rocknrollarecordshop.com",
+  "batch": 31,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43176655069",
+  "updated_at": "2026-11-12T07:37:49.938401+00:00",
+  "evidence": {
+    "domain": "rocknrollarecordshop.com",
+    "route": "https://rocknrollarecordshop.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-12T07:37:46.453523+00:00",
+    "requests": [
+      {
+        "url": "https://rocknrollarecordshop.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "fe5c895c2022ee1d3e218bc33329bce8112f364982ac633ee36d927f9ec8f210"
+      },
+      {
+        "url": "https://rocknrollarecordshop.com/products/hed-p-e-back-2-base-x-indie-exclusive-red-vinyl-vinyl?variant=53052108603701",
+        "sha256": "b2dd306e6302d61db941a376299fe85c4de830e598446e205fd1771c2dde9fa7"
+      },
+      {
+        "url": "https://rocknrollarecordshop.com/products/16-forgeries-vol-1-1972-1984-lp-vinyl?variant=53028886315317",
+        "sha256": "039656636f488944ab37275d1e1b295348bbcee2521502cf538828528196217d"
+      },
+      {
+        "url": "https://rocknrollarecordshop.com/products/3-doors-down-away-from-the-s2lp-vinyl?variant=68038363676981",
+        "sha256": "8faf5eb116d99c38463e26ca01e9758a744e3e1c21656dfdaab70d2ec35a014c"
+      }
+    ],
+    "listing_records": 20,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://rocknrollarecordshop.com/products/hed-p-e-back-2-base-x-indie-exclusive-red-vinyl-vinyl?variant=53052108603701",
+        "price": "32.89",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://rocknrollarecordshop.com/products/16-forgeries-vol-1-1972-1984-lp-vinyl?variant=53028886315317",
+        "price": "38.27",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://rocknrollarecordshop.com/products/3-doors-down-away-from-the-s2lp-vinyl?variant=68038363676981",
+        "price": "40.02",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 20,
+      "unique_prices": 18,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 6,
+      "status": "REVIEW",
+      "reason": "shipping_term_in_product_identity",
+      "run_id": "39904748109"
+    },
+    {
+      "batch": 29,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42776942344"
+    },
+    {
+      "batch": 30,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42976211499"
+    },
+    {
+      "batch": 31,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43176655069"
+    }
+  ]
+}
