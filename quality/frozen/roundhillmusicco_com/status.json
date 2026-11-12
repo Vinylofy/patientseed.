@@ -1,0 +1,89 @@
+{
+  "fingerprint": "351d2f1a27dcdadf4b030e693bd926214d31d60bf0f81ab9ad4749f93ee8a513",
+  "domain": "roundhillmusicco.com",
+  "batch": 31,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43176655069",
+  "updated_at": "2026-11-12T07:37:57.130528+00:00",
+  "evidence": {
+    "domain": "roundhillmusicco.com",
+    "route": "https://roundhillmusicco.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-12T07:37:54.654175+00:00",
+    "requests": [
+      {
+        "url": "https://roundhillmusicco.com/products.json?limit=20&page=1",
+        "sha256": "c694e98f1a1e93b88007fbbac5f8b6bd99fa683b97382126ac136aad40f8571f"
+      },
+      {
+        "url": "https://roundhillmusicco.com/products/the-national-boxer-original-master-recording?variant=52802604761220",
+        "sha256": "ab895b7dd46d3d5813511daca9680a338ae6fd7261739a05afca3e87cb8bcf89"
+      },
+      {
+        "url": "https://roundhillmusicco.com/products/school-of-rock-o-s-t?variant=67781795381380",
+        "sha256": "3e8b471148f40830d2e67845b925bab3300a8379374ed2c4a8a552f08682410e"
+      }
+    ],
+    "listing_records": 2,
+    "detail_checked": 2,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://roundhillmusicco.com/products/the-national-boxer-original-master-recording?variant=52802604761220",
+        "price": "60.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://roundhillmusicco.com/products/school-of-rock-o-s-t?variant=67781795381380",
+        "price": "34.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 2,
+      "unique_prices": 2,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 6,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "39904748109"
+    },
+    {
+      "batch": 29,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42776942344"
+    },
+    {
+      "batch": 30,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42976211499"
+    },
+    {
+      "batch": 31,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43176655069"
+    }
+  ]
+}
