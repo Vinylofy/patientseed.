@@ -1,0 +1,56 @@
+{
+  "fingerprint": "5c2461b6a86d1f4b9748e2f617bfb5c9cce9831b68c92f9324e4e0885bc703b4",
+  "domain": "shop.horrorpaingoredeath.com",
+  "batch": 32,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43383561391",
+  "updated_at": "2026-11-13T07:08:24.847241+00:00",
+  "evidence": {
+    "domain": "shop.horrorpaingoredeath.com",
+    "route": "https://shop.horrorpaingoredeath.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-13T07:08:24.638501+00:00",
+    "requests": [
+      {
+        "url": "https://shop.horrorpaingoredeath.com/products.json?limit=20&page=1",
+        "sha256": "bec084ba6e204234c57c36b74e484d13d4691adbc4b72677a9a71e85d186b952"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 7,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40064351096"
+    },
+    {
+      "batch": 30,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "42976211499"
+    },
+    {
+      "batch": 31,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "43176655069"
+    },
+    {
+      "batch": 32,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "43383561391"
+    }
+  ]
+}
