@@ -1,0 +1,100 @@
+{
+  "fingerprint": "6679c4646117f12447e32e50da6fd121220cde4420f2a676a34294a994c3e54f",
+  "domain": "shop.strictlydiscs.com",
+  "batch": 32,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43383561391",
+  "updated_at": "2026-11-13T07:08:28.138298+00:00",
+  "evidence": {
+    "domain": "shop.strictlydiscs.com",
+    "route": "https://shop.strictlydiscs.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-13T07:08:24.889294+00:00",
+    "requests": [
+      {
+        "url": "https://shop.strictlydiscs.com/products.json?limit=20&page=1",
+        "sha256": "0e9bcf575603580b6588bfc73c2caee3c74cd8505f0550d67514c403901dbcf9"
+      },
+      {
+        "url": "https://shop.strictlydiscs.com/products/pre-order-simon-phillips-protocol-6?variant=47263713132740",
+        "sha256": "8385b1169b927b3bb30efe0526ca435b49a05c2daafa28f8ad737e71433e92a4"
+      },
+      {
+        "url": "https://shop.strictlydiscs.com/products/pre-order-dangerous-toys-dangerous-toys-definitive-edition-outlaw-blue?variant=47263712837828",
+        "sha256": "05eef6a95cb2c7054df2cf3f46215d1b0075267f348506715352db4e49f2005a"
+      },
+      {
+        "url": "https://shop.strictlydiscs.com/products/pre-order-13-sentinels-aegis-rim-o-s-t-colv-ogv-13-sentinels-aegis-rim-o-s-t-colored-vinyl-180-gram?variant=47263711461572",
+        "sha256": "a5050cef9ac0b56f85bbe1818a9d808faf74257cd3cf54d7f4e96ff5c4bc4e56"
+      }
+    ],
+    "listing_records": 7,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://shop.strictlydiscs.com/products/pre-order-simon-phillips-protocol-6?variant=47263713132740",
+        "price": "49.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://shop.strictlydiscs.com/products/pre-order-dangerous-toys-dangerous-toys-definitive-edition-outlaw-blue?variant=47263712837828",
+        "price": "56.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://shop.strictlydiscs.com/products/pre-order-13-sentinels-aegis-rim-o-s-t-colv-ogv-13-sentinels-aegis-rim-o-s-t-colored-vinyl-180-gram?variant=47263711461572",
+        "price": "196.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 7,
+      "unique_prices": 6,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 7,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40064351096"
+    },
+    {
+      "batch": 30,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "42976211499"
+    },
+    {
+      "batch": 31,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43176655069"
+    },
+    {
+      "batch": 32,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43383561391"
+    }
+  ]
+}
