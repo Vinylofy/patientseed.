@@ -3570,7 +3570,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | shugarecords.com | 32 | REVIEW | 2 | 14 | 0/2 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
 | sirenrecordsmonterey.com | 32 | REVIEW | 2 | 13 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | skeletondustrecords.com | 32 | REVIEW | 2 | 2 | 0/0 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
-| skeletunesrecords.com | 31 | APPROVED | 1 | 11 | 3/3 | ACTIVE (run 43401782279) | ACTIVE | run 43176655069 |
+| skeletunesrecords.com | 31 | APPROVED | 1 | 11 | 3/3 | ACTIVE (run 43401782279) | ACTIVE (run 43413913735) | run 43176655069 |
 | skyvalleyrecords.com | 32 | REVIEW | 2 | 5 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | sleevecityusa.com | 32 | REVIEW | 2 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | soldoutvinylrecords.com | 7 | APPROVED | 0 | 6 | 3/3 | ACTIVE (run 43401782279) | ACTIVE | run 40064351096 |
