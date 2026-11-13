@@ -3573,7 +3573,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | skeletunesrecords.com | 31 | APPROVED | 1 | 11 | 3/3 | ACTIVE (run 43401782279) | ACTIVE | run 43176655069 |
 | skyvalleyrecords.com | 32 | REVIEW | 2 | 5 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | sleevecityusa.com | 32 | REVIEW | 2 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| soldoutvinylrecords.com | 7 | APPROVED | 0 | 6 | 3/3 | ACTIVE | ACTIVE | run 40064351096 |
+| soldoutvinylrecords.com | 7 | APPROVED | 0 | 6 | 3/3 | ACTIVE (run 43401782279) | ACTIVE | run 40064351096 |
 | solstarecords.com | 32 | REVIEW | 2 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | sookvinyl.com | 7 | APPROVED | 0 | 3 | 1/3 | ACTIVE (run 43401782279) | ACTIVE | run 40064351096 |
 | sorrystaterecords.com | 32 | REVIEW | 2 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
