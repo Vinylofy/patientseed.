@@ -1,0 +1,100 @@
+{
+  "fingerprint": "d0a8da905ed98e36095141523ef24feaa626dd51aed9e141f2ea6c164b25713f",
+  "domain": "skyvalleyrecords.com",
+  "batch": 33,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43568700727",
+  "updated_at": "2026-11-14T06:56:31.539311+00:00",
+  "evidence": {
+    "domain": "skyvalleyrecords.com",
+    "route": "https://skyvalleyrecords.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-14T06:56:28.158217+00:00",
+    "requests": [
+      {
+        "url": "https://skyvalleyrecords.com/products.json?limit=20&page=1",
+        "sha256": "3623e7251a2840513cc57dd3caabb3650382edc09dd0f9e88dce38086edb13c1"
+      },
+      {
+        "url": "https://skyvalleyrecords.com/products/scott-weiland-scott-weiland-live-red-vinyl-lp?variant=58117318869175",
+        "sha256": "90be27f753271499d46c768e0368a1496f966a63107a028330f780f5eeb53699"
+      },
+      {
+        "url": "https://skyvalleyrecords.com/products/bob-marley-the-wailers-capitol-session-73-green-red-colored-vinyl-2xlp?variant=58107077460151",
+        "sha256": "7bd6f3225e0fbcfb5f8d7d9c17b37dd3301e264de34693d3319c64e5a4e0acf2"
+      },
+      {
+        "url": "https://skyvalleyrecords.com/products/turnstile-nonstop-feeling-lp?variant=58095181463735",
+        "sha256": "6a0625b20ee41426aa37db27c8a06dbac9011d88647c65ded5a4fa07feeabfde"
+      }
+    ],
+    "listing_records": 10,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://skyvalleyrecords.com/products/scott-weiland-scott-weiland-live-red-vinyl-lp?variant=58117318869175",
+        "price": "28.98",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://skyvalleyrecords.com/products/bob-marley-the-wailers-capitol-session-73-green-red-colored-vinyl-2xlp?variant=58107077460151",
+        "price": "46.98",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://skyvalleyrecords.com/products/turnstile-nonstop-feeling-lp?variant=58095181463735",
+        "price": "26.98",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 10,
+      "unique_prices": 9,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 7,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40064351096"
+    },
+    {
+      "batch": 31,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43176655069"
+    },
+    {
+      "batch": 32,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43383561391"
+    },
+    {
+      "batch": 33,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43568700727"
+    }
+  ]
+}
