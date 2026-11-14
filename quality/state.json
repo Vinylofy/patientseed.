@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "batch": 32,
+  "batch": 33,
   "shops": {
     "10000hzrecords_com": {
       "fingerprint": "bd851743c2eee03c427913ea2a88bc94dfb0e74b1f11366277a07532ffcd9e33",
@@ -474,21 +474,21 @@
     "afkbooksandrecords_com": {
       "fingerprint": "fc99c01cd7a2353b50cf16da0f9c481acaeb0a9c9ef16b465e82f4d55fd5b0e7",
       "domain": "afkbooksandrecords.com",
-      "batch": 32,
-      "repair_attempts": 0,
+      "batch": 33,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:08:21.030882+00:00",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:14.051465+00:00",
       "evidence": {
         "domain": "afkbooksandrecords.com",
         "route": "https://afkbooksandrecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:08:20.808793+00:00",
+        "observed_at": "2026-11-14T06:56:13.758302+00:00",
         "requests": [
           {
             "url": "https://afkbooksandrecords.com/products.json?limit=20&page=1",
-            "sha256": "61f8660dc637f1424836350e31c5cf7cf858f803e9c9183fabcbe59fd531df62"
+            "sha256": "74557489dedef99051c5521af165dff6f3662c607b42cca1f293b7576d037593"
           }
         ],
         "listing_records": 0,
@@ -506,6 +506,12 @@
           "status": "REVIEW",
           "reason": "no_new_vinyl_records",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "REVIEW",
+          "reason": "no_new_vinyl_records",
+          "run_id": "43568700727"
         }
       ]
     },
@@ -14062,33 +14068,33 @@
     "shopcreep_com": {
       "fingerprint": "dc86040a6c65e838083d5cbc2b7890cdaf6d8b7e7c41c86f8799efe12fbfb5be",
       "domain": "shopcreep.com",
-      "batch": 32,
-      "repair_attempts": 2,
+      "batch": 33,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:08:31.460258+00:00",
+      "status": "FROZEN",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:17.386430+00:00",
       "evidence": {
         "domain": "shopcreep.com",
         "route": "https://shopcreep.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:08:28.180487+00:00",
+        "observed_at": "2026-11-14T06:56:14.075431+00:00",
         "requests": [
           {
             "url": "https://shopcreep.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "ea2a73f6592c1f8278db08c1c4798ec35d4f5e087345c505f54c5394642b3132"
+            "sha256": "baa276cc527964b701b3cc872d431a19ecbee585aa7d8f8b49df7bada82f9a69"
           },
           {
             "url": "https://shopcreep.com/products/abstract-mindstate-dreams-still-inspire-translucent-green-vinyl?variant=42720264454275",
-            "sha256": "b49aef599fbe258166e60a397b54bd090d56500b2d8684a09a968e520a2db4ea"
+            "sha256": "0b6e16b7f0252846bf2eb6ba32b92e7b6aa425afd39cac1c92bf528bdddd5d24"
           },
           {
             "url": "https://shopcreep.com/products/amusement-errth-carnivorous-flower-feversleep-4-way-slpit-lp?variant=45549803339907",
-            "sha256": "52bdf8abc89a316b3e5b339250487b5b8584e30f69c3059f1c973ec6ddc87b48"
+            "sha256": "4345c02ad7cec5cbc1bf35290b25d9b04475e986fee9230518daa0958ddf5146"
           },
           {
             "url": "https://shopcreep.com/products/battalion-zoska-fatal-blow-split-7?variant=42752102531203",
-            "sha256": "f99ca54f4db7bfd71e614feb27b951561be24dd1b6ec94b5c30ba0a080c96985"
+            "sha256": "58176a994a3ff6d36b2654433965b60926eefe95aa8f8e2b5ed58d8ce335d798"
           }
         ],
         "listing_records": 6,
@@ -14150,27 +14156,33 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "FROZEN",
+          "reason": "detail_ean_not_proven",
+          "run_id": "43568700727"
         }
       ]
     },
     "shopflipsiderecords_com": {
       "fingerprint": "ff5ed242a8550a8ba3fe53fe82c0f86d7cc980dce8297f44d3472ea6f3b0ca1b",
       "domain": "shopflipsiderecords.com",
-      "batch": 32,
-      "repair_attempts": 2,
+      "batch": 33,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:08:31.747521+00:00",
+      "status": "FROZEN",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:17.693353+00:00",
       "evidence": {
         "domain": "shopflipsiderecords.com",
         "route": "https://shopflipsiderecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:08:31.501251+00:00",
+        "observed_at": "2026-11-14T06:56:17.410126+00:00",
         "requests": [
           {
             "url": "https://shopflipsiderecords.com/products.json?limit=20&page=1",
-            "sha256": "6487bdc1e92c58b98ad4fde338ddb167ab7e7db6e7477697e0b216ed9f53c3a5"
+            "sha256": "a3f94596fe88e1ed887d173543eb4555a8281133e2519e01a3cefcb4d75fc870"
           }
         ],
         "listing_records": 6,
@@ -14212,27 +14224,33 @@
           "status": "REVIEW",
           "reason": "shipping_term_in_product_identity",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "FROZEN",
+          "reason": "shipping_term_in_product_identity",
+          "run_id": "43568700727"
         }
       ]
     },
     "shopsatmarsbeads_com": {
       "fingerprint": "6c2ed1013792aa94ecf0aa9b882f23f247dbcdb39a8e1be74855c0992b6eb1aa",
       "domain": "shopsatmarsbeads.com",
-      "batch": 32,
-      "repair_attempts": 2,
+      "batch": 33,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:08:31.998771+00:00",
+      "status": "FROZEN",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:18.004326+00:00",
       "evidence": {
         "domain": "shopsatmarsbeads.com",
         "route": "https://shopsatmarsbeads.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:08:31.788802+00:00",
+        "observed_at": "2026-11-14T06:56:17.717436+00:00",
         "requests": [
           {
             "url": "https://shopsatmarsbeads.com/products.json?limit=20&page=1",
-            "sha256": "cc52301dfb6506f9879ce6cf1fd772f1e17d2263aa1bf493bd324b3bec332fd1"
+            "sha256": "789ff098c2bccc765d94a283f8d6c1b6faa70115bc06221be3fb55cf0ea355ff"
           }
         ],
         "listing_records": 0,
@@ -14262,39 +14280,45 @@
           "status": "REVIEW",
           "reason": "no_new_vinyl_records",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "FROZEN",
+          "reason": "no_new_vinyl_records",
+          "run_id": "43568700727"
         }
       ]
     },
     "shugarecords_com": {
       "fingerprint": "60189d19e3f7c66eea9bae62c6b8492e737961095e79965ea175643e60e226ea",
       "domain": "shugarecords.com",
-      "batch": 32,
-      "repair_attempts": 2,
+      "batch": 33,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:08:35.374423+00:00",
+      "status": "FROZEN",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:21.383544+00:00",
       "evidence": {
         "domain": "shugarecords.com",
         "route": "https://shugarecords.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:08:32.039379+00:00",
+        "observed_at": "2026-11-14T06:56:18.029356+00:00",
         "requests": [
           {
             "url": "https://shugarecords.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "cb4b62a5d464b1248a746cd3e33d417e4b02e40ccc98e03ee95412527470cc6f"
+            "sha256": "84be1c3766165cfaa0a4673f66282145854da2de3773d722e98f15cd14099ad3"
           },
           {
             "url": "https://shugarecords.com/products/801061937416?variant=24507170887",
-            "sha256": "8583c495f31cdfda5e8212d5356025b29508c30cba2358cefb07e4d1f7a8719a"
+            "sha256": "1b93a0003a07898b7bcc6cccc4d3524edf86a62e077333308a7db4fdad47fd96"
           },
           {
             "url": "https://shugarecords.com/products/loundenupnow-newvinyl2004?variant=24510178759",
-            "sha256": "42dac431498e69b0a4d4dea43cc2801cf47da0e0855bda7116bbe4cd1cc4884a"
+            "sha256": "76ca0afac83d1b0f936a37afdcb02472110c6c4ddecf47d2295a7c5e479db002"
           },
           {
             "url": "https://shugarecords.com/products/bam-bam-youve-been-messin-around-mint-12-single-record-1986-d-j-international-vinyl-chicago-house?variant=44328451047622",
-            "sha256": "dd225a586d95561181e191268617cca0415438bc0e52f01dd246eb97b765271d"
+            "sha256": "5a07129bd116a0e2a5309da4552a041f890b45856ed3ac63e2a23906708ebe02"
           }
         ],
         "listing_records": 14,
@@ -14349,39 +14373,45 @@
           "status": "REVIEW",
           "reason": "invalid_detail_gtin",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "FROZEN",
+          "reason": "invalid_detail_gtin",
+          "run_id": "43568700727"
         }
       ]
     },
     "sirenrecordsmonterey_com": {
       "fingerprint": "eb8e7239730f0185a2780b98bd6b490381eeb4f1587c6f7bc54610cf0d6342c9",
       "domain": "sirenrecordsmonterey.com",
-      "batch": 32,
-      "repair_attempts": 2,
+      "batch": 33,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:08:38.660317+00:00",
+      "status": "FROZEN",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:24.681717+00:00",
       "evidence": {
         "domain": "sirenrecordsmonterey.com",
         "route": "https://sirenrecordsmonterey.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:08:35.415257+00:00",
+        "observed_at": "2026-11-14T06:56:21.406975+00:00",
         "requests": [
           {
             "url": "https://sirenrecordsmonterey.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "9e7ab4e45893a49c5b5dc908300c1289b6f3093ed991a63e907554819c46a3ed"
+            "sha256": "6f9584c049e41c66aaaac8a9caf727c5104de9a76583c2372d680119276a6665"
           },
           {
             "url": "https://sirenrecordsmonterey.com/products/suicideboys-thy-kingdom-come-suicideboys-limited-new-sealed-maroon-colored-vinyl-lp?variant=51041011630399",
-            "sha256": "e47cdd7e823aeaee3f78bfdbf2d305deae51645b8ef4c32fdae3d6a26fe18c21"
+            "sha256": "635205c28c875dcc67a0ffdc5326e15b6db9134d13779dedf656f3ec39e3eb0d"
           },
           {
             "url": "https://sirenrecordsmonterey.com/products/100-gecs-10000-gecs-white-lp?variant=49362560745791",
-            "sha256": "271fe12811a02f981e070b29b5a9cf2daf18f6fea86333831e24e66244aa2bd5"
+            "sha256": "b2077a3bfb975edb5ee36ee3038cab47190570bebe57386125118af926f6ffbe"
           },
           {
             "url": "https://sirenrecordsmonterey.com/products/1349-liberation-180g-gold-vinyl-lp?variant=49685052948799",
-            "sha256": "ef0bec0109d4e22427eabd724a163d18bb48f6b1a49f91ec6cb9452795964a59"
+            "sha256": "50361e697e38993094143d697a2b83bbb50bbd5360145f5e5acafde04381f3e1"
           }
         ],
         "listing_records": 13,
@@ -14443,51 +14473,85 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "FROZEN",
+          "reason": "detail_ean_not_proven",
+          "run_id": "43568700727"
         }
       ]
     },
     "skeletondustrecords_com": {
       "fingerprint": "525f3c06410c15435f031ad7f1a089b6f11058715d200bfce2da8880396b9e9f",
       "domain": "skeletondustrecords.com",
-      "batch": 32,
-      "repair_attempts": 2,
+      "batch": 33,
+      "repair_attempts": 3,
       "repair_modes": [],
-      "admitted": false,
-      "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:08:40.132442+00:00",
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:28.133536+00:00",
       "evidence": {
         "domain": "skeletondustrecords.com",
         "route": "https://skeletondustrecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:08:38.701308+00:00",
+        "observed_at": "2026-11-14T06:56:24.706455+00:00",
         "requests": [
           {
             "url": "https://skeletondustrecords.com/products.json?limit=20&page=1",
-            "sha256": "3dc4c5f1961b8d488b9069fadbc1ebe49858329117f272036036294bd07720ce"
+            "sha256": "775654b50b4ed1e4785a89521a7041ddd1ad1459cca4da4a05a6f37dc2706ad5"
           },
           {
-            "url": "https://skeletondustrecords.com/products/charles-mingus-mingus-ah-um-lp-g?variant=67883714641993",
-            "sha256": "88612cd4f0ecb8ef273f64fa15a2a7d337878944f962bf92ea3189b3d9c83216"
+            "url": "https://skeletondustrecords.com/products/the-womack-sisters-the-womack-sisters-lp-m?variant=67901300834377",
+            "sha256": "fe31001fbcee6ca7049ce9b93efba222998dc6e993d5dff21e161ca6f47e8cef"
+          },
+          {
+            "url": "https://skeletondustrecords.com/products/the-breeders-pod-lp-m?variant=67901283106889",
+            "sha256": "41e4ecefedc332ffd52b9ec426564dbacfa7f5efbcb2befb2d197e2efee2f8da"
+          },
+          {
+            "url": "https://skeletondustrecords.com/products/guided-by-voices-alien-lanes-lp-m?variant=67901269114953",
+            "sha256": "a909e1ceaac22e5f8b34136ba4f2754763414a592f46580d02b4a70ee95aa9ef"
           }
         ],
-        "listing_records": 2,
-        "detail_checked": 0,
-        "valid_eans": 0,
-        "details": [],
+        "listing_records": 15,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://skeletondustrecords.com/products/the-womack-sisters-the-womack-sisters-lp-m?variant=67901300834377",
+            "price": "25.00",
+            "currency": "USD",
+            "ean": "00823134008618",
+            "condition": "new"
+          },
+          {
+            "url": "https://skeletondustrecords.com/products/the-breeders-pod-lp-m?variant=67901283106889",
+            "price": "25.00",
+            "currency": "USD",
+            "ean": "00652637000603",
+            "condition": "new"
+          },
+          {
+            "url": "https://skeletondustrecords.com/products/guided-by-voices-alien-lanes-lp-m?variant=67901269114953",
+            "price": "27.00",
+            "currency": "USD",
+            "ean": "00744861012306",
+            "condition": "new"
+          }
+        ],
         "database_write": false,
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 2,
-          "unique_prices": 2,
+          "records_checked": 15,
+          "unique_prices": 10,
           "shipping_hits": 0,
           "currencies": [
             "USD"
           ]
         },
-        "status": "REVIEW",
-        "reason": "invalid_detail_gtin",
-        "error_type": "CollectionBlocked"
+        "status": "APPROVED"
       },
       "history": [
         {
@@ -14507,8 +14571,76 @@
           "status": "REVIEW",
           "reason": "invalid_detail_gtin",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "43568700727"
         }
-      ]
+      ],
+      "admission_evidence": {
+        "domain": "skeletondustrecords.com",
+        "route": "https://skeletondustrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-14T06:56:24.706455+00:00",
+        "requests": [
+          {
+            "url": "https://skeletondustrecords.com/products.json?limit=20&page=1",
+            "sha256": "775654b50b4ed1e4785a89521a7041ddd1ad1459cca4da4a05a6f37dc2706ad5"
+          },
+          {
+            "url": "https://skeletondustrecords.com/products/the-womack-sisters-the-womack-sisters-lp-m?variant=67901300834377",
+            "sha256": "fe31001fbcee6ca7049ce9b93efba222998dc6e993d5dff21e161ca6f47e8cef"
+          },
+          {
+            "url": "https://skeletondustrecords.com/products/the-breeders-pod-lp-m?variant=67901283106889",
+            "sha256": "41e4ecefedc332ffd52b9ec426564dbacfa7f5efbcb2befb2d197e2efee2f8da"
+          },
+          {
+            "url": "https://skeletondustrecords.com/products/guided-by-voices-alien-lanes-lp-m?variant=67901269114953",
+            "sha256": "a909e1ceaac22e5f8b34136ba4f2754763414a592f46580d02b4a70ee95aa9ef"
+          }
+        ],
+        "listing_records": 15,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://skeletondustrecords.com/products/the-womack-sisters-the-womack-sisters-lp-m?variant=67901300834377",
+            "price": "25.00",
+            "currency": "USD",
+            "ean": "00823134008618",
+            "condition": "new"
+          },
+          {
+            "url": "https://skeletondustrecords.com/products/the-breeders-pod-lp-m?variant=67901283106889",
+            "price": "25.00",
+            "currency": "USD",
+            "ean": "00652637000603",
+            "condition": "new"
+          },
+          {
+            "url": "https://skeletondustrecords.com/products/guided-by-voices-alien-lanes-lp-m?variant=67901269114953",
+            "price": "27.00",
+            "currency": "USD",
+            "ean": "00744861012306",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 15,
+          "unique_prices": 10,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "approved_route": "https://skeletondustrecords.com/products.json?limit=20&page=1"
     },
     "skeletunesrecords_com": {
       "fingerprint": "c310a8b6d211f70d9d02074abc837f2e5f942bf60c19c075d92ec1013195bbcb",
@@ -14661,49 +14793,49 @@
     "skyvalleyrecords_com": {
       "fingerprint": "d0a8da905ed98e36095141523ef24feaa626dd51aed9e141f2ea6c164b25713f",
       "domain": "skyvalleyrecords.com",
-      "batch": 32,
-      "repair_attempts": 2,
+      "batch": 33,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:08:43.466456+00:00",
+      "status": "FROZEN",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:31.539311+00:00",
       "evidence": {
         "domain": "skyvalleyrecords.com",
         "route": "https://skyvalleyrecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:08:40.173479+00:00",
+        "observed_at": "2026-11-14T06:56:28.158217+00:00",
         "requests": [
           {
             "url": "https://skyvalleyrecords.com/products.json?limit=20&page=1",
-            "sha256": "94804229e172c361ac0e2e0e3b3d1ce3a7769ee01b02bcbe7dd5144389061ed0"
+            "sha256": "3623e7251a2840513cc57dd3caabb3650382edc09dd0f9e88dce38086edb13c1"
+          },
+          {
+            "url": "https://skyvalleyrecords.com/products/scott-weiland-scott-weiland-live-red-vinyl-lp?variant=58117318869175",
+            "sha256": "90be27f753271499d46c768e0368a1496f966a63107a028330f780f5eeb53699"
           },
           {
             "url": "https://skyvalleyrecords.com/products/bob-marley-the-wailers-capitol-session-73-green-red-colored-vinyl-2xlp?variant=58107077460151",
-            "sha256": "b5d90666f8144e21d877e73f8dac27da8b572d188567e5bf89abd8ac8b1d9f40"
-          },
-          {
-            "url": "https://skyvalleyrecords.com/products/dio-the-very-beast-of-dio-vol-2-dragons-fire-vinyl-2xlp?variant=58105483493559",
-            "sha256": "93d9aafbafedc6a42b00a74b36154469f9a5aad770ce4c65e6198915d94f36a6"
+            "sha256": "7bd6f3225e0fbcfb5f8d7d9c17b37dd3301e264de34693d3319c64e5a4e0acf2"
           },
           {
             "url": "https://skyvalleyrecords.com/products/turnstile-nonstop-feeling-lp?variant=58095181463735",
-            "sha256": "429452f51ddc9a5aabc62f12bfa22eaf5edce15e6975b4c3cff512f948841528"
+            "sha256": "6a0625b20ee41426aa37db27c8a06dbac9011d88647c65ded5a4fa07feeabfde"
           }
         ],
-        "listing_records": 5,
+        "listing_records": 10,
         "detail_checked": 3,
         "valid_eans": 0,
         "details": [
           {
-            "url": "https://skyvalleyrecords.com/products/bob-marley-the-wailers-capitol-session-73-green-red-colored-vinyl-2xlp?variant=58107077460151",
-            "price": "46.98",
+            "url": "https://skyvalleyrecords.com/products/scott-weiland-scott-weiland-live-red-vinyl-lp?variant=58117318869175",
+            "price": "28.98",
             "currency": "USD",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://skyvalleyrecords.com/products/dio-the-very-beast-of-dio-vol-2-dragons-fire-vinyl-2xlp?variant=58105483493559",
-            "price": "37.98",
+            "url": "https://skyvalleyrecords.com/products/bob-marley-the-wailers-capitol-session-73-green-red-colored-vinyl-2xlp?variant=58107077460151",
+            "price": "46.98",
             "currency": "USD",
             "ean": null,
             "condition": "new"
@@ -14720,8 +14852,8 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 5,
-          "unique_prices": 5,
+          "records_checked": 10,
+          "unique_prices": 9,
           "shipping_hits": 0,
           "currencies": [
             "USD"
@@ -14749,31 +14881,37 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "FROZEN",
+          "reason": "detail_ean_not_proven",
+          "run_id": "43568700727"
         }
       ]
     },
     "sleevecityusa_com": {
       "fingerprint": "1bce66fd505cf5568c03f8f4090b19b21fe63fbc30974c6b38977c816c93c431",
       "domain": "sleevecityusa.com",
-      "batch": 32,
-      "repair_attempts": 2,
+      "batch": 33,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:08:44.783599+00:00",
+      "status": "FROZEN",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:32.832074+00:00",
       "evidence": {
         "domain": "sleevecityusa.com",
         "route": "https://sleevecityusa.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:08:43.507020+00:00",
+        "observed_at": "2026-11-14T06:56:31.563170+00:00",
         "requests": [
           {
             "url": "https://sleevecityusa.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "74eb0d544185069c6de4d029566ed77b7f5995905f035d91783740aa2ef74921"
+            "sha256": "03afbfad1f72bcdef39f4f0969b43a93e1e5de8e838768e5164ab9f62503c9fc"
           },
           {
             "url": "https://sleevecityusa.com/products/10-inch-vinyl-kit?variant=7182033485875",
-            "sha256": "a8074f9250350f9925bb53b61ee70ca15f3926ab2c02ca13abc3b16f6b69f5e3"
+            "sha256": "b509972c27be02df8ab2574a86c84766183b6b509b6bc5c87f406c7ea9acd705"
           }
         ],
         "listing_records": 4,
@@ -14813,6 +14951,12 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "FROZEN",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "43568700727"
         }
       ]
     },
@@ -14960,21 +15104,21 @@
     "solstarecords_com": {
       "fingerprint": "542c927ade10092f661f3953dc6e0ba2d700a6ae2e65c572a982b40c96add884",
       "domain": "solstarecords.com",
-      "batch": 32,
-      "repair_attempts": 2,
+      "batch": 33,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:08:45.000846+00:00",
+      "status": "FROZEN",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:33.078293+00:00",
       "evidence": {
         "domain": "solstarecords.com",
         "route": "https://solstarecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:08:44.823234+00:00",
+        "observed_at": "2026-11-14T06:56:32.856537+00:00",
         "requests": [
           {
             "url": "https://solstarecords.com/products.json?limit=20&page=1",
-            "sha256": "4bbc2d66ff9b390b416de76a6327b02b88f45a3f95c5cbab70cc033921787816"
+            "sha256": "f159f02613157689ef8944fda97f964e6f04f0f0c011ae3343a4c1cea69ca9ae"
           }
         ],
         "listing_records": 0,
@@ -15004,6 +15148,12 @@
           "status": "REVIEW",
           "reason": "no_new_vinyl_records",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "FROZEN",
+          "reason": "no_new_vinyl_records",
+          "run_id": "43568700727"
         }
       ]
     },
@@ -15151,30 +15301,44 @@
     "sorrystaterecords_com": {
       "fingerprint": "c3eaf5d1a0b4a7be09be2f0c607b32125066ce8e0580c2d88dfb5fc14e19a994",
       "domain": "sorrystaterecords.com",
-      "batch": 32,
-      "repair_attempts": 2,
+      "batch": 33,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:08:45.262236+00:00",
+      "status": "FROZEN",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:34.694138+00:00",
       "evidence": {
         "domain": "sorrystaterecords.com",
         "route": "https://sorrystaterecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:08:45.040756+00:00",
+        "observed_at": "2026-11-14T06:56:33.101684+00:00",
         "requests": [
           {
             "url": "https://sorrystaterecords.com/products.json?limit=20&page=1",
-            "sha256": "5944df3418834ca5fbc43e577cd1c478932d7adb700d64cfa3dcf2a358aaa97a"
+            "sha256": "c96e1c058f1ecdb72908a719d8232a52da74dd474fcc27e1aa348ef93b04194e"
+          },
+          {
+            "url": "https://sorrystaterecords.com/products/lettuce-resonate-12?variant=68052576993534",
+            "sha256": "041ec847de9f13adc82d4809a171c63851ed18ae50ee9cea0aa139530880a7c7"
           }
         ],
-        "listing_records": 0,
+        "listing_records": 3,
         "detail_checked": 0,
         "valid_eans": 0,
         "details": [],
         "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 3,
+          "unique_prices": 2,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
         "status": "REVIEW",
-        "reason": "no_new_vinyl_records",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
         "error_type": "CollectionBlocked"
       },
       "history": [
@@ -15195,39 +15359,45 @@
           "status": "REVIEW",
           "reason": "no_new_vinyl_records",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "FROZEN",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "43568700727"
         }
       ]
     },
     "soulstoprecords_com": {
       "fingerprint": "a7e498450b416112ce72befd57649621c6a384ea2481dcec692ea65d67826bae",
       "domain": "soulstoprecords.com",
-      "batch": 32,
-      "repair_attempts": 2,
+      "batch": 33,
+      "repair_attempts": 3,
       "repair_modes": [],
       "admitted": false,
-      "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:08:48.645077+00:00",
+      "status": "FROZEN",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:38.009229+00:00",
       "evidence": {
         "domain": "soulstoprecords.com",
         "route": "https://soulstoprecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:08:45.303331+00:00",
+        "observed_at": "2026-11-14T06:56:34.719114+00:00",
         "requests": [
           {
             "url": "https://soulstoprecords.com/products.json?limit=20&page=1",
-            "sha256": "35d434699b47d6c9beb32fb64c6cdf8668fde9259d83ed95f69c89a6d91e6075"
+            "sha256": "46bacdd38c9e7f2b0de128a0830f8ae9caf9c10f8247848fb3dc163f76142ef6"
           },
           {
             "url": "https://soulstoprecords.com/products/marvin-gaye-whats-going-on-lp-motown?variant=68080042574123",
-            "sha256": "e028a7d7131e454fe2e815275e8bd70c58a664fc9cc749418cc5f846f0fb6592"
+            "sha256": "5ad0fbaa8b245306c02febc22f1491ef0d398513962fc814bf68a9e43e2d4d77"
           },
           {
             "url": "https://soulstoprecords.com/products/vince-guarldi-charlie-brown-christmas-green-vinyl-lp-concord-music-group?variant=67978540089643",
-            "sha256": "76b41e3f02d0fed9c73e4571d5ba7f6238fde54be2c9aa2498353c917532cb13"
+            "sha256": "2880401d8ce641458ebd126dfafe00119425b263fb91d9b267d94f4289e91028"
           },
           {
             "url": "https://soulstoprecords.com/products/fathers-fathers-lp-blue-note-records-1?variant=67937290649899",
-            "sha256": "5514a0c9eb6d6962699cdda5d332a966541f00be277fa2acf1556df7a710bcf4"
+            "sha256": "fb363b62aaab4ec9d179d212dd11a2b35b8f9227c26129c8505e978c293ee38c"
           }
         ],
         "listing_records": 16,
@@ -15289,6 +15459,12 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "FROZEN",
+          "reason": "detail_ean_not_proven",
+          "run_id": "43568700727"
         }
       ]
     },
@@ -15471,33 +15647,33 @@
     "soundplatters_com": {
       "fingerprint": "cc69897bbd98069c27fcffd64e2781344924bd0a02d5df267e2973a30e233deb",
       "domain": "soundplatters.com",
-      "batch": 32,
-      "repair_attempts": 1,
+      "batch": 33,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:08:51.868259+00:00",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:41.224464+00:00",
       "evidence": {
         "domain": "soundplatters.com",
         "route": "https://soundplatters.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:08:48.686495+00:00",
+        "observed_at": "2026-11-14T06:56:38.033931+00:00",
         "requests": [
           {
             "url": "https://soundplatters.com/products.json?limit=20&page=1",
-            "sha256": "08a87012ab5d3d893fb83d6479072320ecaa9408c3f736ad65f1692a47b925fb"
+            "sha256": "fec98aa40a597c172986699e4613d8d26de2b808a4de9254f47b1a0727a3f9e2"
           },
           {
-            "url": "https://soundplatters.com/products/aitken-laurel-the-fantastic-laurel-aitken-lp-2021?variant=51160604344377",
-            "sha256": "036e07faf5acc595652ca41d50e97d7a43ca34b03911d4ae9d1f99cd02291165"
+            "url": "https://soundplatters.com/products/jackson-michael-invincible-lpx2-25th-anniversary?variant=51146711236665",
+            "sha256": "f032ddacbe8095fb7e73338736be111ddbe8d75524686649f6c19577ec8fbf7f"
           },
           {
-            "url": "https://soundplatters.com/products/soulside-less-deep-inside-keeps-lp-1987?variant=51107181264953",
-            "sha256": "635c97ad3a763680d934646669e21ed98b8c8d99b1ea56b87a3b80b652260f06"
+            "url": "https://soundplatters.com/products/battle-ruins-glorious-dead-lp-2024-splatter?variant=51110929137721",
+            "sha256": "e3eeb2b91f03602219690c3f8651df5ee73923509f8fdde172c90595c49be365"
           },
           {
-            "url": "https://soundplatters.com/products/beefeater-need-a-job-ep-1986?variant=51106961096761",
-            "sha256": "92f02ab6be7093f03bed273cbc5f7a65f2846e37585e6e84337174f12432f265"
+            "url": "https://soundplatters.com/products/conflict-its-time-to-see-whos-who-lp-1983?variant=51107017883705",
+            "sha256": "cc92107d15083aaa2069c005b14b16b9ddb23ec7d6354c42472ee3a9bb88b16f"
           }
         ],
         "listing_records": 20,
@@ -15505,22 +15681,22 @@
         "valid_eans": 0,
         "details": [
           {
-            "url": "https://soundplatters.com/products/aitken-laurel-the-fantastic-laurel-aitken-lp-2021?variant=51160604344377",
-            "price": "27.99",
+            "url": "https://soundplatters.com/products/jackson-michael-invincible-lpx2-25th-anniversary?variant=51146711236665",
+            "price": "36.99",
             "currency": "USD",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://soundplatters.com/products/soulside-less-deep-inside-keeps-lp-1987?variant=51107181264953",
-            "price": "30.00",
+            "url": "https://soundplatters.com/products/battle-ruins-glorious-dead-lp-2024-splatter?variant=51110929137721",
+            "price": "29.99",
             "currency": "USD",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://soundplatters.com/products/beefeater-need-a-job-ep-1986?variant=51106961096761",
-            "price": "25.00",
+            "url": "https://soundplatters.com/products/conflict-its-time-to-see-whos-who-lp-1983?variant=51107017883705",
+            "price": "40.00",
             "currency": "USD",
             "ean": null,
             "condition": "new"
@@ -15531,7 +15707,7 @@
           "status": "pass",
           "flags": [],
           "records_checked": 20,
-          "unique_prices": 8,
+          "unique_prices": 10,
           "shipping_hits": 0,
           "currencies": [
             "USD"
@@ -15553,6 +15729,12 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "43568700727"
         }
       ]
     },
@@ -15700,28 +15882,28 @@
     "spinsterrecords_com": {
       "fingerprint": "8c89089cce90148455be656953d437330799a83428d7856925c933cb7dbf96aa",
       "domain": "spinsterrecords.com",
-      "batch": 32,
-      "repair_attempts": 1,
+      "batch": 33,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:08:53.335405+00:00",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:42.809964+00:00",
       "evidence": {
         "domain": "spinsterrecords.com",
         "route": "https://spinsterrecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:08:51.909082+00:00",
+        "observed_at": "2026-11-14T06:56:41.248616+00:00",
         "requests": [
           {
             "url": "https://spinsterrecords.com/products.json?limit=20&page=1",
-            "sha256": "c767efd0337a681eb6fae122e69ff4d5cc8650e28e681c891896e3d438ac1ad8"
+            "sha256": "9796d761c847a00d131f1b6ab259dfa1c3709aa6f80f05750b57f2d08fe61e22"
           },
           {
-            "url": "https://spinsterrecords.com/products/elf-original-motion-picture-score?variant=68147928858707",
-            "sha256": "4cb1c7a86ecc8fe8c7028d012bb00bc581fa518ef6fbd211f9145be1022b7439"
+            "url": "https://spinsterrecords.com/products/kodak-black-the-collection?variant=68162403074131",
+            "sha256": "0a4d9b8020315356be4ec1c9f072a380b86e787f79cebcd37b279754b44fd81b"
           }
         ],
-        "listing_records": 20,
+        "listing_records": 6,
         "detail_checked": 0,
         "valid_eans": 0,
         "details": [],
@@ -15729,8 +15911,8 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 20,
-          "unique_prices": 14,
+          "records_checked": 6,
+          "unique_prices": 5,
           "shipping_hits": 0,
           "currencies": [
             "USD"
@@ -15752,31 +15934,37 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "43568700727"
         }
       ]
     },
     "spintimerecords_com": {
       "fingerprint": "1301ccc2f9fefa7db72778d181c9d4fd69a97254e33a8c1d4d94516a452c3253",
       "domain": "spintimerecords.com",
-      "batch": 32,
-      "repair_attempts": 1,
+      "batch": 33,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:08:54.834557+00:00",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:44.101182+00:00",
       "evidence": {
         "domain": "spintimerecords.com",
         "route": "https://spintimerecords.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:08:53.375836+00:00",
+        "observed_at": "2026-11-14T06:56:42.834594+00:00",
         "requests": [
           {
             "url": "https://spintimerecords.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "5f353f6d35513b4360c38bddac16206452874a0f0ddfbbd9aee98f5d9436db0b"
+            "sha256": "9579b734f000df0d88f6d1854f1417750eb99cb1e831320e2cecafd23ebcf3c7"
           },
           {
             "url": "https://spintimerecords.com/products/1-lp?variant=71001227133181",
-            "sha256": "fa15c7c37b6cbe3d17a47c5d473a09d144e99bbdd76d888d8a11a5cf1ff1f0f9"
+            "sha256": "47e254938abb64031fb66cea59e02c301372dd3441bf81c9a5f0d693f57fca0f"
           }
         ],
         "listing_records": 11,
@@ -15810,39 +15998,45 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "43568700727"
         }
       ]
     },
     "spoonfulrecordsohio_com": {
       "fingerprint": "cffdbb196c4fd943f5dd7acf7230272007f908720b1af4712fc3d2ff73a316de",
       "domain": "spoonfulrecordsohio.com",
-      "batch": 32,
-      "repair_attempts": 1,
+      "batch": 33,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:08:58.131274+00:00",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:47.352063+00:00",
       "evidence": {
         "domain": "spoonfulrecordsohio.com",
         "route": "https://spoonfulrecordsohio.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:08:54.874449+00:00",
+        "observed_at": "2026-11-14T06:56:44.124811+00:00",
         "requests": [
           {
             "url": "https://spoonfulrecordsohio.com/products.json?limit=20&page=1",
-            "sha256": "cc27b4fa6b240ff7ba910bd3ffa3e35dbdac9a5913e3263b0e0b7d8c994a4b98"
+            "sha256": "58ce51dfe73d18530750d270d84f7628429419c199620c074e53577690871d90"
           },
           {
             "url": "https://spoonfulrecordsohio.com/products/alice-in-chains-self-titled-3-legged-dog?variant=71559280001277",
-            "sha256": "8f0b543089ab21b01f6b68de01574206c4c5edc7e58015b2ae018a42b22a6a93"
+            "sha256": "b4f63553c2c44c2cc4e2e9213dc86a556a15ecd10b2cf841d5b41fc40b14f4e8"
           },
           {
             "url": "https://spoonfulrecordsohio.com/products/remi-wolf-you-re-a-dog-i-m-allergic-to-dogs?variant=47303324336381",
-            "sha256": "e87e6d924c1fc7d7aefb7e4221b61d877ab5a1d88f1c65ef738749d5b2b86851"
+            "sha256": "7ddf067d4630cd3f87fb00f2f2a1362eb1dfa0a568a6d9495f9b26ebc279449d"
           },
           {
             "url": "https://spoonfulrecordsohio.com/products/steve-lacy-gemini-rights?variant=47302665568509",
-            "sha256": "11d67ccb2e0560f46d59a99d59b606649f3e7d7044f3c355a4753abb12b0817f"
+            "sha256": "c5f980ed5ebf04206658752e814c6a504eb502f0f32358ef65947eaf40cba2ea"
           }
         ],
         "listing_records": 17,
@@ -15898,31 +16092,37 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "43568700727"
         }
       ]
     },
     "squarecatvinyl_com": {
       "fingerprint": "138dd7031ec52a3ff3ad9bfaaef8bb645255ee44897152776e778a9d0359545c",
       "domain": "squarecatvinyl.com",
-      "batch": 32,
-      "repair_attempts": 1,
+      "batch": 33,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:08:59.422806+00:00",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:48.702190+00:00",
       "evidence": {
         "domain": "squarecatvinyl.com",
         "route": "https://squarecatvinyl.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:08:58.171410+00:00",
+        "observed_at": "2026-11-14T06:56:47.376062+00:00",
         "requests": [
           {
             "url": "https://squarecatvinyl.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "2f05493cf8ac9edbddcf5a943951697f7d2125a8e469f6db4990d7806085d0d6"
+            "sha256": "b12d9beadda156428952308ec215c9d95cb3d8ec694344fcd57fa4c4f2c78871"
           },
           {
             "url": "https://squarecatvinyl.com/products/let-it-be-blue-blue-vinyl?variant=44981668643089",
-            "sha256": "22ff3f6bfcdd6400f73dc1600b4f7c0cbc61675ac60c7b047601f0f9a7a81982"
+            "sha256": "f21bc6e0f03748d1289f98e8b285b85ea8cec92747d58e1db1987c104e878e41"
           }
         ],
         "listing_records": 10,
@@ -15956,62 +16156,68 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "43568700727"
         }
       ]
     },
     "squatchinthepit_com": {
       "fingerprint": "27a8dc54cbbb99f01c525672d845add3a7db6ac01206269adb5f5e378e729af6",
       "domain": "squatchinthepit.com",
-      "batch": 32,
-      "repair_attempts": 1,
+      "batch": 33,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:09:02.889693+00:00",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:52.164723+00:00",
       "evidence": {
         "domain": "squatchinthepit.com",
         "route": "https://squatchinthepit.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:08:59.462711+00:00",
+        "observed_at": "2026-11-14T06:56:48.725931+00:00",
         "requests": [
           {
             "url": "https://squatchinthepit.com/products.json?limit=20&page=1",
-            "sha256": "5ace54fdbf5436533607189f7f57dc6f67b42996ab4230ed641b220619dc755b"
+            "sha256": "9024c21842ab6d10abdb84039ef2f5b6ac5009f726e1b920118ce9b9ff08e325"
           },
           {
-            "url": "https://squatchinthepit.com/products/preorder-13-sentinels-aegis-rim-o-s-t-colv-ogv-13-sentinels-aegis-rim-o-s-t-colored-vinyl-180-gram?variant=71903304057085",
-            "sha256": "f0b6a58307136cd6ceee9b3c171647e6cfdf17b08f20066cff0a8e0f974478be"
+            "url": "https://squatchinthepit.com/products/preorder-se-leroy-meurt-hier-pour-toujours-lp?variant=71921535779069",
+            "sha256": "3fa0667a0dae8636349b060d039eeb43538bf5a9c98026e5baceb264d6c1999d"
           },
           {
-            "url": "https://squatchinthepit.com/products/preorder-blackhaine-saints-in-the-wethouse-lp?variant=71903302615293",
-            "sha256": "ae629d8469e4800b62977efb5be3d63a6b61d1e0acc494a06451c23863aca582"
+            "url": "https://squatchinthepit.com/products/preorder-emma-ogier-fly-1111-dove?variant=71921535353085",
+            "sha256": "71b7d4b1ecda6350a53f682376f6ffe3f7828de4449bfd2c703d568854d38de0"
           },
           {
-            "url": "https://squatchinthepit.com/products/preorder-full-flower-moon-band-after-dark-colored-vinyl-pnk?variant=71903302156541",
-            "sha256": "ff434b8bc966ca6a91f7ff52b84969ce57bc16338c8666ec5b943687fee5fd60"
+            "url": "https://squatchinthepit.com/products/preorder-galliano-brownswood-remix-editions-004-uk-lp?variant=71921534632189",
+            "sha256": "63f2aa6c4b890f5e44cb9c53310cc7c316ed4aa51482e18e6b5d6572831b07c6"
           }
         ],
-        "listing_records": 8,
+        "listing_records": 13,
         "detail_checked": 3,
         "valid_eans": 0,
         "details": [
           {
-            "url": "https://squatchinthepit.com/products/preorder-13-sentinels-aegis-rim-o-s-t-colv-ogv-13-sentinels-aegis-rim-o-s-t-colored-vinyl-180-gram?variant=71903304057085",
-            "price": "196.99",
+            "url": "https://squatchinthepit.com/products/preorder-se-leroy-meurt-hier-pour-toujours-lp?variant=71921535779069",
+            "price": "41.99",
             "currency": "USD",
             "ean": null,
             "condition": "new"
           },
           {
-            "url": "https://squatchinthepit.com/products/preorder-blackhaine-saints-in-the-wethouse-lp?variant=71903302615293",
-            "price": "37.99",
-            "currency": "USD",
-            "ean": null,
-            "condition": "new"
-          },
-          {
-            "url": "https://squatchinthepit.com/products/preorder-full-flower-moon-band-after-dark-colored-vinyl-pnk?variant=71903302156541",
+            "url": "https://squatchinthepit.com/products/preorder-emma-ogier-fly-1111-dove?variant=71921535353085",
             "price": "34.99",
+            "currency": "USD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://squatchinthepit.com/products/preorder-galliano-brownswood-remix-editions-004-uk-lp?variant=71921534632189",
+            "price": "29.99",
             "currency": "USD",
             "ean": null,
             "condition": "new"
@@ -16021,8 +16227,8 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 8,
-          "unique_prices": 8,
+          "records_checked": 13,
+          "unique_prices": 10,
           "shipping_hits": 0,
           "currencies": [
             "USD"
@@ -16044,39 +16250,45 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "43568700727"
         }
       ]
     },
     "sstsuperstore_com": {
       "fingerprint": "d7ad8e94cf5965e411313c10e80a60ee3d7519129fd9a71d07718ca2a5d45686",
       "domain": "sstsuperstore.com",
-      "batch": 32,
-      "repair_attempts": 1,
+      "batch": 33,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:09:06.155286+00:00",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:55.517615+00:00",
       "evidence": {
         "domain": "sstsuperstore.com",
         "route": "https://sstsuperstore.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:09:02.930164+00:00",
+        "observed_at": "2026-11-14T06:56:52.188150+00:00",
         "requests": [
           {
             "url": "https://sstsuperstore.com/products.json?limit=20&page=1",
-            "sha256": "6c7eb3dd986aea8b85655ce08eab693d7ee963c279c0c6362b14642fcceabe3b"
+            "sha256": "46c7e4f5affe8ffda0e60bcf328b804e0cb358e9840a4cc129d24e2984fbe6b8"
           },
           {
             "url": "https://sstsuperstore.com/products/saint-vitus-born-too-late-12-inch-vinyl-record-colored-vinyl?variant=49003959648426",
-            "sha256": "9cbfc5183823c799c2f7ff6c7aa937801697f1780fa10a2a540011f7ecc85e4c"
+            "sha256": "e8bee976f209555545ace87a0411ff48d842e1527f24dac15fbe12005be85931"
           },
           {
             "url": "https://sstsuperstore.com/products/husker-du-flip-your-wig-12-inch-vinyl-record-colored-vinyl?variant=49003962400938",
-            "sha256": "dda8e85710f824d609bc11fd2e6a36f0aaaf654005aa8b034a87ba4b728a818e"
+            "sha256": "763dca3b3c67af8c4dba02bbff094a85bdfaf2dc3a3806ecf5be3bdfeee81d30"
           },
           {
             "url": "https://sstsuperstore.com/products/saccharine-trust-surviving-you-always-12-inch-vinyl-record?variant=41398046130346",
-            "sha256": "7295f54486d4b1b1874c2d5ff1212951beb7619fba6340a4ada6b1f75358b278"
+            "sha256": "1b05e8c8b2ef05b40e5ea4fcca57d83a726e34a26721f662f596db52423bfbd3"
           }
         ],
         "listing_records": 3,
@@ -16132,31 +16344,37 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "43568700727"
         }
       ]
     },
     "staticatx_com": {
       "fingerprint": "ce1668a5c467278a33afe5deb220fa3ee0fb2628b4032f69379bc0bbfa17fd1e",
       "domain": "staticatx.com",
-      "batch": 32,
-      "repair_attempts": 1,
+      "batch": 33,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:09:07.810928+00:00",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:56.841530+00:00",
       "evidence": {
         "domain": "staticatx.com",
         "route": "https://staticatx.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:09:06.196791+00:00",
+        "observed_at": "2026-11-14T06:56:55.541980+00:00",
         "requests": [
           {
             "url": "https://staticatx.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "95414c9e62757cc3a2b4cc5917cf077e4e17e11d03a9e7b59ab6e4026846e9da"
+            "sha256": "e7b000ccd6e91a0c60aec3ac7e324f028d364727cc442fcad1bd69e9dd668921"
           },
           {
             "url": "https://staticatx.com/products/10-000-maniacs-candy-everybody-wants-1982-1992-rsd-black-friday-2026?variant=50652221571234",
-            "sha256": "7be8bd0f0ab77e0ab181d0674d15dcbfdaac3c91f095e3c4980270c0831dbf95"
+            "sha256": "7994b64a613c2fac88e68f5e9b960a234935a1be45033fdb30a67b9b6c9ea58f"
           }
         ],
         "listing_records": 20,
@@ -16190,31 +16408,37 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "43568700727"
         }
       ]
     },
     "staticerarecords_com": {
       "fingerprint": "0e409b00c9ecf8f70ecca6e35262617d0ebe8519896818fd694cbf526f6e0689",
       "domain": "staticerarecords.com",
-      "batch": 32,
-      "repair_attempts": 1,
+      "batch": 33,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:09:09.230816+00:00",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:58.237308+00:00",
       "evidence": {
         "domain": "staticerarecords.com",
         "route": "https://staticerarecords.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:09:07.851081+00:00",
+        "observed_at": "2026-11-14T06:56:56.866259+00:00",
         "requests": [
           {
             "url": "https://staticerarecords.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "821f5621ffd71d9d103cb24a48a7c90ee8303b475651c5bd3b98516702fdb22c"
+            "sha256": "1e8d34b32edfffe42468620458ec88157823144ed5fea7a99d5596c2286194fb"
           },
           {
             "url": "https://staticerarecords.com/products/autoignition-against-the-world?variant=47737065799845",
-            "sha256": "712e24889870935e4eccad5c08bb123aa4f2040182a986356017371fae7bb3d6"
+            "sha256": "7368727439892001c7f02b66b6a7f4bc0ef29e7702b3d652ad74d5659dc01181"
           }
         ],
         "listing_records": 11,
@@ -16248,6 +16472,12 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "43568700727"
         }
       ]
     },
@@ -16404,25 +16634,25 @@
     "strandedrecords_com": {
       "fingerprint": "68524ce0e55b7798822655947e1f5fe72079c35e9c4815951ac8febd2cd99956",
       "domain": "strandedrecords.com",
-      "batch": 32,
-      "repair_attempts": 1,
+      "batch": 33,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "43383561391",
-      "updated_at": "2026-11-13T07:09:10.726340+00:00",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:56:59.737351+00:00",
       "evidence": {
         "domain": "strandedrecords.com",
         "route": "https://strandedrecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-13T07:09:09.271191+00:00",
+        "observed_at": "2026-11-14T06:56:58.262019+00:00",
         "requests": [
           {
             "url": "https://strandedrecords.com/products.json?limit=20&page=1",
-            "sha256": "2aea4d3bd042ae24afd702f7756550110eef8fc14f973324f40afb5853df4abd"
+            "sha256": "424d5863080264ab12d0403129eeb78c50109c657208daf0125beb2fd277f24d"
           },
           {
             "url": "https://strandedrecords.com/products/neo-museum-1983-1985-lp?variant=67805010788649",
-            "sha256": "f5a144287e263a9e97d65b10ec1569264d0bea317e3b5a7c323810d95e195471"
+            "sha256": "012dd41b5048ef6f64d7569a0febebefc2c75e2441b38ce0f91c870e922808d6"
           }
         ],
         "listing_records": 19,
@@ -16456,147 +16686,37 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "43383561391"
+        },
+        {
+          "batch": 33,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "43568700727"
         }
       ]
     },
     "studioonerecords_com": {
       "fingerprint": "353fc39b3a0c381ac665e2d5ac2fdecca33ced34712052fb36806f3c2f73305b",
       "domain": "studioonerecords.com",
-      "batch": 8,
-      "repair_attempts": 0,
+      "batch": 33,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "40164542697",
-      "updated_at": "2026-10-25T05:10:36.447610+00:00",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:57:01.115501+00:00",
       "evidence": {
         "domain": "studioonerecords.com",
-        "route": "https://studioonerecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T05:10:34.231750+00:00",
+        "route": "https://studioonerecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-14T06:56:59.760682+00:00",
         "requests": [
           {
-            "url": "https://studioonerecords.com/products.json?limit=20&page=1",
-            "sha256": "b34e929f66d4dd62fea5c8d16830eddf2be6b5c7dfb984df9e4c792ed63d700b"
+            "url": "https://studioonerecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "350be5eecf3e55fb4259f3ec2868816451f453c64ad6905fa0179255413bb169"
           },
           {
-            "url": "https://studioonerecords.com/products/what-you-wont-do-for-love-ver-otis-gayle?variant=45948359540915",
-            "sha256": "4c5d2046da255b0b1f8844117d7edcfd992fad737ab5acb35191506e1bfdf815"
-          },
-          {
-            "url": "https://studioonerecords.com/products/lets-make-it-up-larry-marshall-free-burning-spear?variant=45480357101747",
-            "sha256": "7346d356af1b640fd862b78a8456250658c753d6c74a3c441ca968a89c5af481"
-          }
-        ],
-        "listing_records": 14,
-        "detail_checked": 1,
-        "valid_eans": 0,
-        "details": [
-          {
-            "url": "https://studioonerecords.com/products/what-you-wont-do-for-love-ver-otis-gayle?variant=45948359540915",
-            "price": "19.99",
-            "currency": "USD",
-            "ean": null,
-            "condition": "new"
-          }
-        ],
-        "database_write": false,
-        "price_quality": {
-          "status": "pass",
-          "flags": [],
-          "records_checked": 14,
-          "unique_prices": 7,
-          "shipping_hits": 0,
-          "currencies": [
-            "USD"
-          ]
-        },
-        "status": "REVIEW",
-        "reason": "detail_price_currency_not_proven_or_mismatch",
-        "error_type": "CollectionBlocked"
-      },
-      "history": [
-        {
-          "batch": 8,
-          "status": "REVIEW",
-          "reason": "detail_price_currency_not_proven_or_mismatch",
-          "run_id": "40164542697"
-        }
-      ]
-    },
-    "supervinylusa_com": {
-      "fingerprint": "0515da5ac076a934d777a90df77529ebd11c6a334ca8b1f03435851fd3cd74d2",
-      "domain": "supervinylusa.com",
-      "batch": 8,
-      "repair_attempts": 0,
-      "repair_modes": [],
-      "admitted": false,
-      "status": "REVIEW",
-      "run_id": "40164542697",
-      "updated_at": "2026-10-25T05:10:37.799216+00:00",
-      "evidence": {
-        "domain": "supervinylusa.com",
-        "route": "https://supervinylusa.com/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T05:10:36.477240+00:00",
-        "requests": [
-          {
-            "url": "https://supervinylusa.com/products.json?limit=20&page=1",
-            "sha256": "4f42cd3982e4f3689a5bb315d37f62bf269c3078ff611fa1b73f20854a679fab"
-          },
-          {
-            "url": "https://supervinylusa.com/products/live-through-this-2?variant=68052855456065",
-            "sha256": "12f4f4d495865c53b8aeae614f6511d78db58e8f3adcf1b9658b16200ace0eb4"
-          }
-        ],
-        "listing_records": 19,
-        "detail_checked": 0,
-        "valid_eans": 0,
-        "details": [],
-        "database_write": false,
-        "price_quality": {
-          "status": "pass",
-          "flags": [],
-          "records_checked": 19,
-          "unique_prices": 13,
-          "shipping_hits": 0,
-          "currencies": [
-            "USD"
-          ]
-        },
-        "status": "REVIEW",
-        "reason": "detail_price_currency_not_proven_or_mismatch",
-        "error_type": "CollectionBlocked"
-      },
-      "history": [
-        {
-          "batch": 8,
-          "status": "REVIEW",
-          "reason": "detail_price_currency_not_proven_or_mismatch",
-          "run_id": "40164542697"
-        }
-      ]
-    },
-    "swaggierecords_com": {
-      "fingerprint": "ff04f99d98eba6275d8f99562c69569b7976743de0d58f77372560f4640098ef",
-      "domain": "swaggierecords.com",
-      "batch": 8,
-      "repair_attempts": 0,
-      "repair_modes": [],
-      "admitted": false,
-      "status": "REVIEW",
-      "run_id": "40164542697",
-      "updated_at": "2026-10-25T05:10:39.197399+00:00",
-      "evidence": {
-        "domain": "swaggierecords.com",
-        "route": "https://swaggierecords.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-10-25T05:10:37.829054+00:00",
-        "requests": [
-          {
-            "url": "https://swaggierecords.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "bfc6475f32cefea009f4577c1de60ff518d0395c469af72ee0861510b2352414"
-          },
-          {
-            "url": "https://swaggierecords.com/products/used-12-adventures-of-stevie-v-thats-the-way-it-is-12-mint-m?variant=47595050139893",
-            "sha256": "0e8e56b63972c75a6ef5d06524510b733904f5ea1b403cd14530af1ab14ef2f3"
+            "url": "https://studioonerecords.com/products/campbell-take-a-ride-alton-ellis-pearl?variant=42387573309619",
+            "sha256": "24f7dd5dab284abb011227e9c7fa9dc9ea978e8def91c91f0d8ac9813b142e77"
           }
         ],
         "listing_records": 13,
@@ -16608,7 +16728,65 @@
           "status": "pass",
           "flags": [],
           "records_checked": 13,
-          "unique_prices": 11,
+          "unique_prices": 4,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "invalid_detail_gtin",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 8,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40164542697"
+        },
+        {
+          "batch": 33,
+          "status": "REVIEW",
+          "reason": "invalid_detail_gtin",
+          "run_id": "43568700727"
+        }
+      ]
+    },
+    "supervinylusa_com": {
+      "fingerprint": "0515da5ac076a934d777a90df77529ebd11c6a334ca8b1f03435851fd3cd74d2",
+      "domain": "supervinylusa.com",
+      "batch": 33,
+      "repair_attempts": 1,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:57:02.491973+00:00",
+      "evidence": {
+        "domain": "supervinylusa.com",
+        "route": "https://supervinylusa.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-14T06:57:01.138884+00:00",
+        "requests": [
+          {
+            "url": "https://supervinylusa.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "51ef24936092478045f31f86e03d1837a52aadc2a0b068087f85a02acaa4d6b2"
+          },
+          {
+            "url": "https://supervinylusa.com/products/awaken-my-love?variant=30001258365016",
+            "sha256": "812d68b6f779c005e8ba219a83197f7e17fca710813541a7a487d013ecbe6588"
+          }
+        ],
+        "listing_records": 19,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 19,
+          "unique_prices": 15,
           "shipping_hits": 0,
           "currencies": [
             "USD"
@@ -16624,6 +16802,56 @@
           "status": "REVIEW",
           "reason": "detail_price_currency_not_proven_or_mismatch",
           "run_id": "40164542697"
+        },
+        {
+          "batch": 33,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "43568700727"
+        }
+      ]
+    },
+    "swaggierecords_com": {
+      "fingerprint": "ff04f99d98eba6275d8f99562c69569b7976743de0d58f77372560f4640098ef",
+      "domain": "swaggierecords.com",
+      "batch": 33,
+      "repair_attempts": 1,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "43568700727",
+      "updated_at": "2026-11-14T06:57:02.782986+00:00",
+      "evidence": {
+        "domain": "swaggierecords.com",
+        "route": "https://swaggierecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-14T06:57:02.515732+00:00",
+        "requests": [
+          {
+            "url": "https://swaggierecords.com/products.json?limit=20&page=1",
+            "sha256": "e51eaf87ad4d183270ad8464f8c76e5cf086b81906fa303530108fb856e39041"
+          }
+        ],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "status": "REVIEW",
+        "reason": "no_new_vinyl_records",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 8,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "40164542697"
+        },
+        {
+          "batch": 33,
+          "status": "REVIEW",
+          "reason": "no_new_vinyl_records",
+          "run_id": "43568700727"
         }
       ]
     },
@@ -24595,6 +24823,6 @@
       ]
     }
   },
-  "updated_at": "2026-11-13T07:09:10.726389+00:00",
-  "last_run_id": "43383561391"
+  "updated_at": "2026-11-14T06:57:02.783042+00:00",
+  "last_run_id": "43568700727"
 }
