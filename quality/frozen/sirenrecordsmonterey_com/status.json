@@ -1,0 +1,100 @@
+{
+  "fingerprint": "eb8e7239730f0185a2780b98bd6b490381eeb4f1587c6f7bc54610cf0d6342c9",
+  "domain": "sirenrecordsmonterey.com",
+  "batch": 33,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43568700727",
+  "updated_at": "2026-11-14T06:56:24.681717+00:00",
+  "evidence": {
+    "domain": "sirenrecordsmonterey.com",
+    "route": "https://sirenrecordsmonterey.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-14T06:56:21.406975+00:00",
+    "requests": [
+      {
+        "url": "https://sirenrecordsmonterey.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "6f9584c049e41c66aaaac8a9caf727c5104de9a76583c2372d680119276a6665"
+      },
+      {
+        "url": "https://sirenrecordsmonterey.com/products/suicideboys-thy-kingdom-come-suicideboys-limited-new-sealed-maroon-colored-vinyl-lp?variant=51041011630399",
+        "sha256": "635205c28c875dcc67a0ffdc5326e15b6db9134d13779dedf656f3ec39e3eb0d"
+      },
+      {
+        "url": "https://sirenrecordsmonterey.com/products/100-gecs-10000-gecs-white-lp?variant=49362560745791",
+        "sha256": "b2077a3bfb975edb5ee36ee3038cab47190570bebe57386125118af926f6ffbe"
+      },
+      {
+        "url": "https://sirenrecordsmonterey.com/products/1349-liberation-180g-gold-vinyl-lp?variant=49685052948799",
+        "sha256": "50361e697e38993094143d697a2b83bbb50bbd5360145f5e5acafde04381f3e1"
+      }
+    ],
+    "listing_records": 13,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://sirenrecordsmonterey.com/products/suicideboys-thy-kingdom-come-suicideboys-limited-new-sealed-maroon-colored-vinyl-lp?variant=51041011630399",
+        "price": "31.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://sirenrecordsmonterey.com/products/100-gecs-10000-gecs-white-lp?variant=49362560745791",
+        "price": "38.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://sirenrecordsmonterey.com/products/1349-liberation-180g-gold-vinyl-lp?variant=49685052948799",
+        "price": "28.95",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 13,
+      "unique_prices": 11,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 7,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40064351096"
+    },
+    {
+      "batch": 31,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43176655069"
+    },
+    {
+      "batch": 32,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43383561391"
+    },
+    {
+      "batch": 33,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43568700727"
+    }
+  ]
+}
