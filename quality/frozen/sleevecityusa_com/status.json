@@ -1,0 +1,70 @@
+{
+  "fingerprint": "1bce66fd505cf5568c03f8f4090b19b21fe63fbc30974c6b38977c816c93c431",
+  "domain": "sleevecityusa.com",
+  "batch": 33,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43568700727",
+  "updated_at": "2026-11-14T06:56:32.832074+00:00",
+  "evidence": {
+    "domain": "sleevecityusa.com",
+    "route": "https://sleevecityusa.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-14T06:56:31.563170+00:00",
+    "requests": [
+      {
+        "url": "https://sleevecityusa.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "03afbfad1f72bcdef39f4f0969b43a93e1e5de8e838768e5164ab9f62503c9fc"
+      },
+      {
+        "url": "https://sleevecityusa.com/products/10-inch-vinyl-kit?variant=7182033485875",
+        "sha256": "b509972c27be02df8ab2574a86c84766183b6b509b6bc5c87f406c7ea9acd705"
+      }
+    ],
+    "listing_records": 4,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 4,
+      "unique_prices": 4,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 7,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40064351096"
+    },
+    {
+      "batch": 31,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43176655069"
+    },
+    {
+      "batch": 32,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43383561391"
+    },
+    {
+      "batch": 33,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43568700727"
+    }
+  ]
+}
