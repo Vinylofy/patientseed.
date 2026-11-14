@@ -1,0 +1,56 @@
+{
+  "fingerprint": "6c2ed1013792aa94ecf0aa9b882f23f247dbcdb39a8e1be74855c0992b6eb1aa",
+  "domain": "shopsatmarsbeads.com",
+  "batch": 33,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43568700727",
+  "updated_at": "2026-11-14T06:56:18.004326+00:00",
+  "evidence": {
+    "domain": "shopsatmarsbeads.com",
+    "route": "https://shopsatmarsbeads.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-14T06:56:17.717436+00:00",
+    "requests": [
+      {
+        "url": "https://shopsatmarsbeads.com/products.json?limit=20&page=1",
+        "sha256": "789ff098c2bccc765d94a283f8d6c1b6faa70115bc06221be3fb55cf0ea355ff"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 7,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40064351096"
+    },
+    {
+      "batch": 31,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "43176655069"
+    },
+    {
+      "batch": 32,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "43383561391"
+    },
+    {
+      "batch": 33,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "43568700727"
+    }
+  ]
+}
