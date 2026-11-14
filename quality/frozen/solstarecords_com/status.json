@@ -1,0 +1,56 @@
+{
+  "fingerprint": "542c927ade10092f661f3953dc6e0ba2d700a6ae2e65c572a982b40c96add884",
+  "domain": "solstarecords.com",
+  "batch": 33,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43568700727",
+  "updated_at": "2026-11-14T06:56:33.078293+00:00",
+  "evidence": {
+    "domain": "solstarecords.com",
+    "route": "https://solstarecords.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-14T06:56:32.856537+00:00",
+    "requests": [
+      {
+        "url": "https://solstarecords.com/products.json?limit=20&page=1",
+        "sha256": "f159f02613157689ef8944fda97f964e6f04f0f0c011ae3343a4c1cea69ca9ae"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 7,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40064351096"
+    },
+    {
+      "batch": 31,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "43176655069"
+    },
+    {
+      "batch": 32,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "43383561391"
+    },
+    {
+      "batch": 33,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "43568700727"
+    }
+  ]
+}
