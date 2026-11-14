@@ -1,0 +1,70 @@
+{
+  "fingerprint": "c3eaf5d1a0b4a7be09be2f0c607b32125066ce8e0580c2d88dfb5fc14e19a994",
+  "domain": "sorrystaterecords.com",
+  "batch": 33,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43568700727",
+  "updated_at": "2026-11-14T06:56:34.694138+00:00",
+  "evidence": {
+    "domain": "sorrystaterecords.com",
+    "route": "https://sorrystaterecords.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-14T06:56:33.101684+00:00",
+    "requests": [
+      {
+        "url": "https://sorrystaterecords.com/products.json?limit=20&page=1",
+        "sha256": "c96e1c058f1ecdb72908a719d8232a52da74dd474fcc27e1aa348ef93b04194e"
+      },
+      {
+        "url": "https://sorrystaterecords.com/products/lettuce-resonate-12?variant=68052576993534",
+        "sha256": "041ec847de9f13adc82d4809a171c63851ed18ae50ee9cea0aa139530880a7c7"
+      }
+    ],
+    "listing_records": 3,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 3,
+      "unique_prices": 2,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 7,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40064351096"
+    },
+    {
+      "batch": 31,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43176655069"
+    },
+    {
+      "batch": 32,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "43383561391"
+    },
+    {
+      "batch": 33,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43568700727"
+    }
+  ]
+}
