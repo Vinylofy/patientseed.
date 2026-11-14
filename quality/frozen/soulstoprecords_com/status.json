@@ -1,0 +1,100 @@
+{
+  "fingerprint": "a7e498450b416112ce72befd57649621c6a384ea2481dcec692ea65d67826bae",
+  "domain": "soulstoprecords.com",
+  "batch": 33,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43568700727",
+  "updated_at": "2026-11-14T06:56:38.009229+00:00",
+  "evidence": {
+    "domain": "soulstoprecords.com",
+    "route": "https://soulstoprecords.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-14T06:56:34.719114+00:00",
+    "requests": [
+      {
+        "url": "https://soulstoprecords.com/products.json?limit=20&page=1",
+        "sha256": "46bacdd38c9e7f2b0de128a0830f8ae9caf9c10f8247848fb3dc163f76142ef6"
+      },
+      {
+        "url": "https://soulstoprecords.com/products/marvin-gaye-whats-going-on-lp-motown?variant=68080042574123",
+        "sha256": "5ad0fbaa8b245306c02febc22f1491ef0d398513962fc814bf68a9e43e2d4d77"
+      },
+      {
+        "url": "https://soulstoprecords.com/products/vince-guarldi-charlie-brown-christmas-green-vinyl-lp-concord-music-group?variant=67978540089643",
+        "sha256": "2880401d8ce641458ebd126dfafe00119425b263fb91d9b267d94f4289e91028"
+      },
+      {
+        "url": "https://soulstoprecords.com/products/fathers-fathers-lp-blue-note-records-1?variant=67937290649899",
+        "sha256": "fb363b62aaab4ec9d179d212dd11a2b35b8f9227c26129c8505e978c293ee38c"
+      }
+    ],
+    "listing_records": 16,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://soulstoprecords.com/products/marvin-gaye-whats-going-on-lp-motown?variant=68080042574123",
+        "price": "34.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://soulstoprecords.com/products/vince-guarldi-charlie-brown-christmas-green-vinyl-lp-concord-music-group?variant=67978540089643",
+        "price": "28.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://soulstoprecords.com/products/fathers-fathers-lp-blue-note-records-1?variant=67937290649899",
+        "price": "32.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 16,
+      "unique_prices": 7,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 7,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40064351096"
+    },
+    {
+      "batch": 31,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43176655069"
+    },
+    {
+      "batch": 32,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43383561391"
+    },
+    {
+      "batch": 33,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43568700727"
+    }
+  ]
+}
