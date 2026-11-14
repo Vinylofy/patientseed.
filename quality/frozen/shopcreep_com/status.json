@@ -1,0 +1,100 @@
+{
+  "fingerprint": "dc86040a6c65e838083d5cbc2b7890cdaf6d8b7e7c41c86f8799efe12fbfb5be",
+  "domain": "shopcreep.com",
+  "batch": 33,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43568700727",
+  "updated_at": "2026-11-14T06:56:17.386430+00:00",
+  "evidence": {
+    "domain": "shopcreep.com",
+    "route": "https://shopcreep.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-14T06:56:14.075431+00:00",
+    "requests": [
+      {
+        "url": "https://shopcreep.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "baa276cc527964b701b3cc872d431a19ecbee585aa7d8f8b49df7bada82f9a69"
+      },
+      {
+        "url": "https://shopcreep.com/products/abstract-mindstate-dreams-still-inspire-translucent-green-vinyl?variant=42720264454275",
+        "sha256": "0b6e16b7f0252846bf2eb6ba32b92e7b6aa425afd39cac1c92bf528bdddd5d24"
+      },
+      {
+        "url": "https://shopcreep.com/products/amusement-errth-carnivorous-flower-feversleep-4-way-slpit-lp?variant=45549803339907",
+        "sha256": "4345c02ad7cec5cbc1bf35290b25d9b04475e986fee9230518daa0958ddf5146"
+      },
+      {
+        "url": "https://shopcreep.com/products/battalion-zoska-fatal-blow-split-7?variant=42752102531203",
+        "sha256": "58176a994a3ff6d36b2654433965b60926eefe95aa8f8e2b5ed58d8ce335d798"
+      }
+    ],
+    "listing_records": 6,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://shopcreep.com/products/abstract-mindstate-dreams-still-inspire-translucent-green-vinyl?variant=42720264454275",
+        "price": "44.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://shopcreep.com/products/amusement-errth-carnivorous-flower-feversleep-4-way-slpit-lp?variant=45549803339907",
+        "price": "19.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://shopcreep.com/products/battalion-zoska-fatal-blow-split-7?variant=42752102531203",
+        "price": "10.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 6,
+      "unique_prices": 5,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 7,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40064351096"
+    },
+    {
+      "batch": 31,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43176655069"
+    },
+    {
+      "batch": 32,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43383561391"
+    },
+    {
+      "batch": 33,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43568700727"
+    }
+  ]
+}
