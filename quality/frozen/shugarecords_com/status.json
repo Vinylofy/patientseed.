@@ -1,0 +1,93 @@
+{
+  "fingerprint": "60189d19e3f7c66eea9bae62c6b8492e737961095e79965ea175643e60e226ea",
+  "domain": "shugarecords.com",
+  "batch": 33,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43568700727",
+  "updated_at": "2026-11-14T06:56:21.383544+00:00",
+  "evidence": {
+    "domain": "shugarecords.com",
+    "route": "https://shugarecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-14T06:56:18.029356+00:00",
+    "requests": [
+      {
+        "url": "https://shugarecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "84be1c3766165cfaa0a4673f66282145854da2de3773d722e98f15cd14099ad3"
+      },
+      {
+        "url": "https://shugarecords.com/products/801061937416?variant=24507170887",
+        "sha256": "1b93a0003a07898b7bcc6cccc4d3524edf86a62e077333308a7db4fdad47fd96"
+      },
+      {
+        "url": "https://shugarecords.com/products/loundenupnow-newvinyl2004?variant=24510178759",
+        "sha256": "76ca0afac83d1b0f936a37afdcb02472110c6c4ddecf47d2295a7c5e479db002"
+      },
+      {
+        "url": "https://shugarecords.com/products/bam-bam-youve-been-messin-around-mint-12-single-record-1986-d-j-international-vinyl-chicago-house?variant=44328451047622",
+        "sha256": "5a07129bd116a0e2a5309da4552a041f890b45856ed3ac63e2a23906708ebe02"
+      }
+    ],
+    "listing_records": 14,
+    "detail_checked": 2,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://shugarecords.com/products/801061937416?variant=24507170887",
+        "price": "11.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://shugarecords.com/products/loundenupnow-newvinyl2004?variant=24510178759",
+        "price": "26.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 14,
+      "unique_prices": 9,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "invalid_detail_gtin",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 7,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40064351096"
+    },
+    {
+      "batch": 31,
+      "status": "REVIEW",
+      "reason": "invalid_detail_gtin",
+      "run_id": "43176655069"
+    },
+    {
+      "batch": 32,
+      "status": "REVIEW",
+      "reason": "invalid_detail_gtin",
+      "run_id": "43383561391"
+    },
+    {
+      "batch": 33,
+      "status": "FROZEN",
+      "reason": "invalid_detail_gtin",
+      "run_id": "43568700727"
+    }
+  ]
+}
