@@ -3612,7 +3612,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | therecordspace.com | 34 | REVIEW | 1 | 9 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | thevinylgrooverecords.com | 8 | APPROVED | 0 | 13 | 3/3 | ACTIVE (run 43699021487) | ACTIVE | run 40164542697 |
 | thevinylstand.com | 34 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
-| thevinyluniverse.com | 8 | APPROVED | 0 | 7 | 3/3 | ACTIVE | ACTIVE | run 40164542697 |
+| thevinyluniverse.com | 8 | APPROVED | 0 | 7 | 3/3 | ACTIVE (run 43699021487) | ACTIVE | run 40164542697 |
 | thirdmanrecords.com | 14 | APPROVED | 0 | 14 | 1/3 | ACTIVE | ACTIVE | run 40272946607 |
 | thrillhouserecords.com | 34 | REVIEW | 1 | 11 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | tigerrosevintage.com | 14 | REVIEW | 0 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
