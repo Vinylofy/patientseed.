@@ -1,0 +1,70 @@
+{
+  "fingerprint": "ce1668a5c467278a33afe5deb220fa3ee0fb2628b4032f69379bc0bbfa17fd1e",
+  "domain": "staticatx.com",
+  "batch": 34,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43688290417",
+  "updated_at": "2026-11-15T07:05:05.777613+00:00",
+  "evidence": {
+    "domain": "staticatx.com",
+    "route": "https://staticatx.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-15T07:05:04.577946+00:00",
+    "requests": [
+      {
+        "url": "https://staticatx.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "e7ece7dd8972979db13db57b979fd6eb0f45a3747a1e4e629925a162287ff7df"
+      },
+      {
+        "url": "https://staticatx.com/products/10-000-maniacs-candy-everybody-wants-1982-1992-rsd-black-friday-2026?variant=50652221571234",
+        "sha256": "c1894e110cbab6edfd394bf1ce53c53324af0c1954ceb11299dacc8dfdf4fdf9"
+      }
+    ],
+    "listing_records": 20,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 20,
+      "unique_prices": 11,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 8,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40164542697"
+    },
+    {
+      "batch": 32,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43383561391"
+    },
+    {
+      "batch": 33,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43568700727"
+    },
+    {
+      "batch": 34,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43688290417"
+    }
+  ]
+}
