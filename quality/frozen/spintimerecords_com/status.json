@@ -1,0 +1,70 @@
+{
+  "fingerprint": "1301ccc2f9fefa7db72778d181c9d4fd69a97254e33a8c1d4d94516a452c3253",
+  "domain": "spintimerecords.com",
+  "batch": 34,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43688290417",
+  "updated_at": "2026-11-15T07:04:53.439112+00:00",
+  "evidence": {
+    "domain": "spintimerecords.com",
+    "route": "https://spintimerecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-15T07:04:52.248797+00:00",
+    "requests": [
+      {
+        "url": "https://spintimerecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "65d40e69ed94e0f32c24582a15087087354993a453681f7f4e34f4d8fa3f5816"
+      },
+      {
+        "url": "https://spintimerecords.com/products/1-lp?variant=71001227133181",
+        "sha256": "1cceae8ddc481e88982c29db8edd6043e05d157dcd0b57f10a7e6f6f9b675214"
+      }
+    ],
+    "listing_records": 11,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 11,
+      "unique_prices": 7,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 7,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40064351096"
+    },
+    {
+      "batch": 32,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43383561391"
+    },
+    {
+      "batch": 33,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43568700727"
+    },
+    {
+      "batch": 34,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43688290417"
+    }
+  ]
+}
