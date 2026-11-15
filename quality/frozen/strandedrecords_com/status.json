@@ -1,0 +1,70 @@
+{
+  "fingerprint": "68524ce0e55b7798822655947e1f5fe72079c35e9c4815951ac8febd2cd99956",
+  "domain": "strandedrecords.com",
+  "batch": 34,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43688290417",
+  "updated_at": "2026-11-15T07:05:08.414488+00:00",
+  "evidence": {
+    "domain": "strandedrecords.com",
+    "route": "https://strandedrecords.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-15T07:05:07.166497+00:00",
+    "requests": [
+      {
+        "url": "https://strandedrecords.com/products.json?limit=20&page=1",
+        "sha256": "46bf0c146dc1e5a462ca233229ea1ec041c6f71a89cdc959a4c9c2d404477c94"
+      },
+      {
+        "url": "https://strandedrecords.com/products/neo-museum-1983-1985-lp?variant=67805010788649",
+        "sha256": "dd6be9196309a2043ceeba3e924bb831faa5d09bbfe49df9809d58b8cf1a38bc"
+      }
+    ],
+    "listing_records": 19,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 19,
+      "unique_prices": 7,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 8,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40164542697"
+    },
+    {
+      "batch": 32,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43383561391"
+    },
+    {
+      "batch": 33,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43568700727"
+    },
+    {
+      "batch": 34,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43688290417"
+    }
+  ]
+}
