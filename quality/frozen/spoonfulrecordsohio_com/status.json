@@ -1,0 +1,100 @@
+{
+  "fingerprint": "cffdbb196c4fd943f5dd7acf7230272007f908720b1af4712fc3d2ff73a316de",
+  "domain": "spoonfulrecordsohio.com",
+  "batch": 34,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43688290417",
+  "updated_at": "2026-11-15T07:04:56.613936+00:00",
+  "evidence": {
+    "domain": "spoonfulrecordsohio.com",
+    "route": "https://spoonfulrecordsohio.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-15T07:04:53.467518+00:00",
+    "requests": [
+      {
+        "url": "https://spoonfulrecordsohio.com/products.json?limit=20&page=1",
+        "sha256": "930f504ae33fa417781b11be6e9fe672ff3705719f08ac3a6470c638a0efaf72"
+      },
+      {
+        "url": "https://spoonfulrecordsohio.com/products/alice-in-chains-self-titled-3-legged-dog?variant=71559280001277",
+        "sha256": "2461971ff500d336ac2c6e61ab9dd2df81efb82be4aba44b1557ec17f88ced36"
+      },
+      {
+        "url": "https://spoonfulrecordsohio.com/products/remi-wolf-you-re-a-dog-i-m-allergic-to-dogs?variant=47303324336381",
+        "sha256": "716ac0665702474fb628cc7ae281bb53133fd8b7c7baac90f7cd0d93ba993fe6"
+      },
+      {
+        "url": "https://spoonfulrecordsohio.com/products/steve-lacy-gemini-rights?variant=47302665568509",
+        "sha256": "be9be76913d275bfdc44ec491ce54d367fc48e658d75ac06ac0020356e4fad41"
+      }
+    ],
+    "listing_records": 17,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://spoonfulrecordsohio.com/products/alice-in-chains-self-titled-3-legged-dog?variant=71559280001277",
+        "price": "37.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://spoonfulrecordsohio.com/products/remi-wolf-you-re-a-dog-i-m-allergic-to-dogs?variant=47303324336381",
+        "price": "27.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://spoonfulrecordsohio.com/products/steve-lacy-gemini-rights?variant=47302665568509",
+        "price": "23.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 17,
+      "unique_prices": 11,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 7,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40064351096"
+    },
+    {
+      "batch": 32,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43383561391"
+    },
+    {
+      "batch": 33,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43568700727"
+    },
+    {
+      "batch": 34,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43688290417"
+    }
+  ]
+}
