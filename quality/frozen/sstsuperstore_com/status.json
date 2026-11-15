@@ -1,0 +1,100 @@
+{
+  "fingerprint": "d7ad8e94cf5965e411313c10e80a60ee3d7519129fd9a71d07718ca2a5d45686",
+  "domain": "sstsuperstore.com",
+  "batch": 34,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43688290417",
+  "updated_at": "2026-11-15T07:05:04.548781+00:00",
+  "evidence": {
+    "domain": "sstsuperstore.com",
+    "route": "https://sstsuperstore.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-15T07:05:01.376795+00:00",
+    "requests": [
+      {
+        "url": "https://sstsuperstore.com/products.json?limit=20&page=1",
+        "sha256": "c2815f8109129abb3130ac7fd5f659230f5fe0f64b12efb478648de2b97eddd7"
+      },
+      {
+        "url": "https://sstsuperstore.com/products/saint-vitus-born-too-late-12-inch-vinyl-record-colored-vinyl?variant=49003959648426",
+        "sha256": "1858745be79972a77facdc3be062fa2f68a9c60f9b121b8171327a718f95fbe4"
+      },
+      {
+        "url": "https://sstsuperstore.com/products/husker-du-flip-your-wig-12-inch-vinyl-record-colored-vinyl?variant=49003962400938",
+        "sha256": "e91f62f2e4e3349f6247cecd576f392fc8d1e9686a0a182bf463e54fae805b4c"
+      },
+      {
+        "url": "https://sstsuperstore.com/products/saccharine-trust-surviving-you-always-12-inch-vinyl-record?variant=41398046130346",
+        "sha256": "48923dc0dba8c7bfa44675b126c6dbf158fd4a94090cdc23471226b204882b45"
+      }
+    ],
+    "listing_records": 3,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://sstsuperstore.com/products/saint-vitus-born-too-late-12-inch-vinyl-record-colored-vinyl?variant=49003959648426",
+        "price": "25.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://sstsuperstore.com/products/husker-du-flip-your-wig-12-inch-vinyl-record-colored-vinyl?variant=49003962400938",
+        "price": "25.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://sstsuperstore.com/products/saccharine-trust-surviving-you-always-12-inch-vinyl-record?variant=41398046130346",
+        "price": "25.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 3,
+      "unique_prices": 1,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 8,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40164542697"
+    },
+    {
+      "batch": 32,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43383561391"
+    },
+    {
+      "batch": 33,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43568700727"
+    },
+    {
+      "batch": 34,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43688290417"
+    }
+  ]
+}
