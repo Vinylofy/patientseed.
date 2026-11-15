@@ -1,0 +1,70 @@
+{
+  "fingerprint": "138dd7031ec52a3ff3ad9bfaaef8bb645255ee44897152776e778a9d0359545c",
+  "domain": "squarecatvinyl.com",
+  "batch": 34,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43688290417",
+  "updated_at": "2026-11-15T07:04:57.971466+00:00",
+  "evidence": {
+    "domain": "squarecatvinyl.com",
+    "route": "https://squarecatvinyl.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-15T07:04:56.643208+00:00",
+    "requests": [
+      {
+        "url": "https://squarecatvinyl.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "4ca1a54f2a85e0c42bc2779a95adbf16a9839033dcbba5d956607c64fbd9375d"
+      },
+      {
+        "url": "https://squarecatvinyl.com/products/let-it-be-blue-blue-vinyl?variant=44981668643089",
+        "sha256": "2f787b733ca3218ada34516bf58a8560f83e5c00cfc7d27cca385402566931de"
+      }
+    ],
+    "listing_records": 10,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 10,
+      "unique_prices": 7,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 8,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40164542697"
+    },
+    {
+      "batch": 32,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43383561391"
+    },
+    {
+      "batch": 33,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43568700727"
+    },
+    {
+      "batch": 34,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43688290417"
+    }
+  ]
+}
