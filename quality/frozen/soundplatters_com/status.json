@@ -1,0 +1,100 @@
+{
+  "fingerprint": "cc69897bbd98069c27fcffd64e2781344924bd0a02d5df267e2973a30e233deb",
+  "domain": "soundplatters.com",
+  "batch": 34,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43688290417",
+  "updated_at": "2026-11-15T07:04:50.929335+00:00",
+  "evidence": {
+    "domain": "soundplatters.com",
+    "route": "https://soundplatters.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-15T07:04:47.795016+00:00",
+    "requests": [
+      {
+        "url": "https://soundplatters.com/products.json?limit=20&page=1",
+        "sha256": "d966ad1f3d5f0548182a395a82b8457322c89ba4cd192b3e684e6be452c4e992"
+      },
+      {
+        "url": "https://soundplatters.com/products/jackson-michael-invincible-lpx2-25th-anniversary?variant=51146711236665",
+        "sha256": "fae614e334fb870a3fd9c5d3a79d2fde5a7ea4c9df17f8e4f9de4719ab7734c3"
+      },
+      {
+        "url": "https://soundplatters.com/products/battle-ruins-glorious-dead-lp-2024-splatter?variant=51110929137721",
+        "sha256": "fa64957b15e4fafb7ab50e478a07999906e8efe56f9362d9bce28ff84f73385b"
+      },
+      {
+        "url": "https://soundplatters.com/products/conflict-its-time-to-see-whos-who-lp-1983?variant=51107017883705",
+        "sha256": "6cb5ee546317b5e5fe03e8148b59241d313844367699b6e517e723f9ac92fc54"
+      }
+    ],
+    "listing_records": 20,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://soundplatters.com/products/jackson-michael-invincible-lpx2-25th-anniversary?variant=51146711236665",
+        "price": "36.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://soundplatters.com/products/battle-ruins-glorious-dead-lp-2024-splatter?variant=51110929137721",
+        "price": "29.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://soundplatters.com/products/conflict-its-time-to-see-whos-who-lp-1983?variant=51107017883705",
+        "price": "40.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 20,
+      "unique_prices": 10,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 7,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40064351096"
+    },
+    {
+      "batch": 32,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43383561391"
+    },
+    {
+      "batch": 33,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43568700727"
+    },
+    {
+      "batch": 34,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43688290417"
+    }
+  ]
+}
