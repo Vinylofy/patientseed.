@@ -1,0 +1,70 @@
+{
+  "fingerprint": "8c89089cce90148455be656953d437330799a83428d7856925c933cb7dbf96aa",
+  "domain": "spinsterrecords.com",
+  "batch": 34,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43688290417",
+  "updated_at": "2026-11-15T07:04:52.219918+00:00",
+  "evidence": {
+    "domain": "spinsterrecords.com",
+    "route": "https://spinsterrecords.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-15T07:04:50.958211+00:00",
+    "requests": [
+      {
+        "url": "https://spinsterrecords.com/products.json?limit=20&page=1",
+        "sha256": "10f3b322ef3ab4ad624f3384d05129255ced846b19fabd877974f73db99f1cc2"
+      },
+      {
+        "url": "https://spinsterrecords.com/products/art-blakey-jazz-messengers-import?variant=68181410938963",
+        "sha256": "702911896180c9fbd1ba4b55ac2a55ec40d8b3435e12edd64210d96f162312e6"
+      }
+    ],
+    "listing_records": 20,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 20,
+      "unique_prices": 11,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 7,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40064351096"
+    },
+    {
+      "batch": 32,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43383561391"
+    },
+    {
+      "batch": 33,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43568700727"
+    },
+    {
+      "batch": 34,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43688290417"
+    }
+  ]
+}
