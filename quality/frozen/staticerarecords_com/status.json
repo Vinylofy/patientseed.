@@ -1,0 +1,70 @@
+{
+  "fingerprint": "0e409b00c9ecf8f70ecca6e35262617d0ebe8519896818fd694cbf526f6e0689",
+  "domain": "staticerarecords.com",
+  "batch": 34,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43688290417",
+  "updated_at": "2026-11-15T07:05:07.137808+00:00",
+  "evidence": {
+    "domain": "staticerarecords.com",
+    "route": "https://staticerarecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-15T07:05:05.806346+00:00",
+    "requests": [
+      {
+        "url": "https://staticerarecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "c7111151a68746f446d984cab225ea909c5b92e4f618395ddc6314d119178ac4"
+      },
+      {
+        "url": "https://staticerarecords.com/products/autoignition-against-the-world?variant=47737065799845",
+        "sha256": "5ca7b94fec511900f8224c52e027c7712799f61264be9e07ab160ad6968c6627"
+      }
+    ],
+    "listing_records": 11,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 11,
+      "unique_prices": 5,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 8,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40164542697"
+    },
+    {
+      "batch": 32,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43383561391"
+    },
+    {
+      "batch": 33,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43568700727"
+    },
+    {
+      "batch": 34,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43688290417"
+    }
+  ]
+}
