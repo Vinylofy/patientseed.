@@ -1,0 +1,100 @@
+{
+  "fingerprint": "27a8dc54cbbb99f01c525672d845add3a7db6ac01206269adb5f5e378e729af6",
+  "domain": "squatchinthepit.com",
+  "batch": 34,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43688290417",
+  "updated_at": "2026-11-15T07:05:01.347426+00:00",
+  "evidence": {
+    "domain": "squatchinthepit.com",
+    "route": "https://squatchinthepit.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-15T07:04:57.999734+00:00",
+    "requests": [
+      {
+        "url": "https://squatchinthepit.com/products.json?limit=20&page=1",
+        "sha256": "a10f12f14e5123e0233a54fdd8302b65648a32b2258429c3d2df5902c6367319"
+      },
+      {
+        "url": "https://squatchinthepit.com/products/preorder-shakira-laundry-service-washed-and-dried-expanded-edition-2-lp?variant=71932372353277",
+        "sha256": "006cbf5ce2358158ff32d7938f5c81b63bb5ef3516cc43f92a8719620774b2f3"
+      },
+      {
+        "url": "https://squatchinthepit.com/products/preorder-ancient-mad-grandiose-bloodfiends-colored-vinyl-gate-limited-edition?variant=71932372156669",
+        "sha256": "28153f59d6d1db75795cd65e5b257b921a497370f973d6043bd07afb10dadd5c"
+      },
+      {
+        "url": "https://squatchinthepit.com/products/preorder-extreme-paris-rising-black?variant=71932371861757",
+        "sha256": "607170d26a0ddd07efdfc845ffece743ec2c2518b282bd7b5382d482f5e2be64"
+      }
+    ],
+    "listing_records": 11,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://squatchinthepit.com/products/preorder-shakira-laundry-service-washed-and-dried-expanded-edition-2-lp?variant=71932372353277",
+        "price": "50.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://squatchinthepit.com/products/preorder-ancient-mad-grandiose-bloodfiends-colored-vinyl-gate-limited-edition?variant=71932372156669",
+        "price": "44.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://squatchinthepit.com/products/preorder-extreme-paris-rising-black?variant=71932371861757",
+        "price": "46.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 11,
+      "unique_prices": 8,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 8,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40164542697"
+    },
+    {
+      "batch": 32,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43383561391"
+    },
+    {
+      "batch": 33,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43568700727"
+    },
+    {
+      "batch": 34,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43688290417"
+    }
+  ]
+}
