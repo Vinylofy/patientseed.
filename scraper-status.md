@@ -3622,7 +3622,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | todestrieb.co.uk | 12 | FROZEN | 3 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | tonedeafrecs.com | 35 | REVIEW | 1 | 15 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | trurecordsllc.com | 35 | REVIEW | 1 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| trustyspot.com | 14 | APPROVED | 0 | 19 | 3/3 | ACTIVE | ACTIVE | run 40272946607 |
+| trustyspot.com | 14 | APPROVED | 0 | 19 | 3/3 | ACTIVE | ACTIVE (run 43857693310) | run 40272946607 |
 | tumbleweedsct.com | 35 | REVIEW | 1 | 10 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | tunnelrecordssf.com | 35 | REVIEW | 1 | 5 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | turntabletreasures.com | 35 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
