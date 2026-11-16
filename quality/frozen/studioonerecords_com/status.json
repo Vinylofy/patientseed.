@@ -1,0 +1,70 @@
+{
+  "fingerprint": "353fc39b3a0c381ac665e2d5ac2fdecca33ced34712052fb36806f3c2f73305b",
+  "domain": "studioonerecords.com",
+  "batch": 35,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43821932807",
+  "updated_at": "2026-11-16T07:10:45.941567+00:00",
+  "evidence": {
+    "domain": "studioonerecords.com",
+    "route": "https://studioonerecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-16T07:10:44.585918+00:00",
+    "requests": [
+      {
+        "url": "https://studioonerecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "fc90397f6933a63e99abdb0d9cb3f7bad6bd864801db4c7369041ac02a161e59"
+      },
+      {
+        "url": "https://studioonerecords.com/products/campbell-take-a-ride-alton-ellis-pearl?variant=42387573309619",
+        "sha256": "17ed9b02a6544ccb09a14fd92ac147489ebd909383595e0d22d8797aec67a9ce"
+      }
+    ],
+    "listing_records": 13,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 13,
+      "unique_prices": 4,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "invalid_detail_gtin",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 8,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40164542697"
+    },
+    {
+      "batch": 33,
+      "status": "REVIEW",
+      "reason": "invalid_detail_gtin",
+      "run_id": "43568700727"
+    },
+    {
+      "batch": 34,
+      "status": "REVIEW",
+      "reason": "invalid_detail_gtin",
+      "run_id": "43688290417"
+    },
+    {
+      "batch": 35,
+      "status": "FROZEN",
+      "reason": "invalid_detail_gtin",
+      "run_id": "43821932807"
+    }
+  ]
+}
