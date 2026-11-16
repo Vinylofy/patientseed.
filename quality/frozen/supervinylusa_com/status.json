@@ -1,0 +1,70 @@
+{
+  "fingerprint": "0515da5ac076a934d777a90df77529ebd11c6a334ca8b1f03435851fd3cd74d2",
+  "domain": "supervinylusa.com",
+  "batch": 35,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43821932807",
+  "updated_at": "2026-11-16T07:10:47.202179+00:00",
+  "evidence": {
+    "domain": "supervinylusa.com",
+    "route": "https://supervinylusa.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-16T07:10:45.974460+00:00",
+    "requests": [
+      {
+        "url": "https://supervinylusa.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "93b0cd87bfb66b270e9540678d6f412ce4377f9ad8cb8bdb2341e7b03886bb6e"
+      },
+      {
+        "url": "https://supervinylusa.com/products/awaken-my-love?variant=30001258365016",
+        "sha256": "3f5c98f671b3eff3f20fbf19e1bc83f0cb7af0e4e12f6b648d73779c2c61b9c1"
+      }
+    ],
+    "listing_records": 19,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 19,
+      "unique_prices": 15,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 8,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40164542697"
+    },
+    {
+      "batch": 33,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43568700727"
+    },
+    {
+      "batch": 34,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43688290417"
+    },
+    {
+      "batch": 35,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43821932807"
+    }
+  ]
+}
