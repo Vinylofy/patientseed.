@@ -1,0 +1,56 @@
+{
+  "fingerprint": "ff04f99d98eba6275d8f99562c69569b7976743de0d58f77372560f4640098ef",
+  "domain": "swaggierecords.com",
+  "batch": 35,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "43821932807",
+  "updated_at": "2026-11-16T07:10:47.446386+00:00",
+  "evidence": {
+    "domain": "swaggierecords.com",
+    "route": "https://swaggierecords.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-16T07:10:47.234619+00:00",
+    "requests": [
+      {
+        "url": "https://swaggierecords.com/products.json?limit=20&page=1",
+        "sha256": "7dd8d894eee9d3811852d8c705e57eb256e9d179e245cf6eeb70b3b83ca661c9"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 8,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40164542697"
+    },
+    {
+      "batch": 33,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "43568700727"
+    },
+    {
+      "batch": 34,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "43688290417"
+    },
+    {
+      "batch": 35,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "43821932807"
+    }
+  ]
+}
