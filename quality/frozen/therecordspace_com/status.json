@@ -1,0 +1,100 @@
+{
+  "fingerprint": "b567ff2f5ca2febf8e590f3f8c36c700c45fca710991adaa52faf1bb4232905c",
+  "domain": "therecordspace.com",
+  "batch": 36,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "44046382607",
+  "updated_at": "2026-11-17T08:24:32.345285+00:00",
+  "evidence": {
+    "domain": "therecordspace.com",
+    "route": "https://therecordspace.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-17T08:24:29.173598+00:00",
+    "requests": [
+      {
+        "url": "https://therecordspace.com/products.json?limit=20&page=1",
+        "sha256": "c27f47cdb9e492c8a6972ea24684debe5a54e036e39df574b575e191c9362fd9"
+      },
+      {
+        "url": "https://therecordspace.com/products/pre-order-danzig-4p-lp-silver-vinyl-rsd-essentials-edition?variant=43122838077649",
+        "sha256": "a751169e89c3fb0fdb2e4e565e85d4a8e50473dc609d072324a41a3bda314c5b"
+      },
+      {
+        "url": "https://therecordspace.com/products/in-the-mouth-of-madness-ost-john-carpenter-jim-lang-misery-exclusive-hell-on-earth-vinyl-100-trs-exclusive?variant=43070134026449",
+        "sha256": "9f2a3c92f4e85ae4ac0b288352fd5920815f535828c17c584ef92c98bd4d899f"
+      },
+      {
+        "url": "https://therecordspace.com/products/pre-order-danzig-s-t-lp-white-vinyl-rsd-essentials-edition?variant=42950137577681",
+        "sha256": "931b64c5871dfe1ac3f8d92ad67118015323e2ef669c319ad4a13d66d78e7373"
+      }
+    ],
+    "listing_records": 9,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://therecordspace.com/products/pre-order-danzig-4p-lp-silver-vinyl-rsd-essentials-edition?variant=43122838077649",
+        "price": "36.66",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://therecordspace.com/products/in-the-mouth-of-madness-ost-john-carpenter-jim-lang-misery-exclusive-hell-on-earth-vinyl-100-trs-exclusive?variant=43070134026449",
+        "price": "40.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://therecordspace.com/products/pre-order-danzig-s-t-lp-white-vinyl-rsd-essentials-edition?variant=42950137577681",
+        "price": "36.66",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 9,
+      "unique_prices": 4,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 8,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40164542697"
+    },
+    {
+      "batch": 34,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43688290417"
+    },
+    {
+      "batch": 35,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43821932807"
+    },
+    {
+      "batch": 36,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "44046382607"
+    }
+  ]
+}
