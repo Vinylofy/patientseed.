@@ -1,0 +1,100 @@
+{
+  "fingerprint": "356397f8c593bbeee915595fd7f0acff926336a0511c078e67a46964f79a5907",
+  "domain": "theelmhenderson.com",
+  "batch": 36,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "44046382607",
+  "updated_at": "2026-11-17T08:24:28.382084+00:00",
+  "evidence": {
+    "domain": "theelmhenderson.com",
+    "route": "https://theelmhenderson.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-17T08:24:25.168715+00:00",
+    "requests": [
+      {
+        "url": "https://theelmhenderson.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "6303e64aafee835a95eb43fb5f4c3ed6d8941744a1e2500e7ba09e3f58cd0f48"
+      },
+      {
+        "url": "https://theelmhenderson.com/products/ac-dc-highway-to-hell-lp-mint-m?variant=55700038123825",
+        "sha256": "7f6fb14da95f6b73edd23c8167261302012d32e6386f123da70ce3766d1d0ee0"
+      },
+      {
+        "url": "https://theelmhenderson.com/products/ac-dc-powerage-lp-mint-m?variant=55700037927217",
+        "sha256": "ddcbd89edcfbfa68be8da5de99c033e3dfa98664959ffda14b0c20c5f91f2eff"
+      },
+      {
+        "url": "https://theelmhenderson.com/products/aespa-lemonade-lp-mint-m?variant=56306290721073",
+        "sha256": "72635658532ffe6076aaf26ea5ee4e73908ddb52cb6a5f19a8c54442b4660ae1"
+      }
+    ],
+    "listing_records": 3,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://theelmhenderson.com/products/ac-dc-highway-to-hell-lp-mint-m?variant=55700038123825",
+        "price": "30.95",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://theelmhenderson.com/products/ac-dc-powerage-lp-mint-m?variant=55700037927217",
+        "price": "29.95",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://theelmhenderson.com/products/aespa-lemonade-lp-mint-m?variant=56306290721073",
+        "price": "59.95",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 3,
+      "unique_prices": 3,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 8,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "40164542697"
+    },
+    {
+      "batch": 34,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43688290417"
+    },
+    {
+      "batch": 35,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43821932807"
+    },
+    {
+      "batch": 36,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "44046382607"
+    }
+  ]
+}
