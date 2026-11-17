@@ -1,0 +1,56 @@
+{
+  "fingerprint": "57c742ce72a30c27f8c47f987396c76eda4262e2b9de96cace18360abedc055b",
+  "domain": "therecordloftatl.com",
+  "batch": 36,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "44046382607",
+  "updated_at": "2026-11-17T08:24:29.144441+00:00",
+  "evidence": {
+    "domain": "therecordloftatl.com",
+    "route": "https://therecordloftatl.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-17T08:24:28.886315+00:00",
+    "requests": [
+      {
+        "url": "https://therecordloftatl.com/products.json?limit=20&page=1",
+        "sha256": "8f052628c97be3d438b5c9899280be3fd67121dfded8b183a326605e7db6fd4e"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 8,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40164542697"
+    },
+    {
+      "batch": 34,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "43688290417"
+    },
+    {
+      "batch": 35,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "43821932807"
+    },
+    {
+      "batch": 36,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "44046382607"
+    }
+  ]
+}
