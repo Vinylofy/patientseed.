@@ -3654,7 +3654,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | vinylvault.online | 15 | REVIEW | 0 | 3 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | vinylveritas.com | 15 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | vinylvogue.com | 15 | REVIEW | 0 | 11 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| vylevinyl.com | 36 | REVIEW | 2 | 0 | 0/0 | INCIDENT | REPAIR_REQUIRED | no_new_vinyl_records |
+| vylevinyl.com | 36 | REVIEW | 2 | 0 | 0/0 | REPAIR_REQUIRED (run 44067274669) | REPAIR_REQUIRED | no_new_vinyl_records |
 | waitingroomrecords.com | 15 | REVIEW | 0 | 15 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | waterloorecords.com | 15 | REVIEW | 0 | 9 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | waxandbeans.co.uk | 13 | FROZEN | 3 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
