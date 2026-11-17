@@ -1,0 +1,100 @@
+{
+  "fingerprint": "e2ab1871bd0221a9a9f1620dc12eb445a45de22f9afe8be2c0185c13ba25f772",
+  "domain": "techniquerecords.com",
+  "batch": 36,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "44046382607",
+  "updated_at": "2026-11-17T08:24:23.491847+00:00",
+  "evidence": {
+    "domain": "techniquerecords.com",
+    "route": "https://techniquerecords.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-17T08:24:20.151453+00:00",
+    "requests": [
+      {
+        "url": "https://techniquerecords.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "17c57c723d58c87215c923ba6fef385c157f66fee9acdb10211ab3cc1700b954"
+      },
+      {
+        "url": "https://techniquerecords.com/products/ame-in-your-eyes-12?variant=39258581237875",
+        "sha256": "ce40cae497f5bc8d991b96f59709e72f6c8f731a350d4e3aaa29ca80cf048987"
+      },
+      {
+        "url": "https://techniquerecords.com/products/21-savage-metro-boomin-savage-mode?variant=45476955029619",
+        "sha256": "7e1f654a030c3370deaabf0855c2b698c4da41e381630f2124c2060f3df3f814"
+      },
+      {
+        "url": "https://techniquerecords.com/products/a-certain-ratio-sextet?variant=31627448090739",
+        "sha256": "8a2cda584e1347648cdbe6af4f908780baad2444af5a314f8fc09a992a716533"
+      }
+    ],
+    "listing_records": 13,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://techniquerecords.com/products/ame-in-your-eyes-12?variant=39258581237875",
+        "price": "26.95",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://techniquerecords.com/products/21-savage-metro-boomin-savage-mode?variant=45476955029619",
+        "price": "34.95",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://techniquerecords.com/products/a-certain-ratio-sextet?variant=31627448090739",
+        "price": "32.95",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 13,
+      "unique_prices": 10,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 8,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40164542697"
+    },
+    {
+      "batch": 34,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43688290417"
+    },
+    {
+      "batch": 35,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43821932807"
+    },
+    {
+      "batch": 36,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "44046382607"
+    }
+  ]
+}
