@@ -1,0 +1,56 @@
+{
+  "fingerprint": "5b5fa18ba627ecb5493b809b584c35817aeba9fc72f764837855c417ea770e9b",
+  "domain": "thevinylstand.com",
+  "batch": 36,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "44046382607",
+  "updated_at": "2026-11-17T08:24:32.584442+00:00",
+  "evidence": {
+    "domain": "thevinylstand.com",
+    "route": "https://thevinylstand.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-17T08:24:32.374875+00:00",
+    "requests": [
+      {
+        "url": "https://thevinylstand.com/products.json?limit=20&page=1",
+        "sha256": "6645e01f769f955ad830cca71415f25e4dcf41f4c09d6e5cd4fc7c06308d3f82"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 8,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40164542697"
+    },
+    {
+      "batch": 34,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "43688290417"
+    },
+    {
+      "batch": 35,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "43821932807"
+    },
+    {
+      "batch": 36,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "44046382607"
+    }
+  ]
+}
