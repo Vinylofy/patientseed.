@@ -1,0 +1,100 @@
+{
+  "fingerprint": "e9e3a81709989bca7d2bbfe747ddddf956a44a9daa4397bb00d9ffc32e706b9e",
+  "domain": "thrillhouserecords.com",
+  "batch": 36,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "44046382607",
+  "updated_at": "2026-11-17T08:24:35.779762+00:00",
+  "evidence": {
+    "domain": "thrillhouserecords.com",
+    "route": "https://thrillhouserecords.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-17T08:24:32.612542+00:00",
+    "requests": [
+      {
+        "url": "https://thrillhouserecords.com/products.json?limit=20&page=1",
+        "sha256": "f0fc01fe512ae8e0764b54edd290f27d5bcd7dd47190a0fcdd10c90c2a618424"
+      },
+      {
+        "url": "https://thrillhouserecords.com/products/fake-your-own-death-resort-fee?variant=68082600181913",
+        "sha256": "010d88e05df28b95bbd43e7bdb5dcef42dd2888dc8ae2523689fafd067fd98ca"
+      },
+      {
+        "url": "https://thrillhouserecords.com/products/lamar-kendrick-compton-state-of-mind?variant=67966195302553",
+        "sha256": "20ffb5cac42852e609ca6d82be3a082a85a23df2d4bab77cf3de98f99b5de360"
+      },
+      {
+        "url": "https://thrillhouserecords.com/products/exploited-the-horror-epics?variant=67957096349849",
+        "sha256": "081fc89ede5e56309fba49befc94fa937d38e1a7f68801519946ff73076bf604"
+      }
+    ],
+    "listing_records": 15,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://thrillhouserecords.com/products/fake-your-own-death-resort-fee?variant=68082600181913",
+        "price": "25.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://thrillhouserecords.com/products/lamar-kendrick-compton-state-of-mind?variant=67966195302553",
+        "price": "22.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://thrillhouserecords.com/products/exploited-the-horror-epics?variant=67957096349849",
+        "price": "21.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 15,
+      "unique_prices": 7,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 14,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40272946607"
+    },
+    {
+      "batch": 34,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43688290417"
+    },
+    {
+      "batch": 35,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43821932807"
+    },
+    {
+      "batch": 36,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "44046382607"
+    }
+  ]
+}
