@@ -1,0 +1,70 @@
+{
+  "fingerprint": "ddbd288f393e074eb7e4c0083cbbe2dea8caee56331cd6101dccbecd7f088964",
+  "domain": "theaudionerd.com",
+  "batch": 36,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "44046382607",
+  "updated_at": "2026-11-17T08:24:24.916661+00:00",
+  "evidence": {
+    "domain": "theaudionerd.com",
+    "route": "https://theaudionerd.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-17T08:24:23.520287+00:00",
+    "requests": [
+      {
+        "url": "https://theaudionerd.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "2e48b3b05ba71958069051844105b8d39ffde82012057f4a06431cfefd9d5e45"
+      },
+      {
+        "url": "https://theaudionerd.com/products/uicide-boy-stop-staring-at-the-shadows-color-vinyl-lp?variant=68082281316541",
+        "sha256": "3351b74cddfbc67317adba2a7fc72a42c5fb368f54e587b0ccf336064b013c7b"
+      }
+    ],
+    "listing_records": 18,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 18,
+      "unique_prices": 11,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 8,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40164542697"
+    },
+    {
+      "batch": 34,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43688290417"
+    },
+    {
+      "batch": 35,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43821932807"
+    },
+    {
+      "batch": 36,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "44046382607"
+    }
+  ]
+}
