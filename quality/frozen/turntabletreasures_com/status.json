@@ -1,0 +1,56 @@
+{
+  "fingerprint": "4ca9d3359f0499e0d2cb2c327362e23ca35fb74d39b82acaeb3a80b01d59ef4d",
+  "domain": "turntabletreasures.com",
+  "batch": 37,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "44262271076",
+  "updated_at": "2026-11-18T07:53:02.851512+00:00",
+  "evidence": {
+    "domain": "turntabletreasures.com",
+    "route": "https://turntabletreasures.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-18T07:53:02.669770+00:00",
+    "requests": [
+      {
+        "url": "https://turntabletreasures.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "13ccf2fc193cfa89d0207550f9bd1c48fab45deefc0c31693af92cfb459836f7"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 14,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40272946607"
+    },
+    {
+      "batch": 35,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "43821932807"
+    },
+    {
+      "batch": 36,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "44046382607"
+    },
+    {
+      "batch": 37,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "44262271076"
+    }
+  ]
+}
