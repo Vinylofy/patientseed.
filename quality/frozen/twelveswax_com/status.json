@@ -1,0 +1,56 @@
+{
+  "fingerprint": "eb34b92280203a61da407bdfa31a6e1eaed849197ee7c34fbb0133ee58d16cf1",
+  "domain": "twelveswax.com",
+  "batch": 37,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "44262271076",
+  "updated_at": "2026-11-18T07:53:03.031986+00:00",
+  "evidence": {
+    "domain": "twelveswax.com",
+    "route": "https://twelveswax.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-18T07:53:02.879576+00:00",
+    "requests": [
+      {
+        "url": "https://twelveswax.com/products.json?limit=20&page=1",
+        "sha256": "5d8e3de2158419fe2ed870172212db0cb0123139b1025df0bdf8a13515137366"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 14,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40272946607"
+    },
+    {
+      "batch": 35,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "43821932807"
+    },
+    {
+      "batch": 36,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "44046382607"
+    },
+    {
+      "batch": 37,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "44262271076"
+    }
+  ]
+}
