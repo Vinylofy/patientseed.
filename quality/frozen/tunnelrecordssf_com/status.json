@@ -1,0 +1,100 @@
+{
+  "fingerprint": "b37516d7f9591ab1cea2a5fe670d4221e9f342ed1114755e56d81b3056560011",
+  "domain": "tunnelrecordssf.com",
+  "batch": 37,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "44262271076",
+  "updated_at": "2026-11-18T07:53:02.641471+00:00",
+  "evidence": {
+    "domain": "tunnelrecordssf.com",
+    "route": "https://tunnelrecordssf.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-18T07:52:59.487506+00:00",
+    "requests": [
+      {
+        "url": "https://tunnelrecordssf.com/products.json?limit=20&page=1",
+        "sha256": "e4d0306e328aa4d7e6326cb6d2e75589ad8dd502ff6cd8c879866ecd190bb9aa"
+      },
+      {
+        "url": "https://tunnelrecordssf.com/products/iasos-inter-dimensional-music-2?variant=53149766811965",
+        "sha256": "cf0563081e7cdc668e331235c6ee45b2dda741162d3d9d5b9b5695b6cccb9a69"
+      },
+      {
+        "url": "https://tunnelrecordssf.com/products/ocean-beach-surf-film-festivals-posters-by-thomas-campbell?variant=49402303316285",
+        "sha256": "e9ef5220583a497fac1cb0f317f89278a33da7a8ef57b0a535beacbb7879b846"
+      },
+      {
+        "url": "https://tunnelrecordssf.com/products/chris-lyons-painters-street?variant=50984829780285",
+        "sha256": "0166ac8901c1d233fd2fd1b9daeac47a7b64388ec84e20f067ecd7c321d7efe9"
+      }
+    ],
+    "listing_records": 5,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://tunnelrecordssf.com/products/iasos-inter-dimensional-music-2?variant=53149766811965",
+        "price": "39.98",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://tunnelrecordssf.com/products/ocean-beach-surf-film-festivals-posters-by-thomas-campbell?variant=49402303316285",
+        "price": "40.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://tunnelrecordssf.com/products/chris-lyons-painters-street?variant=50984829780285",
+        "price": "29.98",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 5,
+      "unique_prices": 5,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 14,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40272946607"
+    },
+    {
+      "batch": 35,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43821932807"
+    },
+    {
+      "batch": 36,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "44046382607"
+    },
+    {
+      "batch": 37,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "44262271076"
+    }
+  ]
+}
