@@ -1,0 +1,100 @@
+{
+  "fingerprint": "fe734965eebe61fa10c570f5b051024033cad1f8bd1bf00266c3d7d6ffdaac50",
+  "domain": "tigerrosevintage.com",
+  "batch": 37,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "44262271076",
+  "updated_at": "2026-11-18T07:52:48.436754+00:00",
+  "evidence": {
+    "domain": "tigerrosevintage.com",
+    "route": "https://tigerrosevintage.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-18T07:52:45.187322+00:00",
+    "requests": [
+      {
+        "url": "https://tigerrosevintage.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "21d9daeec5ccadd93290954ba0bafb78af838b88ab5b0c04650992c883cda52c"
+      },
+      {
+        "url": "https://tigerrosevintage.com/products/alan-vega-saturn-strips-near-mint?variant=46007688003825",
+        "sha256": "81abae57470bcee4292b9e54a9c051d35b4545ea3b7f4d82aa84c9e5206b5797"
+      },
+      {
+        "url": "https://tigerrosevintage.com/products/guided-by-voices-welshpool-frillies-new-vinyl-lp-sealed?variant=44653723713777",
+        "sha256": "456b2976efb307df9aa6dbf13fcd812ce60e7ebb386877deaaa4a55a2e34767d"
+      },
+      {
+        "url": "https://tigerrosevintage.com/products/suspicions?variant=44742523551985",
+        "sha256": "d415e49c46e336bc458cba3a377c8e9c008574fe4347b4021fa71454178256ac"
+      }
+    ],
+    "listing_records": 19,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://tigerrosevintage.com/products/alan-vega-saturn-strips-near-mint?variant=46007688003825",
+        "price": "35.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://tigerrosevintage.com/products/guided-by-voices-welshpool-frillies-new-vinyl-lp-sealed?variant=44653723713777",
+        "price": "24.77",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://tigerrosevintage.com/products/suspicions?variant=44742523551985",
+        "price": "55.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 19,
+      "unique_prices": 9,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 14,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40272946607"
+    },
+    {
+      "batch": 35,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43821932807"
+    },
+    {
+      "batch": 36,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "44046382607"
+    },
+    {
+      "batch": 37,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "44262271076"
+    }
+  ]
+}
