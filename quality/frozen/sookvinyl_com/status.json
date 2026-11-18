@@ -1,0 +1,133 @@
+{
+  "fingerprint": "0b2fe4045b03ef56410352513bcea7ff028821b5561e610862e738f3a8991c97",
+  "domain": "sookvinyl.com",
+  "batch": 37,
+  "repair_attempts": 3,
+  "repair_modes": [
+    "ean"
+  ],
+  "admitted": true,
+  "status": "FROZEN",
+  "run_id": "44262271076",
+  "updated_at": "2026-11-18T07:52:41.310417+00:00",
+  "evidence": {
+    "domain": "sookvinyl.com",
+    "route": "https://sookvinyl.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-18T07:52:40.102941+00:00",
+    "requests": [
+      {
+        "url": "https://sookvinyl.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "90d69a531f3bd8c4dd8c89e8f5db3b4106975f48a0983ec29f2d3e16b9be06ec"
+      },
+      {
+        "url": "https://sookvinyl.com/products/1990-george-michael-listen-without-prejudice-vinyl-record-hype-shrink?variant=47419410907379",
+        "sha256": "93b88c0fb730777ce38cf9be846c2e5daf2088c405e40e5f32e2de8e6771e7d1"
+      }
+    ],
+    "listing_records": 3,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 3,
+      "unique_prices": 3,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 7,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "40064351096"
+    },
+    {
+      "batch": 35,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43821932807"
+    },
+    {
+      "batch": 36,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "44046382607"
+    },
+    {
+      "batch": 37,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "44262271076"
+    }
+  ],
+  "admission_evidence": {
+    "domain": "sookvinyl.com",
+    "route": "https://sookvinyl.com/products.json?limit=20&page=1",
+    "observed_at": "2026-10-24T04:57:54.099019+00:00",
+    "requests": [
+      {
+        "url": "https://sookvinyl.com/products.json?limit=20&page=1",
+        "sha256": "a0cd07595f3c93adf00e31d1d7ea933d5fc831afdba2efa360e40778dc6bc2fa"
+      },
+      {
+        "url": "https://sookvinyl.com/products/1990-george-michael-listen-without-prejudice-vinyl-record-hype-shrink?variant=47419410907379",
+        "sha256": "7e1086f2dc18a6d4dd78a039595d37d4fba1e060d238955e132a06884339d628"
+      },
+      {
+        "url": "https://sookvinyl.com/products/lou-donaldson-here-tis-blue-note-lp-vinyl-grant-green-84066-shrink?variant=47429646123251",
+        "sha256": "9aa901ae906e8454d42c21d70da2810552c300fba5b628a1798f8ade9c2c8492"
+      },
+      {
+        "url": "https://sookvinyl.com/products/shinehead-lp-vinyl-record-unity-1988-elektra-60802-1?variant=47990781575411",
+        "sha256": "0aaf855675a5946f4ceeed9f5b3d3e1bca1c7679833743132c754b012ddb9a5e"
+      }
+    ],
+    "listing_records": 3,
+    "detail_checked": 3,
+    "valid_eans": 1,
+    "details": [
+      {
+        "url": "https://sookvinyl.com/products/1990-george-michael-listen-without-prejudice-vinyl-record-hype-shrink?variant=47419410907379",
+        "price": "50.00",
+        "currency": "USD",
+        "ean": "00074644689815",
+        "condition": "new"
+      },
+      {
+        "url": "https://sookvinyl.com/products/lou-donaldson-here-tis-blue-note-lp-vinyl-grant-green-84066-shrink?variant=47429646123251",
+        "price": "64.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://sookvinyl.com/products/shinehead-lp-vinyl-record-unity-1988-elektra-60802-1?variant=47990781575411",
+        "price": "19.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 3,
+      "unique_prices": 3,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "APPROVED"
+  }
+}
