@@ -1,0 +1,100 @@
+{
+  "fingerprint": "6ad3b95e19e0c82e93883f116b583debf95a48a2185e821b471a6f43ecc901a3",
+  "domain": "trurecordsllc.com",
+  "batch": 37,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "44262271076",
+  "updated_at": "2026-11-18T07:52:58.272612+00:00",
+  "evidence": {
+    "domain": "trurecordsllc.com",
+    "route": "https://trurecordsllc.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-18T07:52:55.058212+00:00",
+    "requests": [
+      {
+        "url": "https://trurecordsllc.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "a94f975e0be0649b874c9bc5457bb2437911c5bed08fc00d107324facf6b09f3"
+      },
+      {
+        "url": "https://trurecordsllc.com/products/a-tribe-called-quest-hits-rarities-remixes-lp?variant=43981201473626",
+        "sha256": "1c5973bb0f7be2061a4ca1a897cac44d6dd36b7172f3ce61ff045999268eb400"
+      },
+      {
+        "url": "https://trurecordsllc.com/products/billy-woods-kenny-segal-hiding-places?variant=44080541794394",
+        "sha256": "5bde9e59dbefe3928ab1f7e703e1056d452a55d043c77f44c5c845dccda76ef3"
+      },
+      {
+        "url": "https://trurecordsllc.com/products/dr-dre-the-chronic?variant=44081120936026",
+        "sha256": "83801ee172eabe2e4801997d3804ffb342b918ee42a91fd4a941d9681d2b186c"
+      }
+    ],
+    "listing_records": 19,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://trurecordsllc.com/products/a-tribe-called-quest-hits-rarities-remixes-lp?variant=43981201473626",
+        "price": "29.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://trurecordsllc.com/products/billy-woods-kenny-segal-hiding-places?variant=44080541794394",
+        "price": "45.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://trurecordsllc.com/products/dr-dre-the-chronic?variant=44081120936026",
+        "price": "37.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 19,
+      "unique_prices": 13,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 14,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40272946607"
+    },
+    {
+      "batch": 35,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43821932807"
+    },
+    {
+      "batch": 36,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "44046382607"
+    },
+    {
+      "batch": 37,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "44262271076"
+    }
+  ]
+}
