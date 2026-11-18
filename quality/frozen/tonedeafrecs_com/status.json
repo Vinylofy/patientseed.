@@ -1,0 +1,100 @@
+{
+  "fingerprint": "a4233e756c01f42c2ef01698c4c40a414b95654bc8fa7288ab284c8b32a77697",
+  "domain": "tonedeafrecs.com",
+  "batch": 37,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "44262271076",
+  "updated_at": "2026-11-18T07:52:55.029399+00:00",
+  "evidence": {
+    "domain": "tonedeafrecs.com",
+    "route": "https://tonedeafrecs.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-18T07:52:51.868225+00:00",
+    "requests": [
+      {
+        "url": "https://tonedeafrecs.com/products.json?limit=20&page=1",
+        "sha256": "64995a355e7923d7ff3af1990b13b3047dba5a9c04d50ab9464baebeec283244"
+      },
+      {
+        "url": "https://tonedeafrecs.com/products/new-darker-my-love-alive-as-you-are-lp?variant=67685955600534",
+        "sha256": "d04d2a17d2fbd7316fbfdc6f00584742101a0a4e2d547c55b6444d3ad74d62cd"
+      },
+      {
+        "url": "https://tonedeafrecs.com/products/new-mountain-goats-bleed-out-2xlp?variant=67684646551702",
+        "sha256": "ce47fb27c1a680720d3413864ec4b16411e90f50121452e24af44db2802172e9"
+      },
+      {
+        "url": "https://tonedeafrecs.com/products/new-horn-charlie-rhythms-unexplained-lp?variant=67684310548630",
+        "sha256": "aa4dc3fddef630d4ed7e560e92002f53cc5b6db2f4ce75718e434067871f6224"
+      }
+    ],
+    "listing_records": 14,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://tonedeafrecs.com/products/new-darker-my-love-alive-as-you-are-lp?variant=67685955600534",
+        "price": "25.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://tonedeafrecs.com/products/new-mountain-goats-bleed-out-2xlp?variant=67684646551702",
+        "price": "27.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://tonedeafrecs.com/products/new-horn-charlie-rhythms-unexplained-lp?variant=67684310548630",
+        "price": "22.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 14,
+      "unique_prices": 8,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 14,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40272946607"
+    },
+    {
+      "batch": 35,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "43821932807"
+    },
+    {
+      "batch": 36,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "44046382607"
+    },
+    {
+      "batch": 37,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "44262271076"
+    }
+  ]
+}
