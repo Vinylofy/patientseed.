@@ -1,0 +1,70 @@
+{
+  "fingerprint": "17545076b4a5376f15cb6ab71f955376e298a5c61f4670aaa1faf1145f5c836b",
+  "domain": "tumbleweedsct.com",
+  "batch": 37,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "44262271076",
+  "updated_at": "2026-11-18T07:52:59.459344+00:00",
+  "evidence": {
+    "domain": "tumbleweedsct.com",
+    "route": "https://tumbleweedsct.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-18T07:52:58.300489+00:00",
+    "requests": [
+      {
+        "url": "https://tumbleweedsct.com/products.json?limit=20&page=1",
+        "sha256": "caa96f8aa4b1f914d71c123b2f43b971fce5ca5e39eed470decb920446640bf2"
+      },
+      {
+        "url": "https://tumbleweedsct.com/products/pre-order-daughters-daughters-lp-opaque-purple-new-n?variant=67930896498856",
+        "sha256": "8b428b81c94863c5de9dae095b01725f310f3f0b711ee6d56331699e14bdeff5"
+      }
+    ],
+    "listing_records": 11,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 11,
+      "unique_prices": 9,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 14,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40272946607"
+    },
+    {
+      "batch": 35,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "43821932807"
+    },
+    {
+      "batch": 36,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "44046382607"
+    },
+    {
+      "batch": 37,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "44262271076"
+    }
+  ]
+}
