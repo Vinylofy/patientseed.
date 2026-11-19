@@ -1,0 +1,70 @@
+{
+  "fingerprint": "909433212c14e562920d036635064fe8df23b02baa678a966f70ba9ece4225ac",
+  "domain": "unleashabraxas.com",
+  "batch": 38,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "44482526349",
+  "updated_at": "2026-11-19T07:49:48.733148+00:00",
+  "evidence": {
+    "domain": "unleashabraxas.com",
+    "route": "https://unleashabraxas.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-19T07:49:24.244334+00:00",
+    "requests": [
+      {
+        "url": "https://unleashabraxas.com/products.json?limit=20&page=1",
+        "sha256": "b7471c38c40860434a29cf69a20587102ba7e10435ab35ec193deb33521a4106"
+      },
+      {
+        "url": "https://unleashabraxas.com/products/g-i-s-m-military-affairs-neurotic-lp?variant=40514115960902",
+        "sha256": "20a582da0d2ef03e4e6796d53e5c696ec9cbe110cbbb322c3d66744cf13f2ca2"
+      }
+    ],
+    "listing_records": 2,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 2,
+      "unique_prices": 2,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_price_currency_not_proven_or_mismatch",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 14,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "40272946607"
+    },
+    {
+      "batch": 36,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "44046382607"
+    },
+    {
+      "batch": 37,
+      "status": "REVIEW",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "44262271076"
+    },
+    {
+      "batch": 38,
+      "status": "FROZEN",
+      "reason": "detail_price_currency_not_proven_or_mismatch",
+      "run_id": "44482526349"
+    }
+  ]
+}
