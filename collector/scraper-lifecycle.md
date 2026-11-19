@@ -2307,3 +2307,103 @@ Maximale bouwpogingen: 3
 | bndmusicfactory.com | 3557 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
 | captainstomp.com | 3558 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_526 |
 | clarityrecords.net | 3559 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| crosstalkrecords.com | 3560 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| daylesfordrecords.com | 3561 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| eggrecords.com | 3562 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| feministavinyl.org.au | 3563 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| funkyduckvinyl.com | 3564 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| themoshpit.com.au | 3565 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mrrecords.com.au | 3566 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ragemusic.com.au | 3567 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| revivedaudio.com.au | 3568 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rocksteadyrecords.com.au | 3569 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| soundone.com.au | 3570 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discrepancy-records.com.au | 3571 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| badhabitrecords.com.au | 3572 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| baropen.com.au | 3573 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bluenotecollege.com | 3574 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| brushturkeybooks.com.au | 3575 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| diabolikbooks.com.au | 3576 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| foolonthehillrecords.com.au | 3577 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| footscrayrecords.com.au | 3578 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| frankswildyears.com | 3579 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| giftsforthegeek.com.au | 3580 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| howlandmoanrecords.bigcartel.com | 3581 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| licoricepie.com | 3582 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lostcityrecords.com.au | 3583 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| lprecords.com.au | 3584 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| midlandrecords.com.au | 3585 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mills.com.au | 3586 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musicbizarre.com.au | 3587 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mydeadgrandpa.com.au | 3588 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| naturestrip.com | 3589 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| northsiderecords.com.au | 3590 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| peterecords.com.au | 3591 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| picturesearchvideo.wordpress.com | 3592 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| popcultcha.com.au | 3593 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| radicalrecords.com.au | 3594 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| shop.readerscompanion.com.au | 3595 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| readings.com.au | 3596 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| recordstore.au | 3597 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| replayrecords.com.au | 3598 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rockaperecords.com | 3599 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rpmrecords.com.au | 3600 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| saucerecords.com | 3601 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| songland.com.au | 3602 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sonicsherpa.com.au | 3603 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| tablerecords.com.au | 3604 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| tsbookshop.com.au | 3605 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| twelveinches.com.au | 3606 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| thevelvetfog.com.au | 3607 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| halfbackbooksdeewhy.square.site | 3608 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| paperbarks.com.au | 3609 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| inandout-distribution.com | 3610 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| haagston.at | 3611 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| happy-records.com | 3612 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musikversorgung.at | 3613 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| rave-up.at | 3614 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| recordbag.at | 3615 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| laden.siluh.com | 3616 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['laden_siluh_com.py', 'laden_siluh_com.json'] |
+| buddyrecords.at | 3617 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lindisschallplatten.at | 3618 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| moses-records.at | 3619 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| on-and-on.at | 3620 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| schallplatten-ankauf-wien.com | 3621 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylton.at | 3622 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordshack.org | 3623 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| secondmusic.co.at | 3624 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| sissysound.com | 3625 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| vinylcorner.at | 3626 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| apartmentacht.com | 3627 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| audiocenter.at | 3628 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| schallplatten-ankauf-verkauf.at | 3629 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dimarco.at | 3630 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| goodthings.at | 3631 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| klangrecordstore.at | 3632 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| lennysmusicstore.com | 3633 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| majorbabies.at | 3634 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rarecs.at | 3635 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordsdoor.at | 3636 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| schallter.at | 3637 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| spumante.space | 3638 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| substance-store.com | 3639 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| longplay.by | 3640 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| stadleest.be | 3641 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['stadleest_be.py', 'stadleest_be.json'] |
+| cherrypicker.be | 3642 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| rombaux.be | 3643 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| release.carolinemusic-bxl.be | 3644 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| seymourkassel.com | 3645 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| musicexpress.be | 3646 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| tonysmuziekhuis.be | 3647 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| store.consouling.be | 3648 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['store_consouling_be.py', 'store_consouling_be.json'] |
+| musicmaniarecords.be | 3649 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mygeneration.be | 3650 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['mygeneration_be.py', 'mygeneration_be.json'] |
+| koifaire.com | 3651 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| bartvinyl.be | 3652 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| smeltrecords.be | 3653 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lidomusic.be | 3654 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| djrecordshop.be | 3655 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| initialescd.be | 3656 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| oneindigeverhaal.be | 3657 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| topdisc.be | 3658 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| groefwerk.be | 3659 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
