@@ -3617,7 +3617,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | thrillhouserecords.com | 36 | FROZEN | 3 | 15 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | tigerrosevintage.com | 37 | FROZEN | 3 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | tinybot.com | 37 | FROZEN | 3 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| tntmusic.shop | 37 | APPROVED | 1 | 15 | 2/3 | ACTIVE (run 44504492590) | INCIDENT | run 44262271076 |
+| tntmusic.shop | 37 | APPROVED | 1 | 15 | 2/3 | ACTIVE (run 44504492590) | REPAIR_REQUIRED (run 44517394589) | run 44262271076 |
 | toadhallonline.com | 14 | APPROVED | 0 | 19 | 3/3 | ACTIVE (run 44504492590) | ACTIVE | run 40272946607 |
 | todestrieb.co.uk | 12 | FROZEN | 3 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | tonedeafrecs.com | 37 | FROZEN | 3 | 14 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
