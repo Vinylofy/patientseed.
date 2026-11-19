@@ -1,0 +1,70 @@
+{
+  "fingerprint": "60a98179c5b6507a441f31df80db62c2caffcaea2f44d61374cdb2dee92d8b63",
+  "domain": "valshallarecords.com",
+  "batch": 38,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "44482526349",
+  "updated_at": "2026-11-19T07:49:50.518295+00:00",
+  "evidence": {
+    "domain": "valshallarecords.com",
+    "route": "https://valshallarecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "observed_at": "2026-11-19T07:49:48.761735+00:00",
+    "requests": [
+      {
+        "url": "https://valshallarecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "sha256": "1aee422d5f67938b82e23b5d5625ce7eb99f016d775024519a8b425e6c8f1236"
+      },
+      {
+        "url": "https://valshallarecords.com/product/stevie-wonder-someday-at-christmas-lp-used/",
+        "sha256": "5fcf0a7c945935fd93d319b13629cf1ee93e000855bc08254c5202d7009fd13a"
+      }
+    ],
+    "listing_records": 5,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 5,
+      "unique_prices": 3,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_secondhand_signal",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 14,
+      "status": "REVIEW",
+      "reason": "detail_secondhand_signal",
+      "run_id": "40272946607"
+    },
+    {
+      "batch": 36,
+      "status": "REVIEW",
+      "reason": "detail_secondhand_signal",
+      "run_id": "44046382607"
+    },
+    {
+      "batch": 37,
+      "status": "REVIEW",
+      "reason": "detail_secondhand_signal",
+      "run_id": "44262271076"
+    },
+    {
+      "batch": 38,
+      "status": "FROZEN",
+      "reason": "detail_secondhand_signal",
+      "run_id": "44482526349"
+    }
+  ]
+}
