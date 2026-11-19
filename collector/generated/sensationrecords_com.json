@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "domain": "sensationrecords.com",
+  "platform": "woocommerce",
+  "adapter_class": "WooCommerceNewVinylAdapter",
+  "catalog_route": "https://sensationrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "discovery_method": {
+    "platform": "woocommerce",
+    "route": "https://sensationrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "score": 205,
+    "selection": "highest_bounded_adapter_score"
+  },
+  "method_candidates": [
+    {
+      "platform": "woocommerce",
+      "route": "https://sensationrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 205,
+      "products_seen": 20,
+      "accepted": 20,
+      "excluded": 0,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://sensationrecords.com/products.json?limit=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://sensationrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://sensationrecords.com/api/0.1/collections/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://sensationrecords.com/api/0.1/collections/all/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://sensationrecords.com/api/storefront/products?limit=20&offset=0",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://sensationrecords.com/api/storefront/products?limit=20",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    }
+  ],
+  "listing_sample": 20,
+  "detail_checked": 2,
+  "detail_gtin_valid": 0,
+  "currency": null,
+  "currency_source": null,
+  "currency_source_url": null,
+  "release_status": "SCRAPER_BUILT_TESTED"
+}
