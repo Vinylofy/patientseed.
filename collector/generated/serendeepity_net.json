@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "domain": "serendeepity.net",
+  "platform": "woocommerce",
+  "adapter_class": "WooCommerceNewVinylAdapter",
+  "catalog_route": "https://serendeepity.net/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "discovery_method": {
+    "platform": "woocommerce",
+    "route": "https://serendeepity.net/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "score": 165,
+    "selection": "highest_bounded_adapter_score"
+  },
+  "method_candidates": [
+    {
+      "platform": "woocommerce",
+      "route": "https://serendeepity.net/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 165,
+      "products_seen": 20,
+      "accepted": 16,
+      "excluded": 4,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://serendeepity.net/products.json?limit=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://serendeepity.net/collections/all/products.json?limit=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://serendeepity.net/api/0.1/collections/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://serendeepity.net/api/0.1/collections/all/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://serendeepity.net/api/storefront/products?limit=20&offset=0",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://serendeepity.net/api/storefront/products?limit=20",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    }
+  ],
+  "listing_sample": 16,
+  "detail_checked": 2,
+  "detail_gtin_valid": 0,
+  "currency": null,
+  "currency_source": null,
+  "currency_source_url": null,
+  "release_status": "SCRAPER_BUILT_TESTED"
+}
