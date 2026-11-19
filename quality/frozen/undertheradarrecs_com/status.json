@@ -1,0 +1,100 @@
+{
+  "fingerprint": "99dcb4b338523db51f1e6e77c2fdd54ca02b7f7af3ee1e17bded64132f2991a0",
+  "domain": "undertheradarrecs.com",
+  "batch": 38,
+  "repair_attempts": 3,
+  "repair_modes": [],
+  "admitted": false,
+  "status": "FROZEN",
+  "run_id": "44482526349",
+  "updated_at": "2026-11-19T07:49:24.215794+00:00",
+  "evidence": {
+    "domain": "undertheradarrecs.com",
+    "route": "https://undertheradarrecs.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-19T07:49:21.030296+00:00",
+    "requests": [
+      {
+        "url": "https://undertheradarrecs.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "24662c92a330bfbdb91d4c683a389a48df5ece57b865fe8ffe88294757cb3428"
+      },
+      {
+        "url": "https://undertheradarrecs.com/products/013-s-t-lp?variant=37709363347611",
+        "sha256": "76b93a8d7565f9f8fcb5b0997b2435d7e4f4a6ac3536dccd33989217838233bc"
+      },
+      {
+        "url": "https://undertheradarrecs.com/products/16-blasare-utan-hjarna-vi-ska-ga-till-botten-med-det-har-vinyl-lp?variant=48627649151131",
+        "sha256": "f8c8ae830d8514a9d0010409bbfc03c9460f0600c9a069afe776c3ff9bffb8bb"
+      },
+      {
+        "url": "https://undertheradarrecs.com/products/16-drop-out-vinyl-lp?variant=48627537477787",
+        "sha256": "e0d162e2986a4425771e881b4bdab09bc034c6b1f53cccfbdf4702782e1446ca"
+      }
+    ],
+    "listing_records": 4,
+    "detail_checked": 3,
+    "valid_eans": 0,
+    "details": [
+      {
+        "url": "https://undertheradarrecs.com/products/013-s-t-lp?variant=37709363347611",
+        "price": "24.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://undertheradarrecs.com/products/16-blasare-utan-hjarna-vi-ska-ga-till-botten-med-det-har-vinyl-lp?variant=48627649151131",
+        "price": "24.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://undertheradarrecs.com/products/16-drop-out-vinyl-lp?variant=48627537477787",
+        "price": "29.99",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 4,
+      "unique_prices": 3,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "detail_ean_not_proven",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 14,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "40272946607"
+    },
+    {
+      "batch": 36,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "44046382607"
+    },
+    {
+      "batch": 37,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "44262271076"
+    },
+    {
+      "batch": 38,
+      "status": "FROZEN",
+      "reason": "detail_ean_not_proven",
+      "run_id": "44482526349"
+    }
+  ]
+}
