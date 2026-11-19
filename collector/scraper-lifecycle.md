@@ -2207,3 +2207,103 @@ Maximale bouwpogingen: 3
 | dreamhouseldn.com | 3457 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | offthebeatentracks.co.uk | 3458 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['offthebeatentracks_co_uk.py', 'offthebeatentracks_co_uk.json'] |
 | relevantrecordcafe.co.uk | 3459 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['relevantrecordcafe_co_uk.py', 'relevantrecordcafe_co_uk.json'] |
+| leftfordeadshop.co.uk | 3460 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['leftfordeadshop_co_uk.py', 'leftfordeadshop_co_uk.json'] |
+| recordculture.com | 3461 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| waxheadrecords.co.uk | 3462 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| jewelsofthoughtrecordings.com | 3463 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| heathenchemistryrecords.co.uk | 3464 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| chameleon.scot | 3465 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| kulturalrecords.com | 3466 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| caprarecords.com | 3467 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| coreofthepoodle.co.uk | 3468 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| shop.subpop.com | 3469 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['shop_subpop_com.py', 'shop_subpop_com.json'] |
+| soundrecords.im | 3470 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['soundrecords_im.py', 'soundrecords_im.json'] |
+| vinyl.com | 3471 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['vinyl_com.py', 'vinyl_com.json'] |
+| hifix.co.uk | 3472 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| loafersvinyl.co.uk | 3473 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['loafersvinyl_co_uk.py', 'loafersvinyl_co_uk.json'] |
+| revolutionrecords.uk | 3474 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['revolutionrecords_uk.py', 'revolutionrecords_uk.json'] |
+| mixeduprecords.com | 3475 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| galette-records.com | 3476 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| daisyrecords.com.au | 3477 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| discossupersonicsantander.com | 3478 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['discossupersonicsantander_com.py', 'discossupersonicsantander_com.json'] |
+| peckhamsoul.co.uk | 3479 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| pandvrecords.co.uk | 3480 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| dashthehengestore.com | 3481 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['dashthehengestore_com.py', 'dashthehengestore_com.json'] |
+| ouioui-records.com | 3482 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| lacuevamusical.com.ar | 3483 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| zivals.com.ar | 3484 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| dutchvinyl.com.au | 3485 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['dutchvinyl_com_au.py', 'dutchvinyl_com_au.json'] |
+| rerun.com.au | 3486 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| rocktherapyrecords.com.au | 3487 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| titlemusicfilmbooks.com | 3488 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['titlemusicfilmbooks_com.py', 'titlemusicfilmbooks_com.json'] |
+| hathillrecords.com.au | 3489 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['hathillrecords_com_au.py', 'hathillrecords_com_au.json'] |
+| bondirecords.com | 3490 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| butterbeatsrecordstore.com | 3491 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['butterbeatsrecordstore_com.py', 'butterbeatsrecordstore_com.json'] |
+| djcity.com.au | 3492 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| glitterrecords.com.au | 3493 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['glitterrecords_com_au.py', 'glitterrecords_com_au.json'] |
+| guitarcentre.net.au | 3494 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| stashrecords.com.au | 3495 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['stashrecords_com_au.py', 'stashrecords_com_au.json'] |
+| winnlane.com.au | 3496 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| rockinghorse.net | 3497 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['rockinghorse_net.py', 'rockinghorse_net.json'] |
+| beatniksrecords.com.au | 3498 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['beatniksrecords_com_au.py', 'beatniksrecords_com_au.json'] |
+| rockaway.com.au | 3499 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| abicus.com.au | 3500 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['abicus_com_au.py', 'abicus_com_au.json'] |
+| urbanworld.com.au | 3501 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['urbanworld_com_au.py', 'urbanworld_com_au.json'] |
+| rhubarbrecords.com | 3502 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['rhubarbrecords_com.py', 'rhubarbrecords_com.json'] |
+| alt-cvlt.com.au | 3503 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['alt_cvlt_com_au.py', 'alt_cvlt_com_au.json'] |
+| shopinglen.com.au | 3504 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['shopinglen_com_au.py', 'shopinglen_com_au.json'] |
+| studio3345.com.au | 3505 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['studio3345_com_au.py', 'studio3345_com_au.json'] |
+| suffragetterecords.com.au | 3506 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['suffragetterecords_com_au.py', 'suffragetterecords_com_au.json'] |
+| urbanrecords.com.au | 3507 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['urbanrecords_com_au.py', 'urbanrecords_com_au.json'] |
+| waxespresso.com | 3508 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| bowsforstrings.com | 3509 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| dixons.com.au | 3510 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| eclectico.com.au | 3511 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| eclecticorecords.com.au | 3512 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['eclecticorecords_com_au.py', 'eclecticorecords_com_au.json'] |
+| goldminerecords.com.au | 3513 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['goldminerecords_com_au.py', 'goldminerecords_com_au.json'] |
+| happyvalleyshop.com | 3514 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['happyvalleyshop_com.py', 'happyvalleyshop_com.json'] |
+| heartlandrecords.com.au | 3515 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['heartlandrecords_com_au.py', 'heartlandrecords_com_au.json'] |
+| ohjeanrecords.com | 3516 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['ohjeanrecords_com.py', 'ohjeanrecords_com.json'] |
+| plugseven.com | 3517 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['plugseven_com.py', 'plugseven_com.json'] |
+| roundandroundrecords.com | 3518 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['roundandroundrecords_com.py', 'roundandroundrecords_com.json'] |
+| thesearchers.com.au | 3519 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['thesearchers_com_au.py', 'thesearchers_com_au.json'] |
+| skydiverrecords.com | 3520 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sound-merch.com.au | 3521 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['sound_merch_com_au.py', 'sound_merch_com_au.json'] |
+| strangeworldrecords.com.au | 3522 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['strangeworldrecords_com_au.py', 'strangeworldrecords_com_au.json'] |
+| thornburyrecords.com | 3523 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| wahwahrecords.com.au | 3524 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['wahwahrecords_com_au.py', 'wahwahrecords_com_au.json'] |
+| waxmuseumrecords.com | 3525 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['waxmuseumrecords_com.py', 'waxmuseumrecords_com.json'] |
+| recordparadise.com.au | 3526 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylspace.com | 3527 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| shakeitupmusic.com.au | 3528 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| famousrockshop.com.au | 3529 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['famousrockshop_com_au.py', 'famousrockshop_com_au.json'] |
+| musoscorner.com.au | 3530 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| repressedrecords.com | 3531 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['repressedrecords_com.py', 'repressedrecords_com.json'] |
+| landspeed.com.au | 3532 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['landspeed_com_au.py', 'landspeed_com_au.json'] |
+| shop.reloveoxley.com | 3533 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| sounddevices.com.au | 3534 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| rarerecords.com.au | 3535 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['rarerecords_com_au.py', 'rarerecords_com_au.json'] |
+| grevillerecords.com.au | 3536 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| hideousrecords.com.au | 3537 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['hideousrecords_com_au.py', 'hideousrecords_com_au.json'] |
+| deserthighways.com | 3538 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['deserthighways_com.py', 'deserthighways_com.json'] |
+| stothersmusic.com.au | 3539 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| peninsularecordsandbooks.com | 3540 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['peninsularecordsandbooks_com.py', 'peninsularecordsandbooks_com.json'] |
+| daddyrichrecords.com | 3541 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['daddyrichrecords_com.py', 'daddyrichrecords_com.json'] |
+| impressedrecordings.com | 3542 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['impressedrecordings_com.py', 'impressedrecordings_com.json'] |
+| proprecords.com.au | 3543 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['proprecords_com_au.py', 'proprecords_com_au.json'] |
+| redeye.com.au | 3544 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['redeye_com_au.py', 'redeye_com_au.json'] |
+| rockyroadrecords.com.au | 3545 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| tengurecords.com | 3546 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| utopia.com.au | 3547 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['utopia_com_au.py', 'utopia_com_au.json'] |
+| jwrayrecords.com | 3548 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['jwrayrecords_com.py', 'jwrayrecords_com.json'] |
+| badlandsvinyl.com | 3549 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['badlandsvinyl_com.py', 'badlandsvinyl_com.json'] |
+| harboursiderecords.com.au | 3550 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['harboursiderecords_com_au.py', 'harboursiderecords_com_au.json'] |
+| spinandgrooverecords.com.au | 3551 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['spinandgrooverecords_com_au.py', 'spinandgrooverecords_com_au.json'] |
+| musicfarmers.com | 3552 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['musicfarmers_com.py', 'musicfarmers_com.json'] |
+| 19thnervousbreakdown.com | 3553 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| airraidentertainment.com.au | 3554 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| alleytunes.com | 3555 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| beatdisc.com.au | 3556 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bndmusicfactory.com | 3557 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| captainstomp.com | 3558 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_526 |
+| clarityrecords.net | 3559 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
