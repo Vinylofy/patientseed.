@@ -2407,3 +2407,103 @@ Maximale bouwpogingen: 3
 | oneindigeverhaal.be | 3657 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
 | topdisc.be | 3658 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
 | groefwerk.be | 3659 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| blent.be | 3660 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| re-cordarecords.be | 3661 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| thetaste.be | 3662 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| fonorama.be | 3663 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| standaardboekhandel.be | 3664 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| crisca.be | 3665 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| djingeldjangel.be | 3666 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| kalkmangallery.com | 3667 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| k-records.be | 3668 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| shop.therockingbull.rocks | 3669 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| sensationrecords.com | 3670 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['sensationrecords_com.py', 'sensationrecords_com.json'] |
+| turtle-records.be | 3671 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bilborecords.be | 3672 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_520 |
+| craterecords.be | 3673 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dustdealers.com | 3674 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| popcornmusic.be | 3675 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| meusemusicrecords.eu | 3676 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| morbusgravis.be | 3677 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| musicmediacorner.be | 3678 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| noiski-shop.be | 3679 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| panoplybooksrecords.be | 3680 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| pele-mele.be | 3681 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vynilla.be | 3682 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| boaviagemdiscos.com.br | 3683 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| taiobadiscos.com.br | 3684 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['taiobadiscos_com_br.py', 'taiobadiscos_com_br.json'] |
+| jazzecompanhiadiscos.com.br | 3685 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| melomano.com.br | 3686 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| memoriadiscos.com.br | 3687 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mrgroove.com.br | 3688 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sertaorecords.com.br | 3689 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| estilhacosdiscos.com.br | 3690 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| fyashop.com.br | 3691 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| londoncalling.com.br | 3692 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| orbdiscos.com.br | 3693 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| supremerecords.eu | 3694 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| vinylhomevarna.com | 3695 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| threechordsrecords.com | 3696 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| sunriserecords.com | 3697 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hificabinetcompany.com | 3698 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['hificabinetcompany_com.py', 'hificabinetcompany_com.json'] |
+| neontasterecords.ca | 3699 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| slothrecords.wordpress.com | 3700 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| turnituprecordsandhifi.com | 3701 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| moonsrecords.com | 3702 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['moonsrecords_com.py', 'moonsrecords_com.json'] |
+| surgicallycleanair.com | 3703 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| beatgoeson.com | 3704 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['beatgoeson_com.py', 'beatgoeson_com.json'] |
+| royalcatrecords.blogspot.com | 3705 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| taz-records.myshopify.com | 3706 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['taz_records_myshopify_com.py', 'taz_records_myshopify_com.json'] |
+| therecordshoppe.ca | 3707 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['therecordshoppe_ca.py', 'therecordshoppe_ca.json'] |
+| orchardparkshopping.com | 3708 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| xdisccmusic.ca | 3709 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['xdisccmusic_ca.py', 'xdisccmusic_ca.json'] |
+| atomicsound.ca | 3710 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| groovesrecordstore.com | 3711 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| odysseyrecords.ca | 3712 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['odysseyrecords_ca.py', 'odysseyrecords_ca.json'] |
+| freesonrock.com | 3713 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['freesonrock_com.py', 'freesonrock_com.json'] |
+| phonopolis.ca | 3714 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| levacarme.com | 3715 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| deathofvinyl.com | 3716 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| placedorleans.com | 3717 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| compactmusic.ca | 3718 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['compactmusic_ca.py', 'compactmusic_ca.json'] |
+| legendrecords.ca | 3719 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| therecordcentre.com | 3720 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| idshop.ca | 3721 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['idshop_ca.py', 'idshop_ca.json'] |
+| deaddogrecords.com | 3722 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dinealonestore.com | 3723 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| flowrecordstore.com | 3724 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['flowrecordstore_com.py', 'flowrecordstore_com.json'] |
+| highnotes.ca | 3725 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['highnotes_ca.py', 'highnotes_ca.json'] |
+| invisiblecityeditions.com | 3726 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['invisiblecityeditions_com.py', 'invisiblecityeditions_com.json'] |
+| recordshopemissions.com | 3727 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['recordshopemissions_com.py', 'recordshopemissions_com.json'] |
+| tonalityrecords.com | 3728 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['tonalityrecords_com.py', 'tonalityrecords_com.json'] |
+| torontorecordstores.com | 3729 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| pucerock.ca | 3730 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| beatstreet.ca | 3731 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['beatstreet_ca.py', 'beatstreet_ca.json'] |
+| redcat.ca | 3732 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['redcat_ca.py', 'redcat_ca.json'] |
+| audiopile.ca | 3733 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| neptoon.com | 3734 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ditchrecords.mystrikingly.com | 3735 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_502 |
+| milehighvinyl.ca | 3736 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['milehighvinyl_ca.py', 'milehighvinyl_ca.json'] |
+| drdiscrecords.com | 3737 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| frenchiesrecords.ca | 3738 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| 3dawgsvinyl.com | 3739 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| atomheart.ca | 3740 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| disquairegeneralnostalgie.ca | 3741 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| larama.ca | 3742 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| fredsrecords.com | 3743 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| kopsrecords.ca | 3744 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| shop.listenrecords.net | 3745 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| paradisebound.ca | 3746 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| paramusictoronto.com | 3747 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordcollectorsparadise.ca | 3748 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| soundfixation.ca | 3749 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| 3313recordstore.com | 3750 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| chilliwax.ca | 3751 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| classicreplay.ca | 3752 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| thecreativebookworm.com | 3753 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| francophonies.ca | 3754 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| freecloud.ca | 3755 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| futharkrecords.com | 3756 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| grooveyard.ca | 3757 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| hitonerecords.ca | 3758 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| intothemusic.ca | 3759 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
