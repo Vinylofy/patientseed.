@@ -49,3 +49,14 @@ the directory domain slugs. Country labels and names are unverified directory
 observations. Original workbook, queue prefix and durable progress are preserved.
 Normal source/new-vinyl review and QA are still required; this addition triggers
 no shop collection, schedules or imports.
+
+## Vinylscout vinyl shops, 19 November 2026
+
+`vinylscout-shops-2026-11-19.csv` lists all 15 vinyl vendors from the public
+ItemList at https://vinylscout.nl/winkels. The JSON manifest records the source
+checksum, 6 existing-domain references and 9 appended candidates.
+The existing 5093-item queue prefix and progress are preserved. Domain
+root URLs are derived from displayed vendor domains; store access and new-vinyl
+suitability await ordinary review. bol.com is recorded as a shared marketplace.
+Hardware-only retailers elsewhere on the site are outside this vinyl list.
+No shop collection, QA admission, schedules or imports are triggered.

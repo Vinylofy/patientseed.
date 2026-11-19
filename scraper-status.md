@@ -1,6 +1,6 @@
 # Centrale scraperstatus
 
-Bronregels: 5093. Behandeld voor broncontrole: 3453. Open voor broncontrole: 1640.
+Bronregels: 5102. Behandeld voor broncontrole: 3453. Open voor broncontrole: 1649.
 
 Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine checksumproeven; private acceptatie, marktprijzen en imports volgen apart.
 
@@ -22,8 +22,9 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 | Oorspronkelijke lijst | 3303 | 3303 | 0 | 247 |
 | Findyl online — 25-10-2026 (50; inclusief 4 herbeoordelingen) | 50 | 50 | 0 | 28 |
 | LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 0 | 1618 | 0 |
+| Vinylscout winkels — 19-11-2026 (nieuwe domeinen) | 9 | 0 | 9 | 0 |
 | Waxtra Rumours — 19-11-2026 (nieuwe domeinen) | 122 | 100 | 22 | 55 |
-| **Totaal** | **5093** | **3453** | **1640** | **330** |
+| **Totaal** | **5102** | **3453** | **1649** | **330** |
 
 ## Winkels
 
@@ -5122,6 +5123,15 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 | 5090 |  | 5097 | Altoque Records | altoquerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
 | 5091 |  | 5098 | Recordland | recordland.com |  | PENDING |  | — | broncontrole uitvoeren |
 | 5092 |  | 5099 | El Marchante | elmarchante.org |  | PENDING |  | — | broncontrole uitvoeren |
+| 5093 |  | 5100 | imusic.nl | imusic.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 5094 |  | 5101 | bol.com | bol.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5095 |  | 5102 | recordsonvinyl.nl | recordsonvinyl.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 5096 |  | 5103 | platenzaak.nl | platenzaak.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 5097 |  | 5104 | vinyllp.nl | vinyllp.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 5098 |  | 5105 | large.nl | large.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 5099 |  | 5106 | smartpunkshop.com | smartpunkshop.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5100 |  | 5107 | revinrecords.com | revinrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5101 |  | 5108 | topnotch-shop.nl | topnotch-shop.nl |  | PENDING |  | — | broncontrole uitvoeren |
 
 <!-- quality-gate:start -->
 ## Inhoudelijke toelatingscontrole
