@@ -36,3 +36,16 @@ The original workbook and progress are preserved. This is an album-page snapshot
 not an exhaustive Waxtra directory. Platform/country fields are unverified source
 hints; used-only shops must still fail the ordinary new-vinyl gate. No collection,
 QA approval, scheduling or imports are triggered by adding these candidates.
+
+## LP/EP Finder directory, 19 November 2026
+
+`lpepfinder-shops-2026-11-19.csv` lists all 2196 unique domains found across all
+71 country pages linked from https://lpepfinder.com/shops/. Each country page
+was checked against its own displayed shop count (2196 total listings).
+The JSON manifest records per-page checksums, source links and queue IDs:
+578 existing domains are cross-referenced; 1618 new candidates are appended
+after the unchanged 3475-item queue. HTTPS root URLs are derived from
+the directory domain slugs. Country labels and names are unverified directory
+observations. Original workbook, queue prefix and durable progress are preserved.
+Normal source/new-vinyl review and QA are still required; this addition triggers
+no shop collection, schedules or imports.

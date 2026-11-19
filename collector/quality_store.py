@@ -124,7 +124,7 @@ def central_section(root):
     overview = [f"Unieke profielen met QA-registratie: **{len(state['shops'])}**. " +
         '; '.join(f"{status}: **{count}**" for status, count in sorted(counts.items())), '']
     for path in sorted((Path(__file__).parent / 'sources').glob('*.json')):
-        source = json.loads(path.read_text())
+        source = json.loads(path.read_text(encoding="utf-8"))
         domains = {entry['domain'] for entry in source.get('entries', [])}
         records = [record for record in state['shops'].values() if record['domain'] in domains]
         if not records: continue

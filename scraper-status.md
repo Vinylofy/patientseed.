@@ -1,6 +1,6 @@
 # Centrale scraperstatus
 
-Bronregels: 3475. Behandeld voor broncontrole: 3353. Open voor broncontrole: 122.
+Bronregels: 5093. Behandeld voor broncontrole: 3353. Open voor broncontrole: 1740.
 
 Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine checksumproeven; private acceptatie, marktprijzen en imports volgen apart.
 
@@ -21,8 +21,9 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 |---|---:|---:|---:|---:|
 | Oorspronkelijke lijst | 3303 | 3303 | 0 | 247 |
 | Findyl online — 25-10-2026 (50; inclusief 4 herbeoordelingen) | 50 | 50 | 0 | 28 |
+| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 0 | 1618 | 0 |
 | Waxtra Rumours — 19-11-2026 (nieuwe domeinen) | 122 | 0 | 122 | 0 |
-| **Totaal** | **3475** | **3353** | **122** | **275** |
+| **Totaal** | **5093** | **3353** | **1740** | **275** |
 
 ## Winkels
 
@@ -3503,6 +3504,1624 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 | 3472 |  | 3479 | Peckhamsoul | peckhamsoul.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
 | 3473 |  | 3480 | Pie & Vinyl | pandvrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
 | 3474 |  | 3481 | Dashthehengestore | dashthehengestore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3475 |  | 3482 | Oui Oui Records | ouioui-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3476 |  | 3483 | La Cueva Musical | lacuevamusical.com.ar |  | PENDING |  | — | broncontrole uitvoeren |
+| 3477 |  | 3484 | Zivals | zivals.com.ar |  | PENDING |  | — | broncontrole uitvoeren |
+| 3478 |  | 3485 | Dutch Vinyl | dutchvinyl.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3479 |  | 3486 | Rerun Records & Photography | rerun.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3480 |  | 3487 | Rocktherapy Records | rocktherapyrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3481 |  | 3488 | TITLE Barangaroo | titlemusicfilmbooks.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3482 |  | 3489 | Hat Hill Records | hathillrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3483 |  | 3490 | Bondi Records | bondirecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3484 |  | 3491 | Butter Beats | butterbeatsrecordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3485 |  | 3492 | DJ City | djcity.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3486 |  | 3493 | Glitter Records | glitterrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3487 |  | 3494 | The Guitar Centre at the Gabba | guitarcentre.net.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3488 |  | 3495 | Stash Records | stashrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3489 |  | 3496 | Tyms Guitar + Recording Studios | winnlane.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3490 |  | 3497 | Rocking Horse Records | rockinghorse.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 3491 |  | 3498 | #beatniks | beatniksrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3492 |  | 3499 | Rockaway Records | rockaway.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3493 |  | 3500 | Abicus | abicus.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3494 |  | 3501 | Urban World Australia | urbanworld.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3495 |  | 3502 | Rhubarb Records | rhubarbrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3496 |  | 3503 | ALT CVLT | alt-cvlt.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3497 |  | 3504 | The Shop in Glen | shopinglen.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3498 |  | 3505 | STUDIO 33/45 | studio3345.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3499 |  | 3506 | Suffragette Records | suffragetterecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3500 |  | 3507 | Urban Records | urbanrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3501 |  | 3508 | Wax Espresso | waxespresso.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3502 |  | 3509 | Bows For Strings | bowsforstrings.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3503 |  | 3510 | Dixons Recycled | dixons.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3504 |  | 3511 | Eclectico | eclectico.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3505 |  | 3512 | Eclectico Records | eclecticorecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3506 |  | 3513 | Goldmine Records | goldminerecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3507 |  | 3514 | Happy Valley Shop | happyvalleyshop.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3508 |  | 3515 | Heartland Records | heartlandrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3509 |  | 3516 | Oh! Jean Records | ohjeanrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3510 |  | 3517 | Plug Seven | plugseven.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3511 |  | 3518 | Round and Round Records | roundandroundrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3512 |  | 3519 | The Searchers Records | thesearchers.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3513 |  | 3520 | Skydiver Records | skydiverrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3514 |  | 3521 | Soundmerch | sound-merch.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3515 |  | 3522 | Strangeworld Records | strangeworldrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3516 |  | 3523 | Thornbury Records | thornburyrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3517 |  | 3524 | Wah Wah Records | wahwahrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3518 |  | 3525 | Wax Museum Records | waxmuseumrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3519 |  | 3526 | Record Paradise | recordparadise.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3520 |  | 3527 | Vinyl Space | vinylspace.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3521 |  | 3528 | Shake It Up Music | shakeitupmusic.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3522 |  | 3529 | Famous Rock Shop | famousrockshop.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3523 |  | 3530 | Musos Corner | musoscorner.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3524 |  | 3531 | Repressed Records | repressedrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3525 |  | 3532 | Landspeed Records | landspeed.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3526 |  | 3533 | Relove Oxley | shop.reloveoxley.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3527 |  | 3534 | Sound Devices | sounddevices.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3528 |  | 3535 | Rare Records | rarerecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3529 |  | 3536 | GrevilleRecords | grevillerecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3530 |  | 3537 | Hideous Records | hideousrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3531 |  | 3538 | Desert Highways | deserthighways.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3532 |  | 3539 | Stothers Music & Hi-Fi | stothersmusic.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3533 |  | 3540 | Peninsula Records and Books | peninsularecordsandbooks.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3534 |  | 3541 | Daddy Rich Records | daddyrichrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3535 |  | 3542 | Impressed Recordings | impressedrecordings.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3536 |  | 3543 | Prop Records | proprecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3537 |  | 3544 | Red Eye Records | redeye.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3538 |  | 3545 | Rocky Road Records | rockyroadrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3539 |  | 3546 | Tengu Records | tengurecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3540 |  | 3547 | Utopia Records | utopia.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3541 |  | 3548 | J Wray Records | jwrayrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3542 |  | 3549 | Badlands Vinyl | badlandsvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3543 |  | 3550 | Harbourside Records | harboursiderecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3544 |  | 3551 | Spin And Groove Records | spinandgrooverecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3545 |  | 3552 | Music Farmers | musicfarmers.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3546 |  | 3553 | 19th Nervous Breakdown | 19thnervousbreakdown.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3547 |  | 3554 | Air Raid Records | airraidentertainment.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3548 |  | 3555 | Alley Tunes Records & Cafe | alleytunes.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3549 |  | 3556 | Beatdisc Records | beatdisc.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3550 |  | 3557 | BnD Music Factory | bndmusicfactory.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3551 |  | 3558 | Captain Stomp Records | captainstomp.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3552 |  | 3559 | Clarity Records | clarityrecords.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 3553 |  | 3560 | Crosstalk Records | crosstalkrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3554 |  | 3561 | Daylesford Records | daylesfordrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3555 |  | 3562 | Egg Records | eggrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3556 |  | 3563 | Feminista Vinyl | feministavinyl.org.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3557 |  | 3564 | Funky Duck Vinyl | funkyduckvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3558 |  | 3565 | The Mosh Pit | themoshpit.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3559 |  | 3566 | MR Retro | mrrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3560 |  | 3567 | Rage Music & Vinyl Coffs Harbour | ragemusic.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3561 |  | 3568 | Revived Audio | revivedaudio.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3562 |  | 3569 | Rocksteady Records | rocksteadyrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3563 |  | 3570 | Sound One | soundone.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3564 |  | 3571 | www.discrepancy-records.com.au | discrepancy-records.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3565 |  | 3572 | Bad Habit Records | badhabitrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3566 |  | 3573 | Bar Open Records | baropen.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3567 |  | 3574 | Blue Note College of Music | bluenotecollege.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3568 |  | 3575 | Brush Turkey Books | brushturkeybooks.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3569 |  | 3576 | Diabolik Books & Records | diabolikbooks.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3570 |  | 3577 | Fool on the Hill Records | foolonthehillrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3571 |  | 3578 | Footscray Records \|\| we buy, sell and trade vinyl records, tapes and cds in Melbourne, Australia | footscrayrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3572 |  | 3579 | Franks Wild Years | frankswildyears.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3573 |  | 3580 | Gifts for the Geek | giftsforthegeek.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3574 |  | 3581 | Howl & Moan Records | howlandmoanrecords.bigcartel.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3575 |  | 3582 | Licorice Pie | licoricepie.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3576 |  | 3583 | Lost City Records | lostcityrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3577 |  | 3584 | LP Records | lprecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3578 |  | 3585 | Midland Records / Simply Secondhand | midlandrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3579 |  | 3586 | Mills Records | mills.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3580 |  | 3587 | Music Bizarre | musicbizarre.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3581 |  | 3588 | My Dead Grandpa | mydeadgrandpa.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3582 |  | 3589 | NATURESTRIP Records | naturestrip.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3583 |  | 3590 | Northside Records | northsiderecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3584 |  | 3591 | peterecords.com.au | peterecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3585 |  | 3592 | Picture Search | picturesearchvideo.wordpress.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3586 |  | 3593 | Popcultcha Records | popcultcha.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3587 |  | 3594 | Radical Records | radicalrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3588 |  | 3595 | Readers Companion | shop.readerscompanion.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3589 |  | 3596 | Readings Hawthorn | readings.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3590 |  | 3597 | Record Store, Sydney: we buy, sell & trade, new & used vinyl records. 02 9380 8223 | recordstore.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3591 |  | 3598 | Replay Records | replayrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3592 |  | 3599 | Rock Ape Records | rockaperecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3593 |  | 3600 | RPM | rpmrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3594 |  | 3601 | Sauce Records | saucerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3595 |  | 3602 | Songland Records | songland.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3596 |  | 3603 | sonicsherpa.com.au | sonicsherpa.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3597 |  | 3604 | Table Records | tablerecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3598 |  | 3605 | Theosophical Society Bookshop | tsbookshop.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3599 |  | 3606 | Twelve Inches and Single Records | twelveinches.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3600 |  | 3607 | The Velvet Fog | thevelvetfog.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3601 |  | 3608 | Verse | halfbackbooksdeewhy.square.site |  | PENDING |  | — | broncontrole uitvoeren |
+| 3602 |  | 3609 | Woof Dog Records | paperbarks.com.au |  | PENDING |  | — | broncontrole uitvoeren |
+| 3603 |  | 3610 | inandout records | inandout-distribution.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3604 |  | 3611 | Haagston Brassego Musikinstrumente | haagston.at |  | PENDING |  | — | broncontrole uitvoeren |
+| 3605 |  | 3612 | Happy Records | happy-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3606 |  | 3613 | Musikversorgung Steiner | musikversorgung.at |  | PENDING |  | — | broncontrole uitvoeren |
+| 3607 |  | 3614 | Rave Up Records | rave-up.at |  | PENDING |  | — | broncontrole uitvoeren |
+| 3608 |  | 3615 | Recordbag | recordbag.at |  | PENDING |  | — | broncontrole uitvoeren |
+| 3609 |  | 3616 | Siluh Laden | laden.siluh.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3610 |  | 3617 | Buddy Records | buddyrecords.at |  | PENDING |  | — | broncontrole uitvoeren |
+| 3611 |  | 3618 | Lindi’s Schallplattenladen | lindisschallplatten.at |  | PENDING |  | — | broncontrole uitvoeren |
+| 3612 |  | 3619 | Moses Records | moses-records.at |  | PENDING |  | — | broncontrole uitvoeren |
+| 3613 |  | 3620 | ON & ON Vinyl Wohnen | on-and-on.at |  | PENDING |  | — | broncontrole uitvoeren |
+| 3614 |  | 3621 | Teuchtler Schallplattenhandel u. Antiquariat | schallplatten-ankauf-wien.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3615 |  | 3622 | Vinylton | vinylton.at |  | PENDING |  | — | broncontrole uitvoeren |
+| 3616 |  | 3623 | Record Shack | recordshack.org |  | PENDING |  | — | broncontrole uitvoeren |
+| 3617 |  | 3624 | Secondmusic | secondmusic.co.at |  | PENDING |  | — | broncontrole uitvoeren |
+| 3618 |  | 3625 | Sissysound Record Store | sissysound.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3619 |  | 3626 | Vinylcorner | vinylcorner.at |  | PENDING |  | — | broncontrole uitvoeren |
+| 3620 |  | 3627 | Apartment Acht | apartmentacht.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3621 |  | 3628 | Audio Center | audiocenter.at |  | PENDING |  | — | broncontrole uitvoeren |
+| 3622 |  | 3629 | Black Monk | schallplatten-ankauf-verkauf.at |  | PENDING |  | — | broncontrole uitvoeren |
+| 3623 |  | 3630 | dimarco.at | dimarco.at |  | PENDING |  | — | broncontrole uitvoeren |
+| 3624 |  | 3631 | Good Things | goodthings.at |  | PENDING |  | — | broncontrole uitvoeren |
+| 3625 |  | 3632 | klang recordstore | klangrecordstore.at |  | PENDING |  | — | broncontrole uitvoeren |
+| 3626 |  | 3633 | Lenny | lennysmusicstore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3627 |  | 3634 | Major Babies | majorbabies.at |  | PENDING |  | — | broncontrole uitvoeren |
+| 3628 |  | 3635 | RARECS | rarecs.at |  | PENDING |  | — | broncontrole uitvoeren |
+| 3629 |  | 3636 | RECORDS` DOOR | recordsdoor.at |  | PENDING |  | — | broncontrole uitvoeren |
+| 3630 |  | 3637 | SCHALLTER | schallter.at |  | PENDING |  | — | broncontrole uitvoeren |
+| 3631 |  | 3638 | Spumante | spumante.space |  | PENDING |  | — | broncontrole uitvoeren |
+| 3632 |  | 3639 | Substance | substance-store.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3633 |  | 3640 | МАГАЗИН ВИНИЛОВЫХ ПЛАСТИНОК В МИНСКЕ | longplay.by |  | PENDING |  | — | broncontrole uitvoeren |
+| 3634 |  | 3641 | Boekhandel Stad Leest | stadleest.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3635 |  | 3642 | Cherry Picker Record Store | cherrypicker.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3636 |  | 3643 | Rombaux | rombaux.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3637 |  | 3644 | Caroline Music | release.carolinemusic-bxl.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3638 |  | 3645 | SEYMOUR KASSEL RECORDS | seymourkassel.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3639 |  | 3646 | Music Express | musicexpress.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3640 |  | 3647 | Tonys Muziekhuis | tonysmuziekhuis.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3641 |  | 3648 | Consouling Store | store.consouling.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3642 |  | 3649 | Music Mania Gent | musicmaniarecords.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3643 |  | 3650 | Pop-up MyGeneration | mygeneration.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3644 |  | 3651 | Jean-Paul Disques | koifaire.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3645 |  | 3652 | Bart Vinyl | bartvinyl.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3646 |  | 3653 | Smelt Records | smeltrecords.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3647 |  | 3654 | Lido Music | lidomusic.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3648 |  | 3655 | DJ Record Shop | djrecordshop.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3649 |  | 3656 | Initiales CD | initialescd.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3650 |  | 3657 | Boekhandel t Oneindige Verhaal | oneindigeverhaal.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3651 |  | 3658 | Topdisc | topdisc.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3652 |  | 3659 | Groefwerk | groefwerk.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3653 |  | 3660 | Blitz Entertainment Store | blent.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3654 |  | 3661 | re-COrDA records | re-cordarecords.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3655 |  | 3662 | THE VINYL TASTE | thetaste.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3656 |  | 3663 | Fonorama | fonorama.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3657 |  | 3664 | Boeken, e-books, e-readers, cd's, dvd's, games en geschenken | standaardboekhandel.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3658 |  | 3665 | Crisca | crisca.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3659 |  | 3666 | Djingel Djangel | djingeldjangel.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3660 |  | 3667 | Kalkman | kalkmangallery.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3661 |  | 3668 | K-Records | k-records.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3662 |  | 3669 | The Rocking Bull | shop.therockingbull.rocks |  | PENDING |  | — | broncontrole uitvoeren |
+| 3663 |  | 3670 | Sensation Records | sensationrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3664 |  | 3671 | Turtle Records | turtle-records.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3665 |  | 3672 | bilborecords.be | bilborecords.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3666 |  | 3673 | Crate Records | craterecords.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3667 |  | 3674 | Dust Dealers | dustdealers.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3668 |  | 3675 | Groovy International | popcornmusic.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3669 |  | 3676 | Meuse Music Records | meusemusicrecords.eu |  | PENDING |  | — | broncontrole uitvoeren |
+| 3670 |  | 3677 | Morbus Gravis | morbusgravis.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3671 |  | 3678 | musicmediacorner.be | musicmediacorner.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3672 |  | 3679 | Noiski records | noiski-shop.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3673 |  | 3680 | panoplybooksrecords.be | panoplybooksrecords.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3674 |  | 3681 | Pêle-Mêle | pele-mele.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3675 |  | 3682 | vynilla.be | vynilla.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 3676 |  | 3683 | Boa Viagem Discos | boaviagemdiscos.com.br |  | PENDING |  | — | broncontrole uitvoeren |
+| 3677 |  | 3684 | Taioba Discos | taiobadiscos.com.br |  | PENDING |  | — | broncontrole uitvoeren |
+| 3678 |  | 3685 | Jazz e Companhia Discos | jazzecompanhiadiscos.com.br |  | PENDING |  | — | broncontrole uitvoeren |
+| 3679 |  | 3686 | Melômano Discos | melomano.com.br |  | PENDING |  | — | broncontrole uitvoeren |
+| 3680 |  | 3687 | Memória Discos | memoriadiscos.com.br |  | PENDING |  | — | broncontrole uitvoeren |
+| 3681 |  | 3688 | Mr. Groove Records | mrgroove.com.br |  | PENDING |  | — | broncontrole uitvoeren |
+| 3682 |  | 3689 | Sertão Records | sertaorecords.com.br |  | PENDING |  | — | broncontrole uitvoeren |
+| 3683 |  | 3690 | Estilhaços Discos | estilhacosdiscos.com.br |  | PENDING |  | — | broncontrole uitvoeren |
+| 3684 |  | 3691 | FYASHOP | fyashop.com.br |  | PENDING |  | — | broncontrole uitvoeren |
+| 3685 |  | 3692 | London Calling Discos | londoncalling.com.br |  | PENDING |  | — | broncontrole uitvoeren |
+| 3686 |  | 3693 | ORB DISCOS | orbdiscos.com.br |  | PENDING |  | — | broncontrole uitvoeren |
+| 3687 |  | 3694 | Supreme Records | supremerecords.eu |  | PENDING |  | — | broncontrole uitvoeren |
+| 3688 |  | 3695 | Музикална библиотека | vinylhomevarna.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3689 |  | 3696 | Threechords Record Store | threechordsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3690 |  | 3697 | Sunrise Records | sunriserecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3691 |  | 3698 | hifi cabinet co | hificabinetcompany.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3692 |  | 3699 | Neon Taste Records | neontasterecords.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3693 |  | 3700 | Sloth Records | slothrecords.wordpress.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3694 |  | 3701 | Turn It Up! Records & Hi-Fi | turnituprecordsandhifi.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3695 |  | 3702 | Moon's Records | moonsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3696 |  | 3703 | Village Vinyl Emprium & Cafe | surgicallycleanair.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3697 |  | 3704 | The Beat Goes On | beatgoeson.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3698 |  | 3705 | Royal Cat Records | royalcatrecords.blogspot.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3699 |  | 3706 | Taz Records | taz-records.myshopify.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3700 |  | 3707 | The Record Shoppe | therecordshoppe.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3701 |  | 3708 | Sunrise Records | orchardparkshopping.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3702 |  | 3709 | X-Disc-C Music | xdisccmusic.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3703 |  | 3710 | Atomic Sound | atomicsound.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3704 |  | 3711 | Grooves Records | groovesrecordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3705 |  | 3712 | Odyssey Records | odysseyrecords.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3706 |  | 3713 | Freeson Rock | freesonrock.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3707 |  | 3714 | Phonopolis | phonopolis.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3708 |  | 3715 | Le Vacarme | levacarme.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3709 |  | 3716 | La Fin du Vinyle | deathofvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3710 |  | 3717 | Sunrise Records | placedorleans.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3711 |  | 3718 | Compact Music | compactmusic.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3712 |  | 3719 | Legend Records | legendrecords.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3713 |  | 3720 | The Record Centre | therecordcentre.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3714 |  | 3721 | ID Shop.ca | idshop.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3715 |  | 3722 | Dead Dog Records | deaddogrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3716 |  | 3723 | Dine Alone Records | dinealonestore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3717 |  | 3724 | flowrecords | flowrecordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3718 |  | 3725 | High Notes Coffee + Vinyl | highnotes.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3719 |  | 3726 | Invisible City Editions | invisiblecityeditions.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3720 |  | 3727 | Record Shop Emissions | recordshopemissions.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3721 |  | 3728 | Tonality Records | tonalityrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3722 |  | 3729 | Beach Sound Records | torontorecordstores.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3723 |  | 3730 | Puce Rock | pucerock.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3724 |  | 3731 | Beat Street Records | beatstreet.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3725 |  | 3732 | Red Cat Records | redcat.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3726 |  | 3733 | Audiopile Records | audiopile.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3727 |  | 3734 | Neptoon Records | neptoon.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3728 |  | 3735 | Ditch Records & CD's | ditchrecords.mystrikingly.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3729 |  | 3736 | Mile High Vinyl | milehighvinyl.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3730 |  | 3737 | Dr. Disc Records | drdiscrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3731 |  | 3738 | Frenchie's Records & Coffee | frenchiesrecords.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3732 |  | 3739 | 3Dawgs Vinyl | 3dawgsvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3733 |  | 3740 | Atom Heart | atomheart.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3734 |  | 3741 | Disquaire Général Nostalgie | disquairegeneralnostalgie.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3735 |  | 3742 | Disques La Rama | larama.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3736 |  | 3743 | Freds Records | fredsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3737 |  | 3744 | Kops Records | kopsrecords.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3738 |  | 3745 | Listen Records | shop.listenrecords.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 3739 |  | 3746 | Paradise Bound | paradisebound.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3740 |  | 3747 | Paramusic Records | paramusictoronto.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3741 |  | 3748 | Record Collectors Paradise | recordcollectorsparadise.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3742 |  | 3749 | Sound Fixation | soundfixation.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3743 |  | 3750 | 33 1/3 Record Store | 3313recordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3744 |  | 3751 | Chilliwax Records | chilliwax.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3745 |  | 3752 | Classic Replay | classicreplay.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3746 |  | 3753 | The Creative Bookworm | thecreativebookworm.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3747 |  | 3754 | Francophonies | francophonies.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3748 |  | 3755 | Freecloud Records | freecloud.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3749 |  | 3756 | Futhark Records | futharkrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3750 |  | 3757 | grooveyard.ca | grooveyard.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3751 |  | 3758 | Hit One Records | hitonerecords.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3752 |  | 3759 | Into the Music :: New and Used record store in Winnipeg, MB, Canada | intothemusic.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3753 |  | 3760 | Lukes Drug Mart | lukesdrugmart.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3754 |  | 3761 | melodiyarecords.ca | melodiyarecords.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3755 |  | 3762 | My Site | oldgoldvintagevinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3756 |  | 3763 | PCV Records | pcvrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3757 |  | 3764 | shop.greenbackspawnshop.com | shop.greenbackspawnshop.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3758 |  | 3765 | Shortstack Records Toronto (2015-2024) | shortstackrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3759 |  | 3766 | soundcentralstore.com | soundcentralstore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3760 |  | 3767 | Speed City Records | speedcityrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3761 |  | 3768 | Spin-it Records & Video | spin-itrecords.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3762 |  | 3769 | Trea Jah Isle Records | treajahisle.square.site |  | PENDING |  | — | broncontrole uitvoeren |
+| 3763 |  | 3770 | Kind of Blue | kindofblue.cl |  | PENDING |  | — | broncontrole uitvoeren |
+| 3764 |  | 3771 | Feria Mix | feriamix.cl |  | PENDING |  | — | broncontrole uitvoeren |
+| 3765 |  | 3772 | Solo Vinilos | solovinilos.cl |  | PENDING |  | — | broncontrole uitvoeren |
+| 3766 |  | 3773 | Sin Fronteras Discos | sinfronterasdiscos.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3767 |  | 3774 | SURCO RECORDS | surcotienda.co |  | PENDING |  | — | broncontrole uitvoeren |
+| 3768 |  | 3775 | Denki Records | denkirecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3769 |  | 3776 | Dancing Bear | dancingbear.hr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3770 |  | 3777 | Dirty Old Shop | dirtyoldempire.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3771 |  | 3778 | PDV Records x Merchandise | pdv.com.hr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3772 |  | 3779 | Analogni zvuk | analogni-zvuk.hr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3773 |  | 3780 | Free Bird Music Shop | freebird.hr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3774 |  | 3781 | Ola DJ | oladj.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3775 |  | 3782 | desertislandcy.com | desertislandcy.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3776 |  | 3783 | KSPACE. | kspaceproject.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3777 |  | 3784 | MusicRecords | musicrecords.cz |  | PENDING |  | — | broncontrole uitvoeren |
+| 3778 |  | 3785 | Gram Records | gramrecords.cz |  | PENDING |  | — | broncontrole uitvoeren |
+| 3779 |  | 3786 | diskoduck.cz | diskoduck.cz |  | PENDING |  | — | broncontrole uitvoeren |
+| 3780 |  | 3787 | Poli5 | polipet.cz |  | PENDING |  | — | broncontrole uitvoeren |
+| 3781 |  | 3788 | STEREO | stereo-vinylcultureshop.cz |  | PENDING |  | — | broncontrole uitvoeren |
+| 3782 |  | 3789 | Accord Lagersalg | accord.dk |  | PENDING |  | — | broncontrole uitvoeren |
+| 3783 |  | 3790 | Ooh aah records | oohaahrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3784 |  | 3791 | Mint Records | mintrecords.dk |  | PENDING |  | — | broncontrole uitvoeren |
+| 3785 |  | 3792 | RenMusik | renvinyl.dk |  | PENDING |  | — | broncontrole uitvoeren |
+| 3786 |  | 3793 | Borg Sound | borgsound.dk |  | PENDING |  | — | broncontrole uitvoeren |
+| 3787 |  | 3794 | RecordPusher | recordpusher.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3788 |  | 3795 | Musicon Records | musiconrecords.dk |  | PENDING |  | — | broncontrole uitvoeren |
+| 3789 |  | 3796 | Vinylfreak | vinylfreak34.dk |  | PENDING |  | — | broncontrole uitvoeren |
+| 3790 |  | 3797 | Musikhuset Kjeld Helmuth ApS | musik-huset.dk |  | PENDING |  | — | broncontrole uitvoeren |
+| 3791 |  | 3798 | Amager Records | amagerrecords.dk |  | PENDING |  | — | broncontrole uitvoeren |
+| 3792 |  | 3799 | New, Used and Rare Vinyl, CDs, DVDs and Memorabilia | soundstation.dk |  | PENDING |  | — | broncontrole uitvoeren |
+| 3793 |  | 3800 | Klampenborg Boghandel, Antikvariat & Retro | klampenborgretro.dk |  | PENDING |  | — | broncontrole uitvoeren |
+| 3794 |  | 3801 | Moby Disc | moby-disc.dk |  | PENDING |  | — | broncontrole uitvoeren |
+| 3795 |  | 3802 | Planet Candy, Music & Wines | planetcandy.dk |  | PENDING |  | — | broncontrole uitvoeren |
+| 3796 |  | 3803 | El Surco | elsurco.ec |  | PENDING |  | — | broncontrole uitvoeren |
+| 3797 |  | 3804 | CDC MUSIC | cdcmusicec.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3798 |  | 3805 | Distingo | distingomusicstores.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3799 |  | 3806 | Biit | biit.me |  | PENDING |  | — | broncontrole uitvoeren |
+| 3800 |  | 3807 | Nailboard Rock Shop | nailboard.org |  | PENDING |  | — | broncontrole uitvoeren |
+| 3801 |  | 3808 | Plastik.cc | plastik.cc |  | PENDING |  | — | broncontrole uitvoeren |
+| 3802 |  | 3809 | terminal.ee | terminal.ee |  | PENDING |  | — | broncontrole uitvoeren |
+| 3803 |  | 3810 | Tutl | tutl.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3804 |  | 3811 | Fresh Garbage Records | freshgarbage.fi |  | PENDING |  | — | broncontrole uitvoeren |
+| 3805 |  | 3812 | Goofin Records | goofinrecords.fi |  | PENDING |  | — | broncontrole uitvoeren |
+| 3806 |  | 3813 | Goosebumbs Records | goosebumbsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3807 |  | 3814 | Keltainen jäänsärkijä | jaansarkija.fi |  | PENDING |  | — | broncontrole uitvoeren |
+| 3808 |  | 3815 | A.H. Records | ahrecords.fi |  | PENDING |  | — | broncontrole uitvoeren |
+| 3809 |  | 3816 | Hippie Shake Records | hippieshakerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3810 |  | 3817 | Sarvilevyt | sarvilevyt.fi |  | PENDING |  | — | broncontrole uitvoeren |
+| 3811 |  | 3818 | Spectrum City | spectrumcityshop.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3812 |  | 3819 | Levykauppa 33 RPM Oy | 33rpm.fi |  | PENDING |  | — | broncontrole uitvoeren |
+| 3813 |  | 3820 | Ekepop skivbutik Eken�s Tammisaari Raseborg | ekepop.fi |  | PENDING |  | — | broncontrole uitvoeren |
+| 3814 |  | 3821 | Levykauppa Äx | levykauppax.fi |  | PENDING |  | — | broncontrole uitvoeren |
+| 3815 |  | 3822 | recordshopx.com | recordshopx.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3816 |  | 3823 | REDHILL RECORDS | redhillrecords.fi |  | PENDING |  | — | broncontrole uitvoeren |
+| 3817 |  | 3824 | Librairie Martin-Delbert | martin-delbert.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3818 |  | 3825 | La Librairie Musicale | lmi-partitions.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3819 |  | 3826 | Vinyles 61 | vinyles61.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3820 |  | 3827 | La Malle à Disques | lamalleadisques.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3821 |  | 3828 | Home Wax | homewax-records-shop.blogspot.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3822 |  | 3829 | Librairie Cosmopolite | librairiecosmopolite.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3823 |  | 3830 | Librairie Actes Sud | actes-sud.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3824 |  | 3831 | Big Star Records | bigstarrecords.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3825 |  | 3832 | Bazoom BD-Musique | bazoom-bd-musique.blogspot.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3826 |  | 3833 | Librairie Forum | forum-besancon.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3827 |  | 3834 | Bam Balam | bambalam.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3828 |  | 3835 | La Machine à Musique Lignerolles | lamachinealire.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3829 |  | 3836 | Total Heaven | pier.vidal.free.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3830 |  | 3837 | Dialogues Musiques | librairiedialogues.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3831 |  | 3838 | Mod Disc | mod-disc.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3832 |  | 3839 | Free Music | freemusic73.jimdofree.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3833 |  | 3840 | Passage Culturel &#8211; Dixie Disques | passage-culturel.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3834 |  | 3841 | Vinyles &#038; Hi-fi Vintage | vinyle-vintage.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3835 |  | 3842 | Librairie OCEP | oceplibrairie.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3836 |  | 3843 | Ciel Rouge | ciel-rouge.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3837 |  | 3844 | Black Market | blackmarketdijon.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3838 |  | 3845 | Le Grand Cercle | legrandcercle95.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3839 |  | 3846 | Besides Records | besides-records.tumblr.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3840 |  | 3847 | Daestore | daestore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3841 |  | 3848 | Dangerhouse | dangerhouse.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3842 |  | 3849 | Kraspek Myzik | kraspekmyzik.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3843 |  | 3850 | Les Allumés du Jazz | lesallumesdujazz.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3844 |  | 3851 | Rythm’n BD | rythmnbd.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3845 |  | 3852 | Lollipop Music Store | lollipopmusicstore.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3846 |  | 3853 | La Femme Renard | librairielafemmerenard.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3847 |  | 3854 | Station Music | woodbrass.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3848 |  | 3855 | Frozen Records | frozen-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3849 |  | 3856 | Sonic Import | sonic-import.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3850 |  | 3857 | Balades Sonores | baladessonores.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3851 |  | 3858 | Blazing | blazingmusicshop.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3852 |  | 3859 | COMETS | cafecomets.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3853 |  | 3860 | Culture Factory | culturefactory.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3854 |  | 3861 | HARK Records | hark.paris |  | PENDING |  | — | broncontrole uitvoeren |
+| 3855 |  | 3862 | Kanaga Records | kanaga-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3856 |  | 3863 | Lucky Records | lucky-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3857 |  | 3864 | Miniwax | miniwax.club |  | PENDING |  | — | broncontrole uitvoeren |
+| 3858 |  | 3865 | Music Fear Satan | musicfearsatan.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3859 |  | 3866 | Rock Paradise | rockparadise.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3860 |  | 3867 | Souffle Continu | soufflecontinu.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3861 |  | 3868 | Born Bad Records | bornbad.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3862 |  | 3869 | Crocojazz | crocodisc.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3863 |  | 3870 | Etoile Disques | etoiledisques.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3864 |  | 3871 | Hands &#038; Arms Music | handsandarms.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3865 |  | 3872 | Heartbeat Vinyl | heartbeatvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3866 |  | 3873 | Patate Records | patate-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3867 |  | 3874 | Le Rideau de Fer | lerideaudefer.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3868 |  | 3875 | La Voie du Silence | lavoiedusilence.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3869 |  | 3876 | Zic &#038; Bul | zicbul.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3870 |  | 3877 | Jet Records | jetrecords.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3871 |  | 3878 | Oso Records | oso-records.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3872 |  | 3879 | Librairie Ravy | librairieravy.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3873 |  | 3880 | Blindspot &#8211; Les Angles Morts | blindspot.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3874 |  | 3881 | Rockin’ Bones | beastrecords.free.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3875 |  | 3882 | Les Mondes Perdus | lesmondesperdus.free.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3876 |  | 3883 | Forum Saint-Etienne | forum-saint-etienne.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3877 |  | 3884 | 33 and Co | 33andco.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3878 |  | 3885 | Paul Emile Vinyls | disque-vinyle.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3879 |  | 3886 | Vicious Circle | toulouse.viciouscircle.org |  | PENDING |  | — | broncontrole uitvoeren |
+| 3880 |  | 3887 | The Rev’ | therev.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3881 |  | 3888 | Librairie Cheminant | librairiecheminant.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3882 |  | 3889 | Stigmate Record Shop | stigmate.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3883 |  | 3890 | ADIPOCERE SHOP | adipocere-shop.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3884 |  | 3891 | Arnaud Deverre Edition | arnauddeverre.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3885 |  | 3892 | Discophenia, disquaire de banlieue | discophenia.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3886 |  | 3893 | Le Disquaire du Dimanche | ledisquairedudimanche.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3887 |  | 3894 | Disquaire en ligne | melomane.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3888 |  | 3895 | Dizonord | dizonord.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3889 |  | 3896 | Doghouse and Bone | doghouseandbone.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3890 |  | 3897 | // La Face Cachée // Vente de VINYLES + CD + DVD + BD + HIFI // Neufs et occasions // | la-face-cachee.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3891 |  | 3898 | Ground Zero | groundzero.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3892 |  | 3899 | Illogicall Music | illogicall-music.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3893 |  | 3900 | Livity Records | livity-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3894 |  | 3901 | Locked Grooves | lockedgrooves.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3895 |  | 3902 | Mindtrip Record Store | mindtrip-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3896 |  | 3903 | MUSIC AVENUE PARIS | musicavenueparis.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3897 |  | 3904 | Oneness Records | 1ness.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3898 |  | 3905 | Plexusrecords | plexusrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3899 |  | 3906 | technoimport | techno-import.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3900 |  | 3907 | Yoyaku Record Store | yoyaku.io |  | PENDING |  | — | broncontrole uitvoeren |
+| 3901 |  | 3908 | 100% white puzzle records | myrecordstore.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3902 |  | 3909 | 134.33.67.120 13.11.2026 13:44:25 | mixape.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3903 |  | 3910 | Betinos | betinos.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3904 |  | 3911 | Chicken Road🎖️Jouez au crash Chicken Road Casino | lprecords22.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3905 |  | 3912 | Collector Boutique POESIE-SONORE.COM | poesie-sonore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3906 |  | 3913 | Le comptoir du disque | lecomptoirdudisque.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3907 |  | 3914 | Cougouyou music . le disquaire de Perpignan | cougouyou-music.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3908 |  | 3915 | Discomaniaks | discomaniaks.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3909 |  | 3916 | Disques vinyle hifi vid�o | vinylstory.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3910 |  | 3917 | extendandplay-records.com | extendandplay-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3911 |  | 3918 | gibert.com | gibert.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3912 |  | 3919 | itsonlyrennes.fr | itsonlyrennes.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3913 |  | 3920 | Je Console Sarreguemines | jeconsole57.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3914 |  | 3921 | laboutikbeatbazaar.shop | laboutikbeatbazaar.shop |  | PENDING |  | — | broncontrole uitvoeren |
+| 3915 |  | 3922 | L'Oreille KC | oreillekc.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3916 |  | 3923 | monstermelodies.fr | monstermelodies.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3917 |  | 3924 | parisdjs.com | parisdjs.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3918 |  | 3925 | PASSE PASSE STORE | passepassestore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3919 |  | 3926 | select records | select-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3920 |  | 3927 | Site en construction | atomikimport.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3921 |  | 3928 | Sofa Records | sofarecords.fr |  | PENDING |  | — | broncontrole uitvoeren |
+| 3922 |  | 3929 | Sonic Import | sonic-vinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3923 |  | 3930 | Superfly Records | superflyrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3924 |  | 3931 | Toolbox records | toolboxrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3925 |  | 3932 | vintage-vinyl | sues-vinyls.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3926 |  | 3933 | 大地资源在线观看高清韩剧网 | dubwize-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3927 |  | 3934 | Arrivals to Retromania Records | retromania.ge |  | PENDING |  | — | broncontrole uitvoeren |
+| 3928 |  | 3935 | Echobeat Records | echobeat-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3929 |  | 3936 | Pit‘s Record Store | pits-record-store.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3930 |  | 3937 | PartyOnTour.de Veranstaltungstechnik | partyontour.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3931 |  | 3938 | Noisebringer Records Store | noisebringer.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3932 |  | 3939 | Monochrom Records | monochrom-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3933 |  | 3940 | Anagram Space | anagramspace.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3934 |  | 3941 | Bis aufs Messer | bisaufsmesser.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3935 |  | 3942 | EG Distribution GmbH | evilgreed.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 3936 |  | 3943 | Muting The Noise | mutingthenoise.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3937 |  | 3944 | recordsale.de | recordsale.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3938 |  | 3945 | Sentimental Youth | sentimentalyouth.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3939 |  | 3946 | SEVEN Community Record Store | seven.berlin |  | PENDING |  | — | broncontrole uitvoeren |
+| 3940 |  | 3947 | Sound Metaphors Record Shop | soundmetaphors.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3941 |  | 3948 | 33rpm classical records | 33rpm.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3942 |  | 3949 | Disconnect Art Gallery and Record Shop | disconnectberlin.wordpress.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3943 |  | 3950 | Holy’s Hit Records | holyshitrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3944 |  | 3951 | Lefter Records | lefterrecords.wordpress.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3945 |  | 3952 | Logo Records | logo-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3946 |  | 3953 | Musictrain Records | musictrain-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3947 |  | 3954 | Purple Penny Records | purplepennyrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3948 |  | 3955 | The Recordstore Berlin | therecordstore-berlin.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3949 |  | 3956 | Vinyl a Gogo | vinyl-a-gogo.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3950 |  | 3957 | Vinylberlin | vinylberlin.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3951 |  | 3958 | Bahlo Records | bahlo-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3952 |  | 3959 | Riptide | cafe-riptide.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3953 |  | 3960 | RauteRecords | rauterecords.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3954 |  | 3961 | Cashmir-Schallplatten | cashmir-schallplatten.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3955 |  | 3962 | Groove Attack Record Store | grooveattackrs.bigcartel.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3956 |  | 3963 | Music Rebel | rockersuptown.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3957 |  | 3964 | Good Mood Records | goodmoodrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3958 |  | 3965 | plattschallen | plattschallen.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3959 |  | 3966 | Underdog Record Store | underdogrecordstore.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3960 |  | 3967 | Nuclear Blast | nuclearblast.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3961 |  | 3968 | Vinylcafe Schwarzes Gold | vinylcafeschwarzesgold.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3962 |  | 3969 | Idiots Records | idiots.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3963 |  | 3970 | Amsterdam Record Shop | amsterdam-record-shop.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3964 |  | 3971 | Archiv | archiv-cd.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3965 |  | 3972 | Black Plastic | blackplastic.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3966 |  | 3973 | Rainking Recordstore | rainking-recordstore.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3967 |  | 3974 | 9Dart Records | 9dart-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3968 |  | 3975 | Woodstock Recordstore | woodstock-recordstore.github.io |  | PENDING |  | — | broncontrole uitvoeren |
+| 3969 |  | 3976 | Der Schallplattenmann | derschallplattenmann.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3970 |  | 3977 | Vinyl Lounge | vinyl-lounge.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3971 |  | 3978 | Yeah Records | yeah-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3972 |  | 3979 | Formatio Kupfergold | shop.formatio-kupfergold.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3973 |  | 3980 | Mythos Records | mythos-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3974 |  | 3981 | Tactile Record Store | tactilemusic.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3975 |  | 3982 | Mono | mono-tontraeger.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3976 |  | 3983 | Der Plattenladen | derplattenladen-freiburg.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3977 |  | 3984 | Marleen CD- und Plattenladen | marleenrecords.wordpress.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3978 |  | 3985 | Schall & Rausch Tonträger | s-r-t.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3979 |  | 3986 | Cruise Records | cruiserecords.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3980 |  | 3987 | Musikhaus Karami | musikhauskarami.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3981 |  | 3988 | Backrecords | backrecords.blogspot.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3982 |  | 3989 | Fun Records | funrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3983 |  | 3990 | Wir Kaufen Schallplatten | wir-kaufen-schallplatten.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3984 |  | 3991 | Der Plattenladen | plattenladen-heilbronn.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3985 |  | 3992 | Ebbtone - Record & Comics | ebbtone.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3986 |  | 3993 | Hellion Records | hellionrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3987 |  | 3994 | Haithabu-Vinyl | haithabu-vinyl.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3988 |  | 3995 | Lost & Found Schallplatten | das-schallplatte.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3989 |  | 3996 | Fire and Flames | fireandflames.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3990 |  | 3997 | Groove Zone Records | groovezonerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3991 |  | 3998 | Isle Of Records | isleofrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3992 |  | 3999 | Schallplattenlager | schallplattenlager.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3993 |  | 4000 | Q-Records & more | recordsandmore.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3994 |  | 4001 | GuitarPoint | shop.guitarpoint.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3995 |  | 4002 | For The Record | fortherecord.store |  | PENDING |  | — | broncontrole uitvoeren |
+| 3996 |  | 4003 | Vinylgarage | vinyl-garage.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 3997 |  | 4004 | Optimal Records | optimal-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3998 |  | 4005 | Best Records | bestvinyl.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3999 |  | 4006 | Black Wave Records | blackwaverecords.wordpress.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4000 |  | 4007 | Gutfeeling Recordstore | gutfeeling.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4001 |  | 4008 | M2 | m2music.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4002 |  | 4009 | Mono Records + CDs | sechzig.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4003 |  | 4010 | Kernkrach Schallplatten | kernkrach-recordstore.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4004 |  | 4011 | Good Old Vinyl | tattoo22.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4005 |  | 4012 | Imagine Schallplatten | imagine-schallplatten.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4006 |  | 4013 | mainrecords | mainrecords.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4007 |  | 4014 | Shock Records & Coffee | shock-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4008 |  | 4015 | Bebap records | barbaradennerlein.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4009 |  | 4016 | Schellack Plattenshop | schellack-plattenshop.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4010 |  | 4017 | Humpty Records | humptyrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4011 |  | 4018 | Action Music | action-music.eu |  | PENDING |  | — | broncontrole uitvoeren |
+| 4012 |  | 4019 | Der Schallplattenladen | vinyl-hst.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4013 |  | 4020 | Cheap Trash Records | cheaptrashrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4014 |  | 4021 | Pauls Musique Records | paulsmusique.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4015 |  | 4022 | Ratzer Records Plattencafe | ratzer-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4016 |  | 4023 | soundservice | soundservice-vs.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4017 |  | 4024 | Plattenbox | plattenbox-wiesbaden.jimdosite.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4018 |  | 4025 | Plattenlauscher | plattenlauscher.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4019 |  | 4026 | Heaven Records | heaven-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4020 |  | 4027 | Cargo Records | cargo-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4021 |  | 4028 | a-musik: mailorder, distribution, recordshop, label | a-musik.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4022 |  | 4029 | AngelRecords | angelrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4023 |  | 4030 | art box Ravensburg | artboxravensburg.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4024 |  | 4031 | BPitch Control | bpitch.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4025 |  | 4032 | Connaisseur | vinylkatalog.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4026 |  | 4033 | CSM | colognestreetmarket.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4027 |  | 4034 | Dodo Beach | dodobeach.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4028 |  | 4035 | Freiheit & Roosen | shop.hafenschlammrekords.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4029 |  | 4036 | Green Hell Shop Vinyl Records and Merchandise | greenhell.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4030 |  | 4037 | Kompakt | kompakt.fm |  | PENDING |  | — | broncontrole uitvoeren |
+| 4031 |  | 4038 | Marshall.com | marshall.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4032 |  | 4039 | Michelle Records Hamburg. | michelle-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4033 |  | 4040 | Musicland Spandau | musicland-spandau.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4034 |  | 4041 | Music & More | onlineshop.musicundmore.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4035 |  | 4042 | Musikhaus Schlaile | schlaile.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4036 |  | 4043 | Musikzimmer | musikzimmer.store |  | PENDING |  | — | broncontrole uitvoeren |
+| 4037 |  | 4044 | OYE Records | oye-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4038 |  | 4045 | Plattenkiste | plattenkiste.nonstop-merch.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4039 |  | 4046 | Remedy Records | remedyrecords.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4040 |  | 4047 | Retro Nico | retro-nico.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4041 |  | 4048 | Rockers Records | rockers.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4042 |  | 4049 | Second Hand Records | secondhandrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4043 |  | 4050 | Selekta Reggae Record Shop | selekta-shop.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4044 |  | 4051 | Toxic Toast | toxic-toast-shop.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4045 |  | 4052 | Vinylnerds | vinylnerds.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4046 |  | 4053 | Vinyl to Second Shop | vinyltosecond.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4047 |  | 4054 | Violet Records | violetrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4048 |  | 4055 | Zucht und Zucker | zuchtundzucker.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4049 |  | 4056 | 12inch | 12inch.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4050 |  | 4057 | 33 1/3 Schallplatten | schallplatten-duisburg.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4051 |  | 4058 | Aktiv Music Point | aktivmusicpointbochum.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4052 |  | 4059 | analogetontraeger | analogetontraeger.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4053 |  | 4060 | andrä | cd-andrae.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4054 |  | 4061 | Antisocial | antisocial.store |  | PENDING |  | — | broncontrole uitvoeren |
+| 4055 |  | 4062 | A&O Medien | aundo-medien.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4056 |  | 4063 | apoSKAlypse Soundz | aposkalypsesoundz.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4057 |  | 4064 | B12musics | b12musics.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4058 |  | 4065 | Barrett`s Revenge Records | barrettsrevenge.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4059 |  | 4066 | Baustelle! | schallzentrale.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4060 |  | 4067 | beat´s n melodies | derkleineplattenladen.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4061 |  | 4068 | Bebop Schallplatten | bebop-schallplatten.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4062 |  | 4069 | Capri Records | capri-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4063 |  | 4070 | CD Bessungen | blumen-studio-kalbfuss.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4064 |  | 4071 | Clearaudio | clearaudio.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4065 |  | 4072 | coretexrecords.com | coretexrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4066 |  | 4073 | cudgel | cudgel.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4067 |  | 4074 | decks.de | decks.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4068 |  | 4075 | deejay.de | deejay.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4069 |  | 4076 | derHeimathafen | derheimathafen.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4070 |  | 4077 | Discover Music | discover-music.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4071 |  | 4078 | discover-records.de | discover-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4072 |  | 4079 | DISCY Musik Buch Film | discy.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4073 |  | 4080 | djshop.de | djshop.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4074 |  | 4081 | Dock's LP & CD Börse | cdboerse-muenchen.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4075 |  | 4082 | Drake Records Vinyl Store / Schallplatten An- u. Verkauf | drakerecords.jimdofree.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4076 |  | 4083 | Drop Out Records | drop-out-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4077 |  | 4084 | Dussmann – Das KulturKaufhaus | kulturkaufhaus.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4078 |  | 4085 | Dux Records | duxrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4079 |  | 4086 | fatplastics.com | fatplastics.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4080 |  | 4087 | Firestation Records: Record label, second-hand record store and mailorder, Berlin Germany | firestation-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4081 |  | 4088 | Flight 13 Records | flight13.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4082 |  | 4089 | froedy-records.com | froedy-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4083 |  | 4090 | FUNDAMENT Schallplatten | fundament.works |  | PENDING |  | — | broncontrole uitvoeren |
+| 4084 |  | 4091 | Groove City Recordstore* | groovecityrecordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4085 |  | 4092 | H2O Records | h2o-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4086 |  | 4093 | Hanseplatte | hanseplatte.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4087 |  | 4094 | Hard Wax | hardwax.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4088 |  | 4095 | Hauptsache Musik | 2020-hauptsache-musik.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4089 |  | 4096 | hhv.de | hhv.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4090 |  | 4097 | high-fidelity-ac.de | high-fidelity-ac.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4091 |  | 4098 | Hitsville Recordstore | hitsville.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4092 |  | 4099 | HONEY BUCKET RECORDS | honey-bucket.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4093 |  | 4100 | Hugos Plattenkiste | hugos-plattenkiste.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4094 |  | 4101 | InchByInch | inchbyinch.eu |  | PENDING |  | — | broncontrole uitvoeren |
+| 4095 |  | 4102 | independent-vinyl | independent-vinyl.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4096 |  | 4103 | JACKSON RECORDS | jackson-records.berlin |  | PENDING |  | — | broncontrole uitvoeren |
+| 4097 |  | 4104 | Ju-Ju Trumpet | jujutrumpet.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4098 |  | 4105 | Langspielzimmer | langspielzimmer.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4099 |  | 4106 | Laravel | kill-o-zap.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4100 |  | 4107 | Lese mehr über diese Zwecke | cookiedatabase.org |  | PENDING |  | — | broncontrole uitvoeren |
+| 4101 |  | 4108 | LoewenRecords | loewenrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4102 |  | 4109 | Love for Sale | loveforsale.org |  | PENDING |  | — | broncontrole uitvoeren |
+| 4103 |  | 4110 | Ludwig Beck | kaufhaus.ludwigbeck.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4104 |  | 4111 | Malt & Music | malt-music.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4105 |  | 4112 | maoz Vinyl & Kaffee | maoz-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4106 |  | 4113 | Meltingpoint Vinyl & Tapes | meltingpointch.wordpress.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4107 |  | 4114 | minigroove-hamburg.de | minigroove-hamburg.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4108 |  | 4115 | mintmag.de | mintmag.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4109 |  | 4116 | Minty Vinyl | minty-vinyl.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4110 |  | 4117 | mono-Ton Schallplatten | mono-ton.eu |  | PENDING |  | — | broncontrole uitvoeren |
+| 4111 |  | 4118 | Moon Dance | moon-dance-berlin.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4112 |  | 4119 | Mo's Plattenladen | mosplattenladen.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4113 |  | 4120 | Music Corner Buer | music-corner-buer.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4114 |  | 4121 | Musikfundgrube | musikfundgrube-erfurt.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4115 |  | 4122 | musikgarage.de | musikgarage.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4116 |  | 4123 | musikhaus-kietz.de | musikhaus-kietz.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4117 |  | 4124 | Musikkammer | musikkammer.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4118 |  | 4125 | No 2 Records | no2-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4119 |  | 4126 | Oberland-Records | oberland-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4120 |  | 4127 | Ohrwurm | ohrwurm-cds.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4121 |  | 4128 | Onkel Stereo | onkelstereo.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4122 |  | 4129 | OTAKU Records | otaku-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4123 |  | 4130 | Parallel Schallplatten | parallel-schallplatten.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4124 |  | 4131 | DE PLAAT | deplaat.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4125 |  | 4132 | plattebox-wiesbaden.de | plattebox-wiesbaden.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4126 |  | 4133 | Plattenbau | plattenbau-aachen.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4127 |  | 4134 | Plattenbau Schermbeck | plattenbau.nrw |  | PENDING |  | — | broncontrole uitvoeren |
+| 4128 |  | 4135 | Der Plattenguru in Th�ringen | plattenguru.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4129 |  | 4136 | Plattenjunks Recordstore | plattenjunks.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4130 |  | 4137 | Plattenladen in München mit Verkauf von Vinyl (LPs) und CDs | die-tonabnehmer.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4131 |  | 4138 | Der Plattenladen in Witten | andes-plattenbau.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4132 |  | 4139 | Plattenrille | plattenrille.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4133 |  | 4140 | Praxis | praxis-records.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4134 |  | 4141 | publicpossession.com | publicpossession.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4135 |  | 4142 | Pure Soul Recordshop | puresoul.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4136 |  | 4143 | Raum & Klang | raum-und-klang.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4137 |  | 4144 | Rebel Music Berlin | rebel-music-berlin.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4138 |  | 4145 | Records.de | records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4139 |  | 4146 | Records For Future | recordsforfuture.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4140 |  | 4147 | Recordwars | recordwars.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4141 |  | 4148 | Retrotrain – Vinyl & Games | recordstores.love |  | PENDING |  | — | broncontrole uitvoeren |
+| 4142 |  | 4149 | Rimpo Tonträger | rimpo.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4143 |  | 4150 | Rockabilly Hamburg > Nostalgie Shop > 40s, 50s 'n 60s Mode & Musik | rockabilly-hamburg.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4144 |  | 4151 | Rock Steady Records | rocksteady.berlin |  | PENDING |  | — | broncontrole uitvoeren |
+| 4145 |  | 4152 | Rock Store Grendplatz 7, 45276 Essen 45276 Essen Deutschland    Musikpalast Flensburg | rockstore-essen.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4146 |  | 4153 | rockstore-marktschwaben.de | rockstore-marktschwaben.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4147 |  | 4154 | Schallplatte | schallplatte.org |  | PENDING |  | — | broncontrole uitvoeren |
+| 4148 |  | 4155 | Schallträger | schalltraeger.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4149 |  | 4156 | Scheibenbeisser | scheibenbeisser.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4150 |  | 4157 | Scheibenkleister | scheibenkleister-oldenburg.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4151 |  | 4158 | Second Vinyl | second-vinyl.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4152 |  | 4159 | Sick Wreckords | sickwreckords.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4153 |  | 4160 | Signature Music | signature-music.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4154 |  | 4161 | Silver Disc | silverdisc.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4155 |  | 4162 | Slam Records | slam-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4156 |  | 4163 | Sleeve++ | sleeveplusplus.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4157 |  | 4164 | soultunes vinylstore & urban art | shop.soultunes.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4158 |  | 4165 | SoundEck aktiv Musik | soundeck.eprojekt.org |  | PENDING |  | — | broncontrole uitvoeren |
+| 4159 |  | 4166 | Spacehall Berlin | spacehall.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4160 |  | 4167 | Strangeville Records | strangeville-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4161 |  | 4168 | Studio Illegale | studioillegale.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4162 |  | 4169 | Sweetwater Recordstore | sweetwaterjazz.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4163 |  | 4170 | TAM TAM Recordshop | tamtam-recordshop.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4164 |  | 4171 | Three Canaries Records | 3canaries.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4165 |  | 4172 | Trauma Records | trauma-records.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4166 |  | 4173 | Triangel | triangelshop.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4167 |  | 4174 | Vinyl Audio Design | vinyl-audio-design.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4168 |  | 4175 | VinylBrühl | vinylbruehl.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4169 |  | 4176 | vinyl-digital.com | vinyl-digital.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4170 |  | 4177 | Wartungsarbeiten / Maintenance | indiepunk.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4171 |  | 4178 | Welcome to Lucky Star Records | lucky-star-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4172 |  | 4179 | Why Not | about.me |  | PENDING |  | — | broncontrole uitvoeren |
+| 4173 |  | 4180 | Wollis Record Store | wollisrecord.store |  | PENDING |  | — | broncontrole uitvoeren |
+| 4174 |  | 4181 | Zardoz Schallplatten | zardoz-schallplatten.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4175 |  | 4182 | No Remorse Records | noremorse.gr |  | PENDING |  | — | broncontrole uitvoeren |
+| 4176 |  | 4183 | Underflow Record Store and Art Gallery | underflow.gr |  | PENDING |  | — | broncontrole uitvoeren |
+| 4177 |  | 4184 | Empire Vinyl-CD-DVD | empirestore.gr |  | PENDING |  | — | broncontrole uitvoeren |
+| 4178 |  | 4185 | vinylstore.gr | vinylstore.gr |  | PENDING |  | — | broncontrole uitvoeren |
+| 4179 |  | 4186 | Κεχαΐδης Α.Ε. Μουσική Ήχος Φωτισμός | kechaidis.gr |  | PENDING |  | — | broncontrole uitvoeren |
+| 4180 |  | 4187 | LoFi Concept | loficoncept.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4181 |  | 4188 | Modernistas Records | modernistas.gr |  | PENDING |  | — | broncontrole uitvoeren |
+| 4182 |  | 4189 | myrecords | myrecords.gr |  | PENDING |  | — | broncontrole uitvoeren |
+| 4183 |  | 4190 | To Diskadiko | todiskadiko.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4184 |  | 4191 | Usedrecords.gr | usedrecords.gr |  | PENDING |  | — | broncontrole uitvoeren |
+| 4185 |  | 4192 | entropia-records.com | entropia-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4186 |  | 4193 | Joe Records | joe.gr |  | PENDING |  | — | broncontrole uitvoeren |
+| 4187 |  | 4194 | Lotus Record Shop | lotus.gr |  | PENDING |  | — | broncontrole uitvoeren |
+| 4188 |  | 4195 | Manik Records | manikrecords.wordpress.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4189 |  | 4196 | Mr Vinylios Records | mrvinyliosrecords.gr |  | PENDING |  | — | broncontrole uitvoeren |
+| 4190 |  | 4197 | musicaloffering.gr | musicaloffering.gr |  | PENDING |  | — | broncontrole uitvoeren |
+| 4191 |  | 4198 | Music Corner | musiccornerstore.gr |  | PENDING |  | — | broncontrole uitvoeren |
+| 4192 |  | 4199 | Music Works | musicworks.gr |  | PENDING |  | — | broncontrole uitvoeren |
+| 4193 |  | 4200 | Orbersvinyl.com | orbersvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4194 |  | 4201 | RHYTHM RECORDS | rhythmrecords.gr |  | PENDING |  | — | broncontrole uitvoeren |
+| 4195 |  | 4202 | scarecrow.gr | scarecrow.gr |  | PENDING |  | — | broncontrole uitvoeren |
+| 4196 |  | 4203 | Vinylrecords.gr is coming soon | vinylrecords.gr |  | PENDING |  | — | broncontrole uitvoeren |
+| 4197 |  | 4204 | White Noise Records | whitenoiserecords.org |  | PENDING |  | — | broncontrole uitvoeren |
+| 4198 |  | 4205 | akt records | aktrecords.hu |  | PENDING |  | — | broncontrole uitvoeren |
+| 4199 |  | 4206 | MG Records | mgrecords.hu |  | PENDING |  | — | broncontrole uitvoeren |
+| 4200 |  | 4207 | Neon Music Hungary | neonmusic.hu |  | PENDING |  | — | broncontrole uitvoeren |
+| 4201 |  | 4208 | [musicland] �j �s haszn�lt LP, CD, DVD bolt �s web�ruh�z | musicland.hu |  | PENDING |  | — | broncontrole uitvoeren |
+| 4202 |  | 4209 | Plötubúðin.is | plotubudin.is |  | PENDING |  | — | broncontrole uitvoeren |
+| 4203 |  | 4210 | Smekkleysa | smekkleysa.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4204 |  | 4211 | luckyrecords.is | luckyrecords.is |  | PENDING |  | — | broncontrole uitvoeren |
+| 4205 |  | 4212 | On The Jungle Floor | onthejunglefloor.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4206 |  | 4213 | Ram's Musique Experience | ramsmusique.in |  | PENDING |  | — | broncontrole uitvoeren |
+| 4207 |  | 4214 | Concept Kart | conceptkart.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4208 |  | 4215 | MusicCircle | musiccircle.co.in |  | PENDING |  | — | broncontrole uitvoeren |
+| 4209 |  | 4216 | Pagal Records Blog | pagalrecordstore.wordpress.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4210 |  | 4217 | Playlist Record Store | playlistrecordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4211 |  | 4218 | 33دور | 33dor.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4212 |  | 4219 | Everest Music and Piano Centre | everestmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4213 |  | 4220 | Opus II | opus2galway.ie |  | PENDING |  | — | broncontrole uitvoeren |
+| 4214 |  | 4221 | Freebird Records | freebirdrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4215 |  | 4222 | The R.A.G.E. | therage.ie |  | PENDING |  | — | broncontrole uitvoeren |
+| 4216 |  | 4223 | Claddagh Records | claddaghrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4217 |  | 4224 | Golden Discs | goldendiscs.ie |  | PENDING |  | — | broncontrole uitvoeren |
+| 4218 |  | 4225 | The Record Rack | therecordrack.ie |  | PENDING |  | — | broncontrole uitvoeren |
+| 4219 |  | 4226 | Luca Records | lucarecords.ie |  | PENDING |  | — | broncontrole uitvoeren |
+| 4220 |  | 4227 | All City Records | allcityrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4221 |  | 4228 | Absys Records | absysrec.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4222 |  | 4229 | Lucky Lane | luckylane.ie |  | PENDING |  | — | broncontrole uitvoeren |
+| 4223 |  | 4230 | Sentinel Records | sentinelrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4224 |  | 4231 | פסנתרי זוהר | zoharpianos.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4225 |  | 4232 | Beatnik Record Store | beatnik.co.il |  | PENDING |  | — | broncontrole uitvoeren |
+| 4226 |  | 4233 | Sympaty Record's | simpatyrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4227 |  | 4234 | Vinyl Store | vinyl-store.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4228 |  | 4235 | Disco Magazine | discomagazine.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4229 |  | 4236 | Flamingo | flamingorecords.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4230 |  | 4237 | Disco Club | discoclub65.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4231 |  | 4238 | Vinileria | vinileria.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4232 |  | 4239 | Disco Stores | discostores.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4233 |  | 4240 | Symphony Shop | symphonyshop.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4234 |  | 4241 | Spazio 432 | spazio432.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4235 |  | 4242 | Disco Due In | discodue.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4236 |  | 4243 | Rosseti recordsandbooks | rossettirecordsandbooks.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4237 |  | 4244 | FFR Record Shop | ffrrecordshop.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4238 |  | 4245 | Gold Soundz Dischi | goldsoundz.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4239 |  | 4246 | HiFi Record | hifirecord.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4240 |  | 4247 | Discoteca Laziale | discotecalaziale.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4241 |  | 4248 | Radiation Records | radiationrecords.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4242 |  | 4249 | Millerecords | millerecords.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4243 |  | 4250 | Asbury Park | asburyrecords.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4244 |  | 4251 | Superdisco Due | superdiscodue.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4245 |  | 4252 | Casa del Disco De Fazio | casadeldisco.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4246 |  | 4253 | Vinyl Zone | vinylzoneshop.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4247 |  | 4254 | Klec Records | klecrecords.myshopify.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4248 |  | 4255 | Amadeus Dischi | amadeusdischi.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4249 |  | 4256 | Casa del Disco Faenza | casadeldiscofaenza.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4250 |  | 4257 | Discoshop Detommaso | discoshopdetommaso.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4251 |  | 4258 | DJ Land | djland.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4252 |  | 4259 | Filmusica.it HOMEPAGE | filmusica.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4253 |  | 4260 | Jungle Records | junglerecords.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4254 |  | 4261 | LaPianola | lapianola.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4255 |  | 4262 | MADA-RECORDS | madarecords.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4256 |  | 4263 | Militant Soul | militantsoul.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4257 |  | 4264 | MOVE ON Firenze | moveonfirenze.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4258 |  | 4265 | Solo Vinili | solovinili.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4259 |  | 4266 | sonic belligeranza | sonicbelligeranza.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4260 |  | 4267 | Ultrasuoni Records | ultrasuonirecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4261 |  | 4268 | 23cdstore.it | 23cdstore.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4262 |  | 4269 | Bot Verification | jollyrogerstore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4263 |  | 4270 | cdclubentertainment.com | cdclubentertainment.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4264 |  | 4271 | Chicken Records | chickenrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4265 |  | 4272 | discobolandia.it | discobolandia.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4266 |  | 4273 | Disco d'Oro | discodoro.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4267 |  | 4274 | Disco vinile in vendita online | indie.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4268 |  | 4275 | DOUBLE SIDE RECORDS | doublesiderecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4269 |  | 4276 | gabbiadischi | gabbiadischi.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4270 |  | 4277 | GrooveLab Records | groovelabrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4271 |  | 4278 | Gugumed | gugumed.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4272 |  | 4279 | - Hate Records | haterecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4273 |  | 4280 | Musica Musica Perugia: we sell vinyl, cd, dvd, vhs | musicamusicaperugia.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4274 |  | 4281 | Pace Music | pacemusic.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4275 |  | 4282 | PinkMoonRecords.com | pinkmoonrecords.eu |  | PENDING |  | — | broncontrole uitvoeren |
+| 4276 |  | 4283 | Rebirth Distribution | rebirthdistribution.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4277 |  | 4284 | Redmoon Records | redmoonrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4278 |  | 4285 | selling and buying of new or used vinyl records and audio equipment | ledisquestore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4279 |  | 4286 | semplicementedischi.com | semplicementedischi.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4280 |  | 4287 | Strictly Groove Label Company | strictlygrooverecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4281 |  | 4288 | To Lose La Track | toloselatrack.org |  | PENDING |  | — | broncontrole uitvoeren |
+| 4282 |  | 4289 | trovacd.it | trovacd.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4283 |  | 4290 | Vinili, CD e DVD: negozio di dischi e distribuzione Pickup Records | pickuprecords.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4284 |  | 4291 | Vinyl For Sale , Online Record Shop , Second Hand And Used Vinyls | recordstore.it |  | PENDING |  | — | broncontrole uitvoeren |
+| 4285 |  | 4292 | Les Yper Sound | lysrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4286 |  | 4293 | TICRO MARKET | ticro.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4287 |  | 4294 | Strada Records | stradarecords.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4288 |  | 4295 | Cocobeat records | cocobeat-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4289 |  | 4296 | Meditations | meditations.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4290 |  | 4297 | Plastic Soul Records | plasticsoulrecord.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4291 |  | 4298 | Sixth Garden Records | sixthgarden.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4292 |  | 4299 | REALLY GOOD | reallygood.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4293 |  | 4300 | Music Punch RECORDS | musicpunchrecords.ti-da.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4294 |  | 4301 | CELLAR RECORDS | cellar-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4295 |  | 4302 | Alffo Recordss | alfforecords.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4296 |  | 4303 | Especial Records | especial-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4297 |  | 4304 | Morpho Records | morphorecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4298 |  | 4305 | RECORD SHOP rare groove | raregroove.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4299 |  | 4306 | Revenge records | revenge-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4300 |  | 4307 | Time Bomb Records | timebomb.co.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4301 |  | 4308 | Vox music | voxmusicweb.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4302 |  | 4309 | Bluesoul records | bluesoulrecords.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4303 |  | 4310 | Groovenut Records | groovenutrecords.stores.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4304 |  | 4311 | Rock Stakk Records | rockstakk.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4305 |  | 4312 | Root Down Records | rootdownrecords.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4306 |  | 4313 | Tototo records | tototorecords.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4307 |  | 4314 | OVEN UNIVERSE | ovenuniverse.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4308 |  | 4315 | Anchor Records | anchorrecord.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4309 |  | 4316 | BIG LOVE RECORDS | bigloverecords.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4310 |  | 4317 | Record Boy | recordboy.shop-pro.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4311 |  | 4318 | Glocal Records | glocalrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4312 |  | 4319 | Hal's Record | hals-jazz.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4313 |  | 4320 | HMV record shop | hmv.co.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4314 |  | 4321 | Jet Set Records | jetsetrecords.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4315 |  | 4322 | Lighthouse Records | lighthouserecords.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4316 |  | 4323 | Oldies But Goodies Records | oldiesbutgoodies-tokyo.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4317 |  | 4324 | Union Record Shibuya Parco | unionrecord-shibuya.blog.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4318 |  | 4325 | Art into Life | art-into-life.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4319 |  | 4326 | diskunion.net | diskunion.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4320 |  | 4327 | EXILE RECORDS | exilerecords.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4321 |  | 4328 | GRIND RECORDS | grindrecord.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4322 |  | 4329 | Newtone Records | newtone-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4323 |  | 4330 | OTAIRECORD | otaiweb.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4324 |  | 4331 | PEANUTS RECORDS | peanutsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4325 |  | 4332 | RANA-MUSICA RECORD STORE | ranamusica.info |  | PENDING |  | — | broncontrole uitvoeren |
+| 4326 |  | 4333 | RECORDSTAION | recordstation.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4327 |  | 4334 | SoundChannel��music store | soundchannel.shop-pro.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4328 |  | 4335 | Underground Gallery Record Store | undergroundgallery.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4329 |  | 4336 | ���ÁE�A�����R�[�h/CD�E���y�\�t�g �̔��E����@PLUS1 A.D. | plus1ad.web.fc2.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4330 |  | 4337 | ���Ã��R�[�h �ʔ� �bKENT RECORD �n�E�X���X | record8.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4331 |  | 4338 | CASTLE-RECORDS/TOPページ | castle-records.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4332 |  | 4339 | cdya.biz | cdya.biz |  | PENDING |  | — | broncontrole uitvoeren |
+| 4333 |  | 4340 | CDソフトケース.com｜CD収納スペースを3分の1に | cdsoftcase.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4334 |  | 4341 | COCONUTS DISK | coconutsdisk.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4335 |  | 4342 | dessinee shop | dessineeshop.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4336 |  | 4343 | DX RECORDS | dxrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4337 |  | 4344 | Ella records | ella-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4338 |  | 4345 | estacio-records.com | estacio-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4339 |  | 4346 | fastcutrecords.com | fastcutrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4340 |  | 4347 | FreestyleOnline | freestyleonline.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4341 |  | 4348 | greatest hits｜グレイテスト・ヒッツ | greatesthits-rec.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4342 |  | 4349 | HARIOTO RECORD STORE | harioto.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4343 |  | 4350 | MEGA-MIX（メガミックス） | mega-mix.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4344 |  | 4351 | Merurido | merurido.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4345 |  | 4352 | MORE MUSIC | moremusic.co.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4346 |  | 4353 | NEdS Records | neds-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4347 |  | 4354 | Parallax Records | parallaxrecords.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4348 |  | 4355 | pigeon-records.jp | pigeon-records.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4349 |  | 4356 | Q89207896 | losapson.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4350 |  | 4357 | Record Jungle Site | recojun.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4351 |  | 4358 | recordshopzoo.com | recordshopzoo.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4352 |  | 4359 | ReggaeRecord.com | reggaerecord.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4353 |  | 4360 | Tower Records Japan Inc. | tower.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4354 |  | 4361 | ������Ѓ\�[�N --- SORC CORP. | sorc.co.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4355 |  | 4362 | アイテクニック株式会社 | technique.co.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4356 |  | 4363 | 三井ショッピングパーク | mitsui-shopping-park.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4357 |  | 4364 | 中古CD専門店 C-STATION ： 在庫は大阪北部（北摂）最大級！中古CDの買い取り、販売なら当店におまかせください。 | c-station.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4358 |  | 4365 | 【公式】レコード買取ならレコファン｜渋谷・秋葉原で創業45年の高価買取専門店 | recofan.co.jp |  | PENDING |  | — | broncontrole uitvoeren |
+| 4359 |  | 4366 | Melodica Music Stores. | melodicamusicstores.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4360 |  | 4367 | vinylla.lv | vinylla.lv |  | PENDING |  | — | broncontrole uitvoeren |
+| 4361 |  | 4368 | Club Andalos | clubandalos.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4362 |  | 4369 | Muzikumas | muzikumas.lt |  | PENDING |  | — | broncontrole uitvoeren |
+| 4363 |  | 4370 | VinyloMania | vinylomania.lt |  | PENDING |  | — | broncontrole uitvoeren |
+| 4364 |  | 4371 | Vinilo Studija | vinilas.lt |  | PENDING |  | — | broncontrole uitvoeren |
+| 4365 |  | 4372 | Vinyloteka | vinyloteka.lt |  | PENDING |  | — | broncontrole uitvoeren |
+| 4366 |  | 4373 | Discotag | discotag.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4367 |  | 4374 | ploksteliuparduotuve.lt | ploksteliuparduotuve.lt |  | PENDING |  | — | broncontrole uitvoeren |
+| 4368 |  | 4375 | Le Reservoir | lereservoir.lu |  | PENDING |  | — | broncontrole uitvoeren |
+| 4369 |  | 4376 | Hard Graft Records | hardgraftrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4370 |  | 4377 | Teenage Head Records | teenageheadrecords.com.my |  | PENDING |  | — | broncontrole uitvoeren |
+| 4371 |  | 4378 | Retroactivo Records | retroactivorecords.com.mx |  | PENDING |  | — | broncontrole uitvoeren |
+| 4372 |  | 4379 | Ritmo y Onda | ritmoyondarecords.mx |  | PENDING |  | — | broncontrole uitvoeren |
+| 4373 |  | 4380 | Musiclab* Records | musiclab.mx |  | PENDING |  | — | broncontrole uitvoeren |
+| 4374 |  | 4381 | rastapastarecords.com | rastapastarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4375 |  | 4382 | Your one stop gothic, punk rock, crust and metal store. Shipping Worldwide | nuclearwasteunderground.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4376 |  | 4383 | casacalypso.mx | casacalypso.mx |  | PENDING |  | — | broncontrole uitvoeren |
+| 4377 |  | 4384 | Perro Negro Records | perronegro.rocks |  | PENDING |  | — | broncontrole uitvoeren |
+| 4378 |  | 4385 | Katana Record Shop | katana.md |  | PENDING |  | — | broncontrole uitvoeren |
+| 4379 |  | 4386 | Bobs Vinyl | bobsvinyl.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4380 |  | 4387 | Concerto | concerto.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4381 |  | 4388 | Distortion Records | distortion.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4382 |  | 4389 | RecordFriend Elpees | recordfriendamsterdam.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4383 |  | 4390 | Record Mania | recordmania.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4384 |  | 4391 | Velvet Music (Amsterdam) | velvetamsterdam.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4385 |  | 4392 | Waxwell Records | waxwell.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4386 |  | 4393 | Grey Vinyl Treasures | greyrecords.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4387 |  | 4394 | Plato (Apeldoorn, Mansion 24) | mansion24.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4388 |  | 4395 | Waaghals (Arnhem) | waaghals.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4389 |  | 4396 | Hip! Handel in Platen | api.chsanime.in |  | PENDING |  | — | broncontrole uitvoeren |
+| 4390 |  | 4397 | Art  Music | artetmusic.be |  | PENDING |  | — | broncontrole uitvoeren |
+| 4391 |  | 4398 | Stockenhof Muziek | stockenhofmuziek.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4392 |  | 4399 | De Waterput | waterput.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4393 |  | 4400 | BMM Games n Vinyl | bmmgames.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4394 |  | 4401 | Green Vinyl | green-vinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4395 |  | 4402 | Groove Records | grooverecords.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4396 |  | 4403 | Memories and Music Brielle | memoriesandmusic.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4397 |  | 4404 | Gooisch Vinyl | gooischvinyl.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4398 |  | 4405 | Platen Paradijs | platen-paradijs.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4399 |  | 4406 | Nieuw Vinyl  More | nieuwvinyl.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4400 |  | 4407 | Crazy Horse Recordstore | crazyhorserecordstore.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4401 |  | 4408 | Bennies Fifties / Fifties Store | fiftiesstore.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4402 |  | 4409 | Variaworld | variaworld.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4403 |  | 4410 | Vintage Vinyl  Audio | vintagevinylenaudio.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4404 |  | 4411 | Get Back Music | getbackmusic.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4405 |  | 4412 | Velvet Music (Dordrecht) | velvetdordrecht.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4406 |  | 4413 | Artline | cd-artline.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4407 |  | 4414 | CD Teek | cdteek.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4408 |  | 4415 | Crash Vinyl  Booze | crashvinyl.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4409 |  | 4416 | Mollema Music World | mollemamusicworld.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4410 |  | 4417 | Vinylparadijs | vinylparadijs.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4411 |  | 4418 | BOBs Music Store | bobsmusicstore.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4412 |  | 4419 | Happy Tunes Records | happytunesrecords.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4413 |  | 4420 | Free Music High Fidelity | freemusicgouda.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4414 |  | 4421 | Rock Maniac Records | rockmaniacrecords.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4415 |  | 4422 | Elpee | elpee-groningen.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4416 |  | 4423 | Artistic Recordstore | artistic-recordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4417 |  | 4424 | De Platenslager | platenslager.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4418 |  | 4425 | Sounds Haarlem | soundshaarlem.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4419 |  | 4426 | VinylFreaks | vinyl-freaks.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4420 |  | 4427 | 3345 Record Store The Hague | 3345.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4421 |  | 4428 | Didi Recordshop | didirecordshop.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4422 |  | 4429 | Satisfaction Recordshop | satisfactionrecords.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4423 |  | 4430 | RockArt Shop XL | shop.rockart.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4424 |  | 4431 | In Front Records | infrontrecords.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4425 |  | 4432 | My Way Recordshop | mywayrecordshop.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4426 |  | 4433 | Home of Entertainment | hoeshop.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4427 |  | 4434 | Big Bad Wolf Records | bigbadwolfrecords.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4428 |  | 4435 | Boeijenga muziek | boeijengamusic.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4429 |  | 4436 | Discus / Universe Productions | discusmusic.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4430 |  | 4437 | Music Connection | musicconnection.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4431 |  | 4438 | Boekhandel Dominicanen | boekhandeldominicanen.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4432 |  | 4439 | Discords.nl | discords.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4433 |  | 4440 | Velvet Music (Donner) | velvetdonner.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4434 |  | 4441 | Demonfuzz Records | demonfuzz.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4435 |  | 4442 | CD Hal Ruinen | cdhal.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4436 |  | 4443 | Doogan Records | dooganrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4437 |  | 4444 | Stichting De Langspeelplaat | delangspeelplaat.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4438 |  | 4445 | Music Machine | musicmac.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4439 |  | 4446 | Vip records | viprecords.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4440 |  | 4447 | Spijk Records | spijk-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4441 |  | 4448 | Plato (Utrecht) | platomania.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4442 |  | 4449 | Reset Records | resetrecords.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4443 |  | 4450 | Broese | broese.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4444 |  | 4451 | De Plaatboef (Utrecht) | plaatboef.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4445 |  | 4452 | Vinyl24 | vinyl24.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4446 |  | 4453 | Midway Store | lpmidway.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4447 |  | 4454 | Sounds Record Shop | sounds-venlo.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4448 |  | 4455 | De Platenbaas (Boekhandel t Spui) | deplatenbaas.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4449 |  | 4456 | Ray's Boutique | raysboutique.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4450 |  | 4457 | Kay´s Odyssey | kayvinyl.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4451 |  | 4458 | WWRecords | wwrecords.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4452 |  | 4459 | Yuppe Fish | yuppefish.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4453 |  | 4460 | No Dust Records | nodustrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4454 |  | 4461 | Handelskoning | handelskoning.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4455 |  | 4462 | Hekman Muziek | hekmanmuziek.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4456 |  | 4463 | BasVinyl | basvinyl.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4457 |  | 4464 | Music  More (Wormerveer) | music-more.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4458 |  | 4465 | Coco Records | coco-records.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4459 |  | 4466 | The Music Fool | themusicfool.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4460 |  | 4467 | De Platenlounge (Voorheen MarmurGo) | marmur.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4461 |  | 4468 | Minstrel Music | minstrel.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4462 |  | 4469 | Bordello A Parigi | bordelloaparigi.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4463 |  | 4470 | Eastman Records | eastmanrecords.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4464 |  | 4471 | Nieuw binnengekomen | muziekvanderveen.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4465 |  | 4472 | PLATENREUS | platenreus.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4466 |  | 4473 | Plato Leiden | platoleiden.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4467 |  | 4474 | Pop-Eye / Velvet Music | pop-eye.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4468 |  | 4475 | Rush Hour | rushhour.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4469 |  | 4476 | SecondSpin Recordstore Homepage | secondspin.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4470 |  | 4477 | Simply-listening | simply-listening.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4471 |  | 4478 | Welkom | myrecordstore.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4472 |  | 4479 | Access Denied | killacutz.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4473 |  | 4480 | City Records Amsterdam | cityrecordsamsterdam.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4474 |  | 4481 | CLONE.NL | clone.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4475 |  | 4482 | De Drvkkery | drukkerijmiddelburg.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4476 |  | 4483 | Dwars Edam | dwars-edam.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4477 |  | 4484 | Elpees Van Kees | elpeesvankees.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4478 |  | 4485 | EnjoyTheMusic | enjoythemusic.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4479 |  | 4486 | Evelyn Novacek | cdenlp.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4480 |  | 4487 | iorr.nl | iorr.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4481 |  | 4488 | lp-2.nl | lp-2.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4482 |  | 4489 | No.1 Hotwax Records | no1hotwaxrecords.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4483 |  | 4490 | northendhaarlem.nl | northendhaarlem.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4484 |  | 4491 | Online Webwinkel voor cd's, lp's en dvd's | kroese-online.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4485 |  | 4492 | Parkstad Recordshop | parkstadrecordshop.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4486 |  | 4493 | Planet of Sound | planetofsound.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4487 |  | 4494 | PLATENHUIS 'T OOR | platenhuis-het-oor.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4488 |  | 4495 | retroloes.nl | retroloes.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4489 |  | 4496 | Riddim Record Store | riddimrecordstore.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4490 |  | 4497 | Roots Mail Music Internet Shop | rootsmailmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4491 |  | 4498 | sounds.nl | sounds.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4492 |  | 4499 | T-REX RECORDS | trexrecords.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4493 |  | 4500 | Triple Vision Store | triplevision.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4494 |  | 4501 | Vinyl Plaatjes | vinylplaatjes.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4495 |  | 4502 | Southbound Record Shop | southbound.co.nz |  | PENDING |  | — | broncontrole uitvoeren |
+| 4496 |  | 4503 | Tron Records | tronrecords.nz |  | PENDING |  | — | broncontrole uitvoeren |
+| 4497 |  | 4504 | Just For The Record | justfortherecord.co.nz |  | PENDING |  | — | broncontrole uitvoeren |
+| 4498 |  | 4505 | Flying Nun Records | flyingnun.co.nz |  | PENDING |  | — | broncontrole uitvoeren |
+| 4499 |  | 4506 | Slow Boat Records | slowboatrecords.co.nz |  | PENDING |  | — | broncontrole uitvoeren |
+| 4500 |  | 4507 | realgroovy.co.nz | realgroovy.co.nz |  | PENDING |  | — | broncontrole uitvoeren |
+| 4501 |  | 4508 | Katakomben | katakomben.no |  | PENDING |  | — | broncontrole uitvoeren |
+| 4502 |  | 4509 | Neseblod Records | neseblodrecords.bigcartel.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4503 |  | 4510 | Tiger Records | tigernet.no |  | PENDING |  | — | broncontrole uitvoeren |
+| 4504 |  | 4511 | Aftermath Music | aftermath-music.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4505 |  | 4512 | All Good Clean Records | allgoodcleanrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4506 |  | 4513 | Backbeat | backbeat-tromso.no |  | PENDING |  | — | broncontrole uitvoeren |
+| 4507 |  | 4514 | Retrovinyl | retrovinyl.no |  | PENDING |  | — | broncontrole uitvoeren |
+| 4508 |  | 4515 | Apollon Platebar | apollon.no |  | PENDING |  | — | broncontrole uitvoeren |
+| 4509 |  | 4516 | Moderne Vintage | modernevintage.no |  | PENDING |  | — | broncontrole uitvoeren |
+| 4510 |  | 4517 | Bowie Records | bowierecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4511 |  | 4518 | Tercer Ojo Record Store | tercer-ojo.pe |  | PENDING |  | — | broncontrole uitvoeren |
+| 4512 |  | 4519 | ProThrowbacks #1 Sports, Music, and Collectibles and a big Golf Store | prothrowbacks.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4513 |  | 4520 | DrumStore | drumstore.pl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4514 |  | 4521 | Vinyl Tamka | vinyltamka.pl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4515 |  | 4522 | Komis Płytowy Królestwo | winyle.com.pl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4516 |  | 4523 | Paul's Boutique Record Store | digujto.pl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4517 |  | 4524 | Up & Down Wojciech Żdanuk | sideone.pl |  | PENDING |  | — | broncontrole uitvoeren |
+| 4518 |  | 4525 | k-wax.com | k-wax.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4519 |  | 4526 | Flur Discos | flur.pt |  | PENDING |  | — | broncontrole uitvoeren |
+| 4520 |  | 4527 | Groovie Records | groovierecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4521 |  | 4528 | Palmela Records | palmelarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4522 |  | 4529 | Peekaboo Records | peekaboorecords.pt |  | PENDING |  | — | broncontrole uitvoeren |
+| 4523 |  | 4530 | carbonoamadora.net | carbonoamadora.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4524 |  | 4531 | LOJA DE DISCOS VINIL | carbono.com.pt |  | PENDING |  | — | broncontrole uitvoeren |
+| 4525 |  | 4532 | Materia Prima | materiaprima.pt |  | PENDING |  | — | broncontrole uitvoeren |
+| 4526 |  | 4533 | Piranha | piranhacd.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4527 |  | 4534 | PontoZurca | pontozurca.pt |  | PENDING |  | — | broncontrole uitvoeren |
+| 4528 |  | 4535 | Silvertentacle Music Store | silvertentacle.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4529 |  | 4536 | MisBits | misbits.ro |  | PENDING |  | — | broncontrole uitvoeren |
+| 4530 |  | 4537 | Magazin Muzica Online | nicherecords.ro |  | PENDING |  | — | broncontrole uitvoeren |
+| 4531 |  | 4538 | Maximum Vinyl | maximumvinyl.ru |  | PENDING |  | — | broncontrole uitvoeren |
+| 4532 |  | 4539 | Dissonance Vinyl Store | dissonance.shop |  | PENDING |  | — | broncontrole uitvoeren |
+| 4533 |  | 4540 | Vinylbox | vinylbox.ru |  | PENDING |  | — | broncontrole uitvoeren |
+| 4534 |  | 4541 | VinylForAll | vinylforall.ru |  | PENDING |  | — | broncontrole uitvoeren |
+| 4535 |  | 4542 | Dr.Head | doctorhead.ru |  | PENDING |  | — | broncontrole uitvoeren |
+| 4536 |  | 4543 | Виниловые пластинки на любой вкус в магазине грампластинок "Звуковой Барьер" | sound-barrier.ru |  | PENDING |  | — | broncontrole uitvoeren |
+| 4537 |  | 4544 | Vinil | vinil.rs |  | PENDING |  | — | broncontrole uitvoeren |
+| 4538 |  | 4545 | Југовинил | yugovinyl.blogspot.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4539 |  | 4546 | Vinyl Cafe | vinylcafe.rs |  | PENDING |  | — | broncontrole uitvoeren |
+| 4540 |  | 4547 | Discom | discom.bigcartel.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4541 |  | 4548 | krmerch | krmerchs.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4542 |  | 4549 | Music record shop | vinyloveplatne.sk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4543 |  | 4550 | FOCUSMUSIC | focusmusic.sk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4544 |  | 4551 | hardbazar.com | hardbazar.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4545 |  | 4552 | SEPEA audio | sepeaaudio.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4546 |  | 4553 | JIGGY VINYL | jiggyvinylrecords.weebly.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4547 |  | 4554 | M-PIRE Music | mpiremusic.co.za |  | PENDING |  | — | broncontrole uitvoeren |
+| 4548 |  | 4555 | ROASTIN' RECORDS | roastinrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4549 |  | 4556 | Mr Vinyl | mrvinyl.co.za |  | PENDING |  | — | broncontrole uitvoeren |
+| 4550 |  | 4557 | Recordmad | recordmad.co.za |  | PENDING |  | — | broncontrole uitvoeren |
+| 4551 |  | 4558 | Vinyl Junkie | vinyljunkie.co.za |  | PENDING |  | — | broncontrole uitvoeren |
+| 4552 |  | 4559 | mugenielijah.com | mugenielijah.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4553 |  | 4560 | mosaicseoul | mosaicseoul.kr |  | PENDING |  | — | broncontrole uitvoeren |
+| 4554 |  | 4561 | 즐거운 음반쇼핑몰 잇츠팝에 오신 것을 환영합니다. | itspop.co.kr |  | PENDING |  | — | broncontrole uitvoeren |
+| 4555 |  | 4562 | Discos Fanzine | discosfanzine.es |  | PENDING |  | — | broncontrole uitvoeren |
+| 4556 |  | 4563 | Disco100 | disco100.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4557 |  | 4564 | Discos Tesla | discostesla.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4558 |  | 4565 | El genio equivocado | labotiga.elgenioequivocado.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4559 |  | 4566 | BCore Disc | bcoredisc.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4560 |  | 4567 | Daily Records | dailyrecords.cat |  | PENDING |  | — | broncontrole uitvoeren |
+| 4561 |  | 4568 | Discos Revolver | discos-revolver.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4562 |  | 4569 | El Genio Equivocado | elgenioequivocado.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4563 |  | 4570 | Naima Records | naimarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4564 |  | 4571 | Surco Barcelona | surco-barcelona.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4565 |  | 4572 | Ultra-Local Records | ultralocalrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4566 |  | 4573 | Brixton | brixtonrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4567 |  | 4574 | Power Records | powerrecordsbilbao.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4568 |  | 4575 | Multiocio | multiocio.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4569 |  | 4576 | Discos Marcapasos | discosmarcapasos.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4570 |  | 4577 | Bloody Mary | bloodymary.biz |  | PENDING |  | — | broncontrole uitvoeren |
+| 4571 |  | 4578 | Riff Raff Discos | riffraff.es |  | PENDING |  | — | broncontrole uitvoeren |
+| 4572 |  | 4579 | Discos La Metralleta | lametralleta.es |  | PENDING |  | — | broncontrole uitvoeren |
+| 4573 |  | 4580 | DISCOS NAKASHA | nakasha-spain.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4574 |  | 4581 | La Integral | laintegral25.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4575 |  | 4582 | Jazz y Mas | jazzymas.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4576 |  | 4583 | Killer's discos | discoskillers.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4577 |  | 4584 | Molar Discos & Libros | molardiscosylibros.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4578 |  | 4585 | Bajoelvolcan | bajoelvolcan.es |  | PENDING |  | — | broncontrole uitvoeren |
+| 4579 |  | 4586 | Bangladesh Discos | bangladeshdiscos.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4580 |  | 4587 | La Casa del Disco | lacasadeldisco.es |  | PENDING |  | — | broncontrole uitvoeren |
+| 4581 |  | 4588 | Discos Babel | discosbabel.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4582 |  | 4589 | Y Que Viva Joplin | yquevivajoplin.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4583 |  | 4590 | Espai Xocolat | xocolat.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4584 |  | 4591 | Metadona Records | metadonarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4585 |  | 4592 | Citadel Records | citadelrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4586 |  | 4593 | Discos Comix | discoscomix.es |  | PENDING |  | — | broncontrole uitvoeren |
+| 4587 |  | 4594 | Ton y Son | tonyson.es |  | PENDING |  | — | broncontrole uitvoeren |
+| 4588 |  | 4595 | ElMuelle1931 | elmuelle1931.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4589 |  | 4596 | Shiva Music | shivamusic.es |  | PENDING |  | — | broncontrole uitvoeren |
+| 4590 |  | 4597 | Maldito Records | malditorecords.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4591 |  | 4598 | Amsterdam Rock Shop | juanvitoria.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4592 |  | 4599 | Discolaser | discolaser.es |  | PENDING |  | — | broncontrole uitvoeren |
+| 4593 |  | 4600 | Linacero Discos | linacero.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4594 |  | 4601 | La Brujita | labrujita.es |  | PENDING |  | — | broncontrole uitvoeren |
+| 4595 |  | 4602 | Cristina Records | cristinarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4596 |  | 4603 | Discazos | discazos.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4597 |  | 4604 | Discos Alta Fidelidad | discosaltafidelidad.es |  | PENDING |  | — | broncontrole uitvoeren |
+| 4598 |  | 4605 | Discos Local 3 | discoslocal3.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4599 |  | 4606 | Discos Paradiso | discosparadiso.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4600 |  | 4607 | DISCOS REDONDOS | discos-redondos.es |  | PENDING |  | — | broncontrole uitvoeren |
+| 4601 |  | 4608 | Domestica Records | domestica.bandcamp.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4602 |  | 4609 | Four Skulls | fourskulls.es |  | PENDING |  | — | broncontrole uitvoeren |
+| 4603 |  | 4610 | Historia Nuestra | historianuestra.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4604 |  | 4611 | Liquidator Music | liquidatormusic.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4605 |  | 4612 | Naranja y Negro | naranjaynegro.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4606 |  | 4613 | No Fun Records | nofunrecordsgc.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4607 |  | 4614 | Rara Avis Store | raraavisstore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4608 |  | 4615 | Sleazy Records | sleazyrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4609 |  | 4616 | Small Black Dots | smallblackdots.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4610 |  | 4617 | Totemtanz | totemtanz.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4611 |  | 4618 | elalmacendediscos.com | elalmacendediscos.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4612 |  | 4619 | Espai Records | espairecords.cat |  | PENDING |  | — | broncontrole uitvoeren |
+| 4613 |  | 4620 | khvinylstore.com | khvinylstore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4614 |  | 4621 | laviniloteca.shop | laviniloteca.shop |  | PENDING |  | — | broncontrole uitvoeren |
+| 4615 |  | 4622 | maisvinilo | maisvinilo.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4616 |  | 4623 | Musicom | musicom.es |  | PENDING |  | — | broncontrole uitvoeren |
+| 4617 |  | 4624 | perrosmediterraneos.es | perrosmediterraneos.es |  | PENDING |  | — | broncontrole uitvoeren |
+| 4618 |  | 4625 | Radial Store | radialstore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4619 |  | 4626 | RAMAL. Discos de vinilo. Desde 2016 | rinconramal.home.blog |  | PENDING |  | — | broncontrole uitvoeren |
+| 4620 |  | 4627 | The Vinyl Cafe | vinylcafelk.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4621 |  | 4628 | Andra Långgatans Skivhandel | andralang.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4622 |  | 4629 | Örebro Records & Stuff | rcrdsnstff.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4623 |  | 4630 | Ramlösa Records | ramlosarecords.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4624 |  | 4631 | Star Club Records | starclubrecords.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4625 |  | 4632 | Jackdaw Records | jackdawrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4626 |  | 4633 | Delicious Goldfish Records | dgr.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4627 |  | 4634 | Råsunda Records | rasundarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4628 |  | 4635 | Recordcenter | recordcenter.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4629 |  | 4636 | Solna Skivbörs | solnaskivbors.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4630 |  | 4637 | Djungel & Jazz | djungelochjazz.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4631 |  | 4638 | recordsandmovies.se | recordsandmovies.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4632 |  | 4639 | Sound Pollution | soundpollution.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4633 |  | 4640 | Fade Records | fade.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4634 |  | 4641 | Gellborn Records | gellbornrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4635 |  | 4642 | Mickes Serier, CD & Vinyl | mickes-cdvinyl.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4636 |  | 4643 | Record Hunter | recordhunter.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4637 |  | 4644 | Snickars Records | snickarsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4638 |  | 4645 | Stockholms serie- och skivhandel | stockholmsserieoskivhandel.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4639 |  | 4646 | Hjalmar B:s skivbörs | hjalmarbs.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4640 |  | 4647 | Open Mind Records | openmindrecords.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4641 |  | 4648 | ENKÖPINGS SKIVBÖRS | enkopingsskivbors.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4642 |  | 4649 | Q10428062 | bengans.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4643 |  | 4650 | TidensTempo | tidenstempo.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4644 |  | 4651 | Andra Jazz | andrajazz.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4645 |  | 4652 | Evolution Records | evolutionrecords.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4646 |  | 4653 | Foggy Days Record Shop | foggydays.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4647 |  | 4654 | hotrecords.se | hotrecords.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4648 |  | 4655 | Omega Records Stockh | omegarecords.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4649 |  | 4656 | petsounds.se | petsounds.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4650 |  | 4657 | Record Mania Store | recordmania.se |  | PENDING |  | — | broncontrole uitvoeren |
+| 4651 |  | 4658 | Skivhögen har nya och begagnade skivor på Högbergsgatan | skivhogen.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4652 |  | 4659 | Vinylskivor | nostalgipalatset.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4653 |  | 4660 | recordroom | recordroom.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4654 |  | 4661 | Spot Records | spotrecords.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4655 |  | 4662 | Black Mandarin | blackmandarin.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4656 |  | 4663 | Vinyl Sound | vinylsound.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4657 |  | 4664 | Baff Music | baff.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4658 |  | 4665 | ZIG ZAG records | zigzagmusic.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4659 |  | 4666 | MusikLaden Record Store | record-store.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4660 |  | 4667 | Ventilator Records | ventilator-records.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4661 |  | 4668 | Sihl Records | sihlrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4662 |  | 4669 | Blutt Records | bluttrecords.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4663 |  | 4670 | Hum Records | humrecords.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4664 |  | 4671 | db records corner | dbrecordscorner.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4665 |  | 4672 | elchRecords | elchrecords.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4666 |  | 4673 | hammersound, hammersounds, cd, lp, secon hand lp, hifi, vincent, heimkino, reparaturservice, an und verkauf,lp waschen, lp's ab 1.- fr. | hammersounds.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4667 |  | 4674 | RECORDS | plattfon.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4668 |  | 4675 | Rockaway Beach | rockawaybeach.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4669 |  | 4676 | 33 Turä Bärn | 33turae.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4670 |  | 4677 | Analog Bar | analogbar.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4671 |  | 4678 | audiopur hifi | audiopur.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4672 |  | 4679 | Bongo Joe Records | bongojoe.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4673 |  | 4680 | CO-MIX REMIX | co-mix.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4674 |  | 4681 | Dezibelle | dezibelle.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4675 |  | 4682 | Disc-à-Brac | disc-a-brac.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4676 |  | 4683 | gigs.ch | gigs.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4677 |  | 4684 | Kreativ Media GmbH | lecoinvinyles.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4678 |  | 4685 | Next Chapter | nxtchapter.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4679 |  | 4686 | Oldiesshop Bern | oldiesshop.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4680 |  | 4687 | Old Town Record Store | otrs.rocks |  | PENDING |  | — | broncontrole uitvoeren |
+| 4681 |  | 4688 | Outsider | outsider-shop.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4682 |  | 4689 | rille. The House of Vinyl. | rille.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4683 |  | 4690 | Serge & Peppers | sergeandpeppers.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4684 |  | 4691 | Six Pack Records | shop.6pack.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4685 |  | 4692 | Take Five | takefive.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4686 |  | 4693 | Tondo Music | tondomusic.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4687 |  | 4694 | VINYL STATION | vinylstation.musikhug.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4688 |  | 4695 | Zorrock | zorrock.ch |  | PENDING |  | — | broncontrole uitvoeren |
+| 4689 |  | 4696 | Black Glue Records | blackgluerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4690 |  | 4697 | Music Box Vinyl Café | musicboxtw.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4691 |  | 4698 | สุดแรงม้า | zudrangmarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4692 |  | 4699 | Güneş Müzik | gunesmuzik.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4693 |  | 4700 | CDPLAK.COM | cdplak.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4694 |  | 4701 | EGE KİTAP & PLAK | egekitabevi.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4695 |  | 4702 | Plakperest | plakperest.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4696 |  | 4703 | The Vinyl | thevinyl.com.ua |  | PENDING |  | — | broncontrole uitvoeren |
+| 4697 |  | 4704 | Vinyla | vinyla.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4698 |  | 4705 | Just Punk Vinyl | jpv.com.ua |  | PENDING |  | — | broncontrole uitvoeren |
+| 4699 |  | 4706 | Diskultura Vinyl Centr | diskultura.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4700 |  | 4707 | totalmetalshop.com | totalmetalshop.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4701 |  | 4708 | Raw Music Store | rawmusicstore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4702 |  | 4709 | MAIDINVINYL | maidinvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4703 |  | 4710 | Kenny's Vinyl Vault | kennysvinylvault.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4704 |  | 4711 | Strummer Room Records | strummerroom.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4705 |  | 4712 | Records & Retro | recordsandretro.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4706 |  | 4713 | Grind and Groove Records | grindandgrooverecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4707 |  | 4714 | Rarekind Records | rarekindrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4708 |  | 4715 | Friendly Records | friendlyrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4709 |  | 4716 | Astro Vinyl | allgoodrecordshops.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4710 |  | 4717 | Wanted Records | wantedrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4711 |  | 4718 | Lost In Vinyl | lostinvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4712 |  | 4719 | Slipped discs | slipped-discs-records.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4713 |  | 4720 | Intense Records | intenserecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4714 |  | 4721 | Badlands | badlands.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4715 |  | 4722 | Up North Records | upnorthrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4716 |  | 4723 | Vanishing Point Records | vanishingpointrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4717 |  | 4724 | Clevedon Music Shop | clevedonmusic.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4718 |  | 4725 | Rare Record Company | rarerecord.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4719 |  | 4726 | Stone Rock Records | stonerockrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4720 |  | 4727 | Dnr vinyl | dnrvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4721 |  | 4728 | BPM Records | bpmderby.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4722 |  | 4729 | The Record Shed | durhammarkets.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4723 |  | 4730 | Not Just A Record Shop | notjustarecordshop.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4724 |  | 4731 | De Rosa Music | derosamusic.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4725 |  | 4732 | Better on Vinyl | betteronvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4726 |  | 4733 | The Vault Collective | thevaultcollectiveltd.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4727 |  | 4734 | Greenhouse Records | greenhouserecs.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4728 |  | 4735 | Slow Progress Records & Coffee | slowprogress.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4729 |  | 4736 | Thorne Records | thornerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4730 |  | 4737 | Vinyl Villains | vinylvillains.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4731 |  | 4738 | Rooster Records | roosterrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4732 |  | 4739 | Vintage & Vinyl | vintageandvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4733 |  | 4740 | Love Music | lovemusicglasgow.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4734 |  | 4741 | Play It Again Records | piarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4735 |  | 4742 | Rubadub | rubadub.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4736 |  | 4743 | Record Corner | recordcorner.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4737 |  | 4744 | A Slice Of Vinyl | asliceofvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4738 |  | 4745 | Peckham Soul | peckhamsoul.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4739 |  | 4746 | Ben's Collectors Records | benscollectorsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4740 |  | 4747 | Dead Sea Records | deadsearecords.co.uk. |  | PENDING |  | — | broncontrole uitvoeren |
+| 4741 |  | 4748 | Toms Record Shop | tomsrecordshop.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4742 |  | 4749 | Released Records | released.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4743 |  | 4750 | Vinyl Fixx | vinylfixx.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4744 |  | 4751 | Out Of Joint Records | outofjointrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4745 |  | 4752 | Lowport Music | lowportmusic.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4746 |  | 4753 | Probe Records | probe-records.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4747 |  | 4754 | The Flood Gallery | thefloodgallery.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4748 |  | 4755 | Inverted Audio Record Store | inverted-audio.store |  | PENDING |  | — | broncontrole uitvoeren |
+| 4749 |  | 4756 | Juni Jams Music | junijamsmusic.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4750 |  | 4757 | Level Crossing Records | levelcrossingrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4751 |  | 4758 | Lion Coffee Records | lioncoffeerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4752 |  | 4759 | Lion Vibes | lionvibes.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4753 |  | 4760 | Love Vinyl | lovevinyl.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4754 |  | 4761 | Massive international- London | massive-international.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4755 |  | 4762 | Peckings Records | peckingsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4756 |  | 4763 | Phantasy | shop.phantasysound.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4757 |  | 4764 | Planet Wax | planetwax.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4758 |  | 4765 | Recycle Vinyl | recycle-vinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4759 |  | 4766 | Sutton Music Centre | suttonmusic.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4760 |  | 4767 | Yo Yo Records London | yoyorecordslondon.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4761 |  | 4768 | All Ages Records | allagesrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4762 |  | 4769 | All My Friends Record Shop | allmyfriends.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4763 |  | 4770 | Atlantis Records | atlantisrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4764 |  | 4771 | Cigarette Records | cigaretterecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4765 |  | 4772 | The Little Record Shop | cash4records.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4766 |  | 4773 | Next Door Records Two | nextdoorrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4767 |  | 4774 | Play Vinyl | playvinyl.london |  | PENDING |  | — | broncontrole uitvoeren |
+| 4768 |  | 4775 | Reckless Records London | reckless.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4769 |  | 4776 | Rise Above Records and Relics | riseaboverecordsandrelics.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4770 |  | 4777 | Upside Down Records | upsidedownrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4771 |  | 4778 | Vinyl Revelations | vinylrevelations.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4772 |  | 4779 | Carnival Records | carnivalrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4773 |  | 4780 | Vinylfetishes | vinylfetishes.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4774 |  | 4781 | Clampdown Records | clampdownrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4775 |  | 4782 | Planet rock records | mcrblogs.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4776 |  | 4783 | The Feather Star | thefeatherstar.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4777 |  | 4784 | Diverse Vinyl | diversevinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4778 |  | 4785 | Phoenix Sounds | phoenix-sounds.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4779 |  | 4786 | Vinyl Underground | vinylunderground.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4780 |  | 4787 | Fabtronic Group | fabtronic.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4781 |  | 4788 | Out of Time Records | outoftimerecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4782 |  | 4789 | mushimushirecords | mushimushirecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4783 |  | 4790 | Langley Mill Records | recordshopnottingham.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4784 |  | 4791 | Far Land Records Ltd | far-landrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4785 |  | 4792 | Rapscallion Records & Coffee | rapscallionrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4786 |  | 4793 | Red Rock Records | redrockrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4787 |  | 4794 | Nothing Ventured Vinyl | nothingventuredvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4788 |  | 4795 | Record Plant York | recordplant.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4789 |  | 4796 | Total Sounds | totalsounds.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4790 |  | 4797 | Record Collector | recordcollectorsheffield.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4791 |  | 4798 | Sound Bar | skiptonsoundbar.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4792 |  | 4799 | Tough Love St Leonards | toughlove.shop |  | PENDING |  | — | broncontrole uitvoeren |
+| 4793 |  | 4800 | the vinyl revival store | vinylrevivaluk.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4794 |  | 4801 | Your Vinyl Answer | yourvinylanswer.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4795 |  | 4802 | Roker Records - Celebrating with Limited Stock | rokerrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4796 |  | 4803 | John Packer | johnpacker.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4797 |  | 4804 | Hayes Music | hayesmusic.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4798 |  | 4805 | Crazy Beat Records | crazybeat.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4799 |  | 4806 | Vinyl Audio Cafe | vinylaudiocafe.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4800 |  | 4807 | FortyFive Cafe | fortyfiveuk.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4801 |  | 4808 | Earworm Records | earwormrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4802 |  | 4809 | 303 Records | 303records.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4803 |  | 4810 | Action Records | actionrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4804 |  | 4811 | The Beat and Track | thebeatandtrack.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4805 |  | 4812 | blackslabrecords | blackslabrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4806 |  | 4813 | Books On The Rise | booksontherise.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4807 |  | 4814 | Concorde Music Shop | concordemusic.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4808 |  | 4815 | Cult Hero | cultherorecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4809 |  | 4816 | Dig Deep Records | digdeeprecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4810 |  | 4817 | Eel Pie Records | eelpierecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4811 |  | 4818 | Empire Records | empirestalbans.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4812 |  | 4819 | Le Freak Records | lefreakrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4813 |  | 4820 | Global Groove | globalgroove.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4814 |  | 4821 | Grinning Soul Records | grinningsoulrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4815 |  | 4822 | Haunted Dancehall | haunted-dancehall.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4816 |  | 4823 | Hidden Sounds | hiddensounds.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4817 |  | 4824 | Idle Hands | idlehandsbristol.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4818 |  | 4825 | Lilley's Vinyl Revival | lilleysvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4819 |  | 4826 | The LP Cafe | thelpcafe.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4820 |  | 4827 | Maestro Records | maestrorecords.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4821 |  | 4828 | Maldon Books | maldonbooks.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4822 |  | 4829 | Moonface Records | moonfacerecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4823 |  | 4830 | Mostly Vinyl Micky | mostlyvinylmicky.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4824 |  | 4831 | Novel Sounds *Celebrating with limited product | novelsounds.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4825 |  | 4832 | Planet Of Sounds | planetofsounds.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4826 |  | 4833 | PSTOTO99 | grapevinyl.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4827 |  | 4834 | Raven Records - Specialist heavy metal record shop | ravenrecordshop.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4828 |  | 4835 | The Record Cafe | therecordcafe.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4829 |  | 4836 | ReplayRecordsGrimsby | replayrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4830 |  | 4837 | Rival Records | rivalrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4831 |  | 4838 | Roan Records | roanrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4832 |  | 4839 | Saturnalia Records | saturnaliarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4833 |  | 4840 | The Second 45 | thesecond45.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4834 |  | 4841 | Second Line Records | secondlinerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4835 |  | 4842 | Silver Machine Records | silvermachinerecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4836 |  | 4843 | Slow Century Records | slowcenturyrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4837 |  | 4844 | Sound Records | soundrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4838 |  | 4845 | Spinning Discs | spinningdiscssheffield.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4839 |  | 4846 | Spun Out Sounds Northampton | spunout.website |  | PENDING |  | — | broncontrole uitvoeren |
+| 4840 |  | 4847 | Square Records | booksandvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4841 |  | 4848 | Stranger than Paradise | strangerthanparadiserecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4842 |  | 4849 | Supertone Records | supertonerecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4843 |  | 4850 | Temple Of Bass | templeofbass.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4844 |  | 4851 | To Have And To Hold Records | tohaveandtoholdrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4845 |  | 4852 | The Turntable Coffee & Vinyl | theturntable.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4846 |  | 4853 | Umbrella Vinyl | umbrellavinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4847 |  | 4854 | Vinyl Cafe | futureisvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4848 |  | 4855 | The Vinyl Countdown | the-vinyl-countdown-whitchurch.square.site |  | PENDING |  | — | broncontrole uitvoeren |
+| 4849 |  | 4856 | Vinyl Revival | vinylrevivalmcr.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4850 |  | 4857 | Vinyl Van | vinylvan.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4851 |  | 4858 | VOD Music | vodmusic.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4852 |  | 4859 | Yew Tree Records | yewtreerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4853 |  | 4860 | 81 Renshaw | 81renshaw.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4854 |  | 4861 | 586 Records | 586records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4855 |  | 4862 | Applestump Records | applestumprecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4856 |  | 4863 | Astonishing Sounds | astonishingsounds.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4857 |  | 4864 | Back to Mono | backtomonorecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4858 |  | 4865 | Ben O&#x27;Neill (The Record Shop) | siopaceoil.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4859 |  | 4866 | Black Circle Records | blackcirclerecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4860 |  | 4867 | Bscene | bscene.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4861 |  | 4868 | Casbah Records | casbahrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4862 |  | 4869 | Castle Sounds | castlesounds.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4863 |  | 4870 | Clocktower Records | clocktowerrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4864 |  | 4871 | Core Of The Poodle | coreofthepoodle.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4865 |  | 4872 | Derricks | derricksmusic.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4866 |  | 4873 | The Diskery Main | thediskery.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4867 |  | 4874 | Double Double Good Music Emporium | doubledoublegood.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4868 |  | 4875 | fiveriserecords.co.uk | fiveriserecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4869 |  | 4876 | Fopp | fopp.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4870 |  | 4877 | Good Vibes Neighbourhood Store | good-vibes.space |  | PENDING |  | — | broncontrole uitvoeren |
+| 4871 |  | 4878 | Hip City Records | vinylrecordsessex.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4872 |  | 4879 | Hi Press Records | hipressrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4873 |  | 4880 | htfr.com | htfr.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4874 |  | 4881 | Hundred Records | hundredrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4875 |  | 4882 | Independent Music Specialist: Vinyl, CDs & Downloads | boomkat.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4876 |  | 4883 | Jacaranda Records | jacarandarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4877 |  | 4884 | japhy.co.uk | japhy.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4878 |  | 4885 | Jelly Records | jellyrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4879 |  | 4886 | juno.co.uk | juno.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4880 |  | 4887 | Kaleidoscope Records | musicstack.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4881 |  | 4888 | Keep Audio Co | keepaudioco.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4882 |  | 4889 | Kudos Records | shop.kudosrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4883 |  | 4890 | Latest 100 arrivals | honestjons.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4884 |  | 4891 | Left of the dial records | leftofthedialrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4885 |  | 4892 | Lucky&#x27;s Record Bar | luckys-record-bar.sumupstore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4886 |  | 4893 | Music Mania Stoke | musicmaniauk.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4887 |  | 4894 | Music Nostalgia Record Shop Vinyl Records Compact Discs | musicnostalgia.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4888 |  | 4895 | The Music Room @ Bookstop | bookstoptavistock.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4889 |  | 4896 | Music&#x27;s Not Dead | musicsnotdead.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4890 |  | 4897 | Needle &amp; Fern | needleandfern.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4891 |  | 4898 | Off The Record | willen-hospice.org.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4892 |  | 4899 | Olaf&#x27;s Record Store | olafsrecordstore.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4893 |  | 4900 | olympicstudiosrecords.co.uk | olympicstudiosrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4894 |  | 4901 | OMG @ Zhivago | irelandvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4895 |  | 4902 | One moment, please... | sugarbushrecords.info |  | PENDING |  | — | broncontrole uitvoeren |
+| 4896 |  | 4903 | OpenReelToReel Group | openreeltoreel.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4897 |  | 4904 | The Orpington | theorpington.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4898 |  | 4905 | Out on the floor records | outonthefloorrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4899 |  | 4906 | Please Log In | voidvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4900 |  | 4907 | Psychotron Records | psychotronrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4901 |  | 4908 | queenstreetrecords.co.uk | queenstreetrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4902 |  | 4909 | Quicksilver Music | quicksilvermusic.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4903 |  | 4910 | raresoulman.co.uk | raresoulman.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4904 |  | 4911 | Raves From The Grave | ravesfromthegrave.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4905 |  | 4912 | The Record Shop Ltd | therecordshopltd.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4906 |  | 4913 | Redeye Records | redeyerecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4907 |  | 4914 | Reflex | reflexrecordshop.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4908 |  | 4915 | reggaemasters.co.uk | reggaemasters.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4909 |  | 4916 | Relics Records | relicsrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4910 |  | 4917 | Revolution Records | revolution-records.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4911 |  | 4918 | Revolver Records | vintagerecordshop.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4912 |  | 4919 | The Rock Box Record Store | rockbox.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4913 |  | 4920 | Rubber Soul Records | rubbersoulrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4914 |  | 4921 | Second Scene Records | secondscene.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4915 |  | 4922 | Seismic Records | seismicrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4916 |  | 4923 | Shake The Foundations | shakethefoundations.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4917 |  | 4924 | Slab Records | slabrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4918 |  | 4925 | Slide Records | sliderecordshop.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4919 |  | 4926 | somegreatreward.scot | somegreatreward.scot |  | PENDING |  | — | broncontrole uitvoeren |
+| 4920 |  | 4927 | soulbrother.com | soulbrother.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4921 |  | 4928 | Soul Jazz Records | souljazzrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4922 |  | 4929 | Sound It Out Records | sounditoutrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4923 |  | 4930 | soundsoftheuniverse.com | soundsoftheuniverse.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4924 |  | 4931 | Spillers Records | spillersrecords.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4925 |  | 4932 | Spin Sounds | spinsounds.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4926 |  | 4933 | Spin The Black Circle | spintheblack.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4927 |  | 4934 | Swordfish Records | swordfishrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4928 |  | 4935 | Tallbird Records | tallbirdrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4929 |  | 4936 | Tenpin Records | tenpinrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4930 |  | 4937 | Tome Records | tomerecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4931 |  | 4938 | Underground Solution | undergroundsolution.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4932 |  | 4939 | Unearthed Sounds | unearthedsounds.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4933 |  | 4940 | Union | unionmusicstore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4934 |  | 4941 | Ventnor Exchange | ventnorexchange.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4935 |  | 4942 | Vintage Clothing & Record Stores London | mfeshops.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4936 |  | 4943 | Vinyl &amp; Vintage | vinylandvintage.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 4937 |  | 4944 | Vinyl Eddie | vinyleddie.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4938 |  | 4945 | Vinyl Records UK | helterskelterrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4939 |  | 4946 | Volume Records &amp; Books | volumerecords.ie |  | PENDING |  | — | broncontrole uitvoeren |
+| 4940 |  | 4947 | Voxbox | voxboxmusic.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4941 |  | 4948 | Wrecking Ball Music | wreckingballstore.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
+| 4942 |  | 4949 | K-Pop Music Town | kpopmusictownla.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4943 |  | 4950 | Your Media Exchange | physicalmedia.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4944 |  | 4951 | Heid Music | heidmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4945 |  | 4952 | BST Ashtabula | bst-ohio.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4946 |  | 4953 | SuperJumbo Records and Arcade | theyetee.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4947 |  | 4954 | For The Record | fortherecordtx.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4948 |  | 4955 | Puscifer Entertainment | puscifer.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4949 |  | 4956 | Monostereo Vinyl & Label Services | monostereo1stop.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4950 |  | 4957 | Graveface Chicago / Terror Vision | graveface.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4951 |  | 4958 | Bloodshot Records | bloodshotrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4952 |  | 4959 | Independent Records & Video | gazette.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4953 |  | 4960 | Pearl Records | thepearlrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4954 |  | 4961 | Second Time Around Records | secondtimearound.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4955 |  | 4962 | Rockstock | rockstockstore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4956 |  | 4963 | Somewhere in Detroit | shop.submerge.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4957 |  | 4964 | Dothan Nurseries Online Shop | dothannurseries.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4958 |  | 4965 | Rettig Music | rettigmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4959 |  | 4966 | f.y.e. | fye.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4960 |  | 4967 | The Vinyl Record Bank | the-vinyl-record-bank.edan.io |  | PENDING |  | — | broncontrole uitvoeren |
+| 4961 |  | 4968 | Popplers Music, Inc. | popplersmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4962 |  | 4969 | Hippo Records | shophipporecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4963 |  | 4970 | Micheo Music | micheomusic.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4964 |  | 4971 | VP Records | vprecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4965 |  | 4972 | The Rock Shop | rockshoprecordstores.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4966 |  | 4973 | City Music | citymusiconline.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4967 |  | 4974 | Pecknel Music | pecknelmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4968 |  | 4975 | Palen Music | palenmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4969 |  | 4976 | Lefty's Records | leftysrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4970 |  | 4977 | Toxic Toast Records | toxictoastlongbeach.square.site |  | PENDING |  | — | broncontrole uitvoeren |
+| 4971 |  | 4978 | Plaid Room Records | plaidroomrecords.blogspot.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4972 |  | 4979 | Metronome Music | metronomemusic.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4973 |  | 4980 | ReVinylize Vintage Audio | revinylizevintageaudio.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4974 |  | 4981 | Wonderland Records | wonderlandrecords.wordpress.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4975 |  | 4982 | Peaches Records | peachesrecordsandtapes.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4976 |  | 4983 | LeMay & Co. Antiques | lemaycoantiques.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4977 |  | 4984 | Buzzed Monkey Records | personsofinterestbklyn.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4978 |  | 4985 | Mostly Music | mostlymusic.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4979 |  | 4986 | SAS Italian Records Inc | sasitalian.weebly.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4980 |  | 4987 | Sweet Peanut Records | sweetpeanutrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4981 |  | 4988 | Very Friendly | veryfriendlymusic.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4982 |  | 4989 | Material World Records & Tapes | materialworldrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4983 |  | 4990 | P.I.T. Records and Books | propertyistheft.org |  | PENDING |  | — | broncontrole uitvoeren |
+| 4984 |  | 4991 | George's Music | georgesmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4985 |  | 4992 | Mossy Bottom Records | mossy-bottom-records.webnode.page |  | PENDING |  | — | broncontrole uitvoeren |
+| 4986 |  | 4993 | Round Midnight Records | round-midnight-records.edan.io |  | PENDING |  | — | broncontrole uitvoeren |
+| 4987 |  | 4994 | Vintage Classic Instruments | vintageclassicinstruments.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4988 |  | 4995 | Poo-Bah Record Shop | poohbah.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4989 |  | 4996 | All Music Inc | allmusicinc.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4990 |  | 4997 | City Noise Records | citynoiserecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4991 |  | 4998 | Jigsaw Records | jigsaw-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4992 |  | 4999 | Portland Music Company | portlandmusiccompany.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4993 |  | 5000 | Darkside Records | shop.darksiderecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4994 |  | 5001 | Rock This Town Records | rockthistownrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4995 |  | 5002 | Nice Price Books & Records | nicepriceboo.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4996 |  | 5003 | The Pour House Record Shop | the-pour-house-record-shop.myshopify.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4997 |  | 5004 | The Pour House Music Hall & Record Shop | pourhouseraleigh.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4998 |  | 5005 | Deep Groove Records | deepgroovevinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4999 |  | 5006 | Power Plant Records | power-plant-records.myshopify.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5000 |  | 5007 | café suspiro | cafesuspiro.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5001 |  | 5008 | Mission Synths | missionsynths.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5002 |  | 5009 | JDC Records | jdcrecordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5003 |  | 5010 | Paradise Records and Trading Post | paradiserecordsandtradingpost.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5004 |  | 5011 | Sour Gummy Records | sourgummyrecords.square.site |  | PENDING |  | — | broncontrole uitvoeren |
+| 5005 |  | 5012 | HiFi LoFi | hifilofi.shop |  | PENDING |  | — | broncontrole uitvoeren |
+| 5006 |  | 5013 | Light in the Attic Records | lightintheattic.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 5007 |  | 5014 | The Vinyl Swap | thevinylswap.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 5008 |  | 5015 | Silver City HiFi | kitsapav.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5009 |  | 5016 | Endless Media | endlessmediacorporation.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5010 |  | 5017 | Music Record Shop | musicrecordshop.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5011 |  | 5018 | Under The Surface Records | underthesurfacerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5012 |  | 5019 | Menchey Music Service, Inc. | mencheymusic.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5013 |  | 5020 | See You CD & Vinyl | seeyoucdandvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5014 |  | 5021 | Drum & Strum Music Center | drumnstrum.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5015 |  | 5022 | Earcave | earcave.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5016 |  | 5023 | Red Onion Records & Books | redonionrecordsandbooks.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5017 |  | 5024 | West Chester Music | wcmusicstore.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5018 |  | 5025 | C. A. House Music | cahousemusic.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5019 |  | 5026 | Collectible Vinyl Records, CDs & Cassettes | recordsbymail.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5020 |  | 5027 | Dig It! Record Barn | digitrecordbarn.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5021 |  | 5028 | DJ Equipment In Portland, OR | platinum-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5022 |  | 5029 | Downtown Sound LLC | downtownsoundlogan.square.site |  | PENDING |  | — | broncontrole uitvoeren |
+| 5023 |  | 5030 | dreaminghuman.com | dreaminghuman.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5024 |  | 5031 | Fire Talk | firetalkrecs.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5025 |  | 5032 | Fivespace | fivespaceshop.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5026 |  | 5033 | Light of Day Records | lightofdayrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5027 |  | 5034 | Love Bus Records | lovebusrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5028 |  | 5035 | microgroovetampa.co | microgroovetampa.co |  | PENDING |  | — | broncontrole uitvoeren |
+| 5029 |  | 5036 | Music Direct | musicdirect.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5030 |  | 5037 | Purple Narwhal Music & Manga | purplenarwhal.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5031 |  | 5038 | Radio-Active Records FTL | radio-active-records.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5032 |  | 5039 | Record Albums | recordsalbums.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5033 |  | 5040 | Re-Runz Records LLC | rerunzrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5034 |  | 5041 | Revolver Records | revolverrecordsbuffalo.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5035 |  | 5042 | Rockin' Rudy's Music | music.rockinrudys.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5036 |  | 5043 | Selector Records & Apparel | selectorseattle.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5037 |  | 5044 | shop.lunamusic.net | shop.lunamusic.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 5038 |  | 5045 | Sound Annex | sound-annex.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5039 |  | 5046 | Spina Records | spinarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5040 |  | 5047 | STEELWORKER RECORDS | steelworker-records.square.site |  | PENDING |  | — | broncontrole uitvoeren |
+| 5041 |  | 5048 | thedenrecords.square.site | thedenrecords.square.site |  | PENDING |  | — | broncontrole uitvoeren |
+| 5042 |  | 5049 | 1-2-3-4 GO! RECORDS | 1234gorecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5043 |  | 5050 | AllMyLinks | allmylinks.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5044 |  | 5051 | BIGGEST Vinyl Record Show in the Boston area VFW Post #2017 Dedham Ma. | newenglandvinylrecordshow.blogspot.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5045 |  | 5052 | BRIANMELZER | squarerecordsakron.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5046 |  | 5053 | Caveman Vintage Music | cavemanvintage.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5047 |  | 5054 | CD Central | cdcentral.bigcartel.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5048 |  | 5055 | clayscorner | clayscorner.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5049 |  | 5056 | Clearwater Record Shop | clearwaterrecordshop.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5050 |  | 5057 | Different Beat | differentbeattelevision.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5051 |  | 5058 | Discology | discologyreno.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5052 |  | 5059 | DJ Mikie Love | djmikielove.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5053 |  | 5060 | FOLMC | folmc.org |  | PENDING |  | — | broncontrole uitvoeren |
+| 5054 |  | 5061 | forcedexposure.com | forcedexposure.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5055 |  | 5062 | Gordon LaSalle Music | lasallemusic.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5056 |  | 5063 | graycatmusic.com | graycatmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5057 |  | 5064 | HORROR PAIN GORE DEATH PRODUCTIONS :: The Official Website Of HPGD | horrorpaingoredeath.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5058 |  | 5065 | Hymie's Records | hymiesrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5059 |  | 5066 | idm-edm.com | idm-edm.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5060 |  | 5067 | jackniferecordsandtapes.com | jackniferecordsandtapes.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5061 |  | 5068 | Kentucky Music Hall of Fame and Museum | kentuckymusichalloffame.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5062 |  | 5069 | King Johnnie Casino AU | radiowasteland.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 5063 |  | 5070 | legacydumbo.com | legacydumbo.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5064 |  | 5071 | light-in-the-attic-record-shop.square.site | light-in-the-attic-record-shop.square.site |  | PENDING |  | — | broncontrole uitvoeren |
+| 5065 |  | 5072 | Mastering Teen Patti Master APK: The Ultimate Guide to India's Favorite Real Cash Card Game | rpmrecords.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 5066 |  | 5073 | Metzger Vintage Audio // Buy | metzgervintageaudio.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5067 |  | 5074 | Milkcrate Cafe | milkcratecafe.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5068 |  | 5075 | nextchapterrecords.com | nextchapterrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5069 |  | 5076 | NOCA | nocapresents.org |  | PENDING |  | — | broncontrole uitvoeren |
+| 5070 |  | 5077 | One moment, please... | friendsofsound.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5071 |  | 5078 | On&On | onandonscranton.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5072 |  | 5079 | Part Time Lover | parttimeloverhifi.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5073 |  | 5080 | queenofheartsjewelry.us | queenofheartsjewelry.us |  | PENDING |  | — | broncontrole uitvoeren |
+| 5074 |  | 5081 | recordrunnerusa.com | recordrunnerusa.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5075 |  | 5082 | Record Stop | recordstopny.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5076 |  | 5083 | rockpaperscissorsgoods.com | rockpaperscissorsgoods.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5077 |  | 5084 | roundmidnightrecords.com | roundmidnightrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5078 |  | 5085 | Royal Reels 25 Casino Australia | backwhenradiowasboss.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5079 |  | 5086 | Ska Dog Records | skadogrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5080 |  | 5087 | spacemonkeyrecords.net | spacemonkeyrecords.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 5081 |  | 5088 | Squidco | squidco.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5082 |  | 5089 | SUDDEN LIGHT RECORDS | suddenlightrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5083 |  | 5090 | thedoorwi.com | thedoorwi.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5084 |  | 5091 | This site is under development | goodiesdisc.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5085 |  | 5092 | Tumblr | recordsfromjupiter.tumblr.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5086 |  | 5093 | Turntables & Trails | turntablestrails.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5087 |  | 5094 | The Wild Wood Books & Music | wildwoodhastings.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5088 |  | 5095 | yelp.com | yelp.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5089 |  | 5096 | Little Butterfly Records | littlebutterflyrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5090 |  | 5097 | Altoque Records | altoquerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5091 |  | 5098 | Recordland | recordland.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 5092 |  | 5099 | El Marchante | elmarchante.org |  | PENDING |  | — | broncontrole uitvoeren |
 
 <!-- quality-gate:start -->
 ## Inhoudelijke toelatingscontrole
