@@ -1,16 +1,16 @@
 # Centrale scraperstatus
 
-Bronregels: 5102. Behandeld voor broncontrole: 3453. Open voor broncontrole: 1649.
+Bronregels: 5102. Behandeld voor broncontrole: 3553. Open voor broncontrole: 1549.
 
 Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine checksumproeven; private acceptatie, marktprijzen en imports volgen apart.
 
 ## Statusaantallen
 
-- ADAPTER_TESTED: 155
+- ADAPTER_TESTED: 173
 - DETAIL_GATE_BLOCKED: 102
-- ROUTE_REVIEW: 1198
-- SCRAPER_BUILT_TESTED: 330
-- SOURCE_BLOCKED: 408
+- ROUTE_REVIEW: 1210
+- SCRAPER_BUILT_TESTED: 383
+- SOURCE_BLOCKED: 425
 - SOURCE_REVIEW: 1260
 
 ## Brongroepen
@@ -21,10 +21,10 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 |---|---:|---:|---:|---:|
 | Oorspronkelijke lijst | 3303 | 3303 | 0 | 247 |
 | Findyl online — 25-10-2026 (50; inclusief 4 herbeoordelingen) | 50 | 50 | 0 | 28 |
-| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 0 | 1618 | 0 |
+| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 78 | 1540 | 45 |
 | Vinylscout winkels — 19-11-2026 (nieuwe domeinen) | 9 | 0 | 9 | 0 |
-| Waxtra Rumours — 19-11-2026 (nieuwe domeinen) | 122 | 100 | 22 | 55 |
-| **Totaal** | **5102** | **3453** | **1649** | **330** |
+| Waxtra Rumours — 19-11-2026 (nieuwe domeinen) | 122 | 122 | 0 | 63 |
+| **Totaal** | **5102** | **3553** | **1549** | **383** |
 
 ## Winkels
 
@@ -3483,106 +3483,106 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 | 3450 | 43 | 3457 | Dreamhouseldn | dreamhouseldn.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
 | 3451 | 43 | 3458 | Offthebeatentracks | offthebeatentracks.co.uk | shopify | SCRAPER_BUILT_TESTED | 15 | 0/2 geldig | private QA en marktgate beoordelen |
 | 3452 | 43 | 3459 | Relevantrecordcafe | relevantrecordcafe.co.uk | shopify | SCRAPER_BUILT_TESTED | 17 | 0/2 geldig | private QA en marktgate beoordelen |
-| 3453 |  | 3460 | Leftfordeadshop | leftfordeadshop.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 3454 |  | 3461 | Record Culture | recordculture.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3455 |  | 3462 | Waxhead Records | waxheadrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 3456 |  | 3463 | Jewels of Thought | jewelsofthoughtrecordings.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3457 |  | 3464 | heathenchemistryrecords | heathenchemistryrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 3458 |  | 3465 | chameleon | chameleon.scot |  | PENDING |  | — | broncontrole uitvoeren |
-| 3459 |  | 3466 | Kultural Records | kulturalrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3460 |  | 3467 | Kultural Records | caprarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3461 |  | 3468 | coreofthepoodle | coreofthepoodle.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 3462 |  | 3469 | shop | shop.subpop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3463 |  | 3470 | Soundrecords | soundrecords.im |  | PENDING |  | — | broncontrole uitvoeren |
-| 3464 |  | 3471 | vinyl | vinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3465 |  | 3472 | hifix | hifix.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 3466 |  | 3473 | Loafers Vinyl & Coffee | loafersvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 3467 |  | 3474 | Revolutionrecords Uk | revolutionrecords.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 3468 |  | 3475 | Mixeduprecords | mixeduprecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3469 |  | 3476 | Galette Records | galette-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3470 |  | 3477 | Daisy Records | daisyrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3471 |  | 3478 | discossupersonicsantander | discossupersonicsantander.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3472 |  | 3479 | Peckhamsoul | peckhamsoul.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 3473 |  | 3480 | Pie & Vinyl | pandvrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 3474 |  | 3481 | Dashthehengestore | dashthehengestore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3475 |  | 3482 | Oui Oui Records | ouioui-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3476 |  | 3483 | La Cueva Musical | lacuevamusical.com.ar |  | PENDING |  | — | broncontrole uitvoeren |
-| 3477 |  | 3484 | Zivals | zivals.com.ar |  | PENDING |  | — | broncontrole uitvoeren |
-| 3478 |  | 3485 | Dutch Vinyl | dutchvinyl.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3479 |  | 3486 | Rerun Records & Photography | rerun.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3480 |  | 3487 | Rocktherapy Records | rocktherapyrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3481 |  | 3488 | TITLE Barangaroo | titlemusicfilmbooks.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3482 |  | 3489 | Hat Hill Records | hathillrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3483 |  | 3490 | Bondi Records | bondirecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3484 |  | 3491 | Butter Beats | butterbeatsrecordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3485 |  | 3492 | DJ City | djcity.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3486 |  | 3493 | Glitter Records | glitterrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3487 |  | 3494 | The Guitar Centre at the Gabba | guitarcentre.net.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3488 |  | 3495 | Stash Records | stashrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3489 |  | 3496 | Tyms Guitar + Recording Studios | winnlane.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3490 |  | 3497 | Rocking Horse Records | rockinghorse.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 3491 |  | 3498 | #beatniks | beatniksrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3492 |  | 3499 | Rockaway Records | rockaway.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3493 |  | 3500 | Abicus | abicus.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3494 |  | 3501 | Urban World Australia | urbanworld.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3495 |  | 3502 | Rhubarb Records | rhubarbrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3496 |  | 3503 | ALT CVLT | alt-cvlt.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3497 |  | 3504 | The Shop in Glen | shopinglen.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3498 |  | 3505 | STUDIO 33/45 | studio3345.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3499 |  | 3506 | Suffragette Records | suffragetterecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3500 |  | 3507 | Urban Records | urbanrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3501 |  | 3508 | Wax Espresso | waxespresso.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3502 |  | 3509 | Bows For Strings | bowsforstrings.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3503 |  | 3510 | Dixons Recycled | dixons.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3504 |  | 3511 | Eclectico | eclectico.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3505 |  | 3512 | Eclectico Records | eclecticorecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3506 |  | 3513 | Goldmine Records | goldminerecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3507 |  | 3514 | Happy Valley Shop | happyvalleyshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3508 |  | 3515 | Heartland Records | heartlandrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3509 |  | 3516 | Oh! Jean Records | ohjeanrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3510 |  | 3517 | Plug Seven | plugseven.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3511 |  | 3518 | Round and Round Records | roundandroundrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3512 |  | 3519 | The Searchers Records | thesearchers.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3513 |  | 3520 | Skydiver Records | skydiverrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3514 |  | 3521 | Soundmerch | sound-merch.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3515 |  | 3522 | Strangeworld Records | strangeworldrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3516 |  | 3523 | Thornbury Records | thornburyrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3517 |  | 3524 | Wah Wah Records | wahwahrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3518 |  | 3525 | Wax Museum Records | waxmuseumrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3519 |  | 3526 | Record Paradise | recordparadise.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3520 |  | 3527 | Vinyl Space | vinylspace.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3521 |  | 3528 | Shake It Up Music | shakeitupmusic.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3522 |  | 3529 | Famous Rock Shop | famousrockshop.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3523 |  | 3530 | Musos Corner | musoscorner.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3524 |  | 3531 | Repressed Records | repressedrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3525 |  | 3532 | Landspeed Records | landspeed.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3526 |  | 3533 | Relove Oxley | shop.reloveoxley.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3527 |  | 3534 | Sound Devices | sounddevices.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3528 |  | 3535 | Rare Records | rarerecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3529 |  | 3536 | GrevilleRecords | grevillerecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3530 |  | 3537 | Hideous Records | hideousrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3531 |  | 3538 | Desert Highways | deserthighways.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3532 |  | 3539 | Stothers Music & Hi-Fi | stothersmusic.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3533 |  | 3540 | Peninsula Records and Books | peninsularecordsandbooks.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3534 |  | 3541 | Daddy Rich Records | daddyrichrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3535 |  | 3542 | Impressed Recordings | impressedrecordings.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3536 |  | 3543 | Prop Records | proprecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3537 |  | 3544 | Red Eye Records | redeye.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3538 |  | 3545 | Rocky Road Records | rockyroadrecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3539 |  | 3546 | Tengu Records | tengurecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3540 |  | 3547 | Utopia Records | utopia.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3541 |  | 3548 | J Wray Records | jwrayrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3542 |  | 3549 | Badlands Vinyl | badlandsvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3543 |  | 3550 | Harbourside Records | harboursiderecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3544 |  | 3551 | Spin And Groove Records | spinandgrooverecords.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3545 |  | 3552 | Music Farmers | musicfarmers.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3546 |  | 3553 | 19th Nervous Breakdown | 19thnervousbreakdown.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3547 |  | 3554 | Air Raid Records | airraidentertainment.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3548 |  | 3555 | Alley Tunes Records & Cafe | alleytunes.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3549 |  | 3556 | Beatdisc Records | beatdisc.com.au |  | PENDING |  | — | broncontrole uitvoeren |
-| 3550 |  | 3557 | BnD Music Factory | bndmusicfactory.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3551 |  | 3558 | Captain Stomp Records | captainstomp.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3552 |  | 3559 | Clarity Records | clarityrecords.net |  | PENDING |  | — | broncontrole uitvoeren |
+| 3453 | 44 | 3460 | Leftfordeadshop | leftfordeadshop.co.uk | shopify | SCRAPER_BUILT_TESTED | 3 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3454 | 44 | 3461 | Record Culture | recordculture.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3455 | 44 | 3462 | Waxhead Records | waxheadrecords.co.uk |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3456 | 44 | 3463 | Jewels of Thought | jewelsofthoughtrecordings.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3457 | 44 | 3464 | heathenchemistryrecords | heathenchemistryrecords.co.uk | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3458 | 44 | 3465 | chameleon | chameleon.scot | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3459 | 44 | 3466 | Kultural Records | kulturalrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3460 | 44 | 3467 | Kultural Records | caprarecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3461 | 44 | 3468 | coreofthepoodle | coreofthepoodle.co.uk |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 3462 | 44 | 3469 | shop | shop.subpop.com | shopify | SCRAPER_BUILT_TESTED | 2 | 0/1 geldig | private QA en marktgate beoordelen |
+| 3463 | 44 | 3470 | Soundrecords | soundrecords.im | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3464 | 44 | 3471 | vinyl | vinyl.com | shopify | SCRAPER_BUILT_TESTED | 12 | 2/2 geldig | private QA en marktgate beoordelen |
+| 3465 | 44 | 3472 | hifix | hifix.co.uk | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3466 | 44 | 3473 | Loafers Vinyl & Coffee | loafersvinyl.co.uk | shopify | SCRAPER_BUILT_TESTED | 16 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3467 | 44 | 3474 | Revolutionrecords Uk | revolutionrecords.uk | shopify | SCRAPER_BUILT_TESTED | 4 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3468 | 44 | 3475 | Mixeduprecords | mixeduprecords.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3469 | 44 | 3476 | Galette Records | galette-records.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3470 | 44 | 3477 | Daisy Records | daisyrecords.com.au |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3471 | 44 | 3478 | discossupersonicsantander | discossupersonicsantander.com | shopify | SCRAPER_BUILT_TESTED | 15 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3472 | 44 | 3479 | Peckhamsoul | peckhamsoul.co.uk |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 3473 | 44 | 3480 | Pie & Vinyl | pandvrecords.co.uk | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3474 | 44 | 3481 | Dashthehengestore | dashthehengestore.com | shopify | SCRAPER_BUILT_TESTED | 1 | 1/1 geldig | private QA en marktgate beoordelen |
+| 3475 | 44 | 3482 | Oui Oui Records | ouioui-records.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3476 | 44 | 3483 | La Cueva Musical | lacuevamusical.com.ar | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3477 | 44 | 3484 | Zivals | zivals.com.ar |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 3478 | 44 | 3485 | Dutch Vinyl | dutchvinyl.com.au | shopify | SCRAPER_BUILT_TESTED | 14 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3479 | 44 | 3486 | Rerun Records & Photography | rerun.com.au | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3480 | 44 | 3487 | Rocktherapy Records | rocktherapyrecords.com.au | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3481 | 44 | 3488 | TITLE Barangaroo | titlemusicfilmbooks.com | shopify | SCRAPER_BUILT_TESTED | 10 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3482 | 44 | 3489 | Hat Hill Records | hathillrecords.com.au | shopify | SCRAPER_BUILT_TESTED | 20 | 2/2 geldig | private QA en marktgate beoordelen |
+| 3483 | 44 | 3490 | Bondi Records | bondirecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Response size limit |
+| 3484 | 44 | 3491 | Butter Beats | butterbeatsrecordstore.com | shopify | SCRAPER_BUILT_TESTED | 10 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3485 | 44 | 3492 | DJ City | djcity.com.au | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3486 | 44 | 3493 | Glitter Records | glitterrecords.com.au | shopify | SCRAPER_BUILT_TESTED | 1 | 0/1 geldig | private QA en marktgate beoordelen |
+| 3487 | 44 | 3494 | The Guitar Centre at the Gabba | guitarcentre.net.au | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3488 | 44 | 3495 | Stash Records | stashrecords.com.au | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3489 | 44 | 3496 | Tyms Guitar + Recording Studios | winnlane.com.au |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 3490 | 44 | 3497 | Rocking Horse Records | rockinghorse.net | shopify | SCRAPER_BUILT_TESTED | 11 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3491 | 44 | 3498 | #beatniks | beatniksrecords.com.au | shopify | SCRAPER_BUILT_TESTED | 18 | 2/2 geldig | private QA en marktgate beoordelen |
+| 3492 | 44 | 3499 | Rockaway Records | rockaway.com.au |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Response size limit |
+| 3493 | 44 | 3500 | Abicus | abicus.com.au | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3494 | 44 | 3501 | Urban World Australia | urbanworld.com.au | shopify | SCRAPER_BUILT_TESTED | 13 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3495 | 44 | 3502 | Rhubarb Records | rhubarbrecords.com | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3496 | 44 | 3503 | ALT CVLT | alt-cvlt.com.au | shopify | SCRAPER_BUILT_TESTED | 2 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3497 | 44 | 3504 | The Shop in Glen | shopinglen.com.au | shopify | SCRAPER_BUILT_TESTED | 13 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3498 | 44 | 3505 | STUDIO 33/45 | studio3345.com.au | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3499 | 44 | 3506 | Suffragette Records | suffragetterecords.com.au | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3500 | 44 | 3507 | Urban Records | urbanrecords.com.au | shopify | SCRAPER_BUILT_TESTED | 20 | 1/2 geldig | private QA en marktgate beoordelen |
+| 3501 | 44 | 3508 | Wax Espresso | waxespresso.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3502 | 44 | 3509 | Bows For Strings | bowsforstrings.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3503 | 44 | 3510 | Dixons Recycled | dixons.com.au | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3504 | 44 | 3511 | Eclectico | eclectico.com.au | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3505 | 44 | 3512 | Eclectico Records | eclecticorecords.com.au | shopify | SCRAPER_BUILT_TESTED | 4 | 1/2 geldig | private QA en marktgate beoordelen |
+| 3506 | 44 | 3513 | Goldmine Records | goldminerecords.com.au | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3507 | 44 | 3514 | Happy Valley Shop | happyvalleyshop.com | shopify | SCRAPER_BUILT_TESTED | 14 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3508 | 44 | 3515 | Heartland Records | heartlandrecords.com.au | shopify | SCRAPER_BUILT_TESTED | 18 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3509 | 44 | 3516 | Oh! Jean Records | ohjeanrecords.com | shopify | SCRAPER_BUILT_TESTED | 15 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3510 | 44 | 3517 | Plug Seven | plugseven.com | shopify | SCRAPER_BUILT_TESTED | 19 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3511 | 44 | 3518 | Round and Round Records | roundandroundrecords.com | shopify | SCRAPER_BUILT_TESTED | 14 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3512 | 44 | 3519 | The Searchers Records | thesearchers.com.au | shopify | SCRAPER_BUILT_TESTED | 16 | 1/2 geldig | private QA en marktgate beoordelen |
+| 3513 | 44 | 3520 | Skydiver Records | skydiverrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3514 | 44 | 3521 | Soundmerch | sound-merch.com.au | shopify | SCRAPER_BUILT_TESTED | 16 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3515 | 44 | 3522 | Strangeworld Records | strangeworldrecords.com.au | shopify | SCRAPER_BUILT_TESTED | 13 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3516 | 44 | 3523 | Thornbury Records | thornburyrecords.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 3517 | 44 | 3524 | Wah Wah Records | wahwahrecords.com.au | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3518 | 44 | 3525 | Wax Museum Records | waxmuseumrecords.com | shopify | SCRAPER_BUILT_TESTED | 2 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3519 | 44 | 3526 | Record Paradise | recordparadise.com.au | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3520 | 44 | 3527 | Vinyl Space | vinylspace.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3521 | 44 | 3528 | Shake It Up Music | shakeitupmusic.com.au |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 3522 | 44 | 3529 | Famous Rock Shop | famousrockshop.com.au | shopify | SCRAPER_BUILT_TESTED | 1 | 0/1 geldig | private QA en marktgate beoordelen |
+| 3523 | 44 | 3530 | Musos Corner | musoscorner.com.au |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Response size limit |
+| 3524 | 44 | 3531 | Repressed Records | repressedrecords.com | shopify | SCRAPER_BUILT_TESTED | 17 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3525 | 44 | 3532 | Landspeed Records | landspeed.com.au | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3526 | 44 | 3533 | Relove Oxley | shop.reloveoxley.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3527 | 44 | 3534 | Sound Devices | sounddevices.com.au | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3528 | 44 | 3535 | Rare Records | rarerecords.com.au | shopify | SCRAPER_BUILT_TESTED | 5 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3529 | 44 | 3536 | GrevilleRecords | grevillerecords.com.au |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Response size limit |
+| 3530 | 44 | 3537 | Hideous Records | hideousrecords.com.au | shopify | SCRAPER_BUILT_TESTED | 19 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3531 | 44 | 3538 | Desert Highways | deserthighways.com | shopify | SCRAPER_BUILT_TESTED | 4 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3532 | 44 | 3539 | Stothers Music & Hi-Fi | stothersmusic.com.au | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3533 | 44 | 3540 | Peninsula Records and Books | peninsularecordsandbooks.com | shopify | SCRAPER_BUILT_TESTED | 6 | 2/2 geldig | private QA en marktgate beoordelen |
+| 3534 | 44 | 3541 | Daddy Rich Records | daddyrichrecords.com | shopify | SCRAPER_BUILT_TESTED | 5 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3535 | 44 | 3542 | Impressed Recordings | impressedrecordings.com | shopify | SCRAPER_BUILT_TESTED | 20 | 1/2 geldig | private QA en marktgate beoordelen |
+| 3536 | 44 | 3543 | Prop Records | proprecords.com.au | shopify | SCRAPER_BUILT_TESTED | 16 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3537 | 44 | 3544 | Red Eye Records | redeye.com.au | shopify | SCRAPER_BUILT_TESTED | 14 | 2/2 geldig | private QA en marktgate beoordelen |
+| 3538 | 44 | 3545 | Rocky Road Records | rockyroadrecords.com.au | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3539 | 44 | 3546 | Tengu Records | tengurecords.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3540 | 44 | 3547 | Utopia Records | utopia.com.au | shopify | SCRAPER_BUILT_TESTED | 7 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3541 | 44 | 3548 | J Wray Records | jwrayrecords.com | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3542 | 44 | 3549 | Badlands Vinyl | badlandsvinyl.com | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3543 | 44 | 3550 | Harbourside Records | harboursiderecords.com.au | shopify | SCRAPER_BUILT_TESTED | 20 | 2/2 geldig | private QA en marktgate beoordelen |
+| 3544 | 44 | 3551 | Spin And Groove Records | spinandgrooverecords.com.au | shopify | SCRAPER_BUILT_TESTED | 12 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3545 | 44 | 3552 | Music Farmers | musicfarmers.com | shopify | SCRAPER_BUILT_TESTED | 16 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3546 | 44 | 3553 | 19th Nervous Breakdown | 19thnervousbreakdown.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3547 | 44 | 3554 | Air Raid Records | airraidentertainment.com.au | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3548 | 44 | 3555 | Alley Tunes Records & Cafe | alleytunes.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3549 | 44 | 3556 | Beatdisc Records | beatdisc.com.au | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3550 | 44 | 3557 | BnD Music Factory | bndmusicfactory.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 3551 | 44 | 3558 | Captain Stomp Records | captainstomp.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_526 |
+| 3552 | 44 | 3559 | Clarity Records | clarityrecords.net | bigcommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
 | 3553 |  | 3560 | Crosstalk Records | crosstalkrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
 | 3554 |  | 3561 | Daylesford Records | daylesfordrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
 | 3555 |  | 3562 | Egg Records | eggrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
