@@ -1,16 +1,16 @@
 # Centrale scraperstatus
 
-Bronregels: 5102. Behandeld voor broncontrole: 3653. Open voor broncontrole: 1449.
+Bronregels: 5102. Behandeld voor broncontrole: 3753. Open voor broncontrole: 1349.
 
 Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine checksumproeven; private acceptatie, marktprijzen en imports volgen apart.
 
 ## Statusaantallen
 
-- ADAPTER_TESTED: 185
+- ADAPTER_TESTED: 199
 - DETAIL_GATE_BLOCKED: 102
-- ROUTE_REVIEW: 1264
-- SCRAPER_BUILT_TESTED: 387
-- SOURCE_BLOCKED: 455
+- ROUTE_REVIEW: 1308
+- SCRAPER_BUILT_TESTED: 407
+- SOURCE_BLOCKED: 477
 - SOURCE_REVIEW: 1260
 
 ## Brongroepen
@@ -21,10 +21,10 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 |---|---:|---:|---:|---:|
 | Oorspronkelijke lijst | 3303 | 3303 | 0 | 247 |
 | Findyl online — 25-10-2026 (50; inclusief 4 herbeoordelingen) | 50 | 50 | 0 | 28 |
-| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 178 | 1440 | 49 |
+| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 278 | 1340 | 69 |
 | Vinylscout winkels — 19-11-2026 (nieuwe domeinen) | 9 | 0 | 9 | 0 |
 | Waxtra Rumours — 19-11-2026 (nieuwe domeinen) | 122 | 122 | 0 | 63 |
-| **Totaal** | **5102** | **3653** | **1449** | **387** |
+| **Totaal** | **5102** | **3753** | **1349** | **407** |
 
 ## Winkels
 
@@ -3683,106 +3683,106 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 | 3650 | 45 | 3657 | Boekhandel t Oneindige Verhaal | oneindigeverhaal.be |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
 | 3651 | 45 | 3658 | Topdisc | topdisc.be |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
 | 3652 | 45 | 3659 | Groefwerk | groefwerk.be | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
-| 3653 |  | 3660 | Blitz Entertainment Store | blent.be |  | PENDING |  | — | broncontrole uitvoeren |
-| 3654 |  | 3661 | re-COrDA records | re-cordarecords.be |  | PENDING |  | — | broncontrole uitvoeren |
-| 3655 |  | 3662 | THE VINYL TASTE | thetaste.be |  | PENDING |  | — | broncontrole uitvoeren |
-| 3656 |  | 3663 | Fonorama | fonorama.be |  | PENDING |  | — | broncontrole uitvoeren |
-| 3657 |  | 3664 | Boeken, e-books, e-readers, cd's, dvd's, games en geschenken | standaardboekhandel.be |  | PENDING |  | — | broncontrole uitvoeren |
-| 3658 |  | 3665 | Crisca | crisca.be |  | PENDING |  | — | broncontrole uitvoeren |
-| 3659 |  | 3666 | Djingel Djangel | djingeldjangel.be |  | PENDING |  | — | broncontrole uitvoeren |
-| 3660 |  | 3667 | Kalkman | kalkmangallery.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3661 |  | 3668 | K-Records | k-records.be |  | PENDING |  | — | broncontrole uitvoeren |
-| 3662 |  | 3669 | The Rocking Bull | shop.therockingbull.rocks |  | PENDING |  | — | broncontrole uitvoeren |
-| 3663 |  | 3670 | Sensation Records | sensationrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3664 |  | 3671 | Turtle Records | turtle-records.be |  | PENDING |  | — | broncontrole uitvoeren |
-| 3665 |  | 3672 | bilborecords.be | bilborecords.be |  | PENDING |  | — | broncontrole uitvoeren |
-| 3666 |  | 3673 | Crate Records | craterecords.be |  | PENDING |  | — | broncontrole uitvoeren |
-| 3667 |  | 3674 | Dust Dealers | dustdealers.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3668 |  | 3675 | Groovy International | popcornmusic.be |  | PENDING |  | — | broncontrole uitvoeren |
-| 3669 |  | 3676 | Meuse Music Records | meusemusicrecords.eu |  | PENDING |  | — | broncontrole uitvoeren |
-| 3670 |  | 3677 | Morbus Gravis | morbusgravis.be |  | PENDING |  | — | broncontrole uitvoeren |
-| 3671 |  | 3678 | musicmediacorner.be | musicmediacorner.be |  | PENDING |  | — | broncontrole uitvoeren |
-| 3672 |  | 3679 | Noiski records | noiski-shop.be |  | PENDING |  | — | broncontrole uitvoeren |
-| 3673 |  | 3680 | panoplybooksrecords.be | panoplybooksrecords.be |  | PENDING |  | — | broncontrole uitvoeren |
-| 3674 |  | 3681 | Pêle-Mêle | pele-mele.be |  | PENDING |  | — | broncontrole uitvoeren |
-| 3675 |  | 3682 | vynilla.be | vynilla.be |  | PENDING |  | — | broncontrole uitvoeren |
-| 3676 |  | 3683 | Boa Viagem Discos | boaviagemdiscos.com.br |  | PENDING |  | — | broncontrole uitvoeren |
-| 3677 |  | 3684 | Taioba Discos | taiobadiscos.com.br |  | PENDING |  | — | broncontrole uitvoeren |
-| 3678 |  | 3685 | Jazz e Companhia Discos | jazzecompanhiadiscos.com.br |  | PENDING |  | — | broncontrole uitvoeren |
-| 3679 |  | 3686 | Melômano Discos | melomano.com.br |  | PENDING |  | — | broncontrole uitvoeren |
-| 3680 |  | 3687 | Memória Discos | memoriadiscos.com.br |  | PENDING |  | — | broncontrole uitvoeren |
-| 3681 |  | 3688 | Mr. Groove Records | mrgroove.com.br |  | PENDING |  | — | broncontrole uitvoeren |
-| 3682 |  | 3689 | Sertão Records | sertaorecords.com.br |  | PENDING |  | — | broncontrole uitvoeren |
-| 3683 |  | 3690 | Estilhaços Discos | estilhacosdiscos.com.br |  | PENDING |  | — | broncontrole uitvoeren |
-| 3684 |  | 3691 | FYASHOP | fyashop.com.br |  | PENDING |  | — | broncontrole uitvoeren |
-| 3685 |  | 3692 | London Calling Discos | londoncalling.com.br |  | PENDING |  | — | broncontrole uitvoeren |
-| 3686 |  | 3693 | ORB DISCOS | orbdiscos.com.br |  | PENDING |  | — | broncontrole uitvoeren |
-| 3687 |  | 3694 | Supreme Records | supremerecords.eu |  | PENDING |  | — | broncontrole uitvoeren |
-| 3688 |  | 3695 | Музикална библиотека | vinylhomevarna.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3689 |  | 3696 | Threechords Record Store | threechordsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3690 |  | 3697 | Sunrise Records | sunriserecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3691 |  | 3698 | hifi cabinet co | hificabinetcompany.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3692 |  | 3699 | Neon Taste Records | neontasterecords.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3693 |  | 3700 | Sloth Records | slothrecords.wordpress.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3694 |  | 3701 | Turn It Up! Records & Hi-Fi | turnituprecordsandhifi.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3695 |  | 3702 | Moon's Records | moonsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3696 |  | 3703 | Village Vinyl Emprium & Cafe | surgicallycleanair.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3697 |  | 3704 | The Beat Goes On | beatgoeson.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3698 |  | 3705 | Royal Cat Records | royalcatrecords.blogspot.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3699 |  | 3706 | Taz Records | taz-records.myshopify.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3700 |  | 3707 | The Record Shoppe | therecordshoppe.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3701 |  | 3708 | Sunrise Records | orchardparkshopping.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3702 |  | 3709 | X-Disc-C Music | xdisccmusic.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3703 |  | 3710 | Atomic Sound | atomicsound.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3704 |  | 3711 | Grooves Records | groovesrecordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3705 |  | 3712 | Odyssey Records | odysseyrecords.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3706 |  | 3713 | Freeson Rock | freesonrock.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3707 |  | 3714 | Phonopolis | phonopolis.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3708 |  | 3715 | Le Vacarme | levacarme.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3709 |  | 3716 | La Fin du Vinyle | deathofvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3710 |  | 3717 | Sunrise Records | placedorleans.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3711 |  | 3718 | Compact Music | compactmusic.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3712 |  | 3719 | Legend Records | legendrecords.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3713 |  | 3720 | The Record Centre | therecordcentre.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3714 |  | 3721 | ID Shop.ca | idshop.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3715 |  | 3722 | Dead Dog Records | deaddogrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3716 |  | 3723 | Dine Alone Records | dinealonestore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3717 |  | 3724 | flowrecords | flowrecordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3718 |  | 3725 | High Notes Coffee + Vinyl | highnotes.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3719 |  | 3726 | Invisible City Editions | invisiblecityeditions.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3720 |  | 3727 | Record Shop Emissions | recordshopemissions.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3721 |  | 3728 | Tonality Records | tonalityrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3722 |  | 3729 | Beach Sound Records | torontorecordstores.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3723 |  | 3730 | Puce Rock | pucerock.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3724 |  | 3731 | Beat Street Records | beatstreet.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3725 |  | 3732 | Red Cat Records | redcat.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3726 |  | 3733 | Audiopile Records | audiopile.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3727 |  | 3734 | Neptoon Records | neptoon.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3728 |  | 3735 | Ditch Records & CD's | ditchrecords.mystrikingly.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3729 |  | 3736 | Mile High Vinyl | milehighvinyl.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3730 |  | 3737 | Dr. Disc Records | drdiscrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3731 |  | 3738 | Frenchie's Records & Coffee | frenchiesrecords.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3732 |  | 3739 | 3Dawgs Vinyl | 3dawgsvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3733 |  | 3740 | Atom Heart | atomheart.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3734 |  | 3741 | Disquaire Général Nostalgie | disquairegeneralnostalgie.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3735 |  | 3742 | Disques La Rama | larama.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3736 |  | 3743 | Freds Records | fredsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3737 |  | 3744 | Kops Records | kopsrecords.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3738 |  | 3745 | Listen Records | shop.listenrecords.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 3739 |  | 3746 | Paradise Bound | paradisebound.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3740 |  | 3747 | Paramusic Records | paramusictoronto.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3741 |  | 3748 | Record Collectors Paradise | recordcollectorsparadise.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3742 |  | 3749 | Sound Fixation | soundfixation.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3743 |  | 3750 | 33 1/3 Record Store | 3313recordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3744 |  | 3751 | Chilliwax Records | chilliwax.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3745 |  | 3752 | Classic Replay | classicreplay.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3746 |  | 3753 | The Creative Bookworm | thecreativebookworm.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3747 |  | 3754 | Francophonies | francophonies.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3748 |  | 3755 | Freecloud Records | freecloud.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3749 |  | 3756 | Futhark Records | futharkrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3750 |  | 3757 | grooveyard.ca | grooveyard.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3751 |  | 3758 | Hit One Records | hitonerecords.ca |  | PENDING |  | — | broncontrole uitvoeren |
-| 3752 |  | 3759 | Into the Music :: New and Used record store in Winnipeg, MB, Canada | intothemusic.ca |  | PENDING |  | — | broncontrole uitvoeren |
+| 3653 | 46 | 3660 | Blitz Entertainment Store | blent.be |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 3654 | 46 | 3661 | re-COrDA records | re-cordarecords.be |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 3655 | 46 | 3662 | THE VINYL TASTE | thetaste.be | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3656 | 46 | 3663 | Fonorama | fonorama.be | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3657 | 46 | 3664 | Boeken, e-books, e-readers, cd's, dvd's, games en geschenken | standaardboekhandel.be | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3658 | 46 | 3665 | Crisca | crisca.be | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3659 | 46 | 3666 | Djingel Djangel | djingeldjangel.be | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3660 | 46 | 3667 | Kalkman | kalkmangallery.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 3661 | 46 | 3668 | K-Records | k-records.be | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3662 | 46 | 3669 | The Rocking Bull | shop.therockingbull.rocks | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 3663 | 46 | 3670 | Sensation Records | sensationrecords.com | woocommerce | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3664 | 46 | 3671 | Turtle Records | turtle-records.be | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3665 | 46 | 3672 | bilborecords.be | bilborecords.be |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_520 |
+| 3666 | 46 | 3673 | Crate Records | craterecords.be | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3667 | 46 | 3674 | Dust Dealers | dustdealers.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3668 | 46 | 3675 | Groovy International | popcornmusic.be | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3669 | 46 | 3676 | Meuse Music Records | meusemusicrecords.eu | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3670 | 46 | 3677 | Morbus Gravis | morbusgravis.be |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3671 | 46 | 3678 | musicmediacorner.be | musicmediacorner.be |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 3672 | 46 | 3679 | Noiski records | noiski-shop.be | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3673 | 46 | 3680 | panoplybooksrecords.be | panoplybooksrecords.be |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3674 | 46 | 3681 | Pêle-Mêle | pele-mele.be | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3675 | 46 | 3682 | vynilla.be | vynilla.be |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 3676 | 46 | 3683 | Boa Viagem Discos | boaviagemdiscos.com.br | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3677 | 46 | 3684 | Taioba Discos | taiobadiscos.com.br | shopify | SCRAPER_BUILT_TESTED | 11 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3678 | 46 | 3685 | Jazz e Companhia Discos | jazzecompanhiadiscos.com.br | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3679 | 46 | 3686 | Melômano Discos | melomano.com.br | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3680 | 46 | 3687 | Memória Discos | memoriadiscos.com.br | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3681 | 46 | 3688 | Mr. Groove Records | mrgroove.com.br | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3682 | 46 | 3689 | Sertão Records | sertaorecords.com.br |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3683 | 46 | 3690 | Estilhaços Discos | estilhacosdiscos.com.br | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3684 | 46 | 3691 | FYASHOP | fyashop.com.br | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3685 | 46 | 3692 | London Calling Discos | londoncalling.com.br |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3686 | 46 | 3693 | ORB DISCOS | orbdiscos.com.br | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3687 | 46 | 3694 | Supreme Records | supremerecords.eu | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3688 | 46 | 3695 | Музикална библиотека | vinylhomevarna.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3689 | 46 | 3696 | Threechords Record Store | threechordsrecords.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3690 | 46 | 3697 | Sunrise Records | sunriserecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3691 | 46 | 3698 | hifi cabinet co | hificabinetcompany.com | shopify | SCRAPER_BUILT_TESTED | 14 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3692 | 46 | 3699 | Neon Taste Records | neontasterecords.ca | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3693 | 46 | 3700 | Sloth Records | slothrecords.wordpress.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 3694 | 46 | 3701 | Turn It Up! Records & Hi-Fi | turnituprecordsandhifi.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3695 | 46 | 3702 | Moon's Records | moonsrecords.com | shopify | SCRAPER_BUILT_TESTED | 2 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3696 | 46 | 3703 | Village Vinyl Emprium & Cafe | surgicallycleanair.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3697 | 46 | 3704 | The Beat Goes On | beatgoeson.com | shopify | SCRAPER_BUILT_TESTED | 8 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3698 | 46 | 3705 | Royal Cat Records | royalcatrecords.blogspot.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 3699 | 46 | 3706 | Taz Records | taz-records.myshopify.com | shopify | SCRAPER_BUILT_TESTED | 19 | 2/2 geldig | private QA en marktgate beoordelen |
+| 3700 | 46 | 3707 | The Record Shoppe | therecordshoppe.ca | shopify | SCRAPER_BUILT_TESTED | 2 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3701 | 46 | 3708 | Sunrise Records | orchardparkshopping.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3702 | 46 | 3709 | X-Disc-C Music | xdisccmusic.ca | shopify | SCRAPER_BUILT_TESTED | 11 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3703 | 46 | 3710 | Atomic Sound | atomicsound.ca | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3704 | 46 | 3711 | Grooves Records | groovesrecordstore.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3705 | 46 | 3712 | Odyssey Records | odysseyrecords.ca | woocommerce | SCRAPER_BUILT_TESTED | 2 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3706 | 46 | 3713 | Freeson Rock | freesonrock.com | shopify | SCRAPER_BUILT_TESTED | 19 | 2/2 geldig | private QA en marktgate beoordelen |
+| 3707 | 46 | 3714 | Phonopolis | phonopolis.ca |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 3708 | 46 | 3715 | Le Vacarme | levacarme.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3709 | 46 | 3716 | La Fin du Vinyle | deathofvinyl.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3710 | 46 | 3717 | Sunrise Records | placedorleans.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3711 | 46 | 3718 | Compact Music | compactmusic.ca | shopify | SCRAPER_BUILT_TESTED | 19 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3712 | 46 | 3719 | Legend Records | legendrecords.ca | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3713 | 46 | 3720 | The Record Centre | therecordcentre.com | bigcommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3714 | 46 | 3721 | ID Shop.ca | idshop.ca | shopify | SCRAPER_BUILT_TESTED | 4 | 2/2 geldig | private QA en marktgate beoordelen |
+| 3715 | 46 | 3722 | Dead Dog Records | deaddogrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3716 | 46 | 3723 | Dine Alone Records | dinealonestore.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 3717 | 46 | 3724 | flowrecords | flowrecordstore.com | shopify | SCRAPER_BUILT_TESTED | 13 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3718 | 46 | 3725 | High Notes Coffee + Vinyl | highnotes.ca | shopify | SCRAPER_BUILT_TESTED | 8 | 2/2 geldig | private QA en marktgate beoordelen |
+| 3719 | 46 | 3726 | Invisible City Editions | invisiblecityeditions.com | shopify | SCRAPER_BUILT_TESTED | 5 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3720 | 46 | 3727 | Record Shop Emissions | recordshopemissions.com | shopify | SCRAPER_BUILT_TESTED | 19 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3721 | 46 | 3728 | Tonality Records | tonalityrecords.com | shopify | SCRAPER_BUILT_TESTED | 6 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3722 | 46 | 3729 | Beach Sound Records | torontorecordstores.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3723 | 46 | 3730 | Puce Rock | pucerock.ca | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3724 | 46 | 3731 | Beat Street Records | beatstreet.ca | shopify | SCRAPER_BUILT_TESTED | 15 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3725 | 46 | 3732 | Red Cat Records | redcat.ca | shopify | SCRAPER_BUILT_TESTED | 10 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3726 | 46 | 3733 | Audiopile Records | audiopile.ca |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Response size limit |
+| 3727 | 46 | 3734 | Neptoon Records | neptoon.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3728 | 46 | 3735 | Ditch Records & CD's | ditchrecords.mystrikingly.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_502 |
+| 3729 | 46 | 3736 | Mile High Vinyl | milehighvinyl.ca | shopify | SCRAPER_BUILT_TESTED | 1 | 0/1 geldig | private QA en marktgate beoordelen |
+| 3730 | 46 | 3737 | Dr. Disc Records | drdiscrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3731 | 46 | 3738 | Frenchie's Records & Coffee | frenchiesrecords.ca | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3732 | 46 | 3739 | 3Dawgs Vinyl | 3dawgsvinyl.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3733 | 46 | 3740 | Atom Heart | atomheart.ca | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3734 | 46 | 3741 | Disquaire Général Nostalgie | disquairegeneralnostalgie.ca | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3735 | 46 | 3742 | Disques La Rama | larama.ca | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3736 | 46 | 3743 | Freds Records | fredsrecords.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3737 | 46 | 3744 | Kops Records | kopsrecords.ca | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3738 | 46 | 3745 | Listen Records | shop.listenrecords.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3739 | 46 | 3746 | Paradise Bound | paradisebound.ca | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3740 | 46 | 3747 | Paramusic Records | paramusictoronto.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3741 | 46 | 3748 | Record Collectors Paradise | recordcollectorsparadise.ca | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3742 | 46 | 3749 | Sound Fixation | soundfixation.ca | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3743 | 46 | 3750 | 33 1/3 Record Store | 3313recordstore.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3744 | 46 | 3751 | Chilliwax Records | chilliwax.ca | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 3745 | 46 | 3752 | Classic Replay | classicreplay.ca | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 3746 | 46 | 3753 | The Creative Bookworm | thecreativebookworm.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3747 | 46 | 3754 | Francophonies | francophonies.ca |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3748 | 46 | 3755 | Freecloud Records | freecloud.ca | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3749 | 46 | 3756 | Futhark Records | futharkrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3750 | 46 | 3757 | grooveyard.ca | grooveyard.ca |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 3751 | 46 | 3758 | Hit One Records | hitonerecords.ca | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3752 | 46 | 3759 | Into the Music :: New and Used record store in Winnipeg, MB, Canada | intothemusic.ca | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
 | 3753 |  | 3760 | Lukes Drug Mart | lukesdrugmart.com |  | PENDING |  | — | broncontrole uitvoeren |
 | 3754 |  | 3761 | melodiyarecords.ca | melodiyarecords.ca |  | PENDING |  | — | broncontrole uitvoeren |
 | 3755 |  | 3762 | My Site | oldgoldvintagevinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
