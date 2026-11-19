@@ -18,8 +18,8 @@ class FindylBatchTests(unittest.TestCase):
         q=load_queue(Path('collector/public-queue.json'))
         manifest=json.loads(Path('collector/sources/findyl-online-2026-10-25.json').read_text())
         entries=manifest['entries'];self.assertEqual(len(entries),50)
-        self.assertEqual([x['row'] for x in q[-50:]],[x['row'] for x in entries])
-        self.assertEqual([x['domain'] for x in q[-50:]],[x['domain'] for x in entries])
+        self.assertEqual([x['row'] for x in q[3303:3353]],[x['row'] for x in entries])
+        self.assertEqual([x['domain'] for x in q[3303:3353]],[x['domain'] for x in entries])
         self.assertEqual(sum(x['source_status']=='SHARED_PLATFORM' for x in entries),3)
         state={'schema_version':1,'queue_size':3303,'queue_sha256':queue_digest(q[:3303]),'next_start_index':3303}
         self.assertEqual(progress.next_index(state,q),3303)
@@ -30,7 +30,7 @@ class FindylBatchTests(unittest.TestCase):
         source=json.loads(Path('collector/sources/findyl-online-2026-10-25.json').read_text())
         history=[{'row':x['row'],'status':'SOURCE_REVIEW'} for x in q[:3303]]
         state={'schema_version':1,'queue_size':3303,'queue_sha256':queue_digest(q[:3303]),'next_start_index':3303,'history':history}
-        doc=render(q,state,sources=[source])
+        doc=render(q[:3353],state,sources=[source])
         self.assertIn('| Oorspronkelijke lijst | 3303 | 3303 | 0 | 0 |',doc)
         self.assertIn('| 50 | 0 | 50 | 0 |',doc)
         self.assertIn('| **Totaal** | **3353** | **3303** | **50** |',doc)

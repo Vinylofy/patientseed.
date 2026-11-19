@@ -25,3 +25,14 @@ country. Quality admission still requires independent matching product/variant
 price and currency evidence. The shared US adapter and other published wrappers
 are unchanged. Unknown/custom platforms remain in route review; missing public
 EAN/price evidence does not count as admission. No database writes occur.
+
+## Waxtra album source, 19 November 2026
+
+`waxtra-rumours-2026-11-19.csv` lists all 198 unique shop domains embedded in
+https://waxtra.com/album/38722, including collapsed offers. The JSON manifest
+records the HTML checksum, 76 existing domains with their queue IDs, and
+122 new candidates appended after the unchanged 3353-item queue.
+The original workbook and progress are preserved. This is an album-page snapshot,
+not an exhaustive Waxtra directory. Platform/country fields are unverified source
+hints; used-only shops must still fail the ordinary new-vinyl gate. No collection,
+QA approval, scheduling or imports are triggered by adding these candidates.
