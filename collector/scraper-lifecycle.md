@@ -3207,3 +3207,103 @@ Maximale bouwpogingen: 3
 | kayvinyl.nl | 4457 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | wwrecords.nl | 4458 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | yuppefish.nl | 4459 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| nodustrecords.com | 4460 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['nodustrecords_com.py', 'nodustrecords_com.json'] |
+| handelskoning.nl | 4461 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hekmanmuziek.nl | 4462 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_400 |
+| basvinyl.nl | 4463 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| music-more.nl | 4464 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| coco-records.nl | 4465 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| themusicfool.nl | 4466 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| marmur.nl | 4467 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| minstrel.nl | 4468 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bordelloaparigi.com | 4469 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['bordelloaparigi_com.py', 'bordelloaparigi_com.json'] |
+| eastmanrecords.nl | 4470 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['eastmanrecords_nl.py', 'eastmanrecords_nl.json'] |
+| muziekvanderveen.nl | 4471 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| platenreus.com | 4472 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| platoleiden.nl | 4473 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| pop-eye.nl | 4474 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| rushhour.nl | 4475 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| secondspin.nl | 4476 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| simply-listening.nl | 4477 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| myrecordstore.nl | 4478 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| killacutz.nl | 4479 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cityrecordsamsterdam.com | 4480 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| clone.nl | 4481 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| drukkerijmiddelburg.nl | 4482 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dwars-edam.nl | 4483 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| elpeesvankees.nl | 4484 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| enjoythemusic.nl | 4485 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cdenlp.nl | 4486 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| iorr.nl | 4487 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lp-2.nl | 4488 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| no1hotwaxrecords.nl | 4489 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| northendhaarlem.nl | 4490 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| kroese-online.nl | 4491 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| parkstadrecordshop.nl | 4492 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| planetofsound.nl | 4493 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| platenhuis-het-oor.nl | 4494 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| retroloes.nl | 4495 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| riddimrecordstore.nl | 4496 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rootsmailmusic.com | 4497 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sounds.nl | 4498 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| trexrecords.nl | 4499 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| triplevision.nl | 4500 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylplaatjes.nl | 4501 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| southbound.co.nz | 4502 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| tronrecords.nz | 4503 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| justfortherecord.co.nz | 4504 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| flyingnun.co.nz | 4505 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| slowboatrecords.co.nz | 4506 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| realgroovy.co.nz | 4507 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| katakomben.no | 4508 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['katakomben_no.py', 'katakomben_no.json'] |
+| neseblodrecords.bigcartel.com | 4509 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| tigernet.no | 4510 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| aftermath-music.com | 4511 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['aftermath_music_com.py', 'aftermath_music_com.json'] |
+| allgoodcleanrecords.com | 4512 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| backbeat-tromso.no | 4513 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| retrovinyl.no | 4514 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| apollon.no | 4515 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| modernevintage.no | 4516 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bowierecords.com | 4517 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| tercer-ojo.pe | 4518 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| prothrowbacks.com | 4519 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| drumstore.pl | 4520 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| vinyltamka.pl | 4521 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| winyle.com.pl | 4522 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| digujto.pl | 4523 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| sideone.pl | 4524 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| k-wax.com | 4525 | 1 | SOURCE_BLOCKED | — | — | — | RemoteDisconnected |
+| flur.pt | 4526 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['flur_pt.py', 'flur_pt.json'] |
+| groovierecords.com | 4527 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['groovierecords_com.py', 'groovierecords_com.json'] |
+| palmelarecords.com | 4528 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| peekaboorecords.pt | 4529 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| carbonoamadora.net | 4530 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| carbono.com.pt | 4531 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| materiaprima.pt | 4532 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| piranhacd.com | 4533 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| pontozurca.pt | 4534 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| silvertentacle.com | 4535 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| misbits.ro | 4536 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| nicherecords.ro | 4537 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| maximumvinyl.ru | 4538 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dissonance.shop | 4539 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylbox.ru | 4540 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylforall.ru | 4541 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| doctorhead.ru | 4542 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| sound-barrier.ru | 4543 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinil.rs | 4544 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| yugovinyl.blogspot.com | 4545 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylcafe.rs | 4546 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discom.bigcartel.com | 4547 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| krmerchs.com | 4548 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| vinyloveplatne.sk | 4549 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| focusmusic.sk | 4550 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| hardbazar.com | 4551 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| sepeaaudio.com | 4552 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| jiggyvinylrecords.weebly.com | 4553 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mpiremusic.co.za | 4554 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['mpiremusic_co_za.py', 'mpiremusic_co_za.json'] |
+| roastinrecords.com | 4555 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['roastinrecords_com.py', 'roastinrecords_com.json'] |
+| mrvinyl.co.za | 4556 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| recordmad.co.za | 4557 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| vinyljunkie.co.za | 4558 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| mugenielijah.com | 4559 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
