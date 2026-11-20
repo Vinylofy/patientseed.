@@ -2607,3 +2607,103 @@ Maximale bouwpogingen: 3
 | baladessonores.com | 3857 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | blazingmusicshop.com | 3858 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | cafecomets.fr | 3859 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| culturefactory.fr | 3860 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| hark.paris | 3861 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| kanaga-records.com | 3862 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| lucky-records.com | 3863 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| miniwax.club | 3864 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| musicfearsatan.com | 3865 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| rockparadise.fr | 3866 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soufflecontinu.com | 3867 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bornbad.fr | 3868 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| crocodisc.com | 3869 | 1 | SOURCE_BLOCKED | — | — | — | RemoteDisconnected |
+| etoiledisques.com | 3870 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| handsandarms.com | 3871 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| heartbeatvinyl.com | 3872 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| patate-records.com | 3873 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lerideaudefer.com | 3874 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lavoiedusilence.com | 3875 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| zicbul.fr | 3876 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| jetrecords.fr | 3877 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| oso-records.fr | 3878 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| librairieravy.fr | 3879 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| blindspot.fr | 3880 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| beastrecords.free.fr | 3881 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| lesmondesperdus.free.fr | 3882 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| forum-saint-etienne.com | 3883 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| 33andco.com | 3884 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| disque-vinyle.fr | 3885 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| toulouse.viciouscircle.org | 3886 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| therev.fr | 3887 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| librairiecheminant.com | 3888 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| stigmate.com | 3889 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| adipocere-shop.com | 3890 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| arnauddeverre.com | 3891 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| discophenia.fr | 3892 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| ledisquairedudimanche.com | 3893 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| melomane.fr | 3894 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| dizonord.fr | 3895 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| doghouseandbone.com | 3896 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| la-face-cachee.com | 3897 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| groundzero.fr | 3898 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| illogicall-music.com | 3899 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| livity-records.com | 3900 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lockedgrooves.fr | 3901 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mindtrip-records.com | 3902 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musicavenueparis.com | 3903 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| 1ness.fr | 3904 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| plexusrecords.com | 3905 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| techno-import.fr | 3906 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| yoyaku.io | 3907 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| myrecordstore.fr | 3908 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| mixape.fr | 3909 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| betinos.com | 3910 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lprecords22.fr | 3911 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| poesie-sonore.com | 3912 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| lecomptoirdudisque.fr | 3913 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cougouyou-music.com | 3914 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discomaniaks.fr | 3915 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylstory.fr | 3916 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| extendandplay-records.com | 3917 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| gibert.com | 3918 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| itsonlyrennes.fr | 3919 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| jeconsole57.com | 3920 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| laboutikbeatbazaar.shop | 3921 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| oreillekc.com | 3922 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| monstermelodies.fr | 3923 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| parisdjs.com | 3924 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| passepassestore.com | 3925 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| select-records.com | 3926 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| atomikimport.com | 3927 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| sofarecords.fr | 3928 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sonic-vinyl.com | 3929 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| superflyrecords.com | 3930 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| toolboxrecords.com | 3931 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| sues-vinyls.com | 3932 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dubwize-records.com | 3933 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| retromania.ge | 3934 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| echobeat-records.de | 3935 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| pits-record-store.de | 3936 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| partyontour.de | 3937 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| noisebringer.de | 3938 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| monochrom-records.de | 3939 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| anagramspace.com | 3940 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| bisaufsmesser.com | 3941 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['bisaufsmesser_com.py', 'bisaufsmesser_com.json'] |
+| evilgreed.net | 3942 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| mutingthenoise.com | 3943 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['mutingthenoise_com.py', 'mutingthenoise_com.json'] |
+| recordsale.de | 3944 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sentimentalyouth.com | 3945 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['sentimentalyouth_com.py', 'sentimentalyouth_com.json'] |
+| seven.berlin | 3946 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soundmetaphors.com | 3947 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| 33rpm.de | 3948 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| disconnectberlin.wordpress.com | 3949 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| holyshitrecords.de | 3950 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| lefterrecords.wordpress.com | 3951 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| logo-records.de | 3952 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_503 |
+| musictrain-records.de | 3953 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| purplepennyrecords.de | 3954 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| therecordstore-berlin.com | 3955 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| vinyl-a-gogo.com | 3956 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| vinylberlin.de | 3957 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| bahlo-records.de | 3958 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cafe-riptide.de | 3959 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
