@@ -1,16 +1,16 @@
 # Centrale scraperstatus
 
-Bronregels: 5102. Behandeld voor broncontrole: 4053. Open voor broncontrole: 1049.
+Bronregels: 5102. Behandeld voor broncontrole: 4153. Open voor broncontrole: 949.
 
 Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine checksumproeven; private acceptatie, marktprijzen en imports volgen apart.
 
 ## Statusaantallen
 
-- ADAPTER_TESTED: 239
+- ADAPTER_TESTED: 240
 - DETAIL_GATE_BLOCKED: 102
-- ROUTE_REVIEW: 1447
+- ROUTE_REVIEW: 1515
 - SCRAPER_BUILT_TESTED: 421
-- SOURCE_BLOCKED: 584
+- SOURCE_BLOCKED: 615
 - SOURCE_REVIEW: 1260
 
 ## Brongroepen
@@ -21,10 +21,10 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 |---|---:|---:|---:|---:|
 | Oorspronkelijke lijst | 3303 | 3303 | 0 | 247 |
 | Findyl online — 25-10-2026 (50; inclusief 4 herbeoordelingen) | 50 | 50 | 0 | 28 |
-| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 578 | 1040 | 83 |
+| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 678 | 940 | 83 |
 | Vinylscout winkels — 19-11-2026 (nieuwe domeinen) | 9 | 0 | 9 | 0 |
 | Waxtra Rumours — 19-11-2026 (nieuwe domeinen) | 122 | 122 | 0 | 63 |
-| **Totaal** | **5102** | **4053** | **1049** | **421** |
+| **Totaal** | **5102** | **4153** | **949** | **421** |
 
 ## Winkels
 
@@ -4083,106 +4083,106 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 | 4050 | 49 | 4057 | 33 1/3 Schallplatten | schallplatten-duisburg.de | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
 | 4051 | 49 | 4058 | Aktiv Music Point | aktivmusicpointbochum.de | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
 | 4052 | 49 | 4059 | analogetontraeger | analogetontraeger.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
-| 4053 |  | 4060 | andrä | cd-andrae.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4054 |  | 4061 | Antisocial | antisocial.store |  | PENDING |  | — | broncontrole uitvoeren |
-| 4055 |  | 4062 | A&O Medien | aundo-medien.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4056 |  | 4063 | apoSKAlypse Soundz | aposkalypsesoundz.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4057 |  | 4064 | B12musics | b12musics.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4058 |  | 4065 | Barrett`s Revenge Records | barrettsrevenge.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4059 |  | 4066 | Baustelle! | schallzentrale.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 4060 |  | 4067 | beat´s n melodies | derkleineplattenladen.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4061 |  | 4068 | Bebop Schallplatten | bebop-schallplatten.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4062 |  | 4069 | Capri Records | capri-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4063 |  | 4070 | CD Bessungen | blumen-studio-kalbfuss.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4064 |  | 4071 | Clearaudio | clearaudio.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4065 |  | 4072 | coretexrecords.com | coretexrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4066 |  | 4073 | cudgel | cudgel.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4067 |  | 4074 | decks.de | decks.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4068 |  | 4075 | deejay.de | deejay.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4069 |  | 4076 | derHeimathafen | derheimathafen.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 4070 |  | 4077 | Discover Music | discover-music.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4071 |  | 4078 | discover-records.de | discover-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4072 |  | 4079 | DISCY Musik Buch Film | discy.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4073 |  | 4080 | djshop.de | djshop.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4074 |  | 4081 | Dock's LP & CD Börse | cdboerse-muenchen.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4075 |  | 4082 | Drake Records Vinyl Store / Schallplatten An- u. Verkauf | drakerecords.jimdofree.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4076 |  | 4083 | Drop Out Records | drop-out-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4077 |  | 4084 | Dussmann – Das KulturKaufhaus | kulturkaufhaus.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4078 |  | 4085 | Dux Records | duxrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4079 |  | 4086 | fatplastics.com | fatplastics.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4080 |  | 4087 | Firestation Records: Record label, second-hand record store and mailorder, Berlin Germany | firestation-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4081 |  | 4088 | Flight 13 Records | flight13.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4082 |  | 4089 | froedy-records.com | froedy-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4083 |  | 4090 | FUNDAMENT Schallplatten | fundament.works |  | PENDING |  | — | broncontrole uitvoeren |
-| 4084 |  | 4091 | Groove City Recordstore* | groovecityrecordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4085 |  | 4092 | H2O Records | h2o-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4086 |  | 4093 | Hanseplatte | hanseplatte.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4087 |  | 4094 | Hard Wax | hardwax.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4088 |  | 4095 | Hauptsache Musik | 2020-hauptsache-musik.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4089 |  | 4096 | hhv.de | hhv.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4090 |  | 4097 | high-fidelity-ac.de | high-fidelity-ac.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4091 |  | 4098 | Hitsville Recordstore | hitsville.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4092 |  | 4099 | HONEY BUCKET RECORDS | honey-bucket.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4093 |  | 4100 | Hugos Plattenkiste | hugos-plattenkiste.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4094 |  | 4101 | InchByInch | inchbyinch.eu |  | PENDING |  | — | broncontrole uitvoeren |
-| 4095 |  | 4102 | independent-vinyl | independent-vinyl.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4096 |  | 4103 | JACKSON RECORDS | jackson-records.berlin |  | PENDING |  | — | broncontrole uitvoeren |
-| 4097 |  | 4104 | Ju-Ju Trumpet | jujutrumpet.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4098 |  | 4105 | Langspielzimmer | langspielzimmer.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4099 |  | 4106 | Laravel | kill-o-zap.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4100 |  | 4107 | Lese mehr über diese Zwecke | cookiedatabase.org |  | PENDING |  | — | broncontrole uitvoeren |
-| 4101 |  | 4108 | LoewenRecords | loewenrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4102 |  | 4109 | Love for Sale | loveforsale.org |  | PENDING |  | — | broncontrole uitvoeren |
-| 4103 |  | 4110 | Ludwig Beck | kaufhaus.ludwigbeck.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4104 |  | 4111 | Malt & Music | malt-music.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4105 |  | 4112 | maoz Vinyl & Kaffee | maoz-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4106 |  | 4113 | Meltingpoint Vinyl & Tapes | meltingpointch.wordpress.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4107 |  | 4114 | minigroove-hamburg.de | minigroove-hamburg.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4108 |  | 4115 | mintmag.de | mintmag.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4109 |  | 4116 | Minty Vinyl | minty-vinyl.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4110 |  | 4117 | mono-Ton Schallplatten | mono-ton.eu |  | PENDING |  | — | broncontrole uitvoeren |
-| 4111 |  | 4118 | Moon Dance | moon-dance-berlin.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4112 |  | 4119 | Mo's Plattenladen | mosplattenladen.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4113 |  | 4120 | Music Corner Buer | music-corner-buer.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4114 |  | 4121 | Musikfundgrube | musikfundgrube-erfurt.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4115 |  | 4122 | musikgarage.de | musikgarage.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4116 |  | 4123 | musikhaus-kietz.de | musikhaus-kietz.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4117 |  | 4124 | Musikkammer | musikkammer.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4118 |  | 4125 | No 2 Records | no2-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4119 |  | 4126 | Oberland-Records | oberland-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4120 |  | 4127 | Ohrwurm | ohrwurm-cds.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4121 |  | 4128 | Onkel Stereo | onkelstereo.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4122 |  | 4129 | OTAKU Records | otaku-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4123 |  | 4130 | Parallel Schallplatten | parallel-schallplatten.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4124 |  | 4131 | DE PLAAT | deplaat.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4125 |  | 4132 | plattebox-wiesbaden.de | plattebox-wiesbaden.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4126 |  | 4133 | Plattenbau | plattenbau-aachen.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4127 |  | 4134 | Plattenbau Schermbeck | plattenbau.nrw |  | PENDING |  | — | broncontrole uitvoeren |
-| 4128 |  | 4135 | Der Plattenguru in Th�ringen | plattenguru.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4129 |  | 4136 | Plattenjunks Recordstore | plattenjunks.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4130 |  | 4137 | Plattenladen in München mit Verkauf von Vinyl (LPs) und CDs | die-tonabnehmer.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4131 |  | 4138 | Der Plattenladen in Witten | andes-plattenbau.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4132 |  | 4139 | Plattenrille | plattenrille.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4133 |  | 4140 | Praxis | praxis-records.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 4134 |  | 4141 | publicpossession.com | publicpossession.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4135 |  | 4142 | Pure Soul Recordshop | puresoul.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4136 |  | 4143 | Raum & Klang | raum-und-klang.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4137 |  | 4144 | Rebel Music Berlin | rebel-music-berlin.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4138 |  | 4145 | Records.de | records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4139 |  | 4146 | Records For Future | recordsforfuture.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4140 |  | 4147 | Recordwars | recordwars.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4141 |  | 4148 | Retrotrain – Vinyl & Games | recordstores.love |  | PENDING |  | — | broncontrole uitvoeren |
-| 4142 |  | 4149 | Rimpo Tonträger | rimpo.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4143 |  | 4150 | Rockabilly Hamburg > Nostalgie Shop > 40s, 50s 'n 60s Mode & Musik | rockabilly-hamburg.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4144 |  | 4151 | Rock Steady Records | rocksteady.berlin |  | PENDING |  | — | broncontrole uitvoeren |
-| 4145 |  | 4152 | Rock Store Grendplatz 7, 45276 Essen 45276 Essen Deutschland    Musikpalast Flensburg | rockstore-essen.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4146 |  | 4153 | rockstore-marktschwaben.de | rockstore-marktschwaben.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4147 |  | 4154 | Schallplatte | schallplatte.org |  | PENDING |  | — | broncontrole uitvoeren |
-| 4148 |  | 4155 | Schallträger | schalltraeger.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4149 |  | 4156 | Scheibenbeisser | scheibenbeisser.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4150 |  | 4157 | Scheibenkleister | scheibenkleister-oldenburg.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4151 |  | 4158 | Second Vinyl | second-vinyl.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4152 |  | 4159 | Sick Wreckords | sickwreckords.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 4053 | 50 | 4060 | andrä | cd-andrae.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4054 | 50 | 4061 | Antisocial | antisocial.store | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4055 | 50 | 4062 | A&O Medien | aundo-medien.de | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4056 | 50 | 4063 | apoSKAlypse Soundz | aposkalypsesoundz.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4057 | 50 | 4064 | B12musics | b12musics.de | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4058 | 50 | 4065 | Barrett`s Revenge Records | barrettsrevenge.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4059 | 50 | 4066 | Baustelle! | schallzentrale.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4060 | 50 | 4067 | beat´s n melodies | derkleineplattenladen.de | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4061 | 50 | 4068 | Bebop Schallplatten | bebop-schallplatten.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4062 | 50 | 4069 | Capri Records | capri-records.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4063 | 50 | 4070 | CD Bessungen | blumen-studio-kalbfuss.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4064 | 50 | 4071 | Clearaudio | clearaudio.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4065 | 50 | 4072 | coretexrecords.com | coretexrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 4066 | 50 | 4073 | cudgel | cudgel.de | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4067 | 50 | 4074 | decks.de | decks.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4068 | 50 | 4075 | deejay.de | deejay.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4069 | 50 | 4076 | derHeimathafen | derheimathafen.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4070 | 50 | 4077 | Discover Music | discover-music.de | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4071 | 50 | 4078 | discover-records.de | discover-records.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4072 | 50 | 4079 | DISCY Musik Buch Film | discy.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4073 | 50 | 4080 | djshop.de | djshop.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_503 |
+| 4074 | 50 | 4081 | Dock's LP & CD Börse | cdboerse-muenchen.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4075 | 50 | 4082 | Drake Records Vinyl Store / Schallplatten An- u. Verkauf | drakerecords.jimdofree.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4076 | 50 | 4083 | Drop Out Records | drop-out-records.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4077 | 50 | 4084 | Dussmann – Das KulturKaufhaus | kulturkaufhaus.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4078 | 50 | 4085 | Dux Records | duxrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4079 | 50 | 4086 | fatplastics.com | fatplastics.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 4080 | 50 | 4087 | Firestation Records: Record label, second-hand record store and mailorder, Berlin Germany | firestation-records.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4081 | 50 | 4088 | Flight 13 Records | flight13.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4082 | 50 | 4089 | froedy-records.com | froedy-records.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4083 | 50 | 4090 | FUNDAMENT Schallplatten | fundament.works | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4084 | 50 | 4091 | Groove City Recordstore* | groovecityrecordstore.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4085 | 50 | 4092 | H2O Records | h2o-records.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4086 | 50 | 4093 | Hanseplatte | hanseplatte.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4087 | 50 | 4094 | Hard Wax | hardwax.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4088 | 50 | 4095 | Hauptsache Musik | 2020-hauptsache-musik.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4089 | 50 | 4096 | hhv.de | hhv.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4090 | 50 | 4097 | high-fidelity-ac.de | high-fidelity-ac.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4091 | 50 | 4098 | Hitsville Recordstore | hitsville.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4092 | 50 | 4099 | HONEY BUCKET RECORDS | honey-bucket.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4093 | 50 | 4100 | Hugos Plattenkiste | hugos-plattenkiste.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4094 | 50 | 4101 | InchByInch | inchbyinch.eu | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4095 | 50 | 4102 | independent-vinyl | independent-vinyl.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4096 | 50 | 4103 | JACKSON RECORDS | jackson-records.berlin | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4097 | 50 | 4104 | Ju-Ju Trumpet | jujutrumpet.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4098 | 50 | 4105 | Langspielzimmer | langspielzimmer.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4099 | 50 | 4106 | Laravel | kill-o-zap.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4100 | 50 | 4107 | Lese mehr über diese Zwecke | cookiedatabase.org |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4101 | 50 | 4108 | LoewenRecords | loewenrecords.de | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4102 | 50 | 4109 | Love for Sale | loveforsale.org | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4103 | 50 | 4110 | Ludwig Beck | kaufhaus.ludwigbeck.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4104 | 50 | 4111 | Malt & Music | malt-music.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4105 | 50 | 4112 | maoz Vinyl & Kaffee | maoz-records.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4106 | 50 | 4113 | Meltingpoint Vinyl & Tapes | meltingpointch.wordpress.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4107 | 50 | 4114 | minigroove-hamburg.de | minigroove-hamburg.de | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4108 | 50 | 4115 | mintmag.de | mintmag.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4109 | 50 | 4116 | Minty Vinyl | minty-vinyl.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4110 | 50 | 4117 | mono-Ton Schallplatten | mono-ton.eu | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4111 | 50 | 4118 | Moon Dance | moon-dance-berlin.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4112 | 50 | 4119 | Mo's Plattenladen | mosplattenladen.de | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4113 | 50 | 4120 | Music Corner Buer | music-corner-buer.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4114 | 50 | 4121 | Musikfundgrube | musikfundgrube-erfurt.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4115 | 50 | 4122 | musikgarage.de | musikgarage.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4116 | 50 | 4123 | musikhaus-kietz.de | musikhaus-kietz.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4117 | 50 | 4124 | Musikkammer | musikkammer.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4118 | 50 | 4125 | No 2 Records | no2-records.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4119 | 50 | 4126 | Oberland-Records | oberland-records.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4120 | 50 | 4127 | Ohrwurm | ohrwurm-cds.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4121 | 50 | 4128 | Onkel Stereo | onkelstereo.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4122 | 50 | 4129 | OTAKU Records | otaku-records.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4123 | 50 | 4130 | Parallel Schallplatten | parallel-schallplatten.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4124 | 50 | 4131 | DE PLAAT | deplaat.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4125 | 50 | 4132 | plattebox-wiesbaden.de | plattebox-wiesbaden.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4126 | 50 | 4133 | Plattenbau | plattenbau-aachen.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4127 | 50 | 4134 | Plattenbau Schermbeck | plattenbau.nrw | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4128 | 50 | 4135 | Der Plattenguru in Th�ringen | plattenguru.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4129 | 50 | 4136 | Plattenjunks Recordstore | plattenjunks.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4130 | 50 | 4137 | Plattenladen in München mit Verkauf von Vinyl (LPs) und CDs | die-tonabnehmer.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4131 | 50 | 4138 | Der Plattenladen in Witten | andes-plattenbau.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4132 | 50 | 4139 | Plattenrille | plattenrille.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4133 | 50 | 4140 | Praxis | praxis-records.net | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4134 | 50 | 4141 | publicpossession.com | publicpossession.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4135 | 50 | 4142 | Pure Soul Recordshop | puresoul.de | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4136 | 50 | 4143 | Raum & Klang | raum-und-klang.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4137 | 50 | 4144 | Rebel Music Berlin | rebel-music-berlin.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4138 | 50 | 4145 | Records.de | records.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4139 | 50 | 4146 | Records For Future | recordsforfuture.de | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4140 | 50 | 4147 | Recordwars | recordwars.de | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4141 | 50 | 4148 | Retrotrain – Vinyl & Games | recordstores.love | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4142 | 50 | 4149 | Rimpo Tonträger | rimpo.de | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4143 | 50 | 4150 | Rockabilly Hamburg > Nostalgie Shop > 40s, 50s 'n 60s Mode & Musik | rockabilly-hamburg.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4144 | 50 | 4151 | Rock Steady Records | rocksteady.berlin | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4145 | 50 | 4152 | Rock Store Grendplatz 7, 45276 Essen 45276 Essen Deutschland    Musikpalast Flensburg | rockstore-essen.de | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4146 | 50 | 4153 | rockstore-marktschwaben.de | rockstore-marktschwaben.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4147 | 50 | 4154 | Schallplatte | schallplatte.org | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4148 | 50 | 4155 | Schallträger | schalltraeger.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4149 | 50 | 4156 | Scheibenbeisser | scheibenbeisser.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4150 | 50 | 4157 | Scheibenkleister | scheibenkleister-oldenburg.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4151 | 50 | 4158 | Second Vinyl | second-vinyl.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4152 | 50 | 4159 | Sick Wreckords | sickwreckords.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
 | 4153 |  | 4160 | Signature Music | signature-music.de |  | PENDING |  | — | broncontrole uitvoeren |
 | 4154 |  | 4161 | Silver Disc | silverdisc.de |  | PENDING |  | — | broncontrole uitvoeren |
 | 4155 |  | 4162 | Slam Records | slam-records.com |  | PENDING |  | — | broncontrole uitvoeren |
