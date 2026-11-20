@@ -2907,3 +2907,103 @@ Maximale bouwpogingen: 3
 | scheibenkleister-oldenburg.de | 4157 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | second-vinyl.de | 4158 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | sickwreckords.de | 4159 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| signature-music.de | 4160 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| silverdisc.de | 4161 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| slam-records.com | 4162 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sleeveplusplus.de | 4163 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| shop.soultunes.de | 4164 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| soundeck.eprojekt.org | 4165 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| spacehall.de | 4166 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| strangeville-records.de | 4167 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| studioillegale.de | 4168 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sweetwaterjazz.de | 4169 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| tamtam-recordshop.de | 4170 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| 3canaries.com | 4171 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| trauma-records.de | 4172 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| triangelshop.com | 4173 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinyl-audio-design.de | 4174 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylbruehl.de | 4175 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinyl-digital.com | 4176 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| indiepunk.de | 4177 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lucky-star-records.com | 4178 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| about.me | 4179 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wollisrecord.store | 4180 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| zardoz-schallplatten.de | 4181 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| noremorse.gr | 4182 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| underflow.gr | 4183 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| empirestore.gr | 4184 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['empirestore_gr.py', 'empirestore_gr.json'] |
+| vinylstore.gr | 4185 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| kechaidis.gr | 4186 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| loficoncept.com | 4187 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| modernistas.gr | 4188 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| myrecords.gr | 4189 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| todiskadiko.com | 4190 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| usedrecords.gr | 4191 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| entropia-records.com | 4192 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| joe.gr | 4193 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| lotus.gr | 4194 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| manikrecords.wordpress.com | 4195 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mrvinyliosrecords.gr | 4196 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| musicaloffering.gr | 4197 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| musiccornerstore.gr | 4198 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| musicworks.gr | 4199 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| orbersvinyl.com | 4200 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| rhythmrecords.gr | 4201 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| scarecrow.gr | 4202 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylrecords.gr | 4203 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| whitenoiserecords.org | 4204 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| aktrecords.hu | 4205 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mgrecords.hu | 4206 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| neonmusic.hu | 4207 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musicland.hu | 4208 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| plotubudin.is | 4209 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| smekkleysa.net | 4210 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| luckyrecords.is | 4211 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| onthejunglefloor.com | 4212 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['onthejunglefloor_com.py', 'onthejunglefloor_com.json'] |
+| ramsmusique.in | 4213 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['ramsmusique_in.py', 'ramsmusique_in.json'] |
+| conceptkart.com | 4214 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| musiccircle.co.in | 4215 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['musiccircle_co_in.py', 'musiccircle_co_in.json'] |
+| pagalrecordstore.wordpress.com | 4216 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| playlistrecordstore.com | 4217 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| 33dor.com | 4218 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| everestmusic.com | 4219 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| opus2galway.ie | 4220 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| freebirdrecords.com | 4221 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['freebirdrecords_com.py', 'freebirdrecords_com.json'] |
+| therage.ie | 4222 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['therage_ie.py', 'therage_ie.json'] |
+| claddaghrecords.com | 4223 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| goldendiscs.ie | 4224 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['goldendiscs_ie.py', 'goldendiscs_ie.json'] |
+| therecordrack.ie | 4225 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['therecordrack_ie.py', 'therecordrack_ie.json'] |
+| lucarecords.ie | 4226 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['lucarecords_ie.py', 'lucarecords_ie.json'] |
+| allcityrecords.com | 4227 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| absysrec.com | 4228 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| luckylane.ie | 4229 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sentinelrecords.com | 4230 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| zoharpianos.com | 4231 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| beatnik.co.il | 4232 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| simpatyrecords.com | 4233 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| vinyl-store.it | 4234 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discomagazine.it | 4235 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| flamingorecords.it | 4236 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| discoclub65.it | 4237 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinileria.it | 4238 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| discostores.com | 4239 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| symphonyshop.it | 4240 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['symphonyshop_it.py', 'symphonyshop_it.json'] |
+| spazio432.com | 4241 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discodue.com | 4242 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rossettirecordsandbooks.it | 4243 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ffrrecordshop.com | 4244 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| goldsoundz.it | 4245 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['goldsoundz_it.py', 'goldsoundz_it.json'] |
+| hifirecord.it | 4246 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discotecalaziale.com | 4247 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| radiationrecords.net | 4248 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| millerecords.it | 4249 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| asburyrecords.it | 4250 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| superdiscodue.it | 4251 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_503 |
+| casadeldisco.it | 4252 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| vinylzoneshop.com | 4253 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| klecrecords.myshopify.com | 4254 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['klecrecords_myshopify_com.py', 'klecrecords_myshopify_com.json'] |
+| amadeusdischi.it | 4255 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| casadeldiscofaenza.it | 4256 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| discoshopdetommaso.com | 4257 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| djland.net | 4258 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_999 |
+| filmusica.it | 4259 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_999 |
