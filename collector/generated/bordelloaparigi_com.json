@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "domain": "bordelloaparigi.com",
+  "platform": "woocommerce",
+  "adapter_class": "WooCommerceNewVinylAdapter",
+  "catalog_route": "https://bordelloaparigi.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "discovery_method": {
+    "platform": "woocommerce",
+    "route": "https://bordelloaparigi.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "score": 65,
+    "selection": "highest_bounded_adapter_score"
+  },
+  "method_candidates": [
+    {
+      "platform": "woocommerce",
+      "route": "https://bordelloaparigi.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 65,
+      "products_seen": 20,
+      "accepted": 6,
+      "excluded": 14,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://bordelloaparigi.com/products.json?limit=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://bordelloaparigi.com/collections/all/products.json?limit=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://bordelloaparigi.com/api/0.1/collections/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://bordelloaparigi.com/api/0.1/collections/all/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://bordelloaparigi.com/api/storefront/products?limit=20&offset=0",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://bordelloaparigi.com/api/storefront/products?limit=20",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    }
+  ],
+  "listing_sample": 6,
+  "detail_checked": 2,
+  "detail_gtin_valid": 0,
+  "currency": null,
+  "currency_source": null,
+  "currency_source_url": null,
+  "release_status": "SCRAPER_BUILT_TESTED"
+}
