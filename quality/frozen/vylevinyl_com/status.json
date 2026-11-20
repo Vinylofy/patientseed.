@@ -1,0 +1,139 @@
+{
+  "fingerprint": "fe12c4e271957fe0cdac15ce7c371b2fd6203ab9ee6d9b54eb668139778786cd",
+  "domain": "vylevinyl.com",
+  "batch": 39,
+  "repair_attempts": 3,
+  "repair_modes": [
+    "ean",
+    "price"
+  ],
+  "admitted": true,
+  "status": "FROZEN",
+  "run_id": "44696709935",
+  "updated_at": "2026-11-20T07:40:49.635986+00:00",
+  "evidence": {
+    "domain": "vylevinyl.com",
+    "route": "https://vylevinyl.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-20T07:40:49.414156+00:00",
+    "requests": [
+      {
+        "url": "https://vylevinyl.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "84a597e1ed891b01e8797c5fa40bba7ba7411985b0a69dafd055cd03502d5130"
+      }
+    ],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "status": "REVIEW",
+    "reason": "no_new_vinyl_records",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 15,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "40455623960"
+    },
+    {
+      "batch": 25,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "42179971421"
+    },
+    {
+      "batch": 35,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "43821932807"
+    },
+    {
+      "batch": 36,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "44046382607"
+    },
+    {
+      "batch": 37,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "44262271076"
+    },
+    {
+      "batch": 38,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "44482526349"
+    },
+    {
+      "batch": 39,
+      "status": "FROZEN",
+      "reason": "no_new_vinyl_records",
+      "run_id": "44696709935"
+    }
+  ],
+  "approved_route": "https://vylevinyl.com/collections/all/products.json?limit=20&page=1",
+  "admission_evidence": {
+    "domain": "vylevinyl.com",
+    "route": "https://vylevinyl.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-06T07:18:18.804963+00:00",
+    "requests": [
+      {
+        "url": "https://vylevinyl.com/collections/all/products.json?limit=20&page=1",
+        "sha256": "98b7ff8cacff680b504146bdb84906391d4834d116e65b3d5a1197a4c84ae439"
+      },
+      {
+        "url": "https://vylevinyl.com/products/weird-al-yankovic-straight-outta-lynwood-lp?variant=67920294347025",
+        "sha256": "a469ca82e20ee0346cd292b9dd981aa5d63ebaae9775c7bd6af464e2eb057fe2"
+      },
+      {
+        "url": "https://vylevinyl.com/products/3-doors-down-the-greatest-hits-lp?variant=54463655674129",
+        "sha256": "fa13df231ed10ff868ffbd0fcce880199095e43531627392cf9a2650cab848a3"
+      },
+      {
+        "url": "https://vylevinyl.com/products/afi-decemberunderground-lp?variant=54675742621969",
+        "sha256": "67a9a1101499af60a0b5ff7905c517add13b97c0a2bfc869204eb52d7ffd8fd5"
+      }
+    ],
+    "listing_records": 3,
+    "detail_checked": 3,
+    "valid_eans": 2,
+    "details": [
+      {
+        "url": "https://vylevinyl.com/products/weird-al-yankovic-straight-outta-lynwood-lp?variant=67920294347025",
+        "price": "38.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://vylevinyl.com/products/3-doors-down-the-greatest-hits-lp?variant=54463655674129",
+        "price": "32.00",
+        "currency": "USD",
+        "ean": "00602468082453",
+        "condition": "new"
+      },
+      {
+        "url": "https://vylevinyl.com/products/afi-decemberunderground-lp?variant=54675742621969",
+        "price": "32.00",
+        "currency": "USD",
+        "ean": "00199957462822",
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 3,
+      "unique_prices": 2,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "APPROVED"
+  }
+}
