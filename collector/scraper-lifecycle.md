@@ -3407,3 +3407,103 @@ Maximale bouwpogingen: 3
 | recordmania.se | 4657 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | skivhogen.com | 4658 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | nostalgipalatset.com | 4659 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordroom.ch | 4660 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['recordroom_ch.py', 'recordroom_ch.json'] |
+| spotrecords.ch | 4661 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['spotrecords_ch.py', 'spotrecords_ch.json'] |
+| blackmandarin.ch | 4662 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylsound.ch | 4663 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| baff.ch | 4664 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| zigzagmusic.ch | 4665 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| record-store.ch | 4666 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ventilator-records.ch | 4667 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sihlrecords.com | 4668 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| bluttrecords.ch | 4669 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| humrecords.ch | 4670 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dbrecordscorner.ch | 4671 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| elchrecords.ch | 4672 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| hammersounds.ch | 4673 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| plattfon.ch | 4674 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rockawaybeach.ch | 4675 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| 33turae.ch | 4676 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| analogbar.ch | 4677 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| audiopur.ch | 4678 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bongojoe.ch | 4679 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| co-mix.ch | 4680 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_510 |
+| dezibelle.ch | 4681 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| disc-a-brac.ch | 4682 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_406 |
+| gigs.ch | 4683 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lecoinvinyles.com | 4684 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_406 |
+| nxtchapter.ch | 4685 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| oldiesshop.ch | 4686 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| otrs.rocks | 4687 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| outsider-shop.ch | 4688 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rille.ch | 4689 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| sergeandpeppers.ch | 4690 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| shop.6pack.ch | 4691 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_510 |
+| takefive.ch | 4692 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| tondomusic.com | 4693 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylstation.musikhug.ch | 4694 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| zorrock.ch | 4695 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| blackgluerecords.com | 4696 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musicboxtw.com | 4697 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| zudrangmarecords.com | 4698 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| gunesmuzik.com | 4699 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| cdplak.com | 4700 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| egekitabevi.net | 4701 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| plakperest.com | 4702 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| thevinyl.com.ua | 4703 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinyla.com | 4704 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| jpv.com.ua | 4705 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| diskultura.com | 4706 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| totalmetalshop.com | 4707 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| rawmusicstore.com | 4708 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| maidinvinyl.co.uk | 4709 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| kennysvinylvault.com | 4710 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| strummerroom.com | 4711 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['strummerroom_com.py', 'strummerroom_com.json'] |
+| recordsandretro.co.uk | 4712 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| grindandgrooverecords.com | 4713 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rarekindrecords.co.uk | 4714 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['rarekindrecords_co_uk.py', 'rarekindrecords_co_uk.json'] |
+| friendlyrecords.co.uk | 4715 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['friendlyrecords_co_uk.py', 'friendlyrecords_co_uk.json'] |
+| allgoodrecordshops.co.uk | 4716 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| wantedrecords.co.uk | 4717 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| lostinvinyl.co.uk | 4718 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| slipped-discs-records.co.uk | 4719 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| intenserecords.com | 4720 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['intenserecords_com.py', 'intenserecords_com.json'] |
+| badlands.co.uk | 4721 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['badlands_co_uk.py', 'badlands_co_uk.json'] |
+| upnorthrecords.co.uk | 4722 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vanishingpointrecords.com | 4723 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| clevedonmusic.co.uk | 4724 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| rarerecord.co.uk | 4725 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['rarerecord_co_uk.py', 'rarerecord_co_uk.json'] |
+| stonerockrecords.co.uk | 4726 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dnrvinyl.co.uk | 4727 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| bpmderby.com | 4728 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| durhammarkets.co.uk | 4729 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| notjustarecordshop.co.uk | 4730 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| derosamusic.co.uk | 4731 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| betteronvinyl.co.uk | 4732 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thevaultcollectiveltd.co.uk | 4733 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| greenhouserecs.co.uk | 4734 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| slowprogress.co.uk | 4735 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thornerecords.com | 4736 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| vinylvillains.co.uk | 4737 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| roosterrecords.co.uk | 4738 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vintageandvinyl.co.uk | 4739 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| lovemusicglasgow.com | 4740 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['lovemusicglasgow_com.py', 'lovemusicglasgow_com.json'] |
+| piarecords.com | 4741 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rubadub.co.uk | 4742 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['rubadub_co_uk.py', 'rubadub_co_uk.json'] |
+| recordcorner.co.uk | 4743 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['recordcorner_co_uk.py', 'recordcorner_co_uk.json'] |
+| asliceofvinyl.co.uk | 4744 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['asliceofvinyl_co_uk.py', 'asliceofvinyl_co_uk.json'] |
+| peckhamsoul.com | 4745 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['peckhamsoul_com.py', 'peckhamsoul_com.json'] |
+| benscollectorsrecords.com | 4746 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| deadsearecords.co.uk. | 4747 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| tomsrecordshop.com | 4748 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['tomsrecordshop_com.py', 'tomsrecordshop_com.json'] |
+| released.co.uk | 4749 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['released_co_uk.py', 'released_co_uk.json'] |
+| vinylfixx.co.uk | 4750 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| outofjointrecords.com | 4751 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['outofjointrecords_com.py', 'outofjointrecords_com.json'] |
+| lowportmusic.co.uk | 4752 | 1 | SOURCE_BLOCKED | — | — | — | TimeoutError |
+| probe-records.uk | 4753 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thefloodgallery.com | 4754 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| inverted-audio.store | 4755 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['inverted_audio_store.py', 'inverted_audio_store.json'] |
+| junijamsmusic.co.uk | 4756 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| levelcrossingrecords.com | 4757 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| lioncoffeerecords.com | 4758 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| lionvibes.com | 4759 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['lionvibes_com.py', 'lionvibes_com.json'] |
