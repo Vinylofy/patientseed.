@@ -2507,3 +2507,103 @@ Maximale bouwpogingen: 3
 | grooveyard.ca | 3757 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
 | hitonerecords.ca | 3758 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | intothemusic.ca | 3759 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lukesdrugmart.com | 3760 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| melodiyarecords.ca | 3761 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| oldgoldvintagevinyl.com | 3762 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| pcvrecords.com | 3763 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| shop.greenbackspawnshop.com | 3764 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| shortstackrecords.com | 3765 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soundcentralstore.com | 3766 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| speedcityrecords.com | 3767 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| spin-itrecords.ca | 3768 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| treajahisle.square.site | 3769 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| kindofblue.cl | 3770 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['kindofblue_cl.py', 'kindofblue_cl.json'] |
+| feriamix.cl | 3771 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| solovinilos.cl | 3772 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| sinfronterasdiscos.com | 3773 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| surcotienda.co | 3774 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| denkirecords.com | 3775 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dancingbear.hr | 3776 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| dirtyoldempire.com | 3777 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| pdv.com.hr | 3778 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['pdv_com_hr.py', 'pdv_com_hr.json'] |
+| analogni-zvuk.hr | 3779 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| freebird.hr | 3780 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| oladj.com | 3781 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| desertislandcy.com | 3782 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| kspaceproject.com | 3783 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| musicrecords.cz | 3784 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| gramrecords.cz | 3785 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| diskoduck.cz | 3786 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| polipet.cz | 3787 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| stereo-vinylcultureshop.cz | 3788 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| accord.dk | 3789 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['accord_dk.py', 'accord_dk.json'] |
+| oohaahrecords.com | 3790 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mintrecords.dk | 3791 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| renvinyl.dk | 3792 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| borgsound.dk | 3793 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| recordpusher.com | 3794 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['recordpusher_com.py', 'recordpusher_com.json'] |
+| musiconrecords.dk | 3795 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylfreak34.dk | 3796 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musik-huset.dk | 3797 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| amagerrecords.dk | 3798 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soundstation.dk | 3799 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| klampenborgretro.dk | 3800 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| moby-disc.dk | 3801 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| planetcandy.dk | 3802 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| elsurco.ec | 3803 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| cdcmusicec.com | 3804 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| distingomusicstores.com | 3805 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| biit.me | 3806 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| nailboard.org | 3807 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| plastik.cc | 3808 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| terminal.ee | 3809 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| tutl.com | 3810 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| freshgarbage.fi | 3811 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| goofinrecords.fi | 3812 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['goofinrecords_fi.py', 'goofinrecords_fi.json'] |
+| goosebumbsrecords.com | 3813 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['goosebumbsrecords_com.py', 'goosebumbsrecords_com.json'] |
+| jaansarkija.fi | 3814 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| ahrecords.fi | 3815 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hippieshakerecords.com | 3816 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| sarvilevyt.fi | 3817 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| spectrumcityshop.com | 3818 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['spectrumcityshop_com.py', 'spectrumcityshop_com.json'] |
+| 33rpm.fi | 3819 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| ekepop.fi | 3820 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| levykauppax.fi | 3821 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| recordshopx.com | 3822 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| redhillrecords.fi | 3823 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| martin-delbert.fr | 3824 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| lmi-partitions.com | 3825 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| vinyles61.fr | 3826 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| lamalleadisques.fr | 3827 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| homewax-records-shop.blogspot.com | 3828 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| librairiecosmopolite.com | 3829 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| actes-sud.fr | 3830 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bigstarrecords.fr | 3831 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bazoom-bd-musique.blogspot.com | 3832 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| forum-besancon.fr | 3833 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| bambalam.com | 3834 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| lamachinealire.com | 3835 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| pier.vidal.free.fr | 3836 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| librairiedialogues.fr | 3837 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mod-disc.com | 3838 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| freemusic73.jimdofree.com | 3839 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| passage-culturel.com | 3840 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinyle-vintage.com | 3841 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| oceplibrairie.com | 3842 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| ciel-rouge.fr | 3843 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| blackmarketdijon.com | 3844 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| legrandcercle95.com | 3845 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| besides-records.tumblr.com | 3846 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| daestore.com | 3847 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| dangerhouse.fr | 3848 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| kraspekmyzik.com | 3849 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lesallumesdujazz.com | 3850 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rythmnbd.fr | 3851 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lollipopmusicstore.fr | 3852 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| librairielafemmerenard.fr | 3853 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| woodbrass.com | 3854 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| frozen-records.com | 3855 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['frozen_records_com.py', 'frozen_records_com.json'] |
+| sonic-import.com | 3856 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| baladessonores.com | 3857 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| blazingmusicshop.com | 3858 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| cafecomets.fr | 3859 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
