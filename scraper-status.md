@@ -1,16 +1,16 @@
 # Centrale scraperstatus
 
-Bronregels: 5102. Behandeld voor broncontrole: 4453. Open voor broncontrole: 649.
+Bronregels: 5102. Behandeld voor broncontrole: 4553. Open voor broncontrole: 549.
 
 Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine checksumproeven; private acceptatie, marktprijzen en imports volgen apart.
 
 ## Statusaantallen
 
-- ADAPTER_TESTED: 284
+- ADAPTER_TESTED: 302
 - DETAIL_GATE_BLOCKED: 102
-- ROUTE_REVIEW: 1648
-- SCRAPER_BUILT_TESTED: 453
-- SOURCE_BLOCKED: 706
+- ROUTE_REVIEW: 1702
+- SCRAPER_BUILT_TESTED: 462
+- SOURCE_BLOCKED: 725
 - SOURCE_REVIEW: 1260
 
 ## Brongroepen
@@ -21,10 +21,10 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 |---|---:|---:|---:|---:|
 | Oorspronkelijke lijst | 3303 | 3303 | 0 | 247 |
 | Findyl online — 25-10-2026 (50; inclusief 4 herbeoordelingen) | 50 | 50 | 0 | 28 |
-| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 978 | 640 | 115 |
+| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 1078 | 540 | 124 |
 | Vinylscout winkels — 19-11-2026 (nieuwe domeinen) | 9 | 0 | 9 | 0 |
 | Waxtra Rumours — 19-11-2026 (nieuwe domeinen) | 122 | 122 | 0 | 63 |
-| **Totaal** | **5102** | **4453** | **649** | **453** |
+| **Totaal** | **5102** | **4553** | **549** | **462** |
 
 ## Winkels
 
@@ -4483,106 +4483,106 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 | 4450 | 53 | 4457 | Kay´s Odyssey | kayvinyl.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
 | 4451 | 53 | 4458 | WWRecords | wwrecords.nl | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
 | 4452 | 53 | 4459 | Yuppe Fish | yuppefish.nl | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
-| 4453 |  | 4460 | No Dust Records | nodustrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4454 |  | 4461 | Handelskoning | handelskoning.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4455 |  | 4462 | Hekman Muziek | hekmanmuziek.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4456 |  | 4463 | BasVinyl | basvinyl.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4457 |  | 4464 | Music  More (Wormerveer) | music-more.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4458 |  | 4465 | Coco Records | coco-records.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4459 |  | 4466 | The Music Fool | themusicfool.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4460 |  | 4467 | De Platenlounge (Voorheen MarmurGo) | marmur.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4461 |  | 4468 | Minstrel Music | minstrel.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4462 |  | 4469 | Bordello A Parigi | bordelloaparigi.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4463 |  | 4470 | Eastman Records | eastmanrecords.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4464 |  | 4471 | Nieuw binnengekomen | muziekvanderveen.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4465 |  | 4472 | PLATENREUS | platenreus.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4466 |  | 4473 | Plato Leiden | platoleiden.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4467 |  | 4474 | Pop-Eye / Velvet Music | pop-eye.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4468 |  | 4475 | Rush Hour | rushhour.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4469 |  | 4476 | SecondSpin Recordstore Homepage | secondspin.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4470 |  | 4477 | Simply-listening | simply-listening.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4471 |  | 4478 | Welkom | myrecordstore.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4472 |  | 4479 | Access Denied | killacutz.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4473 |  | 4480 | City Records Amsterdam | cityrecordsamsterdam.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4474 |  | 4481 | CLONE.NL | clone.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4475 |  | 4482 | De Drvkkery | drukkerijmiddelburg.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4476 |  | 4483 | Dwars Edam | dwars-edam.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4477 |  | 4484 | Elpees Van Kees | elpeesvankees.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4478 |  | 4485 | EnjoyTheMusic | enjoythemusic.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4479 |  | 4486 | Evelyn Novacek | cdenlp.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4480 |  | 4487 | iorr.nl | iorr.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4481 |  | 4488 | lp-2.nl | lp-2.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4482 |  | 4489 | No.1 Hotwax Records | no1hotwaxrecords.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4483 |  | 4490 | northendhaarlem.nl | northendhaarlem.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4484 |  | 4491 | Online Webwinkel voor cd's, lp's en dvd's | kroese-online.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4485 |  | 4492 | Parkstad Recordshop | parkstadrecordshop.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4486 |  | 4493 | Planet of Sound | planetofsound.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4487 |  | 4494 | PLATENHUIS 'T OOR | platenhuis-het-oor.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4488 |  | 4495 | retroloes.nl | retroloes.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4489 |  | 4496 | Riddim Record Store | riddimrecordstore.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4490 |  | 4497 | Roots Mail Music Internet Shop | rootsmailmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4491 |  | 4498 | sounds.nl | sounds.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4492 |  | 4499 | T-REX RECORDS | trexrecords.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4493 |  | 4500 | Triple Vision Store | triplevision.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4494 |  | 4501 | Vinyl Plaatjes | vinylplaatjes.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4495 |  | 4502 | Southbound Record Shop | southbound.co.nz |  | PENDING |  | — | broncontrole uitvoeren |
-| 4496 |  | 4503 | Tron Records | tronrecords.nz |  | PENDING |  | — | broncontrole uitvoeren |
-| 4497 |  | 4504 | Just For The Record | justfortherecord.co.nz |  | PENDING |  | — | broncontrole uitvoeren |
-| 4498 |  | 4505 | Flying Nun Records | flyingnun.co.nz |  | PENDING |  | — | broncontrole uitvoeren |
-| 4499 |  | 4506 | Slow Boat Records | slowboatrecords.co.nz |  | PENDING |  | — | broncontrole uitvoeren |
-| 4500 |  | 4507 | realgroovy.co.nz | realgroovy.co.nz |  | PENDING |  | — | broncontrole uitvoeren |
-| 4501 |  | 4508 | Katakomben | katakomben.no |  | PENDING |  | — | broncontrole uitvoeren |
-| 4502 |  | 4509 | Neseblod Records | neseblodrecords.bigcartel.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4503 |  | 4510 | Tiger Records | tigernet.no |  | PENDING |  | — | broncontrole uitvoeren |
-| 4504 |  | 4511 | Aftermath Music | aftermath-music.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4505 |  | 4512 | All Good Clean Records | allgoodcleanrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4506 |  | 4513 | Backbeat | backbeat-tromso.no |  | PENDING |  | — | broncontrole uitvoeren |
-| 4507 |  | 4514 | Retrovinyl | retrovinyl.no |  | PENDING |  | — | broncontrole uitvoeren |
-| 4508 |  | 4515 | Apollon Platebar | apollon.no |  | PENDING |  | — | broncontrole uitvoeren |
-| 4509 |  | 4516 | Moderne Vintage | modernevintage.no |  | PENDING |  | — | broncontrole uitvoeren |
-| 4510 |  | 4517 | Bowie Records | bowierecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4511 |  | 4518 | Tercer Ojo Record Store | tercer-ojo.pe |  | PENDING |  | — | broncontrole uitvoeren |
-| 4512 |  | 4519 | ProThrowbacks #1 Sports, Music, and Collectibles and a big Golf Store | prothrowbacks.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4513 |  | 4520 | DrumStore | drumstore.pl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4514 |  | 4521 | Vinyl Tamka | vinyltamka.pl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4515 |  | 4522 | Komis Płytowy Królestwo | winyle.com.pl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4516 |  | 4523 | Paul's Boutique Record Store | digujto.pl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4517 |  | 4524 | Up & Down Wojciech Żdanuk | sideone.pl |  | PENDING |  | — | broncontrole uitvoeren |
-| 4518 |  | 4525 | k-wax.com | k-wax.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4519 |  | 4526 | Flur Discos | flur.pt |  | PENDING |  | — | broncontrole uitvoeren |
-| 4520 |  | 4527 | Groovie Records | groovierecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4521 |  | 4528 | Palmela Records | palmelarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4522 |  | 4529 | Peekaboo Records | peekaboorecords.pt |  | PENDING |  | — | broncontrole uitvoeren |
-| 4523 |  | 4530 | carbonoamadora.net | carbonoamadora.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 4524 |  | 4531 | LOJA DE DISCOS VINIL | carbono.com.pt |  | PENDING |  | — | broncontrole uitvoeren |
-| 4525 |  | 4532 | Materia Prima | materiaprima.pt |  | PENDING |  | — | broncontrole uitvoeren |
-| 4526 |  | 4533 | Piranha | piranhacd.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4527 |  | 4534 | PontoZurca | pontozurca.pt |  | PENDING |  | — | broncontrole uitvoeren |
-| 4528 |  | 4535 | Silvertentacle Music Store | silvertentacle.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4529 |  | 4536 | MisBits | misbits.ro |  | PENDING |  | — | broncontrole uitvoeren |
-| 4530 |  | 4537 | Magazin Muzica Online | nicherecords.ro |  | PENDING |  | — | broncontrole uitvoeren |
-| 4531 |  | 4538 | Maximum Vinyl | maximumvinyl.ru |  | PENDING |  | — | broncontrole uitvoeren |
-| 4532 |  | 4539 | Dissonance Vinyl Store | dissonance.shop |  | PENDING |  | — | broncontrole uitvoeren |
-| 4533 |  | 4540 | Vinylbox | vinylbox.ru |  | PENDING |  | — | broncontrole uitvoeren |
-| 4534 |  | 4541 | VinylForAll | vinylforall.ru |  | PENDING |  | — | broncontrole uitvoeren |
-| 4535 |  | 4542 | Dr.Head | doctorhead.ru |  | PENDING |  | — | broncontrole uitvoeren |
-| 4536 |  | 4543 | Виниловые пластинки на любой вкус в магазине грампластинок "Звуковой Барьер" | sound-barrier.ru |  | PENDING |  | — | broncontrole uitvoeren |
-| 4537 |  | 4544 | Vinil | vinil.rs |  | PENDING |  | — | broncontrole uitvoeren |
-| 4538 |  | 4545 | Југовинил | yugovinyl.blogspot.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4539 |  | 4546 | Vinyl Cafe | vinylcafe.rs |  | PENDING |  | — | broncontrole uitvoeren |
-| 4540 |  | 4547 | Discom | discom.bigcartel.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4541 |  | 4548 | krmerch | krmerchs.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4542 |  | 4549 | Music record shop | vinyloveplatne.sk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4543 |  | 4550 | FOCUSMUSIC | focusmusic.sk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4544 |  | 4551 | hardbazar.com | hardbazar.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4545 |  | 4552 | SEPEA audio | sepeaaudio.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4546 |  | 4553 | JIGGY VINYL | jiggyvinylrecords.weebly.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4547 |  | 4554 | M-PIRE Music | mpiremusic.co.za |  | PENDING |  | — | broncontrole uitvoeren |
-| 4548 |  | 4555 | ROASTIN' RECORDS | roastinrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4549 |  | 4556 | Mr Vinyl | mrvinyl.co.za |  | PENDING |  | — | broncontrole uitvoeren |
-| 4550 |  | 4557 | Recordmad | recordmad.co.za |  | PENDING |  | — | broncontrole uitvoeren |
-| 4551 |  | 4558 | Vinyl Junkie | vinyljunkie.co.za |  | PENDING |  | — | broncontrole uitvoeren |
-| 4552 |  | 4559 | mugenielijah.com | mugenielijah.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4453 | 54 | 4460 | No Dust Records | nodustrecords.com | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4454 | 54 | 4461 | Handelskoning | handelskoning.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4455 | 54 | 4462 | Hekman Muziek | hekmanmuziek.nl |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_400 |
+| 4456 | 54 | 4463 | BasVinyl | basvinyl.nl | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4457 | 54 | 4464 | Music  More (Wormerveer) | music-more.nl | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4458 | 54 | 4465 | Coco Records | coco-records.nl |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4459 | 54 | 4466 | The Music Fool | themusicfool.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4460 | 54 | 4467 | De Platenlounge (Voorheen MarmurGo) | marmur.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4461 | 54 | 4468 | Minstrel Music | minstrel.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4462 | 54 | 4469 | Bordello A Parigi | bordelloaparigi.com | woocommerce | SCRAPER_BUILT_TESTED | 6 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4463 | 54 | 4470 | Eastman Records | eastmanrecords.nl | woocommerce | SCRAPER_BUILT_TESTED | 2 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4464 | 54 | 4471 | Nieuw binnengekomen | muziekvanderveen.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4465 | 54 | 4472 | PLATENREUS | platenreus.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4466 | 54 | 4473 | Plato Leiden | platoleiden.nl | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4467 | 54 | 4474 | Pop-Eye / Velvet Music | pop-eye.nl | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4468 | 54 | 4475 | Rush Hour | rushhour.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4469 | 54 | 4476 | SecondSpin Recordstore Homepage | secondspin.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4470 | 54 | 4477 | Simply-listening | simply-listening.nl | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4471 | 54 | 4478 | Welkom | myrecordstore.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4472 | 54 | 4479 | Access Denied | killacutz.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4473 | 54 | 4480 | City Records Amsterdam | cityrecordsamsterdam.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4474 | 54 | 4481 | CLONE.NL | clone.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4475 | 54 | 4482 | De Drvkkery | drukkerijmiddelburg.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4476 | 54 | 4483 | Dwars Edam | dwars-edam.nl | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4477 | 54 | 4484 | Elpees Van Kees | elpeesvankees.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4478 | 54 | 4485 | EnjoyTheMusic | enjoythemusic.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4479 | 54 | 4486 | Evelyn Novacek | cdenlp.nl | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4480 | 54 | 4487 | iorr.nl | iorr.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4481 | 54 | 4488 | lp-2.nl | lp-2.nl |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4482 | 54 | 4489 | No.1 Hotwax Records | no1hotwaxrecords.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4483 | 54 | 4490 | northendhaarlem.nl | northendhaarlem.nl |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4484 | 54 | 4491 | Online Webwinkel voor cd's, lp's en dvd's | kroese-online.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4485 | 54 | 4492 | Parkstad Recordshop | parkstadrecordshop.nl | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4486 | 54 | 4493 | Planet of Sound | planetofsound.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4487 | 54 | 4494 | PLATENHUIS 'T OOR | platenhuis-het-oor.nl |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4488 | 54 | 4495 | retroloes.nl | retroloes.nl |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4489 | 54 | 4496 | Riddim Record Store | riddimrecordstore.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4490 | 54 | 4497 | Roots Mail Music Internet Shop | rootsmailmusic.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4491 | 54 | 4498 | sounds.nl | sounds.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4492 | 54 | 4499 | T-REX RECORDS | trexrecords.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4493 | 54 | 4500 | Triple Vision Store | triplevision.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4494 | 54 | 4501 | Vinyl Plaatjes | vinylplaatjes.nl | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4495 | 54 | 4502 | Southbound Record Shop | southbound.co.nz | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4496 | 54 | 4503 | Tron Records | tronrecords.nz | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4497 | 54 | 4504 | Just For The Record | justfortherecord.co.nz |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4498 | 54 | 4505 | Flying Nun Records | flyingnun.co.nz |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Response size limit |
+| 4499 | 54 | 4506 | Slow Boat Records | slowboatrecords.co.nz | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4500 | 54 | 4507 | realgroovy.co.nz | realgroovy.co.nz |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4501 | 54 | 4508 | Katakomben | katakomben.no | shopify | SCRAPER_BUILT_TESTED | 14 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4502 | 54 | 4509 | Neseblod Records | neseblodrecords.bigcartel.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4503 | 54 | 4510 | Tiger Records | tigernet.no | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4504 | 54 | 4511 | Aftermath Music | aftermath-music.com | shopify | SCRAPER_BUILT_TESTED | 7 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4505 | 54 | 4512 | All Good Clean Records | allgoodcleanrecords.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4506 | 54 | 4513 | Backbeat | backbeat-tromso.no | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4507 | 54 | 4514 | Retrovinyl | retrovinyl.no | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4508 | 54 | 4515 | Apollon Platebar | apollon.no | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4509 | 54 | 4516 | Moderne Vintage | modernevintage.no | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4510 | 54 | 4517 | Bowie Records | bowierecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4511 | 54 | 4518 | Tercer Ojo Record Store | tercer-ojo.pe | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4512 | 54 | 4519 | ProThrowbacks #1 Sports, Music, and Collectibles and a big Golf Store | prothrowbacks.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4513 | 54 | 4520 | DrumStore | drumstore.pl | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4514 | 54 | 4521 | Vinyl Tamka | vinyltamka.pl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4515 | 54 | 4522 | Komis Płytowy Królestwo | winyle.com.pl | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 4516 | 54 | 4523 | Paul's Boutique Record Store | digujto.pl |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4517 | 54 | 4524 | Up & Down Wojciech Żdanuk | sideone.pl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4518 | 54 | 4525 | k-wax.com | k-wax.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: RemoteDisconnected |
+| 4519 | 54 | 4526 | Flur Discos | flur.pt | shopify | SCRAPER_BUILT_TESTED | 13 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4520 | 54 | 4527 | Groovie Records | groovierecords.com | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4521 | 54 | 4528 | Palmela Records | palmelarecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4522 | 54 | 4529 | Peekaboo Records | peekaboorecords.pt | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4523 | 54 | 4530 | carbonoamadora.net | carbonoamadora.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4524 | 54 | 4531 | LOJA DE DISCOS VINIL | carbono.com.pt | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4525 | 54 | 4532 | Materia Prima | materiaprima.pt | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4526 | 54 | 4533 | Piranha | piranhacd.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4527 | 54 | 4534 | PontoZurca | pontozurca.pt | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4528 | 54 | 4535 | Silvertentacle Music Store | silvertentacle.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4529 | 54 | 4536 | MisBits | misbits.ro | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4530 | 54 | 4537 | Magazin Muzica Online | nicherecords.ro | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4531 | 54 | 4538 | Maximum Vinyl | maximumvinyl.ru | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4532 | 54 | 4539 | Dissonance Vinyl Store | dissonance.shop | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4533 | 54 | 4540 | Vinylbox | vinylbox.ru | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4534 | 54 | 4541 | VinylForAll | vinylforall.ru | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4535 | 54 | 4542 | Dr.Head | doctorhead.ru | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4536 | 54 | 4543 | Виниловые пластинки на любой вкус в магазине грампластинок "Звуковой Барьер" | sound-barrier.ru | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4537 | 54 | 4544 | Vinil | vinil.rs | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4538 | 54 | 4545 | Југовинил | yugovinyl.blogspot.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4539 | 54 | 4546 | Vinyl Cafe | vinylcafe.rs | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4540 | 54 | 4547 | Discom | discom.bigcartel.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4541 | 54 | 4548 | krmerch | krmerchs.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4542 | 54 | 4549 | Music record shop | vinyloveplatne.sk |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4543 | 54 | 4550 | FOCUSMUSIC | focusmusic.sk |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4544 | 54 | 4551 | hardbazar.com | hardbazar.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4545 | 54 | 4552 | SEPEA audio | sepeaaudio.com | bigcommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4546 | 54 | 4553 | JIGGY VINYL | jiggyvinylrecords.weebly.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4547 | 54 | 4554 | M-PIRE Music | mpiremusic.co.za | shopify | SCRAPER_BUILT_TESTED | 1 | 1/1 geldig | private QA en marktgate beoordelen |
+| 4548 | 54 | 4555 | ROASTIN' RECORDS | roastinrecords.com | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4549 | 54 | 4556 | Mr Vinyl | mrvinyl.co.za | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4550 | 54 | 4557 | Recordmad | recordmad.co.za | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4551 | 54 | 4558 | Vinyl Junkie | vinyljunkie.co.za | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4552 | 54 | 4559 | mugenielijah.com | mugenielijah.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
 | 4553 |  | 4560 | mosaicseoul | mosaicseoul.kr |  | PENDING |  | — | broncontrole uitvoeren |
 | 4554 |  | 4561 | 즐거운 음반쇼핑몰 잇츠팝에 오신 것을 환영합니다. | itspop.co.kr |  | PENDING |  | — | broncontrole uitvoeren |
 | 4555 |  | 4562 | Discos Fanzine | discosfanzine.es |  | PENDING |  | — | broncontrole uitvoeren |
