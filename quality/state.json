@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "batch": 38,
+  "batch": 39,
   "shops": {
     "10000hzrecords_com": {
       "fingerprint": "bd851743c2eee03c427913ea2a88bc94dfb0e74b1f11366277a07532ffcd9e33",
@@ -8749,32 +8749,32 @@
     "mintgalleryrecords_com": {
       "fingerprint": "cf40ddaac9dad78e90ebd73820df346266335ed95b0b5e294c32d2ac50ff0e95",
       "domain": "mintgalleryrecords.com",
-      "batch": 38,
-      "repair_attempts": 2,
+      "batch": 39,
+      "repair_attempts": 3,
       "repair_modes": [
         "ean",
         "price"
       ],
       "admitted": true,
-      "status": "REVIEW",
-      "run_id": "44482526349",
-      "updated_at": "2026-11-19T07:49:20.484040+00:00",
+      "status": "FROZEN",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:40:45.843616+00:00",
       "evidence": {
         "domain": "mintgalleryrecords.com",
         "route": "https://mintgalleryrecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-19T07:49:18.213265+00:00",
+        "observed_at": "2026-11-20T07:40:43.466044+00:00",
         "requests": [
           {
             "url": "https://mintgalleryrecords.com/products.json?limit=20&page=1",
-            "sha256": "018becafba03bc7f316aa48ee56b6db97a5ca2dc6c669bfa4f5123f897ff7dcf"
+            "sha256": "84e10e05071d6f70d39b2a68724bcfb4d6a9062a7b526a0b1a1d43d24db99b30"
           },
           {
             "url": "https://mintgalleryrecords.com/products/coachwhips-hands-on-the-controls?variant=68075747999974",
-            "sha256": "0776ee49f90faf9d1d6963944ba127b9e397336fd3e9cd9530eb206f9b1bfeb0"
+            "sha256": "9fbed42d4d627c0cdf7138e4f0165eee57d636d040515f513016079cb6161d63"
           },
           {
             "url": "https://mintgalleryrecords.com/products/the-victor-dimisich-band-the-victor-dimisich-band?variant=68075695735014",
-            "sha256": "6b7b83cd46af883a8abb17c4d1d72ccdc144da2cc45246aff1335d5b22198494"
+            "sha256": "dbf06175248760853b6428c2d83b85b029684c045ae660f79b488c34117783cd"
           }
         ],
         "listing_records": 3,
@@ -8846,6 +8846,12 @@
           "status": "REVIEW",
           "reason": "invalid_detail_gtin",
           "run_id": "44482526349"
+        },
+        {
+          "batch": 39,
+          "status": "FROZEN",
+          "reason": "invalid_detail_gtin",
+          "run_id": "44696709935"
         }
       ],
       "approved_route": "https://mintgalleryrecords.com/products.json?limit=20&page=1",
@@ -15488,19 +15494,19 @@
     "soundbendrecords_co": {
       "fingerprint": "8acc3643e1110063605f995c0801c55728d1a2ef6a456493ed37a071f1323e7d",
       "domain": "soundbendrecords.co",
-      "batch": 38,
-      "repair_attempts": 2,
+      "batch": 39,
+      "repair_attempts": 3,
       "repair_modes": [
         "price"
       ],
       "admitted": true,
-      "status": "REVIEW",
-      "run_id": "44482526349",
-      "updated_at": "2026-11-19T07:49:20.641927+00:00",
+      "status": "FROZEN",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:40:46.045074+00:00",
       "evidence": {
         "domain": "soundbendrecords.co",
         "route": "https://soundbendrecords.co/products.json?limit=20&page=1",
-        "observed_at": "2026-11-19T07:49:20.513961+00:00",
+        "observed_at": "2026-11-20T07:40:45.887249+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -15559,6 +15565,12 @@
           "status": "REVIEW",
           "reason": "HTTP_402",
           "run_id": "44482526349"
+        },
+        {
+          "batch": 39,
+          "status": "FROZEN",
+          "reason": "HTTP_402",
+          "run_id": "44696709935"
         }
       ],
       "approved_route": "https://soundbendrecords.co/products.json?limit=20&page=1",
@@ -21414,40 +21426,40 @@
     "tntmusic_shop": {
       "fingerprint": "3be88dff99f2df58ffebcf5875f05d8a697ff80537bddbeee3e1d450c7e604af",
       "domain": "tntmusic.shop",
-      "batch": 37,
+      "batch": 39,
       "repair_attempts": 1,
       "repair_modes": [
         "ean"
       ],
       "admitted": true,
       "status": "APPROVED",
-      "run_id": "44262271076",
-      "updated_at": "2026-11-18T07:52:44.622097+00:00",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:40:49.371972+00:00",
       "evidence": {
         "domain": "tntmusic.shop",
         "route": "https://tntmusic.shop/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-18T07:52:41.454491+00:00",
+        "observed_at": "2026-11-20T07:40:46.088554+00:00",
         "requests": [
           {
             "url": "https://tntmusic.shop/collections/all/products.json?limit=20&page=1",
-            "sha256": "6ee877c26ffab322a0ee09865e1709762350d598a897a799c40739ba46f83095"
+            "sha256": "63c61cbafbba8179d6b85c5687257fb57916e1c548137eb72338656720341022"
           },
           {
             "url": "https://tntmusic.shop/products/uicideboy-new-world-depression?variant=47425477574740",
-            "sha256": "540ede19e563824922b6d7c4c0f585f2dd7ca0c43bf49b0078fee07fc3b75db4"
+            "sha256": "2fdb567357d71192c95bc9f68998d50982d7da5d13408086fd303d46bb3872f4"
           },
           {
-            "url": "https://tntmusic.shop/products/acdc-dirty-deeds?variant=47473724883028",
-            "sha256": "7027251a7d763df84810bbacee3c24b059e9d49a2ed6ee34d70d6d4f2fe659f2"
+            "url": "https://tntmusic.shop/products/acdc-back-in-black?variant=47473724850260",
+            "sha256": "4af7570c15f211a57301cf996395642661a2a91049736836b6a79574d2ad29ea"
           },
           {
-            "url": "https://tntmusic.shop/products/al-green-lets-stay-together?variant=47473778786388",
-            "sha256": "9d016d8319097420d2feb4294d5a4024f8ee0a2f1d666e2fbec9f51c333230af"
+            "url": "https://tntmusic.shop/products/adele-30?variant=47473778688084",
+            "sha256": "9a94b2aa163843a82509858f06040a26ec96d2a0c5bdb2f7e6b4c11d9b41f547"
           }
         ],
-        "listing_records": 15,
+        "listing_records": 12,
         "detail_checked": 3,
-        "valid_eans": 2,
+        "valid_eans": 3,
         "details": [
           {
             "url": "https://tntmusic.shop/products/uicideboy-new-world-depression?variant=47425477574740",
@@ -21457,17 +21469,17 @@
             "condition": "new"
           },
           {
-            "url": "https://tntmusic.shop/products/acdc-dirty-deeds?variant=47473724883028",
-            "price": "26.98",
+            "url": "https://tntmusic.shop/products/acdc-back-in-black?variant=47473724850260",
+            "price": "27.98",
             "currency": "USD",
-            "ean": "00696998020214",
+            "ean": "00696998020719",
             "condition": "new"
           },
           {
-            "url": "https://tntmusic.shop/products/al-green-lets-stay-together?variant=47473778786388",
-            "price": "25.98",
+            "url": "https://tntmusic.shop/products/adele-30?variant=47473778688084",
+            "price": "38.98",
             "currency": "USD",
-            "ean": null,
+            "ean": "00194399379714",
             "condition": "new"
           }
         ],
@@ -21475,8 +21487,8 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 15,
-          "unique_prices": 9,
+          "records_checked": 12,
+          "unique_prices": 8,
           "shipping_hits": 0,
           "currencies": [
             "USD"
@@ -21502,34 +21514,40 @@
           "status": "APPROVED",
           "reason": null,
           "run_id": "44262271076"
+        },
+        {
+          "batch": 39,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "44696709935"
         }
       ],
       "approved_route": "https://tntmusic.shop/collections/all/products.json?limit=20&page=1",
       "admission_evidence": {
         "domain": "tntmusic.shop",
         "route": "https://tntmusic.shop/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-18T07:52:41.454491+00:00",
+        "observed_at": "2026-11-20T07:40:46.088554+00:00",
         "requests": [
           {
             "url": "https://tntmusic.shop/collections/all/products.json?limit=20&page=1",
-            "sha256": "6ee877c26ffab322a0ee09865e1709762350d598a897a799c40739ba46f83095"
+            "sha256": "63c61cbafbba8179d6b85c5687257fb57916e1c548137eb72338656720341022"
           },
           {
             "url": "https://tntmusic.shop/products/uicideboy-new-world-depression?variant=47425477574740",
-            "sha256": "540ede19e563824922b6d7c4c0f585f2dd7ca0c43bf49b0078fee07fc3b75db4"
+            "sha256": "2fdb567357d71192c95bc9f68998d50982d7da5d13408086fd303d46bb3872f4"
           },
           {
-            "url": "https://tntmusic.shop/products/acdc-dirty-deeds?variant=47473724883028",
-            "sha256": "7027251a7d763df84810bbacee3c24b059e9d49a2ed6ee34d70d6d4f2fe659f2"
+            "url": "https://tntmusic.shop/products/acdc-back-in-black?variant=47473724850260",
+            "sha256": "4af7570c15f211a57301cf996395642661a2a91049736836b6a79574d2ad29ea"
           },
           {
-            "url": "https://tntmusic.shop/products/al-green-lets-stay-together?variant=47473778786388",
-            "sha256": "9d016d8319097420d2feb4294d5a4024f8ee0a2f1d666e2fbec9f51c333230af"
+            "url": "https://tntmusic.shop/products/adele-30?variant=47473778688084",
+            "sha256": "9a94b2aa163843a82509858f06040a26ec96d2a0c5bdb2f7e6b4c11d9b41f547"
           }
         ],
-        "listing_records": 15,
+        "listing_records": 12,
         "detail_checked": 3,
-        "valid_eans": 2,
+        "valid_eans": 3,
         "details": [
           {
             "url": "https://tntmusic.shop/products/uicideboy-new-world-depression?variant=47425477574740",
@@ -21539,17 +21557,17 @@
             "condition": "new"
           },
           {
-            "url": "https://tntmusic.shop/products/acdc-dirty-deeds?variant=47473724883028",
-            "price": "26.98",
+            "url": "https://tntmusic.shop/products/acdc-back-in-black?variant=47473724850260",
+            "price": "27.98",
             "currency": "USD",
-            "ean": "00696998020214",
+            "ean": "00696998020719",
             "condition": "new"
           },
           {
-            "url": "https://tntmusic.shop/products/al-green-lets-stay-together?variant=47473778786388",
-            "price": "25.98",
+            "url": "https://tntmusic.shop/products/adele-30?variant=47473778688084",
+            "price": "38.98",
             "currency": "USD",
-            "ean": null,
+            "ean": "00194399379714",
             "condition": "new"
           }
         ],
@@ -21557,8 +21575,8 @@
         "price_quality": {
           "status": "pass",
           "flags": [],
-          "records_checked": 15,
-          "unique_prices": 9,
+          "records_checked": 12,
+          "unique_prices": 8,
           "shipping_hits": 0,
           "currencies": [
             "USD"
@@ -24389,24 +24407,24 @@
     "vylevinyl_com": {
       "fingerprint": "fe12c4e271957fe0cdac15ce7c371b2fd6203ab9ee6d9b54eb668139778786cd",
       "domain": "vylevinyl.com",
-      "batch": 38,
-      "repair_attempts": 2,
+      "batch": 39,
+      "repair_attempts": 3,
       "repair_modes": [
         "ean",
         "price"
       ],
       "admitted": true,
-      "status": "REVIEW",
-      "run_id": "44482526349",
-      "updated_at": "2026-11-19T07:49:21.001061+00:00",
+      "status": "FROZEN",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:40:49.635986+00:00",
       "evidence": {
         "domain": "vylevinyl.com",
         "route": "https://vylevinyl.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-19T07:49:20.671259+00:00",
+        "observed_at": "2026-11-20T07:40:49.414156+00:00",
         "requests": [
           {
             "url": "https://vylevinyl.com/collections/all/products.json?limit=20&page=1",
-            "sha256": "cf60bb29a720709e2c332698b693cea21025edd50fd9ea0d09335f61aa6b9127"
+            "sha256": "84a597e1ed891b01e8797c5fa40bba7ba7411985b0a69dafd055cd03502d5130"
           }
         ],
         "listing_records": 0,
@@ -24454,6 +24472,12 @@
           "status": "REVIEW",
           "reason": "no_new_vinyl_records",
           "run_id": "44482526349"
+        },
+        {
+          "batch": 39,
+          "status": "FROZEN",
+          "reason": "no_new_vinyl_records",
+          "run_id": "44696709935"
         }
       ],
       "approved_route": "https://vylevinyl.com/collections/all/products.json?limit=20&page=1",
@@ -25783,8 +25807,1723 @@
           "run_id": "41282025830"
         }
       ]
+    },
+    "101collectorsrecords_com": {
+      "fingerprint": "45b4b47d9d42de3ebd55830853539182eb15c8df7dbd3bcbd755eea6282c65fc",
+      "domain": "101collectorsrecords.com",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:40:51.194550+00:00",
+      "evidence": {
+        "domain": "101collectorsrecords.com",
+        "route": "https://101collectorsrecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:40:49.677757+00:00",
+        "requests": [
+          {
+            "url": "https://101collectorsrecords.com/products.json?limit=20&page=1",
+            "sha256": "d6e9333df28ad6b6373b0f79635708c715775e33ffad15deca0c41e6c5ff47fc"
+          },
+          {
+            "url": "https://101collectorsrecords.com/products/bruce-dickinson-psychogod?variant=59341520404811",
+            "sha256": "e35372b8fb21d95d181af3f4a8c4ba80e1567386a01776fcf751637c827aaf76"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 16,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "44696709935"
+        }
+      ]
+    },
+    "12_bar_com": {
+      "fingerprint": "60fae40a23a10065b1cf71bc5fb94ee7f4c5a25135bab05f30fd25622f16f63c",
+      "domain": "12-bar.com",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:40:52.540965+00:00",
+      "evidence": {
+        "domain": "12-bar.com",
+        "route": "https://12-bar.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:40:51.235961+00:00",
+        "requests": [
+          {
+            "url": "https://12-bar.com/products.json?limit=20&page=1",
+            "sha256": "304e8efaef681f8dfbfc01680c54d835a5ebb80f2ef5f5d348210e35e5781f81"
+          },
+          {
+            "url": "https://12-bar.com/products/tomoki-sanders-visage-the-third-eye?variant=66069493154060",
+            "sha256": "040d0442640ee83c7a0e36c09afdff8f32f872bec8b8b94a36b0adb744426dd8"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 14,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "44696709935"
+        }
+      ]
+    },
+    "abicus_com_au": {
+      "fingerprint": "1d50b17fbfe6766ea5bb92c0c641eda17c5e4fe680c58f790b9a0639db012f44",
+      "domain": "abicus.com.au",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:40:57.082173+00:00",
+      "evidence": {
+        "domain": "abicus.com.au",
+        "route": "https://abicus.com.au/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:40:52.582142+00:00",
+        "requests": [
+          {
+            "url": "https://abicus.com.au/collections/all/products.json?limit=20&page=1",
+            "sha256": "ba7d84bcebbd6e23f1c6e6a0affdf62d10591f7044e4307772d97fa81d06feff"
+          },
+          {
+            "url": "https://abicus.com.au/products/100-gecs-1000-gecs-and-the-tree-of-clues-lp?variant=51439557214521",
+            "sha256": "e87b4aa373a1295f55e6df99ce3140e335e7955fcaa3bdec543b0b6de66192db"
+          },
+          {
+            "url": "https://abicus.com.au/products/awingedvictoryforthesullenatomos2lp?variant=32835522232398",
+            "sha256": "41a80ef207feac23ef187f1b4e0b0d97d1a27a06d4497dc3272008313a827ede"
+          },
+          {
+            "url": "https://abicus.com.au/products/adammiller-thedefiningofsuccesslp?variant=32863931039822",
+            "sha256": "76c5efe08628d734d813c696a06bebf4f5927ea9a5f3f77523ce9e4f357cc0b3"
+          }
+        ],
+        "listing_records": 19,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://abicus.com.au/products/100-gecs-1000-gecs-and-the-tree-of-clues-lp?variant=51439557214521",
+            "price": "48.00",
+            "currency": "AUD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://abicus.com.au/products/awingedvictoryforthesullenatomos2lp?variant=32835522232398",
+            "price": "63.95",
+            "currency": "AUD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://abicus.com.au/products/adammiller-thedefiningofsuccesslp?variant=32863931039822",
+            "price": "30.00",
+            "currency": "AUD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 19,
+          "unique_prices": 13,
+          "shipping_hits": 0,
+          "currencies": [
+            "AUD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "44696709935"
+        }
+      ]
+    },
+    "accord_dk": {
+      "fingerprint": "e2bddaafee2c14a082af86938cec7a5584dab58f660f2843918d3d3e49d60790",
+      "domain": "accord.dk",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:40:58.839729+00:00",
+      "evidence": {
+        "domain": "accord.dk",
+        "route": "https://accord.dk/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:40:57.122337+00:00",
+        "requests": [
+          {
+            "url": "https://accord.dk/collections/all/products.json?limit=20&page=1",
+            "sha256": "b74ae04cbc44c82daa8dcde4a1ff997ba297027b428810c4fd30e9d8292efe5f"
+          },
+          {
+            "url": "https://accord.dk/products/product?variant=50109346971976",
+            "sha256": "290b28c837fabd509183ca75d3a1ca740bd94507ebdc65eae20b21f321ab2e92"
+          }
+        ],
+        "listing_records": 18,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 18,
+          "unique_prices": 13,
+          "shipping_hits": 0,
+          "currencies": [
+            "DKK"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "44696709935"
+        }
+      ]
+    },
+    "alt_cvlt_com_au": {
+      "fingerprint": "22b36b58073ba44716faa6668f0c2a81878b9dfed2cea327880f383bc9b51720",
+      "domain": "alt-cvlt.com.au",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:41:00.510810+00:00",
+      "evidence": {
+        "domain": "alt-cvlt.com.au",
+        "route": "https://alt-cvlt.com.au/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:40:58.879616+00:00",
+        "requests": [
+          {
+            "url": "https://alt-cvlt.com.au/collections/all/products.json?limit=20&page=1",
+            "sha256": "80cff2b2a48f60aff117e19de3235a43cd07fd9ba5dfac60e337e154db93e290"
+          },
+          {
+            "url": "https://alt-cvlt.com.au/products/1349-the-infernal-pathway-silver-vinyl-2019?variant=45549383844031",
+            "sha256": "75eb3d363f84b9f0ca74ffd6cd5f58125703d53136ddc1bdd9846040b79d9882"
+          }
+        ],
+        "listing_records": 2,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 2,
+          "unique_prices": 2,
+          "shipping_hits": 0,
+          "currencies": [
+            "AUD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "invalid_detail_gtin",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "REVIEW",
+          "reason": "invalid_detail_gtin",
+          "run_id": "44696709935"
+        }
+      ]
+    },
+    "avalancherecords_co_uk": {
+      "fingerprint": "971996b330b4e6c2c349d9ee29841faa421486456eddf102e9d23044477d596a",
+      "domain": "avalancherecords.co.uk",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:41:02.364670+00:00",
+      "evidence": {
+        "domain": "avalancherecords.co.uk",
+        "route": "https://avalancherecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "observed_at": "2026-11-20T07:41:00.551160+00:00",
+        "requests": [
+          {
+            "url": "https://avalancherecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+            "sha256": "6741fd58dbcbe5559702a98d9b4e766ffb8182dbc05f1626a82f546e7deb0503"
+          },
+          {
+            "url": "https://avalancherecords.co.uk/product/the-snuts-burn-the-empire-picture-disc/",
+            "sha256": "eb0cbd102cc13d0e02573a2434800bb997338b954fcc5f54071571578b97d41e"
+          }
+        ],
+        "listing_records": 9,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 9,
+          "unique_prices": 4,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "44696709935"
+        }
+      ]
+    },
+    "badlandsvinyl_com": {
+      "fingerprint": "c221dd86979bb5c6474b804d4f8165c7e1bae6db8696fbb9654658dd4a6720ee",
+      "domain": "badlandsvinyl.com",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:41:05.728167+00:00",
+      "evidence": {
+        "domain": "badlandsvinyl.com",
+        "route": "https://badlandsvinyl.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:41:02.405162+00:00",
+        "requests": [
+          {
+            "url": "https://badlandsvinyl.com/products.json?limit=20&page=1",
+            "sha256": "733edda91713d0fa642086cf7a2a58215caad88195624f37194c81b7ccdb36d5"
+          },
+          {
+            "url": "https://badlandsvinyl.com/products/nirvana-nirvana-lp-compilation-reissue?variant=50622672797929",
+            "sha256": "c8105325b1f94b661deecacbf81832adb7382ef944687723c2d4be13d2cbac95"
+          },
+          {
+            "url": "https://badlandsvinyl.com/products/queens-of-the-stone-age-perfecth-lp-album-limited-edition-transparent?variant=67967598592233",
+            "sha256": "4f4155e6437719d3713924b642b117dc82c1cf8df8b4037189ae471d6015bb1c"
+          },
+          {
+            "url": "https://badlandsvinyl.com/products/sleep-dopesmoker-double-vinyl-lp?variant=44810444701929",
+            "sha256": "5d83de79a5aa80cded147590a6b59b9b1efd3e8a56e0cb843a9b3f99a5028eaa"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://badlandsvinyl.com/products/nirvana-nirvana-lp-compilation-reissue?variant=50622672797929",
+            "price": "59.95",
+            "currency": "AUD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://badlandsvinyl.com/products/queens-of-the-stone-age-perfecth-lp-album-limited-edition-transparent?variant=67967598592233",
+            "price": "59.95",
+            "currency": "AUD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://badlandsvinyl.com/products/sleep-dopesmoker-double-vinyl-lp?variant=44810444701929",
+            "price": "69.95",
+            "currency": "AUD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 7,
+          "shipping_hits": 0,
+          "currencies": [
+            "AUD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "44696709935"
+        }
+      ]
+    },
+    "beatgoeson_com": {
+      "fingerprint": "ebc5e7e19da96fb1a2346bd882357d931b47b891aa84d3e1fa494708983448b3",
+      "domain": "beatgoeson.com",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:41:09.053811+00:00",
+      "evidence": {
+        "domain": "beatgoeson.com",
+        "route": "https://beatgoeson.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:41:05.769080+00:00",
+        "requests": [
+          {
+            "url": "https://beatgoeson.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "145f75f17c46a7de6564d24c2b3ac8e3329e89dd680372ee1f0f64c383c56fba"
+          },
+          {
+            "url": "https://beatgoeson.com/products/chk-chk-chk-let-it-be-blue-vinyl?variant=42926687420603",
+            "sha256": "7ea66460517c6fc85079c0a0a390a2f7a4fae6b3ed596939074680d3e6cf0b9e"
+          },
+          {
+            "url": "https://beatgoeson.com/products/let-it-be-blue?variant=46182576914619",
+            "sha256": "2157d632f181f0b46521e8742d66390fa8079f1640635a76e515e2500d05281b"
+          },
+          {
+            "url": "https://beatgoeson.com/products/shake-the-shudder-2lp-vinyl?variant=40268920848571",
+            "sha256": "534797f8de8d3326175ad4c08e7ff97d86a41afe1b94773ca592286854dadce5"
+          }
+        ],
+        "listing_records": 8,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://beatgoeson.com/products/chk-chk-chk-let-it-be-blue-vinyl?variant=42926687420603",
+            "price": "39.99",
+            "currency": "CAD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://beatgoeson.com/products/let-it-be-blue?variant=46182576914619",
+            "price": "39.99",
+            "currency": "CAD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://beatgoeson.com/products/shake-the-shudder-2lp-vinyl?variant=40268920848571",
+            "price": "46.99",
+            "currency": "CAD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 8,
+          "unique_prices": 5,
+          "shipping_hits": 0,
+          "currencies": [
+            "CAD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "44696709935"
+        }
+      ]
+    },
+    "beatniksrecords_com_au": {
+      "fingerprint": "2ea33189f1b95fbbdc6c2f7f143583605e0fd72e6d2bef35798c640e50d9e390",
+      "domain": "beatniksrecords.com.au",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:41:12.623370+00:00",
+      "evidence": {
+        "domain": "beatniksrecords.com.au",
+        "route": "https://beatniksrecords.com.au/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:41:09.097478+00:00",
+        "requests": [
+          {
+            "url": "https://beatniksrecords.com.au/products.json?limit=20&page=1",
+            "sha256": "25d5d486f735a6c96a2096801a7996cfe2b97e9c1bd10bf6ff0c4fee8d7c87ad"
+          },
+          {
+            "url": "https://beatniksrecords.com.au/products/73341f9c-435c-4377-80b3-fa91dad1ee9a?variant=43808470499407",
+            "sha256": "b2efa380ff5b4b9bf7b0c8a21fa111504f58cc3b1f0824e592c8c058fa1dfde9"
+          },
+          {
+            "url": "https://beatniksrecords.com.au/products/portishead-dummy-lp?variant=43808782188623",
+            "sha256": "402d24f22718a83b13d7b879aef448e3ad2c0d299ff052e7baa33dde07aca2b7"
+          },
+          {
+            "url": "https://beatniksrecords.com.au/products/b18f63ac-9259-56a3-7193-87e92e1b519e?variant=43811756539983",
+            "sha256": "c2838f8784e8d49fdac57b39c0ac18fd85a4bc0f8764640c66cfb0f2cddb17bb"
+          }
+        ],
+        "listing_records": 18,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://beatniksrecords.com.au/products/73341f9c-435c-4377-80b3-fa91dad1ee9a?variant=43808470499407",
+            "price": "64.99",
+            "currency": "AUD",
+            "ean": "00194398067414",
+            "condition": "new"
+          },
+          {
+            "url": "https://beatniksrecords.com.au/products/portishead-dummy-lp?variant=43808782188623",
+            "price": "82.99",
+            "currency": "AUD",
+            "ean": "00602537972050",
+            "condition": "new"
+          },
+          {
+            "url": "https://beatniksrecords.com.au/products/b18f63ac-9259-56a3-7193-87e92e1b519e?variant=43811756539983",
+            "price": "34.99",
+            "currency": "AUD",
+            "ean": "00190295842840",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 18,
+          "unique_prices": 11,
+          "shipping_hits": 0,
+          "currencies": [
+            "AUD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "44696709935"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "beatniksrecords.com.au",
+        "route": "https://beatniksrecords.com.au/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:41:09.097478+00:00",
+        "requests": [
+          {
+            "url": "https://beatniksrecords.com.au/products.json?limit=20&page=1",
+            "sha256": "25d5d486f735a6c96a2096801a7996cfe2b97e9c1bd10bf6ff0c4fee8d7c87ad"
+          },
+          {
+            "url": "https://beatniksrecords.com.au/products/73341f9c-435c-4377-80b3-fa91dad1ee9a?variant=43808470499407",
+            "sha256": "b2efa380ff5b4b9bf7b0c8a21fa111504f58cc3b1f0824e592c8c058fa1dfde9"
+          },
+          {
+            "url": "https://beatniksrecords.com.au/products/portishead-dummy-lp?variant=43808782188623",
+            "sha256": "402d24f22718a83b13d7b879aef448e3ad2c0d299ff052e7baa33dde07aca2b7"
+          },
+          {
+            "url": "https://beatniksrecords.com.au/products/b18f63ac-9259-56a3-7193-87e92e1b519e?variant=43811756539983",
+            "sha256": "c2838f8784e8d49fdac57b39c0ac18fd85a4bc0f8764640c66cfb0f2cddb17bb"
+          }
+        ],
+        "listing_records": 18,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://beatniksrecords.com.au/products/73341f9c-435c-4377-80b3-fa91dad1ee9a?variant=43808470499407",
+            "price": "64.99",
+            "currency": "AUD",
+            "ean": "00194398067414",
+            "condition": "new"
+          },
+          {
+            "url": "https://beatniksrecords.com.au/products/portishead-dummy-lp?variant=43808782188623",
+            "price": "82.99",
+            "currency": "AUD",
+            "ean": "00602537972050",
+            "condition": "new"
+          },
+          {
+            "url": "https://beatniksrecords.com.au/products/b18f63ac-9259-56a3-7193-87e92e1b519e?variant=43811756539983",
+            "price": "34.99",
+            "currency": "AUD",
+            "ean": "00190295842840",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 18,
+          "unique_prices": 11,
+          "shipping_hits": 0,
+          "currencies": [
+            "AUD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "beatstreet_ca": {
+      "fingerprint": "c5dcbef84f336e540e7ede10fdb519aa8c110dabdc3b837f61b8a87a333da249",
+      "domain": "beatstreet.ca",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:41:15.971715+00:00",
+      "evidence": {
+        "domain": "beatstreet.ca",
+        "route": "https://beatstreet.ca/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:41:12.664525+00:00",
+        "requests": [
+          {
+            "url": "https://beatstreet.ca/collections/all/products.json?limit=20&page=1",
+            "sha256": "ee76647c9254b37d5785861112838e42691a96a8c8784969ac9063186921b7e1"
+          },
+          {
+            "url": "https://beatstreet.ca/products/uicide-boy-i-want-to-die-in-new-orleans-lp-silver-vinyl?variant=43954596151554",
+            "sha256": "8d5c16a31af7d2e2b2bc57dfd185144a789584cc4e654da58de3ceace30568ed"
+          },
+          {
+            "url": "https://beatstreet.ca/products/100-gecs-1000-gecs-lp?variant=45623383228674",
+            "sha256": "a38e699c1e79160a0591864ca78d107c8ab9a79f836ab52a401a0a5583977402"
+          },
+          {
+            "url": "https://beatstreet.ca/products/21-savage-metro-boomin-savage-mode-lp-1?variant=48525085868290",
+            "sha256": "7476ea1caee8a1f63e38d539c8cce700c39d1a3c1585c43e90ae0fdca40df5da"
+          }
+        ],
+        "listing_records": 15,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://beatstreet.ca/products/uicide-boy-i-want-to-die-in-new-orleans-lp-silver-vinyl?variant=43954596151554",
+            "price": "36.99",
+            "currency": "CAD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://beatstreet.ca/products/100-gecs-1000-gecs-lp?variant=45623383228674",
+            "price": "48.99",
+            "currency": "CAD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://beatstreet.ca/products/21-savage-metro-boomin-savage-mode-lp-1?variant=48525085868290",
+            "price": "34.99",
+            "currency": "CAD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 15,
+          "unique_prices": 7,
+          "shipping_hits": 0,
+          "currencies": [
+            "CAD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "44696709935"
+        }
+      ]
+    },
+    "bendingsound_co_uk": {
+      "fingerprint": "6eb4bda601b2badc1540343f894192d3b0573c528d717b2acc51ce9b7da18473",
+      "domain": "bendingsound.co.uk",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:41:17.364946+00:00",
+      "evidence": {
+        "domain": "bendingsound.co.uk",
+        "route": "https://bendingsound.co.uk/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:41:16.012927+00:00",
+        "requests": [
+          {
+            "url": "https://bendingsound.co.uk/collections/all/products.json?limit=20&page=1",
+            "sha256": "23e7067bcacecfb9e27d2014d160753116d63ab3f0c8bcf2644a13991e0b5f43"
+          },
+          {
+            "url": "https://bendingsound.co.uk/products/5-the-gray-chapter-black-vinyl-2lp?variant=58570382967167",
+            "sha256": "d19442c0faa8f8111b429e551f2d06daa1699cc3c8c12c1b445afa2c9c5a25bd"
+          }
+        ],
+        "listing_records": 12,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 12,
+          "unique_prices": 10,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "44696709935"
+        }
+      ]
+    },
+    "beyondvinyl_co_uk": {
+      "fingerprint": "8837d507d0ad976127f8aabb3817fa366d93121a07a801206cec060f031de525",
+      "domain": "beyondvinyl.co.uk",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:41:20.848133+00:00",
+      "evidence": {
+        "domain": "beyondvinyl.co.uk",
+        "route": "https://beyondvinyl.co.uk/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:41:17.407046+00:00",
+        "requests": [
+          {
+            "url": "https://beyondvinyl.co.uk/products.json?limit=20&page=1",
+            "sha256": "a29d3b0b1672068a0a32312aecfcb5f812d8922045e1d8ddb07614033bf90bc3"
+          },
+          {
+            "url": "https://beyondvinyl.co.uk/products/sam-fender-seventeen-going-under-5th-anniversary-edition-clear-2lp?variant=55805222355285",
+            "sha256": "1581e0abee2692ff2b5359574a75c1ff7361d694649ae3024b878c6bc1abe187"
+          },
+          {
+            "url": "https://beyondvinyl.co.uk/products/bros-gold-180g-gold-vinyl-lp?variant=55639937778005",
+            "sha256": "650a27053d8248334ca65131d61d3c8d52ee6d8f7f777ca463c7b9e24f247131"
+          },
+          {
+            "url": "https://beyondvinyl.co.uk/products/sam-fender-people-watching-indie-exclusive-blue-yolk-vinyl-lp?variant=55637468086613",
+            "sha256": "730a76775abac7a720260435cc50fabd421366e79cf44b810b363cbc9bca4559"
+          }
+        ],
+        "listing_records": 14,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://beyondvinyl.co.uk/products/sam-fender-seventeen-going-under-5th-anniversary-edition-clear-2lp?variant=55805222355285",
+            "price": "34.99",
+            "currency": "GBP",
+            "ean": "00199957606424",
+            "condition": "new"
+          },
+          {
+            "url": "https://beyondvinyl.co.uk/products/bros-gold-180g-gold-vinyl-lp?variant=55639937778005",
+            "price": "12.99",
+            "currency": "GBP",
+            "ean": "05014797902121",
+            "condition": "new"
+          },
+          {
+            "url": "https://beyondvinyl.co.uk/products/sam-fender-people-watching-indie-exclusive-blue-yolk-vinyl-lp?variant=55637468086613",
+            "price": "28.99",
+            "currency": "GBP",
+            "ean": "00602455503251",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 14,
+          "unique_prices": 11,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "44696709935"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "beyondvinyl.co.uk",
+        "route": "https://beyondvinyl.co.uk/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:41:17.407046+00:00",
+        "requests": [
+          {
+            "url": "https://beyondvinyl.co.uk/products.json?limit=20&page=1",
+            "sha256": "a29d3b0b1672068a0a32312aecfcb5f812d8922045e1d8ddb07614033bf90bc3"
+          },
+          {
+            "url": "https://beyondvinyl.co.uk/products/sam-fender-seventeen-going-under-5th-anniversary-edition-clear-2lp?variant=55805222355285",
+            "sha256": "1581e0abee2692ff2b5359574a75c1ff7361d694649ae3024b878c6bc1abe187"
+          },
+          {
+            "url": "https://beyondvinyl.co.uk/products/bros-gold-180g-gold-vinyl-lp?variant=55639937778005",
+            "sha256": "650a27053d8248334ca65131d61d3c8d52ee6d8f7f777ca463c7b9e24f247131"
+          },
+          {
+            "url": "https://beyondvinyl.co.uk/products/sam-fender-people-watching-indie-exclusive-blue-yolk-vinyl-lp?variant=55637468086613",
+            "sha256": "730a76775abac7a720260435cc50fabd421366e79cf44b810b363cbc9bca4559"
+          }
+        ],
+        "listing_records": 14,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://beyondvinyl.co.uk/products/sam-fender-seventeen-going-under-5th-anniversary-edition-clear-2lp?variant=55805222355285",
+            "price": "34.99",
+            "currency": "GBP",
+            "ean": "00199957606424",
+            "condition": "new"
+          },
+          {
+            "url": "https://beyondvinyl.co.uk/products/bros-gold-180g-gold-vinyl-lp?variant=55639937778005",
+            "price": "12.99",
+            "currency": "GBP",
+            "ean": "05014797902121",
+            "condition": "new"
+          },
+          {
+            "url": "https://beyondvinyl.co.uk/products/sam-fender-people-watching-indie-exclusive-blue-yolk-vinyl-lp?variant=55637468086613",
+            "price": "28.99",
+            "currency": "GBP",
+            "ean": "00602455503251",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 14,
+          "unique_prices": 11,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "bisaufsmesser_com": {
+      "fingerprint": "4a40df5dccfbe65bcb51c1603645c2a954e56c4d76951af7971825b11d67b3b0",
+      "domain": "bisaufsmesser.com",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:41:22.284950+00:00",
+      "evidence": {
+        "domain": "bisaufsmesser.com",
+        "route": "https://bisaufsmesser.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:41:20.889601+00:00",
+        "requests": [
+          {
+            "url": "https://bisaufsmesser.com/products.json?limit=20&page=1",
+            "sha256": "5671d2607f02268e060c33b778076d819705e3912e077700f0636d41ff27ce0f"
+          },
+          {
+            "url": "https://bisaufsmesser.com/products/jonas-de-kesel-shepherd-lp?variant=53547063443723",
+            "sha256": "7fa59d3236b0fec593240738ba5353fe10c92633745db8148bf5668c61efafc8"
+          }
+        ],
+        "listing_records": 16,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 16,
+          "unique_prices": 9,
+          "shipping_hits": 0,
+          "currencies": [
+            "EUR"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "44696709935"
+        }
+      ]
+    },
+    "blitzkriegshop_co_uk": {
+      "fingerprint": "86027dcfdf347a613ccdba452020c9301980834403c58035aefbde8fc62f1608",
+      "domain": "blitzkriegshop.co.uk",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:41:25.921120+00:00",
+      "evidence": {
+        "domain": "blitzkriegshop.co.uk",
+        "route": "https://blitzkriegshop.co.uk/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:41:22.327723+00:00",
+        "requests": [
+          {
+            "url": "https://blitzkriegshop.co.uk/products.json?limit=20&page=1",
+            "sha256": "03d7c5b6c02c666866cfb5fdc7512d14636dee6deabe04a4daa267628ea40982"
+          },
+          {
+            "url": "https://blitzkriegshop.co.uk/products/prince-and-the-revolution-purple-rain-limited-edition-picture-disc?variant=60214930145605",
+            "sha256": "1f8df27b765773bc59c5b41f2954cda3040082d95f6c76b48fb5b805ad692584"
+          },
+          {
+            "url": "https://blitzkriegshop.co.uk/products/alison-goldfrapp-remix-ep?variant=57207487660357",
+            "sha256": "79364f27f68de644a5fa70cdd41301529634240c44804a0d7081808129996f99"
+          },
+          {
+            "url": "https://blitzkriegshop.co.uk/products/ramones-ramones-50th-anniversary-edition?variant=59880443478341",
+            "sha256": "58e87b84dac38cb0f88610bf09e8d5a2e92ae4be0c4987505d9b319d3350205a"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://blitzkriegshop.co.uk/products/prince-and-the-revolution-purple-rain-limited-edition-picture-disc?variant=60214930145605",
+            "price": "42.99",
+            "currency": "GBP",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://blitzkriegshop.co.uk/products/alison-goldfrapp-remix-ep?variant=57207487660357",
+            "price": "15.00",
+            "currency": "GBP",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://blitzkriegshop.co.uk/products/ramones-ramones-50th-anniversary-edition?variant=59880443478341",
+            "price": "32.99",
+            "currency": "GBP",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 13,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "44696709935"
+        }
+      ]
+    },
+    "boilerroomrecords_co_uk": {
+      "fingerprint": "5968523d95e5feae3790ab44b57b22fcecf50391c014cc2e071d4ffae38d01bb",
+      "domain": "boilerroomrecords.co.uk",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:41:28.492208+00:00",
+      "evidence": {
+        "domain": "boilerroomrecords.co.uk",
+        "route": "https://boilerroomrecords.co.uk/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:41:25.963636+00:00",
+        "requests": [
+          {
+            "url": "https://boilerroomrecords.co.uk/products.json?limit=20&page=1",
+            "sha256": "20e6129b72bc09cc8db4c7698c24140cb98795dee183f3c39d9edc9efb1875ad"
+          },
+          {
+            "url": "https://boilerroomrecords.co.uk/products/beabadoobee-bananas-4-cats-vinyl-lp?variant=57586263327098",
+            "sha256": "25920052a52e18c79e255b34eb3fe9dab526e019748899f83a127a85e453b171"
+          },
+          {
+            "url": "https://boilerroomrecords.co.uk/products/peter-peter-heated-rivalry-original-series-soundtrack-vinyl-lp?variant=57584994779514",
+            "sha256": "a637abf7908c2521c6ac3e7dff369ec9fc4bef308425c6d0cf852f5ee4b1ca86"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 1,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://boilerroomrecords.co.uk/products/beabadoobee-bananas-4-cats-vinyl-lp?variant=57586263327098",
+            "price": "26.99",
+            "currency": "GBP",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 14,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "44696709935"
+        }
+      ]
+    },
+    "butterbeatsrecordstore_com": {
+      "fingerprint": "6e27a685c65fdae6603a42849b9c58d5d4318ff8e82b038a6fe1fb09f3f7eeff",
+      "domain": "butterbeatsrecordstore.com",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:41:32.047694+00:00",
+      "evidence": {
+        "domain": "butterbeatsrecordstore.com",
+        "route": "https://butterbeatsrecordstore.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:41:28.533892+00:00",
+        "requests": [
+          {
+            "url": "https://butterbeatsrecordstore.com/products.json?limit=20&page=1",
+            "sha256": "619af388f74d886c662621be0999b165f3a29882540c0999d6888121fea57877"
+          },
+          {
+            "url": "https://butterbeatsrecordstore.com/products/all-we-need-is-another-chance-the-escorts-copy?variant=46126647804096",
+            "sha256": "0f753d0470e67ca8cb4eb727acfda1d2a9a80dc3b48d12808e9dc7a1101b2dbd"
+          },
+          {
+            "url": "https://butterbeatsrecordstore.com/products/loma-a-soul-music-love-affair-vol-2-get-in-the-groove-1965-68-new-sealed-record-lp-copy-1?variant=46126245478592",
+            "sha256": "009222e3ed22f5b092380e2716aba91655ae57eee6ee8da0a1d173872b9b751f"
+          },
+          {
+            "url": "https://butterbeatsrecordstore.com/products/la-rana-agustin-pereyra-lucena-quartet-lp-record-new?variant=46126171324608",
+            "sha256": "6834aa3883d5457c4af25a9d0fe518d4373777106020c3218ba973a800bb717d"
+          }
+        ],
+        "listing_records": 10,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://butterbeatsrecordstore.com/products/all-we-need-is-another-chance-the-escorts-copy?variant=46126647804096",
+            "price": "59.00",
+            "currency": "AUD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://butterbeatsrecordstore.com/products/loma-a-soul-music-love-affair-vol-2-get-in-the-groove-1965-68-new-sealed-record-lp-copy-1?variant=46126245478592",
+            "price": "42.00",
+            "currency": "AUD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://butterbeatsrecordstore.com/products/la-rana-agustin-pereyra-lucena-quartet-lp-record-new?variant=46126171324608",
+            "price": "59.00",
+            "currency": "AUD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 10,
+          "unique_prices": 3,
+          "shipping_hits": 0,
+          "currencies": [
+            "AUD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "44696709935"
+        }
+      ]
+    },
+    "capsulerecords_co_uk": {
+      "fingerprint": "799766d63d83a3d7778de10fc2b996e309d0d56c619b97788cf0e0a0d75d9755",
+      "domain": "capsulerecords.co.uk",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:41:35.424864+00:00",
+      "evidence": {
+        "domain": "capsulerecords.co.uk",
+        "route": "https://capsulerecords.co.uk/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:41:32.089310+00:00",
+        "requests": [
+          {
+            "url": "https://capsulerecords.co.uk/products.json?limit=20&page=1",
+            "sha256": "2b3541e679b4dd1022459820edefade8a27d600be9c23f6848e45e18817a3bd0"
+          },
+          {
+            "url": "https://capsulerecords.co.uk/products/stone-flower?variant=59126764274045",
+            "sha256": "525bf7400c9f07d23d96773114a43be4b278601aa84855c025e5992fa88bfbb4"
+          },
+          {
+            "url": "https://capsulerecords.co.uk/products/release-date-04-12-26-ii-blue-vinyl?variant=59126589129085",
+            "sha256": "5bf4f677be17fd448b39a2d8dcb6b4327c22b7f819a18c831910e40f482fe84e"
+          },
+          {
+            "url": "https://capsulerecords.co.uk/products/release-date-11-12-26-npr-tiny-desk-concert-scarface-smoke-signal-vinyl?variant=59120330178941",
+            "sha256": "e69609cf9707f3f7b0b3d42d8c67999afba346c9ccdc6c294e16c5b93d24c3be"
+          }
+        ],
+        "listing_records": 3,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://capsulerecords.co.uk/products/stone-flower?variant=59126764274045",
+            "price": "32.00",
+            "currency": "GBP",
+            "ean": "08719262046955",
+            "condition": "new"
+          },
+          {
+            "url": "https://capsulerecords.co.uk/products/release-date-04-12-26-ii-blue-vinyl?variant=59126589129085",
+            "price": "34.00",
+            "currency": "GBP",
+            "ean": "00888072827264",
+            "condition": "new"
+          },
+          {
+            "url": "https://capsulerecords.co.uk/products/release-date-11-12-26-npr-tiny-desk-concert-scarface-smoke-signal-vinyl?variant=59120330178941",
+            "price": "26.00",
+            "currency": "GBP",
+            "ean": "00823375436546",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 3,
+          "unique_prices": 3,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "44696709935"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "capsulerecords.co.uk",
+        "route": "https://capsulerecords.co.uk/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:41:32.089310+00:00",
+        "requests": [
+          {
+            "url": "https://capsulerecords.co.uk/products.json?limit=20&page=1",
+            "sha256": "2b3541e679b4dd1022459820edefade8a27d600be9c23f6848e45e18817a3bd0"
+          },
+          {
+            "url": "https://capsulerecords.co.uk/products/stone-flower?variant=59126764274045",
+            "sha256": "525bf7400c9f07d23d96773114a43be4b278601aa84855c025e5992fa88bfbb4"
+          },
+          {
+            "url": "https://capsulerecords.co.uk/products/release-date-04-12-26-ii-blue-vinyl?variant=59126589129085",
+            "sha256": "5bf4f677be17fd448b39a2d8dcb6b4327c22b7f819a18c831910e40f482fe84e"
+          },
+          {
+            "url": "https://capsulerecords.co.uk/products/release-date-11-12-26-npr-tiny-desk-concert-scarface-smoke-signal-vinyl?variant=59120330178941",
+            "sha256": "e69609cf9707f3f7b0b3d42d8c67999afba346c9ccdc6c294e16c5b93d24c3be"
+          }
+        ],
+        "listing_records": 3,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://capsulerecords.co.uk/products/stone-flower?variant=59126764274045",
+            "price": "32.00",
+            "currency": "GBP",
+            "ean": "08719262046955",
+            "condition": "new"
+          },
+          {
+            "url": "https://capsulerecords.co.uk/products/release-date-04-12-26-ii-blue-vinyl?variant=59126589129085",
+            "price": "34.00",
+            "currency": "GBP",
+            "ean": "00888072827264",
+            "condition": "new"
+          },
+          {
+            "url": "https://capsulerecords.co.uk/products/release-date-11-12-26-npr-tiny-desk-concert-scarface-smoke-signal-vinyl?variant=59120330178941",
+            "price": "26.00",
+            "currency": "GBP",
+            "ean": "00823375436546",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 3,
+          "unique_prices": 3,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "compactmusic_ca": {
+      "fingerprint": "b8e63ad5725956c48f0a67e12335ecffe73c39b38f0cd73a82b9f4faf343472d",
+      "domain": "compactmusic.ca",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:41:38.778179+00:00",
+      "evidence": {
+        "domain": "compactmusic.ca",
+        "route": "https://compactmusic.ca/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:41:35.466914+00:00",
+        "requests": [
+          {
+            "url": "https://compactmusic.ca/products.json?limit=20&page=1",
+            "sha256": "60c85af2bd1b5c4bfbd01b4c838c32a8a2d105687a6427c589a1852331e5deeb"
+          },
+          {
+            "url": "https://compactmusic.ca/products/down-volume-v-2lp-clear-orange-lp?variant=51164036497648",
+            "sha256": "615f8d602c4f0f1ef302d53b2beaac1873f60443d25a754ef4938759ecb2d1ce"
+          },
+          {
+            "url": "https://compactmusic.ca/products/doe-john-the-sadies-country-club-indie-exclusive-clear-orange-smoke-vinyl-lp?variant=51171347333360",
+            "sha256": "c71a39872ca32af16bd1be9f9c2bf0b663c7c4ce9cce131982bbd47b2be6830d"
+          },
+          {
+            "url": "https://compactmusic.ca/products/brown-danny-atrocity-exhibition-10-year-anniversary-edition-transparent-blue-vinyl?variant=51058896797936",
+            "sha256": "17e5d53d155485d2eb6d02068c13bdf0ea9ab04e97346a1e9caed70581015967"
+          }
+        ],
+        "listing_records": 18,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://compactmusic.ca/products/down-volume-v-2lp-clear-orange-lp?variant=51164036497648",
+            "price": "59.99",
+            "currency": "CAD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://compactmusic.ca/products/doe-john-the-sadies-country-club-indie-exclusive-clear-orange-smoke-vinyl-lp?variant=51171347333360",
+            "price": "39.99",
+            "currency": "CAD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://compactmusic.ca/products/brown-danny-atrocity-exhibition-10-year-anniversary-edition-transparent-blue-vinyl?variant=51058896797936",
+            "price": "59.99",
+            "currency": "CAD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 18,
+          "unique_prices": 11,
+          "shipping_hits": 0,
+          "currencies": [
+            "CAD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "44696709935"
+        }
+      ]
+    },
+    "daddyrichrecords_com": {
+      "fingerprint": "94ca8117f4229aa1d0b2fce15e14cb422049b3856a6eebce6bf2d8423626d68f",
+      "domain": "daddyrichrecords.com",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:41:40.313775+00:00",
+      "evidence": {
+        "domain": "daddyrichrecords.com",
+        "route": "https://daddyrichrecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:41:38.820496+00:00",
+        "requests": [
+          {
+            "url": "https://daddyrichrecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "ee63c1c6311faba09100152e7757f5fd91203aa8b965be1214e5eb8939b3063a"
+          },
+          {
+            "url": "https://daddyrichrecords.com/products/the-melvins-tarantula-heart-lp-album?variant=44131210952838",
+            "sha256": "c0cf23d0c1d84f4a0c989296f850f7b8d4ea101ce40650849a67c9a7c518e90b"
+          }
+        ],
+        "listing_records": 5,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 5,
+          "unique_prices": 3,
+          "shipping_hits": 0,
+          "currencies": [
+            "AUD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "44696709935"
+        }
+      ]
+    },
+    "dalesmusicstore_com": {
+      "fingerprint": "458b41c8fb110539c2c82e76421ae4cf5b11cb24a28ff0c0a40ebb6bdb6db58a",
+      "domain": "dalesmusicstore.com",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:41:43.880034+00:00",
+      "evidence": {
+        "domain": "dalesmusicstore.com",
+        "route": "https://dalesmusicstore.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:41:40.356341+00:00",
+        "requests": [
+          {
+            "url": "https://dalesmusicstore.com/products.json?limit=20&page=1",
+            "sha256": "b8198774d98f93a2f1ae7040b38af067c558a82fd4226f52bd754f196dd8f359"
+          },
+          {
+            "url": "https://dalesmusicstore.com/products/linkin-park-living-things-limited-edition-red-smoke-vinyl?variant=55212008046938",
+            "sha256": "8b6c7597e3173172b7fabce4cabea27a3f0c2888af19b8c829b46d6451b5f3ad"
+          },
+          {
+            "url": "https://dalesmusicstore.com/products/olivia-rodrigo-guts-the-sky-is-green-translucent-vinyl?variant=55211842503002",
+            "sha256": "f93f8ec413f824b8ba346682488e6e16620823fb72ce12cac2d8ae4ba3361d5f"
+          },
+          {
+            "url": "https://dalesmusicstore.com/products/olivia-rodrigo-sour-ego-crush-yellow-vinyl?variant=55211840667994",
+            "sha256": "6473772ccb040db682caf82602f243a4cf36a55427ab17318eac24cf4971a685"
+          }
+        ],
+        "listing_records": 3,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://dalesmusicstore.com/products/linkin-park-living-things-limited-edition-red-smoke-vinyl?variant=55212008046938",
+            "price": "32.99",
+            "currency": "GBP",
+            "ean": "00093624815655",
+            "condition": "new"
+          },
+          {
+            "url": "https://dalesmusicstore.com/products/olivia-rodrigo-guts-the-sky-is-green-translucent-vinyl?variant=55211842503002",
+            "price": "29.99",
+            "currency": "GBP",
+            "ean": "00881061582045",
+            "condition": "new"
+          },
+          {
+            "url": "https://dalesmusicstore.com/products/olivia-rodrigo-sour-ego-crush-yellow-vinyl?variant=55211840667994",
+            "price": "29.99",
+            "currency": "GBP",
+            "ean": "00881061582038",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 3,
+          "unique_prices": 2,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "44696709935"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "dalesmusicstore.com",
+        "route": "https://dalesmusicstore.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:41:40.356341+00:00",
+        "requests": [
+          {
+            "url": "https://dalesmusicstore.com/products.json?limit=20&page=1",
+            "sha256": "b8198774d98f93a2f1ae7040b38af067c558a82fd4226f52bd754f196dd8f359"
+          },
+          {
+            "url": "https://dalesmusicstore.com/products/linkin-park-living-things-limited-edition-red-smoke-vinyl?variant=55212008046938",
+            "sha256": "8b6c7597e3173172b7fabce4cabea27a3f0c2888af19b8c829b46d6451b5f3ad"
+          },
+          {
+            "url": "https://dalesmusicstore.com/products/olivia-rodrigo-guts-the-sky-is-green-translucent-vinyl?variant=55211842503002",
+            "sha256": "f93f8ec413f824b8ba346682488e6e16620823fb72ce12cac2d8ae4ba3361d5f"
+          },
+          {
+            "url": "https://dalesmusicstore.com/products/olivia-rodrigo-sour-ego-crush-yellow-vinyl?variant=55211840667994",
+            "sha256": "6473772ccb040db682caf82602f243a4cf36a55427ab17318eac24cf4971a685"
+          }
+        ],
+        "listing_records": 3,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://dalesmusicstore.com/products/linkin-park-living-things-limited-edition-red-smoke-vinyl?variant=55212008046938",
+            "price": "32.99",
+            "currency": "GBP",
+            "ean": "00093624815655",
+            "condition": "new"
+          },
+          {
+            "url": "https://dalesmusicstore.com/products/olivia-rodrigo-guts-the-sky-is-green-translucent-vinyl?variant=55211842503002",
+            "price": "29.99",
+            "currency": "GBP",
+            "ean": "00881061582045",
+            "condition": "new"
+          },
+          {
+            "url": "https://dalesmusicstore.com/products/olivia-rodrigo-sour-ego-crush-yellow-vinyl?variant=55211840667994",
+            "price": "29.99",
+            "currency": "GBP",
+            "ean": "00881061582038",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 3,
+          "unique_prices": 2,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "dashthehengestore_com": {
+      "fingerprint": "e0c79f9c1e1d79230d562bac14811e5897ff54031e33e86e4ce42253aa90b1ce",
+      "domain": "dashthehengestore.com",
+      "batch": 39,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "44696709935",
+      "updated_at": "2026-11-20T07:41:45.307555+00:00",
+      "evidence": {
+        "domain": "dashthehengestore.com",
+        "route": "https://dashthehengestore.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:41:43.922667+00:00",
+        "requests": [
+          {
+            "url": "https://dashthehengestore.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "847b5c3806a660d24a2adf98523d0665fd3343a6314071e6fdf245552c783ff2"
+          },
+          {
+            "url": "https://dashthehengestore.com/products/101-strings-astro-sounds-from-beyond-the-year-2000-1lp-blue-vinyl-rsd24?variant=44661301543170",
+            "sha256": "ae853dc8d4eb9bc440fa2a01f27cfc4382095b62b395a5852892952fb68c8003"
+          }
+        ],
+        "listing_records": 1,
+        "detail_checked": 1,
+        "valid_eans": 1,
+        "details": [
+          {
+            "url": "https://dashthehengestore.com/products/101-strings-astro-sounds-from-beyond-the-year-2000-1lp-blue-vinyl-rsd24?variant=44661301543170",
+            "price": "27.99",
+            "currency": "GBP",
+            "ean": "07141095207400",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 1,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 39,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "44696709935"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "dashthehengestore.com",
+        "route": "https://dashthehengestore.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-20T07:41:43.922667+00:00",
+        "requests": [
+          {
+            "url": "https://dashthehengestore.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "847b5c3806a660d24a2adf98523d0665fd3343a6314071e6fdf245552c783ff2"
+          },
+          {
+            "url": "https://dashthehengestore.com/products/101-strings-astro-sounds-from-beyond-the-year-2000-1lp-blue-vinyl-rsd24?variant=44661301543170",
+            "sha256": "ae853dc8d4eb9bc440fa2a01f27cfc4382095b62b395a5852892952fb68c8003"
+          }
+        ],
+        "listing_records": 1,
+        "detail_checked": 1,
+        "valid_eans": 1,
+        "details": [
+          {
+            "url": "https://dashthehengestore.com/products/101-strings-astro-sounds-from-beyond-the-year-2000-1lp-blue-vinyl-rsd24?variant=44661301543170",
+            "price": "27.99",
+            "currency": "GBP",
+            "ean": "07141095207400",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 1,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "APPROVED"
+      }
     }
   },
-  "updated_at": "2026-11-19T07:50:33.753852+00:00",
-  "last_run_id": "44482526349"
+  "updated_at": "2026-11-20T07:41:45.307925+00:00",
+  "last_run_id": "44696709935"
 }
