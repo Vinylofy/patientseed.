@@ -1,16 +1,16 @@
 # Centrale scraperstatus
 
-Bronregels: 5102. Behandeld voor broncontrole: 3953. Open voor broncontrole: 1149.
+Bronregels: 5102. Behandeld voor broncontrole: 4053. Open voor broncontrole: 1049.
 
 Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine checksumproeven; private acceptatie, marktprijzen en imports volgen apart.
 
 ## Statusaantallen
 
-- ADAPTER_TESTED: 225
+- ADAPTER_TESTED: 239
 - DETAIL_GATE_BLOCKED: 102
-- ROUTE_REVIEW: 1403
-- SCRAPER_BUILT_TESTED: 418
-- SOURCE_BLOCKED: 545
+- ROUTE_REVIEW: 1447
+- SCRAPER_BUILT_TESTED: 421
+- SOURCE_BLOCKED: 584
 - SOURCE_REVIEW: 1260
 
 ## Brongroepen
@@ -21,10 +21,10 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 |---|---:|---:|---:|---:|
 | Oorspronkelijke lijst | 3303 | 3303 | 0 | 247 |
 | Findyl online — 25-10-2026 (50; inclusief 4 herbeoordelingen) | 50 | 50 | 0 | 28 |
-| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 478 | 1140 | 80 |
+| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 578 | 1040 | 83 |
 | Vinylscout winkels — 19-11-2026 (nieuwe domeinen) | 9 | 0 | 9 | 0 |
 | Waxtra Rumours — 19-11-2026 (nieuwe domeinen) | 122 | 122 | 0 | 63 |
-| **Totaal** | **5102** | **3953** | **1149** | **418** |
+| **Totaal** | **5102** | **4053** | **1049** | **421** |
 
 ## Winkels
 
@@ -3983,106 +3983,106 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 | 3950 | 48 | 3957 | Vinylberlin | vinylberlin.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
 | 3951 | 48 | 3958 | Bahlo Records | bahlo-records.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
 | 3952 | 48 | 3959 | Riptide | cafe-riptide.de | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
-| 3953 |  | 3960 | RauteRecords | rauterecords.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3954 |  | 3961 | Cashmir-Schallplatten | cashmir-schallplatten.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3955 |  | 3962 | Groove Attack Record Store | grooveattackrs.bigcartel.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3956 |  | 3963 | Music Rebel | rockersuptown.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3957 |  | 3964 | Good Mood Records | goodmoodrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3958 |  | 3965 | plattschallen | plattschallen.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3959 |  | 3966 | Underdog Record Store | underdogrecordstore.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3960 |  | 3967 | Nuclear Blast | nuclearblast.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3961 |  | 3968 | Vinylcafe Schwarzes Gold | vinylcafeschwarzesgold.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3962 |  | 3969 | Idiots Records | idiots.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3963 |  | 3970 | Amsterdam Record Shop | amsterdam-record-shop.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3964 |  | 3971 | Archiv | archiv-cd.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3965 |  | 3972 | Black Plastic | blackplastic.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3966 |  | 3973 | Rainking Recordstore | rainking-recordstore.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3967 |  | 3974 | 9Dart Records | 9dart-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3968 |  | 3975 | Woodstock Recordstore | woodstock-recordstore.github.io |  | PENDING |  | — | broncontrole uitvoeren |
-| 3969 |  | 3976 | Der Schallplattenmann | derschallplattenmann.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3970 |  | 3977 | Vinyl Lounge | vinyl-lounge.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3971 |  | 3978 | Yeah Records | yeah-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3972 |  | 3979 | Formatio Kupfergold | shop.formatio-kupfergold.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3973 |  | 3980 | Mythos Records | mythos-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3974 |  | 3981 | Tactile Record Store | tactilemusic.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3975 |  | 3982 | Mono | mono-tontraeger.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3976 |  | 3983 | Der Plattenladen | derplattenladen-freiburg.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3977 |  | 3984 | Marleen CD- und Plattenladen | marleenrecords.wordpress.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3978 |  | 3985 | Schall & Rausch Tonträger | s-r-t.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3979 |  | 3986 | Cruise Records | cruiserecords.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3980 |  | 3987 | Musikhaus Karami | musikhauskarami.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3981 |  | 3988 | Backrecords | backrecords.blogspot.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3982 |  | 3989 | Fun Records | funrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3983 |  | 3990 | Wir Kaufen Schallplatten | wir-kaufen-schallplatten.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3984 |  | 3991 | Der Plattenladen | plattenladen-heilbronn.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3985 |  | 3992 | Ebbtone - Record & Comics | ebbtone.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3986 |  | 3993 | Hellion Records | hellionrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3987 |  | 3994 | Haithabu-Vinyl | haithabu-vinyl.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3988 |  | 3995 | Lost & Found Schallplatten | das-schallplatte.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3989 |  | 3996 | Fire and Flames | fireandflames.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3990 |  | 3997 | Groove Zone Records | groovezonerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3991 |  | 3998 | Isle Of Records | isleofrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3992 |  | 3999 | Schallplattenlager | schallplattenlager.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3993 |  | 4000 | Q-Records & more | recordsandmore.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3994 |  | 4001 | GuitarPoint | shop.guitarpoint.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3995 |  | 4002 | For The Record | fortherecord.store |  | PENDING |  | — | broncontrole uitvoeren |
-| 3996 |  | 4003 | Vinylgarage | vinyl-garage.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3997 |  | 4004 | Optimal Records | optimal-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3998 |  | 4005 | Best Records | bestvinyl.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3999 |  | 4006 | Black Wave Records | blackwaverecords.wordpress.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4000 |  | 4007 | Gutfeeling Recordstore | gutfeeling.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4001 |  | 4008 | M2 | m2music.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4002 |  | 4009 | Mono Records + CDs | sechzig.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4003 |  | 4010 | Kernkrach Schallplatten | kernkrach-recordstore.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4004 |  | 4011 | Good Old Vinyl | tattoo22.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4005 |  | 4012 | Imagine Schallplatten | imagine-schallplatten.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4006 |  | 4013 | mainrecords | mainrecords.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 4007 |  | 4014 | Shock Records & Coffee | shock-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4008 |  | 4015 | Bebap records | barbaradennerlein.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4009 |  | 4016 | Schellack Plattenshop | schellack-plattenshop.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 4010 |  | 4017 | Humpty Records | humptyrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4011 |  | 4018 | Action Music | action-music.eu |  | PENDING |  | — | broncontrole uitvoeren |
-| 4012 |  | 4019 | Der Schallplattenladen | vinyl-hst.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4013 |  | 4020 | Cheap Trash Records | cheaptrashrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4014 |  | 4021 | Pauls Musique Records | paulsmusique.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4015 |  | 4022 | Ratzer Records Plattencafe | ratzer-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4016 |  | 4023 | soundservice | soundservice-vs.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4017 |  | 4024 | Plattenbox | plattenbox-wiesbaden.jimdosite.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4018 |  | 4025 | Plattenlauscher | plattenlauscher.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4019 |  | 4026 | Heaven Records | heaven-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4020 |  | 4027 | Cargo Records | cargo-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4021 |  | 4028 | a-musik: mailorder, distribution, recordshop, label | a-musik.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4022 |  | 4029 | AngelRecords | angelrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4023 |  | 4030 | art box Ravensburg | artboxravensburg.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4024 |  | 4031 | BPitch Control | bpitch.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4025 |  | 4032 | Connaisseur | vinylkatalog.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4026 |  | 4033 | CSM | colognestreetmarket.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4027 |  | 4034 | Dodo Beach | dodobeach.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4028 |  | 4035 | Freiheit & Roosen | shop.hafenschlammrekords.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4029 |  | 4036 | Green Hell Shop Vinyl Records and Merchandise | greenhell.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4030 |  | 4037 | Kompakt | kompakt.fm |  | PENDING |  | — | broncontrole uitvoeren |
-| 4031 |  | 4038 | Marshall.com | marshall.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4032 |  | 4039 | Michelle Records Hamburg. | michelle-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4033 |  | 4040 | Musicland Spandau | musicland-spandau.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4034 |  | 4041 | Music & More | onlineshop.musicundmore.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4035 |  | 4042 | Musikhaus Schlaile | schlaile.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4036 |  | 4043 | Musikzimmer | musikzimmer.store |  | PENDING |  | — | broncontrole uitvoeren |
-| 4037 |  | 4044 | OYE Records | oye-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4038 |  | 4045 | Plattenkiste | plattenkiste.nonstop-merch.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4039 |  | 4046 | Remedy Records | remedyrecords.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 4040 |  | 4047 | Retro Nico | retro-nico.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4041 |  | 4048 | Rockers Records | rockers.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4042 |  | 4049 | Second Hand Records | secondhandrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4043 |  | 4050 | Selekta Reggae Record Shop | selekta-shop.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4044 |  | 4051 | Toxic Toast | toxic-toast-shop.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4045 |  | 4052 | Vinylnerds | vinylnerds.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4046 |  | 4053 | Vinyl to Second Shop | vinyltosecond.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4047 |  | 4054 | Violet Records | violetrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4048 |  | 4055 | Zucht und Zucker | zuchtundzucker.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4049 |  | 4056 | 12inch | 12inch.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4050 |  | 4057 | 33 1/3 Schallplatten | schallplatten-duisburg.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4051 |  | 4058 | Aktiv Music Point | aktivmusicpointbochum.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 4052 |  | 4059 | analogetontraeger | analogetontraeger.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3953 | 49 | 3960 | RauteRecords | rauterecords.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3954 | 49 | 3961 | Cashmir-Schallplatten | cashmir-schallplatten.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 3955 | 49 | 3962 | Groove Attack Record Store | grooveattackrs.bigcartel.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3956 | 49 | 3963 | Music Rebel | rockersuptown.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3957 | 49 | 3964 | Good Mood Records | goodmoodrecords.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3958 | 49 | 3965 | plattschallen | plattschallen.de | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 3959 | 49 | 3966 | Underdog Record Store | underdogrecordstore.de | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3960 | 49 | 3967 | Nuclear Blast | nuclearblast.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 3961 | 49 | 3968 | Vinylcafe Schwarzes Gold | vinylcafeschwarzesgold.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 3962 | 49 | 3969 | Idiots Records | idiots.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 3963 | 49 | 3970 | Amsterdam Record Shop | amsterdam-record-shop.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3964 | 49 | 3971 | Archiv | archiv-cd.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3965 | 49 | 3972 | Black Plastic | blackplastic.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3966 | 49 | 3973 | Rainking Recordstore | rainking-recordstore.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3967 | 49 | 3974 | 9Dart Records | 9dart-records.de | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 3968 | 49 | 3975 | Woodstock Recordstore | woodstock-recordstore.github.io |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Response size limit |
+| 3969 | 49 | 3976 | Der Schallplattenmann | derschallplattenmann.de | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 3970 | 49 | 3977 | Vinyl Lounge | vinyl-lounge.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3971 | 49 | 3978 | Yeah Records | yeah-records.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3972 | 49 | 3979 | Formatio Kupfergold | shop.formatio-kupfergold.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 3973 | 49 | 3980 | Mythos Records | mythos-records.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3974 | 49 | 3981 | Tactile Record Store | tactilemusic.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3975 | 49 | 3982 | Mono | mono-tontraeger.de | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3976 | 49 | 3983 | Der Plattenladen | derplattenladen-freiburg.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3977 | 49 | 3984 | Marleen CD- und Plattenladen | marleenrecords.wordpress.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3978 | 49 | 3985 | Schall & Rausch Tonträger | s-r-t.de | shopify | SCRAPER_BUILT_TESTED | 20 | 2/2 geldig | private QA en marktgate beoordelen |
+| 3979 | 49 | 3986 | Cruise Records | cruiserecords.de | shopify | SCRAPER_BUILT_TESTED | 18 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3980 | 49 | 3987 | Musikhaus Karami | musikhauskarami.de | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3981 | 49 | 3988 | Backrecords | backrecords.blogspot.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 3982 | 49 | 3989 | Fun Records | funrecords.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3983 | 49 | 3990 | Wir Kaufen Schallplatten | wir-kaufen-schallplatten.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3984 | 49 | 3991 | Der Plattenladen | plattenladen-heilbronn.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3985 | 49 | 3992 | Ebbtone - Record & Comics | ebbtone.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3986 | 49 | 3993 | Hellion Records | hellionrecords.de | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3987 | 49 | 3994 | Haithabu-Vinyl | haithabu-vinyl.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: TimeoutError |
+| 3988 | 49 | 3995 | Lost & Found Schallplatten | das-schallplatte.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3989 | 49 | 3996 | Fire and Flames | fireandflames.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3990 | 49 | 3997 | Groove Zone Records | groovezonerecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3991 | 49 | 3998 | Isle Of Records | isleofrecords.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3992 | 49 | 3999 | Schallplattenlager | schallplattenlager.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3993 | 49 | 4000 | Q-Records & more | recordsandmore.de | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 3994 | 49 | 4001 | GuitarPoint | shop.guitarpoint.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 3995 | 49 | 4002 | For The Record | fortherecord.store | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3996 | 49 | 4003 | Vinylgarage | vinyl-garage.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3997 | 49 | 4004 | Optimal Records | optimal-records.de | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3998 | 49 | 4005 | Best Records | bestvinyl.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3999 | 49 | 4006 | Black Wave Records | blackwaverecords.wordpress.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4000 | 49 | 4007 | Gutfeeling Recordstore | gutfeeling.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4001 | 49 | 4008 | M2 | m2music.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4002 | 49 | 4009 | Mono Records + CDs | sechzig.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4003 | 49 | 4010 | Kernkrach Schallplatten | kernkrach-recordstore.de | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4004 | 49 | 4011 | Good Old Vinyl | tattoo22.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4005 | 49 | 4012 | Imagine Schallplatten | imagine-schallplatten.de | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4006 | 49 | 4013 | mainrecords | mainrecords.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4007 | 49 | 4014 | Shock Records & Coffee | shock-records.de | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4008 | 49 | 4015 | Bebap records | barbaradennerlein.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4009 | 49 | 4016 | Schellack Plattenshop | schellack-plattenshop.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4010 | 49 | 4017 | Humpty Records | humptyrecords.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4011 | 49 | 4018 | Action Music | action-music.eu | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4012 | 49 | 4019 | Der Schallplattenladen | vinyl-hst.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4013 | 49 | 4020 | Cheap Trash Records | cheaptrashrecords.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4014 | 49 | 4021 | Pauls Musique Records | paulsmusique.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4015 | 49 | 4022 | Ratzer Records Plattencafe | ratzer-records.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4016 | 49 | 4023 | soundservice | soundservice-vs.de | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4017 | 49 | 4024 | Plattenbox | plattenbox-wiesbaden.jimdosite.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4018 | 49 | 4025 | Plattenlauscher | plattenlauscher.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4019 | 49 | 4026 | Heaven Records | heaven-records.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4020 | 49 | 4027 | Cargo Records | cargo-records.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4021 | 49 | 4028 | a-musik: mailorder, distribution, recordshop, label | a-musik.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4022 | 49 | 4029 | AngelRecords | angelrecords.de | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4023 | 49 | 4030 | art box Ravensburg | artboxravensburg.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4024 | 49 | 4031 | BPitch Control | bpitch.de | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4025 | 49 | 4032 | Connaisseur | vinylkatalog.de | woocommerce | SCRAPER_BUILT_TESTED | 4 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4026 | 49 | 4033 | CSM | colognestreetmarket.de | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4027 | 49 | 4034 | Dodo Beach | dodobeach.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Response size limit |
+| 4028 | 49 | 4035 | Freiheit & Roosen | shop.hafenschlammrekords.de | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 4029 | 49 | 4036 | Green Hell Shop Vinyl Records and Merchandise | greenhell.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4030 | 49 | 4037 | Kompakt | kompakt.fm | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4031 | 49 | 4038 | Marshall.com | marshall.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4032 | 49 | 4039 | Michelle Records Hamburg. | michelle-records.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4033 | 49 | 4040 | Musicland Spandau | musicland-spandau.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4034 | 49 | 4041 | Music & More | onlineshop.musicundmore.de | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4035 | 49 | 4042 | Musikhaus Schlaile | schlaile.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4036 | 49 | 4043 | Musikzimmer | musikzimmer.store | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4037 | 49 | 4044 | OYE Records | oye-records.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4038 | 49 | 4045 | Plattenkiste | plattenkiste.nonstop-merch.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4039 | 49 | 4046 | Remedy Records | remedyrecords.net | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 4040 | 49 | 4047 | Retro Nico | retro-nico.de | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4041 | 49 | 4048 | Rockers Records | rockers.de | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4042 | 49 | 4049 | Second Hand Records | secondhandrecords.de | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4043 | 49 | 4050 | Selekta Reggae Record Shop | selekta-shop.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4044 | 49 | 4051 | Toxic Toast | toxic-toast-shop.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4045 | 49 | 4052 | Vinylnerds | vinylnerds.de | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 4046 | 49 | 4053 | Vinyl to Second Shop | vinyltosecond.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4047 | 49 | 4054 | Violet Records | violetrecords.de | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4048 | 49 | 4055 | Zucht und Zucker | zuchtundzucker.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4049 | 49 | 4056 | 12inch | 12inch.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4050 | 49 | 4057 | 33 1/3 Schallplatten | schallplatten-duisburg.de | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4051 | 49 | 4058 | Aktiv Music Point | aktivmusicpointbochum.de | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4052 | 49 | 4059 | analogetontraeger | analogetontraeger.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
 | 4053 |  | 4060 | andrä | cd-andrae.de |  | PENDING |  | — | broncontrole uitvoeren |
 | 4054 |  | 4061 | Antisocial | antisocial.store |  | PENDING |  | — | broncontrole uitvoeren |
 | 4055 |  | 4062 | A&O Medien | aundo-medien.de |  | PENDING |  | — | broncontrole uitvoeren |
