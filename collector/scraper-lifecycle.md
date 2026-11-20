@@ -3307,3 +3307,103 @@ Maximale bouwpogingen: 3
 | recordmad.co.za | 4557 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | vinyljunkie.co.za | 4558 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | mugenielijah.com | 4559 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| mosaicseoul.kr | 4560 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| itspop.co.kr | 4561 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| discosfanzine.es | 4562 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| disco100.com | 4563 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discostesla.com | 4564 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| labotiga.elgenioequivocado.com | 4565 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| bcoredisc.com | 4566 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dailyrecords.cat | 4567 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discos-revolver.com | 4568 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| elgenioequivocado.com | 4569 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| naimarecords.com | 4570 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| surco-barcelona.com | 4571 | 1 | SOURCE_BLOCKED | — | — | — | RemoteDisconnected |
+| ultralocalrecords.com | 4572 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| brixtonrecords.com | 4573 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| powerrecordsbilbao.com | 4574 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| multiocio.com | 4575 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| discosmarcapasos.com | 4576 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bloodymary.biz | 4577 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| riffraff.es | 4578 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| lametralleta.es | 4579 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| nakasha-spain.com | 4580 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['nakasha_spain_com.py', 'nakasha_spain_com.json'] |
+| laintegral25.com | 4581 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| jazzymas.com | 4582 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| discoskillers.com | 4583 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| molardiscosylibros.com | 4584 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bajoelvolcan.es | 4585 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bangladeshdiscos.com | 4586 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lacasadeldisco.es | 4587 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| discosbabel.com | 4588 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| yquevivajoplin.com | 4589 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| xocolat.com | 4590 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| metadonarecords.com | 4591 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['metadonarecords_com.py', 'metadonarecords_com.json'] |
+| citadelrecords.com | 4592 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| discoscomix.es | 4593 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| tonyson.es | 4594 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| elmuelle1931.com | 4595 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['elmuelle1931_com.py', 'elmuelle1931_com.json'] |
+| shivamusic.es | 4596 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| malditorecords.net | 4597 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| juanvitoria.com | 4598 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discolaser.es | 4599 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| linacero.com | 4600 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| labrujita.es | 4601 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cristinarecords.com | 4602 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| discazos.com | 4603 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| discosaltafidelidad.es | 4604 | 1 | SOURCE_BLOCKED | — | — | — | TimeoutError |
+| discoslocal3.com | 4605 | 1 | SOURCE_BLOCKED | — | — | — | RemoteDisconnected |
+| discosparadiso.com | 4606 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| discos-redondos.es | 4607 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| domestica.bandcamp.com | 4608 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| fourskulls.es | 4609 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| historianuestra.com | 4610 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['historianuestra_com.py', 'historianuestra_com.json'] |
+| liquidatormusic.com | 4611 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| naranjaynegro.com | 4612 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| nofunrecordsgc.com | 4613 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| raraavisstore.com | 4614 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| sleazyrecords.com | 4615 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| smallblackdots.net | 4616 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| totemtanz.com | 4617 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| elalmacendediscos.com | 4618 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
+| espairecords.cat | 4619 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| khvinylstore.com | 4620 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| laviniloteca.shop | 4621 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| maisvinilo.com | 4622 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| musicom.es | 4623 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| perrosmediterraneos.es | 4624 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| radialstore.com | 4625 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rinconramal.home.blog | 4626 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylcafelk.com | 4627 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| andralang.se | 4628 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| rcrdsnstff.se | 4629 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ramlosarecords.se | 4630 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| starclubrecords.se | 4631 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| jackdawrecords.com | 4632 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dgr.se | 4633 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| rasundarecords.com | 4634 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordcenter.se | 4635 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| solnaskivbors.se | 4636 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| djungelochjazz.se | 4637 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['djungelochjazz_se.py', 'djungelochjazz_se.json'] |
+| recordsandmovies.se | 4638 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['recordsandmovies_se.py', 'recordsandmovies_se.json'] |
+| soundpollution.se | 4639 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| fade.se | 4640 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| gellbornrecords.com | 4641 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mickes-cdvinyl.se | 4642 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordhunter.se | 4643 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| snickarsrecords.com | 4644 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| stockholmsserieoskivhandel.se | 4645 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hjalmarbs.se | 4646 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| openmindrecords.se | 4647 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| enkopingsskivbors.se | 4648 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| bengans.se | 4649 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| tidenstempo.com | 4650 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| andrajazz.se | 4651 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| evolutionrecords.se | 4652 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| foggydays.se | 4653 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hotrecords.se | 4654 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| omegarecords.se | 4655 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| petsounds.se | 4656 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordmania.se | 4657 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| skivhogen.com | 4658 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| nostalgipalatset.com | 4659 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
