@@ -2807,3 +2807,103 @@ Maximale bouwpogingen: 3
 | schallplatten-duisburg.de | 4057 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | aktivmusicpointbochum.de | 4058 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
 | analogetontraeger.de | 4059 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cd-andrae.de | 4060 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| antisocial.store | 4061 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| aundo-medien.de | 4062 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| aposkalypsesoundz.de | 4063 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| b12musics.de | 4064 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| barrettsrevenge.com | 4065 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| schallzentrale.net | 4066 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| derkleineplattenladen.de | 4067 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bebop-schallplatten.de | 4068 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| capri-records.de | 4069 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| blumen-studio-kalbfuss.de | 4070 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| clearaudio.de | 4071 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| coretexrecords.com | 4072 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| cudgel.de | 4073 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| decks.de | 4074 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| deejay.de | 4075 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| derheimathafen.net | 4076 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discover-music.de | 4077 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discover-records.de | 4078 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| discy.de | 4079 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| djshop.de | 4080 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_503 |
+| cdboerse-muenchen.de | 4081 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| drakerecords.jimdofree.com | 4082 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| drop-out-records.de | 4083 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| kulturkaufhaus.de | 4084 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| duxrecords.com | 4085 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| fatplastics.com | 4086 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| firestation-records.de | 4087 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| flight13.com | 4088 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| froedy-records.com | 4089 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| fundament.works | 4090 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| groovecityrecordstore.com | 4091 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| h2o-records.de | 4092 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hanseplatte.de | 4093 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hardwax.com | 4094 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| 2020-hauptsache-musik.de | 4095 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hhv.de | 4096 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| high-fidelity-ac.de | 4097 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hitsville.de | 4098 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| honey-bucket.de | 4099 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hugos-plattenkiste.de | 4100 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| inchbyinch.eu | 4101 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| independent-vinyl.de | 4102 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| jackson-records.berlin | 4103 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| jujutrumpet.de | 4104 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| langspielzimmer.de | 4105 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| kill-o-zap.de | 4106 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cookiedatabase.org | 4107 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| loewenrecords.de | 4108 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| loveforsale.org | 4109 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| kaufhaus.ludwigbeck.de | 4110 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| malt-music.de | 4111 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| maoz-records.com | 4112 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| meltingpointch.wordpress.com | 4113 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| minigroove-hamburg.de | 4114 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mintmag.de | 4115 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| minty-vinyl.de | 4116 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mono-ton.eu | 4117 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| moon-dance-berlin.de | 4118 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| mosplattenladen.de | 4119 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| music-corner-buer.de | 4120 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musikfundgrube-erfurt.de | 4121 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musikgarage.de | 4122 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musikhaus-kietz.de | 4123 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| musikkammer.de | 4124 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| no2-records.de | 4125 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| oberland-records.de | 4126 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ohrwurm-cds.de | 4127 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| onkelstereo.de | 4128 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| otaku-records.de | 4129 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| parallel-schallplatten.de | 4130 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| deplaat.de | 4131 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| plattebox-wiesbaden.de | 4132 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| plattenbau-aachen.de | 4133 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| plattenbau.nrw | 4134 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| plattenguru.de | 4135 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| plattenjunks.de | 4136 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| die-tonabnehmer.de | 4137 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| andes-plattenbau.de | 4138 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| plattenrille.com | 4139 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| praxis-records.net | 4140 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| publicpossession.com | 4141 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| puresoul.de | 4142 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| raum-und-klang.de | 4143 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| rebel-music-berlin.de | 4144 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| records.de | 4145 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordsforfuture.de | 4146 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordwars.de | 4147 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| recordstores.love | 4148 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rimpo.de | 4149 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rockabilly-hamburg.de | 4150 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rocksteady.berlin | 4151 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rockstore-essen.de | 4152 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| rockstore-marktschwaben.de | 4153 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| schallplatte.org | 4154 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| schalltraeger.de | 4155 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| scheibenbeisser.de | 4156 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| scheibenkleister-oldenburg.de | 4157 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| second-vinyl.de | 4158 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sickwreckords.de | 4159 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |

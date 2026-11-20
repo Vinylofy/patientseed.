@@ -163368,8 +163368,4876 @@
       "attempts": 1,
       "evidence": "no public catalog route passed an adapter contract",
       "last_attempt_at": "2026-11-20T10:00:25+00:00"
+    },
+    "cd-andrae.de": {
+      "row": 4060,
+      "name": "andrä",
+      "domain": "cd-andrae.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "Invalid public source",
+      "source_url": "https://cd-andrae.de/",
+      "attempts": 1,
+      "evidence": "Invalid public source",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "antisocial.store": {
+      "row": 4061,
+      "name": "Antisocial",
+      "domain": "antisocial.store",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://antisocial.store/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://antisocial.store/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://antisocial.store/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://antisocial.store/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://antisocial.store/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://antisocial.store/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://antisocial.store/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "aundo-medien.de": {
+      "row": 4062,
+      "name": "A&O Medien",
+      "domain": "aundo-medien.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "source_url": "https://aundo-medien.de/api/0.1/collections/products?format=json",
+      "reason": "HTTP_429",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://aundo-medien.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://aundo-medien.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://aundo-medien.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "HTTP_429",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "aposkalypsesoundz.de": {
+      "row": 4063,
+      "name": "apoSKAlypse Soundz",
+      "domain": "aposkalypsesoundz.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://aposkalypsesoundz.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://aposkalypsesoundz.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://aposkalypsesoundz.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://aposkalypsesoundz.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://aposkalypsesoundz.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://aposkalypsesoundz.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://aposkalypsesoundz.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "b12musics.de": {
+      "row": 4064,
+      "name": "B12musics",
+      "domain": "b12musics.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "woocommerce",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "woocommerce",
+          "route": "https://b12musics.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://b12musics.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://b12musics.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://b12musics.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://b12musics.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://b12musics.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://b12musics.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "barrettsrevenge.com": {
+      "row": 4065,
+      "name": "Barrett`s Revenge Records",
+      "domain": "barrettsrevenge.com",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "woocommerce",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "woocommerce",
+          "route": "https://barrettsrevenge.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_500"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://barrettsrevenge.com/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_500"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://barrettsrevenge.com/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_500"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://barrettsrevenge.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_500"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://barrettsrevenge.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_500"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://barrettsrevenge.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_500"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://barrettsrevenge.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_500"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "schallzentrale.net": {
+      "row": 4066,
+      "name": "Baustelle!",
+      "domain": "schallzentrale.net",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://schallzentrale.net/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://schallzentrale.net/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://schallzentrale.net/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://schallzentrale.net/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://schallzentrale.net/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://schallzentrale.net/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://schallzentrale.net/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "derkleineplattenladen.de": {
+      "row": 4067,
+      "name": "beat´s n melodies",
+      "domain": "derkleineplattenladen.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "woocommerce",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "woocommerce",
+          "route": "https://derkleineplattenladen.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://derkleineplattenladen.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://derkleineplattenladen.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://derkleineplattenladen.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://derkleineplattenladen.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://derkleineplattenladen.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://derkleineplattenladen.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "bebop-schallplatten.de": {
+      "row": 4068,
+      "name": "Bebop Schallplatten",
+      "domain": "bebop-schallplatten.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://bebop-schallplatten.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://bebop-schallplatten.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://bebop-schallplatten.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://bebop-schallplatten.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://bebop-schallplatten.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://bebop-schallplatten.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://bebop-schallplatten.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "capri-records.de": {
+      "row": 4069,
+      "name": "Capri Records",
+      "domain": "capri-records.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://capri-records.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://capri-records.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://capri-records.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://capri-records.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://capri-records.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://capri-records.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://capri-records.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "blumen-studio-kalbfuss.de": {
+      "row": 4070,
+      "name": "CD Bessungen",
+      "domain": "blumen-studio-kalbfuss.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://blumen-studio-kalbfuss.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://blumen-studio-kalbfuss.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://blumen-studio-kalbfuss.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://blumen-studio-kalbfuss.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://blumen-studio-kalbfuss.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://blumen-studio-kalbfuss.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://blumen-studio-kalbfuss.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "clearaudio.de": {
+      "row": 4071,
+      "name": "Clearaudio",
+      "domain": "clearaudio.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://clearaudio.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://clearaudio.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://clearaudio.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://clearaudio.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://clearaudio.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://clearaudio.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://clearaudio.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "coretexrecords.com": {
+      "row": 4072,
+      "name": "coretexrecords.com",
+      "domain": "coretexrecords.com",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "HTTP_401",
+      "source_url": "https://coretexrecords.com/",
+      "attempts": 1,
+      "evidence": "HTTP_401",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "cudgel.de": {
+      "row": 4073,
+      "name": "cudgel",
+      "domain": "cudgel.de",
+      "status": "ADAPTER_TESTED",
+      "gate": "listing",
+      "platform": "woocommerce",
+      "source_url": "https://cudgel.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "adapter_class": "WooCommerceNewVinylAdapter",
+      "adapter_status": "REUSED_AND_TESTED",
+      "products_seen": 20,
+      "accepted": 0,
+      "excluded": 20,
+      "pagination_complete": false,
+      "listing_gtin_valid": 0,
+      "method_candidates": [
+        {
+          "platform": "woocommerce",
+          "route": "https://cudgel.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "products_seen": 20,
+          "accepted": 0,
+          "excluded": 20,
+          "status": "ADAPTER_PARSED"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://cudgel.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://cudgel.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://cudgel.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://cudgel.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://cudgel.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://cudgel.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        }
+      ],
+      "selected_method": {
+        "platform": "woocommerce",
+        "route": "https://cudgel.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "selection": "highest_bounded_adapter_score"
+      },
+      "reason": "no confirmed new vinyl on bounded page",
+      "attempts": 1,
+      "evidence": "no confirmed new vinyl on bounded page",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "decks.de": {
+      "row": 4074,
+      "name": "decks.de",
+      "domain": "decks.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "Invalid public source",
+      "source_url": "https://decks.de/",
+      "attempts": 1,
+      "evidence": "Invalid public source",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "deejay.de": {
+      "row": 4075,
+      "name": "deejay.de",
+      "domain": "deejay.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "HTTP_403",
+      "source_url": "https://deejay.de/",
+      "attempts": 1,
+      "evidence": "HTTP_403",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "derheimathafen.net": {
+      "row": 4076,
+      "name": "derHeimathafen",
+      "domain": "derheimathafen.net",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://derheimathafen.net/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://derheimathafen.net/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://derheimathafen.net/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://derheimathafen.net/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://derheimathafen.net/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://derheimathafen.net/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://derheimathafen.net/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "discover-music.de": {
+      "row": 4077,
+      "name": "Discover Music",
+      "domain": "discover-music.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "woocommerce",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "woocommerce",
+          "route": "https://discover-music.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://discover-music.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://discover-music.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://discover-music.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://discover-music.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://discover-music.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://discover-music.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "discover-records.de": {
+      "row": 4078,
+      "name": "discover-records.de",
+      "domain": "discover-records.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "HTTP_403",
+      "source_url": "https://discover-records.de/",
+      "attempts": 1,
+      "evidence": "HTTP_403",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "discy.de": {
+      "row": 4079,
+      "name": "DISCY Musik Buch Film",
+      "domain": "discy.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://discy.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://discy.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://discy.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://discy.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://discy.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://discy.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://discy.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "djshop.de": {
+      "row": 4080,
+      "name": "djshop.de",
+      "domain": "djshop.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "HTTP_503",
+      "source_url": "https://djshop.de/",
+      "attempts": 1,
+      "evidence": "HTTP_503",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "cdboerse-muenchen.de": {
+      "row": 4081,
+      "name": "Dock's LP & CD Börse",
+      "domain": "cdboerse-muenchen.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://cdboerse-muenchen.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://cdboerse-muenchen.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://cdboerse-muenchen.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://cdboerse-muenchen.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://cdboerse-muenchen.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://cdboerse-muenchen.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://cdboerse-muenchen.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "drakerecords.jimdofree.com": {
+      "row": 4082,
+      "name": "Drake Records Vinyl Store / Schallplatten An- u. Verkauf",
+      "domain": "drakerecords.jimdofree.com",
+      "status": "SOURCE_BLOCKED",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "source_url": "https://drakerecords.jimdofree.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "reason": "HTTP_403",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://drakerecords.jimdofree.com/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://drakerecords.jimdofree.com/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "HTTP_403",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "drop-out-records.de": {
+      "row": 4083,
+      "name": "Drop Out Records",
+      "domain": "drop-out-records.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "URLError",
+      "source_url": "https://drop-out-records.de/",
+      "attempts": 1,
+      "evidence": "URLError",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "kulturkaufhaus.de": {
+      "row": 4084,
+      "name": "Dussmann – Das KulturKaufhaus",
+      "domain": "kulturkaufhaus.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "HTTP_403",
+      "source_url": "https://kulturkaufhaus.de/",
+      "attempts": 1,
+      "evidence": "HTTP_403",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "duxrecords.com": {
+      "row": 4085,
+      "name": "Dux Records",
+      "domain": "duxrecords.com",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://duxrecords.com/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://duxrecords.com/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://duxrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://duxrecords.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://duxrecords.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://duxrecords.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://duxrecords.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "fatplastics.com": {
+      "row": 4086,
+      "name": "fatplastics.com",
+      "domain": "fatplastics.com",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "HTTP_401",
+      "source_url": "https://fatplastics.com/",
+      "attempts": 1,
+      "evidence": "HTTP_401",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "firestation-records.de": {
+      "row": 4087,
+      "name": "Firestation Records: Record label, second-hand record store and mailorder, Berlin Germany",
+      "domain": "firestation-records.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "URLError",
+      "source_url": "https://firestation-records.de/",
+      "attempts": 1,
+      "evidence": "URLError",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "flight13.com": {
+      "row": 4088,
+      "name": "Flight 13 Records",
+      "domain": "flight13.com",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://flight13.com/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://flight13.com/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://flight13.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://flight13.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://flight13.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://flight13.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://flight13.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "froedy-records.com": {
+      "row": 4089,
+      "name": "froedy-records.com",
+      "domain": "froedy-records.com",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "HTTP_403",
+      "source_url": "https://froedy-records.com/",
+      "attempts": 1,
+      "evidence": "HTTP_403",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "fundament.works": {
+      "row": 4090,
+      "name": "FUNDAMENT Schallplatten",
+      "domain": "fundament.works",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://fundament.works/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://fundament.works/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://fundament.works/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://fundament.works/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://fundament.works/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://fundament.works/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://fundament.works/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "groovecityrecordstore.com": {
+      "row": 4091,
+      "name": "Groove City Recordstore*",
+      "domain": "groovecityrecordstore.com",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://groovecityrecordstore.com/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://groovecityrecordstore.com/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://groovecityrecordstore.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://groovecityrecordstore.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://groovecityrecordstore.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://groovecityrecordstore.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://groovecityrecordstore.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "h2o-records.de": {
+      "row": 4092,
+      "name": "H2O Records",
+      "domain": "h2o-records.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://h2o-records.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://h2o-records.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://h2o-records.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://h2o-records.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://h2o-records.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://h2o-records.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://h2o-records.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "hanseplatte.de": {
+      "row": 4093,
+      "name": "Hanseplatte",
+      "domain": "hanseplatte.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://hanseplatte.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://hanseplatte.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://hanseplatte.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://hanseplatte.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://hanseplatte.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://hanseplatte.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://hanseplatte.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "hardwax.com": {
+      "row": 4094,
+      "name": "Hard Wax",
+      "domain": "hardwax.com",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://hardwax.com/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://hardwax.com/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://hardwax.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://hardwax.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://hardwax.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://hardwax.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://hardwax.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "2020-hauptsache-musik.de": {
+      "row": 4095,
+      "name": "Hauptsache Musik",
+      "domain": "2020-hauptsache-musik.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://2020-hauptsache-musik.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://2020-hauptsache-musik.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://2020-hauptsache-musik.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://2020-hauptsache-musik.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://2020-hauptsache-musik.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://2020-hauptsache-musik.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://2020-hauptsache-musik.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "hhv.de": {
+      "row": 4096,
+      "name": "hhv.de",
+      "domain": "hhv.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://hhv.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://hhv.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://hhv.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://hhv.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://hhv.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://hhv.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://hhv.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "high-fidelity-ac.de": {
+      "row": 4097,
+      "name": "high-fidelity-ac.de",
+      "domain": "high-fidelity-ac.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://high-fidelity-ac.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://high-fidelity-ac.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://high-fidelity-ac.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://high-fidelity-ac.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://high-fidelity-ac.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://high-fidelity-ac.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://high-fidelity-ac.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "hitsville.de": {
+      "row": 4098,
+      "name": "Hitsville Recordstore",
+      "domain": "hitsville.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://hitsville.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://hitsville.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://hitsville.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://hitsville.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://hitsville.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://hitsville.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://hitsville.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "honey-bucket.de": {
+      "row": 4099,
+      "name": "HONEY BUCKET RECORDS",
+      "domain": "honey-bucket.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://honey-bucket.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://honey-bucket.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://honey-bucket.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://honey-bucket.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://honey-bucket.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://honey-bucket.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://honey-bucket.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "hugos-plattenkiste.de": {
+      "row": 4100,
+      "name": "Hugos Plattenkiste",
+      "domain": "hugos-plattenkiste.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://hugos-plattenkiste.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://hugos-plattenkiste.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://hugos-plattenkiste.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://hugos-plattenkiste.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://hugos-plattenkiste.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://hugos-plattenkiste.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://hugos-plattenkiste.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "inchbyinch.eu": {
+      "row": 4101,
+      "name": "InchByInch",
+      "domain": "inchbyinch.eu",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://inchbyinch.eu/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://inchbyinch.eu/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://inchbyinch.eu/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://inchbyinch.eu/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://inchbyinch.eu/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://inchbyinch.eu/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://inchbyinch.eu/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "independent-vinyl.de": {
+      "row": 4102,
+      "name": "independent-vinyl",
+      "domain": "independent-vinyl.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://independent-vinyl.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://independent-vinyl.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://independent-vinyl.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://independent-vinyl.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://independent-vinyl.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://independent-vinyl.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://independent-vinyl.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "jackson-records.berlin": {
+      "row": 4103,
+      "name": "JACKSON RECORDS",
+      "domain": "jackson-records.berlin",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "woocommerce",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "woocommerce",
+          "route": "https://jackson-records.berlin/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://jackson-records.berlin/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "Invalid public source"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://jackson-records.berlin/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "Invalid public source"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://jackson-records.berlin/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "Invalid public source"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://jackson-records.berlin/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "Invalid public source"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://jackson-records.berlin/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "Invalid public source"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://jackson-records.berlin/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "Invalid public source"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "jujutrumpet.de": {
+      "row": 4104,
+      "name": "Ju-Ju Trumpet",
+      "domain": "jujutrumpet.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://jujutrumpet.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://jujutrumpet.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://jujutrumpet.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://jujutrumpet.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://jujutrumpet.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://jujutrumpet.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://jujutrumpet.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "langspielzimmer.de": {
+      "row": 4105,
+      "name": "Langspielzimmer",
+      "domain": "langspielzimmer.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "URLError",
+      "source_url": "https://langspielzimmer.de/",
+      "attempts": 1,
+      "evidence": "URLError",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "kill-o-zap.de": {
+      "row": 4106,
+      "name": "Laravel",
+      "domain": "kill-o-zap.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://kill-o-zap.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://kill-o-zap.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://kill-o-zap.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://kill-o-zap.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://kill-o-zap.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://kill-o-zap.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://kill-o-zap.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "cookiedatabase.org": {
+      "row": 4107,
+      "name": "Lese mehr über diese Zwecke",
+      "domain": "cookiedatabase.org",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "HTTP_403",
+      "source_url": "https://cookiedatabase.org/",
+      "attempts": 1,
+      "evidence": "HTTP_403",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "loewenrecords.de": {
+      "row": 4108,
+      "name": "LoewenRecords",
+      "domain": "loewenrecords.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "source_url": "https://loewenrecords.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "reason": "HTTP_403",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://loewenrecords.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://loewenrecords.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "HTTP_403",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "loveforsale.org": {
+      "row": 4109,
+      "name": "Love for Sale",
+      "domain": "loveforsale.org",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://loveforsale.org/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://loveforsale.org/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://loveforsale.org/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://loveforsale.org/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://loveforsale.org/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://loveforsale.org/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://loveforsale.org/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "kaufhaus.ludwigbeck.de": {
+      "row": 4110,
+      "name": "Ludwig Beck",
+      "domain": "kaufhaus.ludwigbeck.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://kaufhaus.ludwigbeck.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://kaufhaus.ludwigbeck.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://kaufhaus.ludwigbeck.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://kaufhaus.ludwigbeck.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://kaufhaus.ludwigbeck.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://kaufhaus.ludwigbeck.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://kaufhaus.ludwigbeck.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "malt-music.de": {
+      "row": 4111,
+      "name": "Malt & Music",
+      "domain": "malt-music.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://malt-music.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://malt-music.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://malt-music.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://malt-music.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://malt-music.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://malt-music.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://malt-music.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "maoz-records.com": {
+      "row": 4112,
+      "name": "maoz Vinyl & Kaffee",
+      "domain": "maoz-records.com",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://maoz-records.com/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://maoz-records.com/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://maoz-records.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://maoz-records.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://maoz-records.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://maoz-records.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://maoz-records.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "meltingpointch.wordpress.com": {
+      "row": 4113,
+      "name": "Meltingpoint Vinyl & Tapes",
+      "domain": "meltingpointch.wordpress.com",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://meltingpointch.wordpress.com/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://meltingpointch.wordpress.com/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://meltingpointch.wordpress.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://meltingpointch.wordpress.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://meltingpointch.wordpress.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://meltingpointch.wordpress.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://meltingpointch.wordpress.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "minigroove-hamburg.de": {
+      "row": 4114,
+      "name": "minigroove-hamburg.de",
+      "domain": "minigroove-hamburg.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "woocommerce",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "woocommerce",
+          "route": "https://minigroove-hamburg.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://minigroove-hamburg.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://minigroove-hamburg.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://minigroove-hamburg.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://minigroove-hamburg.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://minigroove-hamburg.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://minigroove-hamburg.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "mintmag.de": {
+      "row": 4115,
+      "name": "mintmag.de",
+      "domain": "mintmag.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "Invalid public source",
+      "source_url": "https://mintmag.de/",
+      "attempts": 1,
+      "evidence": "Invalid public source",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "minty-vinyl.de": {
+      "row": 4116,
+      "name": "Minty Vinyl",
+      "domain": "minty-vinyl.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://minty-vinyl.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://minty-vinyl.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://minty-vinyl.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://minty-vinyl.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://minty-vinyl.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://minty-vinyl.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://minty-vinyl.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "mono-ton.eu": {
+      "row": 4117,
+      "name": "mono-Ton Schallplatten",
+      "domain": "mono-ton.eu",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://mono-ton.eu/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://mono-ton.eu/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://mono-ton.eu/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://mono-ton.eu/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://mono-ton.eu/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://mono-ton.eu/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://mono-ton.eu/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "moon-dance-berlin.de": {
+      "row": 4118,
+      "name": "Moon Dance",
+      "domain": "moon-dance-berlin.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "URLError",
+      "source_url": "https://moon-dance-berlin.de/",
+      "attempts": 1,
+      "evidence": "URLError",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "mosplattenladen.de": {
+      "row": 4119,
+      "name": "Mo's Plattenladen",
+      "domain": "mosplattenladen.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "woocommerce",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "woocommerce",
+          "route": "https://mosplattenladen.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://mosplattenladen.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://mosplattenladen.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://mosplattenladen.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://mosplattenladen.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://mosplattenladen.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://mosplattenladen.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "music-corner-buer.de": {
+      "row": 4120,
+      "name": "Music Corner Buer",
+      "domain": "music-corner-buer.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://music-corner-buer.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://music-corner-buer.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://music-corner-buer.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://music-corner-buer.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://music-corner-buer.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://music-corner-buer.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://music-corner-buer.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "musikfundgrube-erfurt.de": {
+      "row": 4121,
+      "name": "Musikfundgrube",
+      "domain": "musikfundgrube-erfurt.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://musikfundgrube-erfurt.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://musikfundgrube-erfurt.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://musikfundgrube-erfurt.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://musikfundgrube-erfurt.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://musikfundgrube-erfurt.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://musikfundgrube-erfurt.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://musikfundgrube-erfurt.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "musikgarage.de": {
+      "row": 4122,
+      "name": "musikgarage.de",
+      "domain": "musikgarage.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://musikgarage.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://musikgarage.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://musikgarage.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://musikgarage.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://musikgarage.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://musikgarage.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://musikgarage.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "musikhaus-kietz.de": {
+      "row": 4123,
+      "name": "musikhaus-kietz.de",
+      "domain": "musikhaus-kietz.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "HTTP_403",
+      "source_url": "https://musikhaus-kietz.de/",
+      "attempts": 1,
+      "evidence": "HTTP_403",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "musikkammer.de": {
+      "row": 4124,
+      "name": "Musikkammer",
+      "domain": "musikkammer.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://musikkammer.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://musikkammer.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://musikkammer.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://musikkammer.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://musikkammer.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://musikkammer.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://musikkammer.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "no2-records.de": {
+      "row": 4125,
+      "name": "No 2 Records",
+      "domain": "no2-records.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://no2-records.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://no2-records.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://no2-records.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://no2-records.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://no2-records.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://no2-records.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://no2-records.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "oberland-records.de": {
+      "row": 4126,
+      "name": "Oberland-Records",
+      "domain": "oberland-records.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://oberland-records.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://oberland-records.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://oberland-records.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://oberland-records.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://oberland-records.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://oberland-records.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://oberland-records.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "ohrwurm-cds.de": {
+      "row": 4127,
+      "name": "Ohrwurm",
+      "domain": "ohrwurm-cds.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://ohrwurm-cds.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://ohrwurm-cds.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://ohrwurm-cds.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://ohrwurm-cds.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://ohrwurm-cds.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://ohrwurm-cds.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://ohrwurm-cds.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "onkelstereo.de": {
+      "row": 4128,
+      "name": "Onkel Stereo",
+      "domain": "onkelstereo.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://onkelstereo.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://onkelstereo.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://onkelstereo.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://onkelstereo.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://onkelstereo.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://onkelstereo.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://onkelstereo.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "otaku-records.de": {
+      "row": 4129,
+      "name": "OTAKU Records",
+      "domain": "otaku-records.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://otaku-records.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://otaku-records.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://otaku-records.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://otaku-records.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://otaku-records.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://otaku-records.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://otaku-records.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "parallel-schallplatten.de": {
+      "row": 4130,
+      "name": "Parallel Schallplatten",
+      "domain": "parallel-schallplatten.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://parallel-schallplatten.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://parallel-schallplatten.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://parallel-schallplatten.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://parallel-schallplatten.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://parallel-schallplatten.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://parallel-schallplatten.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://parallel-schallplatten.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "deplaat.de": {
+      "row": 4131,
+      "name": "DE PLAAT",
+      "domain": "deplaat.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://deplaat.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://deplaat.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://deplaat.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://deplaat.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://deplaat.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://deplaat.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://deplaat.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "plattebox-wiesbaden.de": {
+      "row": 4132,
+      "name": "plattebox-wiesbaden.de",
+      "domain": "plattebox-wiesbaden.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "HTTP_403",
+      "source_url": "https://plattebox-wiesbaden.de/",
+      "attempts": 1,
+      "evidence": "HTTP_403",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "plattenbau-aachen.de": {
+      "row": 4133,
+      "name": "Plattenbau",
+      "domain": "plattenbau-aachen.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "URLError",
+      "source_url": "https://plattenbau-aachen.de/",
+      "attempts": 1,
+      "evidence": "URLError",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "plattenbau.nrw": {
+      "row": 4134,
+      "name": "Plattenbau Schermbeck",
+      "domain": "plattenbau.nrw",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://plattenbau.nrw/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://plattenbau.nrw/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://plattenbau.nrw/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://plattenbau.nrw/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://plattenbau.nrw/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://plattenbau.nrw/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://plattenbau.nrw/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "plattenguru.de": {
+      "row": 4135,
+      "name": "Der Plattenguru in Th�ringen",
+      "domain": "plattenguru.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "URLError",
+      "source_url": "https://plattenguru.de/",
+      "attempts": 1,
+      "evidence": "URLError",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "plattenjunks.de": {
+      "row": 4136,
+      "name": "Plattenjunks Recordstore",
+      "domain": "plattenjunks.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://plattenjunks.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://plattenjunks.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://plattenjunks.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://plattenjunks.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://plattenjunks.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://plattenjunks.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://plattenjunks.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "die-tonabnehmer.de": {
+      "row": 4137,
+      "name": "Plattenladen in München mit Verkauf von Vinyl (LPs) und CDs",
+      "domain": "die-tonabnehmer.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "Invalid public source",
+      "source_url": "https://die-tonabnehmer.de/",
+      "attempts": 1,
+      "evidence": "Invalid public source",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "andes-plattenbau.de": {
+      "row": 4138,
+      "name": "Der Plattenladen in Witten",
+      "domain": "andes-plattenbau.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://andes-plattenbau.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://andes-plattenbau.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://andes-plattenbau.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://andes-plattenbau.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://andes-plattenbau.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://andes-plattenbau.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://andes-plattenbau.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "plattenrille.com": {
+      "row": 4139,
+      "name": "Plattenrille",
+      "domain": "plattenrille.com",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://plattenrille.com/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://plattenrille.com/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://plattenrille.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://plattenrille.com/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://plattenrille.com/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://plattenrille.com/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://plattenrille.com/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "praxis-records.net": {
+      "row": 4140,
+      "name": "Praxis",
+      "domain": "praxis-records.net",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "woocommerce",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "woocommerce",
+          "route": "https://praxis-records.net/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://praxis-records.net/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://praxis-records.net/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://praxis-records.net/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://praxis-records.net/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://praxis-records.net/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://praxis-records.net/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "publicpossession.com": {
+      "row": 4141,
+      "name": "publicpossession.com",
+      "domain": "publicpossession.com",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "HTTP_403",
+      "source_url": "https://publicpossession.com/",
+      "attempts": 1,
+      "evidence": "HTTP_403",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "puresoul.de": {
+      "row": 4142,
+      "name": "Pure Soul Recordshop",
+      "domain": "puresoul.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "source_url": "https://puresoul.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "reason": "HTTP_403",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://puresoul.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://puresoul.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "HTTP_403",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "raum-und-klang.de": {
+      "row": 4143,
+      "name": "Raum & Klang",
+      "domain": "raum-und-klang.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "Invalid public source",
+      "source_url": "https://raum-und-klang.de/",
+      "attempts": 1,
+      "evidence": "Invalid public source",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "rebel-music-berlin.de": {
+      "row": 4144,
+      "name": "Rebel Music Berlin",
+      "domain": "rebel-music-berlin.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://rebel-music-berlin.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://rebel-music-berlin.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://rebel-music-berlin.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://rebel-music-berlin.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://rebel-music-berlin.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://rebel-music-berlin.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://rebel-music-berlin.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "records.de": {
+      "row": 4145,
+      "name": "Records.de",
+      "domain": "records.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://records.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://records.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://records.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://records.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://records.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://records.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://records.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "recordsforfuture.de": {
+      "row": 4146,
+      "name": "Records For Future",
+      "domain": "recordsforfuture.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "woocommerce",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "woocommerce",
+          "route": "https://recordsforfuture.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://recordsforfuture.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://recordsforfuture.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://recordsforfuture.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://recordsforfuture.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://recordsforfuture.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://recordsforfuture.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "recordwars.de": {
+      "row": 4147,
+      "name": "Recordwars",
+      "domain": "recordwars.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "source_url": "https://recordwars.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "reason": "HTTP_403",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://recordwars.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://recordwars.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "HTTP_403",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "recordstores.love": {
+      "row": 4148,
+      "name": "Retrotrain – Vinyl & Games",
+      "domain": "recordstores.love",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://recordstores.love/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://recordstores.love/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://recordstores.love/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://recordstores.love/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_405"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://recordstores.love/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_405"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://recordstores.love/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_405"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://recordstores.love/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_405"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "rimpo.de": {
+      "row": 4149,
+      "name": "Rimpo Tonträger",
+      "domain": "rimpo.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "woocommerce",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "woocommerce",
+          "route": "https://rimpo.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://rimpo.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://rimpo.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://rimpo.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://rimpo.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://rimpo.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://rimpo.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "rockabilly-hamburg.de": {
+      "row": 4150,
+      "name": "Rockabilly Hamburg > Nostalgie Shop > 40s, 50s 'n 60s Mode & Musik",
+      "domain": "rockabilly-hamburg.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://rockabilly-hamburg.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://rockabilly-hamburg.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://rockabilly-hamburg.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://rockabilly-hamburg.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://rockabilly-hamburg.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://rockabilly-hamburg.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://rockabilly-hamburg.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "rocksteady.berlin": {
+      "row": 4151,
+      "name": "Rock Steady Records",
+      "domain": "rocksteady.berlin",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://rocksteady.berlin/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://rocksteady.berlin/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://rocksteady.berlin/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://rocksteady.berlin/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://rocksteady.berlin/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://rocksteady.berlin/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://rocksteady.berlin/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "rockstore-essen.de": {
+      "row": 4152,
+      "name": "Rock Store\nGrendplatz 7, 45276 Essen\n45276\nEssen\nDeutschland\n\n\n\nMusikpalast Flensburg",
+      "domain": "rockstore-essen.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "source_url": "https://rockstore-essen.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "reason": "HTTP_403",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://rockstore-essen.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://rockstore-essen.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "HTTP_403",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "rockstore-marktschwaben.de": {
+      "row": 4153,
+      "name": "rockstore-marktschwaben.de",
+      "domain": "rockstore-marktschwaben.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "HTTP_403",
+      "source_url": "https://rockstore-marktschwaben.de/",
+      "attempts": 1,
+      "evidence": "HTTP_403",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "schallplatte.org": {
+      "row": 4154,
+      "name": "Schallplatte",
+      "domain": "schallplatte.org",
+      "status": "SOURCE_BLOCKED",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "source_url": "https://schallplatte.org/api/0.1/collections/products?format=json",
+      "reason": "HTTP_429",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://schallplatte.org/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://schallplatte.org/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "JSONDecodeError"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://schallplatte.org/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "HTTP_429",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "schalltraeger.de": {
+      "row": 4155,
+      "name": "Schallträger",
+      "domain": "schalltraeger.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://schalltraeger.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://schalltraeger.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://schalltraeger.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://schalltraeger.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://schalltraeger.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://schalltraeger.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://schalltraeger.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "scheibenbeisser.de": {
+      "row": 4156,
+      "name": "Scheibenbeisser",
+      "domain": "scheibenbeisser.de",
+      "status": "SOURCE_BLOCKED",
+      "gate": "identity",
+      "reason": "Invalid public source",
+      "source_url": "https://scheibenbeisser.de/",
+      "attempts": 1,
+      "evidence": "Invalid public source",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "scheibenkleister-oldenburg.de": {
+      "row": 4157,
+      "name": "Scheibenkleister",
+      "domain": "scheibenkleister-oldenburg.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://scheibenkleister-oldenburg.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://scheibenkleister-oldenburg.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://scheibenkleister-oldenburg.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://scheibenkleister-oldenburg.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://scheibenkleister-oldenburg.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://scheibenkleister-oldenburg.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://scheibenkleister-oldenburg.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "second-vinyl.de": {
+      "row": 4158,
+      "name": "Second Vinyl",
+      "domain": "second-vinyl.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://second-vinyl.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://second-vinyl.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://second-vinyl.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://second-vinyl.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://second-vinyl.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://second-vinyl.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://second-vinyl.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
+    },
+    "sickwreckords.de": {
+      "row": 4159,
+      "name": "Sick Wreckords",
+      "domain": "sickwreckords.de",
+      "status": "ROUTE_REVIEW",
+      "gate": "catalog_route",
+      "platform": "unknown",
+      "reason": "no public catalog route passed an adapter contract",
+      "method_candidates": [
+        {
+          "platform": "shopify",
+          "route": "https://sickwreckords.de/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "shopify",
+          "route": "https://sickwreckords.de/collections/all/products.json?limit=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "woocommerce",
+          "route": "https://sickwreckords.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://sickwreckords.de/api/0.1/collections/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "squarespace",
+          "route": "https://sickwreckords.de/api/0.1/collections/all/products?format=json",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://sickwreckords.de/api/storefront/products?limit=20&offset=0",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        },
+        {
+          "platform": "bigcommerce",
+          "route": "https://sickwreckords.de/api/storefront/products?limit=20",
+          "score": 0,
+          "status": "ROUTE_REJECTED",
+          "reason": "HTTP_404"
+        }
+      ],
+      "attempts": 1,
+      "evidence": "no public catalog route passed an adapter contract",
+      "last_attempt_at": "2026-11-20T12:48:14+00:00"
     }
   },
   "last_run_id": "manual",
-  "updated_at": "2026-11-20T10:00:25+00:00"
+  "updated_at": "2026-11-20T12:48:14+00:00"
 }
