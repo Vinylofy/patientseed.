@@ -5214,7 +5214,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | daddyrichrecords.com | 39 | REVIEW | 0 | 5 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | dalesmusicstore.com | 39 | APPROVED | 0 | 3 | 3/3 | ACTIVE | ACTIVE (run 44730031322) | run 44696709935 |
 | dashthehengestore.com | 39 | APPROVED | 0 | 1 | 1/1 | ACTIVE | ACTIVE (run 44730031322) | run 44696709935 |
-| dbzbooks.com | 2 | APPROVED | 0 | 15 | 3/3 | ACTIVE | ACTIVE | run 39203245483 |
+| dbzbooks.com | 2 | APPROVED | 0 | 15 | 3/3 | ACTIVE | ACTIVE (run 44730031322) | run 39203245483 |
 | deadendrecordstn.com | 20 | FROZEN | 3 | 5 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | deafmanvinyl.com | 21 | FROZEN | 3 | 2 | 0/2 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | debaryfamilymusic.online | 31 | FROZEN | 3 | 0 | 0/0 | FROZEN | FROZEN | <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1011)> |
