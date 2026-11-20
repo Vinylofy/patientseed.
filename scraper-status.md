@@ -1,16 +1,16 @@
 # Centrale scraperstatus
 
-Bronregels: 5102. Behandeld voor broncontrole: 4253. Open voor broncontrole: 849.
+Bronregels: 5102. Behandeld voor broncontrole: 4353. Open voor broncontrole: 749.
 
 Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine checksumproeven; private acceptatie, marktprijzen en imports volgen apart.
 
 ## Statusaantallen
 
-- ADAPTER_TESTED: 260
+- ADAPTER_TESTED: 265
 - DETAIL_GATE_BLOCKED: 102
-- ROUTE_REVIEW: 1555
-- SCRAPER_BUILT_TESTED: 433
-- SOURCE_BLOCKED: 643
+- ROUTE_REVIEW: 1598
+- SCRAPER_BUILT_TESTED: 446
+- SOURCE_BLOCKED: 682
 - SOURCE_REVIEW: 1260
 
 ## Brongroepen
@@ -21,10 +21,10 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 |---|---:|---:|---:|---:|
 | Oorspronkelijke lijst | 3303 | 3303 | 0 | 247 |
 | Findyl online — 25-10-2026 (50; inclusief 4 herbeoordelingen) | 50 | 50 | 0 | 28 |
-| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 778 | 840 | 95 |
+| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 878 | 740 | 108 |
 | Vinylscout winkels — 19-11-2026 (nieuwe domeinen) | 9 | 0 | 9 | 0 |
 | Waxtra Rumours — 19-11-2026 (nieuwe domeinen) | 122 | 122 | 0 | 63 |
-| **Totaal** | **5102** | **4253** | **849** | **433** |
+| **Totaal** | **5102** | **4353** | **749** | **446** |
 
 ## Winkels
 
@@ -4283,106 +4283,106 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 | 4250 | 51 | 4257 | Discoshop Detommaso | discoshopdetommaso.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
 | 4251 | 51 | 4258 | DJ Land | djland.net |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_999 |
 | 4252 | 51 | 4259 | Filmusica.it HOMEPAGE | filmusica.it |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_999 |
-| 4253 |  | 4260 | Jungle Records | junglerecords.it |  | PENDING |  | — | broncontrole uitvoeren |
-| 4254 |  | 4261 | LaPianola | lapianola.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4255 |  | 4262 | MADA-RECORDS | madarecords.it |  | PENDING |  | — | broncontrole uitvoeren |
-| 4256 |  | 4263 | Militant Soul | militantsoul.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4257 |  | 4264 | MOVE ON Firenze | moveonfirenze.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4258 |  | 4265 | Solo Vinili | solovinili.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4259 |  | 4266 | sonic belligeranza | sonicbelligeranza.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4260 |  | 4267 | Ultrasuoni Records | ultrasuonirecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4261 |  | 4268 | 23cdstore.it | 23cdstore.it |  | PENDING |  | — | broncontrole uitvoeren |
-| 4262 |  | 4269 | Bot Verification | jollyrogerstore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4263 |  | 4270 | cdclubentertainment.com | cdclubentertainment.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4264 |  | 4271 | Chicken Records | chickenrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4265 |  | 4272 | discobolandia.it | discobolandia.it |  | PENDING |  | — | broncontrole uitvoeren |
-| 4266 |  | 4273 | Disco d'Oro | discodoro.it |  | PENDING |  | — | broncontrole uitvoeren |
-| 4267 |  | 4274 | Disco vinile in vendita online | indie.it |  | PENDING |  | — | broncontrole uitvoeren |
-| 4268 |  | 4275 | DOUBLE SIDE RECORDS | doublesiderecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4269 |  | 4276 | gabbiadischi | gabbiadischi.it |  | PENDING |  | — | broncontrole uitvoeren |
-| 4270 |  | 4277 | GrooveLab Records | groovelabrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4271 |  | 4278 | Gugumed | gugumed.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4272 |  | 4279 | - Hate Records | haterecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4273 |  | 4280 | Musica Musica Perugia: we sell vinyl, cd, dvd, vhs | musicamusicaperugia.it |  | PENDING |  | — | broncontrole uitvoeren |
-| 4274 |  | 4281 | Pace Music | pacemusic.it |  | PENDING |  | — | broncontrole uitvoeren |
-| 4275 |  | 4282 | PinkMoonRecords.com | pinkmoonrecords.eu |  | PENDING |  | — | broncontrole uitvoeren |
-| 4276 |  | 4283 | Rebirth Distribution | rebirthdistribution.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4277 |  | 4284 | Redmoon Records | redmoonrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4278 |  | 4285 | selling and buying of new or used vinyl records and audio equipment | ledisquestore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4279 |  | 4286 | semplicementedischi.com | semplicementedischi.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4280 |  | 4287 | Strictly Groove Label Company | strictlygrooverecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4281 |  | 4288 | To Lose La Track | toloselatrack.org |  | PENDING |  | — | broncontrole uitvoeren |
-| 4282 |  | 4289 | trovacd.it | trovacd.it |  | PENDING |  | — | broncontrole uitvoeren |
-| 4283 |  | 4290 | Vinili, CD e DVD: negozio di dischi e distribuzione Pickup Records | pickuprecords.it |  | PENDING |  | — | broncontrole uitvoeren |
-| 4284 |  | 4291 | Vinyl For Sale , Online Record Shop , Second Hand And Used Vinyls | recordstore.it |  | PENDING |  | — | broncontrole uitvoeren |
-| 4285 |  | 4292 | Les Yper Sound | lysrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4286 |  | 4293 | TICRO MARKET | ticro.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4287 |  | 4294 | Strada Records | stradarecords.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4288 |  | 4295 | Cocobeat records | cocobeat-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4289 |  | 4296 | Meditations | meditations.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4290 |  | 4297 | Plastic Soul Records | plasticsoulrecord.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4291 |  | 4298 | Sixth Garden Records | sixthgarden.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4292 |  | 4299 | REALLY GOOD | reallygood.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4293 |  | 4300 | Music Punch RECORDS | musicpunchrecords.ti-da.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 4294 |  | 4301 | CELLAR RECORDS | cellar-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4295 |  | 4302 | Alffo Recordss | alfforecords.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 4296 |  | 4303 | Especial Records | especial-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4297 |  | 4304 | Morpho Records | morphorecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4298 |  | 4305 | RECORD SHOP rare groove | raregroove.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4299 |  | 4306 | Revenge records | revenge-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4300 |  | 4307 | Time Bomb Records | timebomb.co.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4301 |  | 4308 | Vox music | voxmusicweb.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4302 |  | 4309 | Bluesoul records | bluesoulrecords.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4303 |  | 4310 | Groovenut Records | groovenutrecords.stores.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4304 |  | 4311 | Rock Stakk Records | rockstakk.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4305 |  | 4312 | Root Down Records | rootdownrecords.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4306 |  | 4313 | Tototo records | tototorecords.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4307 |  | 4314 | OVEN UNIVERSE | ovenuniverse.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 4308 |  | 4315 | Anchor Records | anchorrecord.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4309 |  | 4316 | BIG LOVE RECORDS | bigloverecords.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4310 |  | 4317 | Record Boy | recordboy.shop-pro.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4311 |  | 4318 | Glocal Records | glocalrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4312 |  | 4319 | Hal's Record | hals-jazz.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4313 |  | 4320 | HMV record shop | hmv.co.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4314 |  | 4321 | Jet Set Records | jetsetrecords.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 4315 |  | 4322 | Lighthouse Records | lighthouserecords.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4316 |  | 4323 | Oldies But Goodies Records | oldiesbutgoodies-tokyo.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4317 |  | 4324 | Union Record Shibuya Parco | unionrecord-shibuya.blog.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4318 |  | 4325 | Art into Life | art-into-life.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4319 |  | 4326 | diskunion.net | diskunion.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 4320 |  | 4327 | EXILE RECORDS | exilerecords.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 4321 |  | 4328 | GRIND RECORDS | grindrecord.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4322 |  | 4329 | Newtone Records | newtone-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4323 |  | 4330 | OTAIRECORD | otaiweb.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4324 |  | 4331 | PEANUTS RECORDS | peanutsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4325 |  | 4332 | RANA-MUSICA RECORD STORE | ranamusica.info |  | PENDING |  | — | broncontrole uitvoeren |
-| 4326 |  | 4333 | RECORDSTAION | recordstation.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4327 |  | 4334 | SoundChannel��music store | soundchannel.shop-pro.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4328 |  | 4335 | Underground Gallery Record Store | undergroundgallery.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4329 |  | 4336 | ���ÁE�A�����R�[�h/CD�E���y�\�t�g �̔��E����@PLUS1 A.D. | plus1ad.web.fc2.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4330 |  | 4337 | ���Ã��R�[�h �ʔ� �bKENT RECORD �n�E�X���X | record8.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4331 |  | 4338 | CASTLE-RECORDS/TOPページ | castle-records.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 4332 |  | 4339 | cdya.biz | cdya.biz |  | PENDING |  | — | broncontrole uitvoeren |
-| 4333 |  | 4340 | CDソフトケース.com｜CD収納スペースを3分の1に | cdsoftcase.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4334 |  | 4341 | COCONUTS DISK | coconutsdisk.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4335 |  | 4342 | dessinee shop | dessineeshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4336 |  | 4343 | DX RECORDS | dxrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4337 |  | 4344 | Ella records | ella-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4338 |  | 4345 | estacio-records.com | estacio-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4339 |  | 4346 | fastcutrecords.com | fastcutrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4340 |  | 4347 | FreestyleOnline | freestyleonline.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 4341 |  | 4348 | greatest hits｜グレイテスト・ヒッツ | greatesthits-rec.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4342 |  | 4349 | HARIOTO RECORD STORE | harioto.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4343 |  | 4350 | MEGA-MIX（メガミックス） | mega-mix.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4344 |  | 4351 | Merurido | merurido.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4345 |  | 4352 | MORE MUSIC | moremusic.co.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4346 |  | 4353 | NEdS Records | neds-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4347 |  | 4354 | Parallax Records | parallaxrecords.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4348 |  | 4355 | pigeon-records.jp | pigeon-records.jp |  | PENDING |  | — | broncontrole uitvoeren |
-| 4349 |  | 4356 | Q89207896 | losapson.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 4350 |  | 4357 | Record Jungle Site | recojun.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4351 |  | 4358 | recordshopzoo.com | recordshopzoo.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4352 |  | 4359 | ReggaeRecord.com | reggaerecord.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4253 | 52 | 4260 | Jungle Records | junglerecords.it |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4254 | 52 | 4261 | LaPianola | lapianola.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 4255 | 52 | 4262 | MADA-RECORDS | madarecords.it | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4256 | 52 | 4263 | Militant Soul | militantsoul.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4257 | 52 | 4264 | MOVE ON Firenze | moveonfirenze.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4258 | 52 | 4265 | Solo Vinili | solovinili.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4259 | 52 | 4266 | sonic belligeranza | sonicbelligeranza.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4260 | 52 | 4267 | Ultrasuoni Records | ultrasuonirecords.com | woocommerce | SCRAPER_BUILT_TESTED | 2 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4261 | 52 | 4268 | 23cdstore.it | 23cdstore.it | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4262 | 52 | 4269 | Bot Verification | jollyrogerstore.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4263 | 52 | 4270 | cdclubentertainment.com | cdclubentertainment.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_999 |
+| 4264 | 52 | 4271 | Chicken Records | chickenrecords.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4265 | 52 | 4272 | discobolandia.it | discobolandia.it |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4266 | 52 | 4273 | Disco d'Oro | discodoro.it | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4267 | 52 | 4274 | Disco vinile in vendita online | indie.it | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4268 | 52 | 4275 | DOUBLE SIDE RECORDS | doublesiderecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4269 | 52 | 4276 | gabbiadischi | gabbiadischi.it |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: TimeoutError |
+| 4270 | 52 | 4277 | GrooveLab Records | groovelabrecords.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4271 | 52 | 4278 | Gugumed | gugumed.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4272 | 52 | 4279 | - Hate Records | haterecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_999 |
+| 4273 | 52 | 4280 | Musica Musica Perugia: we sell vinyl, cd, dvd, vhs | musicamusicaperugia.it |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_999 |
+| 4274 | 52 | 4281 | Pace Music | pacemusic.it | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4275 | 52 | 4282 | PinkMoonRecords.com | pinkmoonrecords.eu |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4276 | 52 | 4283 | Rebirth Distribution | rebirthdistribution.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4277 | 52 | 4284 | Redmoon Records | redmoonrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4278 | 52 | 4285 | selling and buying of new or used vinyl records and audio equipment | ledisquestore.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4279 | 52 | 4286 | semplicementedischi.com | semplicementedischi.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4280 | 52 | 4287 | Strictly Groove Label Company | strictlygrooverecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4281 | 52 | 4288 | To Lose La Track | toloselatrack.org |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4282 | 52 | 4289 | trovacd.it | trovacd.it |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_999 |
+| 4283 | 52 | 4290 | Vinili, CD e DVD: negozio di dischi e distribuzione Pickup Records | pickuprecords.it | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4284 | 52 | 4291 | Vinyl For Sale , Online Record Shop , Second Hand And Used Vinyls | recordstore.it |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4285 | 52 | 4292 | Les Yper Sound | lysrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_999 |
+| 4286 | 52 | 4293 | TICRO MARKET | ticro.com | shopify | SCRAPER_BUILT_TESTED | 7 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4287 | 52 | 4294 | Strada Records | stradarecords.jp | shopify | SCRAPER_BUILT_TESTED | 15 | 2/2 geldig | private QA en marktgate beoordelen |
+| 4288 | 52 | 4295 | Cocobeat records | cocobeat-records.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4289 | 52 | 4296 | Meditations | meditations.jp | shopify | SCRAPER_BUILT_TESTED | 18 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4290 | 52 | 4297 | Plastic Soul Records | plasticsoulrecord.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4291 | 52 | 4298 | Sixth Garden Records | sixthgarden.com | shopify | SCRAPER_BUILT_TESTED | 1 | 0/1 geldig | private QA en marktgate beoordelen |
+| 4292 | 52 | 4299 | REALLY GOOD | reallygood.jp | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4293 | 52 | 4300 | Music Punch RECORDS | musicpunchrecords.ti-da.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4294 | 52 | 4301 | CELLAR RECORDS | cellar-records.com | shopify | SCRAPER_BUILT_TESTED | 15 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4295 | 52 | 4302 | Alffo Recordss | alfforecords.net | shopify | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4296 | 52 | 4303 | Especial Records | especial-records.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4297 | 52 | 4304 | Morpho Records | morphorecords.com | shopify | SCRAPER_BUILT_TESTED | 12 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4298 | 52 | 4305 | RECORD SHOP rare groove | raregroove.jp | shopify | SCRAPER_BUILT_TESTED | 2 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4299 | 52 | 4306 | Revenge records | revenge-records.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4300 | 52 | 4307 | Time Bomb Records | timebomb.co.jp | shopify | SCRAPER_BUILT_TESTED | 17 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4301 | 52 | 4308 | Vox music | voxmusicweb.com | shopify | SCRAPER_BUILT_TESTED | 17 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4302 | 52 | 4309 | Bluesoul records | bluesoulrecords.jp | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4303 | 52 | 4310 | Groovenut Records | groovenutrecords.stores.jp |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4304 | 52 | 4311 | Rock Stakk Records | rockstakk.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4305 | 52 | 4312 | Root Down Records | rootdownrecords.jp |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4306 | 52 | 4313 | Tototo records | tototorecords.jp | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4307 | 52 | 4314 | OVEN UNIVERSE | ovenuniverse.net | shopify | SCRAPER_BUILT_TESTED | 6 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4308 | 52 | 4315 | Anchor Records | anchorrecord.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4309 | 52 | 4316 | BIG LOVE RECORDS | bigloverecords.jp | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4310 | 52 | 4317 | Record Boy | recordboy.shop-pro.jp |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4311 | 52 | 4318 | Glocal Records | glocalrecords.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4312 | 52 | 4319 | Hal's Record | hals-jazz.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4313 | 52 | 4320 | HMV record shop | hmv.co.jp |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4314 | 52 | 4321 | Jet Set Records | jetsetrecords.net |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4315 | 52 | 4322 | Lighthouse Records | lighthouserecords.jp | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4316 | 52 | 4323 | Oldies But Goodies Records | oldiesbutgoodies-tokyo.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4317 | 52 | 4324 | Union Record Shibuya Parco | unionrecord-shibuya.blog.jp | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4318 | 52 | 4325 | Art into Life | art-into-life.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4319 | 52 | 4326 | diskunion.net | diskunion.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4320 | 52 | 4327 | EXILE RECORDS | exilerecords.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4321 | 52 | 4328 | GRIND RECORDS | grindrecord.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4322 | 52 | 4329 | Newtone Records | newtone-records.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4323 | 52 | 4330 | OTAIRECORD | otaiweb.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4324 | 52 | 4331 | PEANUTS RECORDS | peanutsrecords.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4325 | 52 | 4332 | RANA-MUSICA RECORD STORE | ranamusica.info | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4326 | 52 | 4333 | RECORDSTAION | recordstation.jp | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4327 | 52 | 4334 | SoundChannel��music store | soundchannel.shop-pro.jp | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4328 | 52 | 4335 | Underground Gallery Record Store | undergroundgallery.jp | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4329 | 52 | 4336 | ���ÁE�A�����R�[�h/CD�E���y�\�t�g �̔��E����@PLUS1 A.D. | plus1ad.web.fc2.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4330 | 52 | 4337 | ���Ã��R�[�h �ʔ� �bKENT RECORD �n�E�X���X | record8.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4331 | 52 | 4338 | CASTLE-RECORDS/TOPページ | castle-records.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4332 | 52 | 4339 | cdya.biz | cdya.biz |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: TimeoutError |
+| 4333 | 52 | 4340 | CDソフトケース.com｜CD収納スペースを3分の1に | cdsoftcase.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4334 | 52 | 4341 | COCONUTS DISK | coconutsdisk.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4335 | 52 | 4342 | dessinee shop | dessineeshop.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4336 | 52 | 4343 | DX RECORDS | dxrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4337 | 52 | 4344 | Ella records | ella-records.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4338 | 52 | 4345 | estacio-records.com | estacio-records.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_503 |
+| 4339 | 52 | 4346 | fastcutrecords.com | fastcutrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_503 |
+| 4340 | 52 | 4347 | FreestyleOnline | freestyleonline.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4341 | 52 | 4348 | greatest hits｜グレイテスト・ヒッツ | greatesthits-rec.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4342 | 52 | 4349 | HARIOTO RECORD STORE | harioto.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4343 | 52 | 4350 | MEGA-MIX（メガミックス） | mega-mix.jp |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4344 | 52 | 4351 | Merurido | merurido.jp |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4345 | 52 | 4352 | MORE MUSIC | moremusic.co.jp | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4346 | 52 | 4353 | NEdS Records | neds-records.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4347 | 52 | 4354 | Parallax Records | parallaxrecords.jp | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4348 | 52 | 4355 | pigeon-records.jp | pigeon-records.jp |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4349 | 52 | 4356 | Q89207896 | losapson.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4350 | 52 | 4357 | Record Jungle Site | recojun.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4351 | 52 | 4358 | recordshopzoo.com | recordshopzoo.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4352 | 52 | 4359 | ReggaeRecord.com | reggaerecord.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
 | 4353 |  | 4360 | Tower Records Japan Inc. | tower.jp |  | PENDING |  | — | broncontrole uitvoeren |
 | 4354 |  | 4361 | ������Ѓ\�[�N --- SORC CORP. | sorc.co.jp |  | PENDING |  | — | broncontrole uitvoeren |
 | 4355 |  | 4362 | アイテクニック株式会社 | technique.co.jp |  | PENDING |  | — | broncontrole uitvoeren |
