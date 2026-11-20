@@ -2707,3 +2707,103 @@ Maximale bouwpogingen: 3
 | vinylberlin.de | 3957 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
 | bahlo-records.de | 3958 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | cafe-riptide.de | 3959 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rauterecords.de | 3960 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| cashmir-schallplatten.de | 3961 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| grooveattackrs.bigcartel.com | 3962 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rockersuptown.de | 3963 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| goodmoodrecords.de | 3964 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| plattschallen.de | 3965 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| underdogrecordstore.de | 3966 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| nuclearblast.de | 3967 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| vinylcafeschwarzesgold.de | 3968 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| idiots.de | 3969 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| amsterdam-record-shop.de | 3970 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| archiv-cd.de | 3971 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| blackplastic.de | 3972 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rainking-recordstore.de | 3973 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| 9dart-records.de | 3974 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| woodstock-recordstore.github.io | 3975 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| derschallplattenmann.de | 3976 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| vinyl-lounge.com | 3977 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| yeah-records.de | 3978 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| shop.formatio-kupfergold.de | 3979 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| mythos-records.de | 3980 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| tactilemusic.de | 3981 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| mono-tontraeger.de | 3982 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| derplattenladen-freiburg.de | 3983 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| marleenrecords.wordpress.com | 3984 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| s-r-t.de | 3985 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['s_r_t_de.py', 's_r_t_de.json'] |
+| cruiserecords.de | 3986 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['cruiserecords_de.py', 'cruiserecords_de.json'] |
+| musikhauskarami.de | 3987 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| backrecords.blogspot.com | 3988 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| funrecords.de | 3989 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wir-kaufen-schallplatten.de | 3990 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| plattenladen-heilbronn.de | 3991 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ebbtone.de | 3992 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| hellionrecords.de | 3993 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| haithabu-vinyl.de | 3994 | 1 | SOURCE_BLOCKED | — | — | — | TimeoutError |
+| das-schallplatte.de | 3995 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| fireandflames.com | 3996 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| groovezonerecords.com | 3997 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| isleofrecords.de | 3998 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| schallplattenlager.de | 3999 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordsandmore.de | 4000 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| shop.guitarpoint.de | 4001 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| fortherecord.store | 4002 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinyl-garage.com | 4003 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| optimal-records.de | 4004 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| bestvinyl.de | 4005 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| blackwaverecords.wordpress.com | 4006 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| gutfeeling.de | 4007 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| m2music.de | 4008 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sechzig.de | 4009 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| kernkrach-recordstore.de | 4010 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| tattoo22.de | 4011 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| imagine-schallplatten.de | 4012 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| mainrecords.net | 4013 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| shock-records.de | 4014 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| barbaradennerlein.com | 4015 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| schellack-plattenshop.net | 4016 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| humptyrecords.de | 4017 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| action-music.eu | 4018 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| vinyl-hst.de | 4019 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cheaptrashrecords.de | 4020 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| paulsmusique.com | 4021 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| ratzer-records.de | 4022 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| soundservice-vs.de | 4023 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| plattenbox-wiesbaden.jimdosite.com | 4024 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| plattenlauscher.de | 4025 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| heaven-records.de | 4026 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cargo-records.de | 4027 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| a-musik.com | 4028 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| angelrecords.de | 4029 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| artboxravensburg.de | 4030 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| bpitch.de | 4031 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| vinylkatalog.de | 4032 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['vinylkatalog_de.py', 'vinylkatalog_de.json'] |
+| colognestreetmarket.de | 4033 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| dodobeach.de | 4034 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| shop.hafenschlammrekords.de | 4035 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| greenhell.de | 4036 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| kompakt.fm | 4037 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| marshall.com | 4038 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| michelle-records.de | 4039 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| musicland-spandau.de | 4040 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| onlineshop.musicundmore.de | 4041 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| schlaile.de | 4042 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musikzimmer.store | 4043 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| oye-records.com | 4044 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| plattenkiste.nonstop-merch.com | 4045 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| remedyrecords.net | 4046 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| retro-nico.de | 4047 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| rockers.de | 4048 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| secondhandrecords.de | 4049 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| selekta-shop.de | 4050 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| toxic-toast-shop.de | 4051 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylnerds.de | 4052 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| vinyltosecond.com | 4053 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| violetrecords.de | 4054 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| zuchtundzucker.de | 4055 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| 12inch.de | 4056 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| schallplatten-duisburg.de | 4057 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| aktivmusicpointbochum.de | 4058 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| analogetontraeger.de | 4059 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
