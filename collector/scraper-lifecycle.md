@@ -3507,3 +3507,103 @@ Maximale bouwpogingen: 3
 | levelcrossingrecords.com | 4757 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | lioncoffeerecords.com | 4758 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
 | lionvibes.com | 4759 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['lionvibes_com.py', 'lionvibes_com.json'] |
+| lovevinyl.net | 4760 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| massive-international.com | 4761 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['massive_international_com.py', 'massive_international_com.json'] |
+| peckingsrecords.com | 4762 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| shop.phantasysound.co.uk | 4763 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['shop_phantasysound_co_uk.py', 'shop_phantasysound_co_uk.json'] |
+| planetwax.net | 4764 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| recycle-vinyl.co.uk | 4765 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['recycle_vinyl_co_uk.py', 'recycle_vinyl_co_uk.json'] |
+| suttonmusic.co.uk | 4766 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['suttonmusic_co_uk.py', 'suttonmusic_co_uk.json'] |
+| yoyorecordslondon.com | 4767 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| allagesrecords.com | 4768 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| allmyfriends.uk | 4769 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| atlantisrecords.co.uk | 4770 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cigaretterecords.co.uk | 4771 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| cash4records.co.uk | 4772 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| nextdoorrecords.co.uk | 4773 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| playvinyl.london | 4774 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| reckless.co.uk | 4775 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| riseaboverecordsandrelics.com | 4776 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| upsidedownrecords.co.uk | 4777 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylrevelations.com | 4778 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| carnivalrecords.co.uk | 4779 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylfetishes.com | 4780 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| clampdownrecords.com | 4781 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mcrblogs.co.uk | 4782 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thefeatherstar.co.uk | 4783 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| diversevinyl.com | 4784 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| phoenix-sounds.co.uk | 4785 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['phoenix_sounds_co_uk.py', 'phoenix_sounds_co_uk.json'] |
+| vinylunderground.co.uk | 4786 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['vinylunderground_co_uk.py', 'vinylunderground_co_uk.json'] |
+| fabtronic.co.uk | 4787 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| outoftimerecords.co.uk | 4788 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| mushimushirecords.co.uk | 4789 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordshopnottingham.com | 4790 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| far-landrecords.co.uk | 4791 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rapscallionrecords.co.uk | 4792 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| redrockrecords.co.uk | 4793 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| nothingventuredvinyl.co.uk | 4794 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['nothingventuredvinyl_co_uk.py', 'nothingventuredvinyl_co_uk.json'] |
+| recordplant.co.uk | 4795 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['recordplant_co_uk.py', 'recordplant_co_uk.json'] |
+| totalsounds.co.uk | 4796 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| recordcollectorsheffield.com | 4797 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| skiptonsoundbar.co.uk | 4798 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| toughlove.shop | 4799 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['toughlove_shop.py', 'toughlove_shop.json'] |
+| vinylrevivaluk.com | 4800 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['vinylrevivaluk_com.py', 'vinylrevivaluk_com.json'] |
+| yourvinylanswer.co.uk | 4801 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| rokerrecords.co.uk | 4802 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['rokerrecords_co_uk.py', 'rokerrecords_co_uk.json'] |
+| johnpacker.co.uk | 4803 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| hayesmusic.co.uk | 4804 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| crazybeat.co.uk | 4805 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylaudiocafe.com | 4806 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| fortyfiveuk.com | 4807 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| earwormrecords.co.uk | 4808 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| 303records.co.uk | 4809 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| actionrecords.co.uk | 4810 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thebeatandtrack.co.uk | 4811 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| blackslabrecords.com | 4812 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| booksontherise.com | 4813 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| concordemusic.com | 4814 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cultherorecords.co.uk | 4815 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| digdeeprecords.co.uk | 4816 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| eelpierecords.com | 4817 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| empirestalbans.com | 4818 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| lefreakrecords.co.uk | 4819 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| globalgroove.co.uk | 4820 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| grinningsoulrecords.com | 4821 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| haunted-dancehall.com | 4822 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hiddensounds.co.uk | 4823 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| idlehandsbristol.com | 4824 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lilleysvinyl.co.uk | 4825 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| thelpcafe.com | 4826 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| maestrorecords.uk | 4827 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| maldonbooks.com | 4828 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| moonfacerecords.co.uk | 4829 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| mostlyvinylmicky.com | 4830 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| novelsounds.co.uk | 4831 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| planetofsounds.co.uk | 4832 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| grapevinyl.net | 4833 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ravenrecordshop.com | 4834 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| therecordcafe.co.uk | 4835 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| replayrecords.co.uk | 4836 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| rivalrecords.co.uk | 4837 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| roanrecords.co.uk | 4838 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| saturnaliarecords.com | 4839 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thesecond45.com | 4840 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| secondlinerecords.com | 4841 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['secondlinerecords_com.py', 'secondlinerecords_com.json'] |
+| silvermachinerecords.co.uk | 4842 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| slowcenturyrecords.com | 4843 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| soundrecords.co.uk | 4844 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| spinningdiscssheffield.co.uk | 4845 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| spunout.website | 4846 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| booksandvinyl.co.uk | 4847 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| strangerthanparadiserecords.com | 4848 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| supertonerecords.co.uk | 4849 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| templeofbass.co.uk | 4850 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| tohaveandtoholdrecords.com | 4851 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| theturntable.uk | 4852 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| umbrellavinyl.com | 4853 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| futureisvinyl.co.uk | 4854 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| the-vinyl-countdown-whitchurch.square.site | 4855 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylrevivalmcr.com | 4856 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['vinylrevivalmcr_com.py', 'vinylrevivalmcr_com.json'] |
+| vinylvan.co.uk | 4857 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| vodmusic.co.uk | 4858 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| yewtreerecords.com | 4859 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
