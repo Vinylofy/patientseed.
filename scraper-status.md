@@ -1,16 +1,16 @@
 # Centrale scraperstatus
 
-Bronregels: 5102. Behandeld voor broncontrole: 3853. Open voor broncontrole: 1249.
+Bronregels: 5102. Behandeld voor broncontrole: 3953. Open voor broncontrole: 1149.
 
 Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine checksumproeven; private acceptatie, marktprijzen en imports volgen apart.
 
 ## Statusaantallen
 
-- ADAPTER_TESTED: 218
+- ADAPTER_TESTED: 225
 - DETAIL_GATE_BLOCKED: 102
-- ROUTE_REVIEW: 1355
-- SCRAPER_BUILT_TESTED: 415
-- SOURCE_BLOCKED: 503
+- ROUTE_REVIEW: 1403
+- SCRAPER_BUILT_TESTED: 418
+- SOURCE_BLOCKED: 545
 - SOURCE_REVIEW: 1260
 
 ## Brongroepen
@@ -21,10 +21,10 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 |---|---:|---:|---:|---:|
 | Oorspronkelijke lijst | 3303 | 3303 | 0 | 247 |
 | Findyl online — 25-10-2026 (50; inclusief 4 herbeoordelingen) | 50 | 50 | 0 | 28 |
-| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 378 | 1240 | 77 |
+| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 478 | 1140 | 80 |
 | Vinylscout winkels — 19-11-2026 (nieuwe domeinen) | 9 | 0 | 9 | 0 |
 | Waxtra Rumours — 19-11-2026 (nieuwe domeinen) | 122 | 122 | 0 | 63 |
-| **Totaal** | **5102** | **3853** | **1249** | **415** |
+| **Totaal** | **5102** | **3953** | **1149** | **418** |
 
 ## Winkels
 
@@ -3883,106 +3883,106 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 | 3850 | 47 | 3857 | Balades Sonores | baladessonores.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
 | 3851 | 47 | 3858 | Blazing | blazingmusicshop.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
 | 3852 | 47 | 3859 | COMETS | cafecomets.fr | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
-| 3853 |  | 3860 | Culture Factory | culturefactory.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3854 |  | 3861 | HARK Records | hark.paris |  | PENDING |  | — | broncontrole uitvoeren |
-| 3855 |  | 3862 | Kanaga Records | kanaga-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3856 |  | 3863 | Lucky Records | lucky-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3857 |  | 3864 | Miniwax | miniwax.club |  | PENDING |  | — | broncontrole uitvoeren |
-| 3858 |  | 3865 | Music Fear Satan | musicfearsatan.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3859 |  | 3866 | Rock Paradise | rockparadise.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3860 |  | 3867 | Souffle Continu | soufflecontinu.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3861 |  | 3868 | Born Bad Records | bornbad.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3862 |  | 3869 | Crocojazz | crocodisc.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3863 |  | 3870 | Etoile Disques | etoiledisques.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3864 |  | 3871 | Hands &#038; Arms Music | handsandarms.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3865 |  | 3872 | Heartbeat Vinyl | heartbeatvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3866 |  | 3873 | Patate Records | patate-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3867 |  | 3874 | Le Rideau de Fer | lerideaudefer.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3868 |  | 3875 | La Voie du Silence | lavoiedusilence.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3869 |  | 3876 | Zic &#038; Bul | zicbul.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3870 |  | 3877 | Jet Records | jetrecords.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3871 |  | 3878 | Oso Records | oso-records.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3872 |  | 3879 | Librairie Ravy | librairieravy.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3873 |  | 3880 | Blindspot &#8211; Les Angles Morts | blindspot.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3874 |  | 3881 | Rockin’ Bones | beastrecords.free.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3875 |  | 3882 | Les Mondes Perdus | lesmondesperdus.free.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3876 |  | 3883 | Forum Saint-Etienne | forum-saint-etienne.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3877 |  | 3884 | 33 and Co | 33andco.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3878 |  | 3885 | Paul Emile Vinyls | disque-vinyle.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3879 |  | 3886 | Vicious Circle | toulouse.viciouscircle.org |  | PENDING |  | — | broncontrole uitvoeren |
-| 3880 |  | 3887 | The Rev’ | therev.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3881 |  | 3888 | Librairie Cheminant | librairiecheminant.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3882 |  | 3889 | Stigmate Record Shop | stigmate.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3883 |  | 3890 | ADIPOCERE SHOP | adipocere-shop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3884 |  | 3891 | Arnaud Deverre Edition | arnauddeverre.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3885 |  | 3892 | Discophenia, disquaire de banlieue | discophenia.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3886 |  | 3893 | Le Disquaire du Dimanche | ledisquairedudimanche.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3887 |  | 3894 | Disquaire en ligne | melomane.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3888 |  | 3895 | Dizonord | dizonord.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3889 |  | 3896 | Doghouse and Bone | doghouseandbone.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3890 |  | 3897 | // La Face Cachée // Vente de VINYLES + CD + DVD + BD + HIFI // Neufs et occasions // | la-face-cachee.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3891 |  | 3898 | Ground Zero | groundzero.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3892 |  | 3899 | Illogicall Music | illogicall-music.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3893 |  | 3900 | Livity Records | livity-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3894 |  | 3901 | Locked Grooves | lockedgrooves.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3895 |  | 3902 | Mindtrip Record Store | mindtrip-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3896 |  | 3903 | MUSIC AVENUE PARIS | musicavenueparis.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3897 |  | 3904 | Oneness Records | 1ness.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3898 |  | 3905 | Plexusrecords | plexusrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3899 |  | 3906 | technoimport | techno-import.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3900 |  | 3907 | Yoyaku Record Store | yoyaku.io |  | PENDING |  | — | broncontrole uitvoeren |
-| 3901 |  | 3908 | 100% white puzzle records | myrecordstore.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3902 |  | 3909 | 134.33.67.120 13.11.2026 13:44:25 | mixape.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3903 |  | 3910 | Betinos | betinos.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3904 |  | 3911 | Chicken Road🎖️Jouez au crash Chicken Road Casino | lprecords22.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3905 |  | 3912 | Collector Boutique POESIE-SONORE.COM | poesie-sonore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3906 |  | 3913 | Le comptoir du disque | lecomptoirdudisque.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3907 |  | 3914 | Cougouyou music . le disquaire de Perpignan | cougouyou-music.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3908 |  | 3915 | Discomaniaks | discomaniaks.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3909 |  | 3916 | Disques vinyle hifi vid�o | vinylstory.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3910 |  | 3917 | extendandplay-records.com | extendandplay-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3911 |  | 3918 | gibert.com | gibert.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3912 |  | 3919 | itsonlyrennes.fr | itsonlyrennes.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3913 |  | 3920 | Je Console Sarreguemines | jeconsole57.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3914 |  | 3921 | laboutikbeatbazaar.shop | laboutikbeatbazaar.shop |  | PENDING |  | — | broncontrole uitvoeren |
-| 3915 |  | 3922 | L'Oreille KC | oreillekc.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3916 |  | 3923 | monstermelodies.fr | monstermelodies.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3917 |  | 3924 | parisdjs.com | parisdjs.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3918 |  | 3925 | PASSE PASSE STORE | passepassestore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3919 |  | 3926 | select records | select-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3920 |  | 3927 | Site en construction | atomikimport.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3921 |  | 3928 | Sofa Records | sofarecords.fr |  | PENDING |  | — | broncontrole uitvoeren |
-| 3922 |  | 3929 | Sonic Import | sonic-vinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3923 |  | 3930 | Superfly Records | superflyrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3924 |  | 3931 | Toolbox records | toolboxrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3925 |  | 3932 | vintage-vinyl | sues-vinyls.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3926 |  | 3933 | 大地资源在线观看高清韩剧网 | dubwize-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3927 |  | 3934 | Arrivals to Retromania Records | retromania.ge |  | PENDING |  | — | broncontrole uitvoeren |
-| 3928 |  | 3935 | Echobeat Records | echobeat-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3929 |  | 3936 | Pit‘s Record Store | pits-record-store.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3930 |  | 3937 | PartyOnTour.de Veranstaltungstechnik | partyontour.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3931 |  | 3938 | Noisebringer Records Store | noisebringer.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3932 |  | 3939 | Monochrom Records | monochrom-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3933 |  | 3940 | Anagram Space | anagramspace.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3934 |  | 3941 | Bis aufs Messer | bisaufsmesser.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3935 |  | 3942 | EG Distribution GmbH | evilgreed.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 3936 |  | 3943 | Muting The Noise | mutingthenoise.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3937 |  | 3944 | recordsale.de | recordsale.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3938 |  | 3945 | Sentimental Youth | sentimentalyouth.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3939 |  | 3946 | SEVEN Community Record Store | seven.berlin |  | PENDING |  | — | broncontrole uitvoeren |
-| 3940 |  | 3947 | Sound Metaphors Record Shop | soundmetaphors.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3941 |  | 3948 | 33rpm classical records | 33rpm.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3942 |  | 3949 | Disconnect Art Gallery and Record Shop | disconnectberlin.wordpress.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3943 |  | 3950 | Holy’s Hit Records | holyshitrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3944 |  | 3951 | Lefter Records | lefterrecords.wordpress.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3945 |  | 3952 | Logo Records | logo-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3946 |  | 3953 | Musictrain Records | musictrain-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3947 |  | 3954 | Purple Penny Records | purplepennyrecords.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3948 |  | 3955 | The Recordstore Berlin | therecordstore-berlin.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3949 |  | 3956 | Vinyl a Gogo | vinyl-a-gogo.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 3950 |  | 3957 | Vinylberlin | vinylberlin.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3951 |  | 3958 | Bahlo Records | bahlo-records.de |  | PENDING |  | — | broncontrole uitvoeren |
-| 3952 |  | 3959 | Riptide | cafe-riptide.de |  | PENDING |  | — | broncontrole uitvoeren |
+| 3853 | 48 | 3860 | Culture Factory | culturefactory.fr | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 3854 | 48 | 3861 | HARK Records | hark.paris | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3855 | 48 | 3862 | Kanaga Records | kanaga-records.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3856 | 48 | 3863 | Lucky Records | lucky-records.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3857 | 48 | 3864 | Miniwax | miniwax.club |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Response size limit |
+| 3858 | 48 | 3865 | Music Fear Satan | musicfearsatan.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3859 | 48 | 3866 | Rock Paradise | rockparadise.fr | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3860 | 48 | 3867 | Souffle Continu | soufflecontinu.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3861 | 48 | 3868 | Born Bad Records | bornbad.fr | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3862 | 48 | 3869 | Crocojazz | crocodisc.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: RemoteDisconnected |
+| 3863 | 48 | 3870 | Etoile Disques | etoiledisques.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3864 | 48 | 3871 | Hands &#038; Arms Music | handsandarms.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 3865 | 48 | 3872 | Heartbeat Vinyl | heartbeatvinyl.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3866 | 48 | 3873 | Patate Records | patate-records.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3867 | 48 | 3874 | Le Rideau de Fer | lerideaudefer.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3868 | 48 | 3875 | La Voie du Silence | lavoiedusilence.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3869 | 48 | 3876 | Zic &#038; Bul | zicbul.fr | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3870 | 48 | 3877 | Jet Records | jetrecords.fr | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3871 | 48 | 3878 | Oso Records | oso-records.fr |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3872 | 48 | 3879 | Librairie Ravy | librairieravy.fr | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3873 | 48 | 3880 | Blindspot &#8211; Les Angles Morts | blindspot.fr |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3874 | 48 | 3881 | Rockin’ Bones | beastrecords.free.fr |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3875 | 48 | 3882 | Les Mondes Perdus | lesmondesperdus.free.fr |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3876 | 48 | 3883 | Forum Saint-Etienne | forum-saint-etienne.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3877 | 48 | 3884 | 33 and Co | 33andco.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3878 | 48 | 3885 | Paul Emile Vinyls | disque-vinyle.fr |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3879 | 48 | 3886 | Vicious Circle | toulouse.viciouscircle.org |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3880 | 48 | 3887 | The Rev’ | therev.fr | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3881 | 48 | 3888 | Librairie Cheminant | librairiecheminant.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3882 | 48 | 3889 | Stigmate Record Shop | stigmate.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3883 | 48 | 3890 | ADIPOCERE SHOP | adipocere-shop.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3884 | 48 | 3891 | Arnaud Deverre Edition | arnauddeverre.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 3885 | 48 | 3892 | Discophenia, disquaire de banlieue | discophenia.fr | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 3886 | 48 | 3893 | Le Disquaire du Dimanche | ledisquairedudimanche.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3887 | 48 | 3894 | Disquaire en ligne | melomane.fr |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 3888 | 48 | 3895 | Dizonord | dizonord.fr | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3889 | 48 | 3896 | Doghouse and Bone | doghouseandbone.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3890 | 48 | 3897 | // La Face Cachée // Vente de VINYLES + CD + DVD + BD + HIFI // Neufs et occasions // | la-face-cachee.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3891 | 48 | 3898 | Ground Zero | groundzero.fr |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 3892 | 48 | 3899 | Illogicall Music | illogicall-music.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 3893 | 48 | 3900 | Livity Records | livity-records.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3894 | 48 | 3901 | Locked Grooves | lockedgrooves.fr | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3895 | 48 | 3902 | Mindtrip Record Store | mindtrip-records.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3896 | 48 | 3903 | MUSIC AVENUE PARIS | musicavenueparis.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 3897 | 48 | 3904 | Oneness Records | 1ness.fr | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3898 | 48 | 3905 | Plexusrecords | plexusrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 3899 | 48 | 3906 | technoimport | techno-import.fr | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 3900 | 48 | 3907 | Yoyaku Record Store | yoyaku.io | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3901 | 48 | 3908 | 100% white puzzle records | myrecordstore.fr | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 3902 | 48 | 3909 | 134.33.67.120 13.11.2026 13:44:25 | mixape.fr | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3903 | 48 | 3910 | Betinos | betinos.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3904 | 48 | 3911 | Chicken Road🎖️Jouez au crash Chicken Road Casino | lprecords22.fr | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3905 | 48 | 3912 | Collector Boutique POESIE-SONORE.COM | poesie-sonore.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3906 | 48 | 3913 | Le comptoir du disque | lecomptoirdudisque.fr | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3907 | 48 | 3914 | Cougouyou music . le disquaire de Perpignan | cougouyou-music.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3908 | 48 | 3915 | Discomaniaks | discomaniaks.fr | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3909 | 48 | 3916 | Disques vinyle hifi vid�o | vinylstory.fr |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3910 | 48 | 3917 | extendandplay-records.com | extendandplay-records.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3911 | 48 | 3918 | gibert.com | gibert.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 3912 | 48 | 3919 | itsonlyrennes.fr | itsonlyrennes.fr |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3913 | 48 | 3920 | Je Console Sarreguemines | jeconsole57.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3914 | 48 | 3921 | laboutikbeatbazaar.shop | laboutikbeatbazaar.shop | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3915 | 48 | 3922 | L'Oreille KC | oreillekc.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3916 | 48 | 3923 | monstermelodies.fr | monstermelodies.fr | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3917 | 48 | 3924 | parisdjs.com | parisdjs.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3918 | 48 | 3925 | PASSE PASSE STORE | passepassestore.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3919 | 48 | 3926 | select records | select-records.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3920 | 48 | 3927 | Site en construction | atomikimport.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3921 | 48 | 3928 | Sofa Records | sofarecords.fr | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3922 | 48 | 3929 | Sonic Import | sonic-vinyl.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3923 | 48 | 3930 | Superfly Records | superflyrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3924 | 48 | 3931 | Toolbox records | toolboxrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 3925 | 48 | 3932 | vintage-vinyl | sues-vinyls.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3926 | 48 | 3933 | 大地资源在线观看高清韩剧网 | dubwize-records.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3927 | 48 | 3934 | Arrivals to Retromania Records | retromania.ge | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3928 | 48 | 3935 | Echobeat Records | echobeat-records.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3929 | 48 | 3936 | Pit‘s Record Store | pits-record-store.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3930 | 48 | 3937 | PartyOnTour.de Veranstaltungstechnik | partyontour.de | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 3931 | 48 | 3938 | Noisebringer Records Store | noisebringer.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3932 | 48 | 3939 | Monochrom Records | monochrom-records.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3933 | 48 | 3940 | Anagram Space | anagramspace.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 3934 | 48 | 3941 | Bis aufs Messer | bisaufsmesser.com | shopify | SCRAPER_BUILT_TESTED | 16 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3935 | 48 | 3942 | EG Distribution GmbH | evilgreed.net |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 3936 | 48 | 3943 | Muting The Noise | mutingthenoise.com | shopify | SCRAPER_BUILT_TESTED | 19 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3937 | 48 | 3944 | recordsale.de | recordsale.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3938 | 48 | 3945 | Sentimental Youth | sentimentalyouth.com | shopify | SCRAPER_BUILT_TESTED | 8 | 0/2 geldig | private QA en marktgate beoordelen |
+| 3939 | 48 | 3946 | SEVEN Community Record Store | seven.berlin | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3940 | 48 | 3947 | Sound Metaphors Record Shop | soundmetaphors.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3941 | 48 | 3948 | 33rpm classical records | 33rpm.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3942 | 48 | 3949 | Disconnect Art Gallery and Record Shop | disconnectberlin.wordpress.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3943 | 48 | 3950 | Holy’s Hit Records | holyshitrecords.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3944 | 48 | 3951 | Lefter Records | lefterrecords.wordpress.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3945 | 48 | 3952 | Logo Records | logo-records.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_503 |
+| 3946 | 48 | 3953 | Musictrain Records | musictrain-records.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3947 | 48 | 3954 | Purple Penny Records | purplepennyrecords.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3948 | 48 | 3955 | The Recordstore Berlin | therecordstore-berlin.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3949 | 48 | 3956 | Vinyl a Gogo | vinyl-a-gogo.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3950 | 48 | 3957 | Vinylberlin | vinylberlin.de |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 3951 | 48 | 3958 | Bahlo Records | bahlo-records.de | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 3952 | 48 | 3959 | Riptide | cafe-riptide.de | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
 | 3953 |  | 3960 | RauteRecords | rauterecords.de |  | PENDING |  | — | broncontrole uitvoeren |
 | 3954 |  | 3961 | Cashmir-Schallplatten | cashmir-schallplatten.de |  | PENDING |  | — | broncontrole uitvoeren |
 | 3955 |  | 3962 | Groove Attack Record Store | grooveattackrs.bigcartel.com |  | PENDING |  | — | broncontrole uitvoeren |
