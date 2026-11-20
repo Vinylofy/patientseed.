@@ -1,76 +1,27 @@
 {
   "fingerprint": "8acc3643e1110063605f995c0801c55728d1a2ef6a456493ed37a071f1323e7d",
   "domain": "soundbendrecords.co",
-  "batch": 29,
+  "batch": 39,
   "repair_attempts": 3,
   "repair_modes": [
-    "ean"
+    "price"
   ],
   "admitted": true,
   "status": "FROZEN",
-  "run_id": "42776942344",
-  "updated_at": "2026-11-10T07:40:47.936152+00:00",
+  "run_id": "44696709935",
+  "updated_at": "2026-11-20T07:40:46.045074+00:00",
   "evidence": {
     "domain": "soundbendrecords.co",
     "route": "https://soundbendrecords.co/products.json?limit=20&page=1",
-    "observed_at": "2026-11-10T07:40:44.656238+00:00",
-    "requests": [
-      {
-        "url": "https://soundbendrecords.co/products.json?limit=20&page=1",
-        "sha256": "80f9eb47e292835e521ad98a1e11fe347f2574d80f47abed51112a8b06ed39ba"
-      },
-      {
-        "url": "https://soundbendrecords.co/products/soundgarden-live-from-the-artists-den-limited-edition-deluxe-4lp-set-with-multicolor-neon-splatter-vinyl?variant=50732746342658",
-        "sha256": "9d295de7951aaaee843017f7cb83633996762a3b6b7b042cbe04e3c009dc3822"
-      },
-      {
-        "url": "https://soundbendrecords.co/products/untitled-oct12_18-58-54?variant=50723065954562",
-        "sha256": "62480dfdaf289cb8424b96b0edec2cd4568a207718640b89a989e9b33cc25a9e"
-      },
-      {
-        "url": "https://soundbendrecords.co/products/the-beach-boys-sounds-of-summer-the-very-best-of-the-beach-boys-60th-anniversary-edition-180g-2lp-vinyl?variant=50722889203970",
-        "sha256": "083c5b53650c119a73694668f94002880e594adf55bfbc59621e89fdad5b8df7"
-      }
-    ],
-    "listing_records": 15,
-    "detail_checked": 3,
+    "observed_at": "2026-11-20T07:40:45.887249+00:00",
+    "requests": [],
+    "listing_records": 0,
+    "detail_checked": 0,
     "valid_eans": 0,
-    "details": [
-      {
-        "url": "https://soundbendrecords.co/products/soundgarden-live-from-the-artists-den-limited-edition-deluxe-4lp-set-with-multicolor-neon-splatter-vinyl?variant=50732746342658",
-        "price": "49.99",
-        "currency": "USD",
-        "ean": null,
-        "condition": "new"
-      },
-      {
-        "url": "https://soundbendrecords.co/products/untitled-oct12_18-58-54?variant=50723065954562",
-        "price": "12.99",
-        "currency": "USD",
-        "ean": null,
-        "condition": "new"
-      },
-      {
-        "url": "https://soundbendrecords.co/products/the-beach-boys-sounds-of-summer-the-very-best-of-the-beach-boys-60th-anniversary-edition-180g-2lp-vinyl?variant=50722889203970",
-        "price": "19.99",
-        "currency": "USD",
-        "ean": null,
-        "condition": "new"
-      }
-    ],
+    "details": [],
     "database_write": false,
-    "price_quality": {
-      "status": "pass",
-      "flags": [],
-      "records_checked": 15,
-      "unique_prices": 10,
-      "shipping_hits": 0,
-      "currencies": [
-        "USD"
-      ]
-    },
     "status": "REVIEW",
-    "reason": "detail_ean_not_proven",
+    "reason": "HTTP_402",
     "error_type": "CollectionBlocked"
   },
   "history": [
@@ -109,6 +60,24 @@
       "status": "FROZEN",
       "reason": "detail_ean_not_proven",
       "run_id": "42776942344"
+    },
+    {
+      "batch": 37,
+      "status": "REVIEW",
+      "reason": "HTTP_402",
+      "run_id": "44262271076"
+    },
+    {
+      "batch": 38,
+      "status": "REVIEW",
+      "reason": "HTTP_402",
+      "run_id": "44482526349"
+    },
+    {
+      "batch": 39,
+      "status": "FROZEN",
+      "reason": "HTTP_402",
+      "run_id": "44696709935"
     }
   ],
   "approved_route": "https://soundbendrecords.co/products.json?limit=20&page=1",
