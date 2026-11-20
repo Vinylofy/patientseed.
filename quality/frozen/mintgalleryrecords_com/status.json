@@ -1,0 +1,171 @@
+{
+  "fingerprint": "cf40ddaac9dad78e90ebd73820df346266335ed95b0b5e294c32d2ac50ff0e95",
+  "domain": "mintgalleryrecords.com",
+  "batch": 39,
+  "repair_attempts": 3,
+  "repair_modes": [
+    "ean",
+    "price"
+  ],
+  "admitted": true,
+  "status": "FROZEN",
+  "run_id": "44696709935",
+  "updated_at": "2026-11-20T07:40:45.843616+00:00",
+  "evidence": {
+    "domain": "mintgalleryrecords.com",
+    "route": "https://mintgalleryrecords.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-20T07:40:43.466044+00:00",
+    "requests": [
+      {
+        "url": "https://mintgalleryrecords.com/products.json?limit=20&page=1",
+        "sha256": "84e10e05071d6f70d39b2a68724bcfb4d6a9062a7b526a0b1a1d43d24db99b30"
+      },
+      {
+        "url": "https://mintgalleryrecords.com/products/coachwhips-hands-on-the-controls?variant=68075747999974",
+        "sha256": "9fbed42d4d627c0cdf7138e4f0165eee57d636d040515f513016079cb6161d63"
+      },
+      {
+        "url": "https://mintgalleryrecords.com/products/the-victor-dimisich-band-the-victor-dimisich-band?variant=68075695735014",
+        "sha256": "dbf06175248760853b6428c2d83b85b029684c045ae660f79b488c34117783cd"
+      }
+    ],
+    "listing_records": 3,
+    "detail_checked": 1,
+    "valid_eans": 1,
+    "details": [
+      {
+        "url": "https://mintgalleryrecords.com/products/coachwhips-hands-on-the-controls?variant=68075747999974",
+        "price": "25.00",
+        "currency": "USD",
+        "ean": "02092000131714",
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 3,
+      "unique_prices": 2,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "REVIEW",
+    "reason": "invalid_detail_gtin",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 4,
+      "status": "REVIEW",
+      "reason": "invalid_detail_gtin",
+      "run_id": "39548302912"
+    },
+    {
+      "batch": 24,
+      "status": "REVIEW",
+      "reason": "invalid_detail_gtin",
+      "run_id": "41986126217"
+    },
+    {
+      "batch": 25,
+      "status": "REVIEW",
+      "reason": "invalid_detail_gtin",
+      "run_id": "42179971421"
+    },
+    {
+      "batch": 26,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "42347253201"
+    },
+    {
+      "batch": 36,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "44046382607"
+    },
+    {
+      "batch": 37,
+      "status": "REVIEW",
+      "reason": "invalid_detail_gtin",
+      "run_id": "44262271076"
+    },
+    {
+      "batch": 38,
+      "status": "REVIEW",
+      "reason": "invalid_detail_gtin",
+      "run_id": "44482526349"
+    },
+    {
+      "batch": 39,
+      "status": "FROZEN",
+      "reason": "invalid_detail_gtin",
+      "run_id": "44696709935"
+    }
+  ],
+  "approved_route": "https://mintgalleryrecords.com/products.json?limit=20&page=1",
+  "admission_evidence": {
+    "domain": "mintgalleryrecords.com",
+    "route": "https://mintgalleryrecords.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-07T06:29:57.146252+00:00",
+    "requests": [
+      {
+        "url": "https://mintgalleryrecords.com/products.json?limit=20&page=1",
+        "sha256": "75a7ea986fc6914b1601c49f9672d7a2b645f1ea7d5828d952586de96493c89e"
+      },
+      {
+        "url": "https://mintgalleryrecords.com/products/underworld-drift-series-1-sampler-edition-1?variant=67974570705126",
+        "sha256": "3281e66ad8fbaf07d4225ef3100f17a56e9fd3a8fadf5d76f67438ceec60f04f"
+      },
+      {
+        "url": "https://mintgalleryrecords.com/products/michael-jackson-off-the-wall-2?variant=67974322127078",
+        "sha256": "08c53b30d799db6207effcc73512d64095c3e60c0b9070dc0a1fb85a7b093a01"
+      },
+      {
+        "url": "https://mintgalleryrecords.com/products/thomas-leer-robert-rental-the-bridge-1?variant=67973986517222",
+        "sha256": "82b3786e0ece10e01237b05f2c4e51c355f17e7ad037f5f22dac63436bbd5ef5"
+      }
+    ],
+    "listing_records": 20,
+    "detail_checked": 3,
+    "valid_eans": 3,
+    "details": [
+      {
+        "url": "https://mintgalleryrecords.com/products/underworld-drift-series-1-sampler-edition-1?variant=67974570705126",
+        "price": "30.00",
+        "currency": "USD",
+        "ean": "00602577853401",
+        "condition": "new"
+      },
+      {
+        "url": "https://mintgalleryrecords.com/products/michael-jackson-off-the-wall-2?variant=67974322127078",
+        "price": "28.00",
+        "currency": "USD",
+        "ean": "00888751894211",
+        "condition": "new"
+      },
+      {
+        "url": "https://mintgalleryrecords.com/products/thomas-leer-robert-rental-the-bridge-1?variant=67973986517222",
+        "price": "35.00",
+        "currency": "USD",
+        "ean": "05400863060503",
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 20,
+      "unique_prices": 8,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "APPROVED"
+  }
+}
