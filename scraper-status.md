@@ -1,16 +1,16 @@
 # Centrale scraperstatus
 
-Bronregels: 5102. Behandeld voor broncontrole: 4653. Open voor broncontrole: 449.
+Bronregels: 5102. Behandeld voor broncontrole: 4753. Open voor broncontrole: 349.
 
 Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine checksumproeven; private acceptatie, marktprijzen en imports volgen apart.
 
 ## Statusaantallen
 
-- ADAPTER_TESTED: 315
+- ADAPTER_TESTED: 334
 - DETAIL_GATE_BLOCKED: 102
-- ROUTE_REVIEW: 1754
-- SCRAPER_BUILT_TESTED: 468
-- SOURCE_BLOCKED: 754
+- ROUTE_REVIEW: 1797
+- SCRAPER_BUILT_TESTED: 486
+- SOURCE_BLOCKED: 774
 - SOURCE_REVIEW: 1260
 
 ## Brongroepen
@@ -21,10 +21,10 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 |---|---:|---:|---:|---:|
 | Oorspronkelijke lijst | 3303 | 3303 | 0 | 247 |
 | Findyl online — 25-10-2026 (50; inclusief 4 herbeoordelingen) | 50 | 50 | 0 | 28 |
-| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 1178 | 440 | 130 |
+| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 1278 | 340 | 148 |
 | Vinylscout winkels — 19-11-2026 (nieuwe domeinen) | 9 | 0 | 9 | 0 |
 | Waxtra Rumours — 19-11-2026 (nieuwe domeinen) | 122 | 122 | 0 | 63 |
-| **Totaal** | **5102** | **4653** | **449** | **468** |
+| **Totaal** | **5102** | **4753** | **349** | **486** |
 
 ## Winkels
 
@@ -4683,106 +4683,106 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 | 4650 | 55 | 4657 | Record Mania Store | recordmania.se | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
 | 4651 | 55 | 4658 | Skivhögen har nya och begagnade skivor på Högbergsgatan | skivhogen.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
 | 4652 | 55 | 4659 | Vinylskivor | nostalgipalatset.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
-| 4653 |  | 4660 | recordroom | recordroom.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4654 |  | 4661 | Spot Records | spotrecords.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4655 |  | 4662 | Black Mandarin | blackmandarin.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4656 |  | 4663 | Vinyl Sound | vinylsound.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4657 |  | 4664 | Baff Music | baff.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4658 |  | 4665 | ZIG ZAG records | zigzagmusic.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4659 |  | 4666 | MusikLaden Record Store | record-store.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4660 |  | 4667 | Ventilator Records | ventilator-records.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4661 |  | 4668 | Sihl Records | sihlrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4662 |  | 4669 | Blutt Records | bluttrecords.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4663 |  | 4670 | Hum Records | humrecords.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4664 |  | 4671 | db records corner | dbrecordscorner.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4665 |  | 4672 | elchRecords | elchrecords.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4666 |  | 4673 | hammersound, hammersounds, cd, lp, secon hand lp, hifi, vincent, heimkino, reparaturservice, an und verkauf,lp waschen, lp's ab 1.- fr. | hammersounds.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4667 |  | 4674 | RECORDS | plattfon.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4668 |  | 4675 | Rockaway Beach | rockawaybeach.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4669 |  | 4676 | 33 Turä Bärn | 33turae.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4670 |  | 4677 | Analog Bar | analogbar.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4671 |  | 4678 | audiopur hifi | audiopur.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4672 |  | 4679 | Bongo Joe Records | bongojoe.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4673 |  | 4680 | CO-MIX REMIX | co-mix.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4674 |  | 4681 | Dezibelle | dezibelle.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4675 |  | 4682 | Disc-à-Brac | disc-a-brac.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4676 |  | 4683 | gigs.ch | gigs.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4677 |  | 4684 | Kreativ Media GmbH | lecoinvinyles.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4678 |  | 4685 | Next Chapter | nxtchapter.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4679 |  | 4686 | Oldiesshop Bern | oldiesshop.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4680 |  | 4687 | Old Town Record Store | otrs.rocks |  | PENDING |  | — | broncontrole uitvoeren |
-| 4681 |  | 4688 | Outsider | outsider-shop.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4682 |  | 4689 | rille. The House of Vinyl. | rille.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4683 |  | 4690 | Serge & Peppers | sergeandpeppers.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4684 |  | 4691 | Six Pack Records | shop.6pack.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4685 |  | 4692 | Take Five | takefive.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4686 |  | 4693 | Tondo Music | tondomusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4687 |  | 4694 | VINYL STATION | vinylstation.musikhug.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4688 |  | 4695 | Zorrock | zorrock.ch |  | PENDING |  | — | broncontrole uitvoeren |
-| 4689 |  | 4696 | Black Glue Records | blackgluerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4690 |  | 4697 | Music Box Vinyl Café | musicboxtw.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4691 |  | 4698 | สุดแรงม้า | zudrangmarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4692 |  | 4699 | Güneş Müzik | gunesmuzik.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4693 |  | 4700 | CDPLAK.COM | cdplak.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4694 |  | 4701 | EGE KİTAP & PLAK | egekitabevi.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 4695 |  | 4702 | Plakperest | plakperest.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4696 |  | 4703 | The Vinyl | thevinyl.com.ua |  | PENDING |  | — | broncontrole uitvoeren |
-| 4697 |  | 4704 | Vinyla | vinyla.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4698 |  | 4705 | Just Punk Vinyl | jpv.com.ua |  | PENDING |  | — | broncontrole uitvoeren |
-| 4699 |  | 4706 | Diskultura Vinyl Centr | diskultura.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4700 |  | 4707 | totalmetalshop.com | totalmetalshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4701 |  | 4708 | Raw Music Store | rawmusicstore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4702 |  | 4709 | MAIDINVINYL | maidinvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4703 |  | 4710 | Kenny's Vinyl Vault | kennysvinylvault.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4704 |  | 4711 | Strummer Room Records | strummerroom.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4705 |  | 4712 | Records & Retro | recordsandretro.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4706 |  | 4713 | Grind and Groove Records | grindandgrooverecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4707 |  | 4714 | Rarekind Records | rarekindrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4708 |  | 4715 | Friendly Records | friendlyrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4709 |  | 4716 | Astro Vinyl | allgoodrecordshops.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4710 |  | 4717 | Wanted Records | wantedrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4711 |  | 4718 | Lost In Vinyl | lostinvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4712 |  | 4719 | Slipped discs | slipped-discs-records.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4713 |  | 4720 | Intense Records | intenserecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4714 |  | 4721 | Badlands | badlands.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4715 |  | 4722 | Up North Records | upnorthrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4716 |  | 4723 | Vanishing Point Records | vanishingpointrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4717 |  | 4724 | Clevedon Music Shop | clevedonmusic.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4718 |  | 4725 | Rare Record Company | rarerecord.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4719 |  | 4726 | Stone Rock Records | stonerockrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4720 |  | 4727 | Dnr vinyl | dnrvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4721 |  | 4728 | BPM Records | bpmderby.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4722 |  | 4729 | The Record Shed | durhammarkets.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4723 |  | 4730 | Not Just A Record Shop | notjustarecordshop.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4724 |  | 4731 | De Rosa Music | derosamusic.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4725 |  | 4732 | Better on Vinyl | betteronvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4726 |  | 4733 | The Vault Collective | thevaultcollectiveltd.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4727 |  | 4734 | Greenhouse Records | greenhouserecs.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4728 |  | 4735 | Slow Progress Records & Coffee | slowprogress.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4729 |  | 4736 | Thorne Records | thornerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4730 |  | 4737 | Vinyl Villains | vinylvillains.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4731 |  | 4738 | Rooster Records | roosterrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4732 |  | 4739 | Vintage & Vinyl | vintageandvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4733 |  | 4740 | Love Music | lovemusicglasgow.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4734 |  | 4741 | Play It Again Records | piarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4735 |  | 4742 | Rubadub | rubadub.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4736 |  | 4743 | Record Corner | recordcorner.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4737 |  | 4744 | A Slice Of Vinyl | asliceofvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4738 |  | 4745 | Peckham Soul | peckhamsoul.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4739 |  | 4746 | Ben's Collectors Records | benscollectorsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4740 |  | 4747 | Dead Sea Records | deadsearecords.co.uk. |  | PENDING |  | — | broncontrole uitvoeren |
-| 4741 |  | 4748 | Toms Record Shop | tomsrecordshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4742 |  | 4749 | Released Records | released.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4743 |  | 4750 | Vinyl Fixx | vinylfixx.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4744 |  | 4751 | Out Of Joint Records | outofjointrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4745 |  | 4752 | Lowport Music | lowportmusic.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4746 |  | 4753 | Probe Records | probe-records.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4747 |  | 4754 | The Flood Gallery | thefloodgallery.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4748 |  | 4755 | Inverted Audio Record Store | inverted-audio.store |  | PENDING |  | — | broncontrole uitvoeren |
-| 4749 |  | 4756 | Juni Jams Music | junijamsmusic.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4750 |  | 4757 | Level Crossing Records | levelcrossingrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4751 |  | 4758 | Lion Coffee Records | lioncoffeerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4752 |  | 4759 | Lion Vibes | lionvibes.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4653 | 56 | 4660 | recordroom | recordroom.ch | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4654 | 56 | 4661 | Spot Records | spotrecords.ch | shopify | SCRAPER_BUILT_TESTED | 5 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4655 | 56 | 4662 | Black Mandarin | blackmandarin.ch | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4656 | 56 | 4663 | Vinyl Sound | vinylsound.ch | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4657 | 56 | 4664 | Baff Music | baff.ch | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4658 | 56 | 4665 | ZIG ZAG records | zigzagmusic.ch | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4659 | 56 | 4666 | MusikLaden Record Store | record-store.ch | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4660 | 56 | 4667 | Ventilator Records | ventilator-records.ch | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4661 | 56 | 4668 | Sihl Records | sihlrecords.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4662 | 56 | 4669 | Blutt Records | bluttrecords.ch | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4663 | 56 | 4670 | Hum Records | humrecords.ch | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4664 | 56 | 4671 | db records corner | dbrecordscorner.ch | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4665 | 56 | 4672 | elchRecords | elchrecords.ch | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4666 | 56 | 4673 | hammersound, hammersounds, cd, lp, secon hand lp, hifi, vincent, heimkino, reparaturservice, an und verkauf,lp waschen, lp's ab 1.- fr. | hammersounds.ch | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4667 | 56 | 4674 | RECORDS | plattfon.ch | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4668 | 56 | 4675 | Rockaway Beach | rockawaybeach.ch | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4669 | 56 | 4676 | 33 Turä Bärn | 33turae.ch | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4670 | 56 | 4677 | Analog Bar | analogbar.ch | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4671 | 56 | 4678 | audiopur hifi | audiopur.ch | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4672 | 56 | 4679 | Bongo Joe Records | bongojoe.ch | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4673 | 56 | 4680 | CO-MIX REMIX | co-mix.ch |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_510 |
+| 4674 | 56 | 4681 | Dezibelle | dezibelle.ch | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4675 | 56 | 4682 | Disc-à-Brac | disc-a-brac.ch |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_406 |
+| 4676 | 56 | 4683 | gigs.ch | gigs.ch | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4677 | 56 | 4684 | Kreativ Media GmbH | lecoinvinyles.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_406 |
+| 4678 | 56 | 4685 | Next Chapter | nxtchapter.ch | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4679 | 56 | 4686 | Oldiesshop Bern | oldiesshop.ch | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4680 | 56 | 4687 | Old Town Record Store | otrs.rocks | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4681 | 56 | 4688 | Outsider | outsider-shop.ch | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4682 | 56 | 4689 | rille. The House of Vinyl. | rille.ch |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4683 | 56 | 4690 | Serge & Peppers | sergeandpeppers.ch | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4684 | 56 | 4691 | Six Pack Records | shop.6pack.ch |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_510 |
+| 4685 | 56 | 4692 | Take Five | takefive.ch | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4686 | 56 | 4693 | Tondo Music | tondomusic.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4687 | 56 | 4694 | VINYL STATION | vinylstation.musikhug.ch | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4688 | 56 | 4695 | Zorrock | zorrock.ch | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4689 | 56 | 4696 | Black Glue Records | blackgluerecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4690 | 56 | 4697 | Music Box Vinyl Café | musicboxtw.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4691 | 56 | 4698 | สุดแรงม้า | zudrangmarecords.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4692 | 56 | 4699 | Güneş Müzik | gunesmuzik.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4693 | 56 | 4700 | CDPLAK.COM | cdplak.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4694 | 56 | 4701 | EGE KİTAP & PLAK | egekitabevi.net | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4695 | 56 | 4702 | Plakperest | plakperest.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 4696 | 56 | 4703 | The Vinyl | thevinyl.com.ua | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4697 | 56 | 4704 | Vinyla | vinyla.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4698 | 56 | 4705 | Just Punk Vinyl | jpv.com.ua |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4699 | 56 | 4706 | Diskultura Vinyl Centr | diskultura.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4700 | 56 | 4707 | totalmetalshop.com | totalmetalshop.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4701 | 56 | 4708 | Raw Music Store | rawmusicstore.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4702 | 56 | 4709 | MAIDINVINYL | maidinvinyl.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4703 | 56 | 4710 | Kenny's Vinyl Vault | kennysvinylvault.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4704 | 56 | 4711 | Strummer Room Records | strummerroom.com | shopify | SCRAPER_BUILT_TESTED | 10 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4705 | 56 | 4712 | Records & Retro | recordsandretro.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4706 | 56 | 4713 | Grind and Groove Records | grindandgrooverecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4707 | 56 | 4714 | Rarekind Records | rarekindrecords.co.uk | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4708 | 56 | 4715 | Friendly Records | friendlyrecords.co.uk | shopify | SCRAPER_BUILT_TESTED | 2 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4709 | 56 | 4716 | Astro Vinyl | allgoodrecordshops.co.uk |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4710 | 56 | 4717 | Wanted Records | wantedrecords.co.uk |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4711 | 56 | 4718 | Lost In Vinyl | lostinvinyl.co.uk | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4712 | 56 | 4719 | Slipped discs | slipped-discs-records.co.uk | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4713 | 56 | 4720 | Intense Records | intenserecords.com | shopify | SCRAPER_BUILT_TESTED | 6 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4714 | 56 | 4721 | Badlands | badlands.co.uk | shopify | SCRAPER_BUILT_TESTED | 1 | 0/1 geldig | private QA en marktgate beoordelen |
+| 4715 | 56 | 4722 | Up North Records | upnorthrecords.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4716 | 56 | 4723 | Vanishing Point Records | vanishingpointrecords.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4717 | 56 | 4724 | Clevedon Music Shop | clevedonmusic.co.uk | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4718 | 56 | 4725 | Rare Record Company | rarerecord.co.uk | shopify | SCRAPER_BUILT_TESTED | 18 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4719 | 56 | 4726 | Stone Rock Records | stonerockrecords.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4720 | 56 | 4727 | Dnr vinyl | dnrvinyl.co.uk | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4721 | 56 | 4728 | BPM Records | bpmderby.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4722 | 56 | 4729 | The Record Shed | durhammarkets.co.uk | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4723 | 56 | 4730 | Not Just A Record Shop | notjustarecordshop.co.uk |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4724 | 56 | 4731 | De Rosa Music | derosamusic.co.uk | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4725 | 56 | 4732 | Better on Vinyl | betteronvinyl.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4726 | 56 | 4733 | The Vault Collective | thevaultcollectiveltd.co.uk |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Response size limit |
+| 4727 | 56 | 4734 | Greenhouse Records | greenhouserecs.co.uk | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4728 | 56 | 4735 | Slow Progress Records & Coffee | slowprogress.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4729 | 56 | 4736 | Thorne Records | thornerecords.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4730 | 56 | 4737 | Vinyl Villains | vinylvillains.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4731 | 56 | 4738 | Rooster Records | roosterrecords.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4732 | 56 | 4739 | Vintage & Vinyl | vintageandvinyl.co.uk |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4733 | 56 | 4740 | Love Music | lovemusicglasgow.com | shopify | SCRAPER_BUILT_TESTED | 15 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4734 | 56 | 4741 | Play It Again Records | piarecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4735 | 56 | 4742 | Rubadub | rubadub.co.uk | shopify | SCRAPER_BUILT_TESTED | 17 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4736 | 56 | 4743 | Record Corner | recordcorner.co.uk | shopify | SCRAPER_BUILT_TESTED | 1 | 0/1 geldig | private QA en marktgate beoordelen |
+| 4737 | 56 | 4744 | A Slice Of Vinyl | asliceofvinyl.co.uk | shopify | SCRAPER_BUILT_TESTED | 15 | 2/2 geldig | private QA en marktgate beoordelen |
+| 4738 | 56 | 4745 | Peckham Soul | peckhamsoul.com | shopify | SCRAPER_BUILT_TESTED | 1 | 0/1 geldig | private QA en marktgate beoordelen |
+| 4739 | 56 | 4746 | Ben's Collectors Records | benscollectorsrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4740 | 56 | 4747 | Dead Sea Records | deadsearecords.co.uk. |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4741 | 56 | 4748 | Toms Record Shop | tomsrecordshop.com | shopify | SCRAPER_BUILT_TESTED | 17 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4742 | 56 | 4749 | Released Records | released.co.uk | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4743 | 56 | 4750 | Vinyl Fixx | vinylfixx.co.uk | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4744 | 56 | 4751 | Out Of Joint Records | outofjointrecords.com | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4745 | 56 | 4752 | Lowport Music | lowportmusic.co.uk |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: TimeoutError |
+| 4746 | 56 | 4753 | Probe Records | probe-records.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4747 | 56 | 4754 | The Flood Gallery | thefloodgallery.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4748 | 56 | 4755 | Inverted Audio Record Store | inverted-audio.store | shopify | SCRAPER_BUILT_TESTED | 6 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4749 | 56 | 4756 | Juni Jams Music | junijamsmusic.co.uk | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4750 | 56 | 4757 | Level Crossing Records | levelcrossingrecords.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4751 | 56 | 4758 | Lion Coffee Records | lioncoffeerecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4752 | 56 | 4759 | Lion Vibes | lionvibes.com | shopify | SCRAPER_BUILT_TESTED | 1 | 0/1 geldig | private QA en marktgate beoordelen |
 | 4753 |  | 4760 | Love Vinyl | lovevinyl.net |  | PENDING |  | — | broncontrole uitvoeren |
 | 4754 |  | 4761 | Massive international- London | massive-international.com |  | PENDING |  | — | broncontrole uitvoeren |
 | 4755 |  | 4762 | Peckings Records | peckingsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
