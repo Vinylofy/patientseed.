@@ -5201,7 +5201,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | capsulerecords.co.uk | 39 | APPROVED | 0 | 3 | 3/3 | ACTIVE | ACTIVE (run 44730031322) | run 44696709935 |
 | chalkys.com | 28 | APPROVED | 1 | 7 | 3/3 | ACTIVE | ACTIVE (run 44730031322) | run 42577039054 |
 | chiefrecordsonline.com | 19 | FROZEN | 3 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| cnamusicsupply.com | 2 | APPROVED | 0 | 6 | 3/3 | ACTIVE | ACTIVE | run 39203245483 |
+| cnamusicsupply.com | 2 | APPROVED | 0 | 6 | 3/3 | ACTIVE | ACTIVE (run 44730031322) | run 39203245483 |
 | comebackvinyl.com | 19 | FROZEN | 3 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | compactmusic.ca | 39 | REVIEW | 0 | 18 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | contactrecordstore.com | 19 | FROZEN | 3 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
