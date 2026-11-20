@@ -5194,7 +5194,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | blitzkriegshop.co.uk | 39 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | boilerroomrecords.co.uk | 39 | REVIEW | 0 | 20 | 0/1 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | booboorecords.com | 1 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE (run 44730031322) | run 39155794450 |
-| bororecords.com | 1 | APPROVED | 0 | 13 | 1/3 | ACTIVE | ACTIVE | run 39155794450 |
+| bororecords.com | 1 | APPROVED | 0 | 13 | 1/3 | ACTIVE | ACTIVE (run 44730031322) | run 39155794450 |
 | bruiserrecordsjax.com | 1 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 39155794450 |
 | butterbeatsrecordstore.com | 39 | REVIEW | 0 | 10 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | cameronrecords.com | 17 | APPROVED | 1 | 16 | 3/3 | ACTIVE | ACTIVE | run 40828686930 |
