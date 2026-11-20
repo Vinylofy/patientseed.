@@ -3007,3 +3007,103 @@ Maximale bouwpogingen: 3
 | discoshopdetommaso.com | 4257 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | djland.net | 4258 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_999 |
 | filmusica.it | 4259 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_999 |
+| junglerecords.it | 4260 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| lapianola.com | 4261 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| madarecords.it | 4262 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| militantsoul.com | 4263 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| moveonfirenze.com | 4264 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| solovinili.com | 4265 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sonicbelligeranza.com | 4266 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| ultrasuonirecords.com | 4267 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['ultrasuonirecords_com.py', 'ultrasuonirecords_com.json'] |
+| 23cdstore.it | 4268 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| jollyrogerstore.com | 4269 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cdclubentertainment.com | 4270 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_999 |
+| chickenrecords.com | 4271 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discobolandia.it | 4272 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| discodoro.it | 4273 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| indie.it | 4274 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| doublesiderecords.com | 4275 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| gabbiadischi.it | 4276 | 1 | SOURCE_BLOCKED | — | — | — | TimeoutError |
+| groovelabrecords.com | 4277 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| gugumed.com | 4278 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| haterecords.com | 4279 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_999 |
+| musicamusicaperugia.it | 4280 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_999 |
+| pacemusic.it | 4281 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| pinkmoonrecords.eu | 4282 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| rebirthdistribution.com | 4283 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| redmoonrecords.com | 4284 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ledisquestore.com | 4285 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| semplicementedischi.com | 4286 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| strictlygrooverecords.com | 4287 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| toloselatrack.org | 4288 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| trovacd.it | 4289 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_999 |
+| pickuprecords.it | 4290 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recordstore.it | 4291 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| lysrecords.com | 4292 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_999 |
+| ticro.com | 4293 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['ticro_com.py', 'ticro_com.json'] |
+| stradarecords.jp | 4294 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['stradarecords_jp.py', 'stradarecords_jp.json'] |
+| cocobeat-records.com | 4295 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| meditations.jp | 4296 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['meditations_jp.py', 'meditations_jp.json'] |
+| plasticsoulrecord.com | 4297 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| sixthgarden.com | 4298 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['sixthgarden_com.py', 'sixthgarden_com.json'] |
+| reallygood.jp | 4299 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['reallygood_jp.py', 'reallygood_jp.json'] |
+| musicpunchrecords.ti-da.net | 4300 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cellar-records.com | 4301 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['cellar_records_com.py', 'cellar_records_com.json'] |
+| alfforecords.net | 4302 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| especial-records.com | 4303 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| morphorecords.com | 4304 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['morphorecords_com.py', 'morphorecords_com.json'] |
+| raregroove.jp | 4305 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['raregroove_jp.py', 'raregroove_jp.json'] |
+| revenge-records.com | 4306 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| timebomb.co.jp | 4307 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['timebomb_co_jp.py', 'timebomb_co_jp.json'] |
+| voxmusicweb.com | 4308 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['voxmusicweb_com.py', 'voxmusicweb_com.json'] |
+| bluesoulrecords.jp | 4309 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| groovenutrecords.stores.jp | 4310 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| rockstakk.com | 4311 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| rootdownrecords.jp | 4312 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| tototorecords.jp | 4313 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ovenuniverse.net | 4314 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['ovenuniverse_net.py', 'ovenuniverse_net.json'] |
+| anchorrecord.com | 4315 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bigloverecords.jp | 4316 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['bigloverecords_jp.py', 'bigloverecords_jp.json'] |
+| recordboy.shop-pro.jp | 4317 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| glocalrecords.com | 4318 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| hals-jazz.com | 4319 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| hmv.co.jp | 4320 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| jetsetrecords.net | 4321 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| lighthouserecords.jp | 4322 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| oldiesbutgoodies-tokyo.com | 4323 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| unionrecord-shibuya.blog.jp | 4324 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| art-into-life.com | 4325 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| diskunion.net | 4326 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| exilerecords.net | 4327 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| grindrecord.com | 4328 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| newtone-records.com | 4329 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| otaiweb.com | 4330 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| peanutsrecords.com | 4331 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| ranamusica.info | 4332 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| recordstation.jp | 4333 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soundchannel.shop-pro.jp | 4334 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| undergroundgallery.jp | 4335 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| plus1ad.web.fc2.com | 4336 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| record8.com | 4337 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| castle-records.net | 4338 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cdya.biz | 4339 | 1 | SOURCE_BLOCKED | — | — | — | TimeoutError |
+| cdsoftcase.com | 4340 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| coconutsdisk.com | 4341 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| dessineeshop.com | 4342 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dxrecords.com | 4343 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ella-records.com | 4344 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| estacio-records.com | 4345 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_503 |
+| fastcutrecords.com | 4346 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_503 |
+| freestyleonline.net | 4347 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| greatesthits-rec.com | 4348 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| harioto.com | 4349 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mega-mix.jp | 4350 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| merurido.jp | 4351 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| moremusic.co.jp | 4352 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| neds-records.com | 4353 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| parallaxrecords.jp | 4354 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| pigeon-records.jp | 4355 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| losapson.net | 4356 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| recojun.com | 4357 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| recordshopzoo.com | 4358 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| reggaerecord.com | 4359 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
