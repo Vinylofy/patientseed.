@@ -1,0 +1,225 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T17:33:28.842279+00:00",
+  "shop_id": "vinylkatalog.de",
+  "row": 4032,
+  "name": "Connaisseur",
+  "domain": "vinylkatalog.de",
+  "country": null,
+  "website": "https://vinylkatalog.de/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4032,
+    "name": "Connaisseur",
+    "domain": "vinylkatalog.de",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "woocommerce",
+    "source_url": "https://vinylkatalog.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "adapter_class": "WooCommerceNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 6,
+    "excluded": 14,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "method_candidates": [
+      {
+        "platform": "woocommerce",
+        "route": "https://vinylkatalog.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://vinylkatalog.de/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://vinylkatalog.de/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylkatalog.de/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylkatalog.de/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylkatalog.de/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylkatalog.de/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "woocommerce",
+      "route": "https://vinylkatalog.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 65,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "woocommerce",
+  "catalog_route": "https://vinylkatalog.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "listing_sample": 6,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 6,
+    "unique_prices": 5,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://vinylkatalog.de/produkt/moonstruck-man/",
+      "artist": "The Datsuns",
+      "title": "Moonstruck Man",
+      "identity_method": "explicit_product_artist_attribute",
+      "identity_proven": false,
+      "price": "28.50",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://vinylkatalog.de/produkt/i-came-to-hear-music/",
+      "artist": "Mickey Newbury",
+      "title": "I Came To Hear Music",
+      "identity_method": "explicit_product_artist_attribute",
+      "identity_proven": false,
+      "price": "22.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://vinylkatalog.de/produkt/sixteen-carols-for-christmas/",
+      "artist": "Choir Of King's College, Cambridge",
+      "title": "Sixteen Carols For Christmas",
+      "identity_method": "explicit_product_artist_attribute",
+      "identity_proven": false,
+      "price": "23.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://vinylkatalog.de/robots.txt",
+      "sha256": "e5eb66d60f017926266f6791a7f1c566808d442c487aa9f5067b529e8cf26118"
+    },
+    {
+      "url": "https://vinylkatalog.de/",
+      "sha256": "a436f3f6c8bfe30248574ab9affc83ccd47f82691be8be6d579de97111f79e01"
+    },
+    {
+      "url": "https://vinylkatalog.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "25e29525c556cdaa337cb1d3f84fb474a3a685db706eefbce7f570d17113223a"
+    },
+    {
+      "url": "https://vinylkatalog.de/produkt/sixteen-carols-for-christmas/",
+      "sha256": "8f6b039470cde79970ac73751164fbc643d10cb3bd4b0b7ee05133d22a004d91"
+    },
+    {
+      "url": "https://vinylkatalog.de/produkt/eccentric-folk-soul/",
+      "sha256": "aa77b8ec7157dedc83cfaa76ab59324a14102026f5812444b648929aa25b4723"
+    },
+    {
+      "url": "https://vinylkatalog.de/produkt/moonstruck-man/",
+      "sha256": "75c25e38c3bc2baa9b0cb669a2659724c9c8ee2f3ae3a7eca0adbb9a0e8915a2"
+    },
+    {
+      "url": "https://vinylkatalog.de/produkt/i-came-to-hear-music/",
+      "sha256": "4bd842105223ea3dd38c2b175567bb3c730a2f413f4dd35199bfddcf8a4d0539"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://vinylkatalog.de/produkt/moonstruck-man/",
+    "https://vinylkatalog.de/produkt/i-came-to-hear-music/",
+    "https://vinylkatalog.de/produkt/sixteen-carols-for-christmas/"
+  ],
+  "assessment_id": "v2-44929737638-1",
+  "queue_rows": [
+    4032
+  ],
+  "assessment_path": "assessments/v2/vinylkatalog_de/v2-44929737638-1.json"
+}
