@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T21:56:50.798037+00:00",
+  "shop_id": "hideousrecords.com.au",
+  "row": 3537,
+  "name": "Hideous Records",
+  "domain": "hideousrecords.com.au",
+  "country": null,
+  "website": "https://hideousrecords.com.au/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3537,
+    "name": "Hideous Records",
+    "domain": "hideousrecords.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://hideousrecords.com.au/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://hideousrecords.com.au/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://hideousrecords.com.au/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://hideousrecords.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://hideousrecords.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://hideousrecords.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://hideousrecords.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://hideousrecords.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://hideousrecords.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://hideousrecords.com.au/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://hideousrecords.com.au/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://hideousrecords.com.au/products/jimmy-barnes-for-the-working-class-man-2lp?variant=54499689955619",
+      "artist": "Jimmy Barnes",
+      "title": "For The Working Class Man - 2LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "79.00",
+      "currency": "AUD",
+      "valid_eans": [
+        "09341004146464"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://hideousrecords.com.au/products/role-model-kansas-anymore-lp?variant=56083530907939",
+      "artist": "ROLE MODEL",
+      "title": "Kansas Anymore - LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "79.00",
+      "currency": "AUD",
+      "valid_eans": [
+        "00602475297871"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://hideousrecords.com.au/products/djo-decide-lp?variant=48936926642467",
+      "artist": "Djo",
+      "title": "Decide - LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "69.00",
+      "currency": "AUD",
+      "valid_eans": [
+        "05056167180050"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://hideousrecords.com.au/robots.txt",
+      "sha256": "0f746693b9052acfb45a056803c05130c99cf3595dc2fbe9112655f4b41d044b"
+    },
+    {
+      "url": "https://hideousrecords.com.au/",
+      "sha256": "107a9a258076d51d3eb17d3b9ac4ef4eb24009feba36b2afbf771a0999796795"
+    },
+    {
+      "url": "https://hideousrecords.com.au/products.json?limit=20&page=1",
+      "sha256": "078ca58f7cf3d73b574977cf0c85374dbfb8b543199cffad8e7eea0dbd3cc907"
+    },
+    {
+      "url": "https://hideousrecords.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "1bfa4221896693d72799c73e355a6f1ecf15eeee074c42395e4e2170c6310390"
+    },
+    {
+      "url": "https://hideousrecords.com.au/products/djo-decide-lp",
+      "sha256": "5ab9483d40731a74e255390d3f606d9a0f3c4c386834e646826712e7cc3f36ca"
+    },
+    {
+      "url": "https://hideousrecords.com.au/products/sufjan-stevens-worst-christmas-ever-lp",
+      "sha256": "6415dcadc2ae73a2256903b6249460fc44de7c229d6ab09ca5a7e4e2525ccf06"
+    },
+    {
+      "url": "https://hideousrecords.com.au/products/jimmy-barnes-for-the-working-class-man-2lp?variant=54499689955619",
+      "sha256": "1f67603a57dfbaa477dd5bf90713ccd61d5eb33e9527ea2517b01ee0a898ea78"
+    },
+    {
+      "url": "https://hideousrecords.com.au/products/role-model-kansas-anymore-lp?variant=56083530907939",
+      "sha256": "75bdd822381d7bed1f4e1e674dec987687cd875c27f01e68795b522c600f63b9"
+    },
+    {
+      "url": "https://hideousrecords.com.au/products/djo-decide-lp?variant=48936926642467",
+      "sha256": "68f4d210d3391a6717b03e2d181b772b98c5872c5ce5f30bdef21443fec2b3f1"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.05263157894736842,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://hideousrecords.com.au/products/jimmy-barnes-for-the-working-class-man-2lp?variant=54499689955619",
+    "https://hideousrecords.com.au/products/role-model-kansas-anymore-lp?variant=56083530907939",
+    "https://hideousrecords.com.au/products/djo-decide-lp?variant=48936926642467"
+  ],
+  "assessment_id": "v2-44952443493-1",
+  "queue_rows": [
+    3537
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 19,
+  "candidate_ref": "v2-44952443493-1/hideousrecords_com_au",
+  "assessment_path": "assessments/v2/hideousrecords_com_au/v2-44952443493-1.json"
+}
