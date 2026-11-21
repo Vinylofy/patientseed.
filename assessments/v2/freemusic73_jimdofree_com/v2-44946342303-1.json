@@ -1,0 +1,103 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T20:40:38.038100+00:00",
+  "shop_id": "freemusic73.jimdofree.com",
+  "row": 3839,
+  "name": "Free Music",
+  "domain": "freemusic73.jimdofree.com",
+  "country": null,
+  "website": "https://freemusic73.jimdofree.com/",
+  "previous_status": "SOURCE_BLOCKED",
+  "previous_reason": "HTTP_403",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3839,
+    "name": "Free Music",
+    "domain": "freemusic73.jimdofree.com",
+    "status": "SOURCE_BLOCKED",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "source_url": "https://freemusic73.jimdofree.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "reason": "HTTP_403",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://freemusic73.jimdofree.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://freemusic73.jimdofree.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": "https://freemusic73.jimdofree.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "requests": [
+    {
+      "url": "https://freemusic73.jimdofree.com/robots.txt",
+      "sha256": "4df93589d54fa5fc7c1808de96863130a0e03a47a45710959d18879b998fccc1"
+    },
+    {
+      "url": "https://freemusic73.jimdofree.com/",
+      "sha256": "88f0d8cf62f07a72f2e774de163fc37423419febe1e807cefa9e373340771586"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "HTTP_403"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "HTTP_403"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-44946342303-1",
+  "queue_rows": [
+    3839
+  ],
+  "assessment_path": "assessments/v2/freemusic73_jimdofree_com/v2-44946342303-1.json"
+}
