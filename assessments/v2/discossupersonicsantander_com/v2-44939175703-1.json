@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T19:17:55.987172+00:00",
+  "shop_id": "discossupersonicsantander.com",
+  "row": 3478,
+  "name": "discossupersonicsantander",
+  "domain": "discossupersonicsantander.com",
+  "country": null,
+  "website": "https://discossupersonicsantander.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3478,
+    "name": "discossupersonicsantander",
+    "domain": "discossupersonicsantander.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://discossupersonicsantander.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 13,
+    "excluded": 7,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://discossupersonicsantander.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://discossupersonicsantander.com/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 20,
+        "accepted": 13,
+        "excluded": 7,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://discossupersonicsantander.com/collections/all/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://discossupersonicsantander.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://discossupersonicsantander.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://discossupersonicsantander.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://discossupersonicsantander.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://discossupersonicsantander.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://discossupersonicsantander.com/products.json?limit=20&page=1",
+      "score": 135,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://discossupersonicsantander.com/products.json?limit=20&page=1",
+  "listing_sample": 13,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 13,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://discossupersonicsantander.com/robots.txt",
+      "sha256": "f934753d2cf99098018c0e8f9245395e2919858d80c95d11335d8e527f507161"
+    },
+    {
+      "url": "https://discossupersonicsantander.com/",
+      "sha256": "fcfd621a1dfe25d9977550b658fe8e65e37eb79b98385fa20119f5e16c75aeab"
+    },
+    {
+      "url": "https://discossupersonicsantander.com/products.json?limit=20&page=1",
+      "sha256": "7fd4ebed5b9a136ca1b34e039f0055d38b5c7bcfd40236ca436ac127d28d01e5"
+    },
+    {
+      "url": "https://discossupersonicsantander.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "1761a4a5163f365f2f26d51194d75146fb1c5158395ff180ec0f6611265f0d4f"
+    },
+    {
+      "url": "https://discossupersonicsantander.com/products/kings-of-leon-o-my-beloved",
+      "sha256": "5a39aedbaf3973fd7b6211352d431f5a62aa9d1d76cd5398f58b1d632b1da302"
+    },
+    {
+      "url": "https://discossupersonicsantander.com/products/the-mars-volta-lucro-sucio-unfinished-business",
+      "sha256": "075da33d2a9192f589dd3119bf7ffaa9e400a66643257a40b5c130675ea2e2a9"
+    },
+    {
+      "url": "https://discossupersonicsantander.com/products/elegant-weapons-evolution-edicion-limitada-indies?variant=55205699092827",
+      "sha256": "1ba3282452802fccf5603bd0fc0cd13f128c69565cdadc28c8400b00a7a3199a"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-44939175703-1",
+  "queue_rows": [
+    3478
+  ],
+  "assessment_path": "assessments/v2/discossupersonicsantander_com/v2-44939175703-1.json"
+}
