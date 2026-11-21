@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T14:34:17.183915+00:00",
+  "shop_id": "bigloverecords.jp",
+  "row": 4316,
+  "name": "BIG LOVE RECORDS",
+  "domain": "bigloverecords.jp",
+  "country": null,
+  "website": "https://bigloverecords.jp/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4316,
+    "name": "BIG LOVE RECORDS",
+    "domain": "bigloverecords.jp",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://bigloverecords.jp/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "JPY",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://bigloverecords.jp/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://bigloverecords.jp/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://bigloverecords.jp/collections/all/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 20,
+        "accepted": 13,
+        "excluded": 7,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://bigloverecords.jp/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://bigloverecords.jp/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://bigloverecords.jp/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://bigloverecords.jp/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://bigloverecords.jp/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://bigloverecords.jp/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://bigloverecords.jp/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 11,
+    "shipping_hits": 0,
+    "currencies": [
+      "JPY"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://bigloverecords.jp/products/brainstory-shoebox-days?variant=45805965803696",
+      "artist": "",
+      "title": "BRAINSTORY 'SHOEBOX DAYS'",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "4990.00",
+      "currency": "JPY",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://bigloverecords.jp/products/boards-of-canada-tomorrow-s-harvest-warplp257br?variant=45834797744304",
+      "artist": "",
+      "title": "BOARDS OF CANADA 'TOMORROW'S HARVEST -JAPAN EDITION-'",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "5990.00",
+      "currency": "JPY",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://bigloverecords.jp/products/chanel-beads-your-day-will-come-japan-edition?variant=45421769588912",
+      "artist": "",
+      "title": "CHANEL BEADS 'YOUR DAY WILL COME -JAPAN EDITION-'",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "5690.00",
+      "currency": "JPY",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://bigloverecords.jp/robots.txt",
+      "sha256": "757df8ae30546e0c017d804694603b87c294ebe4b69ae64f146a2a980260147e"
+    },
+    {
+      "url": "https://bigloverecords.jp/",
+      "sha256": "4046eb09eaf6c938dad47602b5d10c6a5713e149da787e0ef4c93d0ea408c760"
+    },
+    {
+      "url": "https://bigloverecords.jp/products.json?limit=20&page=1",
+      "sha256": "691939a2b7365e52511264ede066060a3af15cd58ba3b80e1bcdeb45030a7163"
+    },
+    {
+      "url": "https://bigloverecords.jp/collections/all/products.json?limit=20&page=1",
+      "sha256": "f972025c688d371fbf5a9bfa1b857ee7b8c67ae88362379acb2fd0fd258bbaab"
+    },
+    {
+      "url": "https://bigloverecords.jp/products/chanel-beads-your-day-will-come-japan-edition",
+      "sha256": "8aa3ee1303551b878d3dadfa4dece4c22b3880be730b526039a493c7739a8ad9"
+    },
+    {
+      "url": "https://bigloverecords.jp/products/evilgiane-heavensgate-vol-1-2-japan-edition",
+      "sha256": "01543c4912f96b5b9fac1b34ff09827977e2b364ffb21ce04dfca4fa91ef8abf"
+    },
+    {
+      "url": "https://bigloverecords.jp/products/brainstory-shoebox-days?variant=45805965803696",
+      "sha256": "92d32eba1c4faa6efd74a35497eca2d74f3cf7123ccd305ab08343fad223ced2"
+    },
+    {
+      "url": "https://bigloverecords.jp/products/boards-of-canada-tomorrow-s-harvest-warplp257br?variant=45834797744304",
+      "sha256": "815902ccb8d02231f9eda93053ad88e53bb514f8dcabcf573217dc15a46bda3d"
+    },
+    {
+      "url": "https://bigloverecords.jp/products/chanel-beads-your-day-will-come-japan-edition?variant=45421769588912",
+      "sha256": "28cb5ae8560cf337c56c13f6921e1eb54650958723e0fc2cec54f65bcd2f508a"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://bigloverecords.jp/products/brainstory-shoebox-days?variant=45805965803696",
+    "https://bigloverecords.jp/products/boards-of-canada-tomorrow-s-harvest-warplp257br?variant=45834797744304",
+    "https://bigloverecords.jp/products/chanel-beads-your-day-will-come-japan-edition?variant=45421769588912"
+  ],
+  "assessment_id": "v2-44914511099-1",
+  "queue_rows": [
+    4316
+  ],
+  "assessment_path": "assessments/v2/bigloverecords_jp/v2-44914511099-1.json"
+}
