@@ -1,0 +1,242 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T20:39:01.202246+00:00",
+  "shop_id": "fortherecordtx.com",
+  "row": 4954,
+  "name": "For The Record",
+  "domain": "fortherecordtx.com",
+  "country": null,
+  "website": "https://fortherecordtx.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4954,
+    "name": "For The Record",
+    "domain": "fortherecordtx.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://fortherecordtx.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 16,
+    "excluded": 4,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://fortherecordtx.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://fortherecordtx.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://fortherecordtx.com/collections/all/products.json?limit=20&page=1",
+        "score": 165,
+        "products_seen": 20,
+        "accepted": 16,
+        "excluded": 4,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://fortherecordtx.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://fortherecordtx.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://fortherecordtx.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://fortherecordtx.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://fortherecordtx.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://fortherecordtx.com/collections/all/products.json?limit=20&page=1",
+      "score": 165,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://fortherecordtx.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 16,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 16,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://fortherecordtx.com/products/311-from-chaos-12-vinyl?variant=45973517762808",
+      "artist": "311",
+      "title": "From Chaos (12in Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "25.00",
+      "currency": "USD",
+      "valid_eans": [
+        "00889853097012"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://fortherecordtx.com/products/12-inch-record-sleeves-white-cut-corners-50-pack?variant=48125075063032",
+      "artist": "",
+      "title": "12 Inch Record Sleeves (White Cut Corners 50 pack)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "18.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://fortherecordtx.com/products/uicideboy-new-world-depression-12-vinyl?variant=45973665022200",
+      "artist": "$UICIDEBOY$",
+      "title": "New World Depression (12in Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "25.00",
+      "currency": "USD",
+      "valid_eans": [
+        "00198391598197"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://fortherecordtx.com/robots.txt",
+      "sha256": "ce959974984e3e077f4a84523db2bf4b1819d53dce1822600c8e234e83b1b205"
+    },
+    {
+      "url": "https://fortherecordtx.com/",
+      "sha256": "0f684f4d824e2c7e40c93984d69a8f9c1e14a383ae6471c8b44ca669ff1ae83e"
+    },
+    {
+      "url": "https://fortherecordtx.com/products.json?limit=20&page=1",
+      "sha256": "b50c3cad16b71c8738f6ccd01e2fd30056e4445a9a16f904330c2b6d8d263ecd"
+    },
+    {
+      "url": "https://fortherecordtx.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "afac0a2b62194ee09d8209630299f0a133b6e1ed696fa513936582b35fa5a688"
+    },
+    {
+      "url": "https://fortherecordtx.com/products/uicideboy-new-world-depression-12-vinyl",
+      "sha256": "56be829bee5acd0a68565230126588e65d1147762ac12195b9fcb88befef7a70"
+    },
+    {
+      "url": "https://fortherecordtx.com/products/uicideboy-sing-me-a-lullaby-my-sweet-temptation-12-vinyl",
+      "sha256": "e50f89ab24d68c0a4cca272a7f93641fa1504d146e80f7258a46ccf173b417f9"
+    },
+    {
+      "url": "https://fortherecordtx.com/products/311-from-chaos-12-vinyl?variant=45973517762808",
+      "sha256": "06e95ebb088ae63f555901486cbe1a6427b579d5291a13ef811e8b1f93da3eac"
+    },
+    {
+      "url": "https://fortherecordtx.com/products/12-inch-record-sleeves-white-cut-corners-50-pack?variant=48125075063032",
+      "sha256": "a6c3339393446f3ccac072bd8b9b013c50e9885b5aaebd13335ab664391451e9"
+    },
+    {
+      "url": "https://fortherecordtx.com/products/uicideboy-new-world-depression-12-vinyl?variant=45973665022200",
+      "sha256": "077872b26557fa0b2a963db4ab9cf3e85a5d0a8b960db982a384c04f7d1ac279"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 2,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.8125,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://fortherecordtx.com/products/311-from-chaos-12-vinyl?variant=45973517762808",
+    "https://fortherecordtx.com/products/12-inch-record-sleeves-white-cut-corners-50-pack?variant=48125075063032",
+    "https://fortherecordtx.com/products/uicideboy-new-world-depression-12-vinyl?variant=45973665022200"
+  ],
+  "assessment_id": "v2-44946342303-1",
+  "queue_rows": [
+    4954
+  ],
+  "assessment_path": "assessments/v2/fortherecordtx_com/v2-44946342303-1.json"
+}
