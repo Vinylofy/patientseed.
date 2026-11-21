@@ -1,0 +1,244 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T21:43:44.899960+00:00",
+  "shop_id": "goldsoundz.it",
+  "row": 4245,
+  "name": "Gold Soundz Dischi",
+  "domain": "goldsoundz.it",
+  "country": null,
+  "website": "https://goldsoundz.it/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4245,
+    "name": "Gold Soundz Dischi",
+    "domain": "goldsoundz.it",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://goldsoundz.it/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 9,
+    "excluded": 11,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://goldsoundz.it/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://goldsoundz.it/products.json?limit=20&page=1",
+        "score": 55,
+        "products_seen": 20,
+        "accepted": 5,
+        "excluded": 15,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://goldsoundz.it/collections/all/products.json?limit=20&page=1",
+        "score": 95,
+        "products_seen": 20,
+        "accepted": 9,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://goldsoundz.it/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://goldsoundz.it/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://goldsoundz.it/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://goldsoundz.it/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://goldsoundz.it/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://goldsoundz.it/collections/all/products.json?limit=20&page=1",
+      "score": 95,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://goldsoundz.it/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 9,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 9,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://goldsoundz.it/products/adele-21-lp?variant=58766679867737",
+      "artist": "Adele ",
+      "title": "21 | LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "37.00",
+      "currency": "EUR",
+      "valid_eans": [
+        "00634904052010"
+      ],
+      "condition_basis": "used_or_grading_signal"
+    },
+    {
+      "url": "https://goldsoundz.it/products/883-nord-sud-ovest-est-lp-1?variant=60262927303001",
+      "artist": "883",
+      "title": "Nord Sud Ovest Est | LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "35.00",
+      "currency": "EUR",
+      "valid_eans": [
+        "05021732259912"
+      ],
+      "condition_basis": "used_or_grading_signal"
+    },
+    {
+      "url": "https://goldsoundz.it/products/10-000-maniacs-candy-everybody-wants-the-complete-elektra-studio-albums-record-store-day-black-friday-2026?variant=60325308465497",
+      "artist": "10.000 Maniacs",
+      "title": "CANDY EVERYBODY WANTS: THE COMPLETE ELEKTRA STUDIO ALBUMS | LP-BOXSET - Record Store Day Black Friday 2026",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "190.00",
+      "currency": "EUR",
+      "valid_eans": [
+        "00603497818976"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://goldsoundz.it/robots.txt",
+      "sha256": "b250a0d83079e167262feb743fca541ec04ad6aaa173da5027ba11eb122513e2"
+    },
+    {
+      "url": "https://goldsoundz.it/",
+      "sha256": "af1f14a214ab9e11223cab4bfde9400771e58041ecc6a5378b7dc56e3bd3b882"
+    },
+    {
+      "url": "https://goldsoundz.it/products.json?limit=20&page=1",
+      "sha256": "30dab7549e02af8bf1a7785facb5dc794612b011c93d3faa8418e36b200d37a9"
+    },
+    {
+      "url": "https://goldsoundz.it/collections/all/products.json?limit=20&page=1",
+      "sha256": "1a800a07ae286ddd2413e0b694aeb39384fc2bc6927426a56789c63184a0b0cb"
+    },
+    {
+      "url": "https://goldsoundz.it/products/10-000-maniacs-candy-everybody-wants-the-complete-elektra-studio-albums-record-store-day-black-friday-2026",
+      "sha256": "a336c107bb10cd5626fc1c848f4ac98a4e5af423fe23346a42476a919bee104f"
+    },
+    {
+      "url": "https://goldsoundz.it/products/2pac-pacs-life",
+      "sha256": "ea5314af8a2ee733b7f8afbb60bdfe3aaf6597c6907435fbafeae6ddbabb222b"
+    },
+    {
+      "url": "https://goldsoundz.it/products/adele-21-lp?variant=58766679867737",
+      "sha256": "0a0def651e40c9dd0de550ffbd472fde279c16e997ff292e87be75f2cf89e428"
+    },
+    {
+      "url": "https://goldsoundz.it/products/883-nord-sud-ovest-est-lp-1?variant=60262927303001",
+      "sha256": "ce93fc4eb3dfc3ff1ad8a65a1a510e1400d6a4904a77f0ee19a9effdae937dba"
+    },
+    {
+      "url": "https://goldsoundz.it/products/10-000-maniacs-candy-everybody-wants-the-complete-elektra-studio-albums-record-store-day-black-friday-2026?variant=60325308465497",
+      "sha256": "d8ba53f45966cc488334f6e7b014b7ddac6d388e890ad2eb561efe1c7aa836a4"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:new_used_distinguishable"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://goldsoundz.it/products/adele-21-lp?variant=58766679867737",
+    "https://goldsoundz.it/products/883-nord-sud-ovest-est-lp-1?variant=60262927303001",
+    "https://goldsoundz.it/products/10-000-maniacs-candy-everybody-wants-the-complete-elektra-studio-albums-record-store-day-black-friday-2026?variant=60325308465497"
+  ],
+  "assessment_id": "v2-44952443493-1",
+  "queue_rows": [
+    4245
+  ],
+  "assessment_path": "assessments/v2/goldsoundz_it/v2-44952443493-1.json"
+}
