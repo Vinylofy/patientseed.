@@ -1,0 +1,196 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T14:37:30.563478+00:00",
+  "shop_id": "101collectorsrecords.com",
+  "row": 3396,
+  "name": "101 Collectors Records",
+  "domain": "101collectorsrecords.com",
+  "country": null,
+  "website": "https://101collectorsrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3396,
+    "name": "101 Collectors Records",
+    "domain": "101collectorsrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://101collectorsrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 34,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://101collectorsrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://101collectorsrecords.com/products.json?limit=20&page=1",
+        "score": 345,
+        "products_seen": 34,
+        "accepted": 34,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://101collectorsrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 24,
+        "accepted": 10,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://101collectorsrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://101collectorsrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://101collectorsrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://101collectorsrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://101collectorsrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://101collectorsrecords.com/products.json?limit=20&page=1",
+      "score": 345,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 1,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://101collectorsrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 15,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://101collectorsrecords.com/robots.txt",
+      "sha256": "5f268d37b616cd0899bb658893e72ad45138a6c2541e8ba02de73757b182605f"
+    },
+    {
+      "url": "https://101collectorsrecords.com/",
+      "sha256": "c17be565a079799a2108d3ad16b0bf9bf94bcd2682ae515fb5533d8c2ca47694"
+    },
+    {
+      "url": "https://101collectorsrecords.com/products.json?limit=20&page=1",
+      "sha256": "05afb640865d6aaf08f54691516fdfcdfa9f12fdea088be8eeb2fad3e56f28da"
+    },
+    {
+      "url": "https://101collectorsrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "eaeac8cc744a392965003ab6a7a038e58278f3ebc2e8c16bfbcda6ac95fe58f8"
+    },
+    {
+      "url": "https://101collectorsrecords.com/products/queens-of-the-stone-ages-alive-in-the-catacombs",
+      "sha256": "b97c3977eaa88e2f6085fbd1ec3103cee478cb9a05c2aabd1692d48724ac514e"
+    },
+    {
+      "url": "https://101collectorsrecords.com/products/bruce-dickinson-psychogod",
+      "sha256": "e46df5e7ae50da5f1acd56e2243d0ff9cc3eaa55c40080fa972d5a0cea34b2fa"
+    },
+    {
+      "url": "https://101collectorsrecords.com/products/queen-a-day-at-the-races-50th-anniversary-edition?variant=58946754314571",
+      "sha256": "7eb6058b3f79ce3faeabffe594e67835d1c6f85d7ffab0915ca00cc3d7536dbb"
+    },
+    {
+      "url": "https://101collectorsrecords.com/products/justice-grand-theft-auto-vi-original-score-because?variant=59059728712011",
+      "sha256": "20cb7b76c75e46a757915d85a700bcf1dad3a174e679d89a37db6a262af8cc7c"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 0,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 0.95,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-44914511099-1",
+  "queue_rows": [
+    3396
+  ],
+  "assessment_path": "assessments/v2/101collectorsrecords_com/v2-44914511099-1.json"
+}
