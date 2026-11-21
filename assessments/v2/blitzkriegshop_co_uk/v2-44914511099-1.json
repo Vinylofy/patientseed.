@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T14:34:30.465453+00:00",
+  "shop_id": "blitzkriegshop.co.uk",
+  "row": 3423,
+  "name": "Blitzkriegshop",
+  "domain": "blitzkriegshop.co.uk",
+  "country": null,
+  "website": "https://blitzkriegshop.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3423,
+    "name": "Blitzkriegshop",
+    "domain": "blitzkriegshop.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://blitzkriegshop.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://blitzkriegshop.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://blitzkriegshop.co.uk/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://blitzkriegshop.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://blitzkriegshop.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://blitzkriegshop.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://blitzkriegshop.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://blitzkriegshop.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://blitzkriegshop.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://blitzkriegshop.co.uk/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://blitzkriegshop.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 14,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://blitzkriegshop.co.uk/products/both-hands-be-like-a-mountain-in-a-moonlit-way?variant=59880512946501",
+      "artist": "Both Hands",
+      "title": "Be Like A Mountain In A Moonlit Way",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "25.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://blitzkriegshop.co.uk/products/goodfellas-music-from-the-motion-picture?variant=60214753919301",
+      "artist": "GoodFellas",
+      "title": "Music From The Motion Picture",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "27.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://blitzkriegshop.co.uk/products/various-artists-grand-theft-auto-vi-the-album?variant=60342641623365",
+      "artist": "Various Artists",
+      "title": "Grand Theft Auto VI: The Album",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "47.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://blitzkriegshop.co.uk/robots.txt",
+      "sha256": "f95359f833c06c624b8dda8c51a37e0bc0b1b0f6830d26f9326470259ba3fd7b"
+    },
+    {
+      "url": "https://blitzkriegshop.co.uk/",
+      "sha256": "677d25477547c97b36946880f7246cfef92bfc343a1d414468840ae4ee498341"
+    },
+    {
+      "url": "https://blitzkriegshop.co.uk/products.json?limit=20&page=1",
+      "sha256": "a77260e88a8d2b7b9f391a05df03759c8dd510098225b3427c826dd051e61bea"
+    },
+    {
+      "url": "https://blitzkriegshop.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "c9ca5aeeec3aab733466e07b96719a2821f56995fc8eaa255e4ecfb26bfe051c"
+    },
+    {
+      "url": "https://blitzkriegshop.co.uk/products/various-artists-grand-theft-auto-vi-the-album",
+      "sha256": "06fd45f12d4b366c57dd0f1e2ee7e5f62f0307ad88a8900e8d77cceab823ccd1"
+    },
+    {
+      "url": "https://blitzkriegshop.co.uk/products/linkin-park-living-things-ltd-smoke-red-vinyl",
+      "sha256": "5ae2f8df3dbccece9d4963807ecc28ce6efc6fc1be33b47c06cb2832406503e4"
+    },
+    {
+      "url": "https://blitzkriegshop.co.uk/products/both-hands-be-like-a-mountain-in-a-moonlit-way?variant=59880512946501",
+      "sha256": "122b5f6c5824dcd66b2f6eab6b1a49349bd92d6e88fab664830f210e6a2a9bdb"
+    },
+    {
+      "url": "https://blitzkriegshop.co.uk/products/goodfellas-music-from-the-motion-picture?variant=60214753919301",
+      "sha256": "930b0025c605dbfb6feb61fe08a27560f33ee481e0f48d72b34b558c7807db74"
+    },
+    {
+      "url": "https://blitzkriegshop.co.uk/products/various-artists-grand-theft-auto-vi-the-album?variant=60342641623365",
+      "sha256": "29bd2455efb368d4621c6497fe2b0b0ca5bfb769670e37075b643250f1029544"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.95,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://blitzkriegshop.co.uk/products/both-hands-be-like-a-mountain-in-a-moonlit-way?variant=59880512946501",
+    "https://blitzkriegshop.co.uk/products/goodfellas-music-from-the-motion-picture?variant=60214753919301",
+    "https://blitzkriegshop.co.uk/products/various-artists-grand-theft-auto-vi-the-album?variant=60342641623365"
+  ],
+  "assessment_id": "v2-44914511099-1",
+  "queue_rows": [
+    3423
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 19,
+  "candidate_ref": "v2-44914511099-1/blitzkriegshop_co_uk",
+  "assessment_path": "assessments/v2/blitzkriegshop_co_uk/v2-44914511099-1.json"
+}
