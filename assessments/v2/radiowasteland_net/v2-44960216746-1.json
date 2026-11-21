@@ -1,0 +1,161 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T23:20:03.797712+00:00",
+  "shop_id": "radiowasteland.net",
+  "row": 5069,
+  "name": "King Johnnie Casino AU",
+  "domain": "radiowasteland.net",
+  "country": null,
+  "website": "https://radiowasteland.net/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 5069,
+    "name": "King Johnnie Casino AU",
+    "domain": "radiowasteland.net",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://radiowasteland.net/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://radiowasteland.net/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://radiowasteland.net/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://radiowasteland.net/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://radiowasteland.net/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://radiowasteland.net/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://radiowasteland.net/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://radiowasteland.net/robots.txt",
+      "sha256": "d96b715f3e4a435caf557e64ce8fc6d05c7b14308df263e8fbe645cf05c41592"
+    },
+    {
+      "url": "https://radiowasteland.net/",
+      "sha256": "e541330b2d666bc14676751cb2b908b5b0bda3ffcb23170912563761fcaf8c92"
+    },
+    {
+      "url": "https://radiowasteland.net/products.json?limit=20&page=1",
+      "sha256": "f674baa0166c018ab72af36a51ae926d66c951d90e0a0f11ba6fc6d171d1137e"
+    },
+    {
+      "url": "https://radiowasteland.net/collections/all/products.json?limit=20&page=1",
+      "sha256": "ecfae8b1599b26d0bef9d5fcfe028c117d254b6e5f8cf31dd61f5398f2654653"
+    },
+    {
+      "url": "https://radiowasteland.net/api/0.1/collections/products?format=json",
+      "sha256": "fd024ce28498d5b37bfd21e7eb9cbb9d67eabbfc81654e334de230370acb9216"
+    },
+    {
+      "url": "https://radiowasteland.net/api/0.1/collections/all/products?format=json",
+      "sha256": "0c203d7bea7ff7752bf27f31515b883ecc99b049da5ec1d270195c9956ba6778"
+    },
+    {
+      "url": "https://radiowasteland.net/api/storefront/products?limit=20&offset=0",
+      "sha256": "98ba2f217846b9e1fd77eedfa0859339c3c4b873cc824c23df1ab03996a452c8"
+    },
+    {
+      "url": "https://radiowasteland.net/api/storefront/products?limit=20",
+      "sha256": "f9fa9f55b1ca21c1d9f9a7f37acef1598b0706148f2fc97bd1ffd24779100ab6"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-44960216746-1",
+  "queue_rows": [
+    5069
+  ],
+  "assessment_path": "assessments/v2/radiowasteland_net/v2-44960216746-1.json"
+}
