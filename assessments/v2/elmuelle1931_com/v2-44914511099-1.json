@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T14:36:04.338545+00:00",
+  "shop_id": "elmuelle1931.com",
+  "row": 4595,
+  "name": "ElMuelle1931",
+  "domain": "elmuelle1931.com",
+  "country": null,
+  "website": "https://elmuelle1931.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4595,
+    "name": "ElMuelle1931",
+    "domain": "elmuelle1931.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://elmuelle1931.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://elmuelle1931.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://elmuelle1931.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://elmuelle1931.com/collections/all/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://elmuelle1931.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://elmuelle1931.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://elmuelle1931.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://elmuelle1931.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://elmuelle1931.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://elmuelle1931.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://elmuelle1931.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 12,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://elmuelle1931.com/products/various-bollywood-nuggets?variant=57171845579096",
+      "artist": "Various",
+      "title": "Bollywood Nuggets",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "20.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://elmuelle1931.com/products/cate-kennan-shadows?variant=59124915175768",
+      "artist": "Cate Kennan",
+      "title": "Shadows",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "34.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://elmuelle1931.com/products/evia-mirror?variant=59131202797912",
+      "artist": "èvia",
+      "title": "Mirror",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "23.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://elmuelle1931.com/robots.txt",
+      "sha256": "bb502c6bc5e9152983fb4ca13275b2b929b9d7ac2a4372ce4c20605514a70159"
+    },
+    {
+      "url": "https://elmuelle1931.com/",
+      "sha256": "0d6503951ade928fbe92739526daf79f3c6c049a5aa21490ebe873bf21f15634"
+    },
+    {
+      "url": "https://elmuelle1931.com/products.json?limit=20&page=1",
+      "sha256": "e9a016b7b3bf01b0bb37eff97645f688b79a7277a6753b34e6fbb3ae893b6e13"
+    },
+    {
+      "url": "https://elmuelle1931.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "f3a40140d9d45f2cda73aa65fb43559253be651be1c4fd1a6e7135a92930ef21"
+    },
+    {
+      "url": "https://elmuelle1931.com/products/evia-mirror",
+      "sha256": "1925910fdcc7435db6a5e08607a9be1c8c22aaad8619bac975cbe4257325c9e5"
+    },
+    {
+      "url": "https://elmuelle1931.com/products/erik-enocksson-farval-falkenberg",
+      "sha256": "d1e8a6b8ce0644b0d720454c20bb6c7181edca15430a9279a26646c03be8ced0"
+    },
+    {
+      "url": "https://elmuelle1931.com/products/various-bollywood-nuggets?variant=57171845579096",
+      "sha256": "846fa800db2e29ef8e4b58185f8fd68cfa6060a3c0881561febab4a3678435b3"
+    },
+    {
+      "url": "https://elmuelle1931.com/products/cate-kennan-shadows?variant=59124915175768",
+      "sha256": "fbb0808875f88dc4f0801591c418cd4946c6d0d4897708ffee96716b65a4051f"
+    },
+    {
+      "url": "https://elmuelle1931.com/products/evia-mirror?variant=59131202797912",
+      "sha256": "61695bd7f06966ffc6d4d703d8ac5d7369af86b84942da0991b32fbacf09720e"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://elmuelle1931.com/products/various-bollywood-nuggets?variant=57171845579096",
+    "https://elmuelle1931.com/products/cate-kennan-shadows?variant=59124915175768",
+    "https://elmuelle1931.com/products/evia-mirror?variant=59131202797912"
+  ],
+  "assessment_id": "v2-44914511099-1",
+  "queue_rows": [
+    4595
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 20,
+  "candidate_ref": "v2-44914511099-1/elmuelle1931_com",
+  "assessment_path": "assessments/v2/elmuelle1931_com/v2-44914511099-1.json"
+}
