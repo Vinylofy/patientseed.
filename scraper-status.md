@@ -5205,7 +5205,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | bruiserrecordsjax.com | 1 | APPROVED | 0 | 20 | 3/3 | ACTIVE (run 44891291707) | ACTIVE | run 39155794450 |
 | butterbeatsrecordstore.com | 39 | REVIEW | 0 | 10 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | cameronrecords.com | 17 | APPROVED | 1 | 16 | 3/3 | ACTIVE (run 44891291707) | ACTIVE | run 40828686930 |
-| capsulerecords.co.uk | 39 | APPROVED | 0 | 3 | 3/3 | ACTIVE (run 44891291707) | ACTIVE | run 44696709935 |
+| capsulerecords.co.uk | 39 | APPROVED | 0 | 3 | 3/3 | ACTIVE (run 44891291707) | ACTIVE (run 44897660482) | run 44696709935 |
 | cellar-records.com | 40 | REVIEW | 0 | 15 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | chalkys.com | 28 | APPROVED | 1 | 7 | 3/3 | ACTIVE (run 44891291707) | ACTIVE | run 42577039054 |
 | chiefrecordsonline.com | 19 | FROZEN | 3 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
