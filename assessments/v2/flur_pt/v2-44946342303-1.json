@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T20:37:36.922483+00:00",
+  "shop_id": "flur.pt",
+  "row": 4526,
+  "name": "Flur Discos",
+  "domain": "flur.pt",
+  "country": null,
+  "website": "https://flur.pt/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4526,
+    "name": "Flur Discos",
+    "domain": "flur.pt",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://flur.pt/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 12,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://flur.pt/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://flur.pt/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://flur.pt/collections/all/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://flur.pt/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://flur.pt/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://flur.pt/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://flur.pt/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://flur.pt/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://flur.pt/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://flur.pt/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://flur.pt/robots.txt",
+      "sha256": "79774c022abbba3a5f20dd7839885d9d9aeb7f02a4384f73e0c153aa0f8e91cb"
+    },
+    {
+      "url": "https://flur.pt/",
+      "sha256": "c36361f0d4ff2e3e231466e26e0137252b0bbf05dbe6876bc1543917bc537b7a"
+    },
+    {
+      "url": "https://flur.pt/products.json?limit=20&page=1",
+      "sha256": "3393ec30c8784cd1acd0e5952bd60964fb2675ea11bf42b5c2f230d525b89e63"
+    },
+    {
+      "url": "https://flur.pt/collections/all/products.json?limit=20&page=1",
+      "sha256": "9f4c803590c12a85caaea04a911ddf168e90883d00b76111bf17c5f171152612"
+    },
+    {
+      "url": "https://flur.pt/products/sad-edit-sad-edit-001-2026-edition-sad0012026",
+      "sha256": "692ffeb0e886e74706939dc4aa2de1064039f65f44b6ff0eb7a2be121c6bee4f"
+    },
+    {
+      "url": "https://flur.pt/products/sufjan-stevens-worst-christmas-ever-akr157lpc1",
+      "sha256": "9b66498b01830c0aeb5923f7398a98ec1ca6989871364f5b1b46b64fe5aa462c"
+    },
+    {
+      "url": "https://flur.pt/products/dj-shadow-endtroducing-30th-anniversary-piasc1129dlp?variant=59578343883087",
+      "sha256": "e36be601be3d80a80f24204a4f34efe454c84e4b8b789b180a4906ec4ffbb792"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.16666666666666666,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-44946342303-1",
+  "queue_rows": [
+    4526
+  ],
+  "assessment_path": "assessments/v2/flur_pt/v2-44946342303-1.json"
+}
