@@ -3807,3 +3807,52 @@ Maximale bouwpogingen: 3
 | differentbeattelevision.com | 5057 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | discologyreno.com | 5058 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
 | djmikielove.com | 5059 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| folmc.org | 5060 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| forcedexposure.com | 5061 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| lasallemusic.com | 5062 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| graycatmusic.com | 5063 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| horrorpaingoredeath.com | 5064 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hymiesrecords.com | 5065 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| idm-edm.com | 5066 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| jackniferecordsandtapes.com | 5067 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| kentuckymusichalloffame.com | 5068 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| radiowasteland.net | 5069 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| legacydumbo.com | 5070 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| light-in-the-attic-record-shop.square.site | 5071 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rpmrecords.net | 5072 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| metzgervintageaudio.com | 5073 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| milkcratecafe.com | 5074 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| nextchapterrecords.com | 5075 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| nocapresents.org | 5076 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| friendsofsound.com | 5077 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_404 |
+| onandonscranton.com | 5078 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| parttimeloverhifi.com | 5079 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| queenofheartsjewelry.us | 5080 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| recordrunnerusa.com | 5081 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_503 |
+| recordstopny.com | 5082 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| rockpaperscissorsgoods.com | 5083 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| roundmidnightrecords.com | 5084 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| backwhenradiowasboss.com | 5085 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| skadogrecords.com | 5086 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| spacemonkeyrecords.net | 5087 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| squidco.com | 5088 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| suddenlightrecords.com | 5089 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thedoorwi.com | 5090 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| goodiesdisc.com | 5091 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| recordsfromjupiter.tumblr.com | 5092 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| turntablestrails.com | 5093 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wildwoodhastings.com | 5094 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| yelp.com | 5095 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| littlebutterflyrecords.com | 5096 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['littlebutterflyrecords_com.py', 'littlebutterflyrecords_com.json'] |
+| altoquerecords.com | 5097 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| recordland.com | 5098 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| elmarchante.org | 5099 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| imusic.nl | 5100 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bol.com | 5101 | 1 | SOURCE_REVIEW | — | — | — | SHARED_PLATFORM |
+| recordsonvinyl.nl | 5102 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['recordsonvinyl_nl.py', 'recordsonvinyl_nl.json'] |
+| platenzaak.nl | 5103 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['platenzaak_nl.py', 'platenzaak_nl.json'] |
+| vinyllp.nl | 5104 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| large.nl | 5105 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| smartpunkshop.com | 5106 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| revinrecords.com | 5107 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| topnotch-shop.nl | 5108 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['topnotch_shop_nl.py', 'topnotch_shop_nl.json'] |
