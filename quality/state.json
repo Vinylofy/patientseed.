@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "batch": 39,
+  "batch": 40,
   "shops": {
     "10000hzrecords_com": {
       "fingerprint": "bd851743c2eee03c427913ea2a88bc94dfb0e74b1f11366277a07532ffcd9e33",
@@ -27522,8 +27522,1987 @@
         },
         "status": "APPROVED"
       }
+    },
+    "3345_nl": {
+      "fingerprint": "4f60f47b549d5ae82ee01226d8a09c56545314ccdb24e4f2caae00a99f4c91a7",
+      "domain": "3345.nl",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:38:18.968474+00:00",
+      "evidence": {
+        "domain": "3345.nl",
+        "route": "https://3345.nl/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:38:15.655128+00:00",
+        "requests": [
+          {
+            "url": "https://3345.nl/products.json?limit=20&page=1",
+            "sha256": "e7047a250fc276e0615b8e5bf8c6152d848cbca7d219f1d8e2052565f6e3d576"
+          },
+          {
+            "url": "https://3345.nl/products/the-congos-dub-feast-lp?variant=59194033373528",
+            "sha256": "e83a62c614e7361bcb198fbb4c61765dccecb00cfe6cf59833c0080be2af22b7"
+          },
+          {
+            "url": "https://3345.nl/products/anderson-paak-heavy-is-the-lp?variant=59194029244760",
+            "sha256": "f478879861de72a178d3b0b408ebc5a12b97b8eff26413027fba5edd44b7a570"
+          },
+          {
+            "url": "https://3345.nl/products/bill-evans-across-the-alps-the-lugano-pescara-concerts-lp?variant=59193406718296",
+            "sha256": "5565fecd2e08d628684bf74878f115a09d826b5c9a1d2d1cbfe1217477bfbd8c"
+          }
+        ],
+        "listing_records": 14,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://3345.nl/products/the-congos-dub-feast-lp?variant=59194033373528",
+            "price": "18.99",
+            "currency": "EUR",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://3345.nl/products/anderson-paak-heavy-is-the-lp?variant=59194029244760",
+            "price": "27.99",
+            "currency": "EUR",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://3345.nl/products/bill-evans-across-the-alps-the-lugano-pescara-concerts-lp?variant=59193406718296",
+            "price": "54.99",
+            "currency": "EUR",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 14,
+          "unique_prices": 12,
+          "shipping_hits": 0,
+          "currencies": [
+            "EUR"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "44881153515"
+        }
+      ]
+    },
+    "aftermath_music_com": {
+      "fingerprint": "6c4628d230d052f32e1d4ffab44e0cdd642236fcbc4aa8f27d11c51fc1858176",
+      "domain": "aftermath-music.com",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:38:20.645323+00:00",
+      "evidence": {
+        "domain": "aftermath-music.com",
+        "route": "https://aftermath-music.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:38:19.010775+00:00",
+        "requests": [
+          {
+            "url": "https://aftermath-music.com/products.json?limit=20&page=1",
+            "sha256": "bafa03a7281ff283c92b942837195112e8c88cc542be91a9cac23b8365496a3f"
+          },
+          {
+            "url": "https://aftermath-music.com/products/deep-purple-live-encounters-3lp-purple-vinyl?variant=68017818828936",
+            "sha256": "6169b23b270dfba1d27c1eb5e6bc2c57c68bac531ff6881edad9dceb087a66f2"
+          }
+        ],
+        "listing_records": 6,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 6,
+          "unique_prices": 4,
+          "shipping_hits": 0,
+          "currencies": [
+            "NOK"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "44881153515"
+        }
+      ]
+    },
+    "asliceofvinyl_co_uk": {
+      "fingerprint": "da829b4de68cb2f5591ef1a59d59f1f93e8ce6d8592e72e28f1d17634e957ac3",
+      "domain": "asliceofvinyl.co.uk",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:38:23.862124+00:00",
+      "evidence": {
+        "domain": "asliceofvinyl.co.uk",
+        "route": "https://asliceofvinyl.co.uk/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:38:20.687117+00:00",
+        "requests": [
+          {
+            "url": "https://asliceofvinyl.co.uk/products.json?limit=20&page=1",
+            "sha256": "10583e5d59b9c2c48d381395b2b79c73a3285ae25cd7219db4165b69abda02c9"
+          },
+          {
+            "url": "https://asliceofvinyl.co.uk/products/gary-numan-dead-son-rising?variant=59407232237942",
+            "sha256": "60b9839ea3e1807300cd971ef043fa36d797a0e7003be921577cfbca16246e3c"
+          },
+          {
+            "url": "https://asliceofvinyl.co.uk/products/lime-garden-moving-target?variant=59406415495542",
+            "sha256": "0a417c0b39423a6eceaefb61c66bf40a71dabbd621c9d94f91f674790569706b"
+          },
+          {
+            "url": "https://asliceofvinyl.co.uk/products/suicidal-tendencies-join-the-army?variant=59373524058486",
+            "sha256": "c170b1ffa2b76db3233d8c3459b81c6b3a6b6a274e98494d3953a2f133104008"
+          }
+        ],
+        "listing_records": 15,
+        "detail_checked": 3,
+        "valid_eans": 2,
+        "details": [
+          {
+            "url": "https://asliceofvinyl.co.uk/products/gary-numan-dead-son-rising?variant=59407232237942",
+            "price": "35.99",
+            "currency": "GBP",
+            "ean": "04099964280432",
+            "condition": "new"
+          },
+          {
+            "url": "https://asliceofvinyl.co.uk/products/lime-garden-moving-target?variant=59406415495542",
+            "price": "13.99",
+            "currency": "GBP",
+            "ean": "00885288612530",
+            "condition": "new"
+          },
+          {
+            "url": "https://asliceofvinyl.co.uk/products/suicidal-tendencies-join-the-army?variant=59373524058486",
+            "price": "25.99",
+            "currency": "GBP",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 15,
+          "unique_prices": 11,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "44881153515"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "asliceofvinyl.co.uk",
+        "route": "https://asliceofvinyl.co.uk/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:38:20.687117+00:00",
+        "requests": [
+          {
+            "url": "https://asliceofvinyl.co.uk/products.json?limit=20&page=1",
+            "sha256": "10583e5d59b9c2c48d381395b2b79c73a3285ae25cd7219db4165b69abda02c9"
+          },
+          {
+            "url": "https://asliceofvinyl.co.uk/products/gary-numan-dead-son-rising?variant=59407232237942",
+            "sha256": "60b9839ea3e1807300cd971ef043fa36d797a0e7003be921577cfbca16246e3c"
+          },
+          {
+            "url": "https://asliceofvinyl.co.uk/products/lime-garden-moving-target?variant=59406415495542",
+            "sha256": "0a417c0b39423a6eceaefb61c66bf40a71dabbd621c9d94f91f674790569706b"
+          },
+          {
+            "url": "https://asliceofvinyl.co.uk/products/suicidal-tendencies-join-the-army?variant=59373524058486",
+            "sha256": "c170b1ffa2b76db3233d8c3459b81c6b3a6b6a274e98494d3953a2f133104008"
+          }
+        ],
+        "listing_records": 15,
+        "detail_checked": 3,
+        "valid_eans": 2,
+        "details": [
+          {
+            "url": "https://asliceofvinyl.co.uk/products/gary-numan-dead-son-rising?variant=59407232237942",
+            "price": "35.99",
+            "currency": "GBP",
+            "ean": "04099964280432",
+            "condition": "new"
+          },
+          {
+            "url": "https://asliceofvinyl.co.uk/products/lime-garden-moving-target?variant=59406415495542",
+            "price": "13.99",
+            "currency": "GBP",
+            "ean": "00885288612530",
+            "condition": "new"
+          },
+          {
+            "url": "https://asliceofvinyl.co.uk/products/suicidal-tendencies-join-the-army?variant=59373524058486",
+            "price": "25.99",
+            "currency": "GBP",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 15,
+          "unique_prices": 11,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "badlands_co_uk": {
+      "fingerprint": "d94b49b66e2c92580f66d5b3a5992ed51e794692e57d059cd868b5eb33f8c20e",
+      "domain": "badlands.co.uk",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:38:25.190829+00:00",
+      "evidence": {
+        "domain": "badlands.co.uk",
+        "route": "https://badlands.co.uk/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:38:23.904080+00:00",
+        "requests": [
+          {
+            "url": "https://badlands.co.uk/products.json?limit=20&page=1",
+            "sha256": "252a6fe80c4d11235eceb75a4feca2765d6322af341a2b2d745b4e0e34717b32"
+          },
+          {
+            "url": "https://badlands.co.uk/products/bo-diddley-have-guitar-will-travel?variant=60040243347788",
+            "sha256": "bdb46e3115124f71f251199af64c7e55c4bddafe51b2b294bfa0af4d5415441a"
+          }
+        ],
+        "listing_records": 1,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 1,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "44881153515"
+        }
+      ]
+    },
+    "bigloverecords_jp": {
+      "fingerprint": "ab9d31420a734170bf670324130625860e6de56927bc70f6232c713daa4c9aab",
+      "domain": "bigloverecords.jp",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:38:28.717148+00:00",
+      "evidence": {
+        "domain": "bigloverecords.jp",
+        "route": "https://bigloverecords.jp/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:38:25.232584+00:00",
+        "requests": [
+          {
+            "url": "https://bigloverecords.jp/products.json?limit=20&page=1",
+            "sha256": "dea171eb967fb7fe79fb329084f531b88a509eed7d709035ffc442464574b67f"
+          },
+          {
+            "url": "https://bigloverecords.jp/products/evilgiane-heavensgate-vol-1-2-japan-edition?variant=45839895167152",
+            "sha256": "9be57431063e7bb8e9731545c19c65288b46dd98f08ccebabb9d1e97b5a7280a"
+          },
+          {
+            "url": "https://bigloverecords.jp/products/the-kid-laroi-before-i-forget?variant=45834821271728",
+            "sha256": "f255b8638b88d1b5be66e626e7d152dc9af06e8ceabfc10158c7b930e5e2a1ab"
+          },
+          {
+            "url": "https://bigloverecords.jp/products/kali-malone-the-sacrificial-code?variant=44376619450544",
+            "sha256": "ccc65f14a3565af0481f755d4a8bfc202da010da8d23448f8d6b457fde8a7d10"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://bigloverecords.jp/products/evilgiane-heavensgate-vol-1-2-japan-edition?variant=45839895167152",
+            "price": "9990.00",
+            "currency": "JPY",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://bigloverecords.jp/products/the-kid-laroi-before-i-forget?variant=45834821271728",
+            "price": "6990.00",
+            "currency": "JPY",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://bigloverecords.jp/products/kali-malone-the-sacrificial-code?variant=44376619450544",
+            "price": "7790.00",
+            "currency": "JPY",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 12,
+          "shipping_hits": 0,
+          "currencies": [
+            "JPY"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "44881153515"
+        }
+      ]
+    },
+    "bobsvinyl_nl": {
+      "fingerprint": "e51342d4f862c1a7344857b48aea8ed1cd469eee5c928bf726334e8f402b2e0c",
+      "domain": "bobsvinyl.nl",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:38:32.105213+00:00",
+      "evidence": {
+        "domain": "bobsvinyl.nl",
+        "route": "https://bobsvinyl.nl/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:38:28.758581+00:00",
+        "requests": [
+          {
+            "url": "https://bobsvinyl.nl/products.json?limit=20&page=1",
+            "sha256": "c53e41ec7515e1f9403863410a743ef6c30f55c69e109ed2a9e78f25d25e6ea1"
+          },
+          {
+            "url": "https://bobsvinyl.nl/products/manchester-orchestra-im-like-a-virgin-losing-a-child-2lp?variant=55290426130765",
+            "sha256": "43a811c86c608d17fd3fad1e0b10c8f9c30bf138c1f87b8793a8d341025b38cb"
+          },
+          {
+            "url": "https://bobsvinyl.nl/products/boudewijn-de-groot-vijf-jaar-hits-lp-a70?variant=55446741942605",
+            "sha256": "eb495e0df2ad6fdc3d067159eec6079f67a8b4221b4432b00f9195481372ff69"
+          },
+          {
+            "url": "https://bobsvinyl.nl/products/the-chills-kaleidoscope-world-lp-a70?variant=55446611362125",
+            "sha256": "aa47230f596a2a5abc39ad8f9204856487912c56072ad5c833bfe92ce7a5045b"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 3,
+        "valid_eans": 1,
+        "details": [
+          {
+            "url": "https://bobsvinyl.nl/products/manchester-orchestra-im-like-a-virgin-losing-a-child-2lp?variant=55290426130765",
+            "price": "49.95",
+            "currency": "EUR",
+            "ean": "00840526514861",
+            "condition": "new"
+          },
+          {
+            "url": "https://bobsvinyl.nl/products/boudewijn-de-groot-vijf-jaar-hits-lp-a70?variant=55446741942605",
+            "price": "5.95",
+            "currency": "EUR",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://bobsvinyl.nl/products/the-chills-kaleidoscope-world-lp-a70?variant=55446611362125",
+            "price": "29.95",
+            "currency": "EUR",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 13,
+          "shipping_hits": 0,
+          "currencies": [
+            "EUR"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "44881153515"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "bobsvinyl.nl",
+        "route": "https://bobsvinyl.nl/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:38:28.758581+00:00",
+        "requests": [
+          {
+            "url": "https://bobsvinyl.nl/products.json?limit=20&page=1",
+            "sha256": "c53e41ec7515e1f9403863410a743ef6c30f55c69e109ed2a9e78f25d25e6ea1"
+          },
+          {
+            "url": "https://bobsvinyl.nl/products/manchester-orchestra-im-like-a-virgin-losing-a-child-2lp?variant=55290426130765",
+            "sha256": "43a811c86c608d17fd3fad1e0b10c8f9c30bf138c1f87b8793a8d341025b38cb"
+          },
+          {
+            "url": "https://bobsvinyl.nl/products/boudewijn-de-groot-vijf-jaar-hits-lp-a70?variant=55446741942605",
+            "sha256": "eb495e0df2ad6fdc3d067159eec6079f67a8b4221b4432b00f9195481372ff69"
+          },
+          {
+            "url": "https://bobsvinyl.nl/products/the-chills-kaleidoscope-world-lp-a70?variant=55446611362125",
+            "sha256": "aa47230f596a2a5abc39ad8f9204856487912c56072ad5c833bfe92ce7a5045b"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 3,
+        "valid_eans": 1,
+        "details": [
+          {
+            "url": "https://bobsvinyl.nl/products/manchester-orchestra-im-like-a-virgin-losing-a-child-2lp?variant=55290426130765",
+            "price": "49.95",
+            "currency": "EUR",
+            "ean": "00840526514861",
+            "condition": "new"
+          },
+          {
+            "url": "https://bobsvinyl.nl/products/boudewijn-de-groot-vijf-jaar-hits-lp-a70?variant=55446741942605",
+            "price": "5.95",
+            "currency": "EUR",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://bobsvinyl.nl/products/the-chills-kaleidoscope-world-lp-a70?variant=55446611362125",
+            "price": "29.95",
+            "currency": "EUR",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 13,
+          "shipping_hits": 0,
+          "currencies": [
+            "EUR"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "bordelloaparigi_com": {
+      "fingerprint": "4f0e0c137af129033b38c37fa894210653b5fe97f383dc15d181e1c2d2bdf23f",
+      "domain": "bordelloaparigi.com",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:38:36.851202+00:00",
+      "evidence": {
+        "domain": "bordelloaparigi.com",
+        "route": "https://bordelloaparigi.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "observed_at": "2026-11-21T07:38:32.150212+00:00",
+        "requests": [
+          {
+            "url": "https://bordelloaparigi.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+            "sha256": "51ad4553cc29f407e93802a8e36438550c130d5d8296eed4d4b4ccb347eb60a8"
+          },
+          {
+            "url": "https://bordelloaparigi.com/shop/vinyl/evia-mirror-lp/",
+            "sha256": "97726e3630d1a10c9b2f2b64187330c45290f63bc2a7edc8ff9f6a7677f1a094"
+          },
+          {
+            "url": "https://bordelloaparigi.com/shop/vinyl/space-the-art-of-space-disco-1977-1978-lp/",
+            "sha256": "3ac6b4972ccb21b62c47c56dc8890b6d331275ec57a5473c6c7888ee9efd06ac"
+          },
+          {
+            "url": "https://bordelloaparigi.com/shop/vinyl/profit-prison-why-art-thou-wroth-and-why-is-thy-countenance-fallen-lp/",
+            "sha256": "674741bc6a62fa830e2bf8f63dc2c1f25abd412625408e48548b0a798a31d7b6"
+          }
+        ],
+        "listing_records": 6,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://bordelloaparigi.com/shop/vinyl/evia-mirror-lp/",
+            "price": "29.50",
+            "currency": "EUR",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://bordelloaparigi.com/shop/vinyl/space-the-art-of-space-disco-1977-1978-lp/",
+            "price": "32.50",
+            "currency": "EUR",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://bordelloaparigi.com/shop/vinyl/profit-prison-why-art-thou-wroth-and-why-is-thy-countenance-fallen-lp/",
+            "price": "24.99",
+            "currency": "EUR",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 6,
+          "unique_prices": 5,
+          "shipping_hits": 0,
+          "currencies": [
+            "EUR"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "44881153515"
+        }
+      ]
+    },
+    "cellar_records_com": {
+      "fingerprint": "9997a314d2301c145fb66479a2bc791b011c891c9fa1bfc67b6e5bcbe9943f99",
+      "domain": "cellar-records.com",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:38:40.399426+00:00",
+      "evidence": {
+        "domain": "cellar-records.com",
+        "route": "https://cellar-records.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:38:36.895124+00:00",
+        "requests": [
+          {
+            "url": "https://cellar-records.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "4c4e237f6f951708e97d24dce3e94837d0f1886901c0ca3e9474b1eebd769ab8"
+          },
+          {
+            "url": "https://cellar-records.com/products/1619-bad-ass-band-s-tlp?variant=43480232493293",
+            "sha256": "758feed57bb393ffbed456ffc70bfce27783a8bf548a42ff5a9eec28170280e4"
+          },
+          {
+            "url": "https://cellar-records.com/products/alvin-curran-canti-e-vedute-del-giardino-magneticolp?variant=44052348043501",
+            "sha256": "0b51bfe6ff674a64ecbbef93fcfb098fe3978d0695be6edd14d7fc4649aef262"
+          },
+          {
+            "url": "https://cellar-records.com/products/archie-james-cavanaugh-black-and-white-ravenlp?variant=43507568541933",
+            "sha256": "c1eb48c989f6efb000457a797959f8f8a3f2dce5a037be414c07440a83f86cae"
+          }
+        ],
+        "listing_records": 15,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://cellar-records.com/products/1619-bad-ass-band-s-tlp?variant=43480232493293",
+            "price": "4675.00",
+            "currency": "JPY",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://cellar-records.com/products/alvin-curran-canti-e-vedute-del-giardino-magneticolp?variant=44052348043501",
+            "price": "3680.00",
+            "currency": "JPY",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://cellar-records.com/products/archie-james-cavanaugh-black-and-white-ravenlp?variant=43507568541933",
+            "price": "3520.00",
+            "currency": "JPY",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 15,
+          "unique_prices": 13,
+          "shipping_hits": 0,
+          "currencies": [
+            "JPY"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "44881153515"
+        }
+      ]
+    },
+    "cruiserecords_de": {
+      "fingerprint": "c7d0d2ba00123064dfd9e76fa7470e2fe02e2412dcef2c9cc3691f7ccf644174",
+      "domain": "cruiserecords.de",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:38:41.787477+00:00",
+      "evidence": {
+        "domain": "cruiserecords.de",
+        "route": "https://cruiserecords.de/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:38:40.441612+00:00",
+        "requests": [
+          {
+            "url": "https://cruiserecords.de/products.json?limit=20&page=1",
+            "sha256": "86e3ddb210541adf47afb30f2cb1a2e17eb060e9c12fe16cbb70f4ce9e0cc922"
+          },
+          {
+            "url": "https://cruiserecords.de/products/vinyl_2804_03?variant=43641013469449",
+            "sha256": "8574b491ae1989f6e15c84c667d081881152767b277a896f5791a31016ec6942"
+          }
+        ],
+        "listing_records": 18,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 18,
+          "unique_prices": 6,
+          "shipping_hits": 0,
+          "currencies": [
+            "EUR"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "44881153515"
+        }
+      ]
+    },
+    "davids_music_co_uk": {
+      "fingerprint": "97f23ede386aec888e606703e7643872111cdf8ceb0c649b1b68f645e12fe56f",
+      "domain": "davids-music.co.uk",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:38:43.021020+00:00",
+      "evidence": {
+        "domain": "davids-music.co.uk",
+        "route": "https://davids-music.co.uk/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:38:41.830669+00:00",
+        "requests": [
+          {
+            "url": "https://davids-music.co.uk/collections/all/products.json?limit=20&page=1",
+            "sha256": "c05b45c9e283af337e2c4f8e4ef2a17b7e06e53ca0591996667c71d4bf9af339"
+          },
+          {
+            "url": "https://davids-music.co.uk/products/air-love-2-reissue-clear-vinyl-2lp?variant=48025642762377",
+            "sha256": "d558c6906d6b3de1235ce5a9931f8373bb8c4c8fd46e491ec9086476419015ec"
+          }
+        ],
+        "listing_records": 1,
+        "detail_checked": 1,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://davids-music.co.uk/products/air-love-2-reissue-clear-vinyl-2lp?variant=48025642762377",
+            "price": "44.99",
+            "currency": "GBP",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 1,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "44881153515"
+        }
+      ]
+    },
+    "deadairvinyl_co_uk": {
+      "fingerprint": "8946b4bac6f2e13c625bf5e394298947f29a322438e84b96252fdf4bcdf1bfba",
+      "domain": "deadairvinyl.co.uk",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:38:44.261569+00:00",
+      "evidence": {
+        "domain": "deadairvinyl.co.uk",
+        "route": "https://deadairvinyl.co.uk/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:38:43.063324+00:00",
+        "requests": [
+          {
+            "url": "https://deadairvinyl.co.uk/collections/all/products.json?limit=20&page=1",
+            "sha256": "f3109835fea93acacd1dac39752a710c7d1ef88b283cd2ed3a5897bdc2a94867"
+          },
+          {
+            "url": "https://deadairvinyl.co.uk/products/uicideboy-thy-will-be-done?variant=56752025928053",
+            "sha256": "0a3dd7aedc657185e145d74e7a4df6d0b282cdfe4319fb9494d573f2b65fd9f1"
+          }
+        ],
+        "listing_records": 3,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 3,
+          "unique_prices": 3,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "invalid_detail_gtin",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "REVIEW",
+          "reason": "invalid_detail_gtin",
+          "run_id": "44881153515"
+        }
+      ]
+    },
+    "deserthighways_com": {
+      "fingerprint": "537e34d484a216008e9720a6ba8b9031652fd22d992c9ad5b9b61e8779d9e80b",
+      "domain": "deserthighways.com",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:38:47.935632+00:00",
+      "evidence": {
+        "domain": "deserthighways.com",
+        "route": "https://deserthighways.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:38:44.304008+00:00",
+        "requests": [
+          {
+            "url": "https://deserthighways.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "9727d998ff8bff54a91ae54b0a6d2f79fd1fcfaa258854a4ff3599563cc89a9f"
+          },
+          {
+            "url": "https://deserthighways.com/products/a-celebration-of-chris-cornell-12-beyond-blue-fundraiser?variant=48939373494501",
+            "sha256": "859bb01dc938c95b1bd52076f386e5fcdf344dd158c9764c5f8ec6c4a4ab845b"
+          },
+          {
+            "url": "https://deserthighways.com/products/alice-in-chains-dirt-2lp?variant=48939408916709",
+            "sha256": "645932357fb6c0fd5d01c87f1131c353bd06f7bc545481a0f0b53c8015a2c33d"
+          },
+          {
+            "url": "https://deserthighways.com/products/arcade-fire-open-your-heart-or-die-trying-rsd-2026-lp?variant=48939584061669",
+            "sha256": "509a54ddad1266ae29bda53afd6472b166b4b2fdbc457d991308969777b6a47e"
+          }
+        ],
+        "listing_records": 4,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://deserthighways.com/products/a-celebration-of-chris-cornell-12-beyond-blue-fundraiser?variant=48939373494501",
+            "price": "25.00",
+            "currency": "AUD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://deserthighways.com/products/alice-in-chains-dirt-2lp?variant=48939408916709",
+            "price": "72.00",
+            "currency": "AUD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://deserthighways.com/products/arcade-fire-open-your-heart-or-die-trying-rsd-2026-lp?variant=48939584061669",
+            "price": "55.00",
+            "currency": "AUD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 4,
+          "unique_prices": 4,
+          "shipping_hits": 0,
+          "currencies": [
+            "AUD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "44881153515"
+        }
+      ]
+    },
+    "discords_nl": {
+      "fingerprint": "e8786d74f6b1fe021a023e93c7de3480fbbdcbde4835e2003cad6252c7e2c3c5",
+      "domain": "discords.nl",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:38:49.166574+00:00",
+      "evidence": {
+        "domain": "discords.nl",
+        "route": "https://discords.nl/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:38:47.977766+00:00",
+        "requests": [
+          {
+            "url": "https://discords.nl/products.json?limit=20&page=1",
+            "sha256": "4cc864c18e91181bebd020742f060b99312ad46a56134510a9d516dd06b435b3"
+          },
+          {
+            "url": "https://discords.nl/products/de-ambassade-duistre-kamers-lp?variant=58784711541068",
+            "sha256": "cf2251c5503cd10012e2efd711e8309abf1cc92f6190e7f8e74f417d995a1664"
+          }
+        ],
+        "listing_records": 19,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 19,
+          "unique_prices": 10,
+          "shipping_hits": 0,
+          "currencies": [
+            "EUR"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "44881153515"
+        }
+      ]
+    },
+    "discossupersonicsantander_com": {
+      "fingerprint": "2c73fec8eb47073daccf70621eb08d4386287bd774f650592a8419f4e1118d5b",
+      "domain": "discossupersonicsantander.com",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:38:50.371250+00:00",
+      "evidence": {
+        "domain": "discossupersonicsantander.com",
+        "route": "https://discossupersonicsantander.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:38:49.211022+00:00",
+        "requests": [
+          {
+            "url": "https://discossupersonicsantander.com/products.json?limit=20&page=1",
+            "sha256": "9de4e53c4d0fdb01d82b55a44231399aec7fec9d4ccc24b8daf810002a0fcf28"
+          },
+          {
+            "url": "https://discossupersonicsantander.com/products/kings-of-leon-o-my-beloved?variant=54638941339995",
+            "sha256": "1ad737378a0cd10036cb3e46ddc00b8293cffbe3dc9e69addc7a2becd5796f96"
+          }
+        ],
+        "listing_records": 13,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 13,
+          "unique_prices": 9,
+          "shipping_hits": 0,
+          "currencies": [
+            "EUR"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "44881153515"
+        }
+      ]
+    },
+    "djungelochjazz_se": {
+      "fingerprint": "5fe99ebc9a34a701c7457fb41d2d39310d8390fd1e12143ca27696c4fac3681c",
+      "domain": "djungelochjazz.se",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:38:51.774003+00:00",
+      "evidence": {
+        "domain": "djungelochjazz.se",
+        "route": "https://djungelochjazz.se/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:38:50.413670+00:00",
+        "requests": [
+          {
+            "url": "https://djungelochjazz.se/products.json?limit=20&page=1",
+            "sha256": "d21dbee6e3b39ce400e3620d96e886e545c7b50e1e27ac732af29fbc17d59d38"
+          },
+          {
+            "url": "https://djungelochjazz.se/products/ze-ibarra-afim?variant=53474694201675",
+            "sha256": "c8622fd22129ea9de510bb92d0ed00d61cf40ff14971029eb415125f708b3a8d"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 15,
+          "shipping_hits": 0,
+          "currencies": [
+            "SEK"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "44881153515"
+        }
+      ]
+    },
+    "dreamstreetrecords_co_uk": {
+      "fingerprint": "7b87ccc893d287b85be73084dae0d33f1fd6509da6ed45fffbde682216ca75b7",
+      "domain": "dreamstreetrecords.co.uk",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:38:53.043092+00:00",
+      "evidence": {
+        "domain": "dreamstreetrecords.co.uk",
+        "route": "https://dreamstreetrecords.co.uk/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:38:51.816529+00:00",
+        "requests": [
+          {
+            "url": "https://dreamstreetrecords.co.uk/products.json?limit=20&page=1",
+            "sha256": "b544b3a36a9c80bf1c2a35f39628e17f5616d123538543b96281dc87d7cd2e2b"
+          },
+          {
+            "url": "https://dreamstreetrecords.co.uk/products/aja-monet-when-the-poems-do-what-they-do-2lp?variant=59955823968604",
+            "sha256": "1cd754096ff21d7e5347bb4b992e1ee6697eb3aaa2990970adb178c72bd79ccb"
+          }
+        ],
+        "listing_records": 7,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 7,
+          "unique_prices": 6,
+          "shipping_hits": 0,
+          "currencies": [
+            "GBP"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "44881153515"
+        }
+      ]
+    },
+    "drownedworldrecords_com": {
+      "fingerprint": "eb2119d28aa1c56c9a175aa31f077532f85c78f8f982d3ddbfd0445b98a39d36",
+      "domain": "drownedworldrecords.com",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:38:56.416506+00:00",
+      "evidence": {
+        "domain": "drownedworldrecords.com",
+        "route": "https://drownedworldrecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:38:53.085282+00:00",
+        "requests": [
+          {
+            "url": "https://drownedworldrecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "a42223ef9ec153e5d258e20296eb15b4e0db5f8ec04b96523172d2f7c34ee1f9"
+          },
+          {
+            "url": "https://drownedworldrecords.com/products/gigs-just-a-hero-tour-1986-40th-anniversary-edition-black-3lp?variant=49183261688025",
+            "sha256": "fa71a558c8b26236abcb45462813ba2824244f68b342ef9ef0f33d72568ec126"
+          },
+          {
+            "url": "https://drownedworldrecords.com/products/z3ro-2-lght-p33d-lp-import?variant=49093373198553",
+            "sha256": "a45e8181691393fe6236207ff9d98243ee6616f5b41d9fb6cf9d0ca5539ccbee"
+          },
+          {
+            "url": "https://drownedworldrecords.com/products/round-about-midnight-lp-180-gram?variant=46342771048665",
+            "sha256": "e34025608a676b8a15b8a428613a79059e42445d479bd11dd3292b5310f80131"
+          }
+        ],
+        "listing_records": 19,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://drownedworldrecords.com/products/gigs-just-a-hero-tour-1986-40th-anniversary-edition-black-3lp?variant=49183261688025",
+            "price": "159.98",
+            "currency": "USD",
+            "ean": "04988031898444",
+            "condition": "new"
+          },
+          {
+            "url": "https://drownedworldrecords.com/products/z3ro-2-lght-p33d-lp-import?variant=49093373198553",
+            "price": "42.98",
+            "currency": "USD",
+            "ean": "00199284723924",
+            "condition": "new"
+          },
+          {
+            "url": "https://drownedworldrecords.com/products/round-about-midnight-lp-180-gram?variant=46342771048665",
+            "price": "21.98",
+            "currency": "USD",
+            "ean": "08436563186097",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 19,
+          "unique_prices": 16,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "44881153515"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "drownedworldrecords.com",
+        "route": "https://drownedworldrecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:38:53.085282+00:00",
+        "requests": [
+          {
+            "url": "https://drownedworldrecords.com/collections/all/products.json?limit=20&page=1",
+            "sha256": "a42223ef9ec153e5d258e20296eb15b4e0db5f8ec04b96523172d2f7c34ee1f9"
+          },
+          {
+            "url": "https://drownedworldrecords.com/products/gigs-just-a-hero-tour-1986-40th-anniversary-edition-black-3lp?variant=49183261688025",
+            "sha256": "fa71a558c8b26236abcb45462813ba2824244f68b342ef9ef0f33d72568ec126"
+          },
+          {
+            "url": "https://drownedworldrecords.com/products/z3ro-2-lght-p33d-lp-import?variant=49093373198553",
+            "sha256": "a45e8181691393fe6236207ff9d98243ee6616f5b41d9fb6cf9d0ca5539ccbee"
+          },
+          {
+            "url": "https://drownedworldrecords.com/products/round-about-midnight-lp-180-gram?variant=46342771048665",
+            "sha256": "e34025608a676b8a15b8a428613a79059e42445d479bd11dd3292b5310f80131"
+          }
+        ],
+        "listing_records": 19,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://drownedworldrecords.com/products/gigs-just-a-hero-tour-1986-40th-anniversary-edition-black-3lp?variant=49183261688025",
+            "price": "159.98",
+            "currency": "USD",
+            "ean": "04988031898444",
+            "condition": "new"
+          },
+          {
+            "url": "https://drownedworldrecords.com/products/z3ro-2-lght-p33d-lp-import?variant=49093373198553",
+            "price": "42.98",
+            "currency": "USD",
+            "ean": "00199284723924",
+            "condition": "new"
+          },
+          {
+            "url": "https://drownedworldrecords.com/products/round-about-midnight-lp-180-gram?variant=46342771048665",
+            "price": "21.98",
+            "currency": "USD",
+            "ean": "08436563186097",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 19,
+          "unique_prices": 16,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "dutchvinyl_com_au": {
+      "fingerprint": "d9701a020a008d9fe8870466477b1e8fc91b52625234bb07d6d395ca23920d45",
+      "domain": "dutchvinyl.com.au",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:38:57.766377+00:00",
+      "evidence": {
+        "domain": "dutchvinyl.com.au",
+        "route": "https://dutchvinyl.com.au/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:38:56.459887+00:00",
+        "requests": [
+          {
+            "url": "https://dutchvinyl.com.au/collections/all/products.json?limit=20&page=1",
+            "sha256": "e64d4a536da8b9a95c828cd96d6af5bc93265adbbbb9aa57f6822c41429131dd"
+          },
+          {
+            "url": "https://dutchvinyl.com.au/products/various-the-rocky-horror-picture-show-206157?variant=40503679025217",
+            "sha256": "e8a2ea66b910f356f851a6edc934e5b66cefe100bce038055d1a4d085a47e988"
+          }
+        ],
+        "listing_records": 13,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 13,
+          "unique_prices": 9,
+          "shipping_hits": 0,
+          "currencies": [
+            "AUD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "44881153515"
+        }
+      ]
+    },
+    "eastmanrecords_nl": {
+      "fingerprint": "6fe0fcc064fd312ce4d661e36ca5c3a35841960e1c9cb1c3271f5a25db583a9c",
+      "domain": "eastmanrecords.nl",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:39:00.640573+00:00",
+      "evidence": {
+        "domain": "eastmanrecords.nl",
+        "route": "https://eastmanrecords.nl/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "observed_at": "2026-11-21T07:38:57.809741+00:00",
+        "requests": [
+          {
+            "url": "https://eastmanrecords.nl/wp-json/wc/store/v1/products?per_page=20&page=1",
+            "sha256": "17c6b30951054fef5d5ba4cd95886a2734507127056fd6385d7e7f87efb73e12"
+          },
+          {
+            "url": "https://eastmanrecords.nl/product/heintje-mama/",
+            "sha256": "819bbccfdcecd2d35f8e71865a1ee10c72d38cd47998f8c79a681c4e4987c0c7"
+          }
+        ],
+        "listing_records": 2,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 2,
+          "unique_prices": 2,
+          "shipping_hits": 0,
+          "currencies": [
+            "EUR"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_price_currency_not_proven_or_mismatch",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "REVIEW",
+          "reason": "detail_price_currency_not_proven_or_mismatch",
+          "run_id": "44881153515"
+        }
+      ]
+    },
+    "eclecticorecords_com_au": {
+      "fingerprint": "8aba3fc7c7070543678b45e9bab6880db1d80246c00e951ea0097c80141d10a4",
+      "domain": "eclecticorecords.com.au",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:39:03.967503+00:00",
+      "evidence": {
+        "domain": "eclecticorecords.com.au",
+        "route": "https://eclecticorecords.com.au/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:39:00.684732+00:00",
+        "requests": [
+          {
+            "url": "https://eclecticorecords.com.au/collections/all/products.json?limit=20&page=1",
+            "sha256": "a845dda3add7d7b905997f36abd19cac0093835aca27bb140b7f8dcdba63f099"
+          },
+          {
+            "url": "https://eclecticorecords.com.au/products/annie-get-your-gun-original-broadway-cast-ethel-merman-with-ray-middleton-annie-get-your-gun-lp-re-mint-m?variant=51843107619116",
+            "sha256": "419cd90c2fb364ee95a680cf7826e89a432c9407decf03260dc4735c15b843e8"
+          },
+          {
+            "url": "https://eclecticorecords.com.au/products/sandy-alex-g-house-of-sugar-lp-album-mint-m?variant=52654969487660",
+            "sha256": "8ac47a24f7b36a57982fc520f1023f8b457633ddb808cca8c51c21fce0e7baf7"
+          },
+          {
+            "url": "https://eclecticorecords.com.au/products/100-pure-poison-coming-right-at-you-lp-album-re-mint-m?variant=52470300705068",
+            "sha256": "2cd38c14374966a72d64540854825e1c63757484cde120562d6e2fcb081a004a"
+          }
+        ],
+        "listing_records": 4,
+        "detail_checked": 3,
+        "valid_eans": 2,
+        "details": [
+          {
+            "url": "https://eclecticorecords.com.au/products/annie-get-your-gun-original-broadway-cast-ethel-merman-with-ray-middleton-annie-get-your-gun-lp-re-mint-m?variant=51843107619116",
+            "price": "12.00",
+            "currency": "AUD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://eclecticorecords.com.au/products/sandy-alex-g-house-of-sugar-lp-album-mint-m?variant=52654969487660",
+            "price": "55.00",
+            "currency": "AUD",
+            "ean": "00887828045112",
+            "condition": "new"
+          },
+          {
+            "url": "https://eclecticorecords.com.au/products/100-pure-poison-coming-right-at-you-lp-album-re-mint-m?variant=52470300705068",
+            "price": "45.00",
+            "currency": "AUD",
+            "ean": "05013993571018",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 4,
+          "unique_prices": 4,
+          "shipping_hits": 0,
+          "currencies": [
+            "AUD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "44881153515"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "eclecticorecords.com.au",
+        "route": "https://eclecticorecords.com.au/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:39:00.684732+00:00",
+        "requests": [
+          {
+            "url": "https://eclecticorecords.com.au/collections/all/products.json?limit=20&page=1",
+            "sha256": "a845dda3add7d7b905997f36abd19cac0093835aca27bb140b7f8dcdba63f099"
+          },
+          {
+            "url": "https://eclecticorecords.com.au/products/annie-get-your-gun-original-broadway-cast-ethel-merman-with-ray-middleton-annie-get-your-gun-lp-re-mint-m?variant=51843107619116",
+            "sha256": "419cd90c2fb364ee95a680cf7826e89a432c9407decf03260dc4735c15b843e8"
+          },
+          {
+            "url": "https://eclecticorecords.com.au/products/sandy-alex-g-house-of-sugar-lp-album-mint-m?variant=52654969487660",
+            "sha256": "8ac47a24f7b36a57982fc520f1023f8b457633ddb808cca8c51c21fce0e7baf7"
+          },
+          {
+            "url": "https://eclecticorecords.com.au/products/100-pure-poison-coming-right-at-you-lp-album-re-mint-m?variant=52470300705068",
+            "sha256": "2cd38c14374966a72d64540854825e1c63757484cde120562d6e2fcb081a004a"
+          }
+        ],
+        "listing_records": 4,
+        "detail_checked": 3,
+        "valid_eans": 2,
+        "details": [
+          {
+            "url": "https://eclecticorecords.com.au/products/annie-get-your-gun-original-broadway-cast-ethel-merman-with-ray-middleton-annie-get-your-gun-lp-re-mint-m?variant=51843107619116",
+            "price": "12.00",
+            "currency": "AUD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://eclecticorecords.com.au/products/sandy-alex-g-house-of-sugar-lp-album-mint-m?variant=52654969487660",
+            "price": "55.00",
+            "currency": "AUD",
+            "ean": "00887828045112",
+            "condition": "new"
+          },
+          {
+            "url": "https://eclecticorecords.com.au/products/100-pure-poison-coming-right-at-you-lp-album-re-mint-m?variant=52470300705068",
+            "price": "45.00",
+            "currency": "AUD",
+            "ean": "05013993571018",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 4,
+          "unique_prices": 4,
+          "shipping_hits": 0,
+          "currencies": [
+            "AUD"
+          ]
+        },
+        "status": "APPROVED"
+      }
+    },
+    "elmuelle1931_com": {
+      "fingerprint": "3dfad55dc2f37324c0bedf5802f5162f7d6a8420dc273a84aa640832650f6462",
+      "domain": "elmuelle1931.com",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:39:07.438212+00:00",
+      "evidence": {
+        "domain": "elmuelle1931.com",
+        "route": "https://elmuelle1931.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:39:04.012365+00:00",
+        "requests": [
+          {
+            "url": "https://elmuelle1931.com/products.json?limit=20&page=1",
+            "sha256": "1be9e965f340330f6f13238ca545193d0d727120823330c1e87b6abfd090ad97"
+          },
+          {
+            "url": "https://elmuelle1931.com/products/evia-mirror?variant=59131202797912",
+            "sha256": "162a1e4fb8ea8170972181f95a76f976780dabf3eb8c6a1285288658e98be5b5"
+          },
+          {
+            "url": "https://elmuelle1931.com/products/ana-roxanne-poem-1?variant=59124898857304",
+            "sha256": "46b1f39eb7fe5d8c1bbe8af62692dac4db66d8bcb335deee8570bccc660f898c"
+          },
+          {
+            "url": "https://elmuelle1931.com/products/various-bollywood-nuggets?variant=57171845579096",
+            "sha256": "2e31da84560c5915f8a8c0289b0dcadda4371d7401aa36c2b720b6629ef4f65b"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://elmuelle1931.com/products/evia-mirror?variant=59131202797912",
+            "price": "23.00",
+            "currency": "EUR",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://elmuelle1931.com/products/ana-roxanne-poem-1?variant=59124898857304",
+            "price": "34.00",
+            "currency": "EUR",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://elmuelle1931.com/products/various-bollywood-nuggets?variant=57171845579096",
+            "price": "20.00",
+            "currency": "EUR",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 12,
+          "shipping_hits": 0,
+          "currencies": [
+            "EUR"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "44881153515"
+        }
+      ]
+    },
+    "empirestore_gr": {
+      "fingerprint": "b7c2101cdfeceda10300f6e7f2442ea74948fc98c18ef357a9e251fffd0c054d",
+      "domain": "empirestore.gr",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:39:08.844958+00:00",
+      "evidence": {
+        "domain": "empirestore.gr",
+        "route": "https://empirestore.gr/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:39:07.481829+00:00",
+        "requests": [
+          {
+            "url": "https://empirestore.gr/products.json?limit=20&page=1",
+            "sha256": "535ddef44e846de8d667a144dfba21585e5f348de16475d929eb87c7f40fd51a"
+          },
+          {
+            "url": "https://empirestore.gr/products/deus-ex-machina-motorpsycho-lp-2026-expanded-edition?variant=57446442238330",
+            "sha256": "36a558a1b6e707fe2928e552d248ab8c0177fa8def34938a433deb9051351339"
+          }
+        ],
+        "listing_records": 1,
+        "detail_checked": 1,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://empirestore.gr/products/deus-ex-machina-motorpsycho-lp-2026-expanded-edition?variant=57446442238330",
+            "price": "28.00",
+            "currency": "EUR",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 1,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "EUR"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "44881153515"
+        }
+      ]
+    },
+    "encorerecords_ca": {
+      "fingerprint": "ab35d02d9808c550b92921e7382b27cb73afb54ed0cfb98809787846f9a4c2a0",
+      "domain": "encorerecords.ca",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:39:12.068104+00:00",
+      "evidence": {
+        "domain": "encorerecords.ca",
+        "route": "https://encorerecords.ca/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:39:08.888153+00:00",
+        "requests": [
+          {
+            "url": "https://encorerecords.ca/products.json?limit=20&page=1",
+            "sha256": "836757765b565fb572131cfcf93a89097d3ffb8fee73e17865fa57f2130ba64c"
+          },
+          {
+            "url": "https://encorerecords.ca/products/lp-bob-seger-the-silver-bullet-band-night-moves-50th-anniversary?variant=68118584393982",
+            "sha256": "4e8f56f95932acc8a4b1fd03f51fa60bb51235e160ceef37ff90eeae468c5de9"
+          },
+          {
+            "url": "https://encorerecords.ca/products/2lp-various-artists-who-is-he-and-what-is-he-to-you?variant=68118564765950",
+            "sha256": "0d8a086c328354ad2d025197a64d65cf3aeddc43ae6566d16a85330390a6877c"
+          },
+          {
+            "url": "https://encorerecords.ca/products/lp-cro-mags-alpha-omega?variant=68115978649854",
+            "sha256": "dbfdbe20042c5ff314ca0c4016fc526351f39f63ed9aa31f05a36582500865af"
+          }
+        ],
+        "listing_records": 7,
+        "detail_checked": 3,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://encorerecords.ca/products/lp-bob-seger-the-silver-bullet-band-night-moves-50th-anniversary?variant=68118584393982",
+            "price": "49.99",
+            "currency": "CAD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://encorerecords.ca/products/2lp-various-artists-who-is-he-and-what-is-he-to-you?variant=68118564765950",
+            "price": "54.99",
+            "currency": "CAD",
+            "ean": null,
+            "condition": "new"
+          },
+          {
+            "url": "https://encorerecords.ca/products/lp-cro-mags-alpha-omega?variant=68115978649854",
+            "price": "16.99",
+            "currency": "CAD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 7,
+          "unique_prices": 5,
+          "shipping_hits": 0,
+          "currencies": [
+            "CAD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "44881153515"
+        }
+      ]
+    },
+    "famousrockshop_com_au": {
+      "fingerprint": "9e474e9d97f391285d86fa16d757deef8ecd05a8ca2319d87dd4e4d17c5620dc",
+      "domain": "famousrockshop.com.au",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:39:13.398161+00:00",
+      "evidence": {
+        "domain": "famousrockshop.com.au",
+        "route": "https://famousrockshop.com.au/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:39:12.111539+00:00",
+        "requests": [
+          {
+            "url": "https://famousrockshop.com.au/collections/all/products.json?limit=20&page=1",
+            "sha256": "19e6d65519c9bba9f257dd9f46710e3c6e6e52a6ddbfe814d1ab0571800e2f4b"
+          },
+          {
+            "url": "https://famousrockshop.com.au/products/asap-ferg-b-sides-rsd-bf-2018-vinyl-12in?variant=31783935115315",
+            "sha256": "42b5aa770822765141ee9fa51f148398d6d5cab3276c453db3def0b345fc531f"
+          }
+        ],
+        "listing_records": 1,
+        "detail_checked": 1,
+        "valid_eans": 0,
+        "details": [
+          {
+            "url": "https://famousrockshop.com.au/products/asap-ferg-b-sides-rsd-bf-2018-vinyl-12in?variant=31783935115315",
+            "price": "119.95",
+            "currency": "AUD",
+            "ean": null,
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 1,
+          "unique_prices": 1,
+          "shipping_hits": 0,
+          "currencies": [
+            "AUD"
+          ]
+        },
+        "status": "REVIEW",
+        "reason": "detail_ean_not_proven",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "REVIEW",
+          "reason": "detail_ean_not_proven",
+          "run_id": "44881153515"
+        }
+      ]
+    },
+    "fivebuckbin_com": {
+      "fingerprint": "ec645ad2e16b472d26e09e8af6432f106a4512eb019b58aeb3eabb9596a6b9c5",
+      "domain": "fivebuckbin.com",
+      "batch": 40,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": true,
+      "status": "APPROVED",
+      "run_id": "44881153515",
+      "updated_at": "2026-11-21T07:39:16.813468+00:00",
+      "evidence": {
+        "domain": "fivebuckbin.com",
+        "route": "https://fivebuckbin.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:39:13.441868+00:00",
+        "requests": [
+          {
+            "url": "https://fivebuckbin.com/products.json?limit=20&page=1",
+            "sha256": "4329e5ff54b67a476dcdd9c4be3a8679fe79d342dcedecf5a97427738384005e"
+          },
+          {
+            "url": "https://fivebuckbin.com/products/alex-lahey-i-love-you-like-a-brother?variant=52635911979303",
+            "sha256": "33cdcdf51a29ebedf4ff8a9cbacdb46a92e3ce280a145a857c955b0e4ec1eae7"
+          },
+          {
+            "url": "https://fivebuckbin.com/products/unknown-mortal-orchestra-v?variant=52635910177063",
+            "sha256": "0ba02871d6b7008a85d54bc4377cd3c01aa68282724551dddb80ef232750ee6c"
+          },
+          {
+            "url": "https://fivebuckbin.com/products/marvin-gaye-number-1s?variant=52635908309287",
+            "sha256": "63a66991280ae7ba5c8f90daa2a8c40c753b71ee3aa1d7c84de337a8e3da8921"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://fivebuckbin.com/products/alex-lahey-i-love-you-like-a-brother?variant=52635911979303",
+            "price": "19.00",
+            "currency": "USD",
+            "ean": "00656605143682",
+            "condition": "new"
+          },
+          {
+            "url": "https://fivebuckbin.com/products/unknown-mortal-orchestra-v?variant=52635910177063",
+            "price": "22.00",
+            "currency": "USD",
+            "ean": "00656605242231",
+            "condition": "new"
+          },
+          {
+            "url": "https://fivebuckbin.com/products/marvin-gaye-number-1s?variant=52635908309287",
+            "price": "21.00",
+            "currency": "USD",
+            "ean": "00602508381560",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 15,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      },
+      "history": [
+        {
+          "batch": 40,
+          "status": "APPROVED",
+          "reason": null,
+          "run_id": "44881153515"
+        }
+      ],
+      "admission_evidence": {
+        "domain": "fivebuckbin.com",
+        "route": "https://fivebuckbin.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-21T07:39:13.441868+00:00",
+        "requests": [
+          {
+            "url": "https://fivebuckbin.com/products.json?limit=20&page=1",
+            "sha256": "4329e5ff54b67a476dcdd9c4be3a8679fe79d342dcedecf5a97427738384005e"
+          },
+          {
+            "url": "https://fivebuckbin.com/products/alex-lahey-i-love-you-like-a-brother?variant=52635911979303",
+            "sha256": "33cdcdf51a29ebedf4ff8a9cbacdb46a92e3ce280a145a857c955b0e4ec1eae7"
+          },
+          {
+            "url": "https://fivebuckbin.com/products/unknown-mortal-orchestra-v?variant=52635910177063",
+            "sha256": "0ba02871d6b7008a85d54bc4377cd3c01aa68282724551dddb80ef232750ee6c"
+          },
+          {
+            "url": "https://fivebuckbin.com/products/marvin-gaye-number-1s?variant=52635908309287",
+            "sha256": "63a66991280ae7ba5c8f90daa2a8c40c753b71ee3aa1d7c84de337a8e3da8921"
+          }
+        ],
+        "listing_records": 20,
+        "detail_checked": 3,
+        "valid_eans": 3,
+        "details": [
+          {
+            "url": "https://fivebuckbin.com/products/alex-lahey-i-love-you-like-a-brother?variant=52635911979303",
+            "price": "19.00",
+            "currency": "USD",
+            "ean": "00656605143682",
+            "condition": "new"
+          },
+          {
+            "url": "https://fivebuckbin.com/products/unknown-mortal-orchestra-v?variant=52635910177063",
+            "price": "22.00",
+            "currency": "USD",
+            "ean": "00656605242231",
+            "condition": "new"
+          },
+          {
+            "url": "https://fivebuckbin.com/products/marvin-gaye-number-1s?variant=52635908309287",
+            "price": "21.00",
+            "currency": "USD",
+            "ean": "00602508381560",
+            "condition": "new"
+          }
+        ],
+        "database_write": false,
+        "price_quality": {
+          "status": "pass",
+          "flags": [],
+          "records_checked": 20,
+          "unique_prices": 15,
+          "shipping_hits": 0,
+          "currencies": [
+            "USD"
+          ]
+        },
+        "status": "APPROVED"
+      }
     }
   },
-  "updated_at": "2026-11-20T07:41:45.307925+00:00",
-  "last_run_id": "44696709935"
+  "updated_at": "2026-11-21T07:39:16.813889+00:00",
+  "last_run_id": "44881153515"
 }
