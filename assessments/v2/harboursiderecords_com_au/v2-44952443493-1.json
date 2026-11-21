@@ -1,0 +1,242 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T21:53:32.672628+00:00",
+  "shop_id": "harboursiderecords.com.au",
+  "row": 3550,
+  "name": "Harbourside Records",
+  "domain": "harboursiderecords.com.au",
+  "country": null,
+  "website": "https://harboursiderecords.com.au/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3550,
+    "name": "Harbourside Records",
+    "domain": "harboursiderecords.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://harboursiderecords.com.au/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://harboursiderecords.com.au/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://harboursiderecords.com.au/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://harboursiderecords.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://harboursiderecords.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://harboursiderecords.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://harboursiderecords.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://harboursiderecords.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://harboursiderecords.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://harboursiderecords.com.au/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 1,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://harboursiderecords.com.au/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 12,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://harboursiderecords.com.au/products/kiss-rock-and-roll-over-eddie-kramer-2026-mix-lp-re-rm-vinyl-record-lp?variant=68087472980146",
+      "artist": "Kiss",
+      "title": "Rock And Roll Over (Eddie Kramer 2026 Mix) (LP, RE, RM) Vinyl Record / LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "59.99",
+      "currency": "AUD",
+      "valid_eans": [
+        "00881061199397"
+      ],
+      "condition_basis": "used_or_grading_signal"
+    },
+    {
+      "url": "https://harboursiderecords.com.au/products/london-music-works-nick-squires-beneath-painted-skies-lp-comp-vinyl-record-lp?variant=68087654645938",
+      "artist": "London Music Works, Nick Squires",
+      "title": "Beneath Painted Skies (LP, Comp) Vinyl Record / LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "64.99",
+      "currency": "AUD",
+      "valid_eans": [
+        "03760434489938"
+      ],
+      "condition_basis": "used_or_grading_signal"
+    },
+    {
+      "url": "https://harboursiderecords.com.au/products/ariana-grande-k-bye-for-now-swt-live-vinyl-record?variant=68111005778098",
+      "artist": "",
+      "title": "Ariana Grande K Bye For Now ( SWT LIVE ) 2LP Vinyl Record",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "76.99",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://harboursiderecords.com.au/robots.txt",
+      "sha256": "c7bab4758eeb541dd15f00df475724d225991897b3ff1852ecc3ba0760a43a2b"
+    },
+    {
+      "url": "https://harboursiderecords.com.au/",
+      "sha256": "8f3d395cc5b461f73eaa21dfea4544deb19d0282490aece515fb640954ef125a"
+    },
+    {
+      "url": "https://harboursiderecords.com.au/products.json?limit=20&page=1",
+      "sha256": "4fa230a542fb110ded663f905a87b4bf4dd3e2624959df069f875f31c6f6d546"
+    },
+    {
+      "url": "https://harboursiderecords.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "0c255d1f15d1e4beebd44a2c9bfb3fa5dbd9da8f0f69f6d0267635717f8532e5"
+    },
+    {
+      "url": "https://harboursiderecords.com.au/products/ariana-grande-k-bye-for-now-swt-live-vinyl-record",
+      "sha256": "4ea5c6ab20f5f55b36be6ab2611de8ff4a6898cea29675f22bbc35a82e5ca21c"
+    },
+    {
+      "url": "https://harboursiderecords.com.au/products/ella-langley-dandelion-2xlp-album-re-blo-vinyl-record-lp",
+      "sha256": "fbbdc341f3e12208cfc70df0318455505c8e9dc3a37688054e6d7549ad00ca19"
+    },
+    {
+      "url": "https://harboursiderecords.com.au/products/kiss-rock-and-roll-over-eddie-kramer-2026-mix-lp-re-rm-vinyl-record-lp?variant=68087472980146",
+      "sha256": "6fc9fc66221c3e5fa480cb264640437f123170ccd63aad8a33cb2d124dd636cc"
+    },
+    {
+      "url": "https://harboursiderecords.com.au/products/london-music-works-nick-squires-beneath-painted-skies-lp-comp-vinyl-record-lp?variant=68087654645938",
+      "sha256": "c3718cd3328c7a63d124bc80e79413c0d1c9ee8ce118df03240d5ca6b0a763ac"
+    },
+    {
+      "url": "https://harboursiderecords.com.au/products/ariana-grande-k-bye-for-now-swt-live-vinyl-record?variant=68111005778098",
+      "sha256": "defd34927d0beb8a9dd7b85eade734f5560e8d9a13d1b78b3a66da67c8bd6676"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:new_used_distinguishable"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 2,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.9,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://harboursiderecords.com.au/products/kiss-rock-and-roll-over-eddie-kramer-2026-mix-lp-re-rm-vinyl-record-lp?variant=68087472980146",
+    "https://harboursiderecords.com.au/products/london-music-works-nick-squires-beneath-painted-skies-lp-comp-vinyl-record-lp?variant=68087654645938",
+    "https://harboursiderecords.com.au/products/ariana-grande-k-bye-for-now-swt-live-vinyl-record?variant=68111005778098"
+  ],
+  "assessment_id": "v2-44952443493-1",
+  "queue_rows": [
+    3550
+  ],
+  "assessment_path": "assessments/v2/harboursiderecords_com_au/v2-44952443493-1.json"
+}
