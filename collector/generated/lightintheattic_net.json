@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "domain": "lightintheattic.net",
+  "platform": "shopify",
+  "adapter_class": "ShopifyNewVinylAdapter",
+  "catalog_route": "https://lightintheattic.net/products.json?limit=20&page=1",
+  "discovery_method": {
+    "platform": "shopify",
+    "route": "https://lightintheattic.net/products.json?limit=20&page=1",
+    "score": 185,
+    "selection": "highest_bounded_adapter_score"
+  },
+  "method_candidates": [
+    {
+      "platform": "shopify",
+      "route": "https://lightintheattic.net/products.json?limit=20&page=1",
+      "score": 185,
+      "products_seen": 20,
+      "accepted": 18,
+      "excluded": 2,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://lightintheattic.net/collections/all/products.json?limit=20&page=1",
+      "score": 155,
+      "products_seen": 20,
+      "accepted": 15,
+      "excluded": 5,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "woocommerce",
+      "route": "https://lightintheattic.net/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_400"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://lightintheattic.net/api/0.1/collections/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://lightintheattic.net/api/0.1/collections/all/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://lightintheattic.net/api/storefront/products?limit=20&offset=0",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://lightintheattic.net/api/storefront/products?limit=20",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    }
+  ],
+  "listing_sample": 18,
+  "detail_checked": 2,
+  "detail_gtin_valid": 0,
+  "currency": "USD",
+  "currency_source": "public_storefront_Shopify.currency",
+  "currency_source_url": "https://lightintheattic.net/",
+  "release_status": "SCRAPER_BUILT_TESTED"
+}
