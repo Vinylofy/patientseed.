@@ -1,0 +1,202 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T16:23:16.180496+00:00",
+  "shop_id": "stadleest.be",
+  "row": 3641,
+  "name": "Boekhandel Stad Leest",
+  "domain": "stadleest.be",
+  "country": null,
+  "website": "https://stadleest.be/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3641,
+    "name": "Boekhandel Stad Leest",
+    "domain": "stadleest.be",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://stadleest.be/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 10,
+    "accepted": 1,
+    "excluded": 9,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://stadleest.be/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://stadleest.be/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 10,
+        "accepted": 1,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://stadleest.be/collections/all/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 10,
+        "accepted": 1,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://stadleest.be/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://stadleest.be/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://stadleest.be/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://stadleest.be/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://stadleest.be/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://stadleest.be/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://stadleest.be/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://stadleest.be/products/wachten-op-gedoe-pommelien-thijs-deluxe?variant=55383513497933",
+      "artist": "Wachten op Gedoe",
+      "title": "Pommelien Thijs | DELUXE ED",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "37.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://stadleest.be/robots.txt",
+      "sha256": "bae3708163f18794e4fc7d49838cbb67a616e6cafbd67622b3cd1852aed6f217"
+    },
+    {
+      "url": "https://stadleest.be/",
+      "sha256": "579a7966c6d25de0499c1c45426decac4102ac903e81bd1e46bf15f90b9f8398"
+    },
+    {
+      "url": "https://stadleest.be/products.json?limit=20&page=1",
+      "sha256": "2dfd08002cba31f2ac9c85b4d4d32d7c90e8957ab0e5d4294d1bc0a250ce239a"
+    },
+    {
+      "url": "https://stadleest.be/collections/all/products.json?limit=20&page=1",
+      "sha256": "e939e4921e4517edec9c26c5d15b1190766048a2e97f72faae54d905ddb88d71"
+    },
+    {
+      "url": "https://stadleest.be/products/wachten-op-gedoe-pommelien-thijs-deluxe",
+      "sha256": "26c55c7fe326e623b8d1306245a7995778d93ee22094ca58bbf80ac54088438c"
+    },
+    {
+      "url": "https://stadleest.be/products/wachten-op-gedoe-pommelien-thijs-deluxe?variant=55383513497933",
+      "sha256": "30e3ba9c154f5de012e0376a33eac795e063707d595ab8378c7207eca820c47b"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "insufficient_representative_product_evidence"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://stadleest.be/products/wachten-op-gedoe-pommelien-thijs-deluxe?variant=55383513497933"
+  ],
+  "assessment_id": "v2-44922618844-1",
+  "queue_rows": [
+    3641
+  ],
+  "assessment_path": "assessments/v2/stadleest_be/v2-44922618844-1.json"
+}
