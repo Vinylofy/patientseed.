@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T21:45:25.040145+00:00",
+  "shop_id": "goosebumbsrecords.com",
+  "row": 3813,
+  "name": "Goosebumbs Records",
+  "domain": "goosebumbsrecords.com",
+  "country": null,
+  "website": "https://goosebumbsrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3813,
+    "name": "Goosebumbs Records",
+    "domain": "goosebumbsrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://goosebumbsrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 8,
+    "excluded": 12,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://goosebumbsrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://goosebumbsrecords.com/products.json?limit=20&page=1",
+        "score": 55,
+        "products_seen": 20,
+        "accepted": 5,
+        "excluded": 15,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://goosebumbsrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 20,
+        "accepted": 8,
+        "excluded": 12,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://goosebumbsrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://goosebumbsrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://goosebumbsrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://goosebumbsrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://goosebumbsrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://goosebumbsrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 85,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://goosebumbsrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 8,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 8,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://goosebumbsrecords.com/products/40-thevz-tennis-shoe-pimpin-12inch-only-official-vinyl-pressing-mercury-us-1997?variant=50724307632468",
+      "artist": "",
+      "title": "40 Thevz: Tennis Shoe Pimpin, 12inch, Only official vinyl pressing, Mercury, US 1997",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "5.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://goosebumbsrecords.com/products/12-inch-thumpers-don-t-cross-the-line-remixes-12inch-promo-12-inch-thumpers-uk-2000?variant=52530761859412",
+      "artist": "",
+      "title": "12 Inch Thumpers: Don’t Cross The Line (Remixes), 12inch, Promo, 12 Inch Thumpers, UK 2000",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "8.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://goosebumbsrecords.com/products/12-tein-itse-ja-saastin-lp-matinkyla-espoo-finland-2025?variant=53252410671444",
+      "artist": "",
+      "title": "#12: Tein itse ja säästin, LP, Matinkylä, Espoo, Finland 2025",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "20.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://goosebumbsrecords.com/robots.txt",
+      "sha256": "0d43a593149b79eedd08233cfc340f25cfb1a927681ed58196593a498bb02110"
+    },
+    {
+      "url": "https://goosebumbsrecords.com/",
+      "sha256": "c13ee354a4c57cd26a9381c4ba9d5bf75475bd97043b003751845e54c2d3d3c7"
+    },
+    {
+      "url": "https://goosebumbsrecords.com/products.json?limit=20&page=1",
+      "sha256": "ecb9c78a47ed38d65bc757c0602e0b74d1489bfb25263b6c3c81df7db583a410"
+    },
+    {
+      "url": "https://goosebumbsrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "b5eba1ef43c5a1f0fdbdb40cccd6b5d5f83ee288272c1f378b0d76065a23a10d"
+    },
+    {
+      "url": "https://goosebumbsrecords.com/products/12-tein-itse-ja-saastin-lp-matinkyla-espoo-finland-2025",
+      "sha256": "f1ac43594777b318cc84dff3a114139855328d2af49b4f043fddd7b887fe4193"
+    },
+    {
+      "url": "https://goosebumbsrecords.com/products/10cc-sheet-music-lp-reissue-mercury-canada-1974",
+      "sha256": "197d58ae52ea7e4b5aa735e831d5a6068e897e0b46c5ef2ec26ecf8fb6ccc652"
+    },
+    {
+      "url": "https://goosebumbsrecords.com/products/40-thevz-tennis-shoe-pimpin-12inch-only-official-vinyl-pressing-mercury-us-1997?variant=50724307632468",
+      "sha256": "8131f9d07864a9b7873c9bb31521cf7f8602e00763dcf8026f3489545c14bf48"
+    },
+    {
+      "url": "https://goosebumbsrecords.com/products/12-inch-thumpers-don-t-cross-the-line-remixes-12inch-promo-12-inch-thumpers-uk-2000?variant=52530761859412",
+      "sha256": "d02bf7ee68613b85afc2c45b0dc7278f487e6d95733cee9f43c8842a403ec8a8"
+    },
+    {
+      "url": "https://goosebumbsrecords.com/products/12-tein-itse-ja-saastin-lp-matinkyla-espoo-finland-2025?variant=53252410671444",
+      "sha256": "a9a8548fe0823632b651322b3a5b8fdd7614decb94790f7bf2ce0491dd12dffb"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.125,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://goosebumbsrecords.com/products/40-thevz-tennis-shoe-pimpin-12inch-only-official-vinyl-pressing-mercury-us-1997?variant=50724307632468",
+    "https://goosebumbsrecords.com/products/12-inch-thumpers-don-t-cross-the-line-remixes-12inch-promo-12-inch-thumpers-uk-2000?variant=52530761859412",
+    "https://goosebumbsrecords.com/products/12-tein-itse-ja-saastin-lp-matinkyla-espoo-finland-2025?variant=53252410671444"
+  ],
+  "assessment_id": "v2-44952443493-1",
+  "queue_rows": [
+    3813
+  ],
+  "assessment_path": "assessments/v2/goosebumbsrecords_com/v2-44952443493-1.json"
+}
