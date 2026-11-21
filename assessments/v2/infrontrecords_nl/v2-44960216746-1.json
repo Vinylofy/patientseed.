@@ -1,0 +1,82 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T23:11:41.475328+00:00",
+  "shop_id": "infrontrecords.nl",
+  "row": 4431,
+  "name": "In Front Records",
+  "domain": "infrontrecords.nl",
+  "country": null,
+  "website": "https://infrontrecords.nl/",
+  "previous_status": "SOURCE_BLOCKED",
+  "previous_reason": "Response size limit",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4431,
+    "name": "In Front Records",
+    "domain": "infrontrecords.nl",
+    "status": "SOURCE_BLOCKED",
+    "gate": "identity",
+    "reason": "Response size limit",
+    "source_url": "https://infrontrecords.nl/"
+  },
+  "platform": null,
+  "catalog_route": "https://infrontrecords.nl/",
+  "requests": [
+    {
+      "url": "https://infrontrecords.nl/robots.txt",
+      "sha256": "70a56a30e3a62567b842e556514a8c73c69fd4be47c983a893b0f0511272763b"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "Response size limit"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "Response size limit"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-44960216746-1",
+  "queue_rows": [
+    4431
+  ],
+  "assessment_path": "assessments/v2/infrontrecords_nl/v2-44960216746-1.json"
+}
