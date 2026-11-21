@@ -1,0 +1,194 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T16:23:27.049240+00:00",
+  "shop_id": "boilerroomrecords.co.uk",
+  "row": 3411,
+  "name": "Boilerroomrecords",
+  "domain": "boilerroomrecords.co.uk",
+  "country": null,
+  "website": "https://boilerroomrecords.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3411,
+    "name": "Boilerroomrecords",
+    "domain": "boilerroomrecords.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://boilerroomrecords.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 21,
+    "accepted": 18,
+    "excluded": 3,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://boilerroomrecords.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://boilerroomrecords.co.uk/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 21,
+        "accepted": 18,
+        "excluded": 3,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://boilerroomrecords.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 20,
+        "accepted": 4,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://boilerroomrecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://boilerroomrecords.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://boilerroomrecords.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://boilerroomrecords.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://boilerroomrecords.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://boilerroomrecords.co.uk/products.json?limit=20&page=1",
+      "score": 185,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://boilerroomrecords.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 18,
+  "price_quality": {
+    "status": "review",
+    "flags": [
+      "shipping_term_in_product_identity"
+    ],
+    "records_checked": 18,
+    "unique_prices": 11,
+    "shipping_hits": 1,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://boilerroomrecords.co.uk/robots.txt",
+      "sha256": "ce94ebebc9c8ae869d9e277257373452fad0128f06b3fa454f070bd140f11fdf"
+    },
+    {
+      "url": "https://boilerroomrecords.co.uk/",
+      "sha256": "71a744316fa0cda70e24b13a8786929a2565f02f7793a9989770cbdd1719f325"
+    },
+    {
+      "url": "https://boilerroomrecords.co.uk/products.json?limit=20&page=1",
+      "sha256": "454379409a4e27fa5dd9f422d1b8d16803b80f9d17329400359d6b5d17de0e6d"
+    },
+    {
+      "url": "https://boilerroomrecords.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "751094641fb41520ca4776753a9ae3403cd7620ebb771e603340dbbc6da216b3"
+    },
+    {
+      "url": "https://boilerroomrecords.co.uk/products/billie-eilish-come-out-and-play-7-inch",
+      "sha256": "f80595bfb71bcc50f764da0fa8bc7b2053e501abc0b27dfce034a2de93cbd127"
+    },
+    {
+      "url": "https://boilerroomrecords.co.uk/products/turnstile-never-enough-versions-vinyl-lp",
+      "sha256": "c5d569238a8335ed001e9fd3d61c6908324d5f3ec5ec484a2bff6407e2df1ed7"
+    },
+    {
+      "url": "https://boilerroomrecords.co.uk/products/fountains-of-wayne-sky-full-of-holes-15th-anniversary-edition-rsd-black-friday-2026-vinyl-lp?variant=57588847673722",
+      "sha256": "a43a3379530b03b8257cfbf7649bc63bec2730152af378f9de3f22319ae48f63"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": false,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-44922618844-1",
+  "queue_rows": [
+    3411
+  ],
+  "assessment_path": "assessments/v2/boilerroomrecords_co_uk/v2-44922618844-1.json"
+}
