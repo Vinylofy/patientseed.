@@ -1,0 +1,202 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T21:43:21.153011+00:00",
+  "shop_id": "glitterrecords.com.au",
+  "row": 3493,
+  "name": "Glitter Records",
+  "domain": "glitterrecords.com.au",
+  "country": null,
+  "website": "https://glitterrecords.com.au/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3493,
+    "name": "Glitter Records",
+    "domain": "glitterrecords.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://glitterrecords.com.au/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 1,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://glitterrecords.com.au/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://glitterrecords.com.au/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://glitterrecords.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://glitterrecords.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://glitterrecords.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://glitterrecords.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://glitterrecords.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://glitterrecords.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://glitterrecords.com.au/collections/all/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://glitterrecords.com.au/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://glitterrecords.com.au/products/godspell-original-cast-godspell-lp-album-good-g?variant=54809289687324",
+      "artist": "\"Godspell\" Original Cast",
+      "title": "Godspell (LP, Album) (Good (G))",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "15.00",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "used_or_grading_signal"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://glitterrecords.com.au/robots.txt",
+      "sha256": "d4537cb981bf26a187699835c071125425036901e9271a354d414c0b0a6828d5"
+    },
+    {
+      "url": "https://glitterrecords.com.au/",
+      "sha256": "7a870a6449116b00765e994461bc1b947f5ad318850bea6ae32db63f172516cf"
+    },
+    {
+      "url": "https://glitterrecords.com.au/products.json?limit=20&page=1",
+      "sha256": "8bb451a9c55db33350951c9a7e00672a29cabbb42d8b63fe6744c4620934fece"
+    },
+    {
+      "url": "https://glitterrecords.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "98ff9bf53286a07554601abd2302f0029e338f3570342f1e7f9a348f4153def7"
+    },
+    {
+      "url": "https://glitterrecords.com.au/products/godspell-original-cast-godspell-lp-album-good-g",
+      "sha256": "a952c1acb052eb9d4ca5a2dbd0b0e8cbff763f004abda25619fe9c293a82b6b1"
+    },
+    {
+      "url": "https://glitterrecords.com.au/products/godspell-original-cast-godspell-lp-album-good-g?variant=54809289687324",
+      "sha256": "db40197a634cbc05ba2d5f1109ab43137a235aba172b63d47c7c1adbaf6bbed4"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:new_used_distinguishable"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 0,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://glitterrecords.com.au/products/godspell-original-cast-godspell-lp-album-good-g?variant=54809289687324"
+  ],
+  "assessment_id": "v2-44952443493-1",
+  "queue_rows": [
+    3493
+  ],
+  "assessment_path": "assessments/v2/glitterrecords_com_au/v2-44952443493-1.json"
+}
