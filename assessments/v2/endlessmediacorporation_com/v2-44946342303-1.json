@@ -1,0 +1,240 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T20:32:23.818235+00:00",
+  "shop_id": "endlessmediacorporation.com",
+  "row": 5016,
+  "name": "Endless Media",
+  "domain": "endlessmediacorporation.com",
+  "country": null,
+  "website": "https://endlessmediacorporation.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 5016,
+    "name": "Endless Media",
+    "domain": "endlessmediacorporation.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://endlessmediacorporation.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 4,
+    "excluded": 16,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://endlessmediacorporation.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://endlessmediacorporation.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://endlessmediacorporation.com/collections/all/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 20,
+        "accepted": 4,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://endlessmediacorporation.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://endlessmediacorporation.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://endlessmediacorporation.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://endlessmediacorporation.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://endlessmediacorporation.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://endlessmediacorporation.com/collections/all/products.json?limit=20&page=1",
+      "score": 45,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://endlessmediacorporation.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 4,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 4,
+    "unique_prices": 4,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://endlessmediacorporation.com/products/10-random-mystery-12-vinyl-record-album-ep-lp-bundle-lot-box-grab-bag-surprise?variant=47640979636517",
+      "artist": "",
+      "title": "10 Random Mystery 12\" Vinyl Record Album EP LP Bundle Lot Box Grab Bag",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "16.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://endlessmediacorporation.com/products/uicideboy-thy-kingdom-come-vinyl-lp-m?variant=53704486650149",
+      "artist": "$uicideboy$",
+      "title": "Thy Kingdom Come [Vinyl LP] (M)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "21.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00199350887406"
+      ],
+      "condition_basis": "used_or_grading_signal"
+    },
+    {
+      "url": "https://endlessmediacorporation.com/products/annie-original-cast-annie-a-new-musical-vinyl-lp-g?variant=52419112108325",
+      "artist": "\"Annie\" Original Cast",
+      "title": "Annie (A New Musical) [Vinyl LP] (G)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "3.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "used_or_grading_signal"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://endlessmediacorporation.com/robots.txt",
+      "sha256": "3dfdc9793cc12025d11138857e8d0ffbc155ba9c6e3ddde2ca668e1a26f7b422"
+    },
+    {
+      "url": "https://endlessmediacorporation.com/",
+      "sha256": "430a1adb1a8c04dca6e09fc6a39029c2d3c6638efb4cc27ee06e0c035437a87b"
+    },
+    {
+      "url": "https://endlessmediacorporation.com/products.json?limit=20&page=1",
+      "sha256": "4dbaef72be2b9d259ccd7656bf878ade3560074eb4236d2f1c7c76d48b249930"
+    },
+    {
+      "url": "https://endlessmediacorporation.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "8364380020c90e69e8601d373e901a17e4e24fa79e7e849889ae24c6f7b2efbf"
+    },
+    {
+      "url": "https://endlessmediacorporation.com/products/annie-original-cast-annie-a-new-musical-vinyl-lp-g",
+      "sha256": "3ac51115d9c89a184e89773f8d3a242a1aa2ca4e456343c302dcddbb741c00e5"
+    },
+    {
+      "url": "https://endlessmediacorporation.com/products/uicideboy-thy-kingdom-come-vinyl-lp-m",
+      "sha256": "89578f44d1cea14042b18854bde9fe86bb6c3f032b49de3f5c5055d6103802b1"
+    },
+    {
+      "url": "https://endlessmediacorporation.com/products/10-random-mystery-12-vinyl-record-album-ep-lp-bundle-lot-box-grab-bag-surprise?variant=47640979636517",
+      "sha256": "5c9f3eaebff763822f93d68fe9805a5dc9d33bac26eb6ef8f93d5401caab118d"
+    },
+    {
+      "url": "https://endlessmediacorporation.com/products/uicideboy-thy-kingdom-come-vinyl-lp-m?variant=53704486650149",
+      "sha256": "925e2bf4121b2bf8064017d9d7fa73df1b7a78e7467af308317dc4a857a15055"
+    },
+    {
+      "url": "https://endlessmediacorporation.com/products/annie-original-cast-annie-a-new-musical-vinyl-lp-g?variant=52419112108325",
+      "sha256": "2a0b7358654038e629d5ebc34071ec2e0266c152d28ff2647665e603687e62bc"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:new_used_distinguishable"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 1,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.75,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://endlessmediacorporation.com/products/10-random-mystery-12-vinyl-record-album-ep-lp-bundle-lot-box-grab-bag-surprise?variant=47640979636517",
+    "https://endlessmediacorporation.com/products/uicideboy-thy-kingdom-come-vinyl-lp-m?variant=53704486650149",
+    "https://endlessmediacorporation.com/products/annie-original-cast-annie-a-new-musical-vinyl-lp-g?variant=52419112108325"
+  ],
+  "assessment_id": "v2-44946342303-1",
+  "queue_rows": [
+    5016
+  ],
+  "assessment_path": "assessments/v2/endlessmediacorporation_com/v2-44946342303-1.json"
+}
