@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T19:15:49.304744+00:00",
+  "shop_id": "discords.nl",
+  "row": 4439,
+  "name": "Discords.nl",
+  "domain": "discords.nl",
+  "country": null,
+  "website": "https://discords.nl/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4439,
+    "name": "Discords.nl",
+    "domain": "discords.nl",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://discords.nl/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 9,
+    "excluded": 11,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://discords.nl/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://discords.nl/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://discords.nl/collections/all/products.json?limit=20&page=1",
+        "score": 95,
+        "products_seen": 20,
+        "accepted": 9,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://discords.nl/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://discords.nl/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://discords.nl/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://discords.nl/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://discords.nl/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://discords.nl/collections/all/products.json?limit=20&page=1",
+      "score": 95,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://discords.nl/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 9,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 9,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://discords.nl/robots.txt",
+      "sha256": "ba856afc591b80866dcd665ab3a49acaa414017f2f8f1536d4d5ffa2bd663fb4"
+    },
+    {
+      "url": "https://discords.nl/",
+      "sha256": "3dcd3a543df0e5c565b0e0d66efd1b84811515010a3e9815a798096bf129b81a"
+    },
+    {
+      "url": "https://discords.nl/products.json?limit=20&page=1",
+      "sha256": "4a0898f3ddefa8b1e168b9e5dc42f60ced4d40703c3808822a963c449f241ee6"
+    },
+    {
+      "url": "https://discords.nl/collections/all/products.json?limit=20&page=1",
+      "sha256": "2001d543c532eac8de8b6958f95e2809a69cb75bb7d2b9a129747ee15c64bfaa"
+    },
+    {
+      "url": "https://discords.nl/products/chk-chik-chick-louden-up-now-lp",
+      "sha256": "ecd7a24fb4f1266a56594dbe49d82d434041f43e826ea4b3545d107ad14343f8"
+    },
+    {
+      "url": "https://discords.nl/products/uicideboy-i-want-to-die-in-new-orleans-lp-1",
+      "sha256": "7ebe422ebb1bfccde0badaaa92f3757ebfce2a702d1203d29dbd9639c00d8458"
+    },
+    {
+      "url": "https://discords.nl/products/and-you-will-know-us-by-the-trail-of-dead-lost-songs-lp?variant=52922212581708",
+      "sha256": "15b713d6deeed60804801a3c221895f61a92529b3dd765b5af5fcbbe1f5af715"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.8888888888888888,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-44939175703-1",
+  "queue_rows": [
+    4439
+  ],
+  "assessment_path": "assessments/v2/discords_nl/v2-44939175703-1.json"
+}
