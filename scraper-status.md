@@ -1,16 +1,16 @@
 # Centrale scraperstatus
 
-Bronregels: 5102. Behandeld voor broncontrole: 4753. Open voor broncontrole: 349.
+Bronregels: 5102. Behandeld voor broncontrole: 4853. Open voor broncontrole: 249.
 
 Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine checksumproeven; private acceptatie, marktprijzen en imports volgen apart.
 
 ## Statusaantallen
 
-- ADAPTER_TESTED: 334
+- ADAPTER_TESTED: 352
 - DETAIL_GATE_BLOCKED: 102
-- ROUTE_REVIEW: 1797
-- SCRAPER_BUILT_TESTED: 486
-- SOURCE_BLOCKED: 774
+- ROUTE_REVIEW: 1839
+- SCRAPER_BUILT_TESTED: 499
+- SOURCE_BLOCKED: 801
 - SOURCE_REVIEW: 1260
 
 ## Brongroepen
@@ -21,10 +21,10 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 |---|---:|---:|---:|---:|
 | Oorspronkelijke lijst | 3303 | 3303 | 0 | 247 |
 | Findyl online — 25-10-2026 (50; inclusief 4 herbeoordelingen) | 50 | 50 | 0 | 28 |
-| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 1278 | 340 | 148 |
+| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 1378 | 240 | 161 |
 | Vinylscout winkels — 19-11-2026 (nieuwe domeinen) | 9 | 0 | 9 | 0 |
 | Waxtra Rumours — 19-11-2026 (nieuwe domeinen) | 122 | 122 | 0 | 63 |
-| **Totaal** | **5102** | **4753** | **349** | **486** |
+| **Totaal** | **5102** | **4853** | **249** | **499** |
 
 ## Winkels
 
@@ -4783,106 +4783,106 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 | 4750 | 56 | 4757 | Level Crossing Records | levelcrossingrecords.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
 | 4751 | 56 | 4758 | Lion Coffee Records | lioncoffeerecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
 | 4752 | 56 | 4759 | Lion Vibes | lionvibes.com | shopify | SCRAPER_BUILT_TESTED | 1 | 0/1 geldig | private QA en marktgate beoordelen |
-| 4753 |  | 4760 | Love Vinyl | lovevinyl.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 4754 |  | 4761 | Massive international- London | massive-international.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4755 |  | 4762 | Peckings Records | peckingsrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4756 |  | 4763 | Phantasy | shop.phantasysound.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4757 |  | 4764 | Planet Wax | planetwax.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 4758 |  | 4765 | Recycle Vinyl | recycle-vinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4759 |  | 4766 | Sutton Music Centre | suttonmusic.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4760 |  | 4767 | Yo Yo Records London | yoyorecordslondon.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4761 |  | 4768 | All Ages Records | allagesrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4762 |  | 4769 | All My Friends Record Shop | allmyfriends.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4763 |  | 4770 | Atlantis Records | atlantisrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4764 |  | 4771 | Cigarette Records | cigaretterecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4765 |  | 4772 | The Little Record Shop | cash4records.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4766 |  | 4773 | Next Door Records Two | nextdoorrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4767 |  | 4774 | Play Vinyl | playvinyl.london |  | PENDING |  | — | broncontrole uitvoeren |
-| 4768 |  | 4775 | Reckless Records London | reckless.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4769 |  | 4776 | Rise Above Records and Relics | riseaboverecordsandrelics.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4770 |  | 4777 | Upside Down Records | upsidedownrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4771 |  | 4778 | Vinyl Revelations | vinylrevelations.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4772 |  | 4779 | Carnival Records | carnivalrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4773 |  | 4780 | Vinylfetishes | vinylfetishes.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4774 |  | 4781 | Clampdown Records | clampdownrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4775 |  | 4782 | Planet rock records | mcrblogs.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4776 |  | 4783 | The Feather Star | thefeatherstar.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4777 |  | 4784 | Diverse Vinyl | diversevinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4778 |  | 4785 | Phoenix Sounds | phoenix-sounds.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4779 |  | 4786 | Vinyl Underground | vinylunderground.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4780 |  | 4787 | Fabtronic Group | fabtronic.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4781 |  | 4788 | Out of Time Records | outoftimerecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4782 |  | 4789 | mushimushirecords | mushimushirecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4783 |  | 4790 | Langley Mill Records | recordshopnottingham.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4784 |  | 4791 | Far Land Records Ltd | far-landrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4785 |  | 4792 | Rapscallion Records & Coffee | rapscallionrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4786 |  | 4793 | Red Rock Records | redrockrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4787 |  | 4794 | Nothing Ventured Vinyl | nothingventuredvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4788 |  | 4795 | Record Plant York | recordplant.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4789 |  | 4796 | Total Sounds | totalsounds.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4790 |  | 4797 | Record Collector | recordcollectorsheffield.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4791 |  | 4798 | Sound Bar | skiptonsoundbar.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4792 |  | 4799 | Tough Love St Leonards | toughlove.shop |  | PENDING |  | — | broncontrole uitvoeren |
-| 4793 |  | 4800 | the vinyl revival store | vinylrevivaluk.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4794 |  | 4801 | Your Vinyl Answer | yourvinylanswer.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4795 |  | 4802 | Roker Records - Celebrating with Limited Stock | rokerrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4796 |  | 4803 | John Packer | johnpacker.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4797 |  | 4804 | Hayes Music | hayesmusic.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4798 |  | 4805 | Crazy Beat Records | crazybeat.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4799 |  | 4806 | Vinyl Audio Cafe | vinylaudiocafe.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4800 |  | 4807 | FortyFive Cafe | fortyfiveuk.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4801 |  | 4808 | Earworm Records | earwormrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4802 |  | 4809 | 303 Records | 303records.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4803 |  | 4810 | Action Records | actionrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4804 |  | 4811 | The Beat and Track | thebeatandtrack.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4805 |  | 4812 | blackslabrecords | blackslabrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4806 |  | 4813 | Books On The Rise | booksontherise.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4807 |  | 4814 | Concorde Music Shop | concordemusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4808 |  | 4815 | Cult Hero | cultherorecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4809 |  | 4816 | Dig Deep Records | digdeeprecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4810 |  | 4817 | Eel Pie Records | eelpierecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4811 |  | 4818 | Empire Records | empirestalbans.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4812 |  | 4819 | Le Freak Records | lefreakrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4813 |  | 4820 | Global Groove | globalgroove.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4814 |  | 4821 | Grinning Soul Records | grinningsoulrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4815 |  | 4822 | Haunted Dancehall | haunted-dancehall.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4816 |  | 4823 | Hidden Sounds | hiddensounds.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4817 |  | 4824 | Idle Hands | idlehandsbristol.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4818 |  | 4825 | Lilley's Vinyl Revival | lilleysvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4819 |  | 4826 | The LP Cafe | thelpcafe.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4820 |  | 4827 | Maestro Records | maestrorecords.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4821 |  | 4828 | Maldon Books | maldonbooks.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4822 |  | 4829 | Moonface Records | moonfacerecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4823 |  | 4830 | Mostly Vinyl Micky | mostlyvinylmicky.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4824 |  | 4831 | Novel Sounds *Celebrating with limited product | novelsounds.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4825 |  | 4832 | Planet Of Sounds | planetofsounds.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4826 |  | 4833 | PSTOTO99 | grapevinyl.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 4827 |  | 4834 | Raven Records - Specialist heavy metal record shop | ravenrecordshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4828 |  | 4835 | The Record Cafe | therecordcafe.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4829 |  | 4836 | ReplayRecordsGrimsby | replayrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4830 |  | 4837 | Rival Records | rivalrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4831 |  | 4838 | Roan Records | roanrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4832 |  | 4839 | Saturnalia Records | saturnaliarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4833 |  | 4840 | The Second 45 | thesecond45.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4834 |  | 4841 | Second Line Records | secondlinerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4835 |  | 4842 | Silver Machine Records | silvermachinerecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4836 |  | 4843 | Slow Century Records | slowcenturyrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4837 |  | 4844 | Sound Records | soundrecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4838 |  | 4845 | Spinning Discs | spinningdiscssheffield.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4839 |  | 4846 | Spun Out Sounds Northampton | spunout.website |  | PENDING |  | — | broncontrole uitvoeren |
-| 4840 |  | 4847 | Square Records | booksandvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4841 |  | 4848 | Stranger than Paradise | strangerthanparadiserecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4842 |  | 4849 | Supertone Records | supertonerecords.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4843 |  | 4850 | Temple Of Bass | templeofbass.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4844 |  | 4851 | To Have And To Hold Records | tohaveandtoholdrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4845 |  | 4852 | The Turntable Coffee & Vinyl | theturntable.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4846 |  | 4853 | Umbrella Vinyl | umbrellavinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4847 |  | 4854 | Vinyl Cafe | futureisvinyl.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4848 |  | 4855 | The Vinyl Countdown | the-vinyl-countdown-whitchurch.square.site |  | PENDING |  | — | broncontrole uitvoeren |
-| 4849 |  | 4856 | Vinyl Revival | vinylrevivalmcr.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4850 |  | 4857 | Vinyl Van | vinylvan.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4851 |  | 4858 | VOD Music | vodmusic.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
-| 4852 |  | 4859 | Yew Tree Records | yewtreerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4753 | 57 | 4760 | Love Vinyl | lovevinyl.net | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4754 | 57 | 4761 | Massive international- London | massive-international.com | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4755 | 57 | 4762 | Peckings Records | peckingsrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4756 | 57 | 4763 | Phantasy | shop.phantasysound.co.uk | shopify | SCRAPER_BUILT_TESTED | 17 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4757 | 57 | 4764 | Planet Wax | planetwax.net | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4758 | 57 | 4765 | Recycle Vinyl | recycle-vinyl.co.uk | shopify | SCRAPER_BUILT_TESTED | 1 | 0/1 geldig | private QA en marktgate beoordelen |
+| 4759 | 57 | 4766 | Sutton Music Centre | suttonmusic.co.uk | shopify | SCRAPER_BUILT_TESTED | 3 | 1/2 geldig | private QA en marktgate beoordelen |
+| 4760 | 57 | 4767 | Yo Yo Records London | yoyorecordslondon.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4761 | 57 | 4768 | All Ages Records | allagesrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4762 | 57 | 4769 | All My Friends Record Shop | allmyfriends.uk | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4763 | 57 | 4770 | Atlantis Records | atlantisrecords.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4764 | 57 | 4771 | Cigarette Records | cigaretterecords.co.uk |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4765 | 57 | 4772 | The Little Record Shop | cash4records.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4766 | 57 | 4773 | Next Door Records Two | nextdoorrecords.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4767 | 57 | 4774 | Play Vinyl | playvinyl.london | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4768 | 57 | 4775 | Reckless Records London | reckless.co.uk | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4769 | 57 | 4776 | Rise Above Records and Relics | riseaboverecordsandrelics.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4770 | 57 | 4777 | Upside Down Records | upsidedownrecords.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4771 | 57 | 4778 | Vinyl Revelations | vinylrevelations.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4772 | 57 | 4779 | Carnival Records | carnivalrecords.co.uk | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4773 | 57 | 4780 | Vinylfetishes | vinylfetishes.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4774 | 57 | 4781 | Clampdown Records | clampdownrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4775 | 57 | 4782 | Planet rock records | mcrblogs.co.uk | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4776 | 57 | 4783 | The Feather Star | thefeatherstar.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4777 | 57 | 4784 | Diverse Vinyl | diversevinyl.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4778 | 57 | 4785 | Phoenix Sounds | phoenix-sounds.co.uk | shopify | SCRAPER_BUILT_TESTED | 17 | 2/2 geldig | private QA en marktgate beoordelen |
+| 4779 | 57 | 4786 | Vinyl Underground | vinylunderground.co.uk | shopify | SCRAPER_BUILT_TESTED | 7 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4780 | 57 | 4787 | Fabtronic Group | fabtronic.co.uk | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4781 | 57 | 4788 | Out of Time Records | outoftimerecords.co.uk |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4782 | 57 | 4789 | mushimushirecords | mushimushirecords.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4783 | 57 | 4790 | Langley Mill Records | recordshopnottingham.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4784 | 57 | 4791 | Far Land Records Ltd | far-landrecords.co.uk | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4785 | 57 | 4792 | Rapscallion Records & Coffee | rapscallionrecords.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4786 | 57 | 4793 | Red Rock Records | redrockrecords.co.uk |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4787 | 57 | 4794 | Nothing Ventured Vinyl | nothingventuredvinyl.co.uk | shopify | SCRAPER_BUILT_TESTED | 19 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4788 | 57 | 4795 | Record Plant York | recordplant.co.uk | shopify | SCRAPER_BUILT_TESTED | 1 | 0/1 geldig | private QA en marktgate beoordelen |
+| 4789 | 57 | 4796 | Total Sounds | totalsounds.co.uk | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4790 | 57 | 4797 | Record Collector | recordcollectorsheffield.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4791 | 57 | 4798 | Sound Bar | skiptonsoundbar.co.uk | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4792 | 57 | 4799 | Tough Love St Leonards | toughlove.shop | shopify | SCRAPER_BUILT_TESTED | 19 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4793 | 57 | 4800 | the vinyl revival store | vinylrevivaluk.com | shopify | SCRAPER_BUILT_TESTED | 19 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4794 | 57 | 4801 | Your Vinyl Answer | yourvinylanswer.co.uk | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4795 | 57 | 4802 | Roker Records - Celebrating with Limited Stock | rokerrecords.co.uk | shopify | SCRAPER_BUILT_TESTED | 1 | 0/1 geldig | private QA en marktgate beoordelen |
+| 4796 | 57 | 4803 | John Packer | johnpacker.co.uk | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4797 | 57 | 4804 | Hayes Music | hayesmusic.co.uk | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4798 | 57 | 4805 | Crazy Beat Records | crazybeat.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4799 | 57 | 4806 | Vinyl Audio Cafe | vinylaudiocafe.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4800 | 57 | 4807 | FortyFive Cafe | fortyfiveuk.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4801 | 57 | 4808 | Earworm Records | earwormrecords.co.uk |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4802 | 57 | 4809 | 303 Records | 303records.co.uk | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4803 | 57 | 4810 | Action Records | actionrecords.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4804 | 57 | 4811 | The Beat and Track | thebeatandtrack.co.uk | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4805 | 57 | 4812 | blackslabrecords | blackslabrecords.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4806 | 57 | 4813 | Books On The Rise | booksontherise.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4807 | 57 | 4814 | Concorde Music Shop | concordemusic.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4808 | 57 | 4815 | Cult Hero | cultherorecords.co.uk | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4809 | 57 | 4816 | Dig Deep Records | digdeeprecords.co.uk | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4810 | 57 | 4817 | Eel Pie Records | eelpierecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4811 | 57 | 4818 | Empire Records | empirestalbans.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4812 | 57 | 4819 | Le Freak Records | lefreakrecords.co.uk | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4813 | 57 | 4820 | Global Groove | globalgroove.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4814 | 57 | 4821 | Grinning Soul Records | grinningsoulrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4815 | 57 | 4822 | Haunted Dancehall | haunted-dancehall.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4816 | 57 | 4823 | Hidden Sounds | hiddensounds.co.uk |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4817 | 57 | 4824 | Idle Hands | idlehandsbristol.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4818 | 57 | 4825 | Lilley's Vinyl Revival | lilleysvinyl.co.uk | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4819 | 57 | 4826 | The LP Cafe | thelpcafe.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4820 | 57 | 4827 | Maestro Records | maestrorecords.uk | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4821 | 57 | 4828 | Maldon Books | maldonbooks.com | woocommerce | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 4822 | 57 | 4829 | Moonface Records | moonfacerecords.co.uk | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4823 | 57 | 4830 | Mostly Vinyl Micky | mostlyvinylmicky.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4824 | 57 | 4831 | Novel Sounds *Celebrating with limited product | novelsounds.co.uk | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4825 | 57 | 4832 | Planet Of Sounds | planetofsounds.co.uk |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Response size limit |
+| 4826 | 57 | 4833 | PSTOTO99 | grapevinyl.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4827 | 57 | 4834 | Raven Records - Specialist heavy metal record shop | ravenrecordshop.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4828 | 57 | 4835 | The Record Cafe | therecordcafe.co.uk | woocommerce | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4829 | 57 | 4836 | ReplayRecordsGrimsby | replayrecords.co.uk | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4830 | 57 | 4837 | Rival Records | rivalrecords.co.uk | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4831 | 57 | 4838 | Roan Records | roanrecords.co.uk | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4832 | 57 | 4839 | Saturnalia Records | saturnaliarecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4833 | 57 | 4840 | The Second 45 | thesecond45.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Response size limit |
+| 4834 | 57 | 4841 | Second Line Records | secondlinerecords.com | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4835 | 57 | 4842 | Silver Machine Records | silvermachinerecords.co.uk |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4836 | 57 | 4843 | Slow Century Records | slowcenturyrecords.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4837 | 57 | 4844 | Sound Records | soundrecords.co.uk | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4838 | 57 | 4845 | Spinning Discs | spinningdiscssheffield.co.uk | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4839 | 57 | 4846 | Spun Out Sounds Northampton | spunout.website | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4840 | 57 | 4847 | Square Records | booksandvinyl.co.uk | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4841 | 57 | 4848 | Stranger than Paradise | strangerthanparadiserecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4842 | 57 | 4849 | Supertone Records | supertonerecords.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4843 | 57 | 4850 | Temple Of Bass | templeofbass.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4844 | 57 | 4851 | To Have And To Hold Records | tohaveandtoholdrecords.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4845 | 57 | 4852 | The Turntable Coffee & Vinyl | theturntable.uk | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_429 |
+| 4846 | 57 | 4853 | Umbrella Vinyl | umbrellavinyl.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4847 | 57 | 4854 | Vinyl Cafe | futureisvinyl.co.uk | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4848 | 57 | 4855 | The Vinyl Countdown | the-vinyl-countdown-whitchurch.square.site | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4849 | 57 | 4856 | Vinyl Revival | vinylrevivalmcr.com | shopify | SCRAPER_BUILT_TESTED | 1 | 0/1 geldig | private QA en marktgate beoordelen |
+| 4850 | 57 | 4857 | Vinyl Van | vinylvan.co.uk | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4851 | 57 | 4858 | VOD Music | vodmusic.co.uk | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4852 | 57 | 4859 | Yew Tree Records | yewtreerecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
 | 4853 |  | 4860 | 81 Renshaw | 81renshaw.co.uk |  | PENDING |  | — | broncontrole uitvoeren |
 | 4854 |  | 4861 | 586 Records | 586records.com |  | PENDING |  | — | broncontrole uitvoeren |
 | 4855 |  | 4862 | Applestump Records | applestumprecords.com |  | PENDING |  | — | broncontrole uitvoeren |
