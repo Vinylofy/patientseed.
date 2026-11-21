@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T23:14:09.107791+00:00",
+  "shop_id": "jwrayrecords.com",
+  "row": 3548,
+  "name": "J Wray Records",
+  "domain": "jwrayrecords.com",
+  "country": null,
+  "website": "https://jwrayrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3548,
+    "name": "J Wray Records",
+    "domain": "jwrayrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://jwrayrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 24,
+    "accepted": 20,
+    "excluded": 3,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://jwrayrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://jwrayrecords.com/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 20,
+        "accepted": 13,
+        "excluded": 7,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://jwrayrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 215,
+        "products_seen": 24,
+        "accepted": 21,
+        "excluded": 3,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://jwrayrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://jwrayrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://jwrayrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://jwrayrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://jwrayrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://jwrayrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 215,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://jwrayrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://jwrayrecords.com/robots.txt",
+      "sha256": "780cbd1913497a132b7a326a3a48fdd0fdb0cde7f5d537b7a9c8b3878a222bc3"
+    },
+    {
+      "url": "https://jwrayrecords.com/",
+      "sha256": "420ab252a905cf0461f9dcac8dac2dfbf49937bd58aadd5f2702d999f9d35918"
+    },
+    {
+      "url": "https://jwrayrecords.com/products.json?limit=20&page=1",
+      "sha256": "e9ed16e69fc0e0b1d73cae3bcf40a0f005ff4176405073c98d65ed770f3c422b"
+    },
+    {
+      "url": "https://jwrayrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "e6b2f3646529121c007f4a0842c5d7c5cd7dd746cd6c8e584ee11c95817e1e39"
+    },
+    {
+      "url": "https://jwrayrecords.com/products/suicideboy-i-want-to-die-in-new-orleans-vinyl",
+      "sha256": "9d2580af4915a3401e2831ee4ae238b1773a19a29381ff390e5c2284ffe93104"
+    },
+    {
+      "url": "https://jwrayrecords.com/products/uicideboy-long-term-effects-of-suffering-vinyl",
+      "sha256": "4d7dd5e12fd3656fdbdfa9afc7f26b3df896b674732ef05f333a920875f041e3"
+    },
+    {
+      "url": "https://jwrayrecords.com/products/2pac-2pacalypse-now-vinyl?variant=44879065776279",
+      "sha256": "c78d550db20fbb6103f231267389b7eaa64c79a603a06a1ed761f43ffd5d2c93"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.75,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-44960216746-1",
+  "queue_rows": [
+    3548
+  ],
+  "assessment_path": "assessments/v2/jwrayrecords_com/v2-44960216746-1.json"
+}
