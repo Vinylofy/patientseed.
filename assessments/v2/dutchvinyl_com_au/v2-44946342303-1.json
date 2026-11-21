@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T20:27:50.743014+00:00",
+  "shop_id": "dutchvinyl.com.au",
+  "row": 3485,
+  "name": "Dutch Vinyl",
+  "domain": "dutchvinyl.com.au",
+  "country": null,
+  "website": "https://dutchvinyl.com.au/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3485,
+    "name": "Dutch Vinyl",
+    "domain": "dutchvinyl.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://dutchvinyl.com.au/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 13,
+    "excluded": 7,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://dutchvinyl.com.au/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://dutchvinyl.com.au/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://dutchvinyl.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 20,
+        "accepted": 13,
+        "excluded": 7,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://dutchvinyl.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://dutchvinyl.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://dutchvinyl.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://dutchvinyl.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://dutchvinyl.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://dutchvinyl.com.au/collections/all/products.json?limit=20&page=1",
+      "score": 135,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://dutchvinyl.com.au/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 13,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 13,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://dutchvinyl.com.au/robots.txt",
+      "sha256": "7625e10522d36dd0fe20d859401a9e1c910a24cd2fa7708cdac27b2f160cce22"
+    },
+    {
+      "url": "https://dutchvinyl.com.au/",
+      "sha256": "2f9b95b947f93c2ae883881c731b568ba6f61a0c750fb3c3c4724287e7d6a0fe"
+    },
+    {
+      "url": "https://dutchvinyl.com.au/products.json?limit=20&page=1",
+      "sha256": "6ae1e47564529016f95345df0a96e9b5ca512afaa8e8be05b76e3e4f3487cdc8"
+    },
+    {
+      "url": "https://dutchvinyl.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "e509480f6e66ab4807dc0b668f1cc0a4492ea2dd8b7c9dbb51249fc775313fed"
+    },
+    {
+      "url": "https://dutchvinyl.com.au/products/various-the-rocky-horror-picture-show-206157",
+      "sha256": "2aece96d43a85e34a1db833daeb6db8943d2aa1c22fdf22f43861307ca220720"
+    },
+    {
+      "url": "https://dutchvinyl.com.au/products/10-12-inch",
+      "sha256": "787a4d99f06583715fa202998b13bc68b3cbed8ac21d64a1e65bf31596507f30"
+    },
+    {
+      "url": "https://dutchvinyl.com.au/products/1001-albums-you-must-hear-before-you-die-updated-for-2021-robert-dimery-96209?variant=39472676307009",
+      "sha256": "88e435d218d277570a534d1d679e3bb058b1cbe032bbc77c5d62d4d4477b36f0"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.9230769230769231,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-44946342303-1",
+  "queue_rows": [
+    3485
+  ],
+  "assessment_path": "assessments/v2/dutchvinyl_com_au/v2-44946342303-1.json"
+}
