@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T19:24:55.807767+00:00",
+  "shop_id": "dreamstreetrecords.co.uk",
+  "row": 3422,
+  "name": "Dream Street Records",
+  "domain": "dreamstreetrecords.co.uk",
+  "country": null,
+  "website": "https://dreamstreetrecords.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3422,
+    "name": "Dream Street Records",
+    "domain": "dreamstreetrecords.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://dreamstreetrecords.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 7,
+    "excluded": 13,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://dreamstreetrecords.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://dreamstreetrecords.co.uk/products.json?limit=20&page=1",
+        "score": 75,
+        "products_seen": 20,
+        "accepted": 7,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://dreamstreetrecords.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 55,
+        "products_seen": 20,
+        "accepted": 5,
+        "excluded": 15,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://dreamstreetrecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://dreamstreetrecords.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://dreamstreetrecords.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://dreamstreetrecords.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://dreamstreetrecords.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://dreamstreetrecords.co.uk/products.json?limit=20&page=1",
+      "score": 75,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://dreamstreetrecords.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 7,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 7,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://dreamstreetrecords.co.uk/robots.txt",
+      "sha256": "470981ac83b2b5a80a564a11c50feba6b055157ea149f126d4565ea0d3f6207b"
+    },
+    {
+      "url": "https://dreamstreetrecords.co.uk/",
+      "sha256": "0eb40cf688726371f9eefbff9194706004178bfc0871ac43ceaa116716652e5e"
+    },
+    {
+      "url": "https://dreamstreetrecords.co.uk/products.json?limit=20&page=1",
+      "sha256": "593bdc579c593d5c9938826f35b2bc6fdd90b2cf9964a452c211a4198ac81299"
+    },
+    {
+      "url": "https://dreamstreetrecords.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "de30258aaad2de4e81444c4a083ef1674ca5b5b0a7cb5b61c30fc64b89e6ac16"
+    },
+    {
+      "url": "https://dreamstreetrecords.co.uk/products/aja-monet-when-the-poems-do-what-they-do-2lp",
+      "sha256": "ced681187c34175bb55290cb2529b1e75388127e91b311254fea13a04bd2b84d"
+    },
+    {
+      "url": "https://dreamstreetrecords.co.uk/products/pink-floyd-meddle-national-album-day-2026-lp-orange-marbled-vinyl",
+      "sha256": "1bf41b0b4867ae6f9637383ddf5cb8ae6716b6697dd8ee61996adb569af115f8"
+    },
+    {
+      "url": "https://dreamstreetrecords.co.uk/products/take-that-dreamers-lp-white-vinyl?variant=59772341420380",
+      "sha256": "37b8c16a4642ad22162343825b983d9e1e9349513526d1738478038751912331"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-44939175703-1",
+  "queue_rows": [
+    3422
+  ],
+  "assessment_path": "assessments/v2/dreamstreetrecords_co_uk/v2-44939175703-1.json"
+}
