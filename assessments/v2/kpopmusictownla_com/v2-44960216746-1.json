@@ -1,0 +1,181 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T23:17:10.740495+00:00",
+  "shop_id": "kpopmusictownla.com",
+  "row": 4949,
+  "name": "K-Pop Music Town",
+  "domain": "kpopmusictownla.com",
+  "country": null,
+  "website": "https://kpopmusictownla.com/",
+  "previous_status": "ADAPTER_TESTED",
+  "previous_reason": null,
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4949,
+    "name": "K-Pop Music Town",
+    "domain": "kpopmusictownla.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "detail",
+    "platform": "shopify",
+    "source_url": "https://kpopmusictownla.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 2,
+    "excluded": 18,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://kpopmusictownla.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://kpopmusictownla.com/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://kpopmusictownla.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://kpopmusictownla.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://kpopmusictownla.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://kpopmusictownla.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://kpopmusictownla.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://kpopmusictownla.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://kpopmusictownla.com/products.json?limit=20&page=1",
+      "score": 25,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_status": "BLOCKED",
+    "detail_reason": "UnicodeEncodeError",
+    "detail_checked": 0,
+    "detail_gtin_valid": 0
+  },
+  "platform": "shopify",
+  "catalog_route": "https://kpopmusictownla.com/products.json?limit=20&page=1",
+  "listing_sample": 2,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 2,
+    "unique_prices": 2,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://kpopmusictownla.com/robots.txt",
+      "sha256": "e2b9651df9be02589e4138d34eeff9b8831d6a341bf655ad88856514e88e68e5"
+    },
+    {
+      "url": "https://kpopmusictownla.com/",
+      "sha256": "71451564c99e3d00e6f1d783268a7a928206c8473d86624aabac7d546aa471c5"
+    },
+    {
+      "url": "https://kpopmusictownla.com/products.json?limit=20&page=1",
+      "sha256": "c53a48696233a84c0a39d00fc2a8a0120e665d6274144c644e9a4340cd3c4d29"
+    },
+    {
+      "url": "https://kpopmusictownla.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "9949902ef97923756b0586de2fdcb3a7ef45fe50c47b735974b90b918ee31dbe"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "UnicodeEncodeError"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "UnicodeEncodeError"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-44960216746-1",
+  "queue_rows": [
+    4949
+  ],
+  "assessment_path": "assessments/v2/kpopmusictownla_com/v2-44960216746-1.json"
+}
