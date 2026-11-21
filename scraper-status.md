@@ -5240,7 +5240,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | djungelochjazz.se | 40 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | dreamstreetrecords.co.uk | 40 | REVIEW | 0 | 7 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | drinksrecords.com | 21 | FROZEN | 3 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| drownedworldrecords.com | 40 | APPROVED | 0 | 19 | 3/3 | ACTIVE | ACTIVE | run 44881153515 |
+| drownedworldrecords.com | 40 | APPROVED | 0 | 19 | 3/3 | ACTIVE (run 44891291707) | ACTIVE | run 44881153515 |
 | dtsvinyl.com | 21 | FROZEN | 3 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | dutchvinyl.com.au | 40 | REVIEW | 0 | 13 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | eastmanrecords.nl | 40 | REVIEW | 0 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
