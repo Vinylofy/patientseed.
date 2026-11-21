@@ -1,0 +1,196 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T23:12:56.001260+00:00",
+  "shop_id": "innersleeve.com",
+  "row": 3426,
+  "name": "Innersleeve",
+  "domain": "innersleeve.com",
+  "country": null,
+  "website": "https://innersleeve.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3426,
+    "name": "Innersleeve",
+    "domain": "innersleeve.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://innersleeve.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://innersleeve.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://innersleeve.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://innersleeve.com/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://innersleeve.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://innersleeve.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://innersleeve.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://innersleeve.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://innersleeve.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://innersleeve.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://innersleeve.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 14,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://innersleeve.com/robots.txt",
+      "sha256": "4f16485202a1ec4ca9f4ccbfee0755de5ef7ff390386d9ff1f49bb4d6b93fa9f"
+    },
+    {
+      "url": "https://innersleeve.com/",
+      "sha256": "c4547e6a45840b6bb082bd84bda33578a69dcc54f7647fdf5ce1ad9cbffeaeea"
+    },
+    {
+      "url": "https://innersleeve.com/products.json?limit=20&page=1",
+      "sha256": "5d8f073f033a94743e7c672be4aa839edfefc0a2f30ac04a07a73b568e033e51"
+    },
+    {
+      "url": "https://innersleeve.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "8c290b5d14afa3ef020e854c6bbb3916176b2186d775a37e31223e908459a3aa"
+    },
+    {
+      "url": "https://innersleeve.com/products/guitar-guitar-guitar",
+      "sha256": "447bc3b8328061e8397de145211b0e78c8a76a80916e165119deadebf370d748"
+    },
+    {
+      "url": "https://innersleeve.com/products/a-thousand-miles-behind",
+      "sha256": "911a5d27293f7d225894802c7ed3361ff8d161ea42541e0b2892b1e3a5e07bd4"
+    },
+    {
+      "url": "https://innersleeve.com/products/live-on-german-television-the-musikladen-recordings-1978?variant=51271443710117",
+      "sha256": "401d4c1eefdff18e7a0a527bb901078dbd877fec1984c1d890ec047f92d0306c"
+    },
+    {
+      "url": "https://innersleeve.com/products/somebody-elses-guy-remixes?variant=51271481786533",
+      "sha256": "4888491595c228278363d07f9d5144fd07c4e2def90940bd4ca2b342e61d4b1c"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 1,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-44960216746-1",
+  "queue_rows": [
+    3426
+  ],
+  "assessment_path": "assessments/v2/innersleeve_com/v2-44960216746-1.json"
+}
