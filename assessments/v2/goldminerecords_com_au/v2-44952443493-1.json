@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T21:44:12.029220+00:00",
+  "shop_id": "goldminerecords.com.au",
+  "row": 3513,
+  "name": "Goldmine Records",
+  "domain": "goldminerecords.com.au",
+  "country": null,
+  "website": "https://goldminerecords.com.au/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3513,
+    "name": "Goldmine Records",
+    "domain": "goldminerecords.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://goldminerecords.com.au/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://goldminerecords.com.au/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://goldminerecords.com.au/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://goldminerecords.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://goldminerecords.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://goldminerecords.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://goldminerecords.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://goldminerecords.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://goldminerecords.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://goldminerecords.com.au/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://goldminerecords.com.au/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://goldminerecords.com.au/products/dua-lipa-future-nostalgia-vinyl-lp-2020-pop?variant=68615301103837",
+      "artist": "",
+      "title": "DUA LIPA 'Future Nostalgia' Vinyl LP (2020 Pop)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "55.00",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://goldminerecords.com.au/products/paul-weller-66-vinyl-lp-2024-rock-pop?variant=68615573471453",
+      "artist": "",
+      "title": "PAUL WELLER '66' Vinyl 2LP (2024 Rock/Pop)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "45.00",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://goldminerecords.com.au/products/lost-animal-give-some-get-some-vinyl-lp-2026-oz-alt-rock?variant=68625022058717",
+      "artist": "",
+      "title": "LOST ANIMAL 'Give Some Get Some' Vinyl LP (2026 Oz Alt. Rock)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "45.00",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://goldminerecords.com.au/robots.txt",
+      "sha256": "56f6dc168e459ff4838c42a9eff9db52521dfef150e55168988eb16d4371974d"
+    },
+    {
+      "url": "https://goldminerecords.com.au/",
+      "sha256": "6effad9ff0eb45e77ebf064ab168c16a1be0276c885764afa13e47cfd42ebdd3"
+    },
+    {
+      "url": "https://goldminerecords.com.au/products.json?limit=20&page=1",
+      "sha256": "125c99301a83a73875d1e4f0d3d6c70cbf0523f42c0e4b37c84ba4a311b19431"
+    },
+    {
+      "url": "https://goldminerecords.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "bd19372c349e270a1ec90ddff464361ba35c58399a4d50c3ed0e4c9ae0e74c25"
+    },
+    {
+      "url": "https://goldminerecords.com.au/products/lost-animal-give-some-get-some-vinyl-lp-2026-oz-alt-rock",
+      "sha256": "e5174d53096fd7af02267a51d8a2c68dc1df36f1487b80be65f032fc95c092a0"
+    },
+    {
+      "url": "https://goldminerecords.com.au/products/primal-scream-evil-heat-vinyl-2lp-2002-indie-electronic",
+      "sha256": "5445ed5df5b2711ffa002eaa42fa72c4ffb11387683d9e21788d5fa66eb04e8a"
+    },
+    {
+      "url": "https://goldminerecords.com.au/products/dua-lipa-future-nostalgia-vinyl-lp-2020-pop?variant=68615301103837",
+      "sha256": "6192c054069da811ace93c0c7e845063c8e0389ddc1792b5e292950bc43917bf"
+    },
+    {
+      "url": "https://goldminerecords.com.au/products/paul-weller-66-vinyl-lp-2024-rock-pop?variant=68615573471453",
+      "sha256": "3a2c1c7ecb9c81769d417f3342c613d42716e33893f0a65a57f48424b87e36da"
+    },
+    {
+      "url": "https://goldminerecords.com.au/products/lost-animal-give-some-get-some-vinyl-lp-2026-oz-alt-rock?variant=68625022058717",
+      "sha256": "6fd6e11ff971e09ce2298d07f5bc6c177399441a7f10f7d14e71fa71fdebad15"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://goldminerecords.com.au/products/dua-lipa-future-nostalgia-vinyl-lp-2020-pop?variant=68615301103837",
+    "https://goldminerecords.com.au/products/paul-weller-66-vinyl-lp-2024-rock-pop?variant=68615573471453",
+    "https://goldminerecords.com.au/products/lost-animal-give-some-get-some-vinyl-lp-2026-oz-alt-rock?variant=68625022058717"
+  ],
+  "assessment_id": "v2-44952443493-1",
+  "queue_rows": [
+    3513
+  ],
+  "assessment_path": "assessments/v2/goldminerecords_com_au/v2-44952443493-1.json"
+}
