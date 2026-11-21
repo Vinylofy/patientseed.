@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T23:17:35.215194+00:00",
+  "shop_id": "katakomben.no",
+  "row": 4508,
+  "name": "Katakomben",
+  "domain": "katakomben.no",
+  "country": null,
+  "website": "https://katakomben.no/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4508,
+    "name": "Katakomben",
+    "domain": "katakomben.no",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://katakomben.no/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 12,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "NOK",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://katakomben.no/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://katakomben.no/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://katakomben.no/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://katakomben.no/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://katakomben.no/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://katakomben.no/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://katakomben.no/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://katakomben.no/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://katakomben.no/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://katakomben.no/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 4,
+    "shipping_hits": 0,
+    "currencies": [
+      "NOK"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://katakomben.no/products/krolok-hricov-sulov-lietava-lp-clear-preorder?variant=51300309074153",
+      "artist": "KROLOK",
+      "title": "Hričov - Súľov - Lietava LP (SMOKE)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "289.00",
+      "currency": "NOK",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://katakomben.no/products/monstrosity-spiritual-apocalypse-lp-grey-black-dust?variant=68102506021097",
+      "artist": "MONSTROSITY",
+      "title": "Spiritual Apocalypse LP (GREY/ BLACK DUST)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "349.00",
+      "currency": "NOK",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://katakomben.no/products/mayhem-de-mysteriis-dom-sathanas-lp-marble-preorder?variant=68125782409449",
+      "artist": "MAYHEM",
+      "title": "De Mysteriis Dom Sathanas LP (MARBLE) (PREORDER)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "349.00",
+      "currency": "NOK",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://katakomben.no/robots.txt",
+      "sha256": "819c073f923d72bcb805ad4790ede611ebf323e0590aa0c84e19582c404df7ed"
+    },
+    {
+      "url": "https://katakomben.no/",
+      "sha256": "be2aed3a95eecf511f39a085cd11a0a951da427cf3a9f189186664e32d85c1a1"
+    },
+    {
+      "url": "https://katakomben.no/products.json?limit=20&page=1",
+      "sha256": "decf5ae2a25a7ba7f2d24fb3c6a9d805fae19e511fa76c2064090f7f479e5e6d"
+    },
+    {
+      "url": "https://katakomben.no/collections/all/products.json?limit=20&page=1",
+      "sha256": "e13c14a23735371ef7e277f0c358c47413daa0c7c2eeae1b2d48f34073f89581"
+    },
+    {
+      "url": "https://katakomben.no/products/mayhem-de-mysteriis-dom-sathanas-lp-marble-preorder",
+      "sha256": "8d5dcbcdc71d732dc27deaba75470571c79132aa399201623283e43a43c0943b"
+    },
+    {
+      "url": "https://katakomben.no/products/mayhem-de-mysteriis-dom-sathanas-lp-preorder",
+      "sha256": "681d5e5bbea22592cd82f53bf6e4424b42036d34d1701ad086315c01358c29b5"
+    },
+    {
+      "url": "https://katakomben.no/products/krolok-hricov-sulov-lietava-lp-clear-preorder?variant=51300309074153",
+      "sha256": "7ceb17f281520b254b45fce25bfad74c4b2b3e65c8ba739695cfe545e984abbf"
+    },
+    {
+      "url": "https://katakomben.no/products/monstrosity-spiritual-apocalypse-lp-grey-black-dust?variant=68102506021097",
+      "sha256": "8cbe522d406fb182b09dc319de91db34f46b855cb215db214a95033f0e85fb5b"
+    },
+    {
+      "url": "https://katakomben.no/products/mayhem-de-mysteriis-dom-sathanas-lp-marble-preorder?variant=68125782409449",
+      "sha256": "8361f73d20c7649067b1f02bd53aad648e29e488a54b93fed07d898bfac535e4"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.9166666666666666,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://katakomben.no/products/krolok-hricov-sulov-lietava-lp-clear-preorder?variant=51300309074153",
+    "https://katakomben.no/products/monstrosity-spiritual-apocalypse-lp-grey-black-dust?variant=68102506021097",
+    "https://katakomben.no/products/mayhem-de-mysteriis-dom-sathanas-lp-marble-preorder?variant=68125782409449"
+  ],
+  "assessment_id": "v2-44960216746-1",
+  "queue_rows": [
+    4508
+  ],
+  "assessment_path": "assessments/v2/katakomben_no/v2-44960216746-1.json"
+}
