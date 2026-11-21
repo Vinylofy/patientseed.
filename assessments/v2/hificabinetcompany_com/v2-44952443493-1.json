@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T21:57:04.272374+00:00",
+  "shop_id": "hificabinetcompany.com",
+  "row": 3698,
+  "name": "hifi cabinet co",
+  "domain": "hificabinetcompany.com",
+  "country": null,
+  "website": "https://hificabinetcompany.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3698,
+    "name": "hifi cabinet co",
+    "domain": "hificabinetcompany.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://hificabinetcompany.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 14,
+    "excluded": 6,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://hificabinetcompany.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://hificabinetcompany.com/products.json?limit=20&page=1",
+        "score": 145,
+        "products_seen": 20,
+        "accepted": 14,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://hificabinetcompany.com/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://hificabinetcompany.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://hificabinetcompany.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://hificabinetcompany.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://hificabinetcompany.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://hificabinetcompany.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://hificabinetcompany.com/products.json?limit=20&page=1",
+      "score": 145,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://hificabinetcompany.com/products.json?limit=20&page=1",
+  "listing_sample": 14,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 14,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://hificabinetcompany.com/products/snap-set-locking-casters-wheels-blue-copy?variant=49098975379762",
+      "artist": "",
+      "title": "4  Green Easy Glide Caster Wheels",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "34.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://hificabinetcompany.com/products/limited-edition-splatter-crate-camo?variant=50370594832690",
+      "artist": "Splatter Crate ",
+      "title": "Smudge Brothers 1 - 2",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "99.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://hificabinetcompany.com/products/crate-legs?variant=50428839919922",
+      "artist": "Crate Legs",
+      "title": "Acacia Hardwood",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "69.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://hificabinetcompany.com/robots.txt",
+      "sha256": "30637631e3da8811c744f4129ef267fad84cea378ad22d78124ebf282330a3ec"
+    },
+    {
+      "url": "https://hificabinetcompany.com/",
+      "sha256": "3d1530f8aabba02f86c26ed1cecb8feefa440c7847d530bbc7926371601cd415"
+    },
+    {
+      "url": "https://hificabinetcompany.com/products.json?limit=20&page=1",
+      "sha256": "21b3fcfa59e126764e1ba3b260fb8434893ff89a105ab2e5ad78ed72540bffe5"
+    },
+    {
+      "url": "https://hificabinetcompany.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "b84fb27458f148f4571fceb45da6308c6593d77e9c1249a50c1a6a312c9d1055"
+    },
+    {
+      "url": "https://hificabinetcompany.com/products/crate-legs",
+      "sha256": "578c53d9d6f6ee86c728058219d2eda7178da75b1c6905674e56076af34dbe44"
+    },
+    {
+      "url": "https://hificabinetcompany.com/products/brown-sugar-vinyl-record-storage-crate-copy",
+      "sha256": "35daaafe9e80b9bff587e2676bcc9b928b10da69283e624577d8baa56b386884"
+    },
+    {
+      "url": "https://hificabinetcompany.com/products/snap-set-locking-casters-wheels-blue-copy?variant=49098975379762",
+      "sha256": "1f5fbc971cca8e41cc74183256dc26be88c111ed0a4f36d6ff702de3b42b9785"
+    },
+    {
+      "url": "https://hificabinetcompany.com/products/limited-edition-splatter-crate-camo?variant=50370594832690",
+      "sha256": "6c3a20a999083d375ae9550de1fe5ef23bdb8a80cd46c88f71aabe1af8d7cec4"
+    },
+    {
+      "url": "https://hificabinetcompany.com/products/crate-legs?variant=50428839919922",
+      "sha256": "5783b00111736d32c4873d73831c918aa45d38ed6e7b1b23f8c603f1a26064a3"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 0.5714285714285714,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://hificabinetcompany.com/products/snap-set-locking-casters-wheels-blue-copy?variant=49098975379762",
+    "https://hificabinetcompany.com/products/limited-edition-splatter-crate-camo?variant=50370594832690",
+    "https://hificabinetcompany.com/products/crate-legs?variant=50428839919922"
+  ],
+  "assessment_id": "v2-44952443493-1",
+  "queue_rows": [
+    3698
+  ],
+  "assessment_path": "assessments/v2/hificabinetcompany_com/v2-44952443493-1.json"
+}
