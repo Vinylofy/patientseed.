@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T17:34:04.861891+00:00",
+  "shop_id": "shop.cooldiscsmusic.com",
+  "row": 3368,
+  "name": "Cool Discs",
+  "domain": "shop.cooldiscsmusic.com",
+  "country": null,
+  "website": "https://shop.cooldiscsmusic.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3368,
+    "name": "Cool Discs",
+    "domain": "shop.cooldiscsmusic.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://shop.cooldiscsmusic.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 15,
+    "excluded": 5,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://shop.cooldiscsmusic.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://shop.cooldiscsmusic.com/products.json?limit=20&page=1",
+        "score": 155,
+        "products_seen": 20,
+        "accepted": 15,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://shop.cooldiscsmusic.com/collections/all/products.json?limit=20&page=1",
+        "score": 95,
+        "products_seen": 22,
+        "accepted": 9,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://shop.cooldiscsmusic.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shop.cooldiscsmusic.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shop.cooldiscsmusic.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shop.cooldiscsmusic.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shop.cooldiscsmusic.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://shop.cooldiscsmusic.com/products.json?limit=20&page=1",
+      "score": 155,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://shop.cooldiscsmusic.com/products.json?limit=20&page=1",
+  "listing_sample": 15,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 15,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://shop.cooldiscsmusic.com/robots.txt",
+      "sha256": "db41e1a80f7fc9ae3b50104a49a3c02850024fe6e5952eb29a45dfb60a941862"
+    },
+    {
+      "url": "https://shop.cooldiscsmusic.com/",
+      "sha256": "afe4baa3278e9a1e0785f67a729df04b8e7e1165119a9c435ff358c43d1775bd"
+    },
+    {
+      "url": "https://shop.cooldiscsmusic.com/products.json?limit=20&page=1",
+      "sha256": "29af617729e4ce918cc41ff0d6f78a0f860eeee4278de8bc95ebdce05b691044"
+    },
+    {
+      "url": "https://shop.cooldiscsmusic.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "cea3aeb4ce4b837c58288ba075324c64bc4c3a7790bb361ba762099f6bb8c3a7"
+    },
+    {
+      "url": "https://shop.cooldiscsmusic.com/products/the-house-of-love-the-house-of-lovevinyl",
+      "sha256": "c10c77a7f33fae0baebf333cbc5f7ff99969a603c13e02cfca05a01177d6b5e9"
+    },
+    {
+      "url": "https://shop.cooldiscsmusic.com/products/amon-robin-chaos-theory-20th-anniversary-clear-vinyl",
+      "sha256": "4c33c3f2171fd60da68ab2c8d1b4736479027bf0d9a815e6049c60be63d15d2b"
+    },
+    {
+      "url": "https://shop.cooldiscsmusic.com/products/k-pop-demon-hunters-ost-vinyl-1?variant=59387455963510",
+      "sha256": "2560a7241c2908446a6e27842ccb8e6850be80bc68ffd5b215c79303f7ddf533"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.9333333333333333,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-44929737638-1",
+  "queue_rows": [
+    3368
+  ],
+  "assessment_path": "assessments/v2/shop_cooldiscsmusic_com/v2-44929737638-1.json"
+}
