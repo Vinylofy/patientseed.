@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T21:43:58.406312+00:00",
+  "shop_id": "goldendiscs.ie",
+  "row": 4224,
+  "name": "Golden Discs",
+  "domain": "goldendiscs.ie",
+  "country": null,
+  "website": "https://goldendiscs.ie/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4224,
+    "name": "Golden Discs",
+    "domain": "goldendiscs.ie",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://goldendiscs.ie/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 21,
+    "accepted": 12,
+    "excluded": 9,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://goldendiscs.ie/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://goldendiscs.ie/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 21,
+        "accepted": 12,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://goldendiscs.ie/collections/all/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://goldendiscs.ie/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://goldendiscs.ie/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://goldendiscs.ie/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://goldendiscs.ie/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://goldendiscs.ie/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://goldendiscs.ie/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://goldendiscs.ie/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://goldendiscs.ie/products/project-hail-mary-daniel-pemberton-vinyl-1?variant=53832229519707",
+      "artist": "Project Hail Mary (Original Soundtrack Boxset)",
+      "title": "Daniel Pemberton [Colour Vinyl]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "170.00",
+      "currency": "EUR",
+      "valid_eans": [
+        "00810155842222"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://goldendiscs.ie/products/stoney-10-year-anniversary-post-malone-vinyl?variant=55229972119899",
+      "artist": "Stoney: 10 Year Anniversary",
+      "title": "Post Malone [Colour Vinyl]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "42.00",
+      "currency": "EUR",
+      "valid_eans": [
+        "00881061349693"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://goldendiscs.ie/products/air-col-lp-moon-safari-rsd-exclu-pre-order-vinyl?variant=55252438679899",
+      "artist": "Moon Safari (RSD Stores Exclusive)",
+      "title": "Air [Colour Vinyl]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "30.00",
+      "currency": "EUR",
+      "valid_eans": [
+        "05026854565057"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://goldendiscs.ie/robots.txt",
+      "sha256": "eb55f0c5618437975948a44b4b39a5b97f635217a85f0bffb73912f177f854b4"
+    },
+    {
+      "url": "https://goldendiscs.ie/",
+      "sha256": "8441701653093bcb90147f0edd31d43d32ca4556011f7a4dfc0cce17e2e4caed"
+    },
+    {
+      "url": "https://goldendiscs.ie/products.json?limit=20&page=1",
+      "sha256": "aee82fbf2f9af75857a1d70b2b1fd9a1c39cd8c2f8cba601b5c1abfde681226f"
+    },
+    {
+      "url": "https://goldendiscs.ie/collections/all/products.json?limit=20&page=1",
+      "sha256": "289eb6f3ae616c8d05f6c317b79015d61610db0900b61ed6e3f3555e24707d0b"
+    },
+    {
+      "url": "https://goldendiscs.ie/products/air-col-lp-moon-safari-rsd-exclu-pre-order-vinyl",
+      "sha256": "d7d37e5144da4c652405594f50039f64fd8f536ae9c7d6996925bb1a6e926243"
+    },
+    {
+      "url": "https://goldendiscs.ie/products/the-doors-the-doors-vinyl-1",
+      "sha256": "49c800985114fe1923b5d0b8b8243bedf0491dba274d26e87e3c59f3698c26ed"
+    },
+    {
+      "url": "https://goldendiscs.ie/products/project-hail-mary-daniel-pemberton-vinyl-1?variant=53832229519707",
+      "sha256": "d96e2b7a33afc7fcdb8882d3a4e39bc9bf21e798f0d573b4c07c7587f113666e"
+    },
+    {
+      "url": "https://goldendiscs.ie/products/stoney-10-year-anniversary-post-malone-vinyl?variant=55229972119899",
+      "sha256": "23f465927caa4cab0fa8cfeea3285bd7a3efd7cb6555fff687212ca48436e09a"
+    },
+    {
+      "url": "https://goldendiscs.ie/products/air-col-lp-moon-safari-rsd-exclu-pre-order-vinyl?variant=55252438679899",
+      "sha256": "478426391e87d5f28072d17743bfbf12c5ba29b357c6d056b0c5ee235f4227f0"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": true,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.8333333333333334,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://goldendiscs.ie/products/project-hail-mary-daniel-pemberton-vinyl-1?variant=53832229519707",
+    "https://goldendiscs.ie/products/stoney-10-year-anniversary-post-malone-vinyl?variant=55229972119899",
+    "https://goldendiscs.ie/products/air-col-lp-moon-safari-rsd-exclu-pre-order-vinyl?variant=55252438679899"
+  ],
+  "assessment_id": "v2-44952443493-1",
+  "queue_rows": [
+    4224
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 12,
+  "candidate_ref": "v2-44952443493-1/goldendiscs_ie",
+  "assessment_path": "assessments/v2/goldendiscs_ie/v2-44952443493-1.json"
+}
