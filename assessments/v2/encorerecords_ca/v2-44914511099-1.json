@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T14:36:28.132925+00:00",
+  "shop_id": "encorerecords.ca",
+  "row": 3431,
+  "name": "Encorerecords",
+  "domain": "encorerecords.ca",
+  "country": null,
+  "website": "https://encorerecords.ca/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3431,
+    "name": "Encorerecords",
+    "domain": "encorerecords.ca",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://encorerecords.ca/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 7,
+    "excluded": 13,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "CAD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://encorerecords.ca/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://encorerecords.ca/products.json?limit=20&page=1",
+        "score": 75,
+        "products_seen": 20,
+        "accepted": 7,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://encorerecords.ca/collections/all/products.json?limit=20&page=1",
+        "score": 75,
+        "products_seen": 20,
+        "accepted": 7,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://encorerecords.ca/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://encorerecords.ca/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://encorerecords.ca/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://encorerecords.ca/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://encorerecords.ca/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://encorerecords.ca/products.json?limit=20&page=1",
+      "score": 75,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://encorerecords.ca/products.json?limit=20&page=1",
+  "listing_sample": 7,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 7,
+    "unique_prices": 5,
+    "shipping_hits": 0,
+    "currencies": [
+      "CAD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://encorerecords.ca/products/lp-cro-mags-alpha-omega?variant=68115978649854",
+      "artist": "LP",
+      "title": "Cro-Mags - Alpha Omega",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "16.99",
+      "currency": "CAD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://encorerecords.ca/products/2lp-various-artists-who-is-he-and-what-is-he-to-you?variant=68118564765950",
+      "artist": "2LP",
+      "title": "Various Artists - Who Is He And What Is He To You?",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "54.99",
+      "currency": "CAD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://encorerecords.ca/products/lp-bob-seger-the-silver-bullet-band-night-moves-50th-anniversary?variant=68118584393982",
+      "artist": "LP",
+      "title": " Bob Seger & The Silver Bullet Band - Night Moves (50th Anniversary)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "49.99",
+      "currency": "CAD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://encorerecords.ca/robots.txt",
+      "sha256": "4f5f20ca1353fd956623a0df1fcf93791176261d54ea2391f198e1ef769419a1"
+    },
+    {
+      "url": "https://encorerecords.ca/",
+      "sha256": "04b0d9cb6278078272e08ff80d92f5e4e53377a2da52075f7736008afe06288a"
+    },
+    {
+      "url": "https://encorerecords.ca/products.json?limit=20&page=1",
+      "sha256": "2ce3a72a09ad358c44706111fa5c8d8bbc3cc44d35978454071205c29648899c"
+    },
+    {
+      "url": "https://encorerecords.ca/collections/all/products.json?limit=20&page=1",
+      "sha256": "a1993a124fe59cf2cae5998ccf03d3960229f5d9edbd8df0fa156816ac72d75f"
+    },
+    {
+      "url": "https://encorerecords.ca/products/lp-bob-seger-the-silver-bullet-band-night-moves-50th-anniversary",
+      "sha256": "b7d273811411552ceef8808b4d0b91cb286b48f975916e2e05ccd5c2c962e81b"
+    },
+    {
+      "url": "https://encorerecords.ca/products/2lp-playboi-carti-sorry-4-da-wait",
+      "sha256": "19fa9903423d06a6dbb350d246682df0fc8654b0aee77deedee45465ff1e312a"
+    },
+    {
+      "url": "https://encorerecords.ca/products/lp-cro-mags-alpha-omega?variant=68115978649854",
+      "sha256": "50d46732a33d5a83982c54e0dffc66401b10757fe7af4d606948b1f190f1a3e8"
+    },
+    {
+      "url": "https://encorerecords.ca/products/2lp-various-artists-who-is-he-and-what-is-he-to-you?variant=68118564765950",
+      "sha256": "41a51b511d67e0db40a1c31f59344e4b79f0bc9cfcb98a8af89994ded3eb8677"
+    },
+    {
+      "url": "https://encorerecords.ca/products/lp-bob-seger-the-silver-bullet-band-night-moves-50th-anniversary?variant=68118584393982",
+      "sha256": "3badc2a497ace17de04ed586b113bc069cf0c60d7bddf1df66498d7698a15573"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://encorerecords.ca/products/lp-cro-mags-alpha-omega?variant=68115978649854",
+    "https://encorerecords.ca/products/2lp-various-artists-who-is-he-and-what-is-he-to-you?variant=68118564765950",
+    "https://encorerecords.ca/products/lp-bob-seger-the-silver-bullet-band-night-moves-50th-anniversary?variant=68118584393982"
+  ],
+  "assessment_id": "v2-44914511099-1",
+  "queue_rows": [
+    3431
+  ],
+  "assessment_path": "assessments/v2/encorerecords_ca/v2-44914511099-1.json"
+}
