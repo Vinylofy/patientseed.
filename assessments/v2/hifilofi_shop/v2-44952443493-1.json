@@ -1,0 +1,222 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T21:57:17.696303+00:00",
+  "shop_id": "hifilofi.shop",
+  "row": 5012,
+  "name": "HiFi LoFi",
+  "domain": "hifilofi.shop",
+  "country": null,
+  "website": "https://hifilofi.shop/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 5012,
+    "name": "HiFi LoFi",
+    "domain": "hifilofi.shop",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://hifilofi.shop/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 2,
+    "excluded": 18,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://hifilofi.shop/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://hifilofi.shop/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://hifilofi.shop/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://hifilofi.shop/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://hifilofi.shop/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://hifilofi.shop/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://hifilofi.shop/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://hifilofi.shop/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://hifilofi.shop/products.json?limit=20&page=1",
+      "score": 25,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://hifilofi.shop/products.json?limit=20&page=1",
+  "listing_sample": 2,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 2,
+    "unique_prices": 2,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://hifilofi.shop/products/butthole-surfers-rembrandt-pussyhorse-vinyl-record?variant=46809489145941",
+      "artist": "Butthole Surfers",
+      "title": "Rembrandt Pussyhorse Vinyl Record",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "24.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://hifilofi.shop/products/tunic-original-game-soundtrack-vinyl-record?variant=46800331440213",
+      "artist": "",
+      "title": "Tunic Original Game Soundtrack Vinyl Box Set",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "499.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://hifilofi.shop/robots.txt",
+      "sha256": "a1ef23a246b1dde319623ce68a7a3e9cd04a181984b0139b33b138f4edc67e4d"
+    },
+    {
+      "url": "https://hifilofi.shop/",
+      "sha256": "e2fa24c53c44f45fd6fb13d5b29d0a6d9662054127533e269e0c6805b17a8d99"
+    },
+    {
+      "url": "https://hifilofi.shop/products.json?limit=20&page=1",
+      "sha256": "4373f2d69fea2e8f463b8335527d536efa4279d663de3903570a2773b1ba0b69"
+    },
+    {
+      "url": "https://hifilofi.shop/collections/all/products.json?limit=20&page=1",
+      "sha256": "fc8faf809a846b341aa3fa8ced6c51ac35bf76479d5865c968231857efdb12d1"
+    },
+    {
+      "url": "https://hifilofi.shop/products/tunic-original-game-soundtrack-vinyl-record",
+      "sha256": "87a557acfe745ba020105260bbdb94e1a19bf8ff517fe6c6b4aa95f824981728"
+    },
+    {
+      "url": "https://hifilofi.shop/products/butthole-surfers-rembrandt-pussyhorse-vinyl-record",
+      "sha256": "76dd78a968de07249124416a4bc3f95054e343062ede36fadc01cdbf86408e11"
+    },
+    {
+      "url": "https://hifilofi.shop/products/butthole-surfers-rembrandt-pussyhorse-vinyl-record?variant=46809489145941",
+      "sha256": "d30425b6c63b6edd4255cbc667a05a26eca6dd53e365fe1210e8737867de2abc"
+    },
+    {
+      "url": "https://hifilofi.shop/products/tunic-original-game-soundtrack-vinyl-record?variant=46800331440213",
+      "sha256": "c7e909bac18692afe32b6f285c9bf0e57cc344ccd6587bdcf7a8224034d06343"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "insufficient_representative_product_evidence"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 2,
+    "detail_price_proven": 2,
+    "ean_valid": 0,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 0.5,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://hifilofi.shop/products/butthole-surfers-rembrandt-pussyhorse-vinyl-record?variant=46809489145941",
+    "https://hifilofi.shop/products/tunic-original-game-soundtrack-vinyl-record?variant=46800331440213"
+  ],
+  "assessment_id": "v2-44952443493-1",
+  "queue_rows": [
+    5012
+  ],
+  "assessment_path": "assessments/v2/hifilofi_shop/v2-44952443493-1.json"
+}
