@@ -1,0 +1,233 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T14:34:43.834768+00:00",
+  "shop_id": "bordelloaparigi.com",
+  "row": 4469,
+  "name": "Bordello A Parigi",
+  "domain": "bordelloaparigi.com",
+  "country": null,
+  "website": "https://bordelloaparigi.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4469,
+    "name": "Bordello A Parigi",
+    "domain": "bordelloaparigi.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "woocommerce",
+    "source_url": "https://bordelloaparigi.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "adapter_class": "WooCommerceNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 6,
+    "excluded": 14,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "method_candidates": [
+      {
+        "platform": "woocommerce",
+        "route": "https://bordelloaparigi.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://bordelloaparigi.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://bordelloaparigi.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://bordelloaparigi.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://bordelloaparigi.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://bordelloaparigi.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://bordelloaparigi.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "woocommerce",
+      "route": "https://bordelloaparigi.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 65,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "woocommerce",
+  "catalog_route": "https://bordelloaparigi.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "listing_sample": 6,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 6,
+    "unique_prices": 5,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://bordelloaparigi.com/shop/vinyl/profit-prison-why-art-thou-wroth-and-why-is-thy-countenance-fallen-lp/",
+      "artist": "Profit Prison",
+      "title": "Why Art Thou Wroth? And Why Is Thy Countenance Fallen? LP",
+      "identity_method": "explicit_product_artist_attribute",
+      "identity_proven": true,
+      "price": "24.99",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://bordelloaparigi.com/shop/vinyl/j-d-slater-elbow-deep-in-the-hoopla-lp/",
+      "artist": "J.D. Slater",
+      "title": "Elbow Deep In The Hoopla LP",
+      "identity_method": "explicit_product_artist_attribute",
+      "identity_proven": true,
+      "price": "27.99",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://bordelloaparigi.com/shop/vinyl/evia-mirror-lp/",
+      "artist": "èvia",
+      "title": "Mirror LP",
+      "identity_method": "explicit_product_artist_attribute",
+      "identity_proven": true,
+      "price": "29.50",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://bordelloaparigi.com/robots.txt",
+      "sha256": "174466a8ada65a87c6eb6ef8aabd461e86d6572f442a423760eca154aa3edb07"
+    },
+    {
+      "url": "https://bordelloaparigi.com/",
+      "sha256": "0a22b8bbcf9df64c5e10ae2dfaf50365bd9aa1dd9c9e03d5abc16f49ec9d863f"
+    },
+    {
+      "url": "https://bordelloaparigi.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "51ad4553cc29f407e93802a8e36438550c130d5d8296eed4d4b4ccb347eb60a8"
+    },
+    {
+      "url": "https://bordelloaparigi.com/shop/vinyl/evia-mirror-lp/",
+      "sha256": "48a76b240178a265681ddd6ed6b2b3bcd3f641f558fe6d512219393bc5fa96c5"
+    },
+    {
+      "url": "https://bordelloaparigi.com/shop/vinyl/j-d-slater-filling-your-silence-lp/",
+      "sha256": "f17073284899dde89453b55924ed6b607db2f7f9a68c89bb70243a2b028a3138"
+    },
+    {
+      "url": "https://bordelloaparigi.com/shop/vinyl/profit-prison-why-art-thou-wroth-and-why-is-thy-countenance-fallen-lp/",
+      "sha256": "9c45fa8d211d4cdf111e4c15e67809b3f86f88602c78a4f245d4cb9c1dab98ec"
+    },
+    {
+      "url": "https://bordelloaparigi.com/shop/vinyl/j-d-slater-elbow-deep-in-the-hoopla-lp/",
+      "sha256": "c76da6f35ada653819b79bac7b1e18577eaaabb2a5df3d3ff5c6f5c73f20c3a2"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://bordelloaparigi.com/shop/vinyl/profit-prison-why-art-thou-wroth-and-why-is-thy-countenance-fallen-lp/",
+    "https://bordelloaparigi.com/shop/vinyl/j-d-slater-elbow-deep-in-the-hoopla-lp/",
+    "https://bordelloaparigi.com/shop/vinyl/evia-mirror-lp/"
+  ],
+  "assessment_id": "v2-44914511099-1",
+  "queue_rows": [
+    4469
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 6,
+  "candidate_ref": "v2-44914511099-1/bordelloaparigi_com",
+  "assessment_path": "assessments/v2/bordelloaparigi_com/v2-44914511099-1.json"
+}
