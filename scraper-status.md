@@ -1,16 +1,16 @@
 # Centrale scraperstatus
 
-Bronregels: 5102. Behandeld voor broncontrole: 4953. Open voor broncontrole: 149.
+Bronregels: 5102. Behandeld voor broncontrole: 5053. Open voor broncontrole: 49.
 
 Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine checksumproeven; private acceptatie, marktprijzen en imports volgen apart.
 
 ## Statusaantallen
 
-- ADAPTER_TESTED: 358
+- ADAPTER_TESTED: 377
 - DETAIL_GATE_BLOCKED: 102
-- ROUTE_REVIEW: 1896
-- SCRAPER_BUILT_TESTED: 505
-- SOURCE_BLOCKED: 832
+- ROUTE_REVIEW: 1936
+- SCRAPER_BUILT_TESTED: 523
+- SOURCE_BLOCKED: 855
 - SOURCE_REVIEW: 1260
 
 ## Brongroepen
@@ -21,10 +21,10 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 |---|---:|---:|---:|---:|
 | Oorspronkelijke lijst | 3303 | 3303 | 0 | 247 |
 | Findyl online — 25-10-2026 (50; inclusief 4 herbeoordelingen) | 50 | 50 | 0 | 28 |
-| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 1478 | 140 | 167 |
+| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 1578 | 40 | 185 |
 | Vinylscout winkels — 19-11-2026 (nieuwe domeinen) | 9 | 0 | 9 | 0 |
 | Waxtra Rumours — 19-11-2026 (nieuwe domeinen) | 122 | 122 | 0 | 63 |
-| **Totaal** | **5102** | **4953** | **149** | **505** |
+| **Totaal** | **5102** | **5053** | **49** | **523** |
 
 ## Winkels
 
@@ -4983,106 +4983,106 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 | 4950 | 58 | 4957 | Graveface Chicago / Terror Vision | graveface.com | shopify | SCRAPER_BUILT_TESTED | 15 | 0/2 geldig | private QA en marktgate beoordelen |
 | 4951 | 58 | 4958 | Bloodshot Records | bloodshotrecords.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
 | 4952 | 58 | 4959 | Independent Records & Video | gazette.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
-| 4953 |  | 4960 | Pearl Records | thepearlrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4954 |  | 4961 | Second Time Around Records | secondtimearound.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4955 |  | 4962 | Rockstock | rockstockstore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4956 |  | 4963 | Somewhere in Detroit | shop.submerge.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4957 |  | 4964 | Dothan Nurseries Online Shop | dothannurseries.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4958 |  | 4965 | Rettig Music | rettigmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4959 |  | 4966 | f.y.e. | fye.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4960 |  | 4967 | The Vinyl Record Bank | the-vinyl-record-bank.edan.io |  | PENDING |  | — | broncontrole uitvoeren |
-| 4961 |  | 4968 | Popplers Music, Inc. | popplersmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4962 |  | 4969 | Hippo Records | shophipporecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4963 |  | 4970 | Micheo Music | micheomusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4964 |  | 4971 | VP Records | vprecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4965 |  | 4972 | The Rock Shop | rockshoprecordstores.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4966 |  | 4973 | City Music | citymusiconline.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4967 |  | 4974 | Pecknel Music | pecknelmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4968 |  | 4975 | Palen Music | palenmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4969 |  | 4976 | Lefty's Records | leftysrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4970 |  | 4977 | Toxic Toast Records | toxictoastlongbeach.square.site |  | PENDING |  | — | broncontrole uitvoeren |
-| 4971 |  | 4978 | Plaid Room Records | plaidroomrecords.blogspot.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4972 |  | 4979 | Metronome Music | metronomemusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4973 |  | 4980 | ReVinylize Vintage Audio | revinylizevintageaudio.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4974 |  | 4981 | Wonderland Records | wonderlandrecords.wordpress.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4975 |  | 4982 | Peaches Records | peachesrecordsandtapes.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4976 |  | 4983 | LeMay & Co. Antiques | lemaycoantiques.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4977 |  | 4984 | Buzzed Monkey Records | personsofinterestbklyn.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4978 |  | 4985 | Mostly Music | mostlymusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4979 |  | 4986 | SAS Italian Records Inc | sasitalian.weebly.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4980 |  | 4987 | Sweet Peanut Records | sweetpeanutrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4981 |  | 4988 | Very Friendly | veryfriendlymusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4982 |  | 4989 | Material World Records & Tapes | materialworldrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4983 |  | 4990 | P.I.T. Records and Books | propertyistheft.org |  | PENDING |  | — | broncontrole uitvoeren |
-| 4984 |  | 4991 | George's Music | georgesmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4985 |  | 4992 | Mossy Bottom Records | mossy-bottom-records.webnode.page |  | PENDING |  | — | broncontrole uitvoeren |
-| 4986 |  | 4993 | Round Midnight Records | round-midnight-records.edan.io |  | PENDING |  | — | broncontrole uitvoeren |
-| 4987 |  | 4994 | Vintage Classic Instruments | vintageclassicinstruments.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4988 |  | 4995 | Poo-Bah Record Shop | poohbah.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4989 |  | 4996 | All Music Inc | allmusicinc.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4990 |  | 4997 | City Noise Records | citynoiserecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4991 |  | 4998 | Jigsaw Records | jigsaw-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4992 |  | 4999 | Portland Music Company | portlandmusiccompany.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4993 |  | 5000 | Darkside Records | shop.darksiderecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4994 |  | 5001 | Rock This Town Records | rockthistownrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4995 |  | 5002 | Nice Price Books & Records | nicepriceboo.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4996 |  | 5003 | The Pour House Record Shop | the-pour-house-record-shop.myshopify.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4997 |  | 5004 | The Pour House Music Hall & Record Shop | pourhouseraleigh.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4998 |  | 5005 | Deep Groove Records | deepgroovevinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 4999 |  | 5006 | Power Plant Records | power-plant-records.myshopify.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5000 |  | 5007 | café suspiro | cafesuspiro.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5001 |  | 5008 | Mission Synths | missionsynths.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5002 |  | 5009 | JDC Records | jdcrecordstore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5003 |  | 5010 | Paradise Records and Trading Post | paradiserecordsandtradingpost.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5004 |  | 5011 | Sour Gummy Records | sourgummyrecords.square.site |  | PENDING |  | — | broncontrole uitvoeren |
-| 5005 |  | 5012 | HiFi LoFi | hifilofi.shop |  | PENDING |  | — | broncontrole uitvoeren |
-| 5006 |  | 5013 | Light in the Attic Records | lightintheattic.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 5007 |  | 5014 | The Vinyl Swap | thevinylswap.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 5008 |  | 5015 | Silver City HiFi | kitsapav.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5009 |  | 5016 | Endless Media | endlessmediacorporation.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5010 |  | 5017 | Music Record Shop | musicrecordshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5011 |  | 5018 | Under The Surface Records | underthesurfacerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5012 |  | 5019 | Menchey Music Service, Inc. | mencheymusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5013 |  | 5020 | See You CD & Vinyl | seeyoucdandvinyl.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5014 |  | 5021 | Drum & Strum Music Center | drumnstrum.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5015 |  | 5022 | Earcave | earcave.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5016 |  | 5023 | Red Onion Records & Books | redonionrecordsandbooks.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5017 |  | 5024 | West Chester Music | wcmusicstore.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5018 |  | 5025 | C. A. House Music | cahousemusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5019 |  | 5026 | Collectible Vinyl Records, CDs & Cassettes | recordsbymail.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5020 |  | 5027 | Dig It! Record Barn | digitrecordbarn.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5021 |  | 5028 | DJ Equipment In Portland, OR | platinum-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5022 |  | 5029 | Downtown Sound LLC | downtownsoundlogan.square.site |  | PENDING |  | — | broncontrole uitvoeren |
-| 5023 |  | 5030 | dreaminghuman.com | dreaminghuman.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5024 |  | 5031 | Fire Talk | firetalkrecs.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5025 |  | 5032 | Fivespace | fivespaceshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5026 |  | 5033 | Light of Day Records | lightofdayrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5027 |  | 5034 | Love Bus Records | lovebusrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5028 |  | 5035 | microgroovetampa.co | microgroovetampa.co |  | PENDING |  | — | broncontrole uitvoeren |
-| 5029 |  | 5036 | Music Direct | musicdirect.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5030 |  | 5037 | Purple Narwhal Music & Manga | purplenarwhal.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5031 |  | 5038 | Radio-Active Records FTL | radio-active-records.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5032 |  | 5039 | Record Albums | recordsalbums.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5033 |  | 5040 | Re-Runz Records LLC | rerunzrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5034 |  | 5041 | Revolver Records | revolverrecordsbuffalo.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5035 |  | 5042 | Rockin' Rudy's Music | music.rockinrudys.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5036 |  | 5043 | Selector Records & Apparel | selectorseattle.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5037 |  | 5044 | shop.lunamusic.net | shop.lunamusic.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 5038 |  | 5045 | Sound Annex | sound-annex.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5039 |  | 5046 | Spina Records | spinarecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5040 |  | 5047 | STEELWORKER RECORDS | steelworker-records.square.site |  | PENDING |  | — | broncontrole uitvoeren |
-| 5041 |  | 5048 | thedenrecords.square.site | thedenrecords.square.site |  | PENDING |  | — | broncontrole uitvoeren |
-| 5042 |  | 5049 | 1-2-3-4 GO! RECORDS | 1234gorecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5043 |  | 5050 | AllMyLinks | allmylinks.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5044 |  | 5051 | BIGGEST Vinyl Record Show in the Boston area VFW Post #2017 Dedham Ma. | newenglandvinylrecordshow.blogspot.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5045 |  | 5052 | BRIANMELZER | squarerecordsakron.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5046 |  | 5053 | Caveman Vintage Music | cavemanvintage.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5047 |  | 5054 | CD Central | cdcentral.bigcartel.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5048 |  | 5055 | clayscorner | clayscorner.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5049 |  | 5056 | Clearwater Record Shop | clearwaterrecordshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5050 |  | 5057 | Different Beat | differentbeattelevision.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5051 |  | 5058 | Discology | discologyreno.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5052 |  | 5059 | DJ Mikie Love | djmikielove.com |  | PENDING |  | — | broncontrole uitvoeren |
+| 4953 | 59 | 4960 | Pearl Records | thepearlrecords.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4954 | 59 | 4961 | Second Time Around Records | secondtimearound.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4955 | 59 | 4962 | Rockstock | rockstockstore.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4956 | 59 | 4963 | Somewhere in Detroit | shop.submerge.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4957 | 59 | 4964 | Dothan Nurseries Online Shop | dothannurseries.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4958 | 59 | 4965 | Rettig Music | rettigmusic.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4959 | 59 | 4966 | f.y.e. | fye.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4960 | 59 | 4967 | The Vinyl Record Bank | the-vinyl-record-bank.edan.io | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4961 | 59 | 4968 | Popplers Music, Inc. | popplersmusic.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4962 | 59 | 4969 | Hippo Records | shophipporecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4963 | 59 | 4970 | Micheo Music | micheomusic.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4964 | 59 | 4971 | VP Records | vprecords.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 4965 | 59 | 4972 | The Rock Shop | rockshoprecordstores.com | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4966 | 59 | 4973 | City Music | citymusiconline.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4967 | 59 | 4974 | Pecknel Music | pecknelmusic.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4968 | 59 | 4975 | Palen Music | palenmusic.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4969 | 59 | 4976 | Lefty's Records | leftysrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4970 | 59 | 4977 | Toxic Toast Records | toxictoastlongbeach.square.site | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4971 | 59 | 4978 | Plaid Room Records | plaidroomrecords.blogspot.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 4972 | 59 | 4979 | Metronome Music | metronomemusic.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4973 | 59 | 4980 | ReVinylize Vintage Audio | revinylizevintageaudio.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4974 | 59 | 4981 | Wonderland Records | wonderlandrecords.wordpress.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4975 | 59 | 4982 | Peaches Records | peachesrecordsandtapes.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4976 | 59 | 4983 | LeMay & Co. Antiques | lemaycoantiques.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4977 | 59 | 4984 | Buzzed Monkey Records | personsofinterestbklyn.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4978 | 59 | 4985 | Mostly Music | mostlymusic.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4979 | 59 | 4986 | SAS Italian Records Inc | sasitalian.weebly.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4980 | 59 | 4987 | Sweet Peanut Records | sweetpeanutrecords.com | shopify | SCRAPER_BUILT_TESTED | 4 | 2/2 geldig | private QA en marktgate beoordelen |
+| 4981 | 59 | 4988 | Very Friendly | veryfriendlymusic.com | shopify | SCRAPER_BUILT_TESTED | 1 | 1/1 geldig | private QA en marktgate beoordelen |
+| 4982 | 59 | 4989 | Material World Records & Tapes | materialworldrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4983 | 59 | 4990 | P.I.T. Records and Books | propertyistheft.org | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4984 | 59 | 4991 | George's Music | georgesmusic.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4985 | 59 | 4992 | Mossy Bottom Records | mossy-bottom-records.webnode.page | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4986 | 59 | 4993 | Round Midnight Records | round-midnight-records.edan.io | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 4987 | 59 | 4994 | Vintage Classic Instruments | vintageclassicinstruments.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 4988 | 59 | 4995 | Poo-Bah Record Shop | poohbah.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4989 | 59 | 4996 | All Music Inc | allmusicinc.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4990 | 59 | 4997 | City Noise Records | citynoiserecords.com | shopify | SCRAPER_BUILT_TESTED | 17 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4991 | 59 | 4998 | Jigsaw Records | jigsaw-records.com | shopify | SCRAPER_BUILT_TESTED | 13 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4992 | 59 | 4999 | Portland Music Company | portlandmusiccompany.com | shopify | SCRAPER_BUILT_TESTED | 1 | 0/1 geldig | private QA en marktgate beoordelen |
+| 4993 | 59 | 5000 | Darkside Records | shop.darksiderecords.com | shopify | SCRAPER_BUILT_TESTED | 10 | 2/2 geldig | private QA en marktgate beoordelen |
+| 4994 | 59 | 5001 | Rock This Town Records | rockthistownrecords.com | shopify | SCRAPER_BUILT_TESTED | 20 | 2/2 geldig | private QA en marktgate beoordelen |
+| 4995 | 59 | 5002 | Nice Price Books & Records | nicepriceboo.com | shopify | SCRAPER_BUILT_TESTED | 2 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4996 | 59 | 5003 | The Pour House Record Shop | the-pour-house-record-shop.myshopify.com | shopify | SCRAPER_BUILT_TESTED | 11 | 0/2 geldig | private QA en marktgate beoordelen |
+| 4997 | 59 | 5004 | The Pour House Music Hall & Record Shop | pourhouseraleigh.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 4998 | 59 | 5005 | Deep Groove Records | deepgroovevinyl.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 4999 | 59 | 5006 | Power Plant Records | power-plant-records.myshopify.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 5000 | 59 | 5007 | café suspiro | cafesuspiro.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 5001 | 59 | 5008 | Mission Synths | missionsynths.com | shopify | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5002 | 59 | 5009 | JDC Records | jdcrecordstore.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5003 | 59 | 5010 | Paradise Records and Trading Post | paradiserecordsandtradingpost.com | shopify | SCRAPER_BUILT_TESTED | 5 | 1/2 geldig | private QA en marktgate beoordelen |
+| 5004 | 59 | 5011 | Sour Gummy Records | sourgummyrecords.square.site | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5005 | 59 | 5012 | HiFi LoFi | hifilofi.shop | shopify | SCRAPER_BUILT_TESTED | 5 | 0/2 geldig | private QA en marktgate beoordelen |
+| 5006 | 59 | 5013 | Light in the Attic Records | lightintheattic.net | shopify | SCRAPER_BUILT_TESTED | 18 | 0/2 geldig | private QA en marktgate beoordelen |
+| 5007 | 59 | 5014 | The Vinyl Swap | thevinylswap.net | shopify | SCRAPER_BUILT_TESTED | 1 | 0/1 geldig | private QA en marktgate beoordelen |
+| 5008 | 59 | 5015 | Silver City HiFi | kitsapav.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 5009 | 59 | 5016 | Endless Media | endlessmediacorporation.com | shopify | SCRAPER_BUILT_TESTED | 4 | 0/2 geldig | private QA en marktgate beoordelen |
+| 5010 | 59 | 5017 | Music Record Shop | musicrecordshop.com | shopify | SCRAPER_BUILT_TESTED | 20 | 0/2 geldig | private QA en marktgate beoordelen |
+| 5011 | 59 | 5018 | Under The Surface Records | underthesurfacerecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 5012 | 59 | 5019 | Menchey Music Service, Inc. | mencheymusic.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 5013 | 59 | 5020 | See You CD & Vinyl | seeyoucdandvinyl.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5014 | 59 | 5021 | Drum & Strum Music Center | drumnstrum.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5015 | 59 | 5022 | Earcave | earcave.com | shopify | SCRAPER_BUILT_TESTED | 2 | 0/2 geldig | private QA en marktgate beoordelen |
+| 5016 | 59 | 5023 | Red Onion Records & Books | redonionrecordsandbooks.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5017 | 59 | 5024 | West Chester Music | wcmusicstore.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 5018 | 59 | 5025 | C. A. House Music | cahousemusic.com | shopify | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 5019 | 59 | 5026 | Collectible Vinyl Records, CDs & Cassettes | recordsbymail.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5020 | 59 | 5027 | Dig It! Record Barn | digitrecordbarn.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 5021 | 59 | 5028 | DJ Equipment In Portland, OR | platinum-records.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 5022 | 59 | 5029 | Downtown Sound LLC | downtownsoundlogan.square.site | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5023 | 59 | 5030 | dreaminghuman.com | dreaminghuman.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5024 | 59 | 5031 | Fire Talk | firetalkrecs.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5025 | 59 | 5032 | Fivespace | fivespaceshop.com | woocommerce | SCRAPER_BUILT_TESTED | 18 | 0/2 geldig | private QA en marktgate beoordelen |
+| 5026 | 59 | 5033 | Light of Day Records | lightofdayrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 5027 | 59 | 5034 | Love Bus Records | lovebusrecords.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 5028 | 59 | 5035 | microgroovetampa.co | microgroovetampa.co | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5029 | 59 | 5036 | Music Direct | musicdirect.com | bigcommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5030 | 59 | 5037 | Purple Narwhal Music & Manga | purplenarwhal.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5031 | 59 | 5038 | Radio-Active Records FTL | radio-active-records.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 5032 | 59 | 5039 | Record Albums | recordsalbums.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 5033 | 59 | 5040 | Re-Runz Records LLC | rerunzrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5034 | 59 | 5041 | Revolver Records | revolverrecordsbuffalo.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5035 | 59 | 5042 | Rockin' Rudy's Music | music.rockinrudys.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5036 | 59 | 5043 | Selector Records & Apparel | selectorseattle.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5037 | 59 | 5044 | shop.lunamusic.net | shop.lunamusic.net | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 5038 | 59 | 5045 | Sound Annex | sound-annex.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5039 | 59 | 5046 | Spina Records | spinarecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Response size limit |
+| 5040 | 59 | 5047 | STEELWORKER RECORDS | steelworker-records.square.site | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5041 | 59 | 5048 | thedenrecords.square.site | thedenrecords.square.site | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5042 | 59 | 5049 | 1-2-3-4 GO! RECORDS | 1234gorecords.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5043 | 59 | 5050 | AllMyLinks | allmylinks.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5044 | 59 | 5051 | BIGGEST Vinyl Record Show in the Boston area VFW Post #2017 Dedham Ma. | newenglandvinylrecordshow.blogspot.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5045 | 59 | 5052 | BRIANMELZER | squarerecordsakron.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 5046 | 59 | 5053 | Caveman Vintage Music | cavemanvintage.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5047 | 59 | 5054 | CD Central | cdcentral.bigcartel.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5048 | 59 | 5055 | clayscorner | clayscorner.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5049 | 59 | 5056 | Clearwater Record Shop | clearwaterrecordshop.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5050 | 59 | 5057 | Different Beat | differentbeattelevision.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5051 | 59 | 5058 | Discology | discologyreno.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 5052 | 59 | 5059 | DJ Mikie Love | djmikielove.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
 | 5053 |  | 5060 | FOLMC | folmc.org |  | PENDING |  | — | broncontrole uitvoeren |
 | 5054 |  | 5061 | forcedexposure.com | forcedexposure.com |  | PENDING |  | — | broncontrole uitvoeren |
 | 5055 |  | 5062 | Gordon LaSalle Music | lasallemusic.com |  | PENDING |  | — | broncontrole uitvoeren |
