@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T14:35:00.919861+00:00",
+  "shop_id": "butterbeatsrecordstore.com",
+  "row": 3491,
+  "name": "Butter Beats",
+  "domain": "butterbeatsrecordstore.com",
+  "country": null,
+  "website": "https://butterbeatsrecordstore.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3491,
+    "name": "Butter Beats",
+    "domain": "butterbeatsrecordstore.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://butterbeatsrecordstore.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 10,
+    "excluded": 10,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://butterbeatsrecordstore.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://butterbeatsrecordstore.com/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://butterbeatsrecordstore.com/collections/all/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 20,
+        "accepted": 4,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://butterbeatsrecordstore.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://butterbeatsrecordstore.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://butterbeatsrecordstore.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://butterbeatsrecordstore.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://butterbeatsrecordstore.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://butterbeatsrecordstore.com/products.json?limit=20&page=1",
+      "score": 105,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://butterbeatsrecordstore.com/products.json?limit=20&page=1",
+  "listing_sample": 10,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 10,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://butterbeatsrecordstore.com/products/la-rana-agustin-pereyra-lucena-quartet-lp-record-new?variant=46126171324608",
+      "artist": "La Rana",
+      "title": "Agustin Pereyra Lucena Quartet  - LP Record new",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "59.00",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://butterbeatsrecordstore.com/products/lau-ro-cabana-lp-record-new-copy?variant=46126162346176",
+      "artist": "Lau-ro Cabana",
+      "title": "LP Record new (Copy)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "59.00",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://butterbeatsrecordstore.com/products/all-we-need-is-another-chance-the-escorts-copy?variant=46126647804096",
+      "artist": "",
+      "title": "JACKSON SISTERS S/T NEW SEALED LP RECORD",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "59.00",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://butterbeatsrecordstore.com/robots.txt",
+      "sha256": "c030775cf8a9ac1ba1f0c0f8d8304e4a308c7314b703c49ca19d686e57cc8808"
+    },
+    {
+      "url": "https://butterbeatsrecordstore.com/",
+      "sha256": "669590fb1a639d0f8fc6ca28e84112f1613c01dd4f070d3a666de5692c1e2122"
+    },
+    {
+      "url": "https://butterbeatsrecordstore.com/products.json?limit=20&page=1",
+      "sha256": "0f2ce8f8736ed1131843602e2b780be245ada342c5b9c6d288c62d924c6682db"
+    },
+    {
+      "url": "https://butterbeatsrecordstore.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "8173643f507894c046ac63b9b599a60bfad72c297c3f10954aa80074e191a6fb"
+    },
+    {
+      "url": "https://butterbeatsrecordstore.com/products/all-we-need-is-another-chance-the-escorts-copy",
+      "sha256": "45f324219b3409c73ef9d3f785e3ccd1babeb3e4dda7942d56dbc9397e021813"
+    },
+    {
+      "url": "https://butterbeatsrecordstore.com/products/charles-bradley-victim-of-love",
+      "sha256": "0bbe211db8fa41fe4858d56875f4ac3a7907a59f79e898f8232732bcee6f7e52"
+    },
+    {
+      "url": "https://butterbeatsrecordstore.com/products/la-rana-agustin-pereyra-lucena-quartet-lp-record-new?variant=46126171324608",
+      "sha256": "0e59a20366e757c9f303fdb3371c294f589077a0d421be196526941c64668041"
+    },
+    {
+      "url": "https://butterbeatsrecordstore.com/products/lau-ro-cabana-lp-record-new-copy?variant=46126162346176",
+      "sha256": "e61ff6e3df6187ba321811603c28f2957e96c727bcde7009f51f2dc4fc72bff1"
+    },
+    {
+      "url": "https://butterbeatsrecordstore.com/products/all-we-need-is-another-chance-the-escorts-copy?variant=46126647804096",
+      "sha256": "e7909f47844b5b584bf4d6dcc3b5c148755bedcd60ba2b503bc5857211c5816a"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 0.5,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://butterbeatsrecordstore.com/products/la-rana-agustin-pereyra-lucena-quartet-lp-record-new?variant=46126171324608",
+    "https://butterbeatsrecordstore.com/products/lau-ro-cabana-lp-record-new-copy?variant=46126162346176",
+    "https://butterbeatsrecordstore.com/products/all-we-need-is-another-chance-the-escorts-copy?variant=46126647804096"
+  ],
+  "assessment_id": "v2-44914511099-1",
+  "queue_rows": [
+    3491
+  ],
+  "assessment_path": "assessments/v2/butterbeatsrecordstore_com/v2-44914511099-1.json"
+}
