@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "domain": "sweetpeanutrecords.com",
+  "platform": "shopify",
+  "adapter_class": "ShopifyNewVinylAdapter",
+  "catalog_route": "https://sweetpeanutrecords.com/products.json?limit=20&page=1",
+  "discovery_method": {
+    "platform": "shopify",
+    "route": "https://sweetpeanutrecords.com/products.json?limit=20&page=1",
+    "score": 45,
+    "selection": "highest_bounded_adapter_score"
+  },
+  "method_candidates": [
+    {
+      "platform": "shopify",
+      "route": "https://sweetpeanutrecords.com/products.json?limit=20&page=1",
+      "score": 45,
+      "products_seen": 20,
+      "accepted": 4,
+      "excluded": 16,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "shopify",
+      "route": "https://sweetpeanutrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 15,
+      "products_seen": 20,
+      "accepted": 1,
+      "excluded": 19,
+      "status": "ADAPTER_PARSED"
+    },
+    {
+      "platform": "woocommerce",
+      "route": "https://sweetpeanutrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_400"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://sweetpeanutrecords.com/api/0.1/collections/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "squarespace",
+      "route": "https://sweetpeanutrecords.com/api/0.1/collections/all/products?format=json",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://sweetpeanutrecords.com/api/storefront/products?limit=20&offset=0",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    },
+    {
+      "platform": "bigcommerce",
+      "route": "https://sweetpeanutrecords.com/api/storefront/products?limit=20",
+      "score": 0,
+      "status": "ROUTE_REJECTED",
+      "reason": "HTTP_404"
+    }
+  ],
+  "listing_sample": 4,
+  "detail_checked": 2,
+  "detail_gtin_valid": 2,
+  "currency": "USD",
+  "currency_source": "public_storefront_Shopify.currency",
+  "currency_source_url": "https://sweetpeanutrecords.com/",
+  "release_status": "SCRAPER_BUILT_TESTED"
+}
