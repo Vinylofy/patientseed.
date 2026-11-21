@@ -1,0 +1,196 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T14:44:59.037623+00:00",
+  "shop_id": "alt-cvlt.com.au",
+  "row": 3503,
+  "name": "ALT CVLT",
+  "domain": "alt-cvlt.com.au",
+  "country": null,
+  "website": "https://alt-cvlt.com.au/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3503,
+    "name": "ALT CVLT",
+    "domain": "alt-cvlt.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://alt-cvlt.com.au/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 2,
+    "excluded": 18,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://alt-cvlt.com.au/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://alt-cvlt.com.au/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://alt-cvlt.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://alt-cvlt.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://alt-cvlt.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://alt-cvlt.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://alt-cvlt.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://alt-cvlt.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://alt-cvlt.com.au/collections/all/products.json?limit=20&page=1",
+      "score": 25,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://alt-cvlt.com.au/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 2,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 2,
+    "unique_prices": 2,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://alt-cvlt.com.au/robots.txt",
+      "sha256": "12baefc5985965b27ec1c620c0c44a4d91d81a84a62e57fad7bd535fa414418b"
+    },
+    {
+      "url": "https://alt-cvlt.com.au/",
+      "sha256": "527a10c5b672e0986b0d570fec6a4594554652bd8411b40d3646de067d728058"
+    },
+    {
+      "url": "https://alt-cvlt.com.au/products.json?limit=20&page=1",
+      "sha256": "69259c74194fad8fbb0a5d12e6889db95d4715074a393ac308a606851aeae6eb"
+    },
+    {
+      "url": "https://alt-cvlt.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "98383f1644b299c10ef39dca15100a6729888f96b72d511b535974e5cab69752"
+    },
+    {
+      "url": "https://alt-cvlt.com.au/products/1349-the-infernal-pathway-silver-vinyl-2019",
+      "sha256": "e3fbae90df6bc0fde8db17e306fd8c100a0c03cbf3d5e46a8dccebdbb64b9d88"
+    },
+    {
+      "url": "https://alt-cvlt.com.au/products/200-stab-wounds-slave-to-the-scapel-vinyl-lp",
+      "sha256": "2b671d7c952a24528abcb872f356add16e93e7647d7fdf339ddc2c0914da1136"
+    },
+    {
+      "url": "https://alt-cvlt.com.au/products/200-stab-wounds-slave-to-the-scapel-vinyl-lp?variant=45970188599487",
+      "sha256": "7b1bbfb6ccb08bbbb4e3e97df67c9e872cadacd44283048f80ab3785171c0a7c"
+    },
+    {
+      "url": "https://alt-cvlt.com.au/products/1349-the-infernal-pathway-silver-vinyl-2019?variant=45549383844031",
+      "sha256": "88fff323e4d363fa530e70094e7a9fd222001fb5d32216d13c20e90345b78c73"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "invalid_detail_gtin"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "invalid_detail_gtin"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-44914511099-1",
+  "queue_rows": [
+    3503
+  ],
+  "assessment_path": "assessments/v2/alt_cvlt_com_au/v2-44914511099-1.json"
+}
