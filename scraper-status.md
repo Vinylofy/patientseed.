@@ -5478,9 +5478,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
-Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **5073**. Beoordeeld: **3624**. Open: **1449**.
+Beoordelingsrevisie: **2.1**. Unieke shops/bronnen: **5073**. Beoordeeld: **3724**. Open: **1349**.
 
-EAN: **86** | ARTIST_TITLE: **39** | MANUAL_REVIEW: **3499** | UNSUITABLE: **0**
+EAN: **86** | ARTIST_TITLE: **39** | MANUAL_REVIEW: **3599** | UNSUITABLE: **0**
 
 Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmatige tests; geen productieacceptatie.
 
@@ -8847,7 +8847,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Pandemonium | — | Nog te beoordelen | — | — | — | — |
 | Dalesmusicstore | — | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
 | 101 Collectors Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
-| Digvinyl | — | Nog te beoordelen | — | — | — | — |
+| Digvinyl | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Response size limit | — |
 | Rockabuyrecords | — | Nog te beoordelen | — | — | — | — |
 | Sound Knowledge | — | Nog te beoordelen | — | — | — | — |
 | lastnightfromglasgow | — | Nog te beoordelen | — | — | — | — |
@@ -8872,10 +8872,10 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | therecordcorner | — | Nog te beoordelen | — | — | — | — |
 | Recordrevivals | — | Nog te beoordelen | — | — | — | — |
 | Dead Air Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | invalid_detail_gtin | — |
-| Dream Street Records | — | Nog te beoordelen | — | — | — | — |
+| Dream Street Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
 | Blitzkriegshop | — | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-44914511099-1/blitzkriegshop_co_uk |
 | velvetmusic | — | Nog te beoordelen | — | — | — | — |
-| discomane | — | Nog te beoordelen | — | — | — | — |
+| discomane | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | Innersleeve | — | Nog te beoordelen | — | — | — | — |
 | Drownedworldrecords | — | Nog te beoordelen | — | — | — | — |
 | therecordstoreashford | — | Nog te beoordelen | — | — | — | — |
@@ -8900,14 +8900,14 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Sounds + Grounds | — | Nog te beoordelen | — | — | — | — |
 | World of Echo | — | Nog te beoordelen | — | — | — | — |
 | Dead Cloud | — | EAN | MEDIUM | BUILT_AWAITING_MANUAL_TEST | own_product_valid_gtin_coverage_at_least_80_percent_of_sample | v2-44929737638-1/deadcloud_co |
-| discosborabora | — | Nog te beoordelen | — | — | — | — |
+| discosborabora | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
 | Goodrecordstogo | — | Nog te beoordelen | — | — | — | — |
 | MTA Vinyl Shop | — | Nog te beoordelen | — | — | — | — |
 | Le Mange Disque | — | Nog te beoordelen | — | — | — | — |
 | Plugdrecords | — | Nog te beoordelen | — | — | — | — |
 | Le Discopathe Disquaire Bar Montpellier | — | Nog te beoordelen | — | — | — | — |
 | Davids Music | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | insufficient_representative_product_evidence | — |
-| Dreamhouseldn | — | Nog te beoordelen | — | — | — | — |
+| Dreamhouseldn | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | Offthebeatentracks | — | Nog te beoordelen | — | — | — | — |
 | Relevantrecordcafe | — | Nog te beoordelen | — | — | — | — |
 | Leftfordeadshop | — | Nog te beoordelen | — | — | — | — |
@@ -8928,7 +8928,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Mixeduprecords | — | Nog te beoordelen | — | — | — | — |
 | Galette Records | — | Nog te beoordelen | — | — | — | — |
 | Daisy Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
-| discossupersonicsantander | — | Nog te beoordelen | — | — | — | — |
+| discossupersonicsantander | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
 | Peckhamsoul | — | Nog te beoordelen | — | — | — | — |
 | Pie & Vinyl | — | Nog te beoordelen | — | — | — | — |
 | Dashthehengestore | — | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
@@ -8942,7 +8942,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Hat Hill Records | — | Nog te beoordelen | — | — | — | — |
 | Bondi Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Response size limit | — |
 | Butter Beats | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
-| DJ City | — | Nog te beoordelen | — | — | — | — |
+| DJ City | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | Glitter Records | — | Nog te beoordelen | — | — | — | — |
 | The Guitar Centre at the Gabba | — | Nog te beoordelen | — | — | — | — |
 | Stash Records | — | Nog te beoordelen | — | — | — | — |
@@ -8960,7 +8960,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Urban Records | — | Nog te beoordelen | — | — | — | — |
 | Wax Espresso | — | Nog te beoordelen | — | — | — | — |
 | Bows For Strings | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
-| Dixons Recycled | — | Nog te beoordelen | — | — | — | — |
+| Dixons Recycled | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | Eclectico | — | Nog te beoordelen | — | — | — | — |
 | Eclectico Records | — | Nog te beoordelen | — | — | — | — |
 | Goldmine Records | — | Nog te beoordelen | — | — | — | — |
@@ -9026,7 +9026,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Bar Open Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Blue Note College of Music | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Brush Turkey Books | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
-| Diabolik Books & Records | — | Nog te beoordelen | — | — | — | — |
+| Diabolik Books & Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Fool on the Hill Records | — | Nog te beoordelen | — | — | — | — |
 | Footscray Records \|\| we buy, sell and trade vinyl records, tapes and cds in Melbourne, Australia | — | Nog te beoordelen | — | — | — | — |
 | Franks Wild Years | — | Nog te beoordelen | — | — | — | — |
@@ -9080,7 +9080,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Apartment Acht | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
 | Audio Center | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
 | Black Monk | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| dimarco.at | — | Nog te beoordelen | — | — | — | — |
+| dimarco.at | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Good Things | — | Nog te beoordelen | — | — | — | — |
 | klang recordstore | — | Nog te beoordelen | — | — | — | — |
 | Lenny | — | Nog te beoordelen | — | — | — | — |
@@ -9105,7 +9105,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Bart Vinyl | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | Smelt Records | — | Nog te beoordelen | — | — | — | — |
 | Lido Music | — | Nog te beoordelen | — | — | — | — |
-| DJ Record Shop | — | Nog te beoordelen | — | — | — | — |
+| DJ Record Shop | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
 | Initiales CD | — | Nog te beoordelen | — | — | — | — |
 | Boekhandel t Oneindige Verhaal | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
 | Topdisc | — | Nog te beoordelen | — | — | — | — |
@@ -9116,7 +9116,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Fonorama | — | Nog te beoordelen | — | — | — | — |
 | Boeken, e-books, e-readers, cd's, dvd's, games en geschenken | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
 | Crisca | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Djingel Djangel | — | Nog te beoordelen | — | — | — | — |
+| Djingel Djangel | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | Kalkman | — | Nog te beoordelen | — | — | — | — |
 | K-Records | — | Nog te beoordelen | — | — | — | — |
 | The Rocking Bull | — | Nog te beoordelen | — | — | — | — |
@@ -9173,7 +9173,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | The Record Centre | — | Nog te beoordelen | — | — | — | — |
 | ID Shop.ca | — | Nog te beoordelen | — | — | — | — |
 | Dead Dog Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Dine Alone Records | — | Nog te beoordelen | — | — | — | — |
+| Dine Alone Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
 | flowrecords | — | Nog te beoordelen | — | — | — | — |
 | High Notes Coffee + Vinyl | — | Nog te beoordelen | — | — | — | — |
 | Invisible City Editions | — | Nog te beoordelen | — | — | — | — |
@@ -9185,14 +9185,14 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Red Cat Records | — | Nog te beoordelen | — | — | — | — |
 | Audiopile Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Response size limit | — |
 | Neptoon Records | — | Nog te beoordelen | — | — | — | — |
-| Ditch Records & CD's | — | Nog te beoordelen | — | — | — | — |
+| Ditch Records & CD's | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_502 | — |
 | Mile High Vinyl | — | Nog te beoordelen | — | — | — | — |
-| Dr. Disc Records | — | Nog te beoordelen | — | — | — | — |
+| Dr. Disc Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Frenchie's Records & Coffee | — | Nog te beoordelen | — | — | — | — |
 | 3Dawgs Vinyl | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Atom Heart | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
-| Disquaire Général Nostalgie | — | Nog te beoordelen | — | — | — | — |
-| Disques La Rama | — | Nog te beoordelen | — | — | — | — |
+| Disquaire Général Nostalgie | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Disques La Rama | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Freds Records | — | Nog te beoordelen | — | — | — | — |
 | Kops Records | — | Nog te beoordelen | — | — | — | — |
 | Listen Records | — | Nog te beoordelen | — | — | — | — |
@@ -9225,18 +9225,18 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Solo Vinilos | — | Nog te beoordelen | — | — | — | — |
 | Sin Fronteras Discos | — | Nog te beoordelen | — | — | — | — |
 | SURCO RECORDS | — | Nog te beoordelen | — | — | — | — |
-| Denki Records | — | Nog te beoordelen | — | — | — | — |
+| Denki Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Dancing Bear | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
-| Dirty Old Shop | — | Nog te beoordelen | — | — | — | — |
+| Dirty Old Shop | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
 | PDV Records x Merchandise | — | Nog te beoordelen | — | — | — | — |
 | Analogni zvuk | — | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-44914511099-1/analogni_zvuk_hr |
 | Free Bird Music Shop | — | Nog te beoordelen | — | — | — | — |
 | Ola DJ | — | Nog te beoordelen | — | — | — | — |
-| desertislandcy.com | — | Nog te beoordelen | — | — | — | — |
+| desertislandcy.com | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
 | KSPACE. | — | Nog te beoordelen | — | — | — | — |
 | MusicRecords | — | Nog te beoordelen | — | — | — | — |
 | Gram Records | — | Nog te beoordelen | — | — | — | — |
-| diskoduck.cz | — | Nog te beoordelen | — | — | — | — |
+| diskoduck.cz | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | Poli5 | — | Nog te beoordelen | — | — | — | — |
 | STEREO | — | Nog te beoordelen | — | — | — | — |
 | Accord Lagersalg | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
@@ -9255,7 +9255,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Planet Candy, Music & Wines | — | Nog te beoordelen | — | — | — | — |
 | El Surco | — | Nog te beoordelen | — | — | — | — |
 | CDC MUSIC | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Distingo | — | Nog te beoordelen | — | — | — | — |
+| Distingo | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | Biit | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | Nailboard Rock Shop | — | Nog te beoordelen | — | — | — | — |
 | Plastik.cc | — | Nog te beoordelen | — | — | — | — |
@@ -9287,7 +9287,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Bam Balam | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
 | La Machine à Musique Lignerolles | — | Nog te beoordelen | — | — | — | — |
 | Total Heaven | — | Nog te beoordelen | — | — | — | — |
-| Dialogues Musiques | — | Nog te beoordelen | — | — | — | — |
+| Dialogues Musiques | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Mod Disc | — | Nog te beoordelen | — | — | — | — |
 | Free Music | — | Nog te beoordelen | — | — | — | — |
 | Passage Culturel &#8211; Dixie Disques | — | Nog te beoordelen | — | — | — | — |
@@ -9342,11 +9342,11 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Stigmate Record Shop | — | Nog te beoordelen | — | — | — | — |
 | ADIPOCERE SHOP | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Arnaud Deverre Edition | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_401 | — |
-| Discophenia, disquaire de banlieue | — | Nog te beoordelen | — | — | — | — |
+| Discophenia, disquaire de banlieue | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_401 | — |
 | Le Disquaire du Dimanche | — | Nog te beoordelen | — | — | — | — |
-| Disquaire en ligne | — | Nog te beoordelen | — | — | — | — |
-| Dizonord | — | Nog te beoordelen | — | — | — | — |
-| Doghouse and Bone | — | Nog te beoordelen | — | — | — | — |
+| Disquaire en ligne | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| Dizonord | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Doghouse and Bone | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | // La Face Cachée // Vente de VINYLES + CD + DVD + BD + HIFI // Neufs et occasions // | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | TimeoutError | — |
 | Ground Zero | — | Nog te beoordelen | — | — | — | — |
 | Illogicall Music | — | Nog te beoordelen | — | — | — | — |
@@ -9365,8 +9365,8 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Collector Boutique POESIE-SONORE.COM | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
 | Le comptoir du disque | — | Nog te beoordelen | — | — | — | — |
 | Cougouyou music . le disquaire de Perpignan | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Discomaniaks | — | Nog te beoordelen | — | — | — | — |
-| Disques vinyle hifi vid�o | — | Nog te beoordelen | — | — | — | — |
+| Discomaniaks | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Disques vinyle hifi vid�o | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
 | extendandplay-records.com | — | Nog te beoordelen | — | — | — | — |
 | gibert.com | — | Nog te beoordelen | — | — | — | — |
 | itsonlyrennes.fr | — | Nog te beoordelen | — | — | — | — |
@@ -9399,7 +9399,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | SEVEN Community Record Store | — | Nog te beoordelen | — | — | — | — |
 | Sound Metaphors Record Shop | — | Nog te beoordelen | — | — | — | — |
 | 33rpm classical records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Disconnect Art Gallery and Record Shop | — | Nog te beoordelen | — | — | — | — |
+| Disconnect Art Gallery and Record Shop | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Holy’s Hit Records | — | Nog te beoordelen | — | — | — | — |
 | Lefter Records | — | Nog te beoordelen | — | — | — | — |
 | Logo Records | — | Nog te beoordelen | — | — | — | — |
@@ -9426,14 +9426,14 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Rainking Recordstore | — | Nog te beoordelen | — | — | — | — |
 | 9Dart Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
 | Woodstock Recordstore | — | Nog te beoordelen | — | — | — | — |
-| Der Schallplattenmann | — | Nog te beoordelen | — | — | — | — |
+| Der Schallplattenmann | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_401 | — |
 | Vinyl Lounge | — | Nog te beoordelen | — | — | — | — |
 | Yeah Records | — | Nog te beoordelen | — | — | — | — |
 | Formatio Kupfergold | — | Nog te beoordelen | — | — | — | — |
 | Mythos Records | — | Nog te beoordelen | — | — | — | — |
 | Tactile Record Store | — | Nog te beoordelen | — | — | — | — |
 | Mono | — | Nog te beoordelen | — | — | — | — |
-| Der Plattenladen | — | Nog te beoordelen | — | — | — | — |
+| Der Plattenladen | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Marleen CD- und Plattenladen | — | Nog te beoordelen | — | — | — | — |
 | Schall & Rausch Tonträger | — | Nog te beoordelen | — | — | — | — |
 | Cruise Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
@@ -9441,7 +9441,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Backrecords | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Fun Records | — | Nog te beoordelen | — | — | — | — |
 | Wir Kaufen Schallplatten | — | Nog te beoordelen | — | — | — | — |
-| Der Plattenladen | — | Nog te beoordelen | — | — | — | — |
+| Der Plattenladen | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Ebbtone - Record & Comics | — | Nog te beoordelen | — | — | — | — |
 | Hellion Records | — | Nog te beoordelen | — | — | — | — |
 | Haithabu-Vinyl | — | Nog te beoordelen | — | — | — | — |
@@ -9469,7 +9469,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Schellack Plattenshop | — | Nog te beoordelen | — | — | — | — |
 | Humpty Records | — | Nog te beoordelen | — | — | — | — |
 | Action Music | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
-| Der Schallplattenladen | — | Nog te beoordelen | — | — | — | — |
+| Der Schallplattenladen | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Cheap Trash Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Pauls Musique Records | — | Nog te beoordelen | — | — | — | — |
 | Ratzer Records Plattencafe | — | Nog te beoordelen | — | — | — | — |
@@ -9484,7 +9484,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | BPitch Control | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | Connaisseur | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | artist_title_not_consistently_proven | — |
 | CSM | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
-| Dodo Beach | — | Nog te beoordelen | — | — | — | — |
+| Dodo Beach | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Freiheit & Roosen | — | Nog te beoordelen | — | — | — | — |
 | Green Hell Shop Vinyl Records and Merchandise | — | Nog te beoordelen | — | — | — | — |
 | Kompakt | — | Nog te beoordelen | — | — | — | — |
@@ -9526,14 +9526,14 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | cudgel | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | decks.de | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
 | deejay.de | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
-| derHeimathafen | — | Nog te beoordelen | — | — | — | — |
-| Discover Music | — | Nog te beoordelen | — | — | — | — |
-| discover-records.de | — | Nog te beoordelen | — | — | — | — |
-| DISCY Musik Buch Film | — | Nog te beoordelen | — | — | — | — |
-| djshop.de | — | Nog te beoordelen | — | — | — | — |
-| Dock's LP & CD Börse | — | Nog te beoordelen | — | — | — | — |
-| Drake Records Vinyl Store / Schallplatten An- u. Verkauf | — | Nog te beoordelen | — | — | — | — |
-| Drop Out Records | — | Nog te beoordelen | — | — | — | — |
+| derHeimathafen | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Discover Music | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| discover-records.de | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| DISCY Musik Buch Film | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| djshop.de | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_503 | — |
+| Dock's LP & CD Börse | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Drake Records Vinyl Store / Schallplatten An- u. Verkauf | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Drop Out Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
 | Dussmann – Das KulturKaufhaus | — | Nog te beoordelen | — | — | — | — |
 | Dux Records | — | Nog te beoordelen | — | — | — | — |
 | fatplastics.com | — | Nog te beoordelen | — | — | — | — |
@@ -9585,10 +9585,10 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | plattebox-wiesbaden.de | — | Nog te beoordelen | — | — | — | — |
 | Plattenbau | — | Nog te beoordelen | — | — | — | — |
 | Plattenbau Schermbeck | — | Nog te beoordelen | — | — | — | — |
-| Der Plattenguru in Th�ringen | — | Nog te beoordelen | — | — | — | — |
+| Der Plattenguru in Th�ringen | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
 | Plattenjunks Recordstore | — | Nog te beoordelen | — | — | — | — |
 | Plattenladen in München mit Verkauf von Vinyl (LPs) und CDs | — | Nog te beoordelen | — | — | — | — |
-| Der Plattenladen in Witten | — | Nog te beoordelen | — | — | — | — |
+| Der Plattenladen in Witten | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Plattenrille | — | Nog te beoordelen | — | — | — | — |
 | Praxis | — | Nog te beoordelen | — | — | — | — |
 | publicpossession.com | — | Nog te beoordelen | — | — | — | — |
@@ -9685,19 +9685,19 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Beatnik Record Store | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | Sympaty Record's | — | Nog te beoordelen | — | — | — | — |
 | Vinyl Store | — | Nog te beoordelen | — | — | — | — |
-| Disco Magazine | — | Nog te beoordelen | — | — | — | — |
+| Disco Magazine | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | Flamingo | — | Nog te beoordelen | — | — | — | — |
-| Disco Club | — | Nog te beoordelen | — | — | — | — |
+| Disco Club | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Vinileria | — | Nog te beoordelen | — | — | — | — |
-| Disco Stores | — | Nog te beoordelen | — | — | — | — |
+| Disco Stores | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
 | Symphony Shop | — | Nog te beoordelen | — | — | — | — |
 | Spazio 432 | — | Nog te beoordelen | — | — | — | — |
-| Disco Due In | — | Nog te beoordelen | — | — | — | — |
+| Disco Due In | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Rosseti recordsandbooks | — | Nog te beoordelen | — | — | — | — |
 | FFR Record Shop | — | Nog te beoordelen | — | — | — | — |
 | Gold Soundz Dischi | — | Nog te beoordelen | — | — | — | — |
 | HiFi Record | — | Nog te beoordelen | — | — | — | — |
-| Discoteca Laziale | — | Nog te beoordelen | — | — | — | — |
+| Discoteca Laziale | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Radiation Records | — | Nog te beoordelen | — | — | — | — |
 | Millerecords | — | Nog te beoordelen | — | — | — | — |
 | Asbury Park | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
@@ -9707,8 +9707,8 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Klec Records | — | Nog te beoordelen | — | — | — | — |
 | Amadeus Dischi | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | Casa del Disco Faenza | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
-| Discoshop Detommaso | — | Nog te beoordelen | — | — | — | — |
-| DJ Land | — | Nog te beoordelen | — | — | — | — |
+| Discoshop Detommaso | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| DJ Land | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_999 | — |
 | Filmusica.it HOMEPAGE | — | Nog te beoordelen | — | — | — | — |
 | Jungle Records | — | Nog te beoordelen | — | — | — | — |
 | LaPianola | — | Nog te beoordelen | — | — | — | — |
@@ -9722,10 +9722,10 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Bot Verification | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
 | cdclubentertainment.com | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_999 | — |
 | Chicken Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| discobolandia.it | — | Nog te beoordelen | — | — | — | — |
-| Disco d'Oro | — | Nog te beoordelen | — | — | — | — |
-| Disco vinile in vendita online | — | Nog te beoordelen | — | — | — | — |
-| DOUBLE SIDE RECORDS | — | Nog te beoordelen | — | — | — | — |
+| discobolandia.it | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Disco d'Oro | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Disco vinile in vendita online | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| DOUBLE SIDE RECORDS | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | gabbiadischi | — | Nog te beoordelen | — | — | — | — |
 | GrooveLab Records | — | Nog te beoordelen | — | — | — | — |
 | Gugumed | — | Nog te beoordelen | — | — | — | — |
@@ -9776,7 +9776,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Oldies But Goodies Records | — | Nog te beoordelen | — | — | — | — |
 | Union Record Shibuya Parco | — | Nog te beoordelen | — | — | — | — |
 | Art into Life | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| diskunion.net | — | Nog te beoordelen | — | — | — | — |
+| diskunion.net | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | EXILE RECORDS | — | Nog te beoordelen | — | — | — | — |
 | GRIND RECORDS | — | Nog te beoordelen | — | — | — | — |
 | Newtone Records | — | Nog te beoordelen | — | — | — | — |
@@ -9792,7 +9792,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | cdya.biz | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | TimeoutError | — |
 | CDソフトケース.com｜CD収納スペースを3分の1に | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | COCONUTS DISK | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
-| dessinee shop | — | Nog te beoordelen | — | — | — | — |
+| dessinee shop | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | DX RECORDS | — | Nog te beoordelen | — | — | — | — |
 | Ella records | — | Nog te beoordelen | — | — | — | — |
 | estacio-records.com | — | Nog te beoordelen | — | — | — | — |
@@ -9823,7 +9823,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | VinyloMania | — | Nog te beoordelen | — | — | — | — |
 | Vinilo Studija | — | Nog te beoordelen | — | — | — | — |
 | Vinyloteka | — | Nog te beoordelen | — | — | — | — |
-| Discotag | — | Nog te beoordelen | — | — | — | — |
+| Discotag | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | ploksteliuparduotuve.lt | — | Nog te beoordelen | — | — | — | — |
 | Le Reservoir | — | Nog te beoordelen | — | — | — | — |
 | Hard Graft Records | — | Nog te beoordelen | — | — | — | — |
@@ -9838,7 +9838,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Katana Record Shop | — | Nog te beoordelen | — | — | — | — |
 | Bobs Vinyl | — | EAN | MEDIUM | EXISTING_EAN_RETAINED | existing_ean_admission_retained | — |
 | Concerto | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
-| Distortion Records | — | Nog te beoordelen | — | — | — | — |
+| Distortion Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | RecordFriend Elpees | — | Nog te beoordelen | — | — | — | — |
 | Record Mania | — | Nog te beoordelen | — | — | — | — |
 | Velvet Music (Amsterdam) | — | Nog te beoordelen | — | — | — | — |
@@ -9878,7 +9878,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Sounds Haarlem | — | Nog te beoordelen | — | — | — | — |
 | VinylFreaks | — | Nog te beoordelen | — | — | — | — |
 | 3345 Record Store The Hague | — | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-44914511099-1/3345_nl |
-| Didi Recordshop | — | Nog te beoordelen | — | — | — | — |
+| Didi Recordshop | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Satisfaction Recordshop | — | Nog te beoordelen | — | — | — | — |
 | RockArt Shop XL | — | Nog te beoordelen | — | — | — | — |
 | In Front Records | — | Nog te beoordelen | — | — | — | — |
@@ -9886,14 +9886,14 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Home of Entertainment | — | Nog te beoordelen | — | — | — | — |
 | Big Bad Wolf Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Boeijenga muziek | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
-| Discus / Universe Productions | — | Nog te beoordelen | — | — | — | — |
+| Discus / Universe Productions | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Music Connection | — | Nog te beoordelen | — | — | — | — |
 | Boekhandel Dominicanen | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Discords.nl | — | Nog te beoordelen | — | — | — | — |
+| Discords.nl | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
 | Velvet Music (Donner) | — | Nog te beoordelen | — | — | — | — |
 | Demonfuzz Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | CD Hal Ruinen | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Doogan Records | — | Nog te beoordelen | — | — | — | — |
+| Doogan Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_400 | — |
 | Stichting De Langspeelplaat | — | Nog te beoordelen | — | — | — | — |
 | Music Machine | — | Nog te beoordelen | — | — | — | — |
 | Vip records | — | Nog te beoordelen | — | — | — | — |
@@ -9989,15 +9989,15 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | MisBits | — | Nog te beoordelen | — | — | — | — |
 | Magazin Muzica Online | — | Nog te beoordelen | — | — | — | — |
 | Maximum Vinyl | — | Nog te beoordelen | — | — | — | — |
-| Dissonance Vinyl Store | — | Nog te beoordelen | — | — | — | — |
+| Dissonance Vinyl Store | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Vinylbox | — | Nog te beoordelen | — | — | — | — |
 | VinylForAll | — | Nog te beoordelen | — | — | — | — |
-| Dr.Head | — | Nog te beoordelen | — | — | — | — |
+| Dr.Head | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Виниловые пластинки на любой вкус в магазине грампластинок "Звуковой Барьер" | — | Nog te beoordelen | — | — | — | — |
 | Vinil | — | Nog te beoordelen | — | — | — | — |
 | Југовинил | — | Nog te beoordelen | — | — | — | — |
 | Vinyl Cafe | — | Nog te beoordelen | — | — | — | — |
-| Discom | — | Nog te beoordelen | — | — | — | — |
+| Discom | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | krmerch | — | Nog te beoordelen | — | — | — | — |
 | Music record shop | — | Nog te beoordelen | — | — | — | — |
 | FOCUSMUSIC | — | Nog te beoordelen | — | — | — | — |
@@ -10012,13 +10012,13 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | mugenielijah.com | — | Nog te beoordelen | — | — | — | — |
 | mosaicseoul | — | Nog te beoordelen | — | — | — | — |
 | 즐거운 음반쇼핑몰 잇츠팝에 오신 것을 환영합니다. | — | Nog te beoordelen | — | — | — | — |
-| Discos Fanzine | — | Nog te beoordelen | — | — | — | — |
-| Disco100 | — | Nog te beoordelen | — | — | — | — |
-| Discos Tesla | — | Nog te beoordelen | — | — | — | — |
+| Discos Fanzine | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Disco100 | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Discos Tesla | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | El genio equivocado | — | Nog te beoordelen | — | — | — | — |
 | BCore Disc | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Daily Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Discos Revolver | — | Nog te beoordelen | — | — | — | — |
+| Discos Revolver | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | El Genio Equivocado | — | Nog te beoordelen | — | — | — | — |
 | Naima Records | — | Nog te beoordelen | — | — | — | — |
 | Surco Barcelona | — | Nog te beoordelen | — | — | — | — |
@@ -10026,11 +10026,11 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Brixton | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Power Records | — | Nog te beoordelen | — | — | — | — |
 | Multiocio | — | Nog te beoordelen | — | — | — | — |
-| Discos Marcapasos | — | Nog te beoordelen | — | — | — | — |
+| Discos Marcapasos | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Bloody Mary | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Riff Raff Discos | — | Nog te beoordelen | — | — | — | — |
-| Discos La Metralleta | — | Nog te beoordelen | — | — | — | — |
-| DISCOS NAKASHA | — | Nog te beoordelen | — | — | — | — |
+| Discos La Metralleta | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| DISCOS NAKASHA | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | UnicodeEncodeError | — |
 | La Integral | — | Nog te beoordelen | — | — | — | — |
 | Jazz y Mas | — | Nog te beoordelen | — | — | — | — |
 | Killer's discos | — | Nog te beoordelen | — | — | — | — |
@@ -10038,27 +10038,27 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Bajoelvolcan | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Bangladesh Discos | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | La Casa del Disco | — | Nog te beoordelen | — | — | — | — |
-| Discos Babel | — | Nog te beoordelen | — | — | — | — |
+| Discos Babel | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Y Que Viva Joplin | — | Nog te beoordelen | — | — | — | — |
 | Espai Xocolat | — | Nog te beoordelen | — | — | — | — |
 | Metadona Records | — | Nog te beoordelen | — | — | — | — |
 | Citadel Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
-| Discos Comix | — | Nog te beoordelen | — | — | — | — |
+| Discos Comix | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
 | Ton y Son | — | Nog te beoordelen | — | — | — | — |
 | ElMuelle1931 | — | ARTIST_TITLE | MEDIUM | BUILT_AWAITING_MANUAL_TEST | artist_title_consistent_on_listing_and_three_distinct_details; ean_coverage_insufficient | v2-44914511099-1/elmuelle1931_com |
 | Shiva Music | — | Nog te beoordelen | — | — | — | — |
 | Maldito Records | — | Nog te beoordelen | — | — | — | — |
 | Amsterdam Rock Shop | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Discolaser | — | Nog te beoordelen | — | — | — | — |
+| Discolaser | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_401 | — |
 | Linacero Discos | — | Nog te beoordelen | — | — | — | — |
 | La Brujita | — | Nog te beoordelen | — | — | — | — |
 | Cristina Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
-| Discazos | — | Nog te beoordelen | — | — | — | — |
-| Discos Alta Fidelidad | — | Nog te beoordelen | — | — | — | — |
-| Discos Local 3 | — | Nog te beoordelen | — | — | — | — |
-| Discos Paradiso | — | Nog te beoordelen | — | — | — | — |
-| DISCOS REDONDOS | — | Nog te beoordelen | — | — | — | — |
-| Domestica Records | — | Nog te beoordelen | — | — | — | — |
+| Discazos | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_401 | — |
+| Discos Alta Fidelidad | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | TimeoutError | — |
+| Discos Local 3 | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | RemoteDisconnected | — |
+| Discos Paradiso | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | URLError | — |
+| DISCOS REDONDOS | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
+| Domestica Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Four Skulls | — | Nog te beoordelen | — | — | — | — |
 | Historia Nuestra | — | Nog te beoordelen | — | — | — | — |
 | Liquidator Music | — | Nog te beoordelen | — | — | — | — |
@@ -10087,7 +10087,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Råsunda Records | — | Nog te beoordelen | — | — | — | — |
 | Recordcenter | — | Nog te beoordelen | — | — | — | — |
 | Solna Skivbörs | — | Nog te beoordelen | — | — | — | — |
-| Djungel & Jazz | — | Nog te beoordelen | — | — | — | — |
+| Djungel & Jazz | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | detail_price_currency_not_proven_or_mismatch | — |
 | recordsandmovies.se | — | Nog te beoordelen | — | — | — | — |
 | Sound Pollution | — | Nog te beoordelen | — | — | — | — |
 | Fade Records | — | Nog te beoordelen | — | — | — | — |
@@ -10131,8 +10131,8 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | audiopur hifi | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Bongo Joe Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_429 | — |
 | CO-MIX REMIX | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_510 | — |
-| Dezibelle | — | Nog te beoordelen | — | — | — | — |
-| Disc-à-Brac | — | Nog te beoordelen | — | — | — | — |
+| Dezibelle | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Disc-à-Brac | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_406 | — |
 | gigs.ch | — | Nog te beoordelen | — | — | — | — |
 | Kreativ Media GmbH | — | Nog te beoordelen | — | — | — | — |
 | Next Chapter | — | Nog te beoordelen | — | — | — | — |
@@ -10156,7 +10156,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | The Vinyl | — | Nog te beoordelen | — | — | — | — |
 | Vinyla | — | Nog te beoordelen | — | — | — | — |
 | Just Punk Vinyl | — | Nog te beoordelen | — | — | — | — |
-| Diskultura Vinyl Centr | — | Nog te beoordelen | — | — | — | — |
+| Diskultura Vinyl Centr | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | totalmetalshop.com | — | Nog te beoordelen | — | — | — | — |
 | Raw Music Store | — | Nog te beoordelen | — | — | — | — |
 | MAIDINVINYL | — | Nog te beoordelen | — | — | — | — |
@@ -10177,7 +10177,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Clevedon Music Shop | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | Rare Record Company | — | Nog te beoordelen | — | — | — | — |
 | Stone Rock Records | — | Nog te beoordelen | — | — | — | — |
-| Dnr vinyl | — | Nog te beoordelen | — | — | — | — |
+| Dnr vinyl | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | BPM Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | The Record Shed | — | Nog te beoordelen | — | — | — | — |
 | Not Just A Record Shop | — | Nog te beoordelen | — | — | — | — |
@@ -10234,7 +10234,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Clampdown Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Planet rock records | — | Nog te beoordelen | — | — | — | — |
 | The Feather Star | — | Nog te beoordelen | — | — | — | — |
-| Diverse Vinyl | — | Nog te beoordelen | — | — | — | — |
+| Diverse Vinyl | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Phoenix Sounds | — | Nog te beoordelen | — | — | — | — |
 | Vinyl Underground | — | Nog te beoordelen | — | — | — | — |
 | Fabtronic Group | — | Nog te beoordelen | — | — | — | — |
@@ -10266,7 +10266,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Books On The Rise | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | Concorde Music Shop | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Cult Hero | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Dig Deep Records | — | Nog te beoordelen | — | — | — | — |
+| Dig Deep Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | Eel Pie Records | — | Nog te beoordelen | — | — | — | — |
 | Empire Records | — | Nog te beoordelen | — | — | — | — |
 | Le Freak Records | — | Nog te beoordelen | — | — | — | — |
@@ -10322,9 +10322,9 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Castle Sounds | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Clocktower Records | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Core Of The Poodle | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Derricks | — | Nog te beoordelen | — | — | — | — |
+| Derricks | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | The Diskery Main | — | Nog te beoordelen | — | — | — | — |
-| Double Double Good Music Emporium | — | Nog te beoordelen | — | — | — | — |
+| Double Double Good Music Emporium | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | fiveriserecords.co.uk | — | Nog te beoordelen | — | — | — | — |
 | Fopp | — | Nog te beoordelen | — | — | — | — |
 | Good Vibes Neighbourhood Store | — | Nog te beoordelen | — | — | — | — |
@@ -10414,7 +10414,7 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | Second Time Around Records | — | Nog te beoordelen | — | — | — | — |
 | Rockstock | — | Nog te beoordelen | — | — | — | — |
 | Somewhere in Detroit | — | Nog te beoordelen | — | — | — | — |
-| Dothan Nurseries Online Shop | — | Nog te beoordelen | — | — | — | — |
+| Dothan Nurseries Online Shop | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | Rettig Music | — | Nog te beoordelen | — | — | — | — |
 | f.y.e. | — | Nog te beoordelen | — | — | — | — |
 | The Vinyl Record Bank | — | Nog te beoordelen | — | — | — | — |
@@ -10477,10 +10477,10 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | West Chester Music | — | Nog te beoordelen | — | — | — | — |
 | C. A. House Music | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | not_proven:vinyl; not_proven:new_used_distinguishable; not_proven:public_prices; not_proven:availability; not_proven:stable_urls | — |
 | Collectible Vinyl Records, CDs & Cassettes | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Dig It! Record Barn | — | Nog te beoordelen | — | — | — | — |
-| DJ Equipment In Portland, OR | — | Nog te beoordelen | — | — | — | — |
-| Downtown Sound LLC | — | Nog te beoordelen | — | — | — | — |
-| dreaminghuman.com | — | Nog te beoordelen | — | — | — | — |
+| Dig It! Record Barn | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| DJ Equipment In Portland, OR | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | HTTP_403 | — |
+| Downtown Sound LLC | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| dreaminghuman.com | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Fire Talk | — | Nog te beoordelen | — | — | — | — |
 | Fivespace | — | Nog te beoordelen | — | — | — | — |
 | Light of Day Records | — | Nog te beoordelen | — | — | — | — |
@@ -10507,9 +10507,9 @@ Bestaande EAN-toelatingen blijven behouden. Nieuwe kandidaten wachten op handmat
 | CD Central | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | clayscorner | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | Clearwater Record Shop | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
-| Different Beat | — | Nog te beoordelen | — | — | — | — |
-| Discology | — | Nog te beoordelen | — | — | — | — |
-| DJ Mikie Love | — | Nog te beoordelen | — | — | — | — |
+| Different Beat | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
+| Discology | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | Invalid public source | — |
+| DJ Mikie Love | — | MANUAL_REVIEW | LOW | NOT_BUILDABLE_WITH_CURRENT_EVIDENCE | supported_catalogue_route_not_proven | — |
 | FOLMC | — | Nog te beoordelen | — | — | — | — |
 | forcedexposure.com | — | Nog te beoordelen | — | — | — | — |
 | Gordon LaSalle Music | — | Nog te beoordelen | — | — | — | — |
