@@ -1,0 +1,229 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T20:36:54.338342+00:00",
+  "shop_id": "fivespaceshop.com",
+  "row": 5032,
+  "name": "Fivespace",
+  "domain": "fivespaceshop.com",
+  "country": null,
+  "website": "https://fivespaceshop.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 5032,
+    "name": "Fivespace",
+    "domain": "fivespaceshop.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "woocommerce",
+    "source_url": "https://fivespaceshop.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "adapter_class": "WooCommerceNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 18,
+    "excluded": 2,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "method_candidates": [
+      {
+        "platform": "woocommerce",
+        "route": "https://fivespaceshop.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://fivespaceshop.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://fivespaceshop.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://fivespaceshop.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://fivespaceshop.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://fivespaceshop.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://fivespaceshop.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "woocommerce",
+      "route": "https://fivespaceshop.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 185,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "woocommerce",
+  "catalog_route": "https://fivespaceshop.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "listing_sample": 18,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 18,
+    "unique_prices": 13,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://fivespaceshop.com/product/wu-tang-the-saga-continues/",
+      "artist": "Wu-Tang",
+      "title": "The Saga Continues",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "145.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://fivespaceshop.com/product/yussef-kamaal-black-focus/",
+      "artist": "Yussef Kamaal",
+      "title": "Black Focus",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "35.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://fivespaceshop.com/product/michael-jackson-invincible/",
+      "artist": "Michael Jackson",
+      "title": "Invincible",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "40.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://fivespaceshop.com/robots.txt",
+      "sha256": "20a435190d66c34f0ffcfbf1a75d64bba9249e7ce4142cd1f32074fc15ceaf63"
+    },
+    {
+      "url": "https://fivespaceshop.com/",
+      "sha256": "dcd14e4a91de141bb3e157e43726c5fc96d7595ee08695fd80dab995b682cb9a"
+    },
+    {
+      "url": "https://fivespaceshop.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "9fa12eaab4a8fb553787655d92848605dd52e504832ab6d12aecbbe3fa896f74"
+    },
+    {
+      "url": "https://fivespaceshop.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "6689bd53eab56005666693bc6632bda24ad5f334e2662bb0de70616963207c4a"
+    },
+    {
+      "url": "https://fivespaceshop.com/product/michael-jackson-invincible/",
+      "sha256": "6cad40d023f71f1b908a5087cd8ed892e2ccf6150f5467f7d6b2116459317964"
+    },
+    {
+      "url": "https://fivespaceshop.com/product/organized-konfusion/",
+      "sha256": "61b23b9beea0ded0d62a182984b837b2be24f1fa3a598cf9ce4f2b9ee6c76e42"
+    },
+    {
+      "url": "https://fivespaceshop.com/product/wu-tang-the-saga-continues/",
+      "sha256": "4057be728647be668a5fc9287337206dc9aee842899cb728d3f75466d188c4c1"
+    },
+    {
+      "url": "https://fivespaceshop.com/product/yussef-kamaal-black-focus/",
+      "sha256": "ae251b9048dbafe56a8c729afa259ed289ee44a9fc5ca2ab21d78b9778a81986"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.7777777777777778,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://fivespaceshop.com/product/wu-tang-the-saga-continues/",
+    "https://fivespaceshop.com/product/yussef-kamaal-black-focus/",
+    "https://fivespaceshop.com/product/michael-jackson-invincible/"
+  ],
+  "assessment_id": "v2-44946342303-1",
+  "queue_rows": [
+    5032
+  ],
+  "assessment_path": "assessments/v2/fivespaceshop_com/v2-44946342303-1.json"
+}
