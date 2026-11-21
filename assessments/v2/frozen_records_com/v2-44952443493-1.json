@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T21:37:19.518044+00:00",
+  "shop_id": "frozen-records.com",
+  "row": 3855,
+  "name": "Frozen Records",
+  "domain": "frozen-records.com",
+  "country": null,
+  "website": "https://frozen-records.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3855,
+    "name": "Frozen Records",
+    "domain": "frozen-records.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://frozen-records.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 18,
+    "excluded": 2,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://frozen-records.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://frozen-records.com/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://frozen-records.com/collections/all/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 22,
+        "accepted": 13,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://frozen-records.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://frozen-records.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://frozen-records.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://frozen-records.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://frozen-records.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://frozen-records.com/products.json?limit=20&page=1",
+      "score": 185,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://frozen-records.com/products.json?limit=20&page=1",
+  "listing_sample": 18,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 18,
+    "unique_prices": 2,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://frozen-records.com/products/ministry-the-mind-is-a-terrible-thing-to-taste?variant=61717157937486",
+      "artist": "Ministry",
+      "title": "The Mind Is A Terrible Thing To Taste",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "27.90",
+      "currency": "EUR",
+      "valid_eans": [
+        "08719262012585"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://frozen-records.com/products/clutch-clutch?variant=61717147124046",
+      "artist": "Clutch",
+      "title": "Clutch",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "27.90",
+      "currency": "EUR",
+      "valid_eans": [
+        "08719262008137"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://frozen-records.com/products/madball-demonstrating-my-style?variant=61717157347662",
+      "artist": "Madball",
+      "title": "Demonstrating My Style",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "27.90",
+      "currency": "EUR",
+      "valid_eans": [
+        "08719262001725"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://frozen-records.com/robots.txt",
+      "sha256": "1a2958fd3140b78071a4b1e8b9b861e01a805753d4b4c429cab07eeacbc1b89e"
+    },
+    {
+      "url": "https://frozen-records.com/",
+      "sha256": "e56660f4469e8fdef76a110f8fe34c16b5eef937d6eac9d596726c9a8f829111"
+    },
+    {
+      "url": "https://frozen-records.com/products.json?limit=20&page=1",
+      "sha256": "c620eeaa3236d11493e8392b4bc0884a8dbf8765c6e45a62b0804dd17ce250e6"
+    },
+    {
+      "url": "https://frozen-records.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "f52d440aebb11152c8652268e3edf26542ace8fb8000b0e147c70c638c4262ac"
+    },
+    {
+      "url": "https://frozen-records.com/products/madball-demonstrating-my-style",
+      "sha256": "87f236a9d35a62c55dc7907bb1630e7b241c1583bb71fb4ee68a3d3d7844180f"
+    },
+    {
+      "url": "https://frozen-records.com/products/suicidal-tendencies-lights-camera-revolution",
+      "sha256": "3a5e6eb873cb4002a1b7db9e2fb56d10f9fe0684372faf32d680e08422365a64"
+    },
+    {
+      "url": "https://frozen-records.com/products/ministry-the-mind-is-a-terrible-thing-to-taste?variant=61717157937486",
+      "sha256": "3a98de514372a4d89e29a44726034d014a667afc56c49e32e82b51baa451d76a"
+    },
+    {
+      "url": "https://frozen-records.com/products/clutch-clutch?variant=61717147124046",
+      "sha256": "cda637c30106393af8c94a825c9eff74ef139da2fc98e4c956fb98527051a212"
+    },
+    {
+      "url": "https://frozen-records.com/products/madball-demonstrating-my-style?variant=61717157347662",
+      "sha256": "ee7859a4dab80ac64bb84a7fa6ade5d07393e95369de8d0ce26e55480775dd50"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": true,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://frozen-records.com/products/ministry-the-mind-is-a-terrible-thing-to-taste?variant=61717157937486",
+    "https://frozen-records.com/products/clutch-clutch?variant=61717147124046",
+    "https://frozen-records.com/products/madball-demonstrating-my-style?variant=61717157347662"
+  ],
+  "assessment_id": "v2-44952443493-1",
+  "queue_rows": [
+    3855
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 18,
+  "candidate_ref": "v2-44952443493-1/frozen_records_com",
+  "assessment_path": "assessments/v2/frozen_records_com/v2-44952443493-1.json"
+}
