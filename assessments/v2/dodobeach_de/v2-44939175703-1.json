@@ -1,0 +1,137 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T19:23:02.084264+00:00",
+  "shop_id": "dodobeach.de",
+  "row": 4034,
+  "name": "Dodo Beach",
+  "domain": "dodobeach.de",
+  "country": null,
+  "website": "https://dodobeach.de/",
+  "previous_status": "SOURCE_BLOCKED",
+  "previous_reason": "Response size limit",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4034,
+    "name": "Dodo Beach",
+    "domain": "dodobeach.de",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://dodobeach.de/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "robots_disallow"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://dodobeach.de/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "robots_disallow"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://dodobeach.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "robots_disallow"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://dodobeach.de/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "robots_disallow"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://dodobeach.de/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "robots_disallow"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://dodobeach.de/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "robots_disallow"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://dodobeach.de/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "robots_disallow"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://dodobeach.de/robots.txt",
+      "sha256": "d2947f2657b915a3f1b311faf587abcd8bd99710e97e7b9e09c27255185c569f"
+    },
+    {
+      "url": "https://dodobeach.de/",
+      "sha256": "a80fca21102a57888380ec9eae3a04b6bc94b889da43023d38868e693b0ed6c6"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-44939175703-1",
+  "queue_rows": [
+    4034
+  ],
+  "assessment_path": "assessments/v2/dodobeach_de/v2-44939175703-1.json"
+}
