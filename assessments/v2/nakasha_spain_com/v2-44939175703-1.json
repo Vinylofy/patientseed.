@@ -1,0 +1,185 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T19:16:45.503806+00:00",
+  "shop_id": "nakasha-spain.com",
+  "row": 4580,
+  "name": "DISCOS NAKASHA",
+  "domain": "nakasha-spain.com",
+  "country": null,
+  "website": "https://nakasha-spain.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4580,
+    "name": "DISCOS NAKASHA",
+    "domain": "nakasha-spain.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "detail",
+    "platform": "shopify",
+    "source_url": "https://nakasha-spain.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://nakasha-spain.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://nakasha-spain.com/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://nakasha-spain.com/collections/all/products.json?limit=20&page=1",
+        "score": 55,
+        "products_seen": 20,
+        "accepted": 5,
+        "excluded": 15,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://nakasha-spain.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://nakasha-spain.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://nakasha-spain.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://nakasha-spain.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://nakasha-spain.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://nakasha-spain.com/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_status": "BLOCKED",
+    "detail_reason": "UnicodeEncodeError",
+    "detail_checked": 0,
+    "detail_gtin_valid": 0
+  },
+  "platform": "shopify",
+  "catalog_route": "https://nakasha-spain.com/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 12,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://nakasha-spain.com/robots.txt",
+      "sha256": "bad5e54934acabfe92ea6e15582038704c6a8f0c3b4a3334557485340c0faf7a"
+    },
+    {
+      "url": "https://nakasha-spain.com/",
+      "sha256": "c59c3496dce65d8f02572f7c54d5652eef4825fdbcdbce2c8ef028a95128879c"
+    },
+    {
+      "url": "https://nakasha-spain.com/products.json?limit=20&page=1",
+      "sha256": "e5fb16bbde0a1527f8fbff23661d7906df0e712db62cced12904d21b7160f628"
+    },
+    {
+      "url": "https://nakasha-spain.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "f884420631f3706c8afc972a64ab0309f9fb5ec9f7c2721be938ba0018d120eb"
+    },
+    {
+      "url": "https://nakasha-spain.com/products/lp-pulp-different-class-nuevo-precintado?variant=57795105587573",
+      "sha256": "8f2a8bbfbc99fa35238f2e2c1198ae09fbf0567a7873724cd71e8e71bcacdeba"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "UnicodeEncodeError"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.15789473684210525,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "UnicodeEncodeError"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-44939175703-1",
+  "queue_rows": [
+    4580
+  ],
+  "assessment_path": "assessments/v2/nakasha_spain_com/v2-44939175703-1.json"
+}
