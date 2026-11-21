@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T17:33:51.563841+00:00",
+  "shop_id": "store.consouling.be",
+  "row": 3648,
+  "name": "Consouling Store",
+  "domain": "store.consouling.be",
+  "country": null,
+  "website": "https://store.consouling.be/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3648,
+    "name": "Consouling Store",
+    "domain": "store.consouling.be",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://store.consouling.be/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 10,
+    "excluded": 10,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://store.consouling.be/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://store.consouling.be/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://store.consouling.be/collections/all/products.json?limit=20&page=1",
+        "score": 75,
+        "products_seen": 20,
+        "accepted": 7,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://store.consouling.be/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://store.consouling.be/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://store.consouling.be/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://store.consouling.be/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://store.consouling.be/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://store.consouling.be/products.json?limit=20&page=1",
+      "score": 105,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://store.consouling.be/products.json?limit=20&page=1",
+  "listing_sample": 10,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 10,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://store.consouling.be/products/title-hempispheres?variant=59786952016204",
+      "artist": "",
+      "title": "Title: Hempispheres (indie ed.)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "32.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://store.consouling.be/products/title-onrust-mineral-vinyl?variant=56866104705356",
+      "artist": "",
+      "title": "Title: Onrust (Mineral vinyl)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "27.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://store.consouling.be/products/title-mid-1?variant=60041602498892",
+      "artist": "",
+      "title": "Title: Mið (trans. blue ed.)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "32.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://store.consouling.be/robots.txt",
+      "sha256": "0b4b8554f8af454a60ac61d52817c9d1559d777f1cd890b12bfbe75339cecab4"
+    },
+    {
+      "url": "https://store.consouling.be/",
+      "sha256": "85428dcfcc1cd6704abff087032da14b7fc1b25549491373e073a18e80026c54"
+    },
+    {
+      "url": "https://store.consouling.be/products.json?limit=20&page=1",
+      "sha256": "790390eaf9b5e0dd81614d537fbd7bd8b73e107a9c0c34bdb5528e8bff125101"
+    },
+    {
+      "url": "https://store.consouling.be/collections/all/products.json?limit=20&page=1",
+      "sha256": "906b361d415cef5b819b42496074e5c89f371929876891f660ad5f0bfa575d14"
+    },
+    {
+      "url": "https://store.consouling.be/products/title-mid-1",
+      "sha256": "2134dc180284dba31559a297c8d6b1be4677666cb0c49487d456f255f9f62c40"
+    },
+    {
+      "url": "https://store.consouling.be/products/title-fatal-paradox-1",
+      "sha256": "7340b3d9cf492eb5527e7457509e0a3022c3d11992c44f5c01b020ad5f081db4"
+    },
+    {
+      "url": "https://store.consouling.be/products/title-hempispheres?variant=59786952016204",
+      "sha256": "592ab6cf320bdbb011dee4a03b6a996b3a2edffda7a5ce7097769854d0a4e996"
+    },
+    {
+      "url": "https://store.consouling.be/products/title-onrust-mineral-vinyl?variant=56866104705356",
+      "sha256": "8f0ef302b29bbd871d72c5731fd5e6008eb8e6542c1c1a4ac782dd22688cd416"
+    },
+    {
+      "url": "https://store.consouling.be/products/title-mid-1?variant=60041602498892",
+      "sha256": "1cc0c9acb7e7e643dd65d9c53d4a0ea153413e84a4bb12ebaf45bdfdda0313e1"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://store.consouling.be/products/title-hempispheres?variant=59786952016204",
+    "https://store.consouling.be/products/title-onrust-mineral-vinyl?variant=56866104705356",
+    "https://store.consouling.be/products/title-mid-1?variant=60041602498892"
+  ],
+  "assessment_id": "v2-44929737638-1",
+  "queue_rows": [
+    3648
+  ],
+  "assessment_path": "assessments/v2/store_consouling_be/v2-44929737638-1.json"
+}
