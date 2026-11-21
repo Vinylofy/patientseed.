@@ -1,0 +1,242 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T20:44:00.577315+00:00",
+  "shop_id": "freesonrock.com",
+  "row": 3713,
+  "name": "Freeson Rock",
+  "domain": "freesonrock.com",
+  "country": null,
+  "website": "https://freesonrock.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3713,
+    "name": "Freeson Rock",
+    "domain": "freesonrock.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://freesonrock.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 21,
+    "accepted": 19,
+    "excluded": 2,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "CAD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://freesonrock.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://freesonrock.com/products.json?limit=20&page=1",
+        "score": 165,
+        "products_seen": 20,
+        "accepted": 16,
+        "excluded": 4,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://freesonrock.com/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 21,
+        "accepted": 19,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://freesonrock.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://freesonrock.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://freesonrock.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://freesonrock.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://freesonrock.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://freesonrock.com/collections/all/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://freesonrock.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 15,
+    "shipping_hits": 0,
+    "currencies": [
+      "CAD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://freesonrock.com/products/100-lp-pochette-exterieur-100-lp-outer-sleeves-polyethylene?variant=49583096889559",
+      "artist": "100 LP pochette extérieur / 100 LP outer sleeves",
+      "title": "Polyethylene",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "22.99",
+      "currency": "CAD",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://freesonrock.com/products/and-oceans-cosmic-world-mother-vinyle-lp-album-edition-limitee?variant=36847859990696",
+      "artist": "",
+      "title": "...And Oceans ‎– Cosmic World Mother  Vinyle, LP, Album, Édition limitée",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "30.99",
+      "currency": "CAD",
+      "valid_eans": [
+        "00822603154115"
+      ],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://freesonrock.com/products/legally-blonde-original-broadway-cast-legally-blonde-the-musical-original-broadway-cast-recording-2x-vinyle-lp?variant=46624088654039",
+      "artist": "\"Legally Blonde\" Original Broadway Cast",
+      "title": "Legally Blonde The Musical (Original Broadway Cast Recording) 2x Vinyle, LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "50.99",
+      "currency": "CAD",
+      "valid_eans": [
+        "00791558461923"
+      ],
+      "condition_basis": "explicit_new"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://freesonrock.com/robots.txt",
+      "sha256": "4b793e7abb6b48c043e474f5a899a20fb619e2d5871bfaf0d44413bf564a522f"
+    },
+    {
+      "url": "https://freesonrock.com/",
+      "sha256": "d2b9db7b396e2aa576d50fd48a40ae7c6f332e05ea8db894144d5916187dd342"
+    },
+    {
+      "url": "https://freesonrock.com/products.json?limit=20&page=1",
+      "sha256": "4aa5f8224d6c4f762c22937566ce1747cee83c2095101c40d63dca8898a1dbb0"
+    },
+    {
+      "url": "https://freesonrock.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "3a4b84d528241e5e5e09b2a8da356335c9e4084272e95297d53c4d9de47d88a2"
+    },
+    {
+      "url": "https://freesonrock.com/products/legally-blonde-original-broadway-cast-legally-blonde-the-musical-original-broadway-cast-recording-2x-vinyle-lp",
+      "sha256": "816acb4ec0be01ace0e5e4a0a2f81770f83884071d0dfe0cacd4b3ab1df9908d"
+    },
+    {
+      "url": "https://freesonrock.com/products/sticks-mcghee-john-lee-hooker-highway-of-blues-vinyle-lp-album-reedition",
+      "sha256": "0bf6b5f361b4afff250e517552b22d7dac6a95a94ad7591eefafad5523f13260"
+    },
+    {
+      "url": "https://freesonrock.com/products/100-lp-pochette-exterieur-100-lp-outer-sleeves-polyethylene?variant=49583096889559",
+      "sha256": "1d9299ca8f5fcdc2e9f414ee6db3830dc07585b7554e0fba3fd082607210bc7d"
+    },
+    {
+      "url": "https://freesonrock.com/products/and-oceans-cosmic-world-mother-vinyle-lp-album-edition-limitee?variant=36847859990696",
+      "sha256": "227850d5d1833896e3ab79e642ae0fb4b64b2b97b9769c21a6b79e3c70feed06"
+    },
+    {
+      "url": "https://freesonrock.com/products/legally-blonde-original-broadway-cast-legally-blonde-the-musical-original-broadway-cast-recording-2x-vinyle-lp?variant=46624088654039",
+      "sha256": "848d1b8d6ef4878d893987141e50c5e0bc728531d1eeb18d6dd6de065e64061e"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 2,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.8421052631578947,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://freesonrock.com/products/100-lp-pochette-exterieur-100-lp-outer-sleeves-polyethylene?variant=49583096889559",
+    "https://freesonrock.com/products/and-oceans-cosmic-world-mother-vinyle-lp-album-edition-limitee?variant=36847859990696",
+    "https://freesonrock.com/products/legally-blonde-original-broadway-cast-legally-blonde-the-musical-original-broadway-cast-recording-2x-vinyle-lp?variant=46624088654039"
+  ],
+  "assessment_id": "v2-44946342303-1",
+  "queue_rows": [
+    3713
+  ],
+  "assessment_path": "assessments/v2/freesonrock_com/v2-44946342303-1.json"
+}
