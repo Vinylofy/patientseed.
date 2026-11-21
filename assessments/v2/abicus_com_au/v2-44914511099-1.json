@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T14:33:37.136866+00:00",
+  "shop_id": "abicus.com.au",
+  "row": 3500,
+  "name": "Abicus",
+  "domain": "abicus.com.au",
+  "country": null,
+  "website": "https://abicus.com.au/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3500,
+    "name": "Abicus",
+    "domain": "abicus.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://abicus.com.au/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://abicus.com.au/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://abicus.com.au/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://abicus.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://abicus.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://abicus.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://abicus.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://abicus.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://abicus.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://abicus.com.au/collections/all/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://abicus.com.au/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 13,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://abicus.com.au/products/adammiller-thedefiningofsuccesslp?variant=32863931039822",
+      "artist": "Adam Miller",
+      "title": "The Defining Of Success. LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "30.00",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://abicus.com.au/products/awingedvictoryforthesullenatomos2lp?variant=32835522232398",
+      "artist": "A Winged Victory For The Sullen",
+      "title": "Atomos. 2LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "63.95",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://abicus.com.au/products/100-gecs-1000-gecs-and-the-tree-of-clues-lp?variant=51439557214521",
+      "artist": "100 Gecs",
+      "title": "1000 Gecs and the Tree of Clues. LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "48.00",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://abicus.com.au/robots.txt",
+      "sha256": "5ed518ab8b9ed7665738ded5f1543b03faa67bbd06b49b79cb9d342c63a87742"
+    },
+    {
+      "url": "https://abicus.com.au/",
+      "sha256": "3d9107b93894b052a21d6601295a8eb065c47b4201cf6e9e7a9bf5a44552f96b"
+    },
+    {
+      "url": "https://abicus.com.au/products.json?limit=20&page=1",
+      "sha256": "56b1a1f051e0e08824d6e3ab1fc2c8f27e9418ab53dbf503caf6fa529f26bbe2"
+    },
+    {
+      "url": "https://abicus.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "1c01196b845a2547a2aa8e596b592c44403dbc9e0dd1adcaf4ff259d9f64dd29"
+    },
+    {
+      "url": "https://abicus.com.au/products/100-gecs-1000-gecs-and-the-tree-of-clues-lp",
+      "sha256": "dc637a75b30816497911074c03e6fb0955c8fd1373aa924cc3cb1ed7082284a1"
+    },
+    {
+      "url": "https://abicus.com.au/products/1127-tqaseem-mqamat-el-haram-2016-2019-lp-uk-import",
+      "sha256": "12e28f2f5ac117738a0bb8197c871b3a8369941d0ec376f32550491e2e145d34"
+    },
+    {
+      "url": "https://abicus.com.au/products/adammiller-thedefiningofsuccesslp?variant=32863931039822",
+      "sha256": "7639e4047ba4862c7c61b8ba597d9fb52f7ddffc7747dd5c9a4ad4b70a78385d"
+    },
+    {
+      "url": "https://abicus.com.au/products/awingedvictoryforthesullenatomos2lp?variant=32835522232398",
+      "sha256": "f6fca4081baa50df4c4baae3bcfc7ff1d491ef65d55ea5313dc4443d8e034ce0"
+    },
+    {
+      "url": "https://abicus.com.au/products/100-gecs-1000-gecs-and-the-tree-of-clues-lp?variant=51439557214521",
+      "sha256": "cfbf639b866fa42b7839e279bfded75aae2072ac468d7d794d399542d73e5105"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://abicus.com.au/products/adammiller-thedefiningofsuccesslp?variant=32863931039822",
+    "https://abicus.com.au/products/awingedvictoryforthesullenatomos2lp?variant=32835522232398",
+    "https://abicus.com.au/products/100-gecs-1000-gecs-and-the-tree-of-clues-lp?variant=51439557214521"
+  ],
+  "assessment_id": "v2-44914511099-1",
+  "queue_rows": [
+    3500
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 19,
+  "candidate_ref": "v2-44914511099-1/abicus_com_au",
+  "assessment_path": "assessments/v2/abicus_com_au/v2-44914511099-1.json"
+}
