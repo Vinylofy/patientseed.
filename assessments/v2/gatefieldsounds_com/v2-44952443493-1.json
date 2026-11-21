@@ -1,0 +1,145 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T21:41:24.901154+00:00",
+  "shop_id": "gatefieldsounds.com",
+  "row": 3373,
+  "name": "Gatefield Sounds",
+  "domain": "gatefieldsounds.com",
+  "country": null,
+  "website": "https://gatefieldsounds.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3373,
+    "name": "Gatefield Sounds",
+    "domain": "gatefieldsounds.com",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "shopify",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://gatefieldsounds.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "Invalid Shopify price"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://gatefieldsounds.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "Invalid Shopify price"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://gatefieldsounds.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://gatefieldsounds.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://gatefieldsounds.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://gatefieldsounds.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://gatefieldsounds.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ]
+  },
+  "platform": "shopify",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://gatefieldsounds.com/robots.txt",
+      "sha256": "15dc941c66fa4a11b4dd16b053cde1f6a5ad04d38fcea049a746031329369c9e"
+    },
+    {
+      "url": "https://gatefieldsounds.com/",
+      "sha256": "19bf7e229e254ae0049cb9d3d1911c0770f2af9470e04b80a346f3e1cbd6f6d9"
+    },
+    {
+      "url": "https://gatefieldsounds.com/products.json?limit=20&page=1",
+      "sha256": "a8ab08827ce60a28f768e24e8c4895ac8704f0c4cfb727a6b136df708b49b8f7"
+    },
+    {
+      "url": "https://gatefieldsounds.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "91ca30206d638ef54b7d8e38a9208e53b7288650e05568ed9faf59830735ca30"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-44952443493-1",
+  "queue_rows": [
+    3373
+  ],
+  "assessment_path": "assessments/v2/gatefieldsounds_com/v2-44952443493-1.json"
+}
