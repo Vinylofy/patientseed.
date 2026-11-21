@@ -5452,7 +5452,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | vinylpeoplerecords.com | 38 | REVIEW | 1 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | vinylrevivalrecordstore.com | 15 | APPROVED | 0 | 16 | 3/3 | ACTIVE (run 44891291707) | ACTIVE | run 40455623960 |
 | vinyltap.co.uk | 12 | FROZEN | 3 | 8 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| vinyltapguitarsrecords.com | 15 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 40455623960 |
+| vinyltapguitarsrecords.com | 15 | APPROVED | 0 | 20 | 3/3 | ACTIVE (run 44891291707) | ACTIVE | run 40455623960 |
 | vinylvault.online | 38 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | vinylveritas.com | 38 | REVIEW | 1 | 20 | 0/1 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | vinylvogue.com | 38 | REVIEW | 1 | 11 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
