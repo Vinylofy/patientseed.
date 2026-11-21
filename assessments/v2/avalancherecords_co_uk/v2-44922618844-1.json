@@ -1,0 +1,187 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T16:05:58.440519+00:00",
+  "shop_id": "avalancherecords.co.uk",
+  "row": 3389,
+  "name": "avalancherecords",
+  "domain": "avalancherecords.co.uk",
+  "country": null,
+  "website": "https://avalancherecords.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3389,
+    "name": "avalancherecords",
+    "domain": "avalancherecords.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "woocommerce",
+    "source_url": "https://avalancherecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "adapter_class": "WooCommerceNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 9,
+    "excluded": 11,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "method_candidates": [
+      {
+        "platform": "woocommerce",
+        "route": "https://avalancherecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 95,
+        "products_seen": 20,
+        "accepted": 9,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://avalancherecords.co.uk/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://avalancherecords.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://avalancherecords.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://avalancherecords.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://avalancherecords.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://avalancherecords.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "woocommerce",
+      "route": "https://avalancherecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 95,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "woocommerce",
+  "catalog_route": "https://avalancherecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "listing_sample": 9,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 9,
+    "unique_prices": 4,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://avalancherecords.co.uk/robots.txt",
+      "sha256": "f3276cb57bf3b759626770b235630ab11866acd4af979808f0032a387be920f8"
+    },
+    {
+      "url": "https://avalancherecords.co.uk/",
+      "sha256": "4c8f8fa7f450f85a2a45408a0f3e172197c4a3f2ff5545eaface31ff21c77ca0"
+    },
+    {
+      "url": "https://avalancherecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "6741fd58dbcbe5559702a98d9b4e766ffb8182dbc05f1626a82f546e7deb0503"
+    },
+    {
+      "url": "https://avalancherecords.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "0271282a422b087846f5b7fa474fabd212b162aa3a2ad6b4bba7c24b0e9e1023"
+    },
+    {
+      "url": "https://avalancherecords.co.uk/product/the-snuts-burn-the-empire-picture-disc/",
+      "sha256": "541bee9204396ff7ba9faf9f621fbce6e7c4c26f5ee8eea0105e83d8c8f1aaf7"
+    },
+    {
+      "url": "https://avalancherecords.co.uk/product/the-snuts-burn-the-empire-clear-vinyl/",
+      "sha256": "43b4d18b68e2eddc3d2fb12bbdd7e49553a704f8c817cfc36039029809d4daea"
+    },
+    {
+      "url": "https://avalancherecords.co.uk/product/mf-doom-operation-doomsday/",
+      "sha256": "0722ab48d43028a2636f6228891b85bada482af1f5090728f49a82450e507a2f"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.8888888888888888,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-44922618844-1",
+  "queue_rows": [
+    3389
+  ],
+  "assessment_path": "assessments/v2/avalancherecords_co_uk/v2-44922618844-1.json"
+}
