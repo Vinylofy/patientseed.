@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T17:36:01.778733+00:00",
+  "shop_id": "cruiserecords.de",
+  "row": 3986,
+  "name": "Cruise Records",
+  "domain": "cruiserecords.de",
+  "country": null,
+  "website": "https://cruiserecords.de/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3986,
+    "name": "Cruise Records",
+    "domain": "cruiserecords.de",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://cruiserecords.de/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 18,
+    "excluded": 2,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://cruiserecords.de/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://cruiserecords.de/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://cruiserecords.de/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://cruiserecords.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://cruiserecords.de/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://cruiserecords.de/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://cruiserecords.de/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://cruiserecords.de/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://cruiserecords.de/products.json?limit=20&page=1",
+      "score": 185,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://cruiserecords.de/products.json?limit=20&page=1",
+  "listing_sample": 18,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 18,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://cruiserecords.de/robots.txt",
+      "sha256": "d16ef07d0c36db2a757078b3e8c61cba82c781313a98d2695a61116817ddfebc"
+    },
+    {
+      "url": "https://cruiserecords.de/",
+      "sha256": "326641f81e2d261bd4972d8051bfd2524716becd2e401ceee9f5430963dca146"
+    },
+    {
+      "url": "https://cruiserecords.de/products.json?limit=20&page=1",
+      "sha256": "b7ac2c3769386dba59fb493651c0bc21840b570db2036afb6adac43f32b3d6d0"
+    },
+    {
+      "url": "https://cruiserecords.de/collections/all/products.json?limit=20&page=1",
+      "sha256": "22f8e754502a458973eeceffa385b69bab1d8a29978c5ddd3f14dbde9bb4e3a5"
+    },
+    {
+      "url": "https://cruiserecords.de/products/vinyl_2804_03",
+      "sha256": "6f6a18095bdc115f1c771736843c15b20a8bc4d4a45046a23e44401d87b33780"
+    },
+    {
+      "url": "https://cruiserecords.de/products/american-football-lp4-dolp-pre-order",
+      "sha256": "859ba11b29c1f3836d942b3b8242ea046203f643313d51ba2677e9e31c0342e5"
+    },
+    {
+      "url": "https://cruiserecords.de/products/raging-nathans-room-for-one-more-lp?variant=57102571602185",
+      "sha256": "59b672e38be7869c559928a2e3bdba47cfdb6bdaadf5a3b2493ea56bba67cee9"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-44929737638-1",
+  "queue_rows": [
+    3986
+  ],
+  "assessment_path": "assessments/v2/cruiserecords_de/v2-44929737638-1.json"
+}
