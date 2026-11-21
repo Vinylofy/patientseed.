@@ -1,0 +1,240 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T23:20:23.194855+00:00",
+  "shop_id": "klecrecords.myshopify.com",
+  "row": 4254,
+  "name": "Klec Records",
+  "domain": "klecrecords.myshopify.com",
+  "country": null,
+  "website": "https://klecrecords.myshopify.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4254,
+    "name": "Klec Records",
+    "domain": "klecrecords.myshopify.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://klecrecords.myshopify.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 15,
+    "excluded": 5,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://klecrecords.myshopify.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://klecrecords.myshopify.com/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://klecrecords.myshopify.com/collections/all/products.json?limit=20&page=1",
+        "score": 155,
+        "products_seen": 20,
+        "accepted": 15,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://klecrecords.myshopify.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://klecrecords.myshopify.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://klecrecords.myshopify.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://klecrecords.myshopify.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://klecrecords.myshopify.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://klecrecords.myshopify.com/collections/all/products.json?limit=20&page=1",
+      "score": 155,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://klecrecords.myshopify.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 15,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 15,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://klecrecords.myshopify.com/products/999-999?variant=44075058462984",
+      "artist": "999",
+      "title": "999",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "28.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://klecrecords.myshopify.com/products/883-hanno-ucciso-luomo-ragno-numerato-red-with-blue-splatter-vinyl?variant=45239649304840",
+      "artist": "883",
+      "title": "Hanno Ucciso L'Uomo Ragno – Numerato Red With Blue Splatter Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "35.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://klecrecords.myshopify.com/products/2pac-me-against-the-world-2-lp?variant=52582116819208",
+      "artist": "2Pac",
+      "title": "Me Against the World – 2 LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "40.00",
+      "currency": "EUR",
+      "valid_eans": [
+        "00602508448898"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://klecrecords.myshopify.com/robots.txt",
+      "sha256": "95ec1f2067c9d40c84d11aa5edcefa65f2cf760d30062bd4b3645bfa13c5f9fb"
+    },
+    {
+      "url": "https://klecrecords.myshopify.com/",
+      "sha256": "7ca3cd9e081523a69b96aa1a3f27f57a2cdcb0521bb6a215f80babe43e66cb16"
+    },
+    {
+      "url": "https://klecrecords.myshopify.com/products.json?limit=20&page=1",
+      "sha256": "bd77276777e80819f9f2cda4c51a3b9e6b4f8249bf1ae1b0adaf1965ab58e410"
+    },
+    {
+      "url": "https://klecrecords.myshopify.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "f8f6a840ddc88bcbb75cb4f4d7258176ba119b1b0a391896a6a1f87fe18fc0eb"
+    },
+    {
+      "url": "https://klecrecords.myshopify.com/products/2pac-me-against-the-world-2-lp",
+      "sha256": "93c1c48ec06aec1707c16e1f9ee430ec20aabdf2a527a3d35dbae96c45938c16"
+    },
+    {
+      "url": "https://klecrecords.myshopify.com/products/2pac-the-best-of-2pac-part-1-thug-2-lp",
+      "sha256": "72c38ad6ce6a41ef22ec66eddba112d66f69e52ad8893ae46b8998edc370aada"
+    },
+    {
+      "url": "https://klecrecords.myshopify.com/products/999-999?variant=44075058462984",
+      "sha256": "8b3c656e93ffcf424cc5dce1c85c4487c709fcac86ea1f0584d121734a22c477"
+    },
+    {
+      "url": "https://klecrecords.myshopify.com/products/883-hanno-ucciso-luomo-ragno-numerato-red-with-blue-splatter-vinyl?variant=45239649304840",
+      "sha256": "0b27e631e13a4fabd182782e93257857fdeb53785b80f994526afb3cfb71461a"
+    },
+    {
+      "url": "https://klecrecords.myshopify.com/products/2pac-me-against-the-world-2-lp?variant=52582116819208",
+      "sha256": "7d0804d8a9deeaf131bca321d773376094d10ae31e93be7c0bd21615132b130b"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 1,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 0.13333333333333333,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://klecrecords.myshopify.com/products/999-999?variant=44075058462984",
+    "https://klecrecords.myshopify.com/products/883-hanno-ucciso-luomo-ragno-numerato-red-with-blue-splatter-vinyl?variant=45239649304840",
+    "https://klecrecords.myshopify.com/products/2pac-me-against-the-world-2-lp?variant=52582116819208"
+  ],
+  "assessment_id": "v2-44960216746-1",
+  "queue_rows": [
+    4254
+  ],
+  "assessment_path": "assessments/v2/klecrecords_myshopify_com/v2-44960216746-1.json"
+}
