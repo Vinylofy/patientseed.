@@ -1,0 +1,200 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T17:29:13.331595+00:00",
+  "shop_id": "citynoiserecords.com",
+  "row": 4997,
+  "name": "City Noise Records",
+  "domain": "citynoiserecords.com",
+  "country": null,
+  "website": "https://citynoiserecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4997,
+    "name": "City Noise Records",
+    "domain": "citynoiserecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://citynoiserecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 17,
+    "excluded": 3,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://citynoiserecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://citynoiserecords.com/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 20,
+        "accepted": 8,
+        "excluded": 12,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://citynoiserecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 175,
+        "products_seen": 20,
+        "accepted": 17,
+        "excluded": 3,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://citynoiserecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://citynoiserecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://citynoiserecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://citynoiserecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://citynoiserecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://citynoiserecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 175,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://citynoiserecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 17,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 17,
+    "unique_prices": 5,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://citynoiserecords.com/robots.txt",
+      "sha256": "f97c0c3795f7fce1310ee1e668c8fb298d556669d734560ad5318d41e387b6e1"
+    },
+    {
+      "url": "https://citynoiserecords.com/",
+      "sha256": "84563b48746ce9bc47d71f34e90a2bf9758bf41f3b06f33e581ebba111d0fc04"
+    },
+    {
+      "url": "https://citynoiserecords.com/products.json?limit=20&page=1",
+      "sha256": "acfb2f78516f9c8e249e052f4b7c7fb832f813782f39636332c71764f5cd3469"
+    },
+    {
+      "url": "https://citynoiserecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "77717082c356f2ce8096ba899a33d526de3e85a9b12e24ecc32e613cbfa14ff7"
+    },
+    {
+      "url": "https://citynoiserecords.com/products/action-pact-mercury-theatre-on-the-air",
+      "sha256": "df601a0e6a3e6ce5b61c6119ddbcdfd84aa1b21ffe5cb93732f74136e58218ac"
+    },
+    {
+      "url": "https://citynoiserecords.com/products/action-pact-survival-of-the-fattest-lp",
+      "sha256": "6af42c1fd26dfaf414ef84b2dbdea2b05a54269541987f0d6558f6805196a1ef"
+    },
+    {
+      "url": "https://citynoiserecords.com/products/4-skins-riot-in-the-ghetto-unreleased-radio-studio-sessions-lp?variant=45421455114406",
+      "sha256": "d59081a32ab8ade562684ea93c67e0bf223bf13283e153f891af5bae9677c1f1"
+    },
+    {
+      "url": "https://citynoiserecords.com/products/16-into-dust-lp-silver-vinyl?variant=44655884107942",
+      "sha256": "a752556dae0f053eef324f4cfa03905bd950ec64ac44949370b3f10a12969f8c"
+    },
+    {
+      "url": "https://citynoiserecords.com/products/action-pact-mercury-theatre-on-the-air?variant=43782718128294",
+      "sha256": "d900585f42eed6b1b1a5e3854323d4a2e73fb442786af991040e48ba14f0c2b1"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 2,
+    "detail_price_proven": 2,
+    "ean_valid": 2,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.5882352941176471,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-44929737638-1",
+  "queue_rows": [
+    4997
+  ],
+  "assessment_path": "assessments/v2/citynoiserecords_com/v2-44929737638-1.json"
+}
