@@ -1,0 +1,202 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T14:36:41.434654+00:00",
+  "shop_id": "famousrockshop.com.au",
+  "row": 3529,
+  "name": "Famous Rock Shop",
+  "domain": "famousrockshop.com.au",
+  "country": null,
+  "website": "https://famousrockshop.com.au/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3529,
+    "name": "Famous Rock Shop",
+    "domain": "famousrockshop.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://famousrockshop.com.au/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 1,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://famousrockshop.com.au/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://famousrockshop.com.au/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://famousrockshop.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://famousrockshop.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://famousrockshop.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://famousrockshop.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://famousrockshop.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://famousrockshop.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://famousrockshop.com.au/collections/all/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://famousrockshop.com.au/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://famousrockshop.com.au/products/asap-ferg-b-sides-rsd-bf-2018-vinyl-12in?variant=31783935115315",
+      "artist": "",
+      "title": "A$AP FERG B SIDES RSD Bf 2018 Vinyl 12in",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "119.95",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://famousrockshop.com.au/robots.txt",
+      "sha256": "982afd9848d3b9e49980da8b35238d8755445287babcb2be7a0573b1db01da03"
+    },
+    {
+      "url": "https://famousrockshop.com.au/",
+      "sha256": "7eef0599ce5100b0856bb3b69a31e1bd09a734e6c4374472102f62473b3e522f"
+    },
+    {
+      "url": "https://famousrockshop.com.au/products.json?limit=20&page=1",
+      "sha256": "75ddf656a1a6484058dbc8c6f3879929542cbd54a13815f457d980d5259758b4"
+    },
+    {
+      "url": "https://famousrockshop.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "ab1bda15909fc69b2db7a0985c11aeb0651a2c56a96b6bb9f5f0219dd0debe4a"
+    },
+    {
+      "url": "https://famousrockshop.com.au/products/asap-ferg-b-sides-rsd-bf-2018-vinyl-12in",
+      "sha256": "98ced72de6277ae6b856bed67e7fc0ad7c3ed1034ed410389ccaa2d1e7e28b5a"
+    },
+    {
+      "url": "https://famousrockshop.com.au/products/asap-ferg-b-sides-rsd-bf-2018-vinyl-12in?variant=31783935115315",
+      "sha256": "d86a6280b677470a0a02da3c2c7a08f7e883033bd7cbfbbf62d58223818c5fc1"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "insufficient_representative_product_evidence"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://famousrockshop.com.au/products/asap-ferg-b-sides-rsd-bf-2018-vinyl-12in?variant=31783935115315"
+  ],
+  "assessment_id": "v2-44914511099-1",
+  "queue_rows": [
+    3529
+  ],
+  "assessment_path": "assessments/v2/famousrockshop_com_au/v2-44914511099-1.json"
+}
