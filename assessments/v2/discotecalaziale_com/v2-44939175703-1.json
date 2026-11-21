@@ -1,0 +1,165 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T19:18:16.042466+00:00",
+  "shop_id": "discotecalaziale.com",
+  "row": 4247,
+  "name": "Discoteca Laziale",
+  "domain": "discotecalaziale.com",
+  "country": null,
+  "website": "https://discotecalaziale.com/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4247,
+    "name": "Discoteca Laziale",
+    "domain": "discotecalaziale.com",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://discotecalaziale.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://discotecalaziale.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://discotecalaziale.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://discotecalaziale.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://discotecalaziale.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://discotecalaziale.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://discotecalaziale.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://discotecalaziale.com/robots.txt",
+      "sha256": "444d7d9502e926c5879711efb002ff66b58bcd9011e6a7265ecb4c7ee6beb95b"
+    },
+    {
+      "url": "https://discotecalaziale.com/",
+      "sha256": "64c9304d82932f3e999ed4f96885f5f03ea5766713092c9f50651c8102481764"
+    },
+    {
+      "url": "https://discotecalaziale.com/products.json?limit=20&page=1",
+      "sha256": "d22bf49216608621afe5ec4f6f1ee9d7f891560b6479216f4797ddf0cabc5e80"
+    },
+    {
+      "url": "https://discotecalaziale.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "845b9d1870d33ba48e86e224c4391ed0d4bb45eadc541e070746271ea25ee933"
+    },
+    {
+      "url": "https://discotecalaziale.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "92a1e3f6cddc7b24c0401936a0dd5d3507fdf09d65fbe3ad80bcb964ca87c2e8"
+    },
+    {
+      "url": "https://discotecalaziale.com/api/0.1/collections/products?format=json",
+      "sha256": "0d9c4a8fbe265c8868d276243b649e1651afa70629e8bee9c74921ccd70bf4a0"
+    },
+    {
+      "url": "https://discotecalaziale.com/api/0.1/collections/all/products?format=json",
+      "sha256": "ca187315d01bfb93e9122d2fc2f440ddd818a228102543b92c903e7f18575281"
+    },
+    {
+      "url": "https://discotecalaziale.com/api/storefront/products?limit=20&offset=0",
+      "sha256": "b3f8a19467b5e95dd5ee2730085ee0a23f766e876419eb46b7c1a2084943aa23"
+    },
+    {
+      "url": "https://discotecalaziale.com/api/storefront/products?limit=20",
+      "sha256": "8f25257277cb46a73c6651c239357ebf05c5cfdc121a49bfbc20d4b72aff433d"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-44939175703-1",
+  "queue_rows": [
+    4247
+  ],
+  "assessment_path": "assessments/v2/discotecalaziale_com/v2-44939175703-1.json"
+}
