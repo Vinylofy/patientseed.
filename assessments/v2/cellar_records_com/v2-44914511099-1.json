@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T14:35:14.193754+00:00",
+  "shop_id": "cellar-records.com",
+  "row": 4301,
+  "name": "CELLAR RECORDS",
+  "domain": "cellar-records.com",
+  "country": null,
+  "website": "https://cellar-records.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4301,
+    "name": "CELLAR RECORDS",
+    "domain": "cellar-records.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://cellar-records.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 15,
+    "excluded": 5,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "JPY",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://cellar-records.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://cellar-records.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://cellar-records.com/collections/all/products.json?limit=20&page=1",
+        "score": 155,
+        "products_seen": 20,
+        "accepted": 15,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://cellar-records.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://cellar-records.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://cellar-records.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://cellar-records.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://cellar-records.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://cellar-records.com/collections/all/products.json?limit=20&page=1",
+      "score": 155,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://cellar-records.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 15,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 15,
+    "unique_prices": 13,
+    "shipping_hits": 0,
+    "currencies": [
+      "JPY"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://cellar-records.com/products/archie-james-cavanaugh-black-and-white-ravenlp?variant=43507568541933",
+      "artist": "Archie James Cavanaugh",
+      "title": "Black And White Raven(LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "3520.00",
+      "currency": "JPY",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://cellar-records.com/products/alvin-curran-canti-e-vedute-del-giardino-magneticolp?variant=44052348043501",
+      "artist": "Alvin Curran",
+      "title": "Canti E Vedute Del Giardino Magnetico(LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "3680.00",
+      "currency": "JPY",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://cellar-records.com/products/1619-bad-ass-band-s-tlp?variant=43480232493293",
+      "artist": "1619 Bad Ass Band",
+      "title": "S.T(LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "4675.00",
+      "currency": "JPY",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://cellar-records.com/robots.txt",
+      "sha256": "93c35b4861a51124720cfc2318af5e87c43a0d7a8e4146e0b9ef7f69c68cc5e3"
+    },
+    {
+      "url": "https://cellar-records.com/",
+      "sha256": "a6f44ce4cfa1419fee925a97f948ad07681a691452a40df32c24b08ed43af2a0"
+    },
+    {
+      "url": "https://cellar-records.com/products.json?limit=20&page=1",
+      "sha256": "f6e1c9c14688252a4b8cfdb94e28e33e789b6360e592e2963e0d84a290c90d11"
+    },
+    {
+      "url": "https://cellar-records.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "9cacc88f7698feb457dfd07bbe9706aeda133ed54d6986ce008ee727126cc895"
+    },
+    {
+      "url": "https://cellar-records.com/products/1619-bad-ass-band-s-tlp",
+      "sha256": "34d4cf36b1160c3a98a2610ef2694dac762b167401a866635503c563e0c80525"
+    },
+    {
+      "url": "https://cellar-records.com/products/4am-s-t45rpm-lp",
+      "sha256": "a97a1fe8160321b1e0eadce7f9b3d75f9ecd3fd92059fba7e5b9bf1275e9df98"
+    },
+    {
+      "url": "https://cellar-records.com/products/archie-james-cavanaugh-black-and-white-ravenlp?variant=43507568541933",
+      "sha256": "6ae05684a351040d29908231f92344a655edd787c2fcf48ce5e44114be37bb8e"
+    },
+    {
+      "url": "https://cellar-records.com/products/alvin-curran-canti-e-vedute-del-giardino-magneticolp?variant=44052348043501",
+      "sha256": "8364fa3437262d91a3ca90c332d9fb701805b20f7a0f9b56ff3041378085c342"
+    },
+    {
+      "url": "https://cellar-records.com/products/1619-bad-ass-band-s-tlp?variant=43480232493293",
+      "sha256": "7e3939620bc189fb5e3f24a344acb1cdedf6a4c800029be65c02bb86fba90beb"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.9333333333333333,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://cellar-records.com/products/archie-james-cavanaugh-black-and-white-ravenlp?variant=43507568541933",
+    "https://cellar-records.com/products/alvin-curran-canti-e-vedute-del-giardino-magneticolp?variant=44052348043501",
+    "https://cellar-records.com/products/1619-bad-ass-band-s-tlp?variant=43480232493293"
+  ],
+  "assessment_id": "v2-44914511099-1",
+  "queue_rows": [
+    4301
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 14,
+  "candidate_ref": "v2-44914511099-1/cellar_records_com",
+  "assessment_path": "assessments/v2/cellar_records_com/v2-44914511099-1.json"
+}
