@@ -5377,7 +5377,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | sleevecityusa.com | 33 | FROZEN | 3 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | soldoutvinylrecords.com | 7 | APPROVED | 0 | 6 | 3/3 | ACTIVE (run 44891291707) | ACTIVE | run 40064351096 |
 | solstarecords.com | 33 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
-| sookvinyl.com | 37 | FROZEN | 3 | 3 | 0/0 | ACTIVE | FROZEN | detail_price_currency_not_proven_or_mismatch |
+| sookvinyl.com | 37 | FROZEN | 3 | 3 | 0/0 | ACTIVE (run 44891291707) | FROZEN | detail_price_currency_not_proven_or_mismatch |
 | sorrystaterecords.com | 33 | FROZEN | 3 | 3 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | soulstoprecords.com | 33 | FROZEN | 3 | 16 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | soundbendrecords.co | 39 | FROZEN | 3 | 0 | 0/0 | FROZEN | FROZEN | HTTP_402 |
