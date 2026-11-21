@@ -1,0 +1,250 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T21:54:38.935752+00:00",
+  "shop_id": "hathillrecords.com.au",
+  "row": 3489,
+  "name": "Hat Hill Records",
+  "domain": "hathillrecords.com.au",
+  "country": null,
+  "website": "https://hathillrecords.com.au/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3489,
+    "name": "Hat Hill Records",
+    "domain": "hathillrecords.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://hathillrecords.com.au/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 18,
+    "excluded": 2,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://hathillrecords.com.au/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://hathillrecords.com.au/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://hathillrecords.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 20,
+        "accepted": 13,
+        "excluded": 7,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://hathillrecords.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://hathillrecords.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://hathillrecords.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://hathillrecords.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://hathillrecords.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://hathillrecords.com.au/products.json?limit=20&page=1",
+      "score": 185,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 1,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://hathillrecords.com.au/products.json?limit=20&page=1",
+  "listing_sample": 18,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 18,
+    "unique_prices": 12,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://hathillrecords.com.au/products/maryos-syawish-qurmami-vinyl-lp?variant=50970828964033",
+      "artist": "Maryos Syawish",
+      "title": "Qurmami, Vinyl LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "45.00",
+      "currency": "AUD",
+      "valid_eans": [
+        "05050580880177"
+      ],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://hathillrecords.com.au/products/hole-pretty-on-the-inside-vinyl-lp?variant=50983324549313",
+      "artist": "Hole",
+      "title": "Pretty On The Inside, Vinyl LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "62.00",
+      "currency": "AUD",
+      "valid_eans": [
+        "00199957770682"
+      ],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://hathillrecords.com.au/products/dry-cleaning-stumpwork-white-vinyl-lp-1?variant=48411898282177",
+      "artist": "Dry Cleaning",
+      "title": "Stumpwork, White Coloured Vinyl LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "55.00",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://hathillrecords.com.au/robots.txt",
+      "sha256": "abd533e1d9deca41220b244f7888fe6b7e37d9d6edfc58781af96caebf79347e"
+    },
+    {
+      "url": "https://hathillrecords.com.au/",
+      "sha256": "fd1ffcc9ec2f9c481a27803f1a4b1a1d560b56a0b469f57c8ae26b006e5bb25b"
+    },
+    {
+      "url": "https://hathillrecords.com.au/products.json?limit=20&page=1",
+      "sha256": "7d99737c830e005c9368418890b932d27d9a67732336ff8d36ad8f43cb561dd1"
+    },
+    {
+      "url": "https://hathillrecords.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "9670af8b89fd9cc5d1cfbcb1ff511db69adc50e545c9c433441e0bcca41b3250"
+    },
+    {
+      "url": "https://hathillrecords.com.au/products/dry-cleaning-stumpwork-white-vinyl-lp-1",
+      "sha256": "f66f60f453b73a490013ba79e5aca00cbd5cc423a1806bf32b1deaf8a4d9a3d5"
+    },
+    {
+      "url": "https://hathillrecords.com.au/products/pink-floyd-dark-side-of-the-moon-50th-anniversary-remastered-vinyl-lp",
+      "sha256": "c184f22dd0aabef0c80f2efbf85cebeeeac738a283e863961e25338443689e3c"
+    },
+    {
+      "url": "https://hathillrecords.com.au/products/maryos-syawish-qurmami-vinyl-lp?variant=50970828964033",
+      "sha256": "08ca71b32dcf967b81b32bce3dac0e9c959845440af48e7940aa5cba6de0345c"
+    },
+    {
+      "url": "https://hathillrecords.com.au/products/hole-pretty-on-the-inside-vinyl-lp?variant=50983324549313",
+      "sha256": "b9d79eac2df1972c894c11cebac9afa9354b6064bf3bf423225959078f2a63a0"
+    },
+    {
+      "url": "https://hathillrecords.com.au/products/dry-cleaning-stumpwork-white-vinyl-lp-1?variant=48411898282177",
+      "sha256": "69d2931caa148fe8181411fb6f0392b2d199cbb185a3ec68146274b68765484e"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 2,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.8333333333333334,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://hathillrecords.com.au/products/maryos-syawish-qurmami-vinyl-lp?variant=50970828964033",
+    "https://hathillrecords.com.au/products/hole-pretty-on-the-inside-vinyl-lp?variant=50983324549313",
+    "https://hathillrecords.com.au/products/dry-cleaning-stumpwork-white-vinyl-lp-1?variant=48411898282177"
+  ],
+  "assessment_id": "v2-44952443493-1",
+  "queue_rows": [
+    3489
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 15,
+  "candidate_ref": "v2-44952443493-1/hathillrecords_com_au",
+  "assessment_path": "assessments/v2/hathillrecords_com_au/v2-44952443493-1.json"
+}
