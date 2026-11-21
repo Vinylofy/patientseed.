@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T20:39:44.995947+00:00",
+  "shop_id": "fountainrecords.co.uk",
+  "row": 3434,
+  "name": "Fountain Records",
+  "domain": "fountainrecords.co.uk",
+  "country": null,
+  "website": "https://fountainrecords.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3434,
+    "name": "Fountain Records",
+    "domain": "fountainrecords.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://fountainrecords.co.uk/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 14,
+    "excluded": 6,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://fountainrecords.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://fountainrecords.co.uk/products.json?limit=20&page=1",
+        "score": 35,
+        "products_seen": 20,
+        "accepted": 3,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://fountainrecords.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 145,
+        "products_seen": 20,
+        "accepted": 14,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://fountainrecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://fountainrecords.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://fountainrecords.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://fountainrecords.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://fountainrecords.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://fountainrecords.co.uk/collections/all/products.json?limit=20&page=1",
+      "score": 145,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://fountainrecords.co.uk/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 14,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 14,
+    "unique_prices": 12,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://fountainrecords.co.uk/products/anthony-williams-life-time-lp-us-mono-original-blue-note-blp-4180?variant=55971001598287",
+      "artist": "Anthony Williams",
+      "title": "Life Time LP US Mono Original Blue Note BLP 4180",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "230.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://fountainrecords.co.uk/products/alice-in-chains-dirt?variant=55822272758095",
+      "artist": "",
+      "title": "Alice In Chains- Dirt",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "26.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://fountainrecords.co.uk/products/acdc-back-in-black?variant=55693851787599",
+      "artist": "",
+      "title": "ACDC- Back In Black",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "40.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://fountainrecords.co.uk/robots.txt",
+      "sha256": "97816039ccf3eeac0401689e19243bdfc64a325bf61c91cb7a0e3d4b2ff3bdf2"
+    },
+    {
+      "url": "https://fountainrecords.co.uk/",
+      "sha256": "c6e8e65331d4af45527cbb328b42c6fcc0463c24731fcbb1ba5e8c6f419462ce"
+    },
+    {
+      "url": "https://fountainrecords.co.uk/products.json?limit=20&page=1",
+      "sha256": "451213f2dce2d508d91784dff44c1a3e543ce1b218e92a910c2a16498f86b1f3"
+    },
+    {
+      "url": "https://fountainrecords.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "a09903a93e2c0e25c1e049b4488b1c6967ce6bd6602a6d84bef56bae1bb721e6"
+    },
+    {
+      "url": "https://fountainrecords.co.uk/products/acdc-back-in-black",
+      "sha256": "690a42bfcdb9491fa7abf4e8441a5811ad246431e9da6d2085475f4a1268eeea"
+    },
+    {
+      "url": "https://fountainrecords.co.uk/products/albert-hammond-jr-como-te-llama",
+      "sha256": "ea7fd5f406e95cd6fb7b22b70b988fea781ad1934425cc06a1bb9ee073e39420"
+    },
+    {
+      "url": "https://fountainrecords.co.uk/products/anthony-williams-life-time-lp-us-mono-original-blue-note-blp-4180?variant=55971001598287",
+      "sha256": "97b5c96e35cafc9f5f65b6a99c729abdf3b5798e86dffe76821b192b13197d3d"
+    },
+    {
+      "url": "https://fountainrecords.co.uk/products/alice-in-chains-dirt?variant=55822272758095",
+      "sha256": "02bd97abbb7c7c3c660ad20c6ba3c9651bb9a6a976f58cad640b78df939031c2"
+    },
+    {
+      "url": "https://fountainrecords.co.uk/products/acdc-back-in-black?variant=55693851787599",
+      "sha256": "61c919e4042161aa9a3bc670714e9084acc7d5448b98b92c5bde594f0b6fe63a"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 0.5,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://fountainrecords.co.uk/products/anthony-williams-life-time-lp-us-mono-original-blue-note-blp-4180?variant=55971001598287",
+    "https://fountainrecords.co.uk/products/alice-in-chains-dirt?variant=55822272758095",
+    "https://fountainrecords.co.uk/products/acdc-back-in-black?variant=55693851787599"
+  ],
+  "assessment_id": "v2-44946342303-1",
+  "queue_rows": [
+    3434
+  ],
+  "assessment_path": "assessments/v2/fountainrecords_co_uk/v2-44946342303-1.json"
+}
