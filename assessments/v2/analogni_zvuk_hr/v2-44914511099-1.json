@@ -1,0 +1,237 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T14:46:24.041492+00:00",
+  "shop_id": "analogni-zvuk.hr",
+  "row": 3779,
+  "name": "Analogni zvuk",
+  "domain": "analogni-zvuk.hr",
+  "country": null,
+  "website": "https://analogni-zvuk.hr/",
+  "previous_status": "ADAPTER_TESTED",
+  "previous_reason": "no confirmed new vinyl on bounded page",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3779,
+    "name": "Analogni zvuk",
+    "domain": "analogni-zvuk.hr",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "woocommerce",
+    "source_url": "https://analogni-zvuk.hr/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "adapter_class": "WooCommerceNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 12,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "method_candidates": [
+      {
+        "platform": "woocommerce",
+        "route": "https://analogni-zvuk.hr/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://analogni-zvuk.hr/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://analogni-zvuk.hr/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://analogni-zvuk.hr/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://analogni-zvuk.hr/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://analogni-zvuk.hr/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://analogni-zvuk.hr/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "woocommerce",
+      "route": "https://analogni-zvuk.hr/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "woocommerce",
+  "catalog_route": "https://analogni-zvuk.hr/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://analogni-zvuk.hr/proizvod/elvis-presley-elvis-sings-the-wonderful-world-of-christmas-croatia-records-1992-lp/",
+      "artist": "Elvis Presley",
+      "title": "Elvis Sings The Wonderful World Of Christmas (Croatia records, 1992.) LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "50.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://analogni-zvuk.hr/proizvod/hari-mata-hari-ja-te-volim-najvise-na-svijetu-jugoton-1988-lp/",
+      "artist": "Hari Mata Hari",
+      "title": "Ja te volim najviše na svijetu (Jugoton, 1988.) LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "50.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://analogni-zvuk.hr/proizvod/crvena-jabuka-tamo-gdje-ljubav-pocinje-jugoton-1989-lp-2/",
+      "artist": "Crvena jabuka",
+      "title": "Tamo gdje ljubav počinje (Jugoton. 1989.) LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "105.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://analogni-zvuk.hr/robots.txt",
+      "sha256": "95fe9088921d92f5b55039201876a90d63fdf83652632b92ca533d4bf92b0b7c"
+    },
+    {
+      "url": "https://analogni-zvuk.hr/",
+      "sha256": "88570146484ed1504ca3a0ca6f6dc7f3c78e21bb5fb49f379e3fe8633ebd30c1"
+    },
+    {
+      "url": "https://analogni-zvuk.hr/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "59f2c031bdcc38e2ec000c66b42300ecc226bb1270a367c4e19bd687c7fcb14e"
+    },
+    {
+      "url": "https://analogni-zvuk.hr/collections/all/products.json?limit=20&page=1",
+      "sha256": "310f6f195166769e4a256ba7349a5ef4ccf512519791b765c32b8c056db332e7"
+    },
+    {
+      "url": "https://analogni-zvuk.hr/proizvod/crvena-jabuka-tamo-gdje-ljubav-pocinje-jugoton-1989-lp-2/",
+      "sha256": "990a828aed0de27edac9d8015deebf73efb0e82c349e666cd94089a3d3d39f23"
+    },
+    {
+      "url": "https://analogni-zvuk.hr/proizvod/jura-stublic-i-film-zemlja-srece-jugoton-1989-lp-2/",
+      "sha256": "6f5ea79a77856b42f96777faa6cdf53a243a1dd83759857e10a1628b26ae4663"
+    },
+    {
+      "url": "https://analogni-zvuk.hr/proizvod/elvis-presley-elvis-sings-the-wonderful-world-of-christmas-croatia-records-1992-lp/",
+      "sha256": "e2684484171115680994661a770dd42b966c6cddc3fd2b2b37d32cd101e6ac39"
+    },
+    {
+      "url": "https://analogni-zvuk.hr/proizvod/hari-mata-hari-ja-te-volim-najvise-na-svijetu-jugoton-1988-lp/",
+      "sha256": "d898884e8e8546e3d21fb9812ef94d558068b47beb5962f1293a5e21ed06c2e1"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [
+    "https://analogni-zvuk.hr/proizvod/elvis-presley-elvis-sings-the-wonderful-world-of-christmas-croatia-records-1992-lp/",
+    "https://analogni-zvuk.hr/proizvod/hari-mata-hari-ja-te-volim-najvise-na-svijetu-jugoton-1988-lp/",
+    "https://analogni-zvuk.hr/proizvod/crvena-jabuka-tamo-gdje-ljubav-pocinje-jugoton-1989-lp-2/"
+  ],
+  "assessment_id": "v2-44914511099-1",
+  "queue_rows": [
+    3779
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 12,
+  "candidate_ref": "v2-44914511099-1/analogni_zvuk_hr",
+  "assessment_path": "assessments/v2/analogni_zvuk_hr/v2-44914511099-1.json"
+}
