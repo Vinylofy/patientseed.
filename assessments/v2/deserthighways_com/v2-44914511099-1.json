@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T14:35:51.052266+00:00",
+  "shop_id": "deserthighways.com",
+  "row": 3538,
+  "name": "Desert Highways",
+  "domain": "deserthighways.com",
+  "country": null,
+  "website": "https://deserthighways.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3538,
+    "name": "Desert Highways",
+    "domain": "deserthighways.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://deserthighways.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 4,
+    "excluded": 16,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://deserthighways.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://deserthighways.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://deserthighways.com/collections/all/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 20,
+        "accepted": 4,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://deserthighways.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://deserthighways.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://deserthighways.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://deserthighways.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://deserthighways.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://deserthighways.com/collections/all/products.json?limit=20&page=1",
+      "score": 45,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://deserthighways.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 4,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 4,
+    "unique_prices": 4,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://deserthighways.com/products/arcade-fire-open-your-heart-or-die-trying-rsd-2026-lp?variant=48939584061669",
+      "artist": "Arcade Fire",
+      "title": "Open Your Heart Or Die Trying RSD 2026 LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "55.00",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://deserthighways.com/products/affordable-repayments-cant-win-for-losing-some-days-lp?variant=48939463934181",
+      "artist": "Affordable Repayments",
+      "title": "Can't Win For Losing Some Days LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "35.00",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://deserthighways.com/products/a-celebration-of-chris-cornell-12-beyond-blue-fundraiser?variant=48939373494501",
+      "artist": "A Celebration of Chris Cornell 12\"",
+      "title": "BEYOND BLUE FUNDRAISER",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "25.00",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://deserthighways.com/robots.txt",
+      "sha256": "762576848795000b63a948416536da9fd84fa874056264eb7511c97dcc55e19e"
+    },
+    {
+      "url": "https://deserthighways.com/",
+      "sha256": "4733e64ce1d4eee62d70d3206a305e3a4ba9c2dfe07704df7586799f1855e098"
+    },
+    {
+      "url": "https://deserthighways.com/products.json?limit=20&page=1",
+      "sha256": "6c936853859b9418ac9168646dfbe153938f30bdf32f9836e3a33adc1d00c90f"
+    },
+    {
+      "url": "https://deserthighways.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "edd7dc2c16b48b6655ca2b672ae04fa87ecea0c2d37fc1337dc18f919b319248"
+    },
+    {
+      "url": "https://deserthighways.com/products/a-celebration-of-chris-cornell-12-beyond-blue-fundraiser",
+      "sha256": "030305c6e3fbb4d962e912e57dd566686816180afd8766102bcd843dc59789ed"
+    },
+    {
+      "url": "https://deserthighways.com/products/affordable-repayments-cant-win-for-losing-some-days-lp",
+      "sha256": "80d18737e477f8ea38a22156746c95bd4d89d463fe7aff00832e4b8d78047980"
+    },
+    {
+      "url": "https://deserthighways.com/products/arcade-fire-open-your-heart-or-die-trying-rsd-2026-lp?variant=48939584061669",
+      "sha256": "61951f91db5df238da1a435c52e00922a9c22842421d5ca781b9c3df6b00dc9b"
+    },
+    {
+      "url": "https://deserthighways.com/products/affordable-repayments-cant-win-for-losing-some-days-lp?variant=48939463934181",
+      "sha256": "6c6f0966a1e03619aafb843b01c884b3a17f1b28abbf2864758d41870e478cce"
+    },
+    {
+      "url": "https://deserthighways.com/products/a-celebration-of-chris-cornell-12-beyond-blue-fundraiser?variant=48939373494501",
+      "sha256": "f9106515b56c12b8cf8e74ea32fc33c0c5f635e9df66a33bfb4e39665555c908"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://deserthighways.com/products/arcade-fire-open-your-heart-or-die-trying-rsd-2026-lp?variant=48939584061669",
+    "https://deserthighways.com/products/affordable-repayments-cant-win-for-losing-some-days-lp?variant=48939463934181",
+    "https://deserthighways.com/products/a-celebration-of-chris-cornell-12-beyond-blue-fundraiser?variant=48939373494501"
+  ],
+  "assessment_id": "v2-44914511099-1",
+  "queue_rows": [
+    3538
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 4,
+  "candidate_ref": "v2-44914511099-1/deserthighways_com",
+  "assessment_path": "assessments/v2/deserthighways_com/v2-44914511099-1.json"
+}
