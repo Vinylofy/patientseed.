@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T23:19:50.404055+00:00",
+  "shop_id": "kindofblue.cl",
+  "row": 3770,
+  "name": "Kind of Blue",
+  "domain": "kindofblue.cl",
+  "country": null,
+  "website": "https://kindofblue.cl/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3770,
+    "name": "Kind of Blue",
+    "domain": "kindofblue.cl",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://kindofblue.cl/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 3,
+    "excluded": 17,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "CLP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://kindofblue.cl/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://kindofblue.cl/products.json?limit=20&page=1",
+        "score": 35,
+        "products_seen": 20,
+        "accepted": 3,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://kindofblue.cl/collections/all/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://kindofblue.cl/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://kindofblue.cl/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://kindofblue.cl/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://kindofblue.cl/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://kindofblue.cl/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://kindofblue.cl/products.json?limit=20&page=1",
+      "score": 35,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://kindofblue.cl/products.json?limit=20&page=1",
+  "listing_sample": 3,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 3,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "CLP"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://kindofblue.cl/products/howl-s-moving-castle-studio-ghibli?variant=53376864387439",
+      "artist": "",
+      "title": "El castillo ambulante (banda sonora)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "72000.00",
+      "currency": "CLP",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://kindofblue.cl/products/princess-mononoke-studio-ghibli?variant=53376864420207",
+      "artist": "",
+      "title": "La princesa Mononoke (banda sonora)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "68000.00",
+      "currency": "CLP",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://kindofblue.cl/products/the-universe-smiles-upon-you-khruangbin?variant=53376864485743",
+      "artist": "",
+      "title": "The Universe Smiles Upon You II",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "38000.00",
+      "currency": "CLP",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://kindofblue.cl/robots.txt",
+      "sha256": "103649c2a2043e757f3b336dc73e6ca35124c12b1308416ef6bba8d41c7ca5da"
+    },
+    {
+      "url": "https://kindofblue.cl/",
+      "sha256": "3cea713edb19e9d3e1118a594d5c41a88aa961867857f1a31e6f8d5d42ea9e41"
+    },
+    {
+      "url": "https://kindofblue.cl/products.json?limit=20&page=1",
+      "sha256": "c199efe4156788b22fedd6501ef1190765fbd98910a7404d80234629409de6fe"
+    },
+    {
+      "url": "https://kindofblue.cl/collections/all/products.json?limit=20&page=1",
+      "sha256": "44378bc626c8985bfe5603d6267d5bb8f2b2fc7e19a7c6ac40e2450dbb72747c"
+    },
+    {
+      "url": "https://kindofblue.cl/products/the-universe-smiles-upon-you-khruangbin",
+      "sha256": "a6cb7f08ec69b608d37bef44e3da53665dfff8355a1d4a189e93d578ed455acf"
+    },
+    {
+      "url": "https://kindofblue.cl/products/princess-mononoke-studio-ghibli",
+      "sha256": "f64ec32a4cd052692abd193aa2c34bd881dd05ccdec0b74d9bb0bf2fcd27fedd"
+    },
+    {
+      "url": "https://kindofblue.cl/products/howl-s-moving-castle-studio-ghibli?variant=53376864387439",
+      "sha256": "c2c1eec3d948ecebff49d2ddcf4456ce3c67c64a7a22b2c119fc081fd4ae7184"
+    },
+    {
+      "url": "https://kindofblue.cl/products/princess-mononoke-studio-ghibli?variant=53376864420207",
+      "sha256": "62dc4fed9d7faab96eb2bcc801679f754c349d01cd116c5c85eaac8bdeb7d836"
+    },
+    {
+      "url": "https://kindofblue.cl/products/the-universe-smiles-upon-you-khruangbin?variant=53376864485743",
+      "sha256": "acecf71ba28cdc41922d57ec0204faeb9808ec0c61e3974680482f9715f27d44"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://kindofblue.cl/products/howl-s-moving-castle-studio-ghibli?variant=53376864387439",
+    "https://kindofblue.cl/products/princess-mononoke-studio-ghibli?variant=53376864420207",
+    "https://kindofblue.cl/products/the-universe-smiles-upon-you-khruangbin?variant=53376864485743"
+  ],
+  "assessment_id": "v2-44960216746-1",
+  "queue_rows": [
+    3770
+  ],
+  "assessment_path": "assessments/v2/kindofblue_cl/v2-44960216746-1.json"
+}
