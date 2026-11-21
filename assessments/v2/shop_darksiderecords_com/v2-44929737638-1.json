@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T17:39:42.736606+00:00",
+  "shop_id": "shop.darksiderecords.com",
+  "row": 5000,
+  "name": "Darkside Records",
+  "domain": "shop.darksiderecords.com",
+  "country": null,
+  "website": "https://shop.darksiderecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 5000,
+    "name": "Darkside Records",
+    "domain": "shop.darksiderecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://shop.darksiderecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 10,
+    "excluded": 10,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://shop.darksiderecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://shop.darksiderecords.com/products.json?limit=20&page=1",
+        "score": 35,
+        "products_seen": 20,
+        "accepted": 3,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://shop.darksiderecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://shop.darksiderecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shop.darksiderecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shop.darksiderecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shop.darksiderecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shop.darksiderecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://shop.darksiderecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 105,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://shop.darksiderecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 10,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 10,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://shop.darksiderecords.com/products/texas-is-the-reason-do-you-know-who-you-are-color-vinyl?variant=48039320846557",
+      "artist": "",
+      "title": "\"texas Is the Reason \"- \"do You Know Who You Are? (color Vinyl) \"",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "32.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00098796005118"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://shop.darksiderecords.com/products/cruzados-best-of-cruzados?variant=47911204683997",
+      "artist": "",
+      "title": "\"cruzados \"- \"best of Cruzados \" (Vinyl)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "27.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00706091208805"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://shop.darksiderecords.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-limited-edition-blue-lp?variant=46973938696413",
+      "artist": "",
+      "title": "!!! (Chk Chk Chk)- Let It Be Blue [Indie Exclusive Limited Edition Blue LP] (Vinyl)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "26.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00801061833916"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://shop.darksiderecords.com/robots.txt",
+      "sha256": "6a145d337f644e99548c01d7c830418cb0425f4727dae0ec832779e6b850e3ff"
+    },
+    {
+      "url": "https://shop.darksiderecords.com/",
+      "sha256": "c1e5bd0e53a061ed3c1fc960281d5ef128c205979eeba61d9c3fdee4ef331f4a"
+    },
+    {
+      "url": "https://shop.darksiderecords.com/products.json?limit=20&page=1",
+      "sha256": "eb10d921cab9c1d46cb7f55d2bf54fc666c7c3cf4db454af1c6a46314180138e"
+    },
+    {
+      "url": "https://shop.darksiderecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "34a6d903744e8cafe056574fa4cd713db55299f192976065244a9f8db2975766"
+    },
+    {
+      "url": "https://shop.darksiderecords.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-limited-edition-blue-lp",
+      "sha256": "ccbad6eeec2c160f2b369e1a0fbce4832fb31afda9f7c8e76e2388a21bfd9f94"
+    },
+    {
+      "url": "https://shop.darksiderecords.com/products/chk-chk-chk-let-it-be-blue-lp",
+      "sha256": "9328dfe56f7109e7eed5bd4905dec552a64ac05feb06e993c51cdf90931b3d0d"
+    },
+    {
+      "url": "https://shop.darksiderecords.com/products/texas-is-the-reason-do-you-know-who-you-are-color-vinyl?variant=48039320846557",
+      "sha256": "23b262d1b2f4eb32d10fde2ddb95344dc8910799c3e22affd78a72b22714b4ca"
+    },
+    {
+      "url": "https://shop.darksiderecords.com/products/cruzados-best-of-cruzados?variant=47911204683997",
+      "sha256": "622295678fdecef1ff16c8bccb5be80feaa62b08fdd0b179927c06013329936e"
+    },
+    {
+      "url": "https://shop.darksiderecords.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-limited-edition-blue-lp?variant=46973938696413",
+      "sha256": "46d165dd41350e913adb9f2466859bf4361214d45cdd0e7e79222571c14f6507"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.1,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://shop.darksiderecords.com/products/texas-is-the-reason-do-you-know-who-you-are-color-vinyl?variant=48039320846557",
+    "https://shop.darksiderecords.com/products/cruzados-best-of-cruzados?variant=47911204683997",
+    "https://shop.darksiderecords.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-limited-edition-blue-lp?variant=46973938696413"
+  ],
+  "assessment_id": "v2-44929737638-1",
+  "queue_rows": [
+    5000
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 10,
+  "candidate_ref": "v2-44929737638-1/shop_darksiderecords_com",
+  "assessment_path": "assessments/v2/shop_darksiderecords_com/v2-44929737638-1.json"
+}
