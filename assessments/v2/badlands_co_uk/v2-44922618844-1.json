@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T16:07:01.685195+00:00",
+  "shop_id": "badlands.co.uk",
+  "row": 4721,
+  "name": "Badlands",
+  "domain": "badlands.co.uk",
+  "country": null,
+  "website": "https://badlands.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4721,
+    "name": "Badlands",
+    "domain": "badlands.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://badlands.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 2,
+    "excluded": 18,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://badlands.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://badlands.co.uk/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://badlands.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://badlands.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://badlands.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://badlands.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://badlands.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://badlands.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://badlands.co.uk/products.json?limit=20&page=1",
+      "score": 25,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://badlands.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 2,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 2,
+    "unique_prices": 2,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://badlands.co.uk/robots.txt",
+      "sha256": "bd664e1941bd5f54008005570cd29d822433afafdb6ea2bff8f4762173fbb61f"
+    },
+    {
+      "url": "https://badlands.co.uk/",
+      "sha256": "d69a1b5f34c92468452aeb4518c806c925dfde1aa1fc5444016fa522f3c40669"
+    },
+    {
+      "url": "https://badlands.co.uk/products.json?limit=20&page=1",
+      "sha256": "0c4062d90e53a7cfa205f32531a729ed0d8228c939e46215b4268897ad783d39"
+    },
+    {
+      "url": "https://badlands.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "f5e699ecf1f9ce0aa8790ecfa25b2f9738f4c4793abec387fce6720fe2c99725"
+    },
+    {
+      "url": "https://badlands.co.uk/products/kreator-pleasure-to-kill-colour-vinyl-rsd-black-friday-2026",
+      "sha256": "6552aae9284d71b5843080393883ff3e6a0312f404529e8fcd2e8e580c5e03e0"
+    },
+    {
+      "url": "https://badlands.co.uk/products/yusuf-cat-stevens-majikat-earth-tour-1976-live-2lp-black-vinyl-with-lenticular-cover-rsd-black-friday-2026",
+      "sha256": "fb7599c75cb6aac4ff6ba4f8cdf69f4f24bb218215956957d655bd411b990c3f"
+    },
+    {
+      "url": "https://badlands.co.uk/products/yusuf-cat-stevens-majikat-earth-tour-1976-live-2lp-black-vinyl-with-lenticular-cover-rsd-black-friday-2026?variant=59260516991308",
+      "sha256": "d42d9661b7287966082f4bebcbd85a80d01acc735d7e8d7e2e4af7b8f617f813"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-44922618844-1",
+  "queue_rows": [
+    4721
+  ],
+  "assessment_path": "assessments/v2/badlands_co_uk/v2-44922618844-1.json"
+}
