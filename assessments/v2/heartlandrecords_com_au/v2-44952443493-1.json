@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T21:55:22.667758+00:00",
+  "shop_id": "heartlandrecords.com.au",
+  "row": 3515,
+  "name": "Heartland Records",
+  "domain": "heartlandrecords.com.au",
+  "country": null,
+  "website": "https://heartlandrecords.com.au/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3515,
+    "name": "Heartland Records",
+    "domain": "heartlandrecords.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://heartlandrecords.com.au/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 18,
+    "excluded": 2,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://heartlandrecords.com.au/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://heartlandrecords.com.au/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://heartlandrecords.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 145,
+        "products_seen": 20,
+        "accepted": 14,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://heartlandrecords.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://heartlandrecords.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://heartlandrecords.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://heartlandrecords.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://heartlandrecords.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://heartlandrecords.com.au/products.json?limit=20&page=1",
+      "score": 185,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://heartlandrecords.com.au/products.json?limit=20&page=1",
+  "listing_sample": 18,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 18,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://heartlandrecords.com.au/products/judas-priest-turbo-pic-disc-lp?variant=68232463778102",
+      "artist": "Turbo",
+      "title": "Pic Disc LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "54.99",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://heartlandrecords.com.au/products/enslaved-mid?variant=68232463122742",
+      "artist": "",
+      "title": "Mid",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "59.99",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://heartlandrecords.com.au/products/adam-and-the-ants-kings-of-the-wild-frontier-col-vinyl-lp?variant=68232462827830",
+      "artist": "Kings Of The Wild Frontier",
+      "title": "Col Vinyl LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "54.99",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://heartlandrecords.com.au/robots.txt",
+      "sha256": "8230c50a291c7516fb4f55b39410107548c6799cb7435314dedf5dad40d44db8"
+    },
+    {
+      "url": "https://heartlandrecords.com.au/",
+      "sha256": "a465bf733d592b3dcad3cb6f8552136b940e723de0b5ab20b9d7af6ab395f153"
+    },
+    {
+      "url": "https://heartlandrecords.com.au/products.json?limit=20&page=1",
+      "sha256": "c56644d33a458aecce4cdf89eca2cd252577aab7376c065ba7b72fce10142c23"
+    },
+    {
+      "url": "https://heartlandrecords.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "eb45377f1072de6b502a13aad57225fb02b78a03bef412137584e02315a5ad87"
+    },
+    {
+      "url": "https://heartlandrecords.com.au/products/adam-and-the-ants-kings-of-the-wild-frontier-col-vinyl-lp",
+      "sha256": "dd23e1c814ea4a09755590985bf9520f35def5ab438689c26bb147d49d5b2271"
+    },
+    {
+      "url": "https://heartlandrecords.com.au/products/black-angels-the-passover",
+      "sha256": "0ccbd82a0b65126cf6542924918ce04632b57aaab981008fae26bb7f0fb25313"
+    },
+    {
+      "url": "https://heartlandrecords.com.au/products/judas-priest-turbo-pic-disc-lp?variant=68232463778102",
+      "sha256": "8d186bc2470d2fea27fbfaa1e4435126de8f28cdfe174f413cecea2a1c7b9caf"
+    },
+    {
+      "url": "https://heartlandrecords.com.au/products/enslaved-mid?variant=68232463122742",
+      "sha256": "d1de7d58e6bcab28368e7b3c5abb9ce2f8c04a33fdc5fdc0d2dbd31316d433ef"
+    },
+    {
+      "url": "https://heartlandrecords.com.au/products/adam-and-the-ants-kings-of-the-wild-frontier-col-vinyl-lp?variant=68232462827830",
+      "sha256": "f043dd9b384546592ec3a6481b32f0b4be652241b1a9de7246cfd28127c58d68"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.4444444444444444,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://heartlandrecords.com.au/products/judas-priest-turbo-pic-disc-lp?variant=68232463778102",
+    "https://heartlandrecords.com.au/products/enslaved-mid?variant=68232463122742",
+    "https://heartlandrecords.com.au/products/adam-and-the-ants-kings-of-the-wild-frontier-col-vinyl-lp?variant=68232462827830"
+  ],
+  "assessment_id": "v2-44952443493-1",
+  "queue_rows": [
+    3515
+  ],
+  "assessment_path": "assessments/v2/heartlandrecords_com_au/v2-44952443493-1.json"
+}
