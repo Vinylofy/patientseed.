@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T21:45:39.693455+00:00",
+  "shop_id": "graveface.com",
+  "row": 4957,
+  "name": "Graveface Chicago / Terror Vision",
+  "domain": "graveface.com",
+  "country": null,
+  "website": "https://graveface.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4957,
+    "name": "Graveface Chicago / Terror Vision",
+    "domain": "graveface.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://graveface.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 26,
+    "accepted": 15,
+    "excluded": 11,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://graveface.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://graveface.com/products.json?limit=20&page=1",
+        "score": 155,
+        "products_seen": 26,
+        "accepted": 15,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://graveface.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://graveface.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://graveface.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://graveface.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://graveface.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://graveface.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://graveface.com/products.json?limit=20&page=1",
+      "score": 155,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://graveface.com/products.json?limit=20&page=1",
+  "listing_sample": 15,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 15,
+    "unique_prices": 5,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://graveface.com/products/monster-movie-all-lost-2026-lp?variant=52124635922712",
+      "artist": "",
+      "title": "Monster Movie \"All Lost\" 2026 LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "25.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://graveface.com/products/kid-dakota-the-west-is-the-future-2xlp?variant=52422373966104",
+      "artist": "",
+      "title": "Kid Dakota \"The West is the Future\" 2XLP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "29.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://graveface.com/products/the-capsules-full-moon-factory-12-single?variant=52765441327384",
+      "artist": "",
+      "title": "The Capsules \"Full Moon Factory\" 12\" Single",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "18.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://graveface.com/robots.txt",
+      "sha256": "030951e5c87aede0f0a63e1b929bcf8dec385685af331d1e2f668d7d070e6b88"
+    },
+    {
+      "url": "https://graveface.com/",
+      "sha256": "9e6019c5bcd2f476e479798f4eb3577ae63549137e71eaa3419a6ea4a6bd2e36"
+    },
+    {
+      "url": "https://graveface.com/products.json?limit=20&page=1",
+      "sha256": "8fc46f4f2a8d6153f15fb986d8da0b6de5b139f159d21de46c37474b648b77f6"
+    },
+    {
+      "url": "https://graveface.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "5de684821fb91cb54ef541c58861b4a2ed82e1112b2345e3fa572ae20efb43ab"
+    },
+    {
+      "url": "https://graveface.com/products/the-capsules-full-moon-factory-12-single",
+      "sha256": "30c7b3986e23445ef13819b0c6811ce495f3f160f52fe53fde13072ce38e4fb8"
+    },
+    {
+      "url": "https://graveface.com/products/tw-walsh-blue-laws-2xlp",
+      "sha256": "284ae8647f0d29c09265cfcf4ae07d96ae2657d1d4c5db237bd4c17fcc177cfd"
+    },
+    {
+      "url": "https://graveface.com/products/monster-movie-all-lost-2026-lp?variant=52124635922712",
+      "sha256": "c4bb6116931d7072f52d5dcfc203ac3aab5733728efa10093f8d141342f3c48e"
+    },
+    {
+      "url": "https://graveface.com/products/kid-dakota-the-west-is-the-future-2xlp?variant=52422373966104",
+      "sha256": "0942bf90e9df380a4d5215daea4819c29f33e38718bc2a6b60301089137b4d92"
+    },
+    {
+      "url": "https://graveface.com/products/the-capsules-full-moon-factory-12-single?variant=52765441327384",
+      "sha256": "cbcdf71e3d51ca015eab7394a5592a49677540d763388d4db41e0d05a41af71a"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://graveface.com/products/monster-movie-all-lost-2026-lp?variant=52124635922712",
+    "https://graveface.com/products/kid-dakota-the-west-is-the-future-2xlp?variant=52422373966104",
+    "https://graveface.com/products/the-capsules-full-moon-factory-12-single?variant=52765441327384"
+  ],
+  "assessment_id": "v2-44952443493-1",
+  "queue_rows": [
+    4957
+  ],
+  "assessment_path": "assessments/v2/graveface_com/v2-44952443493-1.json"
+}
