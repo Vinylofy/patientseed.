@@ -1,0 +1,165 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T17:28:44.755725+00:00",
+  "shop_id": "lprecords22.fr",
+  "row": 3911,
+  "name": "Chicken Road🎖️Jouez au crash Chicken Road Casino",
+  "domain": "lprecords22.fr",
+  "country": null,
+  "website": "https://lprecords22.fr/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3911,
+    "name": "Chicken Road🎖️Jouez au crash Chicken Road Casino",
+    "domain": "lprecords22.fr",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://lprecords22.fr/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://lprecords22.fr/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://lprecords22.fr/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://lprecords22.fr/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://lprecords22.fr/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://lprecords22.fr/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://lprecords22.fr/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://lprecords22.fr/robots.txt",
+      "sha256": "44f3f8eafdf064cf69acb05f23ee4dfc9ab5b3d67d81c64246bc29f7e438789a"
+    },
+    {
+      "url": "https://lprecords22.fr/",
+      "sha256": "99edd7c6c8b34f0562010984a43e0e5618daca15c8841ea8901004ce9b8cbb0a"
+    },
+    {
+      "url": "https://lprecords22.fr/products.json?limit=20&page=1",
+      "sha256": "9433e01191e63b425832f826740631e42a4dae1fc5191bfb2b34da446741eac5"
+    },
+    {
+      "url": "https://lprecords22.fr/collections/all/products.json?limit=20&page=1",
+      "sha256": "768e49a88f5887a6a08d32b693b2fd863d9a4eee167b13444cb6d7ca1210bdc9"
+    },
+    {
+      "url": "https://lprecords22.fr/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "02fd1d796f273bebf8ee775656d4b4aa93c0440281b04026766e09ba94e3e517"
+    },
+    {
+      "url": "https://lprecords22.fr/api/0.1/collections/products?format=json",
+      "sha256": "2158e1ff3b087d487377dc52edefcbc4584c7d0c00ffc6f6d38795a88dda460d"
+    },
+    {
+      "url": "https://lprecords22.fr/api/0.1/collections/all/products?format=json",
+      "sha256": "b4db96b173d0f87f30a427966da8edd0c09dea509c07122263985973efb6c377"
+    },
+    {
+      "url": "https://lprecords22.fr/api/storefront/products?limit=20&offset=0",
+      "sha256": "d6f530c2b85b9f8267d2f190dd6a27457d006cc8e307d715077c1ac6a1f314f0"
+    },
+    {
+      "url": "https://lprecords22.fr/api/storefront/products?limit=20",
+      "sha256": "0a09dcfdf293eb260d13f0cbac09cafea8f523293f2dc2654ee762e60198e28c"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-44929737638-1",
+  "queue_rows": [
+    3911
+  ],
+  "assessment_path": "assessments/v2/lprecords22_fr/v2-44929737638-1.json"
+}
