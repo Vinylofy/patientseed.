@@ -1,0 +1,189 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T20:37:24.723108+00:00",
+  "shop_id": "flowrecordstore.com",
+  "row": 3724,
+  "name": "flowrecords",
+  "domain": "flowrecordstore.com",
+  "country": null,
+  "website": "https://flowrecordstore.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3724,
+    "name": "flowrecords",
+    "domain": "flowrecordstore.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://flowrecordstore.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 10,
+    "excluded": 10,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "CAD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://flowrecordstore.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://flowrecordstore.com/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://flowrecordstore.com/collections/all/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://flowrecordstore.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://flowrecordstore.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://flowrecordstore.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://flowrecordstore.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://flowrecordstore.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://flowrecordstore.com/products.json?limit=20&page=1",
+      "score": 105,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_status": "BLOCKED",
+    "detail_reason": "UnicodeEncodeError",
+    "detail_checked": 1,
+    "detail_gtin_valid": 0
+  },
+  "platform": "shopify",
+  "catalog_route": "https://flowrecordstore.com/products.json?limit=20&page=1",
+  "listing_sample": 10,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 10,
+    "unique_prices": 4,
+    "shipping_hits": 0,
+    "currencies": [
+      "CAD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://flowrecordstore.com/robots.txt",
+      "sha256": "5f6d27870a463eb0e812775412b3f82aa8884d59d621b72d3b21bd3d0d2a7109"
+    },
+    {
+      "url": "https://flowrecordstore.com/",
+      "sha256": "0ddf26dd55fe0c28f639b0ca8c537675c4ecc83d1963c2cc34f53d3c0945249f"
+    },
+    {
+      "url": "https://flowrecordstore.com/products.json?limit=20&page=1",
+      "sha256": "719f3b955e062afcbcb3867b13b7b484355d90069d11f4ef9013e4a864e81283"
+    },
+    {
+      "url": "https://flowrecordstore.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "e1d93e48b44e7d5db7329c987497b4fabd3d70173a9ff1e6ce83d15be214f255"
+    },
+    {
+      "url": "https://flowrecordstore.com/products/odol-slow-blink-clear-vinyl-japan-import",
+      "sha256": "9b9fb9929e9cb7d5159688d9b344b372bd64739dc2ccf18cbde377cd152bec2d"
+    },
+    {
+      "url": "https://flowrecordstore.com/products/tatsuro-yamashita-greatest-hits-of-new-vinyl-japan-import?variant=69661078814754",
+      "sha256": "aa469dc28bb1e2edcaa254980b06c7835734db36ab3fb615f27b37551b38121a"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "UnicodeEncodeError"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 0,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "UnicodeEncodeError"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-44946342303-1",
+  "queue_rows": [
+    3724
+  ],
+  "assessment_path": "assessments/v2/flowrecordstore_com/v2-44946342303-1.json"
+}
