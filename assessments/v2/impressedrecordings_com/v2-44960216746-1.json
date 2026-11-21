@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T23:11:24.629346+00:00",
+  "shop_id": "impressedrecordings.com",
+  "row": 3542,
+  "name": "Impressed Recordings",
+  "domain": "impressedrecordings.com",
+  "country": null,
+  "website": "https://impressedrecordings.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3542,
+    "name": "Impressed Recordings",
+    "domain": "impressedrecordings.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://impressedrecordings.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 24,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://impressedrecordings.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://impressedrecordings.com/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 21,
+        "accepted": 11,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://impressedrecordings.com/collections/all/products.json?limit=20&page=1",
+        "score": 245,
+        "products_seen": 24,
+        "accepted": 24,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://impressedrecordings.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://impressedrecordings.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://impressedrecordings.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://impressedrecordings.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://impressedrecordings.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://impressedrecordings.com/collections/all/products.json?limit=20&page=1",
+      "score": 245,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 1,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://impressedrecordings.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 11,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://impressedrecordings.com/robots.txt",
+      "sha256": "6f467bacc65ff3c389d3c0c22056500fd6b58d078a62101ea9ad2648b3a2b626"
+    },
+    {
+      "url": "https://impressedrecordings.com/",
+      "sha256": "f742e0aa0363f6db66fad6cca2c217b156e3fa8633a287738105b2e625f36c09"
+    },
+    {
+      "url": "https://impressedrecordings.com/products.json?limit=20&page=1",
+      "sha256": "50db9a749e5bd758477cd4c0db209df16bd25c4360a10c24bb8d5d7b2713ab6d"
+    },
+    {
+      "url": "https://impressedrecordings.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "888169f53257b6d78a11c7c7a688e68fac245492aeb710b63816634fc66b5beb"
+    },
+    {
+      "url": "https://impressedrecordings.com/products/2charm-star-scum-city-vinyl-lp",
+      "sha256": "a18e550601e98852b77d38aba7fea3d17327a334d0ed59c5f7e7f334b9e3d180"
+    },
+    {
+      "url": "https://impressedrecordings.com/products/agung-mango-in-belly-we-trust-vinyl-lp",
+      "sha256": "23038a5800c09bebc282ce52bc1ab5fc3952d52f2a7d0d27088919bf77725135"
+    },
+    {
+      "url": "https://impressedrecordings.com/products/babe-rainbow-mushroom?variant=47693664944446",
+      "sha256": "37fc87b9602f9d7347c2b598f8c3ab1e7a561fb300ca7be51a51305823cd136f"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "invalid_detail_gtin"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.1,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "invalid_detail_gtin"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-44960216746-1",
+  "queue_rows": [
+    3542
+  ],
+  "assessment_path": "assessments/v2/impressedrecordings_com/v2-44960216746-1.json"
+}
