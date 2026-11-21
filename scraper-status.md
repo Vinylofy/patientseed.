@@ -1,17 +1,17 @@
 # Centrale scraperstatus
 
-Bronregels: 5102. Behandeld voor broncontrole: 5053. Open voor broncontrole: 49.
+Bronregels: 5102. Behandeld voor broncontrole: 5102. Open voor broncontrole: 0.
 
 Een bronproef is geen volledig gebouwde scraper. EAN-cijfers zijn alleen kleine checksumproeven; private acceptatie, marktprijzen en imports volgen apart.
 
 ## Statusaantallen
 
-- ADAPTER_TESTED: 377
+- ADAPTER_TESTED: 379
 - DETAIL_GATE_BLOCKED: 102
-- ROUTE_REVIEW: 1936
-- SCRAPER_BUILT_TESTED: 523
-- SOURCE_BLOCKED: 855
-- SOURCE_REVIEW: 1260
+- ROUTE_REVIEW: 1966
+- SCRAPER_BUILT_TESTED: 527
+- SOURCE_BLOCKED: 867
+- SOURCE_REVIEW: 1261
 
 ## Brongroepen
 
@@ -21,10 +21,10 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 |---|---:|---:|---:|---:|
 | Oorspronkelijke lijst | 3303 | 3303 | 0 | 247 |
 | Findyl online — 25-10-2026 (50; inclusief 4 herbeoordelingen) | 50 | 50 | 0 | 28 |
-| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 1578 | 40 | 185 |
-| Vinylscout winkels — 19-11-2026 (nieuwe domeinen) | 9 | 0 | 9 | 0 |
+| LP/EP Finder shops — 19-11-2026 (nieuwe domeinen) | 1618 | 1618 | 0 | 186 |
+| Vinylscout winkels — 19-11-2026 (nieuwe domeinen) | 9 | 9 | 0 | 3 |
 | Waxtra Rumours — 19-11-2026 (nieuwe domeinen) | 122 | 122 | 0 | 63 |
-| **Totaal** | **5102** | **5053** | **49** | **523** |
+| **Totaal** | **5102** | **5102** | **0** | **527** |
 
 ## Winkels
 
@@ -5083,55 +5083,55 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 | 5050 | 59 | 5057 | Different Beat | differentbeattelevision.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
 | 5051 | 59 | 5058 | Discology | discologyreno.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
 | 5052 | 59 | 5059 | DJ Mikie Love | djmikielove.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
-| 5053 |  | 5060 | FOLMC | folmc.org |  | PENDING |  | — | broncontrole uitvoeren |
-| 5054 |  | 5061 | forcedexposure.com | forcedexposure.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5055 |  | 5062 | Gordon LaSalle Music | lasallemusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5056 |  | 5063 | graycatmusic.com | graycatmusic.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5057 |  | 5064 | HORROR PAIN GORE DEATH PRODUCTIONS :: The Official Website Of HPGD | horrorpaingoredeath.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5058 |  | 5065 | Hymie's Records | hymiesrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5059 |  | 5066 | idm-edm.com | idm-edm.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5060 |  | 5067 | jackniferecordsandtapes.com | jackniferecordsandtapes.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5061 |  | 5068 | Kentucky Music Hall of Fame and Museum | kentuckymusichalloffame.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5062 |  | 5069 | King Johnnie Casino AU | radiowasteland.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 5063 |  | 5070 | legacydumbo.com | legacydumbo.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5064 |  | 5071 | light-in-the-attic-record-shop.square.site | light-in-the-attic-record-shop.square.site |  | PENDING |  | — | broncontrole uitvoeren |
-| 5065 |  | 5072 | Mastering Teen Patti Master APK: The Ultimate Guide to India's Favorite Real Cash Card Game | rpmrecords.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 5066 |  | 5073 | Metzger Vintage Audio // Buy | metzgervintageaudio.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5067 |  | 5074 | Milkcrate Cafe | milkcratecafe.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5068 |  | 5075 | nextchapterrecords.com | nextchapterrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5069 |  | 5076 | NOCA | nocapresents.org |  | PENDING |  | — | broncontrole uitvoeren |
-| 5070 |  | 5077 | One moment, please... | friendsofsound.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5071 |  | 5078 | On&On | onandonscranton.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5072 |  | 5079 | Part Time Lover | parttimeloverhifi.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5073 |  | 5080 | queenofheartsjewelry.us | queenofheartsjewelry.us |  | PENDING |  | — | broncontrole uitvoeren |
-| 5074 |  | 5081 | recordrunnerusa.com | recordrunnerusa.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5075 |  | 5082 | Record Stop | recordstopny.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5076 |  | 5083 | rockpaperscissorsgoods.com | rockpaperscissorsgoods.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5077 |  | 5084 | roundmidnightrecords.com | roundmidnightrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5078 |  | 5085 | Royal Reels 25 Casino Australia | backwhenradiowasboss.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5079 |  | 5086 | Ska Dog Records | skadogrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5080 |  | 5087 | spacemonkeyrecords.net | spacemonkeyrecords.net |  | PENDING |  | — | broncontrole uitvoeren |
-| 5081 |  | 5088 | Squidco | squidco.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5082 |  | 5089 | SUDDEN LIGHT RECORDS | suddenlightrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5083 |  | 5090 | thedoorwi.com | thedoorwi.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5084 |  | 5091 | This site is under development | goodiesdisc.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5085 |  | 5092 | Tumblr | recordsfromjupiter.tumblr.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5086 |  | 5093 | Turntables & Trails | turntablestrails.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5087 |  | 5094 | The Wild Wood Books & Music | wildwoodhastings.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5088 |  | 5095 | yelp.com | yelp.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5089 |  | 5096 | Little Butterfly Records | littlebutterflyrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5090 |  | 5097 | Altoque Records | altoquerecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5091 |  | 5098 | Recordland | recordland.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5092 |  | 5099 | El Marchante | elmarchante.org |  | PENDING |  | — | broncontrole uitvoeren |
-| 5093 |  | 5100 | imusic.nl | imusic.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 5094 |  | 5101 | bol.com | bol.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5095 |  | 5102 | recordsonvinyl.nl | recordsonvinyl.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 5096 |  | 5103 | platenzaak.nl | platenzaak.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 5097 |  | 5104 | vinyllp.nl | vinyllp.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 5098 |  | 5105 | large.nl | large.nl |  | PENDING |  | — | broncontrole uitvoeren |
-| 5099 |  | 5106 | smartpunkshop.com | smartpunkshop.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5100 |  | 5107 | revinrecords.com | revinrecords.com |  | PENDING |  | — | broncontrole uitvoeren |
-| 5101 |  | 5108 | topnotch-shop.nl | topnotch-shop.nl |  | PENDING |  | — | broncontrole uitvoeren |
+| 5053 | 60 | 5060 | FOLMC | folmc.org | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5054 | 60 | 5061 | forcedexposure.com | forcedexposure.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5055 | 60 | 5062 | Gordon LaSalle Music | lasallemusic.com | bigcommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5056 | 60 | 5063 | graycatmusic.com | graycatmusic.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5057 | 60 | 5064 | HORROR PAIN GORE DEATH PRODUCTIONS :: The Official Website Of HPGD | horrorpaingoredeath.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5058 | 60 | 5065 | Hymie's Records | hymiesrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5059 | 60 | 5066 | idm-edm.com | idm-edm.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5060 | 60 | 5067 | jackniferecordsandtapes.com | jackniferecordsandtapes.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 5061 | 60 | 5068 | Kentucky Music Hall of Fame and Museum | kentuckymusichalloffame.com | woocommerce | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5062 | 60 | 5069 | King Johnnie Casino AU | radiowasteland.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5063 | 60 | 5070 | legacydumbo.com | legacydumbo.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5064 | 60 | 5071 | light-in-the-attic-record-shop.square.site | light-in-the-attic-record-shop.square.site | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5065 | 60 | 5072 | Mastering Teen Patti Master APK: The Ultimate Guide to India's Favorite Real Cash Card Game | rpmrecords.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5066 | 60 | 5073 | Metzger Vintage Audio // Buy | metzgervintageaudio.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5067 | 60 | 5074 | Milkcrate Cafe | milkcratecafe.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5068 | 60 | 5075 | nextchapterrecords.com | nextchapterrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5069 | 60 | 5076 | NOCA | nocapresents.org | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5070 | 60 | 5077 | One moment, please... | friendsofsound.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_404 |
+| 5071 | 60 | 5078 | On&On | onandonscranton.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5072 | 60 | 5079 | Part Time Lover | parttimeloverhifi.com | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5073 | 60 | 5080 | queenofheartsjewelry.us | queenofheartsjewelry.us | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 5074 | 60 | 5081 | recordrunnerusa.com | recordrunnerusa.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_503 |
+| 5075 | 60 | 5082 | Record Stop | recordstopny.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5076 | 60 | 5083 | rockpaperscissorsgoods.com | rockpaperscissorsgoods.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 5077 | 60 | 5084 | roundmidnightrecords.com | roundmidnightrecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 5078 | 60 | 5085 | Royal Reels 25 Casino Australia | backwhenradiowasboss.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5079 | 60 | 5086 | Ska Dog Records | skadogrecords.com | unknown | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_401 |
+| 5080 | 60 | 5087 | spacemonkeyrecords.net | spacemonkeyrecords.net | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5081 | 60 | 5088 | Squidco | squidco.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5082 | 60 | 5089 | SUDDEN LIGHT RECORDS | suddenlightrecords.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5083 | 60 | 5090 | thedoorwi.com | thedoorwi.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: URLError |
+| 5084 | 60 | 5091 | This site is under development | goodiesdisc.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 5085 | 60 | 5092 | Tumblr | recordsfromjupiter.tumblr.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5086 | 60 | 5093 | Turntables & Trails | turntablestrails.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5087 | 60 | 5094 | The Wild Wood Books & Music | wildwoodhastings.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5088 | 60 | 5095 | yelp.com | yelp.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 5089 | 60 | 5096 | Little Butterfly Records | littlebutterflyrecords.com | shopify | SCRAPER_BUILT_TESTED | 17 | 0/2 geldig | private QA en marktgate beoordelen |
+| 5090 | 60 | 5097 | Altoque Records | altoquerecords.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 5091 | 60 | 5098 | Recordland | recordland.com | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5092 | 60 | 5099 | El Marchante | elmarchante.org | squarespace | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5093 | 60 | 5100 | imusic.nl | imusic.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5094 | 60 | 5101 | bol.com | bol.com |  | SOURCE_REVIEW |  | — | bronidentiteit beoordelen: SHARED_PLATFORM |
+| 5095 | 60 | 5102 | recordsonvinyl.nl | recordsonvinyl.nl | shopify | SCRAPER_BUILT_TESTED | 20 | 2/2 geldig | private QA en marktgate beoordelen |
+| 5096 | 60 | 5103 | platenzaak.nl | platenzaak.nl | shopify | SCRAPER_BUILT_TESTED | 11 | 2/2 geldig | private QA en marktgate beoordelen |
+| 5097 | 60 | 5104 | vinyllp.nl | vinyllp.nl |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: HTTP_403 |
+| 5098 | 60 | 5105 | large.nl | large.nl | unknown | ROUTE_REVIEW |  | — | catalogusroute beoordelen: no public catalog route passed an adapter contract |
+| 5099 | 60 | 5106 | smartpunkshop.com | smartpunkshop.com |  | SOURCE_BLOCKED |  | — | toegang gericht hercontroleren: Invalid public source |
+| 5100 | 60 | 5107 | revinrecords.com | revinrecords.com | woocommerce | ADAPTER_TESTED | 0 | — | detailproef en EAN controleren: no confirmed new vinyl on bounded page |
+| 5101 | 60 | 5108 | topnotch-shop.nl | topnotch-shop.nl | shopify | SCRAPER_BUILT_TESTED | 15 | 0/2 geldig | private QA en marktgate beoordelen |
 
 <!-- quality-gate:start -->
 ## Inhoudelijke toelatingscontrole
