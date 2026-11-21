@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T17:42:58.569915+00:00",
+  "shop_id": "deadairvinyl.co.uk",
+  "row": 3421,
+  "name": "Dead Air Records",
+  "domain": "deadairvinyl.co.uk",
+  "country": null,
+  "website": "https://deadairvinyl.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3421,
+    "name": "Dead Air Records",
+    "domain": "deadairvinyl.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://deadairvinyl.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 14,
+    "excluded": 6,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://deadairvinyl.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://deadairvinyl.co.uk/products.json?limit=20&page=1",
+        "score": 145,
+        "products_seen": 20,
+        "accepted": 14,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://deadairvinyl.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 35,
+        "products_seen": 20,
+        "accepted": 3,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://deadairvinyl.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://deadairvinyl.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://deadairvinyl.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://deadairvinyl.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://deadairvinyl.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://deadairvinyl.co.uk/products.json?limit=20&page=1",
+      "score": 145,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://deadairvinyl.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 14,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 14,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://deadairvinyl.co.uk/robots.txt",
+      "sha256": "4743b7742ece10f777d01f368fc69c6d0ce2e903170b59d618ed5f51e8630cca"
+    },
+    {
+      "url": "https://deadairvinyl.co.uk/",
+      "sha256": "a45fe7eca161b6c1116d80d14607885b76221521577d7e22121114996ce0877b"
+    },
+    {
+      "url": "https://deadairvinyl.co.uk/products.json?limit=20&page=1",
+      "sha256": "2dabe3bd34395d5562a8762d56b2e587cd7f8269531120b1170a212350640c05"
+    },
+    {
+      "url": "https://deadairvinyl.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "54fc1b562b2a16e6a76d66aeca25e09d3a0adcb3fb1adecffff024c0064ad30c"
+    },
+    {
+      "url": "https://deadairvinyl.co.uk/products/vince-staples-dark-times",
+      "sha256": "c3529c8cf5d0d359b53f192a6b0c0c359c22e3cac570a16714c71e785a10bcc9"
+    },
+    {
+      "url": "https://deadairvinyl.co.uk/products/slayer-reign-in-blood",
+      "sha256": "fc0bed30a9281428f82760a8fa0865523eaf0d04a29d6263659320be2e7a0096"
+    },
+    {
+      "url": "https://deadairvinyl.co.uk/products/willie-j-healey-bunny?variant=57790782079349",
+      "sha256": "a1ea09adca8687bd96fcd7317a7544612d7aafa3c5ff3f79b44b78bafc6252dc"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "invalid_detail_gtin"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.8571428571428571,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "invalid_detail_gtin"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [],
+  "assessment_id": "v2-44929737638-1",
+  "queue_rows": [
+    3421
+  ],
+  "assessment_path": "assessments/v2/deadairvinyl_co_uk/v2-44929737638-1.json"
+}
