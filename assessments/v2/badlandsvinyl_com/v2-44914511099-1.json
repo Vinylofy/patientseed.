@@ -1,0 +1,240 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T14:33:50.500153+00:00",
+  "shop_id": "badlandsvinyl.com",
+  "row": 3549,
+  "name": "Badlands Vinyl",
+  "domain": "badlandsvinyl.com",
+  "country": null,
+  "website": "https://badlandsvinyl.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3549,
+    "name": "Badlands Vinyl",
+    "domain": "badlandsvinyl.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://badlandsvinyl.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://badlandsvinyl.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://badlandsvinyl.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://badlandsvinyl.com/collections/all/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://badlandsvinyl.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://badlandsvinyl.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://badlandsvinyl.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://badlandsvinyl.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://badlandsvinyl.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://badlandsvinyl.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://badlandsvinyl.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://badlandsvinyl.com/products/sleep-dopesmoker-double-vinyl-lp?variant=44810444701929",
+      "artist": "Sleep",
+      "title": "Dopesmoker - Double Vinyl LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "69.95",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://badlandsvinyl.com/products/the-smile-cutouts-vinyl-lp?variant=47869481517289",
+      "artist": "The Smile",
+      "title": "Cutouts - Vinyl LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "59.95",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://badlandsvinyl.com/products/nirvana-nirvana-lp-compilation-reissue?variant=50622672797929",
+      "artist": "Nirvana",
+      "title": "Nirvana - Vinyl LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "59.95",
+      "currency": "AUD",
+      "valid_eans": [
+        "00602547378781"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://badlandsvinyl.com/robots.txt",
+      "sha256": "9cd70fd74be2bbe958169a4391139532e4e7443bf6f35b6330eec703158b50fc"
+    },
+    {
+      "url": "https://badlandsvinyl.com/",
+      "sha256": "88124cb67b569454755f169f7102e2b59a6dfdaa0751e0e0b1b69024c5194b70"
+    },
+    {
+      "url": "https://badlandsvinyl.com/products.json?limit=20&page=1",
+      "sha256": "d521c2a8125eb05ad8122822d91f1e4ab3bd8d05adcc53ff9dedb13cca83823c"
+    },
+    {
+      "url": "https://badlandsvinyl.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "bbdb341123eb5f961841db13e89c00d9b4647702d4b3bd5eb4e809cae50f2958"
+    },
+    {
+      "url": "https://badlandsvinyl.com/products/nirvana-nirvana-lp-compilation-reissue",
+      "sha256": "ad2ff3694447cb8e58a2e98ebd929b79e51d18cb817d6c7b7ae178576b2cb37c"
+    },
+    {
+      "url": "https://badlandsvinyl.com/products/lily-allen-west-end-girl-indie-exclusive-clear-vinyl-lp",
+      "sha256": "525a8103186cd1882ef7f946f1256b8175bb9c971fe0a3efe2924a0bebf61ade"
+    },
+    {
+      "url": "https://badlandsvinyl.com/products/sleep-dopesmoker-double-vinyl-lp?variant=44810444701929",
+      "sha256": "0c1ced24b038c57c95141d38efbbf8c6ba3e1e3535ef33a80e86c602ee174ec6"
+    },
+    {
+      "url": "https://badlandsvinyl.com/products/the-smile-cutouts-vinyl-lp?variant=47869481517289",
+      "sha256": "6ab0e8c8fbb8f60e4afbd49cf63b64910cd531b2bd8862649483e2d54a4a4e21"
+    },
+    {
+      "url": "https://badlandsvinyl.com/products/nirvana-nirvana-lp-compilation-reissue?variant=50622672797929",
+      "sha256": "a2185579b06037846a5b1dc1cd1ba7507a5c1a3b6fac3ccfa1593f2e3fce6d73"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 1,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "REVIEW",
+  "example_urls": [
+    "https://badlandsvinyl.com/products/sleep-dopesmoker-double-vinyl-lp?variant=44810444701929",
+    "https://badlandsvinyl.com/products/the-smile-cutouts-vinyl-lp?variant=47869481517289",
+    "https://badlandsvinyl.com/products/nirvana-nirvana-lp-compilation-reissue?variant=50622672797929"
+  ],
+  "assessment_id": "v2-44914511099-1",
+  "queue_rows": [
+    3549
+  ],
+  "assessment_path": "assessments/v2/badlandsvinyl_com/v2-44914511099-1.json"
+}
