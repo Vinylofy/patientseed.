@@ -5259,7 +5259,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | factoryrecords.com | 3 | APPROVED | 0 | 14 | 3/3 | ACTIVE (run 44891291707) | ACTIVE | run 39373494403 |
 | famousrockshop.com.au | 40 | REVIEW | 0 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | feelitrecordshop.com | 21 | FROZEN | 3 | 8 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| finersounds.com | 3 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 39373494403 |
+| finersounds.com | 3 | APPROVED | 0 | 20 | 3/3 | ACTIVE (run 44891291707) | ACTIVE | run 39373494403 |
 | firetalk.shop | 22 | FROZEN | 3 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | firstcityrecordstore.com | 22 | FROZEN | 3 | 6 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | fivebuckbin.com | 40 | APPROVED | 0 | 20 | 3/3 | ACTIVE (run 44891291707) | ACTIVE | run 44881153515 |
