@@ -1,0 +1,110 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T23:14:55.995944+00:00",
+  "shop_id": "jazzymas.com",
+  "row": 4582,
+  "name": "Jazz y Mas",
+  "domain": "jazzymas.com",
+  "country": null,
+  "website": "https://jazzymas.com/",
+  "previous_status": "SOURCE_BLOCKED",
+  "previous_reason": "HTTP_401",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4582,
+    "name": "Jazz y Mas",
+    "domain": "jazzymas.com",
+    "status": "SOURCE_BLOCKED",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "source_url": "https://jazzymas.com/api/0.1/collections/products?format=json",
+    "reason": "HTTP_401",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://jazzymas.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://jazzymas.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://jazzymas.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": "https://jazzymas.com/api/0.1/collections/products?format=json",
+  "requests": [
+    {
+      "url": "https://jazzymas.com/robots.txt",
+      "sha256": "d11cd8aee1fff1be1fafa7486101f64d59561be2c9311687bc8ccab84ea2de5a"
+    },
+    {
+      "url": "https://jazzymas.com/",
+      "sha256": "f3e74689562502aeda45b986386d83541bbbed14a796a3bd9af54cfa02c6f402"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "HTTP_401"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "HTTP_401"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-44960216746-1",
+  "queue_rows": [
+    4582
+  ],
+  "assessment_path": "assessments/v2/jazzymas_com/v2-44960216746-1.json"
+}
