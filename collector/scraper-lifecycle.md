@@ -3707,3 +3707,103 @@ Maximale bouwpogingen: 3
 | graveface.com | 4957 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['graveface_com.py', 'graveface_com.json'] |
 | bloodshotrecords.com | 4958 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | gazette.com | 4959 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thepearlrecords.com | 4960 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| secondtimearound.com | 4961 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| rockstockstore.com | 4962 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| shop.submerge.com | 4963 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| dothannurseries.com | 4964 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| rettigmusic.com | 4965 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| fye.com | 4966 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| the-vinyl-record-bank.edan.io | 4967 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| popplersmusic.com | 4968 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| shophipporecords.com | 4969 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| micheomusic.com | 4970 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| vprecords.com | 4971 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| rockshoprecordstores.com | 4972 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['rockshoprecordstores_com.py', 'rockshoprecordstores_com.json'] |
+| citymusiconline.com | 4973 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| pecknelmusic.com | 4974 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| palenmusic.com | 4975 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| leftysrecords.com | 4976 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| toxictoastlongbeach.square.site | 4977 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| plaidroomrecords.blogspot.com | 4978 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| metronomemusic.com | 4979 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| revinylizevintageaudio.com | 4980 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wonderlandrecords.wordpress.com | 4981 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| peachesrecordsandtapes.com | 4982 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| lemaycoantiques.com | 4983 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| personsofinterestbklyn.com | 4984 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mostlymusic.com | 4985 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| sasitalian.weebly.com | 4986 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sweetpeanutrecords.com | 4987 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['sweetpeanutrecords_com.py', 'sweetpeanutrecords_com.json'] |
+| veryfriendlymusic.com | 4988 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['veryfriendlymusic_com.py', 'veryfriendlymusic_com.json'] |
+| materialworldrecords.com | 4989 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| propertyistheft.org | 4990 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| georgesmusic.com | 4991 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| mossy-bottom-records.webnode.page | 4992 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| round-midnight-records.edan.io | 4993 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| vintageclassicinstruments.com | 4994 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| poohbah.com | 4995 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| allmusicinc.com | 4996 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| citynoiserecords.com | 4997 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['citynoiserecords_com.py', 'citynoiserecords_com.json'] |
+| jigsaw-records.com | 4998 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['jigsaw_records_com.py', 'jigsaw_records_com.json'] |
+| portlandmusiccompany.com | 4999 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['portlandmusiccompany_com.py', 'portlandmusiccompany_com.json'] |
+| shop.darksiderecords.com | 5000 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['shop_darksiderecords_com.py', 'shop_darksiderecords_com.json'] |
+| rockthistownrecords.com | 5001 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['rockthistownrecords_com.py', 'rockthistownrecords_com.json'] |
+| nicepriceboo.com | 5002 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['nicepriceboo_com.py', 'nicepriceboo_com.json'] |
+| the-pour-house-record-shop.myshopify.com | 5003 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['the_pour_house_record_shop_myshopify_com.py', 'the_pour_house_record_shop_myshopify_com.json'] |
+| pourhouseraleigh.com | 5004 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| deepgroovevinyl.com | 5005 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| power-plant-records.myshopify.com | 5006 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| cafesuspiro.com | 5007 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| missionsynths.com | 5008 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| jdcrecordstore.com | 5009 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| paradiserecordsandtradingpost.com | 5010 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['paradiserecordsandtradingpost_com.py', 'paradiserecordsandtradingpost_com.json'] |
+| sourgummyrecords.square.site | 5011 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hifilofi.shop | 5012 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['hifilofi_shop.py', 'hifilofi_shop.json'] |
+| lightintheattic.net | 5013 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['lightintheattic_net.py', 'lightintheattic_net.json'] |
+| thevinylswap.net | 5014 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['thevinylswap_net.py', 'thevinylswap_net.json'] |
+| kitsapav.com | 5015 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| endlessmediacorporation.com | 5016 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['endlessmediacorporation_com.py', 'endlessmediacorporation_com.json'] |
+| musicrecordshop.com | 5017 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['musicrecordshop_com.py', 'musicrecordshop_com.json'] |
+| underthesurfacerecords.com | 5018 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| mencheymusic.com | 5019 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| seeyoucdandvinyl.com | 5020 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| drumnstrum.com | 5021 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| earcave.com | 5022 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['earcave_com.py', 'earcave_com.json'] |
+| redonionrecordsandbooks.com | 5023 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wcmusicstore.com | 5024 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| cahousemusic.com | 5025 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| recordsbymail.com | 5026 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| digitrecordbarn.com | 5027 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| platinum-records.com | 5028 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| downtownsoundlogan.square.site | 5029 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| dreaminghuman.com | 5030 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| firetalkrecs.com | 5031 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| fivespaceshop.com | 5032 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['fivespaceshop_com.py', 'fivespaceshop_com.json'] |
+| lightofdayrecords.com | 5033 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| lovebusrecords.com | 5034 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| microgroovetampa.co | 5035 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musicdirect.com | 5036 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| purplenarwhal.com | 5037 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| radio-active-records.com | 5038 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| recordsalbums.com | 5039 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_401 |
+| rerunzrecords.com | 5040 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| revolverrecordsbuffalo.com | 5041 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| music.rockinrudys.com | 5042 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| selectorseattle.com | 5043 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| shop.lunamusic.net | 5044 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| sound-annex.com | 5045 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| spinarecords.com | 5046 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| steelworker-records.square.site | 5047 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thedenrecords.square.site | 5048 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| 1234gorecords.com | 5049 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| allmylinks.com | 5050 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| newenglandvinylrecordshow.blogspot.com | 5051 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| squarerecordsakron.com | 5052 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| cavemanvintage.com | 5053 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| cdcentral.bigcartel.com | 5054 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| clayscorner.com | 5055 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| clearwaterrecordshop.com | 5056 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| differentbeattelevision.com | 5057 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| discologyreno.com | 5058 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| djmikielove.com | 5059 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
