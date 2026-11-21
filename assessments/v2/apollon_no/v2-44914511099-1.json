@@ -1,0 +1,109 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T14:48:18.535683+00:00",
+  "shop_id": "apollon.no",
+  "row": 4515,
+  "name": "Apollon Platebar",
+  "domain": "apollon.no",
+  "country": null,
+  "website": "https://apollon.no/",
+  "previous_status": "ADAPTER_TESTED",
+  "previous_reason": "no confirmed new vinyl on bounded page",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4515,
+    "name": "Apollon Platebar",
+    "domain": "apollon.no",
+    "status": "SOURCE_BLOCKED",
+    "gate": "catalog_route",
+    "platform": "woocommerce",
+    "source_url": "https://apollon.no/collections/all/products.json?limit=20&page=1",
+    "reason": "HTTP_403",
+    "method_candidates": [
+      {
+        "platform": "woocommerce",
+        "route": "https://apollon.no/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://apollon.no/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ]
+  },
+  "platform": "woocommerce",
+  "catalog_route": "https://apollon.no/collections/all/products.json?limit=20&page=1",
+  "requests": [
+    {
+      "url": "https://apollon.no/robots.txt",
+      "sha256": "e140767b4db836be385d8bdfe70bcf3b9c2491c069cb022261c04cba2a97cb20"
+    },
+    {
+      "url": "https://apollon.no/",
+      "sha256": "6758f08c8077342fc47c3aa212a23c36846474f31cc41dbd5109a8f62ae9be87"
+    },
+    {
+      "url": "https://apollon.no/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "5230d903e74ab46c3892f4f5c7684bd9d97c8caf6324b22745381099cddbd4b5"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "HTTP_403"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "HTTP_403"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-44914511099-1",
+  "queue_rows": [
+    4515
+  ],
+  "assessment_path": "assessments/v2/apollon_no/v2-44914511099-1.json"
+}
