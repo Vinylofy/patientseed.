@@ -3607,3 +3607,103 @@ Maximale bouwpogingen: 3
 | vinylvan.co.uk | 4857 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
 | vodmusic.co.uk | 4858 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
 | yewtreerecords.com | 4859 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| 81renshaw.co.uk | 4860 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| 586records.com | 4861 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| applestumprecords.com | 4862 | 1 | SOURCE_BLOCKED | — | — | — | Response size limit |
+| astonishingsounds.net | 4863 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| backtomonorecords.com | 4864 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| siopaceoil.com | 4865 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| blackcirclerecords.co.uk | 4866 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| bscene.co.uk | 4867 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| casbahrecords.co.uk | 4868 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| castlesounds.co.uk | 4869 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| clocktowerrecords.co.uk | 4870 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| coreofthepoodle.com | 4871 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| derricksmusic.co.uk | 4872 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| thediskery.net | 4873 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| doubledoublegood.co.uk | 4874 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| fiveriserecords.co.uk | 4875 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| fopp.com | 4876 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| good-vibes.space | 4877 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylrecordsessex.com | 4878 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| hipressrecords.com | 4879 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| htfr.com | 4880 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| hundredrecords.com | 4881 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| boomkat.com | 4882 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| jacarandarecords.com | 4883 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| japhy.co.uk | 4884 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| jellyrecords.co.uk | 4885 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| juno.co.uk | 4886 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musicstack.com | 4887 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| keepaudioco.co.uk | 4888 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| shop.kudosrecords.co.uk | 4889 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| honestjons.com | 4890 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| leftofthedialrecords.co.uk | 4891 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| luckys-record-bar.sumupstore.com | 4892 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musicmaniauk.com | 4893 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| musicnostalgia.co.uk | 4894 | 1 | SOURCE_BLOCKED | — | — | — | Invalid public source |
+| bookstoptavistock.co.uk | 4895 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| musicsnotdead.co.uk | 4896 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| needleandfern.co.uk | 4897 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| willen-hospice.org.uk | 4898 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| olafsrecordstore.co.uk | 4899 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| olympicstudiosrecords.co.uk | 4900 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| irelandvinyl.com | 4901 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['irelandvinyl_com.py', 'irelandvinyl_com.json'] |
+| sugarbushrecords.info | 4902 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| openreeltoreel.com | 4903 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| theorpington.co.uk | 4904 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| outonthefloorrecords.com | 4905 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| voidvinyl.com | 4906 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| psychotronrecords.co.uk | 4907 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| queenstreetrecords.co.uk | 4908 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| quicksilvermusic.co.uk | 4909 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| raresoulman.co.uk | 4910 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| ravesfromthegrave.com | 4911 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['ravesfromthegrave_com.py', 'ravesfromthegrave_com.json'] |
+| therecordshopltd.com | 4912 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| redeyerecords.co.uk | 4913 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| reflexrecordshop.com | 4914 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| reggaemasters.co.uk | 4915 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| relicsrecords.co.uk | 4916 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| revolution-records.co.uk | 4917 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| vintagerecordshop.com | 4918 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| rockbox.co.uk | 4919 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| rubbersoulrecords.com | 4920 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| secondscene.co.uk | 4921 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| seismicrecords.co.uk | 4922 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| shakethefoundations.com | 4923 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| slabrecords.co.uk | 4924 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| sliderecordshop.com | 4925 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| somegreatreward.scot | 4926 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| soulbrother.com | 4927 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| souljazzrecords.co.uk | 4928 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| sounditoutrecords.co.uk | 4929 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| soundsoftheuniverse.com | 4930 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| spillersrecords.uk | 4931 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| spinsounds.com | 4932 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| spintheblack.com | 4933 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| swordfishrecords.co.uk | 4934 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| tallbirdrecords.co.uk | 4935 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| tenpinrecords.co.uk | 4936 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| tomerecords.co.uk | 4937 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| undergroundsolution.com | 4938 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| unearthedsounds.co.uk | 4939 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| unionmusicstore.com | 4940 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| ventnorexchange.co.uk | 4941 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| mfeshops.com | 4942 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinylandvintage.net | 4943 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| vinyleddie.co.uk | 4944 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_403 |
+| helterskelterrecords.co.uk | 4945 | 1 | SOURCE_BLOCKED | — | — | — | URLError |
+| volumerecords.ie | 4946 | 1 | SOURCE_BLOCKED | — | — | — | HTTP_429 |
+| voxboxmusic.co.uk | 4947 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| wreckingballstore.co.uk | 4948 | 1 | SOURCE_BLOCKED | — | — | — | RemoteDisconnected |
+| kpopmusictownla.com | 4949 | 1 | ADAPTER_TESTED | — | — | — | https://kpopmusictownla.com/products.json?limit=20&page=1 |
+| physicalmedia.com | 4950 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| heidmusic.com | 4951 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| bst-ohio.com | 4952 | 1 | ADAPTER_TESTED | — | — | — | no confirmed new vinyl on bounded page |
+| theyetee.com | 4953 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['theyetee_com.py', 'theyetee_com.json'] |
+| fortherecordtx.com | 4954 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['fortherecordtx_com.py', 'fortherecordtx_com.json'] |
+| puscifer.com | 4955 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['puscifer_com.py', 'puscifer_com.json'] |
+| monostereo1stop.com | 4956 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| graveface.com | 4957 | 1 | SCRAPER_BUILT_TESTED | — | — | — | ['graveface_com.py', 'graveface_com.json'] |
+| bloodshotrecords.com | 4958 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
+| gazette.com | 4959 | 1 | ROUTE_REVIEW | — | — | — | no public catalog route passed an adapter contract |
