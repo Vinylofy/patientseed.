@@ -1,0 +1,153 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T21:44:33.980512+00:00",
+  "shop_id": "tattoo22.de",
+  "row": 4011,
+  "name": "Good Old Vinyl",
+  "domain": "tattoo22.de",
+  "country": null,
+  "website": "https://tattoo22.de/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4011,
+    "name": "Good Old Vinyl",
+    "domain": "tattoo22.de",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://tattoo22.de/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://tattoo22.de/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://tattoo22.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://tattoo22.de/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://tattoo22.de/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://tattoo22.de/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://tattoo22.de/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://tattoo22.de/robots.txt",
+      "sha256": "a6b015709f39b0b8abc6063616b2a49a477f750429905bc397d87e6a953678c9"
+    },
+    {
+      "url": "https://tattoo22.de/",
+      "sha256": "b91a25adac0ec0f6682845b31b0f8c4c74499f7f32c549ee4a89370194b08a1e"
+    },
+    {
+      "url": "https://tattoo22.de/products.json?limit=20&page=1",
+      "sha256": "6cf0e44cda77db8b14aec638d9df9def0f8068cd44a3cd689a0945bfeef2a699"
+    },
+    {
+      "url": "https://tattoo22.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "2ff2b4da92b9ecfa8b007946eaef1c87ccc9e95144fa804c856c9ea1179da18e"
+    },
+    {
+      "url": "https://tattoo22.de/api/storefront/products?limit=20&offset=0",
+      "sha256": "a28e787b21aaf486c643ad4ae872bf218da90eefc5b0ecb5c89334d7b489dd82"
+    },
+    {
+      "url": "https://tattoo22.de/api/storefront/products?limit=20",
+      "sha256": "c0c95e9ad8a4d6b1218de76ce93850de8861f8ec067b61471d8d71da550fa2e0"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-44952443493-1",
+  "queue_rows": [
+    4011
+  ],
+  "assessment_path": "assessments/v2/tattoo22_de/v2-44952443493-1.json"
+}
