@@ -1,0 +1,242 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-21T21:45:03.249916+00:00",
+  "shop_id": "goofinrecords.fi",
+  "row": 3812,
+  "name": "Goofin Records",
+  "domain": "goofinrecords.fi",
+  "country": null,
+  "website": "https://goofinrecords.fi/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3812,
+    "name": "Goofin Records",
+    "domain": "goofinrecords.fi",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://goofinrecords.fi/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 3,
+    "excluded": 17,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://goofinrecords.fi/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://goofinrecords.fi/products.json?limit=20&page=1",
+        "score": 35,
+        "products_seen": 20,
+        "accepted": 3,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://goofinrecords.fi/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://goofinrecords.fi/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://goofinrecords.fi/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://goofinrecords.fi/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://goofinrecords.fi/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://goofinrecords.fi/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://goofinrecords.fi/products.json?limit=20&page=1",
+      "score": 35,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 1,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://goofinrecords.fi/products.json?limit=20&page=1",
+  "listing_sample": 3,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 3,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://goofinrecords.fi/products/the-flawless-ms-drake?variant=68062444224797",
+      "artist": "",
+      "title": "Stereophonic Space Sound Unlimited : The Flawless Ms Drake LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "40.00",
+      "currency": "EUR",
+      "valid_eans": [
+        "00709388054543"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://goofinrecords.fi/products/griefton-sons-don-t-call-me-a-cowboy?variant=68067922051357",
+      "artist": "",
+      "title": "Griefton Sons:  Don’t Call Me A Cowboy",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "27.00",
+      "currency": "EUR",
+      "valid_eans": [
+        "06417138723918"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://goofinrecords.fi/products/dave-lindholm-huoneet-6-14-lp?variant=68142364721437",
+      "artist": "",
+      "title": "Dave Lindholm: Huoneet 6 & 14 LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "20.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://goofinrecords.fi/robots.txt",
+      "sha256": "b8137929933a77d3c30f671dd0369951cc1e6e15580975aa7d12a600e12fc3c3"
+    },
+    {
+      "url": "https://goofinrecords.fi/",
+      "sha256": "93d4579cd33dbd5b41994fa0a5a0cf259fecab1a158eba01f30dbd0696185c2f"
+    },
+    {
+      "url": "https://goofinrecords.fi/products.json?limit=20&page=1",
+      "sha256": "8ba1cb50a3654cd8316afd9b06bfaa473397eda2bd8497decafbd29a12c80c65"
+    },
+    {
+      "url": "https://goofinrecords.fi/collections/all/products.json?limit=20&page=1",
+      "sha256": "0213a24100b9fead280dd4decec91e127a14e541d8629d6424a58d3b8c074f02"
+    },
+    {
+      "url": "https://goofinrecords.fi/products/dave-lindholm-huoneet-6-14-lp",
+      "sha256": "4409045fe1b3e3d55b60d763adc2f576ff77d43a0b29a2412a2029873e568747"
+    },
+    {
+      "url": "https://goofinrecords.fi/products/griefton-sons-don-t-call-me-a-cowboy",
+      "sha256": "30840021bbcc1084f48aa2251b96c48278cdd9dfd7ba0705258e4ae845ebc486"
+    },
+    {
+      "url": "https://goofinrecords.fi/products/the-flawless-ms-drake?variant=68062444224797",
+      "sha256": "23c0c90dffa30782e3b3aed55eeed22982abd5cea2f70d6057cc7a449e941ad2"
+    },
+    {
+      "url": "https://goofinrecords.fi/products/griefton-sons-don-t-call-me-a-cowboy?variant=68067922051357",
+      "sha256": "bbfdec8a8397c8435b4aa8d3bef39cf98cd0483648308fb84808b8bb73757371"
+    },
+    {
+      "url": "https://goofinrecords.fi/products/dave-lindholm-huoneet-6-14-lp?variant=68142364721437",
+      "sha256": "9bff38874767628c06e50bf0709690efe9846232eeb18b6325f03446215efa48"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 2,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://goofinrecords.fi/products/the-flawless-ms-drake?variant=68062444224797",
+    "https://goofinrecords.fi/products/griefton-sons-don-t-call-me-a-cowboy?variant=68067922051357",
+    "https://goofinrecords.fi/products/dave-lindholm-huoneet-6-14-lp?variant=68142364721437"
+  ],
+  "assessment_id": "v2-44952443493-1",
+  "queue_rows": [
+    3812
+  ],
+  "assessment_path": "assessments/v2/goofinrecords_fi/v2-44952443493-1.json"
+}
