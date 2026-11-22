@@ -1,0 +1,165 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T14:34:41.858317+00:00",
+  "shop_id": "patate-records.com",
+  "row": 3873,
+  "name": "Patate Records",
+  "domain": "patate-records.com",
+  "country": null,
+  "website": "https://patate-records.com/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3873,
+    "name": "Patate Records",
+    "domain": "patate-records.com",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://patate-records.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://patate-records.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://patate-records.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://patate-records.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://patate-records.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://patate-records.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://patate-records.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://patate-records.com/robots.txt",
+      "sha256": "af89032945de3d5dccfd651968bab4ba1153a54e2b5ce219324ef33a5bfb229d"
+    },
+    {
+      "url": "https://patate-records.com/",
+      "sha256": "5fefe223bc23b44ba1855ca7f6c7b33ee214419fc601c9c6414c7cf8430741c4"
+    },
+    {
+      "url": "https://patate-records.com/products.json?limit=20&page=1",
+      "sha256": "a9ef5ac7ba7078acd86e200827ecd8df8eca755bc27e318690332f4a126a52da"
+    },
+    {
+      "url": "https://patate-records.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "e829cdc377adafe152c8b88f6b47b9b28f7027575e3df9278dc60d9258c66c36"
+    },
+    {
+      "url": "https://patate-records.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "4db48437e338eaf5aa38552a019b3339865848024e6e402de3f24e2f3f4ab4d2"
+    },
+    {
+      "url": "https://patate-records.com/api/0.1/collections/products?format=json",
+      "sha256": "d23a44f81d8fadc616c6eb504a108ec704a8a149cf809f1f7bcf8a43edac7168"
+    },
+    {
+      "url": "https://patate-records.com/api/0.1/collections/all/products?format=json",
+      "sha256": "7263ea583468643db8c6e6637cc79ba590412fdfc646814b9a1153fd47255a45"
+    },
+    {
+      "url": "https://patate-records.com/api/storefront/products?limit=20&offset=0",
+      "sha256": "82da593c88493fed64099645c48f5172b3a815e4da9f7d31a527f09fd8f9a6d4"
+    },
+    {
+      "url": "https://patate-records.com/api/storefront/products?limit=20",
+      "sha256": "68336426e6bb73e632e0832dfeb6d0497e424376804b887939bcaceac3bdb377"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-45033003470-1",
+  "queue_rows": [
+    3873
+  ],
+  "assessment_path": "assessments/v2/patate_records_com/v2-45033003470-1.json"
+}
