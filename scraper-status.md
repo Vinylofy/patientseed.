@@ -5197,7 +5197,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | blackcityrecords.co.uk | 12 | FROZEN | 3 | 18 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | blackdotsbuffalo.shop | 19 | FROZEN | 3 | 13 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | blitzkriegshop.co.uk | 39 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| bobsvinyl.nl | 40 | APPROVED | 0 | 20 | 1/3 | ACTIVE | INCIDENT | run 44881153515 |
+| bobsvinyl.nl | 40 | APPROVED | 0 | 20 | 1/3 | ACTIVE | REPAIR_REQUIRED (run 45017559610) | run 44881153515 |
 | boilerroomrecords.co.uk | 39 | REVIEW | 0 | 20 | 0/1 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | booboorecords.com | 1 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 39155794450 |
 | bordelloaparigi.com | 40 | REVIEW | 0 | 6 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
