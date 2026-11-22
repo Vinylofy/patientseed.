@@ -1,0 +1,204 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T16:27:05.908531+00:00",
+  "shop_id": "recordplant.co.uk",
+  "row": 4795,
+  "name": "Record Plant York",
+  "domain": "recordplant.co.uk",
+  "country": null,
+  "website": "https://recordplant.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4795,
+    "name": "Record Plant York",
+    "domain": "recordplant.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://recordplant.co.uk/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 1,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://recordplant.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://recordplant.co.uk/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://recordplant.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://recordplant.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://recordplant.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://recordplant.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://recordplant.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://recordplant.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://recordplant.co.uk/collections/all/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://recordplant.co.uk/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://recordplant.co.uk/products/13th-floor-elevators-we-are-not-live-1lp-black-vinyl-rsd-2026?variant=54184750252355",
+      "artist": "13th Floor Elevators",
+      "title": "We Are Not Live - 1LP - Black Vinyl  [RSD 2026]",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "25.99",
+      "currency": "GBP",
+      "valid_eans": [
+        "05061110805119"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://recordplant.co.uk/robots.txt",
+      "sha256": "e4026fb36f7f91d6380aae01c0b8fdf62d4526db7fc25f9130775f882d50e66e"
+    },
+    {
+      "url": "https://recordplant.co.uk/",
+      "sha256": "8ffc6514998af57ee46bc68d4c35e1586de93cce5641f7eea36370abd0b6fb6a"
+    },
+    {
+      "url": "https://recordplant.co.uk/products.json?limit=20&page=1",
+      "sha256": "f626d930336b6785e29844fefaf673946a47874701ffc149d6d091128754d7ba"
+    },
+    {
+      "url": "https://recordplant.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "9cdf4a9a0ca81d1fc8b5d0998c9a2ae667a3ca05967c70b802365fcc99bf8791"
+    },
+    {
+      "url": "https://recordplant.co.uk/products/13th-floor-elevators-we-are-not-live-1lp-black-vinyl-rsd-2026",
+      "sha256": "6c3a9c5957cfe0a0075640f9d08df9d4fc4f98f7486abd9b89a27b49c413f63b"
+    },
+    {
+      "url": "https://recordplant.co.uk/products/13th-floor-elevators-we-are-not-live-1lp-black-vinyl-rsd-2026?variant=54184750252355",
+      "sha256": "f6889561106e3fa5c19cac01ff9f6525e980f874dacdfa9c254c163709f558fa"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "insufficient_representative_product_evidence"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 1,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://recordplant.co.uk/products/13th-floor-elevators-we-are-not-live-1lp-black-vinyl-rsd-2026?variant=54184750252355"
+  ],
+  "assessment_id": "v2-45042398031-1",
+  "queue_rows": [
+    4795
+  ],
+  "assessment_path": "assessments/v2/recordplant_co_uk/v2-45042398031-1.json"
+}
