@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T12:32:18.622306+00:00",
+  "shop_id": "musiclab.mx",
+  "row": 4380,
+  "name": "Musiclab* Records",
+  "domain": "musiclab.mx",
+  "country": null,
+  "website": "https://musiclab.mx/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4380,
+    "name": "Musiclab* Records",
+    "domain": "musiclab.mx",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://musiclab.mx/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 9,
+    "excluded": 11,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "MXN",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://musiclab.mx/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://musiclab.mx/products.json?limit=20&page=1",
+        "score": 35,
+        "products_seen": 20,
+        "accepted": 3,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://musiclab.mx/collections/all/products.json?limit=20&page=1",
+        "score": 95,
+        "products_seen": 20,
+        "accepted": 9,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://musiclab.mx/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://musiclab.mx/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://musiclab.mx/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://musiclab.mx/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://musiclab.mx/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://musiclab.mx/collections/all/products.json?limit=20&page=1",
+      "score": 95,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://musiclab.mx/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 9,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 9,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "MXN"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://musiclab.mx/products/2-chainz-so-help-me-god-lp?variant=39378233393229",
+      "artist": "2 Chainz",
+      "title": "So Help Me God [LP]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "900.00",
+      "currency": "MXN",
+      "valid_eans": [
+        "00602435442389"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://musiclab.mx/products/44-44-purple-splatter-vinyl?variant=50864898638082",
+      "artist": "+44",
+      "title": "+44 (Purple Splatter Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "1300.00",
+      "currency": "MXN",
+      "valid_eans": [
+        "00602475372578"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://musiclab.mx/products/uicideboy-new-world-depression-coke-bottle-dark-green-vinyl?variant=46713748259074",
+      "artist": "$uicideboy$",
+      "title": "New World Depression (Coke Bottle Dark Green Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "990.00",
+      "currency": "MXN",
+      "valid_eans": [
+        "00198391598197"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://musiclab.mx/robots.txt",
+      "sha256": "6c93a820cf29db8c205337bfe34cbc7dc57224571132d0e42ea879cd86df2e77"
+    },
+    {
+      "url": "https://musiclab.mx/",
+      "sha256": "452a0506c55a299cbea9837a51660dcd14c78cd4b82fde53a52876900a08dc49"
+    },
+    {
+      "url": "https://musiclab.mx/products.json?limit=20&page=1",
+      "sha256": "65843d2d757784583aed440bd8f1aacc666bd5538cd22388b35d9823a266d696"
+    },
+    {
+      "url": "https://musiclab.mx/collections/all/products.json?limit=20&page=1",
+      "sha256": "9a788a79b8dd2f0e6c6eda4c3d906d850e87d88f497c0997c5090c8eeea93680"
+    },
+    {
+      "url": "https://musiclab.mx/products/uicideboy-new-world-depression-coke-bottle-dark-green-vinyl",
+      "sha256": "b48e2b0874a2f565524e0f31fcb74628e7df52662f4e5e701ba80af476e9852c"
+    },
+    {
+      "url": "https://musiclab.mx/products/uicideboy-thy-kingdom-come-opaque-maroon-vinyl-indie-retail-exclusive",
+      "sha256": "26006f346a0bf49ade49b06afb6c3ca4e2ac129e7950e790dc1fe381f3609caf"
+    },
+    {
+      "url": "https://musiclab.mx/products/2-chainz-so-help-me-god-lp?variant=39378233393229",
+      "sha256": "a2be8677d17c6a3ea983dc0368cbd90f9bc8e97ec459c5c82678fae97d355fb1"
+    },
+    {
+      "url": "https://musiclab.mx/products/44-44-purple-splatter-vinyl?variant=50864898638082",
+      "sha256": "d91e0736508b87e23a57e4d079295b190d4400f1c0a67fbb8237ad4742fb919d"
+    },
+    {
+      "url": "https://musiclab.mx/products/uicideboy-new-world-depression-coke-bottle-dark-green-vinyl?variant=46713748259074",
+      "sha256": "b1f0e8c7f90dc27a66fb6ce39f9525827442d1b6041da06a5b1e8cfacd9c787d"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": true,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://musiclab.mx/products/2-chainz-so-help-me-god-lp?variant=39378233393229",
+    "https://musiclab.mx/products/44-44-purple-splatter-vinyl?variant=50864898638082",
+    "https://musiclab.mx/products/uicideboy-new-world-depression-coke-bottle-dark-green-vinyl?variant=46713748259074"
+  ],
+  "assessment_id": "v2-45022525561-1",
+  "queue_rows": [
+    4380
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 9,
+  "candidate_ref": "v2-45022525561-1/musiclab_mx",
+  "assessment_path": "assessments/v2/musiclab_mx/v2-45022525561-1.json"
+}
