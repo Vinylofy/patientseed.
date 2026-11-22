@@ -1,0 +1,244 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T18:01:08.230387+00:00",
+  "shop_id": "rockabuyrecords.co.uk",
+  "row": 3398,
+  "name": "Rockabuyrecords",
+  "domain": "rockabuyrecords.co.uk",
+  "country": null,
+  "website": "https://rockabuyrecords.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3398,
+    "name": "Rockabuyrecords",
+    "domain": "rockabuyrecords.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://rockabuyrecords.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 4,
+    "excluded": 16,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://rockabuyrecords.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://rockabuyrecords.co.uk/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 20,
+        "accepted": 4,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://rockabuyrecords.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "Invalid Shopify price"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://rockabuyrecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rockabuyrecords.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rockabuyrecords.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rockabuyrecords.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rockabuyrecords.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://rockabuyrecords.co.uk/products.json?limit=20&page=1",
+      "score": 45,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://rockabuyrecords.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 4,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 4,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://rockabuyrecords.co.uk/products/gracie-abrams-minor-blue-converse-marble-vinyl?variant=57795137569141",
+      "artist": "Gracie Abrams",
+      "title": "Minor (Blue Converse Marble Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "28.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://rockabuyrecords.co.uk/products/gracie-abrams-this-is-what-it-feels-like-jungle-green-vinyl?variant=57795156115829",
+      "artist": "Gracie Abrams",
+      "title": "This Is What It Feels Like (Jungle Green) Vinyl",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "28.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://rockabuyrecords.co.uk/products/gracie-abrams-the-secret-life-of-us-indie-exclusive-vinyl?variant=57795156771189",
+      "artist": "Gracie Abrams",
+      "title": "The Secret Life Of Us (Indie Exclusive) Vinyl",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "30.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://rockabuyrecords.co.uk/robots.txt",
+      "sha256": "aed715f1e480aa14eb47e9484fb69c4b044509175bf81ddacf8a84a61e055d23"
+    },
+    {
+      "url": "https://rockabuyrecords.co.uk/",
+      "sha256": "735204e31f440cffa9d997539a3ed84099426096b74f041c56f43902a49eadb8"
+    },
+    {
+      "url": "https://rockabuyrecords.co.uk/products.json?limit=20&page=1",
+      "sha256": "b326b9a5c6245426d16486eb53568c19d38004d902af6dd42431aba11c95738d"
+    },
+    {
+      "url": "https://rockabuyrecords.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "26d3e4f6498c5a645a4b5dcada2a102994a7d62d69d77d8ebbcc2b322dafedbf"
+    },
+    {
+      "url": "https://rockabuyrecords.co.uk/products/gracie-abrams-the-secret-life-of-us-indie-exclusive-vinyl",
+      "sha256": "c3239dcfbe6f868c0c8fd16736b6c30a39aecd9f9c4a744dc4c4eca09dacb3d0"
+    },
+    {
+      "url": "https://rockabuyrecords.co.uk/products/gracie-abrams-this-is-what-it-feels-like-jungle-green-vinyl",
+      "sha256": "79d1d7e1d815978d02f1afe5454ef6f44f3716de6bd56db488409d208a75702b"
+    },
+    {
+      "url": "https://rockabuyrecords.co.uk/products/gracie-abrams-minor-blue-converse-marble-vinyl?variant=57795137569141",
+      "sha256": "583f0a76d05d9602aef44f56ad2bce38f2aef883109747b21d7c2130d3f29907"
+    },
+    {
+      "url": "https://rockabuyrecords.co.uk/products/gracie-abrams-this-is-what-it-feels-like-jungle-green-vinyl?variant=57795156115829",
+      "sha256": "f82e9e4717afc636d05a9d9331ff294486d026abc9a86da94b9dafbba78e381c"
+    },
+    {
+      "url": "https://rockabuyrecords.co.uk/products/gracie-abrams-the-secret-life-of-us-indie-exclusive-vinyl?variant=57795156771189",
+      "sha256": "38b23dc3b0cb36760831ee2256c6b12f52d795c92e77bdaba01411eb16626a28"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://rockabuyrecords.co.uk/products/gracie-abrams-minor-blue-converse-marble-vinyl?variant=57795137569141",
+    "https://rockabuyrecords.co.uk/products/gracie-abrams-this-is-what-it-feels-like-jungle-green-vinyl?variant=57795156115829",
+    "https://rockabuyrecords.co.uk/products/gracie-abrams-the-secret-life-of-us-indie-exclusive-vinyl?variant=57795156771189"
+  ],
+  "assessment_id": "v2-45051250283-1",
+  "queue_rows": [
+    3398
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 4,
+  "candidate_ref": "v2-45051250283-1/rockabuyrecords_co_uk",
+  "assessment_path": "assessments/v2/rockabuyrecords_co_uk/v2-45051250283-1.json"
+}
