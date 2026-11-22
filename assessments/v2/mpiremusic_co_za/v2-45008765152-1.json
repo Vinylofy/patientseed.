@@ -1,0 +1,204 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T09:41:43.504559+00:00",
+  "shop_id": "mpiremusic.co.za",
+  "row": 4554,
+  "name": "M-PIRE Music",
+  "domain": "mpiremusic.co.za",
+  "country": null,
+  "website": "https://mpiremusic.co.za/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4554,
+    "name": "M-PIRE Music",
+    "domain": "mpiremusic.co.za",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://mpiremusic.co.za/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 1,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "ZAR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://mpiremusic.co.za/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://mpiremusic.co.za/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://mpiremusic.co.za/collections/all/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://mpiremusic.co.za/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://mpiremusic.co.za/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://mpiremusic.co.za/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://mpiremusic.co.za/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://mpiremusic.co.za/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://mpiremusic.co.za/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 1,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://mpiremusic.co.za/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "ZAR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://mpiremusic.co.za/products/sampa-the-great-as-above-so-below-transparent-white-vinyl?variant=46254079443123",
+      "artist": "SAMPA THE GREAT",
+      "title": "AS ABOVE SO BELOW (Transparent White Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "749.95",
+      "currency": "ZAR",
+      "valid_eans": [
+        "00888072469891"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://mpiremusic.co.za/robots.txt",
+      "sha256": "e98123c433772222767ab10fad8b95b0213560eeb3290262c8f2d26e880309f2"
+    },
+    {
+      "url": "https://mpiremusic.co.za/",
+      "sha256": "0ec1db91d3fc26992d46485cb93afe5eda7c3f457a50e9933bc4fdb16632a889"
+    },
+    {
+      "url": "https://mpiremusic.co.za/products.json?limit=20&page=1",
+      "sha256": "0751f02d2a43b57e19d32228094de187ef088b3c46f3c4df4d6290c61ba1779e"
+    },
+    {
+      "url": "https://mpiremusic.co.za/collections/all/products.json?limit=20&page=1",
+      "sha256": "7c2c22cc08c7dd9039c5b29d4f612f648ab5cb767e8c3e978ec89d468254c121"
+    },
+    {
+      "url": "https://mpiremusic.co.za/products/sampa-the-great-as-above-so-below-transparent-white-vinyl",
+      "sha256": "6fc04a10e9b21fedd421148d8cff304d898f68775ac57f04de070bc7bdb07489"
+    },
+    {
+      "url": "https://mpiremusic.co.za/products/sampa-the-great-as-above-so-below-transparent-white-vinyl?variant=46254079443123",
+      "sha256": "a8ffca0812c03831ef38d23de36572724ffffad5018c6494eafc3b03f1c0f5bd"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "insufficient_representative_product_evidence"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 1,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://mpiremusic.co.za/products/sampa-the-great-as-above-so-below-transparent-white-vinyl?variant=46254079443123"
+  ],
+  "assessment_id": "v2-45008765152-1",
+  "queue_rows": [
+    4554
+  ],
+  "assessment_path": "assessments/v2/mpiremusic_co_za/v2-45008765152-1.json"
+}
