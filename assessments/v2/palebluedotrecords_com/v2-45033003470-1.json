@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T14:31:57.760950+00:00",
+  "shop_id": "palebluedotrecords.com",
+  "row": 3390,
+  "name": "Palebluedotrecords",
+  "domain": "palebluedotrecords.com",
+  "country": null,
+  "website": "https://palebluedotrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3390,
+    "name": "Palebluedotrecords",
+    "domain": "palebluedotrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://palebluedotrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 18,
+    "excluded": 2,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://palebluedotrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://palebluedotrecords.com/products.json?limit=20&page=1",
+        "score": 175,
+        "products_seen": 20,
+        "accepted": 17,
+        "excluded": 3,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://palebluedotrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://palebluedotrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://palebluedotrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://palebluedotrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://palebluedotrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://palebluedotrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://palebluedotrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 185,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://palebluedotrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 18,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 18,
+    "unique_prices": 15,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://palebluedotrecords.com/products/weird-al-yankovic-weird-the-al-yankovic-story-original-motion-picture-soundtrack-hot-pink-2lp?variant=48176765272320",
+      "artist": "'Weird Al' Yankovic",
+      "title": "Weird: The Al Yankovic Story (Original Motion Picture Soundtrack) [Hot Pink 2LP]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": false,
+      "price": "39.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://palebluedotrecords.com/products/thy_kingdom_come_translucent_natural_lp_kj7ipb2x?variant=46939199209728",
+      "artist": "$uicideBoy$",
+      "title": "Thy Kingdom Come [Translucent Natural LP]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "29.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://palebluedotrecords.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-limited-edition-blue-lp?variant=48176730505472",
+      "artist": "!!! (Chk Chk Chk)",
+      "title": "Let It Be Blue [Indie Exclusive Limited Edition Blue LP]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "29.99",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://palebluedotrecords.com/robots.txt",
+      "sha256": "74f406b700b4f20591a60ce4d58952ee956dbf5a8b10a6017f5d9b995d24fb9e"
+    },
+    {
+      "url": "https://palebluedotrecords.com/",
+      "sha256": "2f8ffb1a11172f98f31cabae014b2ecfd54264476a97653e5495321132f101ab"
+    },
+    {
+      "url": "https://palebluedotrecords.com/products.json?limit=20&page=1",
+      "sha256": "974ee6ebb83da7a578ab1fd906d2d41f0b626d69088df08b2c4f8a58390813e5"
+    },
+    {
+      "url": "https://palebluedotrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "767b422f7954d7fcbb82567fa85452103e5f37b8ad1c0280edc2dc6e8634b22e"
+    },
+    {
+      "url": "https://palebluedotrecords.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-limited-edition-blue-lp",
+      "sha256": "02137952214436f6d4130e55224ee58ec78319ee914933703bd68020273df79b"
+    },
+    {
+      "url": "https://palebluedotrecords.com/products/cruzados-best-of-cruzados-lp-pre-order",
+      "sha256": "a14c67877dc8d9c44ff8155429924b471169f4d6d56e229085aa5a4f541dac55"
+    },
+    {
+      "url": "https://palebluedotrecords.com/products/weird-al-yankovic-weird-the-al-yankovic-story-original-motion-picture-soundtrack-hot-pink-2lp?variant=48176765272320",
+      "sha256": "587ff17283002fdcae69a6e15196dca58e512f85ee83ddf2de61bb25227c5ccf"
+    },
+    {
+      "url": "https://palebluedotrecords.com/products/thy_kingdom_come_translucent_natural_lp_kj7ipb2x?variant=46939199209728",
+      "sha256": "68a233a067c1f948869b67c22bd33339ad5ab89ab8315851ae95111ca273edb1"
+    },
+    {
+      "url": "https://palebluedotrecords.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-limited-edition-blue-lp?variant=48176730505472",
+      "sha256": "3d9a532d3b06ee2fa021204973083232cc2bdeba76556519db1ef82222cd1e6e"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.9444444444444444,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://palebluedotrecords.com/products/weird-al-yankovic-weird-the-al-yankovic-story-original-motion-picture-soundtrack-hot-pink-2lp?variant=48176765272320",
+    "https://palebluedotrecords.com/products/thy_kingdom_come_translucent_natural_lp_kj7ipb2x?variant=46939199209728",
+    "https://palebluedotrecords.com/products/chk-chk-chk-let-it-be-blue-indie-exclusive-limited-edition-blue-lp?variant=48176730505472"
+  ],
+  "assessment_id": "v2-45033003470-1",
+  "queue_rows": [
+    3390
+  ],
+  "assessment_path": "assessments/v2/palebluedotrecords_com/v2-45033003470-1.json"
+}
