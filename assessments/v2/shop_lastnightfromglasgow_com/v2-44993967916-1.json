@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T06:34:40.003217+00:00",
+  "shop_id": "shop.lastnightfromglasgow.com",
+  "row": 3400,
+  "name": "lastnightfromglasgow",
+  "domain": "shop.lastnightfromglasgow.com",
+  "country": null,
+  "website": "https://shop.lastnightfromglasgow.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3400,
+    "name": "lastnightfromglasgow",
+    "domain": "shop.lastnightfromglasgow.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://shop.lastnightfromglasgow.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 29,
+    "accepted": 20,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://shop.lastnightfromglasgow.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://shop.lastnightfromglasgow.com/products.json?limit=20&page=1",
+        "score": 255,
+        "products_seen": 28,
+        "accepted": 25,
+        "excluded": 3,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://shop.lastnightfromglasgow.com/collections/all/products.json?limit=20&page=1",
+        "score": 285,
+        "products_seen": 29,
+        "accepted": 28,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://shop.lastnightfromglasgow.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shop.lastnightfromglasgow.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shop.lastnightfromglasgow.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shop.lastnightfromglasgow.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shop.lastnightfromglasgow.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://shop.lastnightfromglasgow.com/collections/all/products.json?limit=20&page=1",
+      "score": 285,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://shop.lastnightfromglasgow.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 11,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://shop.lastnightfromglasgow.com/products/a-certain-ratio-id-like-to-see-you-again?variant=44581385797864",
+      "artist": "A Certain Ratio",
+      "title": "I'd like to see you again",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "24.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://shop.lastnightfromglasgow.com/products/1990s-nude-restaurant-vinyl?variant=57305344049525",
+      "artist": "1990s",
+      "title": "Nude Restaurant (Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "25.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://shop.lastnightfromglasgow.com/products/10-0000-maniacs-live-2-x-lp-with-bonus-tracks?variant=46559260442856",
+      "artist": "10,0000 Maniacs",
+      "title": "Live 2 x LP with Bonus Tracks",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "64.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://shop.lastnightfromglasgow.com/robots.txt",
+      "sha256": "08f441f98b226d559179d1f154b50937da89bde2e3e75dcd246380d53d32e124"
+    },
+    {
+      "url": "https://shop.lastnightfromglasgow.com/",
+      "sha256": "ff132bc589a87cb6ef193be127c7417e66c53a4f1db134f7734273394bbbb852"
+    },
+    {
+      "url": "https://shop.lastnightfromglasgow.com/products.json?limit=20&page=1",
+      "sha256": "e1eac0c331c3d915175b2ae73cdd5b665602e202589504a89c8ba59250cf1579"
+    },
+    {
+      "url": "https://shop.lastnightfromglasgow.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "7422c6e7d7073bdbaca066bc3b85b26b484b321d2abbcf476e654518ad4cf37f"
+    },
+    {
+      "url": "https://shop.lastnightfromglasgow.com/products/10-0000-maniacs-live-2-x-lp-with-bonus-tracks",
+      "sha256": "5ca6d9ca44b4aab524f3a8ad530d830d0dd692381777d0fae74c26c474ba49c7"
+    },
+    {
+      "url": "https://shop.lastnightfromglasgow.com/products/the-lnfg-10th-anniversary-demonstration-disc",
+      "sha256": "209a13d17d7c91fbe0e9f84437b399d93a317dbb1e77273a374824008ded8c3b"
+    },
+    {
+      "url": "https://shop.lastnightfromglasgow.com/products/a-certain-ratio-id-like-to-see-you-again?variant=44581385797864",
+      "sha256": "2eac13692e0f920e1093ba9c1d243f50e12f3c66c3dc21ff20d9036f3d0ca2da"
+    },
+    {
+      "url": "https://shop.lastnightfromglasgow.com/products/1990s-nude-restaurant-vinyl?variant=57305344049525",
+      "sha256": "54f794e08296aa2cc3b7dfe76f1c0d37f41fa88676c121a5aefbce01368f9995"
+    },
+    {
+      "url": "https://shop.lastnightfromglasgow.com/products/10-0000-maniacs-live-2-x-lp-with-bonus-tracks?variant=46559260442856",
+      "sha256": "0289555ed1bd02ce4fe6ad76251f1ed6cc62c6b4b12b77f139e62dc5919ab54f"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.9,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://shop.lastnightfromglasgow.com/products/a-certain-ratio-id-like-to-see-you-again?variant=44581385797864",
+    "https://shop.lastnightfromglasgow.com/products/1990s-nude-restaurant-vinyl?variant=57305344049525",
+    "https://shop.lastnightfromglasgow.com/products/10-0000-maniacs-live-2-x-lp-with-bonus-tracks?variant=46559260442856"
+  ],
+  "assessment_id": "v2-44993967916-1",
+  "queue_rows": [
+    3400
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 26,
+  "candidate_ref": "v2-44993967916-1/shop_lastnightfromglasgow_com",
+  "assessment_path": "assessments/v2/shop_lastnightfromglasgow_com/v2-44993967916-1.json"
+}
