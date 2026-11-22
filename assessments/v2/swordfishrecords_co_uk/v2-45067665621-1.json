@@ -1,0 +1,141 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T21:00:54.846600+00:00",
+  "shop_id": "swordfishrecords.co.uk",
+  "row": 4934,
+  "name": "Swordfish Records",
+  "domain": "swordfishrecords.co.uk",
+  "country": null,
+  "website": "https://swordfishrecords.co.uk/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4934,
+    "name": "Swordfish Records",
+    "domain": "swordfishrecords.co.uk",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://swordfishrecords.co.uk/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://swordfishrecords.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://swordfishrecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://swordfishrecords.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://swordfishrecords.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://swordfishrecords.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://swordfishrecords.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://swordfishrecords.co.uk/robots.txt",
+      "sha256": "946b2c139f0e51e0f6bbd4e9569f824c63c688be6016514ef1f5fc29ab6c47f5"
+    },
+    {
+      "url": "https://swordfishrecords.co.uk/",
+      "sha256": "4f450034895c77c94db4ec3e63f4dad4344c9017924132e0b46d1b5247c3bf46"
+    },
+    {
+      "url": "https://swordfishrecords.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "eed560ba5069ad0862fc6d2c21c91ff3121e751b00bfc82b103b2dbc620b7b4f"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-45067665621-1",
+  "queue_rows": [
+    4934
+  ],
+  "assessment_path": "assessments/v2/swordfishrecords_co_uk/v2-45067665621-1.json"
+}
