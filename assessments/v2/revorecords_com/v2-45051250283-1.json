@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T17:53:30.196394+00:00",
+  "shop_id": "revorecords.com",
+  "row": 3383,
+  "name": "Revo Records",
+  "domain": "revorecords.com",
+  "country": null,
+  "website": "https://revorecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3383,
+    "name": "Revo Records",
+    "domain": "revorecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://revorecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 9,
+    "excluded": 11,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://revorecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://revorecords.com/products.json?limit=20&page=1",
+        "score": 95,
+        "products_seen": 20,
+        "accepted": 9,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://revorecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 75,
+        "products_seen": 20,
+        "accepted": 7,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://revorecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://revorecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://revorecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://revorecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://revorecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://revorecords.com/products.json?limit=20&page=1",
+      "score": 95,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://revorecords.com/products.json?limit=20&page=1",
+  "listing_sample": 9,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 9,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://revorecords.com/robots.txt",
+      "sha256": "4aaeeb68493e7a8e25863390004c9b3194b1fd58915d7d2125923d6dd51e7e53"
+    },
+    {
+      "url": "https://revorecords.com/",
+      "sha256": "f68234634389597c51a798d3975a07b08518466aa2a5269725100f1bb6ef87f0"
+    },
+    {
+      "url": "https://revorecords.com/products.json?limit=20&page=1",
+      "sha256": "c81e5b91bc3685b34f433317a13b1738d6a214b25cd28c93b08fa9ce0c9a7140"
+    },
+    {
+      "url": "https://revorecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "6f912562fe51913539722d89da0f731eeb89aca1baeb92c214c8c87ee82032be"
+    },
+    {
+      "url": "https://revorecords.com/products/madra-salach-gorta-indies-exclusive-stone-vinyl-lp",
+      "sha256": "3734d9fd5fa00fac77183e6de90d481b30401b11a88fa29703d532db185eafcb"
+    },
+    {
+      "url": "https://revorecords.com/products/david-bowie-low-50th-anniversary-half-speed-master-copy",
+      "sha256": "ac2b7f6c58a82e85f3188b265b032814c181e79836b45879c544206c77fc5a21"
+    },
+    {
+      "url": "https://revorecords.com/products/arctic-monkeys-am?variant=40456385200284",
+      "sha256": "860dc07a89fc09747ec0ac054b8273e19f3948f16c121a7106ccfb0462113b3b"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45051250283-1",
+  "queue_rows": [
+    3383
+  ],
+  "assessment_path": "assessments/v2/revorecords_com/v2-45051250283-1.json"
+}
