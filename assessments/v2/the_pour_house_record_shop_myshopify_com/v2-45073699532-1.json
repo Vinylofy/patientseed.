@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T21:46:26.352325+00:00",
+  "shop_id": "the-pour-house-record-shop.myshopify.com",
+  "row": 5003,
+  "name": "The Pour House Record Shop",
+  "domain": "the-pour-house-record-shop.myshopify.com",
+  "country": null,
+  "website": "https://the-pour-house-record-shop.myshopify.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 5003,
+    "name": "The Pour House Record Shop",
+    "domain": "the-pour-house-record-shop.myshopify.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://the-pour-house-record-shop.myshopify.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 11,
+    "excluded": 9,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://the-pour-house-record-shop.myshopify.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://the-pour-house-record-shop.myshopify.com/products.json?limit=20&page=1",
+        "score": 95,
+        "products_seen": 20,
+        "accepted": 9,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://the-pour-house-record-shop.myshopify.com/collections/all/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://the-pour-house-record-shop.myshopify.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://the-pour-house-record-shop.myshopify.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://the-pour-house-record-shop.myshopify.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://the-pour-house-record-shop.myshopify.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://the-pour-house-record-shop.myshopify.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://the-pour-house-record-shop.myshopify.com/collections/all/products.json?limit=20&page=1",
+      "score": 115,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://the-pour-house-record-shop.myshopify.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 11,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 11,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://the-pour-house-record-shop.myshopify.com/products/a-giant-dog-bite?variant=41564260499588",
+      "artist": "",
+      "title": "A Giant Dog -- Bite",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "10.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://the-pour-house-record-shop.myshopify.com/products/28-years-later-the-bone-temple-original-motion-picture-soundtrack?variant=67783864418436",
+      "artist": "",
+      "title": "28 Years Later: The Bone Temple (Original Motion Picture Soundtrack)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "37.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://the-pour-house-record-shop.myshopify.com/products/100-demons-embrace-the-black-light?variant=52380816932996",
+      "artist": "",
+      "title": "100 Demons -- Embrace The Black Light",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "28.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://the-pour-house-record-shop.myshopify.com/robots.txt",
+      "sha256": "e9ee986bbd5c686a01618cb1b1a294a8a7dcd124cc5b32f545d9ff98860ffb10"
+    },
+    {
+      "url": "https://the-pour-house-record-shop.myshopify.com/",
+      "sha256": "888d71421e599c6f572d113d4d27fd9d07c8c97f1dfb86559cb0ae2e86e211f7"
+    },
+    {
+      "url": "https://the-pour-house-record-shop.myshopify.com/products.json?limit=20&page=1",
+      "sha256": "2dcacec3dc0cd708f20028059b2b90f739cdec4354eed742341c7250a80c6ece"
+    },
+    {
+      "url": "https://the-pour-house-record-shop.myshopify.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "6843d4216ede102285eefa3eddf9dadf9ad26ca3a8469644fbafa069ec322b8e"
+    },
+    {
+      "url": "https://the-pour-house-record-shop.myshopify.com/products/100-demons-embrace-the-black-light",
+      "sha256": "bb88b25afb8392a2c6ba2842d9a092f1105a36b8e4ee0738c87c598f0ccf414d"
+    },
+    {
+      "url": "https://the-pour-house-record-shop.myshopify.com/products/12-rods-if-we-stayed-alive",
+      "sha256": "404d465c83b3c4bbf200c066b6e3d121bd70a2e4830723d4eec7c62752fd97e6"
+    },
+    {
+      "url": "https://the-pour-house-record-shop.myshopify.com/products/a-giant-dog-bite?variant=41564260499588",
+      "sha256": "e073269ce4bfde897a18524fbf9f822fee0943d5c1a4e5658d0b61c76e6a5268"
+    },
+    {
+      "url": "https://the-pour-house-record-shop.myshopify.com/products/28-years-later-the-bone-temple-original-motion-picture-soundtrack?variant=67783864418436",
+      "sha256": "40b321756eee6ed5fe7606c280a72399613902b5a86496f6ee4f63a63e366dd0"
+    },
+    {
+      "url": "https://the-pour-house-record-shop.myshopify.com/products/100-demons-embrace-the-black-light?variant=52380816932996",
+      "sha256": "4adf60742b795a9826a54b4aa5c742662a114a38748b3e09158a2f928a92ab1b"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://the-pour-house-record-shop.myshopify.com/products/a-giant-dog-bite?variant=41564260499588",
+    "https://the-pour-house-record-shop.myshopify.com/products/28-years-later-the-bone-temple-original-motion-picture-soundtrack?variant=67783864418436",
+    "https://the-pour-house-record-shop.myshopify.com/products/100-demons-embrace-the-black-light?variant=52380816932996"
+  ],
+  "assessment_id": "v2-45073699532-1",
+  "queue_rows": [
+    5003
+  ],
+  "assessment_path": "assessments/v2/the_pour_house_record_shop_myshopify_com/v2-45073699532-1.json"
+}
