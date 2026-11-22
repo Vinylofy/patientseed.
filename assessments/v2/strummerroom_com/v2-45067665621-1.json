@@ -1,0 +1,222 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T20:55:23.212547+00:00",
+  "shop_id": "strummerroom.com",
+  "row": 4711,
+  "name": "Strummer Room Records",
+  "domain": "strummerroom.com",
+  "country": null,
+  "website": "https://strummerroom.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4711,
+    "name": "Strummer Room Records",
+    "domain": "strummerroom.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://strummerroom.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 2,
+    "excluded": 18,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://strummerroom.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://strummerroom.com/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://strummerroom.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://strummerroom.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://strummerroom.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://strummerroom.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://strummerroom.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://strummerroom.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://strummerroom.com/products.json?limit=20&page=1",
+      "score": 25,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://strummerroom.com/products.json?limit=20&page=1",
+  "listing_sample": 2,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 2,
+    "unique_prices": 2,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://strummerroom.com/products/eric-clapton-unplugged-1?variant=56528650109313",
+      "artist": "Eric Clapton",
+      "title": "Unplugged",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "50.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "used_or_grading_signal"
+    },
+    {
+      "url": "https://strummerroom.com/products/the-james-taylor-quartet-in-the-hand-of-the-inevitable?variant=56528774594945",
+      "artist": "The James Taylor Quartet",
+      "title": "In The Hand Of The Inevitable",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "20.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "used_or_grading_signal"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://strummerroom.com/robots.txt",
+      "sha256": "02df885bcd712cdbdb54d6ed1c2d0ad0fb6ad731383be686393fa6de61eb7052"
+    },
+    {
+      "url": "https://strummerroom.com/",
+      "sha256": "3cdf4bacc6674f7fcdcca180d5f057757b3506b2c17f40ca728552254c000ad9"
+    },
+    {
+      "url": "https://strummerroom.com/products.json?limit=20&page=1",
+      "sha256": "14b47226db7956cf2b7e11d6e21e062199d6ed6fd21ce53516e319b34d455f2b"
+    },
+    {
+      "url": "https://strummerroom.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "29e9899450a99496fbb00fa5705c3bc7a1649c38f46097fcfac06632d6fe565b"
+    },
+    {
+      "url": "https://strummerroom.com/products/the-james-taylor-quartet-in-the-hand-of-the-inevitable",
+      "sha256": "158210242e22707c585720b4c6908ba7210cc68f473ab622c7434dd98a3ef1e2"
+    },
+    {
+      "url": "https://strummerroom.com/products/eric-clapton-unplugged-1",
+      "sha256": "6c1364a7511c8e0cd42ddc8732770b47ad2e533adf22bd3e1dadd9bc2c26b4c1"
+    },
+    {
+      "url": "https://strummerroom.com/products/eric-clapton-unplugged-1?variant=56528650109313",
+      "sha256": "38940d7c19461d24a46d28819ccbce89a3c3617c8aa2494de60b9d90cbe3a5f3"
+    },
+    {
+      "url": "https://strummerroom.com/products/the-james-taylor-quartet-in-the-hand-of-the-inevitable?variant=56528774594945",
+      "sha256": "092eb9316bc05c4c34e70f793200366aba0bda064d723e103c2450be04e5219c"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:new_used_distinguishable"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 2,
+    "detail_price_proven": 2,
+    "ean_valid": 0,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://strummerroom.com/products/eric-clapton-unplugged-1?variant=56528650109313",
+    "https://strummerroom.com/products/the-james-taylor-quartet-in-the-hand-of-the-inevitable?variant=56528774594945"
+  ],
+  "assessment_id": "v2-45067665621-1",
+  "queue_rows": [
+    4711
+  ],
+  "assessment_path": "assessments/v2/strummerroom_com/v2-45067665621-1.json"
+}
