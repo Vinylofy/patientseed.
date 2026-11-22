@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T17:46:28.948792+00:00",
+  "shop_id": "recordvault.co.uk",
+  "row": 3415,
+  "name": "Recordvault",
+  "domain": "recordvault.co.uk",
+  "country": null,
+  "website": "https://recordvault.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3415,
+    "name": "Recordvault",
+    "domain": "recordvault.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://recordvault.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 2,
+    "excluded": 18,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://recordvault.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://recordvault.co.uk/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://recordvault.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://recordvault.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://recordvault.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://recordvault.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://recordvault.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://recordvault.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://recordvault.co.uk/products.json?limit=20&page=1",
+      "score": 25,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://recordvault.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 2,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 2,
+    "unique_prices": 2,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://recordvault.co.uk/robots.txt",
+      "sha256": "b0b87e79d304f4a24f84e5bba90e5042d2c92962655ff73880523ae530c71908"
+    },
+    {
+      "url": "https://recordvault.co.uk/",
+      "sha256": "3dc9746bca59e42d98653da48fe78850ebf116c85e2fc6ef8dde8610d0f28f07"
+    },
+    {
+      "url": "https://recordvault.co.uk/products.json?limit=20&page=1",
+      "sha256": "5a15496d9045569f02bb214c90393b2007852809f9985446eda1e29b88896468"
+    },
+    {
+      "url": "https://recordvault.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "d6b2dec47c2bbb2fc066c614f4720102ad2fb3ea4d412632964b2b14b397054d"
+    },
+    {
+      "url": "https://recordvault.co.uk/products/yusuf-cat-stevens-majikat-earth-tour-1976-live-2lp-black-vinyl-with-lenticular-cover-picture-disc-rsd-black-friday-2026",
+      "sha256": "b2c39d55abd122e8ad4e0bf7f39bb31ef131cfc0fdcb649f9587e47afcd3e8d7"
+    },
+    {
+      "url": "https://recordvault.co.uk/products/motley-crue-decade-of-decadence-81-91-colour-vinyl-picture-disc-rsd-black-friday-2026",
+      "sha256": "b0f695743b56a28df8a1334698fb945d859eb76f75dff3f1a91924350026299f"
+    },
+    {
+      "url": "https://recordvault.co.uk/products/motley-crue-decade-of-decadence-81-91-colour-vinyl-picture-disc-rsd-black-friday-2026?variant=57729679524215",
+      "sha256": "0b16630afe33c0d8003463d0f36e3148854a911af3c3a9b06d3656fa3e14892f"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45051250283-1",
+  "queue_rows": [
+    3415
+  ],
+  "assessment_path": "assessments/v2/recordvault_co_uk/v2-45051250283-1.json"
+}
