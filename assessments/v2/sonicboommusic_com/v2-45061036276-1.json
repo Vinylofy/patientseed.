@@ -1,0 +1,248 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T19:43:54.319940+00:00",
+  "shop_id": "sonicboommusic.com",
+  "row": 3432,
+  "name": "Sonicboommusic",
+  "domain": "sonicboommusic.com",
+  "country": null,
+  "website": "https://sonicboommusic.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3432,
+    "name": "Sonicboommusic",
+    "domain": "sonicboommusic.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://sonicboommusic.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 14,
+    "excluded": 6,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "CAD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://sonicboommusic.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://sonicboommusic.com/products.json?limit=20&page=1",
+        "score": 145,
+        "products_seen": 20,
+        "accepted": 14,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://sonicboommusic.com/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://sonicboommusic.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://sonicboommusic.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://sonicboommusic.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://sonicboommusic.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://sonicboommusic.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://sonicboommusic.com/products.json?limit=20&page=1",
+      "score": 145,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://sonicboommusic.com/products.json?limit=20&page=1",
+  "listing_sample": 14,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 14,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "CAD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://sonicboommusic.com/products/shiv-and-the-carvers-always-watching-new-vinyl?variant=53139330302183",
+      "artist": "Shiv And The Carvers",
+      "title": "Always Watching (New Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "24.99",
+      "currency": "CAD",
+      "valid_eans": [
+        "00820233459365"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://sonicboommusic.com/products/miles-vault-new-vinyl?variant=53143602659559",
+      "artist": "Miles",
+      "title": "Vault (New Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "46.99",
+      "currency": "CAD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://sonicboommusic.com/products/stephen-brown-the-safari-ep-12-new-vinyl?variant=53143840522471",
+      "artist": "Stephen Brown",
+      "title": "The Safari EP (12\") (New Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "29.99",
+      "currency": "CAD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://sonicboommusic.com/robots.txt",
+      "sha256": "d71725929ef3b864d471ce54621d78c217bab6a6fe15bd5da12e71590a7204c2"
+    },
+    {
+      "url": "https://sonicboommusic.com/",
+      "sha256": "6186ecac691e77d2be0e6e5fd5c17cf3dec5da020c94c5a529c7ab606860d03f"
+    },
+    {
+      "url": "https://sonicboommusic.com/products.json?limit=20&page=1",
+      "sha256": "d365616db6e289ec38d3c83016a54b62cc552fa7883265d82bc414211a99ab75"
+    },
+    {
+      "url": "https://sonicboommusic.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "1c4756a06bf8bad1c9c6d9ef155d16fad1606cfae6a521a830f17ba3272a0ef2"
+    },
+    {
+      "url": "https://sonicboommusic.com/products/stephen-brown-the-safari-ep-12-new-vinyl",
+      "sha256": "b2a74411ef0b1c1c3fba3dd76b6eaa2796dd46214b82cc8f44a08f0efccccb14"
+    },
+    {
+      "url": "https://sonicboommusic.com/products/dj-girl-why-side-with-the-underdogs-ep-12-new-vinyl",
+      "sha256": "83471f7a74095a2aa4888158317af4035b88dc7712e729e5e7fd3256fd027251"
+    },
+    {
+      "url": "https://sonicboommusic.com/products/shiv-and-the-carvers-always-watching-new-vinyl?variant=53139330302183",
+      "sha256": "9b2f6196dceaea4a80c8e344ff17317fcdbd31d964df2a1cb00e853a7b944d69"
+    },
+    {
+      "url": "https://sonicboommusic.com/products/miles-vault-new-vinyl?variant=53143602659559",
+      "sha256": "7bf2dda25d5293b294ae90045175f02d64f858e3bfe528a32a8b7c021ba9001c"
+    },
+    {
+      "url": "https://sonicboommusic.com/products/stephen-brown-the-safari-ep-12-new-vinyl?variant=53143840522471",
+      "sha256": "502c5709fb33899aa4ac0deb785974bfbf3148bf59cdb26af87dc8c8a031fe11"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 1,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://sonicboommusic.com/products/shiv-and-the-carvers-always-watching-new-vinyl?variant=53139330302183",
+    "https://sonicboommusic.com/products/miles-vault-new-vinyl?variant=53143602659559",
+    "https://sonicboommusic.com/products/stephen-brown-the-safari-ep-12-new-vinyl?variant=53143840522471"
+  ],
+  "assessment_id": "v2-45061036276-1",
+  "queue_rows": [
+    3432
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 14,
+  "candidate_ref": "v2-45061036276-1/sonicboommusic_com",
+  "assessment_path": "assessments/v2/sonicboommusic_com/v2-45061036276-1.json"
+}
