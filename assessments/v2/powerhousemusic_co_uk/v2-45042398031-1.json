@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T16:15:48.010655+00:00",
+  "shop_id": "powerhousemusic.co.uk",
+  "row": 3380,
+  "name": "Powerhousemusic",
+  "domain": "powerhousemusic.co.uk",
+  "country": null,
+  "website": "https://powerhousemusic.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3380,
+    "name": "Powerhousemusic",
+    "domain": "powerhousemusic.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://powerhousemusic.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://powerhousemusic.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://powerhousemusic.co.uk/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://powerhousemusic.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 155,
+        "products_seen": 20,
+        "accepted": 15,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://powerhousemusic.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://powerhousemusic.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://powerhousemusic.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://powerhousemusic.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://powerhousemusic.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://powerhousemusic.co.uk/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://powerhousemusic.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://powerhousemusic.co.uk/robots.txt",
+      "sha256": "ef266884ceb5c3f1078142cc9c51ce6cd4879078a045b4b431e8e0f75ee893ac"
+    },
+    {
+      "url": "https://powerhousemusic.co.uk/",
+      "sha256": "91dc0ef4a6855d0f7703132b7cadb2a33c5a2d02d5275e2889be0b5c6d8268d7"
+    },
+    {
+      "url": "https://powerhousemusic.co.uk/products.json?limit=20&page=1",
+      "sha256": "a43ff76912deea9f1bde4cfebe4b964f8b01d2ec009ab4f3e216a2e9f8a16ed1"
+    },
+    {
+      "url": "https://powerhousemusic.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "d7a9a30adbc591abdd31cf35c65e4753fbd43175156e6ece9d819705201be5b9"
+    },
+    {
+      "url": "https://powerhousemusic.co.uk/products/frankie-goes-to-hollywood-relax-the-complete-story-vinyl-rsd-bf26",
+      "sha256": "859cc19e9c44ef815e338a99038bbba04c756a7a0c0ff5e092584a4855bc0998"
+    },
+    {
+      "url": "https://powerhousemusic.co.uk/products/george-harrison-thirty-three-and-1-3-zoetrope-vinyl-rsd-bf26",
+      "sha256": "9917a6a8746a3a4f63632f50ff2c51fe9bb3ca88c11297ffbf3cb46fe370dd4f"
+    },
+    {
+      "url": "https://powerhousemusic.co.uk/products/the-rolling-stones-aftermath-us-clear-vinyl-rsd-bf26?variant=59177170567512",
+      "sha256": "5d486b622fdc78d8c909fb95a18416bb7e522e93fa23c7730a9eca11e2fa9deb"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.85,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45042398031-1",
+  "queue_rows": [
+    3380
+  ],
+  "assessment_path": "assessments/v2/powerhousemusic_co_uk/v2-45042398031-1.json"
+}
