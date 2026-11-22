@@ -1,0 +1,161 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T12:36:11.760050+00:00",
+  "shop_id": "mydeadgrandpa.com.au",
+  "row": 3588,
+  "name": "My Dead Grandpa",
+  "domain": "mydeadgrandpa.com.au",
+  "country": null,
+  "website": "https://mydeadgrandpa.com.au/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3588,
+    "name": "My Dead Grandpa",
+    "domain": "mydeadgrandpa.com.au",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://mydeadgrandpa.com.au/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://mydeadgrandpa.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://mydeadgrandpa.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://mydeadgrandpa.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://mydeadgrandpa.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://mydeadgrandpa.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://mydeadgrandpa.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://mydeadgrandpa.com.au/robots.txt",
+      "sha256": "94b3acac80eff5feadca8e6698ab32dfce6d6f7d32fd2b497bf521f9cc1aa0a3"
+    },
+    {
+      "url": "https://mydeadgrandpa.com.au/",
+      "sha256": "d49e7e30b8a5298de463df60bf902d713838d20ceb3ea9791f3c3cc2cf15e7bc"
+    },
+    {
+      "url": "https://mydeadgrandpa.com.au/products.json?limit=20&page=1",
+      "sha256": "be24bf6669be9ae0f02091b2363e24ba0cbcba1443c6503bedc8269b3bf79589"
+    },
+    {
+      "url": "https://mydeadgrandpa.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "2e6b57d0738cb08b88084638edb1eac765485ee617d6909f798cda003558b2e1"
+    },
+    {
+      "url": "https://mydeadgrandpa.com.au/api/0.1/collections/products?format=json",
+      "sha256": "05900ced05619a09a7a32cda6b9d112bf7db1b279a3827037aedb0bef5bfc0bc"
+    },
+    {
+      "url": "https://mydeadgrandpa.com.au/api/0.1/collections/all/products?format=json",
+      "sha256": "548ab386e7106d983e347b1c4f22bf11ad1baec6a5211272ba822e8a511140a2"
+    },
+    {
+      "url": "https://mydeadgrandpa.com.au/api/storefront/products?limit=20&offset=0",
+      "sha256": "d2185138d91f9368527fbcb8f37567ff8df5a5a71c7663a2faeeeac23fc7da82"
+    },
+    {
+      "url": "https://mydeadgrandpa.com.au/api/storefront/products?limit=20",
+      "sha256": "d87ff29f52f719a88facb5806f5653743014d3347c3535608d540e5f5817b0ae"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-45022525561-1",
+  "queue_rows": [
+    3588
+  ],
+  "assessment_path": "assessments/v2/mydeadgrandpa_com_au/v2-45022525561-1.json"
+}
