@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T23:34:16.778908+00:00",
+  "shop_id": "urbanrecords.com.au",
+  "row": 3507,
+  "name": "Urban Records",
+  "domain": "urbanrecords.com.au",
+  "country": null,
+  "website": "https://urbanrecords.com.au/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3507,
+    "name": "Urban Records",
+    "domain": "urbanrecords.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://urbanrecords.com.au/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 23,
+    "accepted": 20,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://urbanrecords.com.au/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://urbanrecords.com.au/products.json?limit=20&page=1",
+        "score": 165,
+        "products_seen": 20,
+        "accepted": 16,
+        "excluded": 4,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://urbanrecords.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 225,
+        "products_seen": 23,
+        "accepted": 22,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://urbanrecords.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://urbanrecords.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://urbanrecords.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://urbanrecords.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://urbanrecords.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://urbanrecords.com.au/collections/all/products.json?limit=20&page=1",
+      "score": 225,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 1,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://urbanrecords.com.au/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 14,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://urbanrecords.com.au/robots.txt",
+      "sha256": "39ebfc028c8c91502fe9bb12edd46aa227b0312b1d8eeea4b477c21ccd0a3c39"
+    },
+    {
+      "url": "https://urbanrecords.com.au/",
+      "sha256": "226c9bb122f5033d6d8b90ebe8c6428f0e64cd11a2b814b50e9d57b178eb0e48"
+    },
+    {
+      "url": "https://urbanrecords.com.au/products.json?limit=20&page=1",
+      "sha256": "ebd8cea967b6275cc8ae26c5ffb24b32711c1f8df8e56b16ebf079c7a86d6bda"
+    },
+    {
+      "url": "https://urbanrecords.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "cbe21ac9e185520adec7754238e3807735522b16363dffbf62674a9239d1e4b3"
+    },
+    {
+      "url": "https://urbanrecords.com.au/products/let-it-be-blue",
+      "sha256": "bd079eb41291eb788649f6ed12a8c50d5c70bc38ab17ab18a748f027704bdc34"
+    },
+    {
+      "url": "https://urbanrecords.com.au/products/1-dads-about-face",
+      "sha256": "bcdd2419556d63632c4af85cb444be6cc2c05f75a76ad97bc2aa3c4aa621e229"
+    },
+    {
+      "url": "https://urbanrecords.com.au/products/12-inch-singles?variant=47077086003427",
+      "sha256": "c642f09ce3c1d0896a215330c01c5b10039780fe0e3d6c15246a80f69ea6c7ca"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.85,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45083891188-1",
+  "queue_rows": [
+    3507
+  ],
+  "assessment_path": "assessments/v2/urbanrecords_com_au/v2-45083891188-1.json"
+}
