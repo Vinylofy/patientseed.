@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T19:38:37.169784+00:00",
+  "shop_id": "laden.siluh.com",
+  "row": 3616,
+  "name": "Siluh Laden",
+  "domain": "laden.siluh.com",
+  "country": null,
+  "website": "https://laden.siluh.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3616,
+    "name": "Siluh Laden",
+    "domain": "laden.siluh.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://laden.siluh.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 16,
+    "excluded": 4,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://laden.siluh.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://laden.siluh.com/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 21,
+        "accepted": 13,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://laden.siluh.com/collections/all/products.json?limit=20&page=1",
+        "score": 165,
+        "products_seen": 20,
+        "accepted": 16,
+        "excluded": 4,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://laden.siluh.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://laden.siluh.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://laden.siluh.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://laden.siluh.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://laden.siluh.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://laden.siluh.com/collections/all/products.json?limit=20&page=1",
+      "score": 165,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://laden.siluh.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 16,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 16,
+    "unique_prices": 11,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://laden.siluh.com/products/acid-mothers-temple-chosen-star-childs-confession-lp?variant=40972094111803",
+      "artist": "Acid Mothers Temple",
+      "title": "Chosen Star Child's Confession - LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "28.50",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://laden.siluh.com/products/a-thousand-fuegos-the-treachery-of-things-lp?variant=51939361980754",
+      "artist": "A Thousand Fuegos",
+      "title": "The Treachery Of Things - LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "15.50",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://laden.siluh.com/products/sir-oliver-mallys-blues-distillery-wild-streak-lp?variant=50481329144146",
+      "artist": "\"Sir\" Oliver Mally's Blues Distillery",
+      "title": "Wild Streak - LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "29.50",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://laden.siluh.com/robots.txt",
+      "sha256": "3f60504a1d4ddb90d674c412196879b9b1174280d292ee22a632fbf9a2d9532f"
+    },
+    {
+      "url": "https://laden.siluh.com/",
+      "sha256": "abb80e2ff054565f10d81f434e5529f2eab171d11d77a1dbb823b2335619a4ec"
+    },
+    {
+      "url": "https://laden.siluh.com/products.json?limit=20&page=1",
+      "sha256": "a2d9ed291e59b6bfb7f1e19a03257ec95e528d3cef0ad28bc545002ce60c210d"
+    },
+    {
+      "url": "https://laden.siluh.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "bd9bee99226be877b966eb84d23c19da8cae17f11b9655063edc76eca3776852"
+    },
+    {
+      "url": "https://laden.siluh.com/products/sir-oliver-mallys-blues-distillery-wild-streak-lp",
+      "sha256": "2bd56dacdd03e439ce37c83164e75e02eb46b4b56a5eca742a5606a93745b383"
+    },
+    {
+      "url": "https://laden.siluh.com/products/4-mars-super-somali-sounds-lp",
+      "sha256": "c5c467841f0429703fc647689f1e85dee38ea2155e6f8f818afa9a50cb592e0e"
+    },
+    {
+      "url": "https://laden.siluh.com/products/acid-mothers-temple-chosen-star-childs-confession-lp?variant=40972094111803",
+      "sha256": "4ec6b02090e8907b846e1e028cafcf612dc75a9d375cbc51a41c7b0cda2642a5"
+    },
+    {
+      "url": "https://laden.siluh.com/products/a-thousand-fuegos-the-treachery-of-things-lp?variant=51939361980754",
+      "sha256": "0951397a94ffa6b15b16e5ccd33b24663a67c062d7d84deb5e0f8bdf2b788a22"
+    },
+    {
+      "url": "https://laden.siluh.com/products/sir-oliver-mallys-blues-distillery-wild-streak-lp?variant=50481329144146",
+      "sha256": "053de70c3c3236e46822d35f7122d8bdb8199dbace57ae7eecb348b0e3d7888e"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://laden.siluh.com/products/acid-mothers-temple-chosen-star-childs-confession-lp?variant=40972094111803",
+    "https://laden.siluh.com/products/a-thousand-fuegos-the-treachery-of-things-lp?variant=51939361980754",
+    "https://laden.siluh.com/products/sir-oliver-mallys-blues-distillery-wild-streak-lp?variant=50481329144146"
+  ],
+  "assessment_id": "v2-45061036276-1",
+  "queue_rows": [
+    3616
+  ],
+  "assessment_path": "assessments/v2/laden_siluh_com/v2-45061036276-1.json"
+}
