@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T18:04:49.005637+00:00",
+  "shop_id": "rockinghorse.net",
+  "row": 3497,
+  "name": "Rocking Horse Records",
+  "domain": "rockinghorse.net",
+  "country": null,
+  "website": "https://rockinghorse.net/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3497,
+    "name": "Rocking Horse Records",
+    "domain": "rockinghorse.net",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://rockinghorse.net/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 15,
+    "excluded": 5,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://rockinghorse.net/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://rockinghorse.net/products.json?limit=20&page=1",
+        "score": 155,
+        "products_seen": 20,
+        "accepted": 15,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://rockinghorse.net/collections/all/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://rockinghorse.net/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rockinghorse.net/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rockinghorse.net/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rockinghorse.net/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rockinghorse.net/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://rockinghorse.net/products.json?limit=20&page=1",
+      "score": 155,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://rockinghorse.net/products.json?limit=20&page=1",
+  "listing_sample": 15,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 15,
+    "unique_prices": 12,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://rockinghorse.net/products/lp171513?variant=50178679996654",
+      "artist": "Various",
+      "title": "Music From Thailand: Field Recordings By [Vinyl] [Pre-Order]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "49.95",
+      "currency": "AUD",
+      "valid_eans": [
+        "05050580883611"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://rockinghorse.net/products/lp171518?variant=50178787246318",
+      "artist": "Pablo, Augustus",
+      "title": "Valley Of Jehosaphat [Vinyl] [Pre-Order]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "79.95",
+      "currency": "AUD",
+      "valid_eans": [
+        "00822720783113"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://rockinghorse.net/products/lp165703?variant=47838805590254",
+      "artist": "Sinister",
+      "title": "Diabolical Summoning [Vinyl]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "54.95",
+      "currency": "AUD",
+      "valid_eans": [
+        "04250444193981"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://rockinghorse.net/robots.txt",
+      "sha256": "65f9a72eaca29bebbe65f97881e7823b111ea41e6d06305869c307df67d03573"
+    },
+    {
+      "url": "https://rockinghorse.net/",
+      "sha256": "f4bdb07beadc4e1c624fe221ffeb4adb1952bc043eb453067ee2bd59da4e0575"
+    },
+    {
+      "url": "https://rockinghorse.net/products.json?limit=20&page=1",
+      "sha256": "e4658319dc9015beb13f098b62fdccb9a028036508d37c325714f49c0bc6df79"
+    },
+    {
+      "url": "https://rockinghorse.net/collections/all/products.json?limit=20&page=1",
+      "sha256": "82a93499d25ce33fe0885b1fda54c98a692ff7026b3dab0b06b856dbb5eced61"
+    },
+    {
+      "url": "https://rockinghorse.net/products/lp165703",
+      "sha256": "a3184ebef25055e2be7ff002d95bec39694e86ed3c14af48d88fcffdd17042ae"
+    },
+    {
+      "url": "https://rockinghorse.net/products/lp163193",
+      "sha256": "4ff3e903df29f38b5caa4fadbc7042b299c74c05603bc25bc740f8f4a198720b"
+    },
+    {
+      "url": "https://rockinghorse.net/products/lp171513?variant=50178679996654",
+      "sha256": "38bcc7cc64101244469c32beeb832ea92c0e63f1ac1607074f49728a9c93e3ad"
+    },
+    {
+      "url": "https://rockinghorse.net/products/lp171518?variant=50178787246318",
+      "sha256": "55d06b019631ac804368634c423ff9f97529c05db308498ad23aa8a9a7a0a11d"
+    },
+    {
+      "url": "https://rockinghorse.net/products/lp165703?variant=47838805590254",
+      "sha256": "f29321c8b507092f55e7447be053b1c005f8d260c8cd053cbbedfc83fe94f042"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": true,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://rockinghorse.net/products/lp171513?variant=50178679996654",
+    "https://rockinghorse.net/products/lp171518?variant=50178787246318",
+    "https://rockinghorse.net/products/lp165703?variant=47838805590254"
+  ],
+  "assessment_id": "v2-45051250283-1",
+  "queue_rows": [
+    3497
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 15,
+  "candidate_ref": "v2-45051250283-1/rockinghorse_net",
+  "assessment_path": "assessments/v2/rockinghorse_net/v2-45051250283-1.json"
+}
