@@ -1,0 +1,111 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T14:36:26.924374+00:00",
+  "shop_id": "perrosmediterraneos.es",
+  "row": 4624,
+  "name": "perrosmediterraneos.es",
+  "domain": "perrosmediterraneos.es",
+  "country": null,
+  "website": "https://perrosmediterraneos.es/",
+  "previous_status": "SOURCE_BLOCKED",
+  "previous_reason": "HTTP_401",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4624,
+    "name": "perrosmediterraneos.es",
+    "domain": "perrosmediterraneos.es",
+    "status": "SOURCE_BLOCKED",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "source_url": "https://perrosmediterraneos.es/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "reason": "HTTP_401",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://perrosmediterraneos.es/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://perrosmediterraneos.es/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": "https://perrosmediterraneos.es/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "requests": [
+    {
+      "url": "https://perrosmediterraneos.es/robots.txt",
+      "sha256": "f64193ea033717cb5ef3e7f59af63dc785bc07e9faec47f4fe61c42e1c9fcee7"
+    },
+    {
+      "url": "https://perrosmediterraneos.es/",
+      "sha256": "5c2240104e3462f8d1a500a5265cd30cf6d3320bc2eee517f7b55de9c048a069"
+    },
+    {
+      "url": "https://perrosmediterraneos.es/products.json?limit=20&page=1",
+      "sha256": "4c9556d2316de9c8f165deff5c613024c0bbde5374c3befb65908a0c3d5be68d"
+    },
+    {
+      "url": "https://perrosmediterraneos.es/collections/all/products.json?limit=20&page=1",
+      "sha256": "8776a61451dd173ea1cf37658944d7d90a9780a6be388360548036b2117c1343"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "HTTP_401"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "HTTP_401"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-45033003470-1",
+  "queue_rows": [
+    4624
+  ],
+  "assessment_path": "assessments/v2/perrosmediterraneos_es/v2-45033003470-1.json"
+}
