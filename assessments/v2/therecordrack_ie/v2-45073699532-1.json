@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T21:49:03.057107+00:00",
+  "shop_id": "therecordrack.ie",
+  "row": 4225,
+  "name": "The Record Rack",
+  "domain": "therecordrack.ie",
+  "country": null,
+  "website": "https://therecordrack.ie/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4225,
+    "name": "The Record Rack",
+    "domain": "therecordrack.ie",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://therecordrack.ie/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 11,
+    "accepted": 11,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://therecordrack.ie/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://therecordrack.ie/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 11,
+        "accepted": 11,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://therecordrack.ie/collections/all/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 11,
+        "accepted": 11,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://therecordrack.ie/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://therecordrack.ie/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://therecordrack.ie/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://therecordrack.ie/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://therecordrack.ie/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://therecordrack.ie/products.json?limit=20&page=1",
+      "score": 115,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://therecordrack.ie/products.json?limit=20&page=1",
+  "listing_sample": 11,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 11,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://therecordrack.ie/products/his-grace-alive-o-featuring-bottler?variant=57779455787334",
+      "artist": "",
+      "title": "His Grace -Alive-O Featuring 'Bottler'",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "10.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://therecordrack.ie/products/bobby-darin-the-legend-of-bobby-darin?variant=57779455951174",
+      "artist": "",
+      "title": "Bobby Darin -The Legend of Bobby Darin",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "10.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://therecordrack.ie/products/del-reeves-del-reeves-sings-jim-reeves?variant=57779456246086",
+      "artist": "",
+      "title": "Del Reeves -Del Reeves Sings Jim Reeves",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "10.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://therecordrack.ie/robots.txt",
+      "sha256": "9650abdc2070e4142718376256076b525e03f11bc25f5ef449b142a5d18ae5a3"
+    },
+    {
+      "url": "https://therecordrack.ie/",
+      "sha256": "6fda76633778cbf08ba17dff2ef504beae9bb62c3fda4cf7b9c26ba9756d80f0"
+    },
+    {
+      "url": "https://therecordrack.ie/products.json?limit=20&page=1",
+      "sha256": "baed927c245ed41b585269e55786f233ae16e73addba4b6cc3d6bdc7033699f1"
+    },
+    {
+      "url": "https://therecordrack.ie/collections/all/products.json?limit=20&page=1",
+      "sha256": "fc2decefac71c096eda048a89bd9e443360e8c8d97e460556c5051e03ae2b7e5"
+    },
+    {
+      "url": "https://therecordrack.ie/products/del-reeves-del-reeves-sings-jim-reeves",
+      "sha256": "b91319b769e41d3c2566cf5b4c3a0914e1e497c03b0af3a12bc1587a1a7283b0"
+    },
+    {
+      "url": "https://therecordrack.ie/products/streisand-kristofferson-a-star-is-born",
+      "sha256": "8b2633bb7c95266993a9481bca6973f8e5e7752fe00fc61865143271f8f6d1a4"
+    },
+    {
+      "url": "https://therecordrack.ie/products/his-grace-alive-o-featuring-bottler?variant=57779455787334",
+      "sha256": "b3bf5493f23af56d1d79bb123bdfa98e1957b122451c091c9a3bfefd550ec86a"
+    },
+    {
+      "url": "https://therecordrack.ie/products/bobby-darin-the-legend-of-bobby-darin?variant=57779455951174",
+      "sha256": "b0ecaada3ea4714aadfba16642bf9d0252a4e386ba99b1e761fa0307946bf16a"
+    },
+    {
+      "url": "https://therecordrack.ie/products/del-reeves-del-reeves-sings-jim-reeves?variant=57779456246086",
+      "sha256": "024d572a3380a5a194235b93c5fe244ca285ce6281085764dcf26f0025b6be79"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://therecordrack.ie/products/his-grace-alive-o-featuring-bottler?variant=57779455787334",
+    "https://therecordrack.ie/products/bobby-darin-the-legend-of-bobby-darin?variant=57779455951174",
+    "https://therecordrack.ie/products/del-reeves-del-reeves-sings-jim-reeves?variant=57779456246086"
+  ],
+  "assessment_id": "v2-45073699532-1",
+  "queue_rows": [
+    4225
+  ],
+  "assessment_path": "assessments/v2/therecordrack_ie/v2-45073699532-1.json"
+}
