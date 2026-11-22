@@ -1,0 +1,240 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T14:35:04.938520+00:00",
+  "shop_id": "pdv.com.hr",
+  "row": 3778,
+  "name": "PDV Records x Merchandise",
+  "domain": "pdv.com.hr",
+  "country": null,
+  "website": "https://pdv.com.hr/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3778,
+    "name": "PDV Records x Merchandise",
+    "domain": "pdv.com.hr",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://pdv.com.hr/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 13,
+    "excluded": 7,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://pdv.com.hr/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://pdv.com.hr/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://pdv.com.hr/collections/all/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 20,
+        "accepted": 13,
+        "excluded": 7,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://pdv.com.hr/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://pdv.com.hr/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://pdv.com.hr/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://pdv.com.hr/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://pdv.com.hr/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://pdv.com.hr/collections/all/products.json?limit=20&page=1",
+      "score": 135,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://pdv.com.hr/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 13,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 13,
+    "unique_prices": 11,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://pdv.com.hr/products/1968-salvation-if-you-need-red-lp?variant=53937704010074",
+      "artist": "1968",
+      "title": "Salvation, If You Need (red) - LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "30.53",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://pdv.com.hr/products/100-gecs-10-000-gecs-lp?variant=53937794089306",
+      "artist": "100 GECS",
+      "title": "10.000 Gecs - LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "39.00",
+      "currency": "EUR",
+      "valid_eans": [
+        "00075678630439"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://pdv.com.hr/products/nasilno-lp?variant=54020466147674",
+      "artist": "###",
+      "title": "Nasilno - LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "20.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://pdv.com.hr/robots.txt",
+      "sha256": "85a38032a9ba7c6a42b3acf4fa42e6d05cec39f561615da1ada2209a17df3df6"
+    },
+    {
+      "url": "https://pdv.com.hr/",
+      "sha256": "22003f99365335075c53e131ee3335067a3ea6bd1ae163489020ac9f5e2f7c7a"
+    },
+    {
+      "url": "https://pdv.com.hr/products.json?limit=20&page=1",
+      "sha256": "d142434e64bc4fa0d08b5a1464722fd6a0afae5c54b91c54495f833c02444fef"
+    },
+    {
+      "url": "https://pdv.com.hr/collections/all/products.json?limit=20&page=1",
+      "sha256": "b79072877896014f029cada2f770351907b1a22ea87bbd9077cdd8ebbd0b92fc"
+    },
+    {
+      "url": "https://pdv.com.hr/products/nasilno-lp",
+      "sha256": "1400455cc7e7ab71864bf103711d4ba82e4f89b2ec075819478effa75187c4bf"
+    },
+    {
+      "url": "https://pdv.com.hr/products/osorno-lp",
+      "sha256": "79853e58bf138a5550c51e793692c0a6f4ba4a687379d270172ffed5732475a2"
+    },
+    {
+      "url": "https://pdv.com.hr/products/1968-salvation-if-you-need-red-lp?variant=53937704010074",
+      "sha256": "956a86f0513b8e5d7e9715e124e3b8fc3f35c09e4689ea3101c6f470b1c27eb2"
+    },
+    {
+      "url": "https://pdv.com.hr/products/100-gecs-10-000-gecs-lp?variant=53937794089306",
+      "sha256": "b231792493e8a547d325c50541e0ec1c35254807cb62300ab49ef8e753938178"
+    },
+    {
+      "url": "https://pdv.com.hr/products/nasilno-lp?variant=54020466147674",
+      "sha256": "8b79939e5f6a20c51b20b4df005197c5da7f69bd937723949189cb55c5d492d2"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 1,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://pdv.com.hr/products/1968-salvation-if-you-need-red-lp?variant=53937704010074",
+    "https://pdv.com.hr/products/100-gecs-10-000-gecs-lp?variant=53937794089306",
+    "https://pdv.com.hr/products/nasilno-lp?variant=54020466147674"
+  ],
+  "assessment_id": "v2-45033003470-1",
+  "queue_rows": [
+    3778
+  ],
+  "assessment_path": "assessments/v2/pdv_com_hr/v2-45033003470-1.json"
+}
