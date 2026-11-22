@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T17:49:31.108242+00:00",
+  "shop_id": "redyetirecords.com",
+  "row": 3364,
+  "name": "Redyetirecords",
+  "domain": "redyetirecords.com",
+  "country": null,
+  "website": "https://redyetirecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3364,
+    "name": "Redyetirecords",
+    "domain": "redyetirecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://redyetirecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 10,
+    "excluded": 10,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://redyetirecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://redyetirecords.com/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 20,
+        "accepted": 8,
+        "excluded": 12,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://redyetirecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://redyetirecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://redyetirecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://redyetirecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://redyetirecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://redyetirecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://redyetirecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 105,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://redyetirecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 10,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 10,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://redyetirecords.com/robots.txt",
+      "sha256": "f89759c1584173deee7ee92e4de3635cba7114ba731d390e02cb8b89db481e20"
+    },
+    {
+      "url": "https://redyetirecords.com/",
+      "sha256": "b0870ffa3128ae6d2eac1895d3a4030ab4488159b0bcebb72d35c6482eac179f"
+    },
+    {
+      "url": "https://redyetirecords.com/products.json?limit=20&page=1",
+      "sha256": "967a05798d5d5f97967d451f05c6149b1f2b01a0111a3714c206858a4b058d0a"
+    },
+    {
+      "url": "https://redyetirecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "81043dd4c9fbc416ff2fa78e550cdc841ccfb231b21ad5b22f4b8a1156398740"
+    },
+    {
+      "url": "https://redyetirecords.com/products/chk-chk-chk-all-u-writers-gonna-guetta-stomp-vinyl",
+      "sha256": "e88e63e790d059451c4ef30db96adaa82a1a004e0834d1250a0b79d53b4c9c6e"
+    },
+    {
+      "url": "https://redyetirecords.com/products/chk-chk-chk-as-if-vinyl",
+      "sha256": "8f99c8c9337bc09c978c4128e88a1c446abcf134be2ad968a2e67b77ce8ff5e6"
+    },
+    {
+      "url": "https://redyetirecords.com/products/chk-chk-chk-wallop-limited-color-vinyl-vinyl?variant=42736030974092",
+      "sha256": "d14739897a4856fc751be6b1349fd2dc9218b1cbb8130799fba3ecebfc0886c5"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45051250283-1",
+  "queue_rows": [
+    3364
+  ],
+  "assessment_path": "assessments/v2/redyetirecords_com/v2-45051250283-1.json"
+}
