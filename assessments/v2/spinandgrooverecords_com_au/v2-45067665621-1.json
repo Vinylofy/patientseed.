@@ -1,0 +1,250 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T20:47:32.102511+00:00",
+  "shop_id": "spinandgrooverecords.com.au",
+  "row": 3551,
+  "name": "Spin And Groove Records",
+  "domain": "spinandgrooverecords.com.au",
+  "country": null,
+  "website": "https://spinandgrooverecords.com.au/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3551,
+    "name": "Spin And Groove Records",
+    "domain": "spinandgrooverecords.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://spinandgrooverecords.com.au/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 12,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://spinandgrooverecords.com.au/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://spinandgrooverecords.com.au/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://spinandgrooverecords.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://spinandgrooverecords.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://spinandgrooverecords.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://spinandgrooverecords.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://spinandgrooverecords.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://spinandgrooverecords.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://spinandgrooverecords.com.au/collections/all/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://spinandgrooverecords.com.au/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 4,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://spinandgrooverecords.com.au/products/arctic-monkeys-am-12-reissue-vinyl?variant=51453088956649",
+      "artist": "Arctic Monkeys",
+      "title": "AM (12\" Reissue Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "55.00",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://spinandgrooverecords.com.au/products/alice-in-chains-jar-of-flies-remastered-12-vinyl?variant=50074894729449",
+      "artist": "Alice In Chains",
+      "title": "Jar Of Flies (Remastered 12\" Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "55.00",
+      "currency": "AUD",
+      "valid_eans": [
+        "00196588003714"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://spinandgrooverecords.com.au/products/ac-dc-back-in-black-reissue-180g-vinyl?variant=50074999357673",
+      "artist": "AC/DC",
+      "title": "Back In Black (Reissue 180g Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "55.00",
+      "currency": "AUD",
+      "valid_eans": [
+        "00696998020719"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://spinandgrooverecords.com.au/robots.txt",
+      "sha256": "bd72a17436403271644b906756e26511108ff40432fe10800d1fa9d817536757"
+    },
+    {
+      "url": "https://spinandgrooverecords.com.au/",
+      "sha256": "e06dbf8089c0f54f9396ffb31507ba06c987c96783d9cce5adb78c5a63f59147"
+    },
+    {
+      "url": "https://spinandgrooverecords.com.au/products.json?limit=20&page=1",
+      "sha256": "992fe53e60e4610b6bd32718d6ab627a3e47642a56c8ec93f6a3bc7f8ba9022a"
+    },
+    {
+      "url": "https://spinandgrooverecords.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "f1230b71b9a6da81fdce48e0d44f741da1e9f7116a8dfe4271d09d84d7ac48ad"
+    },
+    {
+      "url": "https://spinandgrooverecords.com.au/products/ac-dc-back-in-black-reissue-180g-vinyl",
+      "sha256": "3f01829edd6c3173618fe40a0f9cd2e9314d3e77d4328b05ee17ba62e24a0026"
+    },
+    {
+      "url": "https://spinandgrooverecords.com.au/products/adriatic-koreni-pink-purple-marble-12-vinyl",
+      "sha256": "1fa799b36703e07f8d06f7787b1d61878a0d0aec40f6c1b166d739a9b2328631"
+    },
+    {
+      "url": "https://spinandgrooverecords.com.au/products/arctic-monkeys-am-12-reissue-vinyl?variant=51453088956649",
+      "sha256": "c83fae518b0fac5ce741fe5cadebab30ca5dc01b4138c3586f56d05c1b7ade82"
+    },
+    {
+      "url": "https://spinandgrooverecords.com.au/products/alice-in-chains-jar-of-flies-remastered-12-vinyl?variant=50074894729449",
+      "sha256": "3da0d4a788d5b1797e63a68b813b6471cbdb97f58bdbd32ab873d32a81792847"
+    },
+    {
+      "url": "https://spinandgrooverecords.com.au/products/ac-dc-back-in-black-reissue-180g-vinyl?variant=50074999357673",
+      "sha256": "4d10df21177dc1e7d23293287027a2456f8ed6cd1ce920c0538bfcc5c33bb04b"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 2,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://spinandgrooverecords.com.au/products/arctic-monkeys-am-12-reissue-vinyl?variant=51453088956649",
+    "https://spinandgrooverecords.com.au/products/alice-in-chains-jar-of-flies-remastered-12-vinyl?variant=50074894729449",
+    "https://spinandgrooverecords.com.au/products/ac-dc-back-in-black-reissue-180g-vinyl?variant=50074999357673"
+  ],
+  "assessment_id": "v2-45067665621-1",
+  "queue_rows": [
+    3551
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 12,
+  "candidate_ref": "v2-45067665621-1/spinandgrooverecords_com_au",
+  "assessment_path": "assessments/v2/spinandgrooverecords_com_au/v2-45067665621-1.json"
+}
