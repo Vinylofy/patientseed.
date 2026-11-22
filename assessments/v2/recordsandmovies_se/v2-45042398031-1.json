@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T16:30:30.586556+00:00",
+  "shop_id": "recordsandmovies.se",
+  "row": 4638,
+  "name": "recordsandmovies.se",
+  "domain": "recordsandmovies.se",
+  "country": null,
+  "website": "https://recordsandmovies.se/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4638,
+    "name": "recordsandmovies.se",
+    "domain": "recordsandmovies.se",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://recordsandmovies.se/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 6,
+    "excluded": 14,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "SEK",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://recordsandmovies.se/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://recordsandmovies.se/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://recordsandmovies.se/collections/all/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 20,
+        "accepted": 4,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://recordsandmovies.se/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://recordsandmovies.se/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://recordsandmovies.se/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://recordsandmovies.se/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://recordsandmovies.se/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://recordsandmovies.se/products.json?limit=20&page=1",
+      "score": 65,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://recordsandmovies.se/products.json?limit=20&page=1",
+  "listing_sample": 6,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 6,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "SEK"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://recordsandmovies.se/products/ingo-floyd-ingo-floyd-vinyl?variant=55228767535450",
+      "artist": "Ingo & Floyd",
+      "title": "Ingo & Floyd - Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "99.00",
+      "currency": "SEK",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://recordsandmovies.se/products/pacific-eardrum-pacific-eardrum-vinyl?variant=55228863185242",
+      "artist": "Pacific Eardrum",
+      "title": "Pacific Eardrum - Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "199.00",
+      "currency": "SEK",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://recordsandmovies.se/products/steve-earle-the-dukes-exit-0-vinyl?variant=55228918235482",
+      "artist": "Steve Earle & The Dukes",
+      "title": "Exit 0 - Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "149.00",
+      "currency": "SEK",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://recordsandmovies.se/robots.txt",
+      "sha256": "c1d756361fe56d0f536bdd3847e30d432b5af72aa5b0fd071acfd9e2be50f9da"
+    },
+    {
+      "url": "https://recordsandmovies.se/",
+      "sha256": "fe91b40e0d0fe996ad8ae6c1edb936e161e7fb610c78eb04d952a962f79e6a47"
+    },
+    {
+      "url": "https://recordsandmovies.se/products.json?limit=20&page=1",
+      "sha256": "7adeda8a3ec6bd8fc5366200800b91397dd4ccb2b5b2ca171d946fd1804b82b4"
+    },
+    {
+      "url": "https://recordsandmovies.se/collections/all/products.json?limit=20&page=1",
+      "sha256": "6fea7513c3ad8dc34617aa2efff9bf20d528be0a23af71b81262bf18e2310c60"
+    },
+    {
+      "url": "https://recordsandmovies.se/products/steve-earle-the-dukes-exit-0-vinyl",
+      "sha256": "006b69e2e5a82449bbbb7b84f1a0ae79d8e616df931c3eeafdf86a53627fd519"
+    },
+    {
+      "url": "https://recordsandmovies.se/products/diestinct-se-men-inte-rora-vinyl",
+      "sha256": "aa087ca2465c66a5990db552e4e9268f6da45f3721407c11c484e0197326c3ba"
+    },
+    {
+      "url": "https://recordsandmovies.se/products/ingo-floyd-ingo-floyd-vinyl?variant=55228767535450",
+      "sha256": "20c3e40bd1e9e3e0688229fd12ca218d678f2025fb4d14f9420aa0fc057ae81f"
+    },
+    {
+      "url": "https://recordsandmovies.se/products/pacific-eardrum-pacific-eardrum-vinyl?variant=55228863185242",
+      "sha256": "02f51b406696ee189845ade64c3637ebba7797ca927d5885028c53b2f8a4e1bc"
+    },
+    {
+      "url": "https://recordsandmovies.se/products/steve-earle-the-dukes-exit-0-vinyl?variant=55228918235482",
+      "sha256": "04e8e5efad139d1c7084929038e5ab5dfb85455df61510866ecd91f9e1c74ce9"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://recordsandmovies.se/products/ingo-floyd-ingo-floyd-vinyl?variant=55228767535450",
+    "https://recordsandmovies.se/products/pacific-eardrum-pacific-eardrum-vinyl?variant=55228863185242",
+    "https://recordsandmovies.se/products/steve-earle-the-dukes-exit-0-vinyl?variant=55228918235482"
+  ],
+  "assessment_id": "v2-45042398031-1",
+  "queue_rows": [
+    4638
+  ],
+  "assessment_path": "assessments/v2/recordsandmovies_se/v2-45042398031-1.json"
+}
