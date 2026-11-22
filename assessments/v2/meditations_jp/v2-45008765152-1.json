@@ -1,0 +1,185 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T09:44:37.720171+00:00",
+  "shop_id": "meditations.jp",
+  "row": 4296,
+  "name": "Meditations",
+  "domain": "meditations.jp",
+  "country": null,
+  "website": "https://meditations.jp/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4296,
+    "name": "Meditations",
+    "domain": "meditations.jp",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://meditations.jp/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 18,
+    "excluded": 2,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "JPY",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://meditations.jp/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://meditations.jp/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://meditations.jp/collections/all/products.json?limit=20&page=1",
+        "score": 165,
+        "products_seen": 20,
+        "accepted": 16,
+        "excluded": 4,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://meditations.jp/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://meditations.jp/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://meditations.jp/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://meditations.jp/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://meditations.jp/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://meditations.jp/products.json?limit=20&page=1",
+      "score": 185,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_status": "BLOCKED",
+    "detail_reason": "UnicodeEncodeError",
+    "detail_checked": 1,
+    "detail_gtin_valid": 0
+  },
+  "platform": "shopify",
+  "catalog_route": "https://meditations.jp/products.json?limit=20&page=1",
+  "listing_sample": 18,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 18,
+    "unique_prices": 12,
+    "shipping_hits": 0,
+    "currencies": [
+      "JPY"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://meditations.jp/robots.txt",
+      "sha256": "6e4448f24781eb6dddd1264199be01df7a5a4b0ac0a5c70e537a4e46fdfb1cf2"
+    },
+    {
+      "url": "https://meditations.jp/",
+      "sha256": "f0d5c1fb2da67e045d3ad08cbbfdfb8e9b90f344d85454d1aeaff404c1185d99"
+    },
+    {
+      "url": "https://meditations.jp/products.json?limit=20&page=1",
+      "sha256": "b3c9a61e11dbb72c7cafffddb3a62c2dd477017a8c818c22974c722921177b03"
+    },
+    {
+      "url": "https://meditations.jp/collections/all/products.json?limit=20&page=1",
+      "sha256": "757d75583b3f0ccf7a560d968bf8fe666a3b093dc5185b414a1b24f47acbdb84"
+    },
+    {
+      "url": "https://meditations.jp/products/funkadelic-live-at-meadowbrook-1971-cosmic-teal-atomic-red-vinyl-2lp",
+      "sha256": "f419090912fd76b4e9817c141eafd82c1cf23cac8c35ca8b864c4f452d7daf64"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "UnicodeEncodeError"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.9444444444444444,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "UnicodeEncodeError"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45008765152-1",
+  "queue_rows": [
+    4296
+  ],
+  "assessment_path": "assessments/v2/meditations_jp/v2-45008765152-1.json"
+}
