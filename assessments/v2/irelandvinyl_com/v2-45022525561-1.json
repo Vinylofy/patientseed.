@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T12:50:03.019313+00:00",
+  "shop_id": "irelandvinyl.com",
+  "row": 4901,
+  "name": "OMG @ Zhivago",
+  "domain": "irelandvinyl.com",
+  "country": null,
+  "website": "https://irelandvinyl.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4901,
+    "name": "OMG @ Zhivago",
+    "domain": "irelandvinyl.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://irelandvinyl.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://irelandvinyl.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://irelandvinyl.com/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://irelandvinyl.com/collections/all/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://irelandvinyl.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://irelandvinyl.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://irelandvinyl.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://irelandvinyl.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://irelandvinyl.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://irelandvinyl.com/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://irelandvinyl.com/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 11,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://irelandvinyl.com/products/waylon-jennings-diamonds?variant=55417030902093",
+      "artist": "Waylon Jennings",
+      "title": "Diamonds",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "29.99",
+      "currency": "EUR",
+      "valid_eans": [
+        "00732388037988"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://irelandvinyl.com/products/duffy-rockferry-10th?variant=55430712066381",
+      "artist": "Duffy",
+      "title": "Rockferry (10th)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "33.99",
+      "currency": "EUR",
+      "valid_eans": [
+        "00881061245179"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://irelandvinyl.com/products/dermot-kennedy-without-fear-the-complete-edition?variant=55430697943373",
+      "artist": "Dermot Kennedy",
+      "title": "Without Fear: The Complete Edition",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "44.99",
+      "currency": "EUR",
+      "valid_eans": [
+        "00199957980302"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://irelandvinyl.com/robots.txt",
+      "sha256": "a387a3d4a973fda5778baea3ad9c0ab61df9ae5b7bea68a187d208a8905f2db5"
+    },
+    {
+      "url": "https://irelandvinyl.com/",
+      "sha256": "2cf01dbe0221f2763da38b00053aec1635f23c3dce9c46889cd86439c0f2bf03"
+    },
+    {
+      "url": "https://irelandvinyl.com/products.json?limit=20&page=1",
+      "sha256": "e585f89003c2432143215f07854735aa62d999075951076548db8bc089048d97"
+    },
+    {
+      "url": "https://irelandvinyl.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "4a0aced2630b7a59281df68f983a057a309886d517ec60eba784cf0128972aea"
+    },
+    {
+      "url": "https://irelandvinyl.com/products/dermot-kennedy-without-fear-the-complete-edition",
+      "sha256": "21f81283000aab1e1b67de5c7896765ce1846bcb6b22b38021035a17308e61b0"
+    },
+    {
+      "url": "https://irelandvinyl.com/products/weeknd-starboy-10th-lp",
+      "sha256": "3bbe8f6f9247e6fa4aafb76e2ddb91a9e5c2f3d4c770bbfd410475b2fde17a15"
+    },
+    {
+      "url": "https://irelandvinyl.com/products/waylon-jennings-diamonds?variant=55417030902093",
+      "sha256": "17b35c86cd19d1f7797a0e488d93465319136903553caf6055185dff93c5f2a4"
+    },
+    {
+      "url": "https://irelandvinyl.com/products/duffy-rockferry-10th?variant=55430712066381",
+      "sha256": "fb8167f461802df4ab5aa8e2b5afa2169badc4a310e056bd7ec1e7e39d3b0478"
+    },
+    {
+      "url": "https://irelandvinyl.com/products/dermot-kennedy-without-fear-the-complete-edition?variant=55430697943373",
+      "sha256": "e54783bc08728e4668df8f272c2bfb1465bcb05638d6ae73c626520d3bc0b984"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.5789473684210527,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://irelandvinyl.com/products/waylon-jennings-diamonds?variant=55417030902093",
+    "https://irelandvinyl.com/products/duffy-rockferry-10th?variant=55430712066381",
+    "https://irelandvinyl.com/products/dermot-kennedy-without-fear-the-complete-edition?variant=55430697943373"
+  ],
+  "assessment_id": "v2-45022525561-1",
+  "queue_rows": [
+    4901
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 19,
+  "candidate_ref": "v2-45022525561-1/irelandvinyl_com",
+  "assessment_path": "assessments/v2/irelandvinyl_com/v2-45022525561-1.json"
+}
