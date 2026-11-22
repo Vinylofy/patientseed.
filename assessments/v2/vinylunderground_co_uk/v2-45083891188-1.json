@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T23:47:42.350668+00:00",
+  "shop_id": "vinylunderground.co.uk",
+  "row": 4786,
+  "name": "Vinyl Underground",
+  "domain": "vinylunderground.co.uk",
+  "country": null,
+  "website": "https://vinylunderground.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4786,
+    "name": "Vinyl Underground",
+    "domain": "vinylunderground.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://vinylunderground.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 6,
+    "excluded": 14,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://vinylunderground.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://vinylunderground.co.uk/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://vinylunderground.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://vinylunderground.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylunderground.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylunderground.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylunderground.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylunderground.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://vinylunderground.co.uk/products.json?limit=20&page=1",
+      "score": 65,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://vinylunderground.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 6,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 6,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://vinylunderground.co.uk/products/wild-magnolias-with-the-new-orleans-project?variant=57592046551418",
+      "artist": "Wild Magnolias",
+      "title": "With The New Orleans Project",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "17.50",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://vinylunderground.co.uk/products/various-artists-jazz-dispensary-cosmic-nuggets-rsd-black-friday-2026?variant=57593263915386",
+      "artist": "Various Artists",
+      "title": "Jazz Dispensary: Cosmic Nuggets (RSD Black Friday 2026)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "79.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://vinylunderground.co.uk/products/kelan-phil-cohran-legacy-african-skies?variant=57161639854458",
+      "artist": "Kelan Phil Cohran & Legacy",
+      "title": "African Skies",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "39.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://vinylunderground.co.uk/robots.txt",
+      "sha256": "00d582462d62cceba981ffacaa0d6db3695ccb3e79971e9e5dda03bcd9d941b4"
+    },
+    {
+      "url": "https://vinylunderground.co.uk/",
+      "sha256": "bd886c3f0977006f14e5cefcb4ab3408615b3bf54aa468aa0bdbd6378add6813"
+    },
+    {
+      "url": "https://vinylunderground.co.uk/products.json?limit=20&page=1",
+      "sha256": "487237fc77cc5a33721cecd1b7c2001aa0b334da93c855bf16f0b3867c1c8a81"
+    },
+    {
+      "url": "https://vinylunderground.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "c743a2eaddd88eeb0f9b70838fc6b02a1f487ce12d3b12ff5c5db16586f28a1e"
+    },
+    {
+      "url": "https://vinylunderground.co.uk/products/kelan-phil-cohran-legacy-african-skies",
+      "sha256": "b0f25cf90408e59989cf2b83ebc402ee32196253ecd5f99f15eab7e789a3b230"
+    },
+    {
+      "url": "https://vinylunderground.co.uk/products/prince-3121-las-vegas-live",
+      "sha256": "53618bb682df9f54be371692b625897275cab21ec295d949357492e864885b66"
+    },
+    {
+      "url": "https://vinylunderground.co.uk/products/wild-magnolias-with-the-new-orleans-project?variant=57592046551418",
+      "sha256": "8f91e43a0a2a4a35b16c69be63051d4bbcd0d2ac6c9a28d5c7d27c1097cc45d0"
+    },
+    {
+      "url": "https://vinylunderground.co.uk/products/various-artists-jazz-dispensary-cosmic-nuggets-rsd-black-friday-2026?variant=57593263915386",
+      "sha256": "3bd4fe677ff88ea7697ec8288b873c2cf1efa74525e82ea754e52816d71a106a"
+    },
+    {
+      "url": "https://vinylunderground.co.uk/products/kelan-phil-cohran-legacy-african-skies?variant=57161639854458",
+      "sha256": "47404140dab1b176025d1b215dd7783632972f34ac4ac2834db7fe670efd0441"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://vinylunderground.co.uk/products/wild-magnolias-with-the-new-orleans-project?variant=57592046551418",
+    "https://vinylunderground.co.uk/products/various-artists-jazz-dispensary-cosmic-nuggets-rsd-black-friday-2026?variant=57593263915386",
+    "https://vinylunderground.co.uk/products/kelan-phil-cohran-legacy-african-skies?variant=57161639854458"
+  ],
+  "assessment_id": "v2-45083891188-1",
+  "queue_rows": [
+    4786
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 6,
+  "candidate_ref": "v2-45083891188-1/vinylunderground_co_uk",
+  "assessment_path": "assessments/v2/vinylunderground_co_uk/v2-45083891188-1.json"
+}
