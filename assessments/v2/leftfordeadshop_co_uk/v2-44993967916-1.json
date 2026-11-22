@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T06:37:13.205355+00:00",
+  "shop_id": "leftfordeadshop.co.uk",
+  "row": 3460,
+  "name": "Leftfordeadshop",
+  "domain": "leftfordeadshop.co.uk",
+  "country": null,
+  "website": "https://leftfordeadshop.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3460,
+    "name": "Leftfordeadshop",
+    "domain": "leftfordeadshop.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://leftfordeadshop.co.uk/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 3,
+    "excluded": 17,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://leftfordeadshop.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://leftfordeadshop.co.uk/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://leftfordeadshop.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 35,
+        "products_seen": 20,
+        "accepted": 3,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://leftfordeadshop.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://leftfordeadshop.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://leftfordeadshop.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://leftfordeadshop.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://leftfordeadshop.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://leftfordeadshop.co.uk/collections/all/products.json?limit=20&page=1",
+      "score": 35,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://leftfordeadshop.co.uk/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 3,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 3,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://leftfordeadshop.co.uk/robots.txt",
+      "sha256": "7017d4e7817a0a17f5d9bcf56c960b77e673d7578eba1dd2215b4f86c4b81b36"
+    },
+    {
+      "url": "https://leftfordeadshop.co.uk/",
+      "sha256": "2b82047cde73169be177fa556069aa2430f3777e476cc8a9195fc70154427eab"
+    },
+    {
+      "url": "https://leftfordeadshop.co.uk/products.json?limit=20&page=1",
+      "sha256": "3f9b213c73ee8d81502a9b2df172818371cbe20235f594317c974601ec345435"
+    },
+    {
+      "url": "https://leftfordeadshop.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "01e1c2b6e9682666c0a45fddbfd0a0144609e667fd0079e56e41db647ed931fe"
+    },
+    {
+      "url": "https://leftfordeadshop.co.uk/products/adrianne-lenker-hours-were-the-birds",
+      "sha256": "354761f1515c28bbde3bcea5eba7247551b900bbed66ba9b0d0b1a2847720137"
+    },
+    {
+      "url": "https://leftfordeadshop.co.uk/products/adrianne-lenker-songs-and-instrumentals",
+      "sha256": "25e7e7cb7a26b76888128c92536b53c4b4aae25f6504cbffecc3bf4d43862b50"
+    },
+    {
+      "url": "https://leftfordeadshop.co.uk/products/air-moon-safari?variant=44253217587363",
+      "sha256": "7be3e3f7a6c1357f8856829c1d62314e636eb05eeaebdf51e959c8c0d42d788d"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-44993967916-1",
+  "queue_rows": [
+    3460
+  ],
+  "assessment_path": "assessments/v2/leftfordeadshop_co_uk/v2-44993967916-1.json"
+}
