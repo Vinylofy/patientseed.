@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T17:47:06.251768+00:00",
+  "shop_id": "redeye.com.au",
+  "row": 3544,
+  "name": "Red Eye Records",
+  "domain": "redeye.com.au",
+  "country": null,
+  "website": "https://redeye.com.au/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3544,
+    "name": "Red Eye Records",
+    "domain": "redeye.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://redeye.com.au/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 8,
+    "excluded": 12,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://redeye.com.au/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://redeye.com.au/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 20,
+        "accepted": 8,
+        "excluded": 12,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://redeye.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 20,
+        "accepted": 8,
+        "excluded": 12,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://redeye.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://redeye.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://redeye.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://redeye.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://redeye.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://redeye.com.au/products.json?limit=20&page=1",
+      "score": 85,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://redeye.com.au/products.json?limit=20&page=1",
+  "listing_sample": 8,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 8,
+    "unique_prices": 5,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://redeye.com.au/products/last-of-us-video-game-soundtrack-2lp-set-180-gram-lp-2349201?variant=67970801270952",
+      "artist": "LAST OF US : VIDEO GAME",
+      "title": "SOUNDTRACK : 2LP SET (180-GRAM) - LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "69.98",
+      "currency": "AUD",
+      "valid_eans": [
+        "08719262025721"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://redeye.com.au/products/emf-schubert-dip-expanded-deluxe-2lp-set-lp-2517889?variant=67971015606440",
+      "artist": "EMF",
+      "title": "SCHUBERT DIP EXPANDED DELUXE 2LP SET - LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "69.98",
+      "currency": "AUD",
+      "valid_eans": [
+        "05013929196117"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://redeye.com.au/products/1975-at-their-very-best-live-2lp-clear-lp-2471165?variant=67972055138472",
+      "artist": "1975",
+      "title": "AT THEIR VERY BEST LIVE : 2LP CLEAR - LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "69.98",
+      "currency": "AUD",
+      "valid_eans": [
+        "05060257963904"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://redeye.com.au/robots.txt",
+      "sha256": "0cd99b3ba94c0e8bac06ac6583d25e71b294c2327899bc7244a825340964fa20"
+    },
+    {
+      "url": "https://redeye.com.au/",
+      "sha256": "798a2edc0806d86efae33da300b0d57a63284c507b0e36c455d302fb2acb2a9e"
+    },
+    {
+      "url": "https://redeye.com.au/products.json?limit=20&page=1",
+      "sha256": "d772318cf0c573ed709ec11ce3b48f9a815915f57cfd665e196c7396e36ea9b1"
+    },
+    {
+      "url": "https://redeye.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "e5254c612a0c090983cccb346f64d69897009ded3ed61a3191cda2011f2a39b8"
+    },
+    {
+      "url": "https://redeye.com.au/products/1975-at-their-very-best-live-2lp-clear-lp-2471165",
+      "sha256": "cbf336883e05e479fcdc01fd87fee2dbe58e2b0073c704c3c42bfe708df5a618"
+    },
+    {
+      "url": "https://redeye.com.au/products/slits-cut-orange-vinyl-lp-2412008",
+      "sha256": "2a60c465477564c355bb10b50fb9c58d50257a2aafedaab606f9f3f282e37a66"
+    },
+    {
+      "url": "https://redeye.com.au/products/last-of-us-video-game-soundtrack-2lp-set-180-gram-lp-2349201?variant=67970801270952",
+      "sha256": "93fd432e261cf1f5bf2164af5df8f15984f66af5918d13a63b6cfc12001c48b6"
+    },
+    {
+      "url": "https://redeye.com.au/products/emf-schubert-dip-expanded-deluxe-2lp-set-lp-2517889?variant=67971015606440",
+      "sha256": "4c0167bd88f3a308c88380c26ae8ce7e9c2a0601c01bddcaf218e3522193e03c"
+    },
+    {
+      "url": "https://redeye.com.au/products/1975-at-their-very-best-live-2lp-clear-lp-2471165?variant=67972055138472",
+      "sha256": "e3836a35835b039c8d8ac527cf8efe2d6ac289bfa4f2be30746895cb48a6507b"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://redeye.com.au/products/last-of-us-video-game-soundtrack-2lp-set-180-gram-lp-2349201?variant=67970801270952",
+    "https://redeye.com.au/products/emf-schubert-dip-expanded-deluxe-2lp-set-lp-2517889?variant=67971015606440",
+    "https://redeye.com.au/products/1975-at-their-very-best-live-2lp-clear-lp-2471165?variant=67972055138472"
+  ],
+  "assessment_id": "v2-45051250283-1",
+  "queue_rows": [
+    3544
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 8,
+  "candidate_ref": "v2-45051250283-1/redeye_com_au",
+  "assessment_path": "assessments/v2/redeye_com_au/v2-45051250283-1.json"
+}
