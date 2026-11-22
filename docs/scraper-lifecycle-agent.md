@@ -23,7 +23,7 @@ Each currently published profile also has its own visible manual workflow under 
 ## Inhoudelijke toelating van bestaande builds (18 oktober 2026)
 
 `SCRAPER | Batch | Quality admission and repair` behandelt dagelijks maximaal
-25 kandidaten om 00:37 UTC (02:37 Nederlandse zomertijd / 01:37 wintertijd).
+50 kandidaten om 00:37 UTC (02:37 Nederlandse zomertijd / 01:37 wintertijd).
 Nieuwe profielen worden automatisch ontdekt op `scraper-builds`. De bronqueue
 wordt niet gereset. Nieuwe kandidaten gaan vóór herhaalde initiële reviews;
 workers met twee opeenvolgende fouten krijgen onderhoudsprioriteit.

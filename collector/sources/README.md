@@ -16,7 +16,7 @@ Use the ordinary discovery/build Action with batch_limit=50 and reset_cursor=fal
 The cursor begins at the first appended candidate; it must never be reset for an
 additional source. Built profiles enter the existing quality gate. To prioritize
 this source, use source_list=findyl-online-2026-10-25 in Quality admission and
-repair (maximum 25 per run); both source groups share the same durable QA state.
+repair (maximum 50 per run); both source groups share the same durable QA state.
 `scraper-status.md` remains the single human-readable progress document.
 
 Storefront currency is copied only from explicit public Shopify.currency.active

@@ -181,9 +181,9 @@ def approved(root, profiles, mode=None):
     return result
 
 
-def run_batch(profiles, root, *, limit=25, run_id='local', validator=validate, seconds=2400, domains=None):
+def run_batch(profiles, root, *, limit=50, run_id='local', validator=validate, seconds=5400, domains=None):
     assert_credential_free_environment()
-    if not 1 <= limit <= 25: raise ValueError('quality batch limit must be 1..25')
+    if not 1 <= limit <= 50: raise ValueError('quality batch limit must be 1..50')
     state_path = root / 'state.json'
     state = json.loads(state_path.read_text()) if state_path.exists() else {'schema_version': 1, 'batch': 0, 'shops': {}}
     state['batch'] += 1; batch = state['batch']; started = time.monotonic(); processed = []
@@ -257,7 +257,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--profiles', type=Path, required=True)
     parser.add_argument('--state-root', type=Path, required=True)
-    parser.add_argument('--limit', type=int, default=25)
+    parser.add_argument('--limit', type=int, default=50)
     parser.add_argument('--run-id', default='local')
     parser.add_argument('--plan', action='store_true')
     parser.add_argument('--mode', choices=('price', 'ean'))

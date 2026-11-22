@@ -1,5 +1,5 @@
 name: SCRAPER | Batch | Quality admission and repair
-run-name: Quality | 25 candidates maximum | ${{ github.event_name }}
+run-name: Quality | 50 candidates maximum | ${{ github.event_name }}
 on:
   schedule:
     - cron: "37 0 * * *"
@@ -14,10 +14,10 @@ on:
           - all
           - findyl-online-2026-10-25
       batch_limit:
-        description: "Maximum shops (1-25); automatically resumes unfinished candidates"
+        description: "Maximum shops (1-50); automatically resumes unfinished candidates"
         type: string
         required: true
-        default: "25"
+        default: "50"
 permissions:
   contents: write
 concurrency:
@@ -26,7 +26,7 @@ concurrency:
 jobs:
   validate:
     runs-on: ubuntu-24.04
-    timeout-minutes: 55
+    timeout-minutes: 110
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
@@ -46,9 +46,9 @@ jobs:
           python-version: "3.12"
       - name: Preserve base for concurrent-edit protection
         run: cp release/quality/state.json release/quality/base-state.json
-      - name: Validate up to 25 shops without credentials
+      - name: Validate up to 50 shops without credentials
         env:
-          BATCH_LIMIT: ${{ inputs.batch_limit || '25' }}
+          BATCH_LIMIT: ${{ inputs.batch_limit || '50' }}
           RUN_ID: ${{ github.run_id }}
           SOURCE_LIST: ${{ inputs.source_list || 'all' }}
         run: |
