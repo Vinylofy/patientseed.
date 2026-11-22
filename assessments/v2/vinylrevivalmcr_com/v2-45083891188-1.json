@@ -1,0 +1,202 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T23:45:24.543743+00:00",
+  "shop_id": "vinylrevivalmcr.com",
+  "row": 4856,
+  "name": "Vinyl Revival",
+  "domain": "vinylrevivalmcr.com",
+  "country": null,
+  "website": "https://vinylrevivalmcr.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4856,
+    "name": "Vinyl Revival",
+    "domain": "vinylrevivalmcr.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://vinylrevivalmcr.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 1,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://vinylrevivalmcr.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://vinylrevivalmcr.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://vinylrevivalmcr.com/collections/all/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://vinylrevivalmcr.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylrevivalmcr.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylrevivalmcr.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylrevivalmcr.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylrevivalmcr.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://vinylrevivalmcr.com/collections/all/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://vinylrevivalmcr.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://vinylrevivalmcr.com/products/cottonopolis?variant=57003559190911",
+      "artist": "",
+      "title": "Cottonopolis Lp Manchester Indie compilation",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "17.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://vinylrevivalmcr.com/robots.txt",
+      "sha256": "38e1e048f818e9e7d4abbd64a5a07bc967441b6ac13e98a4d971714609de2fa0"
+    },
+    {
+      "url": "https://vinylrevivalmcr.com/",
+      "sha256": "90a1be0e2bae3ca660008eb44e7dfeecf9beeda78e1703aa77f13d9b87cb000c"
+    },
+    {
+      "url": "https://vinylrevivalmcr.com/products.json?limit=20&page=1",
+      "sha256": "f2ac89c006eb3fcb52c3d632fea060345ca3c6631ad6dbb518e0915ef75e7ce0"
+    },
+    {
+      "url": "https://vinylrevivalmcr.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "6287133de38010750b710fab58fdfaeff726ba23ea627f8d7ffa70996847b671"
+    },
+    {
+      "url": "https://vinylrevivalmcr.com/products/cottonopolis",
+      "sha256": "54edfdc1dfc8690d5570ebfa46e5ba791e7261a4c79d5022e9de6b71077eab33"
+    },
+    {
+      "url": "https://vinylrevivalmcr.com/products/cottonopolis?variant=57003559190911",
+      "sha256": "9d76665f0af1a759fb6e836d9cfbf491e5e1acde030cfce64c96c472db22b118"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "insufficient_representative_product_evidence"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://vinylrevivalmcr.com/products/cottonopolis?variant=57003559190911"
+  ],
+  "assessment_id": "v2-45083891188-1",
+  "queue_rows": [
+    4856
+  ],
+  "assessment_path": "assessments/v2/vinylrevivalmcr_com/v2-45083891188-1.json"
+}
