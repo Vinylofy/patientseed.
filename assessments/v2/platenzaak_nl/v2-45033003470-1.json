@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T14:41:09.426228+00:00",
+  "shop_id": "platenzaak.nl",
+  "row": 5103,
+  "name": "platenzaak.nl",
+  "domain": "platenzaak.nl",
+  "country": null,
+  "website": "https://platenzaak.nl/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 5103,
+    "name": "platenzaak.nl",
+    "domain": "platenzaak.nl",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://platenzaak.nl/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 11,
+    "excluded": 9,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://platenzaak.nl/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://platenzaak.nl/products.json?limit=20&page=1",
+        "score": 95,
+        "products_seen": 20,
+        "accepted": 9,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://platenzaak.nl/collections/all/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://platenzaak.nl/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://platenzaak.nl/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://platenzaak.nl/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://platenzaak.nl/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://platenzaak.nl/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://platenzaak.nl/collections/all/products.json?limit=20&page=1",
+      "score": 115,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://platenzaak.nl/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 11,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 11,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://platenzaak.nl/products/1-2lp-1?variant=57445750014339",
+      "artist": "",
+      "title": "'=1 (2LP)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "48.99",
+      "currency": "EUR",
+      "valid_eans": [
+        "04029759191407"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://platenzaak.nl/products/miss-me-7inch-single?variant=62965203140995",
+      "artist": "",
+      "title": "\"MISS ME\" 7 inch vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "14.99",
+      "currency": "EUR",
+      "valid_eans": [
+        "00881061750017"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://platenzaak.nl/products/que-sentimiento-remastered-2026-lp?variant=62302126178691",
+      "artist": "",
+      "title": "!Que Sentimiento! (Remastered (2026) LP)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "34.99",
+      "currency": "EUR",
+      "valid_eans": [
+        "00888072775398"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://platenzaak.nl/robots.txt",
+      "sha256": "49d19016f1e44581d287fda108ae28cb94dbc1206b83344fe810e23636154eef"
+    },
+    {
+      "url": "https://platenzaak.nl/",
+      "sha256": "5037dc5ffedec538bec730dd41d94bdf11d8cd82b8886b08806c14eccc3d26bb"
+    },
+    {
+      "url": "https://platenzaak.nl/products.json?limit=20&page=1",
+      "sha256": "b6260e00b28e92a5967bdf8da5306937d506ae730f439d3e25321960c91e3496"
+    },
+    {
+      "url": "https://platenzaak.nl/collections/all/products.json?limit=20&page=1",
+      "sha256": "ec13f34bd4ac6bc1d49ee1c07ffac1c247c944e040bb03b0033d8687d57949ab"
+    },
+    {
+      "url": "https://platenzaak.nl/products/que-sentimiento-remastered-2026-lp",
+      "sha256": "d9fd0f74d66c2b9bf135df1e24bcba913401e075d72ce446326b4af550fa3a9a"
+    },
+    {
+      "url": "https://platenzaak.nl/products/part-1",
+      "sha256": "9c6998d3049a548ecd80ebc8f936efccdfeb3e24c56b72721c305a97028694b6"
+    },
+    {
+      "url": "https://platenzaak.nl/products/1-2lp-1?variant=57445750014339",
+      "sha256": "2852798fd84673d7d922eee1ab4f6d888550cdaf36dfb1b0ec4c3d3cb8174d8c"
+    },
+    {
+      "url": "https://platenzaak.nl/products/miss-me-7inch-single?variant=62965203140995",
+      "sha256": "447d7e163c58177c7919a3a8a0635d7a2efc9430ee21d605b42b5c43d07e26fe"
+    },
+    {
+      "url": "https://platenzaak.nl/products/que-sentimiento-remastered-2026-lp?variant=62302126178691",
+      "sha256": "e2bd8a0d0e6783de6c6ac806a09a11f359d5701cbec933b88f01aaf056a925ba"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://platenzaak.nl/products/1-2lp-1?variant=57445750014339",
+    "https://platenzaak.nl/products/miss-me-7inch-single?variant=62965203140995",
+    "https://platenzaak.nl/products/que-sentimiento-remastered-2026-lp?variant=62302126178691"
+  ],
+  "assessment_id": "v2-45033003470-1",
+  "queue_rows": [
+    5103
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 11,
+  "candidate_ref": "v2-45033003470-1/platenzaak_nl",
+  "assessment_path": "assessments/v2/platenzaak_nl/v2-45033003470-1.json"
+}
