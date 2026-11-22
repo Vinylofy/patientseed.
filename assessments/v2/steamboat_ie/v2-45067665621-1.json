@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T20:51:39.599376+00:00",
+  "shop_id": "steamboat.ie",
+  "row": 3401,
+  "name": "Steamboat",
+  "domain": "steamboat.ie",
+  "country": null,
+  "website": "https://steamboat.ie/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3401,
+    "name": "Steamboat",
+    "domain": "steamboat.ie",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://steamboat.ie/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://steamboat.ie/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://steamboat.ie/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://steamboat.ie/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://steamboat.ie/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://steamboat.ie/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://steamboat.ie/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://steamboat.ie/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://steamboat.ie/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://steamboat.ie/collections/all/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://steamboat.ie/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 13,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://steamboat.ie/products/ac-dc-for-those-about-to-rock-lp?variant=32673907834942",
+      "artist": "AC/DC",
+      "title": "For Those About To Rock LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "30.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://steamboat.ie/products/a-ha-true-north-2lp?variant=46971478442320",
+      "artist": "A-Ha",
+      "title": "True North 2LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "42.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://steamboat.ie/products/100-gecs-10-000-gecs-lp-limited-edition-white-vinyl?variant=52757233336656",
+      "artist": "100 Gecs",
+      "title": "10,000 Gecs LP (Limited Edition White Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "41.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://steamboat.ie/robots.txt",
+      "sha256": "f73410093a1d63cd46e676ef5df1f7a22c766c054206d93cceda52bce6b5f860"
+    },
+    {
+      "url": "https://steamboat.ie/",
+      "sha256": "0890336b9101c1b1a1cf1b109c071b56f1e41f1eddb779d755e19b17c45880f8"
+    },
+    {
+      "url": "https://steamboat.ie/products.json?limit=20&page=1",
+      "sha256": "3872af5372915613c852f4840c7ace20dfe7fee61286a40b51111d2c8e388e37"
+    },
+    {
+      "url": "https://steamboat.ie/collections/all/products.json?limit=20&page=1",
+      "sha256": "2e3190fa5380430e69065d5dfd6ed67858aadb1cebd910a9cdcb8d47b320d04f"
+    },
+    {
+      "url": "https://steamboat.ie/products/100-gecs-10-000-gecs-lp-limited-edition-white-vinyl",
+      "sha256": "010c892ee2805566226f2676c42313aa4bad10836353ca8398e193fa2a1a4886"
+    },
+    {
+      "url": "https://steamboat.ie/products/2pac-2pacalypse-now-2lp",
+      "sha256": "6f2f0191df562095161d35f2d0129057ac65f3510201ebac5f0336a05afa8b7a"
+    },
+    {
+      "url": "https://steamboat.ie/products/ac-dc-for-those-about-to-rock-lp?variant=32673907834942",
+      "sha256": "31015e45747ef84513a1fb635bc4eda6a15b21502beb2e920d5640ca48fe9aeb"
+    },
+    {
+      "url": "https://steamboat.ie/products/a-ha-true-north-2lp?variant=46971478442320",
+      "sha256": "fea8b5131906cda1b45f0cdfab557841c29bc2b4294a95606d076805f1c14748"
+    },
+    {
+      "url": "https://steamboat.ie/products/100-gecs-10-000-gecs-lp-limited-edition-white-vinyl?variant=52757233336656",
+      "sha256": "69da698ba5261d812ea17704eb93074b3e680833487c274e05e14032278d515f"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.7894736842105263,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://steamboat.ie/products/ac-dc-for-those-about-to-rock-lp?variant=32673907834942",
+    "https://steamboat.ie/products/a-ha-true-north-2lp?variant=46971478442320",
+    "https://steamboat.ie/products/100-gecs-10-000-gecs-lp-limited-edition-white-vinyl?variant=52757233336656"
+  ],
+  "assessment_id": "v2-45067665621-1",
+  "queue_rows": [
+    3401
+  ],
+  "assessment_path": "assessments/v2/steamboat_ie/v2-45067665621-1.json"
+}
