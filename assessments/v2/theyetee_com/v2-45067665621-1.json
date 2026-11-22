@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T20:57:09.919167+00:00",
+  "shop_id": "theyetee.com",
+  "row": 4953,
+  "name": "SuperJumbo Records and Arcade",
+  "domain": "theyetee.com",
+  "country": null,
+  "website": "https://theyetee.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4953,
+    "name": "SuperJumbo Records and Arcade",
+    "domain": "theyetee.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://theyetee.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 15,
+    "excluded": 5,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://theyetee.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://theyetee.com/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://theyetee.com/collections/all/products.json?limit=20&page=1",
+        "score": 155,
+        "products_seen": 20,
+        "accepted": 15,
+        "excluded": 5,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://theyetee.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://theyetee.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://theyetee.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://theyetee.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://theyetee.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://theyetee.com/collections/all/products.json?limit=20&page=1",
+      "score": 155,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://theyetee.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 15,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 15,
+    "unique_prices": 14,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://theyetee.com/robots.txt",
+      "sha256": "0b188f839b16894731fee5ca799d77aecabf64711b5c1166ce51cdca939bd95c"
+    },
+    {
+      "url": "https://theyetee.com/",
+      "sha256": "91e53a30b9529b211d73e46405c3ccac64d6bf6fb53ac0df9a35da3d8be27f52"
+    },
+    {
+      "url": "https://theyetee.com/products.json?limit=20&page=1",
+      "sha256": "9f86b066894f87bccce28ddf0a1a1b0938e77904ca295cb92795feb5496178f4"
+    },
+    {
+      "url": "https://theyetee.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "d4236e0fa466840039339fdc4d17a8caa79682167f64e81934dc3157d80baf59"
+    },
+    {
+      "url": "https://theyetee.com/products/much-ado-about-nothing-b-w-mud-next-to-me-7",
+      "sha256": "3b2abb14ff8283cbd7ddbe1123afd7f94d278e2555f9fcd0767e2ed5bc329ded"
+    },
+    {
+      "url": "https://theyetee.com/products/trampled-under-foot-7",
+      "sha256": "d06c5a1a2db9cff15f611e5aef70aff9d87657345aa8a3953d36cc838125fab8"
+    },
+    {
+      "url": "https://theyetee.com/products/sin-indie-exclusive-splatter-vinyl?variant=43984242901103",
+      "sha256": "ae078a5bb6c532616c221a791037a51fd49fb58d8f3225d62b1a50bc7e5de3fb"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.06666666666666667,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45067665621-1",
+  "queue_rows": [
+    4953
+  ],
+  "assessment_path": "assessments/v2/theyetee_com/v2-45067665621-1.json"
+}
