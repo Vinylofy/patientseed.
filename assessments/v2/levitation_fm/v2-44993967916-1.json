@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T06:38:46.684032+00:00",
+  "shop_id": "levitation.fm",
+  "row": 3402,
+  "name": "levitation",
+  "domain": "levitation.fm",
+  "country": null,
+  "website": "https://levitation.fm/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3402,
+    "name": "levitation",
+    "domain": "levitation.fm",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://levitation.fm/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 16,
+    "excluded": 4,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://levitation.fm/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://levitation.fm/products.json?limit=20&page=1",
+        "score": 165,
+        "products_seen": 20,
+        "accepted": 16,
+        "excluded": 4,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://levitation.fm/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://levitation.fm/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://levitation.fm/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://levitation.fm/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://levitation.fm/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://levitation.fm/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://levitation.fm/products.json?limit=20&page=1",
+      "score": 165,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://levitation.fm/products.json?limit=20&page=1",
+  "listing_sample": 16,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 16,
+    "unique_prices": 16,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://levitation.fm/products/iggy-pop-idiot-1?variant=42511268446293",
+      "artist": "Iggy Pop",
+      "title": "Idiot (180g)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "33.98",
+      "currency": "USD",
+      "valid_eans": [
+        "00602557366242"
+      ],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://levitation.fm/products/nintendo-nes-cartridge-coasters?variant=42703008399445",
+      "artist": "Nintendo",
+      "title": "Nes Cartridge Coasters",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "12.99",
+      "currency": "USD",
+      "valid_eans": [
+        "05055964712839"
+      ],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://levitation.fm/products/beatles-revolver-vinyl?variant=42823765164117",
+      "artist": "Beatles",
+      "title": "Revolver (Special Edition)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "42.83",
+      "currency": "USD",
+      "valid_eans": [
+        "00602445599707"
+      ],
+      "condition_basis": "explicit_new"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://levitation.fm/robots.txt",
+      "sha256": "469d19ebc53f98f860377d8f0f844420320ef40b892f65eef618b48fe88181eb"
+    },
+    {
+      "url": "https://levitation.fm/",
+      "sha256": "a972a3dc33a39fe37cd8c47ce6a5b492b6ea665a2340a5e258129973684cea8e"
+    },
+    {
+      "url": "https://levitation.fm/products.json?limit=20&page=1",
+      "sha256": "22de805ebfc04e61d57d7d79ff69d00367bcb266bc2d9295e6d6de46d54ce099"
+    },
+    {
+      "url": "https://levitation.fm/collections/all/products.json?limit=20&page=1",
+      "sha256": "103a74bb97968c4ae0e87d6a82092181823de7a7ac9561c74d2529b4f8206e61"
+    },
+    {
+      "url": "https://levitation.fm/products/beatles-revolver-vinyl",
+      "sha256": "049a309a721421399c1825172f9d4715bbee4e4b0437c8380b77e10101797379"
+    },
+    {
+      "url": "https://levitation.fm/products/marillion-misplaced-childhood-vinyl",
+      "sha256": "2afce318afea241684e526825ab0a9b5500abed2ae22b176c1a78c4c54ffed71"
+    },
+    {
+      "url": "https://levitation.fm/products/iggy-pop-idiot-1?variant=42511268446293",
+      "sha256": "80617bc9df5f157ee7012e3264b9f6ddcc64ebaf87be6e402d74c17bdcc70f65"
+    },
+    {
+      "url": "https://levitation.fm/products/nintendo-nes-cartridge-coasters?variant=42703008399445",
+      "sha256": "8c1871473c7ff03b91ad6dee2e74c5905c9cc08fd6aee6d258cb2b2ea46d58bf"
+    },
+    {
+      "url": "https://levitation.fm/products/beatles-revolver-vinyl?variant=42823765164117",
+      "sha256": "5dd07ed9c53f3b1766cfd5189a8935b46dca96c0958899e60450c25c8a7b670a"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": true,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://levitation.fm/products/iggy-pop-idiot-1?variant=42511268446293",
+    "https://levitation.fm/products/nintendo-nes-cartridge-coasters?variant=42703008399445",
+    "https://levitation.fm/products/beatles-revolver-vinyl?variant=42823765164117"
+  ],
+  "assessment_id": "v2-44993967916-1",
+  "queue_rows": [
+    3402
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 16,
+  "candidate_ref": "v2-44993967916-1/levitation_fm",
+  "assessment_path": "assessments/v2/levitation_fm/v2-44993967916-1.json"
+}
