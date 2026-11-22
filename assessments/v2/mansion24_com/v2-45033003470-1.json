@@ -1,0 +1,96 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T14:41:23.703470+00:00",
+  "shop_id": "mansion24.com",
+  "row": 4394,
+  "name": "Plato (Apeldoorn, Mansion 24)",
+  "domain": "mansion24.com",
+  "country": null,
+  "website": "https://mansion24.com/",
+  "previous_status": "SOURCE_BLOCKED",
+  "previous_reason": "HTTP_429",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4394,
+    "name": "Plato (Apeldoorn, Mansion 24)",
+    "domain": "mansion24.com",
+    "status": "SOURCE_BLOCKED",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "source_url": "https://mansion24.com/collections/all/products.json?limit=20&page=1",
+    "reason": "HTTP_429",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://mansion24.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": "https://mansion24.com/collections/all/products.json?limit=20&page=1",
+  "requests": [
+    {
+      "url": "https://mansion24.com/robots.txt",
+      "sha256": "a62f7e3c7837b76d46676e38cdf88ffc755baea19efd96d84421788b42fe03ed"
+    },
+    {
+      "url": "https://mansion24.com/",
+      "sha256": "b349c0da1329ea79c9d27c0bd82ed075bca0e5a4f6482def138c7685f79278c3"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "HTTP_429"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "HTTP_429"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-45033003470-1",
+  "queue_rows": [
+    4394
+  ],
+  "assessment_path": "assessments/v2/mansion24_com/v2-45033003470-1.json"
+}
