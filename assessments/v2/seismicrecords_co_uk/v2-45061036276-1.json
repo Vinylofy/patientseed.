@@ -1,0 +1,82 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T19:35:00.543046+00:00",
+  "shop_id": "seismicrecords.co.uk",
+  "row": 4922,
+  "name": "Seismic Records",
+  "domain": "seismicrecords.co.uk",
+  "country": null,
+  "website": "https://seismicrecords.co.uk/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4922,
+    "name": "Seismic Records",
+    "domain": "seismicrecords.co.uk",
+    "status": "SOURCE_BLOCKED",
+    "gate": "identity",
+    "reason": "robots_disallow",
+    "source_url": "https://seismicrecords.co.uk/"
+  },
+  "platform": null,
+  "catalog_route": "https://seismicrecords.co.uk/",
+  "requests": [
+    {
+      "url": "https://seismicrecords.co.uk/robots.txt",
+      "sha256": "9e51520805d000af0d1c445afb83b817d37c4bd0109db9b12edeb01497a0994a"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "robots_disallow"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "robots_disallow"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-45061036276-1",
+  "queue_rows": [
+    4922
+  ],
+  "assessment_path": "assessments/v2/seismicrecords_co_uk/v2-45061036276-1.json"
+}
