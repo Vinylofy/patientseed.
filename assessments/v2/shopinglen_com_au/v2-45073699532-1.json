@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T21:50:32.284319+00:00",
+  "shop_id": "shopinglen.com.au",
+  "row": 3504,
+  "name": "The Shop in Glen",
+  "domain": "shopinglen.com.au",
+  "country": null,
+  "website": "https://shopinglen.com.au/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3504,
+    "name": "The Shop in Glen",
+    "domain": "shopinglen.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://shopinglen.com.au/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 13,
+    "excluded": 7,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://shopinglen.com.au/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://shopinglen.com.au/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 20,
+        "accepted": 13,
+        "excluded": 7,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://shopinglen.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://shopinglen.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shopinglen.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shopinglen.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shopinglen.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shopinglen.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://shopinglen.com.au/products.json?limit=20&page=1",
+      "score": 135,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://shopinglen.com.au/products.json?limit=20&page=1",
+  "listing_sample": 13,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 13,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://shopinglen.com.au/products/primetime-810180993609?variant=68112054780180",
+      "artist": "Primetime",
+      "title": "Indie Exclusive Transparent Cobalt Colored Vinyl",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "63.25",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://shopinglen.com.au/products/the-easy-underground-823375299530?variant=68112059269396",
+      "artist": "The Easy Underground",
+      "title": "Crystal Clear Vinyl In Single Jacket With Printed Inner Sleeve",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "45.38",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://shopinglen.com.au/products/wwe-x-pac-d-generation-x-pop-vinyl?variant=44717552206012",
+      "artist": "WWE",
+      "title": "X-Pac (D-Generation X) Pop! Vinyl",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "19.99",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://shopinglen.com.au/robots.txt",
+      "sha256": "d5075410132ebc2eed83c0d756076b0a3986672e63e2a8fc7b4818b08a70295a"
+    },
+    {
+      "url": "https://shopinglen.com.au/",
+      "sha256": "a0eff05274d410bdbeedd3b0464385cb8f82a16881f699c0dfbc05dd7f8e2e7c"
+    },
+    {
+      "url": "https://shopinglen.com.au/products.json?limit=20&page=1",
+      "sha256": "f18cce3572ad15c025f233eb137f6b98bc3625b0e6db715216815f24c0452d71"
+    },
+    {
+      "url": "https://shopinglen.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "e21a0b79e685ed72a848ab118f0e5f959564751119b56553ffad4b800ecf92ae"
+    },
+    {
+      "url": "https://shopinglen.com.au/products/wwe-x-pac-d-generation-x-pop-vinyl",
+      "sha256": "87a72d2b76f207ab00180dd1c48fa6824480a81c770ede5cfa28087d06199b2b"
+    },
+    {
+      "url": "https://shopinglen.com.au/products/back-to-black-602435796475",
+      "sha256": "d7dd511fc47b590c28b59a9182d38673cf60dae63d554a7be49e27c98c5395b4"
+    },
+    {
+      "url": "https://shopinglen.com.au/products/primetime-810180993609?variant=68112054780180",
+      "sha256": "2996258dafa550ee0000e6e3b0588467dd500dda37a4ffd2225949d69e50e204"
+    },
+    {
+      "url": "https://shopinglen.com.au/products/the-easy-underground-823375299530?variant=68112059269396",
+      "sha256": "d05cdb1d2150733a05b5813076c1cc536ef9c6641d6268ce2d3c91526b3ee061"
+    },
+    {
+      "url": "https://shopinglen.com.au/products/wwe-x-pac-d-generation-x-pop-vinyl?variant=44717552206012",
+      "sha256": "0ca8066423da87364d9191fae717187560502da2f0c8621054bb41458aeebc5f"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.7692307692307693,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://shopinglen.com.au/products/primetime-810180993609?variant=68112054780180",
+    "https://shopinglen.com.au/products/the-easy-underground-823375299530?variant=68112059269396",
+    "https://shopinglen.com.au/products/wwe-x-pac-d-generation-x-pop-vinyl?variant=44717552206012"
+  ],
+  "assessment_id": "v2-45073699532-1",
+  "queue_rows": [
+    3504
+  ],
+  "assessment_path": "assessments/v2/shopinglen_com_au/v2-45073699532-1.json"
+}
