@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T20:43:28.408364+00:00",
+  "shop_id": "soundslikevinyl.com",
+  "row": 3369,
+  "name": "Soundslikevinyl",
+  "domain": "soundslikevinyl.com",
+  "country": null,
+  "website": "https://soundslikevinyl.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3369,
+    "name": "Soundslikevinyl",
+    "domain": "soundslikevinyl.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://soundslikevinyl.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://soundslikevinyl.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://soundslikevinyl.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://soundslikevinyl.com/collections/all/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://soundslikevinyl.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://soundslikevinyl.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://soundslikevinyl.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://soundslikevinyl.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://soundslikevinyl.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://soundslikevinyl.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://soundslikevinyl.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 16,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://soundslikevinyl.com/robots.txt",
+      "sha256": "3806a5b47ed497eed8287dda0c8309980705848882945163ec36440c0704925e"
+    },
+    {
+      "url": "https://soundslikevinyl.com/",
+      "sha256": "17c80299392505ae909a78787f6c7fad9314ec840a1bf3da2ed043a90d33f5e2"
+    },
+    {
+      "url": "https://soundslikevinyl.com/products.json?limit=20&page=1",
+      "sha256": "8166195122ebe7c695ffeaf3c566d5b8511a4883a883f1da2c427634648fd37b"
+    },
+    {
+      "url": "https://soundslikevinyl.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "cabd551cc8c401c101465ab34c0eaa1cea0f04da245927db417034b2c328d651"
+    },
+    {
+      "url": "https://soundslikevinyl.com/products/megadeth-unplugged-in-boston-limited-edition-splatter-vinyl-lp-copy",
+      "sha256": "7e573845ab349f79aac26e18e6008f876df4b06fcb917075c016b9dd4387c4f2"
+    },
+    {
+      "url": "https://soundslikevinyl.com/products/rauw-alejandro-afrodisiaco-140-gram-vinyl-lp-copy-1",
+      "sha256": "56e2b4960e174b4be01da4b0345618eb381fc706cdb534c79d8547a748f32962"
+    },
+    {
+      "url": "https://soundslikevinyl.com/products/scorpion-child-scorpion-child-colored-vinyl-lp-copy?variant=68090233651358",
+      "sha256": "443755636f0f1d10588d67f31719f2d45140f72a393c591ec923309aaa429734"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.95,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45067665621-1",
+  "queue_rows": [
+    3369
+  ],
+  "assessment_path": "assessments/v2/soundslikevinyl_com/v2-45067665621-1.json"
+}
