@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T21:00:32.872808+00:00",
+  "shop_id": "sweetpeanutrecords.com",
+  "row": 4987,
+  "name": "Sweet Peanut Records",
+  "domain": "sweetpeanutrecords.com",
+  "country": null,
+  "website": "https://sweetpeanutrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4987,
+    "name": "Sweet Peanut Records",
+    "domain": "sweetpeanutrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://sweetpeanutrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 4,
+    "excluded": 16,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://sweetpeanutrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://sweetpeanutrecords.com/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 20,
+        "accepted": 4,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://sweetpeanutrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://sweetpeanutrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://sweetpeanutrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://sweetpeanutrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://sweetpeanutrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://sweetpeanutrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://sweetpeanutrecords.com/products.json?limit=20&page=1",
+      "score": 45,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://sweetpeanutrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 4,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 4,
+    "unique_prices": 4,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://sweetpeanutrecords.com/products/olivia-rodrigo-sour-ltd-ed-yellow-vinyl?variant=51943987708071",
+      "artist": "Olivia Rodrigo",
+      "title": "Sour (Ltd. Ed. Yellow Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "31.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00881061514985"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://sweetpeanutrecords.com/products/jay-z-the-blueprint-3-white-vinyl?variant=51944007631015",
+      "artist": "Jay-Z",
+      "title": "The Blueprint 3 (White Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "41.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00840571801299"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://sweetpeanutrecords.com/products/drive-by-truckers-a-blessing-a-curse-pink-vinyl?variant=51956560986279",
+      "artist": "Drive-By Truckers",
+      "title": "A Blessing & A Curse (Pink Vinyl)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "32.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00607396597819"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://sweetpeanutrecords.com/robots.txt",
+      "sha256": "655a817b21d84922d37683ee53717c95402eedd79301539bed0a17487393273b"
+    },
+    {
+      "url": "https://sweetpeanutrecords.com/",
+      "sha256": "ddc065eb285fb66868800e197ce6e683de5fecbd4a829d787a2df22f626492f1"
+    },
+    {
+      "url": "https://sweetpeanutrecords.com/products.json?limit=20&page=1",
+      "sha256": "c23d72ca5ee3ab25c75513e1677ecf5a302e6be9df2457fc3973d03d52446e6f"
+    },
+    {
+      "url": "https://sweetpeanutrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "e2097e0605e12ad49b00fd8cc3dd537753965856eec7b708038ffb5a38b80342"
+    },
+    {
+      "url": "https://sweetpeanutrecords.com/products/drive-by-truckers-a-blessing-a-curse-pink-vinyl",
+      "sha256": "edca1271e3b5172e82f152657d8437f9813dfbdf6141433e535554f0e34bee82"
+    },
+    {
+      "url": "https://sweetpeanutrecords.com/products/jay-z-the-blueprint-3-white-vinyl",
+      "sha256": "a8ba22b7a48017d2163cc2883a2ca10a09fde9751f583e4bf9e6d8c3a692b029"
+    },
+    {
+      "url": "https://sweetpeanutrecords.com/products/olivia-rodrigo-sour-ltd-ed-yellow-vinyl?variant=51943987708071",
+      "sha256": "c37bfa4f23947d9b77550587c1155968ea8ccc1187f3668a365bba9cb91e55fa"
+    },
+    {
+      "url": "https://sweetpeanutrecords.com/products/jay-z-the-blueprint-3-white-vinyl?variant=51944007631015",
+      "sha256": "df0bcec08e18da48d7bdbd104a5dc34009d985e0ee3e1e4ffbf8a2e19aa46862"
+    },
+    {
+      "url": "https://sweetpeanutrecords.com/products/drive-by-truckers-a-blessing-a-curse-pink-vinyl?variant=51956560986279",
+      "sha256": "30b94d93026c7f6d191f3e4713e997ba920480ffb3ae333a2e2d79f26061400e"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": true,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://sweetpeanutrecords.com/products/olivia-rodrigo-sour-ltd-ed-yellow-vinyl?variant=51943987708071",
+    "https://sweetpeanutrecords.com/products/jay-z-the-blueprint-3-white-vinyl?variant=51944007631015",
+    "https://sweetpeanutrecords.com/products/drive-by-truckers-a-blessing-a-curse-pink-vinyl?variant=51956560986279"
+  ],
+  "assessment_id": "v2-45067665621-1",
+  "queue_rows": [
+    4987
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 4,
+  "candidate_ref": "v2-45067665621-1/sweetpeanutrecords_com",
+  "assessment_path": "assessments/v2/sweetpeanutrecords_com/v2-45067665621-1.json"
+}
