@@ -1,0 +1,165 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T23:45:16.049285+00:00",
+  "shop_id": "vinylrevelations.com",
+  "row": 4778,
+  "name": "Vinyl Revelations",
+  "domain": "vinylrevelations.com",
+  "country": null,
+  "website": "https://vinylrevelations.com/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4778,
+    "name": "Vinyl Revelations",
+    "domain": "vinylrevelations.com",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://vinylrevelations.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://vinylrevelations.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://vinylrevelations.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylrevelations.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylrevelations.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylrevelations.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylrevelations.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://vinylrevelations.com/robots.txt",
+      "sha256": "56a3ac346f13f3709a663c949b15c7d23b245c7408ac7213c4acc8dde4f503ab"
+    },
+    {
+      "url": "https://vinylrevelations.com/",
+      "sha256": "30bba9a1744f79f657cf5e361202fb1d9676e76bae9d291e3c3a2aae4d278a8f"
+    },
+    {
+      "url": "https://vinylrevelations.com/products.json?limit=20&page=1",
+      "sha256": "98628e9303963790cd46bd4169a1e3b19b9fc3e4c1aa5078957eecbf823a5018"
+    },
+    {
+      "url": "https://vinylrevelations.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "3af1846fd760b1c285526372d59f42b5b3fd8eb793dfba69257123507aa27029"
+    },
+    {
+      "url": "https://vinylrevelations.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "2f41f1154e0f343acd7dc646c125ba7536b8258ef348f693620a76e7c835b328"
+    },
+    {
+      "url": "https://vinylrevelations.com/api/0.1/collections/products?format=json",
+      "sha256": "5262357e5fe6ecf45eb0130d22a55f60607673543bc722d0ee855c11422a0b0c"
+    },
+    {
+      "url": "https://vinylrevelations.com/api/0.1/collections/all/products?format=json",
+      "sha256": "0514271e93593d53c20ce1a987e0717cc3c5c80ecf9aa384cca0d086cc60961f"
+    },
+    {
+      "url": "https://vinylrevelations.com/api/storefront/products?limit=20&offset=0",
+      "sha256": "ceac1b952cb5d0af4919e8462438a6cecdc014cd0adb2aff571455fe73901950"
+    },
+    {
+      "url": "https://vinylrevelations.com/api/storefront/products?limit=20",
+      "sha256": "78e8b4eee6f3843b09f6f5ae4e9b955333705f33c7c7179deca3f02c7b1b8adc"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-45083891188-1",
+  "queue_rows": [
+    4778
+  ],
+  "assessment_path": "assessments/v2/vinylrevelations_com/v2-45083891188-1.json"
+}
