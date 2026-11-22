@@ -66,6 +66,17 @@ Dit zijn begrensde listing/detailruns, geen claim op volledige catalogusdekking.
 Er worden geen databasewrites of productie-imports uitgevoerd. Deze toelating
 is publieke bron-QA en vervangt geen private markt-/productacceptatie.
 
+Voor toelating komt daar een afzonderlijke marktgate vóór: het profiel moet een
+bron voor het vestigingsland én een bron voor de expliciete verzendbestemmingen
+bevatten. De gate gebruikt de statussen `ELIGIBLE`, `NOT_ELIGIBLE` en
+`UNKNOWN_REVIEW` voor de doelmarkt NL. Een Nederlands of Europees domein,
+valuta of taal is geen bewijs van verzending naar Nederland. `NOT_ELIGIBLE`
+wordt niet toegelaten; ontbrekende bestemminginformatie wordt
+`UNKNOWN_REVIEW`, zodat de shop gericht kan worden aangevuld en niet als
+definitief afgewezen wordt behandeld. De marktbeslissing wordt samen met het
+kwaliteitbewijs opgeslagen en profielen zonder `ELIGIBLE`-bewijs worden niet
+door de automatische planning geselecteerd.
+
 Losse handmatige workflows blijven beschikbaar. Elke uitgevoerde prijs- of
 EAN-run schrijft een eigen onderhoudsobservatie naar
 `quality/health/<mode>/<slug>.json`, met token uitsluitend in de publicatiestap.

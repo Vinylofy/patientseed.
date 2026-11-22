@@ -56,7 +56,9 @@ class QualityTests(unittest.TestCase):
         class Transport:
             def __init__(self,*args,**kwargs):pass
             def get(self,url):return body
-        with patch.dict(os.environ,{},clear=True), patch.object(gate,'load_profile',return_value=({'domain':'shop.example','catalog_route':URL},Scraper())):
+        profile={'domain':'shop.example','catalog_route':URL,'country':'NL','country_source':'test',
+                 'shipping_countries':['NL'],'shipping_source':'test'}
+        with patch.dict(os.environ,{},clear=True), patch.object(gate,'load_profile',return_value=(profile,Scraper())):
             return gate.validate(Path('unused'),transport_factory=Transport)
 
     def test_full_quality_gate_accepts_independently_matched_data(self):
@@ -65,6 +67,22 @@ class QualityTests(unittest.TestCase):
         self.assertEqual(result['valid_eans'],1)
         self.assertFalse(result['database_write'])
         self.assertEqual(len(result['requests']),2)
+        self.assertEqual(result['market_eligibility']['status'],'ELIGIBLE')
+
+    def test_market_evidence_is_required_and_unknown_is_review(self):
+        with patch.dict(os.environ,{},clear=True), patch.object(gate,'load_profile',return_value=({'domain':'shop.example','catalog_route':URL},object())):
+            result=gate.validate(Path('unused'),transport_factory=lambda *args: None)
+        self.assertEqual(result['status'],'REVIEW')
+        self.assertEqual(result['market_eligibility']['status'],'UNKNOWN_REVIEW')
+        self.assertIn('market_eligibility_unknown_review',result['reason'])
+
+    def test_market_negative_evidence_is_review_and_not_scheduled(self):
+        profile={'domain':'shop.example','catalog_route':URL,'country':'US','country_source':'test',
+                 'shipping_countries':['US'],'shipping_source':'test'}
+        with patch.dict(os.environ,{},clear=True), patch.object(gate,'load_profile',return_value=(profile,object())):
+            result=gate.validate(Path('unused'),transport_factory=lambda *args: None)
+        self.assertEqual(result['status'],'REVIEW')
+        self.assertEqual(result['market_eligibility']['status'],'NOT_ELIGIBLE')
 
     def test_wrong_currency_is_review_not_approved(self):
         result=self.validate(html(currency='USD'))
@@ -111,6 +129,13 @@ class QualityTests(unittest.TestCase):
             self.assertEqual(gate.approved(state,profiles,mode='ean'),['a'])
             value['status']='ACTIVE';health.write_text(json.dumps(value))
             (profiles/'a.py').write_text('# changed release')
+            self.assertEqual(gate.approved(state,profiles),[])
+
+    def test_market_review_is_not_selected_for_production(self):
+        with tempfile.TemporaryDirectory() as tmp, patch.dict(os.environ,{},clear=True):
+            root=Path(tmp);profiles=self.profiles(root);state=root/'quality'
+            reviewed=lambda path,**kw:{'status':'REVIEW','market_eligibility':{'status':'UNKNOWN_REVIEW'}}
+            gate.run_batch(profiles,state,limit=1,validator=reviewed)
             self.assertEqual(gate.approved(state,profiles),[])
 
     def test_frozen_ean_maintenance_does_not_stop_healthy_price_lane(self):

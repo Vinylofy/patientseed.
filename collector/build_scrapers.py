@@ -80,12 +80,23 @@ def build(result_path: Path, output: Path) -> list[dict]:
                                        "detail_gtin_valid": row.get("detail_gtin_valid", 0),
                                        "currency": currency, "currency_source": row.get("currency_source"),
                                        "currency_source_url": row.get("currency_source_url"),
+                                       "country": row.get("country"),
+                                       "country_source": row.get("country_source"),
+                                       "shipping_countries": row.get("shipping_countries"),
+                                       "shipping_source": row.get("shipping_source"),
+                                       "shipping_status": row.get("shipping_status"),
+                                       "target_markets": row.get("target_markets") or ["NL"],
                                        "release_status": "SCRAPER_BUILT_TESTED"},
                                       ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         if row.get('assessment_version'):
             metadata = json.loads(profile.read_text(encoding='utf-8'))
             metadata.update(scraper_type=row['scraper_type'], assessment_version=row['assessment_version'],
                             assessment_id=row['assessment_id'], country=row.get('country'),
+                            country_source=row.get('country_source'),
+                            shipping_countries=row.get('shipping_countries'),
+                            shipping_source=row.get('shipping_source'),
+                            shipping_status=row.get('shipping_status'),
+                            target_markets=row.get('target_markets') or ['NL'],
                             release_status='AWAITING_MANUAL_TEST', production_approved=False)
             profile.write_text(json.dumps(metadata, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
         spec = importlib.util.spec_from_file_location(f"generated_{name}", py)

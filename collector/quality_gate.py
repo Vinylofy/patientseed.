@@ -18,6 +18,7 @@ from collector.execute_generated import load_profile, parse_listing
 from collector.price_quality import assess
 from collector.recon import valid_gtin
 from collector.transport import Transport, public_source
+from collector.market_gate import assess as assess_market
 
 
 def now():
@@ -116,11 +117,15 @@ def validate(path, *, route=None, transport_factory=Transport):
         timeout_seconds=12, max_runtime_seconds=90, delay_seconds=1.0))
     evidence = {'domain': domain, 'route': route, 'observed_at': now(), 'requests': [],
                 'listing_records': 0, 'detail_checked': 0, 'valid_eans': 0, 'details': [], 'database_write': False}
+    evidence['market_eligibility'] = assess_market(profile)
     def get(url):
         body = transport.get(url)
         evidence['requests'].append({'url': url, 'sha256': hashlib.sha256(body.encode()).hexdigest()})
         return body
     try:
+        market = evidence['market_eligibility']
+        if market['status'] != 'ELIGIBLE':
+            raise CollectionBlocked('market_eligibility_' + market['status'].lower())
         page = parse_listing(scraper, get(route), route, evidence['observed_at'])
         rows = list(page.listings)[:20]
         evidence['listing_records'] = len(rows)
@@ -177,6 +182,8 @@ def approved(root, profiles, mode=None):
         health = health_records(root, path.stem)
         relevant = [health[mode]] if mode in health else list(health.values()) if mode is None else []
         if any(h.get('status') in {'REPAIR_REQUIRED', 'FROZEN'} for h in relevant): continue
+        market = record.get('evidence', {}).get('market_eligibility', {})
+        if market and market.get('status') != 'ELIGIBLE': continue
         result.append(path.stem)
     return result
 
