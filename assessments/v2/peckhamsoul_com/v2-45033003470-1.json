@@ -1,0 +1,202 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T14:35:37.153414+00:00",
+  "shop_id": "peckhamsoul.com",
+  "row": 4745,
+  "name": "Peckham Soul",
+  "domain": "peckhamsoul.com",
+  "country": null,
+  "website": "https://peckhamsoul.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4745,
+    "name": "Peckham Soul",
+    "domain": "peckhamsoul.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://peckhamsoul.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 1,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://peckhamsoul.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://peckhamsoul.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://peckhamsoul.com/collections/all/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://peckhamsoul.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://peckhamsoul.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://peckhamsoul.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://peckhamsoul.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://peckhamsoul.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://peckhamsoul.com/collections/all/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://peckhamsoul.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://peckhamsoul.com/products/music-from-the-original-motion-picture-sound-track-limited-mint-vinyl?variant=44354941845825",
+      "artist": "",
+      "title": "$ (Music From The Original Motion Picture Sound Track) (Limited Mint Vinyl)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "24.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://peckhamsoul.com/robots.txt",
+      "sha256": "018975089e0cdffe0dfaeb5193bda0ce82da3bd85dc384dbb40b3f90e944a8ac"
+    },
+    {
+      "url": "https://peckhamsoul.com/",
+      "sha256": "ff8296d6d91e752e4f01a1b5dc1504793a0e2aa2afc24ff644662cc5511b432f"
+    },
+    {
+      "url": "https://peckhamsoul.com/products.json?limit=20&page=1",
+      "sha256": "70a3cc7a1b22d767e5002a51780d40983187d5a62306d91e0979c742de89dd6f"
+    },
+    {
+      "url": "https://peckhamsoul.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "809bb287d2b27c29241e34dcf1f6593c40f216a3ac0bd87616a9e57639492d39"
+    },
+    {
+      "url": "https://peckhamsoul.com/products/music-from-the-original-motion-picture-sound-track-limited-mint-vinyl",
+      "sha256": "4052e77b17ec398ad63780f278fe0bd8aa0d89fcfedc0095531b67cceb9207dc"
+    },
+    {
+      "url": "https://peckhamsoul.com/products/music-from-the-original-motion-picture-sound-track-limited-mint-vinyl?variant=44354941845825",
+      "sha256": "b4999b33462d34ec7b657270fea46069835f0f6fd6aa4954fb2658aecc84848f"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "insufficient_representative_product_evidence"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://peckhamsoul.com/products/music-from-the-original-motion-picture-sound-track-limited-mint-vinyl?variant=44354941845825"
+  ],
+  "assessment_id": "v2-45033003470-1",
+  "queue_rows": [
+    4745
+  ],
+  "assessment_path": "assessments/v2/peckhamsoul_com/v2-45033003470-1.json"
+}
