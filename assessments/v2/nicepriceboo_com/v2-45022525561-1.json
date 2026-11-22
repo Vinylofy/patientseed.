@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T12:39:28.427924+00:00",
+  "shop_id": "nicepriceboo.com",
+  "row": 5002,
+  "name": "Nice Price Books & Records",
+  "domain": "nicepriceboo.com",
+  "country": null,
+  "website": "https://nicepriceboo.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 5002,
+    "name": "Nice Price Books & Records",
+    "domain": "nicepriceboo.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://nicepriceboo.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 2,
+    "excluded": 18,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://nicepriceboo.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://nicepriceboo.com/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://nicepriceboo.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://nicepriceboo.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://nicepriceboo.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://nicepriceboo.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://nicepriceboo.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://nicepriceboo.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://nicepriceboo.com/products.json?limit=20&page=1",
+      "score": 25,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://nicepriceboo.com/products.json?limit=20&page=1",
+  "listing_sample": 2,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 2,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://nicepriceboo.com/robots.txt",
+      "sha256": "ef44471f0c70ba61913074f283d09391f784ab4f557859fdb873fc0b5242b520"
+    },
+    {
+      "url": "https://nicepriceboo.com/",
+      "sha256": "89bbe1bb19f26edd68f79dc16ff290b9505b9f2c74ee02658e1046ab92e1bc7f"
+    },
+    {
+      "url": "https://nicepriceboo.com/products.json?limit=20&page=1",
+      "sha256": "f79e1dcedc045c5409b32a7a997a00411fe17a6ee65be8a18151983cbc6a2479"
+    },
+    {
+      "url": "https://nicepriceboo.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "2f8e458736edce717cb6da9a9177a9ee77705163a7f74a66dfd7cacf3a119120"
+    },
+    {
+      "url": "https://nicepriceboo.com/products/phish-lp-on-lp-07-tweezer-11-28-1994",
+      "sha256": "9de3403114f197f4099e89d3282ac6923dd9cb8c08e432be18b280d7f2e1fc5f"
+    },
+    {
+      "url": "https://nicepriceboo.com/products/phish-lp-on-lp-08-ac-dc-bag-gumbo-11-14-1999",
+      "sha256": "3e973865e71fe0759eab9d2ead4ccaed8da74a2627102ac59b5e2ef5511fb4da"
+    },
+    {
+      "url": "https://nicepriceboo.com/products/phish-lp-on-lp-08-ac-dc-bag-gumbo-11-14-1999?variant=47909945835609",
+      "sha256": "12121c0174cb1f444c7c152e95cfa42a5b02509b849347b7f53f3efce69c7db2"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45022525561-1",
+  "queue_rows": [
+    5002
+  ],
+  "assessment_path": "assessments/v2/nicepriceboo_com/v2-45022525561-1.json"
+}
