@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T20:42:30.246362+00:00",
+  "shop_id": "soundshaarlem.nl",
+  "row": 4425,
+  "name": "Sounds Haarlem",
+  "domain": "soundshaarlem.nl",
+  "country": null,
+  "website": "https://soundshaarlem.nl/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4425,
+    "name": "Sounds Haarlem",
+    "domain": "soundshaarlem.nl",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://soundshaarlem.nl/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 9,
+    "excluded": 11,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://soundshaarlem.nl/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://soundshaarlem.nl/products.json?limit=20&page=1",
+        "score": 95,
+        "products_seen": 20,
+        "accepted": 9,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://soundshaarlem.nl/collections/all/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://soundshaarlem.nl/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://soundshaarlem.nl/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://soundshaarlem.nl/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://soundshaarlem.nl/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://soundshaarlem.nl/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://soundshaarlem.nl/products.json?limit=20&page=1",
+      "score": 95,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://soundshaarlem.nl/products.json?limit=20&page=1",
+  "listing_sample": 9,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 9,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://soundshaarlem.nl/products/porcupine-tree-the-incident-lp?variant=57660209037576",
+      "artist": "Porcupine Tree",
+      "title": "The incident (LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "50.99",
+      "currency": "EUR",
+      "valid_eans": [
+        "00802644826219"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://soundshaarlem.nl/products/first-aid-kit-big-black-and-blue-lp?variant=57879704797448",
+      "artist": "First Aid Kit",
+      "title": "Big black and blue (LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "31.99",
+      "currency": "EUR",
+      "valid_eans": [
+        "05400863032906"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://soundshaarlem.nl/products/olan-monk-songs-for-nothing-lp?variant=59644659335432",
+      "artist": "Olan Monk",
+      "title": "Songs for nothing (LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "43.99",
+      "currency": "EUR",
+      "valid_eans": [
+        "04062548117417"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://soundshaarlem.nl/robots.txt",
+      "sha256": "e8b44b1c121ff5b5d3cee62d3e399608fde14656020413db7acff8bc8e926755"
+    },
+    {
+      "url": "https://soundshaarlem.nl/",
+      "sha256": "1284282cce1cc8f9e40b52118b4281be2bdeb23992190c1bb011a5ed0a355db3"
+    },
+    {
+      "url": "https://soundshaarlem.nl/products.json?limit=20&page=1",
+      "sha256": "0181c15bf96d29b796a97109760c4f4476bf264ab6686faf16ca0d29f4347021"
+    },
+    {
+      "url": "https://soundshaarlem.nl/collections/all/products.json?limit=20&page=1",
+      "sha256": "3da80df90cd8a3dde7c8d32dcd9d8af15c1c7ed0166d7900a22609d5a78236bf"
+    },
+    {
+      "url": "https://soundshaarlem.nl/products/olan-monk-songs-for-nothing-lp",
+      "sha256": "adf51998160d3302f5575682b842647900fe0fcb085566a28f8e3311f32da554"
+    },
+    {
+      "url": "https://soundshaarlem.nl/products/sven-wunder-daybreak-lp",
+      "sha256": "e5901534052a21e006ab864324a0361e1d90a6b65bb1a91129978cfa6d7cf46d"
+    },
+    {
+      "url": "https://soundshaarlem.nl/products/porcupine-tree-the-incident-lp?variant=57660209037576",
+      "sha256": "6a60f8dcb677327bb974ea6a428dd15013335cb2b037d45c9eb95c2ece8ba330"
+    },
+    {
+      "url": "https://soundshaarlem.nl/products/first-aid-kit-big-black-and-blue-lp?variant=57879704797448",
+      "sha256": "91c01fd58167d21f839e48570c2646be158cedadc2412b2786f7e1b0341d9795"
+    },
+    {
+      "url": "https://soundshaarlem.nl/products/olan-monk-songs-for-nothing-lp?variant=59644659335432",
+      "sha256": "d9cca8dea118784f7b716154bbd5ea81178f86cecaebd39b09660887a46c2fc1"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": true,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://soundshaarlem.nl/products/porcupine-tree-the-incident-lp?variant=57660209037576",
+    "https://soundshaarlem.nl/products/first-aid-kit-big-black-and-blue-lp?variant=57879704797448",
+    "https://soundshaarlem.nl/products/olan-monk-songs-for-nothing-lp?variant=59644659335432"
+  ],
+  "assessment_id": "v2-45067665621-1",
+  "queue_rows": [
+    4425
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 9,
+  "candidate_ref": "v2-45067665621-1/soundshaarlem_nl",
+  "assessment_path": "assessments/v2/soundshaarlem_nl/v2-45067665621-1.json"
+}
