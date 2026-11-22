@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T19:32:45.060671+00:00",
+  "shop_id": "s-r-t.de",
+  "row": 3985,
+  "name": "Schall & Rausch Tonträger",
+  "domain": "s-r-t.de",
+  "country": null,
+  "website": "https://s-r-t.de/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3985,
+    "name": "Schall & Rausch Tonträger",
+    "domain": "s-r-t.de",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://s-r-t.de/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://s-r-t.de/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://s-r-t.de/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://s-r-t.de/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://s-r-t.de/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://s-r-t.de/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://s-r-t.de/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://s-r-t.de/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://s-r-t.de/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://s-r-t.de/collections/all/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://s-r-t.de/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 14,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://s-r-t.de/products/50-cent-animal-ambition-an-untamed-desire-to-win-2x-vinyl-lp-album?variant=54859548918083",
+      "artist": "50 Cent",
+      "title": "Animal Ambition (An Untamed Desire To Win) 2x Vinyl, LP, Album",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "19.95",
+      "currency": "EUR",
+      "valid_eans": [
+        "00864904000029"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://s-r-t.de/products/2pac-2pacalypse-now-2-x-vinyl-lp-album-limited-edt-picture-disc?variant=52878967144771",
+      "artist": "2Pac",
+      "title": "2Pacalypse Now 2x Vinyl, LP, Album, Limited Edt, Picture Disc, Reissue",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "34.95",
+      "currency": "EUR",
+      "valid_eans": [
+        "00602458283693"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://s-r-t.de/products/let-it-be-blue-vinyl-lp-album?variant=51720074199363",
+      "artist": "!!!",
+      "title": "Let It Be Blue Vinyl, LP, Album",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "14.95",
+      "currency": "EUR",
+      "valid_eans": [
+        "00801061033910"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://s-r-t.de/robots.txt",
+      "sha256": "a14c0122641cc326d3b5e37826c371adf779887aad5398ae051a534c1df85ab8"
+    },
+    {
+      "url": "https://s-r-t.de/",
+      "sha256": "046ed560783e4da0e87f1b827165e0adf04c4bff58621b5974a9ce4886357adf"
+    },
+    {
+      "url": "https://s-r-t.de/products.json?limit=20&page=1",
+      "sha256": "e58b18afdc65c99cfff238a33346da9876b138e52286f611db14897f0c0bf330"
+    },
+    {
+      "url": "https://s-r-t.de/collections/all/products.json?limit=20&page=1",
+      "sha256": "1c4e48c37a6836500b520e8f33b92e68498ca55c1c4a49a40b5062f9f5af8f22"
+    },
+    {
+      "url": "https://s-r-t.de/products/let-it-be-blue-vinyl-lp-album",
+      "sha256": "b716f083d8a498815de1555a4846980fe8f3b6e524a641ad738d80915729857e"
+    },
+    {
+      "url": "https://s-r-t.de/products/let-it-be-blue-vinyl-lp-album-blue",
+      "sha256": "28717fb57e27632eb3f5e29c2a225219c52172e56a06f43517531cb579de9c44"
+    },
+    {
+      "url": "https://s-r-t.de/products/50-cent-animal-ambition-an-untamed-desire-to-win-2x-vinyl-lp-album?variant=54859548918083",
+      "sha256": "0ec7392ab13abb3e21d36551c1199747b51adcb784476d60792c7fd13963b982"
+    },
+    {
+      "url": "https://s-r-t.de/products/2pac-2pacalypse-now-2-x-vinyl-lp-album-limited-edt-picture-disc?variant=52878967144771",
+      "sha256": "c1f897204d86bf3554f28d14aa7d69921daec420b235f5f2fd1789455bd0668c"
+    },
+    {
+      "url": "https://s-r-t.de/products/let-it-be-blue-vinyl-lp-album?variant=51720074199363",
+      "sha256": "65c987774ecd7604e18855165513df87efc69decee7e9904c3267afe389d9fd6"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": true,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.8947368421052632,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://s-r-t.de/products/50-cent-animal-ambition-an-untamed-desire-to-win-2x-vinyl-lp-album?variant=54859548918083",
+    "https://s-r-t.de/products/2pac-2pacalypse-now-2-x-vinyl-lp-album-limited-edt-picture-disc?variant=52878967144771",
+    "https://s-r-t.de/products/let-it-be-blue-vinyl-lp-album?variant=51720074199363"
+  ],
+  "assessment_id": "v2-45061036276-1",
+  "queue_rows": [
+    3985
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 19,
+  "candidate_ref": "v2-45061036276-1/s_r_t_de",
+  "assessment_path": "assessments/v2/s_r_t_de/v2-45061036276-1.json"
+}
