@@ -1,0 +1,204 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T23:37:52.128219+00:00",
+  "shop_id": "veryfriendlymusic.com",
+  "row": 4988,
+  "name": "Very Friendly",
+  "domain": "veryfriendlymusic.com",
+  "country": null,
+  "website": "https://veryfriendlymusic.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4988,
+    "name": "Very Friendly",
+    "domain": "veryfriendlymusic.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://veryfriendlymusic.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 1,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://veryfriendlymusic.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://veryfriendlymusic.com/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://veryfriendlymusic.com/collections/all/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://veryfriendlymusic.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://veryfriendlymusic.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://veryfriendlymusic.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://veryfriendlymusic.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://veryfriendlymusic.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://veryfriendlymusic.com/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 1,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://veryfriendlymusic.com/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://veryfriendlymusic.com/products/ras-michael-the-sons-of-negus-nyahbinghi-uk-2013-lp-album-re-m-m?variant=50414657765653",
+      "artist": "Ras Michael & The Sons Of Negus",
+      "title": "Nyahbinghi (UK) (2013) (LP, Album, RE) (M/M)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "30.00",
+      "currency": "USD",
+      "valid_eans": [
+        "05036436087129"
+      ],
+      "condition_basis": "used_or_grading_signal"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://veryfriendlymusic.com/robots.txt",
+      "sha256": "282facdc6d854344a30e677588bd3c4588c70bc3257866f519ee97d418c976d7"
+    },
+    {
+      "url": "https://veryfriendlymusic.com/",
+      "sha256": "260a56d8612cafefcfc57d5269352ee94bf5771bb922db8b43a4bd7966b11686"
+    },
+    {
+      "url": "https://veryfriendlymusic.com/products.json?limit=20&page=1",
+      "sha256": "bd4bf0ed01b45235f95ebef6bdef682f40fb75dc92bffef792943d76eff208f2"
+    },
+    {
+      "url": "https://veryfriendlymusic.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "eade9df91a9c033265ac60d69280ce3fdd594c0b853d759f4ed13d2895cf1fb8"
+    },
+    {
+      "url": "https://veryfriendlymusic.com/products/ras-michael-the-sons-of-negus-nyahbinghi-uk-2013-lp-album-re-m-m",
+      "sha256": "d8fea372cf0c4a798e92c155a118e43f86f4bdd1ed7405d38fb534aa30bf86df"
+    },
+    {
+      "url": "https://veryfriendlymusic.com/products/ras-michael-the-sons-of-negus-nyahbinghi-uk-2013-lp-album-re-m-m?variant=50414657765653",
+      "sha256": "54143abb7ea54394cb423474835065bafba0d83ffdbbcf4f6b0c8239c11e328f"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:new_used_distinguishable"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 1,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://veryfriendlymusic.com/products/ras-michael-the-sons-of-negus-nyahbinghi-uk-2013-lp-album-re-m-m?variant=50414657765653"
+  ],
+  "assessment_id": "v2-45083891188-1",
+  "queue_rows": [
+    4988
+  ],
+  "assessment_path": "assessments/v2/veryfriendlymusic_com/v2-45083891188-1.json"
+}
