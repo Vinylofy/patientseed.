@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T23:34:46.897667+00:00",
+  "shop_id": "utopia.com.au",
+  "row": 3547,
+  "name": "Utopia Records",
+  "domain": "utopia.com.au",
+  "country": null,
+  "website": "https://utopia.com.au/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3547,
+    "name": "Utopia Records",
+    "domain": "utopia.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://utopia.com.au/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 9,
+    "excluded": 11,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://utopia.com.au/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://utopia.com.au/products.json?limit=20&page=1",
+        "score": 95,
+        "products_seen": 20,
+        "accepted": 9,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://utopia.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 20,
+        "accepted": 8,
+        "excluded": 12,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://utopia.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://utopia.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://utopia.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://utopia.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://utopia.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://utopia.com.au/products.json?limit=20&page=1",
+      "score": 95,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://utopia.com.au/products.json?limit=20&page=1",
+  "listing_sample": 9,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 9,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://utopia.com.au/products/frozen-crown-legend-of-the-six-kings-the-vinyl-new?variant=51753113157857",
+      "artist": "Frozen Crown",
+      "title": "Legend Of The Six Kings, The - Vinyl - New",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "69.99",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://utopia.com.au/products/shakra-just-live-loud-2lp-vinyl-new?variant=51753113780449",
+      "artist": "Shakra",
+      "title": "Just Live Loud (2LP) - Vinyl - New",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "64.99",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://utopia.com.au/products/darkthrone-wind-of-666-black-hearts-volume-two-the-vinyl-new?variant=51636493779169",
+      "artist": "Darkthrone",
+      "title": "Wind Of 666 Black Hearts Volume Two, The - Vinyl - New",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "69.99",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://utopia.com.au/robots.txt",
+      "sha256": "2fdafe6727b0254b9e27bdffc4c4dc1988e9c49725c991051752059fcc2de481"
+    },
+    {
+      "url": "https://utopia.com.au/",
+      "sha256": "790060d0677ba36fde1e8860a2e4a504367edec43b3a512a3a43154ec8c5b9f1"
+    },
+    {
+      "url": "https://utopia.com.au/products.json?limit=20&page=1",
+      "sha256": "31e5410dad16dd88b114b9e44bb9453180b391653b4f66a73a62ed7c70abf7a3"
+    },
+    {
+      "url": "https://utopia.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "203240d673a1f89ace4eadf3618a0c8fb2800c334b7bb5461017b783e029ec2d"
+    },
+    {
+      "url": "https://utopia.com.au/products/darkthrone-wind-of-666-black-hearts-volume-two-the-vinyl-new",
+      "sha256": "47d20851083d1220ff9ff11d3d9c65612cf372338225d46a843efb2689110743"
+    },
+    {
+      "url": "https://utopia.com.au/products/darkthrone-thulcandra-2023-demo-compilation-vinyl-new",
+      "sha256": "7fd69dc41264f576d624900f5f1e4266fb009d19ac286fd40dd7cb45dc49782f"
+    },
+    {
+      "url": "https://utopia.com.au/products/frozen-crown-legend-of-the-six-kings-the-vinyl-new?variant=51753113157857",
+      "sha256": "aabe67cbba025cdd71b66fd76013e4b5f37dd8507eda78cd0e2f1ca4fa90dd3c"
+    },
+    {
+      "url": "https://utopia.com.au/products/shakra-just-live-loud-2lp-vinyl-new?variant=51753113780449",
+      "sha256": "9ecc8616ec1eab43cb1254adb34cccb8eb8e75666844e25cc0911d4d4e099d74"
+    },
+    {
+      "url": "https://utopia.com.au/products/darkthrone-wind-of-666-black-hearts-volume-two-the-vinyl-new?variant=51636493779169",
+      "sha256": "9c7f850fc1800d8a051cd1ccfb388dcdff3a5cfa6953f00f0a9f425fbdff7dcc"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://utopia.com.au/products/frozen-crown-legend-of-the-six-kings-the-vinyl-new?variant=51753113157857",
+    "https://utopia.com.au/products/shakra-just-live-loud-2lp-vinyl-new?variant=51753113780449",
+    "https://utopia.com.au/products/darkthrone-wind-of-666-black-hearts-volume-two-the-vinyl-new?variant=51636493779169"
+  ],
+  "assessment_id": "v2-45083891188-1",
+  "queue_rows": [
+    3547
+  ],
+  "assessment_path": "assessments/v2/utopia_com_au/v2-45083891188-1.json"
+}
