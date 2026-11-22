@@ -1,0 +1,229 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T21:46:51.141703+00:00",
+  "shop_id": "therecordalbum.com",
+  "row": 3444,
+  "name": "The Record Album",
+  "domain": "therecordalbum.com",
+  "country": null,
+  "website": "https://therecordalbum.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3444,
+    "name": "The Record Album",
+    "domain": "therecordalbum.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "woocommerce",
+    "source_url": "https://therecordalbum.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "adapter_class": "WooCommerceNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 18,
+    "excluded": 2,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "method_candidates": [
+      {
+        "platform": "woocommerce",
+        "route": "https://therecordalbum.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://therecordalbum.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://therecordalbum.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://therecordalbum.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://therecordalbum.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://therecordalbum.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://therecordalbum.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "woocommerce",
+      "route": "https://therecordalbum.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 185,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "woocommerce",
+  "catalog_route": "https://therecordalbum.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "listing_sample": 18,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 18,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://www.therecordalbum.com/product/david-sanborn-voyeur-lp-album-2/",
+      "artist": "David Sanborn",
+      "title": "David Sanborn &#8211; Voyeur (LP, Album)",
+      "identity_method": "explicit_product_artist_attribute",
+      "identity_proven": false,
+      "price": "10.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://www.therecordalbum.com/product/joan-armatrading-show-some-emotion-lp-album-3/",
+      "artist": "Joan Armatrading",
+      "title": "Joan Armatrading &#8211; Show Some Emotion (LP, Album)",
+      "identity_method": "explicit_product_artist_attribute",
+      "identity_proven": false,
+      "price": "10.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://www.therecordalbum.com/product/stephen-sondheim-glynis-johns-len-cariou-hermione-gingold-a-little-night-music-original-broadway-cast-album-lp-album-2/",
+      "artist": "",
+      "title": "Stephen Sondheim, Glynis Johns, Len Cariou, Hermione Gingold &#8211; A Little Night Music (Original Broadway Cast Album) (LP, Album)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "10.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://therecordalbum.com/robots.txt",
+      "sha256": "94f777b767563cade5aaa1a4105b2c88582db0822d8194df62fbc57beee59f56"
+    },
+    {
+      "url": "https://therecordalbum.com/",
+      "sha256": "a1e5cec4fee7242210dcf01fbe6670c3771a8c43228bcd1373c39e84e6375815"
+    },
+    {
+      "url": "https://therecordalbum.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "6291fc22173f78da7299b9f0c1fa8eab6dedc944afe53dbc4afec81e2cfbee3f"
+    },
+    {
+      "url": "https://therecordalbum.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "654b93ce8775aaf305e8157233b315d164bb424b6945f2c3d3419eed609db86b"
+    },
+    {
+      "url": "https://www.therecordalbum.com/product/stephen-sondheim-glynis-johns-len-cariou-hermione-gingold-a-little-night-music-original-broadway-cast-album-lp-album-2/",
+      "sha256": "1b740b7f5c759b35bd225a1fde774a97b90e33c4f94abc0312ba3afdc0cd7d60"
+    },
+    {
+      "url": "https://www.therecordalbum.com/product/edgar-froese-aqua-lp-album-gat/",
+      "sha256": "d4308b9c34277ed9cfbee534e091f61d1c45f4b40fec741dc8497eb3ad6bc762"
+    },
+    {
+      "url": "https://www.therecordalbum.com/product/david-sanborn-voyeur-lp-album-2/",
+      "sha256": "e5db96ce4e5b811ac9648216f0a7e4ddafc3d2db202038ee833e5dfdc6f89ed4"
+    },
+    {
+      "url": "https://www.therecordalbum.com/product/joan-armatrading-show-some-emotion-lp-album-3/",
+      "sha256": "973038f3f51e3c8ed95cb6eaccfb70c7879ff5fe9636816234fae972b8a3c726"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.9444444444444444,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://www.therecordalbum.com/product/david-sanborn-voyeur-lp-album-2/",
+    "https://www.therecordalbum.com/product/joan-armatrading-show-some-emotion-lp-album-3/",
+    "https://www.therecordalbum.com/product/stephen-sondheim-glynis-johns-len-cariou-hermione-gingold-a-little-night-music-original-broadway-cast-album-lp-album-2/"
+  ],
+  "assessment_id": "v2-45073699532-1",
+  "queue_rows": [
+    3444
+  ],
+  "assessment_path": "assessments/v2/therecordalbum_com/v2-45073699532-1.json"
+}
