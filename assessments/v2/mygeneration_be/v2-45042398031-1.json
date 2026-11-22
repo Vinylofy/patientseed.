@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T16:12:20.967887+00:00",
+  "shop_id": "mygeneration.be",
+  "row": 3650,
+  "name": "Pop-up MyGeneration",
+  "domain": "mygeneration.be",
+  "country": null,
+  "website": "https://mygeneration.be/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3650,
+    "name": "Pop-up MyGeneration",
+    "domain": "mygeneration.be",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://mygeneration.be/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://mygeneration.be/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://mygeneration.be/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://mygeneration.be/collections/all/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://mygeneration.be/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://mygeneration.be/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://mygeneration.be/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://mygeneration.be/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://mygeneration.be/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://mygeneration.be/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://mygeneration.be/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://mygeneration.be/products/clash-world-according-to-the-clash-best-of-ltd-red-vinyl-lp-1?variant=58397982654804",
+      "artist": "CLASH",
+      "title": "WORLD ACCORDING TO THE CLASH (Best of) (Ltd. Orange vinyl LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "26.95",
+      "currency": "EUR",
+      "valid_eans": [
+        "00196587757311"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://mygeneration.be/products/aznavour-charles-master-serie?variant=58423683645780",
+      "artist": "AZNAVOUR, CHARLES",
+      "title": "MASTER SERIE",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "16.95",
+      "currency": "EUR",
+      "valid_eans": [
+        "00602468002864"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://mygeneration.be/products/gilbert-montagne-master-serie?variant=58424642765140",
+      "artist": "GILBERT MONTAGNE",
+      "title": "MASTER SERIE",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "16.95",
+      "currency": "EUR",
+      "valid_eans": [
+        "00602465990386"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://mygeneration.be/robots.txt",
+      "sha256": "d8b1444680cbf770233e21cce488c904dd797dfc518aa1c391fafa3f45bab45f"
+    },
+    {
+      "url": "https://mygeneration.be/",
+      "sha256": "b331c578f9dcf3709072aa0b8aa463fbb185ef6faabf79b643d5108bc6366c98"
+    },
+    {
+      "url": "https://mygeneration.be/products.json?limit=20&page=1",
+      "sha256": "4e319670501689be4aa470f4d2816591fe034c345f2f6e77d79008bb600d25a0"
+    },
+    {
+      "url": "https://mygeneration.be/collections/all/products.json?limit=20&page=1",
+      "sha256": "ec90853c66d5d85a11d40a101d96e12022135acfdd430f6ed7f206fe0f7bd27b"
+    },
+    {
+      "url": "https://mygeneration.be/products/gilbert-montagne-master-serie",
+      "sha256": "7f2351c65957de3910eed554beea3d8f96bd73608cd5d07aa388b3ec61d0e314"
+    },
+    {
+      "url": "https://mygeneration.be/products/grauzone-eisbar-ltd-edition-45-years-of-eisbar-pre-order-12-02-2027",
+      "sha256": "eddd8344a24f7394183425e371e9c36a92ca6bc2e522e60dee8dbf55dd456842"
+    },
+    {
+      "url": "https://mygeneration.be/products/clash-world-according-to-the-clash-best-of-ltd-red-vinyl-lp-1?variant=58397982654804",
+      "sha256": "66464f1e430f9f239a9bbdb85dbfd37ca318b005d843d6ab4304d6f4d2457e09"
+    },
+    {
+      "url": "https://mygeneration.be/products/aznavour-charles-master-serie?variant=58423683645780",
+      "sha256": "146d266fba27d876117c68a208ff838a1d84dd10a5b39f1aa395a94820ae6e3c"
+    },
+    {
+      "url": "https://mygeneration.be/products/gilbert-montagne-master-serie?variant=58424642765140",
+      "sha256": "460484e1dcd1e3dfaf534376a92c9cd5f9864c9d105d9e0be7cc73e81f5d2841"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": true,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://mygeneration.be/products/clash-world-according-to-the-clash-best-of-ltd-red-vinyl-lp-1?variant=58397982654804",
+    "https://mygeneration.be/products/aznavour-charles-master-serie?variant=58423683645780",
+    "https://mygeneration.be/products/gilbert-montagne-master-serie?variant=58424642765140"
+  ],
+  "assessment_id": "v2-45042398031-1",
+  "queue_rows": [
+    3650
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 19,
+  "candidate_ref": "v2-45042398031-1/mygeneration_be",
+  "assessment_path": "assessments/v2/mygeneration_be/v2-45042398031-1.json"
+}
