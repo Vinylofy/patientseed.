@@ -1,0 +1,200 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T21:01:06.558710+00:00",
+  "shop_id": "symphonyshop.it",
+  "row": 4240,
+  "name": "Symphony Shop",
+  "domain": "symphonyshop.it",
+  "country": null,
+  "website": "https://symphonyshop.it/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4240,
+    "name": "Symphony Shop",
+    "domain": "symphonyshop.it",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://symphonyshop.it/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 12,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://symphonyshop.it/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://symphonyshop.it/products.json?limit=20&page=1",
+        "score": 95,
+        "products_seen": 20,
+        "accepted": 9,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://symphonyshop.it/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://symphonyshop.it/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://symphonyshop.it/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://symphonyshop.it/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://symphonyshop.it/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://symphonyshop.it/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://symphonyshop.it/collections/all/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 1,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://symphonyshop.it/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://symphonyshop.it/robots.txt",
+      "sha256": "96e66fe1eeda818f7cdc0f261ea8bb3b0782166c68fa8bc193f08e356b802d1a"
+    },
+    {
+      "url": "https://symphonyshop.it/",
+      "sha256": "855f6c3ddfdce2ffc1552689c92600c36769d298a4420d7a1a6ec0bd8bee9cbd"
+    },
+    {
+      "url": "https://symphonyshop.it/products.json?limit=20&page=1",
+      "sha256": "d5ee2bb48f8ac3d9adb54b949b5d1159a08fc7557e20ead18d12d62067429c73"
+    },
+    {
+      "url": "https://symphonyshop.it/collections/all/products.json?limit=20&page=1",
+      "sha256": "ddb38283a2f64456e0ae61887145abbb2774d2a03c080861b26312b2ede3cfe3"
+    },
+    {
+      "url": "https://symphonyshop.it/products/2pac-best-of-2pac-pt-1-thug-doppio-vinile-nero-lp-symphony-livorno",
+      "sha256": "8eca1b01a0151f58a9767763d17f2e9eafe8a2e95200b3255873f11b8cfc486f"
+    },
+    {
+      "url": "https://symphonyshop.it/products/50-cent-get-rich-or-die-tryin-doppio-vinile-nero-lp-symphony-livorno",
+      "sha256": "b450f9e4a48128f4d2f1b96117365ef6d1b9cbb0410fcf0b74791a95777c0a0e"
+    },
+    {
+      "url": "https://symphonyshop.it/products/883-nord-sud-ovest-est-lp-vinile-sagomato-limitato?variant=55058743001415",
+      "sha256": "dd3ace77f0915e34ab1a9598073e7eeae0ada8895edae0c8d10b27b11ae0bfca"
+    },
+    {
+      "url": "https://symphonyshop.it/products/883-la-dura-legge-del-gol-lp-cristallo-metallizzato?variant=53918574018887",
+      "sha256": "bc8bef2f5d68f777728120a72c20ee4c3dc09c0598e488cc5500ad032a1ef4ec"
+    },
+    {
+      "url": "https://symphonyshop.it/products/2pac-best-of-2pac-pt-1-thug-doppio-vinile-nero-lp-symphony-livorno?variant=53528464261447",
+      "sha256": "fd489063c3600bef93b882958eec682e6be38bc7c2637f9177ef1be352d178e2"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "invalid_detail_gtin"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 2,
+    "detail_price_proven": 2,
+    "ean_valid": 2,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.3333333333333333,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "invalid_detail_gtin"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45067665621-1",
+  "queue_rows": [
+    4240
+  ],
+  "assessment_path": "assessments/v2/symphonyshop_it/v2-45067665621-1.json"
+}
