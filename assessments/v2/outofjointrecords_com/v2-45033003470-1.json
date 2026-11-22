@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T14:30:31.650982+00:00",
+  "shop_id": "outofjointrecords.com",
+  "row": 4751,
+  "name": "Out Of Joint Records",
+  "domain": "outofjointrecords.com",
+  "country": null,
+  "website": "https://outofjointrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4751,
+    "name": "Out Of Joint Records",
+    "domain": "outofjointrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://outofjointrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://outofjointrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://outofjointrecords.com/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://outofjointrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://outofjointrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://outofjointrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://outofjointrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://outofjointrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://outofjointrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://outofjointrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://outofjointrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 12,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://outofjointrecords.com/products/adiel-what-you-want-is-music-ep?variant=49225419358495",
+      "artist": "Adiel",
+      "title": "(What You Want) Is Music EP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "15.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://outofjointrecords.com/products/dracula-completo-a-large-sheet-of-music?variant=54906785071483",
+      "artist": "A Large Sheet Of Muscle",
+      "title": "Dracula Completo",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "23.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://outofjointrecords.com/products/maya-ism?variant=49099767120159",
+      "artist": "(ism)",
+      "title": "Maua",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "22.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://outofjointrecords.com/robots.txt",
+      "sha256": "8d76283af0cd7a028522ad82de81350f09a2173fa1184b0530f339b2a0794721"
+    },
+    {
+      "url": "https://outofjointrecords.com/",
+      "sha256": "aac5936c958e036399d8ddea0793830b28b33d6b4f3621e150e385dc16bdc600"
+    },
+    {
+      "url": "https://outofjointrecords.com/products.json?limit=20&page=1",
+      "sha256": "8b65197387d1935a32a29a43395bd54f2ab705b9eb088c8f6a6cdc12a99bd9b2"
+    },
+    {
+      "url": "https://outofjointrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "678cd7af5153162c3b6a5d0df491aadf6c5b080d569003f65466ef4e8aac66a1"
+    },
+    {
+      "url": "https://outofjointrecords.com/products/maya-ism",
+      "sha256": "259a136bcd08b0e49221f13046d70bf4bc1e9f42349afb8a6a8e5428ea805dc0"
+    },
+    {
+      "url": "https://outofjointrecords.com/products/100th-monkey-tristan-four-carry-nuts-gobi-desert-bunker-parallax-deep-edits",
+      "sha256": "f5255071f2ba9797cf0a258e55d73a23ef404fa361ae9ec178feba96e1634bd0"
+    },
+    {
+      "url": "https://outofjointrecords.com/products/adiel-what-you-want-is-music-ep?variant=49225419358495",
+      "sha256": "9260536e875d67b0054f0358ede771fe6c955366ff654ec2d10e01a23092f3c9"
+    },
+    {
+      "url": "https://outofjointrecords.com/products/dracula-completo-a-large-sheet-of-music?variant=54906785071483",
+      "sha256": "26b0cfa976fa58908c9eb1e55d24cb7f817f2e3945bf1c4c62a22fda7fe8ed5f"
+    },
+    {
+      "url": "https://outofjointrecords.com/products/maya-ism?variant=49099767120159",
+      "sha256": "8ae6b010b872adedb79d079ecdd9378e8c68218baad688a831231a6eeba24df3"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://outofjointrecords.com/products/adiel-what-you-want-is-music-ep?variant=49225419358495",
+    "https://outofjointrecords.com/products/dracula-completo-a-large-sheet-of-music?variant=54906785071483",
+    "https://outofjointrecords.com/products/maya-ism?variant=49099767120159"
+  ],
+  "assessment_id": "v2-45033003470-1",
+  "queue_rows": [
+    4751
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 20,
+  "candidate_ref": "v2-45033003470-1/outofjointrecords_com",
+  "assessment_path": "assessments/v2/outofjointrecords_com/v2-45033003470-1.json"
+}
