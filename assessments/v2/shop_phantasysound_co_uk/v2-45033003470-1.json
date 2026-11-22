@@ -1,0 +1,196 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T14:37:04.196330+00:00",
+  "shop_id": "shop.phantasysound.co.uk",
+  "row": 4763,
+  "name": "Phantasy",
+  "domain": "shop.phantasysound.co.uk",
+  "country": null,
+  "website": "https://shop.phantasysound.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4763,
+    "name": "Phantasy",
+    "domain": "shop.phantasysound.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://shop.phantasysound.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 23,
+    "accepted": 17,
+    "excluded": 6,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://shop.phantasysound.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://shop.phantasysound.co.uk/products.json?limit=20&page=1",
+        "score": 175,
+        "products_seen": 23,
+        "accepted": 17,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://shop.phantasysound.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 21,
+        "accepted": 8,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://shop.phantasysound.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shop.phantasysound.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shop.phantasysound.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shop.phantasysound.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shop.phantasysound.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://shop.phantasysound.co.uk/products.json?limit=20&page=1",
+      "score": 175,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://shop.phantasysound.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 17,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 17,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://shop.phantasysound.co.uk/robots.txt",
+      "sha256": "29207cfd0ace5e701d382a85d12ec84a33ffdce7d5782e1d13154973ecdc706a"
+    },
+    {
+      "url": "https://shop.phantasysound.co.uk/",
+      "sha256": "0267bcbe0363ca22879e3475897140cb1ec6a5214f5f058460968f5de0956ee9"
+    },
+    {
+      "url": "https://shop.phantasysound.co.uk/products.json?limit=20&page=1",
+      "sha256": "a23aac914379c758393688c40d9d54a4c47ca6152fff035b1f01a548658524e9"
+    },
+    {
+      "url": "https://shop.phantasysound.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "8ab513ebac1ee8f12933ca27f38b41ae83b48ba258d551a7b65cbac088b7faf4"
+    },
+    {
+      "url": "https://shop.phantasysound.co.uk/products/xclusiv-fools-are-friendly-limited-edition-amber-vinyl-ph151",
+      "sha256": "9f40a47f535be9b7c4cd447fcf2054e54776322683fccd7988a642262813f031"
+    },
+    {
+      "url": "https://shop.phantasysound.co.uk/products/factory-floor-one-trip-phlp27",
+      "sha256": "70e257aff4b41fe839fa5e6025f04ef380587fba824b86ab58804a0ce2f82b6f"
+    },
+    {
+      "url": "https://shop.phantasysound.co.uk/products/felix-da-housecat-test-press-aphrohead-remix-erol-alkan-re-edit-ph154?variant=57298262589822",
+      "sha256": "18abdb354769fa2ec32db4b310e73bf669251842ad1258e60e2225bcf06ae9a4"
+    },
+    {
+      "url": "https://shop.phantasysound.co.uk/products/richardsenph156?variant=58002220646782",
+      "sha256": "d647b3360619410d547b33ab63219ae0ff22856cc9c3b67d6c479e87bdee665f"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 1,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 0.8823529411764706,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45033003470-1",
+  "queue_rows": [
+    4763
+  ],
+  "assessment_path": "assessments/v2/shop_phantasysound_co_uk/v2-45033003470-1.json"
+}
