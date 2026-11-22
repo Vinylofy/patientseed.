@@ -1,0 +1,240 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T09:46:25.573458+00:00",
+  "shop_id": "metadonarecords.com",
+  "row": 4591,
+  "name": "Metadona Records",
+  "domain": "metadonarecords.com",
+  "country": null,
+  "website": "https://metadonarecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4591,
+    "name": "Metadona Records",
+    "domain": "metadonarecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://metadonarecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 22,
+    "accepted": 16,
+    "excluded": 6,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://metadonarecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://metadonarecords.com/products.json?limit=20&page=1",
+        "score": 165,
+        "products_seen": 22,
+        "accepted": 16,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://metadonarecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 145,
+        "products_seen": 20,
+        "accepted": 14,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://metadonarecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://metadonarecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://metadonarecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://metadonarecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://metadonarecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://metadonarecords.com/products.json?limit=20&page=1",
+      "score": 165,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://metadonarecords.com/products.json?limit=20&page=1",
+  "listing_sample": 16,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 16,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://metadonarecords.com/products/aliment-sempre-res-lp?variant=58663333364043",
+      "artist": "ALIMENT",
+      "title": "Sempre Res - LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "15.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://metadonarecords.com/products/final-conflict-r-i-p-lp?variant=59344221143371",
+      "artist": "FINAL CONFLICT",
+      "title": "R.I.P. - LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "22.00",
+      "currency": "EUR",
+      "valid_eans": [
+        "08435015526924"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://metadonarecords.com/products/sect-s-t-lp?variant=40526712733775",
+      "artist": "SECT",
+      "title": "s/t - LP",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "15.00",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://metadonarecords.com/robots.txt",
+      "sha256": "2a90b55310523a1176c5493051c66d45fb2fb0e33b584ae120c814fc2602fedb"
+    },
+    {
+      "url": "https://metadonarecords.com/",
+      "sha256": "16a72e1ed0347ddd7522df3e963886acc2b358c81d4ae0a10621922e68ef4c8b"
+    },
+    {
+      "url": "https://metadonarecords.com/products.json?limit=20&page=1",
+      "sha256": "e770c61b317dd650300f87681a415bfd51f43d1278dec21260e24d9e42050c90"
+    },
+    {
+      "url": "https://metadonarecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "cbd4c6684b4645a52d5fb782e1447c67cd3b52c0ebc38f46dc4834de0c87f2de"
+    },
+    {
+      "url": "https://metadonarecords.com/products/sect-s-t-lp",
+      "sha256": "f86bc07357f4ffc005a4990d2d82917b25eecf58d25d1d9d3f8b8e7ce6fa6e91"
+    },
+    {
+      "url": "https://metadonarecords.com/products/vampire-what-seems-forever-can-be-broken-lp",
+      "sha256": "03a1280c0ee3681659239d6677b9abe0ebf1f66ff66006e5f0f73f3dbf5e3ca1"
+    },
+    {
+      "url": "https://metadonarecords.com/products/aliment-sempre-res-lp?variant=58663333364043",
+      "sha256": "5e7be0ba3ae83d49207528efaeccb9c5987c6dc76132260f2002bd3d68ee060b"
+    },
+    {
+      "url": "https://metadonarecords.com/products/final-conflict-r-i-p-lp?variant=59344221143371",
+      "sha256": "f0ad523ba66e8689b1f53ff8cc29b5dadf9e4ac3c6bd1e4f03a4d845645b1bd5"
+    },
+    {
+      "url": "https://metadonarecords.com/products/sect-s-t-lp?variant=40526712733775",
+      "sha256": "c6992237cd44bd336dd082fe340653a181852a8cb4fa7790f76be737102fbe93"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 1,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://metadonarecords.com/products/aliment-sempre-res-lp?variant=58663333364043",
+    "https://metadonarecords.com/products/final-conflict-r-i-p-lp?variant=59344221143371",
+    "https://metadonarecords.com/products/sect-s-t-lp?variant=40526712733775"
+  ],
+  "assessment_id": "v2-45008765152-1",
+  "queue_rows": [
+    4591
+  ],
+  "assessment_path": "assessments/v2/metadonarecords_com/v2-45008765152-1.json"
+}
