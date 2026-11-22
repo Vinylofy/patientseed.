@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T20:54:04.713099+00:00",
+  "shop_id": "stradarecords.jp",
+  "row": 4294,
+  "name": "Strada Records",
+  "domain": "stradarecords.jp",
+  "country": null,
+  "website": "https://stradarecords.jp/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4294,
+    "name": "Strada Records",
+    "domain": "stradarecords.jp",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://stradarecords.jp/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "JPY",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://stradarecords.jp/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://stradarecords.jp/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://stradarecords.jp/collections/all/products.json?limit=20&page=1",
+        "score": 95,
+        "products_seen": 20,
+        "accepted": 9,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://stradarecords.jp/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://stradarecords.jp/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://stradarecords.jp/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://stradarecords.jp/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://stradarecords.jp/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://stradarecords.jp/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 1,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://stradarecords.jp/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 13,
+    "shipping_hits": 0,
+    "currencies": [
+      "JPY"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://stradarecords.jp/robots.txt",
+      "sha256": "a54c5e9a036d9c592fed9f378539482d4e5d10c3263f99adb5f4818eba2aa1e8"
+    },
+    {
+      "url": "https://stradarecords.jp/",
+      "sha256": "376be3285de1d9fc3dd5ca2b61510a5eeb6d0260f9fcc15bf4dc2c2da19b21a3"
+    },
+    {
+      "url": "https://stradarecords.jp/products.json?limit=20&page=1",
+      "sha256": "7c1662b5a6243cab06384406844d6b46dcddb963eceb87cf01f1756c45d4875e"
+    },
+    {
+      "url": "https://stradarecords.jp/collections/all/products.json?limit=20&page=1",
+      "sha256": "172cc1500dd59fed4ed353f7d14934886554dc0b0fcd5f692d5750fde960b636"
+    },
+    {
+      "url": "https://stradarecords.jp/products/the-soul-seven-mr-chicken-the-cissys-thang",
+      "sha256": "3c2caebfcfb0ae0d2be072e2e034b052a56cc6fa0ebe2e5f8c3c85d36ae6974b"
+    },
+    {
+      "url": "https://stradarecords.jp/products/joao-comazzi-murrin-sol-novo",
+      "sha256": "cc58cf211d5736648ed35f5050f7202687a0671d84a269035822f6f1073810cd"
+    },
+    {
+      "url": "https://stradarecords.jp/products/dj-rasoul-flight-feat-paka-project-andrew-macari-natural-rhythm-mixes?variant=45030039257147",
+      "sha256": "a3da6b56c8064cc443ebc61f1d1b74b51a2662d4fc755befb82ab5d62dc2339c"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "UnicodeEncodeError"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 0,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "UnicodeEncodeError"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45067665621-1",
+  "queue_rows": [
+    4294
+  ],
+  "assessment_path": "assessments/v2/stradarecords_jp/v2-45067665621-1.json"
+}
