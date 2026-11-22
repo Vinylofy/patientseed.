@@ -1,0 +1,183 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T16:22:35.191256+00:00",
+  "shop_id": "ravesfromthegrave.com",
+  "row": 4911,
+  "name": "Raves From The Grave",
+  "domain": "ravesfromthegrave.com",
+  "country": null,
+  "website": "https://ravesfromthegrave.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4911,
+    "name": "Raves From The Grave",
+    "domain": "ravesfromthegrave.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "woocommerce",
+    "source_url": "https://ravesfromthegrave.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "adapter_class": "WooCommerceNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 6,
+    "excluded": 14,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "method_candidates": [
+      {
+        "platform": "woocommerce",
+        "route": "https://ravesfromthegrave.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://ravesfromthegrave.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://ravesfromthegrave.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://ravesfromthegrave.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://ravesfromthegrave.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://ravesfromthegrave.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://ravesfromthegrave.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "woocommerce",
+      "route": "https://ravesfromthegrave.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 65,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "woocommerce",
+  "catalog_route": "https://ravesfromthegrave.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "listing_sample": 6,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 6,
+    "unique_prices": 3,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://ravesfromthegrave.com/robots.txt",
+      "sha256": "ed22e33d03b5592f6f677f92b52969c6605a14f49511d8cf7afaf2d69d1d692c"
+    },
+    {
+      "url": "https://ravesfromthegrave.com/",
+      "sha256": "6035d027f0fa2b617a1422e681e4c48f4657b75b127e78f0412a758503597ce0"
+    },
+    {
+      "url": "https://ravesfromthegrave.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "c7d19301be04e3cf48b436a12d1c6504101ad2555e4c95f48e359da919b5909c"
+    },
+    {
+      "url": "https://ravesfromthegrave.com/shop/i-barely-know-her/",
+      "sha256": "48c687c147d7c2fd7ba216f5195133918012131092bb6b1782e1fabacec4c9ab"
+    },
+    {
+      "url": "https://ravesfromthegrave.com/shop/toxicity-25th-anniversary/",
+      "sha256": "3e906baefa5dc95d02048ca1e6aeb4a0d535ae05ea3dd85dbe2932c8471a9399"
+    },
+    {
+      "url": "https://ravesfromthegrave.com/shop/sour/",
+      "sha256": "6f4110a7cf82005aa123762560576034666fa90304092f28803e9eff456d597c"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45042398031-1",
+  "queue_rows": [
+    4911
+  ],
+  "assessment_path": "assessments/v2/ravesfromthegrave_com/v2-45042398031-1.json"
+}
