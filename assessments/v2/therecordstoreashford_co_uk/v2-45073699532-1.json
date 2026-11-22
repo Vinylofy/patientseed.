@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T21:53:44.135466+00:00",
+  "shop_id": "therecordstoreashford.co.uk",
+  "row": 3428,
+  "name": "therecordstoreashford",
+  "domain": "therecordstoreashford.co.uk",
+  "country": null,
+  "website": "https://therecordstoreashford.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3428,
+    "name": "therecordstoreashford",
+    "domain": "therecordstoreashford.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://therecordstoreashford.co.uk/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://therecordstoreashford.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://therecordstoreashford.co.uk/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "Invalid Shopify price"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://therecordstoreashford.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://therecordstoreashford.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://therecordstoreashford.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://therecordstoreashford.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://therecordstoreashford.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://therecordstoreashford.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://therecordstoreashford.co.uk/collections/all/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 1,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://therecordstoreashford.co.uk/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 12,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://therecordstoreashford.co.uk/products/5-seconds-of-summer-5-seconds-of-summer?variant=52132427235594",
+      "artist": "5 Seconds Of Summer",
+      "title": "5 Seconds Of Summer",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "29.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://therecordstoreashford.co.uk/products/10cc-the-things-we-do-for-love-the-ultimate-hits-and-beyond?variant=52377189744906",
+      "artist": "10cc",
+      "title": "The Things We Do For Love: The Ultimate Hits And Beyond",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "25.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://therecordstoreashford.co.uk/products/3-shakespears-sister?variant=50542602223882",
+      "artist": "#3",
+      "title": "Shakespears Sister",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "29.99",
+      "currency": "GBP",
+      "valid_eans": [
+        "05055869547024"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://therecordstoreashford.co.uk/robots.txt",
+      "sha256": "e85bdd7e54a1c1bacdffe9e8ab0f396033dded37e11f18eb1923e32372c92532"
+    },
+    {
+      "url": "https://therecordstoreashford.co.uk/",
+      "sha256": "7a7011a16acdcf8bf8669525d2467724a592dcc437d7f4d30d48769973ad896a"
+    },
+    {
+      "url": "https://therecordstoreashford.co.uk/products.json?limit=20&page=1",
+      "sha256": "566d7005ddb512995e904c451a41392f9875c855512822435b3ae6bc10e8334b"
+    },
+    {
+      "url": "https://therecordstoreashford.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "0a6e69c5df08cc6b812b6939faca4880792df90794c692cbb69dbe917ca3cb7d"
+    },
+    {
+      "url": "https://therecordstoreashford.co.uk/products/3-shakespears-sister",
+      "sha256": "caa33b01ba1573f5008783bc74e1f8bb9a685408dd57d3ec9b82b6c77e796150"
+    },
+    {
+      "url": "https://therecordstoreashford.co.uk/products/feeder-polythene-pre-order-info-out-20-11-26",
+      "sha256": "1f03cbc987be44ed48659820d204fa9cd06916ad512832a2e3dcbe58181f3717"
+    },
+    {
+      "url": "https://therecordstoreashford.co.uk/products/5-seconds-of-summer-5-seconds-of-summer?variant=52132427235594",
+      "sha256": "f4d520c578bf6943e1b22ace79b7218c33ba9f5f1274b249322ee5b42e031eb5"
+    },
+    {
+      "url": "https://therecordstoreashford.co.uk/products/10cc-the-things-we-do-for-love-the-ultimate-hits-and-beyond?variant=52377189744906",
+      "sha256": "85315d3780e00442af8ffc31ecc36be8dc6df25547bc1c8ee0e257c3668655f7"
+    },
+    {
+      "url": "https://therecordstoreashford.co.uk/products/3-shakespears-sister?variant=50542602223882",
+      "sha256": "9bb3dea97a87be629ba8f9f2c7f72a940fa9d9c6ad411ff43746ff3ad5a4240e"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 1,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.631578947368421,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://therecordstoreashford.co.uk/products/5-seconds-of-summer-5-seconds-of-summer?variant=52132427235594",
+    "https://therecordstoreashford.co.uk/products/10cc-the-things-we-do-for-love-the-ultimate-hits-and-beyond?variant=52377189744906",
+    "https://therecordstoreashford.co.uk/products/3-shakespears-sister?variant=50542602223882"
+  ],
+  "assessment_id": "v2-45073699532-1",
+  "queue_rows": [
+    3428
+  ],
+  "assessment_path": "assessments/v2/therecordstoreashford_co_uk/v2-45073699532-1.json"
+}
