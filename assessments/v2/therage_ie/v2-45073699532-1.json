@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T21:46:39.698041+00:00",
+  "shop_id": "therage.ie",
+  "row": 4222,
+  "name": "The R.A.G.E.",
+  "domain": "therage.ie",
+  "country": null,
+  "website": "https://therage.ie/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4222,
+    "name": "The R.A.G.E.",
+    "domain": "therage.ie",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://therage.ie/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 23,
+    "accepted": 8,
+    "excluded": 15,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://therage.ie/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://therage.ie/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://therage.ie/collections/all/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 23,
+        "accepted": 8,
+        "excluded": 15,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://therage.ie/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://therage.ie/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://therage.ie/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://therage.ie/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://therage.ie/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://therage.ie/collections/all/products.json?limit=20&page=1",
+      "score": 85,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://therage.ie/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 8,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 8,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://therage.ie/robots.txt",
+      "sha256": "948c7e37f0b01460e1fe745fc6642d6df2fe10aefdfb17eb0e20499a27d2854b"
+    },
+    {
+      "url": "https://therage.ie/",
+      "sha256": "3fce269fc389ab1ed0ef15e6af96bd144a16d0cf236b6251cc896021a7d3fef7"
+    },
+    {
+      "url": "https://therage.ie/products.json?limit=20&page=1",
+      "sha256": "34206966914db09041ed232ebe303117253bd3994f40fbf3473bd54ae0c415d1"
+    },
+    {
+      "url": "https://therage.ie/collections/all/products.json?limit=20&page=1",
+      "sha256": "bc4c6f9b943640ad42de69a9ac8a041c4d8841f5782c2fa6ea33237bf07027b5"
+    },
+    {
+      "url": "https://therage.ie/products/12-card-sleeve-with-centre-hole",
+      "sha256": "c76ad7ec599de5acbd55d986b7394c9b31c565cb4c6241d9197852a0edad19fc"
+    },
+    {
+      "url": "https://therage.ie/products/12-outer-plastic-sleeve",
+      "sha256": "fff54a4abb3883c0750b2c2df7ce39f8a1998389dc3af8ec0d932b745aae509c"
+    },
+    {
+      "url": "https://therage.ie/products/2-in-1-velvet-anti-static-brush?variant=55746660204868",
+      "sha256": "1d0e9b5cd635b66da215c9f617c7361728fde684c415a3bc4e0c6fb91927afbd"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45073699532-1",
+  "queue_rows": [
+    4222
+  ],
+  "assessment_path": "assessments/v2/therage_ie/v2-45073699532-1.json"
+}
