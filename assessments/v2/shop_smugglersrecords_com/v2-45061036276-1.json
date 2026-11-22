@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T19:42:39.664173+00:00",
+  "shop_id": "shop.smugglersrecords.com",
+  "row": 3408,
+  "name": "Smugglers Record Shop",
+  "domain": "shop.smugglersrecords.com",
+  "country": null,
+  "website": "https://shop.smugglersrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3408,
+    "name": "Smugglers Record Shop",
+    "domain": "shop.smugglersrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://shop.smugglersrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://shop.smugglersrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://shop.smugglersrecords.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://shop.smugglersrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://shop.smugglersrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shop.smugglersrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://shop.smugglersrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shop.smugglersrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://shop.smugglersrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://shop.smugglersrecords.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://shop.smugglersrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://shop.smugglersrecords.com/robots.txt",
+      "sha256": "49d19b1083deae333be911e979c0ce43dfa96c8eaf07d22146d54e9c60f8bfdc"
+    },
+    {
+      "url": "https://shop.smugglersrecords.com/",
+      "sha256": "0d35820efd06e4abe6cf79c2c2a2d2499d3d86a99296ead13a4580a052788a85"
+    },
+    {
+      "url": "https://shop.smugglersrecords.com/products.json?limit=20&page=1",
+      "sha256": "a6bcbff7e4373475b8a4367bdd877ec47e407400ae1a7fa893a35e69348f01d5"
+    },
+    {
+      "url": "https://shop.smugglersrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "a8e1d38c4998e26a5059ab69eb0eba91b4b4761a62d91d201e73002a6bc450df"
+    },
+    {
+      "url": "https://shop.smugglersrecords.com/products/back-to-black-amy-winehouse",
+      "sha256": "753ab1b61119cbd8a54301d80ba0aa1dd418072749b9a71cff3086fb4ec5c304"
+    },
+    {
+      "url": "https://shop.smugglersrecords.com/products/the-rolling-stones-beggars-banquet",
+      "sha256": "de5272607fd8365024f2891e2a5b13af2e4905d901ee9f0c78d2e8f6f77363d5"
+    },
+    {
+      "url": "https://shop.smugglersrecords.com/products/fatboy-slim-better-living-through-chemistry-30th-anniversary?variant=57464024170876",
+      "sha256": "e8111b21351791d7d8713e37f5d9ea08a33b861e36a750a29c09f84324d3197b"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.95,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45061036276-1",
+  "queue_rows": [
+    3408
+  ],
+  "assessment_path": "assessments/v2/shop_smugglersrecords_com/v2-45061036276-1.json"
+}
