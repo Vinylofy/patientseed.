@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T12:50:18.733693+00:00",
+  "shop_id": "onthejunglefloor.com",
+  "row": 4212,
+  "name": "On The Jungle Floor",
+  "domain": "onthejunglefloor.com",
+  "country": null,
+  "website": "https://onthejunglefloor.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4212,
+    "name": "On The Jungle Floor",
+    "domain": "onthejunglefloor.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://onthejunglefloor.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "INR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://onthejunglefloor.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://onthejunglefloor.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://onthejunglefloor.com/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://onthejunglefloor.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://onthejunglefloor.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://onthejunglefloor.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://onthejunglefloor.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://onthejunglefloor.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://onthejunglefloor.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://onthejunglefloor.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 16,
+    "shipping_hits": 0,
+    "currencies": [
+      "INR"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://onthejunglefloor.com/robots.txt",
+      "sha256": "9f49b65661135c74cf8ec598e4abbdb2f44d59a7c39b88a8b591497eb1ca6266"
+    },
+    {
+      "url": "https://onthejunglefloor.com/",
+      "sha256": "a3a2857cbe2ff258275868e91268fcaf3ca806dcfd8852e299d84b53c16f7745"
+    },
+    {
+      "url": "https://onthejunglefloor.com/products.json?limit=20&page=1",
+      "sha256": "2b337a5871d8d62e4d2dffb7df5506447ac602023639cab1b5f2d0d7681b2155"
+    },
+    {
+      "url": "https://onthejunglefloor.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "d01cbd7ec6bfd050f2e1778cb788f90ec7abe64f613db9288a07022a4e72f2fc"
+    },
+    {
+      "url": "https://onthejunglefloor.com/products/aphex-twin-classics2lp-stickers-vinyl-record",
+      "sha256": "14aa8f7ae53c47c5d4e971fee315ce13b634e7c08381672515b58f4883d78f35"
+    },
+    {
+      "url": "https://onthejunglefloor.com/products/paramore-this-is-why",
+      "sha256": "f0f6abd34e685f541fa5dc0ebcf77b2a534405b944ab9458ba803997fa2153b0"
+    },
+    {
+      "url": "https://onthejunglefloor.com/products/lonnie-liston-smith-the-cosmic-echoes-expansions-aaa-remastered-edition?variant=58142574084279",
+      "sha256": "a54767a8457ec50286c05bf73be6e5b32d1390f06ebaa05e46e9af4e2813188d"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45022525561-1",
+  "queue_rows": [
+    4212
+  ],
+  "assessment_path": "assessments/v2/onthejunglefloor_com/v2-45022525561-1.json"
+}
