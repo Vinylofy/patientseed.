@@ -1,0 +1,202 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T09:48:31.280118+00:00",
+  "shop_id": "milehighvinyl.ca",
+  "row": 3736,
+  "name": "Mile High Vinyl",
+  "domain": "milehighvinyl.ca",
+  "country": null,
+  "website": "https://milehighvinyl.ca/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3736,
+    "name": "Mile High Vinyl",
+    "domain": "milehighvinyl.ca",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://milehighvinyl.ca/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 1,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "CAD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://milehighvinyl.ca/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://milehighvinyl.ca/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://milehighvinyl.ca/collections/all/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://milehighvinyl.ca/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://milehighvinyl.ca/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://milehighvinyl.ca/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://milehighvinyl.ca/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://milehighvinyl.ca/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://milehighvinyl.ca/collections/all/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://milehighvinyl.ca/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "CAD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://milehighvinyl.ca/products/weird-al-yankovic-uhf-original-motion-picture-soundtrack-and-other-stuff-lp-album-mint-m?variant=45981629448424",
+      "artist": "\"Weird Al\" Yankovic",
+      "title": "UHF (Original Motion Picture Soundtrack And Other Stuff) (LP, Album) (Mint (M))",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "275.00",
+      "currency": "CAD",
+      "valid_eans": [],
+      "condition_basis": "used_or_grading_signal"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://milehighvinyl.ca/robots.txt",
+      "sha256": "a856e0ec2e02e48f3b2cf35dfbabd7f27639c753447f86dbb0c871756cdb88b0"
+    },
+    {
+      "url": "https://milehighvinyl.ca/",
+      "sha256": "0d5fc3416012993c54d2e4c6754d05b78fa294fc8004e8694e74fa22cd1ddff2"
+    },
+    {
+      "url": "https://milehighvinyl.ca/products.json?limit=20&page=1",
+      "sha256": "b37f172beb2e686526d690d74deef3861c1176dac6d71c7c8599660ac8899257"
+    },
+    {
+      "url": "https://milehighvinyl.ca/collections/all/products.json?limit=20&page=1",
+      "sha256": "1e2e6a6aeeeea7c78aacf80afea06ffcd7edea8b1674088fffac3c8a60c538d1"
+    },
+    {
+      "url": "https://milehighvinyl.ca/products/weird-al-yankovic-uhf-original-motion-picture-soundtrack-and-other-stuff-lp-album-mint-m",
+      "sha256": "710e03178237290f9893378787943e05ed0b3733c7d8c68b22ee937c4654b1bd"
+    },
+    {
+      "url": "https://milehighvinyl.ca/products/weird-al-yankovic-uhf-original-motion-picture-soundtrack-and-other-stuff-lp-album-mint-m?variant=45981629448424",
+      "sha256": "37457dedad4638282312149a1366af6e6f2f6bd987332ea8896703e997b13366"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:new_used_distinguishable"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 0,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://milehighvinyl.ca/products/weird-al-yankovic-uhf-original-motion-picture-soundtrack-and-other-stuff-lp-album-mint-m?variant=45981629448424"
+  ],
+  "assessment_id": "v2-45008765152-1",
+  "queue_rows": [
+    3736
+  ],
+  "assessment_path": "assessments/v2/milehighvinyl_ca/v2-45008765152-1.json"
+}
