@@ -1,0 +1,194 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T16:29:15.087066+00:00",
+  "shop_id": "recordroom.ch",
+  "row": 4660,
+  "name": "recordroom",
+  "domain": "recordroom.ch",
+  "country": null,
+  "website": "https://recordroom.ch/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4660,
+    "name": "recordroom",
+    "domain": "recordroom.ch",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://recordroom.ch/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "CHF",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://recordroom.ch/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://recordroom.ch/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://recordroom.ch/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://recordroom.ch/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://recordroom.ch/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://recordroom.ch/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://recordroom.ch/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://recordroom.ch/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://recordroom.ch/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://recordroom.ch/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "review",
+    "flags": [
+      "shipping_term_in_product_identity"
+    ],
+    "records_checked": 20,
+    "unique_prices": 5,
+    "shipping_hits": 1,
+    "currencies": [
+      "CHF"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://recordroom.ch/robots.txt",
+      "sha256": "ea8aae4b2d47a93ecdb70a535a2f8dc3e25c50fde0f4f69a02c98dc522a98fa0"
+    },
+    {
+      "url": "https://recordroom.ch/",
+      "sha256": "2d894f46adb6adc2339f0968cad0c3df40a97d242a0b082039a78f12b3947ae6"
+    },
+    {
+      "url": "https://recordroom.ch/products.json?limit=20&page=1",
+      "sha256": "7ccf7bf51d8c02d6baf5c4355210e990e18f41428b16e5c8d3548e6c6d175aaf"
+    },
+    {
+      "url": "https://recordroom.ch/collections/all/products.json?limit=20&page=1",
+      "sha256": "50ad3cba50158f902b8ecb80476faced724d4054a557699137b5fbced9222c97"
+    },
+    {
+      "url": "https://recordroom.ch/products/christian-death-ashes-vinyl-lp",
+      "sha256": "8a060d4c27d8f284baadd5e55b413859e3b9efd4a0f2f7c0d3f0b6283ccfa603"
+    },
+    {
+      "url": "https://recordroom.ch/products/hunters-collectors-fate-vinyl-lp",
+      "sha256": "dae856079fabad1d7b79f19fa05162385467d5524a0cb9e7b98801cedf9a4c9a"
+    },
+    {
+      "url": "https://recordroom.ch/products/univers-zero-1313-vinyl-lp?variant=65175579099513",
+      "sha256": "868549412fba8ac1c0e27f10ffc35cfdd990704f0f0d5d88096ad4372eb36575"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": false,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45042398031-1",
+  "queue_rows": [
+    4660
+  ],
+  "assessment_path": "assessments/v2/recordroom_ch/v2-45042398031-1.json"
+}
