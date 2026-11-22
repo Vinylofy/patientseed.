@@ -1,0 +1,250 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T17:46:07.016309+00:00",
+  "shop_id": "recordsonvinyl.nl",
+  "row": 5102,
+  "name": "recordsonvinyl.nl",
+  "domain": "recordsonvinyl.nl",
+  "country": null,
+  "website": "https://recordsonvinyl.nl/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 5102,
+    "name": "recordsonvinyl.nl",
+    "domain": "recordsonvinyl.nl",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://recordsonvinyl.nl/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 17,
+    "excluded": 3,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://recordsonvinyl.nl/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://recordsonvinyl.nl/products.json?limit=20&page=1",
+        "score": 145,
+        "products_seen": 20,
+        "accepted": 14,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://recordsonvinyl.nl/collections/all/products.json?limit=20&page=1",
+        "score": 175,
+        "products_seen": 20,
+        "accepted": 17,
+        "excluded": 3,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://recordsonvinyl.nl/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://recordsonvinyl.nl/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://recordsonvinyl.nl/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://recordsonvinyl.nl/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://recordsonvinyl.nl/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://recordsonvinyl.nl/collections/all/products.json?limit=20&page=1",
+      "score": 175,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://recordsonvinyl.nl/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 17,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 17,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://recordsonvinyl.nl/products/copy-of-nsync-nsync-25th-anniversary-lp?variant=46882766029146",
+      "artist": "*Nsync",
+      "title": "*Nsync (25th Anniversary) (LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "32.95",
+      "currency": "EUR",
+      "valid_eans": [],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://recordsonvinyl.nl/products/68-in-humor-and-sadness-lp?variant=54404478239066",
+      "artist": "'68",
+      "title": "In Humor and Sadness (LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "32.95",
+      "currency": "EUR",
+      "valid_eans": [
+        "00634164645618"
+      ],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://recordsonvinyl.nl/products/chk-chik-chick-louden-up-now-2-lps?variant=54437774393690",
+      "artist": "!!! (Chk Chik Chick)",
+      "title": "Louden Up Now (2 LPs)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "40.95",
+      "currency": "EUR",
+      "valid_eans": [
+        "00036172093410"
+      ],
+      "condition_basis": "explicit_new"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://recordsonvinyl.nl/robots.txt",
+      "sha256": "7aa718d3a5e73bf24de5b7dd355fe226253830955a63fd170a0c7543d8a4380d"
+    },
+    {
+      "url": "https://recordsonvinyl.nl/",
+      "sha256": "98fd38bda2641d1bed2637d9c376a6f72e36f92a7a2528f3738e91af1c47b027"
+    },
+    {
+      "url": "https://recordsonvinyl.nl/products.json?limit=20&page=1",
+      "sha256": "54f98b685f254e697d256b26fff17894434082eb4f5a3a688df717e09ae77c1b"
+    },
+    {
+      "url": "https://recordsonvinyl.nl/collections/all/products.json?limit=20&page=1",
+      "sha256": "3fbb34c721d6eaa9877902fd7cb6b6ea68268f35f98be638696e16f36f9a204d"
+    },
+    {
+      "url": "https://recordsonvinyl.nl/products/chk-chik-chick-louden-up-now-2-lps",
+      "sha256": "129c3749bcb81b2cf6a766f5c9fb907f8f23eba88b9f111cb8c6afcb72d50776"
+    },
+    {
+      "url": "https://recordsonvinyl.nl/products/400-suits-never-give-what-you-cant-take-back-lp",
+      "sha256": "92f0b4ac6692c67f990ad866ceb1e243fd639a4a609c16b18fab5c72798fb6f8"
+    },
+    {
+      "url": "https://recordsonvinyl.nl/products/copy-of-nsync-nsync-25th-anniversary-lp?variant=46882766029146",
+      "sha256": "82ff3051f04947efc076f3a67842bc245346a2d1bc25a46ffefddd63024ed716"
+    },
+    {
+      "url": "https://recordsonvinyl.nl/products/68-in-humor-and-sadness-lp?variant=54404478239066",
+      "sha256": "426fdf361e728a431e83eb8d3cfb7f487b62b4c088ea6d00de53eeaf4de93076"
+    },
+    {
+      "url": "https://recordsonvinyl.nl/products/chk-chik-chick-louden-up-now-2-lps?variant=54437774393690",
+      "sha256": "281aaae6ace7fadb33e423c638e3106d7e37e42d1cd8bb7368671591f514e1c8"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 2,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.9411764705882353,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://recordsonvinyl.nl/products/copy-of-nsync-nsync-25th-anniversary-lp?variant=46882766029146",
+    "https://recordsonvinyl.nl/products/68-in-humor-and-sadness-lp?variant=54404478239066",
+    "https://recordsonvinyl.nl/products/chk-chik-chick-louden-up-now-2-lps?variant=54437774393690"
+  ],
+  "assessment_id": "v2-45051250283-1",
+  "queue_rows": [
+    5102
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 16,
+  "candidate_ref": "v2-45051250283-1/recordsonvinyl_nl",
+  "assessment_path": "assessments/v2/recordsonvinyl_nl/v2-45051250283-1.json"
+}
