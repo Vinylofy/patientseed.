@@ -1,0 +1,244 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T21:50:17.406876+00:00",
+  "shop_id": "thesearchers.com.au",
+  "row": 3519,
+  "name": "The Searchers Records",
+  "domain": "thesearchers.com.au",
+  "country": null,
+  "website": "https://thesearchers.com.au/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3519,
+    "name": "The Searchers Records",
+    "domain": "thesearchers.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://thesearchers.com.au/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 18,
+    "excluded": 2,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://thesearchers.com.au/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://thesearchers.com.au/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://thesearchers.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 20,
+        "accepted": 8,
+        "excluded": 12,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://thesearchers.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://thesearchers.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://thesearchers.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://thesearchers.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://thesearchers.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://thesearchers.com.au/products.json?limit=20&page=1",
+      "score": 185,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://thesearchers.com.au/products.json?limit=20&page=1",
+  "listing_sample": 18,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 18,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://thesearchers.com.au/products/stone-temple-pilots-purple-lp-album-re-182?variant=50982992904289",
+      "artist": "Stone Temple Pilots",
+      "title": "Purple (LP, Album, RE, 180)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "60.00",
+      "currency": "AUD",
+      "valid_eans": [
+        "00603497845743"
+      ],
+      "condition_basis": "used_or_grading_signal"
+    },
+    {
+      "url": "https://thesearchers.com.au/products/the-postal-service-give-up-lp-album?variant=50983914471521",
+      "artist": "The Postal Service",
+      "title": "Give Up (LP, Album)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "50.00",
+      "currency": "AUD",
+      "valid_eans": [
+        "00098787059519"
+      ],
+      "condition_basis": "used_or_grading_signal"
+    },
+    {
+      "url": "https://thesearchers.com.au/products/a-s-o-a-s-o-lp-rp?variant=50993095704673",
+      "artist": "a.s.o.",
+      "title": "a.s.o (LP, RP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "40.00",
+      "currency": "AUD",
+      "valid_eans": [
+        "04070209021782"
+      ],
+      "condition_basis": "used_or_grading_signal"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://thesearchers.com.au/robots.txt",
+      "sha256": "4e047eea02bbc9c42651b87e99c327b4c3339542bf78d37fed9807a3313595da"
+    },
+    {
+      "url": "https://thesearchers.com.au/",
+      "sha256": "d46d487a6d72158dbc05d87cbf1b1fcaeea2c38e0aa36d3baf7f46c2a1c6bff0"
+    },
+    {
+      "url": "https://thesearchers.com.au/products.json?limit=20&page=1",
+      "sha256": "f973a3ad217d652afdad2b4a1f072babdc84f909d9f18b491fb75f05538572bb"
+    },
+    {
+      "url": "https://thesearchers.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "c5fe988db8da54ad38a32e54bd53bdeba06e3d221c702c9a458e5af796c3bff1"
+    },
+    {
+      "url": "https://thesearchers.com.au/products/a-s-o-a-s-o-lp-rp",
+      "sha256": "242328b4f475a55855a01bea745edab08efaf125c3e1e739ae3134db611eeccf"
+    },
+    {
+      "url": "https://thesearchers.com.au/products/wilson-tanner-ii-lp-album-1",
+      "sha256": "36dd89bfca14154d3bb612e7dc0912b888db0e93fdc8c686f697b0ae0660d639"
+    },
+    {
+      "url": "https://thesearchers.com.au/products/stone-temple-pilots-purple-lp-album-re-182?variant=50982992904289",
+      "sha256": "2ef8165545373f1203e38256339a44e895d031b6db85726ebdf6df27af13b2ca"
+    },
+    {
+      "url": "https://thesearchers.com.au/products/the-postal-service-give-up-lp-album?variant=50983914471521",
+      "sha256": "b6e51894e7b85c6adedf67b01d4fa0b2e7e8b5b4915db6fd8ce282a8cbef3dc3"
+    },
+    {
+      "url": "https://thesearchers.com.au/products/a-s-o-a-s-o-lp-rp?variant=50993095704673",
+      "sha256": "db78f765bfc7cdbb374b9da898afc38e0b8c1c1706f19ffdfc10ba86c49cb996"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:new_used_distinguishable"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://thesearchers.com.au/products/stone-temple-pilots-purple-lp-album-re-182?variant=50982992904289",
+    "https://thesearchers.com.au/products/the-postal-service-give-up-lp-album?variant=50983914471521",
+    "https://thesearchers.com.au/products/a-s-o-a-s-o-lp-rp?variant=50993095704673"
+  ],
+  "assessment_id": "v2-45073699532-1",
+  "queue_rows": [
+    3519
+  ],
+  "assessment_path": "assessments/v2/thesearchers_com_au/v2-45073699532-1.json"
+}
