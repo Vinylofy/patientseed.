@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T14:36:05.180462+00:00",
+  "shop_id": "peninsularecordsandbooks.com",
+  "row": 3540,
+  "name": "Peninsula Records and Books",
+  "domain": "peninsularecordsandbooks.com",
+  "country": null,
+  "website": "https://peninsularecordsandbooks.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3540,
+    "name": "Peninsula Records and Books",
+    "domain": "peninsularecordsandbooks.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://peninsularecordsandbooks.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 6,
+    "excluded": 14,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://peninsularecordsandbooks.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://peninsularecordsandbooks.com/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://peninsularecordsandbooks.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://peninsularecordsandbooks.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://peninsularecordsandbooks.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://peninsularecordsandbooks.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://peninsularecordsandbooks.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://peninsularecordsandbooks.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://peninsularecordsandbooks.com/products.json?limit=20&page=1",
+      "score": 65,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://peninsularecordsandbooks.com/products.json?limit=20&page=1",
+  "listing_sample": 6,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 6,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://peninsularecordsandbooks.com/products/spacey-jane-exit-wounds-red-black-marble-vinyl-lp?variant=68364642910445",
+      "artist": "Spacey Jane",
+      "title": "Exit Wounds (Red/Black Marble Vinyl LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "55.00",
+      "currency": "AUD",
+      "valid_eans": [
+        "00880728240960"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://peninsularecordsandbooks.com/products/the-rolling-stones-exile-on-main-st?variant=68331015176429",
+      "artist": "The Rolling Stones",
+      "title": "Exile on Main St. (180g Vinyl 2LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "87.00",
+      "currency": "AUD",
+      "valid_eans": [
+        "00602527142869"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://peninsularecordsandbooks.com/products/eurythmics-be-yourself-tonight-limited-edition-picture-disc-lp?variant=68435104661741",
+      "artist": "Eurythmics",
+      "title": "Be Yourself Tonight (Limited Edition Picture Disc LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "75.00",
+      "currency": "AUD",
+      "valid_eans": [
+        "00194397933611"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://peninsularecordsandbooks.com/robots.txt",
+      "sha256": "6058fcbf5bbe87911ddaf608d7be3bba7d5254d61a66eeaf43fbbb09326a95e2"
+    },
+    {
+      "url": "https://peninsularecordsandbooks.com/",
+      "sha256": "1b03a0c6f5c88377c9d670904809785d5d5bb03e75c8a88e3c42cafa0ac2cdfb"
+    },
+    {
+      "url": "https://peninsularecordsandbooks.com/products.json?limit=20&page=1",
+      "sha256": "a0839c6ef9aef19bc7a9526f3c64205ef24af06501989aca019c26bae49517e7"
+    },
+    {
+      "url": "https://peninsularecordsandbooks.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "bc93e18263ff42647adc2ecd4d4c05b8c9424efb60d46d76ec238b4c60ce3aa2"
+    },
+    {
+      "url": "https://peninsularecordsandbooks.com/products/eurythmics-be-yourself-tonight-limited-edition-picture-disc-lp",
+      "sha256": "21322cba7dd86e0d3f3f8c4fbc08364221a62ff66688b90dec4dc2b2c6b9e2f1"
+    },
+    {
+      "url": "https://peninsularecordsandbooks.com/products/van-morrison-new-arrangements-and-duets-vinyl-2lp",
+      "sha256": "73dec60af5338e2f9cd00beafa5f877f199ce629745194b6c7308c9eed1a7c27"
+    },
+    {
+      "url": "https://peninsularecordsandbooks.com/products/spacey-jane-exit-wounds-red-black-marble-vinyl-lp?variant=68364642910445",
+      "sha256": "31784f6a98c1acd5e161a81dcfa7e8cefbb3def0b09335a943bf0a4003b5d1f0"
+    },
+    {
+      "url": "https://peninsularecordsandbooks.com/products/the-rolling-stones-exile-on-main-st?variant=68331015176429",
+      "sha256": "f06aa638334c1f5567512474c00c8db3bf2ced39c48c100caa572f1f9ac33d91"
+    },
+    {
+      "url": "https://peninsularecordsandbooks.com/products/eurythmics-be-yourself-tonight-limited-edition-picture-disc-lp?variant=68435104661741",
+      "sha256": "e4280d14b00769a271748cb83e4169c9c6c2b4007dbb536a159075951d11ebb1"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": true,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://peninsularecordsandbooks.com/products/spacey-jane-exit-wounds-red-black-marble-vinyl-lp?variant=68364642910445",
+    "https://peninsularecordsandbooks.com/products/the-rolling-stones-exile-on-main-st?variant=68331015176429",
+    "https://peninsularecordsandbooks.com/products/eurythmics-be-yourself-tonight-limited-edition-picture-disc-lp?variant=68435104661741"
+  ],
+  "assessment_id": "v2-45033003470-1",
+  "queue_rows": [
+    3540
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 6,
+  "candidate_ref": "v2-45033003470-1/peninsularecordsandbooks_com",
+  "assessment_path": "assessments/v2/peninsularecordsandbooks_com/v2-45033003470-1.json"
+}
