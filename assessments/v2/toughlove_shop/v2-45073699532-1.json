@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T21:58:43.943716+00:00",
+  "shop_id": "toughlove.shop",
+  "row": 4799,
+  "name": "Tough Love St Leonards",
+  "domain": "toughlove.shop",
+  "country": null,
+  "website": "https://toughlove.shop/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4799,
+    "name": "Tough Love St Leonards",
+    "domain": "toughlove.shop",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://toughlove.shop/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 18,
+    "excluded": 2,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://toughlove.shop/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://toughlove.shop/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://toughlove.shop/collections/all/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://toughlove.shop/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://toughlove.shop/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://toughlove.shop/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://toughlove.shop/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://toughlove.shop/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://toughlove.shop/products.json?limit=20&page=1",
+      "score": 185,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://toughlove.shop/products.json?limit=20&page=1",
+  "listing_sample": 18,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 18,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://toughlove.shop/robots.txt",
+      "sha256": "ed983f2858d5802400a9a5dfe9bace95365644ceac4089731b4c7879b0eaebbe"
+    },
+    {
+      "url": "https://toughlove.shop/",
+      "sha256": "e717b4ffbb00ca2d275f3fec30eb00ce930945b76eabcc4633e6580f1b86f4a8"
+    },
+    {
+      "url": "https://toughlove.shop/products.json?limit=20&page=1",
+      "sha256": "66692ac57d2955397ed036729bf6702a42b51fcf9620e83ddd889370327c94a4"
+    },
+    {
+      "url": "https://toughlove.shop/collections/all/products.json?limit=20&page=1",
+      "sha256": "13a5067ee7eea9164e97ec2d4269731ff9fd3668c73a974c3cc5d9b45ea052bc"
+    },
+    {
+      "url": "https://toughlove.shop/products/king-gizzard-the-lizard-wizard-expand-your-mind-songs-in-3d-deluxe-edition-rsd-black-friday-2026",
+      "sha256": "02302d528b0a55bc95a758f14c97caf1af6f632f93158d4755ee01bd425833de"
+    },
+    {
+      "url": "https://toughlove.shop/products/poison-idea-pick-your-king-rsd-black-friday-2026",
+      "sha256": "f277744493caf3da93c372fea9a6f28ce7de300b26ad54e78f6017de59aa5c00"
+    },
+    {
+      "url": "https://toughlove.shop/products/motorhead-the-lost-tapes-vol-8-live-at-margate-rsd-black-friday-2026?variant=68079172321510",
+      "sha256": "d0c15715f9cef1fc0d91ca0f488182d56a07901e5de13a5c38771d1b16e2d3df"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.05555555555555555,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45073699532-1",
+  "queue_rows": [
+    4799
+  ],
+  "assessment_path": "assessments/v2/toughlove_shop/v2-45073699532-1.json"
+}
