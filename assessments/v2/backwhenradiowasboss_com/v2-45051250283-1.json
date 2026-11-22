@@ -1,0 +1,161 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T18:07:35.040091+00:00",
+  "shop_id": "backwhenradiowasboss.com",
+  "row": 5085,
+  "name": "Royal Reels 25 Casino Australia",
+  "domain": "backwhenradiowasboss.com",
+  "country": null,
+  "website": "https://backwhenradiowasboss.com/",
+  "previous_status": "ROUTE_REVIEW",
+  "previous_reason": "no public catalog route passed an adapter contract",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 5085,
+    "name": "Royal Reels 25 Casino Australia",
+    "domain": "backwhenradiowasboss.com",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://backwhenradiowasboss.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://backwhenradiowasboss.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://backwhenradiowasboss.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://backwhenradiowasboss.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://backwhenradiowasboss.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://backwhenradiowasboss.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://backwhenradiowasboss.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://backwhenradiowasboss.com/robots.txt",
+      "sha256": "2565b72a0e25c0115372c18fa0722b9d74583699ec5b43fd6871869f09e91f6b"
+    },
+    {
+      "url": "https://backwhenradiowasboss.com/",
+      "sha256": "cbb401b84fef93f64745fb4429852d14d38ab9892fcb635efd984704347fcba5"
+    },
+    {
+      "url": "https://backwhenradiowasboss.com/products.json?limit=20&page=1",
+      "sha256": "4aaa93df8e7baabb7b7153c85056cf6cd6915646133588a2ab89349a7f298097"
+    },
+    {
+      "url": "https://backwhenradiowasboss.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "5df78e66c977282ffa7186c7abcacf24f8447f9a9b20aa90fbc101939c17f6ee"
+    },
+    {
+      "url": "https://backwhenradiowasboss.com/api/0.1/collections/products?format=json",
+      "sha256": "39847ec273cdfcafcca716f50716b4629f6c20730069569584872583d56a503c"
+    },
+    {
+      "url": "https://backwhenradiowasboss.com/api/0.1/collections/all/products?format=json",
+      "sha256": "4d780c5d4040d2e652cbd683a06138fb1ef609b9f7bdbd518e78c1adcfb0fe71"
+    },
+    {
+      "url": "https://backwhenradiowasboss.com/api/storefront/products?limit=20&offset=0",
+      "sha256": "6b2c913d9f35079213be1c0cd0abb319a1ed2b920320cd36a29993072f36c289"
+    },
+    {
+      "url": "https://backwhenradiowasboss.com/api/storefront/products?limit=20",
+      "sha256": "0262a51ad98d9499a3b40a6ce6048c4bf0c975b5030a73646605eb0429db2909"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-45051250283-1",
+  "queue_rows": [
+    5085
+  ],
+  "assessment_path": "assessments/v2/backwhenradiowasboss_com/v2-45051250283-1.json"
+}
