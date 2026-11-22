@@ -1,0 +1,196 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T20:42:04.110055+00:00",
+  "shop_id": "soundrecords.im",
+  "row": 3470,
+  "name": "Soundrecords",
+  "domain": "soundrecords.im",
+  "country": null,
+  "website": "https://soundrecords.im/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3470,
+    "name": "Soundrecords",
+    "domain": "soundrecords.im",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://soundrecords.im/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://soundrecords.im/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://soundrecords.im/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://soundrecords.im/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://soundrecords.im/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://soundrecords.im/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://soundrecords.im/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://soundrecords.im/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://soundrecords.im/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://soundrecords.im/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://soundrecords.im/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 14,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://soundrecords.im/robots.txt",
+      "sha256": "bbaafe2c0dc8c9277fd1b25eab07093ff9880571129e2f4a9168c68493079b83"
+    },
+    {
+      "url": "https://soundrecords.im/",
+      "sha256": "f860a90d6e977b02b514a530ce890d56b34243e369af54de21200354991dc18f"
+    },
+    {
+      "url": "https://soundrecords.im/products.json?limit=20&page=1",
+      "sha256": "32a5d8134f21adfdbdf635cd8858ff27e2f4b9ece9cc0f34f5679a179ad50d95"
+    },
+    {
+      "url": "https://soundrecords.im/collections/all/products.json?limit=20&page=1",
+      "sha256": "4af353ff4806b7f3f4c1f57e9d315a0ee9e9d3249c70b98ed394623fe060ceb0"
+    },
+    {
+      "url": "https://soundrecords.im/products/suzi-quatro-freedom",
+      "sha256": "3bfd29fd97c2de64548fc19f37924bf0ab6effeb805e1b88ffbf8c4062a8f802"
+    },
+    {
+      "url": "https://soundrecords.im/products/the-beths-expert-in-a-dying-field",
+      "sha256": "96016eccfca66963009974a334c2f059d3560118b084c0da7e9328beae343a7c"
+    },
+    {
+      "url": "https://soundrecords.im/products/olivia-rodrigo-sour?variant=68275085017242",
+      "sha256": "324e3a848b1e1ec582b77c15274150076389205033d112f50767a3b6d53fb800"
+    },
+    {
+      "url": "https://soundrecords.im/products/various-artists-grand-theft-auto-vi-the-album?variant=68346243678362",
+      "sha256": "3f60950d9df1bc49f48fcb6682ef334ae7554b1b6e81ab4e12c1799635a5dbd0"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 1,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45067665621-1",
+  "queue_rows": [
+    3470
+  ],
+  "assessment_path": "assessments/v2/soundrecords_im/v2-45067665621-1.json"
+}
