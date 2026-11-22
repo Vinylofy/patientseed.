@@ -1,0 +1,165 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T14:36:46.497762+00:00",
+  "shop_id": "peterecords.com.au",
+  "row": 3591,
+  "name": "peterecords.com.au",
+  "domain": "peterecords.com.au",
+  "country": null,
+  "website": "https://peterecords.com.au/",
+  "previous_status": "SOURCE_BLOCKED",
+  "previous_reason": "Invalid public source",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3591,
+    "name": "peterecords.com.au",
+    "domain": "peterecords.com.au",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://peterecords.com.au/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://peterecords.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://peterecords.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://peterecords.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://peterecords.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://peterecords.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://peterecords.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://peterecords.com.au/robots.txt",
+      "sha256": "b06f37ed73f1e7e08e79cc4cafaa55cd8f23ea17129ba5ea1655c226864b1e92"
+    },
+    {
+      "url": "https://peterecords.com.au/",
+      "sha256": "58582c97eed2c01ff3978116b93a22858e061702df25d33c277104e7c24a5101"
+    },
+    {
+      "url": "https://peterecords.com.au/products.json?limit=20&page=1",
+      "sha256": "6c5a8bab12e4f916b8a38c70ff8879b9c958828a41279bbe38c99a2479aa2e7d"
+    },
+    {
+      "url": "https://peterecords.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "6219349d1628f61fa007a504d303042675379b27b54f826e22a2f1ca34016b5b"
+    },
+    {
+      "url": "https://peterecords.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "951de4c95f404998cb9edc2a20fc7a290ca9b2e46dda4c7f697cd3f5d2ed0f5c"
+    },
+    {
+      "url": "https://peterecords.com.au/api/0.1/collections/products?format=json",
+      "sha256": "f789c04d5afce227554afc013001d88f442f58be6e9e7b3ebb96425d44912f7b"
+    },
+    {
+      "url": "https://peterecords.com.au/api/0.1/collections/all/products?format=json",
+      "sha256": "0363f1e0260879d6e68f641892943e15d5744270ff2ef1f27e4f670b9315c4e6"
+    },
+    {
+      "url": "https://peterecords.com.au/api/storefront/products?limit=20&offset=0",
+      "sha256": "f223a9b51c6fda614eeec692d8a913a238aeec40817e179a2e33b24ca5a8b4d4"
+    },
+    {
+      "url": "https://peterecords.com.au/api/storefront/products?limit=20",
+      "sha256": "9cdf7dd77dc24622f585d71751f91140ec7a22bb5f8cccdb1fd5fc85c8798ae8"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-45033003470-1",
+  "queue_rows": [
+    3591
+  ],
+  "assessment_path": "assessments/v2/peterecords_com_au/v2-45033003470-1.json"
+}
