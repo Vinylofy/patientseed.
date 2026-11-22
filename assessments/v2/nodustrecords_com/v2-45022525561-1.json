@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T12:41:23.550327+00:00",
+  "shop_id": "nodustrecords.com",
+  "row": 4460,
+  "name": "No Dust Records",
+  "domain": "nodustrecords.com",
+  "country": null,
+  "website": "https://nodustrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4460,
+    "name": "No Dust Records",
+    "domain": "nodustrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://nodustrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 24,
+    "accepted": 20,
+    "excluded": 3,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://nodustrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://nodustrecords.com/products.json?limit=20&page=1",
+        "score": 215,
+        "products_seen": 24,
+        "accepted": 21,
+        "excluded": 3,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://nodustrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 23,
+        "accepted": 12,
+        "excluded": 11,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://nodustrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://nodustrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://nodustrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://nodustrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://nodustrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://nodustrecords.com/products.json?limit=20&page=1",
+      "score": 215,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://nodustrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://nodustrecords.com/robots.txt",
+      "sha256": "11c10b9006448287be0612e4e94a94649986c8f19a30e8ef65c187eb9b958f4b"
+    },
+    {
+      "url": "https://nodustrecords.com/",
+      "sha256": "c6a2f293c770d86a71d63bc1d8350111a77b025f626aff2ed5458262517703f9"
+    },
+    {
+      "url": "https://nodustrecords.com/products.json?limit=20&page=1",
+      "sha256": "8f763dbd209a769554e956f6f21018f466943c99ab974130bf357bbc15b6b44a"
+    },
+    {
+      "url": "https://nodustrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "4f012ebe17573b2c45395956dbe96a68040236cfbf62cb26e054ea982dd1299f"
+    },
+    {
+      "url": "https://nodustrecords.com/products/deaths-dawn-mordred-is-born-red-lp",
+      "sha256": "6122727a96914a07dcbf91f2a5f156fefbd8ecb8a7597d2281170d79e5543a39"
+    },
+    {
+      "url": "https://nodustrecords.com/products/xenophile-systematic-enslavement-vinyl",
+      "sha256": "bbbfe1f8659a9530a65f0b6e8af487b6040d31f4d59ad614baf59293d4c5f676"
+    },
+    {
+      "url": "https://nodustrecords.com/products/lovells-blade-stone-cold-steel-vinyl?variant=64777253421433",
+      "sha256": "0e7f7aa8eb460ca8571f15c0610f33473028082145978e3c6eecab0781375b19"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.95,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45022525561-1",
+  "queue_rows": [
+    4460
+  ],
+  "assessment_path": "assessments/v2/nodustrecords_com/v2-45022525561-1.json"
+}
