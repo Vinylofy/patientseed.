@@ -1,0 +1,188 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T20:40:04.787152+00:00",
+  "shop_id": "sound-knowledge.co.uk",
+  "row": 3399,
+  "name": "Sound Knowledge",
+  "domain": "sound-knowledge.co.uk",
+  "country": null,
+  "website": "https://sound-knowledge.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3399,
+    "name": "Sound Knowledge",
+    "domain": "sound-knowledge.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://sound-knowledge.co.uk/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 1,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://sound-knowledge.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://sound-knowledge.co.uk/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://sound-knowledge.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://sound-knowledge.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://sound-knowledge.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://sound-knowledge.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://sound-knowledge.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://sound-knowledge.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://sound-knowledge.co.uk/collections/all/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://sound-knowledge.co.uk/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://sound-knowledge.co.uk/robots.txt",
+      "sha256": "35b164959a0c79e6da647fd575d7409c1bf277e32d54e557246674c12405250c"
+    },
+    {
+      "url": "https://sound-knowledge.co.uk/",
+      "sha256": "be5043b94ed97bc2eb7038ef1d86a4343ea1bccceb1e0de45ad24ffc0f54db06"
+    },
+    {
+      "url": "https://sound-knowledge.co.uk/products.json?limit=20&page=1",
+      "sha256": "80aa79109879e1bb0f0a542925f82f0c86befcc08ce65dc9b9184bff4899f7dd"
+    },
+    {
+      "url": "https://sound-knowledge.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "af59d904f3da1fc411f73fffc2779890778f080bad972f6545674ed1693dbee4"
+    },
+    {
+      "url": "https://sound-knowledge.co.uk/products/abba-gold-2021-gold-vinyl",
+      "sha256": "51a54362bcb73ac2adf447282b8172e056101464d7ae048b0bac7926847fdaa9"
+    },
+    {
+      "url": "https://sound-knowledge.co.uk/products/abba-gold-2021-gold-vinyl?variant=39533145686202",
+      "sha256": "4c8f1291269a7e4e95082a64091a09e003207206611d42c9d98a2042e7c3a7d1"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45067665621-1",
+  "queue_rows": [
+    3399
+  ],
+  "assessment_path": "assessments/v2/sound_knowledge_co_uk/v2-45067665621-1.json"
+}
