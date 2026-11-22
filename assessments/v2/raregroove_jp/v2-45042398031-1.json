@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T16:27:47.281793+00:00",
+  "shop_id": "raregroove.jp",
+  "row": 4305,
+  "name": "RECORD SHOP rare groove",
+  "domain": "raregroove.jp",
+  "country": null,
+  "website": "https://raregroove.jp/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4305,
+    "name": "RECORD SHOP rare groove",
+    "domain": "raregroove.jp",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://raregroove.jp/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 16,
+    "excluded": 4,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "JPY",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://raregroove.jp/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://raregroove.jp/products.json?limit=20&page=1",
+        "score": 165,
+        "products_seen": 20,
+        "accepted": 16,
+        "excluded": 4,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://raregroove.jp/collections/all/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://raregroove.jp/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://raregroove.jp/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://raregroove.jp/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://raregroove.jp/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://raregroove.jp/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://raregroove.jp/products.json?limit=20&page=1",
+      "score": 165,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://raregroove.jp/products.json?limit=20&page=1",
+  "listing_sample": 16,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 16,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "JPY"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://raregroove.jp/products/jubilant-sykes-the-number-of-the-lord-1?variant=49374767874270",
+      "artist": "",
+      "title": "Jubilant Sykes / The Number Of The Lord",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "1980.00",
+      "currency": "JPY",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://raregroove.jp/products/michael-card-scandalon?variant=49374847271134",
+      "artist": "",
+      "title": "Michael Card / Scandalon",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "2200.00",
+      "currency": "JPY",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://raregroove.jp/products/benny-hester-nobody-knows-me-like-you?variant=49374987747550",
+      "artist": "",
+      "title": "Benny Hester / Nobody Knows Me Like You",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "2530.00",
+      "currency": "JPY",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://raregroove.jp/robots.txt",
+      "sha256": "7385990917bba336d6aff5961e1a11ebbe3a2de9ea0b73381a6cd1530ecfac19"
+    },
+    {
+      "url": "https://raregroove.jp/",
+      "sha256": "1f049fd873632412f2bc77af4ca66f82dfc2e85555c18f6105c7d31ea7554eea"
+    },
+    {
+      "url": "https://raregroove.jp/products.json?limit=20&page=1",
+      "sha256": "23d5582f11c98ddb7d0978fcdafeb583f5934a6515aed9a6cc1bb67f3e53f268"
+    },
+    {
+      "url": "https://raregroove.jp/collections/all/products.json?limit=20&page=1",
+      "sha256": "84cea76287abe435c9b054cf3c21e1dba2d0a476d37bf4923c784dea93d44eb6"
+    },
+    {
+      "url": "https://raregroove.jp/products/benny-hester-nobody-knows-me-like-you",
+      "sha256": "2a8661a1a91b19eaebf7cd72011779cd30df9bbf8cfde1296cc28ce1c910cf96"
+    },
+    {
+      "url": "https://raregroove.jp/products/steve-archer-through-his-eyes",
+      "sha256": "58d7a3a15c41aced49c1737a808e46d85c999403f37ebe15180cb2c767824790"
+    },
+    {
+      "url": "https://raregroove.jp/products/jubilant-sykes-the-number-of-the-lord-1?variant=49374767874270",
+      "sha256": "c512cb6f4b9743034c124db07d6bc97a53cb668c1c76608b0201259ca6903a69"
+    },
+    {
+      "url": "https://raregroove.jp/products/michael-card-scandalon?variant=49374847271134",
+      "sha256": "e662b394362751b6b756c558ae73a03688d2b00d56b141cda8486f31602a6802"
+    },
+    {
+      "url": "https://raregroove.jp/products/benny-hester-nobody-knows-me-like-you?variant=49374987747550",
+      "sha256": "d00b7d7ac34da8b38eb940952d7e06359f8229cdf9e6d2560417d1f74d439006"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://raregroove.jp/products/jubilant-sykes-the-number-of-the-lord-1?variant=49374767874270",
+    "https://raregroove.jp/products/michael-card-scandalon?variant=49374847271134",
+    "https://raregroove.jp/products/benny-hester-nobody-knows-me-like-you?variant=49374987747550"
+  ],
+  "assessment_id": "v2-45042398031-1",
+  "queue_rows": [
+    4305
+  ],
+  "assessment_path": "assessments/v2/raregroove_jp/v2-45042398031-1.json"
+}
