@@ -1,0 +1,202 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T16:17:53.868099+00:00",
+  "shop_id": "puscifer.com",
+  "row": 4955,
+  "name": "Puscifer Entertainment",
+  "domain": "puscifer.com",
+  "country": null,
+  "website": "https://puscifer.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4955,
+    "name": "Puscifer Entertainment",
+    "domain": "puscifer.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://puscifer.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 1,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://puscifer.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://puscifer.com/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://puscifer.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://puscifer.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://puscifer.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://puscifer.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://puscifer.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://puscifer.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://puscifer.com/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://puscifer.com/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://puscifer.com/products/puscifer-self-evident-7?variant=54784463307043",
+      "artist": "Puscifer",
+      "title": "Self Evident 7\" vinyl",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "15.00",
+      "currency": "USD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://puscifer.com/robots.txt",
+      "sha256": "0236965e887f76328cf661cec2b99185958551941bd99ceab01d8c7cec47b512"
+    },
+    {
+      "url": "https://puscifer.com/",
+      "sha256": "e38f21a92ad3bc8ec9c0e91b30937cb4a634d55c0b1df820d20b105b0fe22396"
+    },
+    {
+      "url": "https://puscifer.com/products.json?limit=20&page=1",
+      "sha256": "efbb8e1760a65e8e0fc7de51ef05e0744b6ef97d163c76b6352f06e8f329dfe5"
+    },
+    {
+      "url": "https://puscifer.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "32211e4d165c39e1ee56444d54ee8450feff8d9f62346aea46acf0d30788127b"
+    },
+    {
+      "url": "https://puscifer.com/products/puscifer-self-evident-7",
+      "sha256": "760e498c9b85d2842340bfe00fcc9879e25e983ff61066f99990ed5d8ea634d4"
+    },
+    {
+      "url": "https://puscifer.com/products/puscifer-self-evident-7?variant=54784463307043",
+      "sha256": "a9ee12765f5978ca31e20f8979fd6d1b30be83703187849cf6835f8b78b9d566"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "insufficient_representative_product_evidence"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 0,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://puscifer.com/products/puscifer-self-evident-7?variant=54784463307043"
+  ],
+  "assessment_id": "v2-45042398031-1",
+  "queue_rows": [
+    4955
+  ],
+  "assessment_path": "assessments/v2/puscifer_com/v2-45042398031-1.json"
+}
