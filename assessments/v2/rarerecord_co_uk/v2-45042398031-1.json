@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T16:21:17.986548+00:00",
+  "shop_id": "rarerecord.co.uk",
+  "row": 4725,
+  "name": "Rare Record Company",
+  "domain": "rarerecord.co.uk",
+  "country": null,
+  "website": "https://rarerecord.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4725,
+    "name": "Rare Record Company",
+    "domain": "rarerecord.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://rarerecord.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 19,
+    "accepted": 18,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://rarerecord.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://rarerecord.co.uk/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 19,
+        "accepted": 18,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://rarerecord.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 35,
+        "products_seen": 20,
+        "accepted": 3,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://rarerecord.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rarerecord.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rarerecord.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rarerecord.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rarerecord.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://rarerecord.co.uk/products.json?limit=20&page=1",
+      "score": 185,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://rarerecord.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 18,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 18,
+    "unique_prices": 2,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://rarerecord.co.uk/products/deodato-also-sprach-zarathustra-2001-spirit-of-summer-7-inch-vinyl?variant=59470754382159",
+      "artist": "Deodato",
+      "title": "Also Sprach Zarathustra (2001) / Spirit Of Summer (7\" Single)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "5.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://rarerecord.co.uk/products/racing-cars-they-shoot-horses-dont-they-four-wheel-drive-7-inch-single?variant=59547554480463",
+      "artist": "Racing Cars",
+      "title": "They Shoot Horses Don't They? / Four Wheel Drive (7\" Single)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "5.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://rarerecord.co.uk/products/terry-jack-if-you-go-away-me-and-you-7-inch-single?variant=59596197200207",
+      "artist": "Terry Jacks",
+      "title": "If You Go Away / Me And You (7\" Single)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "5.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://rarerecord.co.uk/robots.txt",
+      "sha256": "7361da0a6a5d82cde4ab35ec05e11683dbfd6a0150b2806993ffab0074f40e78"
+    },
+    {
+      "url": "https://rarerecord.co.uk/",
+      "sha256": "8d74a4091d50e92902e9d0123b00841f9c5f247c969d43b141a58c25aaccf7f4"
+    },
+    {
+      "url": "https://rarerecord.co.uk/products.json?limit=20&page=1",
+      "sha256": "17624f889062e99015794b88fc968ef582182d473b5e93f3e043b9e4adbcb5f3"
+    },
+    {
+      "url": "https://rarerecord.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "b8ba15e8703db73abaed4790638287816e177f55663aa67d7a80509775b2bf93"
+    },
+    {
+      "url": "https://rarerecord.co.uk/products/terry-jack-if-you-go-away-me-and-you-7-inch-single",
+      "sha256": "76516cffdf8504ea55c96c19ced8175f006e4be4357186a121c03d3f4768d279"
+    },
+    {
+      "url": "https://rarerecord.co.uk/products/brotherhood-of-man-save-your-kisses-for-me-lets-love-together-7-inch-single",
+      "sha256": "292e2ad4888504bb5dc33cd82e5946195d9f0c2a52bf90539c66ef56fc8c6637"
+    },
+    {
+      "url": "https://rarerecord.co.uk/products/deodato-also-sprach-zarathustra-2001-spirit-of-summer-7-inch-vinyl?variant=59470754382159",
+      "sha256": "daa87e8cc85c3d6766e9dc8cb8c20afd98ac1da2364c2c8630f50981ed529c46"
+    },
+    {
+      "url": "https://rarerecord.co.uk/products/racing-cars-they-shoot-horses-dont-they-four-wheel-drive-7-inch-single?variant=59547554480463",
+      "sha256": "fdaa543caeb5a6b2085c427db36d99b6c679b415c0abdcd4afd845a4ec27ecd9"
+    },
+    {
+      "url": "https://rarerecord.co.uk/products/terry-jack-if-you-go-away-me-and-you-7-inch-single?variant=59596197200207",
+      "sha256": "5345b3c9509f2962d680b45eb935edd48d7a845d516c73861fe2983391adb1a8"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://rarerecord.co.uk/products/deodato-also-sprach-zarathustra-2001-spirit-of-summer-7-inch-vinyl?variant=59470754382159",
+    "https://rarerecord.co.uk/products/racing-cars-they-shoot-horses-dont-they-four-wheel-drive-7-inch-single?variant=59547554480463",
+    "https://rarerecord.co.uk/products/terry-jack-if-you-go-away-me-and-you-7-inch-single?variant=59596197200207"
+  ],
+  "assessment_id": "v2-45042398031-1",
+  "queue_rows": [
+    4725
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 18,
+  "candidate_ref": "v2-45042398031-1/rarerecord_co_uk",
+  "assessment_path": "assessments/v2/rarerecord_co_uk/v2-45042398031-1.json"
+}
