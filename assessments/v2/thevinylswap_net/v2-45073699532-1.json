@@ -1,0 +1,204 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T21:52:20.573859+00:00",
+  "shop_id": "thevinylswap.net",
+  "row": 5014,
+  "name": "The Vinyl Swap",
+  "domain": "thevinylswap.net",
+  "country": null,
+  "website": "https://thevinylswap.net/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 5014,
+    "name": "The Vinyl Swap",
+    "domain": "thevinylswap.net",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://thevinylswap.net/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 1,
+    "excluded": 19,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://thevinylswap.net/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://thevinylswap.net/products.json?limit=20&page=1",
+        "score": 15,
+        "products_seen": 20,
+        "accepted": 1,
+        "excluded": 19,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://thevinylswap.net/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://thevinylswap.net/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://thevinylswap.net/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://thevinylswap.net/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://thevinylswap.net/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://thevinylswap.net/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://thevinylswap.net/products.json?limit=20&page=1",
+      "score": 15,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 1,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://thevinylswap.net/products.json?limit=20&page=1",
+  "listing_sample": 1,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 1,
+    "unique_prices": 1,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://thevinylswap.net/products/youtooz-17-breaking-bad-underwear-walt-walter-white-vinyl-figure?variant=68183669932324",
+      "artist": "",
+      "title": "Youtooz #17 Breaking Bad UNDERWEAR WALT Walter White Vinyl Figure",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "30.00",
+      "currency": "USD",
+      "valid_eans": [
+        "00810190430019"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://thevinylswap.net/robots.txt",
+      "sha256": "deeee411adeef1a889ab4ff1aa09e6a8f2cf3a253c5502517030aaf9482c75a5"
+    },
+    {
+      "url": "https://thevinylswap.net/",
+      "sha256": "0c762bd7b420e25e5d2c39aaa6ecf9429f9430b051531c8398a1ae140459b6c7"
+    },
+    {
+      "url": "https://thevinylswap.net/products.json?limit=20&page=1",
+      "sha256": "318cbee54a497ed04ea39fe99a1d00a12c6a2451329b3f336a4f7c3884458733"
+    },
+    {
+      "url": "https://thevinylswap.net/collections/all/products.json?limit=20&page=1",
+      "sha256": "d976b752f9e664fa9db17b0701ab396c62daa45c5f9d0156f46eac50936ae71b"
+    },
+    {
+      "url": "https://thevinylswap.net/products/youtooz-17-breaking-bad-underwear-walt-walter-white-vinyl-figure",
+      "sha256": "2407765648c9ab9916be47c8f691bcbec837b541c0d16c4767d98dc2f975a43b"
+    },
+    {
+      "url": "https://thevinylswap.net/products/youtooz-17-breaking-bad-underwear-walt-walter-white-vinyl-figure?variant=68183669932324",
+      "sha256": "586fc7c03e3e68a1659ede6fb3509b679b66fb9d71e6783475ecd3d987597478"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "insufficient_representative_product_evidence"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 1,
+    "detail_price_proven": 1,
+    "ean_valid": 1,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://thevinylswap.net/products/youtooz-17-breaking-bad-underwear-walt-walter-white-vinyl-figure?variant=68183669932324"
+  ],
+  "assessment_id": "v2-45073699532-1",
+  "queue_rows": [
+    5014
+  ],
+  "assessment_path": "assessments/v2/thevinylswap_net/v2-45073699532-1.json"
+}
