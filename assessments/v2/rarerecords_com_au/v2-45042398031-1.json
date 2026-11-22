@@ -1,0 +1,242 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T16:21:31.407976+00:00",
+  "shop_id": "rarerecords.com.au",
+  "row": 3535,
+  "name": "Rare Records",
+  "domain": "rarerecords.com.au",
+  "country": null,
+  "website": "https://rarerecords.com.au/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3535,
+    "name": "Rare Records",
+    "domain": "rarerecords.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://rarerecords.com.au/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://rarerecords.com.au/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://rarerecords.com.au/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://rarerecords.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 20,
+        "accepted": 4,
+        "excluded": 16,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://rarerecords.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rarerecords.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rarerecords.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rarerecords.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rarerecords.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://rarerecords.com.au/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://rarerecords.com.au/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://rarerecords.com.au/products/the-resistance-4?variant=43472481747195",
+      "artist": "",
+      "title": "The Resistance",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "69.99",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://rarerecords.com.au/products/because-of-the-times-1?variant=68617680257275",
+      "artist": "",
+      "title": "Because Of The Times",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "69.99",
+      "currency": "AUD",
+      "valid_eans": [
+        "00886979854710"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://rarerecords.com.au/products/jagged-little-pill-4?variant=68617390391547",
+      "artist": "",
+      "title": "Jagged Little Pill",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "59.99",
+      "currency": "AUD",
+      "valid_eans": [
+        "00081227907396"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://rarerecords.com.au/robots.txt",
+      "sha256": "a3168e7f1a35896dcfdbd192f6c17d62e5869c1247506c7a747d7f959901a643"
+    },
+    {
+      "url": "https://rarerecords.com.au/",
+      "sha256": "eb4adda482897fad1740f4dd5f0636dda480eb256d6297b5b665dc224dbc041c"
+    },
+    {
+      "url": "https://rarerecords.com.au/products.json?limit=20&page=1",
+      "sha256": "237899690fd1805d5db64af539ce31989eb82a2243bf4f0c42d481b8e4c750ee"
+    },
+    {
+      "url": "https://rarerecords.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "48c03ffd746aca138adbeee1c07ba09e83fae1b09e5632cf6c28b2d70496aee6"
+    },
+    {
+      "url": "https://rarerecords.com.au/products/jagged-little-pill-4",
+      "sha256": "f3856e853ed4e12bae814cb2a553aa1289d19893a93ff70c08f3d3dc985fbbc2"
+    },
+    {
+      "url": "https://rarerecords.com.au/products/incesticide-5",
+      "sha256": "26e35c68ce60b48a163eee31f45f11796026a4f1f11e39443bd659b335c51c4d"
+    },
+    {
+      "url": "https://rarerecords.com.au/products/the-resistance-4?variant=43472481747195",
+      "sha256": "0f47c8d310f85374feff46e865a6d731a018da88b16cc4dbc7644fa653374b24"
+    },
+    {
+      "url": "https://rarerecords.com.au/products/because-of-the-times-1?variant=68617680257275",
+      "sha256": "121ca22bb7b09fb3e3c7076ed22bd099f45cdc3773096544d32aba2cb0c30a7b"
+    },
+    {
+      "url": "https://rarerecords.com.au/products/jagged-little-pill-4?variant=68617390391547",
+      "sha256": "b62be54e7fca60cc1ccf0300e6b24f63dd87d63ee9badff6ece974af13e72401"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 2,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://rarerecords.com.au/products/the-resistance-4?variant=43472481747195",
+    "https://rarerecords.com.au/products/because-of-the-times-1?variant=68617680257275",
+    "https://rarerecords.com.au/products/jagged-little-pill-4?variant=68617390391547"
+  ],
+  "assessment_id": "v2-45042398031-1",
+  "queue_rows": [
+    3535
+  ],
+  "assessment_path": "assessments/v2/rarerecords_com_au/v2-45042398031-1.json"
+}
