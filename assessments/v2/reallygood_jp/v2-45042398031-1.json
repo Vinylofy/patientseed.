@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T16:24:08.309281+00:00",
+  "shop_id": "reallygood.jp",
+  "row": 4299,
+  "name": "REALLY GOOD",
+  "domain": "reallygood.jp",
+  "country": null,
+  "website": "https://reallygood.jp/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4299,
+    "name": "REALLY GOOD",
+    "domain": "reallygood.jp",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://reallygood.jp/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "JPY",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://reallygood.jp/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://reallygood.jp/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://reallygood.jp/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://reallygood.jp/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://reallygood.jp/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://reallygood.jp/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://reallygood.jp/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://reallygood.jp/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://reallygood.jp/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://reallygood.jp/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "JPY"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://reallygood.jp/products/517966?variant=68299602198829",
+      "artist": "",
+      "title": "LP/ GARY PEACOCK / TALES OF ANOTHER / ゲイリー・ピーコック / 国内盤 帯・ライナー ECM",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "2400.00",
+      "currency": "JPY",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://reallygood.jp/products/517905?variant=68299602624813",
+      "artist": "",
+      "title": "LP/ MILT JACKSON / PLENTY, PLENTY SOUL / ミルト・ジャクソン / US盤 青緑ラベル CS ATLANTIC",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "1800.00",
+      "currency": "JPY",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://reallygood.jp/products/516898?variant=68301364953389",
+      "artist": "",
+      "title": "LP/ MCCOY TYNER / TRIDENT / マッコイ・タイナー / 国内盤 帯・ライナー MILESTONE",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "1200.00",
+      "currency": "JPY",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://reallygood.jp/robots.txt",
+      "sha256": "29497acd6d956200e1689fe0256f8337a3c47bdcdfae5732018db036b8ec25aa"
+    },
+    {
+      "url": "https://reallygood.jp/",
+      "sha256": "4a7c97ec563d9c9bab14e226213944921d558e10860fcbf3a1c1de2a2325c02e"
+    },
+    {
+      "url": "https://reallygood.jp/products.json?limit=20&page=1",
+      "sha256": "949772de48ca91dc9ceaf8551629edd6aa7f865796c50a889e5add25f1341947"
+    },
+    {
+      "url": "https://reallygood.jp/collections/all/products.json?limit=20&page=1",
+      "sha256": "bf08725eb4e266ccf354ad5aa46dab8e8b10de1ed3ed5597995673f8bdb85268"
+    },
+    {
+      "url": "https://reallygood.jp/products/516898",
+      "sha256": "babf9c501331a4cf588020d87d3e46374cecdeb34c071ee9c638ba1b264c9b87"
+    },
+    {
+      "url": "https://reallygood.jp/products/516899",
+      "sha256": "f86425be592e9bc34541240593b05fb49824f66a9767f0b0502bbfebdf61b4f4"
+    },
+    {
+      "url": "https://reallygood.jp/products/517966?variant=68299602198829",
+      "sha256": "546bbd73ad51324de0a61c8b183ecdee5ef6c163c8752ae18fd117b554d8254b"
+    },
+    {
+      "url": "https://reallygood.jp/products/517905?variant=68299602624813",
+      "sha256": "a37c7c338f01a92f2224e9a4e04b5703f04571cd1d495fd2bdde614ddde8dbb1"
+    },
+    {
+      "url": "https://reallygood.jp/products/516898?variant=68301364953389",
+      "sha256": "8b4ff9cfb49a982c048f77d60bbbb1585341247f0be1af554d7ba953c4e76b05"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://reallygood.jp/products/517966?variant=68299602198829",
+    "https://reallygood.jp/products/517905?variant=68299602624813",
+    "https://reallygood.jp/products/516898?variant=68301364953389"
+  ],
+  "assessment_id": "v2-45042398031-1",
+  "queue_rows": [
+    4299
+  ],
+  "assessment_path": "assessments/v2/reallygood_jp/v2-45042398031-1.json"
+}
