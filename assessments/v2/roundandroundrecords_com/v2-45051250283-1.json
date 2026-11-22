@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T18:07:07.811602+00:00",
+  "shop_id": "roundandroundrecords.com",
+  "row": 3518,
+  "name": "Round and Round Records",
+  "domain": "roundandroundrecords.com",
+  "country": null,
+  "website": "https://roundandroundrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3518,
+    "name": "Round and Round Records",
+    "domain": "roundandroundrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://roundandroundrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 14,
+    "excluded": 6,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://roundandroundrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://roundandroundrecords.com/products.json?limit=20&page=1",
+        "score": 145,
+        "products_seen": 20,
+        "accepted": 14,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://roundandroundrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 20,
+        "accepted": 13,
+        "excluded": 7,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://roundandroundrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://roundandroundrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://roundandroundrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://roundandroundrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://roundandroundrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://roundandroundrecords.com/products.json?limit=20&page=1",
+      "score": 145,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://roundandroundrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 14,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 14,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://roundandroundrecords.com/robots.txt",
+      "sha256": "f64523bcc48fc33603a5364aad1d27bef7db8a4959261031b97052fdb162d1bd"
+    },
+    {
+      "url": "https://roundandroundrecords.com/",
+      "sha256": "7d602b1f46b7eeff0ade6d3a11c1b76a7768e1cff2206ac9cf9c7e012b9ceb6b"
+    },
+    {
+      "url": "https://roundandroundrecords.com/products.json?limit=20&page=1",
+      "sha256": "ecad6b67f786708b31603a5e336c3d7f48ed154f1f00c8cff0a1d8e31bff1558"
+    },
+    {
+      "url": "https://roundandroundrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "351ce0a6c705d8cbd9087dbc65e16cd9f3dc4e9343972fb18908fc7c0deb167b"
+    },
+    {
+      "url": "https://roundandroundrecords.com/products/young-holt-unlimited-plays-super-fly-lp",
+      "sha256": "7b7097df505594d59740fbd4cfb773126f159eed1e67eb0081ca41feb565aab9"
+    },
+    {
+      "url": "https://roundandroundrecords.com/products/guilherme-coutinho-guilherme-coutinho-e-o-grupo-stalo-lp",
+      "sha256": "43a0463277a4c6028a70b66bb05ba06b246fc368aecc03f755bd68c36b16df4e"
+    },
+    {
+      "url": "https://roundandroundrecords.com/products/goldmund-layers-of-afternoon-lp?variant=51069786849535",
+      "sha256": "a0d8949f45b9065cc118e02ada92be80a969ee8ebb3698e4c8b6f8ad99e8d114"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45051250283-1",
+  "queue_rows": [
+    3518
+  ],
+  "assessment_path": "assessments/v2/roundandroundrecords_com/v2-45051250283-1.json"
+}
