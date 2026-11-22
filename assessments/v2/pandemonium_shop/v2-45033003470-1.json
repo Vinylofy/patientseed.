@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T14:32:29.031625+00:00",
+  "shop_id": "pandemonium.shop",
+  "row": 3394,
+  "name": "Pandemonium",
+  "domain": "pandemonium.shop",
+  "country": null,
+  "website": "https://pandemonium.shop/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3394,
+    "name": "Pandemonium",
+    "domain": "pandemonium.shop",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://pandemonium.shop/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://pandemonium.shop/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://pandemonium.shop/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://pandemonium.shop/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://pandemonium.shop/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://pandemonium.shop/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://pandemonium.shop/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://pandemonium.shop/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://pandemonium.shop/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://pandemonium.shop/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://pandemonium.shop/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 14,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://pandemonium.shop/products/mariah-carey-glitter-25th-anniversary-midnight-purple-coloured-vinyl-2lp-album?variant=56521505964417",
+      "artist": "MARIAH CAREY Glitter (25th Anniversary)",
+      "title": "Midnight Purple Coloured Vinyl 2LP - Album",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "36.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://pandemonium.shop/products/system-of-a-down-toxicity-25th-anniversary-burgundy-haze-coloured-vinyl-lp-johnny-7-album?variant=56524574228865",
+      "artist": "SYSTEM OF A DOWN Toxicity (25th Anniversary)",
+      "title": "Burgundy Haze Coloured Vinyl LP + 7” - Album",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "30.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://pandemonium.shop/products/paul-weller-find-el-dorado-vinyl-2lp-album-1?variant=56528749658497",
+      "artist": "PAUL WELLER Find El Dorado",
+      "title": "Vinyl 2LP - Album",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "25.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://pandemonium.shop/robots.txt",
+      "sha256": "2e308c7071c53473226ab6923dd25fed6af987adb2b826c88ca894d3f865dba9"
+    },
+    {
+      "url": "https://pandemonium.shop/",
+      "sha256": "dd075397f3968e6724fd1fec537c7c634e1a7ca64308ad54fee8b5eca516ea93"
+    },
+    {
+      "url": "https://pandemonium.shop/products.json?limit=20&page=1",
+      "sha256": "c3d40f217b743244154523e2e463750e4938fb072815c81f0f28dce5aa87580b"
+    },
+    {
+      "url": "https://pandemonium.shop/collections/all/products.json?limit=20&page=1",
+      "sha256": "eb85a6b77e58d12360dc1baffc01fce6f05458d40db6db240a9cbd39ef0d906f"
+    },
+    {
+      "url": "https://pandemonium.shop/products/paul-weller-find-el-dorado-vinyl-2lp-album-1",
+      "sha256": "bcadb7f9360191c85b05278eeb8a31ec941d1e002799b77a47ce345ae841407f"
+    },
+    {
+      "url": "https://pandemonium.shop/products/charli-xcx-music-fashion-film-vinyl-lp-album",
+      "sha256": "c03ccb9e96bb4ef9f9448cf196931f7375c08f38a25afadfba92f9081fdf7e82"
+    },
+    {
+      "url": "https://pandemonium.shop/products/mariah-carey-glitter-25th-anniversary-midnight-purple-coloured-vinyl-2lp-album?variant=56521505964417",
+      "sha256": "86919d79ed08b5fda2ad3e41ef3671eb947e8eba412f1907d205ee0503282de9"
+    },
+    {
+      "url": "https://pandemonium.shop/products/system-of-a-down-toxicity-25th-anniversary-burgundy-haze-coloured-vinyl-lp-johnny-7-album?variant=56524574228865",
+      "sha256": "c32b96ad32a90a0b7eeb1e6ed7c6c4d7e69ef2dc583a12e87527458b7aeb768d"
+    },
+    {
+      "url": "https://pandemonium.shop/products/paul-weller-find-el-dorado-vinyl-2lp-album-1?variant=56528749658497",
+      "sha256": "043a5ea80b9f50011db48214dbacb320af1ded7d03cc89c1963b791f5ac52b3f"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://pandemonium.shop/products/mariah-carey-glitter-25th-anniversary-midnight-purple-coloured-vinyl-2lp-album?variant=56521505964417",
+    "https://pandemonium.shop/products/system-of-a-down-toxicity-25th-anniversary-burgundy-haze-coloured-vinyl-lp-johnny-7-album?variant=56524574228865",
+    "https://pandemonium.shop/products/paul-weller-find-el-dorado-vinyl-2lp-album-1?variant=56528749658497"
+  ],
+  "assessment_id": "v2-45033003470-1",
+  "queue_rows": [
+    3394
+  ],
+  "assessment_path": "assessments/v2/pandemonium_shop/v2-45033003470-1.json"
+}
