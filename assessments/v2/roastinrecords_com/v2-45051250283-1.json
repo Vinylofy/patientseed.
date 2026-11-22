@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T17:58:24.068939+00:00",
+  "shop_id": "roastinrecords.com",
+  "row": 4555,
+  "name": "ROASTIN' RECORDS",
+  "domain": "roastinrecords.com",
+  "country": null,
+  "website": "https://roastinrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4555,
+    "name": "ROASTIN' RECORDS",
+    "domain": "roastinrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://roastinrecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "ZAR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://roastinrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://roastinrecords.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://roastinrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 145,
+        "products_seen": 20,
+        "accepted": 14,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://roastinrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://roastinrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://roastinrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://roastinrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://roastinrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://roastinrecords.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://roastinrecords.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 15,
+    "shipping_hits": 0,
+    "currencies": [
+      "ZAR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://roastinrecords.com/products/asdas?variant=45144071471275",
+      "artist": "",
+      "title": "American Football \"St\" (Vinyl Colour LP)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "829.00",
+      "currency": "ZAR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://roastinrecords.com/products/dark-days-exit-extended-version-by-felix-laband-2lp-vinyl?variant=48585613967531",
+      "artist": "",
+      "title": "Dark Days Exit (Extended Version) by Felix Laband (2LP Vinyl)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "799.00",
+      "currency": "ZAR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://roastinrecords.com/products/troye-sivan-something-to-give-each-other-lp-vinyl?variant=48727319740587",
+      "artist": "Troye Sivan",
+      "title": "Something To Give Each Other (LP VINYL)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "689.00",
+      "currency": "ZAR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://roastinrecords.com/robots.txt",
+      "sha256": "ac5a8d5f94693499d2ad89f4704a3107af7718607ad2bcec4a3ec90e3ce4f800"
+    },
+    {
+      "url": "https://roastinrecords.com/",
+      "sha256": "37cbbfcd479e90c4c8f1aeb6ecdbe43140d8c42130910623f4a47235effc314e"
+    },
+    {
+      "url": "https://roastinrecords.com/products.json?limit=20&page=1",
+      "sha256": "67fdb209a830e97bb484368728620bd92e44103c4c9e1b79d374454770c666b9"
+    },
+    {
+      "url": "https://roastinrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "ec4c5052ec704f8658b53a1519806eeedab2437aac33cc70a77109a77527d12b"
+    },
+    {
+      "url": "https://roastinrecords.com/products/troye-sivan-something-to-give-each-other-lp-vinyl",
+      "sha256": "5e5c32891a3702a3794e580cd3dab5609a099c9ad8a133062d21e6a2cee9444a"
+    },
+    {
+      "url": "https://roastinrecords.com/products/john-coltrane-ballads-vinyl-lp",
+      "sha256": "06ddec944555ab4eebef956cd1d59c99fca3828faf9f3551e0da5035d0c0b7b6"
+    },
+    {
+      "url": "https://roastinrecords.com/products/asdas?variant=45144071471275",
+      "sha256": "6ba3e2e2993a2d153d6d1fd39e8a00f3e8f7ef5ce20b8d0b4f4395e13a394b14"
+    },
+    {
+      "url": "https://roastinrecords.com/products/dark-days-exit-extended-version-by-felix-laband-2lp-vinyl?variant=48585613967531",
+      "sha256": "e33a4dab06bc5666ee4362eb86d2177e45239b9462f9cd593fb237beba33530b"
+    },
+    {
+      "url": "https://roastinrecords.com/products/troye-sivan-something-to-give-each-other-lp-vinyl?variant=48727319740587",
+      "sha256": "1ef699a0b2751b9d86da22c73ef14c46efd359a1bfd6e511791d19dd20b69fef"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 1,
+    "identity_listing_ratio": 0.85,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://roastinrecords.com/products/asdas?variant=45144071471275",
+    "https://roastinrecords.com/products/dark-days-exit-extended-version-by-felix-laband-2lp-vinyl?variant=48585613967531",
+    "https://roastinrecords.com/products/troye-sivan-something-to-give-each-other-lp-vinyl?variant=48727319740587"
+  ],
+  "assessment_id": "v2-45051250283-1",
+  "queue_rows": [
+    4555
+  ],
+  "assessment_path": "assessments/v2/roastinrecords_com/v2-45051250283-1.json"
+}
