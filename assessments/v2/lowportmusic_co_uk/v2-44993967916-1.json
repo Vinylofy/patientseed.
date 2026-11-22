@@ -1,0 +1,165 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T06:45:45.464582+00:00",
+  "shop_id": "lowportmusic.co.uk",
+  "row": 4752,
+  "name": "Lowport Music",
+  "domain": "lowportmusic.co.uk",
+  "country": null,
+  "website": "https://lowportmusic.co.uk/",
+  "previous_status": "SOURCE_BLOCKED",
+  "previous_reason": "TimeoutError",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4752,
+    "name": "Lowport Music",
+    "domain": "lowportmusic.co.uk",
+    "status": "ROUTE_REVIEW",
+    "gate": "catalog_route",
+    "platform": "unknown",
+    "reason": "no public catalog route passed an adapter contract",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://lowportmusic.co.uk/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://lowportmusic.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://lowportmusic.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://lowportmusic.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://lowportmusic.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://lowportmusic.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://lowportmusic.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      }
+    ]
+  },
+  "platform": "unknown",
+  "catalog_route": null,
+  "requests": [
+    {
+      "url": "https://lowportmusic.co.uk/robots.txt",
+      "sha256": "1fdf6139ff9601a81216ab6ba061ca855a6883a4581be92f0116430791ff1169"
+    },
+    {
+      "url": "https://lowportmusic.co.uk/",
+      "sha256": "aa4a7f9134ac3d16fb87d3c10e96ef5d4c23d6f95a65ea07ce80f7a8ff05d908"
+    },
+    {
+      "url": "https://lowportmusic.co.uk/products.json?limit=20&page=1",
+      "sha256": "ece46117dfcbcea2a0efad6951c2e98f6dce30b8f826124706ac18d6374bc1ea"
+    },
+    {
+      "url": "https://lowportmusic.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "54f511105803ffa3bd04fb895ad76c1ffad3f134b00d76dfedfcdc6cf74ce2e0"
+    },
+    {
+      "url": "https://lowportmusic.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "068877678e4dc7422137d7c268e67874cda01f0b34e834513f173f41ea33dc56"
+    },
+    {
+      "url": "https://lowportmusic.co.uk/api/0.1/collections/products?format=json",
+      "sha256": "9c12d7619a3a261cd25f6224a953d1c0f06e2bf2772f4e9f1b2adf9e77990389"
+    },
+    {
+      "url": "https://lowportmusic.co.uk/api/0.1/collections/all/products?format=json",
+      "sha256": "97d5c9b8e3f548bea4e74931002006d9d7d0d9888b6a332ea28b97008e38257f"
+    },
+    {
+      "url": "https://lowportmusic.co.uk/api/storefront/products?limit=20&offset=0",
+      "sha256": "f8b0274784e29f1cd3d436a0c963060d5f087c912115b4f0c82cbd3ef5239d6f"
+    },
+    {
+      "url": "https://lowportmusic.co.uk/api/storefront/products?limit=20",
+      "sha256": "f0b119e988f15300277be944c29466a831a1b16c421d5e6888050f9b09c48b69"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "supported_catalogue_route_not_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": null,
+    "vinyl": null,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": null,
+    "availability": null,
+    "stable_urls": null,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "supported_catalogue_route_not_proven"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-44993967916-1",
+  "queue_rows": [
+    4752
+  ],
+  "assessment_path": "assessments/v2/lowportmusic_co_uk/v2-44993967916-1.json"
+}
