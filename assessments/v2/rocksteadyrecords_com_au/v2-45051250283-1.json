@@ -1,0 +1,175 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T18:05:03.134654+00:00",
+  "shop_id": "rocksteadyrecords.com.au",
+  "row": 3569,
+  "name": "Rocksteady Records",
+  "domain": "rocksteadyrecords.com.au",
+  "country": null,
+  "website": "https://rocksteadyrecords.com.au/",
+  "previous_status": "ADAPTER_TESTED",
+  "previous_reason": "no confirmed new vinyl on bounded page",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3569,
+    "name": "Rocksteady Records",
+    "domain": "rocksteadyrecords.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "listing",
+    "platform": "woocommerce",
+    "source_url": "https://rocksteadyrecords.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "adapter_class": "WooCommerceNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 0,
+    "excluded": 20,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "method_candidates": [
+      {
+        "platform": "woocommerce",
+        "route": "https://rocksteadyrecords.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://rocksteadyrecords.com.au/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://rocksteadyrecords.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rocksteadyrecords.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rocksteadyrecords.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rocksteadyrecords.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rocksteadyrecords.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "woocommerce",
+      "route": "https://rocksteadyrecords.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 0,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "reason": "no confirmed new vinyl on bounded page"
+  },
+  "platform": "woocommerce",
+  "catalog_route": "https://rocksteadyrecords.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "listing_sample": 0,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 0,
+    "unique_prices": 0,
+    "shipping_hits": 0,
+    "currencies": []
+  },
+  "secondhand_observed": false,
+  "examples": [],
+  "requests": [
+    {
+      "url": "https://rocksteadyrecords.com.au/robots.txt",
+      "sha256": "e484d70f62437c6f14a70422809c55c9481d17a447437636fbf4b5c91a8890fc"
+    },
+    {
+      "url": "https://rocksteadyrecords.com.au/",
+      "sha256": "76242102121a792c9e2dbb3c2d3d5c08cfce0d212a6f25451a6927ce6d8a2d67"
+    },
+    {
+      "url": "https://rocksteadyrecords.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "089ead49ca0941047eed0b9641adbbc48ea51871d5829153f45e7e53d82eff18"
+    },
+    {
+      "url": "https://rocksteadyrecords.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "8820da488996627b2d7108e60ee07e5d9350347914adaf069848d6afefbc2f6e"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:vinyl",
+    "not_proven:new_used_distinguishable",
+    "not_proven:public_prices",
+    "not_proven:availability",
+    "not_proven:stable_urls"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": false,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": false,
+    "availability": false,
+    "stable_urls": false,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-45051250283-1",
+  "queue_rows": [
+    3569
+  ],
+  "assessment_path": "assessments/v2/rocksteadyrecords_com_au/v2-45051250283-1.json"
+}
