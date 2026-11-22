@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T19:33:56.081483+00:00",
+  "shop_id": "secondlinerecords.com",
+  "row": 4841,
+  "name": "Second Line Records",
+  "domain": "secondlinerecords.com",
+  "country": null,
+  "website": "https://secondlinerecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4841,
+    "name": "Second Line Records",
+    "domain": "secondlinerecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://secondlinerecords.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://secondlinerecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://secondlinerecords.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://secondlinerecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://secondlinerecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://secondlinerecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://secondlinerecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://secondlinerecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://secondlinerecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://secondlinerecords.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://secondlinerecords.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://secondlinerecords.com/products/music-from-siesta-ost?variant=59556625744207",
+      "artist": "",
+      "title": "Music From Siesta OST",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "39.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://secondlinerecords.com/products/moments-brighter-than-the-sun?variant=59577769951567",
+      "artist": "",
+      "title": "Moments Brighter than the Sun",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "27.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://secondlinerecords.com/products/jasmine?variant=59584569114959",
+      "artist": "",
+      "title": "Jasmine",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "48.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://secondlinerecords.com/robots.txt",
+      "sha256": "f361efc1fddaa51a5f09d7e4071440e59bde02497dc34cf1f699ac451fe44d59"
+    },
+    {
+      "url": "https://secondlinerecords.com/",
+      "sha256": "a9ecc43f1e2a4fe86e34f3d08325816138b3e1d5645ee348d8516e94d7f7d2da"
+    },
+    {
+      "url": "https://secondlinerecords.com/products.json?limit=20&page=1",
+      "sha256": "3a92b85c23eb41b5db1e38068f834e4ca6ec7c9f6aa1d10b98ce3dbea5502a0b"
+    },
+    {
+      "url": "https://secondlinerecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "b2f1c1b885e73ac78bca48ae740dace4a37a7aee3333b3d5438b0155e1816114"
+    },
+    {
+      "url": "https://secondlinerecords.com/products/jasmine",
+      "sha256": "a9a5f8f6b93ae4894883630de65c2a07864b91278122e5ac1b522d12a0b28003"
+    },
+    {
+      "url": "https://secondlinerecords.com/products/black-board-jungle",
+      "sha256": "bd068457f92c46ce7e0de3350759bce76e9cf3d4f2e7c06d1d68e7e858261ce9"
+    },
+    {
+      "url": "https://secondlinerecords.com/products/music-from-siesta-ost?variant=59556625744207",
+      "sha256": "71e50dedec3489f83d726e9c5a9c71d5acd3bd34e6a4b413806ddb2380e031d7"
+    },
+    {
+      "url": "https://secondlinerecords.com/products/moments-brighter-than-the-sun?variant=59577769951567",
+      "sha256": "ae62d0bae1c3fd4a1e24fb35e7322de90a7160b29b8a3794be54290ae0fb6375"
+    },
+    {
+      "url": "https://secondlinerecords.com/products/jasmine?variant=59584569114959",
+      "sha256": "48ca0a9b285862be5c85716d642df8b9bdeb9bf754da92dcff9d259f4eed44d2"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://secondlinerecords.com/products/music-from-siesta-ost?variant=59556625744207",
+    "https://secondlinerecords.com/products/moments-brighter-than-the-sun?variant=59577769951567",
+    "https://secondlinerecords.com/products/jasmine?variant=59584569114959"
+  ],
+  "assessment_id": "v2-45061036276-1",
+  "queue_rows": [
+    4841
+  ],
+  "assessment_path": "assessments/v2/secondlinerecords_com/v2-45061036276-1.json"
+}
