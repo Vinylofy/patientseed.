@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T21:02:26.046140+00:00",
+  "shop_id": "taz-records.myshopify.com",
+  "row": 3706,
+  "name": "Taz Records",
+  "domain": "taz-records.myshopify.com",
+  "country": null,
+  "website": "https://taz-records.myshopify.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3706,
+    "name": "Taz Records",
+    "domain": "taz-records.myshopify.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://taz-records.myshopify.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "CAD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://taz-records.myshopify.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://taz-records.myshopify.com/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://taz-records.myshopify.com/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://taz-records.myshopify.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://taz-records.myshopify.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://taz-records.myshopify.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://taz-records.myshopify.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://taz-records.myshopify.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://taz-records.myshopify.com/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://taz-records.myshopify.com/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 12,
+    "shipping_hits": 0,
+    "currencies": [
+      "CAD"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://taz-records.myshopify.com/products/050087608576?variant=72139597512842",
+      "artist": "",
+      "title": "Gomez, Selena/For You (Pink and Black Ice Vinyl) [LP]",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "66.99",
+      "currency": "CAD",
+      "valid_eans": [
+        "00050087608576"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://taz-records.myshopify.com/products/199957085496?variant=72139567562890",
+      "artist": "",
+      "title": "Coltrane, John/Live At Birdland (Verve Acoustic Sounds) [LP]",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "52.99",
+      "currency": "CAD",
+      "valid_eans": [
+        "00199957085496"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://taz-records.myshopify.com/products/823375345190?variant=72139540299914",
+      "artist": "",
+      "title": "Aurora/All My Demons Greeting Me As A Friend: The Moth Tapes (Torrent Toffee Vinyl) [LP]",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "39.99",
+      "currency": "CAD",
+      "valid_eans": [
+        "00823375345190"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://taz-records.myshopify.com/robots.txt",
+      "sha256": "4e7ff4b3c1cbb1b2dda02a3ccfa1898301a676fec060490d630f2833a071674f"
+    },
+    {
+      "url": "https://taz-records.myshopify.com/",
+      "sha256": "b074275c863fd22722c90705b2e1f266a938ca892613cc4f388f871f5a54449b"
+    },
+    {
+      "url": "https://taz-records.myshopify.com/products.json?limit=20&page=1",
+      "sha256": "f8165d33a50464fe6f92434596525a76d87e81504977dd6dae83c44b19e776f1"
+    },
+    {
+      "url": "https://taz-records.myshopify.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "7f9e0f28e68fc870fdbf8b9e810312ce582ba10e7f66119b6af38cada23499e7"
+    },
+    {
+      "url": "https://taz-records.myshopify.com/products/823375345190",
+      "sha256": "93274d02149345b6189eb2bb1e0eb54122055a65985b5ada6266e1218bcb904d"
+    },
+    {
+      "url": "https://taz-records.myshopify.com/products/848064021759",
+      "sha256": "d0585cd28241e324eb1446ff55cbd1333b144feb32c44503a019dd34bd1b0f3c"
+    },
+    {
+      "url": "https://taz-records.myshopify.com/products/050087608576?variant=72139597512842",
+      "sha256": "3b1a3dadaaa03d5c5f56af90fed69423443387762d4cf60d896330a233c92747"
+    },
+    {
+      "url": "https://taz-records.myshopify.com/products/199957085496?variant=72139567562890",
+      "sha256": "f998a21e848e0cf705d3c3a8e495af61702c4e86ca6c8840e875e32e6a0d6515"
+    },
+    {
+      "url": "https://taz-records.myshopify.com/products/823375345190?variant=72139540299914",
+      "sha256": "f1f62fd8cb99ae2c5eb1a6d868b74f5d8d3a1f99b884f8f1f31000fadd9e5a0a"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://taz-records.myshopify.com/products/050087608576?variant=72139597512842",
+    "https://taz-records.myshopify.com/products/199957085496?variant=72139567562890",
+    "https://taz-records.myshopify.com/products/823375345190?variant=72139540299914"
+  ],
+  "assessment_id": "v2-45067665621-1",
+  "queue_rows": [
+    3706
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 19,
+  "candidate_ref": "v2-45067665621-1/taz_records_myshopify_com",
+  "assessment_path": "assessments/v2/taz_records_myshopify_com/v2-45067665621-1.json"
+}
