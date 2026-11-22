@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T09:53:30.362998+00:00",
+  "shop_id": "morphorecords.com",
+  "row": 4304,
+  "name": "Morpho Records",
+  "domain": "morphorecords.com",
+  "country": null,
+  "website": "https://morphorecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4304,
+    "name": "Morpho Records",
+    "domain": "morphorecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://morphorecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 2,
+    "excluded": 18,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "JPY",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://morphorecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://morphorecords.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://morphorecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://morphorecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://morphorecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://morphorecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://morphorecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://morphorecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://morphorecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 25,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://morphorecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 2,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 2,
+    "unique_prices": 2,
+    "shipping_hits": 0,
+    "currencies": [
+      "JPY"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://morphorecords.com/robots.txt",
+      "sha256": "d97e6f0b2c0e2a07f2e15e4e4e4a1467e2ec66265797bd2bbb031e95c488a9e0"
+    },
+    {
+      "url": "https://morphorecords.com/",
+      "sha256": "59ddef6fdc444276de722a5516bbc3bb411e14f13f3c66b834587e116ac30cbb"
+    },
+    {
+      "url": "https://morphorecords.com/products.json?limit=20&page=1",
+      "sha256": "0f36f5e970d59e42f1c1831a806538657420562d0e546cb6d77886528d02a4cb"
+    },
+    {
+      "url": "https://morphorecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "10eba0337aca440553cd3cd22443cd02e3d00fc1e0fa746b902cc744dfd68f3b"
+    },
+    {
+      "url": "https://morphorecords.com/products/113-113-degres-lp",
+      "sha256": "e8abe1cc1b96c295b1e7ddd04050cd66688e8922b73565470f6f09c1448250ef"
+    },
+    {
+      "url": "https://morphorecords.com/products/2pac-all-eyez-on-me-lp",
+      "sha256": "32e8d32c2befadff82655cbe9f300b9a4ceb868d3c76c060d941f46acbcc946b"
+    },
+    {
+      "url": "https://morphorecords.com/products/2pac-all-eyez-on-me-lp?variant=47267443179707",
+      "sha256": "eeec40ae68498288c85353a32ef0d700f2a6cf5a85c963017803dfc80a3e4316"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45008765152-1",
+  "queue_rows": [
+    4304
+  ],
+  "assessment_path": "assessments/v2/morphorecords_com/v2-45008765152-1.json"
+}
