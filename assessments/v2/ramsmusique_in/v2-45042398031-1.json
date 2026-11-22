@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T16:20:28.847267+00:00",
+  "shop_id": "ramsmusique.in",
+  "row": 4213,
+  "name": "Ram's Musique Experience",
+  "domain": "ramsmusique.in",
+  "country": null,
+  "website": "https://ramsmusique.in/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4213,
+    "name": "Ram's Musique Experience",
+    "domain": "ramsmusique.in",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://ramsmusique.in/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "INR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://ramsmusique.in/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://ramsmusique.in/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://ramsmusique.in/collections/all/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://ramsmusique.in/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://ramsmusique.in/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://ramsmusique.in/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://ramsmusique.in/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://ramsmusique.in/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://ramsmusique.in/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://ramsmusique.in/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 13,
+    "shipping_hits": 0,
+    "currencies": [
+      "INR"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://ramsmusique.in/products/olivia-rodrigo-guts?variant=52203807605023",
+      "artist": "Olivia Rodrigo",
+      "title": "Guts",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "5999.00",
+      "currency": "INR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://ramsmusique.in/products/the-beatles-anniversary-2lp-edition?variant=53289796927775",
+      "artist": "The Beatles",
+      "title": "Anniversary 2LP Edition",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "9999.00",
+      "currency": "INR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://ramsmusique.in/products/abba-gold-greatest-hits?variant=52664166777119",
+      "artist": "ABBA",
+      "title": "Gold - Greatest Hits",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "6300.00",
+      "currency": "INR",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://ramsmusique.in/robots.txt",
+      "sha256": "f1a028961da30f0464220c41016ca1a98377d9c7f5d4b89cd9e9f22f8d85f91b"
+    },
+    {
+      "url": "https://ramsmusique.in/",
+      "sha256": "fd16e4a94a145b99910ee7e945924dc3e32009fe559d6ed5547cd1807d42b7b9"
+    },
+    {
+      "url": "https://ramsmusique.in/products.json?limit=20&page=1",
+      "sha256": "3d0ea75f95eb2cc8155b98a4450ce051c3a735daa5bf7853f9b8832dda4ecd9d"
+    },
+    {
+      "url": "https://ramsmusique.in/collections/all/products.json?limit=20&page=1",
+      "sha256": "7173625fc9d464075440edeb3dfb63f9d70f50c0508bd1aff8260149b37b344c"
+    },
+    {
+      "url": "https://ramsmusique.in/products/abba-gold-greatest-hits",
+      "sha256": "ae0537b9448e55006b972b0a8a8d3102d3c2a2f2b1fb4becb34405430a5cf4e9"
+    },
+    {
+      "url": "https://ramsmusique.in/products/led-zeppelins-classic-4th-album",
+      "sha256": "5033366b336980da28fba3c7d378dd497572679888ab4a6ec59b608c4c8e1cfc"
+    },
+    {
+      "url": "https://ramsmusique.in/products/olivia-rodrigo-guts?variant=52203807605023",
+      "sha256": "6ea684c3baa7f068eda2d2faf61cce0075e80d40610690d14ce2aba1da773483"
+    },
+    {
+      "url": "https://ramsmusique.in/products/the-beatles-anniversary-2lp-edition?variant=53289796927775",
+      "sha256": "bea1b55783873d060c1923a52859e6b62fbf99393c38917abbb0db0c037de0f4"
+    },
+    {
+      "url": "https://ramsmusique.in/products/abba-gold-greatest-hits?variant=52664166777119",
+      "sha256": "179f45ac68cdbeb9cdc0e726f5db8897b3e4434f0ca04718a7afa651d848e661"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.8421052631578947,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://ramsmusique.in/products/olivia-rodrigo-guts?variant=52203807605023",
+    "https://ramsmusique.in/products/the-beatles-anniversary-2lp-edition?variant=53289796927775",
+    "https://ramsmusique.in/products/abba-gold-greatest-hits?variant=52664166777119"
+  ],
+  "assessment_id": "v2-45042398031-1",
+  "queue_rows": [
+    4213
+  ],
+  "assessment_path": "assessments/v2/ramsmusique_in/v2-45042398031-1.json"
+}
