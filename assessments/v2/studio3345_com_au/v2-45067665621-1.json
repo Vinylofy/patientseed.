@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T20:55:35.769928+00:00",
+  "shop_id": "studio3345.com.au",
+  "row": 3505,
+  "name": "STUDIO 33/45",
+  "domain": "studio3345.com.au",
+  "country": null,
+  "website": "https://studio3345.com.au/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3505,
+    "name": "STUDIO 33/45",
+    "domain": "studio3345.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://studio3345.com.au/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://studio3345.com.au/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://studio3345.com.au/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://studio3345.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://studio3345.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://studio3345.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://studio3345.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://studio3345.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://studio3345.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://studio3345.com.au/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://studio3345.com.au/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://studio3345.com.au/products/robag-wruhme-nata-alma-venq-tolep?variant=52349490987296",
+      "artist": "Robag Wruhme",
+      "title": "Nata Alma / Venq Tolep",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "28.00",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://studio3345.com.au/products/various-artists-efflorescence-iii?variant=52393513517344",
+      "artist": "Various Artists",
+      "title": "Efflorescence III",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "65.00",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://studio3345.com.au/products/joe-davies-wonderful-tempo?variant=52005049893152",
+      "artist": "Joe Davies",
+      "title": "Wonderful Tempo",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "30.00",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://studio3345.com.au/robots.txt",
+      "sha256": "503453858f6985875a4616a699a8576265befa5bb4a35a811432e081bcd59ead"
+    },
+    {
+      "url": "https://studio3345.com.au/",
+      "sha256": "ee15035808dff35ef047d9e12553dfc762591125ce762ebba4b9ec6d324a2b26"
+    },
+    {
+      "url": "https://studio3345.com.au/products.json?limit=20&page=1",
+      "sha256": "7b2940b666090c8a307cdf09234f04a8297e70f0a2b921ce327c98cde55461e1"
+    },
+    {
+      "url": "https://studio3345.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "447d2925815d8d9a57c2c921a12bf1d45691766b3aa88d14d4a9a4adb6ac8a9e"
+    },
+    {
+      "url": "https://studio3345.com.au/products/joe-davies-wonderful-tempo",
+      "sha256": "daf72a7750721197f911e78d7ff3580bc92c24f1b63e19f151d27286f2f0124a"
+    },
+    {
+      "url": "https://studio3345.com.au/products/mathew-jonson-panna-cotta",
+      "sha256": "68c98bfba699fa5405e11c2df0c80371fefd6c84aac22e2fb630970bacd29a70"
+    },
+    {
+      "url": "https://studio3345.com.au/products/robag-wruhme-nata-alma-venq-tolep?variant=52349490987296",
+      "sha256": "5833e6a98701677515d9e5c9838b6a8f885130b6fc780a054260750d669c574f"
+    },
+    {
+      "url": "https://studio3345.com.au/products/various-artists-efflorescence-iii?variant=52393513517344",
+      "sha256": "2fe10902465d9c4f1f744197f2948e49c91e18e882e8556ed59174ac2fe68646"
+    },
+    {
+      "url": "https://studio3345.com.au/products/joe-davies-wonderful-tempo?variant=52005049893152",
+      "sha256": "be0f6d0ad8e4ed0a65dba04a21cda575b08ea6ba782c11281c297ab416365259"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://studio3345.com.au/products/robag-wruhme-nata-alma-venq-tolep?variant=52349490987296",
+    "https://studio3345.com.au/products/various-artists-efflorescence-iii?variant=52393513517344",
+    "https://studio3345.com.au/products/joe-davies-wonderful-tempo?variant=52005049893152"
+  ],
+  "assessment_id": "v2-45067665621-1",
+  "queue_rows": [
+    3505
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 20,
+  "candidate_ref": "v2-45067665621-1/studio3345_com_au",
+  "assessment_path": "assessments/v2/studio3345_com_au/v2-45067665621-1.json"
+}
