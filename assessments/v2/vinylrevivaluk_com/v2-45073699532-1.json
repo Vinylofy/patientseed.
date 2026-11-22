@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T21:52:07.163502+00:00",
+  "shop_id": "vinylrevivaluk.com",
+  "row": 4800,
+  "name": "the vinyl revival store",
+  "domain": "vinylrevivaluk.com",
+  "country": null,
+  "website": "https://vinylrevivaluk.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4800,
+    "name": "the vinyl revival store",
+    "domain": "vinylrevivaluk.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://vinylrevivaluk.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://vinylrevivaluk.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://vinylrevivaluk.com/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://vinylrevivaluk.com/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://vinylrevivaluk.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylrevivaluk.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylrevivaluk.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylrevivaluk.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylrevivaluk.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://vinylrevivaluk.com/collections/all/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://vinylrevivaluk.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 13,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://vinylrevivaluk.com/products/b-b-king-broadcasting-the-blues-live-from-germany-to-sweden?variant=47413813280925",
+      "artist": "B.B. King",
+      "title": "Broadcasting The Blues: Live from Germany to Sweden",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "36.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://vinylrevivaluk.com/products/allo-darlin-bits-and-pieces?variant=47657473867933",
+      "artist": "Allo Darlin’",
+      "title": "Bits And Pieces",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "26.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://vinylrevivaluk.com/products/10cc-bloody-tourists?variant=35528342372509",
+      "artist": "",
+      "title": "10cc ‎– Bloody Tourists",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "10.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://vinylrevivaluk.com/robots.txt",
+      "sha256": "49fccd14d8af34e5f4bbf9dd4c246950a2929ab1a84eadc930ef6b7d7d4fb471"
+    },
+    {
+      "url": "https://vinylrevivaluk.com/",
+      "sha256": "fab87787e14a58eb2e02582cc3607e295c417116daf9cc55ff794403761e864d"
+    },
+    {
+      "url": "https://vinylrevivaluk.com/products.json?limit=20&page=1",
+      "sha256": "fe08eadd8a1e1b4c7b464c862bf9a99540209e1327705b2b1877f5910a3c11b1"
+    },
+    {
+      "url": "https://vinylrevivaluk.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "ed116f0f14c772f138ce52508273bfdc0158c96ee888c5808fc062dfa9ce4c77"
+    },
+    {
+      "url": "https://vinylrevivaluk.com/products/10cc-bloody-tourists",
+      "sha256": "c2db31723435a13b7045517b9cac1a361977597404f9fe9315d214205d62f51d"
+    },
+    {
+      "url": "https://vinylrevivaluk.com/products/10cc-how-dare-you",
+      "sha256": "020cb5a227bdcbe576e131372275b78993634a39329f3dbc7ae94869202bee55"
+    },
+    {
+      "url": "https://vinylrevivaluk.com/products/b-b-king-broadcasting-the-blues-live-from-germany-to-sweden?variant=47413813280925",
+      "sha256": "4358f5a17b61516845920aa600bb65a941fd1fc68cf9fce5e8614c842ecd4daf"
+    },
+    {
+      "url": "https://vinylrevivaluk.com/products/allo-darlin-bits-and-pieces?variant=47657473867933",
+      "sha256": "6a5d343ec154c9c1b7eafd734ed40186d5877765e8a25ee8fe819909d37647da"
+    },
+    {
+      "url": "https://vinylrevivaluk.com/products/10cc-bloody-tourists?variant=35528342372509",
+      "sha256": "ca134fc54d1a77b909279feab574c4cefaa1fa70db1163fb2e520237c5383f95"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.7894736842105263,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://vinylrevivaluk.com/products/b-b-king-broadcasting-the-blues-live-from-germany-to-sweden?variant=47413813280925",
+    "https://vinylrevivaluk.com/products/allo-darlin-bits-and-pieces?variant=47657473867933",
+    "https://vinylrevivaluk.com/products/10cc-bloody-tourists?variant=35528342372509"
+  ],
+  "assessment_id": "v2-45073699532-1",
+  "queue_rows": [
+    4800
+  ],
+  "assessment_path": "assessments/v2/vinylrevivaluk_com/v2-45073699532-1.json"
+}
