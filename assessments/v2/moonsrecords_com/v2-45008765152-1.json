@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T09:52:57.546484+00:00",
+  "shop_id": "moonsrecords.com",
+  "row": 3702,
+  "name": "Moon's Records",
+  "domain": "moonsrecords.com",
+  "country": null,
+  "website": "https://moonsrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3702,
+    "name": "Moon's Records",
+    "domain": "moonsrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://moonsrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 2,
+    "excluded": 18,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "CAD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://moonsrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://moonsrecords.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://moonsrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://moonsrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://moonsrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://moonsrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://moonsrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://moonsrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://moonsrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 25,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://moonsrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 2,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 2,
+    "unique_prices": 2,
+    "shipping_hits": 0,
+    "currencies": [
+      "CAD"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://moonsrecords.com/robots.txt",
+      "sha256": "a1cdb11aa070fa130c2f73f253dcc4ba827809cd141cf88726910c8f8106459e"
+    },
+    {
+      "url": "https://moonsrecords.com/",
+      "sha256": "ba6c8feddcb12486be2effd58bb0fc53cdffbbb593e633a20c90eb038da952f0"
+    },
+    {
+      "url": "https://moonsrecords.com/products.json?limit=20&page=1",
+      "sha256": "a016060cf12c9bc6f1a54495f37a7077a569c837507b4bcc38161c1a51ca0157"
+    },
+    {
+      "url": "https://moonsrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "458e1ab7fb007045f6d6ec9156281d9301e14f8ee3391891475edaff5d7c70e9"
+    },
+    {
+      "url": "https://moonsrecords.com/products/21-savage-what-happened-to-the-streets",
+      "sha256": "c9b5324147a077f85039b82e553d92b1e8d637cc73d79348c4055da01cc85103"
+    },
+    {
+      "url": "https://moonsrecords.com/products/2pac-greatest-hits-4lp-1",
+      "sha256": "1bb8c6415df9a44b22925fc1ba4760a476a064d4d6a5c201e886559f5e25f977"
+    },
+    {
+      "url": "https://moonsrecords.com/products/2pac-greatest-hits-4lp-1?variant=54130012520741",
+      "sha256": "bd18ad501b97044cffd8ac6ff9bd5511d97792b48d654a68d00f40c9529a5906"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "invalid_detail_gtin"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "invalid_detail_gtin"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45008765152-1",
+  "queue_rows": [
+    3702
+  ],
+  "assessment_path": "assessments/v2/moonsrecords_com/v2-45008765152-1.json"
+}
