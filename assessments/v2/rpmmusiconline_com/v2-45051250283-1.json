@@ -1,0 +1,244 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T18:08:02.961521+00:00",
+  "shop_id": "rpmmusiconline.com",
+  "row": 3381,
+  "name": "Rpmmusiconline",
+  "domain": "rpmmusiconline.com",
+  "country": null,
+  "website": "https://rpmmusiconline.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3381,
+    "name": "Rpmmusiconline",
+    "domain": "rpmmusiconline.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://rpmmusiconline.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 14,
+    "excluded": 6,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://rpmmusiconline.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://rpmmusiconline.com/products.json?limit=20&page=1",
+        "score": 145,
+        "products_seen": 20,
+        "accepted": 14,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://rpmmusiconline.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "Invalid Shopify price"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://rpmmusiconline.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rpmmusiconline.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rpmmusiconline.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rpmmusiconline.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rpmmusiconline.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://rpmmusiconline.com/products.json?limit=20&page=1",
+      "score": 145,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://rpmmusiconline.com/products.json?limit=20&page=1",
+  "listing_sample": 14,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 14,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://rpmmusiconline.com/products/cranberries-wake-up-and-smell-the-coffee-25th-ann-vinyl-lp?variant=60234052403584",
+      "artist": "Cranberries",
+      "title": "Wake Up And Smell The Coffee 25th Ann. Vinyl LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "26.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://rpmmusiconline.com/products/pink-floyd-animals-50-orange-vinyl-lp-copy?variant=60343894016384",
+      "artist": "Pink Floyd",
+      "title": "Animals 50 Vinyl 2LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "35.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://rpmmusiconline.com/products/robin-trower-long-misty-days-50th-anniversary-vinyl-2lp?variant=60411197194624",
+      "artist": "Robin Trower",
+      "title": "Long Misty Days 50th Anniversary Vinyl 2LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "26.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://rpmmusiconline.com/robots.txt",
+      "sha256": "242157614a4351f6ef511b4d5f52cd2bca3485fa4f39ffeb36dbb1c80345aad0"
+    },
+    {
+      "url": "https://rpmmusiconline.com/",
+      "sha256": "6ed60b8f956540268867219da567921cb1ac4b9b070b45ef3b4a9abc6973d4b2"
+    },
+    {
+      "url": "https://rpmmusiconline.com/products.json?limit=20&page=1",
+      "sha256": "afb2ee221cc572b3354beaf252ecc3b54b373e5031a79d527bc174f95a9ba245"
+    },
+    {
+      "url": "https://rpmmusiconline.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "7e51d83ea81722526401925ab1e628e074e6a96b70bf334e360ee15d840ac258"
+    },
+    {
+      "url": "https://rpmmusiconline.com/products/robin-trower-long-misty-days-50th-anniversary-vinyl-2lp",
+      "sha256": "a66bd3a9ec0403a212c93233d75876d07f9cd6bb6aa9d3b8ec74ca061f129cc3"
+    },
+    {
+      "url": "https://rpmmusiconline.com/products/bert-jansch-the-ornament-tree-vinyl-lp-dl",
+      "sha256": "afc44c61c7acadc31947ec3a5cdb64ab832a06ef0777afaafa18bd4aee538d4e"
+    },
+    {
+      "url": "https://rpmmusiconline.com/products/cranberries-wake-up-and-smell-the-coffee-25th-ann-vinyl-lp?variant=60234052403584",
+      "sha256": "8de93117397e2dbac6ce43632c0c762ea555e6d1e8bfefb6c69aac48ccb9feee"
+    },
+    {
+      "url": "https://rpmmusiconline.com/products/pink-floyd-animals-50-orange-vinyl-lp-copy?variant=60343894016384",
+      "sha256": "841fdd913baed442d8d741548732353d0d36d041625ba3c38a4ed5c255f9c794"
+    },
+    {
+      "url": "https://rpmmusiconline.com/products/robin-trower-long-misty-days-50th-anniversary-vinyl-2lp?variant=60411197194624",
+      "sha256": "5e6fe5ba9ffb1c42324b1755fffc894b36ef6b80df54d7a46fb3e65304b6e9be"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 0.9285714285714286,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://rpmmusiconline.com/products/cranberries-wake-up-and-smell-the-coffee-25th-ann-vinyl-lp?variant=60234052403584",
+    "https://rpmmusiconline.com/products/pink-floyd-animals-50-orange-vinyl-lp-copy?variant=60343894016384",
+    "https://rpmmusiconline.com/products/robin-trower-long-misty-days-50th-anniversary-vinyl-2lp?variant=60411197194624"
+  ],
+  "assessment_id": "v2-45051250283-1",
+  "queue_rows": [
+    3381
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 13,
+  "candidate_ref": "v2-45051250283-1/rpmmusiconline_com",
+  "assessment_path": "assessments/v2/rpmmusiconline_com/v2-45051250283-1.json"
+}
