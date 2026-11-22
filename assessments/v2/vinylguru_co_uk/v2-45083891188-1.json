@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T23:51:17.730882+00:00",
+  "shop_id": "vinylguru.co.uk",
+  "row": 3413,
+  "name": "vinylguru",
+  "domain": "vinylguru.co.uk",
+  "country": null,
+  "website": "https://vinylguru.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3413,
+    "name": "vinylguru",
+    "domain": "vinylguru.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://vinylguru.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 17,
+    "excluded": 3,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://vinylguru.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://vinylguru.co.uk/products.json?limit=20&page=1",
+        "score": 175,
+        "products_seen": 20,
+        "accepted": 17,
+        "excluded": 3,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://vinylguru.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://vinylguru.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylguru.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinylguru.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylguru.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinylguru.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://vinylguru.co.uk/products.json?limit=20&page=1",
+      "score": 175,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://vinylguru.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 17,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 17,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://vinylguru.co.uk/robots.txt",
+      "sha256": "6f4d889b439800fa4351629b482dcb6f8998b8f05669bd71247ee509ee62cd3e"
+    },
+    {
+      "url": "https://vinylguru.co.uk/",
+      "sha256": "51f1466b5aa354013823b6452827858f79e0abea61786d2386fbdd83cc7feb81"
+    },
+    {
+      "url": "https://vinylguru.co.uk/products.json?limit=20&page=1",
+      "sha256": "f492f6170ba867dbe9c26b05564ef416aaf75886ec5ae6e1a7fa114fbc82ec52"
+    },
+    {
+      "url": "https://vinylguru.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "f83d60a820f914c5f65be5d38bac3c6d1acbc2c770e2989c01dfb40aa9ae22c2"
+    },
+    {
+      "url": "https://vinylguru.co.uk/products/8bit-8319",
+      "sha256": "fe56af132edda5570881317245c7cfe21ee8f86de05e06636d2a3838704d6462"
+    },
+    {
+      "url": "https://vinylguru.co.uk/products/8bit-8252",
+      "sha256": "f0f090f1fe8ea69ca278c56b49948d9e4495b2bc8a5eb5befc1de07ec2a68e1e"
+    },
+    {
+      "url": "https://vinylguru.co.uk/products/8bit-8291?variant=58136211751299",
+      "sha256": "9a98f101c4f49771186b1c826446a9c3e836fe02b93498ec3c88a4bd4c1e9ae5"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45083891188-1",
+  "queue_rows": [
+    3413
+  ],
+  "assessment_path": "assessments/v2/vinylguru_co_uk/v2-45083891188-1.json"
+}
