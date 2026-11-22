@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T12:35:39.888893+00:00",
+  "shop_id": "mutingthenoise.com",
+  "row": 3943,
+  "name": "Muting The Noise",
+  "domain": "mutingthenoise.com",
+  "country": null,
+  "website": "https://mutingthenoise.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3943,
+    "name": "Muting The Noise",
+    "domain": "mutingthenoise.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://mutingthenoise.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "EUR",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://mutingthenoise.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://mutingthenoise.com/products.json?limit=20&page=1",
+        "score": 185,
+        "products_seen": 20,
+        "accepted": 18,
+        "excluded": 2,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://mutingthenoise.com/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://mutingthenoise.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://mutingthenoise.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://mutingthenoise.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://mutingthenoise.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://mutingthenoise.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://mutingthenoise.com/collections/all/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://mutingthenoise.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 16,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://mutingthenoise.com/robots.txt",
+      "sha256": "f7b396c47c5a996f5e053a1c38b626c37f9def5d3f5d5ca72c659a69cb7e7db7"
+    },
+    {
+      "url": "https://mutingthenoise.com/",
+      "sha256": "7e404c1dd28983de52a068915e782dfe2dab44e4e076f9b834e668ff91008827"
+    },
+    {
+      "url": "https://mutingthenoise.com/products.json?limit=20&page=1",
+      "sha256": "53f1b1722b58b26f6df806f2ca29ea4739243269203afe8996ef0b76da2f9df3"
+    },
+    {
+      "url": "https://mutingthenoise.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "bd5af2cef58ef9fadff86a6415d3dc45af506e8004d89f11dbdf91eda4e3393e"
+    },
+    {
+      "url": "https://mutingthenoise.com/products/hope-ep",
+      "sha256": "5373280df43079ebc5cfa4074d659abe4c2871b2278200125b87399b5683d788"
+    },
+    {
+      "url": "https://mutingthenoise.com/products/jimi-jules-plus",
+      "sha256": "345cd536b5613bbb4a4c2c69ca182bffdf9d209c850811d76dbb3c5e12eb9a08"
+    },
+    {
+      "url": "https://mutingthenoise.com/products/30-years-of-freerange-part-4?variant=55811153527075",
+      "sha256": "ac4c9b48a3f24c61abcc9d91038bb64e6d707dc0f4219098138fff7ddc08821d"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.10526315789473684,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45022525561-1",
+  "queue_rows": [
+    3943
+  ],
+  "assessment_path": "assessments/v2/mutingthenoise_com/v2-45022525561-1.json"
+}
