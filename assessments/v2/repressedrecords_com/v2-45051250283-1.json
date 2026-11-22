@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T17:51:00.228204+00:00",
+  "shop_id": "repressedrecords.com",
+  "row": 3531,
+  "name": "Repressed Records",
+  "domain": "repressedrecords.com",
+  "country": null,
+  "website": "https://repressedrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3531,
+    "name": "Repressed Records",
+    "domain": "repressedrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://repressedrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 17,
+    "excluded": 3,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://repressedrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://repressedrecords.com/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://repressedrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 175,
+        "products_seen": 20,
+        "accepted": 17,
+        "excluded": 3,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://repressedrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://repressedrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://repressedrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://repressedrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://repressedrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://repressedrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 175,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://repressedrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 17,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 17,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://repressedrecords.com/products/100-clear-visions-lp?variant=42224446636214",
+      "artist": "100%",
+      "title": "Clear Visions LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "39.95",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://repressedrecords.com/products/1-800-mikey-1-800-mikey-lp?variant=41922827681974",
+      "artist": "1-800-Mikey",
+      "title": "1-800-Mikey LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "27.95",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://repressedrecords.com/products/blue-gene-tyranny-detours-lp?variant=38073168724150",
+      "artist": "\"Blue\" Gene Tyranny",
+      "title": "Detours LP",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "27.95",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://repressedrecords.com/robots.txt",
+      "sha256": "41b6235a4e803d4721395449cad6cea5e3c41c02c73e8bb11580efdd9050406f"
+    },
+    {
+      "url": "https://repressedrecords.com/",
+      "sha256": "7975487a07fdce18909e49d793d99d6aa8703e42328e6714ab10c31b3b8fd781"
+    },
+    {
+      "url": "https://repressedrecords.com/products.json?limit=20&page=1",
+      "sha256": "545b604422165eaea17f4570150f749148fd73365c6161870aadf1909aad73dd"
+    },
+    {
+      "url": "https://repressedrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "af8ca671d4362a025cb0213e5ba776d53dffa9d0e4a44d1cc8238da37349dc99"
+    },
+    {
+      "url": "https://repressedrecords.com/products/blue-gene-tyranny-detours-lp",
+      "sha256": "5cb664e99e9d98d163130bc2c2ef0c4be0712fdc5babcc53d3562ea63bb95cca"
+    },
+    {
+      "url": "https://repressedrecords.com/products/blue-gene-tyranny-out-of-the-blue-lp",
+      "sha256": "39fa411761b169db73c4f060a5a6d4810f898e7c2d0460c428f9300d310da2de"
+    },
+    {
+      "url": "https://repressedrecords.com/products/100-clear-visions-lp?variant=42224446636214",
+      "sha256": "d37ef97332b89408d5f1852df495f37af1f6aedb967b8a6df384e81e13feb508"
+    },
+    {
+      "url": "https://repressedrecords.com/products/1-800-mikey-1-800-mikey-lp?variant=41922827681974",
+      "sha256": "a52545cf3dba6d74a57b1d5cca88b4ded56aa0e03939363e972571c32482dced"
+    },
+    {
+      "url": "https://repressedrecords.com/products/blue-gene-tyranny-detours-lp?variant=38073168724150",
+      "sha256": "c9ab4d8fa5a1b74ee5a373959c5230ff5a9e6abd8127ce5ad1f6fe19bf840d33"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://repressedrecords.com/products/100-clear-visions-lp?variant=42224446636214",
+    "https://repressedrecords.com/products/1-800-mikey-1-800-mikey-lp?variant=41922827681974",
+    "https://repressedrecords.com/products/blue-gene-tyranny-detours-lp?variant=38073168724150"
+  ],
+  "assessment_id": "v2-45051250283-1",
+  "queue_rows": [
+    3531
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 17,
+  "candidate_ref": "v2-45051250283-1/repressedrecords_com",
+  "assessment_path": "assessments/v2/repressedrecords_com/v2-45051250283-1.json"
+}
