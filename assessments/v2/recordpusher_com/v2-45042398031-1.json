@@ -1,0 +1,190 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T16:28:52.174525+00:00",
+  "shop_id": "recordpusher.com",
+  "row": 3794,
+  "name": "RecordPusher",
+  "domain": "recordpusher.com",
+  "country": null,
+  "website": "https://recordpusher.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3794,
+    "name": "RecordPusher",
+    "domain": "recordpusher.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://recordpusher.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 21,
+    "accepted": 8,
+    "excluded": 13,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "DKK",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://recordpusher.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://recordpusher.com/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "Invalid Shopify price"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://recordpusher.com/collections/all/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 21,
+        "accepted": 8,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://recordpusher.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://recordpusher.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://recordpusher.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://recordpusher.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://recordpusher.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://recordpusher.com/collections/all/products.json?limit=20&page=1",
+      "score": 85,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://recordpusher.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 8,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 8,
+    "unique_prices": 7,
+    "shipping_hits": 0,
+    "currencies": [
+      "DKK"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://recordpusher.com/robots.txt",
+      "sha256": "a9a2ba8acf5e392afe2165538d9330b2b4c1f701259f6bf07b7d933641104abe"
+    },
+    {
+      "url": "https://recordpusher.com/",
+      "sha256": "09cd6c707c6613d1f803275922a1536f7a159cf119fd4fe2b2bfb50451172159"
+    },
+    {
+      "url": "https://recordpusher.com/products.json?limit=20&page=1",
+      "sha256": "84510b06abca5d82b5bfa7b9a244a1a33a4d6c6a0ffedece43e2360e34e9beab"
+    },
+    {
+      "url": "https://recordpusher.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "86c225404b5fe99ab90962e25d4f8123a4d365dee6696d49604a988aef0ef4ce"
+    },
+    {
+      "url": "https://recordpusher.com/products/10-000-maniacs-in-my-tribe",
+      "sha256": "36deb2c2e36e6a98304cff7442f1cf0e6c8c442a6f09134dc6e70e116e8172b5"
+    },
+    {
+      "url": "https://recordpusher.com/products/101ers-elgin-avenue-breakdown",
+      "sha256": "140eaaa94aedf04920d4b509509469637f91ea8f7194d0877da4dbfe0ff42d8c"
+    },
+    {
+      "url": "https://recordpusher.com/products/13th-floor-elevators-youre-gonna-miss-me?variant=16766398593",
+      "sha256": "f4f11f2a3d3ae89a04ca3fdb66a9fd1ec13fa4358901ddb098a2b33e234c5184"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.875,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45042398031-1",
+  "queue_rows": [
+    3794
+  ],
+  "assessment_path": "assessments/v2/recordpusher_com/v2-45042398031-1.json"
+}
