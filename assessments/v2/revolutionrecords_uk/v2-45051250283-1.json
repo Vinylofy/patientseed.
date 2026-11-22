@@ -1,0 +1,200 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T17:53:54.530893+00:00",
+  "shop_id": "revolutionrecords.uk",
+  "row": 3474,
+  "name": "Revolutionrecords Uk",
+  "domain": "revolutionrecords.uk",
+  "country": null,
+  "website": "https://revolutionrecords.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3474,
+    "name": "Revolutionrecords Uk",
+    "domain": "revolutionrecords.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://revolutionrecords.uk/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 21,
+    "accepted": 4,
+    "excluded": 17,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://revolutionrecords.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://revolutionrecords.uk/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://revolutionrecords.uk/collections/all/products.json?limit=20&page=1",
+        "score": 45,
+        "products_seen": 21,
+        "accepted": 4,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://revolutionrecords.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://revolutionrecords.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://revolutionrecords.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://revolutionrecords.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://revolutionrecords.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://revolutionrecords.uk/collections/all/products.json?limit=20&page=1",
+      "score": 45,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://revolutionrecords.uk/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 4,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 4,
+    "unique_prices": 4,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://revolutionrecords.uk/robots.txt",
+      "sha256": "4073b14cb8fea26e1ebe5bfcd23d3fba26e2f3acdd862b541755f1fdb6f9bd4a"
+    },
+    {
+      "url": "https://revolutionrecords.uk/",
+      "sha256": "ee5c494d1c16e3333dd1b79ab00ec83134a0da38850fd519cdc5aac62dc94f9b"
+    },
+    {
+      "url": "https://revolutionrecords.uk/products.json?limit=20&page=1",
+      "sha256": "a38c55606b90f384c8c744691ae0053a8122c8cb106feee6cdaaff93ffbe00dc"
+    },
+    {
+      "url": "https://revolutionrecords.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "5622681fef31cd15e71010a9eb53e53a464adf670df1b9788191e2af4fcf63bc"
+    },
+    {
+      "url": "https://revolutionrecords.uk/products/ome-exy-ongs-4-u-cd-copy",
+      "sha256": "90822a377f7c5778f8166ca15be539d55ea952b5e753e7da71645371c5980c48"
+    },
+    {
+      "url": "https://revolutionrecords.uk/products/12-inch-pvc-gatefold-outer-sleeves-100-micron",
+      "sha256": "f7763abdf10fba4e0d7bab04b1004b86a4645824d472b162e7c820cfeec04bfd"
+    },
+    {
+      "url": "https://revolutionrecords.uk/products/12-inch-pvc-outer-sleeves-100-micron?variant=56450603745660",
+      "sha256": "336be9e4dda63341e8cbb76567489e89e25a937ec71e9e8ae6ea7603b5c4275f"
+    },
+    {
+      "url": "https://revolutionrecords.uk/products/12-inch-pvc-gatefold-outer-sleeves-100-micron?variant=56450615443836",
+      "sha256": "dd691c95f49f5e0b0a87b39acdfe9968adce3883302e78c0ffdd41a321878175"
+    },
+    {
+      "url": "https://revolutionrecords.uk/products/ome-exy-ongs-4-u-cd-copy?variant=55057270964604",
+      "sha256": "30034b0df838bb68b5b472a5c055c50da4091dda746f56c48e3366fb5377e913"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 2,
+    "detail_price_proven": 2,
+    "ean_valid": 2,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45051250283-1",
+  "queue_rows": [
+    3474
+  ],
+  "assessment_path": "assessments/v2/revolutionrecords_uk/v2-45051250283-1.json"
+}
