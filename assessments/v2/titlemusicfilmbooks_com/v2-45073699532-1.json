@@ -1,0 +1,238 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T21:55:19.992615+00:00",
+  "shop_id": "titlemusicfilmbooks.com",
+  "row": 3488,
+  "name": "TITLE Barangaroo",
+  "domain": "titlemusicfilmbooks.com",
+  "country": null,
+  "website": "https://titlemusicfilmbooks.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3488,
+    "name": "TITLE Barangaroo",
+    "domain": "titlemusicfilmbooks.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://titlemusicfilmbooks.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 12,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://titlemusicfilmbooks.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://titlemusicfilmbooks.com/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://titlemusicfilmbooks.com/collections/all/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://titlemusicfilmbooks.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://titlemusicfilmbooks.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://titlemusicfilmbooks.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://titlemusicfilmbooks.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://titlemusicfilmbooks.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://titlemusicfilmbooks.com/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://titlemusicfilmbooks.com/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://titlemusicfilmbooks.com/products/be-vinyl?variant=68047949627706",
+      "artist": "",
+      "title": "Be (Vinyl)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "90.00",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://titlemusicfilmbooks.com/products/starboy-10th-anniversary-red-black-marbled-vinyl?variant=68059968307514",
+      "artist": "",
+      "title": "Starboy (10th Anniversary Red & Black Marbled Vinyl)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "115.00",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://titlemusicfilmbooks.com/products/making-mirrors-15th-anniversary-cream-vinyl?variant=68060930179386",
+      "artist": "",
+      "title": "Making Mirrors (15th Anniversary Cream Vinyl)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "85.00",
+      "currency": "AUD",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://titlemusicfilmbooks.com/robots.txt",
+      "sha256": "b086240bb06442afd40922f6b6a561b01878d858e2a0844616c76d47ca036e11"
+    },
+    {
+      "url": "https://titlemusicfilmbooks.com/",
+      "sha256": "a89aa88dda6501333d06026cad7577b7ebcadd9a9406e12601dd502bec8d1393"
+    },
+    {
+      "url": "https://titlemusicfilmbooks.com/products.json?limit=20&page=1",
+      "sha256": "6433df6e77dcd108bc90c04c43f4ffe9cb17a37224dc50eb40c0997d6298cea8"
+    },
+    {
+      "url": "https://titlemusicfilmbooks.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "8f62b286d7d4f6afb96d027fe618b5d695194d497cf86a5b391008dd4e50cf91"
+    },
+    {
+      "url": "https://titlemusicfilmbooks.com/products/making-mirrors-15th-anniversary-cream-vinyl",
+      "sha256": "d930104bcd545a4ab1b09b4db9009b364c69c3c92beb295f3a9d6adbe9d26102"
+    },
+    {
+      "url": "https://titlemusicfilmbooks.com/products/polythene-30th-anniversary-orange-black-blue-vinyl-copy",
+      "sha256": "0bd58a6f545aba9241239c777ee639d244c378ea5d3669a6f2c5dcb9604b90c6"
+    },
+    {
+      "url": "https://titlemusicfilmbooks.com/products/be-vinyl?variant=68047949627706",
+      "sha256": "a32d457d760ab5d1a9e3ce4ac65e0d4cdca56559164113cc6500ebd748c61b0e"
+    },
+    {
+      "url": "https://titlemusicfilmbooks.com/products/starboy-10th-anniversary-red-black-marbled-vinyl?variant=68059968307514",
+      "sha256": "8d14c915ce6588e6612467566c6a862714137172800e3712366636314465bf47"
+    },
+    {
+      "url": "https://titlemusicfilmbooks.com/products/making-mirrors-15th-anniversary-cream-vinyl?variant=68060930179386",
+      "sha256": "6fdd5715c1c627cf70ca6a84c6a56d0e4f823e66bdf4d030fed925e9becafeac"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://titlemusicfilmbooks.com/products/be-vinyl?variant=68047949627706",
+    "https://titlemusicfilmbooks.com/products/starboy-10th-anniversary-red-black-marbled-vinyl?variant=68059968307514",
+    "https://titlemusicfilmbooks.com/products/making-mirrors-15th-anniversary-cream-vinyl?variant=68060930179386"
+  ],
+  "assessment_id": "v2-45073699532-1",
+  "queue_rows": [
+    3488
+  ],
+  "assessment_path": "assessments/v2/titlemusicfilmbooks_com/v2-45073699532-1.json"
+}
