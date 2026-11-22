@@ -5426,7 +5426,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | techniquerecords.com | 36 | FROZEN | 3 | 13 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | theaudionerd.com | 36 | FROZEN | 3 | 18 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | thedarkslide.com | 36 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
-| thedeadwaxrecords.com | 8 | APPROVED | 0 | 3 | 3/3 | ACTIVE | ACTIVE | run 40164542697 |
+| thedeadwaxrecords.com | 8 | APPROVED | 0 | 3 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 40164542697 |
 | theelmhenderson.com | 36 | FROZEN | 3 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | theendofallmusicjxn.com | 17 | FROZEN | 3 | 16 | 0/0 | ACTIVE | FROZEN | invalid_detail_gtin |
 | theexchange.com | 41 | REVIEW | 1 | 1 | 0/1 | INCIDENT | REPAIR_REQUIRED | detail_ean_not_proven |
