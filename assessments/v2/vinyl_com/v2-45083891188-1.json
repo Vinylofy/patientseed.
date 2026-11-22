@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T23:42:04.056327+00:00",
+  "shop_id": "vinyl.com",
+  "row": 3471,
+  "name": "vinyl",
+  "domain": "vinyl.com",
+  "country": null,
+  "website": "https://vinyl.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3471,
+    "name": "vinyl",
+    "domain": "vinyl.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://vinyl.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 12,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://vinyl.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://vinyl.com/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://vinyl.com/collections/all/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://vinyl.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinyl.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinyl.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinyl.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinyl.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://vinyl.com/collections/all/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://vinyl.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://vinyl.com/products/hed-p-e-new-and-improved?variant=51319905517873",
+      "artist": "(hed) p.e.",
+      "title": "New And Improved [Pink]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "27.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00889466659416"
+      ],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://vinyl.com/products/suicideboys-sing-me-a-lullaby-my-sweet-temptation?variant=45162999578929",
+      "artist": "$uicideboy$",
+      "title": "Sing Me A Lullaby, My Sweet Temptation [Green]",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "24.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00196925411752"
+      ],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://vinyl.com/products/the-cats-john-coltrane-tommy-flanagan-idrees-sulieman-kenny-burrell-the-cats-original-jazz-classics-series?variant=47879601357105",
+      "artist": "\"The Cats\"",
+      "title": "John Coltrane / Tommy Flanagan / Idrees Sulieman / Kenny Burrell - The Cats (Original Jazz Classics Series)",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "39.99",
+      "currency": "USD",
+      "valid_eans": [
+        "00888072505049"
+      ],
+      "condition_basis": "explicit_new"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://vinyl.com/robots.txt",
+      "sha256": "89be33f645fea288b6307c32fa9ba6def5d357547c087f9346301b48e383cab8"
+    },
+    {
+      "url": "https://vinyl.com/",
+      "sha256": "779af15e5c81b4eba832f6cf70e05fdfd8d4a38ac7b1eaa6b523a680903c3cd8"
+    },
+    {
+      "url": "https://vinyl.com/products.json?limit=20&page=1",
+      "sha256": "08dcff77c379f86f825eda4dcc7c64a5484d07adb5f3db5e856af5459d66ab74"
+    },
+    {
+      "url": "https://vinyl.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "c2245c24240d6b85b12b34b04f679d3e931343ab26063a4b7eecf3b34bd95af7"
+    },
+    {
+      "url": "https://vinyl.com/products/the-cats-john-coltrane-tommy-flanagan-idrees-sulieman-kenny-burrell-the-cats-original-jazz-classics-series",
+      "sha256": "63927fd724b91985c93cb6302709bd83ac6b6aec56d9ef129bb828f3b861bbdb"
+    },
+    {
+      "url": "https://vinyl.com/products/uicideboy-i-want-to-die-in-new-orleans",
+      "sha256": "c191bf1965647333ad16436300c1c81bd6051d2ac9c1a6f5bf0cfd7c4c9477a2"
+    },
+    {
+      "url": "https://vinyl.com/products/hed-p-e-new-and-improved?variant=51319905517873",
+      "sha256": "78ed38352486ab1d186c717f4985576c4e0abc35b130bbd61182aaa9121e2f57"
+    },
+    {
+      "url": "https://vinyl.com/products/suicideboys-sing-me-a-lullaby-my-sweet-temptation?variant=45162999578929",
+      "sha256": "88795ba7843ccf8ff6293c9ba5adf99d5c5b4735e9604ac0e8fe97bd395788cc"
+    },
+    {
+      "url": "https://vinyl.com/products/the-cats-john-coltrane-tommy-flanagan-idrees-sulieman-kenny-burrell-the-cats-original-jazz-classics-series?variant=47879601357105",
+      "sha256": "0b150f8dd4161c02f866fd6a86f30c3e8ba2945846734efa2a092018d296d3db"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.9166666666666666,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://vinyl.com/products/hed-p-e-new-and-improved?variant=51319905517873",
+    "https://vinyl.com/products/suicideboys-sing-me-a-lullaby-my-sweet-temptation?variant=45162999578929",
+    "https://vinyl.com/products/the-cats-john-coltrane-tommy-flanagan-idrees-sulieman-kenny-burrell-the-cats-original-jazz-classics-series?variant=47879601357105"
+  ],
+  "assessment_id": "v2-45083891188-1",
+  "queue_rows": [
+    3471
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 12,
+  "candidate_ref": "v2-45083891188-1/vinyl_com",
+  "assessment_path": "assessments/v2/vinyl_com/v2-45083891188-1.json"
+}
