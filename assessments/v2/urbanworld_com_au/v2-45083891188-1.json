@@ -1,0 +1,200 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T23:34:28.197155+00:00",
+  "shop_id": "urbanworld.com.au",
+  "row": 3501,
+  "name": "Urban World Australia",
+  "domain": "urbanworld.com.au",
+  "country": null,
+  "website": "https://urbanworld.com.au/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3501,
+    "name": "Urban World Australia",
+    "domain": "urbanworld.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://urbanworld.com.au/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 13,
+    "excluded": 7,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://urbanworld.com.au/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://urbanworld.com.au/products.json?limit=20&page=1",
+        "score": 75,
+        "products_seen": 20,
+        "accepted": 7,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://urbanworld.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 135,
+        "products_seen": 20,
+        "accepted": 13,
+        "excluded": 7,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://urbanworld.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://urbanworld.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://urbanworld.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://urbanworld.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://urbanworld.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://urbanworld.com.au/collections/all/products.json?limit=20&page=1",
+      "score": 135,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://urbanworld.com.au/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 13,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 13,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://urbanworld.com.au/robots.txt",
+      "sha256": "3d58a8cb7b62915b169667940e10c13a9233acf154e0667bb1b5510dc655a01b"
+    },
+    {
+      "url": "https://urbanworld.com.au/",
+      "sha256": "a70172ce1b2463aca927694466b68376ad56785b6a4a68b9fb55ca9fc5587f9a"
+    },
+    {
+      "url": "https://urbanworld.com.au/products.json?limit=20&page=1",
+      "sha256": "1f905e98eb311d93bf90b862f51b1cef89b94dbe0faef2edb778195b6eeb1dd9"
+    },
+    {
+      "url": "https://urbanworld.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "acbed6aea37cc610e19e9fe3557befb1765512b42b6fb4a0b8e7feba4573c3d8"
+    },
+    {
+      "url": "https://urbanworld.com.au/products/uicidebioy-i-want-to-die-in-new-orleans-2023-limited-edition-red-black-split-coloured-vinyl",
+      "sha256": "ea76b39af9fb07580e819a5f1d9eb72d24896cd71be70cfbbb94c4a2f5d1217b"
+    },
+    {
+      "url": "https://urbanworld.com.au/products/uicidebioy-i-want-to-die-in-new-orleans-2023-limited-edition-silver-coloured-vinyl",
+      "sha256": "1768e583a2a5f08674cd116f96c628eb90d3768a63bd9b67d1ac196ef196a4fd"
+    },
+    {
+      "url": "https://urbanworld.com.au/products/nsync-nsync-25th-anniversary-2023-vinyl-lp?variant=43813452153027",
+      "sha256": "f6ef92063c8b55761929ad504ac472e8a3b6b73de469f702832eac5745cef05a"
+    },
+    {
+      "url": "https://urbanworld.com.au/products/uicideboy-stop-staring-at-the-shadows-2026-limited-edition-indie-exclusive-ghost-grey-colour-vinyl-lp?variant=54082884698307",
+      "sha256": "130e49b4dc65e7efcab8e4eb93f1dd6c552c2decfd4dbf26c74a93e2562aa9a3"
+    },
+    {
+      "url": "https://urbanworld.com.au/products/uicidebioy-i-want-to-die-in-new-orleans-2023-limited-edition-red-black-split-coloured-vinyl?variant=43638037577923",
+      "sha256": "321d35b09163ca02944c5d35278f35820c4e476db10abd8430ec2662b818e568"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 2,
+    "detail_price_proven": 2,
+    "ean_valid": 2,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.9230769230769231,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45083891188-1",
+  "queue_rows": [
+    3501
+  ],
+  "assessment_path": "assessments/v2/urbanworld_com_au/v2-45083891188-1.json"
+}
