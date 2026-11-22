@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T21:49:58.733002+00:00",
+  "shop_id": "rockshoprecordstores.com",
+  "row": 4972,
+  "name": "The Rock Shop",
+  "domain": "rockshoprecordstores.com",
+  "country": null,
+  "website": "https://rockshoprecordstores.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4972,
+    "name": "The Rock Shop",
+    "domain": "rockshoprecordstores.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://rockshoprecordstores.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://rockshoprecordstores.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://rockshoprecordstores.com/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://rockshoprecordstores.com/collections/all/products.json?limit=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://rockshoprecordstores.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rockshoprecordstores.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://rockshoprecordstores.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rockshoprecordstores.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://rockshoprecordstores.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://rockshoprecordstores.com/products.json?limit=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://rockshoprecordstores.com/products.json?limit=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 17,
+    "shipping_hits": 0,
+    "currencies": [
+      "USD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://rockshoprecordstores.com/robots.txt",
+      "sha256": "481dcb11f7cfd45699b700152b86fada516e65204e4c28eb51838ab5d6018387"
+    },
+    {
+      "url": "https://rockshoprecordstores.com/",
+      "sha256": "8ffa3d3df76bc729c59ce4e330bc462b9a0c15d888e676431cd145b0915636bc"
+    },
+    {
+      "url": "https://rockshoprecordstores.com/products.json?limit=20&page=1",
+      "sha256": "f7a94374a600291ab0181f38bbe799c6b55a041edeb014c6e76fbe0d8118c473"
+    },
+    {
+      "url": "https://rockshoprecordstores.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "c0c63ce7e2918ce7ccf1f93b38f1fac412989afc96c46e0826645bf3bfa61f0c"
+    },
+    {
+      "url": "https://rockshoprecordstores.com/products/n-w-a-greatest-hits-explicit-content-bonus-track-remastered-2-lps-2",
+      "sha256": "bb7951eb59d52769393f95a40d3d6de333e0082d9cb4016f773a078003cf0ffa"
+    },
+    {
+      "url": "https://rockshoprecordstores.com/products/n-w-a-greatest-hits-explicit-content-bonus-track-remastered-2-lps-1",
+      "sha256": "90c4e2a78a732add8b08efeb75f835918ab85fe467004404a00799a9f7822732"
+    },
+    {
+      "url": "https://rockshoprecordstores.com/products/tori-amos-little-earthquakes-180-gram-vinyl?variant=40360215838780",
+      "sha256": "73a3735ebf8190b6ff11ed9bdf1f5d7a6a9836edb898288b405e480805d30334"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45073699532-1",
+  "queue_rows": [
+    4972
+  ],
+  "assessment_path": "assessments/v2/rockshoprecordstores_com/v2-45073699532-1.json"
+}
