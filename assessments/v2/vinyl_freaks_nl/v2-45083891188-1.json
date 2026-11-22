@@ -1,0 +1,187 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T23:50:42.012333+00:00",
+  "shop_id": "vinyl-freaks.nl",
+  "row": 4426,
+  "name": "VinylFreaks",
+  "domain": "vinyl-freaks.nl",
+  "country": null,
+  "website": "https://vinyl-freaks.nl/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4426,
+    "name": "VinylFreaks",
+    "domain": "vinyl-freaks.nl",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "woocommerce",
+    "source_url": "https://vinyl-freaks.nl/wp-json/wc/store/v1/products?per_page=20&page=1",
+    "adapter_class": "WooCommerceNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 20,
+    "excluded": 0,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "method_candidates": [
+      {
+        "platform": "woocommerce",
+        "route": "https://vinyl-freaks.nl/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 205,
+        "products_seen": 20,
+        "accepted": 20,
+        "excluded": 0,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://vinyl-freaks.nl/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://vinyl-freaks.nl/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "JSONDecodeError"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinyl-freaks.nl/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://vinyl-freaks.nl/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinyl-freaks.nl/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://vinyl-freaks.nl/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "woocommerce",
+      "route": "https://vinyl-freaks.nl/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "score": 205,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "woocommerce",
+  "catalog_route": "https://vinyl-freaks.nl/wp-json/wc/store/v1/products?per_page=20&page=1",
+  "listing_sample": 20,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 20,
+    "unique_prices": 14,
+    "shipping_hits": 0,
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://vinyl-freaks.nl/robots.txt",
+      "sha256": "80864dbdb25407f5195e769843c28a64ea8a6a45126d7aee7e5d4494fd662c8d"
+    },
+    {
+      "url": "https://vinyl-freaks.nl/",
+      "sha256": "9dbe08bd926d82bfce2b9679aefa93c4f3f1e72c9ada4f3f0307a124996dc3c0"
+    },
+    {
+      "url": "https://vinyl-freaks.nl/wp-json/wc/store/v1/products?per_page=20&page=1",
+      "sha256": "6a014188dde6a6532a1713d1ef83207e0a551697421123edfc36b5aa79af1d9e"
+    },
+    {
+      "url": "https://vinyl-freaks.nl/collections/all/products.json?limit=20&page=1",
+      "sha256": "d047ebf175e14dfb2ce637fd0ff753034c99de75130455441be2d0c933eab04e"
+    },
+    {
+      "url": "https://vinyl-freaks.nl/plaat/the-rolling-stones-through-the-past-darkly-big-hits-vol-2/",
+      "sha256": "4b768203ace75d06d0da41b5ce128756b7c4ba028b83fa3ac6830d31f1157734"
+    },
+    {
+      "url": "https://vinyl-freaks.nl/plaat/of-montreal-snare-lustrous-doomings/",
+      "sha256": "c007fc5b8b9b30a4f90d87244432267b9e18bb35ac490ecd0997d59d909e6697"
+    },
+    {
+      "url": "https://vinyl-freaks.nl/plaat/roaring-boys-every-second-of-the-day/",
+      "sha256": "b5ec5fffa3f0eba549f426694b3cf2b4aced76455ff2a834f97deb26c3854754"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_secondhand_signal"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.8,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_secondhand_signal"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45083891188-1",
+  "queue_rows": [
+    4426
+  ],
+  "assessment_path": "assessments/v2/vinyl_freaks_nl/v2-45083891188-1.json"
+}
