@@ -1,0 +1,246 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T21:01:33.862438+00:00",
+  "shop_id": "taiobadiscos.com.br",
+  "row": 3684,
+  "name": "Taioba Discos",
+  "domain": "taiobadiscos.com.br",
+  "country": null,
+  "website": "https://taiobadiscos.com.br/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3684,
+    "name": "Taioba Discos",
+    "domain": "taiobadiscos.com.br",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://taiobadiscos.com.br/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 11,
+    "excluded": 9,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "BRL",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://taiobadiscos.com.br/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://taiobadiscos.com.br/products.json?limit=20&page=1",
+        "score": 85,
+        "products_seen": 20,
+        "accepted": 8,
+        "excluded": 12,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://taiobadiscos.com.br/collections/all/products.json?limit=20&page=1",
+        "score": 115,
+        "products_seen": 20,
+        "accepted": 11,
+        "excluded": 9,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://taiobadiscos.com.br/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://taiobadiscos.com.br/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://taiobadiscos.com.br/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://taiobadiscos.com.br/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://taiobadiscos.com.br/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://taiobadiscos.com.br/collections/all/products.json?limit=20&page=1",
+      "score": 115,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://taiobadiscos.com.br/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 11,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 11,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "BRL"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://taiobadiscos.com.br/products/afonso-maia-talento-brasileiro-vol11-de-noel-rosa-a-roberto-carlos-lp-67565b949e5c9?variant=50052687167805",
+      "artist": "Afonso Maia (2)",
+      "title": "Talento Brasileiro, Vol.11, De Noel Rosa A Roberto Carlos (Disco de Vinil LP, usado)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "20.00",
+      "currency": "BRL",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://taiobadiscos.com.br/products/adoniran-barbosa-o-poeta-do-bexiga-lp-66e8b67eab9f6?variant=49322943447357",
+      "artist": "Adoniran Barbosa",
+      "title": "O Poeta do Bexiga (LP)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "179.99",
+      "currency": "BRL",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://taiobadiscos.com.br/products/5-a-seco-sentido-lp-capa-m-disco-m?variant=50405224579389",
+      "artist": "5 A Seco",
+      "title": "Sentido (Disco de Vinil LP, lacrado)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "129.90",
+      "currency": "BRL",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://taiobadiscos.com.br/robots.txt",
+      "sha256": "3fc434c269e96f39b0e645073b761d0ec51b71a29b7163112e2c90eda0c5115c"
+    },
+    {
+      "url": "https://taiobadiscos.com.br/",
+      "sha256": "9b06aed4f985c2f70ef497d6139a1456f69b65c33d142202b9fc0e89addee0da"
+    },
+    {
+      "url": "https://taiobadiscos.com.br/products.json?limit=20&page=1",
+      "sha256": "6f7f82d4354af5a371a4c42ce59a9d5dbab629051ebc1696fa8f65162eef1fd0"
+    },
+    {
+      "url": "https://taiobadiscos.com.br/collections/all/products.json?limit=20&page=1",
+      "sha256": "1c9aa6337f774541a7f85f5ae6a8a04b62706de4fac0f6edc49ae408c3274088"
+    },
+    {
+      "url": "https://taiobadiscos.com.br/products/5-a-seco-sentido-lp-capa-m-disco-m",
+      "sha256": "8a992d9f906244f6abb6ed4df0cb5deabfbfb299da716751e78d7daa3cbae895"
+    },
+    {
+      "url": "https://taiobadiscos.com.br/products/a-espetacular-charanga-do-franca-nunca-nao-e-carnaval-disco-de-vinil-lp",
+      "sha256": "711b606529a02a45add439ba357c4205938a4637ea8d488f31191a5857e7f63a"
+    },
+    {
+      "url": "https://taiobadiscos.com.br/products/afonso-maia-talento-brasileiro-vol11-de-noel-rosa-a-roberto-carlos-lp-67565b949e5c9?variant=50052687167805",
+      "sha256": "0b5acb135bf6ec8748dda1c5ecdd1e3359787fe30e160d61b4ef23dd84d946ad"
+    },
+    {
+      "url": "https://taiobadiscos.com.br/products/adoniran-barbosa-o-poeta-do-bexiga-lp-66e8b67eab9f6?variant=49322943447357",
+      "sha256": "46caab08c015fb7d43bddead38e415da96a1d089e96fd652dcf553440495de61"
+    },
+    {
+      "url": "https://taiobadiscos.com.br/products/5-a-seco-sentido-lp-capa-m-disco-m?variant=50405224579389",
+      "sha256": "a5fd2bfbeb9e401fc57828bcf6cc71a101c287cb6f95cabc84b956ca411e3ad3"
+    }
+  ],
+  "scraper_type": "ARTIST_TITLE",
+  "preferred_scraper_type": "ARTIST_TITLE",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "artist_title_consistent_on_listing_and_three_distinct_details",
+    "ean_coverage_insufficient"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 0,
+    "identity_details_proven": 3,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "HIGH",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://taiobadiscos.com.br/products/afonso-maia-talento-brasileiro-vol11-de-noel-rosa-a-roberto-carlos-lp-67565b949e5c9?variant=50052687167805",
+    "https://taiobadiscos.com.br/products/adoniran-barbosa-o-poeta-do-bexiga-lp-66e8b67eab9f6?variant=49322943447357",
+    "https://taiobadiscos.com.br/products/5-a-seco-sentido-lp-capa-m-disco-m?variant=50405224579389"
+  ],
+  "assessment_id": "v2-45067665621-1",
+  "queue_rows": [
+    3684
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 11,
+  "candidate_ref": "v2-45067665621-1/taiobadiscos_com_br",
+  "assessment_path": "assessments/v2/taiobadiscos_com_br/v2-45067665621-1.json"
+}
