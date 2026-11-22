@@ -1,0 +1,251 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T20:41:50.384922+00:00",
+  "shop_id": "sound-merch.com.au",
+  "row": 3521,
+  "name": "Soundmerch",
+  "domain": "sound-merch.com.au",
+  "country": null,
+  "website": "https://sound-merch.com.au/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3521,
+    "name": "Soundmerch",
+    "domain": "sound-merch.com.au",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://sound-merch.com.au/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 14,
+    "excluded": 6,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://sound-merch.com.au/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://sound-merch.com.au/products.json?limit=20&page=1",
+        "score": 145,
+        "products_seen": 20,
+        "accepted": 14,
+        "excluded": 6,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://sound-merch.com.au/collections/all/products.json?limit=20&page=1",
+        "score": 75,
+        "products_seen": 20,
+        "accepted": 7,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://sound-merch.com.au/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://sound-merch.com.au/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://sound-merch.com.au/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://sound-merch.com.au/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://sound-merch.com.au/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://sound-merch.com.au/products.json?limit=20&page=1",
+      "score": 145,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://sound-merch.com.au/products.json?limit=20&page=1",
+  "listing_sample": 14,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 14,
+    "unique_prices": 9,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://sound-merch.com.au/products/spiderbait-greatest-hits-25th-anniversary-edition-lp-vinyl?variant=48447467651244",
+      "artist": "",
+      "title": "Spiderbait / Greatest Hits: 25th Anniversary Edition 2xLP Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "50.95",
+      "currency": "AUD",
+      "valid_eans": [
+        "00602547710789"
+      ],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://sound-merch.com.au/products/the-drones-gala-mill-2xlp-vinyl?variant=41492539113644",
+      "artist": "",
+      "title": "The Drones / Gala Mill 2xLP Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "60.00",
+      "currency": "AUD",
+      "valid_eans": [
+        "00666017147215"
+      ],
+      "condition_basis": "explicit_new"
+    },
+    {
+      "url": "https://sound-merch.com.au/products/belle-and-sebastian-if-youre-feeling-sinister-lp-30th-anniversary-edition-white-vinyl-pre-order?variant=48465690099884",
+      "artist": "",
+      "title": "Belle And Sebastian / If You're Feeling Sinister LP 30th Anniversary Edition White Vinyl ***PRE-ORDER***",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "53.95",
+      "currency": "AUD",
+      "valid_eans": [
+        "00744861029694"
+      ],
+      "condition_basis": "explicit_new"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://sound-merch.com.au/robots.txt",
+      "sha256": "829f94e8c2921a8a78fdd27d30eaf5b419a28a5f2941839392b73d4b922bc614"
+    },
+    {
+      "url": "https://sound-merch.com.au/",
+      "sha256": "3d6d06c6c64f0dd983dc389a84548c43c1b666c3d2715b1b5e9156e17e71bfb5"
+    },
+    {
+      "url": "https://sound-merch.com.au/products.json?limit=20&page=1",
+      "sha256": "e30e22dc03a624e03c1c2abc5d6c76fed3ca022963fa3813c9348f61c2bfd284"
+    },
+    {
+      "url": "https://sound-merch.com.au/collections/all/products.json?limit=20&page=1",
+      "sha256": "33baef9864d1befa239139139dc1294d7d3a590749f262aa51b9bfa9dd7c00a0"
+    },
+    {
+      "url": "https://sound-merch.com.au/products/belle-and-sebastian-if-youre-feeling-sinister-lp-30th-anniversary-edition-white-vinyl-pre-order",
+      "sha256": "908e2daa5a67e2e97228d6a5399474c58bf264c1e05966df5ee54b149ad46b9d"
+    },
+    {
+      "url": "https://sound-merch.com.au/products/x-ray-spex-conscious-consumer-lp-crystal-clear-vinyl",
+      "sha256": "dabab1926abd85f051185f66f06ff63192eb3aaa9bf37d2929edd91d10333124"
+    },
+    {
+      "url": "https://sound-merch.com.au/products/spiderbait-greatest-hits-25th-anniversary-edition-lp-vinyl?variant=48447467651244",
+      "sha256": "6e2efd7d797cf0fd356d6b10fbf4f1dda50d9df90393de247150b22e30822002"
+    },
+    {
+      "url": "https://sound-merch.com.au/products/the-drones-gala-mill-2xlp-vinyl?variant=41492539113644",
+      "sha256": "8c094bf782767346df4896be49855ba1f28bd77b59bc65507a6e440782a59f4a"
+    },
+    {
+      "url": "https://sound-merch.com.au/products/belle-and-sebastian-if-youre-feeling-sinister-lp-30th-anniversary-edition-white-vinyl-pre-order?variant=48465690099884",
+      "sha256": "b49e1a933327b2e15a6c6fb2f2c33be8a645d3692c320e4d50e7f5636a8be911"
+    }
+  ],
+  "scraper_type": "EAN",
+  "preferred_scraper_type": "EAN",
+  "supports_artist_title_fallback": false,
+  "suitability": "SUITABLE",
+  "assessment_ready": false,
+  "build_eligible": true,
+  "reason": [
+    "own_product_valid_gtin_coverage_at_least_80_percent_of_sample"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 3,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "MEDIUM",
+  "priority_reason": [
+    "country_order_NL_BE_GB_US_other",
+    "bounded_identity_price_quality",
+    "reuses_existing_adapter",
+    "catalogue_size_unknown_not_assumed"
+  ],
+  "non_ean_potential": "LOW",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "BUILT_AWAITING_MANUAL_TEST",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://sound-merch.com.au/products/spiderbait-greatest-hits-25th-anniversary-edition-lp-vinyl?variant=48447467651244",
+    "https://sound-merch.com.au/products/the-drones-gala-mill-2xlp-vinyl?variant=41492539113644",
+    "https://sound-merch.com.au/products/belle-and-sebastian-if-youre-feeling-sinister-lp-30th-anniversary-edition-white-vinyl-pre-order?variant=48465690099884"
+  ],
+  "assessment_id": "v2-45067665621-1",
+  "queue_rows": [
+    3521
+  ],
+  "build_attempts": 1,
+  "build_test": "wrapper_import_and_live_listing_contract",
+  "build_test_records": 14,
+  "candidate_ref": "v2-45067665621-1/sound_merch_com_au",
+  "assessment_path": "assessments/v2/sound_merch_com_au/v2-45067665621-1.json"
+}
