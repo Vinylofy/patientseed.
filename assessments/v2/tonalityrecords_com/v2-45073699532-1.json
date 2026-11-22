@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T21:56:41.270082+00:00",
+  "shop_id": "tonalityrecords.com",
+  "row": 3728,
+  "name": "Tonality Records",
+  "domain": "tonalityrecords.com",
+  "country": null,
+  "website": "https://tonalityrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3728,
+    "name": "Tonality Records",
+    "domain": "tonalityrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://tonalityrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 6,
+    "excluded": 14,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "CAD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://tonalityrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://tonalityrecords.com/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://tonalityrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://tonalityrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://tonalityrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://tonalityrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://tonalityrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://tonalityrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://tonalityrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 65,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://tonalityrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 6,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 6,
+    "unique_prices": 5,
+    "shipping_hits": 0,
+    "currencies": [
+      "CAD"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://tonalityrecords.com/robots.txt",
+      "sha256": "21a0e429063b6f5f83d7f8cbb97339f73bfc8f60d0c60771de0f33c386e11a75"
+    },
+    {
+      "url": "https://tonalityrecords.com/",
+      "sha256": "6cf4071e49ff85e8c00265f81b1959ae69f0362c099ca882d5939aa635abe355"
+    },
+    {
+      "url": "https://tonalityrecords.com/products.json?limit=20&page=1",
+      "sha256": "0248708eaf23260a88e99db9fed7be5091ff824824d5847229e0a2a5dc983a5a"
+    },
+    {
+      "url": "https://tonalityrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "5bdaa0da21ddd61250e8aacd2fef84a64c466b8d71ce4f7d24f6aef759e75dcd"
+    },
+    {
+      "url": "https://tonalityrecords.com/products/the-rocky-horror-picture-show-original-cast-the-rocky-horror-picture-show-new-vinyl",
+      "sha256": "cf8cce2a4e03e23dec345ea7f2be7f64796ad3af2b1987cca40de169d5aade5e"
+    },
+    {
+      "url": "https://tonalityrecords.com/products/1-000-pieces-yellllow-and-blaack-and-blacck-new-vinyl",
+      "sha256": "2dee5795f83f9592054c573be2bcafc099d33b65e4be94579bd0a136c2438209"
+    },
+    {
+      "url": "https://tonalityrecords.com/products/9million-gush-new-vinyl?variant=42314373890127",
+      "sha256": "3ffab9d26bafd2f6460a0d8a904391285a7ca5b1d5534892fe09c6560906308b"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45073699532-1",
+  "queue_rows": [
+    3728
+  ],
+  "assessment_path": "assessments/v2/tonalityrecords_com/v2-45073699532-1.json"
+}
