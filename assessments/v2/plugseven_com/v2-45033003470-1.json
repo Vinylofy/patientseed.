@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T14:46:20.567560+00:00",
+  "shop_id": "plugseven.com",
+  "row": 3517,
+  "name": "Plug Seven",
+  "domain": "plugseven.com",
+  "country": null,
+  "website": "https://plugseven.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3517,
+    "name": "Plug Seven",
+    "domain": "plugseven.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://plugseven.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 32,
+    "accepted": 19,
+    "excluded": 13,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://plugseven.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://plugseven.com/products.json?limit=20&page=1",
+        "score": 65,
+        "products_seen": 20,
+        "accepted": 6,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://plugseven.com/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 32,
+        "accepted": 19,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://plugseven.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://plugseven.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://plugseven.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://plugseven.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://plugseven.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://plugseven.com/collections/all/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://plugseven.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 14,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://plugseven.com/robots.txt",
+      "sha256": "f3842c6349a8899a6233fb89696fedbaec6fce6ec20ab071c4a32d16a16264ba"
+    },
+    {
+      "url": "https://plugseven.com/",
+      "sha256": "2793910679cabaeb0280a5ca3ffbb95a03cc22e0c42247086370a78faddb720a"
+    },
+    {
+      "url": "https://plugseven.com/products.json?limit=20&page=1",
+      "sha256": "6d4d65f130617c8496e5571dcc7f9b347a52b2215dff46adceb86518dedd2a66"
+    },
+    {
+      "url": "https://plugseven.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "f04ad6c1a2b5f4afd76c8ff6ed972f9bb1188e2f2f6e3177c8f02ecad893fff5"
+    },
+    {
+      "url": "https://plugseven.com/products/12-lp-storage-box-with-lid-cardboard-black",
+      "sha256": "32de663eafc118081c200b0dade7bb201eefa647679c09736a96d6634761b49d"
+    },
+    {
+      "url": "https://plugseven.com/products/12-poly-lined-inner-sleeves-w-paper-insert-made-in-japan",
+      "sha256": "b9ceac4e01755467feda0b51c15c17f84a9f0b5630120371da1220c9ecee87cc"
+    },
+    {
+      "url": "https://plugseven.com/products/12-paper-inner-sleeves-white-made-in-japan?variant=46756125868169",
+      "sha256": "44ec55396e9515ccd0ea52ca488f75d04f545790efa7847795d235ba89c4b6f7"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.5263157894736842,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45033003470-1",
+  "queue_rows": [
+    3517
+  ],
+  "assessment_path": "assessments/v2/plugseven_com/v2-45033003470-1.json"
+}
