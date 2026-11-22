@@ -1,0 +1,200 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T12:43:44.996073+00:00",
+  "shop_id": "nothingventuredvinyl.co.uk",
+  "row": 4794,
+  "name": "Nothing Ventured Vinyl",
+  "domain": "nothingventuredvinyl.co.uk",
+  "country": null,
+  "website": "https://nothingventuredvinyl.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4794,
+    "name": "Nothing Ventured Vinyl",
+    "domain": "nothingventuredvinyl.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://nothingventuredvinyl.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://nothingventuredvinyl.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://nothingventuredvinyl.co.uk/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://nothingventuredvinyl.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://nothingventuredvinyl.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://nothingventuredvinyl.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://nothingventuredvinyl.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://nothingventuredvinyl.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://nothingventuredvinyl.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://nothingventuredvinyl.co.uk/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://nothingventuredvinyl.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 6,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://nothingventuredvinyl.co.uk/robots.txt",
+      "sha256": "2920960ceed3eca6964d6d26bcec3b7818c7f5f81bfe189657aa9259a01241c6"
+    },
+    {
+      "url": "https://nothingventuredvinyl.co.uk/",
+      "sha256": "bdb65e55ab10a1a2e73f35e1fab83823910e93ac4dac1044a9e1d13d7b7fdb2e"
+    },
+    {
+      "url": "https://nothingventuredvinyl.co.uk/products.json?limit=20&page=1",
+      "sha256": "90b36c9ab8fb0cb636ead3482868535d5d432d181679ca1a258b13f64f5db0b0"
+    },
+    {
+      "url": "https://nothingventuredvinyl.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "1ccd69e30398e3489fbe0ba67cf19170d4dc7e83d34b30cb0dc35cc1e9ab82b5"
+    },
+    {
+      "url": "https://nothingventuredvinyl.co.uk/products/turbulent-coming-back",
+      "sha256": "e58912fe5f064ff63ff2a63df4740623129378ae438b04995ee64289f962c16f"
+    },
+    {
+      "url": "https://nothingventuredvinyl.co.uk/products/manuel-darquart-edits-2",
+      "sha256": "2dc8234e5de4e59fb0ee9bf982034799aa7719689caae589e26dbd2091269487"
+    },
+    {
+      "url": "https://nothingventuredvinyl.co.uk/products/gorgon-city-aether?variant=59345460920694",
+      "sha256": "d1a37dbe3e405a5deb7b65648e146fb089e4c36a41fa5b1cd2d9264c695668a5"
+    },
+    {
+      "url": "https://nothingventuredvinyl.co.uk/products/lone-home-dj-python-remix-affinity-into-the-void?variant=59419875443062",
+      "sha256": "a5a428658391449c14aaa1c1b1fbeb69c2109bdb559b6b4efb43eff7d7264196"
+    },
+    {
+      "url": "https://nothingventuredvinyl.co.uk/products/turbulent-coming-back?variant=59421156049270",
+      "sha256": "db9c5f3d1947bf1c92c16701a2c5d9d1b08b7e9ddacc0bd50b6d6fca776ebc21"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "invalid_detail_gtin"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 2,
+    "detail_price_proven": 2,
+    "ean_valid": 2,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 0.9473684210526315,
+    "sale_price_recognizable": null,
+    "cover_available": true,
+    "access_problem": "invalid_detail_gtin"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45022525561-1",
+  "queue_rows": [
+    4794
+  ],
+  "assessment_path": "assessments/v2/nothingventuredvinyl_co_uk/v2-45022525561-1.json"
+}
