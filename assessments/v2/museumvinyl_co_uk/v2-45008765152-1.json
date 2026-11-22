@@ -1,0 +1,222 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T09:56:20.620836+00:00",
+  "shop_id": "museumvinyl.co.uk",
+  "row": 3361,
+  "name": "Museumvinyl",
+  "domain": "museumvinyl.co.uk",
+  "country": null,
+  "website": "https://museumvinyl.co.uk/",
+  "previous_status": "ADAPTER_TESTED",
+  "previous_reason": "no confirmed new vinyl on bounded page",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3361,
+    "name": "Museumvinyl",
+    "domain": "museumvinyl.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://museumvinyl.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 2,
+    "excluded": 18,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://museumvinyl.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://museumvinyl.co.uk/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://museumvinyl.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://museumvinyl.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://museumvinyl.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://museumvinyl.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://museumvinyl.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://museumvinyl.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://museumvinyl.co.uk/products.json?limit=20&page=1",
+      "score": 25,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://museumvinyl.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 2,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 2,
+    "unique_prices": 2,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": true,
+  "examples": [
+    {
+      "url": "https://museumvinyl.co.uk/products/olivia-rodrigo-sour-lp-ltd-indie-magenta?variant=40574652154014",
+      "artist": "Olivia Rodrigo",
+      "title": "Sour Lp (Ltd 'Ego Crush' Yellow)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "26.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://museumvinyl.co.uk/products/u2-carnaval-de-luz-lp-ltd-powder-pink-booklet?variant=60453280383360",
+      "artist": "U2",
+      "title": "Carnaval De Luz Lp (Ltd Powder Pink + Booklet)",
+      "identity_method": "consistent_single_delimiter",
+      "identity_proven": true,
+      "price": "29.00",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://museumvinyl.co.uk/robots.txt",
+      "sha256": "b128bc1c46ca2448512c1e7f2224ade9e3190a6ad1f96818174b0684e99ce81b"
+    },
+    {
+      "url": "https://museumvinyl.co.uk/",
+      "sha256": "656e3461ba905f96529a4beaf1ea8244284ec8f271c6b5c3dd98e272a773c009"
+    },
+    {
+      "url": "https://museumvinyl.co.uk/products.json?limit=20&page=1",
+      "sha256": "5fa91290084c4a40a37570500a211e995272c479f2ae522371c6a7ba47808e5e"
+    },
+    {
+      "url": "https://museumvinyl.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "f527acee6b15764963d7c6b3cb68aed0c00ac99941eda72855a78860dae330f2"
+    },
+    {
+      "url": "https://museumvinyl.co.uk/products/u2-carnaval-de-luz-lp-ltd-powder-pink-booklet",
+      "sha256": "f9fb78013105f13d9968f4851e98446acef3607b222a93d1594b528b39a5cdd0"
+    },
+    {
+      "url": "https://museumvinyl.co.uk/products/olivia-rodrigo-sour-lp-ltd-indie-magenta",
+      "sha256": "bd162f552e78667ca83afe71c723049de5dc272993d7b3e8e747c12268357d8c"
+    },
+    {
+      "url": "https://museumvinyl.co.uk/products/olivia-rodrigo-sour-lp-ltd-indie-magenta?variant=40574652154014",
+      "sha256": "4d754fcc4e99ff5e44735fb3b4715b491b09bce1db2b1cb51b2eb27a8dc4514a"
+    },
+    {
+      "url": "https://museumvinyl.co.uk/products/u2-carnaval-de-luz-lp-ltd-powder-pink-booklet?variant=60453280383360",
+      "sha256": "2bb6e15ab2d5e4ded1207c33a8c94d1ea18e8e36c5b0031dcd804d238959fd87"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "insufficient_representative_product_evidence"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 2,
+    "detail_price_proven": 2,
+    "ean_valid": 0,
+    "identity_details_proven": 2,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "NOT_PROVEN_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [
+    "https://museumvinyl.co.uk/products/olivia-rodrigo-sour-lp-ltd-indie-magenta?variant=40574652154014",
+    "https://museumvinyl.co.uk/products/u2-carnaval-de-luz-lp-ltd-powder-pink-booklet?variant=60453280383360"
+  ],
+  "assessment_id": "v2-45008765152-1",
+  "queue_rows": [
+    3361
+  ],
+  "assessment_path": "assessments/v2/museumvinyl_co_uk/v2-45008765152-1.json"
+}
