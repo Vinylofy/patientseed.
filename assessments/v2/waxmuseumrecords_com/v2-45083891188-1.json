@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T23:57:23.504330+00:00",
+  "shop_id": "waxmuseumrecords.com",
+  "row": 3525,
+  "name": "Wax Museum Records",
+  "domain": "waxmuseumrecords.com",
+  "country": null,
+  "website": "https://waxmuseumrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3525,
+    "name": "Wax Museum Records",
+    "domain": "waxmuseumrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://waxmuseumrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 2,
+    "excluded": 18,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "AUD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://waxmuseumrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://waxmuseumrecords.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://waxmuseumrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 25,
+        "products_seen": 20,
+        "accepted": 2,
+        "excluded": 18,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://waxmuseumrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://waxmuseumrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://waxmuseumrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://waxmuseumrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://waxmuseumrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://waxmuseumrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 25,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://waxmuseumrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 2,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 2,
+    "unique_prices": 2,
+    "shipping_hits": 0,
+    "currencies": [
+      "AUD"
+    ]
+  },
+  "secondhand_observed": true,
+  "requests": [
+    {
+      "url": "https://waxmuseumrecords.com/robots.txt",
+      "sha256": "622725db2b1cde74514dbc1db548d37557eebf32c5624edfa8efe024ebbfdc61"
+    },
+    {
+      "url": "https://waxmuseumrecords.com/",
+      "sha256": "bb30f50544d665b6ce6bcb92b830fceb8eaaac6acf9e158d72fb3417230a76d4"
+    },
+    {
+      "url": "https://waxmuseumrecords.com/products.json?limit=20&page=1",
+      "sha256": "6cee816385bd726e5ebe69c29b4398b01d143ab0737d9cadd7de68408733115a"
+    },
+    {
+      "url": "https://waxmuseumrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "8d582b19eee2e2a2afa14a99772295576727dd4bbf5baa5c6726d446a1193d6f"
+    },
+    {
+      "url": "https://waxmuseumrecords.com/products/11-5-fiendin-4-tha-funk-lp-album-ltd-num-re-mint-m",
+      "sha256": "e00c243e5d5c484e4b0b801f63616e7a3edf1baa2b3008ce79b6a562bfed6ea7"
+    },
+    {
+      "url": "https://waxmuseumrecords.com/products/7-outer-sleeves-22-pk",
+      "sha256": "fae8d69e9d901ce4fd591751f39826086e776345a7b68b6422db488a88f45306"
+    },
+    {
+      "url": "https://waxmuseumrecords.com/products/7-outer-sleeves-22-pk?variant=48000635895973",
+      "sha256": "638854036be7af8873c056dcb8b506f1de02fb02845f8948f185ad6da1128d98"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "invalid_detail_gtin"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.5,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "invalid_detail_gtin"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45083891188-1",
+  "queue_rows": [
+    3525
+  ],
+  "assessment_path": "assessments/v2/waxmuseumrecords_com/v2-45083891188-1.json"
+}
