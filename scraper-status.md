@@ -5302,7 +5302,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | gryphonswing.com | 14 | APPROVED | 1 | 9 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 40272946607 |
 | happyvalleyshop.com | 41 | REVIEW | 0 | 14 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | headlinerecords.com | 24 | FROZEN | 3 | 3 | 0/0 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
-| highvoltagevinyl.com | 3 | APPROVED | 0 | 19 | 3/3 | ACTIVE | ACTIVE | run 39373494403 |
+| highvoltagevinyl.com | 3 | APPROVED | 0 | 19 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 39373494403 |
 | hivoltagerecords.com | 22 | APPROVED | 1 | 20 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 41594566238 |
 | hollowbonerecords.com | 24 | FROZEN | 3 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | homerulerecords.com | 24 | FROZEN | 3 | 18 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
