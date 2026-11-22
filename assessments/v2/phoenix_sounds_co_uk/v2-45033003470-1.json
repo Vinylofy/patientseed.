@@ -1,0 +1,242 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T14:37:16.662095+00:00",
+  "shop_id": "phoenix-sounds.co.uk",
+  "row": 4785,
+  "name": "Phoenix Sounds",
+  "domain": "phoenix-sounds.co.uk",
+  "country": null,
+  "website": "https://phoenix-sounds.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 4785,
+    "name": "Phoenix Sounds",
+    "domain": "phoenix-sounds.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://phoenix-sounds.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 17,
+    "excluded": 3,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://phoenix-sounds.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://phoenix-sounds.co.uk/products.json?limit=20&page=1",
+        "score": 175,
+        "products_seen": 20,
+        "accepted": 17,
+        "excluded": 3,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://phoenix-sounds.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 35,
+        "products_seen": 20,
+        "accepted": 3,
+        "excluded": 17,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://phoenix-sounds.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://phoenix-sounds.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://phoenix-sounds.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://phoenix-sounds.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://phoenix-sounds.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://phoenix-sounds.co.uk/products.json?limit=20&page=1",
+      "score": 175,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 2,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://phoenix-sounds.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 17,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 17,
+    "unique_prices": 14,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "examples": [
+    {
+      "url": "https://phoenix-sounds.co.uk/products/bf26-stevie-nicks-bella-donna-lp-picture-disc?variant=58762927538559",
+      "artist": "BF26 Stevie Nicks",
+      "title": "Bella Donna - LP Picture Disc",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "33.99",
+      "currency": "GBP",
+      "valid_eans": [],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://phoenix-sounds.co.uk/products/everything-but-the-girl-blue-reservoir-indie-exclusive-translucent-blue-colour-180g-vinyl?variant=58991586214271",
+      "artist": "Everything But The Girl",
+      "title": "Blue Reservoir - INDIE EXCLUSIVE Translucent Blue colour 180g vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "24.99",
+      "currency": "GBP",
+      "valid_eans": [
+        "00823375407287"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    },
+    {
+      "url": "https://phoenix-sounds.co.uk/products/beabadoobee-bananas-4-cats-indie-exclusive-kimchi-orange-vinyl?variant=59251948683647",
+      "artist": "beabadoobee",
+      "title": "Bananas 4 Cats - INDIE EXCLUSIVE Kimchi Orange Vinyl",
+      "identity_method": null,
+      "identity_proven": false,
+      "price": "23.99",
+      "currency": "GBP",
+      "valid_eans": [
+        "05060257966547"
+      ],
+      "condition_basis": "existing_no_used_signal_policy"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://phoenix-sounds.co.uk/robots.txt",
+      "sha256": "ae61ecb83a18330c4aeb1001688a51a7b1f9c01282604978d7f389e1c7748e83"
+    },
+    {
+      "url": "https://phoenix-sounds.co.uk/",
+      "sha256": "87e160c4722a6a0a3027624ce4fa415500a59247c814699ce1a4bf0a5d9ee551"
+    },
+    {
+      "url": "https://phoenix-sounds.co.uk/products.json?limit=20&page=1",
+      "sha256": "26d1cd37cd7a83662b9d5d9480ac7c7e7a22b4d7a64520025bca0af2dd290e73"
+    },
+    {
+      "url": "https://phoenix-sounds.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "6f5cc70da6dfdb1dd21c5ef90cce9dabda2cf41c541c9825c9169f3ac702a9ae"
+    },
+    {
+      "url": "https://phoenix-sounds.co.uk/products/beabadoobee-bananas-4-cats-indie-exclusive-kimchi-orange-vinyl",
+      "sha256": "a3290617e9a5ef2ae2a8d3ee53b5c5d3d573a536c9a7f5da653b7ba6cd5bfbb1"
+    },
+    {
+      "url": "https://phoenix-sounds.co.uk/products/bruce-dickinson-psychogod-indie-exclusive-2-lp-black-clear-smoke",
+      "sha256": "edce3d213c66253de4714fdf90a6a14c2f031b482b6bfba83966192fb6e8bc24"
+    },
+    {
+      "url": "https://phoenix-sounds.co.uk/products/bf26-stevie-nicks-bella-donna-lp-picture-disc?variant=58762927538559",
+      "sha256": "3b3f58213de9a4872efa3412313e902b2a9d7ce853f040e9f78a15da25c350aa"
+    },
+    {
+      "url": "https://phoenix-sounds.co.uk/products/everything-but-the-girl-blue-reservoir-indie-exclusive-translucent-blue-colour-180g-vinyl?variant=58991586214271",
+      "sha256": "eadb84c35e0f12587ad6a87f80875521d1beeaed8b0c5cc1c1ed178856319153"
+    },
+    {
+      "url": "https://phoenix-sounds.co.uk/products/beabadoobee-bananas-4-cats-indie-exclusive-kimchi-orange-vinyl?variant=59251948683647",
+      "sha256": "c93ecf3bd1edb79326561d673d04e515084436146a73ee64ea4ab9ab03889e2d"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "artist_title_not_consistently_proven"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": true,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 3,
+    "detail_price_proven": 3,
+    "ean_valid": 2,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.17647058823529413,
+    "sale_price_recognizable": null,
+    "cover_available": true
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "MEDIUM",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "PARTIAL_IN_SAMPLE",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [
+    "https://phoenix-sounds.co.uk/products/bf26-stevie-nicks-bella-donna-lp-picture-disc?variant=58762927538559",
+    "https://phoenix-sounds.co.uk/products/everything-but-the-girl-blue-reservoir-indie-exclusive-translucent-blue-colour-180g-vinyl?variant=58991586214271",
+    "https://phoenix-sounds.co.uk/products/beabadoobee-bananas-4-cats-indie-exclusive-kimchi-orange-vinyl?variant=59251948683647"
+  ],
+  "assessment_id": "v2-45033003470-1",
+  "queue_rows": [
+    4785
+  ],
+  "assessment_path": "assessments/v2/phoenix_sounds_co_uk/v2-45033003470-1.json"
+}
