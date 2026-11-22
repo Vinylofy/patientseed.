@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T12:47:44.972175+00:00",
+  "shop_id": "offthebeatentracks.co.uk",
+  "row": 3458,
+  "name": "Offthebeatentracks",
+  "domain": "offthebeatentracks.co.uk",
+  "country": null,
+  "website": "https://offthebeatentracks.co.uk/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3458,
+    "name": "Offthebeatentracks",
+    "domain": "offthebeatentracks.co.uk",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://offthebeatentracks.co.uk/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 12,
+    "excluded": 8,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://offthebeatentracks.co.uk/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://offthebeatentracks.co.uk/products.json?limit=20&page=1",
+        "score": 125,
+        "products_seen": 20,
+        "accepted": 12,
+        "excluded": 8,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://offthebeatentracks.co.uk/collections/all/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 20,
+        "accepted": 10,
+        "excluded": 10,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://offthebeatentracks.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://offthebeatentracks.co.uk/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://offthebeatentracks.co.uk/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://offthebeatentracks.co.uk/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://offthebeatentracks.co.uk/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://offthebeatentracks.co.uk/products.json?limit=20&page=1",
+      "score": 125,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://offthebeatentracks.co.uk/products.json?limit=20&page=1",
+  "listing_sample": 12,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 12,
+    "unique_prices": 8,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://offthebeatentracks.co.uk/robots.txt",
+      "sha256": "a1e60b87aad49c9b4671bdfc9a16bc10e4f2e5625020094c9f17b29e8f68005e"
+    },
+    {
+      "url": "https://offthebeatentracks.co.uk/",
+      "sha256": "60e6aa9fc2be0d6a3447d72eb920437f7158dc5d53d94c4098c3bb8071607300"
+    },
+    {
+      "url": "https://offthebeatentracks.co.uk/products.json?limit=20&page=1",
+      "sha256": "f5708ebdc62b3bfa0643d24bd37acced5fdc96130c265ba081904ec0a78b13f3"
+    },
+    {
+      "url": "https://offthebeatentracks.co.uk/collections/all/products.json?limit=20&page=1",
+      "sha256": "5d46388593f759f786a2559ffcc724e64d45b1c67ae35258be7cc7074059c756"
+    },
+    {
+      "url": "https://offthebeatentracks.co.uk/products/husker-du-1985-the-miracle-year-new-boxset",
+      "sha256": "7d6eca2b76f07c20d59b3d2f54681848807c1e72230341bfb40c15462ccc3790"
+    },
+    {
+      "url": "https://offthebeatentracks.co.uk/products/joe-strummer-003-the-101ers-years-new-2lp",
+      "sha256": "3350a615396a5ac5c8c7e69a2b36982fa611a5d91fb979ae6aa0a3e220be66af"
+    },
+    {
+      "url": "https://offthebeatentracks.co.uk/products/mariah-carey-glitter-25th-anniversary-new-midnight-purple-2lp?variant=58222529610108",
+      "sha256": "ebc7f0204c0a17f0546f48f46d87353592f156c975db53f4e761c6420c9ad5d3"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "detail_price_currency_not_proven_or_mismatch"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.16666666666666666,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "detail_price_currency_not_proven_or_mismatch"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45022525561-1",
+  "queue_rows": [
+    3458
+  ],
+  "assessment_path": "assessments/v2/offthebeatentracks_co_uk/v2-45022525561-1.json"
+}
