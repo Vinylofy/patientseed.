@@ -1,0 +1,192 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-22T06:43:09.126977+00:00",
+  "shop_id": "littlebutterflyrecords.com",
+  "row": 5096,
+  "name": "Little Butterfly Records",
+  "domain": "littlebutterflyrecords.com",
+  "country": null,
+  "website": "https://littlebutterflyrecords.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 5096,
+    "name": "Little Butterfly Records",
+    "domain": "littlebutterflyrecords.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://littlebutterflyrecords.com/collections/all/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 17,
+    "excluded": 3,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "UYU",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://littlebutterflyrecords.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://littlebutterflyrecords.com/products.json?limit=20&page=1",
+        "score": 75,
+        "products_seen": 20,
+        "accepted": 7,
+        "excluded": 13,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://littlebutterflyrecords.com/collections/all/products.json?limit=20&page=1",
+        "score": 175,
+        "products_seen": 20,
+        "accepted": 17,
+        "excluded": 3,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://littlebutterflyrecords.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://littlebutterflyrecords.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://littlebutterflyrecords.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://littlebutterflyrecords.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://littlebutterflyrecords.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://littlebutterflyrecords.com/collections/all/products.json?limit=20&page=1",
+      "score": 175,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://littlebutterflyrecords.com/collections/all/products.json?limit=20&page=1",
+  "listing_sample": 17,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 17,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "UYU"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://littlebutterflyrecords.com/robots.txt",
+      "sha256": "d2ce46b84b20b921fdf9078381e7b37b29248cce8aa458252677277bd06bf075"
+    },
+    {
+      "url": "https://littlebutterflyrecords.com/",
+      "sha256": "0bec2e218eda58f3c951f21d3a428043a1d23fd9009f2ee94523dac309069fe5"
+    },
+    {
+      "url": "https://littlebutterflyrecords.com/products.json?limit=20&page=1",
+      "sha256": "23c04b4f7586e0f4573a9c65c28df3b94ed7555a232630f01a008f8a49cf60bc"
+    },
+    {
+      "url": "https://littlebutterflyrecords.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "21632f0d68573816bf0ea3c85600daaed1f47bf77f5f520a4d3781b9a51b0ad1"
+    },
+    {
+      "url": "https://littlebutterflyrecords.com/products/2minutos-valentin-alsina",
+      "sha256": "b1bfb64d03a98c84f21264d8a4d6f10bf62e83c9643bc0c038a85eb48284a598"
+    },
+    {
+      "url": "https://littlebutterflyrecords.com/products/3-pecados-diciembra",
+      "sha256": "a083c7c59b368c389c4fd8d8d8adf94dc904e7776c6c62d17a9567d673f7dae1"
+    },
+    {
+      "url": "https://littlebutterflyrecords.com/products/artic-monkeys-am-2013?variant=42063009579054",
+      "sha256": "1cb6c198ed087741b63adc680c7d8607811fe798988e01a5717bfebe1b9817da"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "invalid_detail_gtin"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0.7647058823529411,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "invalid_detail_gtin"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-44993967916-1",
+  "queue_rows": [
+    5096
+  ],
+  "assessment_path": "assessments/v2/littlebutterflyrecords_com/v2-44993967916-1.json"
+}
