@@ -5278,7 +5278,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | freesonrock.com | 41 | APPROVED | 0 | 19 | 2/3 | ACTIVE (run 45158787840) | ACTIVE (run 45178194951) | run 44997810130 |
 | freshproducerecords.com | 22 | FROZEN | 3 | 7 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | friendlyrecords.co.uk | 41 | REVIEW | 0 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| frozen-records.com | 41 | APPROVED | 0 | 18 | 3/3 | ACTIVE (run 45158787840) | ACTIVE | run 44997810130 |
+| frozen-records.com | 41 | APPROVED | 0 | 18 | 3/3 | ACTIVE (run 45158787840) | ACTIVE (run 45178194951) | run 44997810130 |
 | fullhausrecords.com | 22 | FROZEN | 3 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | furtherrecords.com | 22 | FROZEN | 3 | 8 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | gatefieldsounds.com | 41 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | Invalid Shopify price |
