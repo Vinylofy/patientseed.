@@ -5287,7 +5287,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | goingundergroundrecords.com | 23 | FROZEN | 3 | 6 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | goldendiscs.ie | 41 | APPROVED | 0 | 12 | 3/3 | ACTIVE (run 45158787840) | ACTIVE (run 45178194951) | run 44997810130 |
 | goldminerecords.com.au | 41 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| goldsoundz.it | 41 | APPROVED | 0 | 9 | 3/3 | ACTIVE (run 45158787840) | ACTIVE | run 44997810130 |
+| goldsoundz.it | 41 | APPROVED | 0 | 9 | 3/3 | ACTIVE (run 45158787840) | ACTIVE (run 45178194951) | run 44997810130 |
 | goner-records.com | 23 | FROZEN | 3 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | goodrecordstogo.com | 41 | REVIEW | 0 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | goodtasterecords.com | 23 | FROZEN | 3 | 17 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
