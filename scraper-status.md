@@ -5452,7 +5452,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | soulstoprecords.com | 33 | FROZEN | 3 | 16 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | soundbendrecords.co | 39 | FROZEN | 3 | 0 | 0/0 | FROZEN | FROZEN | HTTP_402 |
 | soundplatters.com | 34 | FROZEN | 3 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| southmetromusic.com | 7 | APPROVED | 0 | 10 | 3/3 | ACTIVE | ACTIVE | run 40064351096 |
+| southmetromusic.com | 7 | APPROVED | 0 | 10 | 3/3 | ACTIVE (run 45158787840) | ACTIVE | run 40064351096 |
 | southrecordshop.com | 12 | FROZEN | 3 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | specialistsubjectrecords.co.uk | 12 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | spinsterrecords.com | 34 | FROZEN | 3 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
