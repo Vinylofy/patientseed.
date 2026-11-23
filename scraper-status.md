@@ -5135,16 +5135,16 @@ Tellingen betreffen lijstvermeldingen, niet noodzakelijk unieke winkels of uniek
 
 <!-- quality-gate:start -->
 ## Inhoudelijke toelatingscontrole
-Unieke profielen met QA-registratie: **345**. APPROVED: **74**; FROZEN: **192**; REVIEW: **79**
+Unieke profielen met QA-registratie: **392**. APPROVED: **72**; FROZEN: **192**; REVIEW: **128**
 
 Findyl online — 25-10-2026 (50; inclusief 4 herbeoordelingen): **28** profielen met QA-registratie; APPROVED: **5**; FROZEN: **23**
 
-LP/EP Finder shops — 19-11-2026 (nieuwe domeinen): **49** profielen met QA-registratie; APPROVED: **10**; REVIEW: **39**
+LP/EP Finder shops — 19-11-2026 (nieuwe domeinen): **89** profielen met QA-registratie; APPROVED: **9**; REVIEW: **80**
 
-Waxtra Rumours — 19-11-2026 (nieuwe domeinen): **20** profielen met QA-registratie; APPROVED: **6**; REVIEW: **14**
+Waxtra Rumours — 19-11-2026 (nieuwe domeinen): **27** profielen met QA-registratie; APPROVED: **6**; REVIEW: **21**
 
 
-Laatste verwerking: 2026-11-22T07:21:55.431230+00:00. Batch 41.
+Laatste verwerking: 2026-11-23T08:05:53.058987+00:00. Batch 42.
 Maximaal 25 shops per batch; initiële proef en maximaal drie ondersteunde routeherstelpogingen.
 APPROVED = beperkte inhoudelijke bronproef geslaagd, geen productie- of volledige-catalogusgoedkeuring.
 Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumgecontroleerd.
@@ -5155,7 +5155,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | 101collectorsrecords.com | 39 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | 1234gorecords.shop | 5 | FROZEN | 3 | 19 | 1/2 | ACTIVE | FROZEN | invalid_detail_gtin |
 | 12-bar.com | 39 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| 22soundrecords.com | 16 | APPROVED | 1 | 1 | 1/1 | ACTIVE | ACTIVE (run 45017559610) | run 40642431631 |
+| 22soundrecords.com | 16 | APPROVED | 1 | 1 | 1/1 | ACTIVE | ACTIVE | run 40642431631 |
 | 3345.nl | 40 | REVIEW | 0 | 14 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | 606records.com | 18 | FROZEN | 3 | 10 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | abicus.com.au | 39 | REVIEW | 0 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
@@ -5169,9 +5169,9 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | alt-cvlt.com.au | 39 | REVIEW | 0 | 2 | 0/0 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
 | antonesrecordshop.com | 18 | FROZEN | 3 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | apolloexos.com | 18 | FROZEN | 3 | 1 | 0/0 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
-| arcskate.com | 1 | APPROVED | 0 | 16 | 3/3 | INCIDENT | ACTIVE (run 45017559610) | run 39155794450 |
+| arcskate.com | 1 | APPROVED | 0 | 16 | 3/3 | INCIDENT | ACTIVE | run 39155794450 |
 | artsoundlanguage.com | 18 | FROZEN | 3 | 17 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| asliceofvinyl.co.uk | 40 | APPROVED | 0 | 15 | 2/3 | ACTIVE | ACTIVE (run 45017559610) | run 44881153515 |
+| asliceofvinyl.co.uk | 40 | APPROVED | 0 | 15 | 2/3 | ACTIVE | ACTIVE | run 44881153515 |
 | assai.co.uk | 13 | FROZEN | 3 | 15 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | atlasrecords.co.uk | 12 | FROZEN | 3 | 7 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | audiolab.com | 20 | FROZEN | 3 | 6 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
@@ -5182,13 +5182,13 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | beatdownrecords.org | 12 | FROZEN | 3 | 11 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | beatgoeson.com | 39 | REVIEW | 0 | 8 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | beatlabusa.com | 19 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
-| beatniksrecords.com.au | 39 | APPROVED | 0 | 18 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 44696709935 |
+| beatniksrecords.com.au | 39 | APPROVED | 0 | 18 | 3/3 | ACTIVE | ACTIVE | run 44696709935 |
 | beatstreet.ca | 39 | REVIEW | 0 | 15 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | bellaunionvinylshop.com | 12 | FROZEN | 3 | 14 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | bendingsound.co.uk | 39 | REVIEW | 0 | 12 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | bentcrayon.com | 18 | FROZEN | 3 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | better-records.com | 18 | FROZEN | 3 | 2 | 0/2 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| beyondvinyl.co.uk | 39 | APPROVED | 0 | 14 | 3/3 | ACTIVE | INCIDENT (run 45017559610) | run 44696709935 |
+| beyondvinyl.co.uk | 39 | APPROVED | 0 | 14 | 3/3 | ACTIVE | INCIDENT | run 44696709935 |
 | bighenrysvinylandgifts.com | 18 | FROZEN | 3 | 7 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | bigloverecords.jp | 40 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | biglovevinyl.com | 18 | FROZEN | 3 | 16 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
@@ -5197,35 +5197,35 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | blackcityrecords.co.uk | 12 | FROZEN | 3 | 18 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | blackdotsbuffalo.shop | 19 | FROZEN | 3 | 13 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | blitzkriegshop.co.uk | 39 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| bobsvinyl.nl | 40 | APPROVED | 0 | 20 | 1/3 | ACTIVE | REPAIR_REQUIRED (run 45017559610) | run 44881153515 |
+| bobsvinyl.nl | 42 | REVIEW | 1 | 0 | 0/0 | ACTIVE | REPAIR_REQUIRED | market_eligibility_unknown_review |
 | boilerroomrecords.co.uk | 39 | REVIEW | 0 | 20 | 0/1 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| booboorecords.com | 1 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 39155794450 |
+| booboorecords.com | 1 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE | run 39155794450 |
 | bordelloaparigi.com | 40 | REVIEW | 0 | 6 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| bororecords.com | 1 | APPROVED | 0 | 13 | 1/3 | ACTIVE | ACTIVE (run 45017559610) | run 39155794450 |
-| bruiserrecordsjax.com | 1 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 39155794450 |
+| bororecords.com | 1 | APPROVED | 0 | 13 | 1/3 | ACTIVE | ACTIVE | run 39155794450 |
+| bruiserrecordsjax.com | 1 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 39155794450 |
 | butterbeatsrecordstore.com | 39 | REVIEW | 0 | 10 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| cameronrecords.com | 17 | APPROVED | 1 | 16 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 40828686930 |
-| capsulerecords.co.uk | 39 | APPROVED | 0 | 3 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 44696709935 |
+| cameronrecords.com | 17 | APPROVED | 1 | 16 | 3/3 | ACTIVE | ACTIVE | run 40828686930 |
+| capsulerecords.co.uk | 39 | APPROVED | 0 | 3 | 3/3 | ACTIVE | ACTIVE | run 44696709935 |
 | cellar-records.com | 40 | REVIEW | 0 | 15 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| chalkys.com | 28 | APPROVED | 1 | 7 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 42577039054 |
+| chalkys.com | 28 | APPROVED | 1 | 7 | 3/3 | ACTIVE | ACTIVE | run 42577039054 |
 | chiefrecordsonline.com | 19 | FROZEN | 3 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | citynoiserecords.com | 41 | REVIEW | 0 | 17 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| cnamusicsupply.com | 2 | APPROVED | 0 | 6 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 39203245483 |
+| cnamusicsupply.com | 2 | APPROVED | 0 | 6 | 3/3 | ACTIVE | ACTIVE | run 39203245483 |
 | comebackvinyl.com | 19 | FROZEN | 3 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | compactmusic.ca | 39 | REVIEW | 0 | 18 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | contactrecordstore.com | 19 | FROZEN | 3 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| coregamingnh.com | 2 | APPROVED | 0 | 1 | 1/1 | ACTIVE | ACTIVE (run 45017559610) | run 39203245483 |
+| coregamingnh.com | 2 | APPROVED | 0 | 1 | 1/1 | ACTIVE | ACTIVE | run 39203245483 |
 | counterintuitiverecords.com | 19 | FROZEN | 3 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | crashrecords.co.uk | 12 | FROZEN | 3 | 7 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | crazyvinylrecord.com | 23 | FROZEN | 3 | 1 | 0/1 | FROZEN | FROZEN | detail_ean_not_proven |
 | cruiserecords.de | 40 | REVIEW | 0 | 18 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | csiderecords.com | 20 | FROZEN | 3 | 11 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| curiouscollectionstx.com | 2 | APPROVED | 0 | 9 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 39203245483 |
+| curiouscollectionstx.com | 2 | APPROVED | 0 | 9 | 3/3 | ACTIVE | ACTIVE | run 39203245483 |
 | daddyrichrecords.com | 39 | REVIEW | 0 | 5 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| dalesmusicstore.com | 39 | APPROVED | 0 | 3 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 44696709935 |
-| dashthehengestore.com | 39 | APPROVED | 0 | 1 | 1/1 | ACTIVE | ACTIVE (run 45017559610) | run 44696709935 |
+| dalesmusicstore.com | 39 | APPROVED | 0 | 3 | 3/3 | ACTIVE | ACTIVE | run 44696709935 |
+| dashthehengestore.com | 39 | APPROVED | 0 | 1 | 1/1 | ACTIVE | ACTIVE | run 44696709935 |
 | davids-music.co.uk | 40 | REVIEW | 0 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| dbzbooks.com | 2 | APPROVED | 0 | 15 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 39203245483 |
+| dbzbooks.com | 2 | APPROVED | 0 | 15 | 3/3 | ACTIVE | ACTIVE | run 39203245483 |
 | deadairvinyl.co.uk | 40 | REVIEW | 0 | 3 | 0/0 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
 | deadendrecordstn.com | 20 | FROZEN | 3 | 5 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | deafmanvinyl.com | 21 | FROZEN | 3 | 2 | 0/2 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
@@ -5241,13 +5241,13 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | djungelochjazz.se | 40 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | dreamstreetrecords.co.uk | 40 | REVIEW | 0 | 7 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | drinksrecords.com | 21 | FROZEN | 3 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| drownedworldrecords.com | 40 | APPROVED | 0 | 19 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 44881153515 |
+| drownedworldrecords.com | 40 | APPROVED | 0 | 19 | 3/3 | ACTIVE | ACTIVE | run 44881153515 |
 | dtsvinyl.com | 21 | FROZEN | 3 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | dutchvinyl.com.au | 40 | REVIEW | 0 | 13 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | earcave.com | 41 | REVIEW | 0 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | eastmanrecords.nl | 40 | REVIEW | 0 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | easygoingrecords.us | 21 | FROZEN | 3 | 13 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| eclecticorecords.com.au | 40 | APPROVED | 0 | 4 | 2/3 | ACTIVE | ACTIVE (run 45017559610) | run 44881153515 |
+| eclecticorecords.com.au | 40 | APPROVED | 0 | 4 | 2/3 | ACTIVE | ACTIVE | run 44881153515 |
 | econojamrecords.com | 21 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | elmuelle1931.com | 40 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | empirestore.gr | 40 | REVIEW | 0 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
@@ -5256,42 +5256,42 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | endlessoundrecords.com | 21 | FROZEN | 3 | 17 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | endofanear.com | 21 | FROZEN | 3 | 6 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | endorecords.com | 21 | FROZEN | 3 | 5 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| erodingwinds.com | 2 | APPROVED | 0 | 18 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 39203245483 |
+| erodingwinds.com | 2 | APPROVED | 0 | 18 | 3/3 | ACTIVE | ACTIVE | run 39203245483 |
 | evergreenvinyl.com | 21 | FROZEN | 3 | 7 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | experiencevinyl.com | 21 | FROZEN | 3 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| factoryrecords.com | 3 | APPROVED | 0 | 14 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 39373494403 |
+| factoryrecords.com | 3 | APPROVED | 0 | 14 | 3/3 | ACTIVE | ACTIVE | run 39373494403 |
 | famousrockshop.com.au | 40 | REVIEW | 0 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | feelitrecordshop.com | 21 | FROZEN | 3 | 8 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| finersounds.com | 3 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 39373494403 |
+| finersounds.com | 3 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 39373494403 |
 | firetalk.shop | 22 | FROZEN | 3 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | firstcityrecordstore.com | 22 | FROZEN | 3 | 6 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| fivebuckbin.com | 40 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 44881153515 |
+| fivebuckbin.com | 40 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 44881153515 |
 | fivespaceshop.com | 41 | REVIEW | 0 | 18 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | flashback.co.uk | 12 | FROZEN | 3 | 2 | 0/2 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | flowrecordstore.com | 41 | REVIEW | 0 | 10 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | flur.pt | 41 | REVIEW | 0 | 12 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| fortherecordnyc.com | 3 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 39373494403 |
-| fortherecordtx.com | 41 | APPROVED | 0 | 16 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 44997810130 |
+| fortherecordnyc.com | 3 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 39373494403 |
+| fortherecordtx.com | 41 | APPROVED | 0 | 16 | 3/3 | ACTIVE | ACTIVE | run 44997810130 |
 | fountainrecords.co.uk | 41 | REVIEW | 0 | 14 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| frankiesrecords.com | 20 | APPROVED | 1 | 20 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 41282025830 |
+| frankiesrecords.com | 20 | APPROVED | 1 | 20 | 3/3 | ACTIVE | ACTIVE | run 41282025830 |
 | freebirdrecords.com | 41 | REVIEW | 0 | 15 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| freesonrock.com | 41 | APPROVED | 0 | 19 | 2/3 | ACTIVE | ACTIVE (run 45017559610) | run 44997810130 |
+| freesonrock.com | 41 | APPROVED | 0 | 19 | 2/3 | ACTIVE | ACTIVE | run 44997810130 |
 | freshproducerecords.com | 22 | FROZEN | 3 | 7 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | friendlyrecords.co.uk | 41 | REVIEW | 0 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| frozen-records.com | 41 | APPROVED | 0 | 18 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 44997810130 |
+| frozen-records.com | 41 | APPROVED | 0 | 18 | 3/3 | ACTIVE | ACTIVE | run 44997810130 |
 | fullhausrecords.com | 22 | FROZEN | 3 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | furtherrecords.com | 22 | FROZEN | 3 | 8 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | gatefieldsounds.com | 41 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | Invalid Shopify price |
-| getresurrected.com | 3 | APPROVED | 0 | 14 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 39373494403 |
+| getresurrected.com | 3 | APPROVED | 0 | 14 | 3/3 | ACTIVE | ACTIVE | run 39373494403 |
 | glitterrecords.com.au | 41 | REVIEW | 0 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | goingundergroundrecords.com | 23 | FROZEN | 3 | 6 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| goldendiscs.ie | 41 | APPROVED | 0 | 12 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 44997810130 |
+| goldendiscs.ie | 41 | APPROVED | 0 | 12 | 3/3 | ACTIVE | ACTIVE | run 44997810130 |
 | goldminerecords.com.au | 41 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| goldsoundz.it | 41 | APPROVED | 0 | 9 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 44997810130 |
+| goldsoundz.it | 41 | APPROVED | 0 | 9 | 3/3 | ACTIVE | ACTIVE | run 44997810130 |
 | goner-records.com | 23 | FROZEN | 3 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | goodrecordstogo.com | 41 | REVIEW | 0 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | goodtasterecords.com | 23 | FROZEN | 3 | 17 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| goofinrecords.fi | 41 | APPROVED | 0 | 3 | 2/3 | ACTIVE | ACTIVE (run 45017559610) | run 44997810130 |
+| goofinrecords.fi | 41 | APPROVED | 0 | 3 | 2/3 | ACTIVE | ACTIVE | run 44997810130 |
 | goosebumbsrecords.com | 41 | REVIEW | 0 | 8 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | gramaphonerecords.com | 23 | FROZEN | 3 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | grapefruitrecordclub.com | 24 | FROZEN | 3 | 18 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
@@ -5299,70 +5299,117 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | graveface.com | 41 | REVIEW | 0 | 15 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | greatesthitsofficial.com | 24 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | groovierecords.com | 41 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| gryphonswing.com | 14 | APPROVED | 1 | 9 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 40272946607 |
+| gryphonswing.com | 14 | APPROVED | 1 | 9 | 3/3 | ACTIVE | ACTIVE | run 40272946607 |
 | happyvalleyshop.com | 41 | REVIEW | 0 | 14 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
+| harboursiderecords.com.au | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| hathillrecords.com.au | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | headlinerecords.com | 24 | FROZEN | 3 | 3 | 0/0 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
-| highvoltagevinyl.com | 3 | APPROVED | 0 | 19 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 39373494403 |
-| hivoltagerecords.com | 22 | APPROVED | 1 | 20 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 41594566238 |
+| heartlandrecords.com.au | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| hideousrecords.com.au | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| hificabinetcompany.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| hifilofi.shop | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| highnotes.ca | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| highvoltagevinyl.com | 3 | APPROVED | 0 | 19 | 3/3 | ACTIVE | ACTIVE | run 39373494403 |
+| historianuestra.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| hivoltagerecords.com | 22 | APPROVED | 1 | 20 | 3/3 | ACTIVE | ACTIVE | run 41594566238 |
 | hollowbonerecords.com | 24 | FROZEN | 3 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | homerulerecords.com | 24 | FROZEN | 3 | 18 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | hybridrecordstx.com | 24 | FROZEN | 3 | 15 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
+| idshop.ca | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | ihaterecords.com | 24 | FROZEN | 3 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | impericon.com | 12 | FROZEN | 3 | 9 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
+| impressedrecordings.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| innersleeve.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | instantkarmarecords.com | 24 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
+| intenserecords.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| inverted-audio.store | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| invisiblecityeditions.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| irelandvinyl.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | jackpotrecords.com | 24 | FROZEN | 3 | 18 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | jaystoysandgames.com | 24 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | jgsvinylandmore.com | 24 | FROZEN | 3 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
+| jigsaw-records.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | joseyrecords.com | 24 | FROZEN | 3 | 7 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
+| justdroppedin.co.uk | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | justpressplayonline.com | 25 | FROZEN | 3 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| kingsroadmerch.co.uk | 9 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 40239367598 |
+| jwrayrecords.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| katakomben.no | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| kindofblue.cl | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| kingsroadmerch.co.uk | 9 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE | run 40239367598 |
+| klecrecords.myshopify.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | ksolovintage.com | 25 | FROZEN | 3 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| latchkeyrecords.com | 4 | APPROVED | 0 | 16 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 39548302912 |
+| laden.siluh.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| landspeed.com.au | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| latchkeyrecords.com | 4 | APPROVED | 0 | 16 | 3/3 | ACTIVE | ACTIVE | run 39548302912 |
 | lathecutvinylrecords.com | 25 | FROZEN | 3 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
+| leftfordeadshop.co.uk | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| lenoise.ca | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| levitation.fm | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| lightintheattic.net | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| lionvibes.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| littlebutterflyrecords.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| loafersvinyl.co.uk | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | loudpizza.com | 25 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
-| lovepeoplerecords.com | 4 | APPROVED | 0 | 12 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 39548302912 |
+| lovemusicglasgow.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| lovepeoplerecords.com | 4 | APPROVED | 0 | 12 | 3/3 | ACTIVE | ACTIVE | run 39548302912 |
+| lucarecords.ie | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | lulorecords.com | 25 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
-| lunarecordshop.com | 4 | APPROVED | 0 | 17 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 39548302912 |
+| lunarecordshop.com | 4 | APPROVED | 0 | 17 | 3/3 | ACTIVE | ACTIVE | run 39548302912 |
 | lunchboxrecords.com | 25 | FROZEN | 3 | 13 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | maemusic.com | 25 | FROZEN | 3 | 5 | 0/0 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
 | mancavenj.com | 26 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | maplecitymusic.com | 22 | FROZEN | 3 | 4 | 0/3 | FROZEN | FROZEN | detail_ean_not_proven |
+| massive-international.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| meditations.jp | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| metadonarecords.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | meteor-gem.com | 26 | FROZEN | 3 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
+| milehighvinyl.ca | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| mintandsealed.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | mintgalleryrecords.com | 39 | FROZEN | 3 | 3 | 1/1 | FROZEN | FROZEN | invalid_detail_gtin |
 | modern-legend.com | 26 | FROZEN | 3 | 5 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | moodringrecordsslc.com | 27 | FROZEN | 3 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
+| moonsrecords.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| morphorecords.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | morrowrecords.com | 27 | FROZEN | 3 | 7 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
+| mpiremusic.co.za | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| musiccircle.co.in | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| musicfarmers.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| musiclab.mx | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | musicologyco.com | 27 | FROZEN | 3 | 15 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
+| musicrecordshop.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| mutingthenoise.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
+| mygeneration.be | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | nailcityrecord.com | 27 | FROZEN | 3 | 13 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
+| nakasha-spain.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | needlesandfins.com | 27 | FROZEN | 3 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | neighborhoodcomics.com | 27 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | newburycomics.com | 27 | FROZEN | 3 | 13 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | nftwrecords.com | 27 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
-| nhvintagevinyl.com | 5 | APPROVED | 0 | 4 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 39727047909 |
+| nhvintagevinyl.com | 5 | APPROVED | 0 | 4 | 3/3 | ACTIVE | ACTIVE | run 39727047909 |
 | northwestgrooves.com | 27 | FROZEN | 3 | 10 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | nudierecords.com | 27 | FROZEN | 3 | 16 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| nxvinyl.com | 5 | APPROVED | 0 | 14 | 2/3 | ACTIVE | ACTIVE (run 45017559610) | run 39727047909 |
+| nxvinyl.com | 5 | APPROVED | 0 | 14 | 2/3 | ACTIVE | ACTIVE | run 39727047909 |
 | oceanbeachpalletco.com | 27 | FROZEN | 3 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| oldrockingchair.com | 5 | APPROVED | 0 | 14 | 2/3 | ACTIVE | ACTIVE (run 45017559610) | run 39727047909 |
+| oldrockingchair.com | 5 | APPROVED | 0 | 14 | 2/3 | ACTIVE | ACTIVE | run 39727047909 |
 | omegamusicdayton.com | 27 | FROZEN | 3 | 6 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | oneoffrecordsllc.com | 28 | FROZEN | 3 | 6 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | orbitrecords.com | 28 | FROZEN | 3 | 10 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | orchardrecords.com | 12 | FROZEN | 3 | 15 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | pancakes-records.com | 28 | FROZEN | 3 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| parasolrecords.com | 5 | APPROVED | 0 | 8 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 39727047909 |
-| paul-rose.com | 5 | APPROVED | 0 | 7 | 2/3 | ACTIVE | ACTIVE (run 45017559610) | run 39727047909 |
+| parasolrecords.com | 5 | APPROVED | 0 | 8 | 3/3 | ACTIVE | ACTIVE | run 39727047909 |
+| paul-rose.com | 5 | APPROVED | 0 | 7 | 2/3 | ACTIVE | ACTIVE | run 39727047909 |
 | plaidroomrecords.com | 28 | FROZEN | 3 | 7 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | plumcreekrecords.com | 28 | FROZEN | 3 | 14 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | portofsoundrecords.com | 28 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | primitiverecordings.com | 28 | FROZEN | 3 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | prnrp.com | 28 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | Invalid Shopify price |
-| producerpluguni.com | 6 | APPROVED | 0 | 19 | 1/3 | ACTIVE | ACTIVE (run 45017559610) | run 39904748109 |
+| producerpluguni.com | 6 | APPROVED | 0 | 19 | 1/3 | ACTIVE | ACTIVE | run 39904748109 |
 | provosvintagegroove.com | 29 | FROZEN | 3 | 12 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | pukenvomitrecords.com | 29 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
-| queenbvinylcafe.com | 27 | APPROVED | 1 | 12 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 42455433568 |
-| rarewaves.com | 9 | APPROVED | 0 | 7 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 40239367598 |
+| queenbvinylcafe.com | 27 | APPROVED | 1 | 12 | 3/3 | ACTIVE | ACTIVE | run 42455433568 |
+| rarewaves.com | 9 | APPROVED | 0 | 7 | 3/3 | ACTIVE | ACTIVE | run 40239367598 |
 | rebrecordsmd.com | 30 | FROZEN | 3 | 16 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| record-stop.com | 6 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 39904748109 |
+| record-stop.com | 6 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE | run 39904748109 |
 | recordsonmain.com | 30 | FROZEN | 3 | 16 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | recordtowntx.com | 30 | FROZEN | 3 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | renaissancerecordsus.com | 30 | FROZEN | 3 | 18 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
@@ -5379,7 +5426,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | rottenislandrecords.com | 31 | FROZEN | 3 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | roundhillmusicco.com | 31 | FROZEN | 3 | 2 | 0/2 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | rustandwax.com | 31 | FROZEN | 3 | 15 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| saintmarierecords.com | 6 | APPROVED | 0 | 15 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 39904748109 |
+| saintmarierecords.com | 6 | APPROVED | 0 | 15 | 3/3 | ACTIVE | ACTIVE | run 39904748109 |
 | sdvintagecollectables.com | 31 | FROZEN | 3 | 5 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | seasickbham.com | 31 | FROZEN | 3 | 6 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | seattlerecords.net | 31 | FROZEN | 3 | 7 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
@@ -5394,18 +5441,18 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | shopsatmarsbeads.com | 33 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | shugarecords.com | 33 | FROZEN | 3 | 14 | 0/2 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
 | sirenrecordsmonterey.com | 33 | FROZEN | 3 | 13 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| skeletondustrecords.com | 36 | APPROVED | 1 | 3 | 2/3 | ACTIVE | REPAIR_REQUIRED (run 45017559610) | run 44046382607 |
-| skeletunesrecords.com | 31 | APPROVED | 1 | 11 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 43176655069 |
+| skeletondustrecords.com | 42 | REVIEW | 1 | 0 | 0/0 | ACTIVE | REPAIR_REQUIRED | market_eligibility_unknown_review |
+| skeletunesrecords.com | 31 | APPROVED | 1 | 11 | 3/3 | ACTIVE | ACTIVE | run 43176655069 |
 | skyvalleyrecords.com | 33 | FROZEN | 3 | 10 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | sleevecityusa.com | 33 | FROZEN | 3 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| soldoutvinylrecords.com | 7 | APPROVED | 0 | 6 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 40064351096 |
+| soldoutvinylrecords.com | 7 | APPROVED | 0 | 6 | 3/3 | ACTIVE | ACTIVE | run 40064351096 |
 | solstarecords.com | 33 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | sookvinyl.com | 37 | FROZEN | 3 | 3 | 0/0 | ACTIVE | FROZEN | detail_price_currency_not_proven_or_mismatch |
 | sorrystaterecords.com | 33 | FROZEN | 3 | 3 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | soulstoprecords.com | 33 | FROZEN | 3 | 16 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | soundbendrecords.co | 39 | FROZEN | 3 | 0 | 0/0 | FROZEN | FROZEN | HTTP_402 |
 | soundplatters.com | 34 | FROZEN | 3 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| southmetromusic.com | 7 | APPROVED | 0 | 10 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 40064351096 |
+| southmetromusic.com | 7 | APPROVED | 0 | 10 | 3/3 | ACTIVE | ACTIVE | run 40064351096 |
 | southrecordshop.com | 12 | FROZEN | 3 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | specialistsubjectrecords.co.uk | 12 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | spinsterrecords.com | 34 | FROZEN | 3 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
@@ -5416,7 +5463,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | sstsuperstore.com | 34 | FROZEN | 3 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | staticatx.com | 34 | FROZEN | 3 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | staticerarecords.com | 34 | FROZEN | 3 | 11 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| stellarrecordsfl.com | 18 | APPROVED | 1 | 4 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 41013449724 |
+| stellarrecordsfl.com | 18 | APPROVED | 1 | 4 | 3/3 | ACTIVE | ACTIVE | run 41013449724 |
 | store.udiscovermusic.com | 12 | FROZEN | 3 | 17 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | strandedrecords.com | 34 | FROZEN | 3 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | studioonerecords.com | 35 | FROZEN | 3 | 13 | 0/0 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
@@ -5426,28 +5473,28 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | techniquerecords.com | 36 | FROZEN | 3 | 13 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | theaudionerd.com | 36 | FROZEN | 3 | 18 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | thedarkslide.com | 36 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
-| thedeadwaxrecords.com | 8 | APPROVED | 0 | 3 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 40164542697 |
+| thedeadwaxrecords.com | 8 | APPROVED | 0 | 3 | 3/3 | ACTIVE | ACTIVE | run 40164542697 |
 | theelmhenderson.com | 36 | FROZEN | 3 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | theendofallmusicjxn.com | 17 | FROZEN | 3 | 16 | 0/0 | ACTIVE | FROZEN | invalid_detail_gtin |
-| theexchange.com | 41 | REVIEW | 1 | 1 | 0/1 | INCIDENT | REPAIR_REQUIRED | detail_ean_not_proven |
+| theexchange.com | 42 | REVIEW | 2 | 0 | 0/0 | INCIDENT | REPAIR_REQUIRED | market_eligibility_unknown_review |
 | theguitargallery.com | 36 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | thehamletny.com | 36 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
-| theingroove.com | 8 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 40164542697 |
+| theingroove.com | 8 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 40164542697 |
 | therecordloftatl.com | 36 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | therecordspace.com | 36 | FROZEN | 3 | 9 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| thevinylgrooverecords.com | 8 | APPROVED | 0 | 13 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 40164542697 |
+| thevinylgrooverecords.com | 8 | APPROVED | 0 | 13 | 3/3 | ACTIVE | ACTIVE | run 40164542697 |
 | thevinylstand.com | 36 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
-| thevinyluniverse.com | 8 | APPROVED | 0 | 7 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 40164542697 |
-| thirdmanrecords.com | 14 | APPROVED | 0 | 14 | 1/3 | ACTIVE | ACTIVE (run 45017559610) | run 40272946607 |
+| thevinyluniverse.com | 8 | APPROVED | 0 | 7 | 3/3 | ACTIVE | ACTIVE | run 40164542697 |
+| thirdmanrecords.com | 14 | APPROVED | 0 | 14 | 1/3 | ACTIVE | ACTIVE | run 40272946607 |
 | thrillhouserecords.com | 36 | FROZEN | 3 | 15 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | tigerrosevintage.com | 37 | FROZEN | 3 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | tinybot.com | 37 | FROZEN | 3 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| tntmusic.shop | 41 | APPROVED | 1 | 12 | 3/3 | ACTIVE | INCIDENT (run 45017559610) | run 44997810130 |
-| toadhallonline.com | 14 | APPROVED | 0 | 19 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 40272946607 |
+| tntmusic.shop | 41 | APPROVED | 1 | 12 | 3/3 | ACTIVE | INCIDENT | run 44997810130 |
+| toadhallonline.com | 14 | APPROVED | 0 | 19 | 3/3 | ACTIVE | ACTIVE | run 40272946607 |
 | todestrieb.co.uk | 12 | FROZEN | 3 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | tonedeafrecs.com | 37 | FROZEN | 3 | 14 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | trurecordsllc.com | 37 | FROZEN | 3 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| trustyspot.com | 14 | APPROVED | 0 | 19 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 40272946607 |
+| trustyspot.com | 14 | APPROVED | 0 | 19 | 3/3 | ACTIVE | ACTIVE | run 40272946607 |
 | tumbleweedsct.com | 37 | FROZEN | 3 | 11 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | tunnelrecordssf.com | 37 | FROZEN | 3 | 5 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | turntabletreasures.com | 37 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
@@ -5459,7 +5506,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | vertigovinyl.com | 38 | REVIEW | 2 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | villagegreenrecords.com | 38 | REVIEW | 2 | 7 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | villagerevivalrecordsnyc.com | 38 | REVIEW | 2 | 8 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| vinilo.co.uk | 9 | APPROVED | 0 | 3 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 40239367598 |
+| vinilo.co.uk | 9 | APPROVED | 0 | 3 | 3/3 | ACTIVE | ACTIVE | run 40239367598 |
 | vinylbay777.com | 38 | REVIEW | 2 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | vinylcommand.com | 38 | REVIEW | 2 | 4 | 0/1 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | vinylconflict.com | 38 | REVIEW | 2 | 13 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
@@ -5468,36 +5515,35 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | vinyldreamssf.com | 38 | REVIEW | 2 | 17 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | vinylexchange.co.uk | 12 | FROZEN | 3 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | vinylfantasybk.com | 38 | REVIEW | 1 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| vinylfiends.com | 19 | APPROVED | 1 | 1 | 1/1 | ACTIVE | ACTIVE (run 45017559610) | run 41175596255 |
-| vinylfrontierrecords.com | 15 | APPROVED | 0 | 15 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 40455623960 |
+| vinylfiends.com | 19 | APPROVED | 1 | 1 | 1/1 | ACTIVE | ACTIVE | run 41175596255 |
+| vinylfrontierrecords.com | 15 | APPROVED | 0 | 15 | 3/3 | ACTIVE | ACTIVE | run 40455623960 |
 | vinylgram.com | 38 | REVIEW | 1 | 12 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| vinyljunkies.net | 38 | APPROVED | 1 | 10 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 44482526349 |
+| vinyljunkies.net | 38 | APPROVED | 1 | 10 | 3/3 | ACTIVE | ACTIVE | run 44482526349 |
 | vinylpeoplerecords.com | 38 | REVIEW | 1 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| vinylrevivalrecordstore.com | 15 | APPROVED | 0 | 16 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 40455623960 |
+| vinylrevivalrecordstore.com | 15 | APPROVED | 0 | 16 | 3/3 | ACTIVE | ACTIVE | run 40455623960 |
 | vinyltap.co.uk | 12 | FROZEN | 3 | 8 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| vinyltapguitarsrecords.com | 15 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 40455623960 |
+| vinyltapguitarsrecords.com | 15 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 40455623960 |
 | vinylvault.online | 38 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | vinylveritas.com | 38 | REVIEW | 1 | 20 | 0/1 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | vinylvogue.com | 38 | REVIEW | 1 | 11 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | vylevinyl.com | 39 | FROZEN | 3 | 0 | 0/0 | FROZEN | FROZEN | no_new_vinyl_records |
 | waitingroomrecords.com | 38 | REVIEW | 1 | 16 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| waterloorecords.com | 38 | APPROVED | 1 | 8 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 44482526349 |
+| waterloorecords.com | 38 | APPROVED | 1 | 8 | 3/3 | ACTIVE | ACTIVE | run 44482526349 |
 | waxandbeans.co.uk | 13 | FROZEN | 3 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | waxmoonrecords.com | 38 | REVIEW | 1 | 18 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| waxtraxrecords.com | 15 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 40455623960 |
-| wearepopstore.com | 10 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE (run 45017559610) | run 40239702760 |
+| waxtraxrecords.com | 15 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE | run 40455623960 |
+| wearepopstore.com | 10 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 40239702760 |
 | weirdfishrecords.com | 15 | REVIEW | 0 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | wickstreetvinyl.com | 15 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | witsendrecords.com | 15 | REVIEW | 0 | 4 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | wreckonatl.com | 15 | REVIEW | 0 | 17 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | wyrdbyrdypsi.com | 16 | REVIEW | 0 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| yearbookrecords.com | 16 | APPROVED | 0 | 1 | 1/1 | ACTIVE | ACTIVE (run 45017559610) | run 40642431631 |
+| yearbookrecords.com | 16 | APPROVED | 0 | 1 | 1/1 | ACTIVE | ACTIVE | run 40642431631 |
 | yellowdogdiscs.com | 16 | REVIEW | 0 | 4 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| yourvinylshop.com | 16 | APPROVED | 0 | 2 | 1/2 | ACTIVE | ACTIVE (run 45017559610) | run 40642431631 |
+| yourvinylshop.com | 16 | APPROVED | 0 | 2 | 1/2 | ACTIVE | ACTIVE | run 40642431631 |
 | yurisrecords.com | 16 | REVIEW | 0 | 16 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | zoinksrecords.com | 16 | REVIEW | 0 | 17 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 <!-- quality-gate:end -->
-
 <!-- assessment-v2:start -->
 ## EAN / Artist + Title — aanvullende beoordeling
 
