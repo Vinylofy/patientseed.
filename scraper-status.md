@@ -5247,7 +5247,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | earcave.com | 41 | REVIEW | 0 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | eastmanrecords.nl | 40 | REVIEW | 0 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | easygoingrecords.us | 21 | FROZEN | 3 | 13 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| eclecticorecords.com.au | 40 | APPROVED | 0 | 4 | 2/3 | ACTIVE (run 45158787840) | ACTIVE | run 44881153515 |
+| eclecticorecords.com.au | 40 | APPROVED | 0 | 4 | 2/3 | ACTIVE (run 45158787840) | ACTIVE (run 45178194951) | run 44881153515 |
 | econojamrecords.com | 21 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | elmuelle1931.com | 40 | REVIEW | 0 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | empirestore.gr | 40 | REVIEW | 0 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
