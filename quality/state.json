@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "batch": 41,
+  "batch": 42,
   "shops": {
     "10000hzrecords_com": {
       "fingerprint": "bd851743c2eee03c427913ea2a88bc94dfb0e74b1f11366277a07532ffcd9e33",
@@ -14508,75 +14508,39 @@
     "skeletondustrecords_com": {
       "fingerprint": "525f3c06410c15435f031ad7f1a089b6f11058715d200bfce2da8880396b9e9f",
       "domain": "skeletondustrecords.com",
-      "batch": 36,
+      "batch": 42,
       "repair_attempts": 1,
       "repair_modes": [
         "ean"
       ],
       "admitted": true,
-      "status": "APPROVED",
-      "run_id": "44046382607",
-      "updated_at": "2026-11-17T08:24:18.671244+00:00",
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:51.551866+00:00",
       "evidence": {
         "domain": "skeletondustrecords.com",
         "route": "https://skeletondustrecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-17T08:24:15.362615+00:00",
-        "requests": [
-          {
-            "url": "https://skeletondustrecords.com/products.json?limit=20&page=1",
-            "sha256": "3cb90854a5bb5475404714dff9ce9ceb8a17a1273c5b22013f8453e7d6ee4394"
-          },
-          {
-            "url": "https://skeletondustrecords.com/products/the-lumineers-automatic-lp-m?variant=67912985935945",
-            "sha256": "dfc38e21a3b47e609e63d24940721a14f436220067dabbea83841eb65f007684"
-          },
-          {
-            "url": "https://skeletondustrecords.com/products/the-jimi-hendrix-experience-axis-bold-as-love-lp-m-1?variant=67912969584713",
-            "sha256": "cd3ea50d1204cb6ac7c680fdedfa7dd9cee227d2e29aeb529c1d67832e365889"
-          },
-          {
-            "url": "https://skeletondustrecords.com/products/incapacitants-bastard-noise-plagued-enigmas-lp-m?variant=67912883568713",
-            "sha256": "88590d95fa30212ce63875fc02fb561d13bd71171eb55d12fec56aa417a8535e"
-          }
-        ],
-        "listing_records": 3,
-        "detail_checked": 3,
-        "valid_eans": 2,
-        "details": [
-          {
-            "url": "https://skeletondustrecords.com/products/the-lumineers-automatic-lp-m?variant=67912985935945",
-            "price": "20.00",
-            "currency": "USD",
-            "ean": "00803020278813",
-            "condition": "new"
-          },
-          {
-            "url": "https://skeletondustrecords.com/products/the-jimi-hendrix-experience-axis-bold-as-love-lp-m-1?variant=67912969584713",
-            "price": "24.00",
-            "currency": "USD",
-            "ean": "00886976239619",
-            "condition": "new"
-          },
-          {
-            "url": "https://skeletondustrecords.com/products/incapacitants-bastard-noise-plagued-enigmas-lp-m?variant=67912883568713",
-            "price": "25.00",
-            "currency": "USD",
-            "ean": null,
-            "condition": "new"
-          }
-        ],
+        "observed_at": "2026-11-23T08:05:51.551832+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
         "database_write": false,
-        "price_quality": {
-          "status": "pass",
-          "flags": [],
-          "records_checked": 3,
-          "unique_prices": 3,
-          "shipping_hits": 0,
-          "currencies": [
-            "USD"
-          ]
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
         },
-        "status": "APPROVED"
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
       },
       "history": [
         {
@@ -14608,6 +14572,12 @@
           "status": "APPROVED",
           "reason": null,
           "run_id": "44046382607"
+        },
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
         }
       ],
       "approved_route": "https://skeletondustrecords.com/products.json?limit=20&page=1",
@@ -17546,54 +17516,38 @@
     "theexchange_com": {
       "fingerprint": "53ab7a4ec7693cc2958635c9691451e82127259ba8c8e528657afe862a22d8a1",
       "domain": "theexchange.com",
-      "batch": 41,
-      "repair_attempts": 1,
+      "batch": 42,
+      "repair_attempts": 2,
       "repair_modes": [
         "ean"
       ],
       "admitted": true,
       "status": "REVIEW",
-      "run_id": "44997810130",
-      "updated_at": "2026-11-22T07:20:56.559898+00:00",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:51.582910+00:00",
       "evidence": {
         "domain": "theexchange.com",
         "route": "https://theexchange.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-22T07:20:55.387573+00:00",
-        "requests": [
-          {
-            "url": "https://theexchange.com/products.json?limit=20&page=1",
-            "sha256": "2cdcafa67ef40f42aeb882e600b94db18042cb0c6cf0f299cacb28271077a9f0"
-          },
-          {
-            "url": "https://theexchange.com/products/1007442575?variant=42906132152453",
-            "sha256": "8a496441a983ff7172c65715d5719c41eaba75309d5c340de0d22c93771ca854"
-          }
-        ],
-        "listing_records": 1,
-        "detail_checked": 1,
+        "observed_at": "2026-11-23T08:05:51.582879+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
         "valid_eans": 0,
-        "details": [
-          {
-            "url": "https://theexchange.com/products/1007442575?variant=42906132152453",
-            "price": "26.00",
-            "currency": "USD",
-            "ean": null,
-            "condition": "new"
-          }
-        ],
+        "details": [],
         "database_write": false,
-        "price_quality": {
-          "status": "pass",
-          "flags": [],
-          "records_checked": 1,
-          "unique_prices": 1,
-          "shipping_hits": 0,
-          "currencies": [
-            "USD"
-          ]
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
         },
         "status": "REVIEW",
-        "reason": "detail_ean_not_proven",
+        "reason": "market_eligibility_unknown_review",
         "error_type": "CollectionBlocked"
       },
       "history": [
@@ -17614,6 +17568,12 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "44997810130"
+        },
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
         }
       ],
       "admission_evidence": {
@@ -27929,73 +27889,39 @@
     "bobsvinyl_nl": {
       "fingerprint": "e51342d4f862c1a7344857b48aea8ed1cd469eee5c928bf726334e8f402b2e0c",
       "domain": "bobsvinyl.nl",
-      "batch": 40,
-      "repair_attempts": 0,
-      "repair_modes": [],
+      "batch": 42,
+      "repair_attempts": 1,
+      "repair_modes": [
+        "ean"
+      ],
       "admitted": true,
-      "status": "APPROVED",
-      "run_id": "44881153515",
-      "updated_at": "2026-11-21T07:38:32.105213+00:00",
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:51.519975+00:00",
       "evidence": {
         "domain": "bobsvinyl.nl",
-        "route": "https://bobsvinyl.nl/products.json?limit=20&page=1",
-        "observed_at": "2026-11-21T07:38:28.758581+00:00",
-        "requests": [
-          {
-            "url": "https://bobsvinyl.nl/products.json?limit=20&page=1",
-            "sha256": "c53e41ec7515e1f9403863410a743ef6c30f55c69e109ed2a9e78f25d25e6ea1"
-          },
-          {
-            "url": "https://bobsvinyl.nl/products/manchester-orchestra-im-like-a-virgin-losing-a-child-2lp?variant=55290426130765",
-            "sha256": "43a811c86c608d17fd3fad1e0b10c8f9c30bf138c1f87b8793a8d341025b38cb"
-          },
-          {
-            "url": "https://bobsvinyl.nl/products/boudewijn-de-groot-vijf-jaar-hits-lp-a70?variant=55446741942605",
-            "sha256": "eb495e0df2ad6fdc3d067159eec6079f67a8b4221b4432b00f9195481372ff69"
-          },
-          {
-            "url": "https://bobsvinyl.nl/products/the-chills-kaleidoscope-world-lp-a70?variant=55446611362125",
-            "sha256": "aa47230f596a2a5abc39ad8f9204856487912c56072ad5c833bfe92ce7a5045b"
-          }
-        ],
-        "listing_records": 20,
-        "detail_checked": 3,
-        "valid_eans": 1,
-        "details": [
-          {
-            "url": "https://bobsvinyl.nl/products/manchester-orchestra-im-like-a-virgin-losing-a-child-2lp?variant=55290426130765",
-            "price": "49.95",
-            "currency": "EUR",
-            "ean": "00840526514861",
-            "condition": "new"
-          },
-          {
-            "url": "https://bobsvinyl.nl/products/boudewijn-de-groot-vijf-jaar-hits-lp-a70?variant=55446741942605",
-            "price": "5.95",
-            "currency": "EUR",
-            "ean": null,
-            "condition": "new"
-          },
-          {
-            "url": "https://bobsvinyl.nl/products/the-chills-kaleidoscope-world-lp-a70?variant=55446611362125",
-            "price": "29.95",
-            "currency": "EUR",
-            "ean": null,
-            "condition": "new"
-          }
-        ],
+        "route": "https://bobsvinyl.nl/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:51.519871+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
         "database_write": false,
-        "price_quality": {
-          "status": "pass",
-          "flags": [],
-          "records_checked": 20,
-          "unique_prices": 13,
-          "shipping_hits": 0,
-          "currencies": [
-            "EUR"
-          ]
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
         },
-        "status": "APPROVED"
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
       },
       "history": [
         {
@@ -28003,6 +27929,12 @@
           "status": "APPROVED",
           "reason": null,
           "run_id": "44881153515"
+        },
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
         }
       ],
       "admission_evidence": {
@@ -31429,8 +31361,2076 @@
           "run_id": "44997810130"
         }
       ]
+    },
+    "harboursiderecords_com_au": {
+      "fingerprint": "adf464f3b3266b20bb0d47228796f0e102256489858ef173e19f666888f19798",
+      "domain": "harboursiderecords.com.au",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:51.613713+00:00",
+      "evidence": {
+        "domain": "harboursiderecords.com.au",
+        "route": "https://harboursiderecords.com.au/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:51.613682+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "hathillrecords_com_au": {
+      "fingerprint": "ff2075f1ca1da301df46537d86788033f6fb0100f63eb613a25cd04f6ec01718",
+      "domain": "hathillrecords.com.au",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:51.644213+00:00",
+      "evidence": {
+        "domain": "hathillrecords.com.au",
+        "route": "https://hathillrecords.com.au/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:51.644182+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "heartlandrecords_com_au": {
+      "fingerprint": "220620af99782544783c8ec74219051cfc1313585360a6288d3d0d8fa0abe902",
+      "domain": "heartlandrecords.com.au",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:51.677078+00:00",
+      "evidence": {
+        "domain": "heartlandrecords.com.au",
+        "route": "https://heartlandrecords.com.au/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:51.677046+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "hideousrecords_com_au": {
+      "fingerprint": "c611269221a850ebbe5c050061d30bcf495742eb99afef6626e759c4ca96ab4c",
+      "domain": "hideousrecords.com.au",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:51.707763+00:00",
+      "evidence": {
+        "domain": "hideousrecords.com.au",
+        "route": "https://hideousrecords.com.au/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:51.707734+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "hificabinetcompany_com": {
+      "fingerprint": "ab40c09247ee09ff287897a46c70e7ab26ffd8407f4a5ffb6a1239d9a1c21492",
+      "domain": "hificabinetcompany.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:51.738183+00:00",
+      "evidence": {
+        "domain": "hificabinetcompany.com",
+        "route": "https://hificabinetcompany.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:51.738153+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "hifilofi_shop": {
+      "fingerprint": "6947a8d1e9c0c8de4ca22dfecfd2aefae4305304f47aa817302403c85f0aa64e",
+      "domain": "hifilofi.shop",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:51.768570+00:00",
+      "evidence": {
+        "domain": "hifilofi.shop",
+        "route": "https://hifilofi.shop/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:51.768540+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "highnotes_ca": {
+      "fingerprint": "6997b9f4040969e60b35f2e4e97a62ffc334de0f54ff40715d6c2406bd947001",
+      "domain": "highnotes.ca",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:51.799115+00:00",
+      "evidence": {
+        "domain": "highnotes.ca",
+        "route": "https://highnotes.ca/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:51.799084+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "historianuestra_com": {
+      "fingerprint": "7eee5c3204d37083071109f2823e2f937fcefe90fe47da468fe666d46e44b92b",
+      "domain": "historianuestra.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:51.829635+00:00",
+      "evidence": {
+        "domain": "historianuestra.com",
+        "route": "https://historianuestra.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "observed_at": "2026-11-23T08:05:51.829604+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "idshop_ca": {
+      "fingerprint": "c9007b091f50d74a92d16ef27545bec852b1e62f7d4e4c0ed2b5249b1bfaa82a",
+      "domain": "idshop.ca",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:51.860223+00:00",
+      "evidence": {
+        "domain": "idshop.ca",
+        "route": "https://idshop.ca/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:51.860192+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "impressedrecordings_com": {
+      "fingerprint": "cfb8c10b62d2336c51df3dbdc4486ce5fa7de9d2180c1df276ee07bfbb320299",
+      "domain": "impressedrecordings.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:51.890948+00:00",
+      "evidence": {
+        "domain": "impressedrecordings.com",
+        "route": "https://impressedrecordings.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:51.890918+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "innersleeve_com": {
+      "fingerprint": "4844d8286166ba6d4778b720acc597063801fd22fb0c0c977de942a44f04ae79",
+      "domain": "innersleeve.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:51.924784+00:00",
+      "evidence": {
+        "domain": "innersleeve.com",
+        "route": "https://innersleeve.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:51.924754+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "intenserecords_com": {
+      "fingerprint": "66208a131cc7fbdb5132e1b356cd7c1681f652c8ccd52de622bd4f90e990e185",
+      "domain": "intenserecords.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:51.955390+00:00",
+      "evidence": {
+        "domain": "intenserecords.com",
+        "route": "https://intenserecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:51.955360+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "inverted_audio_store": {
+      "fingerprint": "48696e9719818ba584f9b7bf6c708832a1a60fae0a70a0e739a0073bc622b0d2",
+      "domain": "inverted-audio.store",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:51.986121+00:00",
+      "evidence": {
+        "domain": "inverted-audio.store",
+        "route": "https://inverted-audio.store/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:51.986090+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "invisiblecityeditions_com": {
+      "fingerprint": "7a89deb0133446d6d6eb32126047d43ce32f560b994c55b4626324c4f08b6abc",
+      "domain": "invisiblecityeditions.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.016745+00:00",
+      "evidence": {
+        "domain": "invisiblecityeditions.com",
+        "route": "https://invisiblecityeditions.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.016714+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "irelandvinyl_com": {
+      "fingerprint": "754da0668615492289c7a932115545f8bf0903d0f9496f8d1899cb5424a4993a",
+      "domain": "irelandvinyl.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.047183+00:00",
+      "evidence": {
+        "domain": "irelandvinyl.com",
+        "route": "https://irelandvinyl.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.047153+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "jigsaw_records_com": {
+      "fingerprint": "2845c03b2f84018b840ae1f8479a3729348ef201bd18f73674d8cff281a7cc99",
+      "domain": "jigsaw-records.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.077666+00:00",
+      "evidence": {
+        "domain": "jigsaw-records.com",
+        "route": "https://jigsaw-records.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.077623+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "justdroppedin_co_uk": {
+      "fingerprint": "4b4d0af1112a147c6fddcd635e1f9eda7da208f0458bea6fb2d1a0317b0cd6b5",
+      "domain": "justdroppedin.co.uk",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.108042+00:00",
+      "evidence": {
+        "domain": "justdroppedin.co.uk",
+        "route": "https://justdroppedin.co.uk/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.108011+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "jwrayrecords_com": {
+      "fingerprint": "b06a5634881f6134e215225ebb58bdf7d33a384b2c9f00dc88b0ef03782e85b8",
+      "domain": "jwrayrecords.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.138806+00:00",
+      "evidence": {
+        "domain": "jwrayrecords.com",
+        "route": "https://jwrayrecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.138776+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "katakomben_no": {
+      "fingerprint": "8af279e0bce149bd5692492998636ae2b9ba333fd124d9b3365b86c7c45daee8",
+      "domain": "katakomben.no",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.169361+00:00",
+      "evidence": {
+        "domain": "katakomben.no",
+        "route": "https://katakomben.no/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.169330+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "kindofblue_cl": {
+      "fingerprint": "47a24b2f33685b185b82a9763f85d96ca9553bf08f32925c30792ec023ad0f56",
+      "domain": "kindofblue.cl",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.203834+00:00",
+      "evidence": {
+        "domain": "kindofblue.cl",
+        "route": "https://kindofblue.cl/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.203804+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "klecrecords_myshopify_com": {
+      "fingerprint": "3df7ef1a648ffd6c73573b16c9d222d23ae034710e272798b8d9ff731d9b8fc2",
+      "domain": "klecrecords.myshopify.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.234896+00:00",
+      "evidence": {
+        "domain": "klecrecords.myshopify.com",
+        "route": "https://klecrecords.myshopify.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.234866+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "laden_siluh_com": {
+      "fingerprint": "12392e375af23731ee17289ef0116d491fc1e4f8a8a3596512e692667bda11c7",
+      "domain": "laden.siluh.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.265752+00:00",
+      "evidence": {
+        "domain": "laden.siluh.com",
+        "route": "https://laden.siluh.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.265721+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "landspeed_com_au": {
+      "fingerprint": "b787420f037d7bb0c73e2ee9992e58839c853c722cb70c5370c5e778ab573368",
+      "domain": "landspeed.com.au",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.296334+00:00",
+      "evidence": {
+        "domain": "landspeed.com.au",
+        "route": "https://landspeed.com.au/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.296303+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "leftfordeadshop_co_uk": {
+      "fingerprint": "1ce677a8ab9d5dfd78e0c7ca0dffa24f183a393c43f0db023eb25764aae70eab",
+      "domain": "leftfordeadshop.co.uk",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.327421+00:00",
+      "evidence": {
+        "domain": "leftfordeadshop.co.uk",
+        "route": "https://leftfordeadshop.co.uk/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.327390+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "lenoise_ca": {
+      "fingerprint": "b8cbc59d618981c79da04ebdccade3d264969e333bcd461858a3fe157aff9bfb",
+      "domain": "lenoise.ca",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.358471+00:00",
+      "evidence": {
+        "domain": "lenoise.ca",
+        "route": "https://lenoise.ca/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.358440+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "levitation_fm": {
+      "fingerprint": "5a30f0fa67e28b2a506d7bdb4c784b861bdff86f022c924f773e3e5f02181dee",
+      "domain": "levitation.fm",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.389361+00:00",
+      "evidence": {
+        "domain": "levitation.fm",
+        "route": "https://levitation.fm/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.389330+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "lightintheattic_net": {
+      "fingerprint": "72fc70a15062185488be33a57b037f5a19074f1d8d6e6df11ec22613494855ec",
+      "domain": "lightintheattic.net",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.420532+00:00",
+      "evidence": {
+        "domain": "lightintheattic.net",
+        "route": "https://lightintheattic.net/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.420501+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "lionvibes_com": {
+      "fingerprint": "476bff904e710c8fa2eeff646af9ae4a61617e7bf1ec21632157c8d0b71685b9",
+      "domain": "lionvibes.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.455313+00:00",
+      "evidence": {
+        "domain": "lionvibes.com",
+        "route": "https://lionvibes.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.455282+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "littlebutterflyrecords_com": {
+      "fingerprint": "0c31aa615bd3ac0981af065ed19a6a656f7732c272b6cbfa9ef1cdce97451cb3",
+      "domain": "littlebutterflyrecords.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.486455+00:00",
+      "evidence": {
+        "domain": "littlebutterflyrecords.com",
+        "route": "https://littlebutterflyrecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.486426+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "loafersvinyl_co_uk": {
+      "fingerprint": "a570844957b25d2872d529ebcb8ffa99a487c0ff7e6b6adc93698b555807f029",
+      "domain": "loafersvinyl.co.uk",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.518103+00:00",
+      "evidence": {
+        "domain": "loafersvinyl.co.uk",
+        "route": "https://loafersvinyl.co.uk/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.518072+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "lovemusicglasgow_com": {
+      "fingerprint": "87470e9b0d4ef95c103e98241e42f0df548b0682bd140febd7484c3b062c80d9",
+      "domain": "lovemusicglasgow.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.550161+00:00",
+      "evidence": {
+        "domain": "lovemusicglasgow.com",
+        "route": "https://lovemusicglasgow.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.550130+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "lucarecords_ie": {
+      "fingerprint": "a31a7304d76e7273d39a9c0bc63ed9712c396a6f799c19291da54d67b144acc1",
+      "domain": "lucarecords.ie",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.581418+00:00",
+      "evidence": {
+        "domain": "lucarecords.ie",
+        "route": "https://lucarecords.ie/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.581388+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "massive_international_com": {
+      "fingerprint": "623a8a3a8288255198940e50a79c2ef93e18ee5983c86fe9fe5a811c9ea9cc64",
+      "domain": "massive-international.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.613287+00:00",
+      "evidence": {
+        "domain": "massive-international.com",
+        "route": "https://massive-international.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.613256+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "meditations_jp": {
+      "fingerprint": "d6ef341d5d6fb5f11bd5ddbfab5c60ec6f8d597aad5f52cab75c4141bcb6d18f",
+      "domain": "meditations.jp",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.644318+00:00",
+      "evidence": {
+        "domain": "meditations.jp",
+        "route": "https://meditations.jp/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.644288+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "metadonarecords_com": {
+      "fingerprint": "bc4ad6b4adcfa66f301a409931e98239ad92315aba213dbd6593a90badead4a2",
+      "domain": "metadonarecords.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.675496+00:00",
+      "evidence": {
+        "domain": "metadonarecords.com",
+        "route": "https://metadonarecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.675466+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "milehighvinyl_ca": {
+      "fingerprint": "5b62f44aaaaa64285f47c63f0dee5ab4b2183481cbc2368385cf685fac571ee9",
+      "domain": "milehighvinyl.ca",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.710108+00:00",
+      "evidence": {
+        "domain": "milehighvinyl.ca",
+        "route": "https://milehighvinyl.ca/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.710077+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "mintandsealed_com": {
+      "fingerprint": "983d33ce2850347d8a5011a4a61df2487901de91a7b1bf084d1be09649c2d6b4",
+      "domain": "mintandsealed.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.741642+00:00",
+      "evidence": {
+        "domain": "mintandsealed.com",
+        "route": "https://mintandsealed.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.741611+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "moonsrecords_com": {
+      "fingerprint": "a247a2b20a08b036112d0056838bf76f2581397c6cc0707997f286f8dda10515",
+      "domain": "moonsrecords.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.772955+00:00",
+      "evidence": {
+        "domain": "moonsrecords.com",
+        "route": "https://moonsrecords.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.772924+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "morphorecords_com": {
+      "fingerprint": "8c1a950c328ba47bd1441f00f3f048a74f80345f7eedcc5461087ac92f67eecc",
+      "domain": "morphorecords.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.804035+00:00",
+      "evidence": {
+        "domain": "morphorecords.com",
+        "route": "https://morphorecords.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.804004+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "mpiremusic_co_za": {
+      "fingerprint": "34c229aea5a408f99970df2037772ce5db7f3c7c695da8125a20e4660a2eab73",
+      "domain": "mpiremusic.co.za",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.835293+00:00",
+      "evidence": {
+        "domain": "mpiremusic.co.za",
+        "route": "https://mpiremusic.co.za/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.835262+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "musiccircle_co_in": {
+      "fingerprint": "b328d2353e7a3de6e6e1b37a657c672956c561beefd645e38e29e9fb446eb95c",
+      "domain": "musiccircle.co.in",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.866727+00:00",
+      "evidence": {
+        "domain": "musiccircle.co.in",
+        "route": "https://musiccircle.co.in/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.866696+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "musicfarmers_com": {
+      "fingerprint": "08131409ddb8ba21a5d70a9cd1035d2af0a1064061afcdc9a57af9d10814092f",
+      "domain": "musicfarmers.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.897848+00:00",
+      "evidence": {
+        "domain": "musicfarmers.com",
+        "route": "https://musicfarmers.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.897818+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "musiclab_mx": {
+      "fingerprint": "d46cd58971edb42ccb972655564a8b9d029f91d0807d7d8cd6ea5246212ad6da",
+      "domain": "musiclab.mx",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.929176+00:00",
+      "evidence": {
+        "domain": "musiclab.mx",
+        "route": "https://musiclab.mx/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.929146+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "musicrecordshop_com": {
+      "fingerprint": "65f308d9ad9ffdcaaf72ac3e533ba0075f2378f6ba1b566821cb3496924a0395",
+      "domain": "musicrecordshop.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.960701+00:00",
+      "evidence": {
+        "domain": "musicrecordshop.com",
+        "route": "https://musicrecordshop.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.960670+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "mutingthenoise_com": {
+      "fingerprint": "e54b85a154794e4ed76c1eb712a2d4894003914d9d0c6e06378b2d0f868c07ab",
+      "domain": "mutingthenoise.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:52.995567+00:00",
+      "evidence": {
+        "domain": "mutingthenoise.com",
+        "route": "https://mutingthenoise.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:52.995537+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "mygeneration_be": {
+      "fingerprint": "785395d7ce6f90f27a34972c2bd533659f931a1aa42ed5baccfe0cc96f1a32dc",
+      "domain": "mygeneration.be",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:53.027274+00:00",
+      "evidence": {
+        "domain": "mygeneration.be",
+        "route": "https://mygeneration.be/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:53.027244+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
+    },
+    "nakasha_spain_com": {
+      "fingerprint": "60d093b5cc71dcaaf39bc4c89f128b0ee160b48b6752641ce505e5b431a932b6",
+      "domain": "nakasha-spain.com",
+      "batch": 42,
+      "repair_attempts": 0,
+      "repair_modes": [],
+      "admitted": false,
+      "status": "REVIEW",
+      "run_id": "45135850149",
+      "updated_at": "2026-11-23T08:05:53.058966+00:00",
+      "evidence": {
+        "domain": "nakasha-spain.com",
+        "route": "https://nakasha-spain.com/products.json?limit=20&page=1",
+        "observed_at": "2026-11-23T08:05:53.058935+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
+        "database_write": false,
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
+        },
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
+      },
+      "history": [
+        {
+          "batch": 42,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "45135850149"
+        }
+      ]
     }
   },
-  "updated_at": "2026-11-22T07:21:55.431230+00:00",
-  "last_run_id": "44997810130"
+  "updated_at": "2026-11-23T08:05:53.058987+00:00",
+  "last_run_id": "45135850149"
 }
