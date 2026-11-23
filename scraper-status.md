@@ -5340,7 +5340,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | ksolovintage.com | 25 | FROZEN | 3 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | laden.siluh.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | landspeed.com.au | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
-| latchkeyrecords.com | 4 | APPROVED | 0 | 16 | 3/3 | ACTIVE (run 45158787840) | ACTIVE | run 39548302912 |
+| latchkeyrecords.com | 4 | APPROVED | 0 | 16 | 3/3 | ACTIVE (run 45158787840) | ACTIVE (run 45178194951) | run 39548302912 |
 | lathecutvinylrecords.com | 25 | FROZEN | 3 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | leftfordeadshop.co.uk | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | lenoise.ca | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
