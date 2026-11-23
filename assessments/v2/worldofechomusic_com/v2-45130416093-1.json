@@ -1,0 +1,188 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-23T07:22:17.155937+00:00",
+  "shop_id": "worldofechomusic.com",
+  "row": 3448,
+  "name": "World of Echo",
+  "domain": "worldofechomusic.com",
+  "country": null,
+  "website": "https://worldofechomusic.com/",
+  "previous_status": "SCRAPER_BUILT_TESTED",
+  "previous_reason": null,
+  "existing_scraper": true,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 3448,
+    "name": "World of Echo",
+    "domain": "worldofechomusic.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "build",
+    "platform": "shopify",
+    "source_url": "https://worldofechomusic.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 19,
+    "excluded": 1,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "GBP",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://worldofechomusic.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://worldofechomusic.com/products.json?limit=20&page=1",
+        "score": 195,
+        "products_seen": 20,
+        "accepted": 19,
+        "excluded": 1,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://worldofechomusic.com/collections/all/products.json?limit=20&page=1",
+        "score": 105,
+        "products_seen": 24,
+        "accepted": 10,
+        "excluded": 14,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://worldofechomusic.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://worldofechomusic.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://worldofechomusic.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://worldofechomusic.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://worldofechomusic.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://worldofechomusic.com/products.json?limit=20&page=1",
+      "score": 195,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "detail_checked": 2,
+    "detail_gtin_valid": 0,
+    "detail_status": "SAMPLED"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://worldofechomusic.com/products.json?limit=20&page=1",
+  "listing_sample": 19,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 19,
+    "unique_prices": 10,
+    "shipping_hits": 0,
+    "currencies": [
+      "GBP"
+    ]
+  },
+  "secondhand_observed": false,
+  "requests": [
+    {
+      "url": "https://worldofechomusic.com/robots.txt",
+      "sha256": "3e2ecdf04f32871a5bb953cc095eaf33d78b20b1f62ac194aa6ec9638c686b57"
+    },
+    {
+      "url": "https://worldofechomusic.com/",
+      "sha256": "8a951f8584003cea134f1fc1f0aeaa65581695e66b46d8e3091f603f7f4188c0"
+    },
+    {
+      "url": "https://worldofechomusic.com/products.json?limit=20&page=1",
+      "sha256": "5edd379e130ed7394cb46f0a4aee6fd2cfd7891babc080503cefcf8609225584"
+    },
+    {
+      "url": "https://worldofechomusic.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "f07acc18e696056eef3cf50de11c9cc4a0fc3b2b694b343af763ef73808efd49"
+    },
+    {
+      "url": "https://worldofechomusic.com/products/bo-harwood-s-t",
+      "sha256": "32fdadbd717cd72148be2a66c1c5ad0ce1ed241d3f2917f1f2704bcea9313f47"
+    },
+    {
+      "url": "https://worldofechomusic.com/products/sean-being-thank-goodness",
+      "sha256": "da16de83a28dab3e0301ca77afe7bc83f20cd553acbcf37c8bccfab257ded143"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "UnicodeEncodeError"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": true,
+    "secondhand_only": null,
+    "new_used_distinguishable": null,
+    "public_prices": true,
+    "availability": true,
+    "stable_urls": true,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 1.0,
+    "sale_price_recognizable": null,
+    "cover_available": null,
+    "access_problem": "UnicodeEncodeError"
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "PRESENT_UNREVIEWED",
+  "example_urls": [],
+  "assessment_id": "v2-45130416093-1",
+  "queue_rows": [
+    3448
+  ],
+  "assessment_path": "assessments/v2/worldofechomusic_com/v2-45130416093-1.json"
+}
