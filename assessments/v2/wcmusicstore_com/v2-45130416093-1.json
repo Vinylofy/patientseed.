@@ -1,0 +1,180 @@
+{
+  "assessment_version": 2,
+  "assessment_revision": "2.1",
+  "assessed_at": "2026-11-23T07:21:31.498910+00:00",
+  "shop_id": "wcmusicstore.com",
+  "row": 5024,
+  "name": "West Chester Music",
+  "domain": "wcmusicstore.com",
+  "country": null,
+  "website": "https://wcmusicstore.com/",
+  "previous_status": "ADAPTER_TESTED",
+  "previous_reason": "no confirmed new vinyl on bounded page",
+  "existing_scraper": false,
+  "existing_ean_approved": false,
+  "product_count": null,
+  "product_count_basis": "unknown_not_full_catalogue",
+  "database_write": false,
+  "migration_approved": false,
+  "manual_test_required": true,
+  "sample_design": "first_middle_last_distinct_products_on_bounded_listing",
+  "edition_matching_proven": false,
+  "source_observation": {
+    "row": 5024,
+    "name": "West Chester Music",
+    "domain": "wcmusicstore.com",
+    "status": "ADAPTER_TESTED",
+    "gate": "listing",
+    "platform": "shopify",
+    "source_url": "https://wcmusicstore.com/products.json?limit=20&page=1",
+    "adapter_class": "ShopifyNewVinylAdapter",
+    "adapter_status": "REUSED_AND_TESTED",
+    "products_seen": 20,
+    "accepted": 0,
+    "excluded": 20,
+    "pagination_complete": false,
+    "listing_gtin_valid": 0,
+    "currency": "USD",
+    "currency_source": "public_storefront_Shopify.currency",
+    "currency_source_url": "https://wcmusicstore.com/",
+    "method_candidates": [
+      {
+        "platform": "shopify",
+        "route": "https://wcmusicstore.com/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "shopify",
+        "route": "https://wcmusicstore.com/collections/all/products.json?limit=20&page=1",
+        "score": 0,
+        "products_seen": 20,
+        "accepted": 0,
+        "excluded": 20,
+        "status": "ADAPTER_PARSED"
+      },
+      {
+        "platform": "woocommerce",
+        "route": "https://wcmusicstore.com/wp-json/wc/store/v1/products?per_page=20&page=1",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_400"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://wcmusicstore.com/api/0.1/collections/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "squarespace",
+        "route": "https://wcmusicstore.com/api/0.1/collections/all/products?format=json",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://wcmusicstore.com/api/storefront/products?limit=20&offset=0",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      },
+      {
+        "platform": "bigcommerce",
+        "route": "https://wcmusicstore.com/api/storefront/products?limit=20",
+        "score": 0,
+        "status": "ROUTE_REJECTED",
+        "reason": "HTTP_404"
+      }
+    ],
+    "selected_method": {
+      "platform": "shopify",
+      "route": "https://wcmusicstore.com/products.json?limit=20&page=1",
+      "score": 0,
+      "selection": "highest_bounded_adapter_score"
+    },
+    "reason": "no confirmed new vinyl on bounded page"
+  },
+  "platform": "shopify",
+  "catalog_route": "https://wcmusicstore.com/products.json?limit=20&page=1",
+  "listing_sample": 0,
+  "price_quality": {
+    "status": "pass",
+    "flags": [],
+    "records_checked": 0,
+    "unique_prices": 0,
+    "shipping_hits": 0,
+    "currencies": []
+  },
+  "secondhand_observed": true,
+  "examples": [],
+  "requests": [
+    {
+      "url": "https://wcmusicstore.com/robots.txt",
+      "sha256": "481fb453da477c7346f8f091b485e27f29db0f99ef6c09fdbb63545822b7b9c7"
+    },
+    {
+      "url": "https://wcmusicstore.com/",
+      "sha256": "a8661fae0bd3d084fcfd7dd528ef0692653b39e0865449f3ed51abbf8f924367"
+    },
+    {
+      "url": "https://wcmusicstore.com/products.json?limit=20&page=1",
+      "sha256": "2628815a8389ac0fe8a8f4a4ea4ec48a4a35e14ac794626da387723d4f3ca83c"
+    },
+    {
+      "url": "https://wcmusicstore.com/collections/all/products.json?limit=20&page=1",
+      "sha256": "8a3f0fe4ff45fecb043d2e192b03bab66edeb39b6d105b65fa214e6abdbe7d5c"
+    }
+  ],
+  "scraper_type": "MANUAL_REVIEW",
+  "preferred_scraper_type": null,
+  "supports_artist_title_fallback": false,
+  "suitability": "MANUAL_REVIEW",
+  "assessment_ready": false,
+  "build_eligible": false,
+  "reason": [
+    "not_proven:vinyl",
+    "not_proven:new_used_distinguishable",
+    "not_proven:public_prices",
+    "not_proven:availability",
+    "not_proven:stable_urls"
+  ],
+  "evidence": {
+    "existing_ean_approved": false,
+    "active": true,
+    "vinyl": false,
+    "secondhand_only": null,
+    "new_used_distinguishable": false,
+    "public_prices": false,
+    "availability": false,
+    "stable_urls": false,
+    "detail_checked": 0,
+    "detail_price_proven": 0,
+    "ean_valid": 0,
+    "identity_details_proven": 0,
+    "identity_listing_ratio": 0,
+    "sale_price_recognizable": null,
+    "cover_available": null
+  },
+  "priority": "LOW",
+  "priority_reason": [
+    "insufficient_evidence"
+  ],
+  "non_ean_potential": "UNKNOWN",
+  "potential_basis": "bounded_sample_only",
+  "ean_availability": "UNKNOWN",
+  "build_status": "NOT_BUILDABLE_WITH_CURRENT_EVIDENCE",
+  "country_source": null,
+  "existing_scraper_status": "NONE",
+  "example_urls": [],
+  "assessment_id": "v2-45130416093-1",
+  "queue_rows": [
+    5024
+  ],
+  "assessment_path": "assessments/v2/wcmusicstore_com/v2-45130416093-1.json"
+}
