@@ -5442,7 +5442,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | ravesfromthegrave.com | 43 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | reallygood.jp | 43 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | rebrecordsmd.com | 30 | FROZEN | 3 | 16 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| record-stop.com | 6 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE | run 39904748109 |
+| record-stop.com | 6 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE (run 45407054089) | run 39904748109 |
 | recordcorner.co.uk | 43 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | recordplant.co.uk | 43 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | recordpusher.com | 43 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
