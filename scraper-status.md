@@ -5575,7 +5575,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | vinylvogue.com | 38 | REVIEW | 1 | 11 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | vylevinyl.com | 39 | FROZEN | 3 | 0 | 0/0 | FROZEN | FROZEN | no_new_vinyl_records |
 | waitingroomrecords.com | 38 | REVIEW | 1 | 16 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| waterloorecords.com | 38 | APPROVED | 1 | 8 | 3/3 | ACTIVE | ACTIVE | run 44482526349 |
+| waterloorecords.com | 38 | APPROVED | 1 | 8 | 3/3 | ACTIVE | ACTIVE (run 45407054089) | run 44482526349 |
 | waxandbeans.co.uk | 13 | FROZEN | 3 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | waxmoonrecords.com | 38 | REVIEW | 1 | 18 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | waxtraxrecords.com | 15 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE | run 40455623960 |
