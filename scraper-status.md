@@ -5173,7 +5173,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | apolloexos.com | 18 | FROZEN | 3 | 1 | 0/0 | NOT_RUN | NOT_RUN | invalid_detail_gtin |
 | arcskate.com | 1 | APPROVED | 0 | 16 | 3/3 | ACTIVE | ACTIVE | run 39155794450 |
 | artsoundlanguage.com | 18 | FROZEN | 3 | 17 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| asliceofvinyl.co.uk | 40 | APPROVED | 0 | 15 | 2/3 | INCIDENT | INCIDENT | run 44881153515 |
+| asliceofvinyl.co.uk | 40 | APPROVED | 0 | 15 | 2/3 | INCIDENT | REPAIR_REQUIRED (run 45407054089) | run 44881153515 |
 | assai.co.uk | 13 | FROZEN | 3 | 15 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | atlasrecords.co.uk | 12 | FROZEN | 3 | 7 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | audiolab.com | 20 | FROZEN | 3 | 6 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
