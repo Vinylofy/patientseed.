@@ -1,0 +1,131 @@
+{
+  "fingerprint": "53ab7a4ec7693cc2958635c9691451e82127259ba8c8e528657afe862a22d8a1",
+  "domain": "theexchange.com",
+  "batch": 43,
+  "repair_attempts": 3,
+  "repair_modes": [
+    "ean"
+  ],
+  "admitted": true,
+  "status": "FROZEN",
+  "run_id": "45373852334",
+  "updated_at": "2026-11-24T10:20:47.386446+00:00",
+  "evidence": {
+    "domain": "theexchange.com",
+    "route": "https://theexchange.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-24T10:20:47.386404+00:00",
+    "requests": [],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "market_eligibility": {
+      "status": "UNKNOWN_REVIEW",
+      "target_markets": [
+        "NL"
+      ],
+      "origin_country": null,
+      "origin_source": null,
+      "shipping_countries": [],
+      "shipping_source": null,
+      "reason": "origin_country_missing_or_invalid"
+    },
+    "status": "REVIEW",
+    "reason": "market_eligibility_unknown_review",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 8,
+      "status": "REVIEW",
+      "reason": "Invalid Shopify price",
+      "run_id": "40164542697"
+    },
+    {
+      "batch": 34,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "43688290417"
+    },
+    {
+      "batch": 41,
+      "status": "REVIEW",
+      "reason": "detail_ean_not_proven",
+      "run_id": "44997810130"
+    },
+    {
+      "batch": 42,
+      "status": "REVIEW",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "45135850149"
+    },
+    {
+      "batch": 43,
+      "status": "FROZEN",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "45373852334"
+    }
+  ],
+  "admission_evidence": {
+    "domain": "theexchange.com",
+    "route": "https://theexchange.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-15T07:05:19.147696+00:00",
+    "requests": [
+      {
+        "url": "https://theexchange.com/products.json?limit=20&page=1",
+        "sha256": "26d614521b0ece3fbc53e1bddf708611644b928bde809fae05373b23fb5ea0b3"
+      },
+      {
+        "url": "https://theexchange.com/products/7464240930?variant=42886313476229",
+        "sha256": "6188241f7de26564f4585cbb0d299a61bb6555e128fd2e743fb960f96b22308e"
+      },
+      {
+        "url": "https://theexchange.com/products/v7559799885?variant=39862536732805",
+        "sha256": "7e972f842b1822279ac9fcf55d13224251eb15f68ea81a217c72942b5d668e60"
+      },
+      {
+        "url": "https://theexchange.com/products/0243542695?variant=39433798746245",
+        "sha256": "d930f9e5b8a7e4677d229b4159340b752f3b8819e3b8f83d06bc48818c961a6e"
+      }
+    ],
+    "listing_records": 6,
+    "detail_checked": 3,
+    "valid_eans": 2,
+    "details": [
+      {
+        "url": "https://theexchange.com/products/7464240930?variant=42886313476229",
+        "price": "12.00",
+        "currency": "USD",
+        "ean": "00074642409309",
+        "condition": "new"
+      },
+      {
+        "url": "https://theexchange.com/products/v7559799885?variant=39862536732805",
+        "price": "10.00",
+        "currency": "USD",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://theexchange.com/products/0243542695?variant=39433798746245",
+        "price": "40.00",
+        "currency": "USD",
+        "ean": "00602435426952",
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 6,
+      "unique_prices": 3,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "APPROVED"
+  }
+}
