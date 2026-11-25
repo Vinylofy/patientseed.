@@ -5337,7 +5337,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | jwrayrecords.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | katakomben.no | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | kindofblue.cl | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
-| kingsroadmerch.co.uk | 9 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE (run 45539875860) | run 40239367598 |
+| kingsroadmerch.co.uk | 9 | APPROVED | 0 | 11 | 3/3 | ACTIVE (run 45602789577) | ACTIVE (run 45539875860) | run 40239367598 |
 | klecrecords.myshopify.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | ksolovintage.com | 25 | FROZEN | 3 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | laden.siluh.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
