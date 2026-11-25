@@ -5630,7 +5630,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | witsendrecords.com | 15 | REVIEW | 0 | 4 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | wreckonatl.com | 15 | REVIEW | 0 | 17 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | wyrdbyrdypsi.com | 16 | REVIEW | 0 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| yearbookrecords.com | 16 | APPROVED | 0 | 1 | 1/1 | ACTIVE | ACTIVE (run 45539875860) | run 40642431631 |
+| yearbookrecords.com | 16 | APPROVED | 0 | 1 | 1/1 | ACTIVE (run 45602789577) | ACTIVE (run 45539875860) | run 40642431631 |
 | yellowdogdiscs.com | 16 | REVIEW | 0 | 4 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | yourvinylshop.com | 16 | APPROVED | 0 | 2 | 1/2 | ACTIVE | ACTIVE (run 45539875860) | run 40642431631 |
 | yurisrecords.com | 16 | REVIEW | 0 | 16 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
