@@ -5267,7 +5267,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | finersounds.com | 3 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 39373494403 |
 | firetalk.shop | 22 | FROZEN | 3 | 20 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | firstcityrecordstore.com | 22 | FROZEN | 3 | 6 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| fivebuckbin.com | 40 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 44881153515 |
+| fivebuckbin.com | 40 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE (run 45539875860) | run 44881153515 |
 | fivespaceshop.com | 41 | REVIEW | 0 | 18 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | flashback.co.uk | 12 | FROZEN | 3 | 2 | 0/2 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | flowrecordstore.com | 41 | REVIEW | 0 | 10 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
