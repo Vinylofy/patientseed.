@@ -5184,7 +5184,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | beatdownrecords.org | 12 | FROZEN | 3 | 11 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | beatgoeson.com | 39 | REVIEW | 0 | 8 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | beatlabusa.com | 19 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
-| beatniksrecords.com.au | 39 | APPROVED | 0 | 18 | 3/3 | ACTIVE | INCIDENT | run 44696709935 |
+| beatniksrecords.com.au | 39 | APPROVED | 0 | 18 | 3/3 | ACTIVE | REPAIR_REQUIRED (run 45539875860) | run 44696709935 |
 | beatstreet.ca | 39 | REVIEW | 0 | 15 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | bellaunionvinylshop.com | 12 | FROZEN | 3 | 14 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | bendingsound.co.uk | 39 | REVIEW | 0 | 12 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
