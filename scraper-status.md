@@ -5536,7 +5536,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | sounds-grounds.co.uk | 44 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | soundshaarlem.nl | 44 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | soundslikevinyl.com | 44 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
-| southmetromusic.com | 7 | APPROVED | 0 | 10 | 3/3 | ACTIVE | INCIDENT | run 40064351096 |
+| southmetromusic.com | 7 | APPROVED | 0 | 10 | 3/3 | ACTIVE | REPAIR_REQUIRED (run 45539875860) | run 40064351096 |
 | southrecordshop.com | 12 | FROZEN | 3 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | specialistsubjectrecords.co.uk | 12 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | spectrumcityshop.com | 44 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
