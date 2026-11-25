@@ -5284,7 +5284,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | fullhausrecords.com | 22 | FROZEN | 3 | 3 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | furtherrecords.com | 22 | FROZEN | 3 | 8 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | gatefieldsounds.com | 41 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | Invalid Shopify price |
-| getresurrected.com | 3 | APPROVED | 0 | 14 | 3/3 | ACTIVE | ACTIVE | run 39373494403 |
+| getresurrected.com | 3 | APPROVED | 0 | 14 | 3/3 | ACTIVE | ACTIVE (run 45539875860) | run 39373494403 |
 | glitterrecords.com.au | 41 | REVIEW | 0 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | goingundergroundrecords.com | 23 | FROZEN | 3 | 6 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | goldendiscs.ie | 41 | APPROVED | 0 | 12 | 3/3 | ACTIVE | ACTIVE | run 44997810130 |
