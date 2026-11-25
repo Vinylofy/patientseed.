@@ -1,0 +1,125 @@
+{
+  "fingerprint": "e51342d4f862c1a7344857b48aea8ed1cd469eee5c928bf726334e8f402b2e0c",
+  "domain": "bobsvinyl.nl",
+  "batch": 44,
+  "repair_attempts": 3,
+  "repair_modes": [
+    "ean"
+  ],
+  "admitted": true,
+  "status": "FROZEN",
+  "run_id": "45521251092",
+  "updated_at": "2026-11-25T00:50:59.340600+00:00",
+  "evidence": {
+    "domain": "bobsvinyl.nl",
+    "route": "https://bobsvinyl.nl/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-25T00:50:59.340516+00:00",
+    "requests": [],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "market_eligibility": {
+      "status": "UNKNOWN_REVIEW",
+      "target_markets": [
+        "NL"
+      ],
+      "origin_country": null,
+      "origin_source": null,
+      "shipping_countries": [],
+      "shipping_source": null,
+      "reason": "origin_country_missing_or_invalid"
+    },
+    "status": "REVIEW",
+    "reason": "market_eligibility_unknown_review",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 40,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "44881153515"
+    },
+    {
+      "batch": 42,
+      "status": "REVIEW",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "45135850149"
+    },
+    {
+      "batch": 43,
+      "status": "REVIEW",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "45373852334"
+    },
+    {
+      "batch": 44,
+      "status": "FROZEN",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "45521251092"
+    }
+  ],
+  "admission_evidence": {
+    "domain": "bobsvinyl.nl",
+    "route": "https://bobsvinyl.nl/products.json?limit=20&page=1",
+    "observed_at": "2026-11-21T07:38:28.758581+00:00",
+    "requests": [
+      {
+        "url": "https://bobsvinyl.nl/products.json?limit=20&page=1",
+        "sha256": "c53e41ec7515e1f9403863410a743ef6c30f55c69e109ed2a9e78f25d25e6ea1"
+      },
+      {
+        "url": "https://bobsvinyl.nl/products/manchester-orchestra-im-like-a-virgin-losing-a-child-2lp?variant=55290426130765",
+        "sha256": "43a811c86c608d17fd3fad1e0b10c8f9c30bf138c1f87b8793a8d341025b38cb"
+      },
+      {
+        "url": "https://bobsvinyl.nl/products/boudewijn-de-groot-vijf-jaar-hits-lp-a70?variant=55446741942605",
+        "sha256": "eb495e0df2ad6fdc3d067159eec6079f67a8b4221b4432b00f9195481372ff69"
+      },
+      {
+        "url": "https://bobsvinyl.nl/products/the-chills-kaleidoscope-world-lp-a70?variant=55446611362125",
+        "sha256": "aa47230f596a2a5abc39ad8f9204856487912c56072ad5c833bfe92ce7a5045b"
+      }
+    ],
+    "listing_records": 20,
+    "detail_checked": 3,
+    "valid_eans": 1,
+    "details": [
+      {
+        "url": "https://bobsvinyl.nl/products/manchester-orchestra-im-like-a-virgin-losing-a-child-2lp?variant=55290426130765",
+        "price": "49.95",
+        "currency": "EUR",
+        "ean": "00840526514861",
+        "condition": "new"
+      },
+      {
+        "url": "https://bobsvinyl.nl/products/boudewijn-de-groot-vijf-jaar-hits-lp-a70?variant=55446741942605",
+        "price": "5.95",
+        "currency": "EUR",
+        "ean": null,
+        "condition": "new"
+      },
+      {
+        "url": "https://bobsvinyl.nl/products/the-chills-kaleidoscope-world-lp-a70?variant=55446611362125",
+        "price": "29.95",
+        "currency": "EUR",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 20,
+      "unique_prices": 13,
+      "shipping_hits": 0,
+      "currencies": [
+        "EUR"
+      ]
+    },
+    "status": "APPROVED"
+  }
+}
