@@ -1,0 +1,150 @@
+{
+  "fingerprint": "3be88dff99f2df58ffebcf5875f05d8a697ff80537bddbeee3e1d450c7e604af",
+  "domain": "tntmusic.shop",
+  "batch": 45,
+  "repair_attempts": 3,
+  "repair_modes": [
+    "ean"
+  ],
+  "admitted": true,
+  "status": "FROZEN",
+  "run_id": "45731525847",
+  "updated_at": "2026-11-26T00:50:10.710545+00:00",
+  "evidence": {
+    "domain": "tntmusic.shop",
+    "route": "https://tntmusic.shop/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-26T00:50:10.710499+00:00",
+    "requests": [],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "market_eligibility": {
+      "status": "UNKNOWN_REVIEW",
+      "target_markets": [
+        "NL"
+      ],
+      "origin_country": null,
+      "origin_source": null,
+      "shipping_countries": [],
+      "shipping_source": null,
+      "reason": "origin_country_missing_or_invalid"
+    },
+    "status": "REVIEW",
+    "reason": "market_eligibility_unknown_review",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 14,
+      "status": "REVIEW",
+      "reason": "no_new_vinyl_records",
+      "run_id": "40272946607"
+    },
+    {
+      "batch": 35,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "43821932807"
+    },
+    {
+      "batch": 37,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "44262271076"
+    },
+    {
+      "batch": 39,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "44696709935"
+    },
+    {
+      "batch": 41,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "44997810130"
+    },
+    {
+      "batch": 43,
+      "status": "REVIEW",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "45373852334"
+    },
+    {
+      "batch": 44,
+      "status": "REVIEW",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "45521251092"
+    },
+    {
+      "batch": 45,
+      "status": "FROZEN",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "45731525847"
+    }
+  ],
+  "approved_route": "https://tntmusic.shop/collections/all/products.json?limit=20&page=1",
+  "admission_evidence": {
+    "domain": "tntmusic.shop",
+    "route": "https://tntmusic.shop/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-22T07:20:56.594657+00:00",
+    "requests": [
+      {
+        "url": "https://tntmusic.shop/collections/all/products.json?limit=20&page=1",
+        "sha256": "ed5f55726fa37303ef087e8b7339d6d4b003bea95e826cf0296e72a632c825a2"
+      },
+      {
+        "url": "https://tntmusic.shop/products/uicideboy-new-world-depression?variant=47425477574740",
+        "sha256": "f32d9d4ba1bf8f785741e8c45235b09fc430efba0e24da0513ed2e8218df3a5f"
+      },
+      {
+        "url": "https://tntmusic.shop/products/acdc-back-in-black?variant=47473724850260",
+        "sha256": "264bc6cacdaf0a589113a76371bd2cafaac8d55d10f1aa7d1743469bc7a10041"
+      },
+      {
+        "url": "https://tntmusic.shop/products/adele-30?variant=47473778688084",
+        "sha256": "1b59cbadd535e8987162693397396a51dcce4ade3aad2d53e4dda0a31133c0d3"
+      }
+    ],
+    "listing_records": 12,
+    "detail_checked": 3,
+    "valid_eans": 3,
+    "details": [
+      {
+        "url": "https://tntmusic.shop/products/uicideboy-new-world-depression?variant=47425477574740",
+        "price": "24.98",
+        "currency": "USD",
+        "ean": "00198391598197",
+        "condition": "new"
+      },
+      {
+        "url": "https://tntmusic.shop/products/acdc-back-in-black?variant=47473724850260",
+        "price": "27.98",
+        "currency": "USD",
+        "ean": "00696998020719",
+        "condition": "new"
+      },
+      {
+        "url": "https://tntmusic.shop/products/adele-30?variant=47473778688084",
+        "price": "38.98",
+        "currency": "USD",
+        "ean": "00194399379714",
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 12,
+      "unique_prices": 8,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "APPROVED"
+  }
+}
