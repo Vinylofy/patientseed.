@@ -5614,7 +5614,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | toughlove.shop | 45 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | towerrecords.ie | 45 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | trurecordsllc.com | 37 | FROZEN | 3 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| trustyspot.com | 14 | APPROVED | 0 | 19 | 3/3 | ACTIVE | ACTIVE | run 40272946607 |
+| trustyspot.com | 14 | APPROVED | 0 | 19 | 3/3 | ACTIVE | ACTIVE (run 45748671771) | run 40272946607 |
 | tumbleweedsct.com | 37 | FROZEN | 3 | 11 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | tunnelrecordssf.com | 37 | FROZEN | 3 | 5 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | turntabletreasures.com | 37 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
