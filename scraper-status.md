@@ -5353,7 +5353,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | loafersvinyl.co.uk | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | loudpizza.com | 25 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | lovemusicglasgow.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
-| lovepeoplerecords.com | 4 | APPROVED | 0 | 12 | 3/3 | ACTIVE | ACTIVE | run 39548302912 |
+| lovepeoplerecords.com | 4 | APPROVED | 0 | 12 | 3/3 | ACTIVE | ACTIVE (run 45748671771) | run 39548302912 |
 | lucarecords.ie | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | lulorecords.com | 25 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | lunarecordshop.com | 4 | APPROVED | 0 | 17 | 3/3 | ACTIVE | ACTIVE | run 39548302912 |
