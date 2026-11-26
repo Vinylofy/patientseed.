@@ -1,0 +1,125 @@
+{
+  "fingerprint": "8837d507d0ad976127f8aabb3817fa366d93121a07a801206cec060f031de525",
+  "domain": "beyondvinyl.co.uk",
+  "batch": 45,
+  "repair_attempts": 3,
+  "repair_modes": [
+    "ean"
+  ],
+  "admitted": true,
+  "status": "FROZEN",
+  "run_id": "45731525847",
+  "updated_at": "2026-11-26T00:50:10.600184+00:00",
+  "evidence": {
+    "domain": "beyondvinyl.co.uk",
+    "route": "https://beyondvinyl.co.uk/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-26T00:50:10.600136+00:00",
+    "requests": [],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "market_eligibility": {
+      "status": "UNKNOWN_REVIEW",
+      "target_markets": [
+        "NL"
+      ],
+      "origin_country": null,
+      "origin_source": null,
+      "shipping_countries": [],
+      "shipping_source": null,
+      "reason": "origin_country_missing_or_invalid"
+    },
+    "status": "REVIEW",
+    "reason": "market_eligibility_unknown_review",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 39,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "44696709935"
+    },
+    {
+      "batch": 43,
+      "status": "REVIEW",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "45373852334"
+    },
+    {
+      "batch": 44,
+      "status": "REVIEW",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "45521251092"
+    },
+    {
+      "batch": 45,
+      "status": "FROZEN",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "45731525847"
+    }
+  ],
+  "admission_evidence": {
+    "domain": "beyondvinyl.co.uk",
+    "route": "https://beyondvinyl.co.uk/products.json?limit=20&page=1",
+    "observed_at": "2026-11-20T07:41:17.407046+00:00",
+    "requests": [
+      {
+        "url": "https://beyondvinyl.co.uk/products.json?limit=20&page=1",
+        "sha256": "a29d3b0b1672068a0a32312aecfcb5f812d8922045e1d8ddb07614033bf90bc3"
+      },
+      {
+        "url": "https://beyondvinyl.co.uk/products/sam-fender-seventeen-going-under-5th-anniversary-edition-clear-2lp?variant=55805222355285",
+        "sha256": "1581e0abee2692ff2b5359574a75c1ff7361d694649ae3024b878c6bc1abe187"
+      },
+      {
+        "url": "https://beyondvinyl.co.uk/products/bros-gold-180g-gold-vinyl-lp?variant=55639937778005",
+        "sha256": "650a27053d8248334ca65131d61d3c8d52ee6d8f7f777ca463c7b9e24f247131"
+      },
+      {
+        "url": "https://beyondvinyl.co.uk/products/sam-fender-people-watching-indie-exclusive-blue-yolk-vinyl-lp?variant=55637468086613",
+        "sha256": "730a76775abac7a720260435cc50fabd421366e79cf44b810b363cbc9bca4559"
+      }
+    ],
+    "listing_records": 14,
+    "detail_checked": 3,
+    "valid_eans": 3,
+    "details": [
+      {
+        "url": "https://beyondvinyl.co.uk/products/sam-fender-seventeen-going-under-5th-anniversary-edition-clear-2lp?variant=55805222355285",
+        "price": "34.99",
+        "currency": "GBP",
+        "ean": "00199957606424",
+        "condition": "new"
+      },
+      {
+        "url": "https://beyondvinyl.co.uk/products/bros-gold-180g-gold-vinyl-lp?variant=55639937778005",
+        "price": "12.99",
+        "currency": "GBP",
+        "ean": "05014797902121",
+        "condition": "new"
+      },
+      {
+        "url": "https://beyondvinyl.co.uk/products/sam-fender-people-watching-indie-exclusive-blue-yolk-vinyl-lp?variant=55637468086613",
+        "price": "28.99",
+        "currency": "GBP",
+        "ean": "00602455503251",
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 14,
+      "unique_prices": 11,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "APPROVED"
+  }
+}
