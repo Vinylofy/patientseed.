@@ -5592,7 +5592,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | therecordspace.com | 36 | FROZEN | 3 | 9 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | therecordstoreashford.co.uk | 45 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | thesearchers.com.au | 45 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
-| thevinylgrooverecords.com | 8 | APPROVED | 0 | 13 | 3/3 | ACTIVE | ACTIVE | run 40164542697 |
+| thevinylgrooverecords.com | 8 | APPROVED | 0 | 13 | 3/3 | ACTIVE | ACTIVE (run 45748671771) | run 40164542697 |
 | thevinylstand.com | 36 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | thevinylswap.net | 45 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | thevinyluniverse.com | 8 | APPROVED | 0 | 7 | 3/3 | ACTIVE | ACTIVE | run 40164542697 |
