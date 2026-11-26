@@ -5273,7 +5273,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | flowrecordstore.com | 41 | REVIEW | 0 | 10 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | flur.pt | 41 | REVIEW | 0 | 12 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | fortherecordnyc.com | 3 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 39373494403 |
-| fortherecordtx.com | 41 | APPROVED | 0 | 16 | 3/3 | ACTIVE | ACTIVE | run 44997810130 |
+| fortherecordtx.com | 41 | APPROVED | 0 | 16 | 3/3 | ACTIVE | ACTIVE (run 45748671771) | run 44997810130 |
 | fountainrecords.co.uk | 41 | REVIEW | 0 | 14 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | frankiesrecords.com | 20 | APPROVED | 1 | 20 | 3/3 | ACTIVE | ACTIVE | run 41282025830 |
 | freebirdrecords.com | 41 | REVIEW | 0 | 15 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
