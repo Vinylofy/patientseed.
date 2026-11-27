@@ -5632,7 +5632,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | veryfriendlymusic.com | 45 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | villagegreenrecords.com | 38 | REVIEW | 2 | 7 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | villagerevivalrecordsnyc.com | 38 | REVIEW | 2 | 8 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| vinilo.co.uk | 9 | APPROVED | 0 | 3 | 3/3 | ACTIVE | ACTIVE | run 40239367598 |
+| vinilo.co.uk | 9 | APPROVED | 0 | 3 | 3/3 | ACTIVE (run 45928142593) | ACTIVE | run 40239367598 |
 | vinyl.com | 45 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | vinyl-freaks.nl | 45 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | vinylbay777.com | 38 | REVIEW | 2 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
