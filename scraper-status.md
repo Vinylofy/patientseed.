@@ -5399,7 +5399,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | odysseyrecords.ca | 43 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | offthebeatentracks.co.uk | 43 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | ohjeanrecords.com | 43 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
-| oldrockingchair.com | 5 | APPROVED | 0 | 14 | 2/3 | ACTIVE | ACTIVE | run 39727047909 |
+| oldrockingchair.com | 5 | APPROVED | 0 | 14 | 2/3 | ACTIVE (run 45928142593) | ACTIVE | run 39727047909 |
 | omegamusicdayton.com | 27 | FROZEN | 3 | 6 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | oneoffrecordsllc.com | 28 | FROZEN | 3 | 6 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | onthejunglefloor.com | 43 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
