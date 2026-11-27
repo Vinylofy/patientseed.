@@ -5209,7 +5209,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | cameronrecords.com | 17 | APPROVED | 1 | 16 | 3/3 | ACTIVE (run 45928142593) | ACTIVE | run 40828686930 |
 | capsulerecords.co.uk | 39 | APPROVED | 0 | 3 | 3/3 | ACTIVE (run 45928142593) | ACTIVE | run 44696709935 |
 | cellar-records.com | 46 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
-| chalkys.com | 28 | APPROVED | 1 | 7 | 3/3 | ACTIVE | ACTIVE | run 42577039054 |
+| chalkys.com | 28 | APPROVED | 1 | 7 | 3/3 | ACTIVE (run 45928142593) | ACTIVE | run 42577039054 |
 | chiefrecordsonline.com | 19 | FROZEN | 3 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | citynoiserecords.com | 46 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | cnamusicsupply.com | 2 | APPROVED | 0 | 6 | 3/3 | ACTIVE | ACTIVE | run 39203245483 |
