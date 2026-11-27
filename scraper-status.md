@@ -5647,7 +5647,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | vinylfrontierrecords.com | 15 | APPROVED | 0 | 15 | 3/3 | ACTIVE (run 45928142593) | ACTIVE | run 40455623960 |
 | vinylgram.com | 38 | REVIEW | 1 | 12 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | vinylguru.co.uk | 45 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
-| vinyljunkies.net | 38 | APPROVED | 1 | 10 | 3/3 | ACTIVE (run 45928142593) | ACTIVE | run 44482526349 |
+| vinyljunkies.net | 38 | APPROVED | 1 | 10 | 3/3 | ACTIVE (run 45928142593) | ACTIVE (run 45933984756) | run 44482526349 |
 | vinylkatalog.de | 45 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | vinylpeoplerecords.com | 38 | REVIEW | 1 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | vinylrevivalmcr.com | 45 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
