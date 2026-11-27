@@ -5227,7 +5227,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | dalesmusicstore.com | 46 | REVIEW | 2 | 0 | 0/0 | INCIDENT | REPAIR_REQUIRED | market_eligibility_unknown_review |
 | dashthehengestore.com | 39 | APPROVED | 0 | 1 | 1/1 | ACTIVE (run 45928142593) | ACTIVE (run 45933984756) | run 44696709935 |
 | davids-music.co.uk | 46 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
-| dbzbooks.com | 2 | APPROVED | 0 | 15 | 3/3 | ACTIVE (run 45928142593) | ACTIVE | run 39203245483 |
+| dbzbooks.com | 2 | APPROVED | 0 | 15 | 3/3 | ACTIVE (run 45928142593) | ACTIVE (run 45933984756) | run 39203245483 |
 | deadairvinyl.co.uk | 46 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | deadendrecordstn.com | 20 | FROZEN | 3 | 5 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | deafmanvinyl.com | 21 | FROZEN | 3 | 2 | 0/2 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
