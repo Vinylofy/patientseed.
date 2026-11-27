@@ -5651,7 +5651,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | vinylkatalog.de | 45 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | vinylpeoplerecords.com | 38 | REVIEW | 1 | 19 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | vinylrevivalmcr.com | 45 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
-| vinylrevivalrecordstore.com | 15 | APPROVED | 0 | 16 | 3/3 | ACTIVE (run 45928142593) | ACTIVE | run 40455623960 |
+| vinylrevivalrecordstore.com | 15 | APPROVED | 0 | 16 | 3/3 | ACTIVE (run 45928142593) | ACTIVE (run 45933984756) | run 40455623960 |
 | vinylrevivaluk.com | 45 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | vinyltap.co.uk | 12 | FROZEN | 3 | 8 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | vinyltapguitarsrecords.com | 15 | APPROVED | 0 | 20 | 3/3 | ACTIVE (run 45928142593) | ACTIVE | run 40455623960 |
