@@ -5155,7 +5155,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 |---|---:|---|---:|---:|---|---|---|---|
 | 10000hzrecords.com | 18 | FROZEN | 3 | 12 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | 101collectorsrecords.com | 46 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
-| 1234gorecords.shop | 5 | FROZEN | 3 | 19 | 1/2 | ACTIVE | FROZEN | invalid_detail_gtin |
+| 1234gorecords.shop | 5 | FROZEN | 3 | 19 | 1/2 | ACTIVE (run 45928142593) | FROZEN | invalid_detail_gtin |
 | 12-bar.com | 46 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | 22soundrecords.com | 16 | APPROVED | 1 | 1 | 1/1 | ACTIVE (run 45928142593) | ACTIVE | run 40642431631 |
 | 3345.nl | 46 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
