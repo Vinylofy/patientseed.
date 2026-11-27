@@ -5555,7 +5555,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | staticatx.com | 34 | FROZEN | 3 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | staticerarecords.com | 34 | FROZEN | 3 | 11 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | steamboat.ie | 44 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
-| stellarrecordsfl.com | 18 | APPROVED | 1 | 4 | 3/3 | ACTIVE | ACTIVE | run 41013449724 |
+| stellarrecordsfl.com | 18 | APPROVED | 1 | 4 | 3/3 | ACTIVE (run 45928142593) | ACTIVE | run 41013449724 |
 | store.consouling.be | 45 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | store.udiscovermusic.com | 12 | FROZEN | 3 | 17 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | stradarecords.jp | 45 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
