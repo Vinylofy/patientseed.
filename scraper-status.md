@@ -5521,7 +5521,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | skeletunesrecords.com | 31 | APPROVED | 1 | 11 | 3/3 | ACTIVE (run 45928142593) | ACTIVE | run 43176655069 |
 | skyvalleyrecords.com | 33 | FROZEN | 3 | 10 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | sleevecityusa.com | 33 | FROZEN | 3 | 4 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| soldoutvinylrecords.com | 7 | APPROVED | 0 | 6 | 3/3 | ACTIVE (run 45928142593) | ACTIVE | run 40064351096 |
+| soldoutvinylrecords.com | 7 | APPROVED | 0 | 6 | 3/3 | ACTIVE (run 45928142593) | ACTIVE (run 45933984756) | run 40064351096 |
 | solstarecords.com | 33 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | sonicboommusic.com | 44 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | sookvinyl.com | 37 | FROZEN | 3 | 3 | 0/0 | ACTIVE (run 45928142593) | FROZEN | detail_price_currency_not_proven_or_mismatch |
