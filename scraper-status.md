@@ -5277,7 +5277,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | fountainrecords.co.uk | 41 | REVIEW | 0 | 14 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | frankiesrecords.com | 20 | APPROVED | 1 | 20 | 3/3 | ACTIVE (run 45928142593) | INCIDENT | run 41282025830 |
 | freebirdrecords.com | 41 | REVIEW | 0 | 15 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| freesonrock.com | 41 | APPROVED | 0 | 19 | 2/3 | ACTIVE | ACTIVE | run 44997810130 |
+| freesonrock.com | 41 | APPROVED | 0 | 19 | 2/3 | ACTIVE (run 45928142593) | ACTIVE | run 44997810130 |
 | freshproducerecords.com | 22 | FROZEN | 3 | 7 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | friendlyrecords.co.uk | 41 | REVIEW | 0 | 2 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | frozen-records.com | 46 | REVIEW | 1 | 0 | 0/0 | INCIDENT | REPAIR_REQUIRED | market_eligibility_unknown_review |
