@@ -5387,7 +5387,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | neighborhoodcomics.com | 27 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | newburycomics.com | 27 | FROZEN | 3 | 13 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | nftwrecords.com | 27 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
-| nhvintagevinyl.com | 5 | APPROVED | 0 | 4 | 3/3 | ACTIVE | ACTIVE | run 39727047909 |
+| nhvintagevinyl.com | 5 | APPROVED | 0 | 4 | 3/3 | ACTIVE (run 45928142593) | ACTIVE | run 39727047909 |
 | nicepriceboo.com | 43 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | nieuwvinyl.nl | 43 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | nodustrecords.com | 43 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
