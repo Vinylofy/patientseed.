@@ -5275,7 +5275,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | fortherecordnyc.com | 3 | APPROVED | 0 | 20 | 3/3 | ACTIVE (run 45928142593) | ACTIVE (run 45933984756) | run 39373494403 |
 | fortherecordtx.com | 41 | APPROVED | 0 | 16 | 3/3 | ACTIVE (run 45928142593) | ACTIVE (run 45933984756) | run 44997810130 |
 | fountainrecords.co.uk | 41 | REVIEW | 0 | 14 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
-| frankiesrecords.com | 20 | APPROVED | 1 | 20 | 3/3 | ACTIVE (run 45928142593) | INCIDENT | run 41282025830 |
+| frankiesrecords.com | 20 | APPROVED | 1 | 20 | 3/3 | ACTIVE (run 45928142593) | REPAIR_REQUIRED (run 45933984756) | run 41282025830 |
 | freebirdrecords.com | 41 | REVIEW | 0 | 15 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | freesonrock.com | 41 | APPROVED | 0 | 19 | 2/3 | ACTIVE (run 45928142593) | ACTIVE | run 44997810130 |
 | freshproducerecords.com | 22 | FROZEN | 3 | 7 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
