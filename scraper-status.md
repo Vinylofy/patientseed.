@@ -5157,7 +5157,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | 101collectorsrecords.com | 46 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | 1234gorecords.shop | 5 | FROZEN | 3 | 19 | 1/2 | ACTIVE (run 45928142593) | FROZEN | invalid_detail_gtin |
 | 12-bar.com | 46 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
-| 22soundrecords.com | 16 | APPROVED | 1 | 1 | 1/1 | ACTIVE (run 45928142593) | ACTIVE | run 40642431631 |
+| 22soundrecords.com | 16 | APPROVED | 1 | 1 | 1/1 | ACTIVE (run 45928142593) | ACTIVE (run 45933984756) | run 40642431631 |
 | 3345.nl | 46 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | 606records.com | 18 | FROZEN | 3 | 10 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | abicus.com.au | 46 | REVIEW | 1 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
