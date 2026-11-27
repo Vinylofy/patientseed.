@@ -1,0 +1,125 @@
+{
+  "fingerprint": "da829b4de68cb2f5591ef1a59d59f1f93e8ce6d8592e72e28f1d17634e957ac3",
+  "domain": "asliceofvinyl.co.uk",
+  "batch": 46,
+  "repair_attempts": 3,
+  "repair_modes": [
+    "ean"
+  ],
+  "admitted": true,
+  "status": "FROZEN",
+  "run_id": "45919046863",
+  "updated_at": "2026-11-27T00:50:19.108823+00:00",
+  "evidence": {
+    "domain": "asliceofvinyl.co.uk",
+    "route": "https://asliceofvinyl.co.uk/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-27T00:50:19.108709+00:00",
+    "requests": [],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "market_eligibility": {
+      "status": "UNKNOWN_REVIEW",
+      "target_markets": [
+        "NL"
+      ],
+      "origin_country": null,
+      "origin_source": null,
+      "shipping_countries": [],
+      "shipping_source": null,
+      "reason": "origin_country_missing_or_invalid"
+    },
+    "status": "REVIEW",
+    "reason": "market_eligibility_unknown_review",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 40,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "44881153515"
+    },
+    {
+      "batch": 44,
+      "status": "REVIEW",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "45521251092"
+    },
+    {
+      "batch": 45,
+      "status": "REVIEW",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "45731525847"
+    },
+    {
+      "batch": 46,
+      "status": "FROZEN",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "45919046863"
+    }
+  ],
+  "admission_evidence": {
+    "domain": "asliceofvinyl.co.uk",
+    "route": "https://asliceofvinyl.co.uk/products.json?limit=20&page=1",
+    "observed_at": "2026-11-21T07:38:20.687117+00:00",
+    "requests": [
+      {
+        "url": "https://asliceofvinyl.co.uk/products.json?limit=20&page=1",
+        "sha256": "10583e5d59b9c2c48d381395b2b79c73a3285ae25cd7219db4165b69abda02c9"
+      },
+      {
+        "url": "https://asliceofvinyl.co.uk/products/gary-numan-dead-son-rising?variant=59407232237942",
+        "sha256": "60b9839ea3e1807300cd971ef043fa36d797a0e7003be921577cfbca16246e3c"
+      },
+      {
+        "url": "https://asliceofvinyl.co.uk/products/lime-garden-moving-target?variant=59406415495542",
+        "sha256": "0a417c0b39423a6eceaefb61c66bf40a71dabbd621c9d94f91f674790569706b"
+      },
+      {
+        "url": "https://asliceofvinyl.co.uk/products/suicidal-tendencies-join-the-army?variant=59373524058486",
+        "sha256": "c170b1ffa2b76db3233d8c3459b81c6b3a6b6a274e98494d3953a2f133104008"
+      }
+    ],
+    "listing_records": 15,
+    "detail_checked": 3,
+    "valid_eans": 2,
+    "details": [
+      {
+        "url": "https://asliceofvinyl.co.uk/products/gary-numan-dead-son-rising?variant=59407232237942",
+        "price": "35.99",
+        "currency": "GBP",
+        "ean": "04099964280432",
+        "condition": "new"
+      },
+      {
+        "url": "https://asliceofvinyl.co.uk/products/lime-garden-moving-target?variant=59406415495542",
+        "price": "13.99",
+        "currency": "GBP",
+        "ean": "00885288612530",
+        "condition": "new"
+      },
+      {
+        "url": "https://asliceofvinyl.co.uk/products/suicidal-tendencies-join-the-army?variant=59373524058486",
+        "price": "25.99",
+        "currency": "GBP",
+        "ean": null,
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 15,
+      "unique_prices": 11,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "APPROVED"
+  }
+}
