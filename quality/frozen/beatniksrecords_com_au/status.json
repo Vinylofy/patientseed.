@@ -1,0 +1,125 @@
+{
+  "fingerprint": "2ea33189f1b95fbbdc6c2f7f143583605e0fd72e6d2bef35798c640e50d9e390",
+  "domain": "beatniksrecords.com.au",
+  "batch": 47,
+  "repair_attempts": 3,
+  "repair_modes": [
+    "ean"
+  ],
+  "admitted": true,
+  "status": "FROZEN",
+  "run_id": "46089824251",
+  "updated_at": "2026-11-28T00:48:15.133911+00:00",
+  "evidence": {
+    "domain": "beatniksrecords.com.au",
+    "route": "https://beatniksrecords.com.au/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-28T00:48:15.133786+00:00",
+    "requests": [],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "market_eligibility": {
+      "status": "UNKNOWN_REVIEW",
+      "target_markets": [
+        "NL"
+      ],
+      "origin_country": null,
+      "origin_source": null,
+      "shipping_countries": [],
+      "shipping_source": null,
+      "reason": "origin_country_missing_or_invalid"
+    },
+    "status": "REVIEW",
+    "reason": "market_eligibility_unknown_review",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 39,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "44696709935"
+    },
+    {
+      "batch": 45,
+      "status": "REVIEW",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "45731525847"
+    },
+    {
+      "batch": 46,
+      "status": "REVIEW",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "45919046863"
+    },
+    {
+      "batch": 47,
+      "status": "FROZEN",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "46089824251"
+    }
+  ],
+  "admission_evidence": {
+    "domain": "beatniksrecords.com.au",
+    "route": "https://beatniksrecords.com.au/products.json?limit=20&page=1",
+    "observed_at": "2026-11-20T07:41:09.097478+00:00",
+    "requests": [
+      {
+        "url": "https://beatniksrecords.com.au/products.json?limit=20&page=1",
+        "sha256": "25d5d486f735a6c96a2096801a7996cfe2b97e9c1bd10bf6ff0c4fee8d7c87ad"
+      },
+      {
+        "url": "https://beatniksrecords.com.au/products/73341f9c-435c-4377-80b3-fa91dad1ee9a?variant=43808470499407",
+        "sha256": "b2efa380ff5b4b9bf7b0c8a21fa111504f58cc3b1f0824e592c8c058fa1dfde9"
+      },
+      {
+        "url": "https://beatniksrecords.com.au/products/portishead-dummy-lp?variant=43808782188623",
+        "sha256": "402d24f22718a83b13d7b879aef448e3ad2c0d299ff052e7baa33dde07aca2b7"
+      },
+      {
+        "url": "https://beatniksrecords.com.au/products/b18f63ac-9259-56a3-7193-87e92e1b519e?variant=43811756539983",
+        "sha256": "c2838f8784e8d49fdac57b39c0ac18fd85a4bc0f8764640c66cfb0f2cddb17bb"
+      }
+    ],
+    "listing_records": 18,
+    "detail_checked": 3,
+    "valid_eans": 3,
+    "details": [
+      {
+        "url": "https://beatniksrecords.com.au/products/73341f9c-435c-4377-80b3-fa91dad1ee9a?variant=43808470499407",
+        "price": "64.99",
+        "currency": "AUD",
+        "ean": "00194398067414",
+        "condition": "new"
+      },
+      {
+        "url": "https://beatniksrecords.com.au/products/portishead-dummy-lp?variant=43808782188623",
+        "price": "82.99",
+        "currency": "AUD",
+        "ean": "00602537972050",
+        "condition": "new"
+      },
+      {
+        "url": "https://beatniksrecords.com.au/products/b18f63ac-9259-56a3-7193-87e92e1b519e?variant=43811756539983",
+        "price": "34.99",
+        "currency": "AUD",
+        "ean": "00190295842840",
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 18,
+      "unique_prices": 11,
+      "shipping_hits": 0,
+      "currencies": [
+        "AUD"
+      ]
+    },
+    "status": "APPROVED"
+  }
+}
