@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "batch": 46,
+  "batch": 47,
   "shops": {
     "10000hzrecords_com": {
       "fingerprint": "bd851743c2eee03c427913ea2a88bc94dfb0e74b1f11366277a07532ffcd9e33",
@@ -474,17 +474,17 @@
     "afkbooksandrecords_com": {
       "fingerprint": "a3a0e6561305a965dcdc67386a445d1996bc945209776f14b82883a80a8f4a7a",
       "domain": "afkbooksandrecords.com",
-      "batch": 46,
-      "repair_attempts": 0,
+      "batch": 47,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.572677+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.628715+00:00",
       "evidence": {
         "domain": "afkbooksandrecords.com",
         "route": "https://afkbooksandrecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.572644+00:00",
+        "observed_at": "2026-11-28T00:48:15.628681+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -512,6 +512,12 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
@@ -1162,17 +1168,17 @@
     "beatlabusa_com": {
       "fingerprint": "ab597f4727e71e4d26dda159a633127d953bc6aea7552ac96782988aea91828e",
       "domain": "beatlabusa.com",
-      "batch": 46,
-      "repair_attempts": 0,
+      "batch": 47,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.813745+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.913532+00:00",
       "evidence": {
         "domain": "beatlabusa.com",
         "route": "https://beatlabusa.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.813714+00:00",
+        "observed_at": "2026-11-28T00:48:15.913500+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -1200,6 +1206,12 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
@@ -5295,73 +5307,39 @@
     "frankiesrecords_com": {
       "fingerprint": "9a73363f2543ad255c1b92a466b58076adee88e09b888ece0d70375a67d5f2f1",
       "domain": "frankiesrecords.com",
-      "batch": 20,
+      "batch": 47,
       "repair_attempts": 1,
-      "repair_modes": [],
+      "repair_modes": [
+        "ean"
+      ],
       "admitted": true,
-      "status": "APPROVED",
-      "run_id": "41282025830",
-      "updated_at": "2026-11-01T06:45:23.199540+00:00",
+      "status": "REVIEW",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.215089+00:00",
       "evidence": {
         "domain": "frankiesrecords.com",
         "route": "https://frankiesrecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-01T06:45:19.924749+00:00",
-        "requests": [
-          {
-            "url": "https://frankiesrecords.com/products.json?limit=20&page=1",
-            "sha256": "234e8134f65ef90a96986da8e91910d4e7d4427fac9e318707cd22716bdbf5b2"
-          },
-          {
-            "url": "https://frankiesrecords.com/products/michael-jackson-michael-jacksons-this-is-it-4xlp?variant=53404248342826",
-            "sha256": "7cea0f1d74784cbf34c20ac048641f0b8b0a5865e9f2bc94fec1d1e5525502ee"
-          },
-          {
-            "url": "https://frankiesrecords.com/products/pentatonix-the-best-of-pentatonix-christmas-2xlp?variant=53395426935082",
-            "sha256": "9178750b96c11dc3458eb0d62ad93d940c73682ce86245bf8e570276b7fcd9bc"
-          },
-          {
-            "url": "https://frankiesrecords.com/products/vince-guaraldi-trio-a-charlie-brown-christmas-lp?variant=53395339313450",
-            "sha256": "515ab3a8c1772cdb169ce041e659c16299df0bc28ba7379ce8b0881178e36710"
-          }
-        ],
-        "listing_records": 20,
-        "detail_checked": 3,
-        "valid_eans": 3,
-        "details": [
-          {
-            "url": "https://frankiesrecords.com/products/michael-jackson-michael-jacksons-this-is-it-4xlp?variant=53404248342826",
-            "price": "109.95",
-            "currency": "USD",
-            "ean": "00886976116316",
-            "condition": "new"
-          },
-          {
-            "url": "https://frankiesrecords.com/products/pentatonix-the-best-of-pentatonix-christmas-2xlp?variant=53395426935082",
-            "price": "26.95",
-            "currency": "USD",
-            "ean": "00190759901618",
-            "condition": "new"
-          },
-          {
-            "url": "https://frankiesrecords.com/products/vince-guaraldi-trio-a-charlie-brown-christmas-lp?variant=53395339313450",
-            "price": "24.95",
-            "currency": "USD",
-            "ean": "00025218843119",
-            "condition": "new"
-          }
-        ],
+        "observed_at": "2026-11-28T00:48:15.215056+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
         "database_write": false,
-        "price_quality": {
-          "status": "pass",
-          "flags": [],
-          "records_checked": 20,
-          "unique_prices": 8,
-          "shipping_hits": 0,
-          "currencies": [
-            "USD"
-          ]
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
         },
-        "status": "APPROVED"
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
       },
       "history": [
         {
@@ -5375,8 +5353,15 @@
           "status": "APPROVED",
           "reason": null,
           "run_id": "41282025830"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ],
+      "approved_route": "https://frankiesrecords.com/products.json?limit=20&page=1",
       "admission_evidence": {
         "domain": "frankiesrecords.com",
         "route": "https://frankiesrecords.com/products.json?limit=20&page=1",
@@ -5437,8 +5422,7 @@
           ]
         },
         "status": "APPROVED"
-      },
-      "approved_route": "https://frankiesrecords.com/products.json?limit=20&page=1"
+      }
     },
     "freshproducerecords_com": {
       "fingerprint": "2c4f9df133ed2940deb1a1226d208c896cb0f2ebea654c95e3c3f4bac196b39d",
@@ -15697,19 +15681,19 @@
     "southmetromusic_com": {
       "fingerprint": "5b45e5099d89bad20ec01fc8a4f353da290e3504613d1acd18b809cf74b5a831",
       "domain": "southmetromusic.com",
-      "batch": 46,
-      "repair_attempts": 2,
+      "batch": 47,
+      "repair_attempts": 3,
       "repair_modes": [
         "ean"
       ],
       "admitted": true,
-      "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.252254+00:00",
+      "status": "FROZEN",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.337777+00:00",
       "evidence": {
         "domain": "southmetromusic.com",
         "route": "https://southmetromusic.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.252221+00:00",
+        "observed_at": "2026-11-28T00:48:15.337747+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -15749,6 +15733,12 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "FROZEN",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ],
       "admission_evidence": {
@@ -24512,19 +24502,19 @@
     "waterloorecords_com": {
       "fingerprint": "2d377e7aa8ec52b885dcb4e402e34de38a4eb787cb9ef0dabd3bebf17a7b8e0d",
       "domain": "waterloorecords.com",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [
         "ean"
       ],
       "admitted": true,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.289710+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.378755+00:00",
       "evidence": {
         "domain": "waterloorecords.com",
         "route": "https://waterloorecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.289675+00:00",
+        "observed_at": "2026-11-28T00:48:15.378720+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -24564,6 +24554,12 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ],
       "approved_route": "https://waterloorecords.com/products.json?limit=20&page=1",
@@ -25691,17 +25687,17 @@
     "101collectorsrecords_com": {
       "fingerprint": "45b4b47d9d42de3ebd55830853539182eb15c8df7dbd3bcbd755eea6282c65fc",
       "domain": "101collectorsrecords.com",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.393671+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.420044+00:00",
       "evidence": {
         "domain": "101collectorsrecords.com",
         "route": "https://101collectorsrecords.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.393637+00:00",
+        "observed_at": "2026-11-28T00:48:15.420011+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -25735,23 +25731,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "12_bar_com": {
       "fingerprint": "60fae40a23a10065b1cf71bc5fb94ee7f4c5a25135bab05f30fd25622f16f63c",
       "domain": "12-bar.com",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.427995+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.461261+00:00",
       "evidence": {
         "domain": "12-bar.com",
         "route": "https://12-bar.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.427962+00:00",
+        "observed_at": "2026-11-28T00:48:15.461209+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -25785,23 +25787,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "abicus_com_au": {
       "fingerprint": "1d50b17fbfe6766ea5bb92c0c641eda17c5e4fe680c58f790b9a0639db012f44",
       "domain": "abicus.com.au",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.497334+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.542837+00:00",
       "evidence": {
         "domain": "abicus.com.au",
         "route": "https://abicus.com.au/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.497299+00:00",
+        "observed_at": "2026-11-28T00:48:15.542799+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -25835,23 +25843,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "accord_dk": {
       "fingerprint": "e2bddaafee2c14a082af86938cec7a5584dab58f660f2843918d3d3e49d60790",
       "domain": "accord.dk",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.532492+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.583208+00:00",
       "evidence": {
         "domain": "accord.dk",
         "route": "https://accord.dk/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.532459+00:00",
+        "observed_at": "2026-11-28T00:48:15.583178+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -25885,23 +25899,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "alt_cvlt_com_au": {
       "fingerprint": "22b36b58073ba44716faa6668f0c2a81878b9dfed2cea327880f383bc9b51720",
       "domain": "alt-cvlt.com.au",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.641919+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.708963+00:00",
       "evidence": {
         "domain": "alt-cvlt.com.au",
         "route": "https://alt-cvlt.com.au/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.641878+00:00",
+        "observed_at": "2026-11-28T00:48:15.708928+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -25935,23 +25955,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "avalancherecords_co_uk": {
       "fingerprint": "971996b330b4e6c2c349d9ee29841faa421486456eddf102e9d23044477d596a",
       "domain": "avalancherecords.co.uk",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.676455+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.749286+00:00",
       "evidence": {
         "domain": "avalancherecords.co.uk",
         "route": "https://avalancherecords.co.uk/wp-json/wc/store/v1/products?per_page=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.676423+00:00",
+        "observed_at": "2026-11-28T00:48:15.749254+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -25985,23 +26011,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "badlandsvinyl_com": {
       "fingerprint": "c221dd86979bb5c6474b804d4f8165c7e1bae6db8696fbb9654658dd4a6720ee",
       "domain": "badlandsvinyl.com",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.745198+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.830917+00:00",
       "evidence": {
         "domain": "badlandsvinyl.com",
         "route": "https://badlandsvinyl.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.745165+00:00",
+        "observed_at": "2026-11-28T00:48:15.830880+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -26035,23 +26067,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "beatgoeson_com": {
       "fingerprint": "ebc5e7e19da96fb1a2346bd882357d931b47b891aa84d3e1fa494708983448b3",
       "domain": "beatgoeson.com",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.779602+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.872651+00:00",
       "evidence": {
         "domain": "beatgoeson.com",
         "route": "https://beatgoeson.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.779570+00:00",
+        "observed_at": "2026-11-28T00:48:15.872611+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -26085,25 +26123,31 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "beatniksrecords_com_au": {
       "fingerprint": "2ea33189f1b95fbbdc6c2f7f143583605e0fd72e6d2bef35798c640e50d9e390",
       "domain": "beatniksrecords.com.au",
-      "batch": 46,
-      "repair_attempts": 2,
+      "batch": 47,
+      "repair_attempts": 3,
       "repair_modes": [
         "ean"
       ],
       "admitted": true,
-      "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.146089+00:00",
+      "status": "FROZEN",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.133911+00:00",
       "evidence": {
         "domain": "beatniksrecords.com.au",
         "route": "https://beatniksrecords.com.au/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.146049+00:00",
+        "observed_at": "2026-11-28T00:48:15.133786+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -26143,6 +26187,12 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "FROZEN",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ],
       "admission_evidence": {
@@ -26210,17 +26260,17 @@
     "beatstreet_ca": {
       "fingerprint": "c5dcbef84f336e540e7ede10fdb519aa8c110dabdc3b837f61b8a87a333da249",
       "domain": "beatstreet.ca",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.853171+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.961764+00:00",
       "evidence": {
         "domain": "beatstreet.ca",
         "route": "https://beatstreet.ca/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.853139+00:00",
+        "observed_at": "2026-11-28T00:48:15.961712+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -26254,23 +26304,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "bendingsound_co_uk": {
       "fingerprint": "6eb4bda601b2badc1540343f894192d3b0573c528d717b2acc51ce9b7da18473",
       "domain": "bendingsound.co.uk",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.887654+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.010962+00:00",
       "evidence": {
         "domain": "bendingsound.co.uk",
         "route": "https://bendingsound.co.uk/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.887621+00:00",
+        "observed_at": "2026-11-28T00:48:16.010919+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -26304,6 +26360,12 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
@@ -26435,17 +26497,17 @@
     "bisaufsmesser_com": {
       "fingerprint": "4a40df5dccfbe65bcb51c1603645c2a954e56c4d76951af7971825b11d67b3b0",
       "domain": "bisaufsmesser.com",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.957401+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.110682+00:00",
       "evidence": {
         "domain": "bisaufsmesser.com",
         "route": "https://bisaufsmesser.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.957368+00:00",
+        "observed_at": "2026-11-28T00:48:16.110648+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -26479,23 +26541,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "blitzkriegshop_co_uk": {
       "fingerprint": "86027dcfdf347a613ccdba452020c9301980834403c58035aefbde8fc62f1608",
       "domain": "blitzkriegshop.co.uk",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.991981+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.151052+00:00",
       "evidence": {
         "domain": "blitzkriegshop.co.uk",
         "route": "https://blitzkriegshop.co.uk/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.991949+00:00",
+        "observed_at": "2026-11-28T00:48:16.151019+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -26529,23 +26597,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "boilerroomrecords_co_uk": {
       "fingerprint": "5968523d95e5feae3790ab44b57b22fcecf50391c014cc2e071d4ffae38d01bb",
       "domain": "boilerroomrecords.co.uk",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.026131+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.190678+00:00",
       "evidence": {
         "domain": "boilerroomrecords.co.uk",
         "route": "https://boilerroomrecords.co.uk/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.026099+00:00",
+        "observed_at": "2026-11-28T00:48:16.190646+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -26579,23 +26653,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "butterbeatsrecordstore_com": {
       "fingerprint": "6e27a685c65fdae6603a42849b9c58d5d4318ff8e82b038a6fe1fb09f3f7eeff",
       "domain": "butterbeatsrecordstore.com",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.094673+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.272117+00:00",
       "evidence": {
         "domain": "butterbeatsrecordstore.com",
         "route": "https://butterbeatsrecordstore.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.094641+00:00",
+        "observed_at": "2026-11-28T00:48:16.272084+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -26629,6 +26709,12 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
@@ -26776,17 +26862,17 @@
     "compactmusic_ca": {
       "fingerprint": "b8e63ad5725956c48f0a67e12335ecffe73c39b38f0cd73a82b9f4faf343472d",
       "domain": "compactmusic.ca",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.204047+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.397986+00:00",
       "evidence": {
         "domain": "compactmusic.ca",
         "route": "https://compactmusic.ca/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.204010+00:00",
+        "observed_at": "2026-11-28T00:48:16.397953+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -26820,23 +26906,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "daddyrichrecords_com": {
       "fingerprint": "94ca8117f4229aa1d0b2fce15e14cb422049b3856a6eebce6bf2d8423626d68f",
       "domain": "daddyrichrecords.com",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.273787+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.488208+00:00",
       "evidence": {
         "domain": "daddyrichrecords.com",
         "route": "https://daddyrichrecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.273746+00:00",
+        "observed_at": "2026-11-28T00:48:16.488171+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -26870,25 +26962,31 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "dalesmusicstore_com": {
       "fingerprint": "458b41c8fb110539c2c82e76421ae4cf5b11cb24a28ff0c0a40ebb6bdb6db58a",
       "domain": "dalesmusicstore.com",
-      "batch": 46,
-      "repair_attempts": 2,
+      "batch": 47,
+      "repair_attempts": 3,
       "repair_modes": [
         "ean"
       ],
       "admitted": true,
-      "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.181904+00:00",
+      "status": "FROZEN",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.174921+00:00",
       "evidence": {
         "domain": "dalesmusicstore.com",
         "route": "https://dalesmusicstore.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.181860+00:00",
+        "observed_at": "2026-11-28T00:48:15.174886+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -26928,6 +27026,12 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "FROZEN",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ],
       "admission_evidence": {
@@ -27092,17 +27196,17 @@
     "3345_nl": {
       "fingerprint": "4f60f47b549d5ae82ee01226d8a09c56545314ccdb24e4f2caae00a99f4c91a7",
       "domain": "3345.nl",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.462525+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.502142+00:00",
       "evidence": {
         "domain": "3345.nl",
         "route": "https://3345.nl/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.462490+00:00",
+        "observed_at": "2026-11-28T00:48:15.502109+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -27136,23 +27240,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "aftermath_music_com": {
       "fingerprint": "6c4628d230d052f32e1d4ffab44e0cdd642236fcbc4aa8f27d11c51fc1858176",
       "domain": "aftermath-music.com",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.607430+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.668869+00:00",
       "evidence": {
         "domain": "aftermath-music.com",
         "route": "https://aftermath-music.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.607395+00:00",
+        "observed_at": "2026-11-28T00:48:15.668837+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -27186,6 +27296,12 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
@@ -27317,17 +27433,17 @@
     "badlands_co_uk": {
       "fingerprint": "d94b49b66e2c92580f66d5b3a5992ed51e794692e57d059cd868b5eb33f8c20e",
       "domain": "badlands.co.uk",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.710713+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.789344+00:00",
       "evidence": {
         "domain": "badlands.co.uk",
         "route": "https://badlands.co.uk/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.710681+00:00",
+        "observed_at": "2026-11-28T00:48:15.789310+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -27361,23 +27477,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "bigloverecords_jp": {
       "fingerprint": "ab9d31420a734170bf670324130625860e6de56927bc70f6232c713daa4c9aab",
       "domain": "bigloverecords.jp",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.922228+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.069416+00:00",
       "evidence": {
         "domain": "bigloverecords.jp",
         "route": "https://bigloverecords.jp/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.922195+00:00",
+        "observed_at": "2026-11-28T00:48:16.069364+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -27411,6 +27533,12 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
@@ -27542,17 +27670,17 @@
     "bordelloaparigi_com": {
       "fingerprint": "4f0e0c137af129033b38c37fa894210653b5fe97f383dc15d181e1c2d2bdf23f",
       "domain": "bordelloaparigi.com",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.060439+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.231364+00:00",
       "evidence": {
         "domain": "bordelloaparigi.com",
         "route": "https://bordelloaparigi.com/wp-json/wc/store/v1/products?per_page=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.060406+00:00",
+        "observed_at": "2026-11-28T00:48:16.231329+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -27586,23 +27714,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "cellar_records_com": {
       "fingerprint": "9997a314d2301c145fb66479a2bc791b011c891c9fa1bfc67b6e5bcbe9943f99",
       "domain": "cellar-records.com",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.133876+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.318549+00:00",
       "evidence": {
         "domain": "cellar-records.com",
         "route": "https://cellar-records.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.133841+00:00",
+        "observed_at": "2026-11-28T00:48:16.318511+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -27636,23 +27770,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "cruiserecords_de": {
       "fingerprint": "c7d0d2ba00123064dfd9e76fa7470e2fe02e2412dcef2c9cc3691f7ccf644174",
       "domain": "cruiserecords.de",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.239067+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.437562+00:00",
       "evidence": {
         "domain": "cruiserecords.de",
         "route": "https://cruiserecords.de/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.239030+00:00",
+        "observed_at": "2026-11-28T00:48:16.437529+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -27686,23 +27826,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "davids_music_co_uk": {
       "fingerprint": "97f23ede386aec888e606703e7643872111cdf8ceb0c649b1b68f645e12fe56f",
       "domain": "davids-music.co.uk",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.308426+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.527633+00:00",
       "evidence": {
         "domain": "davids-music.co.uk",
         "route": "https://davids-music.co.uk/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.308389+00:00",
+        "observed_at": "2026-11-28T00:48:16.527601+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -27736,23 +27882,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "deadairvinyl_co_uk": {
       "fingerprint": "8946b4bac6f2e13c625bf5e394298947f29a322438e84b96252fdf4bcdf1bfba",
       "domain": "deadairvinyl.co.uk",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.343373+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.567402+00:00",
       "evidence": {
         "domain": "deadairvinyl.co.uk",
         "route": "https://deadairvinyl.co.uk/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.343337+00:00",
+        "observed_at": "2026-11-28T00:48:16.567372+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -27786,23 +27938,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "deserthighways_com": {
       "fingerprint": "537e34d484a216008e9720a6ba8b9031652fd22d992c9ad5b9b61e8779d9e80b",
       "domain": "deserthighways.com",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.377947+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.606653+00:00",
       "evidence": {
         "domain": "deserthighways.com",
         "route": "https://deserthighways.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.377910+00:00",
+        "observed_at": "2026-11-28T00:48:16.606621+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -27836,23 +27994,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "discords_nl": {
       "fingerprint": "e8786d74f6b1fe021a023e93c7de3480fbbdcbde4835e2003cad6252c7e2c3c5",
       "domain": "discords.nl",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.412445+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.647091+00:00",
       "evidence": {
         "domain": "discords.nl",
         "route": "https://discords.nl/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.412409+00:00",
+        "observed_at": "2026-11-28T00:48:16.647055+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -27886,23 +28050,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "discossupersonicsantander_com": {
       "fingerprint": "2c73fec8eb47073daccf70621eb08d4386287bd774f650592a8419f4e1118d5b",
       "domain": "discossupersonicsantander.com",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.452649+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.691873+00:00",
       "evidence": {
         "domain": "discossupersonicsantander.com",
         "route": "https://discossupersonicsantander.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.452612+00:00",
+        "observed_at": "2026-11-28T00:48:16.691839+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -27936,23 +28106,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "djungelochjazz_se": {
       "fingerprint": "5fe99ebc9a34a701c7457fb41d2d39310d8390fd1e12143ca27696c4fac3681c",
       "domain": "djungelochjazz.se",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.487323+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.733300+00:00",
       "evidence": {
         "domain": "djungelochjazz.se",
         "route": "https://djungelochjazz.se/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.487287+00:00",
+        "observed_at": "2026-11-28T00:48:16.733267+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -27986,23 +28162,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "dreamstreetrecords_co_uk": {
       "fingerprint": "7b87ccc893d287b85be73084dae0d33f1fd6509da6ed45fffbde682216ca75b7",
       "domain": "dreamstreetrecords.co.uk",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.522368+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.772836+00:00",
       "evidence": {
         "domain": "dreamstreetrecords.co.uk",
         "route": "https://dreamstreetrecords.co.uk/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.522325+00:00",
+        "observed_at": "2026-11-28T00:48:16.772802+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -28036,6 +28218,12 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
@@ -28183,17 +28371,17 @@
     "dutchvinyl_com_au": {
       "fingerprint": "d9701a020a008d9fe8870466477b1e8fc91b52625234bb07d6d395ca23920d45",
       "domain": "dutchvinyl.com.au",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.557459+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.812298+00:00",
       "evidence": {
         "domain": "dutchvinyl.com.au",
         "route": "https://dutchvinyl.com.au/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.557419+00:00",
+        "observed_at": "2026-11-28T00:48:16.812265+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -28227,23 +28415,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "eastmanrecords_nl": {
       "fingerprint": "6fe0fcc064fd312ce4d661e36ca5c3a35841960e1c9cb1c3271f5a25db583a9c",
       "domain": "eastmanrecords.nl",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.627497+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.894640+00:00",
       "evidence": {
         "domain": "eastmanrecords.nl",
         "route": "https://eastmanrecords.nl/wp-json/wc/store/v1/products?per_page=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.627458+00:00",
+        "observed_at": "2026-11-28T00:48:16.894602+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -28277,6 +28471,12 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
@@ -28424,17 +28624,17 @@
     "elmuelle1931_com": {
       "fingerprint": "3dfad55dc2f37324c0bedf5802f5162f7d6a8420dc273a84aa640832650f6462",
       "domain": "elmuelle1931.com",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.662506+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.934029+00:00",
       "evidence": {
         "domain": "elmuelle1931.com",
         "route": "https://elmuelle1931.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.662465+00:00",
+        "observed_at": "2026-11-28T00:48:16.933998+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -28468,23 +28668,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "empirestore_gr": {
       "fingerprint": "b7c2101cdfeceda10300f6e7f2442ea74948fc98c18ef357a9e251fffd0c054d",
       "domain": "empirestore.gr",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.697393+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.973657+00:00",
       "evidence": {
         "domain": "empirestore.gr",
         "route": "https://empirestore.gr/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.697353+00:00",
+        "observed_at": "2026-11-28T00:48:16.973623+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -28518,23 +28724,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "encorerecords_ca": {
       "fingerprint": "ab35d02d9808c550b92921e7382b27cb73afb54ed0cfb98809787846f9a4c2a0",
       "domain": "encorerecords.ca",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.737404+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:17.018829+00:00",
       "evidence": {
         "domain": "encorerecords.ca",
         "route": "https://encorerecords.ca/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.737365+00:00",
+        "observed_at": "2026-11-28T00:48:17.018797+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -28568,23 +28780,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "famousrockshop_com_au": {
       "fingerprint": "9e474e9d97f391285d86fa16d757deef8ecd05a8ca2319d87dd4e4d17c5620dc",
       "domain": "famousrockshop.com.au",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.806885+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:17.098179+00:00",
       "evidence": {
         "domain": "famousrockshop.com.au",
         "route": "https://famousrockshop.com.au/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.806849+00:00",
+        "observed_at": "2026-11-28T00:48:17.098149+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -28618,6 +28836,12 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
@@ -28765,17 +28989,17 @@
     "citynoiserecords_com": {
       "fingerprint": "3e5920feab5ac42628d20fd585ff507e252b735439099d3bf931a07645cb5b48",
       "domain": "citynoiserecords.com",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.169080+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.358284+00:00",
       "evidence": {
         "domain": "citynoiserecords.com",
         "route": "https://citynoiserecords.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.169044+00:00",
+        "observed_at": "2026-11-28T00:48:16.358251+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -28809,23 +29033,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "earcave_com": {
       "fingerprint": "538e209584403e45ce71cc56ba66ae187b5ea754b1a468e4d09a51a920ba0aba",
       "domain": "earcave.com",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.592776+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:16.854938+00:00",
       "evidence": {
         "domain": "earcave.com",
         "route": "https://earcave.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.592736+00:00",
+        "observed_at": "2026-11-28T00:48:16.854904+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -28859,23 +29089,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "endlessmediacorporation_com": {
       "fingerprint": "91984b9edc9fd83716a4af52a3e6ba7138913cb0a2a231183a61acad7bd45b58",
       "domain": "endlessmediacorporation.com",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.772302+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:17.058453+00:00",
       "evidence": {
         "domain": "endlessmediacorporation.com",
         "route": "https://endlessmediacorporation.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.772252+00:00",
+        "observed_at": "2026-11-28T00:48:17.058417+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -28909,23 +29145,29 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "fivespaceshop_com": {
       "fingerprint": "a1c58ef532274396863f0526d9cd4386e090e3c25bcced8c3e907726ada44631",
       "domain": "fivespaceshop.com",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:20.841077+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:17.137932+00:00",
       "evidence": {
         "domain": "fivespaceshop.com",
         "route": "https://fivespaceshop.com/wp-json/wc/store/v1/products?per_page=20&page=1",
-        "observed_at": "2026-11-27T00:50:20.841043+00:00",
+        "observed_at": "2026-11-28T00:48:17.137897+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -28959,80 +29201,48 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
     "flowrecordstore_com": {
       "fingerprint": "566b0cf53f0461629e021bcea1c70d4f2b1056e3dca48a92f3cb7e40371574dc",
       "domain": "flowrecordstore.com",
-      "batch": 41,
-      "repair_attempts": 0,
+      "batch": 47,
+      "repair_attempts": 1,
       "repair_modes": [],
       "admitted": false,
       "status": "REVIEW",
-      "run_id": "44997810130",
-      "updated_at": "2026-11-22T07:21:12.066892+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:17.177637+00:00",
       "evidence": {
         "domain": "flowrecordstore.com",
-        "route": "https://flowrecordstore.com/products.json?limit=20&page=1",
-        "observed_at": "2026-11-22T07:21:08.863238+00:00",
-        "requests": [
-          {
-            "url": "https://flowrecordstore.com/products.json?limit=20&page=1",
-            "sha256": "6ca41b72667e2281a0d1d57500e5ac1abcfb00d16b4009182f739ea350c629ad"
-          },
-          {
-            "url": "https://flowrecordstore.com/products/odol-slow-blink-clear-vinyl-japan-import?variant=69980193194018",
-            "sha256": "2e678df44ea29b6d3444a95fc37b0383a7a860644519fa2163565c9da612f4c4"
-          },
-          {
-            "url": "https://flowrecordstore.com/products/masayoshi-takanaka-t-wave-orange-vinyl?variant=69979706130466",
-            "sha256": "5e92eedb90e0b9a01ebf3ae34afb1859f4c8a8319fbdd25b0cad8897b76110f0"
-          },
-          {
-            "url": "https://flowrecordstore.com/products/tatsuro-yamashita-greatest-hits-of-new-vinyl-japan-import?variant=69661078814754",
-            "sha256": "0d4f8ef05e841ca8c12cdf3da36514cb7bf73665f63397ebe0674f7df2668d67"
-          }
-        ],
-        "listing_records": 10,
-        "detail_checked": 3,
+        "route": "https://flowrecordstore.com/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-28T00:48:17.177607+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
         "valid_eans": 0,
-        "details": [
-          {
-            "url": "https://flowrecordstore.com/products/odol-slow-blink-clear-vinyl-japan-import?variant=69980193194018",
-            "price": "82.95",
-            "currency": "CAD",
-            "ean": null,
-            "condition": "new"
-          },
-          {
-            "url": "https://flowrecordstore.com/products/masayoshi-takanaka-t-wave-orange-vinyl?variant=69979706130466",
-            "price": "78.95",
-            "currency": "CAD",
-            "ean": null,
-            "condition": "new"
-          },
-          {
-            "url": "https://flowrecordstore.com/products/tatsuro-yamashita-greatest-hits-of-new-vinyl-japan-import?variant=69661078814754",
-            "price": "84.95",
-            "currency": "CAD",
-            "ean": null,
-            "condition": "new"
-          }
-        ],
+        "details": [],
         "database_write": false,
-        "price_quality": {
-          "status": "pass",
-          "flags": [],
-          "records_checked": 10,
-          "unique_prices": 4,
-          "shipping_hits": 0,
-          "currencies": [
-            "CAD"
-          ]
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
         },
         "status": "REVIEW",
-        "reason": "detail_ean_not_proven",
+        "reason": "market_eligibility_unknown_review",
         "error_type": "CollectionBlocked"
       },
       "history": [
@@ -29041,6 +29251,12 @@
           "status": "REVIEW",
           "reason": "detail_ean_not_proven",
           "run_id": "44997810130"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ]
     },
@@ -29567,19 +29783,19 @@
     "frozen_records_com": {
       "fingerprint": "852cb519adc800406c76e6f668615dcea12fa2c84c3420d30b127267ddf33061",
       "domain": "frozen-records.com",
-      "batch": 46,
-      "repair_attempts": 1,
+      "batch": 47,
+      "repair_attempts": 2,
       "repair_modes": [
         "ean"
       ],
       "admitted": true,
       "status": "REVIEW",
-      "run_id": "45919046863",
-      "updated_at": "2026-11-27T00:50:19.217299+00:00",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.255105+00:00",
       "evidence": {
         "domain": "frozen-records.com",
         "route": "https://frozen-records.com/collections/all/products.json?limit=20&page=1",
-        "observed_at": "2026-11-27T00:50:19.217251+00:00",
+        "observed_at": "2026-11-28T00:48:15.255074+00:00",
         "requests": [],
         "listing_records": 0,
         "detail_checked": 0,
@@ -29613,6 +29829,12 @@
           "status": "REVIEW",
           "reason": "market_eligibility_unknown_review",
           "run_id": "45919046863"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ],
       "admission_evidence": {
@@ -30194,73 +30416,39 @@
     "goofinrecords_fi": {
       "fingerprint": "f7dd1ca38c301bdd86d0180a3d6a38f7668fac7a512f38ba6f041d6ef8921f54",
       "domain": "goofinrecords.fi",
-      "batch": 41,
-      "repair_attempts": 0,
-      "repair_modes": [],
+      "batch": 47,
+      "repair_attempts": 1,
+      "repair_modes": [
+        "ean"
+      ],
       "admitted": true,
-      "status": "APPROVED",
-      "run_id": "44997810130",
-      "updated_at": "2026-11-22T07:21:46.135774+00:00",
+      "status": "REVIEW",
+      "run_id": "46089824251",
+      "updated_at": "2026-11-28T00:48:15.297965+00:00",
       "evidence": {
         "domain": "goofinrecords.fi",
-        "route": "https://goofinrecords.fi/products.json?limit=20&page=1",
-        "observed_at": "2026-11-22T07:21:42.663944+00:00",
-        "requests": [
-          {
-            "url": "https://goofinrecords.fi/products.json?limit=20&page=1",
-            "sha256": "96a72920451052e9d5f682b8dcf9ef4957be3fa7590adce4a81d992a608a6f7b"
-          },
-          {
-            "url": "https://goofinrecords.fi/products/dave-lindholm-huoneet-6-14-lp?variant=68142364721437",
-            "sha256": "1669a877ca362b9d204f571c2e6c29580b5c7d5e997514eea61798165f453448"
-          },
-          {
-            "url": "https://goofinrecords.fi/products/griefton-sons-don-t-call-me-a-cowboy?variant=68067922051357",
-            "sha256": "58b197e13f2c0ee368b8a19434b19c3e7ac859f02fe21076605ad60f5705bc85"
-          },
-          {
-            "url": "https://goofinrecords.fi/products/the-flawless-ms-drake?variant=68062444224797",
-            "sha256": "75fe45e4d736dbd5034af0bf71337917e5f723d8cf93218d9c8f7065a55aada1"
-          }
-        ],
-        "listing_records": 3,
-        "detail_checked": 3,
-        "valid_eans": 2,
-        "details": [
-          {
-            "url": "https://goofinrecords.fi/products/dave-lindholm-huoneet-6-14-lp?variant=68142364721437",
-            "price": "20.00",
-            "currency": "EUR",
-            "ean": null,
-            "condition": "new"
-          },
-          {
-            "url": "https://goofinrecords.fi/products/griefton-sons-don-t-call-me-a-cowboy?variant=68067922051357",
-            "price": "27.00",
-            "currency": "EUR",
-            "ean": "06417138723918",
-            "condition": "new"
-          },
-          {
-            "url": "https://goofinrecords.fi/products/the-flawless-ms-drake?variant=68062444224797",
-            "price": "40.00",
-            "currency": "EUR",
-            "ean": "00709388054543",
-            "condition": "new"
-          }
-        ],
+        "route": "https://goofinrecords.fi/collections/all/products.json?limit=20&page=1",
+        "observed_at": "2026-11-28T00:48:15.297929+00:00",
+        "requests": [],
+        "listing_records": 0,
+        "detail_checked": 0,
+        "valid_eans": 0,
+        "details": [],
         "database_write": false,
-        "price_quality": {
-          "status": "pass",
-          "flags": [],
-          "records_checked": 3,
-          "unique_prices": 3,
-          "shipping_hits": 0,
-          "currencies": [
-            "EUR"
-          ]
+        "market_eligibility": {
+          "status": "UNKNOWN_REVIEW",
+          "target_markets": [
+            "NL"
+          ],
+          "origin_country": null,
+          "origin_source": null,
+          "shipping_countries": [],
+          "shipping_source": null,
+          "reason": "origin_country_missing_or_invalid"
         },
-        "status": "APPROVED"
+        "status": "REVIEW",
+        "reason": "market_eligibility_unknown_review",
+        "error_type": "CollectionBlocked"
       },
       "history": [
         {
@@ -30268,6 +30456,12 @@
           "status": "APPROVED",
           "reason": null,
           "run_id": "44997810130"
+        },
+        {
+          "batch": 47,
+          "status": "REVIEW",
+          "reason": "market_eligibility_unknown_review",
+          "run_id": "46089824251"
         }
       ],
       "admission_evidence": {
@@ -38653,6 +38847,6 @@
       ]
     }
   },
-  "updated_at": "2026-11-27T00:50:20.841101+00:00",
-  "last_run_id": "45919046863"
+  "updated_at": "2026-11-28T00:48:17.177658+00:00",
+  "last_run_id": "46089824251"
 }
