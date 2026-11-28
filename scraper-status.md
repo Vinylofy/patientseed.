@@ -5201,7 +5201,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | blitzkriegshop.co.uk | 47 | REVIEW | 2 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | bobsvinyl.nl | 44 | FROZEN | 3 | 0 | 0/0 | ACTIVE | FROZEN | market_eligibility_unknown_review |
 | boilerroomrecords.co.uk | 47 | REVIEW | 2 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
-| booboorecords.com | 1 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE | run 39155794450 |
+| booboorecords.com | 1 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE (run 46102591096) | run 39155794450 |
 | bordelloaparigi.com | 47 | REVIEW | 2 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | bororecords.com | 1 | APPROVED | 0 | 13 | 1/3 | ACTIVE | ACTIVE | run 39155794450 |
 | bruiserrecordsjax.com | 1 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 39155794450 |
