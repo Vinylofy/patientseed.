@@ -1,0 +1,125 @@
+{
+  "fingerprint": "5b45e5099d89bad20ec01fc8a4f353da290e3504613d1acd18b809cf74b5a831",
+  "domain": "southmetromusic.com",
+  "batch": 47,
+  "repair_attempts": 3,
+  "repair_modes": [
+    "ean"
+  ],
+  "admitted": true,
+  "status": "FROZEN",
+  "run_id": "46089824251",
+  "updated_at": "2026-11-28T00:48:15.337777+00:00",
+  "evidence": {
+    "domain": "southmetromusic.com",
+    "route": "https://southmetromusic.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-28T00:48:15.337747+00:00",
+    "requests": [],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "market_eligibility": {
+      "status": "UNKNOWN_REVIEW",
+      "target_markets": [
+        "NL"
+      ],
+      "origin_country": null,
+      "origin_source": null,
+      "shipping_countries": [],
+      "shipping_source": null,
+      "reason": "origin_country_missing_or_invalid"
+    },
+    "status": "REVIEW",
+    "reason": "market_eligibility_unknown_review",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 7,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "40064351096"
+    },
+    {
+      "batch": 45,
+      "status": "REVIEW",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "45731525847"
+    },
+    {
+      "batch": 46,
+      "status": "REVIEW",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "45919046863"
+    },
+    {
+      "batch": 47,
+      "status": "FROZEN",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "46089824251"
+    }
+  ],
+  "admission_evidence": {
+    "domain": "southmetromusic.com",
+    "route": "https://southmetromusic.com/products.json?limit=20&page=1",
+    "observed_at": "2026-10-24T04:58:09.063909+00:00",
+    "requests": [
+      {
+        "url": "https://southmetromusic.com/products.json?limit=20&page=1",
+        "sha256": "cb6ccb95f6b113447db589749ac2d957e2647297340a5fb8ee324351f648425f"
+      },
+      {
+        "url": "https://southmetromusic.com/products/pre-order-space-art-of-space-disco-1977-1978-lp?variant=48316381462754",
+        "sha256": "aa4967e62582fc2ecdb966ba680705e67c635d422e8a86866fa6e6917e4ab79b"
+      },
+      {
+        "url": "https://southmetromusic.com/products/the-simpsons-simpsons-main-title-theme-monorail-song-o-s-t-lp?variant=67666425250018",
+        "sha256": "7295de8d800e178b3426fcee2dc40c033ec93acfac949749d59bf7871d314550"
+      },
+      {
+        "url": "https://southmetromusic.com/products/pre-order-peacemaker-season-two-various-o-s-t-colv-peacemaker-season-two-various-o-s-t-colored-vinyl?variant=47145480257762",
+        "sha256": "8095b420d3fe4a03926f5375e465e17ef99c5c77fb01662ab29c4537d0dfcb5a"
+      }
+    ],
+    "listing_records": 10,
+    "detail_checked": 3,
+    "valid_eans": 3,
+    "details": [
+      {
+        "url": "https://southmetromusic.com/products/pre-order-space-art-of-space-disco-1977-1978-lp?variant=48316381462754",
+        "price": "37.99",
+        "currency": "USD",
+        "ean": "05056556169857",
+        "condition": "new"
+      },
+      {
+        "url": "https://southmetromusic.com/products/the-simpsons-simpsons-main-title-theme-monorail-song-o-s-t-lp?variant=67666425250018",
+        "price": "79.99",
+        "currency": "USD",
+        "ean": "00050087607364",
+        "condition": "new"
+      },
+      {
+        "url": "https://southmetromusic.com/products/pre-order-peacemaker-season-two-various-o-s-t-colv-peacemaker-season-two-various-o-s-t-colored-vinyl?variant=47145480257762",
+        "price": "33.99",
+        "currency": "USD",
+        "ean": "00810155841478",
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 10,
+      "unique_prices": 10,
+      "shipping_hits": 0,
+      "currencies": [
+        "USD"
+      ]
+    },
+    "status": "APPROVED"
+  }
+}
