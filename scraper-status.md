@@ -5668,7 +5668,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | waxmoonrecords.com | 38 | REVIEW | 1 | 18 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | waxmuseumrecords.com | 45 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | waxtraxrecords.com | 15 | APPROVED | 0 | 11 | 3/3 | ACTIVE | ACTIVE (run 46102591096) | run 40455623960 |
-| wearepopstore.com | 10 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE | run 40239702760 |
+| wearepopstore.com | 10 | APPROVED | 0 | 20 | 3/3 | ACTIVE | ACTIVE (run 46102591096) | run 40239702760 |
 | weirdfishrecords.com | 15 | REVIEW | 0 | 1 | 0/1 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | wickstreetvinyl.com | 15 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | witsendrecords.com | 15 | REVIEW | 0 | 4 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
