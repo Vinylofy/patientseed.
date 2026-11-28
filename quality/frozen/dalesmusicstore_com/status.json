@@ -1,0 +1,125 @@
+{
+  "fingerprint": "458b41c8fb110539c2c82e76421ae4cf5b11cb24a28ff0c0a40ebb6bdb6db58a",
+  "domain": "dalesmusicstore.com",
+  "batch": 47,
+  "repair_attempts": 3,
+  "repair_modes": [
+    "ean"
+  ],
+  "admitted": true,
+  "status": "FROZEN",
+  "run_id": "46089824251",
+  "updated_at": "2026-11-28T00:48:15.174921+00:00",
+  "evidence": {
+    "domain": "dalesmusicstore.com",
+    "route": "https://dalesmusicstore.com/collections/all/products.json?limit=20&page=1",
+    "observed_at": "2026-11-28T00:48:15.174886+00:00",
+    "requests": [],
+    "listing_records": 0,
+    "detail_checked": 0,
+    "valid_eans": 0,
+    "details": [],
+    "database_write": false,
+    "market_eligibility": {
+      "status": "UNKNOWN_REVIEW",
+      "target_markets": [
+        "NL"
+      ],
+      "origin_country": null,
+      "origin_source": null,
+      "shipping_countries": [],
+      "shipping_source": null,
+      "reason": "origin_country_missing_or_invalid"
+    },
+    "status": "REVIEW",
+    "reason": "market_eligibility_unknown_review",
+    "error_type": "CollectionBlocked"
+  },
+  "history": [
+    {
+      "batch": 39,
+      "status": "APPROVED",
+      "reason": null,
+      "run_id": "44696709935"
+    },
+    {
+      "batch": 45,
+      "status": "REVIEW",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "45731525847"
+    },
+    {
+      "batch": 46,
+      "status": "REVIEW",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "45919046863"
+    },
+    {
+      "batch": 47,
+      "status": "FROZEN",
+      "reason": "market_eligibility_unknown_review",
+      "run_id": "46089824251"
+    }
+  ],
+  "admission_evidence": {
+    "domain": "dalesmusicstore.com",
+    "route": "https://dalesmusicstore.com/products.json?limit=20&page=1",
+    "observed_at": "2026-11-20T07:41:40.356341+00:00",
+    "requests": [
+      {
+        "url": "https://dalesmusicstore.com/products.json?limit=20&page=1",
+        "sha256": "b8198774d98f93a2f1ae7040b38af067c558a82fd4226f52bd754f196dd8f359"
+      },
+      {
+        "url": "https://dalesmusicstore.com/products/linkin-park-living-things-limited-edition-red-smoke-vinyl?variant=55212008046938",
+        "sha256": "8b6c7597e3173172b7fabce4cabea27a3f0c2888af19b8c829b46d6451b5f3ad"
+      },
+      {
+        "url": "https://dalesmusicstore.com/products/olivia-rodrigo-guts-the-sky-is-green-translucent-vinyl?variant=55211842503002",
+        "sha256": "f93f8ec413f824b8ba346682488e6e16620823fb72ce12cac2d8ae4ba3361d5f"
+      },
+      {
+        "url": "https://dalesmusicstore.com/products/olivia-rodrigo-sour-ego-crush-yellow-vinyl?variant=55211840667994",
+        "sha256": "6473772ccb040db682caf82602f243a4cf36a55427ab17318eac24cf4971a685"
+      }
+    ],
+    "listing_records": 3,
+    "detail_checked": 3,
+    "valid_eans": 3,
+    "details": [
+      {
+        "url": "https://dalesmusicstore.com/products/linkin-park-living-things-limited-edition-red-smoke-vinyl?variant=55212008046938",
+        "price": "32.99",
+        "currency": "GBP",
+        "ean": "00093624815655",
+        "condition": "new"
+      },
+      {
+        "url": "https://dalesmusicstore.com/products/olivia-rodrigo-guts-the-sky-is-green-translucent-vinyl?variant=55211842503002",
+        "price": "29.99",
+        "currency": "GBP",
+        "ean": "00881061582045",
+        "condition": "new"
+      },
+      {
+        "url": "https://dalesmusicstore.com/products/olivia-rodrigo-sour-ego-crush-yellow-vinyl?variant=55211840667994",
+        "price": "29.99",
+        "currency": "GBP",
+        "ean": "00881061582038",
+        "condition": "new"
+      }
+    ],
+    "database_write": false,
+    "price_quality": {
+      "status": "pass",
+      "flags": [],
+      "records_checked": 3,
+      "unique_prices": 2,
+      "shipping_hits": 0,
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "status": "APPROVED"
+  }
+}
