@@ -5301,7 +5301,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | graveface.com | 41 | REVIEW | 0 | 15 | 0/3 | NOT_RUN | NOT_RUN | detail_ean_not_proven |
 | greatesthitsofficial.com | 24 | FROZEN | 3 | 0 | 0/0 | NOT_RUN | NOT_RUN | no_new_vinyl_records |
 | groovierecords.com | 41 | REVIEW | 0 | 20 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
-| gryphonswing.com | 14 | APPROVED | 1 | 9 | 3/3 | ACTIVE | ACTIVE | run 40272946607 |
+| gryphonswing.com | 14 | APPROVED | 1 | 9 | 3/3 | ACTIVE | ACTIVE (run 46102591096) | run 40272946607 |
 | happyvalleyshop.com | 41 | REVIEW | 0 | 14 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | harboursiderecords.com.au | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | hathillrecords.com.au | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
