@@ -5313,7 +5313,7 @@ Prijs en valuta zijn vergeleken met dezelfde productvariant; EANs zijn checksumg
 | highnotes.ca | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
 | highvoltagevinyl.com | 3 | APPROVED | 0 | 19 | 3/3 | ACTIVE | ACTIVE (run 46102591096) | run 39373494403 |
 | historianuestra.com | 42 | REVIEW | 0 | 0 | 0/0 | NOT_RUN | NOT_RUN | market_eligibility_unknown_review |
-| hivoltagerecords.com | 22 | APPROVED | 1 | 20 | 3/3 | ACTIVE | ACTIVE | run 41594566238 |
+| hivoltagerecords.com | 22 | APPROVED | 1 | 20 | 3/3 | ACTIVE | ACTIVE (run 46102591096) | run 41594566238 |
 | hollowbonerecords.com | 24 | FROZEN | 3 | 19 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | homerulerecords.com | 24 | FROZEN | 3 | 18 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
 | hybridrecordstx.com | 24 | FROZEN | 3 | 15 | 0/0 | NOT_RUN | NOT_RUN | detail_price_currency_not_proven_or_mismatch |
